@@ -1,0 +1,6811 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "schoolrooms": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/schoolrooms/n/,/c/en/schoolroom/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/schoolrooms/n",
+          "@type": "Node",
+          "label": "schoolrooms",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/schoolrooms"
+        },
+        "end": {
+          "@id": "/c/en/schoolroom",
+          "@type": "Node",
+          "label": "schoolroom",
+          "language": "en",
+          "term": "/c/en/schoolroom"
+        }
+      },
+      "language lab": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/language_lab/n/,/c/en/schoolroom/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/language_lab/n",
+          "@type": "Node",
+          "label": "language lab",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/language_lab"
+        },
+        "end": {
+          "@id": "/c/en/schoolroom",
+          "@type": "Node",
+          "label": "schoolroom",
+          "language": "en",
+          "term": "/c/en/schoolroom"
+        }
+      },
+      "classroom": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/schoolroom/n/,/c/en/classroom/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/schoolroom/n",
+          "@type": "Node",
+          "label": "schoolroom",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/schoolroom"
+        },
+        "end": {
+          "@id": "/c/en/classroom",
+          "@type": "Node",
+          "label": "classroom",
+          "language": "en",
+          "term": "/c/en/classroom"
+        }
+      },
+      "class": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/class/,/c/en/schoolroom/]",
+        "weight": 0.516,
+        "start": {
+          "@id": "/c/en/class",
+          "@type": "Node",
+          "label": "class",
+          "language": "en",
+          "term": "/c/en/class"
+        },
+        "end": {
+          "@id": "/c/en/schoolroom",
+          "@type": "Node",
+          "label": "schoolroom",
+          "language": "en",
+          "term": "/c/en/schoolroom"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "classroom": {
+        "@id": "/a/[/r/Synonym/,/c/en/schoolroom/n/wn/artifact/,/c/en/classroom/n/wn/artifact/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/schoolroom/n/wn/artifact",
+          "@type": "Node",
+          "label": "schoolroom",
+          "language": "en",
+          "sense_label": "n, artifact",
+          "term": "/c/en/schoolroom"
+        },
+        "end": {
+          "@id": "/c/en/classroom/n/wn/artifact",
+          "@type": "Node",
+          "label": "classroom",
+          "language": "en",
+          "sense_label": "n, artifact",
+          "term": "/c/en/classroom"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "schoolrooms": {
+        "@id": "/a/[/r/FormOf/,/c/en/schoolrooms/n/,/c/en/schoolroom/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/schoolrooms/n",
+          "@type": "Node",
+          "label": "schoolrooms",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/schoolrooms"
+        },
+        "end": {
+          "@id": "/c/en/schoolroom",
+          "@type": "Node",
+          "label": "schoolroom",
+          "language": "en",
+          "term": "/c/en/schoolroom"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "classroom": {
+      "data-frequency": "26146",
+      "data-relevance": "473",
+      "data-term": "classroom",
+      "data-encoded-term": "classroom",
+      "data-term-stats": [
+        "1",
+        "31.0",
+        "0.000",
+        "26146",
+        "cn5,ol,wn|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "schoolhouse": {
+      "data-frequency": "9015",
+      "data-relevance": "472",
+      "data-term": "schoolhouse",
+      "data-encoded-term": "schoolhouse",
+      "data-term-stats": [
+        "1",
+        "15.8",
+        "0.000",
+        "9015",
+        "cn5,ol,w2v,wn|vec2",
+        "1"
+      ]
+    },
+    "preschool": {
+      "data-frequency": "7669",
+      "data-relevance": "471",
+      "data-term": "preschool",
+      "data-encoded-term": "preschool",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "7669",
+        "ol,wiki|vec2",
+        "1"
+      ]
+    },
+    "room": {
+      "data-frequency": "218975",
+      "data-relevance": "470",
+      "data-term": "room",
+      "data-encoded-term": "room",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "218975",
+        "wiki,wn",
+        "1"
+      ]
+    },
+    "lecture hall": {
+      "data-frequency": "1401",
+      "data-relevance": "469",
+      "data-term": "lecture hall",
+      "data-encoded-term": "lecture%20hall",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "1401",
+        "cn5,wiki|vec2",
+        "1"
+      ]
+    },
+    "school": {
+      "data-frequency": "957567",
+      "data-relevance": "468",
+      "data-term": "school",
+      "data-encoded-term": "school",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "957567",
+        "cn5,wn|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "chalkboard": {
+      "data-frequency": "870",
+      "data-relevance": "467",
+      "data-term": "chalkboard",
+      "data-encoded-term": "chalkboard",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "870",
+        "cn5,wiki|vec2",
+        "1"
+      ]
+    },
+    "lesson": {
+      "data-frequency": "22793",
+      "data-relevance": "466",
+      "data-term": "lesson",
+      "data-encoded-term": "lesson",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "22793",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "classrooms": {
+      "data-frequency": "16550",
+      "data-relevance": "465",
+      "data-term": "classrooms",
+      "data-encoded-term": "classrooms",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "16550",
+        "vec2",
+        "1"
+      ]
+    },
+    "university": {
+      "data-frequency": "1497618",
+      "data-relevance": "464",
+      "data-term": "university",
+      "data-encoded-term": "university",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1497618",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "teacher": {
+      "data-frequency": "177906",
+      "data-relevance": "463",
+      "data-term": "teacher",
+      "data-encoded-term": "teacher",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "177906",
+        "cn5,wiki|vec2",
+        "1"
+      ]
+    },
+    "study hall": {
+      "data-frequency": "491",
+      "data-relevance": "462",
+      "data-term": "study hall",
+      "data-encoded-term": "study%20hall",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "491",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "wooden floors": {
+      "data-frequency": "11900",
+      "data-relevance": "461",
+      "data-term": "wooden floors",
+      "data-encoded-term": "wooden%20floors",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "11900",
+        "vec2",
+        "1"
+      ]
+    },
+    "schoolbook": {
+      "data-frequency": "229",
+      "data-relevance": "460",
+      "data-term": "schoolbook",
+      "data-encoded-term": "schoolbook",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "229",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "room schoolhouse": {
+      "data-frequency": "2873",
+      "data-relevance": "459",
+      "data-term": "room schoolhouse",
+      "data-encoded-term": "room%20schoolhouse",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "2873",
+        "vec2",
+        "1"
+      ]
+    },
+    "thatched": {
+      "data-frequency": "15139",
+      "data-relevance": "458",
+      "data-term": "thatched",
+      "data-encoded-term": "thatched",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "15139",
+        "vec2",
+        "1"
+      ]
+    },
+    "crèche": {
+      "data-frequency": "1689",
+      "data-relevance": "457",
+      "data-term": "crèche",
+      "data-encoded-term": "cr%C3%A8che",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1689",
+        "vec2",
+        "1"
+      ]
+    },
+    "windowless": {
+      "data-frequency": "670",
+      "data-relevance": "456",
+      "data-term": "windowless",
+      "data-encoded-term": "windowless",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "670",
+        "vec2",
+        "1"
+      ]
+    },
+    "playhouse": {
+      "data-frequency": "15335",
+      "data-relevance": "455",
+      "data-term": "playhouse",
+      "data-encoded-term": "playhouse",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "15335",
+        "vec2",
+        "1"
+      ]
+    },
+    "pew": {
+      "data-frequency": "5805",
+      "data-relevance": "454",
+      "data-term": "pew",
+      "data-encoded-term": "pew",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "5805",
+        "vec2",
+        "1"
+      ]
+    },
+    "pre schoolers": {
+      "data-frequency": "89853",
+      "data-relevance": "453",
+      "data-term": "pre schoolers",
+      "data-encoded-term": "pre%20schoolers",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "89853",
+        "vec2",
+        "1"
+      ]
+    },
+    "cowshed": {
+      "data-frequency": "358",
+      "data-relevance": "452",
+      "data-term": "cowshed",
+      "data-encoded-term": "cowshed",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "358",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "multipurpose room": {
+      "data-frequency": "1172",
+      "data-relevance": "451",
+      "data-term": "multipurpose room",
+      "data-encoded-term": "multipurpose%20room",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1172",
+        "vec2",
+        "1"
+      ]
+    },
+    "churchyard": {
+      "data-frequency": "13208",
+      "data-relevance": "450",
+      "data-term": "churchyard",
+      "data-encoded-term": "churchyard",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "13208",
+        "vec2",
+        "1"
+      ]
+    },
+    "hovel": {
+      "data-frequency": "323",
+      "data-relevance": "449",
+      "data-term": "hovel",
+      "data-encoded-term": "hovel",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "323",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "doorway": {
+      "data-frequency": "9183",
+      "data-relevance": "448",
+      "data-term": "doorway",
+      "data-encoded-term": "doorway",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "9183",
+        "vec2",
+        "1"
+      ]
+    },
+    "playgroup": {
+      "data-frequency": "460",
+      "data-relevance": "447",
+      "data-term": "playgroup",
+      "data-encoded-term": "playgroup",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "460",
+        "vec2",
+        "1"
+      ]
+    },
+    "easels": {
+      "data-frequency": "1195",
+      "data-relevance": "446",
+      "data-term": "easels",
+      "data-encoded-term": "easels",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1195",
+        "vec2",
+        "1"
+      ]
+    },
+    "toolshed": {
+      "data-frequency": "141",
+      "data-relevance": "445",
+      "data-term": "toolshed",
+      "data-encoded-term": "toolshed",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "141",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "dimly lit": {
+      "data-frequency": "425",
+      "data-relevance": "444",
+      "data-term": "dimly lit",
+      "data-encoded-term": "dimly%20lit",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "425",
+        "vec2",
+        "1"
+      ]
+    },
+    "hallway": {
+      "data-frequency": "4591",
+      "data-relevance": "443",
+      "data-term": "hallway",
+      "data-encoded-term": "hallway",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "4591",
+        "vec2",
+        "1"
+      ]
+    },
+    "brightly painted": {
+      "data-frequency": "8346",
+      "data-relevance": "442",
+      "data-term": "brightly painted",
+      "data-encoded-term": "brightly%20painted",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "8346",
+        "vec2",
+        "1"
+      ]
+    },
+    "hideaway": {
+      "data-frequency": "1773",
+      "data-relevance": "441",
+      "data-term": "hideaway",
+      "data-encoded-term": "hideaway",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1773",
+        "vec2",
+        "1"
+      ]
+    },
+    "hallways": {
+      "data-frequency": "1909",
+      "data-relevance": "440",
+      "data-term": "hallways",
+      "data-encoded-term": "hallways",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1909",
+        "vec2",
+        "1"
+      ]
+    },
+    "bookshelf": {
+      "data-frequency": "1996",
+      "data-relevance": "439",
+      "data-term": "bookshelf",
+      "data-encoded-term": "bookshelf",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1996",
+        "vec2",
+        "1"
+      ]
+    },
+    "musty": {
+      "data-frequency": "396",
+      "data-relevance": "438",
+      "data-term": "musty",
+      "data-encoded-term": "musty",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "396",
+        "vec2",
+        "1"
+      ]
+    },
+    "fifth graders": {
+      "data-frequency": "15731",
+      "data-relevance": "437",
+      "data-term": "fifth graders",
+      "data-encoded-term": "fifth%20graders",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "15731",
+        "vec2",
+        "1"
+      ]
+    },
+    "wooden": {
+      "data-frequency": "71756",
+      "data-relevance": "436",
+      "data-term": "wooden",
+      "data-encoded-term": "wooden",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "71756",
+        "vec2",
+        "1"
+      ]
+    },
+    "bookcase": {
+      "data-frequency": "606",
+      "data-relevance": "435",
+      "data-term": "bookcase",
+      "data-encoded-term": "bookcase",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "606",
+        "vec2",
+        "1"
+      ]
+    },
+    "dusty": {
+      "data-frequency": "10946",
+      "data-relevance": "434",
+      "data-term": "dusty",
+      "data-encoded-term": "dusty",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "10946",
+        "vec2",
+        "1"
+      ]
+    },
+    "storytime": {
+      "data-frequency": "365",
+      "data-relevance": "433",
+      "data-term": "storytime",
+      "data-encoded-term": "storytime",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "365",
+        "vec2",
+        "1"
+      ]
+    },
+    "blackboard": {
+      "data-frequency": "1609",
+      "data-relevance": "432",
+      "data-term": "blackboard",
+      "data-encoded-term": "blackboard",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "1609",
+        "cn5|vec2",
+        "1"
+      ]
+    },
+    "sunlit": {
+      "data-frequency": "696",
+      "data-relevance": "431",
+      "data-term": "sunlit",
+      "data-encoded-term": "sunlit",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "696",
+        "vec2",
+        "1"
+      ]
+    },
+    "desks": {
+      "data-frequency": "2368",
+      "data-relevance": "430",
+      "data-term": "desks",
+      "data-encoded-term": "desks",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2368",
+        "vec2",
+        "1"
+      ]
+    },
+    "orphanage": {
+      "data-frequency": "8827",
+      "data-relevance": "429",
+      "data-term": "orphanage",
+      "data-encoded-term": "orphanage",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "8827",
+        "vec2",
+        "1"
+      ]
+    },
+    "kitchen": {
+      "data-frequency": "46734",
+      "data-relevance": "428",
+      "data-term": "kitchen",
+      "data-encoded-term": "kitchen",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "46734",
+        "vec2",
+        "1"
+      ]
+    },
+    "grotto": {
+      "data-frequency": "4675",
+      "data-relevance": "427",
+      "data-term": "grotto",
+      "data-encoded-term": "grotto",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "4675",
+        "vec2",
+        "1"
+      ]
+    },
+    "cots": {
+      "data-frequency": "1171",
+      "data-relevance": "426",
+      "data-term": "cots",
+      "data-encoded-term": "cots",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1171",
+        "vec2",
+        "1"
+      ]
+    },
+    "pre kindergarten": {
+      "data-frequency": "2746",
+      "data-relevance": "425",
+      "data-term": "pre kindergarten",
+      "data-encoded-term": "pre%20kindergarten",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2746",
+        "vec2",
+        "1"
+      ]
+    },
+    "cramped": {
+      "data-frequency": "2735",
+      "data-relevance": "424",
+      "data-term": "cramped",
+      "data-encoded-term": "cramped",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "2735",
+        "vec2",
+        "1"
+      ]
+    },
+    "diorama": {
+      "data-frequency": "1399",
+      "data-relevance": "423",
+      "data-term": "diorama",
+      "data-encoded-term": "diorama",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1399",
+        "vec2",
+        "1"
+      ]
+    },
+    "scholastic": {
+      "data-frequency": "9157",
+      "data-relevance": "422",
+      "data-term": "scholastic",
+      "data-encoded-term": "scholastic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "9157",
+        "cn5",
+        "1"
+      ]
+    },
+    "jungle gym": {
+      "data-frequency": "199",
+      "data-relevance": "421",
+      "data-term": "jungle gym",
+      "data-encoded-term": "jungle%20gym",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "199",
+        "vec2",
+        "1"
+      ]
+    },
+    "homeroom": {
+      "data-frequency": "922",
+      "data-relevance": "420",
+      "data-term": "homeroom",
+      "data-encoded-term": "homeroom",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "922",
+        "wn|vec2",
+        "1"
+      ]
+    },
+    "schoolfellow": {
+      "data-frequency": "68",
+      "data-relevance": "419",
+      "data-term": "schoolfellow",
+      "data-encoded-term": "schoolfellow",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "68",
+        "cn5",
+        "1"
+      ]
+    },
+    "lyceum": {
+      "data-frequency": "6598",
+      "data-relevance": "418",
+      "data-term": "lyceum",
+      "data-encoded-term": "lyceum",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6598",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolteacher": {
+      "data-frequency": "5669",
+      "data-relevance": "417",
+      "data-term": "schoolteacher",
+      "data-encoded-term": "schoolteacher",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5669",
+        "cn5",
+        "1"
+      ]
+    },
+    "scholasticism": {
+      "data-frequency": "1956",
+      "data-relevance": "416",
+      "data-term": "scholasticism",
+      "data-encoded-term": "scholasticism",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1956",
+        "cn5",
+        "1"
+      ]
+    },
+    "portable classrooms": {
+      "data-frequency": "947",
+      "data-relevance": "415",
+      "data-term": "portable classrooms",
+      "data-encoded-term": "portable%20classrooms",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "947",
+        "vec2",
+        "1"
+      ]
+    },
+    "pedagogical": {
+      "data-frequency": "7050",
+      "data-relevance": "414",
+      "data-term": "pedagogical",
+      "data-encoded-term": "pedagogical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7050",
+        "cn5|vec2",
+        "1"
+      ]
+    },
+    "schoolboy": {
+      "data-frequency": "5599",
+      "data-relevance": "413",
+      "data-term": "schoolboy",
+      "data-encoded-term": "schoolboy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5599",
+        "cn5",
+        "1"
+      ]
+    },
+    "curriculum": {
+      "data-frequency": "43027",
+      "data-relevance": "412",
+      "data-term": "curriculum",
+      "data-encoded-term": "curriculum",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "43027",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolmate": {
+      "data-frequency": "1303",
+      "data-relevance": "411",
+      "data-term": "schoolmate",
+      "data-encoded-term": "schoolmate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1303",
+        "cn5",
+        "1"
+      ]
+    },
+    "stanford": {
+      "data-frequency": "65303",
+      "data-relevance": "410",
+      "data-term": "stanford",
+      "data-encoded-term": "stanford",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "65303",
+        "cn5",
+        "1"
+      ]
+    },
+    "lecture halls": {
+      "data-frequency": "18776",
+      "data-relevance": "409",
+      "data-term": "lecture halls",
+      "data-encoded-term": "lecture%20halls",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "18776",
+        "vec2",
+        "1"
+      ]
+    },
+    "neoplatonism": {
+      "data-frequency": "1311",
+      "data-relevance": "408",
+      "data-term": "neoplatonism",
+      "data-encoded-term": "neoplatonism",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1311",
+        "cn5",
+        "1"
+      ]
+    },
+    "gymnatorium": {
+      "data-frequency": "-1",
+      "data-relevance": "407",
+      "data-term": "gymnatorium",
+      "data-encoded-term": "gymnatorium",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gym": {
+      "data-frequency": "22612",
+      "data-relevance": "406",
+      "data-term": "gym",
+      "data-encoded-term": "gym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "22612",
+        "wiki",
+        "1"
+      ]
+    },
+    "schoolwise": {
+      "data-frequency": "-1",
+      "data-relevance": "405",
+      "data-term": "schoolwise",
+      "data-encoded-term": "schoolwise",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolgoer": {
+      "data-frequency": "-1",
+      "data-relevance": "404",
+      "data-term": "schoolgoer",
+      "data-encoded-term": "schoolgoer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "subschool": {
+      "data-frequency": "-1",
+      "data-relevance": "403",
+      "data-term": "subschool",
+      "data-encoded-term": "subschool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "deschool": {
+      "data-frequency": "-1",
+      "data-relevance": "402",
+      "data-term": "deschool",
+      "data-encoded-term": "deschool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "collegiate": {
+      "data-frequency": "45245",
+      "data-relevance": "401",
+      "data-term": "collegiate",
+      "data-encoded-term": "collegiate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "45245",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolish": {
+      "data-frequency": "-1",
+      "data-relevance": "400",
+      "data-term": "schoolish",
+      "data-encoded-term": "schoolish",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "conservatory": {
+      "data-frequency": "21603",
+      "data-relevance": "399",
+      "data-term": "conservatory",
+      "data-encoded-term": "conservatory",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "21603",
+        "cn5",
+        "1"
+      ]
+    },
+    "sorbonne": {
+      "data-frequency": "7541",
+      "data-relevance": "398",
+      "data-term": "sorbonne",
+      "data-encoded-term": "sorbonne",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7541",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolless": {
+      "data-frequency": "-1",
+      "data-relevance": "397",
+      "data-term": "schoolless",
+      "data-encoded-term": "schoolless",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bright eyed": {
+      "data-frequency": "12755",
+      "data-relevance": "396",
+      "data-term": "bright eyed",
+      "data-encoded-term": "bright%20eyed",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "12755",
+        "vec2",
+        "1"
+      ]
+    },
+    "minischool": {
+      "data-frequency": "-1",
+      "data-relevance": "395",
+      "data-term": "minischool",
+      "data-encoded-term": "minischool",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "college": {
+      "data-frequency": "718889",
+      "data-relevance": "394",
+      "data-term": "college",
+      "data-encoded-term": "college",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "718889",
+        "cn5",
+        "1"
+      ]
+    },
+    "schooler": {
+      "data-frequency": "969",
+      "data-relevance": "393",
+      "data-term": "schooler",
+      "data-encoded-term": "schooler",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "969",
+        "cn5",
+        "1"
+      ]
+    },
+    "preceptor": {
+      "data-frequency": "1008",
+      "data-relevance": "392",
+      "data-term": "preceptor",
+      "data-encoded-term": "preceptor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1008",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolwide": {
+      "data-frequency": "298",
+      "data-relevance": "391",
+      "data-term": "schoolwide",
+      "data-encoded-term": "schoolwide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "298",
+        "cn5",
+        "1"
+      ]
+    },
+    "deconstructivism": {
+      "data-frequency": "127",
+      "data-relevance": "390",
+      "data-term": "deconstructivism",
+      "data-encoded-term": "deconstructivism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "127",
+        "cn5",
+        "1"
+      ]
+    },
+    "laboratories": {
+      "data-frequency": "27080",
+      "data-relevance": "389",
+      "data-term": "laboratories",
+      "data-encoded-term": "laboratories",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27080",
+        "wiki",
+        "1"
+      ]
+    },
+    "elizabethan": {
+      "data-frequency": "7082",
+      "data-relevance": "388",
+      "data-term": "elizabethan",
+      "data-encoded-term": "elizabethan",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "7082",
+        "vec2",
+        "1"
+      ]
+    },
+    "indoor plumbing": {
+      "data-frequency": "682",
+      "data-relevance": "387",
+      "data-term": "indoor plumbing",
+      "data-encoded-term": "indoor%20plumbing",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "682",
+        "vec2",
+        "1"
+      ]
+    },
+    "outhouse": {
+      "data-frequency": "1275",
+      "data-relevance": "386",
+      "data-term": "outhouse",
+      "data-encoded-term": "outhouse",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1275",
+        "vec2",
+        "1"
+      ]
+    },
+    "ucla": {
+      "data-frequency": "23307",
+      "data-relevance": "385",
+      "data-term": "ucla",
+      "data-encoded-term": "ucla",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "23307",
+        "cn5",
+        "1"
+      ]
+    },
+    "extramural": {
+      "data-frequency": "646",
+      "data-relevance": "384",
+      "data-term": "extramural",
+      "data-encoded-term": "extramural",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "646",
+        "cn5",
+        "1"
+      ]
+    },
+    "academical": {
+      "data-frequency": "3405",
+      "data-relevance": "383",
+      "data-term": "academical",
+      "data-encoded-term": "academical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3405",
+        "cn5",
+        "1"
+      ]
+    },
+    "primary school": {
+      "data-frequency": "41807",
+      "data-relevance": "382",
+      "data-term": "primary school",
+      "data-encoded-term": "primary%20school",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "41807",
+        "cn5|vec2",
+        "1"
+      ]
+    },
+    "academy": {
+      "data-frequency": "385740",
+      "data-relevance": "381",
+      "data-term": "academy",
+      "data-encoded-term": "academy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "385740",
+        "cn5",
+        "1"
+      ]
+    },
+    "afterschool": {
+      "data-frequency": "1015",
+      "data-relevance": "380",
+      "data-term": "afterschool",
+      "data-encoded-term": "afterschool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1015",
+        "cn5",
+        "1"
+      ]
+    },
+    "antischool": {
+      "data-frequency": "-1",
+      "data-relevance": "379",
+      "data-term": "antischool",
+      "data-encoded-term": "antischool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "interschool": {
+      "data-frequency": "255",
+      "data-relevance": "378",
+      "data-term": "interschool",
+      "data-encoded-term": "interschool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "255",
+        "cn5",
+        "1"
+      ]
+    },
+    "unschooled": {
+      "data-frequency": "135",
+      "data-relevance": "377",
+      "data-term": "unschooled",
+      "data-encoded-term": "unschooled",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "135",
+        "cn5",
+        "1"
+      ]
+    },
+    "academia": {
+      "data-frequency": "29347",
+      "data-relevance": "376",
+      "data-term": "academia",
+      "data-encoded-term": "academia",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29347",
+        "cn5",
+        "1"
+      ]
+    },
+    "academe": {
+      "data-frequency": "771",
+      "data-relevance": "375",
+      "data-term": "academe",
+      "data-encoded-term": "academe",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "771",
+        "cn5",
+        "1"
+      ]
+    },
+    "academician": {
+      "data-frequency": "5148",
+      "data-relevance": "374",
+      "data-term": "academician",
+      "data-encoded-term": "academician",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5148",
+        "cn5",
+        "1"
+      ]
+    },
+    "homework": {
+      "data-frequency": "3883",
+      "data-relevance": "373",
+      "data-term": "homework",
+      "data-encoded-term": "homework",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3883",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoollike": {
+      "data-frequency": "-1",
+      "data-relevance": "372",
+      "data-term": "schoollike",
+      "data-encoded-term": "schoollike",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "guardhouse": {
+      "data-frequency": "700",
+      "data-relevance": "371",
+      "data-term": "guardhouse",
+      "data-encoded-term": "guardhouse",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "700",
+        "w2v",
+        "1"
+      ]
+    },
+    "schooliosis": {
+      "data-frequency": "-1",
+      "data-relevance": "370",
+      "data-term": "schooliosis",
+      "data-encoded-term": "schooliosis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "intramural": {
+      "data-frequency": "2104",
+      "data-relevance": "369",
+      "data-term": "intramural",
+      "data-encoded-term": "intramural",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2104",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolery": {
+      "data-frequency": "-1",
+      "data-relevance": "368",
+      "data-term": "schoolery",
+      "data-encoded-term": "schoolery",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "collegian": {
+      "data-frequency": "1738",
+      "data-relevance": "367",
+      "data-term": "collegian",
+      "data-encoded-term": "collegian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1738",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolgoing": {
+      "data-frequency": "-1",
+      "data-relevance": "366",
+      "data-term": "schoolgoing",
+      "data-encoded-term": "schoolgoing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "classmate": {
+      "data-frequency": "9170",
+      "data-relevance": "365",
+      "data-term": "classmate",
+      "data-encoded-term": "classmate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9170",
+        "cn5",
+        "1"
+      ]
+    },
+    "upperclassman": {
+      "data-frequency": "318",
+      "data-relevance": "364",
+      "data-term": "upperclassman",
+      "data-encoded-term": "upperclassman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "318",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolie": {
+      "data-frequency": "-1",
+      "data-relevance": "363",
+      "data-term": "schoolie",
+      "data-encoded-term": "schoolie",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolteaching": {
+      "data-frequency": "-1",
+      "data-relevance": "362",
+      "data-term": "schoolteaching",
+      "data-encoded-term": "schoolteaching",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "biology": {
+      "data-frequency": "108474",
+      "data-relevance": "361",
+      "data-term": "biology",
+      "data-encoded-term": "biology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "108474",
+        "wiki",
+        "1"
+      ]
+    },
+    "varsity": {
+      "data-frequency": "20254",
+      "data-relevance": "360",
+      "data-term": "varsity",
+      "data-encoded-term": "varsity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20254",
+        "cn5",
+        "1"
+      ]
+    },
+    "professor": {
+      "data-frequency": "285231",
+      "data-relevance": "359",
+      "data-term": "professor",
+      "data-encoded-term": "professor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "285231",
+        "cn5",
+        "1"
+      ]
+    },
+    "cyberschool": {
+      "data-frequency": "-1",
+      "data-relevance": "358",
+      "data-term": "cyberschool",
+      "data-encoded-term": "cyberschool",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "paraeducator": {
+      "data-frequency": "-1",
+      "data-relevance": "357",
+      "data-term": "paraeducator",
+      "data-encoded-term": "paraeducator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bakehouse": {
+      "data-frequency": "456",
+      "data-relevance": "356",
+      "data-term": "bakehouse",
+      "data-encoded-term": "bakehouse",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "456",
+        "w2v",
+        "1"
+      ]
+    },
+    "lecturer": {
+      "data-frequency": "48567",
+      "data-relevance": "355",
+      "data-term": "lecturer",
+      "data-encoded-term": "lecturer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48567",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolhouses": {
+      "data-frequency": "745",
+      "data-relevance": "354",
+      "data-term": "schoolhouses",
+      "data-encoded-term": "schoolhouses",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "745",
+        "w2v",
+        "1"
+      ]
+    },
+    "learning space": {
+      "data-frequency": "183",
+      "data-relevance": "353",
+      "data-term": "learning space",
+      "data-encoded-term": "learning%20space",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "183",
+        "wiki",
+        "1"
+      ]
+    },
+    "instructor": {
+      "data-frequency": "32548",
+      "data-relevance": "352",
+      "data-term": "instructor",
+      "data-encoded-term": "instructor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32548",
+        "cn5",
+        "1"
+      ]
+    },
+    "chimneypiece": {
+      "data-frequency": "164",
+      "data-relevance": "351",
+      "data-term": "chimneypiece",
+      "data-encoded-term": "chimneypiece",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "164",
+        "w2v",
+        "1"
+      ]
+    },
+    "chemistry": {
+      "data-frequency": "83539",
+      "data-relevance": "350",
+      "data-term": "chemistry",
+      "data-encoded-term": "chemistry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "83539",
+        "wiki",
+        "1"
+      ]
+    },
+    "schooly": {
+      "data-frequency": "43",
+      "data-relevance": "349",
+      "data-term": "schooly",
+      "data-encoded-term": "schooly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "mantelpiece": {
+      "data-frequency": "374",
+      "data-relevance": "348",
+      "data-term": "mantelpiece",
+      "data-encoded-term": "mantelpiece",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "374",
+        "w2v",
+        "1"
+      ]
+    },
+    "student": {
+      "data-frequency": "233363",
+      "data-relevance": "347",
+      "data-term": "student",
+      "data-encoded-term": "student",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "233363",
+        "cn5",
+        "1"
+      ]
+    },
+    "commodious": {
+      "data-frequency": "545",
+      "data-relevance": "346",
+      "data-term": "commodious",
+      "data-encoded-term": "commodious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "545",
+        "w2v",
+        "1"
+      ]
+    },
+    "two-room": {
+      "data-frequency": "1376",
+      "data-relevance": "345",
+      "data-term": "two-room",
+      "data-encoded-term": "two-room",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1376",
+        "w2v",
+        "1"
+      ]
+    },
+    "belltower": {
+      "data-frequency": "906",
+      "data-relevance": "344",
+      "data-term": "belltower",
+      "data-encoded-term": "belltower",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "906",
+        "w2v",
+        "1"
+      ]
+    },
+    "physics": {
+      "data-frequency": "76488",
+      "data-relevance": "343",
+      "data-term": "physics",
+      "data-encoded-term": "physics",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "76488",
+        "wiki",
+        "1"
+      ]
+    },
+    "shoal": {
+      "data-frequency": "5911",
+      "data-relevance": "342",
+      "data-term": "shoal",
+      "data-encoded-term": "shoal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5911",
+        "cn5",
+        "1"
+      ]
+    },
+    "multiversity": {
+      "data-frequency": "300",
+      "data-relevance": "341",
+      "data-term": "multiversity",
+      "data-encoded-term": "multiversity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "300",
+        "cn5",
+        "1"
+      ]
+    },
+    "superschool": {
+      "data-frequency": "-1",
+      "data-relevance": "340",
+      "data-term": "superschool",
+      "data-encoded-term": "superschool",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "teach": {
+      "data-frequency": "58505",
+      "data-relevance": "339",
+      "data-term": "teach",
+      "data-encoded-term": "teach",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "58505",
+        "cn5",
+        "1"
+      ]
+    },
+    "sophomore": {
+      "data-frequency": "23952",
+      "data-relevance": "338",
+      "data-term": "sophomore",
+      "data-encoded-term": "sophomore",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23952",
+        "cn5",
+        "1"
+      ]
+    },
+    "alumna": {
+      "data-frequency": "3430",
+      "data-relevance": "337",
+      "data-term": "alumna",
+      "data-encoded-term": "alumna",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3430",
+        "cn5",
+        "1"
+      ]
+    },
+    "academic": {
+      "data-frequency": "236267",
+      "data-relevance": "336",
+      "data-term": "academic",
+      "data-encoded-term": "academic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "236267",
+        "cn5",
+        "1"
+      ]
+    },
+    "foundationer": {
+      "data-frequency": "-1",
+      "data-relevance": "335",
+      "data-term": "foundationer",
+      "data-encoded-term": "foundationer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "undergraduate": {
+      "data-frequency": "44334",
+      "data-relevance": "334",
+      "data-term": "undergraduate",
+      "data-encoded-term": "undergraduate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44334",
+        "cn5",
+        "1"
+      ]
+    },
+    "extemp": {
+      "data-frequency": "-1",
+      "data-relevance": "333",
+      "data-term": "extemp",
+      "data-encoded-term": "extemp",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "academian": {
+      "data-frequency": "45",
+      "data-relevance": "332",
+      "data-term": "academian",
+      "data-encoded-term": "academian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolkid": {
+      "data-frequency": "-1",
+      "data-relevance": "331",
+      "data-term": "schoolkid",
+      "data-encoded-term": "schoolkid",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dorm": {
+      "data-frequency": "3263",
+      "data-relevance": "330",
+      "data-term": "dorm",
+      "data-encoded-term": "dorm",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3263",
+        "cn5",
+        "1"
+      ]
+    },
+    "four-room": {
+      "data-frequency": "87240",
+      "data-relevance": "329",
+      "data-term": "four-room",
+      "data-encoded-term": "four-room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "87240",
+        "w2v",
+        "1"
+      ]
+    },
+    "tutor": {
+      "data-frequency": "17616",
+      "data-relevance": "328",
+      "data-term": "tutor",
+      "data-encoded-term": "tutor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17616",
+        "cn5",
+        "1"
+      ]
+    },
+    "crammer": {
+      "data-frequency": "148",
+      "data-relevance": "327",
+      "data-term": "crammer",
+      "data-encoded-term": "crammer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "148",
+        "cn5",
+        "1"
+      ]
+    },
+    "educational": {
+      "data-frequency": "172245",
+      "data-relevance": "326",
+      "data-term": "educational",
+      "data-encoded-term": "educational",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "172245",
+        "cn5",
+        "1"
+      ]
+    },
+    "elementary school": {
+      "data-frequency": "42693",
+      "data-relevance": "325",
+      "data-term": "elementary school",
+      "data-encoded-term": "elementary%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42693",
+        "cn5|vec2",
+        "1"
+      ]
+    },
+    "mit": {
+      "data-frequency": "59287",
+      "data-relevance": "324",
+      "data-term": "mit",
+      "data-encoded-term": "mit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59287",
+        "cn5",
+        "1"
+      ]
+    },
+    "drafty": {
+      "data-frequency": "302",
+      "data-relevance": "323",
+      "data-term": "drafty",
+      "data-encoded-term": "drafty",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "302",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "studenty": {
+      "data-frequency": "-1",
+      "data-relevance": "322",
+      "data-term": "studenty",
+      "data-encoded-term": "studenty",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "aristotle": {
+      "data-frequency": "9105",
+      "data-relevance": "321",
+      "data-term": "aristotle",
+      "data-encoded-term": "aristotle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9105",
+        "cn5",
+        "1"
+      ]
+    },
+    "eraser": {
+      "data-frequency": "1204",
+      "data-relevance": "320",
+      "data-term": "eraser",
+      "data-encoded-term": "eraser",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1204",
+        "cn5",
+        "1"
+      ]
+    },
+    "demountable": {
+      "data-frequency": "260",
+      "data-relevance": "319",
+      "data-term": "demountable",
+      "data-encoded-term": "demountable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "260",
+        "w2v",
+        "1"
+      ]
+    },
+    "tudor-style": {
+      "data-frequency": "7587",
+      "data-relevance": "318",
+      "data-term": "tudor-style",
+      "data-encoded-term": "tudor-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7587",
+        "w2v",
+        "1"
+      ]
+    },
+    "one-room": {
+      "data-frequency": "6000",
+      "data-relevance": "317",
+      "data-term": "one-room",
+      "data-encoded-term": "one-room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6000",
+        "w2v",
+        "1"
+      ]
+    },
+    "headmaster": {
+      "data-frequency": "10921",
+      "data-relevance": "316",
+      "data-term": "headmaster",
+      "data-encoded-term": "headmaster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10921",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "gymnasium": {
+      "data-frequency": "33366",
+      "data-relevance": "315",
+      "data-term": "gymnasium",
+      "data-encoded-term": "gymnasium",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33366",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "printing-press": {
+      "data-frequency": "34552",
+      "data-relevance": "314",
+      "data-term": "printing-press",
+      "data-encoded-term": "printing-press",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34552",
+        "w2v",
+        "1"
+      ]
+    },
+    "seminary": {
+      "data-frequency": "35202",
+      "data-relevance": "313",
+      "data-term": "seminary",
+      "data-encoded-term": "seminary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35202",
+        "cn5",
+        "1"
+      ]
+    },
+    "whiteboard": {
+      "data-frequency": "508",
+      "data-relevance": "312",
+      "data-term": "whiteboard",
+      "data-encoded-term": "whiteboard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "508",
+        "wiki",
+        "1"
+      ]
+    },
+    "school-house": {
+      "data-frequency": "307517",
+      "data-relevance": "311",
+      "data-term": "school-house",
+      "data-encoded-term": "school-house",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "307517",
+        "w2v",
+        "1"
+      ]
+    },
+    "classical-style": {
+      "data-frequency": "41945",
+      "data-relevance": "310",
+      "data-term": "classical-style",
+      "data-encoded-term": "classical-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41945",
+        "w2v",
+        "1"
+      ]
+    },
+    "catechism": {
+      "data-frequency": "4149",
+      "data-relevance": "309",
+      "data-term": "catechism",
+      "data-encoded-term": "catechism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4149",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "playroom": {
+      "data-frequency": "498",
+      "data-relevance": "308",
+      "data-term": "playroom",
+      "data-encoded-term": "playroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "498",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "coeducation": {
+      "data-frequency": "442",
+      "data-relevance": "307",
+      "data-term": "coeducation",
+      "data-encoded-term": "coeducation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "442",
+        "cn5",
+        "1"
+      ]
+    },
+    "bombed-out": {
+      "data-frequency": "60075",
+      "data-relevance": "306",
+      "data-term": "bombed-out",
+      "data-encoded-term": "bombed-out",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60075",
+        "w2v",
+        "1"
+      ]
+    },
+    "six-room": {
+      "data-frequency": "58679",
+      "data-relevance": "305",
+      "data-term": "six-room",
+      "data-encoded-term": "six-room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "58679",
+        "w2v",
+        "1"
+      ]
+    },
+    "schoolyard": {
+      "data-frequency": "1089",
+      "data-relevance": "304",
+      "data-term": "schoolyard",
+      "data-encoded-term": "schoolyard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1089",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "3-story": {
+      "data-frequency": "330457",
+      "data-relevance": "303",
+      "data-term": "3-story",
+      "data-encoded-term": "3-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "330457",
+        "w2v",
+        "1"
+      ]
+    },
+    "gothic-style": {
+      "data-frequency": "6567",
+      "data-relevance": "302",
+      "data-term": "gothic-style",
+      "data-encoded-term": "gothic-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6567",
+        "w2v",
+        "1"
+      ]
+    },
+    "educator": {
+      "data-frequency": "40200",
+      "data-relevance": "301",
+      "data-term": "educator",
+      "data-encoded-term": "educator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40200",
+        "cn5",
+        "1"
+      ]
+    },
+    "pupils": {
+      "data-frequency": "28754",
+      "data-relevance": "300",
+      "data-term": "pupils",
+      "data-encoded-term": "pupils",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28754",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "elementary": {
+      "data-frequency": "82798",
+      "data-relevance": "299",
+      "data-term": "elementary",
+      "data-encoded-term": "elementary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82798",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "scholar": {
+      "data-frequency": "541459",
+      "data-relevance": "298",
+      "data-term": "scholar",
+      "data-encoded-term": "scholar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "541459",
+        "cn5",
+        "1"
+      ]
+    },
+    "convent": {
+      "data-frequency": "24711",
+      "data-relevance": "297",
+      "data-term": "convent",
+      "data-encoded-term": "convent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24711",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "schoolgirl": {
+      "data-frequency": "3263",
+      "data-relevance": "296",
+      "data-term": "schoolgirl",
+      "data-encoded-term": "schoolgirl",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3263",
+        "cn5",
+        "1"
+      ]
+    },
+    "lamp-post": {
+      "data-frequency": "6412",
+      "data-relevance": "295",
+      "data-term": "lamp-post",
+      "data-encoded-term": "lamp-post",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6412",
+        "w2v",
+        "1"
+      ]
+    },
+    "well-furnished": {
+      "data-frequency": "8513",
+      "data-relevance": "294",
+      "data-term": "well-furnished",
+      "data-encoded-term": "well-furnished",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8513",
+        "w2v",
+        "1"
+      ]
+    },
+    "courtyard": {
+      "data-frequency": "21142",
+      "data-relevance": "293",
+      "data-term": "courtyard",
+      "data-encoded-term": "courtyard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21142",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "schoolchild": {
+      "data-frequency": "113",
+      "data-relevance": "292",
+      "data-term": "schoolchild",
+      "data-encoded-term": "schoolchild",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "113",
+        "cn5",
+        "1"
+      ]
+    },
+    "roman-style": {
+      "data-frequency": "671",
+      "data-relevance": "291",
+      "data-term": "roman-style",
+      "data-encoded-term": "roman-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "671",
+        "w2v",
+        "1"
+      ]
+    },
+    "white-washed": {
+      "data-frequency": "323",
+      "data-relevance": "290",
+      "data-term": "white-washed",
+      "data-encoded-term": "white-washed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "323",
+        "w2v",
+        "1"
+      ]
+    },
+    "meeting-house": {
+      "data-frequency": "97756",
+      "data-relevance": "289",
+      "data-term": "meeting-house",
+      "data-encoded-term": "meeting-house",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97756",
+        "w2v",
+        "1"
+      ]
+    },
+    "headmistress": {
+      "data-frequency": "2473",
+      "data-relevance": "288",
+      "data-term": "headmistress",
+      "data-encoded-term": "headmistress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2473",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "three-storeyed": {
+      "data-frequency": "16687",
+      "data-relevance": "287",
+      "data-term": "three-storeyed",
+      "data-encoded-term": "three-storeyed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16687",
+        "w2v",
+        "1"
+      ]
+    },
+    "chapel": {
+      "data-frequency": "93593",
+      "data-relevance": "286",
+      "data-term": "chapel",
+      "data-encoded-term": "chapel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "93593",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "kindergarten": {
+      "data-frequency": "19650",
+      "data-relevance": "285",
+      "data-term": "kindergarten",
+      "data-encoded-term": "kindergarten",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19650",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "neo-classic": {
+      "data-frequency": "4662",
+      "data-relevance": "284",
+      "data-term": "neo-classic",
+      "data-encoded-term": "neo-classic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4662",
+        "w2v",
+        "1"
+      ]
+    },
+    "daybed": {
+      "data-frequency": "62",
+      "data-relevance": "283",
+      "data-term": "daybed",
+      "data-encoded-term": "daybed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62",
+        "w2v",
+        "1"
+      ]
+    },
+    "10-by-12-foot": {
+      "data-frequency": "65619",
+      "data-relevance": "282",
+      "data-term": "10-by-12-foot",
+      "data-encoded-term": "10-by-12-foot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "65619",
+        "w2v",
+        "1"
+      ]
+    },
+    "renaissance-era": {
+      "data-frequency": "11441",
+      "data-relevance": "281",
+      "data-term": "renaissance-era",
+      "data-encoded-term": "renaissance-era",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11441",
+        "w2v",
+        "1"
+      ]
+    },
+    "auditorium": {
+      "data-frequency": "25330",
+      "data-relevance": "280",
+      "data-term": "auditorium",
+      "data-encoded-term": "auditorium",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25330",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "home room": {
+      "data-frequency": "94899",
+      "data-relevance": "279",
+      "data-term": "home room",
+      "data-encoded-term": "home%20room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "94899",
+        "wn",
+        "1"
+      ]
+    },
+    "lecture room": {
+      "data-frequency": "10689",
+      "data-relevance": "278",
+      "data-term": "lecture room",
+      "data-encoded-term": "lecture%20room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10689",
+        "wn",
+        "1"
+      ]
+    },
+    "boardinghouse": {
+      "data-frequency": "361",
+      "data-relevance": "277",
+      "data-term": "boardinghouse",
+      "data-encoded-term": "boardinghouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "361",
+        "w2v",
+        "1"
+      ]
+    },
+    "doorframe": {
+      "data-frequency": "80",
+      "data-relevance": "276",
+      "data-term": "doorframe",
+      "data-encoded-term": "doorframe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80",
+        "w2v",
+        "1"
+      ]
+    },
+    "white-painted": {
+      "data-frequency": "655",
+      "data-relevance": "275",
+      "data-term": "white-painted",
+      "data-encoded-term": "white-painted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "655",
+        "w2v",
+        "1"
+      ]
+    },
+    "red-brick": {
+      "data-frequency": "21323",
+      "data-relevance": "274",
+      "data-term": "red-brick",
+      "data-encoded-term": "red-brick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21323",
+        "w2v",
+        "1"
+      ]
+    },
+    "two-storied": {
+      "data-frequency": "665",
+      "data-relevance": "273",
+      "data-term": "two-storied",
+      "data-encoded-term": "two-storied",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "665",
+        "w2v",
+        "1"
+      ]
+    },
+    "creche": {
+      "data-frequency": "1020",
+      "data-relevance": "272",
+      "data-term": "creche",
+      "data-encoded-term": "creche",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1020",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "broken-down": {
+      "data-frequency": "56131",
+      "data-relevance": "271",
+      "data-term": "broken-down",
+      "data-encoded-term": "broken-down",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56131",
+        "w2v",
+        "1"
+      ]
+    },
+    "single-room": {
+      "data-frequency": "2106",
+      "data-relevance": "270",
+      "data-term": "single-room",
+      "data-encoded-term": "single-room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2106",
+        "w2v",
+        "1"
+      ]
+    },
+    "pews": {
+      "data-frequency": "2802",
+      "data-relevance": "269",
+      "data-term": "pews",
+      "data-encoded-term": "pews",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2802",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "colonial-style": {
+      "data-frequency": "24892",
+      "data-relevance": "268",
+      "data-term": "colonial-style",
+      "data-encoded-term": "colonial-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24892",
+        "w2v",
+        "1"
+      ]
+    },
+    "classroom chair": {
+      "data-frequency": "-1",
+      "data-relevance": "267",
+      "data-term": "classroom chair",
+      "data-encoded-term": "classroom%20chair",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sunroom": {
+      "data-frequency": "167",
+      "data-relevance": "266",
+      "data-term": "sunroom",
+      "data-encoded-term": "sunroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "167",
+        "w2v",
+        "1"
+      ]
+    },
+    "6-story": {
+      "data-frequency": "286132",
+      "data-relevance": "265",
+      "data-term": "6-story",
+      "data-encoded-term": "6-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "286132",
+        "w2v",
+        "1"
+      ]
+    },
+    "glass-fronted": {
+      "data-frequency": "177",
+      "data-relevance": "264",
+      "data-term": "glass-fronted",
+      "data-encoded-term": "glass-fronted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "177",
+        "w2v",
+        "1"
+      ]
+    },
+    "multi-storied": {
+      "data-frequency": "610",
+      "data-relevance": "263",
+      "data-term": "multi-storied",
+      "data-encoded-term": "multi-storied",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "610",
+        "w2v",
+        "1"
+      ]
+    },
+    "victorian-era": {
+      "data-frequency": "12094",
+      "data-relevance": "262",
+      "data-term": "victorian-era",
+      "data-encoded-term": "victorian-era",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12094",
+        "w2v",
+        "1"
+      ]
+    },
+    "wood-fired": {
+      "data-frequency": "51123",
+      "data-relevance": "261",
+      "data-term": "wood-fired",
+      "data-encoded-term": "wood-fired",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51123",
+        "w2v",
+        "1"
+      ]
+    },
+    "flowerbed": {
+      "data-frequency": "124",
+      "data-relevance": "260",
+      "data-term": "flowerbed",
+      "data-encoded-term": "flowerbed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "124",
+        "w2v",
+        "1"
+      ]
+    },
+    "doocot": {
+      "data-frequency": "236",
+      "data-relevance": "259",
+      "data-term": "doocot",
+      "data-encoded-term": "doocot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "236",
+        "w2v",
+        "1"
+      ]
+    },
+    "1960s-era": {
+      "data-frequency": "52288",
+      "data-relevance": "258",
+      "data-term": "1960s-era",
+      "data-encoded-term": "1960s-era",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52288",
+        "w2v",
+        "1"
+      ]
+    },
+    "dank": {
+      "data-frequency": "1343",
+      "data-relevance": "257",
+      "data-term": "dank",
+      "data-encoded-term": "dank",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1343",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "one-storey": {
+      "data-frequency": "19680",
+      "data-relevance": "256",
+      "data-term": "one-storey",
+      "data-encoded-term": "one-storey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19680",
+        "w2v",
+        "1"
+      ]
+    },
+    "16-story": {
+      "data-frequency": "225462",
+      "data-relevance": "255",
+      "data-term": "16-story",
+      "data-encoded-term": "16-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "225462",
+        "w2v",
+        "1"
+      ]
+    },
+    "twelve-story": {
+      "data-frequency": "32195",
+      "data-relevance": "254",
+      "data-term": "twelve-story",
+      "data-encoded-term": "twelve-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "32195",
+        "w2v",
+        "1"
+      ]
+    },
+    "modern-style": {
+      "data-frequency": "92149",
+      "data-relevance": "253",
+      "data-term": "modern-style",
+      "data-encoded-term": "modern-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "92149",
+        "w2v",
+        "1"
+      ]
+    },
+    "cathedral-like": {
+      "data-frequency": "17668",
+      "data-relevance": "252",
+      "data-term": "cathedral-like",
+      "data-encoded-term": "cathedral-like",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17668",
+        "w2v",
+        "1"
+      ]
+    },
+    "verandah": {
+      "data-frequency": "2835",
+      "data-relevance": "251",
+      "data-term": "verandah",
+      "data-encoded-term": "verandah",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2835",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "long-abandoned": {
+      "data-frequency": "470",
+      "data-relevance": "250",
+      "data-term": "long-abandoned",
+      "data-encoded-term": "long-abandoned",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "470",
+        "w2v",
+        "1"
+      ]
+    },
+    "woodshop": {
+      "data-frequency": "206",
+      "data-relevance": "249",
+      "data-term": "woodshop",
+      "data-encoded-term": "woodshop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "206",
+        "w2v",
+        "1"
+      ]
+    },
+    "beat-up": {
+      "data-frequency": "2253",
+      "data-relevance": "248",
+      "data-term": "beat-up",
+      "data-encoded-term": "beat-up",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2253",
+        "w2v",
+        "1"
+      ]
+    },
+    "half-finished": {
+      "data-frequency": "52198",
+      "data-relevance": "247",
+      "data-term": "half-finished",
+      "data-encoded-term": "half-finished",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52198",
+        "w2v",
+        "1"
+      ]
+    },
+    "castlelike": {
+      "data-frequency": "-1",
+      "data-relevance": "246",
+      "data-term": "castlelike",
+      "data-encoded-term": "castlelike",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "late-gothic": {
+      "data-frequency": "25942",
+      "data-relevance": "245",
+      "data-term": "late-gothic",
+      "data-encoded-term": "late-gothic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25942",
+        "w2v",
+        "1"
+      ]
+    },
+    "turn-of-the-century": {
+      "data-frequency": "140362",
+      "data-relevance": "244",
+      "data-term": "turn-of-the-century",
+      "data-encoded-term": "turn-of-the-century",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "140362",
+        "w2v",
+        "1"
+      ]
+    },
+    "red-painted": {
+      "data-frequency": "298",
+      "data-relevance": "243",
+      "data-term": "red-painted",
+      "data-encoded-term": "red-painted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "298",
+        "w2v",
+        "1"
+      ]
+    },
+    "staffroom": {
+      "data-frequency": "137",
+      "data-relevance": "242",
+      "data-term": "staffroom",
+      "data-encoded-term": "staffroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "137",
+        "w2v",
+        "1"
+      ]
+    },
+    "vocational education": {
+      "data-frequency": "3477",
+      "data-relevance": "241",
+      "data-term": "vocational education",
+      "data-encoded-term": "vocational%20education",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3477",
+        "wiki",
+        "1"
+      ]
+    },
+    "entranceway": {
+      "data-frequency": "445",
+      "data-relevance": "240",
+      "data-term": "entranceway",
+      "data-encoded-term": "entranceway",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "445",
+        "w2v",
+        "1"
+      ]
+    },
+    "three-floor": {
+      "data-frequency": "71375",
+      "data-relevance": "239",
+      "data-term": "three-floor",
+      "data-encoded-term": "three-floor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71375",
+        "w2v",
+        "1"
+      ]
+    },
+    "clubroom": {
+      "data-frequency": "215",
+      "data-relevance": "238",
+      "data-term": "clubroom",
+      "data-encoded-term": "clubroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "215",
+        "w2v",
+        "1"
+      ]
+    },
+    "bustline": {
+      "data-frequency": "79",
+      "data-relevance": "237",
+      "data-term": "bustline",
+      "data-encoded-term": "bustline",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79",
+        "w2v",
+        "1"
+      ]
+    },
+    "half-timbered": {
+      "data-frequency": "1599",
+      "data-relevance": "236",
+      "data-term": "half-timbered",
+      "data-encoded-term": "half-timbered",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1599",
+        "w2v",
+        "1"
+      ]
+    },
+    "15-storey": {
+      "data-frequency": "14618",
+      "data-relevance": "235",
+      "data-term": "15-storey",
+      "data-encoded-term": "15-storey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14618",
+        "w2v",
+        "1"
+      ]
+    },
+    "text book": {
+      "data-frequency": "1762",
+      "data-relevance": "234",
+      "data-term": "text book",
+      "data-encoded-term": "text%20book",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1762",
+        "cn5",
+        "1"
+      ]
+    },
+    "stone-built": {
+      "data-frequency": "996",
+      "data-relevance": "233",
+      "data-term": "stone-built",
+      "data-encoded-term": "stone-built",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "996",
+        "w2v",
+        "1"
+      ]
+    },
+    "tv": {
+      "data-frequency": "447821",
+      "data-relevance": "232",
+      "data-term": "tv",
+      "data-encoded-term": "tv",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "447821",
+        "wiki",
+        "1"
+      ]
+    },
+    "three-room": {
+      "data-frequency": "112689",
+      "data-relevance": "231",
+      "data-term": "three-room",
+      "data-encoded-term": "three-room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "112689",
+        "w2v",
+        "1"
+      ]
+    },
+    "eight-storey": {
+      "data-frequency": "4676",
+      "data-relevance": "230",
+      "data-term": "eight-storey",
+      "data-encoded-term": "eight-storey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4676",
+        "w2v",
+        "1"
+      ]
+    },
+    "cubbyhole": {
+      "data-frequency": "-1",
+      "data-relevance": "229",
+      "data-term": "cubbyhole",
+      "data-encoded-term": "cubbyhole",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "cafeteria": {
+      "data-frequency": "7000",
+      "data-relevance": "228",
+      "data-term": "cafeteria",
+      "data-encoded-term": "cafeteria",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7000",
+        "ol|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "boarding-school": {
+      "data-frequency": "20337",
+      "data-relevance": "227",
+      "data-term": "boarding-school",
+      "data-encoded-term": "boarding-school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20337",
+        "w2v",
+        "1"
+      ]
+    },
+    "shophouse": {
+      "data-frequency": "134",
+      "data-relevance": "226",
+      "data-term": "shophouse",
+      "data-encoded-term": "shophouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "134",
+        "w2v",
+        "1"
+      ]
+    },
+    "4-story": {
+      "data-frequency": "311518",
+      "data-relevance": "225",
+      "data-term": "4-story",
+      "data-encoded-term": "4-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "311518",
+        "w2v",
+        "1"
+      ]
+    },
+    "1960s-style": {
+      "data-frequency": "66075",
+      "data-relevance": "224",
+      "data-term": "1960s-style",
+      "data-encoded-term": "1960s-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66075",
+        "w2v",
+        "1"
+      ]
+    },
+    "upholstering": {
+      "data-frequency": "79",
+      "data-relevance": "223",
+      "data-term": "upholstering",
+      "data-encoded-term": "upholstering",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79",
+        "w2v",
+        "1"
+      ]
+    },
+    "two-floor": {
+      "data-frequency": "92663",
+      "data-relevance": "222",
+      "data-term": "two-floor",
+      "data-encoded-term": "two-floor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "92663",
+        "w2v",
+        "1"
+      ]
+    },
+    "stone-faced": {
+      "data-frequency": "47519",
+      "data-relevance": "221",
+      "data-term": "stone-faced",
+      "data-encoded-term": "stone-faced",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47519",
+        "w2v",
+        "1"
+      ]
+    },
+    "nursery": {
+      "data-frequency": "18163",
+      "data-relevance": "220",
+      "data-term": "nursery",
+      "data-encoded-term": "nursery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18163",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "13-storey": {
+      "data-frequency": "13146",
+      "data-relevance": "219",
+      "data-term": "13-storey",
+      "data-encoded-term": "13-storey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13146",
+        "w2v",
+        "1"
+      ]
+    },
+    "worktable": {
+      "data-frequency": "-1",
+      "data-relevance": "218",
+      "data-term": "worktable",
+      "data-encoded-term": "worktable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "pointillism": {
+      "data-frequency": "392",
+      "data-relevance": "217",
+      "data-term": "pointillism",
+      "data-encoded-term": "pointillism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "392",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolwear": {
+      "data-frequency": "-1",
+      "data-relevance": "216",
+      "data-term": "schoolwear",
+      "data-encoded-term": "schoolwear",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "16-room": {
+      "data-frequency": "88",
+      "data-relevance": "215",
+      "data-term": "16-room",
+      "data-encoded-term": "16-room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "88",
+        "w2v",
+        "1"
+      ]
+    },
+    "wood-framed": {
+      "data-frequency": "718",
+      "data-relevance": "214",
+      "data-term": "wood-framed",
+      "data-encoded-term": "wood-framed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "718",
+        "w2v",
+        "1"
+      ]
+    },
+    "besieges": {
+      "data-frequency": "15497",
+      "data-relevance": "213",
+      "data-term": "besieges",
+      "data-encoded-term": "besieges",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15497",
+        "w2v",
+        "1"
+      ]
+    },
+    "3-storey": {
+      "data-frequency": "18856",
+      "data-relevance": "212",
+      "data-term": "3-storey",
+      "data-encoded-term": "3-storey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18856",
+        "w2v",
+        "1"
+      ]
+    },
+    "traditional-style": {
+      "data-frequency": "71911",
+      "data-relevance": "211",
+      "data-term": "traditional-style",
+      "data-encoded-term": "traditional-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71911",
+        "w2v",
+        "1"
+      ]
+    },
+    "chalkface": {
+      "data-frequency": "-1",
+      "data-relevance": "210",
+      "data-term": "chalkface",
+      "data-encoded-term": "chalkface",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rowhouse": {
+      "data-frequency": "1028",
+      "data-relevance": "209",
+      "data-term": "rowhouse",
+      "data-encoded-term": "rowhouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1028",
+        "w2v",
+        "1"
+      ]
+    },
+    "victorian-style": {
+      "data-frequency": "19773",
+      "data-relevance": "208",
+      "data-term": "victorian-style",
+      "data-encoded-term": "victorian-style",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19773",
+        "w2v",
+        "1"
+      ]
+    },
+    "carport": {
+      "data-frequency": "458",
+      "data-relevance": "207",
+      "data-term": "carport",
+      "data-encoded-term": "carport",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "458",
+        "w2v",
+        "1"
+      ]
+    },
+    "brick-built": {
+      "data-frequency": "49972",
+      "data-relevance": "206",
+      "data-term": "brick-built",
+      "data-encoded-term": "brick-built",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49972",
+        "w2v",
+        "1"
+      ]
+    },
+    "37-story": {
+      "data-frequency": "68882",
+      "data-relevance": "205",
+      "data-term": "37-story",
+      "data-encoded-term": "37-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68882",
+        "w2v",
+        "1"
+      ]
+    },
+    "court-house": {
+      "data-frequency": "161255",
+      "data-relevance": "204",
+      "data-term": "court-house",
+      "data-encoded-term": "court-house",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "161255",
+        "w2v",
+        "1"
+      ]
+    },
+    "kuravilangad": {
+      "data-frequency": "67",
+      "data-relevance": "203",
+      "data-term": "kuravilangad",
+      "data-encoded-term": "kuravilangad",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67",
+        "w2v",
+        "1"
+      ]
+    },
+    "six-story": {
+      "data-frequency": "121884",
+      "data-relevance": "202",
+      "data-term": "six-story",
+      "data-encoded-term": "six-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "121884",
+        "w2v",
+        "1"
+      ]
+    },
+    "overmantel": {
+      "data-frequency": "134",
+      "data-relevance": "201",
+      "data-term": "overmantel",
+      "data-encoded-term": "overmantel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "134",
+        "w2v",
+        "1"
+      ]
+    },
+    "nine-story": {
+      "data-frequency": "433",
+      "data-relevance": "200",
+      "data-term": "nine-story",
+      "data-encoded-term": "nine-story",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "433",
+        "w2v",
+        "1"
+      ]
+    },
+    "farmhouse": {
+      "data-frequency": "13166",
+      "data-relevance": "199",
+      "data-term": "farmhouse",
+      "data-encoded-term": "farmhouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13166",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "boxlike": {
+      "data-frequency": "78",
+      "data-relevance": "198",
+      "data-term": "boxlike",
+      "data-encoded-term": "boxlike",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "78",
+        "w2v",
+        "1"
+      ]
+    },
+    "school system": {
+      "data-frequency": "11636",
+      "data-relevance": "197",
+      "data-term": "school system",
+      "data-encoded-term": "school%20system",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11636",
+        "cn5",
+        "1"
+      ]
+    },
+    "class room": {
+      "data-frequency": "369",
+      "data-relevance": "196",
+      "data-term": "class room",
+      "data-encoded-term": "class%20room",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "369",
+        "cn5",
+        "1"
+      ]
+    },
+    "private school": {
+      "data-frequency": "12022",
+      "data-relevance": "195",
+      "data-term": "private school",
+      "data-encoded-term": "private%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12022",
+        "cn5",
+        "1"
+      ]
+    },
+    "learn place": {
+      "data-frequency": "-1",
+      "data-relevance": "194",
+      "data-term": "learn place",
+      "data-encoded-term": "learn%20place",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookshelves": {
+      "data-frequency": "516",
+      "data-relevance": "193",
+      "data-term": "bookshelves",
+      "data-encoded-term": "bookshelves",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "516",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "schoolfriend": {
+      "data-frequency": "294",
+      "data-relevance": "192",
+      "data-term": "schoolfriend",
+      "data-encoded-term": "schoolfriend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "294",
+        "cn5",
+        "1"
+      ]
+    },
+    "at school": {
+      "data-frequency": "14652",
+      "data-relevance": "191",
+      "data-term": "at school",
+      "data-encoded-term": "at%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14652",
+        "cn5",
+        "1"
+      ]
+    },
+    "dance school": {
+      "data-frequency": "1204",
+      "data-relevance": "190",
+      "data-term": "dance school",
+      "data-encoded-term": "dance%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1204",
+        "cn5",
+        "1"
+      ]
+    },
+    "alcove": {
+      "data-frequency": "919",
+      "data-relevance": "189",
+      "data-term": "alcove",
+      "data-encoded-term": "alcove",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "919",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "situated learning": {
+      "data-frequency": "6668",
+      "data-relevance": "188",
+      "data-term": "situated learning",
+      "data-encoded-term": "situated%20learning",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6668",
+        "wiki",
+        "1"
+      ]
+    },
+    "map": {
+      "data-frequency": "643924",
+      "data-relevance": "187",
+      "data-term": "map",
+      "data-encoded-term": "map",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "643924",
+        "wiki",
+        "1"
+      ]
+    },
+    "middle school": {
+      "data-frequency": "33427",
+      "data-relevance": "186",
+      "data-term": "middle school",
+      "data-encoded-term": "middle%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33427",
+        "cn5",
+        "1"
+      ]
+    },
+    "special school": {
+      "data-frequency": "2134",
+      "data-relevance": "185",
+      "data-term": "special school",
+      "data-encoded-term": "special%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2134",
+        "cn5",
+        "1"
+      ]
+    },
+    "technical school": {
+      "data-frequency": "4625",
+      "data-relevance": "184",
+      "data-term": "technical school",
+      "data-encoded-term": "technical%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4625",
+        "cn5",
+        "1"
+      ]
+    },
+    "junior school": {
+      "data-frequency": "3615",
+      "data-relevance": "183",
+      "data-term": "junior school",
+      "data-encoded-term": "junior%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3615",
+        "cn5",
+        "1"
+      ]
+    },
+    "lake poet": {
+      "data-frequency": "-1",
+      "data-relevance": "182",
+      "data-term": "lake poet",
+      "data-encoded-term": "lake%20poet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "playground": {
+      "data-frequency": "20721",
+      "data-relevance": "181",
+      "data-term": "playground",
+      "data-encoded-term": "playground",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20721",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "misteach": {
+      "data-frequency": "-1",
+      "data-relevance": "180",
+      "data-term": "misteach",
+      "data-encoded-term": "misteach",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "veranda": {
+      "data-frequency": "1599",
+      "data-relevance": "179",
+      "data-term": "veranda",
+      "data-encoded-term": "veranda",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1599",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "stick eraser": {
+      "data-frequency": "-1",
+      "data-relevance": "178",
+      "data-term": "stick eraser",
+      "data-encoded-term": "stick%20eraser",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "religious school": {
+      "data-frequency": "885",
+      "data-relevance": "177",
+      "data-term": "religious school",
+      "data-encoded-term": "religious%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "885",
+        "cn5",
+        "1"
+      ]
+    },
+    "public school": {
+      "data-frequency": "38784",
+      "data-relevance": "176",
+      "data-term": "public school",
+      "data-encoded-term": "public%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "38784",
+        "cn5",
+        "1"
+      ]
+    },
+    "teach student": {
+      "data-frequency": "-1",
+      "data-relevance": "175",
+      "data-term": "teach student",
+      "data-encoded-term": "teach%20student",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unteach": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "unteach",
+      "data-encoded-term": "unteach",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fastener binder": {
+      "data-frequency": "-1",
+      "data-relevance": "173",
+      "data-term": "fastener binder",
+      "data-encoded-term": "fastener%20binder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bus student": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "bus student",
+      "data-encoded-term": "bus%20student",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "prep school": {
+      "data-frequency": "2850",
+      "data-relevance": "171",
+      "data-term": "prep school",
+      "data-encoded-term": "prep%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2850",
+        "cn5",
+        "1"
+      ]
+    },
+    "edwardian": {
+      "data-frequency": "5494",
+      "data-relevance": "170",
+      "data-term": "edwardian",
+      "data-encoded-term": "edwardian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5494",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "madrassah": {
+      "data-frequency": "276",
+      "data-relevance": "169",
+      "data-term": "madrassah",
+      "data-encoded-term": "madrassah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "276",
+        "cn5",
+        "1"
+      ]
+    },
+    "chart": {
+      "data-frequency": "179759",
+      "data-relevance": "168",
+      "data-term": "chart",
+      "data-encoded-term": "chart",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "179759",
+        "wiki",
+        "1"
+      ]
+    },
+    "day school": {
+      "data-frequency": "7420",
+      "data-relevance": "167",
+      "data-term": "day school",
+      "data-encoded-term": "day%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7420",
+        "cn5",
+        "1"
+      ]
+    },
+    "educational institution": {
+      "data-frequency": "8739",
+      "data-relevance": "166",
+      "data-term": "educational institution",
+      "data-encoded-term": "educational%20institution",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8739",
+        "cn5",
+        "1"
+      ]
+    },
+    "foyer": {
+      "data-frequency": "3797",
+      "data-relevance": "165",
+      "data-term": "foyer",
+      "data-encoded-term": "foyer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3797",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "secondary school": {
+      "data-frequency": "49528",
+      "data-relevance": "164",
+      "data-term": "secondary school",
+      "data-encoded-term": "secondary%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49528",
+        "cn5",
+        "1"
+      ]
+    },
+    "student teacher ratio": {
+      "data-frequency": "3457",
+      "data-relevance": "163",
+      "data-term": "student teacher ratio",
+      "data-encoded-term": "student%20teacher%20ratio",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3457",
+        "cn5",
+        "1"
+      ]
+    },
+    "farmyard": {
+      "data-frequency": "1002",
+      "data-relevance": "162",
+      "data-term": "farmyard",
+      "data-encoded-term": "farmyard",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1002",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "home school": {
+      "data-frequency": "1271",
+      "data-relevance": "161",
+      "data-term": "home school",
+      "data-encoded-term": "home%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1271",
+        "cn5",
+        "1"
+      ]
+    },
+    "blackboard eraser": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "blackboard eraser",
+      "data-encoded-term": "blackboard%20eraser",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "classwork": {
+      "data-frequency": "170",
+      "data-relevance": "159",
+      "data-term": "classwork",
+      "data-encoded-term": "classwork",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "170",
+        "cn5",
+        "1"
+      ]
+    },
+    "grade school": {
+      "data-frequency": "4015",
+      "data-relevance": "158",
+      "data-term": "grade school",
+      "data-encoded-term": "grade%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4015",
+        "cn5",
+        "1"
+      ]
+    },
+    "board school": {
+      "data-frequency": "823",
+      "data-relevance": "157",
+      "data-term": "board school",
+      "data-encoded-term": "board%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "823",
+        "cn5",
+        "1"
+      ]
+    },
+    "vestibule school": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "vestibule school",
+      "data-encoded-term": "vestibule%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "workroom": {
+      "data-frequency": "381",
+      "data-relevance": "155",
+      "data-term": "workroom",
+      "data-encoded-term": "workroom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "381",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "alma mat": {
+      "data-frequency": "-1",
+      "data-relevance": "154",
+      "data-term": "alma mat",
+      "data-encoded-term": "alma%20mat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "computer lab": {
+      "data-frequency": "1723",
+      "data-relevance": "153",
+      "data-term": "computer lab",
+      "data-encoded-term": "computer%20lab",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1723",
+        "wiki",
+        "1"
+      ]
+    },
+    "rule school": {
+      "data-frequency": "-1",
+      "data-relevance": "152",
+      "data-term": "rule school",
+      "data-encoded-term": "rule%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pencils": {
+      "data-frequency": "2482",
+      "data-relevance": "151",
+      "data-term": "pencils",
+      "data-encoded-term": "pencils",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2482",
+        "wiki",
+        "1"
+      ]
+    },
+    "in school": {
+      "data-frequency": "21722",
+      "data-relevance": "150",
+      "data-term": "in school",
+      "data-encoded-term": "in%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "21722",
+        "cn5",
+        "1"
+      ]
+    },
+    "feeder school": {
+      "data-frequency": "395",
+      "data-relevance": "149",
+      "data-term": "feeder school",
+      "data-encoded-term": "feeder%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "395",
+        "cn5",
+        "1"
+      ]
+    },
+    "hut": {
+      "data-frequency": "16180",
+      "data-relevance": "148",
+      "data-term": "hut",
+      "data-encoded-term": "hut",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16180",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "high school": {
+      "data-frequency": "306945",
+      "data-relevance": "147",
+      "data-term": "high school",
+      "data-encoded-term": "high%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "306945",
+        "cn5",
+        "1"
+      ]
+    },
+    "storeroom": {
+      "data-frequency": "1078",
+      "data-relevance": "146",
+      "data-term": "storeroom",
+      "data-encoded-term": "storeroom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1078",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "easel": {
+      "data-frequency": "1223",
+      "data-relevance": "145",
+      "data-term": "easel",
+      "data-encoded-term": "easel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1223",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "normal school": {
+      "data-frequency": "4742",
+      "data-relevance": "144",
+      "data-term": "normal school",
+      "data-encoded-term": "normal%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4742",
+        "cn5",
+        "1"
+      ]
+    },
+    "find in school": {
+      "data-frequency": "-1",
+      "data-relevance": "143",
+      "data-term": "find in school",
+      "data-encoded-term": "find%20in%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "night school": {
+      "data-frequency": "1288",
+      "data-relevance": "142",
+      "data-term": "night school",
+      "data-encoded-term": "night%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1288",
+        "cn5",
+        "1"
+      ]
+    },
+    "georgia tech": {
+      "data-frequency": "8776",
+      "data-relevance": "141",
+      "data-term": "georgia tech",
+      "data-encoded-term": "georgia%20tech",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8776",
+        "cn5",
+        "1"
+      ]
+    },
+    "academic year": {
+      "data-frequency": "10360",
+      "data-relevance": "140",
+      "data-term": "academic year",
+      "data-encoded-term": "academic%20year",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10360",
+        "cn5",
+        "1"
+      ]
+    },
+    "information technology": {
+      "data-frequency": "23704",
+      "data-relevance": "139",
+      "data-term": "information technology",
+      "data-encoded-term": "information%20technology",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23704",
+        "wiki",
+        "1"
+      ]
+    },
+    "school uniform": {
+      "data-frequency": "1309",
+      "data-relevance": "138",
+      "data-term": "school uniform",
+      "data-encoded-term": "school%20uniform",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1309",
+        "cn5",
+        "1"
+      ]
+    },
+    "teach person": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "teach person",
+      "data-encoded-term": "teach%20person",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "eraser holder": {
+      "data-frequency": "-1",
+      "data-relevance": "136",
+      "data-term": "eraser holder",
+      "data-encoded-term": "eraser%20holder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "exam table": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "exam table",
+      "data-encoded-term": "exam%20table",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "book": {
+      "data-frequency": "752539",
+      "data-relevance": "134",
+      "data-term": "book",
+      "data-encoded-term": "book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "752539",
+        "wiki",
+        "1"
+      ]
+    },
+    "nursery school": {
+      "data-frequency": "1741",
+      "data-relevance": "133",
+      "data-term": "nursery school",
+      "data-encoded-term": "nursery%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1741",
+        "cn5",
+        "1"
+      ]
+    },
+    "legacy student": {
+      "data-frequency": "-1",
+      "data-relevance": "132",
+      "data-term": "legacy student",
+      "data-encoded-term": "legacy%20student",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "postsecondary school": {
+      "data-frequency": "-1",
+      "data-relevance": "131",
+      "data-term": "postsecondary school",
+      "data-encoded-term": "postsecondary%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grammar school": {
+      "data-frequency": "25764",
+      "data-relevance": "130",
+      "data-term": "grammar school",
+      "data-encoded-term": "grammar%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "25764",
+        "cn5",
+        "1"
+      ]
+    },
+    "alumnus association": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "alumnus association",
+      "data-encoded-term": "alumnus%20association",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "vocational school": {
+      "data-frequency": "3003",
+      "data-relevance": "128",
+      "data-term": "vocational school",
+      "data-encoded-term": "vocational%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3003",
+        "cn5",
+        "1"
+      ]
+    },
+    "moo u": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "moo u",
+      "data-encoded-term": "moo%20u",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "monograph": {
+      "data-frequency": "15852",
+      "data-relevance": "126",
+      "data-term": "monograph",
+      "data-encoded-term": "monograph",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "15852",
+        "wiki",
+        "1"
+      ]
+    },
+    "junior college": {
+      "data-frequency": "11148",
+      "data-relevance": "125",
+      "data-term": "junior college",
+      "data-encoded-term": "junior%20college",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11148",
+        "cn5",
+        "1"
+      ]
+    },
+    "summer school": {
+      "data-frequency": "3445",
+      "data-relevance": "124",
+      "data-term": "summer school",
+      "data-encoded-term": "summer%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3445",
+        "cn5",
+        "1"
+      ]
+    },
+    "in class": {
+      "data-frequency": "8458",
+      "data-relevance": "123",
+      "data-term": "in class",
+      "data-encoded-term": "in%20class",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8458",
+        "cn5",
+        "1"
+      ]
+    },
+    "korea university": {
+      "data-frequency": "1176",
+      "data-relevance": "122",
+      "data-term": "korea university",
+      "data-encoded-term": "korea%20university",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1176",
+        "cn5",
+        "1"
+      ]
+    },
+    "dean's list": {
+      "data-frequency": "538",
+      "data-relevance": "121",
+      "data-term": "dean's list",
+      "data-encoded-term": "dean's%20list",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "538",
+        "cn5",
+        "1"
+      ]
+    },
+    "comprehensive school": {
+      "data-frequency": "4365",
+      "data-relevance": "120",
+      "data-term": "comprehensive school",
+      "data-encoded-term": "comprehensive%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4365",
+        "cn5",
+        "1"
+      ]
+    },
+    "in classroom": {
+      "data-frequency": "445",
+      "data-relevance": "119",
+      "data-term": "in classroom",
+      "data-encoded-term": "in%20classroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "445",
+        "cn5",
+        "1"
+      ]
+    },
+    "pencil sharpener": {
+      "data-frequency": "83",
+      "data-relevance": "118",
+      "data-term": "pencil sharpener",
+      "data-encoded-term": "pencil%20sharpener",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "science room": {
+      "data-frequency": "145",
+      "data-relevance": "117",
+      "data-term": "science room",
+      "data-encoded-term": "science%20room",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "145",
+        "cn5",
+        "1"
+      ]
+    },
+    "graduate school": {
+      "data-frequency": "22926",
+      "data-relevance": "116",
+      "data-term": "graduate school",
+      "data-encoded-term": "graduate%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "22926",
+        "cn5",
+        "1"
+      ]
+    },
+    "ring binder": {
+      "data-frequency": "78",
+      "data-relevance": "115",
+      "data-term": "ring binder",
+      "data-encoded-term": "ring%20binder",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "78",
+        "cn5",
+        "1"
+      ]
+    },
+    "junior high school": {
+      "data-frequency": "10868",
+      "data-relevance": "114",
+      "data-term": "junior high school",
+      "data-encoded-term": "junior%20high%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10868",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolmistress": {
+      "data-frequency": "280",
+      "data-relevance": "113",
+      "data-term": "schoolmistress",
+      "data-encoded-term": "schoolmistress",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "280",
+        "ol",
+        "1"
+      ]
+    },
+    "lecture theatre": {
+      "data-frequency": "653",
+      "data-relevance": "112",
+      "data-term": "lecture theatre",
+      "data-encoded-term": "lecture%20theatre",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "653",
+        "cn5",
+        "1"
+      ]
+    },
+    "hayloft": {
+      "data-frequency": "294",
+      "data-relevance": "111",
+      "data-term": "hayloft",
+      "data-encoded-term": "hayloft",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "294",
+        "ol",
+        "1"
+      ]
+    },
+    "refectory": {
+      "data-frequency": "1540",
+      "data-relevance": "110",
+      "data-term": "refectory",
+      "data-encoded-term": "refectory",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1540",
+        "ol",
+        "1"
+      ]
+    },
+    "scullery": {
+      "data-frequency": "384",
+      "data-relevance": "109",
+      "data-term": "scullery",
+      "data-encoded-term": "scullery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "384",
+        "ol",
+        "1"
+      ]
+    },
+    "sickroom": {
+      "data-frequency": "74",
+      "data-relevance": "108",
+      "data-term": "sickroom",
+      "data-encoded-term": "sickroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "schoolmaster": {
+      "data-frequency": "4358",
+      "data-relevance": "107",
+      "data-term": "schoolmaster",
+      "data-encoded-term": "schoolmaster",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4358",
+        "ol",
+        "1"
+      ]
+    },
+    "clapboard": {
+      "data-frequency": "2315",
+      "data-relevance": "106",
+      "data-term": "clapboard",
+      "data-encoded-term": "clapboard",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2315",
+        "ol",
+        "1"
+      ]
+    },
+    "narthex": {
+      "data-frequency": "971",
+      "data-relevance": "105",
+      "data-term": "narthex",
+      "data-encoded-term": "narthex",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "971",
+        "ol",
+        "1"
+      ]
+    },
+    "undercroft": {
+      "data-frequency": "521",
+      "data-relevance": "104",
+      "data-term": "undercroft",
+      "data-encoded-term": "undercroft",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "521",
+        "ol",
+        "1"
+      ]
+    },
+    "byre": {
+      "data-frequency": "371",
+      "data-relevance": "103",
+      "data-term": "byre",
+      "data-encoded-term": "byre",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "371",
+        "ol",
+        "1"
+      ]
+    },
+    "garret": {
+      "data-frequency": "3716",
+      "data-relevance": "102",
+      "data-term": "garret",
+      "data-encoded-term": "garret",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3716",
+        "ol",
+        "1"
+      ]
+    },
+    "vicarage": {
+      "data-frequency": "3881",
+      "data-relevance": "101",
+      "data-term": "vicarage",
+      "data-encoded-term": "vicarage",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3881",
+        "ol",
+        "1"
+      ]
+    },
+    "vitrine": {
+      "data-frequency": "204",
+      "data-relevance": "100",
+      "data-term": "vitrine",
+      "data-encoded-term": "vitrine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "204",
+        "ol",
+        "1"
+      ]
+    },
+    "schooldays": {
+      "data-frequency": "764",
+      "data-relevance": "99",
+      "data-term": "schooldays",
+      "data-encoded-term": "schooldays",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "764",
+        "ol",
+        "1"
+      ]
+    },
+    "stoep": {
+      "data-frequency": "90",
+      "data-relevance": "98",
+      "data-term": "stoep",
+      "data-encoded-term": "stoep",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "90",
+        "ol",
+        "1"
+      ]
+    },
+    "lamplight": {
+      "data-frequency": "321",
+      "data-relevance": "97",
+      "data-term": "lamplight",
+      "data-encoded-term": "lamplight",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "321",
+        "ol",
+        "1"
+      ]
+    },
+    "foundlings": {
+      "data-frequency": "1725",
+      "data-relevance": "96",
+      "data-term": "foundlings",
+      "data-encoded-term": "foundlings",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1725",
+        "ol",
+        "1"
+      ]
+    },
+    "washerwoman": {
+      "data-frequency": "397",
+      "data-relevance": "95",
+      "data-term": "washerwoman",
+      "data-encoded-term": "washerwoman",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "397",
+        "ol",
+        "1"
+      ]
+    },
+    "anteroom": {
+      "data-frequency": "268",
+      "data-relevance": "94",
+      "data-term": "anteroom",
+      "data-encoded-term": "anteroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "268",
+        "ol",
+        "1"
+      ]
+    },
+    "carrel": {
+      "data-frequency": "625",
+      "data-relevance": "93",
+      "data-term": "carrel",
+      "data-encoded-term": "carrel",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "625",
+        "ol",
+        "1"
+      ]
+    },
+    "jacobean": {
+      "data-frequency": "2693",
+      "data-relevance": "92",
+      "data-term": "jacobean",
+      "data-encoded-term": "jacobean",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2693",
+        "ol",
+        "1"
+      ]
+    },
+    "babyhood": {
+      "data-frequency": "84",
+      "data-relevance": "91",
+      "data-term": "babyhood",
+      "data-encoded-term": "babyhood",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "84",
+        "ol",
+        "1"
+      ]
+    },
+    "pugin": {
+      "data-frequency": "1003",
+      "data-relevance": "90",
+      "data-term": "pugin",
+      "data-encoded-term": "pugin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1003",
+        "ol",
+        "1"
+      ]
+    },
+    "schoolchildren": {
+      "data-frequency": "3468",
+      "data-relevance": "89",
+      "data-term": "schoolchildren",
+      "data-encoded-term": "schoolchildren",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3468",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "school age": {
+      "data-frequency": "2665",
+      "data-relevance": "88",
+      "data-term": "school age",
+      "data-encoded-term": "school%20age",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2665",
+        "cn5",
+        "1"
+      ]
+    },
+    "grade inflation": {
+      "data-frequency": "108",
+      "data-relevance": "87",
+      "data-term": "grade inflation",
+      "data-encoded-term": "grade%20inflation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "108",
+        "cn5",
+        "1"
+      ]
+    },
+    "kindergarteners": {
+      "data-frequency": "149",
+      "data-relevance": "86",
+      "data-term": "kindergarteners",
+      "data-encoded-term": "kindergarteners",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "149",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "lunchroom": {
+      "data-frequency": "342",
+      "data-relevance": "85",
+      "data-term": "lunchroom",
+      "data-encoded-term": "lunchroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "342",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "lead pencil": {
+      "data-frequency": "82",
+      "data-relevance": "84",
+      "data-term": "lead pencil",
+      "data-encoded-term": "lead%20pencil",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "82",
+        "cn5",
+        "1"
+      ]
+    },
+    "secondary education": {
+      "data-frequency": "22659",
+      "data-relevance": "83",
+      "data-term": "secondary education",
+      "data-encoded-term": "secondary%20education",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "22659",
+        "cn5",
+        "1"
+      ]
+    },
+    "college student": {
+      "data-frequency": "5410",
+      "data-relevance": "82",
+      "data-term": "college student",
+      "data-encoded-term": "college%20student",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5410",
+        "cn5",
+        "1"
+      ]
+    },
+    "law student": {
+      "data-frequency": "2174",
+      "data-relevance": "81",
+      "data-term": "law student",
+      "data-encoded-term": "law%20student",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2174",
+        "cn5",
+        "1"
+      ]
+    },
+    "high education": {
+      "data-frequency": "391",
+      "data-relevance": "80",
+      "data-term": "high education",
+      "data-encoded-term": "high%20education",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "391",
+        "cn5",
+        "1"
+      ]
+    },
+    "rational think": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "rational think",
+      "data-encoded-term": "rational%20think",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "kindergartners": {
+      "data-frequency": "169",
+      "data-relevance": "78",
+      "data-term": "kindergartners",
+      "data-encoded-term": "kindergartners",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "169",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "show and tell": {
+      "data-frequency": "458",
+      "data-relevance": "77",
+      "data-term": "show and tell",
+      "data-encoded-term": "show%20and%20tell",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "458",
+        "cn5",
+        "1"
+      ]
+    },
+    "open university": {
+      "data-frequency": "6583",
+      "data-relevance": "76",
+      "data-term": "open university",
+      "data-encoded-term": "open%20university",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6583",
+        "cn5",
+        "1"
+      ]
+    },
+    "special education": {
+      "data-frequency": "5291",
+      "data-relevance": "75",
+      "data-term": "special education",
+      "data-encoded-term": "special%20education",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5291",
+        "cn5",
+        "1"
+      ]
+    },
+    "semester hour": {
+      "data-frequency": "-1",
+      "data-relevance": "74",
+      "data-term": "semester hour",
+      "data-encoded-term": "semester%20hour",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "finish school": {
+      "data-frequency": "205",
+      "data-relevance": "73",
+      "data-term": "finish school",
+      "data-encoded-term": "finish%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "205",
+        "cn5",
+        "1"
+      ]
+    },
+    "quiz bowl": {
+      "data-frequency": "617",
+      "data-relevance": "72",
+      "data-term": "quiz bowl",
+      "data-encoded-term": "quiz%20bowl",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "617",
+        "cn5",
+        "1"
+      ]
+    },
+    "glue stick": {
+      "data-frequency": "-1",
+      "data-relevance": "71",
+      "data-term": "glue stick",
+      "data-encoded-term": "glue%20stick",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "clamp binder": {
+      "data-frequency": "-1",
+      "data-relevance": "70",
+      "data-term": "clamp binder",
+      "data-encoded-term": "clamp%20binder",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "george w bush": {
+      "data-frequency": "14128",
+      "data-relevance": "69",
+      "data-term": "george w bush",
+      "data-encoded-term": "george%20w%20bush",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14128",
+        "cn5",
+        "1"
+      ]
+    },
+    "barnyard": {
+      "data-frequency": "1584",
+      "data-relevance": "68",
+      "data-term": "barnyard",
+      "data-encoded-term": "barnyard",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1584",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "school student": {
+      "data-frequency": "6659",
+      "data-relevance": "67",
+      "data-term": "school student",
+      "data-encoded-term": "school%20student",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6659",
+        "cn5",
+        "1"
+      ]
+    },
+    "charm school": {
+      "data-frequency": "343",
+      "data-relevance": "66",
+      "data-term": "charm school",
+      "data-encoded-term": "charm%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "343",
+        "cn5",
+        "1"
+      ]
+    },
+    "off campus": {
+      "data-frequency": "3088",
+      "data-relevance": "65",
+      "data-term": "off campus",
+      "data-encoded-term": "off%20campus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3088",
+        "cn5",
+        "1"
+      ]
+    },
+    "fac brat": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "fac brat",
+      "data-encoded-term": "fac%20brat",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "school bus": {
+      "data-frequency": "3296",
+      "data-relevance": "63",
+      "data-term": "school bus",
+      "data-encoded-term": "school%20bus",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3296",
+        "cn5",
+        "1"
+      ]
+    },
+    "mark paper": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "mark paper",
+      "data-encoded-term": "mark%20paper",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "art school": {
+      "data-frequency": "6980",
+      "data-relevance": "61",
+      "data-term": "art school",
+      "data-encoded-term": "art%20school",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6980",
+        "cn5",
+        "1"
+      ]
+    },
+    "play truant": {
+      "data-frequency": "44",
+      "data-relevance": "60",
+      "data-term": "play truant",
+      "data-encoded-term": "play%20truant",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "flunk out": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "flunk out",
+      "data-encoded-term": "flunk%20out",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sadie hawkins dance": {
+      "data-frequency": "62",
+      "data-relevance": "58",
+      "data-term": "sadie hawkins dance",
+      "data-encoded-term": "sadie%20hawkins%20dance",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62",
+        "cn5",
+        "1"
+      ]
+    },
+    "frat house": {
+      "data-frequency": "158",
+      "data-relevance": "57",
+      "data-term": "frat house",
+      "data-encoded-term": "frat%20house",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "158",
+        "cn5",
+        "1"
+      ]
+    },
+    "music school": {
+      "data-frequency": "4999",
+      "data-relevance": "56",
+      "data-term": "music school",
+      "data-encoded-term": "music%20school",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4999",
+        "cn5",
+        "1"
+      ]
+    },
+    "gaslit": {
+      "data-frequency": "44",
+      "data-relevance": "55",
+      "data-term": "gaslit",
+      "data-encoded-term": "gaslit",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "blackboards": {
+      "data-frequency": "1806",
+      "data-relevance": "54",
+      "data-term": "blackboards",
+      "data-encoded-term": "blackboards",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1806",
+        "ol",
+        "1"
+      ]
+    },
+    "playschool": {
+      "data-frequency": "182",
+      "data-relevance": "53",
+      "data-term": "playschool",
+      "data-encoded-term": "playschool",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "182",
+        "ol",
+        "1"
+      ]
+    },
+    "hearthside": {
+      "data-frequency": "48",
+      "data-relevance": "52",
+      "data-term": "hearthside",
+      "data-encoded-term": "hearthside",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "48",
+        "ol",
+        "1"
+      ]
+    },
+    "cafetorium": {
+      "data-frequency": "87",
+      "data-relevance": "51",
+      "data-term": "cafetorium",
+      "data-encoded-term": "cafetorium",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "87",
+        "ol",
+        "1"
+      ]
+    },
+    "dogtrot": {
+      "data-frequency": "166",
+      "data-relevance": "50",
+      "data-term": "dogtrot",
+      "data-encoded-term": "dogtrot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "166",
+        "ol",
+        "1"
+      ]
+    },
+    "coatroom": {
+      "data-frequency": "46",
+      "data-relevance": "49",
+      "data-term": "coatroom",
+      "data-encoded-term": "coatroom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "washhouse": {
+      "data-frequency": "187",
+      "data-relevance": "48",
+      "data-term": "washhouse",
+      "data-encoded-term": "washhouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "187",
+        "ol",
+        "1"
+      ]
+    },
+    "parquetry": {
+      "data-frequency": "116",
+      "data-relevance": "47",
+      "data-term": "parquetry",
+      "data-encoded-term": "parquetry",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "116",
+        "ol",
+        "1"
+      ]
+    },
+    "cheder": {
+      "data-frequency": "318",
+      "data-relevance": "46",
+      "data-term": "cheder",
+      "data-encoded-term": "cheder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "318",
+        "ol",
+        "1"
+      ]
+    },
+    "gradgrind": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "gradgrind",
+      "data-encoded-term": "gradgrind",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "christadelphian": {
+      "data-frequency": "189",
+      "data-relevance": "44",
+      "data-term": "christadelphian",
+      "data-encoded-term": "christadelphian",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "189",
+        "ol",
+        "1"
+      ]
+    },
+    "cookhouse": {
+      "data-frequency": "243",
+      "data-relevance": "43",
+      "data-term": "cookhouse",
+      "data-encoded-term": "cookhouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "243",
+        "ol",
+        "1"
+      ]
+    },
+    "mudbrick": {
+      "data-frequency": "212",
+      "data-relevance": "42",
+      "data-term": "mudbrick",
+      "data-encoded-term": "mudbrick",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "212",
+        "ol",
+        "1"
+      ]
+    },
+    "doorless": {
+      "data-frequency": "73",
+      "data-relevance": "41",
+      "data-term": "doorless",
+      "data-encoded-term": "doorless",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "73",
+        "ol",
+        "1"
+      ]
+    },
+    "kneehole": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "kneehole",
+      "data-encoded-term": "kneehole",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "skylit": {
+      "data-frequency": "167",
+      "data-relevance": "39",
+      "data-term": "skylit",
+      "data-encoded-term": "skylit",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "167",
+        "ol",
+        "1"
+      ]
+    },
+    "woolshed": {
+      "data-frequency": "244",
+      "data-relevance": "38",
+      "data-term": "woolshed",
+      "data-encoded-term": "woolshed",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "244",
+        "ol",
+        "1"
+      ]
+    },
+    "paper punch": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "paper punch",
+      "data-encoded-term": "paper%20punch",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tearoom": {
+      "data-frequency": "629",
+      "data-relevance": "36",
+      "data-term": "tearoom",
+      "data-encoded-term": "tearoom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "629",
+        "ol",
+        "1"
+      ]
+    },
+    "electric pencil sharpener": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "electric pencil sharpener",
+      "data-encoded-term": "electric%20pencil%20sharpener",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "party school": {
+      "data-frequency": "561",
+      "data-relevance": "34",
+      "data-term": "party school",
+      "data-encoded-term": "party%20school",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "561",
+        "cn5",
+        "1"
+      ]
+    },
+    "desk": {
+      "data-frequency": "29664",
+      "data-relevance": "33",
+      "data-term": "desk",
+      "data-encoded-term": "desk",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "29664",
+        "wiki",
+        "1"
+      ]
+    },
+    "interactive whiteboard": {
+      "data-frequency": "432",
+      "data-relevance": "32",
+      "data-term": "interactive whiteboard",
+      "data-encoded-term": "interactive%20whiteboard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "432",
+        "wiki",
+        "1"
+      ]
+    },
+    "furniture": {
+      "data-frequency": "32646",
+      "data-relevance": "31",
+      "data-term": "furniture",
+      "data-encoded-term": "furniture",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "32646",
+        "wiki",
+        "1"
+      ]
+    },
+    "lecture": {
+      "data-frequency": "42485",
+      "data-relevance": "30",
+      "data-term": "lecture",
+      "data-encoded-term": "lecture",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "42485",
+        "wiki",
+        "1"
+      ]
+    },
+    "daylight": {
+      "data-frequency": "16322",
+      "data-relevance": "29",
+      "data-term": "daylight",
+      "data-encoded-term": "daylight",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "16322",
+        "wiki",
+        "1"
+      ]
+    },
+    "color": {
+      "data-frequency": "148707",
+      "data-relevance": "28",
+      "data-term": "color",
+      "data-encoded-term": "color",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "148707",
+        "wiki",
+        "1"
+      ]
+    },
+    "lcd projectors": {
+      "data-frequency": "487",
+      "data-relevance": "27",
+      "data-term": "lcd projectors",
+      "data-encoded-term": "lcd%20projectors",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "487",
+        "wiki",
+        "1"
+      ]
+    },
+    "acoustics": {
+      "data-frequency": "5354",
+      "data-relevance": "26",
+      "data-term": "acoustics",
+      "data-encoded-term": "acoustics",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5354",
+        "wiki",
+        "1"
+      ]
+    },
+    "charles fourier": {
+      "data-frequency": "1366",
+      "data-relevance": "25",
+      "data-term": "charles fourier",
+      "data-encoded-term": "charles%20fourier",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1366",
+        "ol",
+        "1"
+      ]
+    },
+    "potbelly stove": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "potbelly stove",
+      "data-encoded-term": "potbelly%20stove",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "friedrich froebel": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "friedrich froebel",
+      "data-encoded-term": "friedrich%20froebel",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "tithe barn": {
+      "data-frequency": "747",
+      "data-relevance": "22",
+      "data-term": "tithe barn",
+      "data-encoded-term": "tithe%20barn",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "747",
+        "ol",
+        "1"
+      ]
+    },
+    "charnel house": {
+      "data-frequency": "288",
+      "data-relevance": "21",
+      "data-term": "charnel house",
+      "data-encoded-term": "charnel%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "288",
+        "ol",
+        "1"
+      ]
+    },
+    "chaises longues": {
+      "data-frequency": "-1",
+      "data-relevance": "20",
+      "data-term": "chaises longues",
+      "data-encoded-term": "chaises%20longues",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "camera obscura": {
+      "data-frequency": "1208",
+      "data-relevance": "19",
+      "data-term": "camera obscura",
+      "data-encoded-term": "camera%20obscura",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1208",
+        "ol",
+        "1"
+      ]
+    },
+    "adobe brick": {
+      "data-frequency": "121",
+      "data-relevance": "18",
+      "data-term": "adobe brick",
+      "data-encoded-term": "adobe%20brick",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "121",
+        "ol",
+        "1"
+      ]
+    },
+    "lunatic asylum": {
+      "data-frequency": "1583",
+      "data-relevance": "17",
+      "data-term": "lunatic asylum",
+      "data-encoded-term": "lunatic%20asylum",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1583",
+        "ol",
+        "1"
+      ]
+    },
+    "corrugated iron": {
+      "data-frequency": "2186",
+      "data-relevance": "16",
+      "data-term": "corrugated iron",
+      "data-encoded-term": "corrugated%20iron",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2186",
+        "ol",
+        "1"
+      ]
+    },
+    "eyestrain": {
+      "data-frequency": "78",
+      "data-relevance": "15",
+      "data-term": "eyestrain",
+      "data-encoded-term": "eyestrain",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "78",
+        "wiki",
+        "1"
+      ]
+    },
+    "united kingdom": {
+      "data-frequency": "466760",
+      "data-relevance": "14",
+      "data-term": "united kingdom",
+      "data-encoded-term": "united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "466760",
+        "wiki",
+        "1"
+      ]
+    },
+    "tablet computer": {
+      "data-frequency": "514",
+      "data-relevance": "13",
+      "data-term": "tablet computer",
+      "data-encoded-term": "tablet%20computer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "514",
+        "wiki",
+        "1"
+      ]
+    },
+    "e-learning": {
+      "data-frequency": "1850",
+      "data-relevance": "12",
+      "data-term": "e-learning",
+      "data-encoded-term": "e-learning",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1850",
+        "wiki",
+        "1"
+      ]
+    },
+    "manor house": {
+      "data-frequency": "10751",
+      "data-relevance": "11",
+      "data-term": "manor house",
+      "data-encoded-term": "manor%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "10751",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "maternity ward": {
+      "data-frequency": "464",
+      "data-relevance": "10",
+      "data-term": "maternity ward",
+      "data-encoded-term": "maternity%20ward",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "464",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "school organizational models": {
+      "data-frequency": "-1",
+      "data-relevance": "9",
+      "data-term": "school organizational models",
+      "data-encoded-term": "school%20organizational%20models",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "dining room": {
+      "data-frequency": "7700",
+      "data-relevance": "8",
+      "data-term": "dining room",
+      "data-encoded-term": "dining%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "7700",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "log cabin": {
+      "data-frequency": "4216",
+      "data-relevance": "7",
+      "data-term": "log cabin",
+      "data-encoded-term": "log%20cabin",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4216",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "thatched roof": {
+      "data-frequency": "2593",
+      "data-relevance": "6",
+      "data-term": "thatched roof",
+      "data-encoded-term": "thatched%20roof",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2593",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "small learning community": {
+      "data-frequency": "19623",
+      "data-relevance": "5",
+      "data-term": "small learning community",
+      "data-encoded-term": "small%20learning%20community",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "19623",
+        "wiki",
+        "1"
+      ]
+    },
+    "integrated learning": {
+      "data-frequency": "9806",
+      "data-relevance": "4",
+      "data-term": "integrated learning",
+      "data-encoded-term": "integrated%20learning",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "9806",
+        "wiki",
+        "1"
+      ]
+    },
+    "american society for training and development": {
+      "data-frequency": "19776",
+      "data-relevance": "3",
+      "data-term": "american society for training and development",
+      "data-encoded-term": "american%20society%20for%20training%20and%20development",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "19776",
+        "wiki",
+        "1"
+      ]
+    },
+    "attention span": {
+      "data-frequency": "420",
+      "data-relevance": "2",
+      "data-term": "attention span",
+      "data-encoded-term": "attention%20span",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "420",
+        "wiki",
+        "1"
+      ]
+    },
+    "maria montessori": {
+      "data-frequency": "613",
+      "data-relevance": "1",
+      "data-term": "maria montessori",
+      "data-encoded-term": "maria%20montessori",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "613",
+        "wiki",
+        "1"
+      ]
+    },
+    "alternative education": {
+      "data-frequency": "36602",
+      "data-relevance": "0",
+      "data-term": "alternative education",
+      "data-encoded-term": "alternative%20education",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "36602",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "schoolrooms"
+    ],
+    "examples": [
+      {
+        "en": "The schoolroom was hot to suffocation.",
+        "ru": "В классе стояла удушливая жара."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "schoolrooms"
+    ],
+    "synonyms": [
+      "classroom"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "school",
+      "lesson",
+      "university",
+      "chalkboard",
+      "classroom",
+      "preschool",
+      "schoolhouse",
+      "teacher",
+      "classrooms",
+      "schoolrooms",
+      "room",
+      "class"
+    ]
+  }
+}

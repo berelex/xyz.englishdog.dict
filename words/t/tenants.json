@@ -1,0 +1,4427 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "concierge": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/concierge/n/,/c/en/tenants/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/concierge/n",
+          "@type": "Node",
+          "label": "concierge",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/concierge"
+        },
+        "end": {
+          "@id": "/c/en/tenants",
+          "@type": "Node",
+          "label": "tenants",
+          "language": "en",
+          "term": "/c/en/tenants"
+        }
+      },
+      "tenant": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/tenants/n/,/c/en/tenant/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/tenants/n",
+          "@type": "Node",
+          "label": "tenants",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/tenants"
+        },
+        "end": {
+          "@id": "/c/en/tenant",
+          "@type": "Node",
+          "label": "tenant",
+          "language": "en",
+          "term": "/c/en/tenant"
+        }
+      },
+      "renoviction": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/renoviction/n/,/c/en/tenants/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/renoviction/n",
+          "@type": "Node",
+          "label": "renoviction",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/renoviction"
+        },
+        "end": {
+          "@id": "/c/en/tenants",
+          "@type": "Node",
+          "label": "tenants",
+          "language": "en",
+          "term": "/c/en/tenants"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "tenant": {
+        "@id": "/a/[/r/FormOf/,/c/en/tenants/v/,/c/en/tenant/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/tenants/v",
+          "@type": "Node",
+          "label": "tenants",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/tenants"
+        },
+        "end": {
+          "@id": "/c/en/tenant",
+          "@type": "Node",
+          "label": "tenant",
+          "language": "en",
+          "term": "/c/en/tenant"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "landlord": {
+      "data-frequency": "10376",
+      "data-relevance": "301",
+      "data-term": "landlord",
+      "data-encoded-term": "landlord",
+      "data-term-stats": [
+        "1",
+        "7.2",
+        "0.000",
+        "10376",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "owners": {
+      "data-frequency": "89139",
+      "data-relevance": "300",
+      "data-term": "owners",
+      "data-encoded-term": "owners",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "89139",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "renter": {
+      "data-frequency": "489",
+      "data-relevance": "299",
+      "data-term": "renter",
+      "data-encoded-term": "renter",
+      "data-term-stats": [
+        "1",
+        "16.3",
+        "0.000",
+        "489",
+        "ol,w2v,wn,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "lessee": {
+      "data-frequency": "1015",
+      "data-relevance": "298",
+      "data-term": "lessee",
+      "data-encoded-term": "lessee",
+      "data-term-stats": [
+        "1",
+        "8.0",
+        "0.000",
+        "1015",
+        "ol,w2v,wn|vec2",
+        "1"
+      ]
+    },
+    "renters": {
+      "data-frequency": "2742",
+      "data-relevance": "297",
+      "data-term": "renters",
+      "data-encoded-term": "renters",
+      "data-term-stats": [
+        "1",
+        "3.7",
+        "0.000",
+        "2742",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "leaseholder": {
+      "data-frequency": "226",
+      "data-relevance": "296",
+      "data-term": "leaseholder",
+      "data-encoded-term": "leaseholder",
+      "data-term-stats": [
+        "1",
+        "7.9",
+        "0.000",
+        "226",
+        "ol,wn,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "lease": {
+      "data-frequency": "28721",
+      "data-relevance": "295",
+      "data-term": "lease",
+      "data-encoded-term": "lease",
+      "data-term-stats": [
+        "1",
+        "5.5",
+        "0.000",
+        "28721",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "rental": {
+      "data-frequency": "17276",
+      "data-relevance": "294",
+      "data-term": "rental",
+      "data-encoded-term": "rental",
+      "data-term-stats": [
+        "1",
+        "5.0",
+        "0.000",
+        "17276",
+        "ol,w2v,reddit-slashes|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "homeowner": {
+      "data-frequency": "2704",
+      "data-relevance": "293",
+      "data-term": "homeowner",
+      "data-encoded-term": "homeowner",
+      "data-term-stats": [
+        "1",
+        "4.4",
+        "0.000",
+        "2704",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "owner": {
+      "data-frequency": "257388",
+      "data-relevance": "292",
+      "data-term": "owner",
+      "data-encoded-term": "owner",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "257388",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "tenancy": {
+      "data-frequency": "1926",
+      "data-relevance": "291",
+      "data-term": "tenancy",
+      "data-encoded-term": "tenancy",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "1926",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "rent": {
+      "data-frequency": "26968",
+      "data-relevance": "290",
+      "data-term": "rent",
+      "data-encoded-term": "rent",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "26968",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "employee": {
+      "data-frequency": "40020",
+      "data-relevance": "289",
+      "data-term": "employee",
+      "data-encoded-term": "employee",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "40020",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "property": {
+      "data-frequency": "244829",
+      "data-relevance": "288",
+      "data-term": "property",
+      "data-encoded-term": "property",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "244829",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "apartments": {
+      "data-frequency": "23485",
+      "data-relevance": "287",
+      "data-term": "apartments",
+      "data-encoded-term": "apartments",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "23485",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "condo": {
+      "data-frequency": "2877",
+      "data-relevance": "286",
+      "data-term": "condo",
+      "data-encoded-term": "condo",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "2877",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "occupier": {
+      "data-frequency": "837",
+      "data-relevance": "285",
+      "data-term": "occupier",
+      "data-encoded-term": "occupier",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "837",
+        "ol,wn|vec2",
+        "1"
+      ]
+    },
+    "lodger": {
+      "data-frequency": "1603",
+      "data-relevance": "284",
+      "data-term": "lodger",
+      "data-encoded-term": "lodger",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "1603",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "occupant": {
+      "data-frequency": "4043",
+      "data-relevance": "283",
+      "data-term": "occupant",
+      "data-encoded-term": "occupant",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "4043",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "resident": {
+      "data-frequency": "84001",
+      "data-relevance": "282",
+      "data-term": "resident",
+      "data-encoded-term": "resident",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "84001",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "condominium": {
+      "data-frequency": "4489",
+      "data-relevance": "281",
+      "data-term": "condominium",
+      "data-encoded-term": "condominium",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "4489",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "boarder": {
+      "data-frequency": "1509",
+      "data-relevance": "280",
+      "data-term": "boarder",
+      "data-encoded-term": "boarder",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "1509",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "landlords": {
+      "data-frequency": "4985",
+      "data-relevance": "279",
+      "data-term": "landlords",
+      "data-encoded-term": "landlords",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "4985",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "holder": {
+      "data-frequency": "50973",
+      "data-relevance": "278",
+      "data-term": "holder",
+      "data-encoded-term": "holder",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "50973",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "tenant": {
+      "data-frequency": "12070",
+      "data-relevance": "277",
+      "data-term": "tenant",
+      "data-encoded-term": "tenant",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "12070",
+        "vec2",
+        "1"
+      ]
+    },
+    "prospective tenants": {
+      "data-frequency": "482",
+      "data-relevance": "276",
+      "data-term": "prospective tenants",
+      "data-encoded-term": "prospective%20tenants",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "482",
+        "vec2",
+        "1"
+      ]
+    },
+    "tenancies": {
+      "data-frequency": "521",
+      "data-relevance": "275",
+      "data-term": "tenancies",
+      "data-encoded-term": "tenancies",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "521",
+        "vec2",
+        "1"
+      ]
+    },
+    "residents": {
+      "data-frequency": "170792",
+      "data-relevance": "274",
+      "data-term": "residents",
+      "data-encoded-term": "residents",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "170792",
+        "vec2",
+        "1"
+      ]
+    },
+    "housing": {
+      "data-frequency": "153137",
+      "data-relevance": "273",
+      "data-term": "housing",
+      "data-encoded-term": "housing",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "153137",
+        "w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "tenants": {
+      "data-frequency": "19205",
+      "data-relevance": "272",
+      "data-term": "tenants",
+      "data-encoded-term": "tenants",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "19205",
+        "vec2",
+        "1"
+      ]
+    },
+    "leaseholders": {
+      "data-frequency": "277",
+      "data-relevance": "271",
+      "data-term": "leaseholders",
+      "data-encoded-term": "leaseholders",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "277",
+        "vec2",
+        "1"
+      ]
+    },
+    "life tenant": {
+      "data-frequency": "10642",
+      "data-relevance": "270",
+      "data-term": "life tenant",
+      "data-encoded-term": "life%20tenant",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "10642",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "roommates": {
+      "data-frequency": "2333",
+      "data-relevance": "269",
+      "data-term": "roommates",
+      "data-encoded-term": "roommates",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2333",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "occupants": {
+      "data-frequency": "9624",
+      "data-relevance": "268",
+      "data-term": "occupants",
+      "data-encoded-term": "occupants",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "9624",
+        "vec2",
+        "1"
+      ]
+    },
+    "apartment complexes": {
+      "data-frequency": "9209",
+      "data-relevance": "267",
+      "data-term": "apartment complexes",
+      "data-encoded-term": "apartment%20complexes",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "9209",
+        "vec2",
+        "1"
+      ]
+    },
+    "landowner": {
+      "data-frequency": "12119",
+      "data-relevance": "266",
+      "data-term": "landowner",
+      "data-encoded-term": "landowner",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "12119",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "buyers": {
+      "data-frequency": "12886",
+      "data-relevance": "265",
+      "data-term": "buyers",
+      "data-encoded-term": "buyers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "12886",
+        "vec2",
+        "1"
+      ]
+    },
+    "apartment dwellers": {
+      "data-frequency": "561",
+      "data-relevance": "264",
+      "data-term": "apartment dwellers",
+      "data-encoded-term": "apartment%20dwellers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "561",
+        "vec2",
+        "1"
+      ]
+    },
+    "lettings": {
+      "data-frequency": "182",
+      "data-relevance": "263",
+      "data-term": "lettings",
+      "data-encoded-term": "lettings",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "182",
+        "vec2",
+        "1"
+      ]
+    },
+    "condos": {
+      "data-frequency": "1874",
+      "data-relevance": "262",
+      "data-term": "condos",
+      "data-encoded-term": "condos",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1874",
+        "vec2",
+        "1"
+      ]
+    },
+    "renting": {
+      "data-frequency": "4791",
+      "data-relevance": "261",
+      "data-term": "renting",
+      "data-encoded-term": "renting",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "4791",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "lofts": {
+      "data-frequency": "8611",
+      "data-relevance": "260",
+      "data-term": "lofts",
+      "data-encoded-term": "lofts",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "8611",
+        "vec2",
+        "1"
+      ]
+    },
+    "homeowners": {
+      "data-frequency": "3814",
+      "data-relevance": "259",
+      "data-term": "homeowners",
+      "data-encoded-term": "homeowners",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3814",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "affordable housing": {
+      "data-frequency": "8352",
+      "data-relevance": "258",
+      "data-term": "affordable housing",
+      "data-encoded-term": "affordable%20housing",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "8352",
+        "vec2",
+        "1"
+      ]
+    },
+    "sublet": {
+      "data-frequency": "433",
+      "data-relevance": "257",
+      "data-term": "sublet",
+      "data-encoded-term": "sublet",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "433",
+        "vec2",
+        "1"
+      ]
+    },
+    "occupiers": {
+      "data-frequency": "2864",
+      "data-relevance": "256",
+      "data-term": "occupiers",
+      "data-encoded-term": "occupiers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2864",
+        "vec2",
+        "1"
+      ]
+    },
+    "redevelopment": {
+      "data-frequency": "15522",
+      "data-relevance": "255",
+      "data-term": "redevelopment",
+      "data-encoded-term": "redevelopment",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "15522",
+        "vec2",
+        "1"
+      ]
+    },
+    "neighbors": {
+      "data-frequency": "22143",
+      "data-relevance": "254",
+      "data-term": "neighbors",
+      "data-encoded-term": "neighbors",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "22143",
+        "vec2",
+        "1"
+      ]
+    },
+    "properties": {
+      "data-frequency": "147380",
+      "data-relevance": "253",
+      "data-term": "properties",
+      "data-encoded-term": "properties",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "147380",
+        "vec2",
+        "1"
+      ]
+    },
+    "prospective buyers": {
+      "data-frequency": "984",
+      "data-relevance": "252",
+      "data-term": "prospective buyers",
+      "data-encoded-term": "prospective%20buyers",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "984",
+        "vec2",
+        "1"
+      ]
+    },
+    "hire": {
+      "data-frequency": "28003",
+      "data-relevance": "251",
+      "data-term": "hire",
+      "data-encoded-term": "hire",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "28003",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "250",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2451433",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "friends": {
+      "data-frequency": "220145",
+      "data-relevance": "249",
+      "data-term": "friends",
+      "data-encoded-term": "friends",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "220145",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "condominiums": {
+      "data-frequency": "4122",
+      "data-relevance": "248",
+      "data-term": "condominiums",
+      "data-encoded-term": "condominiums",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "4122",
+        "vec2",
+        "1"
+      ]
+    },
+    "workers": {
+      "data-frequency": "137211",
+      "data-relevance": "247",
+      "data-term": "workers",
+      "data-encoded-term": "workers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "137211",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "townhouses": {
+      "data-frequency": "1856",
+      "data-relevance": "246",
+      "data-term": "townhouses",
+      "data-encoded-term": "townhouses",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1856",
+        "vec2",
+        "1"
+      ]
+    },
+    "realtor": {
+      "data-frequency": "2068",
+      "data-relevance": "245",
+      "data-term": "realtor",
+      "data-encoded-term": "realtor",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "2068",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "buildings": {
+      "data-frequency": "330827",
+      "data-relevance": "244",
+      "data-term": "buildings",
+      "data-encoded-term": "buildings",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "330827",
+        "vec2",
+        "1"
+      ]
+    },
+    "squatters": {
+      "data-frequency": "2310",
+      "data-relevance": "243",
+      "data-term": "squatters",
+      "data-encoded-term": "squatters",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2310",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "guests": {
+      "data-frequency": "46237",
+      "data-relevance": "242",
+      "data-term": "guests",
+      "data-encoded-term": "guests",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46237",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "redeveloped": {
+      "data-frequency": "7085",
+      "data-relevance": "241",
+      "data-term": "redeveloped",
+      "data-encoded-term": "redeveloped",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "7085",
+        "vec2",
+        "1"
+      ]
+    },
+    "home": {
+      "data-frequency": "929241",
+      "data-relevance": "240",
+      "data-term": "home",
+      "data-encoded-term": "home",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "929241",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lodgers": {
+      "data-frequency": "368",
+      "data-relevance": "239",
+      "data-term": "lodgers",
+      "data-encoded-term": "lodgers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "368",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "employees": {
+      "data-frequency": "97086",
+      "data-relevance": "238",
+      "data-term": "employees",
+      "data-encoded-term": "employees",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "97086",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "multifamily housing": {
+      "data-frequency": "328",
+      "data-relevance": "237",
+      "data-term": "multifamily housing",
+      "data-encoded-term": "multifamily%20housing",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "328",
+        "vec2",
+        "1"
+      ]
+    },
+    "flats": {
+      "data-frequency": "19496",
+      "data-relevance": "236",
+      "data-term": "flats",
+      "data-encoded-term": "flats",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "19496",
+        "vec2",
+        "1"
+      ]
+    },
+    "tells globest.com": {
+      "data-frequency": "-1",
+      "data-relevance": "235",
+      "data-term": "tells globest.com",
+      "data-encoded-term": "tells%20globest.com",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "customers": {
+      "data-frequency": "46737",
+      "data-relevance": "234",
+      "data-term": "customers",
+      "data-encoded-term": "customers",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "46737",
+        "vec2",
+        "1"
+      ]
+    },
+    "stallholders": {
+      "data-frequency": "126",
+      "data-relevance": "233",
+      "data-term": "stallholders",
+      "data-encoded-term": "stallholders",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "126",
+        "vec2",
+        "1"
+      ]
+    },
+    "roommate": {
+      "data-frequency": "5823",
+      "data-relevance": "232",
+      "data-term": "roommate",
+      "data-encoded-term": "roommate",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "5823",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "highwoods": {
+      "data-frequency": "976",
+      "data-relevance": "231",
+      "data-term": "highwoods",
+      "data-encoded-term": "highwoods",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "976",
+        "vec2",
+        "1"
+      ]
+    },
+    "leases": {
+      "data-frequency": "6054",
+      "data-relevance": "230",
+      "data-term": "leases",
+      "data-encoded-term": "leases",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "6054",
+        "vec2",
+        "1"
+      ]
+    },
+    "townhomes": {
+      "data-frequency": "351",
+      "data-relevance": "229",
+      "data-term": "townhomes",
+      "data-encoded-term": "townhomes",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "351",
+        "vec2",
+        "1"
+      ]
+    },
+    "homebuyers": {
+      "data-frequency": "259",
+      "data-relevance": "228",
+      "data-term": "homebuyers",
+      "data-encoded-term": "homebuyers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "259",
+        "vec2",
+        "1"
+      ]
+    },
+    "redevelop": {
+      "data-frequency": "2673",
+      "data-relevance": "227",
+      "data-term": "redevelop",
+      "data-encoded-term": "redevelop",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2673",
+        "vec2",
+        "1"
+      ]
+    },
+    "parking spaces": {
+      "data-frequency": "2435",
+      "data-relevance": "226",
+      "data-term": "parking spaces",
+      "data-encoded-term": "parking%20spaces",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2435",
+        "vec2",
+        "1"
+      ]
+    },
+    "clients": {
+      "data-frequency": "34013",
+      "data-relevance": "225",
+      "data-term": "clients",
+      "data-encoded-term": "clients",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "34013",
+        "vec2",
+        "1"
+      ]
+    },
+    "householders": {
+      "data-frequency": "857",
+      "data-relevance": "224",
+      "data-term": "householders",
+      "data-encoded-term": "householders",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "857",
+        "vec2",
+        "1"
+      ]
+    },
+    "units": {
+      "data-frequency": "208043",
+      "data-relevance": "223",
+      "data-term": "units",
+      "data-encoded-term": "units",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "208043",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "students": {
+      "data-frequency": "280258",
+      "data-relevance": "222",
+      "data-term": "students",
+      "data-encoded-term": "students",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "280258",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "the": {
+      "data-frequency": "6625329",
+      "data-relevance": "221",
+      "data-term": "the",
+      "data-encoded-term": "the",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6625329",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "vagrants": {
+      "data-frequency": "3834",
+      "data-relevance": "220",
+      "data-term": "vagrants",
+      "data-encoded-term": "vagrants",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3834",
+        "vec2",
+        "1"
+      ]
+    },
+    "bedroom apartments": {
+      "data-frequency": "2018",
+      "data-relevance": "219",
+      "data-term": "bedroom apartments",
+      "data-encoded-term": "bedroom%20apartments",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2018",
+        "vec2",
+        "1"
+      ]
+    },
+    "developers": {
+      "data-frequency": "29279",
+      "data-relevance": "218",
+      "data-term": "developers",
+      "data-encoded-term": "developers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "29279",
+        "vec2",
+        "1"
+      ]
+    },
+    "family": {
+      "data-frequency": "1345263",
+      "data-relevance": "217",
+      "data-term": "family",
+      "data-encoded-term": "family",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "1345263",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "216",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "506299",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "borrowers": {
+      "data-frequency": "1505",
+      "data-relevance": "215",
+      "data-term": "borrowers",
+      "data-encoded-term": "borrowers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1505",
+        "vec2",
+        "1"
+      ]
+    },
+    "neighbours": {
+      "data-frequency": "19044",
+      "data-relevance": "214",
+      "data-term": "neighbours",
+      "data-encoded-term": "neighbours",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "19044",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "user": {
+      "data-frequency": "63500",
+      "data-relevance": "213",
+      "data-term": "user",
+      "data-encoded-term": "user",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "63500",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "businesses": {
+      "data-frequency": "70471",
+      "data-relevance": "212",
+      "data-term": "businesses",
+      "data-encoded-term": "businesses",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "70471",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "families": {
+      "data-frequency": "266862",
+      "data-relevance": "211",
+      "data-term": "families",
+      "data-encoded-term": "families",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "266862",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "freehold": {
+      "data-frequency": "4279",
+      "data-relevance": "210",
+      "data-term": "freehold",
+      "data-encoded-term": "freehold",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "4279",
+        "vec2",
+        "1"
+      ]
+    },
+    "residences": {
+      "data-frequency": "20699",
+      "data-relevance": "209",
+      "data-term": "residences",
+      "data-encoded-term": "residences",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "20699",
+        "vec2",
+        "1"
+      ]
+    },
+    "bedroom flats": {
+      "data-frequency": "2817",
+      "data-relevance": "208",
+      "data-term": "bedroom flats",
+      "data-encoded-term": "bedroom%20flats",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2817",
+        "vec2",
+        "1"
+      ]
+    },
+    "applicants": {
+      "data-frequency": "10470",
+      "data-relevance": "207",
+      "data-term": "applicants",
+      "data-encoded-term": "applicants",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "10470",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "potential": {
+      "data-frequency": "151007",
+      "data-relevance": "206",
+      "data-term": "potential",
+      "data-encoded-term": "potential",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "151007",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "duplexes": {
+      "data-frequency": "666",
+      "data-relevance": "205",
+      "data-term": "duplexes",
+      "data-encoded-term": "duplexes",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "666",
+        "vec2",
+        "1"
+      ]
+    },
+    "empty storefronts": {
+      "data-frequency": "423",
+      "data-relevance": "204",
+      "data-term": "empty storefronts",
+      "data-encoded-term": "empty%20storefronts",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "423",
+        "vec2",
+        "1"
+      ]
+    },
+    "building": {
+      "data-frequency": "566147",
+      "data-relevance": "203",
+      "data-term": "building",
+      "data-encoded-term": "building",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "566147",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "worker": {
+      "data-frequency": "65291",
+      "data-relevance": "202",
+      "data-term": "worker",
+      "data-encoded-term": "worker",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "65291",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "flatmates": {
+      "data-frequency": "673",
+      "data-relevance": "201",
+      "data-term": "flatmates",
+      "data-encoded-term": "flatmates",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "673",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "staff": {
+      "data-frequency": "310789",
+      "data-relevance": "200",
+      "data-term": "staff",
+      "data-encoded-term": "staff",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "310789",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "you": {
+      "data-frequency": "3404351",
+      "data-relevance": "199",
+      "data-term": "you",
+      "data-encoded-term": "you",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3404351",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "house": {
+      "data-frequency": "821612",
+      "data-relevance": "198",
+      "data-term": "house",
+      "data-encoded-term": "house",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "821612",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "eviction": {
+      "data-frequency": "4243",
+      "data-relevance": "197",
+      "data-term": "eviction",
+      "data-encoded-term": "eviction",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "4243",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "redeveloping": {
+      "data-frequency": "788",
+      "data-relevance": "196",
+      "data-term": "redeveloping",
+      "data-encoded-term": "redeveloping",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "788",
+        "vec2",
+        "1"
+      ]
+    },
+    "hammerson": {
+      "data-frequency": "1064",
+      "data-relevance": "195",
+      "data-term": "hammerson",
+      "data-encoded-term": "hammerson",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1064",
+        "vec2",
+        "1"
+      ]
+    },
+    "apartment": {
+      "data-frequency": "51117",
+      "data-relevance": "194",
+      "data-term": "apartment",
+      "data-encoded-term": "apartment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "51117",
+        "reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "beliefs": {
+      "data-frequency": "35920",
+      "data-relevance": "193",
+      "data-term": "beliefs",
+      "data-encoded-term": "beliefs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "35920",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "agents": {
+      "data-frequency": "68571",
+      "data-relevance": "192",
+      "data-term": "agents",
+      "data-encoded-term": "agents",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "68571",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "roomates": {
+      "data-frequency": "-1",
+      "data-relevance": "191",
+      "data-term": "roomates",
+      "data-encoded-term": "roomates",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "evictions": {
+      "data-frequency": "1144",
+      "data-relevance": "190",
+      "data-term": "evictions",
+      "data-encoded-term": "evictions",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1144",
+        "vec2",
+        "1"
+      ]
+    },
+    "townhome": {
+      "data-frequency": "447",
+      "data-relevance": "189",
+      "data-term": "townhome",
+      "data-encoded-term": "townhome",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "447",
+        "vec2",
+        "1"
+      ]
+    },
+    "buyer": {
+      "data-frequency": "12017",
+      "data-relevance": "188",
+      "data-term": "buyer",
+      "data-encoded-term": "buyer",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "12017",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "brownfield sites": {
+      "data-frequency": "100",
+      "data-relevance": "187",
+      "data-term": "brownfield sites",
+      "data-encoded-term": "brownfield%20sites",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "100",
+        "vec2",
+        "1"
+      ]
+    },
+    "servants": {
+      "data-frequency": "36738",
+      "data-relevance": "186",
+      "data-term": "servants",
+      "data-encoded-term": "servants",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "36738",
+        "w2v",
+        "1"
+      ]
+    },
+    "managers": {
+      "data-frequency": "61971",
+      "data-relevance": "185",
+      "data-term": "managers",
+      "data-encoded-term": "managers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "61971",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "airbnb": {
+      "data-frequency": "594",
+      "data-relevance": "184",
+      "data-term": "airbnb",
+      "data-encoded-term": "airbnb",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "594",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "council": {
+      "data-frequency": "559570",
+      "data-relevance": "183",
+      "data-term": "council",
+      "data-encoded-term": "council",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "559570",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "investors": {
+      "data-frequency": "32644",
+      "data-relevance": "182",
+      "data-term": "investors",
+      "data-encoded-term": "investors",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "32644",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "management": {
+      "data-frequency": "325141",
+      "data-relevance": "181",
+      "data-term": "management",
+      "data-encoded-term": "management",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "325141",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "rights": {
+      "data-frequency": "260554",
+      "data-relevance": "180",
+      "data-term": "rights",
+      "data-encoded-term": "rights",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "260554",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "being": {
+      "data-frequency": "996896",
+      "data-relevance": "179",
+      "data-term": "being",
+      "data-encoded-term": "being",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "996896",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "accounts": {
+      "data-frequency": "76712",
+      "data-relevance": "178",
+      "data-term": "accounts",
+      "data-encoded-term": "accounts",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "76712",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "doctrines": {
+      "data-frequency": "9332",
+      "data-relevance": "177",
+      "data-term": "doctrines",
+      "data-encoded-term": "doctrines",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9332",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "farmers": {
+      "data-frequency": "65322",
+      "data-relevance": "176",
+      "data-term": "farmers",
+      "data-encoded-term": "farmers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "65322",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "income": {
+      "data-frequency": "130359",
+      "data-relevance": "175",
+      "data-term": "income",
+      "data-encoded-term": "income",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "130359",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "other": {
+      "data-frequency": "2214622",
+      "data-relevance": "174",
+      "data-term": "other",
+      "data-encoded-term": "other",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2214622",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "content": {
+      "data-frequency": "304621",
+      "data-relevance": "173",
+      "data-term": "content",
+      "data-encoded-term": "content",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "304621",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "serfs": {
+      "data-frequency": "2380",
+      "data-relevance": "172",
+      "data-term": "serfs",
+      "data-encoded-term": "serfs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2380",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "background": {
+      "data-frequency": "341927",
+      "data-relevance": "171",
+      "data-term": "background",
+      "data-encoded-term": "background",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "341927",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "tradition": {
+      "data-frequency": "137348",
+      "data-relevance": "170",
+      "data-term": "tradition",
+      "data-encoded-term": "tradition",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "137348",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "supports": {
+      "data-frequency": "61851",
+      "data-relevance": "169",
+      "data-term": "supports",
+      "data-encoded-term": "supports",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "61851",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "users": {
+      "data-frequency": "62944",
+      "data-relevance": "168",
+      "data-term": "users",
+      "data-encoded-term": "users",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "62944",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "housebuilders": {
+      "data-frequency": "183",
+      "data-relevance": "167",
+      "data-term": "housebuilders",
+      "data-encoded-term": "housebuilders",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "183",
+        "vec2",
+        "1"
+      ]
+    },
+    "apartment complex": {
+      "data-frequency": "2918",
+      "data-relevance": "166",
+      "data-term": "apartment complex",
+      "data-encoded-term": "apartment%20complex",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2918",
+        "vec2",
+        "1"
+      ]
+    },
+    "abutters": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "abutters",
+      "data-encoded-term": "abutters",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "lessees": {
+      "data-frequency": "466",
+      "data-relevance": "164",
+      "data-term": "lessees",
+      "data-encoded-term": "lessees",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "466",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "highrise": {
+      "data-frequency": "848",
+      "data-relevance": "163",
+      "data-term": "highrise",
+      "data-encoded-term": "highrise",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "848",
+        "vec2",
+        "1"
+      ]
+    },
+    "luxury condos": {
+      "data-frequency": "725",
+      "data-relevance": "162",
+      "data-term": "luxury condos",
+      "data-encoded-term": "luxury%20condos",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "725",
+        "vec2",
+        "1"
+      ]
+    },
+    "serviced apartments": {
+      "data-frequency": "11613",
+      "data-relevance": "161",
+      "data-term": "serviced apartments",
+      "data-encoded-term": "serviced%20apartments",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "11613",
+        "vec2",
+        "1"
+      ]
+    },
+    "private": {
+      "data-frequency": "354515",
+      "data-relevance": "160",
+      "data-term": "private",
+      "data-encoded-term": "private",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "354515",
+        "w2v",
+        "1"
+      ]
+    },
+    "control": {
+      "data-frequency": "779951",
+      "data-relevance": "159",
+      "data-term": "control",
+      "data-encoded-term": "control",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "779951",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "tishman speyer": {
+      "data-frequency": "112",
+      "data-relevance": "158",
+      "data-term": "tishman speyer",
+      "data-encoded-term": "tishman%20speyer",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "112",
+        "vec2",
+        "1"
+      ]
+    },
+    "vacancy": {
+      "data-frequency": "16889",
+      "data-relevance": "157",
+      "data-term": "vacancy",
+      "data-encoded-term": "vacancy",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "16889",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "residential": {
+      "data-frequency": "81846",
+      "data-relevance": "156",
+      "data-term": "residential",
+      "data-encoded-term": "residential",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "81846",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "leasing": {
+      "data-frequency": "7958",
+      "data-relevance": "155",
+      "data-term": "leasing",
+      "data-encoded-term": "leasing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7958",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rents": {
+      "data-frequency": "5803",
+      "data-relevance": "154",
+      "data-term": "rents",
+      "data-encoded-term": "rents",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5803",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "payer": {
+      "data-frequency": "1977",
+      "data-relevance": "153",
+      "data-term": "payer",
+      "data-encoded-term": "payer",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1977",
+        "wn",
+        "1"
+      ]
+    },
+    "inhabit": {
+      "data-frequency": "11305",
+      "data-relevance": "152",
+      "data-term": "inhabit",
+      "data-encoded-term": "inhabit",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "11305",
+        "wn",
+        "1"
+      ]
+    },
+    "dwell": {
+      "data-frequency": "4821",
+      "data-relevance": "151",
+      "data-term": "dwell",
+      "data-encoded-term": "dwell",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4821",
+        "wn",
+        "1"
+      ]
+    },
+    "populate": {
+      "data-frequency": "2195",
+      "data-relevance": "150",
+      "data-term": "populate",
+      "data-encoded-term": "populate",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2195",
+        "wn",
+        "1"
+      ]
+    },
+    "live": {
+      "data-frequency": "529392",
+      "data-relevance": "149",
+      "data-term": "live",
+      "data-encoded-term": "live",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "529392",
+        "wn",
+        "1"
+      ]
+    },
+    "proprietor": {
+      "data-frequency": "9998",
+      "data-relevance": "148",
+      "data-term": "proprietor",
+      "data-encoded-term": "proprietor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9998",
+        "w2v",
+        "1"
+      ]
+    },
+    "roomer": {
+      "data-frequency": "118",
+      "data-relevance": "147",
+      "data-term": "roomer",
+      "data-encoded-term": "roomer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "118",
+        "wn",
+        "1"
+      ]
+    },
+    "squatter": {
+      "data-frequency": "1132",
+      "data-relevance": "146",
+      "data-term": "squatter",
+      "data-encoded-term": "squatter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1132",
+        "w2v",
+        "1"
+      ]
+    },
+    "client": {
+      "data-frequency": "35649",
+      "data-relevance": "145",
+      "data-term": "client",
+      "data-encoded-term": "client",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "35649",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "friend": {
+      "data-frequency": "203631",
+      "data-relevance": "144",
+      "data-term": "friend",
+      "data-encoded-term": "friend",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "203631",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "paying": {
+      "data-frequency": "40265",
+      "data-relevance": "143",
+      "data-term": "paying",
+      "data-encoded-term": "paying",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "40265",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cotenant": {
+      "data-frequency": "-1",
+      "data-relevance": "142",
+      "data-term": "cotenant",
+      "data-encoded-term": "cotenant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "remunerator": {
+      "data-frequency": "3058",
+      "data-relevance": "141",
+      "data-term": "remunerator",
+      "data-encoded-term": "remunerator",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3058",
+        "wn",
+        "1"
+      ]
+    },
+    "dwellings": {
+      "data-frequency": "17963",
+      "data-relevance": "140",
+      "data-term": "dwellings",
+      "data-encoded-term": "dwellings",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17963",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "landowners": {
+      "data-frequency": "10782",
+      "data-relevance": "139",
+      "data-term": "landowners",
+      "data-encoded-term": "landowners",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "10782",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "customer": {
+      "data-frequency": "32536",
+      "data-relevance": "138",
+      "data-term": "customer",
+      "data-encoded-term": "customer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32536",
+        "ol",
+        "1"
+      ]
+    },
+    "lessor": {
+      "data-frequency": "475",
+      "data-relevance": "137",
+      "data-term": "lessor",
+      "data-encoded-term": "lessor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "475",
+        "ol",
+        "1"
+      ]
+    },
+    "evicted": {
+      "data-frequency": "5657",
+      "data-relevance": "136",
+      "data-term": "evicted",
+      "data-encoded-term": "evicted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5657",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "leasehold": {
+      "data-frequency": "1142",
+      "data-relevance": "135",
+      "data-term": "leasehold",
+      "data-encoded-term": "leasehold",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1142",
+        "ol",
+        "1"
+      ]
+    },
+    "sublease": {
+      "data-frequency": "129",
+      "data-relevance": "134",
+      "data-term": "sublease",
+      "data-encoded-term": "sublease",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "129",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "licensee": {
+      "data-frequency": "4886",
+      "data-relevance": "133",
+      "data-term": "licensee",
+      "data-encoded-term": "licensee",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4886",
+        "ol",
+        "1"
+      ]
+    },
+    "temporary": {
+      "data-frequency": "81098",
+      "data-relevance": "132",
+      "data-term": "temporary",
+      "data-encoded-term": "temporary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "81098",
+        "w2v",
+        "1"
+      ]
+    },
+    "employer": {
+      "data-frequency": "29347",
+      "data-relevance": "131",
+      "data-term": "employer",
+      "data-encoded-term": "employer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29347",
+        "w2v",
+        "1"
+      ]
+    },
+    "taker": {
+      "data-frequency": "4406",
+      "data-relevance": "130",
+      "data-term": "taker",
+      "data-encoded-term": "taker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4406",
+        "ol",
+        "1"
+      ]
+    },
+    "occupying": {
+      "data-frequency": "19187",
+      "data-relevance": "129",
+      "data-term": "occupying",
+      "data-encoded-term": "occupying",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19187",
+        "ol",
+        "1"
+      ]
+    },
+    "farmer": {
+      "data-frequency": "59036",
+      "data-relevance": "128",
+      "data-term": "farmer",
+      "data-encoded-term": "farmer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59036",
+        "ol",
+        "1"
+      ]
+    },
+    "household": {
+      "data-frequency": "95485",
+      "data-relevance": "127",
+      "data-term": "household",
+      "data-encoded-term": "household",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "95485",
+        "ol",
+        "1"
+      ]
+    },
+    "stall": {
+      "data-frequency": "12764",
+      "data-relevance": "126",
+      "data-term": "stall",
+      "data-encoded-term": "stall",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12764",
+        "ol",
+        "1"
+      ]
+    },
+    "passenger": {
+      "data-frequency": "86699",
+      "data-relevance": "125",
+      "data-term": "passenger",
+      "data-encoded-term": "passenger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "86699",
+        "ol",
+        "1"
+      ]
+    },
+    "landholder": {
+      "data-frequency": "828",
+      "data-relevance": "124",
+      "data-term": "landholder",
+      "data-encoded-term": "landholder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "828",
+        "w2v",
+        "1"
+      ]
+    },
+    "possessor": {
+      "data-frequency": "1431",
+      "data-relevance": "123",
+      "data-term": "possessor",
+      "data-encoded-term": "possessor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1431",
+        "ol",
+        "1"
+      ]
+    },
+    "estates": {
+      "data-frequency": "39105",
+      "data-relevance": "122",
+      "data-term": "estates",
+      "data-encoded-term": "estates",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39105",
+        "w2v",
+        "1"
+      ]
+    },
+    "dwelling": {
+      "data-frequency": "21781",
+      "data-relevance": "121",
+      "data-term": "dwelling",
+      "data-encoded-term": "dwelling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21781",
+        "w2v",
+        "1"
+      ]
+    },
+    "ownership": {
+      "data-frequency": "80789",
+      "data-relevance": "120",
+      "data-term": "ownership",
+      "data-encoded-term": "ownership",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80789",
+        "w2v",
+        "1"
+      ]
+    },
+    "guest": {
+      "data-frequency": "156958",
+      "data-relevance": "119",
+      "data-term": "guest",
+      "data-encoded-term": "guest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "156958",
+        "ol",
+        "1"
+      ]
+    },
+    "estate": {
+      "data-frequency": "169899",
+      "data-relevance": "118",
+      "data-term": "estate",
+      "data-encoded-term": "estate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "169899",
+        "w2v",
+        "1"
+      ]
+    },
+    "landholding": {
+      "data-frequency": "2080",
+      "data-relevance": "117",
+      "data-term": "landholding",
+      "data-encoded-term": "landholding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2080",
+        "w2v",
+        "1"
+      ]
+    },
+    "accommodation": {
+      "data-frequency": "27213",
+      "data-relevance": "116",
+      "data-term": "accommodation",
+      "data-encoded-term": "accommodation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27213",
+        "w2v",
+        "1"
+      ]
+    },
+    "vacant": {
+      "data-frequency": "49321",
+      "data-relevance": "115",
+      "data-term": "vacant",
+      "data-encoded-term": "vacant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49321",
+        "w2v",
+        "1"
+      ]
+    },
+    "beneficiary": {
+      "data-frequency": "4260",
+      "data-relevance": "114",
+      "data-term": "beneficiary",
+      "data-encoded-term": "beneficiary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4260",
+        "w2v",
+        "1"
+      ]
+    },
+    "hacker": {
+      "data-frequency": "7026",
+      "data-relevance": "113",
+      "data-term": "hacker",
+      "data-encoded-term": "hacker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7026",
+        "ol",
+        "1"
+      ]
+    },
+    "relocation": {
+      "data-frequency": "13738",
+      "data-relevance": "112",
+      "data-term": "relocation",
+      "data-encoded-term": "relocation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13738",
+        "w2v",
+        "1"
+      ]
+    },
+    "breadwinner": {
+      "data-frequency": "881",
+      "data-relevance": "111",
+      "data-term": "breadwinner",
+      "data-encoded-term": "breadwinner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "881",
+        "w2v",
+        "1"
+      ]
+    },
+    "laborer": {
+      "data-frequency": "3504",
+      "data-relevance": "110",
+      "data-term": "laborer",
+      "data-encoded-term": "laborer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3504",
+        "w2v",
+        "1"
+      ]
+    },
+    "hosted": {
+      "data-frequency": "132794",
+      "data-relevance": "109",
+      "data-term": "hosted",
+      "data-encoded-term": "hosted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "132794",
+        "ol",
+        "1"
+      ]
+    },
+    "permanent": {
+      "data-frequency": "324830",
+      "data-relevance": "108",
+      "data-term": "permanent",
+      "data-encoded-term": "permanent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "324830",
+        "w2v",
+        "1"
+      ]
+    },
+    "laborers": {
+      "data-frequency": "9037",
+      "data-relevance": "107",
+      "data-term": "laborers",
+      "data-encoded-term": "laborers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9037",
+        "w2v",
+        "1"
+      ]
+    },
+    "proprietors": {
+      "data-frequency": "4056",
+      "data-relevance": "106",
+      "data-term": "proprietors",
+      "data-encoded-term": "proprietors",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4056",
+        "w2v",
+        "1"
+      ]
+    },
+    "tenant farmer": {
+      "data-frequency": "510",
+      "data-relevance": "105",
+      "data-term": "tenant farmer",
+      "data-encoded-term": "tenant%20farmer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "510",
+        "wn",
+        "1"
+      ]
+    },
+    "homestead": {
+      "data-frequency": "21123",
+      "data-relevance": "104",
+      "data-term": "homestead",
+      "data-encoded-term": "homestead",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21123",
+        "w2v",
+        "1"
+      ]
+    },
+    "landholders": {
+      "data-frequency": "1328",
+      "data-relevance": "103",
+      "data-term": "landholders",
+      "data-encoded-term": "landholders",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1328",
+        "w2v",
+        "1"
+      ]
+    },
+    "visiting": {
+      "data-frequency": "77343",
+      "data-relevance": "102",
+      "data-term": "visiting",
+      "data-encoded-term": "visiting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "77343",
+        "ol",
+        "1"
+      ]
+    },
+    "taking": {
+      "data-frequency": "282940",
+      "data-relevance": "101",
+      "data-term": "taking",
+      "data-encoded-term": "taking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "282940",
+        "ol",
+        "1"
+      ]
+    },
+    "landlady": {
+      "data-frequency": "2892",
+      "data-relevance": "100",
+      "data-term": "landlady",
+      "data-encoded-term": "landlady",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2892",
+        "ol",
+        "1"
+      ]
+    },
+    "purchaser": {
+      "data-frequency": "2817",
+      "data-relevance": "99",
+      "data-term": "purchaser",
+      "data-encoded-term": "purchaser",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2817",
+        "ol",
+        "1"
+      ]
+    },
+    "occupancy": {
+      "data-frequency": "7614",
+      "data-relevance": "98",
+      "data-term": "occupancy",
+      "data-encoded-term": "occupancy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7614",
+        "ol",
+        "1"
+      ]
+    },
+    "borrower": {
+      "data-frequency": "1018",
+      "data-relevance": "97",
+      "data-term": "borrower",
+      "data-encoded-term": "borrower",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1018",
+        "ol",
+        "1"
+      ]
+    },
+    "sole": {
+      "data-frequency": "66042",
+      "data-relevance": "96",
+      "data-term": "sole",
+      "data-encoded-term": "sole",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66042",
+        "w2v",
+        "1"
+      ]
+    },
+    "tennant": {
+      "data-frequency": "4539",
+      "data-relevance": "95",
+      "data-term": "tennant",
+      "data-encoded-term": "tennant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4539",
+        "ol",
+        "1"
+      ]
+    },
+    "tenantry": {
+      "data-frequency": "175",
+      "data-relevance": "94",
+      "data-term": "tenantry",
+      "data-encoded-term": "tenantry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "175",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgagee": {
+      "data-frequency": "211",
+      "data-relevance": "93",
+      "data-term": "mortgagee",
+      "data-encoded-term": "mortgagee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "211",
+        "ol",
+        "1"
+      ]
+    },
+    "trusts": {
+      "data-frequency": "154269",
+      "data-relevance": "92",
+      "data-term": "trusts",
+      "data-encoded-term": "trusts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "154269",
+        "w2v",
+        "1"
+      ]
+    },
+    "labourers": {
+      "data-frequency": "8402",
+      "data-relevance": "91",
+      "data-term": "labourers",
+      "data-encoded-term": "labourers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8402",
+        "w2v",
+        "1"
+      ]
+    },
+    "communal": {
+      "data-frequency": "16975",
+      "data-relevance": "90",
+      "data-term": "communal",
+      "data-encoded-term": "communal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16975",
+        "w2v",
+        "1"
+      ]
+    },
+    "serf": {
+      "data-frequency": "854",
+      "data-relevance": "89",
+      "data-term": "serf",
+      "data-encoded-term": "serf",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "854",
+        "w2v",
+        "1"
+      ]
+    },
+    "retirees": {
+      "data-frequency": "41007",
+      "data-relevance": "88",
+      "data-term": "retirees",
+      "data-encoded-term": "retirees",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41007",
+        "w2v",
+        "1"
+      ]
+    },
+    "sawmill": {
+      "data-frequency": "7403",
+      "data-relevance": "87",
+      "data-term": "sawmill",
+      "data-encoded-term": "sawmill",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7403",
+        "w2v",
+        "1"
+      ]
+    },
+    "polygamous": {
+      "data-frequency": "1019",
+      "data-relevance": "86",
+      "data-term": "polygamous",
+      "data-encoded-term": "polygamous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1019",
+        "w2v",
+        "1"
+      ]
+    },
+    "rented": {
+      "data-frequency": "19901",
+      "data-relevance": "85",
+      "data-term": "rented",
+      "data-encoded-term": "rented",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19901",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "evict": {
+      "data-frequency": "2308",
+      "data-relevance": "84",
+      "data-term": "evict",
+      "data-encoded-term": "evict",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2308",
+        "w2v",
+        "1"
+      ]
+    },
+    "spouse": {
+      "data-frequency": "177142",
+      "data-relevance": "83",
+      "data-term": "spouse",
+      "data-encoded-term": "spouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "177142",
+        "w2v",
+        "1"
+      ]
+    },
+    "farm": {
+      "data-frequency": "158828",
+      "data-relevance": "82",
+      "data-term": "farm",
+      "data-encoded-term": "farm",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "158828",
+        "w2v",
+        "1"
+      ]
+    },
+    "cottages": {
+      "data-frequency": "10946",
+      "data-relevance": "81",
+      "data-term": "cottages",
+      "data-encoded-term": "cottages",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10946",
+        "w2v",
+        "1"
+      ]
+    },
+    "retirement": {
+      "data-frequency": "110015",
+      "data-relevance": "80",
+      "data-term": "retirement",
+      "data-encoded-term": "retirement",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "110015",
+        "w2v",
+        "1"
+      ]
+    },
+    "custodian": {
+      "data-frequency": "4248",
+      "data-relevance": "79",
+      "data-term": "custodian",
+      "data-encoded-term": "custodian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4248",
+        "w2v",
+        "1"
+      ]
+    },
+    "unpaid": {
+      "data-frequency": "8280",
+      "data-relevance": "78",
+      "data-term": "unpaid",
+      "data-encoded-term": "unpaid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8280",
+        "w2v",
+        "1"
+      ]
+    },
+    "unemployed": {
+      "data-frequency": "11223",
+      "data-relevance": "77",
+      "data-term": "unemployed",
+      "data-encoded-term": "unemployed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11223",
+        "w2v",
+        "1"
+      ]
+    },
+    "pensions": {
+      "data-frequency": "9400",
+      "data-relevance": "76",
+      "data-term": "pensions",
+      "data-encoded-term": "pensions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9400",
+        "w2v",
+        "1"
+      ]
+    },
+    "unparished": {
+      "data-frequency": "1092",
+      "data-relevance": "75",
+      "data-term": "unparished",
+      "data-encoded-term": "unparished",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1092",
+        "w2v",
+        "1"
+      ]
+    },
+    "pension": {
+      "data-frequency": "18480",
+      "data-relevance": "74",
+      "data-term": "pension",
+      "data-encoded-term": "pension",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18480",
+        "w2v",
+        "1"
+      ]
+    },
+    "hires": {
+      "data-frequency": "121024",
+      "data-relevance": "73",
+      "data-term": "hires",
+      "data-encoded-term": "hires",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "121024",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "parking": {
+      "data-frequency": "46992",
+      "data-relevance": "72",
+      "data-term": "parking",
+      "data-encoded-term": "parking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46992",
+        "w2v",
+        "1"
+      ]
+    },
+    "slave": {
+      "data-frequency": "45466",
+      "data-relevance": "71",
+      "data-term": "slave",
+      "data-encoded-term": "slave",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45466",
+        "w2v",
+        "1"
+      ]
+    },
+    "employers": {
+      "data-frequency": "18285",
+      "data-relevance": "70",
+      "data-term": "employers",
+      "data-encoded-term": "employers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18285",
+        "w2v",
+        "1"
+      ]
+    },
+    "franchisee": {
+      "data-frequency": "1069",
+      "data-relevance": "69",
+      "data-term": "franchisee",
+      "data-encoded-term": "franchisee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1069",
+        "w2v",
+        "1"
+      ]
+    },
+    "insurance": {
+      "data-frequency": "66115",
+      "data-relevance": "68",
+      "data-term": "insurance",
+      "data-encoded-term": "insurance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66115",
+        "w2v",
+        "1"
+      ]
+    },
+    "leased": {
+      "data-frequency": "23852",
+      "data-relevance": "67",
+      "data-term": "leased",
+      "data-encoded-term": "leased",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23852",
+        "w2v",
+        "1"
+      ]
+    },
+    "wealthy": {
+      "data-frequency": "52531",
+      "data-relevance": "66",
+      "data-term": "wealthy",
+      "data-encoded-term": "wealthy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52531",
+        "w2v",
+        "1"
+      ]
+    },
+    "single-family": {
+      "data-frequency": "149990",
+      "data-relevance": "65",
+      "data-term": "single-family",
+      "data-encoded-term": "single-family",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "149990",
+        "w2v",
+        "1"
+      ]
+    },
+    "charterer": {
+      "data-frequency": "86443",
+      "data-relevance": "64",
+      "data-term": "charterer",
+      "data-encoded-term": "charterer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "86443",
+        "ol",
+        "1"
+      ]
+    },
+    "run-down": {
+      "data-frequency": "132572",
+      "data-relevance": "63",
+      "data-term": "run-down",
+      "data-encoded-term": "run-down",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "132572",
+        "w2v",
+        "1"
+      ]
+    },
+    "land-owning": {
+      "data-frequency": "546",
+      "data-relevance": "62",
+      "data-term": "land-owning",
+      "data-encoded-term": "land-owning",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "546",
+        "w2v",
+        "1"
+      ]
+    },
+    "sterculiaceae": {
+      "data-frequency": "198",
+      "data-relevance": "61",
+      "data-term": "sterculiaceae",
+      "data-encoded-term": "sterculiaceae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "198",
+        "w2v",
+        "1"
+      ]
+    },
+    "multifamily": {
+      "data-frequency": "520",
+      "data-relevance": "60",
+      "data-term": "multifamily",
+      "data-encoded-term": "multifamily",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "520",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "drop-off": {
+      "data-frequency": "85632",
+      "data-relevance": "59",
+      "data-term": "drop-off",
+      "data-encoded-term": "drop-off",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "85632",
+        "ol",
+        "1"
+      ]
+    },
+    "small-business": {
+      "data-frequency": "137491",
+      "data-relevance": "58",
+      "data-term": "small-business",
+      "data-encoded-term": "small-business",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "137491",
+        "w2v",
+        "1"
+      ]
+    },
+    "sublessee": {
+      "data-frequency": "-1",
+      "data-relevance": "57",
+      "data-term": "sublessee",
+      "data-encoded-term": "sublessee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "subtenant": {
+      "data-frequency": "42",
+      "data-relevance": "56",
+      "data-term": "subtenant",
+      "data-encoded-term": "subtenant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "42",
+        "ol",
+        "1"
+      ]
+    },
+    "undertenant": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "undertenant",
+      "data-encoded-term": "undertenant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "slumlord": {
+      "data-frequency": "99",
+      "data-relevance": "54",
+      "data-term": "slumlord",
+      "data-encoded-term": "slumlord",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "99",
+        "ol",
+        "1"
+      ]
+    },
+    "undertenancy": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "undertenancy",
+      "data-encoded-term": "undertenancy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "rachmanism": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "rachmanism",
+      "data-encoded-term": "rachmanism",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "underlease": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "underlease",
+      "data-encoded-term": "underlease",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pendicler": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "pendicler",
+      "data-encoded-term": "pendicler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pendicle": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "pendicle",
+      "data-encoded-term": "pendicle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "avenage": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "avenage",
+      "data-encoded-term": "avenage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "disgavel": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "disgavel",
+      "data-encoded-term": "disgavel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "formedon": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "formedon",
+      "data-encoded-term": "formedon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgagor": {
+      "data-frequency": "97",
+      "data-relevance": "45",
+      "data-term": "mortgagor",
+      "data-encoded-term": "mortgagor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "97",
+        "ol",
+        "1"
+      ]
+    },
+    "gavelkind": {
+      "data-frequency": "61",
+      "data-relevance": "44",
+      "data-term": "gavelkind",
+      "data-encoded-term": "gavelkind",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "61",
+        "ol",
+        "1"
+      ]
+    },
+    "cessavit": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "cessavit",
+      "data-encoded-term": "cessavit",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "subinfeudation": {
+      "data-frequency": "68",
+      "data-relevance": "42",
+      "data-term": "subinfeudation",
+      "data-encoded-term": "subinfeudation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "68",
+        "ol",
+        "1"
+      ]
+    },
+    "subletting": {
+      "data-frequency": "82",
+      "data-relevance": "41",
+      "data-term": "subletting",
+      "data-encoded-term": "subletting",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "bywoner": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "bywoner",
+      "data-encoded-term": "bywoner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "feudary": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "feudary",
+      "data-encoded-term": "feudary",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "reddendum": {
+      "data-frequency": "-1",
+      "data-relevance": "38",
+      "data-term": "reddendum",
+      "data-encoded-term": "reddendum",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "cornage": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "cornage",
+      "data-encoded-term": "cornage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "custumal": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "custumal",
+      "data-encoded-term": "custumal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "renaissant": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "renaissant",
+      "data-encoded-term": "renaissant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "foregift": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "foregift",
+      "data-encoded-term": "foregift",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "allottee": {
+      "data-frequency": "-1",
+      "data-relevance": "33",
+      "data-term": "allottee",
+      "data-encoded-term": "allottee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "servicer": {
+      "data-frequency": "139",
+      "data-relevance": "32",
+      "data-term": "servicer",
+      "data-encoded-term": "servicer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "139",
+        "ol",
+        "1"
+      ]
+    },
+    "conveyancer": {
+      "data-frequency": "280",
+      "data-relevance": "31",
+      "data-term": "conveyancer",
+      "data-encoded-term": "conveyancer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "280",
+        "ol",
+        "1"
+      ]
+    },
+    "gaviidae": {
+      "data-frequency": "221",
+      "data-relevance": "30",
+      "data-term": "gaviidae",
+      "data-encoded-term": "gaviidae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "221",
+        "ol",
+        "1"
+      ]
+    },
+    "nonresidence": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "nonresidence",
+      "data-encoded-term": "nonresidence",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "homebuyer": {
+      "data-frequency": "67",
+      "data-relevance": "28",
+      "data-term": "homebuyer",
+      "data-encoded-term": "homebuyer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "disproperty": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "disproperty",
+      "data-encoded-term": "disproperty",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "allodium": {
+      "data-frequency": "74",
+      "data-relevance": "26",
+      "data-term": "allodium",
+      "data-encoded-term": "allodium",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "wildfell": {
+      "data-frequency": "97",
+      "data-relevance": "25",
+      "data-term": "wildfell",
+      "data-encoded-term": "wildfell",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "97",
+        "w2v",
+        "1"
+      ]
+    },
+    "antirenter": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "antirenter",
+      "data-encoded-term": "antirenter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sharecropping": {
+      "data-frequency": "412",
+      "data-relevance": "23",
+      "data-term": "sharecropping",
+      "data-encoded-term": "sharecropping",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "412",
+        "w2v",
+        "1"
+      ]
+    },
+    "co-op": {
+      "data-frequency": "8820",
+      "data-relevance": "22",
+      "data-term": "co-op",
+      "data-encoded-term": "co-op",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8820",
+        "w2v",
+        "1"
+      ]
+    },
+    "chenopodiaceae": {
+      "data-frequency": "295",
+      "data-relevance": "21",
+      "data-term": "chenopodiaceae",
+      "data-encoded-term": "chenopodiaceae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "295",
+        "w2v",
+        "1"
+      ]
+    },
+    "monogeneric": {
+      "data-frequency": "218",
+      "data-relevance": "20",
+      "data-term": "monogeneric",
+      "data-encoded-term": "monogeneric",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "218",
+        "w2v",
+        "1"
+      ]
+    },
+    "urban-type": {
+      "data-frequency": "57851",
+      "data-relevance": "19",
+      "data-term": "urban-type",
+      "data-encoded-term": "urban-type",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "57851",
+        "w2v",
+        "1"
+      ]
+    },
+    "childfree": {
+      "data-frequency": "48",
+      "data-relevance": "18",
+      "data-term": "childfree",
+      "data-encoded-term": "childfree",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "w2v",
+        "1"
+      ]
+    },
+    "at-will": {
+      "data-frequency": "603348",
+      "data-relevance": "17",
+      "data-term": "at-will",
+      "data-encoded-term": "at-will",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "603348",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-employed": {
+      "data-frequency": "27065",
+      "data-relevance": "16",
+      "data-term": "self-employed",
+      "data-encoded-term": "self-employed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "27065",
+        "w2v",
+        "1"
+      ]
+    },
+    "constructive eviction": {
+      "data-frequency": "-1",
+      "data-relevance": "15",
+      "data-term": "constructive eviction",
+      "data-encoded-term": "constructive%20eviction",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "anchor tenant": {
+      "data-frequency": "459",
+      "data-relevance": "14",
+      "data-term": "anchor tenant",
+      "data-encoded-term": "anchor%20tenant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "459",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "hire out": {
+      "data-frequency": "96",
+      "data-relevance": "13",
+      "data-term": "hire out",
+      "data-encoded-term": "hire%20out",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "96",
+        "ol",
+        "1"
+      ]
+    },
+    "life estate": {
+      "data-frequency": "206",
+      "data-relevance": "12",
+      "data-term": "life estate",
+      "data-encoded-term": "life%20estate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "206",
+        "ol",
+        "1"
+      ]
+    },
+    "absentee landlord": {
+      "data-frequency": "478",
+      "data-relevance": "11",
+      "data-term": "absentee landlord",
+      "data-encoded-term": "absentee%20landlord",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "478",
+        "ol",
+        "1"
+      ]
+    },
+    "key money": {
+      "data-frequency": "44",
+      "data-relevance": "10",
+      "data-term": "key money",
+      "data-encoded-term": "key%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "guarantor": {
+      "data-frequency": "875",
+      "data-relevance": "9",
+      "data-term": "guarantor",
+      "data-encoded-term": "guarantor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "875",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "sq ft": {
+      "data-frequency": "24999",
+      "data-relevance": "8",
+      "data-term": "sq ft",
+      "data-encoded-term": "sq%20ft",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "24999",
+        "ol",
+        "1"
+      ]
+    },
+    "houseguest": {
+      "data-frequency": "501",
+      "data-relevance": "7",
+      "data-term": "houseguest",
+      "data-encoded-term": "houseguest",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "501",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "workplace": {
+      "data-frequency": "16052",
+      "data-relevance": "6",
+      "data-term": "workplace",
+      "data-encoded-term": "workplace",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "16052",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lord": {
+      "data-frequency": "200039",
+      "data-relevance": "5",
+      "data-term": "lord",
+      "data-encoded-term": "lord",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "200039",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "sub": {
+      "data-frequency": "123599",
+      "data-relevance": "4",
+      "data-term": "sub",
+      "data-encoded-term": "sub",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "123599",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "that": {
+      "data-frequency": "3048113",
+      "data-relevance": "3",
+      "data-term": "that",
+      "data-encoded-term": "that",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3048113",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "neighbor": {
+      "data-frequency": "20053",
+      "data-relevance": "2",
+      "data-term": "neighbor",
+      "data-encoded-term": "neighbor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "20053",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "organization": {
+      "data-frequency": "289009",
+      "data-relevance": "1",
+      "data-term": "organization",
+      "data-encoded-term": "organization",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "289009",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "broken": {
+      "data-frequency": "132039",
+      "data-relevance": "0",
+      "data-term": "broken",
+      "data-encoded-term": "broken",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "132039",
+        "reddit-slashes",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "tenant",
+      "tenantless"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "Tenants are obligated to pay their rent on time.",
+        "ru": "Жильцы обязаны вовремя платить за квартиру."
+      },
+      {
+        "en": "The laundry in the basement is for tenants only.",
+        "ru": "Прачечная в подвале дома — только для его жильцов."
+      },
+      {
+        "en": "The landlord evicted the tenants after they had not paid the rent for four months",
+        "ru": "Домовладелец выселил жильцов после того, как они четыре месяца не платили за квартиру."
+      },
+      {
+        "en": "Tenants face a 20% rent rise.",
+        "ru": "Арендаторы сталкиваются с 20% процентным ростом арендной платы."
+      },
+      {
+        "en": "His usual tenants bemadded his adversaries.",
+        "ru": "Его постоянные жильцы просто сводили с ума его конкурентов."
+      },
+      {
+        "en": "International Union of Tenants",
+        "ru": "Международный союз арендаторов"
+      },
+      {
+        "en": "Tenants have the right to use the communal gardens.",
+        "ru": "Жители могут пользоваться общественными садами."
+      },
+      {
+        "en": "We inherited the furniture from the previous tenants.",
+        "ru": "Мы унаследовали мебель от предыдущих жильцов."
+      },
+      {
+        "en": "Tenants have legal liability for any damage they cause.",
+        "ru": "Арендаторы имеют юридическую ответственность за любой ущерб, который они наносят."
+      },
+      {
+        "en": "We have computerazed the information about council tenants.",
+        "ru": "Мы компьютеризировали информацию об арендаторах муниципального жилья."
+      },
+      {
+        "en": "Council tenants are not allowed to have dogs in there flats.",
+        "ru": "Наниматели муниципальной собственности не вправе содержать собак в своих квартирах."
+      },
+      {
+        "en": "Poor farmers, whether owners or tenants, will be worst affected.",
+        "ru": "Бедные фермеры, будь то владельцы или арендаторы, пострадают больше всего."
+      },
+      {
+        "en": "Tenants are complaining about the landlord's neglect of the property.",
+        "ru": "Жильцы жалуются на то, что домовладелец не уделяет своему имуществу должного внимания."
+      },
+      {
+        "en": "The landlord fixed the heat, but the tenants still were not mollified.",
+        "ru": "Владелец дома починил отопление, но жильцы так и не успокоились."
+      },
+      {
+        "en": "It is within the councils jurisdiction to sell council houses to tenants.",
+        "ru": "Совет вправе продавать муниципальные дома их арендаторам."
+      },
+      {
+        "en": "The landlord wanted to evict the tenants so he banged on the pipes every morning at 3 a.m.",
+        "ru": "Домовладелец хотел выселить жильцов, и поэтому каждую ночь в три часа стучал по трубам."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "tenant"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "tenant",
+      "tenantless"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "lease",
+      "renter",
+      "owner",
+      "landlord",
+      "rental",
+      "tenant",
+      "lessee",
+      "homeowner",
+      "concierge",
+      "owners",
+      "leaseholder",
+      "renoviction",
+      "renters"
+    ]
+  }
+}

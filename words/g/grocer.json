@@ -1,0 +1,7963 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "grocery": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/n/,/c/en/grocery/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/grocer/n",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/grocery",
+          "@type": "Node",
+          "label": "grocery",
+          "language": "en",
+          "term": "/c/en/grocery"
+        }
+      },
+      "gross": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/gross/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/gross",
+          "@type": "Node",
+          "label": "gross",
+          "language": "en",
+          "term": "/c/en/gross"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "grocers": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocers/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocers/n",
+          "@type": "Node",
+          "label": "grocers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocers"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "grocery store": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocery_store/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocery_store/n",
+          "@type": "Node",
+          "label": "grocery store",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocery_store"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "sell": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/v/,/c/en/sell/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocer/v",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/sell",
+          "@type": "Node",
+          "label": "sell",
+          "language": "en",
+          "term": "/c/en/sell"
+        }
+      },
+      "household": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/n/,/c/en/household/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocer/n",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/household",
+          "@type": "Node",
+          "label": "household",
+          "language": "en",
+          "term": "/c/en/household"
+        }
+      },
+      "greengrocer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/greengrocer/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/greengrocer/n",
+          "@type": "Node",
+          "label": "greengrocer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/greengrocer"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "groceress": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/groceress/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/groceress/n",
+          "@type": "Node",
+          "label": "groceress",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/groceress"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "groceries": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/groceries/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/groceries/n",
+          "@type": "Node",
+          "label": "groceries",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/groceries"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "groceryman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/groceryman/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/groceryman/n",
+          "@type": "Node",
+          "label": "groceryman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/groceryman"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "foodstuff": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/n/,/c/en/foodstuff/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocer/n",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/foodstuff",
+          "@type": "Node",
+          "label": "foodstuff",
+          "language": "en",
+          "term": "/c/en/foodstuff"
+        }
+      },
+      "symbol group": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/symbol_group/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/symbol_group/n",
+          "@type": "Node",
+          "label": "symbol group",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/symbol_group"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "retail": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/n/,/c/en/retail/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocer/n",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/retail",
+          "@type": "Node",
+          "label": "retail",
+          "language": "en",
+          "term": "/c/en/retail"
+        }
+      },
+      "item": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/n/,/c/en/item/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocer/n",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/item",
+          "@type": "Node",
+          "label": "item",
+          "language": "en",
+          "term": "/c/en/item"
+        }
+      },
+      "modi": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/modi/n/wikt/en_2/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/modi/n/wikt/en_2",
+          "@type": "Node",
+          "label": "modi",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/modi"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "food": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/food/]",
+        "weight": 0.3719999999999999,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/food",
+          "@type": "Node",
+          "label": "food",
+          "language": "en",
+          "term": "/c/en/food"
+        }
+      },
+      "person": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/person/]",
+        "weight": 0.29400000000000004,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/person",
+          "@type": "Node",
+          "label": "person",
+          "language": "en",
+          "term": "/c/en/person"
+        }
+      },
+      "selling": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/selling/]",
+        "weight": 0.16699999999999982,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/selling",
+          "@type": "Node",
+          "label": "selling",
+          "language": "en",
+          "term": "/c/en/selling"
+        }
+      },
+      "selling person": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/selling_person/]",
+        "weight": 0.16699999999999982,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/selling_person",
+          "@type": "Node",
+          "label": "selling person",
+          "language": "en",
+          "term": "/c/en/selling_person"
+        }
+      },
+      "food supplier": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/food_supplier/]",
+        "weight": 0.16599999999999993,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/food_supplier",
+          "@type": "Node",
+          "label": "food supplier",
+          "language": "en",
+          "term": "/c/en/food_supplier"
+        }
+      },
+      "supplier": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/supplier/]",
+        "weight": 0.16599999999999993,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/supplier",
+          "@type": "Node",
+          "label": "supplier",
+          "language": "en",
+          "term": "/c/en/supplier"
+        }
+      },
+      "vegetable seller": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/vegetable_seller/]",
+        "weight": 0.16400000000000015,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/vegetable_seller",
+          "@type": "Node",
+          "label": "vegetable seller",
+          "language": "en",
+          "term": "/c/en/vegetable_seller"
+        }
+      },
+      "vegetable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/vegetable/]",
+        "weight": 0.16400000000000015,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/vegetable",
+          "@type": "Node",
+          "label": "vegetable",
+          "language": "en",
+          "term": "/c/en/vegetable"
+        }
+      },
+      "seller": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/seller/]",
+        "weight": 0.16400000000000015,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/seller",
+          "@type": "Node",
+          "label": "seller",
+          "language": "en",
+          "term": "/c/en/seller"
+        }
+      },
+      "vegetables": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/vegetables/]",
+        "weight": 0.15799999999999992,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/vegetables",
+          "@type": "Node",
+          "label": "vegetables",
+          "language": "en",
+          "term": "/c/en/vegetables"
+        }
+      },
+      "produce": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/produce/]",
+        "weight": 0.14800000000000013,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/produce",
+          "@type": "Node",
+          "label": "produce",
+          "language": "en",
+          "term": "/c/en/produce"
+        }
+      },
+      "stocks": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/stocks/]",
+        "weight": 0.13600000000000012,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/stocks",
+          "@type": "Node",
+          "label": "stocks",
+          "language": "en",
+          "term": "/c/en/stocks"
+        }
+      },
+      "stocks store": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/stocks_store/]",
+        "weight": 0.13600000000000012,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/stocks_store",
+          "@type": "Node",
+          "label": "stocks store",
+          "language": "en",
+          "term": "/c/en/stocks_store"
+        }
+      },
+      "store": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/store/]",
+        "weight": 0.13600000000000012,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/store",
+          "@type": "Node",
+          "label": "store",
+          "language": "en",
+          "term": "/c/en/store"
+        }
+      },
+      "cucumber": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/cucumber/,/c/en/grocer/]",
+        "weight": 0.129,
+        "start": {
+          "@id": "/c/en/cucumber",
+          "@type": "Node",
+          "label": "cucumber",
+          "language": "en",
+          "term": "/c/en/cucumber"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "nice": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/nice/]",
+        "weight": 0.12699999999999978,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/nice",
+          "@type": "Node",
+          "label": "nice",
+          "language": "en",
+          "term": "/c/en/nice"
+        }
+      },
+      "nice person": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/nice_person/]",
+        "weight": 0.12699999999999978,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/nice_person",
+          "@type": "Node",
+          "label": "nice person",
+          "language": "en",
+          "term": "/c/en/nice_person"
+        }
+      },
+      "getting": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/getting/]",
+        "weight": 0.10499999999999998,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/getting",
+          "@type": "Node",
+          "label": "getting",
+          "language": "en",
+          "term": "/c/en/getting"
+        }
+      },
+      "getting food": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/getting_food/]",
+        "weight": 0.10499999999999998,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/getting_food",
+          "@type": "Node",
+          "label": "getting food",
+          "language": "en",
+          "term": "/c/en/getting_food"
+        }
+      },
+      "supermarket": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/supermarket/]",
+        "weight": 0.10199999999999987,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/supermarket",
+          "@type": "Node",
+          "label": "supermarket",
+          "language": "en",
+          "term": "/c/en/supermarket"
+        }
+      },
+      "salesman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/salesman/]",
+        "weight": 0.10099999999999998,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/salesman",
+          "@type": "Node",
+          "label": "salesman",
+          "language": "en",
+          "term": "/c/en/salesman"
+        }
+      },
+      "food salesman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/grocer/,/c/en/food_salesman/]",
+        "weight": 0.10099999999999998,
+        "start": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        },
+        "end": {
+          "@id": "/c/en/food_salesman",
+          "@type": "Node",
+          "label": "food salesman",
+          "language": "en",
+          "term": "/c/en/food_salesman"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "purveyor": {
+        "@id": "/a/[/r/Synonym/,/c/en/purveyor/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/purveyor/n",
+          "@type": "Node",
+          "label": "purveyor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/purveyor"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "middleman": {
+        "@id": "/a/[/r/Synonym/,/c/en/middleman/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/middleman/n",
+          "@type": "Node",
+          "label": "middleman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/middleman"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "grocers": {
+        "@id": "/a/[/r/FormOf/,/c/en/grocers/n/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocers/n",
+          "@type": "Node",
+          "label": "grocers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/grocers"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "grocering": {
+        "@id": "/a/[/r/FormOf/,/c/en/grocering/v/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocering/v",
+          "@type": "Node",
+          "label": "grocering",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/grocering"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      },
+      "grocered": {
+        "@id": "/a/[/r/FormOf/,/c/en/grocered/v/,/c/en/grocer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/grocered/v",
+          "@type": "Node",
+          "label": "grocered",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/grocered"
+        },
+        "end": {
+          "@id": "/c/en/grocer",
+          "@type": "Node",
+          "label": "grocer",
+          "language": "en",
+          "term": "/c/en/grocer"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "butcher": {
+      "data-frequency": "15376",
+      "data-relevance": "506",
+      "data-term": "butcher",
+      "data-encoded-term": "butcher",
+      "data-term-stats": [
+        "1",
+        "7.3",
+        "0.000",
+        "15376",
+        "ol,w2v,wiki|vec2",
+        "1"
+      ]
+    },
+    "supermarket": {
+      "data-frequency": "13144",
+      "data-relevance": "505",
+      "data-term": "supermarket",
+      "data-encoded-term": "supermarket",
+      "data-term-stats": [
+        "1",
+        "88.1",
+        "0.000",
+        "13144",
+        "cn5,ol,w2v,wiki|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "deli": {
+      "data-frequency": "7966",
+      "data-relevance": "504",
+      "data-term": "deli",
+      "data-encoded-term": "deli",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "7966",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "delicatessen": {
+      "data-frequency": "971",
+      "data-relevance": "503",
+      "data-term": "delicatessen",
+      "data-encoded-term": "delicatessen",
+      "data-term-stats": [
+        "1",
+        "33.4",
+        "0.000",
+        "971",
+        "cn5,ol,w2v,wiki|vec2",
+        "1"
+      ]
+    },
+    "store": {
+      "data-frequency": "155038",
+      "data-relevance": "502",
+      "data-term": "store",
+      "data-encoded-term": "store",
+      "data-term-stats": [
+        "1",
+        "7.7",
+        "0.000",
+        "155038",
+        "cn5,ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "greengrocer": {
+      "data-frequency": "286",
+      "data-relevance": "501",
+      "data-term": "greengrocer",
+      "data-encoded-term": "greengrocer",
+      "data-term-stats": [
+        "1",
+        "25.0",
+        "0.000",
+        "286",
+        "cn5,ol,w2v,wiki,wn",
+        "1"
+      ]
+    },
+    "retailer": {
+      "data-frequency": "11162",
+      "data-relevance": "500",
+      "data-term": "retailer",
+      "data-encoded-term": "retailer",
+      "data-term-stats": [
+        "1",
+        "7.4",
+        "0.000",
+        "11162",
+        "cn5,ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "grocery": {
+      "data-frequency": "14519",
+      "data-relevance": "499",
+      "data-term": "grocery",
+      "data-encoded-term": "grocery",
+      "data-term-stats": [
+        "1",
+        "11.0",
+        "0.000",
+        "14519",
+        "cn5,ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "hypermarket": {
+      "data-frequency": "837",
+      "data-relevance": "498",
+      "data-term": "hypermarket",
+      "data-encoded-term": "hypermarket",
+      "data-term-stats": [
+        "1",
+        "18.0",
+        "0.000",
+        "837",
+        "cn5,ol,wiki|vec2",
+        "1"
+      ]
+    },
+    "merchant": {
+      "data-frequency": "74874",
+      "data-relevance": "497",
+      "data-term": "merchant",
+      "data-encoded-term": "merchant",
+      "data-term-stats": [
+        "1",
+        "13.5",
+        "0.000",
+        "74874",
+        "cn5,ol,wn|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "shopper": {
+      "data-frequency": "1922",
+      "data-relevance": "496",
+      "data-term": "shopper",
+      "data-encoded-term": "shopper",
+      "data-term-stats": [
+        "1",
+        "12.7",
+        "0.000",
+        "1922",
+        "cn5,ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "pharmacy": {
+      "data-frequency": "18587",
+      "data-relevance": "495",
+      "data-term": "pharmacy",
+      "data-encoded-term": "pharmacy",
+      "data-term-stats": [
+        "1",
+        "6.3",
+        "0.000",
+        "18587",
+        "ol,wiki|vec2",
+        "1"
+      ]
+    },
+    "convenience store": {
+      "data-frequency": "3841",
+      "data-relevance": "494",
+      "data-term": "convenience store",
+      "data-encoded-term": "convenience%20store",
+      "data-term-stats": [
+        "1",
+        "9.1",
+        "0.000",
+        "3841",
+        "ol,wiki|vec2",
+        "1"
+      ]
+    },
+    "retail": {
+      "data-frequency": "65163",
+      "data-relevance": "493",
+      "data-term": "retail",
+      "data-encoded-term": "retail",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65163",
+        "wiki",
+        "1"
+      ]
+    },
+    "shopkeeper": {
+      "data-frequency": "2180",
+      "data-relevance": "492",
+      "data-term": "shopkeeper",
+      "data-encoded-term": "shopkeeper",
+      "data-term-stats": [
+        "1",
+        "6.6",
+        "0.000",
+        "2180",
+        "cn5,ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "tesco": {
+      "data-frequency": "3060",
+      "data-relevance": "491",
+      "data-term": "tesco",
+      "data-encoded-term": "tesco",
+      "data-term-stats": [
+        "1",
+        "6.3",
+        "0.000",
+        "3060",
+        "w2v,wiki|vec2",
+        "1"
+      ]
+    },
+    "superstore": {
+      "data-frequency": "1663",
+      "data-relevance": "490",
+      "data-term": "superstore",
+      "data-encoded-term": "superstore",
+      "data-term-stats": [
+        "1",
+        "6.2",
+        "0.000",
+        "1663",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "489",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "233063",
+        "wiki",
+        "1"
+      ]
+    },
+    "general store": {
+      "data-frequency": "7047",
+      "data-relevance": "488",
+      "data-term": "general store",
+      "data-encoded-term": "general%20store",
+      "data-term-stats": [
+        "1",
+        "6.2",
+        "0.000",
+        "7047",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "bakery": {
+      "data-frequency": "10463",
+      "data-relevance": "487",
+      "data-term": "bakery",
+      "data-encoded-term": "bakery",
+      "data-term-stats": [
+        "1",
+        "3.2",
+        "0.000",
+        "10463",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "grocery store": {
+      "data-frequency": "5912",
+      "data-relevance": "486",
+      "data-term": "grocery store",
+      "data-encoded-term": "grocery%20store",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "5912",
+        "cn5,ol|vec2",
+        "1"
+      ]
+    },
+    "chemist": {
+      "data-frequency": "-1",
+      "data-relevance": "485",
+      "data-term": "chemist",
+      "data-encoded-term": "chemist",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "dairy": {
+      "data-frequency": "25744",
+      "data-relevance": "484",
+      "data-term": "dairy",
+      "data-encoded-term": "dairy",
+      "data-term-stats": [
+        "1",
+        "3.7",
+        "0.000",
+        "25744",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "drugstore": {
+      "data-frequency": "1722",
+      "data-relevance": "483",
+      "data-term": "drugstore",
+      "data-encoded-term": "drugstore",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "1722",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bookseller": {
+      "data-frequency": "5176",
+      "data-relevance": "482",
+      "data-term": "bookseller",
+      "data-encoded-term": "bookseller",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "5176",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "produce": {
+      "data-frequency": "158669",
+      "data-relevance": "481",
+      "data-term": "produce",
+      "data-encoded-term": "produce",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "158669",
+        "wiki",
+        "1"
+      ]
+    },
+    "diner": {
+      "data-frequency": "-1",
+      "data-relevance": "480",
+      "data-term": "diner",
+      "data-encoded-term": "diner",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "wholesaler": {
+      "data-frequency": "1628",
+      "data-relevance": "479",
+      "data-term": "wholesaler",
+      "data-encoded-term": "wholesaler",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "1628",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "florist": {
+      "data-frequency": "1356",
+      "data-relevance": "478",
+      "data-term": "florist",
+      "data-encoded-term": "florist",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "1356",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "market": {
+      "data-frequency": "241139",
+      "data-relevance": "477",
+      "data-term": "market",
+      "data-encoded-term": "market",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "241139",
+        "cn5",
+        "1"
+      ]
+    },
+    "restaurant": {
+      "data-frequency": "69541",
+      "data-relevance": "476",
+      "data-term": "restaurant",
+      "data-encoded-term": "restaurant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "69541",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "united kingdom": {
+      "data-frequency": "466760",
+      "data-relevance": "475",
+      "data-term": "united kingdom",
+      "data-encoded-term": "united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "466760",
+        "wiki",
+        "1"
+      ]
+    },
+    "convenience": {
+      "data-frequency": "-1",
+      "data-relevance": "474",
+      "data-term": "convenience",
+      "data-encoded-term": "convenience",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "supermarkets": {
+      "data-frequency": "7289",
+      "data-relevance": "473",
+      "data-term": "supermarkets",
+      "data-encoded-term": "supermarkets",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "7289",
+        "vec2",
+        "1"
+      ]
+    },
+    "retail store": {
+      "data-frequency": "1966",
+      "data-relevance": "472",
+      "data-term": "retail store",
+      "data-encoded-term": "retail%20store",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "1966",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "vendor": {
+      "data-frequency": "8965",
+      "data-relevance": "471",
+      "data-term": "vendor",
+      "data-encoded-term": "vendor",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "8965",
+        "cn5,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "merchandiser": {
+      "data-frequency": "18321",
+      "data-relevance": "470",
+      "data-term": "merchandiser",
+      "data-encoded-term": "merchandiser",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "18321",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "grower": {
+      "data-frequency": "1969",
+      "data-relevance": "469",
+      "data-term": "grower",
+      "data-encoded-term": "grower",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "1969",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "supermarket chain": {
+      "data-frequency": "4938",
+      "data-relevance": "468",
+      "data-term": "supermarket chain",
+      "data-encoded-term": "supermarket%20chain",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "4938",
+        "vec2",
+        "1"
+      ]
+    },
+    "shop": {
+      "data-frequency": "98100",
+      "data-relevance": "467",
+      "data-term": "shop",
+      "data-encoded-term": "shop",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "98100",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "salesman": {
+      "data-frequency": "11799",
+      "data-relevance": "466",
+      "data-term": "salesman",
+      "data-encoded-term": "salesman",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "11799",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "walmart": {
+      "data-frequency": "4072",
+      "data-relevance": "465",
+      "data-term": "walmart",
+      "data-encoded-term": "walmart",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "4072",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "supermarket chains": {
+      "data-frequency": "4990",
+      "data-relevance": "464",
+      "data-term": "supermarket chains",
+      "data-encoded-term": "supermarket%20chains",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "4990",
+        "vec2",
+        "1"
+      ]
+    },
+    "mall": {
+      "data-frequency": "39342",
+      "data-relevance": "463",
+      "data-term": "mall",
+      "data-encoded-term": "mall",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "39342",
+        "cn5,ol|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "grocery chains": {
+      "data-frequency": "2939",
+      "data-relevance": "462",
+      "data-term": "grocery chains",
+      "data-encoded-term": "grocery%20chains",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2939",
+        "vec2",
+        "1"
+      ]
+    },
+    "grocer": {
+      "data-frequency": "3256",
+      "data-relevance": "461",
+      "data-term": "grocer",
+      "data-encoded-term": "grocer",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "3256",
+        "vec2",
+        "1"
+      ]
+    },
+    "cafe": {
+      "data-frequency": "-1",
+      "data-relevance": "460",
+      "data-term": "cafe",
+      "data-encoded-term": "cafe",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cashier": {
+      "data-frequency": "3138",
+      "data-relevance": "459",
+      "data-term": "cashier",
+      "data-encoded-term": "cashier",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "3138",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "bodega": {
+      "data-frequency": "2362",
+      "data-relevance": "458",
+      "data-term": "bodega",
+      "data-encoded-term": "bodega",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "2362",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "farmer": {
+      "data-frequency": "59036",
+      "data-relevance": "457",
+      "data-term": "farmer",
+      "data-encoded-term": "farmer",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "59036",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "druggist": {
+      "data-frequency": "895",
+      "data-relevance": "456",
+      "data-term": "druggist",
+      "data-encoded-term": "druggist",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "895",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "grocery stores": {
+      "data-frequency": "2654",
+      "data-relevance": "455",
+      "data-term": "grocery stores",
+      "data-encoded-term": "grocery%20stores",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2654",
+        "vec2",
+        "1"
+      ]
+    },
+    "farm": {
+      "data-frequency": "-1",
+      "data-relevance": "454",
+      "data-term": "farm",
+      "data-encoded-term": "farm",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "village": {
+      "data-frequency": "-1",
+      "data-relevance": "453",
+      "data-term": "village",
+      "data-encoded-term": "village",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "liquor": {
+      "data-frequency": "-1",
+      "data-relevance": "452",
+      "data-term": "liquor",
+      "data-encoded-term": "liquor",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "storekeeper": {
+      "data-frequency": "1566",
+      "data-relevance": "451",
+      "data-term": "storekeeper",
+      "data-encoded-term": "storekeeper",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1566",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "whole foods": {
+      "data-frequency": "28545",
+      "data-relevance": "450",
+      "data-term": "whole foods",
+      "data-encoded-term": "whole%20foods",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "28545",
+        "vec2",
+        "1"
+      ]
+    },
+    "storeowner": {
+      "data-frequency": "62",
+      "data-relevance": "449",
+      "data-term": "storeowner",
+      "data-encoded-term": "storeowner",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "62",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "coffee": {
+      "data-frequency": "51458",
+      "data-relevance": "448",
+      "data-term": "coffee",
+      "data-encoded-term": "coffee",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "51458",
+        "wiki",
+        "1"
+      ]
+    },
+    "aldi": {
+      "data-frequency": "1757",
+      "data-relevance": "447",
+      "data-term": "aldi",
+      "data-encoded-term": "aldi",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1757",
+        "vec2",
+        "1"
+      ]
+    },
+    "baker": {
+      "data-frequency": "125100",
+      "data-relevance": "446",
+      "data-term": "baker",
+      "data-encoded-term": "baker",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "125100",
+        "ol|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "emporium": {
+      "data-frequency": "2620",
+      "data-relevance": "445",
+      "data-term": "emporium",
+      "data-encoded-term": "emporium",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "2620",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "fishmonger": {
+      "data-frequency": "521",
+      "data-relevance": "444",
+      "data-term": "fishmonger",
+      "data-encoded-term": "fishmonger",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "521",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "supercenter": {
+      "data-frequency": "353",
+      "data-relevance": "443",
+      "data-term": "supercenter",
+      "data-encoded-term": "supercenter",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "353",
+        "vec2",
+        "1"
+      ]
+    },
+    "eatery": {
+      "data-frequency": "1335",
+      "data-relevance": "442",
+      "data-term": "eatery",
+      "data-encoded-term": "eatery",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1335",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "chain store": {
+      "data-frequency": "472",
+      "data-relevance": "441",
+      "data-term": "chain store",
+      "data-encoded-term": "chain%20store",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "472",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "bookstore": {
+      "data-frequency": "7686",
+      "data-relevance": "440",
+      "data-term": "bookstore",
+      "data-encoded-term": "bookstore",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "7686",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "drugstore chain": {
+      "data-frequency": "411",
+      "data-relevance": "439",
+      "data-term": "drugstore chain",
+      "data-encoded-term": "drugstore%20chain",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "411",
+        "vec2",
+        "1"
+      ]
+    },
+    "newsagent": {
+      "data-frequency": "755",
+      "data-relevance": "438",
+      "data-term": "newsagent",
+      "data-encoded-term": "newsagent",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "755",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "tobacconist": {
+      "data-frequency": "397",
+      "data-relevance": "437",
+      "data-term": "tobacconist",
+      "data-encoded-term": "tobacconist",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "397",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "safeway": {
+      "data-frequency": "1491",
+      "data-relevance": "436",
+      "data-term": "safeway",
+      "data-encoded-term": "safeway",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1491",
+        "vec2",
+        "1"
+      ]
+    },
+    "wholesale": {
+      "data-frequency": "15666",
+      "data-relevance": "435",
+      "data-term": "wholesale",
+      "data-encoded-term": "wholesale",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "15666",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "mart": {
+      "data-frequency": "13328",
+      "data-relevance": "434",
+      "data-term": "mart",
+      "data-encoded-term": "mart",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "13328",
+        "cn5,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "stores": {
+      "data-frequency": "64333",
+      "data-relevance": "433",
+      "data-term": "stores",
+      "data-encoded-term": "stores",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "64333",
+        "vec2",
+        "1"
+      ]
+    },
+    "grocers": {
+      "data-frequency": "4950",
+      "data-relevance": "432",
+      "data-term": "grocers",
+      "data-encoded-term": "grocers",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "4950",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "costco": {
+      "data-frequency": "1162",
+      "data-relevance": "431",
+      "data-term": "costco",
+      "data-encoded-term": "costco",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1162",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "supervalu": {
+      "data-frequency": "544",
+      "data-relevance": "430",
+      "data-term": "supervalu",
+      "data-encoded-term": "supervalu",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "544",
+        "vec2",
+        "1"
+      ]
+    },
+    "foods": {
+      "data-frequency": "33415",
+      "data-relevance": "429",
+      "data-term": "foods",
+      "data-encoded-term": "foods",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "33415",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "pharmacist": {
+      "data-frequency": "5263",
+      "data-relevance": "428",
+      "data-term": "pharmacist",
+      "data-encoded-term": "pharmacist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5263",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "kroger": {
+      "data-frequency": "2527",
+      "data-relevance": "427",
+      "data-term": "kroger",
+      "data-encoded-term": "kroger",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2527",
+        "vec2",
+        "1"
+      ]
+    },
+    "importer": {
+      "data-frequency": "3903",
+      "data-relevance": "426",
+      "data-term": "importer",
+      "data-encoded-term": "importer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3903",
+        "w2v",
+        "1"
+      ]
+    },
+    "fruit": {
+      "data-frequency": "67753",
+      "data-relevance": "425",
+      "data-term": "fruit",
+      "data-encoded-term": "fruit",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67753",
+        "wiki",
+        "1"
+      ]
+    },
+    "albertsons": {
+      "data-frequency": "2538",
+      "data-relevance": "424",
+      "data-term": "albertsons",
+      "data-encoded-term": "albertsons",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2538",
+        "vec2",
+        "1"
+      ]
+    },
+    "sainsbury's": {
+      "data-frequency": "1588",
+      "data-relevance": "423",
+      "data-term": "sainsbury's",
+      "data-encoded-term": "sainsbury's",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1588",
+        "wiki",
+        "1"
+      ]
+    },
+    "wal mart": {
+      "data-frequency": "2828",
+      "data-relevance": "422",
+      "data-term": "wal mart",
+      "data-encoded-term": "wal%20mart",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2828",
+        "vec2",
+        "1"
+      ]
+    },
+    "trader joe": {
+      "data-frequency": "-1",
+      "data-relevance": "421",
+      "data-term": "trader joe",
+      "data-encoded-term": "trader%20joe",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "confectionery": {
+      "data-frequency": "4210",
+      "data-relevance": "420",
+      "data-term": "confectionery",
+      "data-encoded-term": "confectionery",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "4210",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pizzeria": {
+      "data-frequency": "1330",
+      "data-relevance": "419",
+      "data-term": "pizzeria",
+      "data-encoded-term": "pizzeria",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1330",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "supercenters": {
+      "data-frequency": "73",
+      "data-relevance": "418",
+      "data-term": "supercenters",
+      "data-encoded-term": "supercenters",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "73",
+        "vec2",
+        "1"
+      ]
+    },
+    "canning": {
+      "data-frequency": "11111",
+      "data-relevance": "417",
+      "data-term": "canning",
+      "data-encoded-term": "canning",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "11111",
+        "wiki",
+        "1"
+      ]
+    },
+    "electronics retailer": {
+      "data-frequency": "1869",
+      "data-relevance": "416",
+      "data-term": "electronics retailer",
+      "data-encoded-term": "electronics%20retailer",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1869",
+        "vec2",
+        "1"
+      ]
+    },
+    "kroger co.": {
+      "data-frequency": "57",
+      "data-relevance": "415",
+      "data-term": "kroger co.",
+      "data-encoded-term": "kroger%20co.",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "57",
+        "vec2",
+        "1"
+      ]
+    },
+    "meat": {
+      "data-frequency": "40904",
+      "data-relevance": "414",
+      "data-term": "meat",
+      "data-encoded-term": "meat",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "40904",
+        "wiki",
+        "1"
+      ]
+    },
+    "burger chain": {
+      "data-frequency": "2314",
+      "data-relevance": "413",
+      "data-term": "burger chain",
+      "data-encoded-term": "burger%20chain",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2314",
+        "vec2",
+        "1"
+      ]
+    },
+    "luncheonette": {
+      "data-frequency": "152",
+      "data-relevance": "412",
+      "data-term": "luncheonette",
+      "data-encoded-term": "luncheonette",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "152",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "confectionary": {
+      "data-frequency": "256",
+      "data-relevance": "411",
+      "data-term": "confectionary",
+      "data-encoded-term": "confectionary",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "256",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "fine foods": {
+      "data-frequency": "531",
+      "data-relevance": "410",
+      "data-term": "fine foods",
+      "data-encoded-term": "fine%20foods",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "531",
+        "vec2",
+        "1"
+      ]
+    },
+    "strip mall": {
+      "data-frequency": "873",
+      "data-relevance": "409",
+      "data-term": "strip mall",
+      "data-encoded-term": "strip%20mall",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "873",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "organic foods": {
+      "data-frequency": "11215",
+      "data-relevance": "408",
+      "data-term": "organic foods",
+      "data-encoded-term": "organic%20foods",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "11215",
+        "vec2",
+        "1"
+      ]
+    },
+    "hamburger chain": {
+      "data-frequency": "1134",
+      "data-relevance": "407",
+      "data-term": "hamburger chain",
+      "data-encoded-term": "hamburger%20chain",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1134",
+        "vec2",
+        "1"
+      ]
+    },
+    "shoppers": {
+      "data-frequency": "4028",
+      "data-relevance": "406",
+      "data-term": "shoppers",
+      "data-encoded-term": "shoppers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "4028",
+        "vec2",
+        "1"
+      ]
+    },
+    "hypermarkets": {
+      "data-frequency": "1099",
+      "data-relevance": "405",
+      "data-term": "hypermarkets",
+      "data-encoded-term": "hypermarkets",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1099",
+        "vec2",
+        "1"
+      ]
+    },
+    "groceries": {
+      "data-frequency": "2809",
+      "data-relevance": "404",
+      "data-term": "groceries",
+      "data-encoded-term": "groceries",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2809",
+        "vec2",
+        "1"
+      ]
+    },
+    "loblaw": {
+      "data-frequency": "338",
+      "data-relevance": "403",
+      "data-term": "loblaw",
+      "data-encoded-term": "loblaw",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "338",
+        "vec2",
+        "1"
+      ]
+    },
+    "retailers": {
+      "data-frequency": "14958",
+      "data-relevance": "402",
+      "data-term": "retailers",
+      "data-encoded-term": "retailers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "14958",
+        "vec2",
+        "1"
+      ]
+    },
+    "publix": {
+      "data-frequency": "813",
+      "data-relevance": "401",
+      "data-term": "publix",
+      "data-encoded-term": "publix",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "813",
+        "vec2",
+        "1"
+      ]
+    },
+    "self-service": {
+      "data-frequency": "1689",
+      "data-relevance": "400",
+      "data-term": "self-service",
+      "data-encoded-term": "self-service",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1689",
+        "wiki",
+        "1"
+      ]
+    },
+    "foodland": {
+      "data-frequency": "457",
+      "data-relevance": "399",
+      "data-term": "foodland",
+      "data-encoded-term": "foodland",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "457",
+        "vec2",
+        "1"
+      ]
+    },
+    "family dollar": {
+      "data-frequency": "33078",
+      "data-relevance": "398",
+      "data-term": "family dollar",
+      "data-encoded-term": "family%20dollar",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "33078",
+        "vec2",
+        "1"
+      ]
+    },
+    "delis": {
+      "data-frequency": "465",
+      "data-relevance": "397",
+      "data-term": "delis",
+      "data-encoded-term": "delis",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "465",
+        "vec2",
+        "1"
+      ]
+    },
+    "giant eagle": {
+      "data-frequency": "15106",
+      "data-relevance": "396",
+      "data-term": "giant eagle",
+      "data-encoded-term": "giant%20eagle",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "15106",
+        "vec2",
+        "1"
+      ]
+    },
+    "kmart": {
+      "data-frequency": "1137",
+      "data-relevance": "395",
+      "data-term": "kmart",
+      "data-encoded-term": "kmart",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1137",
+        "vec2",
+        "1"
+      ]
+    },
+    "retailing": {
+      "data-frequency": "4727",
+      "data-relevance": "394",
+      "data-term": "retailing",
+      "data-encoded-term": "retailing",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "4727",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "dollar tree": {
+      "data-frequency": "9674",
+      "data-relevance": "393",
+      "data-term": "dollar tree",
+      "data-encoded-term": "dollar%20tree",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "9674",
+        "vec2",
+        "1"
+      ]
+    },
+    "merchants": {
+      "data-frequency": "88504",
+      "data-relevance": "392",
+      "data-term": "merchants",
+      "data-encoded-term": "merchants",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "88504",
+        "vec2",
+        "1"
+      ]
+    },
+    "bank": {
+      "data-frequency": "246136",
+      "data-relevance": "391",
+      "data-term": "bank",
+      "data-encoded-term": "bank",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "246136",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "wal mart supercenter": {
+      "data-frequency": "184",
+      "data-relevance": "390",
+      "data-term": "wal mart supercenter",
+      "data-encoded-term": "wal%20mart%20supercenter",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "184",
+        "vec2",
+        "1"
+      ]
+    },
+    "morrisons": {
+      "data-frequency": "876",
+      "data-relevance": "389",
+      "data-term": "morrisons",
+      "data-encoded-term": "morrisons",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "876",
+        "vec2",
+        "1"
+      ]
+    },
+    "peapod": {
+      "data-frequency": "73",
+      "data-relevance": "388",
+      "data-term": "peapod",
+      "data-encoded-term": "peapod",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "73",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "europe": {
+      "data-frequency": "476760",
+      "data-relevance": "387",
+      "data-term": "europe",
+      "data-encoded-term": "europe",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "476760",
+        "wiki",
+        "1"
+      ]
+    },
+    "chile": {
+      "data-frequency": "88322",
+      "data-relevance": "386",
+      "data-term": "chile",
+      "data-encoded-term": "chile",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "88322",
+        "wiki",
+        "1"
+      ]
+    },
+    "e tailer": {
+      "data-frequency": "49362",
+      "data-relevance": "385",
+      "data-term": "e tailer",
+      "data-encoded-term": "e%20tailer",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "49362",
+        "vec2",
+        "1"
+      ]
+    },
+    "butchers": {
+      "data-frequency": "3784",
+      "data-relevance": "384",
+      "data-term": "butchers",
+      "data-encoded-term": "butchers",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "3784",
+        "vec2",
+        "1"
+      ]
+    },
+    "winn dixie": {
+      "data-frequency": "666",
+      "data-relevance": "383",
+      "data-term": "winn dixie",
+      "data-encoded-term": "winn%20dixie",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "666",
+        "vec2",
+        "1"
+      ]
+    },
+    "trader joe's": {
+      "data-frequency": "2714",
+      "data-relevance": "382",
+      "data-term": "trader joe's",
+      "data-encoded-term": "trader%20joe's",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "2714",
+        "wiki",
+        "1"
+      ]
+    },
+    "harris teeter": {
+      "data-frequency": "525",
+      "data-relevance": "381",
+      "data-term": "harris teeter",
+      "data-encoded-term": "harris%20teeter",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "525",
+        "vec2",
+        "1"
+      ]
+    },
+    "department store": {
+      "data-frequency": "11801",
+      "data-relevance": "380",
+      "data-term": "department store",
+      "data-encoded-term": "department%20store",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "11801",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "milk bar": {
+      "data-frequency": "241",
+      "data-relevance": "379",
+      "data-term": "milk bar",
+      "data-encoded-term": "milk%20bar",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "241",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "sugarloaf": {
+      "data-frequency": "3069",
+      "data-relevance": "378",
+      "data-term": "sugarloaf",
+      "data-encoded-term": "sugarloaf",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3069",
+        "wiki",
+        "1"
+      ]
+    },
+    "spices": {
+      "data-frequency": "7222",
+      "data-relevance": "377",
+      "data-term": "spices",
+      "data-encoded-term": "spices",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7222",
+        "wiki",
+        "1"
+      ]
+    },
+    "tea": {
+      "data-frequency": "49007",
+      "data-relevance": "376",
+      "data-term": "tea",
+      "data-encoded-term": "tea",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "49007",
+        "wiki",
+        "1"
+      ]
+    },
+    "clothier": {
+      "data-frequency": "1467",
+      "data-relevance": "375",
+      "data-term": "clothier",
+      "data-encoded-term": "clothier",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1467",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "jeweler": {
+      "data-frequency": "1797",
+      "data-relevance": "374",
+      "data-term": "jeweler",
+      "data-encoded-term": "jeweler",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1797",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "middle-eastern": {
+      "data-frequency": "83703",
+      "data-relevance": "373",
+      "data-term": "middle-eastern",
+      "data-encoded-term": "middle-eastern",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "83703",
+        "wiki",
+        "1"
+      ]
+    },
+    "shopman": {
+      "data-frequency": "-1",
+      "data-relevance": "372",
+      "data-term": "shopman",
+      "data-encoded-term": "shopman",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "restaurateur": {
+      "data-frequency": "3388",
+      "data-relevance": "371",
+      "data-term": "restaurateur",
+      "data-encoded-term": "restaurateur",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3388",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "coupon": {
+      "data-frequency": "1835",
+      "data-relevance": "370",
+      "data-term": "coupon",
+      "data-encoded-term": "coupon",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1835",
+        "cn5",
+        "1"
+      ]
+    },
+    "time": {
+      "data-frequency": "2053299",
+      "data-relevance": "369",
+      "data-term": "time",
+      "data-encoded-term": "time",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2053299",
+        "wiki",
+        "1"
+      ]
+    },
+    "understored": {
+      "data-frequency": "-1",
+      "data-relevance": "368",
+      "data-term": "understored",
+      "data-encoded-term": "understored",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bazaar": {
+      "data-frequency": "12642",
+      "data-relevance": "367",
+      "data-term": "bazaar",
+      "data-encoded-term": "bazaar",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "12642",
+        "cn5",
+        "1"
+      ]
+    },
+    "boutique": {
+      "data-frequency": "7641",
+      "data-relevance": "366",
+      "data-term": "boutique",
+      "data-encoded-term": "boutique",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7641",
+        "cn5",
+        "1"
+      ]
+    },
+    "discounter": {
+      "data-frequency": "15996",
+      "data-relevance": "365",
+      "data-term": "discounter",
+      "data-encoded-term": "discounter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15996",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "iga": {
+      "data-frequency": "2790",
+      "data-relevance": "364",
+      "data-term": "iga",
+      "data-encoded-term": "iga",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2790",
+        "wiki",
+        "1"
+      ]
+    },
+    "shopping": {
+      "data-frequency": "57388",
+      "data-relevance": "363",
+      "data-term": "shopping",
+      "data-encoded-term": "shopping",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "57388",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "marketable": {
+      "data-frequency": "1630",
+      "data-relevance": "362",
+      "data-term": "marketable",
+      "data-encoded-term": "marketable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1630",
+        "cn5",
+        "1"
+      ]
+    },
+    "duka": {
+      "data-frequency": "785",
+      "data-relevance": "361",
+      "data-term": "duka",
+      "data-encoded-term": "duka",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "785",
+        "cn5",
+        "1"
+      ]
+    },
+    "confectioner": {
+      "data-frequency": "638",
+      "data-relevance": "360",
+      "data-term": "confectioner",
+      "data-encoded-term": "confectioner",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "638",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rome": {
+      "data-frequency": "137532",
+      "data-relevance": "359",
+      "data-term": "rome",
+      "data-encoded-term": "rome",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "137532",
+        "wiki",
+        "1"
+      ]
+    },
+    "newsstore": {
+      "data-frequency": "-1",
+      "data-relevance": "358",
+      "data-term": "newsstore",
+      "data-encoded-term": "newsstore",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "salesperson": {
+      "data-frequency": "727",
+      "data-relevance": "357",
+      "data-term": "salesperson",
+      "data-encoded-term": "salesperson",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "727",
+        "cn5",
+        "1"
+      ]
+    },
+    "marketplace": {
+      "data-frequency": "14856",
+      "data-relevance": "356",
+      "data-term": "marketplace",
+      "data-encoded-term": "marketplace",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14856",
+        "cn5",
+        "1"
+      ]
+    },
+    "butchershop": {
+      "data-frequency": "-1",
+      "data-relevance": "355",
+      "data-term": "butchershop",
+      "data-encoded-term": "butchershop",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "proprietor": {
+      "data-frequency": "9998",
+      "data-relevance": "354",
+      "data-term": "proprietor",
+      "data-encoded-term": "proprietor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9998",
+        "w2v",
+        "1"
+      ]
+    },
+    "storewide": {
+      "data-frequency": "-1",
+      "data-relevance": "353",
+      "data-term": "storewide",
+      "data-encoded-term": "storewide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "greengrocery": {
+      "data-frequency": "-1",
+      "data-relevance": "352",
+      "data-term": "greengrocery",
+      "data-encoded-term": "greengrocery",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antimarketing": {
+      "data-frequency": "-1",
+      "data-relevance": "351",
+      "data-term": "antimarketing",
+      "data-encoded-term": "antimarketing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "spar": {
+      "data-frequency": "4915",
+      "data-relevance": "350",
+      "data-term": "spar",
+      "data-encoded-term": "spar",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4915",
+        "wiki",
+        "1"
+      ]
+    },
+    "mace": {
+      "data-frequency": "7163",
+      "data-relevance": "349",
+      "data-term": "mace",
+      "data-encoded-term": "mace",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7163",
+        "wiki",
+        "1"
+      ]
+    },
+    "bagel": {
+      "data-frequency": "1486",
+      "data-relevance": "348",
+      "data-term": "bagel",
+      "data-encoded-term": "bagel",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1486",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonmarket": {
+      "data-frequency": "52",
+      "data-relevance": "347",
+      "data-term": "nonmarket",
+      "data-encoded-term": "nonmarket",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "marketeer": {
+      "data-frequency": "199",
+      "data-relevance": "346",
+      "data-term": "marketeer",
+      "data-encoded-term": "marketeer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "199",
+        "cn5",
+        "1"
+      ]
+    },
+    "marketwide": {
+      "data-frequency": "-1",
+      "data-relevance": "345",
+      "data-term": "marketwide",
+      "data-encoded-term": "marketwide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "convenience stores": {
+      "data-frequency": "1751",
+      "data-relevance": "344",
+      "data-term": "convenience stores",
+      "data-encoded-term": "convenience%20stores",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1751",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "blacksmith": {
+      "data-frequency": "8752",
+      "data-relevance": "343",
+      "data-term": "blacksmith",
+      "data-encoded-term": "blacksmith",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8752",
+        "w2v",
+        "1"
+      ]
+    },
+    "peddler": {
+      "data-frequency": "1336",
+      "data-relevance": "342",
+      "data-term": "peddler",
+      "data-encoded-term": "peddler",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1336",
+        "w2v",
+        "1"
+      ]
+    },
+    "storehouse": {
+      "data-frequency": "2153",
+      "data-relevance": "341",
+      "data-term": "storehouse",
+      "data-encoded-term": "storehouse",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2153",
+        "cn5",
+        "1"
+      ]
+    },
+    "storefront": {
+      "data-frequency": "2737",
+      "data-relevance": "340",
+      "data-term": "storefront",
+      "data-encoded-term": "storefront",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2737",
+        "cn5",
+        "1"
+      ]
+    },
+    "purveyor": {
+      "data-frequency": "806",
+      "data-relevance": "339",
+      "data-term": "purveyor",
+      "data-encoded-term": "purveyor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "806",
+        "w2v",
+        "1"
+      ]
+    },
+    "realtor": {
+      "data-frequency": "2068",
+      "data-relevance": "338",
+      "data-term": "realtor",
+      "data-encoded-term": "realtor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2068",
+        "w2v",
+        "1"
+      ]
+    },
+    "brewer": {
+      "data-frequency": "20579",
+      "data-relevance": "337",
+      "data-term": "brewer",
+      "data-encoded-term": "brewer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20579",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "quaker": {
+      "data-frequency": "9898",
+      "data-relevance": "336",
+      "data-term": "quaker",
+      "data-encoded-term": "quaker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9898",
+        "w2v",
+        "1"
+      ]
+    },
+    "gas station": {
+      "data-frequency": "5284",
+      "data-relevance": "335",
+      "data-term": "gas station",
+      "data-encoded-term": "gas%20station",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5284",
+        "wiki",
+        "1"
+      ]
+    },
+    "argentina": {
+      "data-frequency": "143451",
+      "data-relevance": "334",
+      "data-term": "argentina",
+      "data-encoded-term": "argentina",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "143451",
+        "wiki",
+        "1"
+      ]
+    },
+    "franchisee": {
+      "data-frequency": "1069",
+      "data-relevance": "333",
+      "data-term": "franchisee",
+      "data-encoded-term": "franchisee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1069",
+        "w2v",
+        "1"
+      ]
+    },
+    "sainsbury": {
+      "data-frequency": "3274",
+      "data-relevance": "332",
+      "data-term": "sainsbury",
+      "data-encoded-term": "sainsbury",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3274",
+        "w2v",
+        "1"
+      ]
+    },
+    "wertheim": {
+      "data-frequency": "2270",
+      "data-relevance": "331",
+      "data-term": "wertheim",
+      "data-encoded-term": "wertheim",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2270",
+        "w2v",
+        "1"
+      ]
+    },
+    "box of cereal": {
+      "data-frequency": "-1",
+      "data-relevance": "330",
+      "data-term": "box of cereal",
+      "data-encoded-term": "box%20of%20cereal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "marketer": {
+      "data-frequency": "1823",
+      "data-relevance": "329",
+      "data-term": "marketer",
+      "data-encoded-term": "marketer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1823",
+        "w2v",
+        "1"
+      ]
+    },
+    "waitrose": {
+      "data-frequency": "609",
+      "data-relevance": "328",
+      "data-term": "waitrose",
+      "data-encoded-term": "waitrose",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "609",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "brazil": {
+      "data-frequency": "194818",
+      "data-relevance": "327",
+      "data-term": "brazil",
+      "data-encoded-term": "brazil",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "194818",
+        "wiki",
+        "1"
+      ]
+    },
+    "italian culture": {
+      "data-frequency": "59656",
+      "data-relevance": "326",
+      "data-term": "italian culture",
+      "data-encoded-term": "italian%20culture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59656",
+        "wiki",
+        "1"
+      ]
+    },
+    "peru": {
+      "data-frequency": "79813",
+      "data-relevance": "325",
+      "data-term": "peru",
+      "data-encoded-term": "peru",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79813",
+        "wiki",
+        "1"
+      ]
+    },
+    "monopsony": {
+      "data-frequency": "320",
+      "data-relevance": "324",
+      "data-term": "monopsony",
+      "data-encoded-term": "monopsony",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "320",
+        "cn5",
+        "1"
+      ]
+    },
+    "stockbroker": {
+      "data-frequency": "2661",
+      "data-relevance": "323",
+      "data-term": "stockbroker",
+      "data-encoded-term": "stockbroker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2661",
+        "w2v",
+        "1"
+      ]
+    },
+    "woolworths": {
+      "data-frequency": "2689",
+      "data-relevance": "322",
+      "data-term": "woolworths",
+      "data-encoded-term": "woolworths",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2689",
+        "w2v",
+        "1"
+      ]
+    },
+    "shopless": {
+      "data-frequency": "-1",
+      "data-relevance": "321",
+      "data-term": "shopless",
+      "data-encoded-term": "shopless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopkeeping": {
+      "data-frequency": "52",
+      "data-relevance": "320",
+      "data-term": "shopkeeping",
+      "data-encoded-term": "shopkeeping",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "snack": {
+      "data-frequency": "7135",
+      "data-relevance": "319",
+      "data-term": "snack",
+      "data-encoded-term": "snack",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7135",
+        "w2v",
+        "1"
+      ]
+    },
+    "asda": {
+      "data-frequency": "1292",
+      "data-relevance": "318",
+      "data-term": "asda",
+      "data-encoded-term": "asda",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1292",
+        "w2v",
+        "1"
+      ]
+    },
+    "polish culture": {
+      "data-frequency": "21669",
+      "data-relevance": "317",
+      "data-term": "polish culture",
+      "data-encoded-term": "polish%20culture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21669",
+        "wiki",
+        "1"
+      ]
+    },
+    "tradesman": {
+      "data-frequency": "1311",
+      "data-relevance": "316",
+      "data-term": "tradesman",
+      "data-encoded-term": "tradesman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1311",
+        "w2v",
+        "1"
+      ]
+    },
+    "sale": {
+      "data-frequency": "114895",
+      "data-relevance": "315",
+      "data-term": "sale",
+      "data-encoded-term": "sale",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "114895",
+        "cn5",
+        "1"
+      ]
+    },
+    "hangout": {
+      "data-frequency": "1825",
+      "data-relevance": "314",
+      "data-term": "hangout",
+      "data-encoded-term": "hangout",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1825",
+        "w2v",
+        "1"
+      ]
+    },
+    "shopwards": {
+      "data-frequency": "-1",
+      "data-relevance": "313",
+      "data-term": "shopwards",
+      "data-encoded-term": "shopwards",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "millinery": {
+      "data-frequency": "606",
+      "data-relevance": "312",
+      "data-term": "millinery",
+      "data-encoded-term": "millinery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "606",
+        "cn5",
+        "1"
+      ]
+    },
+    "seller": {
+      "data-frequency": "17050",
+      "data-relevance": "311",
+      "data-term": "seller",
+      "data-encoded-term": "seller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17050",
+        "w2v",
+        "1"
+      ]
+    },
+    "tomatoes": {
+      "data-frequency": "34419",
+      "data-relevance": "310",
+      "data-term": "tomatoes",
+      "data-encoded-term": "tomatoes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34419",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "shopbought": {
+      "data-frequency": "-1",
+      "data-relevance": "309",
+      "data-term": "shopbought",
+      "data-encoded-term": "shopbought",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shoppy": {
+      "data-frequency": "-1",
+      "data-relevance": "308",
+      "data-term": "shoppy",
+      "data-encoded-term": "shoppy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "newsagents": {
+      "data-frequency": "732",
+      "data-relevance": "307",
+      "data-term": "newsagents",
+      "data-encoded-term": "newsagents",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "732",
+        "w2v",
+        "1"
+      ]
+    },
+    "appliance": {
+      "data-frequency": "4158",
+      "data-relevance": "306",
+      "data-term": "appliance",
+      "data-encoded-term": "appliance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4158",
+        "w2v",
+        "1"
+      ]
+    },
+    "postmarketing": {
+      "data-frequency": "86",
+      "data-relevance": "305",
+      "data-term": "postmarketing",
+      "data-encoded-term": "postmarketing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "86",
+        "cn5",
+        "1"
+      ]
+    },
+    "caterer": {
+      "data-frequency": "1158",
+      "data-relevance": "304",
+      "data-term": "caterer",
+      "data-encoded-term": "caterer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1158",
+        "w2v",
+        "1"
+      ]
+    },
+    "dry goods": {
+      "data-frequency": "2529",
+      "data-relevance": "303",
+      "data-term": "dry goods",
+      "data-encoded-term": "dry%20goods",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2529",
+        "wiki",
+        "1"
+      ]
+    },
+    "neuromarketing": {
+      "data-frequency": "71",
+      "data-relevance": "302",
+      "data-term": "neuromarketing",
+      "data-encoded-term": "neuromarketing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71",
+        "cn5",
+        "1"
+      ]
+    },
+    "outfitter": {
+      "data-frequency": "401",
+      "data-relevance": "301",
+      "data-term": "outfitter",
+      "data-encoded-term": "outfitter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "401",
+        "cn5",
+        "1"
+      ]
+    },
+    "entrepreneur": {
+      "data-frequency": "42784",
+      "data-relevance": "300",
+      "data-term": "entrepreneur",
+      "data-encoded-term": "entrepreneur",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42784",
+        "w2v",
+        "1"
+      ]
+    },
+    "multishop": {
+      "data-frequency": "-1",
+      "data-relevance": "299",
+      "data-term": "multishop",
+      "data-encoded-term": "multishop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hairdresser": {
+      "data-frequency": "2951",
+      "data-relevance": "298",
+      "data-term": "hairdresser",
+      "data-encoded-term": "hairdresser",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2951",
+        "w2v",
+        "1"
+      ]
+    },
+    "buyer": {
+      "data-frequency": "12017",
+      "data-relevance": "297",
+      "data-term": "buyer",
+      "data-encoded-term": "buyer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12017",
+        "cn5",
+        "1"
+      ]
+    },
+    "donut": {
+      "data-frequency": "1786",
+      "data-relevance": "296",
+      "data-term": "donut",
+      "data-encoded-term": "donut",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1786",
+        "w2v",
+        "1"
+      ]
+    },
+    "microbrewery": {
+      "data-frequency": "592",
+      "data-relevance": "295",
+      "data-term": "microbrewery",
+      "data-encoded-term": "microbrewery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "592",
+        "w2v",
+        "1"
+      ]
+    },
+    "photoshop": {
+      "data-frequency": "1768",
+      "data-relevance": "294",
+      "data-term": "photoshop",
+      "data-encoded-term": "photoshop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1768",
+        "cn5",
+        "1"
+      ]
+    },
+    "arby": {
+      "data-frequency": "67",
+      "data-relevance": "293",
+      "data-term": "arby",
+      "data-encoded-term": "arby",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67",
+        "w2v",
+        "1"
+      ]
+    },
+    "locksmith": {
+      "data-frequency": "998",
+      "data-relevance": "292",
+      "data-term": "locksmith",
+      "data-encoded-term": "locksmith",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "998",
+        "w2v",
+        "1"
+      ]
+    },
+    "shop cart": {
+      "data-frequency": "-1",
+      "data-relevance": "291",
+      "data-term": "shop cart",
+      "data-encoded-term": "shop%20cart",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopmaid": {
+      "data-frequency": "-1",
+      "data-relevance": "290",
+      "data-term": "shopmaid",
+      "data-encoded-term": "shopmaid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "merchandise": {
+      "data-frequency": "15397",
+      "data-relevance": "289",
+      "data-term": "merchandise",
+      "data-encoded-term": "merchandise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15397",
+        "cn5",
+        "1"
+      ]
+    },
+    "pizza": {
+      "data-frequency": "13416",
+      "data-relevance": "288",
+      "data-term": "pizza",
+      "data-encoded-term": "pizza",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13416",
+        "w2v",
+        "1"
+      ]
+    },
+    "potato": {
+      "data-frequency": "16289",
+      "data-relevance": "287",
+      "data-term": "potato",
+      "data-encoded-term": "potato",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16289",
+        "cn5",
+        "1"
+      ]
+    },
+    "bigg": {
+      "data-frequency": "1831",
+      "data-relevance": "286",
+      "data-term": "bigg",
+      "data-encoded-term": "bigg",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1831",
+        "ol",
+        "1"
+      ]
+    },
+    "steakhouse": {
+      "data-frequency": "1452",
+      "data-relevance": "285",
+      "data-term": "steakhouse",
+      "data-encoded-term": "steakhouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1452",
+        "w2v",
+        "1"
+      ]
+    },
+    "chain": {
+      "data-frequency": "90646",
+      "data-relevance": "284",
+      "data-term": "chain",
+      "data-encoded-term": "chain",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "90646",
+        "ol",
+        "1"
+      ]
+    },
+    "meats": {
+      "data-frequency": "3847",
+      "data-relevance": "283",
+      "data-term": "meats",
+      "data-encoded-term": "meats",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3847",
+        "ol",
+        "1"
+      ]
+    },
+    "vegetables": {
+      "data-frequency": "20851",
+      "data-relevance": "282",
+      "data-term": "vegetables",
+      "data-encoded-term": "vegetables",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20851",
+        "ol",
+        "1"
+      ]
+    },
+    "shoemaker": {
+      "data-frequency": "8706",
+      "data-relevance": "281",
+      "data-term": "shoemaker",
+      "data-encoded-term": "shoemaker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8706",
+        "ol",
+        "1"
+      ]
+    },
+    "stationer": {
+      "data-frequency": "540",
+      "data-relevance": "280",
+      "data-term": "stationer",
+      "data-encoded-term": "stationer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "540",
+        "ol",
+        "1"
+      ]
+    },
+    "breads": {
+      "data-frequency": "2508",
+      "data-relevance": "279",
+      "data-term": "breads",
+      "data-encoded-term": "breads",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2508",
+        "ol",
+        "1"
+      ]
+    },
+    "bistro": {
+      "data-frequency": "2229",
+      "data-relevance": "278",
+      "data-term": "bistro",
+      "data-encoded-term": "bistro",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2229",
+        "ol",
+        "1"
+      ]
+    },
+    "nurseryman": {
+      "data-frequency": "495",
+      "data-relevance": "277",
+      "data-term": "nurseryman",
+      "data-encoded-term": "nurseryman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "495",
+        "ol",
+        "1"
+      ]
+    },
+    "businessman": {
+      "data-frequency": "84746",
+      "data-relevance": "276",
+      "data-term": "businessman",
+      "data-encoded-term": "businessman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "84746",
+        "ol",
+        "1"
+      ]
+    },
+    "noddle": {
+      "data-frequency": "53",
+      "data-relevance": "275",
+      "data-term": "noddle",
+      "data-encoded-term": "noddle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "creamery": {
+      "data-frequency": "1801",
+      "data-relevance": "274",
+      "data-term": "creamery",
+      "data-encoded-term": "creamery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1801",
+        "ol",
+        "1"
+      ]
+    },
+    "heiress": {
+      "data-frequency": "10391",
+      "data-relevance": "273",
+      "data-term": "heiress",
+      "data-encoded-term": "heiress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10391",
+        "w2v",
+        "1"
+      ]
+    },
+    "gourmet": {
+      "data-frequency": "4904",
+      "data-relevance": "272",
+      "data-term": "gourmet",
+      "data-encoded-term": "gourmet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4904",
+        "w2v",
+        "1"
+      ]
+    },
+    "kanzaki": {
+      "data-frequency": "700",
+      "data-relevance": "271",
+      "data-term": "kanzaki",
+      "data-encoded-term": "kanzaki",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "700",
+        "w2v",
+        "1"
+      ]
+    },
+    "bell pepper": {
+      "data-frequency": "619",
+      "data-relevance": "270",
+      "data-term": "bell pepper",
+      "data-encoded-term": "bell%20pepper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "619",
+        "wiki",
+        "1"
+      ]
+    },
+    "shop basket": {
+      "data-frequency": "-1",
+      "data-relevance": "269",
+      "data-term": "shop basket",
+      "data-encoded-term": "shop%20basket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "beershop": {
+      "data-frequency": "-1",
+      "data-relevance": "268",
+      "data-term": "beershop",
+      "data-encoded-term": "beershop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cybermarketing": {
+      "data-frequency": "-1",
+      "data-relevance": "267",
+      "data-term": "cybermarketing",
+      "data-encoded-term": "cybermarketing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shoplike": {
+      "data-frequency": "-1",
+      "data-relevance": "266",
+      "data-term": "shoplike",
+      "data-encoded-term": "shoplike",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "whole foods market": {
+      "data-frequency": "9977",
+      "data-relevance": "265",
+      "data-term": "whole foods market",
+      "data-encoded-term": "whole%20foods%20market",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9977",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "cybermarket": {
+      "data-frequency": "-1",
+      "data-relevance": "264",
+      "data-term": "cybermarket",
+      "data-encoded-term": "cybermarket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shoplifter": {
+      "data-frequency": "318",
+      "data-relevance": "263",
+      "data-term": "shoplifter",
+      "data-encoded-term": "shoplifter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "318",
+        "cn5",
+        "1"
+      ]
+    },
+    "sell food": {
+      "data-frequency": "206",
+      "data-relevance": "262",
+      "data-term": "sell food",
+      "data-encoded-term": "sell%20food",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "206",
+        "cn5",
+        "1"
+      ]
+    },
+    "postmarket": {
+      "data-frequency": "-1",
+      "data-relevance": "261",
+      "data-term": "postmarket",
+      "data-encoded-term": "postmarket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cocoa solids": {
+      "data-frequency": "403",
+      "data-relevance": "260",
+      "data-term": "cocoa solids",
+      "data-encoded-term": "cocoa%20solids",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "403",
+        "wiki",
+        "1"
+      ]
+    },
+    "comarket": {
+      "data-frequency": "-1",
+      "data-relevance": "259",
+      "data-term": "comarket",
+      "data-encoded-term": "comarket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reemtsma": {
+      "data-frequency": "154",
+      "data-relevance": "258",
+      "data-term": "reemtsma",
+      "data-encoded-term": "reemtsma",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "154",
+        "w2v",
+        "1"
+      ]
+    },
+    "warehouse": {
+      "data-frequency": "35073",
+      "data-relevance": "257",
+      "data-term": "warehouse",
+      "data-encoded-term": "warehouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35073",
+        "cn5",
+        "1"
+      ]
+    },
+    "barbershop": {
+      "data-frequency": "2428",
+      "data-relevance": "256",
+      "data-term": "barbershop",
+      "data-encoded-term": "barbershop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2428",
+        "cn5",
+        "1"
+      ]
+    },
+    "garner": {
+      "data-frequency": "21478",
+      "data-relevance": "255",
+      "data-term": "garner",
+      "data-encoded-term": "garner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21478",
+        "cn5",
+        "1"
+      ]
+    },
+    "dry-goods": {
+      "data-frequency": "8364",
+      "data-relevance": "254",
+      "data-term": "dry-goods",
+      "data-encoded-term": "dry-goods",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8364",
+        "w2v",
+        "1"
+      ]
+    },
+    "mallternative": {
+      "data-frequency": "-1",
+      "data-relevance": "253",
+      "data-term": "mallternative",
+      "data-encoded-term": "mallternative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chocolatier": {
+      "data-frequency": "391",
+      "data-relevance": "252",
+      "data-term": "chocolatier",
+      "data-encoded-term": "chocolatier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "391",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "buy": {
+      "data-frequency": "78822",
+      "data-relevance": "251",
+      "data-term": "buy",
+      "data-encoded-term": "buy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "78822",
+        "cn5",
+        "1"
+      ]
+    },
+    "junkshop": {
+      "data-frequency": "-1",
+      "data-relevance": "250",
+      "data-term": "junkshop",
+      "data-encoded-term": "junkshop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopgirl": {
+      "data-frequency": "318",
+      "data-relevance": "249",
+      "data-term": "shopgirl",
+      "data-encoded-term": "shopgirl",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "318",
+        "cn5",
+        "1"
+      ]
+    },
+    "macaroni": {
+      "data-frequency": "2065",
+      "data-relevance": "248",
+      "data-term": "macaroni",
+      "data-encoded-term": "macaroni",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2065",
+        "cn5",
+        "1"
+      ]
+    },
+    "carrot": {
+      "data-frequency": "5333",
+      "data-relevance": "247",
+      "data-term": "carrot",
+      "data-encoded-term": "carrot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5333",
+        "cn5",
+        "1"
+      ]
+    },
+    "commercialize": {
+      "data-frequency": "1229",
+      "data-relevance": "246",
+      "data-term": "commercialize",
+      "data-encoded-term": "commercialize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1229",
+        "cn5",
+        "1"
+      ]
+    },
+    "staple food": {
+      "data-frequency": "1179",
+      "data-relevance": "245",
+      "data-term": "staple food",
+      "data-encoded-term": "staple%20food",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1179",
+        "wiki",
+        "1"
+      ]
+    },
+    "patronize": {
+      "data-frequency": "369",
+      "data-relevance": "244",
+      "data-term": "patronize",
+      "data-encoded-term": "patronize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "369",
+        "cn5",
+        "1"
+      ]
+    },
+    "salad": {
+      "data-frequency": "6776",
+      "data-relevance": "243",
+      "data-term": "salad",
+      "data-encoded-term": "salad",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6776",
+        "cn5",
+        "1"
+      ]
+    },
+    "webvan": {
+      "data-frequency": "71",
+      "data-relevance": "242",
+      "data-term": "webvan",
+      "data-encoded-term": "webvan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71",
+        "w2v",
+        "1"
+      ]
+    },
+    "commodity": {
+      "data-frequency": "11041",
+      "data-relevance": "241",
+      "data-term": "commodity",
+      "data-encoded-term": "commodity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11041",
+        "cn5",
+        "1"
+      ]
+    },
+    "delicacies": {
+      "data-frequency": "1615",
+      "data-relevance": "240",
+      "data-term": "delicacies",
+      "data-encoded-term": "delicacies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1615",
+        "wiki",
+        "1"
+      ]
+    },
+    "shop bag": {
+      "data-frequency": "-1",
+      "data-relevance": "239",
+      "data-term": "shop bag",
+      "data-encoded-term": "shop%20bag",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "khalayleh": {
+      "data-frequency": "-1",
+      "data-relevance": "238",
+      "data-term": "khalayleh",
+      "data-encoded-term": "khalayleh",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "commissary": {
+      "data-frequency": "2970",
+      "data-relevance": "237",
+      "data-term": "commissary",
+      "data-encoded-term": "commissary",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2970",
+        "cn5",
+        "1"
+      ]
+    },
+    "toyshop": {
+      "data-frequency": "190",
+      "data-relevance": "236",
+      "data-term": "toyshop",
+      "data-encoded-term": "toyshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "190",
+        "cn5",
+        "1"
+      ]
+    },
+    "deshelving": {
+      "data-frequency": "-1",
+      "data-relevance": "235",
+      "data-term": "deshelving",
+      "data-encoded-term": "deshelving",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pawnshop": {
+      "data-frequency": "513",
+      "data-relevance": "234",
+      "data-term": "pawnshop",
+      "data-encoded-term": "pawnshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "513",
+        "cn5",
+        "1"
+      ]
+    },
+    "family-owned": {
+      "data-frequency": "6100",
+      "data-relevance": "233",
+      "data-term": "family-owned",
+      "data-encoded-term": "family-owned",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6100",
+        "w2v",
+        "1"
+      ]
+    },
+    "cencosud": {
+      "data-frequency": "48",
+      "data-relevance": "232",
+      "data-term": "cencosud",
+      "data-encoded-term": "cencosud",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "wiki",
+        "1"
+      ]
+    },
+    "oligopoly": {
+      "data-frequency": "555",
+      "data-relevance": "231",
+      "data-term": "oligopoly",
+      "data-encoded-term": "oligopoly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "555",
+        "cn5",
+        "1"
+      ]
+    },
+    "dairy product": {
+      "data-frequency": "337",
+      "data-relevance": "230",
+      "data-term": "dairy product",
+      "data-encoded-term": "dairy%20product",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "337",
+        "wiki",
+        "1"
+      ]
+    },
+    "deliveryman": {
+      "data-frequency": "307",
+      "data-relevance": "229",
+      "data-term": "deliveryman",
+      "data-encoded-term": "deliveryman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "307",
+        "w2v",
+        "1"
+      ]
+    },
+    "printshop": {
+      "data-frequency": "233",
+      "data-relevance": "228",
+      "data-term": "printshop",
+      "data-encoded-term": "printshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "233",
+        "cn5",
+        "1"
+      ]
+    },
+    "trading post": {
+      "data-frequency": "5015",
+      "data-relevance": "227",
+      "data-term": "trading post",
+      "data-encoded-term": "trading%20post",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5015",
+        "wiki",
+        "1"
+      ]
+    },
+    "sainsburys": {
+      "data-frequency": "3315",
+      "data-relevance": "226",
+      "data-term": "sainsburys",
+      "data-encoded-term": "sainsburys",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3315",
+        "w2v",
+        "1"
+      ]
+    },
+    "downmarket": {
+      "data-frequency": "138",
+      "data-relevance": "225",
+      "data-term": "downmarket",
+      "data-encoded-term": "downmarket",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "138",
+        "cn5",
+        "1"
+      ]
+    },
+    "slopshop": {
+      "data-frequency": "-1",
+      "data-relevance": "224",
+      "data-term": "slopshop",
+      "data-encoded-term": "slopshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "vegetable": {
+      "data-frequency": "17742",
+      "data-relevance": "223",
+      "data-term": "vegetable",
+      "data-encoded-term": "vegetable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17742",
+        "wiki",
+        "1"
+      ]
+    },
+    "wineshop": {
+      "data-frequency": "-1",
+      "data-relevance": "222",
+      "data-term": "wineshop",
+      "data-encoded-term": "wineshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grogshop": {
+      "data-frequency": "-1",
+      "data-relevance": "221",
+      "data-term": "grogshop",
+      "data-encoded-term": "grogshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "baking soda": {
+      "data-frequency": "436",
+      "data-relevance": "220",
+      "data-term": "baking soda",
+      "data-encoded-term": "baking%20soda",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "436",
+        "wiki",
+        "1"
+      ]
+    },
+    "fruitshop": {
+      "data-frequency": "-1",
+      "data-relevance": "219",
+      "data-term": "fruitshop",
+      "data-encoded-term": "fruitshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pawnbrokery": {
+      "data-frequency": "-1",
+      "data-relevance": "218",
+      "data-term": "pawnbrokery",
+      "data-encoded-term": "pawnbrokery",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "australian": {
+      "data-frequency": "366275",
+      "data-relevance": "217",
+      "data-term": "australian",
+      "data-encoded-term": "australian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "366275",
+        "wiki",
+        "1"
+      ]
+    },
+    "sell thing": {
+      "data-frequency": "-1",
+      "data-relevance": "216",
+      "data-term": "sell thing",
+      "data-encoded-term": "sell%20thing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "líder": {
+      "data-frequency": "17196",
+      "data-relevance": "215",
+      "data-term": "líder",
+      "data-encoded-term": "l%C3%ADder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17196",
+        "wiki",
+        "1"
+      ]
+    },
+    "stallholder": {
+      "data-frequency": "171",
+      "data-relevance": "214",
+      "data-term": "stallholder",
+      "data-encoded-term": "stallholder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "171",
+        "w2v",
+        "1"
+      ]
+    },
+    "farmers' market": {
+      "data-frequency": "19764",
+      "data-relevance": "213",
+      "data-term": "farmers' market",
+      "data-encoded-term": "farmers'%20market",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19764",
+        "wiki",
+        "1"
+      ]
+    },
+    "siimann": {
+      "data-frequency": "60",
+      "data-relevance": "212",
+      "data-term": "siimann",
+      "data-encoded-term": "siimann",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "60",
+        "w2v",
+        "1"
+      ]
+    },
+    "kamprad": {
+      "data-frequency": "88",
+      "data-relevance": "211",
+      "data-term": "kamprad",
+      "data-encoded-term": "kamprad",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "88",
+        "w2v",
+        "1"
+      ]
+    },
+    "phar-mor": {
+      "data-frequency": "353",
+      "data-relevance": "210",
+      "data-term": "phar-mor",
+      "data-encoded-term": "phar-mor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "353",
+        "w2v",
+        "1"
+      ]
+    },
+    "logicacmg": {
+      "data-frequency": "-1",
+      "data-relevance": "209",
+      "data-term": "logicacmg",
+      "data-encoded-term": "logicacmg",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "family-run": {
+      "data-frequency": "123453",
+      "data-relevance": "208",
+      "data-term": "family-run",
+      "data-encoded-term": "family-run",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "123453",
+        "w2v",
+        "1"
+      ]
+    },
+    "cybershopping": {
+      "data-frequency": "-1",
+      "data-relevance": "207",
+      "data-term": "cybershopping",
+      "data-encoded-term": "cybershopping",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "falabella": {
+      "data-frequency": "213",
+      "data-relevance": "206",
+      "data-term": "falabella",
+      "data-encoded-term": "falabella",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "213",
+        "wiki",
+        "1"
+      ]
+    },
+    "3-run": {
+      "data-frequency": "285612",
+      "data-relevance": "205",
+      "data-term": "3-run",
+      "data-encoded-term": "3-run",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "285612",
+        "w2v",
+        "1"
+      ]
+    },
+    "robinsons-may": {
+      "data-frequency": "76516",
+      "data-relevance": "204",
+      "data-term": "robinsons-may",
+      "data-encoded-term": "robinsons-may",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "76516",
+        "w2v",
+        "1"
+      ]
+    },
+    "decliner": {
+      "data-frequency": "142818",
+      "data-relevance": "203",
+      "data-term": "decliner",
+      "data-encoded-term": "decliner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "142818",
+        "w2v",
+        "1"
+      ]
+    },
+    "shopaholic": {
+      "data-frequency": "260",
+      "data-relevance": "202",
+      "data-term": "shopaholic",
+      "data-encoded-term": "shopaholic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "260",
+        "cn5",
+        "1"
+      ]
+    },
+    "tottus": {
+      "data-frequency": "-1",
+      "data-relevance": "201",
+      "data-term": "tottus",
+      "data-encoded-term": "tottus",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "hamleys": {
+      "data-frequency": "890",
+      "data-relevance": "200",
+      "data-term": "hamleys",
+      "data-encoded-term": "hamleys",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "890",
+        "w2v",
+        "1"
+      ]
+    },
+    "store shelf": {
+      "data-frequency": "45",
+      "data-relevance": "199",
+      "data-term": "store shelf",
+      "data-encoded-term": "store%20shelf",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopfront": {
+      "data-frequency": "232",
+      "data-relevance": "198",
+      "data-term": "shopfront",
+      "data-encoded-term": "shopfront",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "232",
+        "cn5",
+        "1"
+      ]
+    },
+    "dixons": {
+      "data-frequency": "626",
+      "data-relevance": "197",
+      "data-term": "dixons",
+      "data-encoded-term": "dixons",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "626",
+        "w2v",
+        "1"
+      ]
+    },
+    "a&p": {
+      "data-frequency": "32588",
+      "data-relevance": "196",
+      "data-term": "a&p",
+      "data-encoded-term": "a%26p",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "32588",
+        "w2v",
+        "1"
+      ]
+    },
+    "benchmarketing": {
+      "data-frequency": "-1",
+      "data-relevance": "195",
+      "data-term": "benchmarketing",
+      "data-encoded-term": "benchmarketing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "credit card": {
+      "data-frequency": "5470",
+      "data-relevance": "194",
+      "data-term": "credit card",
+      "data-encoded-term": "credit%20card",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5470",
+        "wiki",
+        "1"
+      ]
+    },
+    "hayya": {
+      "data-frequency": "62",
+      "data-relevance": "193",
+      "data-term": "hayya",
+      "data-encoded-term": "hayya",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "w2v",
+        "1"
+      ]
+    },
+    "khazen": {
+      "data-frequency": "220",
+      "data-relevance": "192",
+      "data-term": "khazen",
+      "data-encoded-term": "khazen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "220",
+        "w2v",
+        "1"
+      ]
+    },
+    "marketman": {
+      "data-frequency": "-1",
+      "data-relevance": "191",
+      "data-term": "marketman",
+      "data-encoded-term": "marketman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "barq": {
+      "data-frequency": "737",
+      "data-relevance": "190",
+      "data-term": "barq",
+      "data-encoded-term": "barq",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "737",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheesemonger": {
+      "data-frequency": "45",
+      "data-relevance": "189",
+      "data-term": "cheesemonger",
+      "data-encoded-term": "cheesemonger",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "candymaker": {
+      "data-frequency": "43",
+      "data-relevance": "188",
+      "data-term": "candymaker",
+      "data-encoded-term": "candymaker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "43",
+        "ol",
+        "1"
+      ]
+    },
+    "beanery": {
+      "data-frequency": "90",
+      "data-relevance": "187",
+      "data-term": "beanery",
+      "data-encoded-term": "beanery",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "90",
+        "w2v",
+        "1"
+      ]
+    },
+    "wholefood": {
+      "data-frequency": "-1",
+      "data-relevance": "186",
+      "data-term": "wholefood",
+      "data-encoded-term": "wholefood",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "taqueria": {
+      "data-frequency": "115",
+      "data-relevance": "185",
+      "data-term": "taqueria",
+      "data-encoded-term": "taqueria",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "115",
+        "ol",
+        "1"
+      ]
+    },
+    "homebuilder": {
+      "data-frequency": "215",
+      "data-relevance": "184",
+      "data-term": "homebuilder",
+      "data-encoded-term": "homebuilder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "215",
+        "ol",
+        "1"
+      ]
+    },
+    "fruiterer": {
+      "data-frequency": "75",
+      "data-relevance": "183",
+      "data-term": "fruiterer",
+      "data-encoded-term": "fruiterer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "75",
+        "ol",
+        "1"
+      ]
+    },
+    "bakeshop": {
+      "data-frequency": "85",
+      "data-relevance": "182",
+      "data-term": "bakeshop",
+      "data-encoded-term": "bakeshop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "85",
+        "ol",
+        "1"
+      ]
+    },
+    "shirtmaker": {
+      "data-frequency": "70",
+      "data-relevance": "181",
+      "data-term": "shirtmaker",
+      "data-encoded-term": "shirtmaker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "70",
+        "ol",
+        "1"
+      ]
+    },
+    "counterman": {
+      "data-frequency": "118",
+      "data-relevance": "180",
+      "data-term": "counterman",
+      "data-encoded-term": "counterman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "118",
+        "ol",
+        "1"
+      ]
+    },
+    "pinguin": {
+      "data-frequency": "304",
+      "data-relevance": "179",
+      "data-term": "pinguin",
+      "data-encoded-term": "pinguin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "304",
+        "ol",
+        "1"
+      ]
+    },
+    "lumberyard": {
+      "data-frequency": "365",
+      "data-relevance": "178",
+      "data-term": "lumberyard",
+      "data-encoded-term": "lumberyard",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "365",
+        "ol",
+        "1"
+      ]
+    },
+    "bottler": {
+      "data-frequency": "411",
+      "data-relevance": "177",
+      "data-term": "bottler",
+      "data-encoded-term": "bottler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "411",
+        "ol",
+        "1"
+      ]
+    },
+    "bialy": {
+      "data-frequency": "4703",
+      "data-relevance": "176",
+      "data-term": "bialy",
+      "data-encoded-term": "bialy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4703",
+        "ol",
+        "1"
+      ]
+    },
+    "drycleaner": {
+      "data-frequency": "-1",
+      "data-relevance": "175",
+      "data-term": "drycleaner",
+      "data-encoded-term": "drycleaner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ironmongers": {
+      "data-frequency": "840",
+      "data-relevance": "174",
+      "data-term": "ironmongers",
+      "data-encoded-term": "ironmongers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "840",
+        "ol",
+        "1"
+      ]
+    },
+    "boulangerie": {
+      "data-frequency": "81",
+      "data-relevance": "173",
+      "data-term": "boulangerie",
+      "data-encoded-term": "boulangerie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "81",
+        "ol",
+        "1"
+      ]
+    },
+    "fromagerie": {
+      "data-frequency": "49",
+      "data-relevance": "172",
+      "data-term": "fromagerie",
+      "data-encoded-term": "fromagerie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "shawarma": {
+      "data-frequency": "782",
+      "data-relevance": "171",
+      "data-term": "shawarma",
+      "data-encoded-term": "shawarma",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "782",
+        "ol",
+        "1"
+      ]
+    },
+    "homestyle": {
+      "data-frequency": "127",
+      "data-relevance": "170",
+      "data-term": "homestyle",
+      "data-encoded-term": "homestyle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "127",
+        "ol",
+        "1"
+      ]
+    },
+    "freeserve": {
+      "data-frequency": "149",
+      "data-relevance": "169",
+      "data-term": "freeserve",
+      "data-encoded-term": "freeserve",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "149",
+        "w2v",
+        "1"
+      ]
+    },
+    "muffuletta": {
+      "data-frequency": "43",
+      "data-relevance": "168",
+      "data-term": "muffuletta",
+      "data-encoded-term": "muffuletta",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "43",
+        "ol",
+        "1"
+      ]
+    },
+    "zabar": {
+      "data-frequency": "1120",
+      "data-relevance": "167",
+      "data-term": "zabar",
+      "data-encoded-term": "zabar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1120",
+        "ol",
+        "1"
+      ]
+    },
+    "cheesemaker": {
+      "data-frequency": "126",
+      "data-relevance": "166",
+      "data-term": "cheesemaker",
+      "data-encoded-term": "cheesemaker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "piggly": {
+      "data-frequency": "886",
+      "data-relevance": "165",
+      "data-term": "piggly",
+      "data-encoded-term": "piggly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "886",
+        "w2v",
+        "1"
+      ]
+    },
+    "patisserie": {
+      "data-frequency": "780",
+      "data-relevance": "164",
+      "data-term": "patisserie",
+      "data-encoded-term": "patisserie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "780",
+        "ol",
+        "1"
+      ]
+    },
+    "falafel": {
+      "data-frequency": "713",
+      "data-relevance": "163",
+      "data-term": "falafel",
+      "data-encoded-term": "falafel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "713",
+        "w2v",
+        "1"
+      ]
+    },
+    "ekantipur": {
+      "data-frequency": "597",
+      "data-relevance": "162",
+      "data-term": "ekantipur",
+      "data-encoded-term": "ekantipur",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "597",
+        "w2v",
+        "1"
+      ]
+    },
+    "store refrigerator": {
+      "data-frequency": "1181",
+      "data-relevance": "161",
+      "data-term": "store refrigerator",
+      "data-encoded-term": "store%20refrigerator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1181",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopboy": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "shopboy",
+      "data-encoded-term": "shopboy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fresh vegetable": {
+      "data-frequency": "65",
+      "data-relevance": "159",
+      "data-term": "fresh vegetable",
+      "data-encoded-term": "fresh%20vegetable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65",
+        "cn5",
+        "1"
+      ]
+    },
+    "filestore": {
+      "data-frequency": "50",
+      "data-relevance": "158",
+      "data-term": "filestore",
+      "data-encoded-term": "filestore",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "for sale": {
+      "data-frequency": "29619",
+      "data-relevance": "157",
+      "data-term": "for sale",
+      "data-encoded-term": "for%20sale",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "29619",
+        "cn5",
+        "1"
+      ]
+    },
+    "piggly wiggly": {
+      "data-frequency": "471",
+      "data-relevance": "156",
+      "data-term": "piggly wiggly",
+      "data-encoded-term": "piggly%20wiggly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "471",
+        "wiki",
+        "1"
+      ]
+    },
+    "stockist": {
+      "data-frequency": "159",
+      "data-relevance": "155",
+      "data-term": "stockist",
+      "data-encoded-term": "stockist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "159",
+        "cn5",
+        "1"
+      ]
+    },
+    "memphis, tennessee": {
+      "data-frequency": "14550",
+      "data-relevance": "154",
+      "data-term": "memphis, tennessee",
+      "data-encoded-term": "memphis%2C%20tennessee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14550",
+        "wiki",
+        "1"
+      ]
+    },
+    "at mall": {
+      "data-frequency": "281",
+      "data-relevance": "153",
+      "data-term": "at mall",
+      "data-encoded-term": "at%20mall",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "281",
+        "cn5",
+        "1"
+      ]
+    },
+    "botanica": {
+      "data-frequency": "1988",
+      "data-relevance": "152",
+      "data-term": "botanica",
+      "data-encoded-term": "botanica",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1988",
+        "cn5",
+        "1"
+      ]
+    },
+    "sale person": {
+      "data-frequency": "-1",
+      "data-relevance": "151",
+      "data-term": "sale person",
+      "data-encoded-term": "sale%20person",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "clarence saunders": {
+      "data-frequency": "1034",
+      "data-relevance": "150",
+      "data-term": "clarence saunders",
+      "data-encoded-term": "clarence%20saunders",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1034",
+        "wiki",
+        "1"
+      ]
+    },
+    "mercantile establishment": {
+      "data-frequency": "47",
+      "data-relevance": "149",
+      "data-term": "mercantile establishment",
+      "data-encoded-term": "mercantile%20establishment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "buyer's market": {
+      "data-frequency": "46",
+      "data-relevance": "148",
+      "data-term": "buyer's market",
+      "data-encoded-term": "buyer's%20market",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "direct market": {
+      "data-frequency": "214",
+      "data-relevance": "147",
+      "data-term": "direct market",
+      "data-encoded-term": "direct%20market",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "214",
+        "cn5",
+        "1"
+      ]
+    },
+    "basket with handle": {
+      "data-frequency": "-1",
+      "data-relevance": "146",
+      "data-term": "basket with handle",
+      "data-encoded-term": "basket%20with%20handle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "variety store": {
+      "data-frequency": "276",
+      "data-relevance": "145",
+      "data-term": "variety store",
+      "data-encoded-term": "variety%20store",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "276",
+        "cn5",
+        "1"
+      ]
+    },
+    "mercat": {
+      "data-frequency": "910",
+      "data-relevance": "144",
+      "data-term": "mercat",
+      "data-encoded-term": "mercat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "910",
+        "cn5",
+        "1"
+      ]
+    },
+    "counterculture": {
+      "data-frequency": "3373",
+      "data-relevance": "143",
+      "data-term": "counterculture",
+      "data-encoded-term": "counterculture",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3373",
+        "wiki",
+        "1"
+      ]
+    },
+    "suntan lotion": {
+      "data-frequency": "65",
+      "data-relevance": "142",
+      "data-term": "suntan lotion",
+      "data-encoded-term": "suntan%20lotion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65",
+        "cn5",
+        "1"
+      ]
+    },
+    "e market": {
+      "data-frequency": "180",
+      "data-relevance": "141",
+      "data-term": "e market",
+      "data-encoded-term": "e%20market",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "180",
+        "cn5",
+        "1"
+      ]
+    },
+    "niche market": {
+      "data-frequency": "647",
+      "data-relevance": "140",
+      "data-term": "niche market",
+      "data-encoded-term": "niche%20market",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "647",
+        "wiki",
+        "1"
+      ]
+    },
+    "australia": {
+      "data-frequency": "472904",
+      "data-relevance": "139",
+      "data-term": "australia",
+      "data-encoded-term": "australia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "472904",
+        "wiki",
+        "1"
+      ]
+    },
+    "shopfloor": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "shopfloor",
+      "data-encoded-term": "shopfloor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "planogram": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "planogram",
+      "data-encoded-term": "planogram",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "buyable": {
+      "data-frequency": "-1",
+      "data-relevance": "136",
+      "data-term": "buyable",
+      "data-encoded-term": "buyable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sell good": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "sell good",
+      "data-encoded-term": "sell%20good",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "store up": {
+      "data-frequency": "99366",
+      "data-relevance": "134",
+      "data-term": "store up",
+      "data-encoded-term": "store%20up",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "99366",
+        "cn5",
+        "1"
+      ]
+    },
+    "shop centre": {
+      "data-frequency": "-1",
+      "data-relevance": "133",
+      "data-term": "shop centre",
+      "data-encoded-term": "shop%20centre",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rebuy": {
+      "data-frequency": "86",
+      "data-relevance": "132",
+      "data-term": "rebuy",
+      "data-encoded-term": "rebuy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "86",
+        "cn5",
+        "1"
+      ]
+    },
+    "food cooperative": {
+      "data-frequency": "7586",
+      "data-relevance": "131",
+      "data-term": "food cooperative",
+      "data-encoded-term": "food%20cooperative",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7586",
+        "wiki",
+        "1"
+      ]
+    },
+    "suburban": {
+      "data-frequency": "46752",
+      "data-relevance": "130",
+      "data-term": "suburban",
+      "data-encoded-term": "suburban",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46752",
+        "wiki",
+        "1"
+      ]
+    },
+    "shop assistant": {
+      "data-frequency": "741",
+      "data-relevance": "129",
+      "data-term": "shop assistant",
+      "data-encoded-term": "shop%20assistant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "741",
+        "cn5",
+        "1"
+      ]
+    },
+    "rain cheque": {
+      "data-frequency": "-1",
+      "data-relevance": "128",
+      "data-term": "rain cheque",
+      "data-encoded-term": "rain%20cheque",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "target corporation": {
+      "data-frequency": "448",
+      "data-relevance": "127",
+      "data-term": "target corporation",
+      "data-encoded-term": "target%20corporation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "448",
+        "wiki",
+        "1"
+      ]
+    },
+    "seller's market": {
+      "data-frequency": "44",
+      "data-relevance": "126",
+      "data-term": "seller's market",
+      "data-encoded-term": "seller's%20market",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "multi level market": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "multi level market",
+      "data-encoded-term": "multi%20level%20market",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy at": {
+      "data-frequency": "377",
+      "data-relevance": "124",
+      "data-term": "buy at",
+      "data-encoded-term": "buy%20at",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "377",
+        "cn5",
+        "1"
+      ]
+    },
+    "market category": {
+      "data-frequency": "46",
+      "data-relevance": "123",
+      "data-term": "market category",
+      "data-encoded-term": "market%20category",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "shop center": {
+      "data-frequency": "43",
+      "data-relevance": "122",
+      "data-term": "shop center",
+      "data-encoded-term": "shop%20center",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "labor market": {
+      "data-frequency": "1953",
+      "data-relevance": "121",
+      "data-term": "labor market",
+      "data-encoded-term": "labor%20market",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1953",
+        "cn5",
+        "1"
+      ]
+    },
+    "wood shop": {
+      "data-frequency": "228",
+      "data-relevance": "120",
+      "data-term": "wood shop",
+      "data-encoded-term": "wood%20shop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "228",
+        "cn5",
+        "1"
+      ]
+    },
+    "neighborhood map": {
+      "data-frequency": "339",
+      "data-relevance": "119",
+      "data-term": "neighborhood map",
+      "data-encoded-term": "neighborhood%20map",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "339",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy activity": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "buy activity",
+      "data-encoded-term": "buy%20activity",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bull market": {
+      "data-frequency": "204",
+      "data-relevance": "117",
+      "data-term": "bull market",
+      "data-encoded-term": "bull%20market",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "204",
+        "cn5",
+        "1"
+      ]
+    },
+    "try on clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "116",
+      "data-term": "try on clothe",
+      "data-encoded-term": "try%20on%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "e shop": {
+      "data-frequency": "79",
+      "data-relevance": "115",
+      "data-term": "e shop",
+      "data-encoded-term": "e%20shop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "op shop": {
+      "data-frequency": "70",
+      "data-relevance": "114",
+      "data-term": "op shop",
+      "data-encoded-term": "op%20shop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "70",
+        "cn5",
+        "1"
+      ]
+    },
+    "freeze food": {
+      "data-frequency": "-1",
+      "data-relevance": "113",
+      "data-term": "freeze food",
+      "data-encoded-term": "freeze%20food",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "co op": {
+      "data-frequency": "7949",
+      "data-relevance": "112",
+      "data-term": "co op",
+      "data-encoded-term": "co%20op",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7949",
+        "cn5",
+        "1"
+      ]
+    },
+    "market research": {
+      "data-frequency": "2776",
+      "data-relevance": "111",
+      "data-term": "market research",
+      "data-encoded-term": "market%20research",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2776",
+        "cn5",
+        "1"
+      ]
+    },
+    "display cabinet": {
+      "data-frequency": "79",
+      "data-relevance": "110",
+      "data-term": "display cabinet",
+      "data-encoded-term": "display%20cabinet",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "ambush market": {
+      "data-frequency": "-1",
+      "data-relevance": "109",
+      "data-term": "ambush market",
+      "data-encoded-term": "ambush%20market",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pet": {
+      "data-frequency": "35045",
+      "data-relevance": "108",
+      "data-term": "pet",
+      "data-encoded-term": "pet",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "35045",
+        "wiki",
+        "1"
+      ]
+    },
+    "package store": {
+      "data-frequency": "52",
+      "data-relevance": "107",
+      "data-term": "package store",
+      "data-encoded-term": "package%20store",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "money market": {
+      "data-frequency": "830",
+      "data-relevance": "106",
+      "data-term": "money market",
+      "data-encoded-term": "money%20market",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "830",
+        "cn5",
+        "1"
+      ]
+    },
+    "comparison shop": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "comparison shop",
+      "data-encoded-term": "comparison%20shop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bundle buggy": {
+      "data-frequency": "-1",
+      "data-relevance": "104",
+      "data-term": "bundle buggy",
+      "data-encoded-term": "bundle%20buggy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coffeehouses": {
+      "data-frequency": "916",
+      "data-relevance": "103",
+      "data-term": "coffeehouses",
+      "data-encoded-term": "coffeehouses",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "916",
+        "wiki",
+        "1"
+      ]
+    },
+    "store away": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "store away",
+      "data-encoded-term": "store%20away",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "butcher shop": {
+      "data-frequency": "719",
+      "data-relevance": "101",
+      "data-term": "butcher shop",
+      "data-encoded-term": "butcher%20shop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "719",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "latin america": {
+      "data-frequency": "38062",
+      "data-relevance": "100",
+      "data-term": "latin america",
+      "data-encoded-term": "latin%20america",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "38062",
+        "wiki",
+        "1"
+      ]
+    },
+    "shoe shop": {
+      "data-frequency": "530",
+      "data-relevance": "99",
+      "data-term": "shoe shop",
+      "data-encoded-term": "shoe%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "530",
+        "cn5",
+        "1"
+      ]
+    },
+    "market share": {
+      "data-frequency": "7015",
+      "data-relevance": "98",
+      "data-term": "market share",
+      "data-encoded-term": "market%20share",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7015",
+        "cn5",
+        "1"
+      ]
+    },
+    "purchase something": {
+      "data-frequency": "-1",
+      "data-relevance": "97",
+      "data-term": "purchase something",
+      "data-encoded-term": "purchase%20something",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "market price": {
+      "data-frequency": "1409",
+      "data-relevance": "96",
+      "data-term": "market price",
+      "data-encoded-term": "market%20price",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1409",
+        "cn5",
+        "1"
+      ]
+    },
+    "fit room": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "fit room",
+      "data-encoded-term": "fit%20room",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shop bot": {
+      "data-frequency": "-1",
+      "data-relevance": "94",
+      "data-term": "shop bot",
+      "data-encoded-term": "shop%20bot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shop list": {
+      "data-frequency": "67",
+      "data-relevance": "93",
+      "data-term": "shop list",
+      "data-encoded-term": "shop%20list",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "67",
+        "cn5",
+        "1"
+      ]
+    },
+    "gift shop": {
+      "data-frequency": "3451",
+      "data-relevance": "92",
+      "data-term": "gift shop",
+      "data-encoded-term": "gift%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3451",
+        "cn5",
+        "1"
+      ]
+    },
+    "knick knack": {
+      "data-frequency": "90",
+      "data-relevance": "91",
+      "data-term": "knick knack",
+      "data-encoded-term": "knick%20knack",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "90",
+        "cn5",
+        "1"
+      ]
+    },
+    "dime store": {
+      "data-frequency": "359",
+      "data-relevance": "90",
+      "data-term": "dime store",
+      "data-encoded-term": "dime%20store",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "359",
+        "cn5",
+        "1"
+      ]
+    },
+    "shop mall": {
+      "data-frequency": "-1",
+      "data-relevance": "89",
+      "data-term": "shop mall",
+      "data-encoded-term": "shop%20mall",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "market economy": {
+      "data-frequency": "3031",
+      "data-relevance": "88",
+      "data-term": "market economy",
+      "data-encoded-term": "market%20economy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3031",
+        "cn5",
+        "1"
+      ]
+    },
+    "manhattan": {
+      "data-frequency": "65613",
+      "data-relevance": "87",
+      "data-term": "manhattan",
+      "data-encoded-term": "manhattan",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "65613",
+        "wiki",
+        "1"
+      ]
+    },
+    "window shop": {
+      "data-frequency": "-1",
+      "data-relevance": "86",
+      "data-term": "window shop",
+      "data-encoded-term": "window%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "get grocery": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "get grocery",
+      "data-encoded-term": "get%20grocery",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "84",
+      "data-term": "buy clothe",
+      "data-encoded-term": "buy%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy and sell": {
+      "data-frequency": "38378",
+      "data-relevance": "83",
+      "data-term": "buy and sell",
+      "data-encoded-term": "buy%20and%20sell",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "38378",
+        "cn5",
+        "1"
+      ]
+    },
+    "many store": {
+      "data-frequency": "-1",
+      "data-relevance": "82",
+      "data-term": "many store",
+      "data-encoded-term": "many%20store",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bucket shop": {
+      "data-frequency": "43",
+      "data-relevance": "81",
+      "data-term": "bucket shop",
+      "data-encoded-term": "bucket%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "walmart chile": {
+      "data-frequency": "140",
+      "data-relevance": "80",
+      "data-term": "walmart chile",
+      "data-encoded-term": "walmart%20chile",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "140",
+        "wiki",
+        "1"
+      ]
+    },
+    "search for item": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "search for item",
+      "data-encoded-term": "search%20for%20item",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bear market": {
+      "data-frequency": "339",
+      "data-relevance": "78",
+      "data-term": "bear market",
+      "data-encoded-term": "bear%20market",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "339",
+        "cn5",
+        "1"
+      ]
+    },
+    "bet shop": {
+      "data-frequency": "-1",
+      "data-relevance": "77",
+      "data-term": "bet shop",
+      "data-encoded-term": "bet%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "make purchase": {
+      "data-frequency": "-1",
+      "data-relevance": "76",
+      "data-term": "make purchase",
+      "data-encoded-term": "make%20purchase",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "farmer's market": {
+      "data-frequency": "873",
+      "data-relevance": "75",
+      "data-term": "farmer's market",
+      "data-encoded-term": "farmer's%20market",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "873",
+        "cn5",
+        "1"
+      ]
+    },
+    "label maker": {
+      "data-frequency": "45",
+      "data-relevance": "74",
+      "data-term": "label maker",
+      "data-encoded-term": "label%20maker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopping mall": {
+      "data-frequency": "8316",
+      "data-relevance": "73",
+      "data-term": "shopping mall",
+      "data-encoded-term": "shopping%20mall",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8316",
+        "ol",
+        "1"
+      ]
+    },
+    "carrier bag": {
+      "data-frequency": "1282",
+      "data-relevance": "72",
+      "data-term": "carrier bag",
+      "data-encoded-term": "carrier%20bag",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1282",
+        "cn5",
+        "1"
+      ]
+    },
+    "wild oats": {
+      "data-frequency": "1233",
+      "data-relevance": "71",
+      "data-term": "wild oats",
+      "data-encoded-term": "wild%20oats",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1233",
+        "ol",
+        "1"
+      ]
+    },
+    "meat market": {
+      "data-frequency": "695",
+      "data-relevance": "70",
+      "data-term": "meat market",
+      "data-encoded-term": "meat%20market",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "695",
+        "ol",
+        "1"
+      ]
+    },
+    "florist shop": {
+      "data-frequency": "93",
+      "data-relevance": "69",
+      "data-term": "florist shop",
+      "data-encoded-term": "florist%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "93",
+        "ol",
+        "1"
+      ]
+    },
+    "coffee shop": {
+      "data-frequency": "3926",
+      "data-relevance": "68",
+      "data-term": "coffee shop",
+      "data-encoded-term": "coffee%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3926",
+        "ol",
+        "1"
+      ]
+    },
+    "greasy spoon": {
+      "data-frequency": "148",
+      "data-relevance": "67",
+      "data-term": "greasy spoon",
+      "data-encoded-term": "greasy%20spoon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "148",
+        "ol",
+        "1"
+      ]
+    },
+    "meat packer": {
+      "data-frequency": "578",
+      "data-relevance": "66",
+      "data-term": "meat packer",
+      "data-encoded-term": "meat%20packer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "578",
+        "ol",
+        "1"
+      ]
+    },
+    "shoe store": {
+      "data-frequency": "708",
+      "data-relevance": "65",
+      "data-term": "shoe store",
+      "data-encoded-term": "shoe%20store",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "708",
+        "ol",
+        "1"
+      ]
+    },
+    "pasta sauce": {
+      "data-frequency": "94",
+      "data-relevance": "64",
+      "data-term": "pasta sauce",
+      "data-encoded-term": "pasta%20sauce",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "94",
+        "ol",
+        "1"
+      ]
+    },
+    "puerto rico": {
+      "data-frequency": "54568",
+      "data-relevance": "63",
+      "data-term": "puerto rico",
+      "data-encoded-term": "puerto%20rico",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "54568",
+        "wiki",
+        "1"
+      ]
+    },
+    "purchase item": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "purchase item",
+      "data-encoded-term": "purchase%20item",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "home shop": {
+      "data-frequency": "44",
+      "data-relevance": "61",
+      "data-term": "home shop",
+      "data-encoded-term": "home%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy good": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "buy good",
+      "data-encoded-term": "buy%20good",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "amigo supermarkets": {
+      "data-frequency": "413",
+      "data-relevance": "59",
+      "data-term": "amigo supermarkets",
+      "data-encoded-term": "amigo%20supermarkets",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "413",
+        "wiki",
+        "1"
+      ]
+    },
+    "pueblo supermarkets": {
+      "data-frequency": "483",
+      "data-relevance": "58",
+      "data-term": "pueblo supermarkets",
+      "data-encoded-term": "pueblo%20supermarkets",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "483",
+        "wiki",
+        "1"
+      ]
+    },
+    "food can": {
+      "data-frequency": "532",
+      "data-relevance": "57",
+      "data-term": "food can",
+      "data-encoded-term": "food%20can",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "532",
+        "cn5",
+        "1"
+      ]
+    },
+    "can food": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "can food",
+      "data-encoded-term": "can%20food",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "clothe shop": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "clothe shop",
+      "data-encoded-term": "clothe%20shop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "service counter": {
+      "data-frequency": "183",
+      "data-relevance": "54",
+      "data-term": "service counter",
+      "data-encoded-term": "service%20counter",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "183",
+        "cn5",
+        "1"
+      ]
+    },
+    "tan lotion": {
+      "data-frequency": "76",
+      "data-relevance": "53",
+      "data-term": "tan lotion",
+      "data-encoded-term": "tan%20lotion",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "bring and buy": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "bring and buy",
+      "data-encoded-term": "bring%20and%20buy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "food store": {
+      "data-frequency": "656",
+      "data-relevance": "51",
+      "data-term": "food store",
+      "data-encoded-term": "food%20store",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "656",
+        "cn5",
+        "1"
+      ]
+    },
+    "product": {
+      "data-frequency": "136981",
+      "data-relevance": "50",
+      "data-term": "product",
+      "data-encoded-term": "product",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "136981",
+        "wiki",
+        "1"
+      ]
+    },
+    "your own freezer": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "your own freezer",
+      "data-encoded-term": "your%20own%20freezer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mini mall": {
+      "data-frequency": "110",
+      "data-relevance": "48",
+      "data-term": "mini mall",
+      "data-encoded-term": "mini%20mall",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "110",
+        "cn5",
+        "1"
+      ]
+    },
+    "stock market": {
+      "data-frequency": "7546",
+      "data-relevance": "47",
+      "data-term": "stock market",
+      "data-encoded-term": "stock%20market",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "7546",
+        "cn5",
+        "1"
+      ]
+    },
+    "cash register": {
+      "data-frequency": "790",
+      "data-relevance": "46",
+      "data-term": "cash register",
+      "data-encoded-term": "cash%20register",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "790",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy thing": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "buy thing",
+      "data-encoded-term": "buy%20thing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "english language": {
+      "data-frequency": "160180",
+      "data-relevance": "44",
+      "data-term": "english language",
+      "data-encoded-term": "english%20language",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "160180",
+        "wiki",
+        "1"
+      ]
+    },
+    "oily rag": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "oily rag",
+      "data-encoded-term": "oily%20rag",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "spend your money": {
+      "data-frequency": "44",
+      "data-relevance": "42",
+      "data-term": "spend your money",
+      "data-encoded-term": "spend%20your%20money",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "advertising": {
+      "data-frequency": "64447",
+      "data-relevance": "41",
+      "data-term": "advertising",
+      "data-encoded-term": "advertising",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "64447",
+        "wiki",
+        "1"
+      ]
+    },
+    "canada": {
+      "data-frequency": "512376",
+      "data-relevance": "40",
+      "data-term": "canada",
+      "data-encoded-term": "canada",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "512376",
+        "wiki",
+        "1"
+      ]
+    },
+    "bangladesh": {
+      "data-frequency": "68001",
+      "data-relevance": "39",
+      "data-term": "bangladesh",
+      "data-encoded-term": "bangladesh",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "68001",
+        "wiki",
+        "1"
+      ]
+    },
+    "pork": {
+      "data-frequency": "10446",
+      "data-relevance": "38",
+      "data-term": "pork",
+      "data-encoded-term": "pork",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "10446",
+        "wiki",
+        "1"
+      ]
+    },
+    "corporation": {
+      "data-frequency": "233312",
+      "data-relevance": "37",
+      "data-term": "corporation",
+      "data-encoded-term": "corporation",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "233312",
+        "wiki",
+        "1"
+      ]
+    },
+    "mexico": {
+      "data-frequency": "269907",
+      "data-relevance": "36",
+      "data-term": "mexico",
+      "data-encoded-term": "mexico",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "269907",
+        "wiki",
+        "1"
+      ]
+    },
+    "rice": {
+      "data-frequency": "97163",
+      "data-relevance": "35",
+      "data-term": "rice",
+      "data-encoded-term": "rice",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "97163",
+        "wiki",
+        "1"
+      ]
+    },
+    "fuel": {
+      "data-frequency": "84205",
+      "data-relevance": "34",
+      "data-term": "fuel",
+      "data-encoded-term": "fuel",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "84205",
+        "wiki",
+        "1"
+      ]
+    },
+    "crops": {
+      "data-frequency": "35225",
+      "data-relevance": "33",
+      "data-term": "crops",
+      "data-encoded-term": "crops",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "35225",
+        "wiki",
+        "1"
+      ]
+    },
+    "wheat": {
+      "data-frequency": "28430",
+      "data-relevance": "32",
+      "data-term": "wheat",
+      "data-encoded-term": "wheat",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "28430",
+        "wiki",
+        "1"
+      ]
+    },
+    "china": {
+      "data-frequency": "366821",
+      "data-relevance": "31",
+      "data-term": "china",
+      "data-encoded-term": "china",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "366821",
+        "wiki",
+        "1"
+      ]
+    },
+    "usda": {
+      "data-frequency": "19148",
+      "data-relevance": "30",
+      "data-term": "usda",
+      "data-encoded-term": "usda",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "19148",
+        "wiki",
+        "1"
+      ]
+    },
+    "agriculture": {
+      "data-frequency": "139213",
+      "data-relevance": "29",
+      "data-term": "agriculture",
+      "data-encoded-term": "agriculture",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "139213",
+        "wiki",
+        "1"
+      ]
+    },
+    "india": {
+      "data-frequency": "440461",
+      "data-relevance": "28",
+      "data-term": "india",
+      "data-encoded-term": "india",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "440461",
+        "wiki",
+        "1"
+      ]
+    },
+    "health food store": {
+      "data-frequency": "8417",
+      "data-relevance": "27",
+      "data-term": "health food store",
+      "data-encoded-term": "health%20food%20store",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "8417",
+        "wiki",
+        "1"
+      ]
+    },
+    "green grocer": {
+      "data-frequency": "1019",
+      "data-relevance": "26",
+      "data-term": "green grocer",
+      "data-encoded-term": "green%20grocer",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1019",
+        "wiki",
+        "1"
+      ]
+    },
+    "organic food": {
+      "data-frequency": "730",
+      "data-relevance": "25",
+      "data-term": "organic food",
+      "data-encoded-term": "organic%20food",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "730",
+        "wiki",
+        "1"
+      ]
+    },
+    "health food": {
+      "data-frequency": "1213",
+      "data-relevance": "24",
+      "data-term": "health food",
+      "data-encoded-term": "health%20food",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1213",
+        "wiki",
+        "1"
+      ]
+    },
+    "ecology movement": {
+      "data-frequency": "7742",
+      "data-relevance": "23",
+      "data-term": "ecology movement",
+      "data-encoded-term": "ecology%20movement",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "7742",
+        "wiki",
+        "1"
+      ]
+    },
+    "nutritional supplement": {
+      "data-frequency": "3969",
+      "data-relevance": "22",
+      "data-term": "nutritional supplement",
+      "data-encoded-term": "nutritional%20supplement",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3969",
+        "wiki",
+        "1"
+      ]
+    },
+    "e-commerce": {
+      "data-frequency": "4563",
+      "data-relevance": "21",
+      "data-term": "e-commerce",
+      "data-encoded-term": "e-commerce",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4563",
+        "wiki",
+        "1"
+      ]
+    },
+    "new zealand": {
+      "data-frequency": "237641",
+      "data-relevance": "20",
+      "data-term": "new zealand",
+      "data-encoded-term": "new%20zealand",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "237641",
+        "wiki",
+        "1"
+      ]
+    },
+    "tuck shop": {
+      "data-frequency": "154",
+      "data-relevance": "19",
+      "data-term": "tuck shop",
+      "data-encoded-term": "tuck%20shop",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "154",
+        "wiki",
+        "1"
+      ]
+    },
+    "amazonfresh": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "amazonfresh",
+      "data-encoded-term": "amazonfresh",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "corner shop": {
+      "data-frequency": "446",
+      "data-relevance": "17",
+      "data-term": "corner shop",
+      "data-encoded-term": "corner%20shop",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "446",
+        "wiki",
+        "1"
+      ]
+    },
+    "amazon.com": {
+      "data-frequency": "26341",
+      "data-relevance": "16",
+      "data-term": "amazon.com",
+      "data-encoded-term": "amazon.com",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "26341",
+        "wiki",
+        "1"
+      ]
+    },
+    "day care": {
+      "data-frequency": "2948",
+      "data-relevance": "15",
+      "data-term": "day care",
+      "data-encoded-term": "day%20care",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2948",
+        "wiki",
+        "1"
+      ]
+    },
+    "non-alcoholic drink": {
+      "data-frequency": "3394",
+      "data-relevance": "14",
+      "data-term": "non-alcoholic drink",
+      "data-encoded-term": "non-alcoholic%20drink",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3394",
+        "wiki",
+        "1"
+      ]
+    },
+    "video rental": {
+      "data-frequency": "4310",
+      "data-relevance": "13",
+      "data-term": "video rental",
+      "data-encoded-term": "video%20rental",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "4310",
+        "wiki",
+        "1"
+      ]
+    },
+    "photographic processing": {
+      "data-frequency": "6187",
+      "data-relevance": "12",
+      "data-term": "photographic processing",
+      "data-encoded-term": "photographic%20processing",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "6187",
+        "wiki",
+        "1"
+      ]
+    },
+    "new york city": {
+      "data-frequency": "230942",
+      "data-relevance": "11",
+      "data-term": "new york city",
+      "data-encoded-term": "new%20york%20city",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "230942",
+        "wiki",
+        "1"
+      ]
+    },
+    "petrol station": {
+      "data-frequency": "1897",
+      "data-relevance": "10",
+      "data-term": "petrol station",
+      "data-encoded-term": "petrol%20station",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1897",
+        "wiki",
+        "1"
+      ]
+    },
+    "big-box store": {
+      "data-frequency": "10889",
+      "data-relevance": "9",
+      "data-term": "big-box store",
+      "data-encoded-term": "big-box%20store",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "10889",
+        "wiki",
+        "1"
+      ]
+    },
+    "hadley, massachusetts": {
+      "data-frequency": "1808",
+      "data-relevance": "8",
+      "data-term": "hadley, massachusetts",
+      "data-encoded-term": "hadley%2C%20massachusetts",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1808",
+        "wiki",
+        "1"
+      ]
+    },
+    "north america": {
+      "data-frequency": "181927",
+      "data-relevance": "7",
+      "data-term": "north america",
+      "data-encoded-term": "north%20america",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "181927",
+        "wiki",
+        "1"
+      ]
+    },
+    "warehouse club": {
+      "data-frequency": "88",
+      "data-relevance": "6",
+      "data-term": "warehouse club",
+      "data-encoded-term": "warehouse%20club",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "88",
+        "wiki",
+        "1"
+      ]
+    },
+    "amazon prime pantry": {
+      "data-frequency": "-1",
+      "data-relevance": "5",
+      "data-term": "amazon prime pantry",
+      "data-encoded-term": "amazon%20prime%20pantry",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "online grocer": {
+      "data-frequency": "1070",
+      "data-relevance": "4",
+      "data-term": "online grocer",
+      "data-encoded-term": "online%20grocer",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1070",
+        "wiki",
+        "1"
+      ]
+    },
+    "overseas development institute": {
+      "data-frequency": "9682",
+      "data-relevance": "3",
+      "data-term": "overseas development institute",
+      "data-encoded-term": "overseas%20development%20institute",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "9682",
+        "wiki",
+        "1"
+      ]
+    },
+    "food marketing": {
+      "data-frequency": "12845",
+      "data-relevance": "2",
+      "data-term": "food marketing",
+      "data-encoded-term": "food%20marketing",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "12845",
+        "wiki",
+        "1"
+      ]
+    },
+    "shopping cart": {
+      "data-frequency": "434",
+      "data-relevance": "1",
+      "data-term": "shopping cart",
+      "data-encoded-term": "shopping%20cart",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "434",
+        "wiki",
+        "1"
+      ]
+    },
+    "economies of scale": {
+      "data-frequency": "1258",
+      "data-relevance": "0",
+      "data-term": "economies of scale",
+      "data-encoded-term": "economies%20of%20scale",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1258",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "grocery"
+    ],
+    "word_forms": [
+      "grocers"
+    ],
+    "examples": [
+      {
+        "en": "The grocer sacked the onions",
+        "ru": "Бакалейщик насыпал/переложил лук в мешок."
+      },
+      {
+        "en": "Ask your local grocer if he sells organic fruits and vegetables.",
+        "ru": "Спросите своего бакалейщика, продаёт ли он экологически чистые фрукты и овощи."
+      },
+      {
+        "en": "The grocer priced his wares high.",
+        "ru": "Бакалейщик поставил на свои товары высокую цену."
+      },
+      {
+        "en": "The grocer sacked the onions.",
+        "ru": "Бакалейщик насыпал лук в мешок."
+      },
+      {
+        "en": "The grocer dunned his customers every day by telephone.",
+        "ru": "Бакалейщик каждый день звонил своим клиентам и требовал уплатить долги."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "grocering",
+      "grocered",
+      "grocers"
+    ],
+    "synonyms": [
+      "purveyor",
+      "middleman"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "grocery"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "butcher",
+      "merchant",
+      "grocers",
+      "retailer",
+      "groceress",
+      "household",
+      "greengrocer",
+      "hypermarket",
+      "foodstuff",
+      "grocery",
+      "supermarket",
+      "sell",
+      "groceries",
+      "groceryman",
+      "store",
+      "deli",
+      "delicatessen",
+      "gross"
+    ]
+  }
+}

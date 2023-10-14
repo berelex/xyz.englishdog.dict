@@ -1,0 +1,5799 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "appraisers": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/appraisers/n/,/c/en/appraiser/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/appraisers/n",
+          "@type": "Node",
+          "label": "appraisers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/appraisers"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      },
+      "prizer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/prizer/n/,/c/en/appraiser/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/prizer/n",
+          "@type": "Node",
+          "label": "prizer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/prizer"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      },
+      "apprizer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/apprizer/n/,/c/en/appraiser/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/apprizer/n",
+          "@type": "Node",
+          "label": "apprizer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/apprizer"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      },
+      "appraisal": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/appraiser/n/,/c/en/appraisal/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/appraiser/n",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/appraiser"
+        },
+        "end": {
+          "@id": "/c/en/appraisal",
+          "@type": "Node",
+          "label": "appraisal",
+          "language": "en",
+          "term": "/c/en/appraisal"
+        }
+      },
+      "valuator": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/valuator/n/,/c/en/appraiser/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/valuator/n",
+          "@type": "Node",
+          "label": "valuator",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/valuator"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      },
+      "valuer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/valuer/n/,/c/en/appraiser/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/valuer/n",
+          "@type": "Node",
+          "label": "valuer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/valuer"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      },
+      "estimate": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/estimate/,/c/en/appraiser/]",
+        "weight": 0.10199999999999987,
+        "start": {
+          "@id": "/c/en/estimate",
+          "@type": "Node",
+          "label": "estimate",
+          "language": "en",
+          "term": "/c/en/estimate"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "valuator": {
+        "@id": "/a/[/r/Synonym/,/c/en/valuator/n/wn/person/,/c/en/appraiser/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/valuator/n/wn/person",
+          "@type": "Node",
+          "label": "valuator",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/valuator"
+        },
+        "end": {
+          "@id": "/c/en/appraiser/n/wn/person",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/appraiser"
+        }
+      },
+      "authenticator": {
+        "@id": "/a/[/r/Synonym/,/c/en/authenticator/n/wn/art/,/c/en/appraiser/n/wn/art/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/authenticator/n/wn/art",
+          "@type": "Node",
+          "label": "authenticator",
+          "language": "en",
+          "sense_label": "n, art",
+          "term": "/c/en/authenticator"
+        },
+        "end": {
+          "@id": "/c/en/appraiser/n/wn/art",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "sense_label": "n, art",
+          "term": "/c/en/appraiser"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "appraisers": {
+        "@id": "/a/[/r/FormOf/,/c/en/appraisers/n/,/c/en/appraiser/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/appraisers/n",
+          "@type": "Node",
+          "label": "appraisers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/appraisers"
+        },
+        "end": {
+          "@id": "/c/en/appraiser",
+          "@type": "Node",
+          "label": "appraiser",
+          "language": "en",
+          "term": "/c/en/appraiser"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "appraisal": {
+      "data-frequency": "8344",
+      "data-relevance": "394",
+      "data-term": "appraisal",
+      "data-encoded-term": "appraisal",
+      "data-term-stats": [
+        "1",
+        "4.2",
+        "0.000",
+        "8344",
+        "cn5,ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "inspector": {
+      "data-frequency": "38477",
+      "data-relevance": "393",
+      "data-term": "inspector",
+      "data-encoded-term": "inspector",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38477",
+        "ol",
+        "1"
+      ]
+    },
+    "valuer": {
+      "data-frequency": "397",
+      "data-relevance": "392",
+      "data-term": "valuer",
+      "data-encoded-term": "valuer",
+      "data-term-stats": [
+        "1",
+        "8.9",
+        "0.000",
+        "397",
+        "cn5,ol,w2v,wn",
+        "1"
+      ]
+    },
+    "valuator": {
+      "data-frequency": "52",
+      "data-relevance": "391",
+      "data-term": "valuator",
+      "data-encoded-term": "valuator",
+      "data-term-stats": [
+        "1",
+        "5.9",
+        "0.000",
+        "52",
+        "cn5,ol,wn",
+        "1"
+      ]
+    },
+    "assessor": {
+      "data-frequency": "3909",
+      "data-relevance": "390",
+      "data-term": "assessor",
+      "data-encoded-term": "assessor",
+      "data-term-stats": [
+        "1",
+        "4.5",
+        "0.000",
+        "3909",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "evaluator": {
+      "data-frequency": "804",
+      "data-relevance": "389",
+      "data-term": "evaluator",
+      "data-encoded-term": "evaluator",
+      "data-term-stats": [
+        "1",
+        "5.1",
+        "0.000",
+        "804",
+        "cn5,ol,wn",
+        "1"
+      ]
+    },
+    "valuation": {
+      "data-frequency": "8627",
+      "data-relevance": "388",
+      "data-term": "valuation",
+      "data-encoded-term": "valuation",
+      "data-term-stats": [
+        "1",
+        "3.4",
+        "0.000",
+        "8627",
+        "ol,w2v,wiki",
+        "1"
+      ]
+    },
+    "realtor": {
+      "data-frequency": "2068",
+      "data-relevance": "387",
+      "data-term": "realtor",
+      "data-encoded-term": "realtor",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2068",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "property": {
+      "data-frequency": "244829",
+      "data-relevance": "386",
+      "data-term": "property",
+      "data-encoded-term": "property",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "244829",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "evaluation": {
+      "data-frequency": "52292",
+      "data-relevance": "385",
+      "data-term": "evaluation",
+      "data-encoded-term": "evaluation",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "52292",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "collector": {
+      "data-frequency": "35139",
+      "data-relevance": "384",
+      "data-term": "collector",
+      "data-encoded-term": "collector",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "35139",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "meter": {
+      "data-frequency": "41904",
+      "data-relevance": "383",
+      "data-term": "meter",
+      "data-encoded-term": "meter",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "41904",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "auctioneer": {
+      "data-frequency": "2223",
+      "data-relevance": "382",
+      "data-term": "auctioneer",
+      "data-encoded-term": "auctioneer",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "2223",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "auditor": {
+      "data-frequency": "14476",
+      "data-relevance": "381",
+      "data-term": "auditor",
+      "data-encoded-term": "auditor",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "14476",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "accountant": {
+      "data-frequency": "12009",
+      "data-relevance": "380",
+      "data-term": "accountant",
+      "data-encoded-term": "accountant",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "12009",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "buyer": {
+      "data-frequency": "12017",
+      "data-relevance": "379",
+      "data-term": "buyer",
+      "data-encoded-term": "buyer",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "12017",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "adjuster": {
+      "data-frequency": "544",
+      "data-relevance": "378",
+      "data-term": "adjuster",
+      "data-encoded-term": "adjuster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "544",
+        "ol",
+        "1"
+      ]
+    },
+    "lender": {
+      "data-frequency": "2961",
+      "data-relevance": "377",
+      "data-term": "lender",
+      "data-encoded-term": "lender",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2961",
+        "ol",
+        "1"
+      ]
+    },
+    "borrower": {
+      "data-frequency": "1018",
+      "data-relevance": "376",
+      "data-term": "borrower",
+      "data-encoded-term": "borrower",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1018",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "renter": {
+      "data-frequency": "489",
+      "data-relevance": "375",
+      "data-term": "renter",
+      "data-encoded-term": "renter",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "489",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "antiques": {
+      "data-frequency": "7016",
+      "data-relevance": "374",
+      "data-term": "antiques",
+      "data-encoded-term": "antiques",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "7016",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "conservator": {
+      "data-frequency": "1713",
+      "data-relevance": "373",
+      "data-term": "conservator",
+      "data-encoded-term": "conservator",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1713",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "salesperson": {
+      "data-frequency": "727",
+      "data-relevance": "372",
+      "data-term": "salesperson",
+      "data-encoded-term": "salesperson",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "727",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "appraisals": {
+      "data-frequency": "890",
+      "data-relevance": "371",
+      "data-term": "appraisals",
+      "data-encoded-term": "appraisals",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "890",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "dealer": {
+      "data-frequency": "27977",
+      "data-relevance": "370",
+      "data-term": "dealer",
+      "data-encoded-term": "dealer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27977",
+        "w2v",
+        "1"
+      ]
+    },
+    "authenticator": {
+      "data-frequency": "545",
+      "data-relevance": "369",
+      "data-term": "authenticator",
+      "data-encoded-term": "authenticator",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "545",
+        "wn",
+        "1"
+      ]
+    },
+    "probate": {
+      "data-frequency": "4446",
+      "data-relevance": "368",
+      "data-term": "probate",
+      "data-encoded-term": "probate",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "4446",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "preparer": {
+      "data-frequency": "240",
+      "data-relevance": "367",
+      "data-term": "preparer",
+      "data-encoded-term": "preparer",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "240",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "reappraisal": {
+      "data-frequency": "2940",
+      "data-relevance": "366",
+      "data-term": "reappraisal",
+      "data-encoded-term": "reappraisal",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "2940",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "value": {
+      "data-frequency": "211704",
+      "data-relevance": "365",
+      "data-term": "value",
+      "data-encoded-term": "value",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "211704",
+        "wiki",
+        "1"
+      ]
+    },
+    "critic": {
+      "data-frequency": "82455",
+      "data-relevance": "364",
+      "data-term": "critic",
+      "data-encoded-term": "critic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "82455",
+        "wn|reverse-net",
+        "1"
+      ]
+    },
+    "expert": {
+      "data-frequency": "79000",
+      "data-relevance": "363",
+      "data-term": "expert",
+      "data-encoded-term": "expert",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "79000",
+        "ol",
+        "1"
+      ]
+    },
+    "judge": {
+      "data-frequency": "170945",
+      "data-relevance": "362",
+      "data-term": "judge",
+      "data-encoded-term": "judge",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "170945",
+        "wn",
+        "1"
+      ]
+    },
+    "art": {
+      "data-frequency": "540366",
+      "data-relevance": "361",
+      "data-term": "art",
+      "data-encoded-term": "art",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "540366",
+        "wn",
+        "1"
+      ]
+    },
+    "bank": {
+      "data-frequency": "246136",
+      "data-relevance": "360",
+      "data-term": "bank",
+      "data-encoded-term": "bank",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "246136",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "reassess": {
+      "data-frequency": "952",
+      "data-relevance": "359",
+      "data-term": "reassess",
+      "data-encoded-term": "reassess",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "952",
+        "cn5",
+        "1"
+      ]
+    },
+    "quantify": {
+      "data-frequency": "4419",
+      "data-relevance": "358",
+      "data-term": "quantify",
+      "data-encoded-term": "quantify",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4419",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure": {
+      "data-frequency": "84955",
+      "data-relevance": "357",
+      "data-term": "measure",
+      "data-encoded-term": "measure",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "84955",
+        "cn5",
+        "1"
+      ]
+    },
+    "historian": {
+      "data-frequency": "113880",
+      "data-relevance": "356",
+      "data-term": "historian",
+      "data-encoded-term": "historian",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "113880",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gauge": {
+      "data-frequency": "46242",
+      "data-relevance": "355",
+      "data-term": "gauge",
+      "data-encoded-term": "gauge",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "46242",
+        "cn5",
+        "1"
+      ]
+    },
+    "measurable": {
+      "data-frequency": "4450",
+      "data-relevance": "354",
+      "data-term": "measurable",
+      "data-encoded-term": "measurable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4450",
+        "cn5",
+        "1"
+      ]
+    },
+    "metric": {
+      "data-frequency": "19561",
+      "data-relevance": "353",
+      "data-term": "metric",
+      "data-encoded-term": "metric",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "19561",
+        "cn5",
+        "1"
+      ]
+    },
+    "caliper": {
+      "data-frequency": "677",
+      "data-relevance": "352",
+      "data-term": "caliper",
+      "data-encoded-term": "caliper",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "677",
+        "cn5",
+        "1"
+      ]
+    },
+    "misgauge": {
+      "data-frequency": "-1",
+      "data-relevance": "351",
+      "data-term": "misgauge",
+      "data-encoded-term": "misgauge",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "jeweler": {
+      "data-frequency": "1797",
+      "data-relevance": "350",
+      "data-term": "jeweler",
+      "data-encoded-term": "jeweler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1797",
+        "ol",
+        "1"
+      ]
+    },
+    "gemologist": {
+      "data-frequency": "114",
+      "data-relevance": "349",
+      "data-term": "gemologist",
+      "data-encoded-term": "gemologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "114",
+        "ol",
+        "1"
+      ]
+    },
+    "tax": {
+      "data-frequency": "86591",
+      "data-relevance": "348",
+      "data-term": "tax",
+      "data-encoded-term": "tax",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "86591",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "real": {
+      "data-frequency": "335029",
+      "data-relevance": "347",
+      "data-term": "real",
+      "data-encoded-term": "real",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "335029",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "metrical": {
+      "data-frequency": "2440",
+      "data-relevance": "346",
+      "data-term": "metrical",
+      "data-encoded-term": "metrical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2440",
+        "cn5",
+        "1"
+      ]
+    },
+    "measuringly": {
+      "data-frequency": "-1",
+      "data-relevance": "345",
+      "data-term": "measuringly",
+      "data-encoded-term": "measuringly",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "measurer": {
+      "data-frequency": "170",
+      "data-relevance": "344",
+      "data-term": "measurer",
+      "data-encoded-term": "measurer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "170",
+        "cn5",
+        "1"
+      ]
+    },
+    "measurement": {
+      "data-frequency": "33120",
+      "data-relevance": "343",
+      "data-term": "measurement",
+      "data-encoded-term": "measurement",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "33120",
+        "cn5",
+        "1"
+      ]
+    },
+    "altimeter": {
+      "data-frequency": "1257",
+      "data-relevance": "342",
+      "data-term": "altimeter",
+      "data-encoded-term": "altimeter",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1257",
+        "cn5",
+        "1"
+      ]
+    },
+    "assessable": {
+      "data-frequency": "126",
+      "data-relevance": "341",
+      "data-term": "assessable",
+      "data-encoded-term": "assessable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "126",
+        "cn5",
+        "1"
+      ]
+    },
+    "voltmeter": {
+      "data-frequency": "370",
+      "data-relevance": "340",
+      "data-term": "voltmeter",
+      "data-encoded-term": "voltmeter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "370",
+        "cn5",
+        "1"
+      ]
+    },
+    "appraisers": {
+      "data-frequency": "3307",
+      "data-relevance": "339",
+      "data-term": "appraisers",
+      "data-encoded-term": "appraisers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3307",
+        "w2v",
+        "1"
+      ]
+    },
+    "appraise": {
+      "data-frequency": "526",
+      "data-relevance": "338",
+      "data-term": "appraise",
+      "data-encoded-term": "appraise",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "526",
+        "cn5",
+        "1"
+      ]
+    },
+    "consultant": {
+      "data-frequency": "51220",
+      "data-relevance": "337",
+      "data-term": "consultant",
+      "data-encoded-term": "consultant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51220",
+        "ol",
+        "1"
+      ]
+    },
+    "auction": {
+      "data-frequency": "28840",
+      "data-relevance": "336",
+      "data-term": "auction",
+      "data-encoded-term": "auction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "28840",
+        "wiki",
+        "1"
+      ]
+    },
+    "supermeasure": {
+      "data-frequency": "-1",
+      "data-relevance": "335",
+      "data-term": "supermeasure",
+      "data-encoded-term": "supermeasure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "standardize": {
+      "data-frequency": "2745",
+      "data-relevance": "334",
+      "data-term": "standardize",
+      "data-encoded-term": "standardize",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2745",
+        "cn5",
+        "1"
+      ]
+    },
+    "overmeasure": {
+      "data-frequency": "-1",
+      "data-relevance": "333",
+      "data-term": "overmeasure",
+      "data-encoded-term": "overmeasure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reflectometer": {
+      "data-frequency": "218",
+      "data-relevance": "332",
+      "data-term": "reflectometer",
+      "data-encoded-term": "reflectometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "218",
+        "cn5",
+        "1"
+      ]
+    },
+    "electrometer": {
+      "data-frequency": "149",
+      "data-relevance": "331",
+      "data-term": "electrometer",
+      "data-encoded-term": "electrometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "149",
+        "cn5",
+        "1"
+      ]
+    },
+    "immeasured": {
+      "data-frequency": "-1",
+      "data-relevance": "330",
+      "data-term": "immeasured",
+      "data-encoded-term": "immeasured",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "measuredly": {
+      "data-frequency": "-1",
+      "data-relevance": "329",
+      "data-term": "measuredly",
+      "data-encoded-term": "measuredly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cubit": {
+      "data-frequency": "1097",
+      "data-relevance": "328",
+      "data-term": "cubit",
+      "data-encoded-term": "cubit",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1097",
+        "cn5",
+        "1"
+      ]
+    },
+    "densitometer": {
+      "data-frequency": "49",
+      "data-relevance": "327",
+      "data-term": "densitometer",
+      "data-encoded-term": "densitometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "49",
+        "cn5",
+        "1"
+      ]
+    },
+    "mensural": {
+      "data-frequency": "140",
+      "data-relevance": "326",
+      "data-term": "mensural",
+      "data-encoded-term": "mensural",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "140",
+        "cn5",
+        "1"
+      ]
+    },
+    "refractometer": {
+      "data-frequency": "82",
+      "data-relevance": "325",
+      "data-term": "refractometer",
+      "data-encoded-term": "refractometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "82",
+        "cn5",
+        "1"
+      ]
+    },
+    "pressuremeter": {
+      "data-frequency": "-1",
+      "data-relevance": "324",
+      "data-term": "pressuremeter",
+      "data-encoded-term": "pressuremeter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "craniometer": {
+      "data-frequency": "-1",
+      "data-relevance": "323",
+      "data-term": "craniometer",
+      "data-encoded-term": "craniometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "surveyor": {
+      "data-frequency": "14899",
+      "data-relevance": "322",
+      "data-term": "surveyor",
+      "data-encoded-term": "surveyor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14899",
+        "ol",
+        "1"
+      ]
+    },
+    "broker": {
+      "data-frequency": "11273",
+      "data-relevance": "321",
+      "data-term": "broker",
+      "data-encoded-term": "broker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11273",
+        "ol",
+        "1"
+      ]
+    },
+    "numismatist": {
+      "data-frequency": "923",
+      "data-relevance": "320",
+      "data-term": "numismatist",
+      "data-encoded-term": "numismatist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "923",
+        "ol",
+        "1"
+      ]
+    },
+    "estimator": {
+      "data-frequency": "1319",
+      "data-relevance": "319",
+      "data-term": "estimator",
+      "data-encoded-term": "estimator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1319",
+        "ol",
+        "1"
+      ]
+    },
+    "precision": {
+      "data-frequency": "24128",
+      "data-relevance": "318",
+      "data-term": "precision",
+      "data-encoded-term": "precision",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24128",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "luthier": {
+      "data-frequency": "1261",
+      "data-relevance": "317",
+      "data-term": "luthier",
+      "data-encoded-term": "luthier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1261",
+        "ol",
+        "1"
+      ]
+    },
+    "thrift": {
+      "data-frequency": "2855",
+      "data-relevance": "316",
+      "data-term": "thrift",
+      "data-encoded-term": "thrift",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2855",
+        "w2v",
+        "1"
+      ]
+    },
+    "examiner": {
+      "data-frequency": "22001",
+      "data-relevance": "315",
+      "data-term": "examiner",
+      "data-encoded-term": "examiner",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22001",
+        "ol",
+        "1"
+      ]
+    },
+    "quantification": {
+      "data-frequency": "2884",
+      "data-relevance": "314",
+      "data-term": "quantification",
+      "data-encoded-term": "quantification",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2884",
+        "cn5",
+        "1"
+      ]
+    },
+    "gravimeter": {
+      "data-frequency": "82",
+      "data-relevance": "313",
+      "data-term": "gravimeter",
+      "data-encoded-term": "gravimeter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "82",
+        "cn5",
+        "1"
+      ]
+    },
+    "england": {
+      "data-frequency": "609840",
+      "data-relevance": "312",
+      "data-term": "england",
+      "data-encoded-term": "england",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "609840",
+        "wiki",
+        "1"
+      ]
+    },
+    "magnetization": {
+      "data-frequency": "821",
+      "data-relevance": "311",
+      "data-term": "magnetization",
+      "data-encoded-term": "magnetization",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "821",
+        "cn5",
+        "1"
+      ]
+    },
+    "metre": {
+      "data-frequency": "49704",
+      "data-relevance": "310",
+      "data-term": "metre",
+      "data-encoded-term": "metre",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "49704",
+        "cn5",
+        "1"
+      ]
+    },
+    "hydrometer": {
+      "data-frequency": "149",
+      "data-relevance": "309",
+      "data-term": "hydrometer",
+      "data-encoded-term": "hydrometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "149",
+        "cn5",
+        "1"
+      ]
+    },
+    "prosody": {
+      "data-frequency": "1531",
+      "data-relevance": "308",
+      "data-term": "prosody",
+      "data-encoded-term": "prosody",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1531",
+        "cn5",
+        "1"
+      ]
+    },
+    "mete": {
+      "data-frequency": "1173",
+      "data-relevance": "307",
+      "data-term": "mete",
+      "data-encoded-term": "mete",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1173",
+        "cn5",
+        "1"
+      ]
+    },
+    "investigator": {
+      "data-frequency": "22173",
+      "data-relevance": "306",
+      "data-term": "investigator",
+      "data-encoded-term": "investigator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22173",
+        "ol",
+        "1"
+      ]
+    },
+    "rater": {
+      "data-frequency": "553",
+      "data-relevance": "305",
+      "data-term": "rater",
+      "data-encoded-term": "rater",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "553",
+        "ol",
+        "1"
+      ]
+    },
+    "rangefinder": {
+      "data-frequency": "1887",
+      "data-relevance": "304",
+      "data-term": "rangefinder",
+      "data-encoded-term": "rangefinder",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1887",
+        "cn5",
+        "1"
+      ]
+    },
+    "hydrometry": {
+      "data-frequency": "48",
+      "data-relevance": "303",
+      "data-term": "hydrometry",
+      "data-encoded-term": "hydrometry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "odometer": {
+      "data-frequency": "729",
+      "data-relevance": "302",
+      "data-term": "odometer",
+      "data-encoded-term": "odometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "729",
+        "cn5",
+        "1"
+      ]
+    },
+    "ohmmeter": {
+      "data-frequency": "-1",
+      "data-relevance": "301",
+      "data-term": "ohmmeter",
+      "data-encoded-term": "ohmmeter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "adjudicator": {
+      "data-frequency": "844",
+      "data-relevance": "300",
+      "data-term": "adjudicator",
+      "data-encoded-term": "adjudicator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "844",
+        "ol",
+        "1"
+      ]
+    },
+    "hypsometry": {
+      "data-frequency": "-1",
+      "data-relevance": "299",
+      "data-term": "hypsometry",
+      "data-encoded-term": "hypsometry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reviewer": {
+      "data-frequency": "22787",
+      "data-relevance": "298",
+      "data-term": "reviewer",
+      "data-encoded-term": "reviewer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22787",
+        "ol",
+        "1"
+      ]
+    },
+    "assessment": {
+      "data-frequency": "66373",
+      "data-relevance": "297",
+      "data-term": "assessment",
+      "data-encoded-term": "assessment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "66373",
+        "ol",
+        "1"
+      ]
+    },
+    "metry": {
+      "data-frequency": "-1",
+      "data-relevance": "296",
+      "data-term": "metry",
+      "data-encoded-term": "metry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hypermeasure": {
+      "data-frequency": "-1",
+      "data-relevance": "295",
+      "data-term": "hypermeasure",
+      "data-encoded-term": "hypermeasure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "vernier": {
+      "data-frequency": "1381",
+      "data-relevance": "294",
+      "data-term": "vernier",
+      "data-encoded-term": "vernier",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1381",
+        "cn5",
+        "1"
+      ]
+    },
+    "interferometer": {
+      "data-frequency": "1375",
+      "data-relevance": "293",
+      "data-term": "interferometer",
+      "data-encoded-term": "interferometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1375",
+        "cn5",
+        "1"
+      ]
+    },
+    "pedometer": {
+      "data-frequency": "122",
+      "data-relevance": "292",
+      "data-term": "pedometer",
+      "data-encoded-term": "pedometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "122",
+        "cn5",
+        "1"
+      ]
+    },
+    "spirometry": {
+      "data-frequency": "94",
+      "data-relevance": "291",
+      "data-term": "spirometry",
+      "data-encoded-term": "spirometry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "94",
+        "cn5",
+        "1"
+      ]
+    },
+    "tenthmeter": {
+      "data-frequency": "-1",
+      "data-relevance": "290",
+      "data-term": "tenthmeter",
+      "data-encoded-term": "tenthmeter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hypsometer": {
+      "data-frequency": "-1",
+      "data-relevance": "289",
+      "data-term": "hypsometer",
+      "data-encoded-term": "hypsometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "yardstick": {
+      "data-frequency": "549",
+      "data-relevance": "288",
+      "data-term": "yardstick",
+      "data-encoded-term": "yardstick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "549",
+        "cn5",
+        "1"
+      ]
+    },
+    "countermeasure": {
+      "data-frequency": "1348",
+      "data-relevance": "287",
+      "data-term": "countermeasure",
+      "data-encoded-term": "countermeasure",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1348",
+        "cn5",
+        "1"
+      ]
+    },
+    "rhythmical": {
+      "data-frequency": "611",
+      "data-relevance": "286",
+      "data-term": "rhythmical",
+      "data-encoded-term": "rhythmical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "611",
+        "cn5",
+        "1"
+      ]
+    },
+    "interviewer": {
+      "data-frequency": "5685",
+      "data-relevance": "285",
+      "data-term": "interviewer",
+      "data-encoded-term": "interviewer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5685",
+        "ol",
+        "1"
+      ]
+    },
+    "goniometer": {
+      "data-frequency": "104",
+      "data-relevance": "284",
+      "data-term": "goniometer",
+      "data-encoded-term": "goniometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "104",
+        "cn5",
+        "1"
+      ]
+    },
+    "assess": {
+      "data-frequency": "19230",
+      "data-relevance": "283",
+      "data-term": "assess",
+      "data-encoded-term": "assess",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19230",
+        "cn5",
+        "1"
+      ]
+    },
+    "pluviometer": {
+      "data-frequency": "-1",
+      "data-relevance": "282",
+      "data-term": "pluviometer",
+      "data-encoded-term": "pluviometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "calibrate": {
+      "data-frequency": "801",
+      "data-relevance": "281",
+      "data-term": "calibrate",
+      "data-encoded-term": "calibrate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "801",
+        "cn5",
+        "1"
+      ]
+    },
+    "harrod": {
+      "data-frequency": "1029",
+      "data-relevance": "280",
+      "data-term": "harrod",
+      "data-encoded-term": "harrod",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1029",
+        "w2v",
+        "1"
+      ]
+    },
+    "dosimetry": {
+      "data-frequency": "406",
+      "data-relevance": "279",
+      "data-term": "dosimetry",
+      "data-encoded-term": "dosimetry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "406",
+        "cn5",
+        "1"
+      ]
+    },
+    "gravimetric": {
+      "data-frequency": "290",
+      "data-relevance": "278",
+      "data-term": "gravimetric",
+      "data-encoded-term": "gravimetric",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "290",
+        "cn5",
+        "1"
+      ]
+    },
+    "tonometry": {
+      "data-frequency": "44",
+      "data-relevance": "277",
+      "data-term": "tonometry",
+      "data-encoded-term": "tonometry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "marker": {
+      "data-frequency": "28913",
+      "data-relevance": "276",
+      "data-term": "marker",
+      "data-encoded-term": "marker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28913",
+        "ol",
+        "1"
+      ]
+    },
+    "executor": {
+      "data-frequency": "3125",
+      "data-relevance": "275",
+      "data-term": "executor",
+      "data-encoded-term": "executor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3125",
+        "w2v",
+        "1"
+      ]
+    },
+    "radiometer": {
+      "data-frequency": "810",
+      "data-relevance": "274",
+      "data-term": "radiometer",
+      "data-encoded-term": "radiometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "810",
+        "cn5",
+        "1"
+      ]
+    },
+    "mileage": {
+      "data-frequency": "4737",
+      "data-relevance": "273",
+      "data-term": "mileage",
+      "data-encoded-term": "mileage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4737",
+        "cn5",
+        "1"
+      ]
+    },
+    "micrometer": {
+      "data-frequency": "787",
+      "data-relevance": "272",
+      "data-term": "micrometer",
+      "data-encoded-term": "micrometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "787",
+        "cn5",
+        "1"
+      ]
+    },
+    "purchaser": {
+      "data-frequency": "2817",
+      "data-relevance": "271",
+      "data-term": "purchaser",
+      "data-encoded-term": "purchaser",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2817",
+        "w2v",
+        "1"
+      ]
+    },
+    "barometer": {
+      "data-frequency": "2137",
+      "data-relevance": "270",
+      "data-term": "barometer",
+      "data-encoded-term": "barometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2137",
+        "cn5",
+        "1"
+      ]
+    },
+    "mile": {
+      "data-frequency": "144641",
+      "data-relevance": "269",
+      "data-term": "mile",
+      "data-encoded-term": "mile",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "144641",
+        "cn5",
+        "1"
+      ]
+    },
+    "artistic production": {
+      "data-frequency": "505",
+      "data-relevance": "268",
+      "data-term": "artistic production",
+      "data-encoded-term": "artistic%20production",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "505",
+        "wn",
+        "1"
+      ]
+    },
+    "custodian": {
+      "data-frequency": "4248",
+      "data-relevance": "267",
+      "data-term": "custodian",
+      "data-encoded-term": "custodian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4248",
+        "w2v",
+        "1"
+      ]
+    },
+    "potentiometer": {
+      "data-frequency": "262",
+      "data-relevance": "266",
+      "data-term": "potentiometer",
+      "data-encoded-term": "potentiometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "262",
+        "cn5",
+        "1"
+      ]
+    },
+    "artistic creation": {
+      "data-frequency": "484",
+      "data-relevance": "265",
+      "data-term": "artistic creation",
+      "data-encoded-term": "artistic%20creation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "484",
+        "wn",
+        "1"
+      ]
+    },
+    "homeowner": {
+      "data-frequency": "2704",
+      "data-relevance": "264",
+      "data-term": "homeowner",
+      "data-encoded-term": "homeowner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2704",
+        "ol",
+        "1"
+      ]
+    },
+    "stager": {
+      "data-frequency": "355",
+      "data-relevance": "263",
+      "data-term": "stager",
+      "data-encoded-term": "stager",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "355",
+        "ol",
+        "1"
+      ]
+    },
+    "landman": {
+      "data-frequency": "804",
+      "data-relevance": "262",
+      "data-term": "landman",
+      "data-encoded-term": "landman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "804",
+        "ol",
+        "1"
+      ]
+    },
+    "planner": {
+      "data-frequency": "9186",
+      "data-relevance": "261",
+      "data-term": "planner",
+      "data-encoded-term": "planner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9186",
+        "ol",
+        "1"
+      ]
+    },
+    "notary": {
+      "data-frequency": "3728",
+      "data-relevance": "260",
+      "data-term": "notary",
+      "data-encoded-term": "notary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3728",
+        "ol",
+        "1"
+      ]
+    },
+    "actuary": {
+      "data-frequency": "807",
+      "data-relevance": "259",
+      "data-term": "actuary",
+      "data-encoded-term": "actuary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "807",
+        "ol",
+        "1"
+      ]
+    },
+    "bondsman": {
+      "data-frequency": "243",
+      "data-relevance": "258",
+      "data-term": "bondsman",
+      "data-encoded-term": "bondsman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "243",
+        "ol",
+        "1"
+      ]
+    },
+    "forester": {
+      "data-frequency": "4987",
+      "data-relevance": "257",
+      "data-term": "forester",
+      "data-encoded-term": "forester",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4987",
+        "ol",
+        "1"
+      ]
+    },
+    "craftsman": {
+      "data-frequency": "8453",
+      "data-relevance": "256",
+      "data-term": "craftsman",
+      "data-encoded-term": "craftsman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8453",
+        "ol",
+        "1"
+      ]
+    },
+    "commissioners": {
+      "data-frequency": "37130",
+      "data-relevance": "255",
+      "data-term": "commissioners",
+      "data-encoded-term": "commissioners",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37130",
+        "ol",
+        "1"
+      ]
+    },
+    "administrator": {
+      "data-frequency": "67726",
+      "data-relevance": "254",
+      "data-term": "administrator",
+      "data-encoded-term": "administrator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67726",
+        "ol",
+        "1"
+      ]
+    },
+    "restorer": {
+      "data-frequency": "1795",
+      "data-relevance": "253",
+      "data-term": "restorer",
+      "data-encoded-term": "restorer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1795",
+        "ol",
+        "1"
+      ]
+    },
+    "attorney": {
+      "data-frequency": "114565",
+      "data-relevance": "252",
+      "data-term": "attorney",
+      "data-encoded-term": "attorney",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "114565",
+        "ol",
+        "1"
+      ]
+    },
+    "preservationist": {
+      "data-frequency": "1200",
+      "data-relevance": "251",
+      "data-term": "preservationist",
+      "data-encoded-term": "preservationist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1200",
+        "ol",
+        "1"
+      ]
+    },
+    "liens": {
+      "data-frequency": "6008",
+      "data-relevance": "250",
+      "data-term": "liens",
+      "data-encoded-term": "liens",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6008",
+        "ol",
+        "1"
+      ]
+    },
+    "pawnshop": {
+      "data-frequency": "513",
+      "data-relevance": "249",
+      "data-term": "pawnshop",
+      "data-encoded-term": "pawnshop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "513",
+        "w2v",
+        "1"
+      ]
+    },
+    "decorator": {
+      "data-frequency": "3149",
+      "data-relevance": "248",
+      "data-term": "decorator",
+      "data-encoded-term": "decorator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3149",
+        "ol",
+        "1"
+      ]
+    },
+    "reval": {
+      "data-frequency": "1130",
+      "data-relevance": "247",
+      "data-term": "reval",
+      "data-encoded-term": "reval",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1130",
+        "ol",
+        "1"
+      ]
+    },
+    "foreclosure": {
+      "data-frequency": "2703",
+      "data-relevance": "246",
+      "data-term": "foreclosure",
+      "data-encoded-term": "foreclosure",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2703",
+        "ol",
+        "1"
+      ]
+    },
+    "arbitrator": {
+      "data-frequency": "1798",
+      "data-relevance": "245",
+      "data-term": "arbitrator",
+      "data-encoded-term": "arbitrator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1798",
+        "ol",
+        "1"
+      ]
+    },
+    "supervisor": {
+      "data-frequency": "28926",
+      "data-relevance": "244",
+      "data-term": "supervisor",
+      "data-encoded-term": "supervisor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28926",
+        "ol",
+        "1"
+      ]
+    },
+    "reassessment": {
+      "data-frequency": "2848",
+      "data-relevance": "243",
+      "data-term": "reassessment",
+      "data-encoded-term": "reassessment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2848",
+        "ol",
+        "1"
+      ]
+    },
+    "landowner": {
+      "data-frequency": "12119",
+      "data-relevance": "242",
+      "data-term": "landowner",
+      "data-encoded-term": "landowner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12119",
+        "ol",
+        "1"
+      ]
+    },
+    "revaluation": {
+      "data-frequency": "584",
+      "data-relevance": "241",
+      "data-term": "revaluation",
+      "data-encoded-term": "revaluation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "584",
+        "ol",
+        "1"
+      ]
+    },
+    "comptroller": {
+      "data-frequency": "6800",
+      "data-relevance": "240",
+      "data-term": "comptroller",
+      "data-encoded-term": "comptroller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6800",
+        "ol",
+        "1"
+      ]
+    },
+    "county": {
+      "data-frequency": "994417",
+      "data-relevance": "239",
+      "data-term": "county",
+      "data-encoded-term": "county",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "994417",
+        "ol",
+        "1"
+      ]
+    },
+    "veterinarian": {
+      "data-frequency": "3662",
+      "data-relevance": "238",
+      "data-term": "veterinarian",
+      "data-encoded-term": "veterinarian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3662",
+        "ol",
+        "1"
+      ]
+    },
+    "exterminator": {
+      "data-frequency": "860",
+      "data-relevance": "237",
+      "data-term": "exterminator",
+      "data-encoded-term": "exterminator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "860",
+        "ol",
+        "1"
+      ]
+    },
+    "muralist": {
+      "data-frequency": "1953",
+      "data-relevance": "236",
+      "data-term": "muralist",
+      "data-encoded-term": "muralist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1953",
+        "ol",
+        "1"
+      ]
+    },
+    "theodolite": {
+      "data-frequency": "298",
+      "data-relevance": "235",
+      "data-term": "theodolite",
+      "data-encoded-term": "theodolite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "298",
+        "cn5",
+        "1"
+      ]
+    },
+    "meterage": {
+      "data-frequency": "-1",
+      "data-relevance": "234",
+      "data-term": "meterage",
+      "data-encoded-term": "meterage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "landlord": {
+      "data-frequency": "10376",
+      "data-relevance": "233",
+      "data-term": "landlord",
+      "data-encoded-term": "landlord",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10376",
+        "w2v",
+        "1"
+      ]
+    },
+    "bookkeeper": {
+      "data-frequency": "1946",
+      "data-relevance": "232",
+      "data-term": "bookkeeper",
+      "data-encoded-term": "bookkeeper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1946",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonstandard": {
+      "data-frequency": "1257",
+      "data-relevance": "231",
+      "data-term": "nonstandard",
+      "data-encoded-term": "nonstandard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1257",
+        "cn5",
+        "1"
+      ]
+    },
+    "coefficient": {
+      "data-frequency": "8060",
+      "data-relevance": "230",
+      "data-term": "coefficient",
+      "data-encoded-term": "coefficient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8060",
+        "cn5",
+        "1"
+      ]
+    },
+    "originator": {
+      "data-frequency": "3809",
+      "data-relevance": "229",
+      "data-term": "originator",
+      "data-encoded-term": "originator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3809",
+        "w2v",
+        "1"
+      ]
+    },
+    "speculator": {
+      "data-frequency": "1673",
+      "data-relevance": "228",
+      "data-term": "speculator",
+      "data-encoded-term": "speculator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1673",
+        "w2v",
+        "1"
+      ]
+    },
+    "proprietor": {
+      "data-frequency": "9998",
+      "data-relevance": "227",
+      "data-term": "proprietor",
+      "data-encoded-term": "proprietor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9998",
+        "w2v",
+        "1"
+      ]
+    },
+    "cephalometry": {
+      "data-frequency": "-1",
+      "data-relevance": "226",
+      "data-term": "cephalometry",
+      "data-encoded-term": "cephalometry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bathymetry": {
+      "data-frequency": "16534",
+      "data-relevance": "225",
+      "data-term": "bathymetry",
+      "data-encoded-term": "bathymetry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16534",
+        "cn5",
+        "1"
+      ]
+    },
+    "anker": {
+      "data-frequency": "1952",
+      "data-relevance": "224",
+      "data-term": "anker",
+      "data-encoded-term": "anker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1952",
+        "cn5",
+        "1"
+      ]
+    },
+    "quantitative": {
+      "data-frequency": "15565",
+      "data-relevance": "223",
+      "data-term": "quantitative",
+      "data-encoded-term": "quantitative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15565",
+        "cn5",
+        "1"
+      ]
+    },
+    "anemometer": {
+      "data-frequency": "615",
+      "data-relevance": "222",
+      "data-term": "anemometer",
+      "data-encoded-term": "anemometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "615",
+        "cn5",
+        "1"
+      ]
+    },
+    "hundredweight": {
+      "data-frequency": "788",
+      "data-relevance": "221",
+      "data-term": "hundredweight",
+      "data-encoded-term": "hundredweight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "788",
+        "cn5",
+        "1"
+      ]
+    },
+    "inestimable": {
+      "data-frequency": "379",
+      "data-relevance": "220",
+      "data-term": "inestimable",
+      "data-encoded-term": "inestimable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "379",
+        "cn5",
+        "1"
+      ]
+    },
+    "coldwell": {
+      "data-frequency": "743",
+      "data-relevance": "219",
+      "data-term": "coldwell",
+      "data-encoded-term": "coldwell",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "743",
+        "w2v",
+        "1"
+      ]
+    },
+    "almanac": {
+      "data-frequency": "19699",
+      "data-relevance": "218",
+      "data-term": "almanac",
+      "data-encoded-term": "almanac",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19699",
+        "w2v",
+        "1"
+      ]
+    },
+    "estate": {
+      "data-frequency": "169899",
+      "data-relevance": "217",
+      "data-term": "estate",
+      "data-encoded-term": "estate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "169899",
+        "w2v",
+        "1"
+      ]
+    },
+    "stockbroker": {
+      "data-frequency": "2661",
+      "data-relevance": "216",
+      "data-term": "stockbroker",
+      "data-encoded-term": "stockbroker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2661",
+        "w2v",
+        "1"
+      ]
+    },
+    "photometry": {
+      "data-frequency": "3205",
+      "data-relevance": "215",
+      "data-term": "photometry",
+      "data-encoded-term": "photometry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3205",
+        "cn5",
+        "1"
+      ]
+    },
+    "collectibles": {
+      "data-frequency": "2580",
+      "data-relevance": "214",
+      "data-term": "collectibles",
+      "data-encoded-term": "collectibles",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2580",
+        "w2v",
+        "1"
+      ]
+    },
+    "medline": {
+      "data-frequency": "1746",
+      "data-relevance": "213",
+      "data-term": "medline",
+      "data-encoded-term": "medline",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1746",
+        "w2v",
+        "1"
+      ]
+    },
+    "patrimonial": {
+      "data-frequency": "584",
+      "data-relevance": "212",
+      "data-term": "patrimonial",
+      "data-encoded-term": "patrimonial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "584",
+        "w2v",
+        "1"
+      ]
+    },
+    "numismatic": {
+      "data-frequency": "2440",
+      "data-relevance": "211",
+      "data-term": "numismatic",
+      "data-encoded-term": "numismatic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2440",
+        "w2v",
+        "1"
+      ]
+    },
+    "harrods": {
+      "data-frequency": "2355",
+      "data-relevance": "210",
+      "data-term": "harrods",
+      "data-encoded-term": "harrods",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2355",
+        "w2v",
+        "1"
+      ]
+    },
+    "dilatometer": {
+      "data-frequency": "-1",
+      "data-relevance": "209",
+      "data-term": "dilatometer",
+      "data-encoded-term": "dilatometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "liquidator": {
+      "data-frequency": "849",
+      "data-relevance": "208",
+      "data-term": "liquidator",
+      "data-encoded-term": "liquidator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "849",
+        "w2v",
+        "1"
+      ]
+    },
+    "reputable": {
+      "data-frequency": "2541",
+      "data-relevance": "207",
+      "data-term": "reputable",
+      "data-encoded-term": "reputable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2541",
+        "w2v",
+        "1"
+      ]
+    },
+    "izmaylovo": {
+      "data-frequency": "490",
+      "data-relevance": "206",
+      "data-term": "izmaylovo",
+      "data-encoded-term": "izmaylovo",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "490",
+        "w2v",
+        "1"
+      ]
+    },
+    "dweller": {
+      "data-frequency": "1637",
+      "data-relevance": "205",
+      "data-term": "dweller",
+      "data-encoded-term": "dweller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1637",
+        "w2v",
+        "1"
+      ]
+    },
+    "weigh": {
+      "data-frequency": "12386",
+      "data-relevance": "204",
+      "data-term": "weigh",
+      "data-encoded-term": "weigh",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12386",
+        "cn5",
+        "1"
+      ]
+    },
+    "dosimeter": {
+      "data-frequency": "433",
+      "data-relevance": "203",
+      "data-term": "dosimeter",
+      "data-encoded-term": "dosimeter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "433",
+        "cn5",
+        "1"
+      ]
+    },
+    "dimension": {
+      "data-frequency": "31170",
+      "data-relevance": "202",
+      "data-term": "dimension",
+      "data-encoded-term": "dimension",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "31170",
+        "cn5",
+        "1"
+      ]
+    },
+    "reit": {
+      "data-frequency": "1216",
+      "data-relevance": "201",
+      "data-term": "reit",
+      "data-encoded-term": "reit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1216",
+        "w2v",
+        "1"
+      ]
+    },
+    "gallon": {
+      "data-frequency": "5394",
+      "data-relevance": "200",
+      "data-term": "gallon",
+      "data-encoded-term": "gallon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5394",
+        "cn5",
+        "1"
+      ]
+    },
+    "germplasm": {
+      "data-frequency": "4757",
+      "data-relevance": "199",
+      "data-term": "germplasm",
+      "data-encoded-term": "germplasm",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4757",
+        "w2v",
+        "1"
+      ]
+    },
+    "draftsman": {
+      "data-frequency": "2928",
+      "data-relevance": "198",
+      "data-term": "draftsman",
+      "data-encoded-term": "draftsman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2928",
+        "w2v",
+        "1"
+      ]
+    },
+    "provenance": {
+      "data-frequency": "5001",
+      "data-relevance": "197",
+      "data-term": "provenance",
+      "data-encoded-term": "provenance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5001",
+        "w2v",
+        "1"
+      ]
+    },
+    "precaution": {
+      "data-frequency": "2713",
+      "data-relevance": "196",
+      "data-term": "precaution",
+      "data-encoded-term": "precaution",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2713",
+        "cn5",
+        "1"
+      ]
+    },
+    "almshouse": {
+      "data-frequency": "1071",
+      "data-relevance": "195",
+      "data-term": "almshouse",
+      "data-encoded-term": "almshouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1071",
+        "w2v",
+        "1"
+      ]
+    },
+    "farmstead": {
+      "data-frequency": "4393",
+      "data-relevance": "194",
+      "data-term": "farmstead",
+      "data-encoded-term": "farmstead",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4393",
+        "w2v",
+        "1"
+      ]
+    },
+    "thermometry": {
+      "data-frequency": "155",
+      "data-relevance": "193",
+      "data-term": "thermometry",
+      "data-encoded-term": "thermometry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "155",
+        "cn5",
+        "1"
+      ]
+    },
+    "galvanometer": {
+      "data-frequency": "498",
+      "data-relevance": "192",
+      "data-term": "galvanometer",
+      "data-encoded-term": "galvanometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "498",
+        "cn5",
+        "1"
+      ]
+    },
+    "dendrometer": {
+      "data-frequency": "-1",
+      "data-relevance": "191",
+      "data-term": "dendrometer",
+      "data-encoded-term": "dendrometer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "troland": {
+      "data-frequency": "120",
+      "data-relevance": "190",
+      "data-term": "troland",
+      "data-encoded-term": "troland",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120",
+        "cn5",
+        "1"
+      ]
+    },
+    "chronoscope": {
+      "data-frequency": "239",
+      "data-relevance": "189",
+      "data-term": "chronoscope",
+      "data-encoded-term": "chronoscope",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "239",
+        "cn5",
+        "1"
+      ]
+    },
+    "overestimate": {
+      "data-frequency": "738",
+      "data-relevance": "188",
+      "data-term": "overestimate",
+      "data-encoded-term": "overestimate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "738",
+        "cn5",
+        "1"
+      ]
+    },
+    "benchmark": {
+      "data-frequency": "6951",
+      "data-relevance": "187",
+      "data-term": "benchmark",
+      "data-encoded-term": "benchmark",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6951",
+        "cn5",
+        "1"
+      ]
+    },
+    "lebesgue measure": {
+      "data-frequency": "384",
+      "data-relevance": "186",
+      "data-term": "lebesgue measure",
+      "data-encoded-term": "lebesgue%20measure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "384",
+        "cn5",
+        "1"
+      ]
+    },
+    "quantum": {
+      "data-frequency": "22353",
+      "data-relevance": "185",
+      "data-term": "quantum",
+      "data-encoded-term": "quantum",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22353",
+        "cn5",
+        "1"
+      ]
+    },
+    "dynamometer": {
+      "data-frequency": "320",
+      "data-relevance": "184",
+      "data-term": "dynamometer",
+      "data-encoded-term": "dynamometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "320",
+        "cn5",
+        "1"
+      ]
+    },
+    "real property": {
+      "data-frequency": "2359",
+      "data-relevance": "183",
+      "data-term": "real property",
+      "data-encoded-term": "real%20property",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2359",
+        "wiki",
+        "1"
+      ]
+    },
+    "dioptometer": {
+      "data-frequency": "-1",
+      "data-relevance": "182",
+      "data-term": "dioptometer",
+      "data-encoded-term": "dioptometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rate": {
+      "data-frequency": "155664",
+      "data-relevance": "181",
+      "data-term": "rate",
+      "data-encoded-term": "rate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "155664",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure cup": {
+      "data-frequency": "-1",
+      "data-relevance": "180",
+      "data-term": "measure cup",
+      "data-encoded-term": "measure%20cup",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "eigenvalue": {
+      "data-frequency": "1050",
+      "data-relevance": "179",
+      "data-term": "eigenvalue",
+      "data-encoded-term": "eigenvalue",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1050",
+        "cn5",
+        "1"
+      ]
+    },
+    "estimate": {
+      "data-frequency": "61124",
+      "data-relevance": "178",
+      "data-term": "estimate",
+      "data-encoded-term": "estimate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "61124",
+        "cn5",
+        "1"
+      ]
+    },
+    "outweigh": {
+      "data-frequency": "2018",
+      "data-relevance": "177",
+      "data-term": "outweigh",
+      "data-encoded-term": "outweigh",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2018",
+        "cn5",
+        "1"
+      ]
+    },
+    "actinometer": {
+      "data-frequency": "292",
+      "data-relevance": "176",
+      "data-term": "actinometer",
+      "data-encoded-term": "actinometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "292",
+        "cn5",
+        "1"
+      ]
+    },
+    "censor": {
+      "data-frequency": "6823",
+      "data-relevance": "175",
+      "data-term": "censor",
+      "data-encoded-term": "censor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6823",
+        "cn5",
+        "1"
+      ]
+    },
+    "degreelessness": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "degreelessness",
+      "data-encoded-term": "degreelessness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "σ finite measure": {
+      "data-frequency": "-1",
+      "data-relevance": "173",
+      "data-term": "σ finite measure",
+      "data-encoded-term": "%CF%83%20finite%20measure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "aerometer": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "aerometer",
+      "data-encoded-term": "aerometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "furlong": {
+      "data-frequency": "4622",
+      "data-relevance": "171",
+      "data-term": "furlong",
+      "data-encoded-term": "furlong",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4622",
+        "cn5",
+        "1"
+      ]
+    },
+    "standard": {
+      "data-frequency": "370944",
+      "data-relevance": "170",
+      "data-term": "standard",
+      "data-encoded-term": "standard",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "370944",
+        "cn5",
+        "1"
+      ]
+    },
+    "probability": {
+      "data-frequency": "19310",
+      "data-relevance": "169",
+      "data-term": "probability",
+      "data-encoded-term": "probability",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19310",
+        "cn5",
+        "1"
+      ]
+    },
+    "depreciable": {
+      "data-frequency": "2108",
+      "data-relevance": "168",
+      "data-term": "depreciable",
+      "data-encoded-term": "depreciable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2108",
+        "w2v",
+        "1"
+      ]
+    },
+    "estimation": {
+      "data-frequency": "9959",
+      "data-relevance": "167",
+      "data-term": "estimation",
+      "data-encoded-term": "estimation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9959",
+        "cn5",
+        "1"
+      ]
+    },
+    "polarimeter": {
+      "data-frequency": "115",
+      "data-relevance": "166",
+      "data-term": "polarimeter",
+      "data-encoded-term": "polarimeter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "115",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure event": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "measure event",
+      "data-encoded-term": "measure%20event",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "conductance": {
+      "data-frequency": "1513",
+      "data-relevance": "164",
+      "data-term": "conductance",
+      "data-encoded-term": "conductance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1513",
+        "cn5",
+        "1"
+      ]
+    },
+    "go-to": {
+      "data-frequency": "640125",
+      "data-relevance": "163",
+      "data-term": "go-to",
+      "data-encoded-term": "go-to",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "640125",
+        "w2v",
+        "1"
+      ]
+    },
+    "observable": {
+      "data-frequency": "3946",
+      "data-relevance": "162",
+      "data-term": "observable",
+      "data-encoded-term": "observable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3946",
+        "cn5",
+        "1"
+      ]
+    },
+    "isochrone": {
+      "data-frequency": "51",
+      "data-relevance": "161",
+      "data-term": "isochrone",
+      "data-encoded-term": "isochrone",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "dimensioner": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "dimensioner",
+      "data-encoded-term": "dimensioner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "receivables": {
+      "data-frequency": "319",
+      "data-relevance": "159",
+      "data-term": "receivables",
+      "data-encoded-term": "receivables",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "319",
+        "w2v",
+        "1"
+      ]
+    },
+    "complete measure": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "complete measure",
+      "data-encoded-term": "complete%20measure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure stick": {
+      "data-frequency": "-1",
+      "data-relevance": "157",
+      "data-term": "measure stick",
+      "data-encoded-term": "measure%20stick",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "valuers": {
+      "data-frequency": "515",
+      "data-relevance": "156",
+      "data-term": "valuers",
+      "data-encoded-term": "valuers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "515",
+        "w2v",
+        "1"
+      ]
+    },
+    "bhawal": {
+      "data-frequency": "163",
+      "data-relevance": "155",
+      "data-term": "bhawal",
+      "data-encoded-term": "bhawal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "163",
+        "w2v",
+        "1"
+      ]
+    },
+    "scribonius": {
+      "data-frequency": "447",
+      "data-relevance": "154",
+      "data-term": "scribonius",
+      "data-encoded-term": "scribonius",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "447",
+        "w2v",
+        "1"
+      ]
+    },
+    "noematachograph": {
+      "data-frequency": "-1",
+      "data-relevance": "153",
+      "data-term": "noematachograph",
+      "data-encoded-term": "noematachograph",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "savills": {
+      "data-frequency": "1271",
+      "data-relevance": "152",
+      "data-term": "savills",
+      "data-encoded-term": "savills",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1271",
+        "w2v",
+        "1"
+      ]
+    },
+    "anglemeter": {
+      "data-frequency": "-1",
+      "data-relevance": "151",
+      "data-term": "anglemeter",
+      "data-encoded-term": "anglemeter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "system of measurement": {
+      "data-frequency": "193",
+      "data-relevance": "150",
+      "data-term": "system of measurement",
+      "data-encoded-term": "system%20of%20measurement",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "193",
+        "cn5",
+        "1"
+      ]
+    },
+    "zillow": {
+      "data-frequency": "250",
+      "data-relevance": "149",
+      "data-term": "zillow",
+      "data-encoded-term": "zillow",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "250",
+        "w2v",
+        "1"
+      ]
+    },
+    "bandle": {
+      "data-frequency": "83",
+      "data-relevance": "148",
+      "data-term": "bandle",
+      "data-encoded-term": "bandle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "phonometer": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "phonometer",
+      "data-encoded-term": "phonometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "positive measure": {
+      "data-frequency": "79",
+      "data-relevance": "146",
+      "data-term": "positive measure",
+      "data-encoded-term": "positive%20measure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "myriare": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "myriare",
+      "data-encoded-term": "myriare",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "strainmeter": {
+      "data-frequency": "-1",
+      "data-relevance": "144",
+      "data-term": "strainmeter",
+      "data-encoded-term": "strainmeter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mrsnik": {
+      "data-frequency": "-1",
+      "data-relevance": "143",
+      "data-term": "mrsnik",
+      "data-encoded-term": "mrsnik",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "real-estate": {
+      "data-frequency": "55575",
+      "data-relevance": "142",
+      "data-term": "real-estate",
+      "data-encoded-term": "real-estate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "55575",
+        "w2v",
+        "1"
+      ]
+    },
+    "zillow.com": {
+      "data-frequency": "91",
+      "data-relevance": "141",
+      "data-term": "zillow.com",
+      "data-encoded-term": "zillow.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "91",
+        "w2v",
+        "1"
+      ]
+    },
+    "flowmeter": {
+      "data-frequency": "57",
+      "data-relevance": "140",
+      "data-term": "flowmeter",
+      "data-encoded-term": "flowmeter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "57",
+        "cn5",
+        "1"
+      ]
+    },
+    "imar": {
+      "data-frequency": "232",
+      "data-relevance": "139",
+      "data-term": "imar",
+      "data-encoded-term": "imar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "232",
+        "w2v",
+        "1"
+      ]
+    },
+    "reappraised": {
+      "data-frequency": "235",
+      "data-relevance": "138",
+      "data-term": "reappraised",
+      "data-encoded-term": "reappraised",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "235",
+        "ol",
+        "1"
+      ]
+    },
+    "abstractor": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "abstractor",
+      "data-encoded-term": "abstractor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "adjustor": {
+      "data-frequency": "44",
+      "data-relevance": "136",
+      "data-term": "adjustor",
+      "data-encoded-term": "adjustor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "arborist": {
+      "data-frequency": "220",
+      "data-relevance": "135",
+      "data-term": "arborist",
+      "data-encoded-term": "arborist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "220",
+        "ol",
+        "1"
+      ]
+    },
+    "renovator": {
+      "data-frequency": "67730",
+      "data-relevance": "134",
+      "data-term": "renovator",
+      "data-encoded-term": "renovator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67730",
+        "ol",
+        "1"
+      ]
+    },
+    "rels": {
+      "data-frequency": "46",
+      "data-relevance": "133",
+      "data-term": "rels",
+      "data-encoded-term": "rels",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "consigner": {
+      "data-frequency": "-1",
+      "data-relevance": "132",
+      "data-term": "consigner",
+      "data-encoded-term": "consigner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "remodeler": {
+      "data-frequency": "18153",
+      "data-relevance": "131",
+      "data-term": "remodeler",
+      "data-encoded-term": "remodeler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18153",
+        "ol",
+        "1"
+      ]
+    },
+    "homebuyer": {
+      "data-frequency": "67",
+      "data-relevance": "130",
+      "data-term": "homebuyer",
+      "data-encoded-term": "homebuyer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgager": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "mortgager",
+      "data-encoded-term": "mortgager",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sothebys": {
+      "data-frequency": "352",
+      "data-relevance": "128",
+      "data-term": "sothebys",
+      "data-encoded-term": "sothebys",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "352",
+        "ol",
+        "1"
+      ]
+    },
+    "polygrapher": {
+      "data-frequency": "1109",
+      "data-relevance": "127",
+      "data-term": "polygrapher",
+      "data-encoded-term": "polygrapher",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1109",
+        "ol",
+        "1"
+      ]
+    },
+    "recordation": {
+      "data-frequency": "56",
+      "data-relevance": "126",
+      "data-term": "recordation",
+      "data-encoded-term": "recordation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "conveyancer": {
+      "data-frequency": "280",
+      "data-relevance": "125",
+      "data-term": "conveyancer",
+      "data-encoded-term": "conveyancer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "280",
+        "ol",
+        "1"
+      ]
+    },
+    "servicer": {
+      "data-frequency": "139",
+      "data-relevance": "124",
+      "data-term": "servicer",
+      "data-encoded-term": "servicer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "139",
+        "ol",
+        "1"
+      ]
+    },
+    "sanitarian": {
+      "data-frequency": "82",
+      "data-relevance": "123",
+      "data-term": "sanitarian",
+      "data-encoded-term": "sanitarian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "arshine": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "arshine",
+      "data-encoded-term": "arshine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "roofer": {
+      "data-frequency": "226",
+      "data-relevance": "121",
+      "data-term": "roofer",
+      "data-encoded-term": "roofer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "centaline": {
+      "data-frequency": "-1",
+      "data-relevance": "120",
+      "data-term": "centaline",
+      "data-encoded-term": "centaline",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "390-7257": {
+      "data-frequency": "-1",
+      "data-relevance": "119",
+      "data-term": "390-7257",
+      "data-encoded-term": "390-7257",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "cephalometer": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "cephalometer",
+      "data-encoded-term": "cephalometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "contrametric": {
+      "data-frequency": "-1",
+      "data-relevance": "117",
+      "data-term": "contrametric",
+      "data-encoded-term": "contrametric",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "movies.com": {
+      "data-frequency": "503",
+      "data-relevance": "116",
+      "data-term": "movies.com",
+      "data-encoded-term": "movies.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "503",
+        "w2v",
+        "1"
+      ]
+    },
+    "nsaba": {
+      "data-frequency": "117",
+      "data-relevance": "115",
+      "data-term": "nsaba",
+      "data-encoded-term": "nsaba",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "117",
+        "w2v",
+        "1"
+      ]
+    },
+    "cumec": {
+      "data-frequency": "-1",
+      "data-relevance": "114",
+      "data-term": "cumec",
+      "data-encoded-term": "cumec",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "scarcest": {
+      "data-frequency": "53",
+      "data-relevance": "113",
+      "data-term": "scarcest",
+      "data-encoded-term": "scarcest",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53",
+        "w2v",
+        "1"
+      ]
+    },
+    "pyrometer": {
+      "data-frequency": "76",
+      "data-relevance": "112",
+      "data-term": "pyrometer",
+      "data-encoded-term": "pyrometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "cusec": {
+      "data-frequency": "-1",
+      "data-relevance": "111",
+      "data-term": "cusec",
+      "data-encoded-term": "cusec",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pop.": {
+      "data-frequency": "273261",
+      "data-relevance": "110",
+      "data-term": "pop.",
+      "data-encoded-term": "pop.",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "273261",
+        "w2v",
+        "1"
+      ]
+    },
+    "complex measure": {
+      "data-frequency": "-1",
+      "data-relevance": "109",
+      "data-term": "complex measure",
+      "data-encoded-term": "complex%20measure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "kowit": {
+      "data-frequency": "48",
+      "data-relevance": "108",
+      "data-term": "kowit",
+      "data-encoded-term": "kowit",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "w2v",
+        "1"
+      ]
+    },
+    "minnett": {
+      "data-frequency": "80",
+      "data-relevance": "107",
+      "data-term": "minnett",
+      "data-encoded-term": "minnett",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "80",
+        "w2v",
+        "1"
+      ]
+    },
+    "tenant-in-chief": {
+      "data-frequency": "447",
+      "data-relevance": "106",
+      "data-term": "tenant-in-chief",
+      "data-encoded-term": "tenant-in-chief",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "447",
+        "w2v",
+        "1"
+      ]
+    },
+    "m&g": {
+      "data-frequency": "17125",
+      "data-relevance": "105",
+      "data-term": "m&g",
+      "data-encoded-term": "m%26g",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17125",
+        "w2v",
+        "1"
+      ]
+    },
+    "intervenor": {
+      "data-frequency": "160",
+      "data-relevance": "104",
+      "data-term": "intervenor",
+      "data-encoded-term": "intervenor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "160",
+        "w2v",
+        "1"
+      ]
+    },
+    "cycloscope": {
+      "data-frequency": "-1",
+      "data-relevance": "103",
+      "data-term": "cycloscope",
+      "data-encoded-term": "cycloscope",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "questman": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "questman",
+      "data-encoded-term": "questman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "diar": {
+      "data-frequency": "485",
+      "data-relevance": "101",
+      "data-term": "diar",
+      "data-encoded-term": "diar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "485",
+        "w2v",
+        "1"
+      ]
+    },
+    "archivist": {
+      "data-frequency": "4454",
+      "data-relevance": "100",
+      "data-term": "archivist",
+      "data-encoded-term": "archivist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4454",
+        "w2v",
+        "1"
+      ]
+    },
+    "millichap": {
+      "data-frequency": "74",
+      "data-relevance": "99",
+      "data-term": "millichap",
+      "data-encoded-term": "millichap",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74",
+        "w2v",
+        "1"
+      ]
+    },
+    "droga": {
+      "data-frequency": "1010",
+      "data-relevance": "98",
+      "data-term": "droga",
+      "data-encoded-term": "droga",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1010",
+        "w2v",
+        "1"
+      ]
+    },
+    "hubometer": {
+      "data-frequency": "-1",
+      "data-relevance": "97",
+      "data-term": "hubometer",
+      "data-encoded-term": "hubometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unsubsidized": {
+      "data-frequency": "108",
+      "data-relevance": "96",
+      "data-term": "unsubsidized",
+      "data-encoded-term": "unsubsidized",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "108",
+        "w2v",
+        "1"
+      ]
+    },
+    "hygrometer": {
+      "data-frequency": "387",
+      "data-relevance": "95",
+      "data-term": "hygrometer",
+      "data-encoded-term": "hygrometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "387",
+        "cn5",
+        "1"
+      ]
+    },
+    "preparers": {
+      "data-frequency": "94810",
+      "data-relevance": "94",
+      "data-term": "preparers",
+      "data-encoded-term": "preparers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "94810",
+        "w2v",
+        "1"
+      ]
+    },
+    "cunninghamhead": {
+      "data-frequency": "58",
+      "data-relevance": "93",
+      "data-term": "cunninghamhead",
+      "data-encoded-term": "cunninghamhead",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "58",
+        "w2v",
+        "1"
+      ]
+    },
+    "pyrheliometer": {
+      "data-frequency": "-1",
+      "data-relevance": "92",
+      "data-term": "pyrheliometer",
+      "data-encoded-term": "pyrheliometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "theise": {
+      "data-frequency": "54",
+      "data-relevance": "91",
+      "data-term": "theise",
+      "data-encoded-term": "theise",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "54",
+        "w2v",
+        "1"
+      ]
+    },
+    "bases_tgoodwin": {
+      "data-frequency": "-1",
+      "data-relevance": "90",
+      "data-term": "bases_tgoodwin",
+      "data-encoded-term": "bases_tgoodwin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "spectroradiometer": {
+      "data-frequency": "103",
+      "data-relevance": "89",
+      "data-term": "spectroradiometer",
+      "data-encoded-term": "spectroradiometer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "103",
+        "cn5",
+        "1"
+      ]
+    },
+    "średnie": {
+      "data-frequency": "895",
+      "data-relevance": "88",
+      "data-term": "średnie",
+      "data-encoded-term": "%C5%9Brednie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "895",
+        "w2v",
+        "1"
+      ]
+    },
+    "personal property": {
+      "data-frequency": "2332",
+      "data-relevance": "87",
+      "data-term": "personal property",
+      "data-encoded-term": "personal%20property",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2332",
+        "wiki",
+        "1"
+      ]
+    },
+    "ebmud": {
+      "data-frequency": "51",
+      "data-relevance": "86",
+      "data-term": "ebmud",
+      "data-encoded-term": "ebmud",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "51",
+        "w2v",
+        "1"
+      ]
+    },
+    "evenmete": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "evenmete",
+      "data-encoded-term": "evenmete",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "revalue": {
+      "data-frequency": "92",
+      "data-relevance": "84",
+      "data-term": "revalue",
+      "data-encoded-term": "revalue",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "92",
+        "cn5",
+        "1"
+      ]
+    },
+    "mudcat": {
+      "data-frequency": "323",
+      "data-relevance": "83",
+      "data-term": "mudcat",
+      "data-encoded-term": "mudcat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "323",
+        "w2v",
+        "1"
+      ]
+    },
+    "górki": {
+      "data-frequency": "2793",
+      "data-relevance": "82",
+      "data-term": "górki",
+      "data-encoded-term": "g%C3%B3rki",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2793",
+        "w2v",
+        "1"
+      ]
+    },
+    "chajet": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "chajet",
+      "data-encoded-term": "chajet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "washakie": {
+      "data-frequency": "639",
+      "data-relevance": "80",
+      "data-term": "washakie",
+      "data-encoded-term": "washakie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "639",
+        "w2v",
+        "1"
+      ]
+    },
+    "nevitts": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "nevitts",
+      "data-encoded-term": "nevitts",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "blemkin": {
+      "data-frequency": "-1",
+      "data-relevance": "78",
+      "data-term": "blemkin",
+      "data-encoded-term": "blemkin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "metergram": {
+      "data-frequency": "-1",
+      "data-relevance": "77",
+      "data-term": "metergram",
+      "data-encoded-term": "metergram",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ouémé": {
+      "data-frequency": "191",
+      "data-relevance": "76",
+      "data-term": "ouémé",
+      "data-encoded-term": "ou%C3%A9m%C3%A9",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "191",
+        "w2v",
+        "1"
+      ]
+    },
+    "fondos": {
+      "data-frequency": "2649",
+      "data-relevance": "75",
+      "data-term": "fondos",
+      "data-encoded-term": "fondos",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2649",
+        "w2v",
+        "1"
+      ]
+    },
+    "banespa": {
+      "data-frequency": "77",
+      "data-relevance": "74",
+      "data-term": "banespa",
+      "data-encoded-term": "banespa",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77",
+        "w2v",
+        "1"
+      ]
+    },
+    "monotonicity": {
+      "data-frequency": "2138",
+      "data-relevance": "73",
+      "data-term": "monotonicity",
+      "data-encoded-term": "monotonicity",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2138",
+        "w2v",
+        "1"
+      ]
+    },
+    "robertland": {
+      "data-frequency": "71",
+      "data-relevance": "72",
+      "data-term": "robertland",
+      "data-encoded-term": "robertland",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "71",
+        "w2v",
+        "1"
+      ]
+    },
+    "launderer": {
+      "data-frequency": "5932",
+      "data-relevance": "71",
+      "data-term": "launderer",
+      "data-encoded-term": "launderer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5932",
+        "w2v",
+        "1"
+      ]
+    },
+    "liveness": {
+      "data-frequency": "92",
+      "data-relevance": "70",
+      "data-term": "liveness",
+      "data-encoded-term": "liveness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "92",
+        "w2v",
+        "1"
+      ]
+    },
+    "dreman": {
+      "data-frequency": "-1",
+      "data-relevance": "69",
+      "data-term": "dreman",
+      "data-encoded-term": "dreman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "statistician": {
+      "data-frequency": "5011",
+      "data-relevance": "68",
+      "data-term": "statistician",
+      "data-encoded-term": "statistician",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5011",
+        "w2v",
+        "1"
+      ]
+    },
+    "dolgorsuren": {
+      "data-frequency": "-1",
+      "data-relevance": "67",
+      "data-term": "dolgorsuren",
+      "data-encoded-term": "dolgorsuren",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "undervaluation": {
+      "data-frequency": "66",
+      "data-relevance": "66",
+      "data-term": "undervaluation",
+      "data-encoded-term": "undervaluation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "66",
+        "cn5",
+        "1"
+      ]
+    },
+    "actividades": {
+      "data-frequency": "542",
+      "data-relevance": "65",
+      "data-term": "actividades",
+      "data-encoded-term": "actividades",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "542",
+        "w2v",
+        "1"
+      ]
+    },
+    "dipstick": {
+      "data-frequency": "143",
+      "data-relevance": "64",
+      "data-term": "dipstick",
+      "data-encoded-term": "dipstick",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "143",
+        "cn5",
+        "1"
+      ]
+    },
+    "thermometric": {
+      "data-frequency": "44",
+      "data-relevance": "63",
+      "data-term": "thermometric",
+      "data-encoded-term": "thermometric",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "haemoscope": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "haemoscope",
+      "data-encoded-term": "haemoscope",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "octane number": {
+      "data-frequency": "51",
+      "data-relevance": "61",
+      "data-term": "octane number",
+      "data-encoded-term": "octane%20number",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "coulometer": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "coulometer",
+      "data-encoded-term": "coulometer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "taximeter": {
+      "data-frequency": "53",
+      "data-relevance": "59",
+      "data-term": "taximeter",
+      "data-encoded-term": "taximeter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "53",
+        "cn5",
+        "1"
+      ]
+    },
+    "cryoscope": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "cryoscope",
+      "data-encoded-term": "cryoscope",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "anomaloscope": {
+      "data-frequency": "-1",
+      "data-relevance": "57",
+      "data-term": "anomaloscope",
+      "data-encoded-term": "anomaloscope",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "3 4": {
+      "data-frequency": "265971",
+      "data-relevance": "56",
+      "data-term": "3 4",
+      "data-encoded-term": "3%204",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "265971",
+        "cn5",
+        "1"
+      ]
+    },
+    "colorimetry": {
+      "data-frequency": "172",
+      "data-relevance": "55",
+      "data-term": "colorimetry",
+      "data-encoded-term": "colorimetry",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "172",
+        "cn5",
+        "1"
+      ]
+    },
+    "viscometer": {
+      "data-frequency": "473",
+      "data-relevance": "54",
+      "data-term": "viscometer",
+      "data-encoded-term": "viscometer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "473",
+        "cn5",
+        "1"
+      ]
+    },
+    "commensurable": {
+      "data-frequency": "100",
+      "data-relevance": "53",
+      "data-term": "commensurable",
+      "data-encoded-term": "commensurable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "100",
+        "cn5",
+        "1"
+      ]
+    },
+    "valuate": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "valuate",
+      "data-encoded-term": "valuate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "raip": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "raip",
+      "data-encoded-term": "raip",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "electroglottograph": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "electroglottograph",
+      "data-encoded-term": "electroglottograph",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "thermogravimetry": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "thermogravimetry",
+      "data-encoded-term": "thermogravimetry",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "photometer": {
+      "data-frequency": "324",
+      "data-relevance": "48",
+      "data-term": "photometer",
+      "data-encoded-term": "photometer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "324",
+        "cn5",
+        "1"
+      ]
+    },
+    "psychometrics": {
+      "data-frequency": "983",
+      "data-relevance": "47",
+      "data-term": "psychometrics",
+      "data-encoded-term": "psychometrics",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "983",
+        "cn5",
+        "1"
+      ]
+    },
+    "metrical foot": {
+      "data-frequency": "56",
+      "data-relevance": "46",
+      "data-term": "metrical foot",
+      "data-encoded-term": "metrical%20foot",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "horometry": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "horometry",
+      "data-encoded-term": "horometry",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "common time": {
+      "data-frequency": "1882",
+      "data-relevance": "44",
+      "data-term": "common time",
+      "data-encoded-term": "common%20time",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1882",
+        "cn5",
+        "1"
+      ]
+    },
+    "standard of live": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "standard of live",
+      "data-encoded-term": "standard%20of%20live",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure device": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "measure device",
+      "data-encoded-term": "measure%20device",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure theory": {
+      "data-frequency": "670",
+      "data-relevance": "41",
+      "data-term": "measure theory",
+      "data-encoded-term": "measure%20theory",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "670",
+        "cn5",
+        "1"
+      ]
+    },
+    "cut time": {
+      "data-frequency": "176",
+      "data-relevance": "40",
+      "data-term": "cut time",
+      "data-encoded-term": "cut%20time",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "176",
+        "cn5",
+        "1"
+      ]
+    },
+    "across variable": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "across variable",
+      "data-encoded-term": "across%20variable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "metric system": {
+      "data-frequency": "964",
+      "data-relevance": "38",
+      "data-term": "metric system",
+      "data-encoded-term": "metric%20system",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "964",
+        "cn5",
+        "1"
+      ]
+    },
+    "measure instrument": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "measure instrument",
+      "data-encoded-term": "measure%20instrument",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "simple quadruple time": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "simple quadruple time",
+      "data-encoded-term": "simple%20quadruple%20time",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "information entropy": {
+      "data-frequency": "149",
+      "data-relevance": "35",
+      "data-term": "information entropy",
+      "data-encoded-term": "information%20entropy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "149",
+        "cn5",
+        "1"
+      ]
+    },
+    "fundamental quantity": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "fundamental quantity",
+      "data-encoded-term": "fundamental%20quantity",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "4 4": {
+      "data-frequency": "166667",
+      "data-relevance": "33",
+      "data-term": "4 4",
+      "data-encoded-term": "4%204",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "166667",
+        "cn5",
+        "1"
+      ]
+    },
+    "unit of measure": {
+      "data-frequency": "380",
+      "data-relevance": "32",
+      "data-term": "unit of measure",
+      "data-encoded-term": "unit%20of%20measure",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "380",
+        "cn5",
+        "1"
+      ]
+    },
+    "weight measure": {
+      "data-frequency": "44",
+      "data-relevance": "31",
+      "data-term": "weight measure",
+      "data-encoded-term": "weight%20measure",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "value judgment": {
+      "data-frequency": "111",
+      "data-relevance": "30",
+      "data-term": "value judgment",
+      "data-encoded-term": "value%20judgment",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "111",
+        "cn5",
+        "1"
+      ]
+    },
+    "gauge block": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "gauge block",
+      "data-encoded-term": "gauge%20block",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "resolve power": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "resolve power",
+      "data-encoded-term": "resolve%20power",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shoot moon": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "shoot moon",
+      "data-encoded-term": "shoot%20moon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "four four time": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "four four time",
+      "data-encoded-term": "four%20four%20time",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "judicial": {
+      "data-frequency": "62070",
+      "data-relevance": "25",
+      "data-term": "judicial",
+      "data-encoded-term": "judicial",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62070",
+        "wiki",
+        "1"
+      ]
+    },
+    "appraised value": {
+      "data-frequency": "138",
+      "data-relevance": "24",
+      "data-term": "appraised value",
+      "data-encoded-term": "appraised%20value",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "138",
+        "ol",
+        "1"
+      ]
+    },
+    "tax assessor": {
+      "data-frequency": "271",
+      "data-relevance": "23",
+      "data-term": "tax assessor",
+      "data-encoded-term": "tax%20assessor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "271",
+        "ol",
+        "1"
+      ]
+    },
+    "tax collector": {
+      "data-frequency": "1608",
+      "data-relevance": "22",
+      "data-term": "tax collector",
+      "data-encoded-term": "tax%20collector",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1608",
+        "ol",
+        "1"
+      ]
+    },
+    "claims adjuster": {
+      "data-frequency": "68",
+      "data-relevance": "21",
+      "data-term": "claims adjuster",
+      "data-encoded-term": "claims%20adjuster",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "68",
+        "ol",
+        "1"
+      ]
+    },
+    "real estate broker": {
+      "data-frequency": "1429",
+      "data-relevance": "20",
+      "data-term": "real estate broker",
+      "data-encoded-term": "real%20estate%20broker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1429",
+        "ol",
+        "1"
+      ]
+    },
+    "real estate": {
+      "data-frequency": "52927",
+      "data-relevance": "19",
+      "data-term": "real estate",
+      "data-encoded-term": "real%20estate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "52927",
+        "ol",
+        "1"
+      ]
+    },
+    "fire marshal": {
+      "data-frequency": "449",
+      "data-relevance": "18",
+      "data-term": "fire marshal",
+      "data-encoded-term": "fire%20marshal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "449",
+        "ol",
+        "1"
+      ]
+    },
+    "interior designer": {
+      "data-frequency": "2313",
+      "data-relevance": "17",
+      "data-term": "interior designer",
+      "data-encoded-term": "interior%20designer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2313",
+        "ol",
+        "1"
+      ]
+    },
+    "purchasing agent": {
+      "data-frequency": "18203",
+      "data-relevance": "16",
+      "data-term": "purchasing agent",
+      "data-encoded-term": "purchasing%20agent",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "18203",
+        "ol",
+        "1"
+      ]
+    },
+    "interior decorator": {
+      "data-frequency": "1476",
+      "data-relevance": "15",
+      "data-term": "interior decorator",
+      "data-encoded-term": "interior%20decorator",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1476",
+        "ol",
+        "1"
+      ]
+    },
+    "ad valorem tax": {
+      "data-frequency": "85",
+      "data-relevance": "14",
+      "data-term": "ad valorem tax",
+      "data-encoded-term": "ad%20valorem%20tax",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "85",
+        "cn5",
+        "1"
+      ]
+    },
+    "probate court": {
+      "data-frequency": "602",
+      "data-relevance": "13",
+      "data-term": "probate court",
+      "data-encoded-term": "probate%20court",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "602",
+        "ol",
+        "1"
+      ]
+    },
+    "cubic yard": {
+      "data-frequency": "88",
+      "data-relevance": "12",
+      "data-term": "cubic yard",
+      "data-encoded-term": "cubic%20yard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "88",
+        "cn5",
+        "1"
+      ]
+    },
+    "vacuum gauge": {
+      "data-frequency": "43",
+      "data-relevance": "11",
+      "data-term": "vacuum gauge",
+      "data-encoded-term": "vacuum%20gauge",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "dry measure": {
+      "data-frequency": "62",
+      "data-relevance": "10",
+      "data-term": "dry measure",
+      "data-encoded-term": "dry%20measure",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62",
+        "cn5",
+        "1"
+      ]
+    },
+    "economic output": {
+      "data-frequency": "8381",
+      "data-relevance": "9",
+      "data-term": "economic output",
+      "data-encoded-term": "economic%20output",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8381",
+        "cn5",
+        "1"
+      ]
+    },
+    "body mass index": {
+      "data-frequency": "665",
+      "data-relevance": "8",
+      "data-term": "body mass index",
+      "data-encoded-term": "body%20mass%20index",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "665",
+        "cn5",
+        "1"
+      ]
+    },
+    "cubic foot": {
+      "data-frequency": "329",
+      "data-relevance": "7",
+      "data-term": "cubic foot",
+      "data-encoded-term": "cubic%20foot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "329",
+        "cn5",
+        "1"
+      ]
+    },
+    "thermal conductance": {
+      "data-frequency": "45",
+      "data-relevance": "6",
+      "data-term": "thermal conductance",
+      "data-encoded-term": "thermal%20conductance",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "quantitative analysis": {
+      "data-frequency": "1471",
+      "data-relevance": "5",
+      "data-term": "quantitative analysis",
+      "data-encoded-term": "quantitative%20analysis",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1471",
+        "cn5",
+        "1"
+      ]
+    },
+    "authority": {
+      "data-frequency": "627994",
+      "data-relevance": "4",
+      "data-term": "authority",
+      "data-encoded-term": "authority",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "627994",
+        "wiki",
+        "1"
+      ]
+    },
+    "tax assessment": {
+      "data-frequency": "1000",
+      "data-relevance": "3",
+      "data-term": "tax assessment",
+      "data-encoded-term": "tax%20assessment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1000",
+        "cn5",
+        "1"
+      ]
+    },
+    "united states": {
+      "data-frequency": "1518092",
+      "data-relevance": "2",
+      "data-term": "united states",
+      "data-encoded-term": "united%20states",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1518092",
+        "wiki",
+        "1"
+      ]
+    },
+    "inventory": {
+      "data-frequency": "79979",
+      "data-relevance": "1",
+      "data-term": "inventory",
+      "data-encoded-term": "inventory",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "79979",
+        "wiki",
+        "1"
+      ]
+    },
+    "eminent domain": {
+      "data-frequency": "1594",
+      "data-relevance": "0",
+      "data-term": "eminent domain",
+      "data-encoded-term": "eminent%20domain",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1594",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "appraisable"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "What is the property's appraised value?",
+        "ru": "Какова оценочная стоимость данного имущества?"
+      },
+      {
+        "en": "The parties agreed to employ an appraiser to value the company.",
+        "ru": "Стороны согласились нанять оценщика, чтобы оценить компанию."
+      },
+      {
+        "en": "The ring must be appraised by a jeweler before it can be insured.",
+        "ru": "Прежде чем кольцо можно будет застраховать, его необходимо оценить у ювелира."
+      },
+      {
+        "en": "In the book, he appraises Hollywood's recent films and contrasts them with several independent films.",
+        "ru": "В этой книге он оценивает голливудские фильмы последних лет и противопоставляет им несколько независимых кинолент."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "appraisers"
+    ],
+    "synonyms": [
+      "valuator",
+      "authenticator"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "appraisable"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "valuator",
+      "prizer",
+      "realtor",
+      "appraisal",
+      "evaluator",
+      "property",
+      "inspector",
+      "valuation",
+      "valuer",
+      "assessor",
+      "appraisers",
+      "evaluation",
+      "apprizer",
+      "estimate"
+    ]
+  }
+}

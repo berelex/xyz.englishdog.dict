@@ -1,0 +1,6283 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "realty": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/realty/n/,/c/en/realtor/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/realty/n",
+          "@type": "Node",
+          "label": "realty",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/realty"
+        },
+        "end": {
+          "@id": "/c/en/realtor",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "term": "/c/en/realtor"
+        }
+      },
+      "realtors": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/realtors/n/,/c/en/realtor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/realtors/n",
+          "@type": "Node",
+          "label": "realtors",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/realtors"
+        },
+        "end": {
+          "@id": "/c/en/realtor",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "term": "/c/en/realtor"
+        }
+      },
+      "agent": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/realtor/n/,/c/en/agent/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/realtor/n",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/realtor"
+        },
+        "end": {
+          "@id": "/c/en/agent",
+          "@type": "Node",
+          "label": "agent",
+          "language": "en",
+          "term": "/c/en/agent"
+        }
+      },
+      "real estate": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/real_estate/n/,/c/en/realtor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/real_estate/n",
+          "@type": "Node",
+          "label": "real estate",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/real_estate"
+        },
+        "end": {
+          "@id": "/c/en/realtor",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "term": "/c/en/realtor"
+        }
+      },
+      "lease": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/realtor/n/,/c/en/lease/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/realtor/n",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/realtor"
+        },
+        "end": {
+          "@id": "/c/en/lease",
+          "@type": "Node",
+          "label": "lease",
+          "language": "en",
+          "term": "/c/en/lease"
+        }
+      },
+      "abr": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/abr/n/,/c/en/realtor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/abr/n",
+          "@type": "Node",
+          "label": "abr",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/abr"
+        },
+        "end": {
+          "@id": "/c/en/realtor",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "term": "/c/en/realtor"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "real estate agent": {
+        "@id": "/a/[/r/Synonym/,/c/en/real_estate_agent/n/wn/person/,/c/en/realtor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/real_estate_agent/n/wn/person",
+          "@type": "Node",
+          "label": "real estate agent",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/real_estate_agent"
+        },
+        "end": {
+          "@id": "/c/en/realtor/n/wn/person",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/realtor"
+        }
+      },
+      "land agent": {
+        "@id": "/a/[/r/Synonym/,/c/en/land_agent/n/wn/person/,/c/en/realtor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/land_agent/n/wn/person",
+          "@type": "Node",
+          "label": "land agent",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/land_agent"
+        },
+        "end": {
+          "@id": "/c/en/realtor/n/wn/person",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/realtor"
+        }
+      },
+      "estate agent": {
+        "@id": "/a/[/r/Synonym/,/c/en/estate_agent/n/wn/person/,/c/en/realtor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/estate_agent/n/wn/person",
+          "@type": "Node",
+          "label": "estate agent",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/estate_agent"
+        },
+        "end": {
+          "@id": "/c/en/realtor/n/wn/person",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/realtor"
+        }
+      },
+      "real estate broker": {
+        "@id": "/a/[/r/Synonym/,/c/en/real_estate_broker/n/wn/person/,/c/en/realtor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/real_estate_broker/n/wn/person",
+          "@type": "Node",
+          "label": "real estate broker",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/real_estate_broker"
+        },
+        "end": {
+          "@id": "/c/en/realtor/n/wn/person",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/realtor"
+        }
+      },
+      "house agent": {
+        "@id": "/a/[/r/Synonym/,/c/en/house_agent/n/wn/person/,/c/en/realtor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/house_agent/n/wn/person",
+          "@type": "Node",
+          "label": "house agent",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/house_agent"
+        },
+        "end": {
+          "@id": "/c/en/realtor/n/wn/person",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/realtor"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "realtors": {
+        "@id": "/a/[/r/FormOf/,/c/en/realtors/n/,/c/en/realtor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/realtors/n",
+          "@type": "Node",
+          "label": "realtors",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/realtors"
+        },
+        "end": {
+          "@id": "/c/en/realtor",
+          "@type": "Node",
+          "label": "realtor",
+          "language": "en",
+          "term": "/c/en/realtor"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "broker": {
+      "data-frequency": "11273",
+      "data-relevance": "427",
+      "data-term": "broker",
+      "data-encoded-term": "broker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11273",
+        "ol",
+        "1"
+      ]
+    },
+    "estate agent": {
+      "data-frequency": "3286",
+      "data-relevance": "426",
+      "data-term": "estate agent",
+      "data-encoded-term": "estate%20agent",
+      "data-term-stats": [
+        "1",
+        "8.2",
+        "0.000",
+        "3286",
+        "cn5,ol,wiki,wn",
+        "1"
+      ]
+    },
+    "real estate": {
+      "data-frequency": "52927",
+      "data-relevance": "425",
+      "data-term": "real estate",
+      "data-encoded-term": "real%20estate",
+      "data-term-stats": [
+        "1",
+        "7.9",
+        "0.000",
+        "52927",
+        "cn5,ol,wiki",
+        "1"
+      ]
+    },
+    "appraiser": {
+      "data-frequency": "1091",
+      "data-relevance": "424",
+      "data-term": "appraiser",
+      "data-encoded-term": "appraiser",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "1091",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "landlord": {
+      "data-frequency": "10376",
+      "data-relevance": "423",
+      "data-term": "landlord",
+      "data-encoded-term": "landlord",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "10376",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "property": {
+      "data-frequency": "244829",
+      "data-relevance": "422",
+      "data-term": "property",
+      "data-encoded-term": "property",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "244829",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "commission": {
+      "data-frequency": "352892",
+      "data-relevance": "421",
+      "data-term": "commission",
+      "data-encoded-term": "commission",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "352892",
+        "wiki",
+        "1"
+      ]
+    },
+    "real estate broker": {
+      "data-frequency": "1429",
+      "data-relevance": "420",
+      "data-term": "real estate broker",
+      "data-encoded-term": "real%20estate%20broker",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "1429",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "national association of realtors": {
+      "data-frequency": "875",
+      "data-relevance": "419",
+      "data-term": "national association of realtors",
+      "data-encoded-term": "national%20association%20of%20realtors",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "875",
+        "wiki,wn",
+        "1"
+      ]
+    },
+    "real estate agent": {
+      "data-frequency": "2909",
+      "data-relevance": "418",
+      "data-term": "real estate agent",
+      "data-encoded-term": "real%20estate%20agent",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "2909",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "agent": {
+      "data-frequency": "141544",
+      "data-relevance": "417",
+      "data-term": "agent",
+      "data-encoded-term": "agent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "141544",
+        "ol",
+        "1"
+      ]
+    },
+    "realty": {
+      "data-frequency": "5374",
+      "data-relevance": "416",
+      "data-term": "realty",
+      "data-encoded-term": "realty",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "5374",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "real property": {
+      "data-frequency": "2359",
+      "data-relevance": "415",
+      "data-term": "real property",
+      "data-encoded-term": "real%20property",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "2359",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "house agent": {
+      "data-frequency": "50164",
+      "data-relevance": "414",
+      "data-term": "house agent",
+      "data-encoded-term": "house%20agent",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "50164",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "stockbroker": {
+      "data-frequency": "2661",
+      "data-relevance": "413",
+      "data-term": "stockbroker",
+      "data-encoded-term": "stockbroker",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "2661",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "lender": {
+      "data-frequency": "2961",
+      "data-relevance": "412",
+      "data-term": "lender",
+      "data-encoded-term": "lender",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2961",
+        "ol",
+        "1"
+      ]
+    },
+    "seller": {
+      "data-frequency": "17050",
+      "data-relevance": "411",
+      "data-term": "seller",
+      "data-encoded-term": "seller",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17050",
+        "ol",
+        "1"
+      ]
+    },
+    "land agent": {
+      "data-frequency": "27055",
+      "data-relevance": "410",
+      "data-term": "land agent",
+      "data-encoded-term": "land%20agent",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "27055",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "locksmith": {
+      "data-frequency": "998",
+      "data-relevance": "409",
+      "data-term": "locksmith",
+      "data-encoded-term": "locksmith",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "998",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "real": {
+      "data-frequency": "335029",
+      "data-relevance": "408",
+      "data-term": "real",
+      "data-encoded-term": "real",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "335029",
+        "cn5",
+        "1"
+      ]
+    },
+    "pawnshop": {
+      "data-frequency": "513",
+      "data-relevance": "407",
+      "data-term": "pawnshop",
+      "data-encoded-term": "pawnshop",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "513",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "restaurateur": {
+      "data-frequency": "3388",
+      "data-relevance": "406",
+      "data-term": "restaurateur",
+      "data-encoded-term": "restaurateur",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "3388",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "lawyer": {
+      "data-frequency": "132798",
+      "data-relevance": "405",
+      "data-term": "lawyer",
+      "data-encoded-term": "lawyer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "132798",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "florist": {
+      "data-frequency": "1356",
+      "data-relevance": "404",
+      "data-term": "florist",
+      "data-encoded-term": "florist",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "1356",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "homeowner": {
+      "data-frequency": "2704",
+      "data-relevance": "403",
+      "data-term": "homeowner",
+      "data-encoded-term": "homeowner",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2704",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "accountant": {
+      "data-frequency": "12009",
+      "data-relevance": "402",
+      "data-term": "accountant",
+      "data-encoded-term": "accountant",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "12009",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "zillow": {
+      "data-frequency": "250",
+      "data-relevance": "401",
+      "data-term": "zillow",
+      "data-encoded-term": "zillow",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "250",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "chiropractor": {
+      "data-frequency": "631",
+      "data-relevance": "400",
+      "data-term": "chiropractor",
+      "data-encoded-term": "chiropractor",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "631",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "paralegal": {
+      "data-frequency": "982",
+      "data-relevance": "399",
+      "data-term": "paralegal",
+      "data-encoded-term": "paralegal",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "982",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "renter": {
+      "data-frequency": "489",
+      "data-relevance": "398",
+      "data-term": "renter",
+      "data-encoded-term": "renter",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "489",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "hotelier": {
+      "data-frequency": "1765",
+      "data-relevance": "397",
+      "data-term": "hotelier",
+      "data-encoded-term": "hotelier",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "1765",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "mortgage": {
+      "data-frequency": "12626",
+      "data-relevance": "396",
+      "data-term": "mortgage",
+      "data-encoded-term": "mortgage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12626",
+        "ol",
+        "1"
+      ]
+    },
+    "banker": {
+      "data-frequency": "24402",
+      "data-relevance": "395",
+      "data-term": "banker",
+      "data-encoded-term": "banker",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "24402",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "arborist": {
+      "data-frequency": "220",
+      "data-relevance": "394",
+      "data-term": "arborist",
+      "data-encoded-term": "arborist",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "220",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "businesswoman": {
+      "data-frequency": "8359",
+      "data-relevance": "393",
+      "data-term": "businesswoman",
+      "data-encoded-term": "businesswoman",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "8359",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "landscaper": {
+      "data-frequency": "361",
+      "data-relevance": "392",
+      "data-term": "landscaper",
+      "data-encoded-term": "landscaper",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "361",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "owner": {
+      "data-frequency": "257388",
+      "data-relevance": "391",
+      "data-term": "owner",
+      "data-encoded-term": "owner",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "257388",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "headhunter": {
+      "data-frequency": "628",
+      "data-relevance": "390",
+      "data-term": "headhunter",
+      "data-encoded-term": "headhunter",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "628",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "friend": {
+      "data-frequency": "203631",
+      "data-relevance": "389",
+      "data-term": "friend",
+      "data-encoded-term": "friend",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "203631",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "remodeler": {
+      "data-frequency": "18153",
+      "data-relevance": "388",
+      "data-term": "remodeler",
+      "data-encoded-term": "remodeler",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "18153",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "real-estate": {
+      "data-frequency": "55575",
+      "data-relevance": "387",
+      "data-term": "real-estate",
+      "data-encoded-term": "real-estate",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "55575",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "agency": {
+      "data-frequency": "216695",
+      "data-relevance": "386",
+      "data-term": "agency",
+      "data-encoded-term": "agency",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "216695",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "telemarketer": {
+      "data-frequency": "179",
+      "data-relevance": "385",
+      "data-term": "telemarketer",
+      "data-encoded-term": "telemarketer",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "179",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "proprietor": {
+      "data-frequency": "9998",
+      "data-relevance": "384",
+      "data-term": "proprietor",
+      "data-encoded-term": "proprietor",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "9998",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "intermediary": {
+      "data-frequency": "5143",
+      "data-relevance": "383",
+      "data-term": "intermediary",
+      "data-encoded-term": "intermediary",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "5143",
+        "wiki",
+        "1"
+      ]
+    },
+    "buyer's agent": {
+      "data-frequency": "3116",
+      "data-relevance": "382",
+      "data-term": "buyer's agent",
+      "data-encoded-term": "buyer's%20agent",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "3116",
+        "wiki",
+        "1"
+      ]
+    },
+    "developer": {
+      "data-frequency": "69340",
+      "data-relevance": "381",
+      "data-term": "developer",
+      "data-encoded-term": "developer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69340",
+        "ol",
+        "1"
+      ]
+    },
+    "investor": {
+      "data-frequency": "21801",
+      "data-relevance": "380",
+      "data-term": "investor",
+      "data-encoded-term": "investor",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "21801",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "assessor": {
+      "data-frequency": "3909",
+      "data-relevance": "379",
+      "data-term": "assessor",
+      "data-encoded-term": "assessor",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "3909",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "trademark": {
+      "data-frequency": "23171",
+      "data-relevance": "378",
+      "data-term": "trademark",
+      "data-encoded-term": "trademark",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "23171",
+        "wn",
+        "1"
+      ]
+    },
+    "attorney": {
+      "data-frequency": "114565",
+      "data-relevance": "377",
+      "data-term": "attorney",
+      "data-encoded-term": "attorney",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "114565",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "closing": {
+      "data-frequency": "68191",
+      "data-relevance": "376",
+      "data-term": "closing",
+      "data-encoded-term": "closing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "68191",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "builder": {
+      "data-frequency": "67909",
+      "data-relevance": "375",
+      "data-term": "builder",
+      "data-encoded-term": "builder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67909",
+        "ol",
+        "1"
+      ]
+    },
+    "brokerage": {
+      "data-frequency": "4004",
+      "data-relevance": "374",
+      "data-term": "brokerage",
+      "data-encoded-term": "brokerage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4004",
+        "ol",
+        "1"
+      ]
+    },
+    "fiduciary": {
+      "data-frequency": "1423",
+      "data-relevance": "373",
+      "data-term": "fiduciary",
+      "data-encoded-term": "fiduciary",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1423",
+        "wiki",
+        "1"
+      ]
+    },
+    "bank": {
+      "data-frequency": "246136",
+      "data-relevance": "372",
+      "data-term": "bank",
+      "data-encoded-term": "bank",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "246136",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "salesperson": {
+      "data-frequency": "727",
+      "data-relevance": "371",
+      "data-term": "salesperson",
+      "data-encoded-term": "salesperson",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "727",
+        "ol",
+        "1"
+      ]
+    },
+    "reality": {
+      "data-frequency": "117813",
+      "data-relevance": "370",
+      "data-term": "reality",
+      "data-encoded-term": "reality",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "117813",
+        "cn5",
+        "1"
+      ]
+    },
+    "mls": {
+      "data-frequency": "9660",
+      "data-relevance": "369",
+      "data-term": "mls",
+      "data-encoded-term": "mls",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9660",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "marketing": {
+      "data-frequency": "74438",
+      "data-relevance": "368",
+      "data-term": "marketing",
+      "data-encoded-term": "marketing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "74438",
+        "wiki",
+        "1"
+      ]
+    },
+    "client": {
+      "data-frequency": "35649",
+      "data-relevance": "367",
+      "data-term": "client",
+      "data-encoded-term": "client",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "35649",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hairdresser": {
+      "data-frequency": "2951",
+      "data-relevance": "366",
+      "data-term": "hairdresser",
+      "data-encoded-term": "hairdresser",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2951",
+        "w2v",
+        "1"
+      ]
+    },
+    "costs": {
+      "data-frequency": "69504",
+      "data-relevance": "365",
+      "data-term": "costs",
+      "data-encoded-term": "costs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "69504",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "title": {
+      "data-frequency": "1049404",
+      "data-relevance": "364",
+      "data-term": "title",
+      "data-encoded-term": "title",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1049404",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "estate": {
+      "data-frequency": "169899",
+      "data-relevance": "363",
+      "data-term": "estate",
+      "data-encoded-term": "estate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "169899",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "housing": {
+      "data-frequency": "153137",
+      "data-relevance": "362",
+      "data-term": "housing",
+      "data-encoded-term": "housing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "153137",
+        "ol",
+        "1"
+      ]
+    },
+    "dealer": {
+      "data-frequency": "27977",
+      "data-relevance": "361",
+      "data-term": "dealer",
+      "data-encoded-term": "dealer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27977",
+        "ol",
+        "1"
+      ]
+    },
+    "leasing": {
+      "data-frequency": "7958",
+      "data-relevance": "360",
+      "data-term": "leasing",
+      "data-encoded-term": "leasing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "7958",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "apartment": {
+      "data-frequency": "51117",
+      "data-relevance": "359",
+      "data-term": "apartment",
+      "data-encoded-term": "apartment",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "51117",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "company": {
+      "data-frequency": "885642",
+      "data-relevance": "358",
+      "data-term": "company",
+      "data-encoded-term": "company",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "885642",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "inspector": {
+      "data-frequency": "38477",
+      "data-relevance": "357",
+      "data-term": "inspector",
+      "data-encoded-term": "inspector",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "38477",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "bookkeeper": {
+      "data-frequency": "1946",
+      "data-relevance": "356",
+      "data-term": "bookkeeper",
+      "data-encoded-term": "bookkeeper",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1946",
+        "w2v",
+        "1"
+      ]
+    },
+    "buyer": {
+      "data-frequency": "12017",
+      "data-relevance": "355",
+      "data-term": "buyer",
+      "data-encoded-term": "buyer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12017",
+        "ol",
+        "1"
+      ]
+    },
+    "actuality": {
+      "data-frequency": "3074",
+      "data-relevance": "354",
+      "data-term": "actuality",
+      "data-encoded-term": "actuality",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3074",
+        "cn5",
+        "1"
+      ]
+    },
+    "contractor": {
+      "data-frequency": "23567",
+      "data-relevance": "353",
+      "data-term": "contractor",
+      "data-encoded-term": "contractor",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "23567",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "salesman": {
+      "data-frequency": "11799",
+      "data-relevance": "352",
+      "data-term": "salesman",
+      "data-encoded-term": "salesman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11799",
+        "ol",
+        "1"
+      ]
+    },
+    "tradesman": {
+      "data-frequency": "1311",
+      "data-relevance": "351",
+      "data-term": "tradesman",
+      "data-encoded-term": "tradesman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1311",
+        "w2v",
+        "1"
+      ]
+    },
+    "loan": {
+      "data-frequency": "113821",
+      "data-relevance": "350",
+      "data-term": "loan",
+      "data-encoded-term": "loan",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "113821",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "manager": {
+      "data-frequency": "286378",
+      "data-relevance": "349",
+      "data-term": "manager",
+      "data-encoded-term": "manager",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "286378",
+        "ol",
+        "1"
+      ]
+    },
+    "genuineness": {
+      "data-frequency": "443",
+      "data-relevance": "348",
+      "data-term": "genuineness",
+      "data-encoded-term": "genuineness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "443",
+        "cn5",
+        "1"
+      ]
+    },
+    "flipper": {
+      "data-frequency": "1682",
+      "data-relevance": "347",
+      "data-term": "flipper",
+      "data-encoded-term": "flipper",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1682",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "rental": {
+      "data-frequency": "17276",
+      "data-relevance": "346",
+      "data-term": "rental",
+      "data-encoded-term": "rental",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17276",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "factually": {
+      "data-frequency": "828",
+      "data-relevance": "345",
+      "data-term": "factually",
+      "data-encoded-term": "factually",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "828",
+        "cn5",
+        "1"
+      ]
+    },
+    "caterer": {
+      "data-frequency": "1158",
+      "data-relevance": "344",
+      "data-term": "caterer",
+      "data-encoded-term": "caterer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1158",
+        "w2v",
+        "1"
+      ]
+    },
+    "insurance": {
+      "data-frequency": "66115",
+      "data-relevance": "343",
+      "data-term": "insurance",
+      "data-encoded-term": "insurance",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "66115",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "druggist": {
+      "data-frequency": "895",
+      "data-relevance": "342",
+      "data-term": "druggist",
+      "data-encoded-term": "druggist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "895",
+        "w2v",
+        "1"
+      ]
+    },
+    "officer": {
+      "data-frequency": "296631",
+      "data-relevance": "341",
+      "data-term": "officer",
+      "data-encoded-term": "officer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "296631",
+        "ol",
+        "1"
+      ]
+    },
+    "actual": {
+      "data-frequency": "101605",
+      "data-relevance": "340",
+      "data-term": "actual",
+      "data-encoded-term": "actual",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "101605",
+        "cn5",
+        "1"
+      ]
+    },
+    "home": {
+      "data-frequency": "929241",
+      "data-relevance": "339",
+      "data-term": "home",
+      "data-encoded-term": "home",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "929241",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "vendor": {
+      "data-frequency": "8965",
+      "data-relevance": "338",
+      "data-term": "vendor",
+      "data-encoded-term": "vendor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8965",
+        "ol",
+        "1"
+      ]
+    },
+    "encino": {
+      "data-frequency": "1345",
+      "data-relevance": "337",
+      "data-term": "encino",
+      "data-encoded-term": "encino",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1345",
+        "w2v",
+        "1"
+      ]
+    },
+    "genuine": {
+      "data-frequency": "22150",
+      "data-relevance": "336",
+      "data-term": "genuine",
+      "data-encoded-term": "genuine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22150",
+        "cn5",
+        "1"
+      ]
+    },
+    "publican": {
+      "data-frequency": "1477",
+      "data-relevance": "335",
+      "data-term": "publican",
+      "data-encoded-term": "publican",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1477",
+        "w2v",
+        "1"
+      ]
+    },
+    "family": {
+      "data-frequency": "1345263",
+      "data-relevance": "334",
+      "data-term": "family",
+      "data-encoded-term": "family",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1345263",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "redfin": {
+      "data-frequency": "334",
+      "data-relevance": "333",
+      "data-term": "redfin",
+      "data-encoded-term": "redfin",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "334",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "house": {
+      "data-frequency": "821612",
+      "data-relevance": "332",
+      "data-term": "house",
+      "data-encoded-term": "house",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "821612",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "the": {
+      "data-frequency": "6625329",
+      "data-relevance": "331",
+      "data-term": "the",
+      "data-encoded-term": "the",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6625329",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "financial": {
+      "data-frequency": "244806",
+      "data-relevance": "330",
+      "data-term": "financial",
+      "data-encoded-term": "financial",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "244806",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "bad": {
+      "data-frequency": "181711",
+      "data-relevance": "329",
+      "data-term": "bad",
+      "data-encoded-term": "bad",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "181711",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "actually": {
+      "data-frequency": "156535",
+      "data-relevance": "328",
+      "data-term": "actually",
+      "data-encoded-term": "actually",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "156535",
+        "cn5",
+        "1"
+      ]
+    },
+    "psychotherapist": {
+      "data-frequency": "1803",
+      "data-relevance": "327",
+      "data-term": "psychotherapist",
+      "data-encoded-term": "psychotherapist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1803",
+        "w2v",
+        "1"
+      ]
+    },
+    "really": {
+      "data-frequency": "126801",
+      "data-relevance": "326",
+      "data-term": "really",
+      "data-encoded-term": "really",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "126801",
+        "cn5",
+        "1"
+      ]
+    },
+    "authentic": {
+      "data-frequency": "19194",
+      "data-relevance": "325",
+      "data-term": "authentic",
+      "data-encoded-term": "authentic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19194",
+        "cn5",
+        "1"
+      ]
+    },
+    "handyman": {
+      "data-frequency": "1630",
+      "data-relevance": "324",
+      "data-term": "handyman",
+      "data-encoded-term": "handyman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1630",
+        "ol",
+        "1"
+      ]
+    },
+    "authenticity": {
+      "data-frequency": "14138",
+      "data-relevance": "323",
+      "data-term": "authenticity",
+      "data-encoded-term": "authenticity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14138",
+        "cn5",
+        "1"
+      ]
+    },
+    "their": {
+      "data-frequency": "1601953",
+      "data-relevance": "322",
+      "data-term": "their",
+      "data-encoded-term": "their",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1601953",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "legal": {
+      "data-frequency": "248343",
+      "data-relevance": "321",
+      "data-term": "legal",
+      "data-encoded-term": "legal",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "248343",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "listing": {
+      "data-frequency": "248776",
+      "data-relevance": "320",
+      "data-term": "listing",
+      "data-encoded-term": "listing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "248776",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sellers": {
+      "data-frequency": "15737",
+      "data-relevance": "319",
+      "data-term": "sellers",
+      "data-encoded-term": "sellers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "15737",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "good": {
+      "data-frequency": "510744",
+      "data-relevance": "318",
+      "data-term": "good",
+      "data-encoded-term": "good",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "510744",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mom": {
+      "data-frequency": "24596",
+      "data-relevance": "317",
+      "data-term": "mom",
+      "data-encoded-term": "mom",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "24596",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mentor": {
+      "data-frequency": "36062",
+      "data-relevance": "316",
+      "data-term": "mentor",
+      "data-encoded-term": "mentor",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "36062",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "someone": {
+      "data-frequency": "118538",
+      "data-relevance": "315",
+      "data-term": "someone",
+      "data-encoded-term": "someone",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "118538",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "buyers": {
+      "data-frequency": "12886",
+      "data-relevance": "314",
+      "data-term": "buyers",
+      "data-encoded-term": "buyers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "12886",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "realist": {
+      "data-frequency": "5846",
+      "data-relevance": "313",
+      "data-term": "realist",
+      "data-encoded-term": "realist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5846",
+        "cn5",
+        "1"
+      ]
+    },
+    "saleswoman": {
+      "data-frequency": "707",
+      "data-relevance": "312",
+      "data-term": "saleswoman",
+      "data-encoded-term": "saleswoman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "707",
+        "w2v",
+        "1"
+      ]
+    },
+    "authentically": {
+      "data-frequency": "1029",
+      "data-relevance": "311",
+      "data-term": "authentically",
+      "data-encoded-term": "authentically",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1029",
+        "cn5",
+        "1"
+      ]
+    },
+    "echt": {
+      "data-frequency": "533",
+      "data-relevance": "310",
+      "data-term": "echt",
+      "data-encoded-term": "echt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "533",
+        "cn5",
+        "1"
+      ]
+    },
+    "lawyers": {
+      "data-frequency": "71384",
+      "data-relevance": "309",
+      "data-term": "lawyers",
+      "data-encoded-term": "lawyers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71384",
+        "wiki|reverse-net",
+        "1"
+      ]
+    },
+    "management": {
+      "data-frequency": "325141",
+      "data-relevance": "308",
+      "data-term": "management",
+      "data-encoded-term": "management",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "325141",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "housesigma": {
+      "data-frequency": "-1",
+      "data-relevance": "307",
+      "data-term": "housesigma",
+      "data-encoded-term": "housesigma",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "office": {
+      "data-frequency": "874289",
+      "data-relevance": "306",
+      "data-term": "office",
+      "data-encoded-term": "office",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "874289",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "other": {
+      "data-frequency": "2214622",
+      "data-relevance": "305",
+      "data-term": "other",
+      "data-encoded-term": "other",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2214622",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "selling": {
+      "data-frequency": "106591",
+      "data-relevance": "304",
+      "data-term": "selling",
+      "data-encoded-term": "selling",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "106591",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "how": {
+      "data-frequency": "1208780",
+      "data-relevance": "303",
+      "data-term": "how",
+      "data-encoded-term": "how",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1208780",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "potential": {
+      "data-frequency": "151007",
+      "data-relevance": "302",
+      "data-term": "potential",
+      "data-encoded-term": "potential",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "151007",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "taxes": {
+      "data-frequency": "33400",
+      "data-relevance": "301",
+      "data-term": "taxes",
+      "data-encoded-term": "taxes",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "33400",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "kijiji": {
+      "data-frequency": "46",
+      "data-relevance": "300",
+      "data-term": "kijiji",
+      "data-encoded-term": "kijiji",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "owners": {
+      "data-frequency": "89139",
+      "data-relevance": "299",
+      "data-term": "owners",
+      "data-encoded-term": "owners",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "89139",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "investors": {
+      "data-frequency": "32644",
+      "data-relevance": "298",
+      "data-term": "investors",
+      "data-encoded-term": "investors",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "32644",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "whoever": {
+      "data-frequency": "9036",
+      "data-relevance": "297",
+      "data-term": "whoever",
+      "data-encoded-term": "whoever",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9036",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "you": {
+      "data-frequency": "3404351",
+      "data-relevance": "296",
+      "data-term": "you",
+      "data-encoded-term": "you",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3404351",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "indeed": {
+      "data-frequency": "62092",
+      "data-relevance": "295",
+      "data-term": "indeed",
+      "data-encoded-term": "indeed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62092",
+        "cn5",
+        "1"
+      ]
+    },
+    "factual": {
+      "data-frequency": "18033",
+      "data-relevance": "294",
+      "data-term": "factual",
+      "data-encoded-term": "factual",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18033",
+        "cn5",
+        "1"
+      ]
+    },
+    "grocer": {
+      "data-frequency": "3256",
+      "data-relevance": "293",
+      "data-term": "grocer",
+      "data-encoded-term": "grocer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3256",
+        "w2v",
+        "1"
+      ]
+    },
+    "bartender": {
+      "data-frequency": "6628",
+      "data-relevance": "292",
+      "data-term": "bartender",
+      "data-encoded-term": "bartender",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6628",
+        "w2v",
+        "1"
+      ]
+    },
+    "stager": {
+      "data-frequency": "355",
+      "data-relevance": "291",
+      "data-term": "stager",
+      "data-encoded-term": "stager",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "355",
+        "ol",
+        "1"
+      ]
+    },
+    "truly": {
+      "data-frequency": "38345",
+      "data-relevance": "290",
+      "data-term": "truly",
+      "data-encoded-term": "truly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38345",
+        "cn5",
+        "1"
+      ]
+    },
+    "homemaker": {
+      "data-frequency": "2607",
+      "data-relevance": "289",
+      "data-term": "homemaker",
+      "data-encoded-term": "homemaker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2607",
+        "w2v",
+        "1"
+      ]
+    },
+    "speculator": {
+      "data-frequency": "1673",
+      "data-relevance": "288",
+      "data-term": "speculator",
+      "data-encoded-term": "speculator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1673",
+        "ol",
+        "1"
+      ]
+    },
+    "veritable": {
+      "data-frequency": "2570",
+      "data-relevance": "287",
+      "data-term": "veritable",
+      "data-encoded-term": "veritable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2570",
+        "cn5",
+        "1"
+      ]
+    },
+    "homebuyer": {
+      "data-frequency": "67",
+      "data-relevance": "286",
+      "data-term": "homebuyer",
+      "data-encoded-term": "homebuyer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "valuer": {
+      "data-frequency": "397",
+      "data-relevance": "285",
+      "data-term": "valuer",
+      "data-encoded-term": "valuer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "397",
+        "ol",
+        "1"
+      ]
+    },
+    "slumlord": {
+      "data-frequency": "99",
+      "data-relevance": "284",
+      "data-term": "slumlord",
+      "data-encoded-term": "slumlord",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "99",
+        "ol",
+        "1"
+      ]
+    },
+    "true": {
+      "data-frequency": "223803",
+      "data-relevance": "283",
+      "data-term": "true",
+      "data-encoded-term": "true",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "223803",
+        "cn5",
+        "1"
+      ]
+    },
+    "bostonian": {
+      "data-frequency": "1189",
+      "data-relevance": "282",
+      "data-term": "bostonian",
+      "data-encoded-term": "bostonian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1189",
+        "w2v",
+        "1"
+      ]
+    },
+    "appraisers": {
+      "data-frequency": "3307",
+      "data-relevance": "281",
+      "data-term": "appraisers",
+      "data-encoded-term": "appraisers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3307",
+        "w2v",
+        "1"
+      ]
+    },
+    "newspaperman": {
+      "data-frequency": "1365",
+      "data-relevance": "280",
+      "data-term": "newspaperman",
+      "data-encoded-term": "newspaperman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1365",
+        "w2v",
+        "1"
+      ]
+    },
+    "poderosos": {
+      "data-frequency": "213",
+      "data-relevance": "279",
+      "data-term": "poderosos",
+      "data-encoded-term": "poderosos",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "213",
+        "w2v",
+        "1"
+      ]
+    },
+    "multimillionaire": {
+      "data-frequency": "610",
+      "data-relevance": "278",
+      "data-term": "multimillionaire",
+      "data-encoded-term": "multimillionaire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "610",
+        "w2v",
+        "1"
+      ]
+    },
+    "truthful": {
+      "data-frequency": "2674",
+      "data-relevance": "277",
+      "data-term": "truthful",
+      "data-encoded-term": "truthful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2674",
+        "cn5",
+        "1"
+      ]
+    },
+    "janitor": {
+      "data-frequency": "3473",
+      "data-relevance": "276",
+      "data-term": "janitor",
+      "data-encoded-term": "janitor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3473",
+        "w2v",
+        "1"
+      ]
+    },
+    "planner": {
+      "data-frequency": "9186",
+      "data-relevance": "275",
+      "data-term": "planner",
+      "data-encoded-term": "planner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9186",
+        "ol",
+        "1"
+      ]
+    },
+    "hires": {
+      "data-frequency": "121024",
+      "data-relevance": "274",
+      "data-term": "hires",
+      "data-encoded-term": "hires",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "121024",
+        "w2v",
+        "1"
+      ]
+    },
+    "actores": {
+      "data-frequency": "253938",
+      "data-relevance": "273",
+      "data-term": "actores",
+      "data-encoded-term": "actores",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "253938",
+        "w2v",
+        "1"
+      ]
+    },
+    "notary": {
+      "data-frequency": "3728",
+      "data-relevance": "272",
+      "data-term": "notary",
+      "data-encoded-term": "notary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3728",
+        "ol",
+        "1"
+      ]
+    },
+    "tenant": {
+      "data-frequency": "12070",
+      "data-relevance": "271",
+      "data-term": "tenant",
+      "data-encoded-term": "tenant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12070",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "housekeeper": {
+      "data-frequency": "5210",
+      "data-relevance": "270",
+      "data-term": "housekeeper",
+      "data-encoded-term": "housekeeper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5210",
+        "w2v",
+        "1"
+      ]
+    },
+    "dealership": {
+      "data-frequency": "3775",
+      "data-relevance": "269",
+      "data-term": "dealership",
+      "data-encoded-term": "dealership",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3775",
+        "ol",
+        "1"
+      ]
+    },
+    "landowner": {
+      "data-frequency": "12119",
+      "data-relevance": "268",
+      "data-term": "landowner",
+      "data-encoded-term": "landowner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12119",
+        "ol",
+        "1"
+      ]
+    },
+    "reputable": {
+      "data-frequency": "2541",
+      "data-relevance": "267",
+      "data-term": "reputable",
+      "data-encoded-term": "reputable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2541",
+        "w2v",
+        "1"
+      ]
+    },
+    "pharmacist": {
+      "data-frequency": "5263",
+      "data-relevance": "266",
+      "data-term": "pharmacist",
+      "data-encoded-term": "pharmacist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5263",
+        "w2v",
+        "1"
+      ]
+    },
+    "honest": {
+      "data-frequency": "22205",
+      "data-relevance": "265",
+      "data-term": "honest",
+      "data-encoded-term": "honest",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22205",
+        "cn5",
+        "1"
+      ]
+    },
+    "license": {
+      "data-frequency": "74684",
+      "data-relevance": "264",
+      "data-term": "license",
+      "data-encoded-term": "license",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "74684",
+        "wiki",
+        "1"
+      ]
+    },
+    "dilettante": {
+      "data-frequency": "564",
+      "data-relevance": "263",
+      "data-term": "dilettante",
+      "data-encoded-term": "dilettante",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "564",
+        "w2v",
+        "1"
+      ]
+    },
+    "truth": {
+      "data-frequency": "107106",
+      "data-relevance": "262",
+      "data-term": "truth",
+      "data-encoded-term": "truth",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "107106",
+        "cn5",
+        "1"
+      ]
+    },
+    "waitress": {
+      "data-frequency": "6879",
+      "data-relevance": "261",
+      "data-term": "waitress",
+      "data-encoded-term": "waitress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6879",
+        "w2v",
+        "1"
+      ]
+    },
+    "newsagent": {
+      "data-frequency": "755",
+      "data-relevance": "260",
+      "data-term": "newsagent",
+      "data-encoded-term": "newsagent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "755",
+        "w2v",
+        "1"
+      ]
+    },
+    "hairdressers": {
+      "data-frequency": "3976",
+      "data-relevance": "259",
+      "data-term": "hairdressers",
+      "data-encoded-term": "hairdressers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3976",
+        "w2v",
+        "1"
+      ]
+    },
+    "farmhand": {
+      "data-frequency": "732",
+      "data-relevance": "258",
+      "data-term": "farmhand",
+      "data-encoded-term": "farmhand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "732",
+        "w2v",
+        "1"
+      ]
+    },
+    "managing": {
+      "data-frequency": "74238",
+      "data-relevance": "257",
+      "data-term": "managing",
+      "data-encoded-term": "managing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "74238",
+        "ol",
+        "1"
+      ]
+    },
+    "truism": {
+      "data-frequency": "179",
+      "data-relevance": "256",
+      "data-term": "truism",
+      "data-encoded-term": "truism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "179",
+        "cn5",
+        "1"
+      ]
+    },
+    "extraordinaire": {
+      "data-frequency": "1624",
+      "data-relevance": "255",
+      "data-term": "extraordinaire",
+      "data-encoded-term": "extraordinaire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1624",
+        "w2v",
+        "1"
+      ]
+    },
+    "receptionist": {
+      "data-frequency": "4035",
+      "data-relevance": "254",
+      "data-term": "receptionist",
+      "data-encoded-term": "receptionist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4035",
+        "w2v",
+        "1"
+      ]
+    },
+    "fishmonger": {
+      "data-frequency": "521",
+      "data-relevance": "253",
+      "data-term": "fishmonger",
+      "data-encoded-term": "fishmonger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "521",
+        "w2v",
+        "1"
+      ]
+    },
+    "socialite": {
+      "data-frequency": "6401",
+      "data-relevance": "252",
+      "data-term": "socialite",
+      "data-encoded-term": "socialite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6401",
+        "w2v",
+        "1"
+      ]
+    },
+    "immovable": {
+      "data-frequency": "1890",
+      "data-relevance": "251",
+      "data-term": "immovable",
+      "data-encoded-term": "immovable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1890",
+        "ol",
+        "1"
+      ]
+    },
+    "cashier": {
+      "data-frequency": "3138",
+      "data-relevance": "250",
+      "data-term": "cashier",
+      "data-encoded-term": "cashier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3138",
+        "w2v",
+        "1"
+      ]
+    },
+    "laundromat": {
+      "data-frequency": "1107",
+      "data-relevance": "249",
+      "data-term": "laundromat",
+      "data-encoded-term": "laundromat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1107",
+        "w2v",
+        "1"
+      ]
+    },
+    "leal": {
+      "data-frequency": "5023",
+      "data-relevance": "248",
+      "data-term": "leal",
+      "data-encoded-term": "leal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5023",
+        "cn5",
+        "1"
+      ]
+    },
+    "hangout": {
+      "data-frequency": "1825",
+      "data-relevance": "247",
+      "data-term": "hangout",
+      "data-encoded-term": "hangout",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1825",
+        "w2v",
+        "1"
+      ]
+    },
+    "thingly": {
+      "data-frequency": "-1",
+      "data-relevance": "246",
+      "data-term": "thingly",
+      "data-encoded-term": "thingly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "barmaid": {
+      "data-frequency": "1330",
+      "data-relevance": "245",
+      "data-term": "barmaid",
+      "data-encoded-term": "barmaid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1330",
+        "w2v",
+        "1"
+      ]
+    },
+    "condo": {
+      "data-frequency": "2877",
+      "data-relevance": "244",
+      "data-term": "condo",
+      "data-encoded-term": "condo",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2877",
+        "ol",
+        "1"
+      ]
+    },
+    "law of agency": {
+      "data-frequency": "69708",
+      "data-relevance": "243",
+      "data-term": "law of agency",
+      "data-encoded-term": "law%20of%20agency",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69708",
+        "wiki",
+        "1"
+      ]
+    },
+    "condominium": {
+      "data-frequency": "4489",
+      "data-relevance": "242",
+      "data-term": "condominium",
+      "data-encoded-term": "condominium",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4489",
+        "ol",
+        "1"
+      ]
+    },
+    "verity": {
+      "data-frequency": "2464",
+      "data-relevance": "241",
+      "data-term": "verity",
+      "data-encoded-term": "verity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2464",
+        "cn5",
+        "1"
+      ]
+    },
+    "surveyor": {
+      "data-frequency": "14899",
+      "data-relevance": "240",
+      "data-term": "surveyor",
+      "data-encoded-term": "surveyor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14899",
+        "ol",
+        "1"
+      ]
+    },
+    "resident": {
+      "data-frequency": "84001",
+      "data-relevance": "239",
+      "data-term": "resident",
+      "data-encoded-term": "resident",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "84001",
+        "ol",
+        "1"
+      ]
+    },
+    "businessperson": {
+      "data-frequency": "5877",
+      "data-relevance": "238",
+      "data-term": "businessperson",
+      "data-encoded-term": "businessperson",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5877",
+        "ol",
+        "1"
+      ]
+    },
+    "businessman": {
+      "data-frequency": "84746",
+      "data-relevance": "237",
+      "data-term": "businessman",
+      "data-encoded-term": "businessman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "84746",
+        "ol",
+        "1"
+      ]
+    },
+    "foreclosure": {
+      "data-frequency": "2703",
+      "data-relevance": "236",
+      "data-term": "foreclosure",
+      "data-encoded-term": "foreclosure",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2703",
+        "ol",
+        "1"
+      ]
+    },
+    "townhouse": {
+      "data-frequency": "3567",
+      "data-relevance": "235",
+      "data-term": "townhouse",
+      "data-encoded-term": "townhouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3567",
+        "ol",
+        "1"
+      ]
+    },
+    "landman": {
+      "data-frequency": "804",
+      "data-relevance": "234",
+      "data-term": "landman",
+      "data-encoded-term": "landman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "804",
+        "ol",
+        "1"
+      ]
+    },
+    "carpenter": {
+      "data-frequency": "41007",
+      "data-relevance": "233",
+      "data-term": "carpenter",
+      "data-encoded-term": "carpenter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41007",
+        "ol",
+        "1"
+      ]
+    },
+    "jeweler": {
+      "data-frequency": "1797",
+      "data-relevance": "232",
+      "data-term": "jeweler",
+      "data-encoded-term": "jeweler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1797",
+        "ol",
+        "1"
+      ]
+    },
+    "decorator": {
+      "data-frequency": "3149",
+      "data-relevance": "231",
+      "data-term": "decorator",
+      "data-encoded-term": "decorator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3149",
+        "ol",
+        "1"
+      ]
+    },
+    "subdivision": {
+      "data-frequency": "32338",
+      "data-relevance": "230",
+      "data-term": "subdivision",
+      "data-encoded-term": "subdivision",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "32338",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgagee": {
+      "data-frequency": "211",
+      "data-relevance": "229",
+      "data-term": "mortgagee",
+      "data-encoded-term": "mortgagee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "211",
+        "ol",
+        "1"
+      ]
+    },
+    "plumber": {
+      "data-frequency": "2352",
+      "data-relevance": "228",
+      "data-term": "plumber",
+      "data-encoded-term": "plumber",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2352",
+        "ol",
+        "1"
+      ]
+    },
+    "unreality": {
+      "data-frequency": "938",
+      "data-relevance": "227",
+      "data-term": "unreality",
+      "data-encoded-term": "unreality",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "938",
+        "cn5",
+        "1"
+      ]
+    },
+    "realistic": {
+      "data-frequency": "21462",
+      "data-relevance": "226",
+      "data-term": "realistic",
+      "data-encoded-term": "realistic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21462",
+        "cn5",
+        "1"
+      ]
+    },
+    "realism": {
+      "data-frequency": "18126",
+      "data-relevance": "225",
+      "data-term": "realism",
+      "data-encoded-term": "realism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18126",
+        "cn5",
+        "1"
+      ]
+    },
+    "sooth": {
+      "data-frequency": "120",
+      "data-relevance": "224",
+      "data-term": "sooth",
+      "data-encoded-term": "sooth",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120",
+        "cn5",
+        "1"
+      ]
+    },
+    "veracious": {
+      "data-frequency": "80",
+      "data-relevance": "223",
+      "data-term": "veracious",
+      "data-encoded-term": "veracious",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonreal": {
+      "data-frequency": "-1",
+      "data-relevance": "222",
+      "data-term": "nonreal",
+      "data-encoded-term": "nonreal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "verily": {
+      "data-frequency": "626",
+      "data-relevance": "221",
+      "data-term": "verily",
+      "data-encoded-term": "verily",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "626",
+        "cn5",
+        "1"
+      ]
+    },
+    "realness": {
+      "data-frequency": "279",
+      "data-relevance": "220",
+      "data-term": "realness",
+      "data-encoded-term": "realness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "279",
+        "cn5",
+        "1"
+      ]
+    },
+    "veracity": {
+      "data-frequency": "2511",
+      "data-relevance": "219",
+      "data-term": "veracity",
+      "data-encoded-term": "veracity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2511",
+        "cn5",
+        "1"
+      ]
+    },
+    "proprietary": {
+      "data-frequency": "16416",
+      "data-relevance": "218",
+      "data-term": "proprietary",
+      "data-encoded-term": "proprietary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16416",
+        "cn5",
+        "1"
+      ]
+    },
+    "thingness": {
+      "data-frequency": "-1",
+      "data-relevance": "217",
+      "data-term": "thingness",
+      "data-encoded-term": "thingness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "small-business": {
+      "data-frequency": "137491",
+      "data-relevance": "216",
+      "data-term": "small-business",
+      "data-encoded-term": "small-business",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "137491",
+        "w2v",
+        "1"
+      ]
+    },
+    "factuality": {
+      "data-frequency": "128",
+      "data-relevance": "215",
+      "data-term": "factuality",
+      "data-encoded-term": "factuality",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "128",
+        "cn5",
+        "1"
+      ]
+    },
+    "veridical": {
+      "data-frequency": "82",
+      "data-relevance": "214",
+      "data-term": "veridical",
+      "data-encoded-term": "veridical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82",
+        "cn5",
+        "1"
+      ]
+    },
+    "propriety": {
+      "data-frequency": "2232",
+      "data-relevance": "213",
+      "data-term": "propriety",
+      "data-encoded-term": "propriety",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2232",
+        "cn5",
+        "1"
+      ]
+    },
+    "actualize": {
+      "data-frequency": "211",
+      "data-relevance": "212",
+      "data-term": "actualize",
+      "data-encoded-term": "actualize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "211",
+        "cn5",
+        "1"
+      ]
+    },
+    "verisimilar": {
+      "data-frequency": "-1",
+      "data-relevance": "211",
+      "data-term": "verisimilar",
+      "data-encoded-term": "verisimilar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "thingal": {
+      "data-frequency": "105",
+      "data-relevance": "210",
+      "data-term": "thingal",
+      "data-encoded-term": "thingal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "sirio": {
+      "data-frequency": "512",
+      "data-relevance": "209",
+      "data-term": "sirio",
+      "data-encoded-term": "sirio",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "512",
+        "w2v",
+        "1"
+      ]
+    },
+    "rightfully": {
+      "data-frequency": "1523",
+      "data-relevance": "208",
+      "data-term": "rightfully",
+      "data-encoded-term": "rightfully",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1523",
+        "cn5",
+        "1"
+      ]
+    },
+    "heartfelt": {
+      "data-frequency": "3776",
+      "data-relevance": "207",
+      "data-term": "heartfelt",
+      "data-encoded-term": "heartfelt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3776",
+        "cn5",
+        "1"
+      ]
+    },
+    "tangibility": {
+      "data-frequency": "56",
+      "data-relevance": "206",
+      "data-term": "tangibility",
+      "data-encoded-term": "tangibility",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "bellhop": {
+      "data-frequency": "466",
+      "data-relevance": "205",
+      "data-term": "bellhop",
+      "data-encoded-term": "bellhop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "466",
+        "w2v",
+        "1"
+      ]
+    },
+    "milreis": {
+      "data-frequency": "-1",
+      "data-relevance": "204",
+      "data-term": "milreis",
+      "data-encoded-term": "milreis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "correctness": {
+      "data-frequency": "3745",
+      "data-relevance": "203",
+      "data-term": "correctness",
+      "data-encoded-term": "correctness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3745",
+        "cn5",
+        "1"
+      ]
+    },
+    "fisherwoman": {
+      "data-frequency": "108",
+      "data-relevance": "202",
+      "data-term": "fisherwoman",
+      "data-encoded-term": "fisherwoman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "108",
+        "w2v",
+        "1"
+      ]
+    },
+    "truthbearer": {
+      "data-frequency": "-1",
+      "data-relevance": "201",
+      "data-term": "truthbearer",
+      "data-encoded-term": "truthbearer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "realize": {
+      "data-frequency": "29063",
+      "data-relevance": "200",
+      "data-term": "realize",
+      "data-encoded-term": "realize",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "29063",
+        "cn5",
+        "1"
+      ]
+    },
+    "camerawoman": {
+      "data-frequency": "74",
+      "data-relevance": "199",
+      "data-term": "camerawoman",
+      "data-encoded-term": "camerawoman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74",
+        "w2v",
+        "1"
+      ]
+    },
+    "shirose": {
+      "data-frequency": "-1",
+      "data-relevance": "198",
+      "data-term": "shirose",
+      "data-encoded-term": "shirose",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "fact": {
+      "data-frequency": "236208",
+      "data-relevance": "197",
+      "data-term": "fact",
+      "data-encoded-term": "fact",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "236208",
+        "cn5",
+        "1"
+      ]
+    },
+    "busboy": {
+      "data-frequency": "418",
+      "data-relevance": "196",
+      "data-term": "busboy",
+      "data-encoded-term": "busboy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "418",
+        "w2v",
+        "1"
+      ]
+    },
+    "cosmetologist": {
+      "data-frequency": "126",
+      "data-relevance": "195",
+      "data-term": "cosmetologist",
+      "data-encoded-term": "cosmetologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "troth": {
+      "data-frequency": "321",
+      "data-relevance": "194",
+      "data-term": "troth",
+      "data-encoded-term": "troth",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "321",
+        "cn5",
+        "1"
+      ]
+    },
+    "cosmothetic": {
+      "data-frequency": "-1",
+      "data-relevance": "193",
+      "data-term": "cosmothetic",
+      "data-encoded-term": "cosmothetic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "oakland-based": {
+      "data-frequency": "14069",
+      "data-relevance": "192",
+      "data-term": "oakland-based",
+      "data-encoded-term": "oakland-based",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14069",
+        "w2v",
+        "1"
+      ]
+    },
+    "well-to-do": {
+      "data-frequency": "2788",
+      "data-relevance": "191",
+      "data-term": "well-to-do",
+      "data-encoded-term": "well-to-do",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2788",
+        "w2v",
+        "1"
+      ]
+    },
+    "trustworthy": {
+      "data-frequency": "3270",
+      "data-relevance": "190",
+      "data-term": "trustworthy",
+      "data-encoded-term": "trustworthy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3270",
+        "cn5",
+        "1"
+      ]
+    },
+    "propertied": {
+      "data-frequency": "226",
+      "data-relevance": "189",
+      "data-term": "propertied",
+      "data-encoded-term": "propertied",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "cn5",
+        "1"
+      ]
+    },
+    "sasich": {
+      "data-frequency": "-1",
+      "data-relevance": "188",
+      "data-term": "sasich",
+      "data-encoded-term": "sasich",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "moonlights": {
+      "data-frequency": "15903",
+      "data-relevance": "187",
+      "data-term": "moonlights",
+      "data-encoded-term": "moonlights",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "15903",
+        "w2v",
+        "1"
+      ]
+    },
+    "truthy": {
+      "data-frequency": "-1",
+      "data-relevance": "186",
+      "data-term": "truthy",
+      "data-encoded-term": "truthy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "family-run": {
+      "data-frequency": "123453",
+      "data-relevance": "185",
+      "data-term": "family-run",
+      "data-encoded-term": "family-run",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "123453",
+        "w2v",
+        "1"
+      ]
+    },
+    "family-owned": {
+      "data-frequency": "6100",
+      "data-relevance": "184",
+      "data-term": "family-owned",
+      "data-encoded-term": "family-owned",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6100",
+        "w2v",
+        "1"
+      ]
+    },
+    "multi-millionaire": {
+      "data-frequency": "1934",
+      "data-relevance": "183",
+      "data-term": "multi-millionaire",
+      "data-encoded-term": "multi-millionaire",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1934",
+        "w2v",
+        "1"
+      ]
+    },
+    "runs_bonds": {
+      "data-frequency": "-1",
+      "data-relevance": "182",
+      "data-term": "runs_bonds",
+      "data-encoded-term": "runs_bonds",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "investicni": {
+      "data-frequency": "-1",
+      "data-relevance": "181",
+      "data-term": "investicni",
+      "data-encoded-term": "investicni",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "truthness": {
+      "data-frequency": "-1",
+      "data-relevance": "180",
+      "data-term": "truthness",
+      "data-encoded-term": "truthness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "trueness": {
+      "data-frequency": "44",
+      "data-relevance": "179",
+      "data-term": "trueness",
+      "data-encoded-term": "trueness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "semiretired": {
+      "data-frequency": "-1",
+      "data-relevance": "178",
+      "data-term": "semiretired",
+      "data-encoded-term": "semiretired",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-employed": {
+      "data-frequency": "27065",
+      "data-relevance": "177",
+      "data-term": "self-employed",
+      "data-encoded-term": "self-employed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "27065",
+        "w2v",
+        "1"
+      ]
+    },
+    "restauranteur": {
+      "data-frequency": "75",
+      "data-relevance": "176",
+      "data-term": "restauranteur",
+      "data-encoded-term": "restauranteur",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "75",
+        "w2v",
+        "1"
+      ]
+    },
+    "fortysomething": {
+      "data-frequency": "62",
+      "data-relevance": "175",
+      "data-term": "fortysomething",
+      "data-encoded-term": "fortysomething",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "w2v",
+        "1"
+      ]
+    },
+    "centavo": {
+      "data-frequency": "167",
+      "data-relevance": "174",
+      "data-term": "centavo",
+      "data-encoded-term": "centavo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "167",
+        "cn5",
+        "1"
+      ]
+    },
+    "lawfulness": {
+      "data-frequency": "372",
+      "data-relevance": "173",
+      "data-term": "lawfulness",
+      "data-encoded-term": "lawfulness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "372",
+        "cn5",
+        "1"
+      ]
+    },
+    "houstonian": {
+      "data-frequency": "373",
+      "data-relevance": "172",
+      "data-term": "houstonian",
+      "data-encoded-term": "houstonian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "373",
+        "w2v",
+        "1"
+      ]
+    },
+    "faithful": {
+      "data-frequency": "28457",
+      "data-relevance": "171",
+      "data-term": "faithful",
+      "data-encoded-term": "faithful",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "28457",
+        "cn5",
+        "1"
+      ]
+    },
+    "angeleno": {
+      "data-frequency": "150",
+      "data-relevance": "170",
+      "data-term": "angeleno",
+      "data-encoded-term": "angeleno",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "brasilenos": {
+      "data-frequency": "185",
+      "data-relevance": "169",
+      "data-term": "brasilenos",
+      "data-encoded-term": "brasilenos",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "185",
+        "w2v",
+        "1"
+      ]
+    },
+    "geoemydidae": {
+      "data-frequency": "415",
+      "data-relevance": "168",
+      "data-term": "geoemydidae",
+      "data-encoded-term": "geoemydidae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "415",
+        "w2v",
+        "1"
+      ]
+    },
+    "nominal": {
+      "data-frequency": "18479",
+      "data-relevance": "167",
+      "data-term": "nominal",
+      "data-encoded-term": "nominal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18479",
+        "cn5",
+        "1"
+      ]
+    },
+    "viviparidae": {
+      "data-frequency": "130",
+      "data-relevance": "166",
+      "data-term": "viviparidae",
+      "data-encoded-term": "viviparidae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "130",
+        "w2v",
+        "1"
+      ]
+    },
+    "realizingly": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "realizingly",
+      "data-encoded-term": "realizingly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tangible": {
+      "data-frequency": "5045",
+      "data-relevance": "164",
+      "data-term": "tangible",
+      "data-encoded-term": "tangible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5045",
+        "cn5",
+        "1"
+      ]
+    },
+    "stanwich": {
+      "data-frequency": "81",
+      "data-relevance": "163",
+      "data-term": "stanwich",
+      "data-encoded-term": "stanwich",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "81",
+        "w2v",
+        "1"
+      ]
+    },
+    "saloonkeeper": {
+      "data-frequency": "126",
+      "data-relevance": "162",
+      "data-term": "saloonkeeper",
+      "data-encoded-term": "saloonkeeper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "empresarios": {
+      "data-frequency": "662",
+      "data-relevance": "161",
+      "data-term": "empresarios",
+      "data-encoded-term": "empresarios",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "662",
+        "w2v",
+        "1"
+      ]
+    },
+    "rightful": {
+      "data-frequency": "5480",
+      "data-relevance": "160",
+      "data-term": "rightful",
+      "data-encoded-term": "rightful",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5480",
+        "cn5",
+        "1"
+      ]
+    },
+    "średnie": {
+      "data-frequency": "895",
+      "data-relevance": "159",
+      "data-term": "średnie",
+      "data-encoded-term": "%C5%9Brednie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "895",
+        "w2v",
+        "1"
+      ]
+    },
+    "multibillionaire": {
+      "data-frequency": "45",
+      "data-relevance": "158",
+      "data-term": "multibillionaire",
+      "data-encoded-term": "multibillionaire",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "commonage": {
+      "data-frequency": "52",
+      "data-relevance": "157",
+      "data-term": "commonage",
+      "data-encoded-term": "commonage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "dilettantistica": {
+      "data-frequency": "305",
+      "data-relevance": "156",
+      "data-term": "dilettantistica",
+      "data-encoded-term": "dilettantistica",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "305",
+        "w2v",
+        "1"
+      ]
+    },
+    "sebat": {
+      "data-frequency": "106",
+      "data-relevance": "155",
+      "data-term": "sebat",
+      "data-encoded-term": "sebat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "106",
+        "w2v",
+        "1"
+      ]
+    },
+    "pomacentridae": {
+      "data-frequency": "297",
+      "data-relevance": "154",
+      "data-term": "pomacentridae",
+      "data-encoded-term": "pomacentridae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "297",
+        "w2v",
+        "1"
+      ]
+    },
+    "abdiqadir": {
+      "data-frequency": "-1",
+      "data-relevance": "153",
+      "data-term": "abdiqadir",
+      "data-encoded-term": "abdiqadir",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "cabdriver": {
+      "data-frequency": "93",
+      "data-relevance": "152",
+      "data-term": "cabdriver",
+      "data-encoded-term": "cabdriver",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "93",
+        "w2v",
+        "1"
+      ]
+    },
+    "fictitious": {
+      "data-frequency": "8873",
+      "data-relevance": "151",
+      "data-term": "fictitious",
+      "data-encoded-term": "fictitious",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8873",
+        "cn5",
+        "1"
+      ]
+    },
+    "maryland-based": {
+      "data-frequency": "30103",
+      "data-relevance": "150",
+      "data-term": "maryland-based",
+      "data-encoded-term": "maryland-based",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "30103",
+        "w2v",
+        "1"
+      ]
+    },
+    "supertrue": {
+      "data-frequency": "-1",
+      "data-relevance": "149",
+      "data-term": "supertrue",
+      "data-encoded-term": "supertrue",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "expat": {
+      "data-frequency": "1354",
+      "data-relevance": "148",
+      "data-term": "expat",
+      "data-encoded-term": "expat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1354",
+        "w2v",
+        "1"
+      ]
+    },
+    "apodictic": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "apodictic",
+      "data-encoded-term": "apodictic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "salesclerk": {
+      "data-frequency": "53",
+      "data-relevance": "146",
+      "data-term": "salesclerk",
+      "data-encoded-term": "salesclerk",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53",
+        "w2v",
+        "1"
+      ]
+    },
+    "beautician": {
+      "data-frequency": "608",
+      "data-relevance": "145",
+      "data-term": "beautician",
+      "data-encoded-term": "beautician",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "608",
+        "w2v",
+        "1"
+      ]
+    },
+    "lumberyard": {
+      "data-frequency": "365",
+      "data-relevance": "144",
+      "data-term": "lumberyard",
+      "data-encoded-term": "lumberyard",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "365",
+        "w2v",
+        "1"
+      ]
+    },
+    "so": {
+      "data-frequency": "779573",
+      "data-relevance": "143",
+      "data-term": "so",
+      "data-encoded-term": "so",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "779573",
+        "cn5",
+        "1"
+      ]
+    },
+    "fanaticos": {
+      "data-frequency": "126",
+      "data-relevance": "142",
+      "data-term": "fanaticos",
+      "data-encoded-term": "fanaticos",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "honestly": {
+      "data-frequency": "4263",
+      "data-relevance": "141",
+      "data-term": "honestly",
+      "data-encoded-term": "honestly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4263",
+        "cn5",
+        "1"
+      ]
+    },
+    "soothfast": {
+      "data-frequency": "-1",
+      "data-relevance": "140",
+      "data-term": "soothfast",
+      "data-encoded-term": "soothfast",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "renovator": {
+      "data-frequency": "67730",
+      "data-relevance": "139",
+      "data-term": "renovator",
+      "data-encoded-term": "renovator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67730",
+        "ol",
+        "1"
+      ]
+    },
+    "fsbo": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "fsbo",
+      "data-encoded-term": "fsbo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "homebuilder": {
+      "data-frequency": "215",
+      "data-relevance": "137",
+      "data-term": "homebuilder",
+      "data-encoded-term": "homebuilder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "215",
+        "ol",
+        "1"
+      ]
+    },
+    "roofer": {
+      "data-frequency": "226",
+      "data-relevance": "136",
+      "data-term": "roofer",
+      "data-encoded-term": "roofer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "gemologist": {
+      "data-frequency": "114",
+      "data-relevance": "135",
+      "data-term": "gemologist",
+      "data-encoded-term": "gemologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "114",
+        "ol",
+        "1"
+      ]
+    },
+    "conveyancer": {
+      "data-frequency": "280",
+      "data-relevance": "134",
+      "data-term": "conveyancer",
+      "data-encoded-term": "conveyancer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "280",
+        "ol",
+        "1"
+      ]
+    },
+    "rockrose": {
+      "data-frequency": "305",
+      "data-relevance": "133",
+      "data-term": "rockrose",
+      "data-encoded-term": "rockrose",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "305",
+        "ol",
+        "1"
+      ]
+    },
+    "periodontist": {
+      "data-frequency": "74",
+      "data-relevance": "132",
+      "data-term": "periodontist",
+      "data-encoded-term": "periodontist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "canvasser": {
+      "data-frequency": "102",
+      "data-relevance": "131",
+      "data-term": "canvasser",
+      "data-encoded-term": "canvasser",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "102",
+        "ol",
+        "1"
+      ]
+    },
+    "valuator": {
+      "data-frequency": "52",
+      "data-relevance": "130",
+      "data-term": "valuator",
+      "data-encoded-term": "valuator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgager": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "mortgager",
+      "data-encoded-term": "mortgager",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "alferes": {
+      "data-frequency": "181",
+      "data-relevance": "128",
+      "data-term": "alferes",
+      "data-encoded-term": "alferes",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "181",
+        "ol",
+        "1"
+      ]
+    },
+    "storeowner": {
+      "data-frequency": "62",
+      "data-relevance": "127",
+      "data-term": "storeowner",
+      "data-encoded-term": "storeowner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "ol",
+        "1"
+      ]
+    },
+    "homesite": {
+      "data-frequency": "419",
+      "data-relevance": "126",
+      "data-term": "homesite",
+      "data-encoded-term": "homesite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "419",
+        "ol",
+        "1"
+      ]
+    },
+    "hairstylist": {
+      "data-frequency": "594",
+      "data-relevance": "125",
+      "data-term": "hairstylist",
+      "data-encoded-term": "hairstylist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "594",
+        "ol",
+        "1"
+      ]
+    },
+    "haggler": {
+      "data-frequency": "-1",
+      "data-relevance": "124",
+      "data-term": "haggler",
+      "data-encoded-term": "haggler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "numerologist": {
+      "data-frequency": "82",
+      "data-relevance": "123",
+      "data-term": "numerologist",
+      "data-encoded-term": "numerologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "rels": {
+      "data-frequency": "46",
+      "data-relevance": "122",
+      "data-term": "rels",
+      "data-encoded-term": "rels",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "sublessee": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "sublessee",
+      "data-encoded-term": "sublessee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sincerely": {
+      "data-frequency": "3502",
+      "data-relevance": "120",
+      "data-term": "sincerely",
+      "data-encoded-term": "sincerely",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3502",
+        "cn5",
+        "1"
+      ]
+    },
+    "faithfully": {
+      "data-frequency": "4226",
+      "data-relevance": "119",
+      "data-term": "faithfully",
+      "data-encoded-term": "faithfully",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4226",
+        "cn5",
+        "1"
+      ]
+    },
+    "trig": {
+      "data-frequency": "847",
+      "data-relevance": "118",
+      "data-term": "trig",
+      "data-encoded-term": "trig",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "847",
+        "cn5",
+        "1"
+      ]
+    },
+    "accuracy": {
+      "data-frequency": "45497",
+      "data-relevance": "117",
+      "data-term": "accuracy",
+      "data-encoded-term": "accuracy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45497",
+        "cn5",
+        "1"
+      ]
+    },
+    "correct": {
+      "data-frequency": "174195",
+      "data-relevance": "116",
+      "data-term": "correct",
+      "data-encoded-term": "correct",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "174195",
+        "cn5",
+        "1"
+      ]
+    },
+    "lessor": {
+      "data-frequency": "475",
+      "data-relevance": "115",
+      "data-term": "lessor",
+      "data-encoded-term": "lessor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "475",
+        "cn5",
+        "1"
+      ]
+    },
+    "muniment": {
+      "data-frequency": "75",
+      "data-relevance": "114",
+      "data-term": "muniment",
+      "data-encoded-term": "muniment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "75",
+        "cn5",
+        "1"
+      ]
+    },
+    "accurately": {
+      "data-frequency": "17921",
+      "data-relevance": "113",
+      "data-term": "accurately",
+      "data-encoded-term": "accurately",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17921",
+        "cn5",
+        "1"
+      ]
+    },
+    "leasehold": {
+      "data-frequency": "1142",
+      "data-relevance": "112",
+      "data-term": "leasehold",
+      "data-encoded-term": "leasehold",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1142",
+        "cn5",
+        "1"
+      ]
+    },
+    "lessee": {
+      "data-frequency": "1015",
+      "data-relevance": "111",
+      "data-term": "lessee",
+      "data-encoded-term": "lessee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1015",
+        "cn5",
+        "1"
+      ]
+    },
+    "sublet": {
+      "data-frequency": "433",
+      "data-relevance": "110",
+      "data-term": "sublet",
+      "data-encoded-term": "sublet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "433",
+        "cn5",
+        "1"
+      ]
+    },
+    "prerogative": {
+      "data-frequency": "3444",
+      "data-relevance": "109",
+      "data-term": "prerogative",
+      "data-encoded-term": "prerogative",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3444",
+        "cn5",
+        "1"
+      ]
+    },
+    "counterfactual": {
+      "data-frequency": "567",
+      "data-relevance": "108",
+      "data-term": "counterfactual",
+      "data-encoded-term": "counterfactual",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "567",
+        "cn5",
+        "1"
+      ]
+    },
+    "objectivity": {
+      "data-frequency": "3594",
+      "data-relevance": "107",
+      "data-term": "objectivity",
+      "data-encoded-term": "objectivity",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3594",
+        "cn5",
+        "1"
+      ]
+    },
+    "accurate": {
+      "data-frequency": "114668",
+      "data-relevance": "106",
+      "data-term": "accurate",
+      "data-encoded-term": "accurate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "114668",
+        "cn5",
+        "1"
+      ]
+    },
+    "beingly": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "beingly",
+      "data-encoded-term": "beingly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "certainly": {
+      "data-frequency": "37189",
+      "data-relevance": "104",
+      "data-term": "certainly",
+      "data-encoded-term": "certainly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "37189",
+        "cn5",
+        "1"
+      ]
+    },
+    "sincere": {
+      "data-frequency": "7264",
+      "data-relevance": "103",
+      "data-term": "sincere",
+      "data-encoded-term": "sincere",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7264",
+        "cn5",
+        "1"
+      ]
+    },
+    "united kingdom": {
+      "data-frequency": "466760",
+      "data-relevance": "102",
+      "data-term": "united kingdom",
+      "data-encoded-term": "united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "466760",
+        "wiki",
+        "1"
+      ]
+    },
+    "right": {
+      "data-frequency": "632018",
+      "data-relevance": "101",
+      "data-term": "right",
+      "data-encoded-term": "right",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "632018",
+        "cn5",
+        "1"
+      ]
+    },
+    "allegiance": {
+      "data-frequency": "67454",
+      "data-relevance": "100",
+      "data-term": "allegiance",
+      "data-encoded-term": "allegiance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67454",
+        "cn5",
+        "1"
+      ]
+    },
+    "aright": {
+      "data-frequency": "135",
+      "data-relevance": "99",
+      "data-term": "aright",
+      "data-encoded-term": "aright",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "135",
+        "cn5",
+        "1"
+      ]
+    },
+    "boolean": {
+      "data-frequency": "2585",
+      "data-relevance": "98",
+      "data-term": "boolean",
+      "data-encoded-term": "boolean",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2585",
+        "cn5",
+        "1"
+      ]
+    },
+    "faithfulness": {
+      "data-frequency": "1547",
+      "data-relevance": "97",
+      "data-term": "faithfulness",
+      "data-encoded-term": "faithfulness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1547",
+        "cn5",
+        "1"
+      ]
+    },
+    "correctly": {
+      "data-frequency": "20888",
+      "data-relevance": "96",
+      "data-term": "correctly",
+      "data-encoded-term": "correctly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "20888",
+        "cn5",
+        "1"
+      ]
+    },
+    "thing": {
+      "data-frequency": "111834",
+      "data-relevance": "95",
+      "data-term": "thing",
+      "data-encoded-term": "thing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "111834",
+        "cn5",
+        "1"
+      ]
+    },
+    "tenure": {
+      "data-frequency": "65710",
+      "data-relevance": "94",
+      "data-term": "tenure",
+      "data-encoded-term": "tenure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65710",
+        "cn5",
+        "1"
+      ]
+    },
+    "presume": {
+      "data-frequency": "1736",
+      "data-relevance": "93",
+      "data-term": "presume",
+      "data-encoded-term": "presume",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1736",
+        "cn5",
+        "1"
+      ]
+    },
+    "remitter": {
+      "data-frequency": "-1",
+      "data-relevance": "92",
+      "data-term": "remitter",
+      "data-encoded-term": "remitter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reet": {
+      "data-frequency": "451",
+      "data-relevance": "91",
+      "data-term": "reet",
+      "data-encoded-term": "reet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "451",
+        "cn5",
+        "1"
+      ]
+    },
+    "faction": {
+      "data-frequency": "23213",
+      "data-relevance": "90",
+      "data-term": "faction",
+      "data-encoded-term": "faction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23213",
+        "cn5",
+        "1"
+      ]
+    },
+    "rightly": {
+      "data-frequency": "3287",
+      "data-relevance": "89",
+      "data-term": "rightly",
+      "data-encoded-term": "rightly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3287",
+        "cn5",
+        "1"
+      ]
+    },
+    "sure": {
+      "data-frequency": "53477",
+      "data-relevance": "88",
+      "data-term": "sure",
+      "data-encoded-term": "sure",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "53477",
+        "cn5",
+        "1"
+      ]
+    },
+    "loyalty": {
+      "data-frequency": "32442",
+      "data-relevance": "87",
+      "data-term": "loyalty",
+      "data-encoded-term": "loyalty",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "32442",
+        "cn5",
+        "1"
+      ]
+    },
+    "proper": {
+      "data-frequency": "92157",
+      "data-relevance": "86",
+      "data-term": "proper",
+      "data-encoded-term": "proper",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "92157",
+        "cn5",
+        "1"
+      ]
+    },
+    "positively": {
+      "data-frequency": "17050",
+      "data-relevance": "85",
+      "data-term": "positively",
+      "data-encoded-term": "positively",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "17050",
+        "cn5",
+        "1"
+      ]
+    },
+    "rectitude": {
+      "data-frequency": "333",
+      "data-relevance": "84",
+      "data-term": "rectitude",
+      "data-encoded-term": "rectitude",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "333",
+        "cn5",
+        "1"
+      ]
+    },
+    "reciprocity": {
+      "data-frequency": "3057",
+      "data-relevance": "83",
+      "data-term": "reciprocity",
+      "data-encoded-term": "reciprocity",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3057",
+        "cn5",
+        "1"
+      ]
+    },
+    "exactness": {
+      "data-frequency": "401",
+      "data-relevance": "82",
+      "data-term": "exactness",
+      "data-encoded-term": "exactness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "401",
+        "cn5",
+        "1"
+      ]
+    },
+    "presumptuous": {
+      "data-frequency": "402",
+      "data-relevance": "81",
+      "data-term": "presumptuous",
+      "data-encoded-term": "presumptuous",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "402",
+        "cn5",
+        "1"
+      ]
+    },
+    "nontruth": {
+      "data-frequency": "-1",
+      "data-relevance": "80",
+      "data-term": "nontruth",
+      "data-encoded-term": "nontruth",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rightist": {
+      "data-frequency": "1282",
+      "data-relevance": "79",
+      "data-term": "rightist",
+      "data-encoded-term": "rightist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1282",
+        "cn5",
+        "1"
+      ]
+    },
+    "alignment": {
+      "data-frequency": "21992",
+      "data-relevance": "78",
+      "data-term": "alignment",
+      "data-encoded-term": "alignment",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "21992",
+        "cn5",
+        "1"
+      ]
+    },
+    "rightness": {
+      "data-frequency": "322",
+      "data-relevance": "77",
+      "data-term": "rightness",
+      "data-encoded-term": "rightness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "322",
+        "cn5",
+        "1"
+      ]
+    },
+    "virtual": {
+      "data-frequency": "55893",
+      "data-relevance": "76",
+      "data-term": "virtual",
+      "data-encoded-term": "virtual",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "55893",
+        "cn5",
+        "1"
+      ]
+    },
+    "propertyless": {
+      "data-frequency": "-1",
+      "data-relevance": "75",
+      "data-term": "propertyless",
+      "data-encoded-term": "propertyless",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "whatever": {
+      "data-frequency": "42175",
+      "data-relevance": "74",
+      "data-term": "whatever",
+      "data-encoded-term": "whatever",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "42175",
+        "cn5",
+        "1"
+      ]
+    },
+    "tenancy": {
+      "data-frequency": "1926",
+      "data-relevance": "73",
+      "data-term": "tenancy",
+      "data-encoded-term": "tenancy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1926",
+        "cn5",
+        "1"
+      ]
+    },
+    "trufax": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "trufax",
+      "data-encoded-term": "trufax",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gradely": {
+      "data-frequency": "-1",
+      "data-relevance": "71",
+      "data-term": "gradely",
+      "data-encoded-term": "gradely",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "playright": {
+      "data-frequency": "66",
+      "data-relevance": "70",
+      "data-term": "playright",
+      "data-encoded-term": "playright",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "66",
+        "cn5",
+        "1"
+      ]
+    },
+    "personalty": {
+      "data-frequency": "74",
+      "data-relevance": "69",
+      "data-term": "personalty",
+      "data-encoded-term": "personalty",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "74",
+        "cn5",
+        "1"
+      ]
+    },
+    "untruism": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "untruism",
+      "data-encoded-term": "untruism",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "survivorship": {
+      "data-frequency": "475",
+      "data-relevance": "67",
+      "data-term": "survivorship",
+      "data-encoded-term": "survivorship",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "475",
+        "cn5",
+        "1"
+      ]
+    },
+    "correctitude": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "correctitude",
+      "data-encoded-term": "correctitude",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dinkum": {
+      "data-frequency": "169",
+      "data-relevance": "65",
+      "data-term": "dinkum",
+      "data-encoded-term": "dinkum",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "169",
+        "cn5",
+        "1"
+      ]
+    },
+    "thinger": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "thinger",
+      "data-encoded-term": "thinger",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "veridicality": {
+      "data-frequency": "77",
+      "data-relevance": "63",
+      "data-term": "veridicality",
+      "data-encoded-term": "veridicality",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "77",
+        "cn5",
+        "1"
+      ]
+    },
+    "honest to goodness": {
+      "data-frequency": "95",
+      "data-relevance": "62",
+      "data-term": "honest to goodness",
+      "data-encoded-term": "honest%20to%20goodness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "95",
+        "cn5",
+        "1"
+      ]
+    },
+    "deflationary": {
+      "data-frequency": "241",
+      "data-relevance": "61",
+      "data-term": "deflationary",
+      "data-encoded-term": "deflationary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "241",
+        "cn5",
+        "1"
+      ]
+    },
+    "eright": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "eright",
+      "data-encoded-term": "eright",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "soothsaw": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "soothsaw",
+      "data-encoded-term": "soothsaw",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "thisness": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "thisness",
+      "data-encoded-term": "thisness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "true life": {
+      "data-frequency": "1361",
+      "data-relevance": "57",
+      "data-term": "true life",
+      "data-encoded-term": "true%20life",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1361",
+        "cn5",
+        "1"
+      ]
+    },
+    "honest to god": {
+      "data-frequency": "104",
+      "data-relevance": "56",
+      "data-term": "honest to god",
+      "data-encoded-term": "honest%20to%20god",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "104",
+        "cn5",
+        "1"
+      ]
+    },
+    "for realsies": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "for realsies",
+      "data-encoded-term": "for%20realsies",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "united states": {
+      "data-frequency": "1518092",
+      "data-relevance": "54",
+      "data-term": "united states",
+      "data-encoded-term": "united%20states",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1518092",
+        "wiki",
+        "1"
+      ]
+    },
+    "rightish": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "rightish",
+      "data-encoded-term": "rightish",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "righthood": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "righthood",
+      "data-encoded-term": "righthood",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "for real": {
+      "data-frequency": "9225",
+      "data-relevance": "51",
+      "data-term": "for real",
+      "data-encoded-term": "for%20real",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9225",
+        "cn5",
+        "1"
+      ]
+    },
+    "rightward": {
+      "data-frequency": "489",
+      "data-relevance": "50",
+      "data-term": "rightward",
+      "data-encoded-term": "rightward",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "489",
+        "cn5",
+        "1"
+      ]
+    },
+    "objectify": {
+      "data-frequency": "177",
+      "data-relevance": "49",
+      "data-term": "objectify",
+      "data-encoded-term": "objectify",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "correctable": {
+      "data-frequency": "148",
+      "data-relevance": "48",
+      "data-term": "correctable",
+      "data-encoded-term": "correctable",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "148",
+        "cn5",
+        "1"
+      ]
+    },
+    "disconfirmation": {
+      "data-frequency": "47",
+      "data-relevance": "47",
+      "data-term": "disconfirmation",
+      "data-encoded-term": "disconfirmation",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "cabotage": {
+      "data-frequency": "144",
+      "data-relevance": "46",
+      "data-term": "cabotage",
+      "data-encoded-term": "cabotage",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "144",
+        "cn5",
+        "1"
+      ]
+    },
+    "disenfranchise": {
+      "data-frequency": "311",
+      "data-relevance": "45",
+      "data-term": "disenfranchise",
+      "data-encoded-term": "disenfranchise",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "311",
+        "cn5",
+        "1"
+      ]
+    },
+    "property right": {
+      "data-frequency": "359",
+      "data-relevance": "44",
+      "data-term": "property right",
+      "data-encoded-term": "property%20right",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "359",
+        "cn5",
+        "1"
+      ]
+    },
+    "thinghood": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "thinghood",
+      "data-encoded-term": "thinghood",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "true or false": {
+      "data-frequency": "891",
+      "data-relevance": "42",
+      "data-term": "true or false",
+      "data-encoded-term": "true%20or%20false",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "891",
+        "cn5",
+        "1"
+      ]
+    },
+    "real estate trends": {
+      "data-frequency": "4405",
+      "data-relevance": "41",
+      "data-term": "real estate trends",
+      "data-encoded-term": "real%20estate%20trends",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4405",
+        "wiki",
+        "1"
+      ]
+    },
+    "dinky di": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "dinky di",
+      "data-encoded-term": "dinky%20di",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fair dinkum": {
+      "data-frequency": "95",
+      "data-relevance": "39",
+      "data-term": "fair dinkum",
+      "data-encoded-term": "fair%20dinkum",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "95",
+        "cn5",
+        "1"
+      ]
+    },
+    "interior designer": {
+      "data-frequency": "2313",
+      "data-relevance": "38",
+      "data-term": "interior designer",
+      "data-encoded-term": "interior%20designer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2313",
+        "ol",
+        "1"
+      ]
+    },
+    "adverse possession": {
+      "data-frequency": "307",
+      "data-relevance": "37",
+      "data-term": "adverse possession",
+      "data-encoded-term": "adverse%20possession",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "307",
+        "cn5",
+        "1"
+      ]
+    },
+    "pet sitter": {
+      "data-frequency": "46",
+      "data-relevance": "36",
+      "data-term": "pet sitter",
+      "data-encoded-term": "pet%20sitter",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "interior decorator": {
+      "data-frequency": "1476",
+      "data-relevance": "35",
+      "data-term": "interior decorator",
+      "data-encoded-term": "interior%20decorator",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1476",
+        "ol",
+        "1"
+      ]
+    },
+    "true up": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "true up",
+      "data-encoded-term": "true%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "appraised value": {
+      "data-frequency": "138",
+      "data-relevance": "33",
+      "data-term": "appraised value",
+      "data-encoded-term": "appraised%20value",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "138",
+        "ol",
+        "1"
+      ]
+    },
+    "real life": {
+      "data-frequency": "26005",
+      "data-relevance": "32",
+      "data-term": "real life",
+      "data-encoded-term": "real%20life",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "26005",
+        "cn5",
+        "1"
+      ]
+    },
+    "in fact": {
+      "data-frequency": "90331",
+      "data-relevance": "31",
+      "data-term": "in fact",
+      "data-encoded-term": "in%20fact",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "90331",
+        "cn5",
+        "1"
+      ]
+    },
+    "keep it real": {
+      "data-frequency": "239",
+      "data-relevance": "30",
+      "data-term": "keep it real",
+      "data-encoded-term": "keep%20it%20real",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "239",
+        "cn5",
+        "1"
+      ]
+    },
+    "personal property": {
+      "data-frequency": "2332",
+      "data-relevance": "29",
+      "data-term": "personal property",
+      "data-encoded-term": "personal%20property",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2332",
+        "cn5",
+        "1"
+      ]
+    },
+    "bona fide": {
+      "data-frequency": "2015",
+      "data-relevance": "28",
+      "data-term": "bona fide",
+      "data-encoded-term": "bona%20fide",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2015",
+        "cn5",
+        "1"
+      ]
+    },
+    "real world": {
+      "data-frequency": "17749",
+      "data-relevance": "27",
+      "data-term": "real world",
+      "data-encoded-term": "real%20world",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "17749",
+        "cn5",
+        "1"
+      ]
+    },
+    "in esse": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "in esse",
+      "data-encoded-term": "in%20esse",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "come true": {
+      "data-frequency": "5859",
+      "data-relevance": "25",
+      "data-term": "come true",
+      "data-encoded-term": "come%20true",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5859",
+        "cn5",
+        "1"
+      ]
+    },
+    "multiple listing service": {
+      "data-frequency": "72",
+      "data-relevance": "24",
+      "data-term": "multiple listing service",
+      "data-encoded-term": "multiple%20listing%20service",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "72",
+        "wiki",
+        "1"
+      ]
+    },
+    "ridgy didge": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "ridgy didge",
+      "data-encoded-term": "ridgy%20didge",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "yeah right": {
+      "data-frequency": "180",
+      "data-relevance": "22",
+      "data-term": "yeah right",
+      "data-encoded-term": "yeah%20right",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "180",
+        "cn5",
+        "1"
+      ]
+    },
+    "ring true": {
+      "data-frequency": "208",
+      "data-relevance": "21",
+      "data-term": "ring true",
+      "data-encoded-term": "ring%20true",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "208",
+        "cn5",
+        "1"
+      ]
+    },
+    "set straight": {
+      "data-frequency": "77",
+      "data-relevance": "20",
+      "data-term": "set straight",
+      "data-encoded-term": "set%20straight",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "77",
+        "cn5",
+        "1"
+      ]
+    },
+    "right as rain": {
+      "data-frequency": "96",
+      "data-relevance": "19",
+      "data-term": "right as rain",
+      "data-encoded-term": "right%20as%20rain",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "half truth": {
+      "data-frequency": "271",
+      "data-relevance": "18",
+      "data-term": "half truth",
+      "data-encoded-term": "half%20truth",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "271",
+        "cn5",
+        "1"
+      ]
+    },
+    "do right by": {
+      "data-frequency": "160",
+      "data-relevance": "17",
+      "data-term": "do right by",
+      "data-encoded-term": "do%20right%20by",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "160",
+        "cn5",
+        "1"
+      ]
+    },
+    "stage right": {
+      "data-frequency": "272",
+      "data-relevance": "16",
+      "data-term": "stage right",
+      "data-encoded-term": "stage%20right",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "272",
+        "cn5",
+        "1"
+      ]
+    },
+    "letter perfect": {
+      "data-frequency": "66",
+      "data-relevance": "15",
+      "data-term": "letter perfect",
+      "data-encoded-term": "letter%20perfect",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "66",
+        "cn5",
+        "1"
+      ]
+    },
+    "real deal": {
+      "data-frequency": "1958",
+      "data-relevance": "14",
+      "data-term": "real deal",
+      "data-encoded-term": "real%20deal",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1958",
+        "cn5",
+        "1"
+      ]
+    },
+    "matter of fact": {
+      "data-frequency": "1771",
+      "data-relevance": "13",
+      "data-term": "matter of fact",
+      "data-encoded-term": "matter%20of%20fact",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1771",
+        "cn5",
+        "1"
+      ]
+    },
+    "droit of admiralty": {
+      "data-frequency": "236",
+      "data-relevance": "12",
+      "data-term": "droit of admiralty",
+      "data-encoded-term": "droit%20of%20admiralty",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "236",
+        "cn5",
+        "1"
+      ]
+    },
+    "spot on": {
+      "data-frequency": "13583",
+      "data-relevance": "11",
+      "data-term": "spot on",
+      "data-encoded-term": "spot%20on",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "13583",
+        "cn5",
+        "1"
+      ]
+    },
+    "private property": {
+      "data-frequency": "6191",
+      "data-relevance": "10",
+      "data-term": "private property",
+      "data-encoded-term": "private%20property",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "6191",
+        "cn5",
+        "1"
+      ]
+    },
+    "the canadian real estate association": {
+      "data-frequency": "5045",
+      "data-relevance": "9",
+      "data-term": "the canadian real estate association",
+      "data-encoded-term": "the%20canadian%20real%20estate%20association",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "5045",
+        "wiki",
+        "1"
+      ]
+    },
+    "sign over": {
+      "data-frequency": "394",
+      "data-relevance": "8",
+      "data-term": "sign over",
+      "data-encoded-term": "sign%20over",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "394",
+        "cn5",
+        "1"
+      ]
+    },
+    "miranda right": {
+      "data-frequency": "-1",
+      "data-relevance": "7",
+      "data-term": "miranda right",
+      "data-encoded-term": "miranda%20right",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "smack dab": {
+      "data-frequency": "97",
+      "data-relevance": "6",
+      "data-term": "smack dab",
+      "data-encoded-term": "smack%20dab",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "97",
+        "cn5",
+        "1"
+      ]
+    },
+    "true north": {
+      "data-frequency": "978",
+      "data-relevance": "5",
+      "data-term": "true north",
+      "data-encoded-term": "true%20north",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "978",
+        "cn5",
+        "1"
+      ]
+    },
+    "listing contract": {
+      "data-frequency": "93755",
+      "data-relevance": "4",
+      "data-term": "listing contract",
+      "data-encoded-term": "listing%20contract",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "93755",
+        "wiki",
+        "1"
+      ]
+    },
+    "seller agency": {
+      "data-frequency": "3749",
+      "data-relevance": "3",
+      "data-term": "seller agency",
+      "data-encoded-term": "seller%20agency",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "3749",
+        "wiki",
+        "1"
+      ]
+    },
+    "real estate lock box": {
+      "data-frequency": "879",
+      "data-relevance": "2",
+      "data-term": "real estate lock box",
+      "data-encoded-term": "real%20estate%20lock%20box",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "879",
+        "wiki",
+        "1"
+      ]
+    },
+    "real estate settlement procedures act": {
+      "data-frequency": "665",
+      "data-relevance": "1",
+      "data-term": "real estate settlement procedures act",
+      "data-encoded-term": "real%20estate%20settlement%20procedures%20act",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "665",
+        "wiki",
+        "1"
+      ]
+    },
+    "exclusive buyer agent": {
+      "data-frequency": "659",
+      "data-relevance": "0",
+      "data-term": "exclusive buyer agent",
+      "data-encoded-term": "exclusive%20buyer%20agent",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "659",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The fee charged by the realtor is directly proportional to the price of the property.",
+        "ru": "Плата, взимаемая агентом по продаже недвижимости, прямо пропорциональна цене имущества."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "realtors"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "lease",
+      "commission",
+      "broker",
+      "seller",
+      "stockbroker",
+      "realtors",
+      "agent",
+      "appraiser",
+      "property",
+      "landlord",
+      "lender",
+      "realty",
+      "abr"
+    ]
+  }
+}

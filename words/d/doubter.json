@@ -1,0 +1,3822 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "doubt": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doubt/v/,/c/en/doubter/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doubt/v",
+          "@type": "Node",
+          "label": "doubt",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/doubt"
+        },
+        "end": {
+          "@id": "/c/en/doubter",
+          "@type": "Node",
+          "label": "doubter",
+          "language": "en",
+          "term": "/c/en/doubter"
+        }
+      },
+      "doubters": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doubters/n/,/c/en/doubter/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doubters/n",
+          "@type": "Node",
+          "label": "doubters",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doubters"
+        },
+        "end": {
+          "@id": "/c/en/doubter",
+          "@type": "Node",
+          "label": "doubter",
+          "language": "en",
+          "term": "/c/en/doubter"
+        }
+      },
+      "unbeliever": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/unbeliever/,/c/en/doubter/]",
+        "weight": 0.21099999999999985,
+        "start": {
+          "@id": "/c/en/unbeliever",
+          "@type": "Node",
+          "label": "unbeliever",
+          "language": "en",
+          "term": "/c/en/unbeliever"
+        },
+        "end": {
+          "@id": "/c/en/doubter",
+          "@type": "Node",
+          "label": "doubter",
+          "language": "en",
+          "term": "/c/en/doubter"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "skeptic": {
+        "@id": "/a/[/r/Synonym/,/c/en/doubter/n/wn/person/,/c/en/skeptic/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/doubter/n/wn/person",
+          "@type": "Node",
+          "label": "doubter",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/doubter"
+        },
+        "end": {
+          "@id": "/c/en/skeptic/n/wn/person",
+          "@type": "Node",
+          "label": "skeptic",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/skeptic"
+        }
+      },
+      "agnostic": {
+        "@id": "/a/[/r/Synonym/,/c/en/doubter/n/wn/person/,/c/en/agnostic/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/doubter/n/wn/person",
+          "@type": "Node",
+          "label": "doubter",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/doubter"
+        },
+        "end": {
+          "@id": "/c/en/agnostic/n/wn/person",
+          "@type": "Node",
+          "label": "agnostic",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/agnostic"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "doubters": {
+        "@id": "/a/[/r/FormOf/,/c/en/doubters/n/,/c/en/doubter/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doubters/n",
+          "@type": "Node",
+          "label": "doubters",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doubters"
+        },
+        "end": {
+          "@id": "/c/en/doubter",
+          "@type": "Node",
+          "label": "doubter",
+          "language": "en",
+          "term": "/c/en/doubter"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "skeptic": {
+      "data-frequency": "4972",
+      "data-relevance": "257",
+      "data-term": "skeptic",
+      "data-encoded-term": "skeptic",
+      "data-term-stats": [
+        "1",
+        "6.2",
+        "0.000",
+        "4972",
+        "ol,wn|vec2",
+        "1"
+      ]
+    },
+    "hater": {
+      "data-frequency": "1191",
+      "data-relevance": "256",
+      "data-term": "hater",
+      "data-encoded-term": "hater",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1191",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "pessimist": {
+      "data-frequency": "2717",
+      "data-relevance": "255",
+      "data-term": "pessimist",
+      "data-encoded-term": "pessimist",
+      "data-term-stats": [
+        "1",
+        "4.1",
+        "0.000",
+        "2717",
+        "ol,wn|vec2",
+        "1"
+      ]
+    },
+    "sceptic": {
+      "data-frequency": "586",
+      "data-relevance": "254",
+      "data-term": "sceptic",
+      "data-encoded-term": "sceptic",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "586",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "agnostic": {
+      "data-frequency": "4925",
+      "data-relevance": "253",
+      "data-term": "agnostic",
+      "data-encoded-term": "agnostic",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "4925",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "round tripper": {
+      "data-frequency": "398",
+      "data-relevance": "252",
+      "data-term": "round tripper",
+      "data-encoded-term": "round%20tripper",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "398",
+        "vec2",
+        "1"
+      ]
+    },
+    "doubters": {
+      "data-frequency": "57061",
+      "data-relevance": "251",
+      "data-term": "doubters",
+      "data-encoded-term": "doubters",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "57061",
+        "vec2",
+        "1"
+      ]
+    },
+    "naysayer": {
+      "data-frequency": "61",
+      "data-relevance": "250",
+      "data-term": "naysayer",
+      "data-encoded-term": "naysayer",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "61",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "leadoff homer": {
+      "data-frequency": "886",
+      "data-relevance": "249",
+      "data-term": "leadoff homer",
+      "data-encoded-term": "leadoff%20homer",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "886",
+        "vec2",
+        "1"
+      ]
+    },
+    "conspiracy theorist": {
+      "data-frequency": "2158",
+      "data-relevance": "248",
+      "data-term": "conspiracy theorist",
+      "data-encoded-term": "conspiracy%20theorist",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2158",
+        "vec2",
+        "1"
+      ]
+    },
+    "doubting thomas": {
+      "data-frequency": "16636",
+      "data-relevance": "247",
+      "data-term": "doubting thomas",
+      "data-encoded-term": "doubting%20thomas",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "16636",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "doubting": {
+      "data-frequency": "57061",
+      "data-relevance": "246",
+      "data-term": "doubting",
+      "data-encoded-term": "doubting",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "57061",
+        "vec2",
+        "1"
+      ]
+    },
+    "doubt": {
+      "data-frequency": "41600",
+      "data-relevance": "245",
+      "data-term": "doubt",
+      "data-encoded-term": "doubt",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "41600",
+        "vec2",
+        "1"
+      ]
+    },
+    "skeptics": {
+      "data-frequency": "3091",
+      "data-relevance": "244",
+      "data-term": "skeptics",
+      "data-encoded-term": "skeptics",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "3091",
+        "vec2",
+        "1"
+      ]
+    },
+    "green monster": {
+      "data-frequency": "14756",
+      "data-relevance": "243",
+      "data-term": "green monster",
+      "data-encoded-term": "green%20monster",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "14756",
+        "vec2",
+        "1"
+      ]
+    },
+    "nay sayers": {
+      "data-frequency": "1220",
+      "data-relevance": "242",
+      "data-term": "nay sayers",
+      "data-encoded-term": "nay%20sayers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1220",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloop double": {
+      "data-frequency": "111",
+      "data-relevance": "241",
+      "data-term": "bloop double",
+      "data-encoded-term": "bloop%20double",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "111",
+        "vec2",
+        "1"
+      ]
+    },
+    "believer": {
+      "data-frequency": "9111",
+      "data-relevance": "240",
+      "data-term": "believer",
+      "data-encoded-term": "believer",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "9111",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "sentimentalist": {
+      "data-frequency": "120",
+      "data-relevance": "239",
+      "data-term": "sentimentalist",
+      "data-encoded-term": "sentimentalist",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "120",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "detractor": {
+      "data-frequency": "3119",
+      "data-relevance": "238",
+      "data-term": "detractor",
+      "data-encoded-term": "detractor",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "3119",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "naysayers": {
+      "data-frequency": "304",
+      "data-relevance": "237",
+      "data-term": "naysayers",
+      "data-encoded-term": "naysayers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "304",
+        "vec2",
+        "1"
+      ]
+    },
+    "freethinker": {
+      "data-frequency": "427",
+      "data-relevance": "236",
+      "data-term": "freethinker",
+      "data-encoded-term": "freethinker",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "427",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "doomsayer": {
+      "data-frequency": "85",
+      "data-relevance": "235",
+      "data-term": "doomsayer",
+      "data-encoded-term": "doomsayer",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "85",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "homered": {
+      "data-frequency": "626",
+      "data-relevance": "234",
+      "data-term": "homered",
+      "data-encoded-term": "homered",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "626",
+        "vec2",
+        "1"
+      ]
+    },
+    "technophobe": {
+      "data-frequency": "-1",
+      "data-relevance": "233",
+      "data-term": "technophobe",
+      "data-encoded-term": "technophobe",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "-1",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "bloop single": {
+      "data-frequency": "144",
+      "data-relevance": "232",
+      "data-term": "bloop single",
+      "data-encoded-term": "bloop%20single",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "144",
+        "vec2",
+        "1"
+      ]
+    },
+    "eternal optimist": {
+      "data-frequency": "129",
+      "data-relevance": "231",
+      "data-term": "eternal optimist",
+      "data-encoded-term": "eternal%20optimist",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "129",
+        "vec2",
+        "1"
+      ]
+    },
+    "nutcase": {
+      "data-frequency": "99",
+      "data-relevance": "230",
+      "data-term": "nutcase",
+      "data-encoded-term": "nutcase",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "99",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "homers": {
+      "data-frequency": "2036",
+      "data-relevance": "229",
+      "data-term": "homers",
+      "data-encoded-term": "homers",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2036",
+        "vec2",
+        "1"
+      ]
+    },
+    "mph fastball": {
+      "data-frequency": "745",
+      "data-relevance": "228",
+      "data-term": "mph fastball",
+      "data-encoded-term": "mph%20fastball",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "745",
+        "vec2",
+        "1"
+      ]
+    },
+    "longball": {
+      "data-frequency": "101",
+      "data-relevance": "227",
+      "data-term": "longball",
+      "data-encoded-term": "longball",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "101",
+        "vec2",
+        "1"
+      ]
+    },
+    "proselytizer": {
+      "data-frequency": "55",
+      "data-relevance": "226",
+      "data-term": "proselytizer",
+      "data-encoded-term": "proselytizer",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "55",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pun intended": {
+      "data-frequency": "1517",
+      "data-relevance": "225",
+      "data-term": "pun intended",
+      "data-encoded-term": "pun%20intended",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1517",
+        "vec2",
+        "1"
+      ]
+    },
+    "sac fly": {
+      "data-frequency": "1033",
+      "data-relevance": "224",
+      "data-term": "sac fly",
+      "data-encoded-term": "sac%20fly",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1033",
+        "vec2",
+        "1"
+      ]
+    },
+    "homeruns": {
+      "data-frequency": "134",
+      "data-relevance": "223",
+      "data-term": "homeruns",
+      "data-encoded-term": "homeruns",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "134",
+        "vec2",
+        "1"
+      ]
+    },
+    "supporter": {
+      "data-frequency": "42351",
+      "data-relevance": "222",
+      "data-term": "supporter",
+      "data-encoded-term": "supporter",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "42351",
+        "vec2",
+        "1"
+      ]
+    },
+    "caromed": {
+      "data-frequency": "57",
+      "data-relevance": "221",
+      "data-term": "caromed",
+      "data-encoded-term": "caromed",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "57",
+        "vec2",
+        "1"
+      ]
+    },
+    "foul pole": {
+      "data-frequency": "150",
+      "data-relevance": "220",
+      "data-term": "foul pole",
+      "data-encoded-term": "foul%20pole",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "150",
+        "vec2",
+        "1"
+      ]
+    },
+    "dingers": {
+      "data-frequency": "904",
+      "data-relevance": "219",
+      "data-term": "dingers",
+      "data-encoded-term": "dingers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "904",
+        "vec2",
+        "1"
+      ]
+    },
+    "conspiracy theorists": {
+      "data-frequency": "2096",
+      "data-relevance": "218",
+      "data-term": "conspiracy theorists",
+      "data-encoded-term": "conspiracy%20theorists",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2096",
+        "vec2",
+        "1"
+      ]
+    },
+    "blooped": {
+      "data-frequency": "-1",
+      "data-relevance": "217",
+      "data-term": "blooped",
+      "data-encoded-term": "blooped",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "pollyanna": {
+      "data-frequency": "555",
+      "data-relevance": "216",
+      "data-term": "pollyanna",
+      "data-encoded-term": "pollyanna",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "555",
+        "vec2",
+        "1"
+      ]
+    },
+    "luddite": {
+      "data-frequency": "253",
+      "data-relevance": "215",
+      "data-term": "luddite",
+      "data-encoded-term": "luddite",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "253",
+        "vec2",
+        "1"
+      ]
+    },
+    "cynics": {
+      "data-frequency": "448",
+      "data-relevance": "214",
+      "data-term": "cynics",
+      "data-encoded-term": "cynics",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "448",
+        "vec2",
+        "1"
+      ]
+    },
+    "detractors": {
+      "data-frequency": "3110",
+      "data-relevance": "213",
+      "data-term": "detractors",
+      "data-encoded-term": "detractors",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3110",
+        "vec2",
+        "1"
+      ]
+    },
+    "speck": {
+      "data-frequency": "2961",
+      "data-relevance": "212",
+      "data-term": "speck",
+      "data-encoded-term": "speck",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2961",
+        "vec2",
+        "1"
+      ]
+    },
+    "bases loaded sacrifice fly": {
+      "data-frequency": "407",
+      "data-relevance": "211",
+      "data-term": "bases loaded sacrifice fly",
+      "data-encoded-term": "bases%20loaded%20sacrifice%20fly",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "407",
+        "vec2",
+        "1"
+      ]
+    },
+    "rbi single": {
+      "data-frequency": "3343",
+      "data-relevance": "210",
+      "data-term": "rbi single",
+      "data-encoded-term": "rbi%20single",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "3343",
+        "vec2",
+        "1"
+      ]
+    },
+    "doomsayers": {
+      "data-frequency": "85",
+      "data-relevance": "209",
+      "data-term": "doomsayers",
+      "data-encoded-term": "doomsayers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "85",
+        "vec2",
+        "1"
+      ]
+    },
+    "leadoff batter": {
+      "data-frequency": "512",
+      "data-relevance": "208",
+      "data-term": "leadoff batter",
+      "data-encoded-term": "leadoff%20batter",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "512",
+        "vec2",
+        "1"
+      ]
+    },
+    "screamer": {
+      "data-frequency": "803",
+      "data-relevance": "207",
+      "data-term": "screamer",
+      "data-encoded-term": "screamer",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "803",
+        "vec2",
+        "1"
+      ]
+    },
+    "empirical evidence": {
+      "data-frequency": "1681",
+      "data-relevance": "206",
+      "data-term": "empirical evidence",
+      "data-encoded-term": "empirical%20evidence",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1681",
+        "vec2",
+        "1"
+      ]
+    },
+    "outstretched glove": {
+      "data-frequency": "-1",
+      "data-relevance": "205",
+      "data-term": "outstretched glove",
+      "data-encoded-term": "outstretched%20glove",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "flied": {
+      "data-frequency": "148",
+      "data-relevance": "204",
+      "data-term": "flied",
+      "data-encoded-term": "flied",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "148",
+        "vec2",
+        "1"
+      ]
+    },
+    "conspiracy theory": {
+      "data-frequency": "2862",
+      "data-relevance": "203",
+      "data-term": "conspiracy theory",
+      "data-encoded-term": "conspiracy%20theory",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2862",
+        "vec2",
+        "1"
+      ]
+    },
+    "atheists": {
+      "data-frequency": "5137",
+      "data-relevance": "202",
+      "data-term": "atheists",
+      "data-encoded-term": "atheists",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "5137",
+        "vec2",
+        "1"
+      ]
+    },
+    "nonsense": {
+      "data-frequency": "9985",
+      "data-relevance": "201",
+      "data-term": "nonsense",
+      "data-encoded-term": "nonsense",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "9985",
+        "vec2",
+        "1"
+      ]
+    },
+    "towering": {
+      "data-frequency": "4210",
+      "data-relevance": "200",
+      "data-term": "towering",
+      "data-encoded-term": "towering",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4210",
+        "vec2",
+        "1"
+      ]
+    },
+    "curveball": {
+      "data-frequency": "1066",
+      "data-relevance": "199",
+      "data-term": "curveball",
+      "data-encoded-term": "curveball",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1066",
+        "vec2",
+        "1"
+      ]
+    },
+    "leadoff double": {
+      "data-frequency": "656",
+      "data-relevance": "198",
+      "data-term": "leadoff double",
+      "data-encoded-term": "leadoff%20double",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "656",
+        "vec2",
+        "1"
+      ]
+    },
+    "inconvenient truth": {
+      "data-frequency": "1007",
+      "data-relevance": "197",
+      "data-term": "inconvenient truth",
+      "data-encoded-term": "inconvenient%20truth",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1007",
+        "vec2",
+        "1"
+      ]
+    },
+    "zealots": {
+      "data-frequency": "887",
+      "data-relevance": "196",
+      "data-term": "zealots",
+      "data-encoded-term": "zealots",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "887",
+        "vec2",
+        "1"
+      ]
+    },
+    "prescience": {
+      "data-frequency": "308",
+      "data-relevance": "195",
+      "data-term": "prescience",
+      "data-encoded-term": "prescience",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "308",
+        "vec2",
+        "1"
+      ]
+    },
+    "rabble rouser": {
+      "data-frequency": "130",
+      "data-relevance": "194",
+      "data-term": "rabble rouser",
+      "data-encoded-term": "rabble%20rouser",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "130",
+        "vec2",
+        "1"
+      ]
+    },
+    "quibble": {
+      "data-frequency": "1068",
+      "data-relevance": "193",
+      "data-term": "quibble",
+      "data-encoded-term": "quibble",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1068",
+        "vec2",
+        "1"
+      ]
+    },
+    "deniers": {
+      "data-frequency": "898",
+      "data-relevance": "192",
+      "data-term": "deniers",
+      "data-encoded-term": "deniers",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "898",
+        "vec2",
+        "1"
+      ]
+    },
+    "provocateur": {
+      "data-frequency": "1076",
+      "data-relevance": "191",
+      "data-term": "provocateur",
+      "data-encoded-term": "provocateur",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1076",
+        "vec2",
+        "1"
+      ]
+    },
+    "infield single": {
+      "data-frequency": "2476",
+      "data-relevance": "190",
+      "data-term": "infield single",
+      "data-encoded-term": "infield%20single",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2476",
+        "vec2",
+        "1"
+      ]
+    },
+    "mark bellhorn": {
+      "data-frequency": "64",
+      "data-relevance": "189",
+      "data-term": "mark bellhorn",
+      "data-encoded-term": "mark%20bellhorn",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "64",
+        "vec2",
+        "1"
+      ]
+    },
+    "questioner": {
+      "data-frequency": "318",
+      "data-relevance": "188",
+      "data-term": "questioner",
+      "data-encoded-term": "questioner",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "318",
+        "vec2",
+        "1"
+      ]
+    },
+    "centerfielder": {
+      "data-frequency": "186",
+      "data-relevance": "187",
+      "data-term": "centerfielder",
+      "data-encoded-term": "centerfielder",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "186",
+        "vec2",
+        "1"
+      ]
+    },
+    "believers": {
+      "data-frequency": "11353",
+      "data-relevance": "186",
+      "data-term": "believers",
+      "data-encoded-term": "believers",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "11353",
+        "vec2",
+        "1"
+      ]
+    },
+    "dinger": {
+      "data-frequency": "886",
+      "data-relevance": "185",
+      "data-term": "dinger",
+      "data-encoded-term": "dinger",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "886",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "changeup": {
+      "data-frequency": "738",
+      "data-relevance": "184",
+      "data-term": "changeup",
+      "data-encoded-term": "changeup",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "738",
+        "vec2",
+        "1"
+      ]
+    },
+    "cynic": {
+      "data-frequency": "1042",
+      "data-relevance": "183",
+      "data-term": "cynic",
+      "data-encoded-term": "cynic",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1042",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "homer": {
+      "data-frequency": "22367",
+      "data-relevance": "182",
+      "data-term": "homer",
+      "data-encoded-term": "homer",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "22367",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "zealot": {
+      "data-frequency": "923",
+      "data-relevance": "181",
+      "data-term": "zealot",
+      "data-encoded-term": "zealot",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "923",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "apologist": {
+      "data-frequency": "1221",
+      "data-relevance": "180",
+      "data-term": "apologist",
+      "data-encoded-term": "apologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1221",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "individual": {
+      "data-frequency": "276671",
+      "data-relevance": "179",
+      "data-term": "individual",
+      "data-encoded-term": "individual",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "276671",
+        "wn",
+        "1"
+      ]
+    },
+    "curmudgeon": {
+      "data-frequency": "275",
+      "data-relevance": "178",
+      "data-term": "curmudgeon",
+      "data-encoded-term": "curmudgeon",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "275",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "177",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "506299",
+        "wn",
+        "1"
+      ]
+    },
+    "mortal": {
+      "data-frequency": "12250",
+      "data-relevance": "176",
+      "data-term": "mortal",
+      "data-encoded-term": "mortal",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "12250",
+        "wn",
+        "1"
+      ]
+    },
+    "someone": {
+      "data-frequency": "118538",
+      "data-relevance": "175",
+      "data-term": "someone",
+      "data-encoded-term": "someone",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "118538",
+        "wn",
+        "1"
+      ]
+    },
+    "somebody": {
+      "data-frequency": "17752",
+      "data-relevance": "174",
+      "data-term": "somebody",
+      "data-encoded-term": "somebody",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "17752",
+        "wn",
+        "1"
+      ]
+    },
+    "intellect": {
+      "data-frequency": "7608",
+      "data-relevance": "173",
+      "data-term": "intellect",
+      "data-encoded-term": "intellect",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7608",
+        "wn",
+        "1"
+      ]
+    },
+    "soul": {
+      "data-frequency": "105235",
+      "data-relevance": "172",
+      "data-term": "soul",
+      "data-encoded-term": "soul",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "105235",
+        "wn",
+        "1"
+      ]
+    },
+    "devotee": {
+      "data-frequency": "3424",
+      "data-relevance": "171",
+      "data-term": "devotee",
+      "data-encoded-term": "devotee",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3424",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "intellectual": {
+      "data-frequency": "53171",
+      "data-relevance": "170",
+      "data-term": "intellectual",
+      "data-encoded-term": "intellectual",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "53171",
+        "wn",
+        "1"
+      ]
+    },
+    "watcher": {
+      "data-frequency": "2605",
+      "data-relevance": "169",
+      "data-term": "watcher",
+      "data-encoded-term": "watcher",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2605",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "blooper": {
+      "data-frequency": "548",
+      "data-relevance": "168",
+      "data-term": "blooper",
+      "data-encoded-term": "blooper",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "548",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "fastball": {
+      "data-frequency": "2100",
+      "data-relevance": "167",
+      "data-term": "fastball",
+      "data-encoded-term": "fastball",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2100",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "hitter": {
+      "data-frequency": "9918",
+      "data-relevance": "166",
+      "data-term": "hitter",
+      "data-encoded-term": "hitter",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9918",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "crusader": {
+      "data-frequency": "9274",
+      "data-relevance": "165",
+      "data-term": "crusader",
+      "data-encoded-term": "crusader",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9274",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "realist": {
+      "data-frequency": "5846",
+      "data-relevance": "164",
+      "data-term": "realist",
+      "data-encoded-term": "realist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5846",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "homerun": {
+      "data-frequency": "596",
+      "data-relevance": "163",
+      "data-term": "homerun",
+      "data-encoded-term": "homerun",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "596",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "hyperbole": {
+      "data-frequency": "895",
+      "data-relevance": "162",
+      "data-term": "hyperbole",
+      "data-encoded-term": "hyperbole",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "895",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "proponent": {
+      "data-frequency": "10577",
+      "data-relevance": "161",
+      "data-term": "proponent",
+      "data-encoded-term": "proponent",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "10577",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "sensualist": {
+      "data-frequency": "95",
+      "data-relevance": "160",
+      "data-term": "sensualist",
+      "data-encoded-term": "sensualist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "95",
+        "w2v",
+        "1"
+      ]
+    },
+    "polemic": {
+      "data-frequency": "2577",
+      "data-relevance": "159",
+      "data-term": "polemic",
+      "data-encoded-term": "polemic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2577",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "inning": {
+      "data-frequency": "8884",
+      "data-relevance": "158",
+      "data-term": "inning",
+      "data-encoded-term": "inning",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "8884",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "prig": {
+      "data-frequency": "84",
+      "data-relevance": "157",
+      "data-term": "prig",
+      "data-encoded-term": "prig",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "84",
+        "w2v",
+        "1"
+      ]
+    },
+    "optimist": {
+      "data-frequency": "1835",
+      "data-relevance": "156",
+      "data-term": "optimist",
+      "data-encoded-term": "optimist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1835",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "pedant": {
+      "data-frequency": "163",
+      "data-relevance": "155",
+      "data-term": "pedant",
+      "data-encoded-term": "pedant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "163",
+        "w2v",
+        "1"
+      ]
+    },
+    "nostradamus": {
+      "data-frequency": "1058",
+      "data-relevance": "154",
+      "data-term": "nostradamus",
+      "data-encoded-term": "nostradamus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1058",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rightfield": {
+      "data-frequency": "-1",
+      "data-relevance": "153",
+      "data-term": "rightfield",
+      "data-encoded-term": "rightfield",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "admirer": {
+      "data-frequency": "5755",
+      "data-relevance": "152",
+      "data-term": "admirer",
+      "data-encoded-term": "admirer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5755",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "certitude": {
+      "data-frequency": "277",
+      "data-relevance": "151",
+      "data-term": "certitude",
+      "data-encoded-term": "certitude",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "277",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "fanatic": {
+      "data-frequency": "5078",
+      "data-relevance": "150",
+      "data-term": "fanatic",
+      "data-encoded-term": "fanatic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5078",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "bloop": {
+      "data-frequency": "175",
+      "data-relevance": "149",
+      "data-term": "bloop",
+      "data-encoded-term": "bloop",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "175",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "slapper": {
+      "data-frequency": "301",
+      "data-relevance": "148",
+      "data-term": "slapper",
+      "data-encoded-term": "slapper",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "301",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "heretic": {
+      "data-frequency": "2797",
+      "data-relevance": "147",
+      "data-term": "heretic",
+      "data-encoded-term": "heretic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2797",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "egotist": {
+      "data-frequency": "148",
+      "data-relevance": "146",
+      "data-term": "egotist",
+      "data-encoded-term": "egotist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "148",
+        "w2v",
+        "1"
+      ]
+    },
+    "centerfield": {
+      "data-frequency": "288",
+      "data-relevance": "145",
+      "data-term": "centerfield",
+      "data-encoded-term": "centerfield",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "288",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "ideologue": {
+      "data-frequency": "859",
+      "data-relevance": "144",
+      "data-term": "ideologue",
+      "data-encoded-term": "ideologue",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "859",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "dolt": {
+      "data-frequency": "79",
+      "data-relevance": "143",
+      "data-term": "dolt",
+      "data-encoded-term": "dolt",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "79",
+        "w2v",
+        "1"
+      ]
+    },
+    "fastidious": {
+      "data-frequency": "580",
+      "data-relevance": "142",
+      "data-term": "fastidious",
+      "data-encoded-term": "fastidious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "580",
+        "w2v",
+        "1"
+      ]
+    },
+    "anticlimax": {
+      "data-frequency": "206",
+      "data-relevance": "141",
+      "data-term": "anticlimax",
+      "data-encoded-term": "anticlimax",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "206",
+        "w2v",
+        "1"
+      ]
+    },
+    "punctilious": {
+      "data-frequency": "124",
+      "data-relevance": "140",
+      "data-term": "punctilious",
+      "data-encoded-term": "punctilious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "124",
+        "w2v",
+        "1"
+      ]
+    },
+    "farrago": {
+      "data-frequency": "246",
+      "data-relevance": "139",
+      "data-term": "farrago",
+      "data-encoded-term": "farrago",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "246",
+        "w2v",
+        "1"
+      ]
+    },
+    "arrant": {
+      "data-frequency": "1840",
+      "data-relevance": "138",
+      "data-term": "arrant",
+      "data-encoded-term": "arrant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1840",
+        "w2v",
+        "1"
+      ]
+    },
+    "artless": {
+      "data-frequency": "232",
+      "data-relevance": "137",
+      "data-term": "artless",
+      "data-encoded-term": "artless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "232",
+        "w2v",
+        "1"
+      ]
+    },
+    "moralist": {
+      "data-frequency": "607",
+      "data-relevance": "136",
+      "data-term": "moralist",
+      "data-encoded-term": "moralist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "607",
+        "w2v",
+        "1"
+      ]
+    },
+    "thoroughgoing": {
+      "data-frequency": "255",
+      "data-relevance": "135",
+      "data-term": "thoroughgoing",
+      "data-encoded-term": "thoroughgoing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "255",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheroot": {
+      "data-frequency": "-1",
+      "data-relevance": "134",
+      "data-term": "cheroot",
+      "data-encoded-term": "cheroot",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "ingrate": {
+      "data-frequency": "101",
+      "data-relevance": "133",
+      "data-term": "ingrate",
+      "data-encoded-term": "ingrate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "101",
+        "w2v",
+        "1"
+      ]
+    },
+    "schwingen": {
+      "data-frequency": "99",
+      "data-relevance": "132",
+      "data-term": "schwingen",
+      "data-encoded-term": "schwingen",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "99",
+        "w2v",
+        "1"
+      ]
+    },
+    "slouch": {
+      "data-frequency": "582",
+      "data-relevance": "131",
+      "data-term": "slouch",
+      "data-encoded-term": "slouch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "582",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "leftfield": {
+      "data-frequency": "384",
+      "data-relevance": "130",
+      "data-term": "leftfield",
+      "data-encoded-term": "leftfield",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "384",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "wisecracker": {
+      "data-frequency": "43",
+      "data-relevance": "129",
+      "data-term": "wisecracker",
+      "data-encoded-term": "wisecracker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "43",
+        "w2v",
+        "1"
+      ]
+    },
+    "grandstander": {
+      "data-frequency": "-1",
+      "data-relevance": "128",
+      "data-term": "grandstander",
+      "data-encoded-term": "grandstander",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "micromanager": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "micromanager",
+      "data-encoded-term": "micromanager",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "crackpot": {
+      "data-frequency": "476",
+      "data-relevance": "126",
+      "data-term": "crackpot",
+      "data-encoded-term": "crackpot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "476",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "thomas": {
+      "data-frequency": "580218",
+      "data-relevance": "125",
+      "data-term": "thomas",
+      "data-encoded-term": "thomas",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "580218",
+        "ol",
+        "1"
+      ]
+    },
+    "schmoozer": {
+      "data-frequency": "-1",
+      "data-relevance": "124",
+      "data-term": "schmoozer",
+      "data-encoded-term": "schmoozer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "basher": {
+      "data-frequency": "435",
+      "data-relevance": "123",
+      "data-term": "basher",
+      "data-encoded-term": "basher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "435",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "ruthian": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "ruthian",
+      "data-encoded-term": "ruthian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "clintonite": {
+      "data-frequency": "76",
+      "data-relevance": "121",
+      "data-term": "clintonite",
+      "data-encoded-term": "clintonite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "76",
+        "w2v",
+        "1"
+      ]
+    },
+    "vulgarian": {
+      "data-frequency": "51",
+      "data-relevance": "120",
+      "data-term": "vulgarian",
+      "data-encoded-term": "vulgarian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51",
+        "w2v",
+        "1"
+      ]
+    },
+    "accouterment": {
+      "data-frequency": "59",
+      "data-relevance": "119",
+      "data-term": "accouterment",
+      "data-encoded-term": "accouterment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59",
+        "w2v",
+        "1"
+      ]
+    },
+    "muchness": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "muchness",
+      "data-encoded-term": "muchness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "overachiever": {
+      "data-frequency": "386",
+      "data-relevance": "117",
+      "data-term": "overachiever",
+      "data-encoded-term": "overachiever",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "386",
+        "w2v",
+        "1"
+      ]
+    },
+    "plutocrat": {
+      "data-frequency": "83",
+      "data-relevance": "116",
+      "data-term": "plutocrat",
+      "data-encoded-term": "plutocrat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "83",
+        "w2v",
+        "1"
+      ]
+    },
+    "operad": {
+      "data-frequency": "49",
+      "data-relevance": "115",
+      "data-term": "operad",
+      "data-encoded-term": "operad",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "worrywart": {
+      "data-frequency": "-1",
+      "data-relevance": "114",
+      "data-term": "worrywart",
+      "data-encoded-term": "worrywart",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "scoffer": {
+      "data-frequency": "1409",
+      "data-relevance": "113",
+      "data-term": "scoffer",
+      "data-encoded-term": "scoffer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1409",
+        "ol",
+        "1"
+      ]
+    },
+    "evolutionist": {
+      "data-frequency": "381",
+      "data-relevance": "112",
+      "data-term": "evolutionist",
+      "data-encoded-term": "evolutionist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "381",
+        "ol",
+        "1"
+      ]
+    },
+    "empiricist": {
+      "data-frequency": "398",
+      "data-relevance": "111",
+      "data-term": "empiricist",
+      "data-encoded-term": "empiricist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "398",
+        "ol",
+        "1"
+      ]
+    },
+    "disproof": {
+      "data-frequency": "151",
+      "data-relevance": "110",
+      "data-term": "disproof",
+      "data-encoded-term": "disproof",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "151",
+        "ol",
+        "1"
+      ]
+    },
+    "skepticism": {
+      "data-frequency": "6726",
+      "data-relevance": "109",
+      "data-term": "skepticism",
+      "data-encoded-term": "skepticism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6726",
+        "ol",
+        "1"
+      ]
+    },
+    "guesser": {
+      "data-frequency": "66",
+      "data-relevance": "108",
+      "data-term": "guesser",
+      "data-encoded-term": "guesser",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66",
+        "ol",
+        "1"
+      ]
+    },
+    "prognosticator": {
+      "data-frequency": "64",
+      "data-relevance": "107",
+      "data-term": "prognosticator",
+      "data-encoded-term": "prognosticator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "64",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "inquisitor": {
+      "data-frequency": "1843",
+      "data-relevance": "106",
+      "data-term": "inquisitor",
+      "data-encoded-term": "inquisitor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1843",
+        "ol",
+        "1"
+      ]
+    },
+    "scepticism": {
+      "data-frequency": "1820",
+      "data-relevance": "105",
+      "data-term": "scepticism",
+      "data-encoded-term": "scepticism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1820",
+        "ol",
+        "1"
+      ]
+    },
+    "rhetorician": {
+      "data-frequency": "692",
+      "data-relevance": "104",
+      "data-term": "rhetorician",
+      "data-encoded-term": "rhetorician",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "692",
+        "ol",
+        "1"
+      ]
+    },
+    "stalkerazzi": {
+      "data-frequency": "-1",
+      "data-relevance": "103",
+      "data-term": "stalkerazzi",
+      "data-encoded-term": "stalkerazzi",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "oligomer": {
+      "data-frequency": "279",
+      "data-relevance": "102",
+      "data-term": "oligomer",
+      "data-encoded-term": "oligomer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "279",
+        "w2v",
+        "1"
+      ]
+    },
+    "paranoiac": {
+      "data-frequency": "257",
+      "data-relevance": "101",
+      "data-term": "paranoiac",
+      "data-encoded-term": "paranoiac",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "257",
+        "w2v",
+        "1"
+      ]
+    },
+    "300-pounder": {
+      "data-frequency": "-1",
+      "data-relevance": "100",
+      "data-term": "300-pounder",
+      "data-encoded-term": "300-pounder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "snorkeler": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "snorkeler",
+      "data-encoded-term": "snorkeler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "windbag": {
+      "data-frequency": "160",
+      "data-relevance": "98",
+      "data-term": "windbag",
+      "data-encoded-term": "windbag",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "160",
+        "w2v",
+        "1"
+      ]
+    },
+    "zenlike": {
+      "data-frequency": "-1",
+      "data-relevance": "97",
+      "data-term": "zenlike",
+      "data-encoded-term": "zenlike",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "homophobe": {
+      "data-frequency": "190",
+      "data-relevance": "96",
+      "data-term": "homophobe",
+      "data-encoded-term": "homophobe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "190",
+        "w2v",
+        "1"
+      ]
+    },
+    "muckraker": {
+      "data-frequency": "298",
+      "data-relevance": "95",
+      "data-term": "muckraker",
+      "data-encoded-term": "muckraker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "298",
+        "w2v",
+        "1"
+      ]
+    },
+    "counterpuncher": {
+      "data-frequency": "56",
+      "data-relevance": "94",
+      "data-term": "counterpuncher",
+      "data-encoded-term": "counterpuncher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56",
+        "w2v",
+        "1"
+      ]
+    },
+    "graybeard": {
+      "data-frequency": "35",
+      "data-relevance": "93",
+      "data-term": "graybeard",
+      "data-encoded-term": "graybeard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35",
+        "w2v",
+        "1"
+      ]
+    },
+    "fuddy": {
+      "data-frequency": "98",
+      "data-relevance": "92",
+      "data-term": "fuddy",
+      "data-encoded-term": "fuddy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98",
+        "w2v",
+        "1"
+      ]
+    },
+    "telecommuter": {
+      "data-frequency": "-1",
+      "data-relevance": "91",
+      "data-term": "telecommuter",
+      "data-encoded-term": "telecommuter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "multilateralist": {
+      "data-frequency": "-1",
+      "data-relevance": "90",
+      "data-term": "multilateralist",
+      "data-encoded-term": "multilateralist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "seeder": {
+      "data-frequency": "188",
+      "data-relevance": "89",
+      "data-term": "seeder",
+      "data-encoded-term": "seeder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "188",
+        "w2v",
+        "1"
+      ]
+    },
+    "uncustomary": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "uncustomary",
+      "data-encoded-term": "uncustomary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonperson": {
+      "data-frequency": "-1",
+      "data-relevance": "87",
+      "data-term": "nonperson",
+      "data-encoded-term": "nonperson",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "aesthete": {
+      "data-frequency": "306",
+      "data-relevance": "86",
+      "data-term": "aesthete",
+      "data-encoded-term": "aesthete",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "306",
+        "w2v",
+        "1"
+      ]
+    },
+    "ironist": {
+      "data-frequency": "64",
+      "data-relevance": "85",
+      "data-term": "ironist",
+      "data-encoded-term": "ironist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "64",
+        "w2v",
+        "1"
+      ]
+    },
+    "rawboned": {
+      "data-frequency": "-1",
+      "data-relevance": "84",
+      "data-term": "rawboned",
+      "data-encoded-term": "rawboned",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "fumbler": {
+      "data-frequency": "-1",
+      "data-relevance": "83",
+      "data-term": "fumbler",
+      "data-encoded-term": "fumbler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "bederman": {
+      "data-frequency": "-1",
+      "data-relevance": "82",
+      "data-term": "bederman",
+      "data-encoded-term": "bederman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "thimbleful": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "thimbleful",
+      "data-encoded-term": "thimbleful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "emersonian": {
+      "data-frequency": "46",
+      "data-relevance": "80",
+      "data-term": "emersonian",
+      "data-encoded-term": "emersonian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "w2v",
+        "1"
+      ]
+    },
+    "moustachioed": {
+      "data-frequency": "73",
+      "data-relevance": "79",
+      "data-term": "moustachioed",
+      "data-encoded-term": "moustachioed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73",
+        "w2v",
+        "1"
+      ]
+    },
+    "often-cited": {
+      "data-frequency": "73814",
+      "data-relevance": "78",
+      "data-term": "often-cited",
+      "data-encoded-term": "often-cited",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73814",
+        "w2v",
+        "1"
+      ]
+    },
+    "hoarder": {
+      "data-frequency": "200",
+      "data-relevance": "77",
+      "data-term": "hoarder",
+      "data-encoded-term": "hoarder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "200",
+        "w2v",
+        "1"
+      ]
+    },
+    "neatnik": {
+      "data-frequency": "-1",
+      "data-relevance": "76",
+      "data-term": "neatnik",
+      "data-encoded-term": "neatnik",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "flimflam": {
+      "data-frequency": "57",
+      "data-relevance": "75",
+      "data-term": "flimflam",
+      "data-encoded-term": "flimflam",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "57",
+        "w2v",
+        "1"
+      ]
+    },
+    "rashid-al-din": {
+      "data-frequency": "1427",
+      "data-relevance": "74",
+      "data-term": "rashid-al-din",
+      "data-encoded-term": "rashid-al-din",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1427",
+        "w2v",
+        "1"
+      ]
+    },
+    "fantasist": {
+      "data-frequency": "208",
+      "data-relevance": "73",
+      "data-term": "fantasist",
+      "data-encoded-term": "fantasist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "208",
+        "w2v",
+        "1"
+      ]
+    },
+    "sahan": {
+      "data-frequency": "682",
+      "data-relevance": "72",
+      "data-term": "sahan",
+      "data-encoded-term": "sahan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "682",
+        "w2v",
+        "1"
+      ]
+    },
+    "doodler": {
+      "data-frequency": "46",
+      "data-relevance": "71",
+      "data-term": "doodler",
+      "data-encoded-term": "doodler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "w2v",
+        "1"
+      ]
+    },
+    "crankily": {
+      "data-frequency": "920",
+      "data-relevance": "70",
+      "data-term": "crankily",
+      "data-encoded-term": "crankily",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "920",
+        "w2v",
+        "1"
+      ]
+    },
+    "hamminess": {
+      "data-frequency": "-1",
+      "data-relevance": "69",
+      "data-term": "hamminess",
+      "data-encoded-term": "hamminess",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "cornfed": {
+      "data-frequency": "45",
+      "data-relevance": "68",
+      "data-term": "cornfed",
+      "data-encoded-term": "cornfed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "anglophile": {
+      "data-frequency": "515",
+      "data-relevance": "67",
+      "data-term": "anglophile",
+      "data-encoded-term": "anglophile",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "515",
+        "w2v",
+        "1"
+      ]
+    },
+    "birder": {
+      "data-frequency": "148",
+      "data-relevance": "66",
+      "data-term": "birder",
+      "data-encoded-term": "birder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "148",
+        "w2v",
+        "1"
+      ]
+    },
+    "quandry": {
+      "data-frequency": "-1",
+      "data-relevance": "65",
+      "data-term": "quandry",
+      "data-encoded-term": "quandry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "ghabra": {
+      "data-frequency": "247",
+      "data-relevance": "64",
+      "data-term": "ghabra",
+      "data-encoded-term": "ghabra",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "247",
+        "w2v",
+        "1"
+      ]
+    },
+    "basam": {
+      "data-frequency": "46",
+      "data-relevance": "63",
+      "data-term": "basam",
+      "data-encoded-term": "basam",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "w2v",
+        "1"
+      ]
+    },
+    "barel": {
+      "data-frequency": "208",
+      "data-relevance": "62",
+      "data-term": "barel",
+      "data-encoded-term": "barel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "208",
+        "w2v",
+        "1"
+      ]
+    },
+    "smidge": {
+      "data-frequency": "45",
+      "data-relevance": "61",
+      "data-term": "smidge",
+      "data-encoded-term": "smidge",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "technophile": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "technophile",
+      "data-encoded-term": "technophile",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "trend-setter": {
+      "data-frequency": "447",
+      "data-relevance": "59",
+      "data-term": "trend-setter",
+      "data-encoded-term": "trend-setter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "447",
+        "w2v",
+        "1"
+      ]
+    },
+    "copple": {
+      "data-frequency": "97",
+      "data-relevance": "58",
+      "data-term": "copple",
+      "data-encoded-term": "copple",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97",
+        "w2v",
+        "1"
+      ]
+    },
+    "well-regulated": {
+      "data-frequency": "25804",
+      "data-relevance": "57",
+      "data-term": "well-regulated",
+      "data-encoded-term": "well-regulated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25804",
+        "w2v",
+        "1"
+      ]
+    },
+    "nebraskan": {
+      "data-frequency": "563",
+      "data-relevance": "56",
+      "data-term": "nebraskan",
+      "data-encoded-term": "nebraskan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "563",
+        "w2v",
+        "1"
+      ]
+    },
+    "ill-mannered": {
+      "data-frequency": "189",
+      "data-relevance": "55",
+      "data-term": "ill-mannered",
+      "data-encoded-term": "ill-mannered",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "189",
+        "w2v",
+        "1"
+      ]
+    },
+    "polemicist": {
+      "data-frequency": "632",
+      "data-relevance": "54",
+      "data-term": "polemicist",
+      "data-encoded-term": "polemicist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "632",
+        "w2v",
+        "1"
+      ]
+    },
+    "tetraplegic": {
+      "data-frequency": "125",
+      "data-relevance": "53",
+      "data-term": "tetraplegic",
+      "data-encoded-term": "tetraplegic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "125",
+        "w2v",
+        "1"
+      ]
+    },
+    "pontification": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "pontification",
+      "data-encoded-term": "pontification",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "complainer": {
+      "data-frequency": "35044",
+      "data-relevance": "51",
+      "data-term": "complainer",
+      "data-encoded-term": "complainer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35044",
+        "w2v",
+        "1"
+      ]
+    },
+    "congregant": {
+      "data-frequency": "149",
+      "data-relevance": "50",
+      "data-term": "congregant",
+      "data-encoded-term": "congregant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "149",
+        "w2v",
+        "1"
+      ]
+    },
+    "oldster": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "oldster",
+      "data-encoded-term": "oldster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "esthete": {
+      "data-frequency": "45",
+      "data-relevance": "48",
+      "data-term": "esthete",
+      "data-encoded-term": "esthete",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "windbags": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "windbags",
+      "data-encoded-term": "windbags",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "wordsmith": {
+      "data-frequency": "377",
+      "data-relevance": "46",
+      "data-term": "wordsmith",
+      "data-encoded-term": "wordsmith",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "377",
+        "w2v",
+        "1"
+      ]
+    },
+    "versor": {
+      "data-frequency": "5473",
+      "data-relevance": "45",
+      "data-term": "versor",
+      "data-encoded-term": "versor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5473",
+        "w2v",
+        "1"
+      ]
+    },
+    "vello": {
+      "data-frequency": "207",
+      "data-relevance": "44",
+      "data-term": "vello",
+      "data-encoded-term": "vello",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "207",
+        "w2v",
+        "1"
+      ]
+    },
+    "9-cent": {
+      "data-frequency": "21988",
+      "data-relevance": "43",
+      "data-term": "9-cent",
+      "data-encoded-term": "9-cent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21988",
+        "w2v",
+        "1"
+      ]
+    },
+    "cutup": {
+      "data-frequency": "54",
+      "data-relevance": "42",
+      "data-term": "cutup",
+      "data-encoded-term": "cutup",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "54",
+        "w2v",
+        "1"
+      ]
+    },
+    "disbeliever": {
+      "data-frequency": "1272",
+      "data-relevance": "41",
+      "data-term": "disbeliever",
+      "data-encoded-term": "disbeliever",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1272",
+        "ol",
+        "1"
+      ]
+    },
+    "mustached": {
+      "data-frequency": "2544",
+      "data-relevance": "40",
+      "data-term": "mustached",
+      "data-encoded-term": "mustached",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2544",
+        "w2v",
+        "1"
+      ]
+    },
+    "dogmatist": {
+      "data-frequency": "50",
+      "data-relevance": "39",
+      "data-term": "dogmatist",
+      "data-encoded-term": "dogmatist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "50",
+        "ol",
+        "1"
+      ]
+    },
+    "nonbeliever": {
+      "data-frequency": "109",
+      "data-relevance": "38",
+      "data-term": "nonbeliever",
+      "data-encoded-term": "nonbeliever",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "109",
+        "ol",
+        "1"
+      ]
+    },
+    "scepsis": {
+      "data-frequency": "90",
+      "data-relevance": "37",
+      "data-term": "scepsis",
+      "data-encoded-term": "scepsis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "90",
+        "ol",
+        "1"
+      ]
+    },
+    "moonshot": {
+      "data-frequency": "269",
+      "data-relevance": "36",
+      "data-term": "moonshot",
+      "data-encoded-term": "moonshot",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "269",
+        "ol",
+        "1"
+      ]
+    },
+    "incredulousness": {
+      "data-frequency": "691",
+      "data-relevance": "35",
+      "data-term": "incredulousness",
+      "data-encoded-term": "incredulousness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "691",
+        "ol",
+        "1"
+      ]
+    },
+    "debunker": {
+      "data-frequency": "148",
+      "data-relevance": "34",
+      "data-term": "debunker",
+      "data-encoded-term": "debunker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "148",
+        "ol",
+        "1"
+      ]
+    },
+    "dubitate": {
+      "data-frequency": "-1",
+      "data-relevance": "33",
+      "data-term": "dubitate",
+      "data-encoded-term": "dubitate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "practicer": {
+      "data-frequency": "-1",
+      "data-relevance": "32",
+      "data-term": "practicer",
+      "data-encoded-term": "practicer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fibber": {
+      "data-frequency": "239",
+      "data-relevance": "31",
+      "data-term": "fibber",
+      "data-encoded-term": "fibber",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "239",
+        "ol",
+        "1"
+      ]
+    },
+    "intimidator": {
+      "data-frequency": "9533",
+      "data-relevance": "30",
+      "data-term": "intimidator",
+      "data-encoded-term": "intimidator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9533",
+        "ol",
+        "1"
+      ]
+    },
+    "moper": {
+      "data-frequency": "366",
+      "data-relevance": "29",
+      "data-term": "moper",
+      "data-encoded-term": "moper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "366",
+        "ol",
+        "1"
+      ]
+    },
+    "hagiographer": {
+      "data-frequency": "296",
+      "data-relevance": "28",
+      "data-term": "hagiographer",
+      "data-encoded-term": "hagiographer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "296",
+        "ol",
+        "1"
+      ]
+    },
+    "clodhopper": {
+      "data-frequency": "77",
+      "data-relevance": "27",
+      "data-term": "clodhopper",
+      "data-encoded-term": "clodhopper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77",
+        "ol",
+        "1"
+      ]
+    },
+    "sabermetrician": {
+      "data-frequency": "82",
+      "data-relevance": "26",
+      "data-term": "sabermetrician",
+      "data-encoded-term": "sabermetrician",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "acatalepsy": {
+      "data-frequency": "-1",
+      "data-relevance": "25",
+      "data-term": "acatalepsy",
+      "data-encoded-term": "acatalepsy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "chowderhead": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "chowderhead",
+      "data-encoded-term": "chowderhead",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "moralizer": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "moralizer",
+      "data-encoded-term": "moralizer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "woefulness": {
+      "data-frequency": "1320",
+      "data-relevance": "22",
+      "data-term": "woefulness",
+      "data-encoded-term": "woefulness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1320",
+        "ol",
+        "1"
+      ]
+    },
+    "naysaying": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "naysaying",
+      "data-encoded-term": "naysaying",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "prevaricator": {
+      "data-frequency": "-1",
+      "data-relevance": "20",
+      "data-term": "prevaricator",
+      "data-encoded-term": "prevaricator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "contrarians": {
+      "data-frequency": "93",
+      "data-relevance": "19",
+      "data-term": "contrarians",
+      "data-encoded-term": "contrarians",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "93",
+        "ol",
+        "1"
+      ]
+    },
+    "unpersuasion": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "unpersuasion",
+      "data-encoded-term": "unpersuasion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "doubtance": {
+      "data-frequency": "55892",
+      "data-relevance": "17",
+      "data-term": "doubtance",
+      "data-encoded-term": "doubtance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "55892",
+        "ol",
+        "1"
+      ]
+    },
+    "studier": {
+      "data-frequency": "494",
+      "data-relevance": "16",
+      "data-term": "studier",
+      "data-encoded-term": "studier",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "494",
+        "ol",
+        "1"
+      ]
+    },
+    "refel": {
+      "data-frequency": "-1",
+      "data-relevance": "15",
+      "data-term": "refel",
+      "data-encoded-term": "refel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "whacko": {
+      "data-frequency": "48",
+      "data-relevance": "14",
+      "data-term": "whacko",
+      "data-encoded-term": "whacko",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "ol",
+        "1"
+      ]
+    },
+    "apocalypticism": {
+      "data-frequency": "8232",
+      "data-relevance": "13",
+      "data-term": "apocalypticism",
+      "data-encoded-term": "apocalypticism",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8232",
+        "ol",
+        "1"
+      ]
+    },
+    "hugger": {
+      "data-frequency": "10769",
+      "data-relevance": "12",
+      "data-term": "hugger",
+      "data-encoded-term": "hugger",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10769",
+        "ol",
+        "1"
+      ]
+    },
+    "devilishness": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "devilishness",
+      "data-encoded-term": "devilishness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "doornail": {
+      "data-frequency": "-1",
+      "data-relevance": "10",
+      "data-term": "doornail",
+      "data-encoded-term": "doornail",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sacker": {
+      "data-frequency": "42787",
+      "data-relevance": "9",
+      "data-term": "sacker",
+      "data-encoded-term": "sacker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "42787",
+        "ol",
+        "1"
+      ]
+    },
+    "procrastinator": {
+      "data-frequency": "168",
+      "data-relevance": "8",
+      "data-term": "procrastinator",
+      "data-encoded-term": "procrastinator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "168",
+        "ol",
+        "1"
+      ]
+    },
+    "grand slam": {
+      "data-frequency": "23412",
+      "data-relevance": "7",
+      "data-term": "grand slam",
+      "data-encoded-term": "grand%20slam",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "23412",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "solo homer": {
+      "data-frequency": "133",
+      "data-relevance": "6",
+      "data-term": "solo homer",
+      "data-encoded-term": "solo%20homer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "133",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "sacrifice fly": {
+      "data-frequency": "680",
+      "data-relevance": "5",
+      "data-term": "sacrifice fly",
+      "data-encoded-term": "sacrifice%20fly",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "680",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "shrinking violet": {
+      "data-frequency": "337",
+      "data-relevance": "4",
+      "data-term": "shrinking violet",
+      "data-encoded-term": "shrinking%20violet",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "337",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "tree hugger": {
+      "data-frequency": "2015",
+      "data-relevance": "3",
+      "data-term": "tree hugger",
+      "data-encoded-term": "tree%20hugger",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2015",
+        "ol",
+        "1"
+      ]
+    },
+    "wishful thinker": {
+      "data-frequency": "347",
+      "data-relevance": "2",
+      "data-term": "wishful thinker",
+      "data-encoded-term": "wishful%20thinker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "347",
+        "ol",
+        "1"
+      ]
+    },
+    "brier patch": {
+      "data-frequency": "-1",
+      "data-relevance": "1",
+      "data-term": "brier patch",
+      "data-encoded-term": "brier%20patch",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "papal infallibility": {
+      "data-frequency": "452",
+      "data-relevance": "0",
+      "data-term": "papal infallibility",
+      "data-encoded-term": "papal%20infallibility",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "452",
+        "ol",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "doubt",
+      "doubtful",
+      "doubting",
+      "doubtless",
+      "doubtable"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "I had a nagging doubt in the back of my mind.",
+        "ru": "В глубине моего сознания гнездилось сомнение, не дававшее мне покоя."
+      },
+      {
+        "en": "She doubted his ability to succeed.",
+        "ru": "Она усомнилась в его способности добиться успеха."
+      },
+      {
+        "en": "I seriously doubt my parents will let me go.",
+        "ru": "Я очень сомневаюсь, что родители меня отпустят."
+      },
+      {
+        "en": "No one doubts that the mission will be a success.",
+        "ru": "Никто не сомневается, что миссия будет успешной."
+      },
+      {
+        "en": "“Do you think you can come tonight?” “I doubt it.”",
+        "ru": "— Как думаешь, сможешь сегодня прийти? — Вряд ли."
+      },
+      {
+        "en": "There can be little doubt that smoking is bad for your health.",
+        "ru": "Вряд ли можно сомневаться в том, что курение вредно для здоровья."
+      },
+      {
+        "en": "I still have moments of doubt.",
+        "ru": "Я всё ещё иногда испытываю нерешительность."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "doubters"
+    ],
+    "synonyms": [
+      "skeptic",
+      "agnostic"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "doubtless",
+      "doubting",
+      "doubtable",
+      "doubtful",
+      "doubt"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "naysayer",
+      "doubting",
+      "skeptic",
+      "hater",
+      "doubters",
+      "unbeliever",
+      "doubt",
+      "skeptics",
+      "sceptic",
+      "agnostic",
+      "pessimist"
+    ]
+  }
+}

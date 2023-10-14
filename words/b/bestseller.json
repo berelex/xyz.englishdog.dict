@@ -1,0 +1,7026 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "bestsellerdom": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/bestsellerdom/n/,/c/en/bestseller/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bestsellerdom/n",
+          "@type": "Node",
+          "label": "bestsellerdom",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/bestsellerdom"
+        },
+        "end": {
+          "@id": "/c/en/bestseller",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "term": "/c/en/bestseller"
+        }
+      },
+      "book": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/bestseller/n/,/c/en/book/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bestseller/n",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/bestseller"
+        },
+        "end": {
+          "@id": "/c/en/book",
+          "@type": "Node",
+          "label": "book",
+          "language": "en",
+          "term": "/c/en/book"
+        }
+      },
+      "sold": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/bestseller/n/,/c/en/sold/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bestseller/n",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/bestseller"
+        },
+        "end": {
+          "@id": "/c/en/sold",
+          "@type": "Node",
+          "label": "sold",
+          "language": "en",
+          "term": "/c/en/sold"
+        }
+      },
+      "megaseller": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/megaseller/n/,/c/en/bestseller/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/megaseller/n",
+          "@type": "Node",
+          "label": "megaseller",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/megaseller"
+        },
+        "end": {
+          "@id": "/c/en/bestseller",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "term": "/c/en/bestseller"
+        }
+      },
+      "bestsellers": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/bestsellers/n/,/c/en/bestseller/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bestsellers/n",
+          "@type": "Node",
+          "label": "bestsellers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/bestsellers"
+        },
+        "end": {
+          "@id": "/c/en/bestseller",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "term": "/c/en/bestseller"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "best seller": {
+        "@id": "/a/[/r/Synonym/,/c/en/bestseller/n/wn/communication/,/c/en/best_seller/n/wn/communication/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/bestseller/n/wn/communication",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "sense_label": "n, communication",
+          "term": "/c/en/bestseller"
+        },
+        "end": {
+          "@id": "/c/en/best_seller/n/wn/communication",
+          "@type": "Node",
+          "label": "best seller",
+          "language": "en",
+          "sense_label": "n, communication",
+          "term": "/c/en/best_seller"
+        }
+      },
+      "bestseller": {
+        "@id": "/a/[/r/Synonym/,/c/en/bestseller/n/wp/company/,/c/en/bestseller/n/wp/company/]",
+        "weight": 0.5,
+        "start": {
+          "@id": "/c/en/bestseller/n/wp/company",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "sense_label": "n, company",
+          "term": "/c/en/bestseller"
+        },
+        "end": {
+          "@id": "/c/en/bestseller/n/wp/company",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "sense_label": "n, company",
+          "term": "/c/en/bestseller"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "best seller": {
+        "@id": "/a/[/r/FormOf/,/c/en/best_seller/n/,/c/en/bestseller/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/best_seller/n",
+          "@type": "Node",
+          "label": "best seller",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/best_seller"
+        },
+        "end": {
+          "@id": "/c/en/bestseller",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "term": "/c/en/bestseller"
+        }
+      },
+      "bestsellers": {
+        "@id": "/a/[/r/FormOf/,/c/en/bestsellers/n/,/c/en/bestseller/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bestsellers/n",
+          "@type": "Node",
+          "label": "bestsellers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/bestsellers"
+        },
+        "end": {
+          "@id": "/c/en/bestseller",
+          "@type": "Node",
+          "label": "bestseller",
+          "language": "en",
+          "term": "/c/en/bestseller"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "book": {
+      "data-frequency": "752539",
+      "data-relevance": "482",
+      "data-term": "book",
+      "data-encoded-term": "book",
+      "data-term-stats": [
+        "1",
+        "4.4",
+        "0.000",
+        "752539",
+        "ol,w2v,wiki",
+        "1"
+      ]
+    },
+    "fiction": {
+      "data-frequency": "186344",
+      "data-relevance": "481",
+      "data-term": "fiction",
+      "data-encoded-term": "fiction",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "186344",
+        "ol,w2v,wiki",
+        "1"
+      ]
+    },
+    "bestselling": {
+      "data-frequency": "5552",
+      "data-relevance": "480",
+      "data-term": "bestselling",
+      "data-encoded-term": "bestselling",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "5552",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "film": {
+      "data-frequency": "639609",
+      "data-relevance": "479",
+      "data-term": "film",
+      "data-encoded-term": "film",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "639609",
+        "wiki",
+        "1"
+      ]
+    },
+    "mainstream": {
+      "data-frequency": "58188",
+      "data-relevance": "478",
+      "data-term": "mainstream",
+      "data-encoded-term": "mainstream",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "58188",
+        "wiki",
+        "1"
+      ]
+    },
+    "hardcover": {
+      "data-frequency": "19114",
+      "data-relevance": "477",
+      "data-term": "hardcover",
+      "data-encoded-term": "hardcover",
+      "data-term-stats": [
+        "1",
+        "8.7",
+        "0.000",
+        "19114",
+        "cn5,ol,w2v,wiki|reverse-net",
+        "1"
+      ]
+    },
+    "paperback": {
+      "data-frequency": "37486",
+      "data-relevance": "476",
+      "data-term": "paperback",
+      "data-encoded-term": "paperback",
+      "data-term-stats": [
+        "1",
+        "6.7",
+        "0.000",
+        "37486",
+        "cn5,ol,w2v,wiki|reverse-net",
+        "1"
+      ]
+    },
+    "novel": {
+      "data-frequency": "227949",
+      "data-relevance": "475",
+      "data-term": "novel",
+      "data-encoded-term": "novel",
+      "data-term-stats": [
+        "1",
+        "4.8",
+        "0.000",
+        "227949",
+        "cn5,w2v,wiki",
+        "1"
+      ]
+    },
+    "barnes & noble": {
+      "data-frequency": "4867",
+      "data-relevance": "474",
+      "data-term": "barnes & noble",
+      "data-encoded-term": "barnes%20%26%20noble",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "4867",
+        "wiki",
+        "1"
+      ]
+    },
+    "magazine": {
+      "data-frequency": "488225",
+      "data-relevance": "473",
+      "data-term": "magazine",
+      "data-encoded-term": "magazine",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "488225",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "trade book": {
+      "data-frequency": "188",
+      "data-relevance": "472",
+      "data-term": "trade book",
+      "data-encoded-term": "trade%20book",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "188",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "book store": {
+      "data-frequency": "1816",
+      "data-relevance": "471",
+      "data-term": "book store",
+      "data-encoded-term": "book%20store",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "1816",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "bookseller": {
+      "data-frequency": "5176",
+      "data-relevance": "470",
+      "data-term": "bookseller",
+      "data-encoded-term": "bookseller",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "5176",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "amazon.com": {
+      "data-frequency": "26341",
+      "data-relevance": "469",
+      "data-term": "amazon.com",
+      "data-encoded-term": "amazon.com",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "26341",
+        "wiki",
+        "1"
+      ]
+    },
+    "publisher": {
+      "data-frequency": "128744",
+      "data-relevance": "468",
+      "data-term": "publisher",
+      "data-encoded-term": "publisher",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "128744",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "tome": {
+      "data-frequency": "21637",
+      "data-relevance": "467",
+      "data-term": "tome",
+      "data-encoded-term": "tome",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "21637",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "bestsellers": {
+      "data-frequency": "9091",
+      "data-relevance": "466",
+      "data-term": "bestsellers",
+      "data-encoded-term": "bestsellers",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "9091",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "non-fiction": {
+      "data-frequency": "49537",
+      "data-relevance": "465",
+      "data-term": "non-fiction",
+      "data-encoded-term": "non-fiction",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "49537",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "nonfiction": {
+      "data-frequency": "8794",
+      "data-relevance": "464",
+      "data-term": "nonfiction",
+      "data-encoded-term": "nonfiction",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "8794",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "the new york times best seller list": {
+      "data-frequency": "1610",
+      "data-relevance": "463",
+      "data-term": "the new york times best seller list",
+      "data-encoded-term": "the%20new%20york%20times%20best%20seller%20list",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "1610",
+        "wiki",
+        "1"
+      ]
+    },
+    "usa today": {
+      "data-frequency": "41353",
+      "data-relevance": "462",
+      "data-term": "usa today",
+      "data-encoded-term": "usa%20today",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "41353",
+        "wiki",
+        "1"
+      ]
+    },
+    "hardback": {
+      "data-frequency": "14518",
+      "data-relevance": "461",
+      "data-term": "hardback",
+      "data-encoded-term": "hardback",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "14518",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "seller": {
+      "data-frequency": "17050",
+      "data-relevance": "460",
+      "data-term": "seller",
+      "data-encoded-term": "seller",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "17050",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "anthology": {
+      "data-frequency": "53776",
+      "data-relevance": "459",
+      "data-term": "anthology",
+      "data-encoded-term": "anthology",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "53776",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "trade paperback": {
+      "data-frequency": "2945",
+      "data-relevance": "458",
+      "data-term": "trade paperback",
+      "data-encoded-term": "trade%20paperback",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "2945",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "memoir": {
+      "data-frequency": "34432",
+      "data-relevance": "457",
+      "data-term": "memoir",
+      "data-encoded-term": "memoir",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "34432",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "cookery book": {
+      "data-frequency": "388",
+      "data-relevance": "456",
+      "data-term": "cookery book",
+      "data-encoded-term": "cookery%20book",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "388",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "novels": {
+      "data-frequency": "96962",
+      "data-relevance": "455",
+      "data-term": "novels",
+      "data-encoded-term": "novels",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "96962",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "chart": {
+      "data-frequency": "179759",
+      "data-relevance": "454",
+      "data-term": "chart",
+      "data-encoded-term": "chart",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "179759",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "novella": {
+      "data-frequency": "9606",
+      "data-relevance": "453",
+      "data-term": "novella",
+      "data-encoded-term": "novella",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "9606",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "autobiography": {
+      "data-frequency": "40609",
+      "data-relevance": "452",
+      "data-term": "autobiography",
+      "data-encoded-term": "autobiography",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "40609",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "biography": {
+      "data-frequency": "783617",
+      "data-relevance": "451",
+      "data-term": "biography",
+      "data-encoded-term": "biography",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "783617",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "newspaper": {
+      "data-frequency": "216835",
+      "data-relevance": "450",
+      "data-term": "newspaper",
+      "data-encoded-term": "newspaper",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "216835",
+        "wiki",
+        "1"
+      ]
+    },
+    "businessweek": {
+      "data-frequency": "10367",
+      "data-relevance": "449",
+      "data-term": "businessweek",
+      "data-encoded-term": "businessweek",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "10367",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "bookselling": {
+      "data-frequency": "521",
+      "data-relevance": "448",
+      "data-term": "bookselling",
+      "data-encoded-term": "bookselling",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "521",
+        "cn5",
+        "1"
+      ]
+    },
+    "sales": {
+      "data-frequency": "150600",
+      "data-relevance": "447",
+      "data-term": "sales",
+      "data-encoded-term": "sales",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "150600",
+        "wiki",
+        "1"
+      ]
+    },
+    "blockbuster": {
+      "data-frequency": "8681",
+      "data-relevance": "446",
+      "data-term": "blockbuster",
+      "data-encoded-term": "blockbuster",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "8681",
+        "wiki",
+        "1"
+      ]
+    },
+    "academia": {
+      "data-frequency": "29347",
+      "data-relevance": "445",
+      "data-term": "academia",
+      "data-encoded-term": "academia",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "29347",
+        "wiki",
+        "1"
+      ]
+    },
+    "bookstall": {
+      "data-frequency": "175",
+      "data-relevance": "444",
+      "data-term": "bookstall",
+      "data-encoded-term": "bookstall",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "overbook": {
+      "data-frequency": "-1",
+      "data-relevance": "443",
+      "data-term": "overbook",
+      "data-encoded-term": "overbook",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookdealer": {
+      "data-frequency": "51",
+      "data-relevance": "442",
+      "data-term": "bookdealer",
+      "data-encoded-term": "bookdealer",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "booker": {
+      "data-frequency": "14667",
+      "data-relevance": "441",
+      "data-term": "booker",
+      "data-encoded-term": "booker",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "14667",
+        "cn5",
+        "1"
+      ]
+    },
+    "editing": {
+      "data-frequency": "48742",
+      "data-relevance": "440",
+      "data-term": "editing",
+      "data-encoded-term": "editing",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "48742",
+        "wiki",
+        "1"
+      ]
+    },
+    "retailer": {
+      "data-frequency": "11162",
+      "data-relevance": "439",
+      "data-term": "retailer",
+      "data-encoded-term": "retailer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11162",
+        "wiki",
+        "1"
+      ]
+    },
+    "reviewer": {
+      "data-frequency": "22787",
+      "data-relevance": "438",
+      "data-term": "reviewer",
+      "data-encoded-term": "reviewer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "22787",
+        "wiki",
+        "1"
+      ]
+    },
+    "bibliopole": {
+      "data-frequency": "-1",
+      "data-relevance": "437",
+      "data-term": "bibliopole",
+      "data-encoded-term": "bibliopole",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "librarian": {
+      "data-frequency": "14925",
+      "data-relevance": "436",
+      "data-term": "librarian",
+      "data-encoded-term": "librarian",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "14925",
+        "wiki",
+        "1"
+      ]
+    },
+    "susanna": {
+      "data-frequency": "9997",
+      "data-relevance": "435",
+      "data-term": "susanna",
+      "data-encoded-term": "susanna",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9997",
+        "cn5",
+        "1"
+      ]
+    },
+    "marketing": {
+      "data-frequency": "74438",
+      "data-relevance": "434",
+      "data-term": "marketing",
+      "data-encoded-term": "marketing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "74438",
+        "wiki",
+        "1"
+      ]
+    },
+    "baruch": {
+      "data-frequency": "6234",
+      "data-relevance": "433",
+      "data-term": "baruch",
+      "data-encoded-term": "baruch",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6234",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookmaker": {
+      "data-frequency": "1115",
+      "data-relevance": "432",
+      "data-term": "bookmaker",
+      "data-encoded-term": "bookmaker",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1115",
+        "cn5",
+        "1"
+      ]
+    },
+    "sourcebook": {
+      "data-frequency": "6442",
+      "data-relevance": "431",
+      "data-term": "sourcebook",
+      "data-encoded-term": "sourcebook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6442",
+        "cn5",
+        "1"
+      ]
+    },
+    "tobit": {
+      "data-frequency": "371",
+      "data-relevance": "430",
+      "data-term": "tobit",
+      "data-encoded-term": "tobit",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "371",
+        "cn5",
+        "1"
+      ]
+    },
+    "32mo": {
+      "data-frequency": "-1",
+      "data-relevance": "429",
+      "data-term": "32mo",
+      "data-encoded-term": "32mo",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliomaniac": {
+      "data-frequency": "-1",
+      "data-relevance": "428",
+      "data-term": "bibliomaniac",
+      "data-encoded-term": "bibliomaniac",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookmaking": {
+      "data-frequency": "586",
+      "data-relevance": "427",
+      "data-term": "bookmaking",
+      "data-encoded-term": "bookmaking",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "586",
+        "cn5",
+        "1"
+      ]
+    },
+    "necronomicon": {
+      "data-frequency": "457",
+      "data-relevance": "426",
+      "data-term": "necronomicon",
+      "data-encoded-term": "necronomicon",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "457",
+        "cn5",
+        "1"
+      ]
+    },
+    "pirated": {
+      "data-frequency": "1217",
+      "data-relevance": "425",
+      "data-term": "pirated",
+      "data-encoded-term": "pirated",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1217",
+        "wiki",
+        "1"
+      ]
+    },
+    "mook": {
+      "data-frequency": "3048",
+      "data-relevance": "424",
+      "data-term": "mook",
+      "data-encoded-term": "mook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3048",
+        "cn5",
+        "1"
+      ]
+    },
+    "booklet": {
+      "data-frequency": "20331",
+      "data-relevance": "423",
+      "data-term": "booklet",
+      "data-encoded-term": "booklet",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "20331",
+        "cn5",
+        "1"
+      ]
+    },
+    "underbook": {
+      "data-frequency": "-1",
+      "data-relevance": "422",
+      "data-term": "underbook",
+      "data-encoded-term": "underbook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "megaseller": {
+      "data-frequency": "-1",
+      "data-relevance": "421",
+      "data-term": "megaseller",
+      "data-encoded-term": "megaseller",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "booklist": {
+      "data-frequency": "2394",
+      "data-relevance": "420",
+      "data-term": "booklist",
+      "data-encoded-term": "booklist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2394",
+        "cn5",
+        "1"
+      ]
+    },
+    "royalties": {
+      "data-frequency": "8123",
+      "data-relevance": "419",
+      "data-term": "royalties",
+      "data-encoded-term": "royalties",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "8123",
+        "wiki",
+        "1"
+      ]
+    },
+    "factbook": {
+      "data-frequency": "6109",
+      "data-relevance": "418",
+      "data-term": "factbook",
+      "data-encoded-term": "factbook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6109",
+        "cn5",
+        "1"
+      ]
+    },
+    "best seller": {
+      "data-frequency": "7172",
+      "data-relevance": "417",
+      "data-term": "best seller",
+      "data-encoded-term": "best%20seller",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7172",
+        "wn",
+        "1"
+      ]
+    },
+    "stallman": {
+      "data-frequency": "681",
+      "data-relevance": "416",
+      "data-term": "stallman",
+      "data-encoded-term": "stallman",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "681",
+        "cn5",
+        "1"
+      ]
+    },
+    "ecclesiastes": {
+      "data-frequency": "970",
+      "data-relevance": "415",
+      "data-term": "ecclesiastes",
+      "data-encoded-term": "ecclesiastes",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "970",
+        "cn5",
+        "1"
+      ]
+    },
+    "chart-topper": {
+      "data-frequency": "1275",
+      "data-relevance": "414",
+      "data-term": "chart-topper",
+      "data-encoded-term": "chart-topper",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1275",
+        "wiki",
+        "1"
+      ]
+    },
+    "lbw": {
+      "data-frequency": "767",
+      "data-relevance": "413",
+      "data-term": "lbw",
+      "data-encoded-term": "lbw",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "767",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookbinder": {
+      "data-frequency": "714",
+      "data-relevance": "412",
+      "data-term": "bookbinder",
+      "data-encoded-term": "bookbinder",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "714",
+        "cn5",
+        "1"
+      ]
+    },
+    "bible": {
+      "data-frequency": "53146",
+      "data-relevance": "411",
+      "data-term": "bible",
+      "data-encoded-term": "bible",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "53146",
+        "wiki",
+        "1"
+      ]
+    },
+    "koran": {
+      "data-frequency": "2004",
+      "data-relevance": "410",
+      "data-term": "koran",
+      "data-encoded-term": "koran",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2004",
+        "cn5",
+        "1"
+      ]
+    },
+    "storybook": {
+      "data-frequency": "2071",
+      "data-relevance": "409",
+      "data-term": "storybook",
+      "data-encoded-term": "storybook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2071",
+        "cn5",
+        "1"
+      ]
+    },
+    "malachi": {
+      "data-frequency": "2422",
+      "data-relevance": "408",
+      "data-term": "malachi",
+      "data-encoded-term": "malachi",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2422",
+        "cn5",
+        "1"
+      ]
+    },
+    "scrapbook": {
+      "data-frequency": "3071",
+      "data-relevance": "407",
+      "data-term": "scrapbook",
+      "data-encoded-term": "scrapbook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3071",
+        "cn5",
+        "1"
+      ]
+    },
+    "esdras": {
+      "data-frequency": "442",
+      "data-relevance": "406",
+      "data-term": "esdras",
+      "data-encoded-term": "esdras",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "442",
+        "cn5",
+        "1"
+      ]
+    },
+    "sketchbook": {
+      "data-frequency": "1555",
+      "data-relevance": "405",
+      "data-term": "sketchbook",
+      "data-encoded-term": "sketchbook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1555",
+        "cn5",
+        "1"
+      ]
+    },
+    "deuteronomy": {
+      "data-frequency": "1891",
+      "data-relevance": "404",
+      "data-term": "deuteronomy",
+      "data-encoded-term": "deuteronomy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1891",
+        "cn5",
+        "1"
+      ]
+    },
+    "best-seller": {
+      "data-frequency": "7150",
+      "data-relevance": "403",
+      "data-term": "best-seller",
+      "data-encoded-term": "best-seller",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7150",
+        "w2v",
+        "1"
+      ]
+    },
+    "habakkuk": {
+      "data-frequency": "1088",
+      "data-relevance": "402",
+      "data-term": "habakkuk",
+      "data-encoded-term": "habakkuk",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1088",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookie": {
+      "data-frequency": "1106",
+      "data-relevance": "401",
+      "data-term": "bookie",
+      "data-encoded-term": "bookie",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1106",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookmonger": {
+      "data-frequency": "-1",
+      "data-relevance": "400",
+      "data-term": "bookmonger",
+      "data-encoded-term": "bookmonger",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "matthew": {
+      "data-frequency": "148823",
+      "data-relevance": "399",
+      "data-term": "matthew",
+      "data-encoded-term": "matthew",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "148823",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookworm": {
+      "data-frequency": "1100",
+      "data-relevance": "398",
+      "data-term": "bookworm",
+      "data-encoded-term": "bookworm",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1100",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookcase": {
+      "data-frequency": "606",
+      "data-relevance": "397",
+      "data-term": "bookcase",
+      "data-encoded-term": "bookcase",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "606",
+        "cn5",
+        "1"
+      ]
+    },
+    "apocalypse": {
+      "data-frequency": "13358",
+      "data-relevance": "396",
+      "data-term": "apocalypse",
+      "data-encoded-term": "apocalypse",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13358",
+        "wiki",
+        "1"
+      ]
+    },
+    "monograph": {
+      "data-frequency": "15852",
+      "data-relevance": "395",
+      "data-term": "monograph",
+      "data-encoded-term": "monograph",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15852",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookman": {
+      "data-frequency": "1049",
+      "data-relevance": "394",
+      "data-term": "bookman",
+      "data-encoded-term": "bookman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1049",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliophile": {
+      "data-frequency": "1227",
+      "data-relevance": "393",
+      "data-term": "bibliophile",
+      "data-encoded-term": "bibliophile",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1227",
+        "cn5",
+        "1"
+      ]
+    },
+    "nehemiah": {
+      "data-frequency": "2186",
+      "data-relevance": "392",
+      "data-term": "nehemiah",
+      "data-encoded-term": "nehemiah",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2186",
+        "cn5",
+        "1"
+      ]
+    },
+    "formulary": {
+      "data-frequency": "942",
+      "data-relevance": "391",
+      "data-term": "formulary",
+      "data-encoded-term": "formulary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "942",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookkeeper": {
+      "data-frequency": "1946",
+      "data-relevance": "390",
+      "data-term": "bookkeeper",
+      "data-encoded-term": "bookkeeper",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1946",
+        "cn5",
+        "1"
+      ]
+    },
+    "zephaniah": {
+      "data-frequency": "1511",
+      "data-relevance": "389",
+      "data-term": "zephaniah",
+      "data-encoded-term": "zephaniah",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1511",
+        "cn5",
+        "1"
+      ]
+    },
+    "ezra": {
+      "data-frequency": "12822",
+      "data-relevance": "388",
+      "data-term": "ezra",
+      "data-encoded-term": "ezra",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12822",
+        "cn5",
+        "1"
+      ]
+    },
+    "judith": {
+      "data-frequency": "37555",
+      "data-relevance": "387",
+      "data-term": "judith",
+      "data-encoded-term": "judith",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "37555",
+        "cn5",
+        "1"
+      ]
+    },
+    "chapter": {
+      "data-frequency": "147729",
+      "data-relevance": "386",
+      "data-term": "chapter",
+      "data-encoded-term": "chapter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "147729",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookazine": {
+      "data-frequency": "43",
+      "data-relevance": "385",
+      "data-term": "bookazine",
+      "data-encoded-term": "bookazine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "handbook": {
+      "data-frequency": "101116",
+      "data-relevance": "384",
+      "data-term": "handbook",
+      "data-encoded-term": "handbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "101116",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookless": {
+      "data-frequency": "48",
+      "data-relevance": "383",
+      "data-term": "bookless",
+      "data-encoded-term": "bookless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "shopbook": {
+      "data-frequency": "-1",
+      "data-relevance": "382",
+      "data-term": "shopbook",
+      "data-encoded-term": "shopbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rebook": {
+      "data-frequency": "-1",
+      "data-relevance": "381",
+      "data-term": "rebook",
+      "data-encoded-term": "rebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookware": {
+      "data-frequency": "-1",
+      "data-relevance": "380",
+      "data-term": "bookware",
+      "data-encoded-term": "bookware",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "incunable": {
+      "data-frequency": "74",
+      "data-relevance": "379",
+      "data-term": "incunable",
+      "data-encoded-term": "incunable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "74",
+        "cn5",
+        "1"
+      ]
+    },
+    "booksy": {
+      "data-frequency": "-1",
+      "data-relevance": "378",
+      "data-term": "booksy",
+      "data-encoded-term": "booksy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookwise": {
+      "data-frequency": "-1",
+      "data-relevance": "377",
+      "data-term": "bookwise",
+      "data-encoded-term": "bookwise",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookaholic": {
+      "data-frequency": "-1",
+      "data-relevance": "376",
+      "data-term": "bookaholic",
+      "data-encoded-term": "bookaholic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fairybook": {
+      "data-frequency": "-1",
+      "data-relevance": "375",
+      "data-term": "fairybook",
+      "data-encoded-term": "fairybook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonbook": {
+      "data-frequency": "-1",
+      "data-relevance": "374",
+      "data-term": "nonbook",
+      "data-encoded-term": "nonbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "phrasebook": {
+      "data-frequency": "433",
+      "data-relevance": "373",
+      "data-term": "phrasebook",
+      "data-encoded-term": "phrasebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "433",
+        "cn5",
+        "1"
+      ]
+    },
+    "prebook": {
+      "data-frequency": "-1",
+      "data-relevance": "372",
+      "data-term": "prebook",
+      "data-encoded-term": "prebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "psalmbook": {
+      "data-frequency": "-1",
+      "data-relevance": "371",
+      "data-term": "psalmbook",
+      "data-encoded-term": "psalmbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookly": {
+      "data-frequency": "-1",
+      "data-relevance": "370",
+      "data-term": "bookly",
+      "data-encoded-term": "bookly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliophilic": {
+      "data-frequency": "56",
+      "data-relevance": "369",
+      "data-term": "bibliophilic",
+      "data-encoded-term": "bibliophilic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "booky": {
+      "data-frequency": "79",
+      "data-relevance": "368",
+      "data-term": "booky",
+      "data-encoded-term": "booky",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "bipont": {
+      "data-frequency": "-1",
+      "data-relevance": "367",
+      "data-term": "bipont",
+      "data-encoded-term": "bipont",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliophilia": {
+      "data-frequency": "64",
+      "data-relevance": "366",
+      "data-term": "bibliophilia",
+      "data-encoded-term": "bibliophilia",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "64",
+        "cn5",
+        "1"
+      ]
+    },
+    "midbook": {
+      "data-frequency": "-1",
+      "data-relevance": "365",
+      "data-term": "midbook",
+      "data-encoded-term": "midbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "booklike": {
+      "data-frequency": "-1",
+      "data-relevance": "364",
+      "data-term": "booklike",
+      "data-encoded-term": "booklike",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookstand": {
+      "data-frequency": "44",
+      "data-relevance": "363",
+      "data-term": "bookstand",
+      "data-encoded-term": "bookstand",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliomania": {
+      "data-frequency": "138",
+      "data-relevance": "362",
+      "data-term": "bibliomania",
+      "data-encoded-term": "bibliomania",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "138",
+        "cn5",
+        "1"
+      ]
+    },
+    "booklessness": {
+      "data-frequency": "-1",
+      "data-relevance": "361",
+      "data-term": "booklessness",
+      "data-encoded-term": "booklessness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliomaniacal": {
+      "data-frequency": "-1",
+      "data-relevance": "360",
+      "data-term": "bibliomaniacal",
+      "data-encoded-term": "bibliomaniacal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "alluminor": {
+      "data-frequency": "-1",
+      "data-relevance": "359",
+      "data-term": "alluminor",
+      "data-encoded-term": "alluminor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chansonnier": {
+      "data-frequency": "388",
+      "data-relevance": "358",
+      "data-term": "chansonnier",
+      "data-encoded-term": "chansonnier",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "388",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookmobile": {
+      "data-frequency": "363",
+      "data-relevance": "357",
+      "data-term": "bookmobile",
+      "data-encoded-term": "bookmobile",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "363",
+        "cn5",
+        "1"
+      ]
+    },
+    "biblio": {
+      "data-frequency": "1922",
+      "data-relevance": "356",
+      "data-term": "biblio",
+      "data-encoded-term": "biblio",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1922",
+        "cn5",
+        "1"
+      ]
+    },
+    "chartbook": {
+      "data-frequency": "-1",
+      "data-relevance": "355",
+      "data-term": "chartbook",
+      "data-encoded-term": "chartbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "polygraphy": {
+      "data-frequency": "61",
+      "data-relevance": "354",
+      "data-term": "polygraphy",
+      "data-encoded-term": "polygraphy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "61",
+        "cn5",
+        "1"
+      ]
+    },
+    "booklover": {
+      "data-frequency": "-1",
+      "data-relevance": "353",
+      "data-term": "booklover",
+      "data-encoded-term": "booklover",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookhound": {
+      "data-frequency": "-1",
+      "data-relevance": "352",
+      "data-term": "bookhound",
+      "data-encoded-term": "bookhound",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coursebook": {
+      "data-frequency": "95",
+      "data-relevance": "351",
+      "data-term": "coursebook",
+      "data-encoded-term": "coursebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "95",
+        "cn5",
+        "1"
+      ]
+    },
+    "booklore": {
+      "data-frequency": "43",
+      "data-relevance": "350",
+      "data-term": "booklore",
+      "data-encoded-term": "booklore",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookmarker": {
+      "data-frequency": "-1",
+      "data-relevance": "349",
+      "data-term": "bookmarker",
+      "data-encoded-term": "bookmarker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "benedictional": {
+      "data-frequency": "44",
+      "data-relevance": "348",
+      "data-term": "benedictional",
+      "data-encoded-term": "benedictional",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "cyberbook": {
+      "data-frequency": "-1",
+      "data-relevance": "347",
+      "data-term": "cyberbook",
+      "data-encoded-term": "cyberbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookling": {
+      "data-frequency": "-1",
+      "data-relevance": "346",
+      "data-term": "bookling",
+      "data-encoded-term": "bookling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "passbook": {
+      "data-frequency": "144",
+      "data-relevance": "345",
+      "data-term": "passbook",
+      "data-encoded-term": "passbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "144",
+        "cn5",
+        "1"
+      ]
+    },
+    "epilog": {
+      "data-frequency": "262",
+      "data-relevance": "344",
+      "data-term": "epilog",
+      "data-encoded-term": "epilog",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "262",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliolater": {
+      "data-frequency": "-1",
+      "data-relevance": "343",
+      "data-term": "bibliolater",
+      "data-encoded-term": "bibliolater",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookable": {
+      "data-frequency": "586",
+      "data-relevance": "342",
+      "data-term": "bookable",
+      "data-encoded-term": "bookable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "586",
+        "cn5",
+        "1"
+      ]
+    },
+    "voltaire": {
+      "data-frequency": "5729",
+      "data-relevance": "341",
+      "data-term": "voltaire",
+      "data-encoded-term": "voltaire",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5729",
+        "wiki",
+        "1"
+      ]
+    },
+    "jotterbook": {
+      "data-frequency": "-1",
+      "data-relevance": "340",
+      "data-term": "jotterbook",
+      "data-encoded-term": "jotterbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "heptateuch": {
+      "data-frequency": "46",
+      "data-relevance": "339",
+      "data-term": "heptateuch",
+      "data-encoded-term": "heptateuch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookbus": {
+      "data-frequency": "-1",
+      "data-relevance": "338",
+      "data-term": "bookbus",
+      "data-encoded-term": "bookbus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "delectus": {
+      "data-frequency": "80",
+      "data-relevance": "337",
+      "data-term": "delectus",
+      "data-encoded-term": "delectus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "80",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookhood": {
+      "data-frequency": "-1",
+      "data-relevance": "336",
+      "data-term": "bookhood",
+      "data-encoded-term": "bookhood",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "editions": {
+      "data-frequency": "97909",
+      "data-relevance": "335",
+      "data-term": "editions",
+      "data-encoded-term": "editions",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "97909",
+        "w2v",
+        "1"
+      ]
+    },
+    "reprint": {
+      "data-frequency": "28233",
+      "data-relevance": "334",
+      "data-term": "reprint",
+      "data-encoded-term": "reprint",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "28233",
+        "w2v",
+        "1"
+      ]
+    },
+    "wishbook": {
+      "data-frequency": "-1",
+      "data-relevance": "333",
+      "data-term": "wishbook",
+      "data-encoded-term": "wishbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "best-selling": {
+      "data-frequency": "24002",
+      "data-relevance": "332",
+      "data-term": "best-selling",
+      "data-encoded-term": "best-selling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24002",
+        "w2v",
+        "1"
+      ]
+    },
+    "bookful": {
+      "data-frequency": "-1",
+      "data-relevance": "331",
+      "data-term": "bookful",
+      "data-encoded-term": "bookful",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookjacket": {
+      "data-frequency": "-1",
+      "data-relevance": "330",
+      "data-term": "bookjacket",
+      "data-encoded-term": "bookjacket",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "octateuch": {
+      "data-frequency": "-1",
+      "data-relevance": "329",
+      "data-term": "octateuch",
+      "data-encoded-term": "octateuch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sendakian": {
+      "data-frequency": "-1",
+      "data-relevance": "328",
+      "data-term": "sendakian",
+      "data-encoded-term": "sendakian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "candide": {
+      "data-frequency": "1464",
+      "data-relevance": "327",
+      "data-term": "candide",
+      "data-encoded-term": "candide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1464",
+        "wiki",
+        "1"
+      ]
+    },
+    "timebook": {
+      "data-frequency": "-1",
+      "data-relevance": "326",
+      "data-term": "timebook",
+      "data-encoded-term": "timebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "codicology": {
+      "data-frequency": "71",
+      "data-relevance": "325",
+      "data-term": "codicology",
+      "data-encoded-term": "codicology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "71",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookrack": {
+      "data-frequency": "-1",
+      "data-relevance": "324",
+      "data-term": "bookrack",
+      "data-encoded-term": "bookrack",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hexateuch": {
+      "data-frequency": "168",
+      "data-relevance": "323",
+      "data-term": "hexateuch",
+      "data-encoded-term": "hexateuch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "168",
+        "cn5",
+        "1"
+      ]
+    },
+    "doublure": {
+      "data-frequency": "61",
+      "data-relevance": "322",
+      "data-term": "doublure",
+      "data-encoded-term": "doublure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "61",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookplate": {
+      "data-frequency": "555",
+      "data-relevance": "321",
+      "data-term": "bookplate",
+      "data-encoded-term": "bookplate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "555",
+        "cn5",
+        "1"
+      ]
+    },
+    "yorker": {
+      "data-frequency": "19968",
+      "data-relevance": "320",
+      "data-term": "yorker",
+      "data-encoded-term": "yorker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19968",
+        "w2v",
+        "1"
+      ]
+    },
+    "rousseau": {
+      "data-frequency": "7951",
+      "data-relevance": "319",
+      "data-term": "rousseau",
+      "data-encoded-term": "rousseau",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7951",
+        "wiki",
+        "1"
+      ]
+    },
+    "bibliotherapy": {
+      "data-frequency": "59",
+      "data-relevance": "318",
+      "data-term": "bibliotherapy",
+      "data-encoded-term": "bibliotherapy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "datebook": {
+      "data-frequency": "237",
+      "data-relevance": "317",
+      "data-term": "datebook",
+      "data-encoded-term": "datebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "237",
+        "cn5",
+        "1"
+      ]
+    },
+    "diabologue": {
+      "data-frequency": "-1",
+      "data-relevance": "316",
+      "data-term": "diabologue",
+      "data-encoded-term": "diabologue",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookhoard": {
+      "data-frequency": "-1",
+      "data-relevance": "315",
+      "data-term": "bookhoard",
+      "data-encoded-term": "bookhoard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "talebook": {
+      "data-frequency": "-1",
+      "data-relevance": "314",
+      "data-term": "talebook",
+      "data-encoded-term": "talebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "jotter": {
+      "data-frequency": "44",
+      "data-relevance": "313",
+      "data-term": "jotter",
+      "data-encoded-term": "jotter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "britannica": {
+      "data-frequency": "49999",
+      "data-relevance": "312",
+      "data-term": "britannica",
+      "data-encoded-term": "britannica",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "49999",
+        "w2v",
+        "1"
+      ]
+    },
+    "bookrest": {
+      "data-frequency": "-1",
+      "data-relevance": "311",
+      "data-term": "bookrest",
+      "data-encoded-term": "bookrest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "needlebook": {
+      "data-frequency": "-1",
+      "data-relevance": "310",
+      "data-term": "needlebook",
+      "data-encoded-term": "needlebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "scorebook": {
+      "data-frequency": "102",
+      "data-relevance": "309",
+      "data-term": "scorebook",
+      "data-encoded-term": "scorebook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "102",
+        "cn5",
+        "1"
+      ]
+    },
+    "edition": {
+      "data-frequency": "396391",
+      "data-relevance": "308",
+      "data-term": "edition",
+      "data-encoded-term": "edition",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "396391",
+        "w2v",
+        "1"
+      ]
+    },
+    "encyclopedia": {
+      "data-frequency": "256312",
+      "data-relevance": "307",
+      "data-term": "encyclopedia",
+      "data-encoded-term": "encyclopedia",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "256312",
+        "w2v",
+        "1"
+      ]
+    },
+    "copybook": {
+      "data-frequency": "156",
+      "data-relevance": "306",
+      "data-term": "copybook",
+      "data-encoded-term": "copybook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "clipbook": {
+      "data-frequency": "-1",
+      "data-relevance": "305",
+      "data-term": "clipbook",
+      "data-encoded-term": "clipbook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "decadist": {
+      "data-frequency": "-1",
+      "data-relevance": "304",
+      "data-term": "decadist",
+      "data-encoded-term": "decadist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "isbn": {
+      "data-frequency": "1144930",
+      "data-relevance": "303",
+      "data-term": "isbn",
+      "data-encoded-term": "isbn",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1144930",
+        "w2v",
+        "1"
+      ]
+    },
+    "periodical": {
+      "data-frequency": "92923",
+      "data-relevance": "302",
+      "data-term": "periodical",
+      "data-encoded-term": "periodical",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "92923",
+        "w2v",
+        "1"
+      ]
+    },
+    "newsweek": {
+      "data-frequency": "12311",
+      "data-relevance": "301",
+      "data-term": "newsweek",
+      "data-encoded-term": "newsweek",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12311",
+        "w2v",
+        "1"
+      ]
+    },
+    "obituary": {
+      "data-frequency": "72162",
+      "data-relevance": "300",
+      "data-term": "obituary",
+      "data-encoded-term": "obituary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "72162",
+        "w2v",
+        "1"
+      ]
+    },
+    "reprinted": {
+      "data-frequency": "33620",
+      "data-relevance": "299",
+      "data-term": "reprinted",
+      "data-encoded-term": "reprinted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33620",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "billboard": {
+      "data-frequency": "113836",
+      "data-relevance": "298",
+      "data-term": "billboard",
+      "data-encoded-term": "billboard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "113836",
+        "w2v",
+        "1"
+      ]
+    },
+    "anthologies": {
+      "data-frequency": "11100",
+      "data-relevance": "297",
+      "data-term": "anthologies",
+      "data-encoded-term": "anthologies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11100",
+        "w2v",
+        "1"
+      ]
+    },
+    "dispensatory": {
+      "data-frequency": "100",
+      "data-relevance": "296",
+      "data-term": "dispensatory",
+      "data-encoded-term": "dispensatory",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "100",
+        "cn5",
+        "1"
+      ]
+    },
+    "publishers weekly lists of bestselling novels in the united states": {
+      "data-frequency": "-1",
+      "data-relevance": "295",
+      "data-term": "publishers weekly lists of bestselling novels in the united states",
+      "data-encoded-term": "publishers%20weekly%20lists%20of%20bestselling%20novels%20in%20the%20united%20states",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "herdbook": {
+      "data-frequency": "153",
+      "data-relevance": "294",
+      "data-term": "herdbook",
+      "data-encoded-term": "herdbook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "153",
+        "cn5",
+        "1"
+      ]
+    },
+    "serialized": {
+      "data-frequency": "6176",
+      "data-relevance": "293",
+      "data-term": "serialized",
+      "data-encoded-term": "serialized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6176",
+        "w2v",
+        "1"
+      ]
+    },
+    "grangerite": {
+      "data-frequency": "-1",
+      "data-relevance": "292",
+      "data-term": "grangerite",
+      "data-encoded-term": "grangerite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "charting": {
+      "data-frequency": "15762",
+      "data-relevance": "291",
+      "data-term": "charting",
+      "data-encoded-term": "charting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15762",
+        "w2v",
+        "1"
+      ]
+    },
+    "catalog": {
+      "data-frequency": "103427",
+      "data-relevance": "290",
+      "data-term": "catalog",
+      "data-encoded-term": "catalog",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "103427",
+        "w2v",
+        "1"
+      ]
+    },
+    "block-book": {
+      "data-frequency": "116",
+      "data-relevance": "289",
+      "data-term": "block-book",
+      "data-encoded-term": "block-book",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "116",
+        "wiki",
+        "1"
+      ]
+    },
+    "newsbook": {
+      "data-frequency": "56",
+      "data-relevance": "288",
+      "data-term": "newsbook",
+      "data-encoded-term": "newsbook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "quarto": {
+      "data-frequency": "2903",
+      "data-relevance": "287",
+      "data-term": "quarto",
+      "data-encoded-term": "quarto",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2903",
+        "w2v",
+        "1"
+      ]
+    },
+    "bookcraft": {
+      "data-frequency": "296",
+      "data-relevance": "286",
+      "data-term": "bookcraft",
+      "data-encoded-term": "bookcraft",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "296",
+        "cn5",
+        "1"
+      ]
+    },
+    "photobook": {
+      "data-frequency": "909",
+      "data-relevance": "285",
+      "data-term": "photobook",
+      "data-encoded-term": "photobook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "909",
+        "cn5",
+        "1"
+      ]
+    },
+    "fanzine": {
+      "data-frequency": "3326",
+      "data-relevance": "284",
+      "data-term": "fanzine",
+      "data-encoded-term": "fanzine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3326",
+        "w2v",
+        "1"
+      ]
+    },
+    "chronicling": {
+      "data-frequency": "4739",
+      "data-relevance": "283",
+      "data-term": "chronicling",
+      "data-encoded-term": "chronicling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4739",
+        "w2v",
+        "1"
+      ]
+    },
+    "bibliomancy": {
+      "data-frequency": "96",
+      "data-relevance": "282",
+      "data-term": "bibliomancy",
+      "data-encoded-term": "bibliomancy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "diary": {
+      "data-frequency": "41768",
+      "data-relevance": "281",
+      "data-term": "diary",
+      "data-encoded-term": "diary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41768",
+        "w2v",
+        "1"
+      ]
+    },
+    "incunabulum": {
+      "data-frequency": "68",
+      "data-relevance": "280",
+      "data-term": "incunabulum",
+      "data-encoded-term": "incunabulum",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookwork": {
+      "data-frequency": "43",
+      "data-relevance": "279",
+      "data-term": "bookwork",
+      "data-encoded-term": "bookwork",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliology": {
+      "data-frequency": "44",
+      "data-relevance": "278",
+      "data-term": "bibliology",
+      "data-encoded-term": "bibliology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "guidebook": {
+      "data-frequency": "5306",
+      "data-relevance": "277",
+      "data-term": "guidebook",
+      "data-encoded-term": "guidebook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5306",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "catalogue": {
+      "data-frequency": "98127",
+      "data-relevance": "276",
+      "data-term": "catalogue",
+      "data-encoded-term": "catalogue",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98127",
+        "w2v",
+        "1"
+      ]
+    },
+    "chronicle": {
+      "data-frequency": "123843",
+      "data-relevance": "275",
+      "data-term": "chronicle",
+      "data-encoded-term": "chronicle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "123843",
+        "w2v",
+        "1"
+      ]
+    },
+    "publication": {
+      "data-frequency": "247361",
+      "data-relevance": "274",
+      "data-term": "publication",
+      "data-encoded-term": "publication",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "247361",
+        "w2v",
+        "1"
+      ]
+    },
+    "charts": {
+      "data-frequency": "123540",
+      "data-relevance": "273",
+      "data-term": "charts",
+      "data-encoded-term": "charts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "123540",
+        "w2v",
+        "1"
+      ]
+    },
+    "subtitled": {
+      "data-frequency": "6603",
+      "data-relevance": "272",
+      "data-term": "subtitled",
+      "data-encoded-term": "subtitled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6603",
+        "w2v",
+        "1"
+      ]
+    },
+    "folio": {
+      "data-frequency": "8629",
+      "data-relevance": "271",
+      "data-term": "folio",
+      "data-encoded-term": "folio",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8629",
+        "w2v",
+        "1"
+      ]
+    },
+    "washington post": {
+      "data-frequency": "66105",
+      "data-relevance": "270",
+      "data-term": "washington post",
+      "data-encoded-term": "washington%20post",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66105",
+        "wiki",
+        "1"
+      ]
+    },
+    "porcelain": {
+      "data-frequency": "8278",
+      "data-relevance": "269",
+      "data-term": "porcelain",
+      "data-encoded-term": "porcelain",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8278",
+        "wiki",
+        "1"
+      ]
+    },
+    "compiled": {
+      "data-frequency": "55517",
+      "data-relevance": "268",
+      "data-term": "compiled",
+      "data-encoded-term": "compiled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "55517",
+        "w2v",
+        "1"
+      ]
+    },
+    "compendium": {
+      "data-frequency": "14893",
+      "data-relevance": "267",
+      "data-term": "compendium",
+      "data-encoded-term": "compendium",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14893",
+        "w2v",
+        "1"
+      ]
+    },
+    "comics": {
+      "data-frequency": "49579",
+      "data-relevance": "266",
+      "data-term": "comics",
+      "data-encoded-term": "comics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49579",
+        "w2v",
+        "1"
+      ]
+    },
+    "imprint": {
+      "data-frequency": "20862",
+      "data-relevance": "265",
+      "data-term": "imprint",
+      "data-encoded-term": "imprint",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20862",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "memoirs": {
+      "data-frequency": "38742",
+      "data-relevance": "264",
+      "data-term": "memoirs",
+      "data-encoded-term": "memoirs",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38742",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "publishes": {
+      "data-frequency": "25408",
+      "data-relevance": "263",
+      "data-term": "publishes",
+      "data-encoded-term": "publishes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25408",
+        "w2v",
+        "1"
+      ]
+    },
+    "wikipedia": {
+      "data-frequency": "3031788",
+      "data-relevance": "262",
+      "data-term": "wikipedia",
+      "data-encoded-term": "wikipedia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3031788",
+        "w2v",
+        "1"
+      ]
+    },
+    "newsletter": {
+      "data-frequency": "39067",
+      "data-relevance": "261",
+      "data-term": "newsletter",
+      "data-encoded-term": "newsletter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39067",
+        "w2v",
+        "1"
+      ]
+    },
+    "illustrated": {
+      "data-frequency": "102087",
+      "data-relevance": "260",
+      "data-term": "illustrated",
+      "data-encoded-term": "illustrated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "102087",
+        "w2v",
+        "1"
+      ]
+    },
+    "biographical": {
+      "data-frequency": "496321",
+      "data-relevance": "259",
+      "data-term": "biographical",
+      "data-encoded-term": "biographical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "496321",
+        "w2v",
+        "1"
+      ]
+    },
+    "subtitle": {
+      "data-frequency": "4875",
+      "data-relevance": "258",
+      "data-term": "subtitle",
+      "data-encoded-term": "subtitle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4875",
+        "w2v",
+        "1"
+      ]
+    },
+    "unpublished": {
+      "data-frequency": "18057",
+      "data-relevance": "257",
+      "data-term": "unpublished",
+      "data-encoded-term": "unpublished",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18057",
+        "w2v",
+        "1"
+      ]
+    },
+    "nme": {
+      "data-frequency": "25572",
+      "data-relevance": "256",
+      "data-term": "nme",
+      "data-encoded-term": "nme",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25572",
+        "w2v",
+        "1"
+      ]
+    },
+    "byron": {
+      "data-frequency": "34699",
+      "data-relevance": "255",
+      "data-term": "byron",
+      "data-encoded-term": "byron",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34699",
+        "wiki",
+        "1"
+      ]
+    },
+    "books": {
+      "data-frequency": "1137706",
+      "data-relevance": "254",
+      "data-term": "books",
+      "data-encoded-term": "books",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1137706",
+        "w2v",
+        "1"
+      ]
+    },
+    "compilation": {
+      "data-frequency": "81656",
+      "data-relevance": "253",
+      "data-term": "compilation",
+      "data-encoded-term": "compilation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "81656",
+        "w2v",
+        "1"
+      ]
+    },
+    "excerpt": {
+      "data-frequency": "18163",
+      "data-relevance": "252",
+      "data-term": "excerpt",
+      "data-encoded-term": "excerpt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18163",
+        "w2v",
+        "1"
+      ]
+    },
+    "blog": {
+      "data-frequency": "107778",
+      "data-relevance": "251",
+      "data-term": "blog",
+      "data-encoded-term": "blog",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "107778",
+        "w2v",
+        "1"
+      ]
+    },
+    "paperbacks": {
+      "data-frequency": "39958",
+      "data-relevance": "250",
+      "data-term": "paperbacks",
+      "data-encoded-term": "paperbacks",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39958",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "esquire": {
+      "data-frequency": "8318",
+      "data-relevance": "249",
+      "data-term": "esquire",
+      "data-encoded-term": "esquire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8318",
+        "w2v",
+        "1"
+      ]
+    },
+    "autobiographical": {
+      "data-frequency": "16652",
+      "data-relevance": "248",
+      "data-term": "autobiographical",
+      "data-encoded-term": "autobiographical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16652",
+        "w2v",
+        "1"
+      ]
+    },
+    "digest": {
+      "data-frequency": "23916",
+      "data-relevance": "247",
+      "data-term": "digest",
+      "data-encoded-term": "digest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23916",
+        "w2v",
+        "1"
+      ]
+    },
+    "reviews": {
+      "data-frequency": "197755",
+      "data-relevance": "246",
+      "data-term": "reviews",
+      "data-encoded-term": "reviews",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "197755",
+        "w2v",
+        "1"
+      ]
+    },
+    "chronicled": {
+      "data-frequency": "4802",
+      "data-relevance": "245",
+      "data-term": "chronicled",
+      "data-encoded-term": "chronicled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4802",
+        "w2v",
+        "1"
+      ]
+    },
+    "contributor": {
+      "data-frequency": "40425",
+      "data-relevance": "244",
+      "data-term": "contributor",
+      "data-encoded-term": "contributor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40425",
+        "w2v",
+        "1"
+      ]
+    },
+    "trade edition": {
+      "data-frequency": "40544",
+      "data-relevance": "243",
+      "data-term": "trade edition",
+      "data-encoded-term": "trade%20edition",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40544",
+        "wn",
+        "1"
+      ]
+    },
+    "literary merit": {
+      "data-frequency": "5005",
+      "data-relevance": "242",
+      "data-term": "literary merit",
+      "data-encoded-term": "literary%20merit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5005",
+        "wiki",
+        "1"
+      ]
+    },
+    "e-book": {
+      "data-frequency": "8211",
+      "data-relevance": "241",
+      "data-term": "e-book",
+      "data-encoded-term": "e-book",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8211",
+        "w2v",
+        "1"
+      ]
+    },
+    "best-sellers": {
+      "data-frequency": "16906",
+      "data-relevance": "240",
+      "data-term": "best-sellers",
+      "data-encoded-term": "best-sellers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16906",
+        "w2v",
+        "1"
+      ]
+    },
+    "literary agent": {
+      "data-frequency": "7720",
+      "data-relevance": "239",
+      "data-term": "literary agent",
+      "data-encoded-term": "literary%20agent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7720",
+        "wiki",
+        "1"
+      ]
+    },
+    "256-page": {
+      "data-frequency": "20855",
+      "data-relevance": "238",
+      "data-term": "256-page",
+      "data-encoded-term": "256-page",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20855",
+        "w2v",
+        "1"
+      ]
+    },
+    "forbes.com": {
+      "data-frequency": "5695",
+      "data-relevance": "237",
+      "data-term": "forbes.com",
+      "data-encoded-term": "forbes.com",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5695",
+        "w2v",
+        "1"
+      ]
+    },
+    "limca": {
+      "data-frequency": "669",
+      "data-relevance": "236",
+      "data-term": "limca",
+      "data-encoded-term": "limca",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "669",
+        "w2v",
+        "1"
+      ]
+    },
+    "out-of-print": {
+      "data-frequency": "89429",
+      "data-relevance": "235",
+      "data-term": "out-of-print",
+      "data-encoded-term": "out-of-print",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89429",
+        "w2v",
+        "1"
+      ]
+    },
+    "guiness": {
+      "data-frequency": "613",
+      "data-relevance": "234",
+      "data-term": "guiness",
+      "data-encoded-term": "guiness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "613",
+        "w2v",
+        "1"
+      ]
+    },
+    "softcover": {
+      "data-frequency": "1741",
+      "data-relevance": "233",
+      "data-term": "softcover",
+      "data-encoded-term": "softcover",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1741",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-published": {
+      "data-frequency": "20187",
+      "data-relevance": "232",
+      "data-term": "self-published",
+      "data-encoded-term": "self-published",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "20187",
+        "w2v",
+        "1"
+      ]
+    },
+    "128-page": {
+      "data-frequency": "36748",
+      "data-relevance": "231",
+      "data-term": "128-page",
+      "data-encoded-term": "128-page",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "36748",
+        "w2v",
+        "1"
+      ]
+    },
+    "op-ed": {
+      "data-frequency": "4265",
+      "data-relevance": "230",
+      "data-term": "op-ed",
+      "data-encoded-term": "op-ed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4265",
+        "w2v",
+        "1"
+      ]
+    },
+    "elseworlds": {
+      "data-frequency": "598",
+      "data-relevance": "229",
+      "data-term": "elseworlds",
+      "data-encoded-term": "elseworlds",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "598",
+        "w2v",
+        "1"
+      ]
+    },
+    "spin-off": {
+      "data-frequency": "23600",
+      "data-relevance": "228",
+      "data-term": "spin-off",
+      "data-encoded-term": "spin-off",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23600",
+        "wiki",
+        "1"
+      ]
+    },
+    "978-0-948817-19-9": {
+      "data-frequency": "299",
+      "data-relevance": "227",
+      "data-term": "978-0-948817-19-9",
+      "data-encoded-term": "978-0-948817-19-9",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "299",
+        "w2v",
+        "1"
+      ]
+    },
+    "http://www.pgatour.com": {
+      "data-frequency": "-1",
+      "data-relevance": "226",
+      "data-term": "http://www.pgatour.com",
+      "data-encoded-term": "http%3A%2F%2Fwww.pgatour.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "http://www.seattletimes.com": {
+      "data-frequency": "198",
+      "data-relevance": "225",
+      "data-term": "http://www.seattletimes.com",
+      "data-encoded-term": "http%3A%2F%2Fwww.seattletimes.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "198",
+        "w2v",
+        "1"
+      ]
+    },
+    "year-end": {
+      "data-frequency": "25842",
+      "data-relevance": "224",
+      "data-term": "year-end",
+      "data-encoded-term": "year-end",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "25842",
+        "w2v",
+        "1"
+      ]
+    },
+    "number-one": {
+      "data-frequency": "644230",
+      "data-relevance": "223",
+      "data-term": "number-one",
+      "data-encoded-term": "number-one",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "644230",
+        "w2v",
+        "1"
+      ]
+    },
+    "144-page": {
+      "data-frequency": "30695",
+      "data-relevance": "222",
+      "data-term": "144-page",
+      "data-encoded-term": "144-page",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "30695",
+        "w2v",
+        "1"
+      ]
+    },
+    "mass-market": {
+      "data-frequency": "2795",
+      "data-relevance": "221",
+      "data-term": "mass-market",
+      "data-encoded-term": "mass-market",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2795",
+        "w2v",
+        "1"
+      ]
+    },
+    "0-948817-19-4": {
+      "data-frequency": "671",
+      "data-relevance": "220",
+      "data-term": "0-948817-19-4",
+      "data-encoded-term": "0-948817-19-4",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "671",
+        "w2v",
+        "1"
+      ]
+    },
+    "www.nytimes.com": {
+      "data-frequency": "9394",
+      "data-relevance": "219",
+      "data-term": "www.nytimes.com",
+      "data-encoded-term": "www.nytimes.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9394",
+        "w2v",
+        "1"
+      ]
+    },
+    "english-language": {
+      "data-frequency": "166134",
+      "data-relevance": "218",
+      "data-term": "english-language",
+      "data-encoded-term": "english-language",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "166134",
+        "w2v",
+        "1"
+      ]
+    },
+    "hardbound": {
+      "data-frequency": "356",
+      "data-relevance": "217",
+      "data-term": "hardbound",
+      "data-encoded-term": "hardbound",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "356",
+        "w2v",
+        "1"
+      ]
+    },
+    "biggest-selling": {
+      "data-frequency": "19546",
+      "data-relevance": "216",
+      "data-term": "biggest-selling",
+      "data-encoded-term": "biggest-selling",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19546",
+        "w2v",
+        "1"
+      ]
+    },
+    "front-page": {
+      "data-frequency": "129149",
+      "data-relevance": "215",
+      "data-term": "front-page",
+      "data-encoded-term": "front-page",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "129149",
+        "w2v",
+        "1"
+      ]
+    },
+    "wisdom of solomon": {
+      "data-frequency": "218",
+      "data-relevance": "214",
+      "data-term": "wisdom of solomon",
+      "data-encoded-term": "wisdom%20of%20solomon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "218",
+        "cn5",
+        "1"
+      ]
+    },
+    "many page": {
+      "data-frequency": "-1",
+      "data-relevance": "213",
+      "data-term": "many page",
+      "data-encoded-term": "many%20page",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "book agent": {
+      "data-frequency": "75",
+      "data-relevance": "212",
+      "data-term": "book agent",
+      "data-encoded-term": "book%20agent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "75",
+        "cn5",
+        "1"
+      ]
+    },
+    "canada": {
+      "data-frequency": "512376",
+      "data-relevance": "211",
+      "data-term": "canada",
+      "data-encoded-term": "canada",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "512376",
+        "wiki",
+        "1"
+      ]
+    },
+    "192-page": {
+      "data-frequency": "25139",
+      "data-relevance": "210",
+      "data-term": "192-page",
+      "data-encoded-term": "192-page",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "25139",
+        "w2v",
+        "1"
+      ]
+    },
+    "e book": {
+      "data-frequency": "6427",
+      "data-relevance": "209",
+      "data-term": "e book",
+      "data-encoded-term": "e%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6427",
+        "cn5",
+        "1"
+      ]
+    },
+    "read material": {
+      "data-frequency": "-1",
+      "data-relevance": "208",
+      "data-term": "read material",
+      "data-encoded-term": "read%20material",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "many word": {
+      "data-frequency": "44",
+      "data-relevance": "207",
+      "data-term": "many word",
+      "data-encoded-term": "many%20word",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "book club": {
+      "data-frequency": "3969",
+      "data-relevance": "206",
+      "data-term": "book club",
+      "data-encoded-term": "book%20club",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3969",
+        "cn5",
+        "1"
+      ]
+    },
+    "very rare": {
+      "data-frequency": "7363",
+      "data-relevance": "205",
+      "data-term": "very rare",
+      "data-encoded-term": "very%20rare",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7363",
+        "cn5",
+        "1"
+      ]
+    },
+    "be stain": {
+      "data-frequency": "-1",
+      "data-relevance": "204",
+      "data-term": "be stain",
+      "data-encoded-term": "be%20stain",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "book scorpion": {
+      "data-frequency": "-1",
+      "data-relevance": "203",
+      "data-term": "book scorpion",
+      "data-encoded-term": "book%20scorpion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "non fiction": {
+      "data-frequency": "50927",
+      "data-relevance": "202",
+      "data-term": "non fiction",
+      "data-encoded-term": "non%20fiction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "50927",
+        "cn5",
+        "1"
+      ]
+    },
+    "fun to read": {
+      "data-frequency": "88",
+      "data-relevance": "201",
+      "data-term": "fun to read",
+      "data-encoded-term": "fun%20to%20read",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "88",
+        "cn5",
+        "1"
+      ]
+    },
+    "order book": {
+      "data-frequency": "390",
+      "data-relevance": "200",
+      "data-term": "order book",
+      "data-encoded-term": "order%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "390",
+        "cn5",
+        "1"
+      ]
+    },
+    "kansas city, missouri": {
+      "data-frequency": "8522",
+      "data-relevance": "199",
+      "data-term": "kansas city, missouri",
+      "data-encoded-term": "kansas%20city%2C%20missouri",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8522",
+        "wiki",
+        "1"
+      ]
+    },
+    "book of dead": {
+      "data-frequency": "43",
+      "data-relevance": "198",
+      "data-term": "book of dead",
+      "data-encoded-term": "book%20of%20dead",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "ex libris": {
+      "data-frequency": "643",
+      "data-relevance": "197",
+      "data-term": "ex libris",
+      "data-encoded-term": "ex%20libris",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "643",
+        "cn5",
+        "1"
+      ]
+    },
+    "be tear": {
+      "data-frequency": "-1",
+      "data-relevance": "196",
+      "data-term": "be tear",
+      "data-encoded-term": "be%20tear",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ben sira": {
+      "data-frequency": "105",
+      "data-relevance": "195",
+      "data-term": "ben sira",
+      "data-encoded-term": "ben%20sira",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "bel and dragon": {
+      "data-frequency": "-1",
+      "data-relevance": "194",
+      "data-term": "bel and dragon",
+      "data-encoded-term": "bel%20and%20dragon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "be read": {
+      "data-frequency": "8813",
+      "data-relevance": "193",
+      "data-term": "be read",
+      "data-encoded-term": "be%20read",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8813",
+        "cn5",
+        "1"
+      ]
+    },
+    "book lung": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "book lung",
+      "data-encoded-term": "book%20lung",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "phrase book": {
+      "data-frequency": "146",
+      "data-relevance": "191",
+      "data-term": "phrase book",
+      "data-encoded-term": "phrase%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "146",
+        "cn5",
+        "1"
+      ]
+    },
+    "in library": {
+      "data-frequency": "1708",
+      "data-relevance": "190",
+      "data-term": "in library",
+      "data-encoded-term": "in%20library",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1708",
+        "cn5",
+        "1"
+      ]
+    },
+    "i chronicle": {
+      "data-frequency": "-1",
+      "data-relevance": "189",
+      "data-term": "i chronicle",
+      "data-encoded-term": "i%20chronicle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "double book": {
+      "data-frequency": "-1",
+      "data-relevance": "188",
+      "data-term": "double book",
+      "data-encoded-term": "double%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "resolve dispute": {
+      "data-frequency": "47",
+      "data-relevance": "187",
+      "data-term": "resolve dispute",
+      "data-encoded-term": "resolve%20dispute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "ii chronicle": {
+      "data-frequency": "-1",
+      "data-relevance": "186",
+      "data-term": "ii chronicle",
+      "data-encoded-term": "ii%20chronicle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "publish ibt": {
+      "data-frequency": "-1",
+      "data-relevance": "185",
+      "data-term": "publish ibt",
+      "data-encoded-term": "publish%20ibt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "make from paper": {
+      "data-frequency": "-1",
+      "data-relevance": "184",
+      "data-term": "make from paper",
+      "data-encoded-term": "make%20from%20paper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "publishers weekly": {
+      "data-frequency": "7877",
+      "data-relevance": "183",
+      "data-term": "publishers weekly",
+      "data-encoded-term": "publishers%20weekly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7877",
+        "wiki",
+        "1"
+      ]
+    },
+    "employee handbook": {
+      "data-frequency": "276",
+      "data-relevance": "182",
+      "data-term": "employee handbook",
+      "data-encoded-term": "employee%20handbook",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "276",
+        "cn5",
+        "1"
+      ]
+    },
+    "tally trade": {
+      "data-frequency": "3008",
+      "data-relevance": "181",
+      "data-term": "tally trade",
+      "data-encoded-term": "tally%20trade",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3008",
+        "cn5",
+        "1"
+      ]
+    },
+    "read like book": {
+      "data-frequency": "-1",
+      "data-relevance": "180",
+      "data-term": "read like book",
+      "data-encoded-term": "read%20like%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "report news": {
+      "data-frequency": "385",
+      "data-relevance": "179",
+      "data-term": "report news",
+      "data-encoded-term": "report%20news",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "385",
+        "cn5",
+        "1"
+      ]
+    },
+    "age of enlightenment": {
+      "data-frequency": "2488",
+      "data-relevance": "178",
+      "data-term": "age of enlightenment",
+      "data-encoded-term": "age%20of%20enlightenment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2488",
+        "wiki",
+        "1"
+      ]
+    },
+    "off book": {
+      "data-frequency": "151",
+      "data-relevance": "177",
+      "data-term": "off book",
+      "data-encoded-term": "off%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "151",
+        "cn5",
+        "1"
+      ]
+    },
+    "dutch sandwich": {
+      "data-frequency": "2854",
+      "data-relevance": "176",
+      "data-term": "dutch sandwich",
+      "data-encoded-term": "dutch%20sandwich",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2854",
+        "cn5",
+        "1"
+      ]
+    },
+    "red card": {
+      "data-frequency": "4337",
+      "data-relevance": "175",
+      "data-term": "red card",
+      "data-encoded-term": "red%20card",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4337",
+        "cn5",
+        "1"
+      ]
+    },
+    "document type": {
+      "data-frequency": "184",
+      "data-relevance": "174",
+      "data-term": "document type",
+      "data-encoded-term": "document%20type",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "184",
+        "cn5",
+        "1"
+      ]
+    },
+    "for read": {
+      "data-frequency": "198",
+      "data-relevance": "173",
+      "data-term": "for read",
+      "data-encoded-term": "for%20read",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "198",
+        "cn5",
+        "1"
+      ]
+    },
+    "at library": {
+      "data-frequency": "3937",
+      "data-relevance": "172",
+      "data-term": "at library",
+      "data-encoded-term": "at%20library",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3937",
+        "cn5",
+        "1"
+      ]
+    },
+    "find in library": {
+      "data-frequency": "-1",
+      "data-relevance": "171",
+      "data-term": "find in library",
+      "data-encoded-term": "find%20in%20library",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coffee table book": {
+      "data-frequency": "585",
+      "data-relevance": "170",
+      "data-term": "coffee table book",
+      "data-encoded-term": "coffee%20table%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "585",
+        "cn5",
+        "1"
+      ]
+    },
+    "field guide": {
+      "data-frequency": "24157",
+      "data-relevance": "169",
+      "data-term": "field guide",
+      "data-encoded-term": "field%20guide",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "24157",
+        "cn5",
+        "1"
+      ]
+    },
+    "fore edge": {
+      "data-frequency": "48",
+      "data-relevance": "168",
+      "data-term": "fore edge",
+      "data-encoded-term": "fore%20edge",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "tv guide": {
+      "data-frequency": "12709",
+      "data-relevance": "167",
+      "data-term": "tv guide",
+      "data-encoded-term": "tv%20guide",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12709",
+        "cn5",
+        "1"
+      ]
+    },
+    "vade mecum": {
+      "data-frequency": "202",
+      "data-relevance": "166",
+      "data-term": "vade mecum",
+      "data-encoded-term": "vade%20mecum",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "202",
+        "cn5",
+        "1"
+      ]
+    },
+    "ars moriendi": {
+      "data-frequency": "161",
+      "data-relevance": "165",
+      "data-term": "ars moriendi",
+      "data-encoded-term": "ars%20moriendi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "161",
+        "wiki",
+        "1"
+      ]
+    },
+    "paperback book": {
+      "data-frequency": "402",
+      "data-relevance": "164",
+      "data-term": "paperback book",
+      "data-encoded-term": "paperback%20book",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "402",
+        "cn5",
+        "1"
+      ]
+    },
+    "print paper": {
+      "data-frequency": "91",
+      "data-relevance": "163",
+      "data-term": "print paper",
+      "data-encoded-term": "print%20paper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "91",
+        "cn5",
+        "1"
+      ]
+    },
+    "book fair": {
+      "data-frequency": "4315",
+      "data-relevance": "162",
+      "data-term": "book fair",
+      "data-encoded-term": "book%20fair",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4315",
+        "cn5",
+        "1"
+      ]
+    },
+    "report event": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "report event",
+      "data-encoded-term": "report%20event",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "spiral bind": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "spiral bind",
+      "data-encoded-term": "spiral%20bind",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "book keep": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "book keep",
+      "data-encoded-term": "book%20keep",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "biblia pauperum": {
+      "data-frequency": "166",
+      "data-relevance": "158",
+      "data-term": "biblia pauperum",
+      "data-encoded-term": "biblia%20pauperum",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "166",
+        "wiki",
+        "1"
+      ]
+    },
+    "learn from": {
+      "data-frequency": "6847",
+      "data-relevance": "157",
+      "data-term": "learn from",
+      "data-encoded-term": "learn%20from",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6847",
+        "cn5",
+        "1"
+      ]
+    },
+    "self publish": {
+      "data-frequency": "317",
+      "data-relevance": "156",
+      "data-term": "self publish",
+      "data-encoded-term": "self%20publish",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "317",
+        "cn5",
+        "1"
+      ]
+    },
+    "pass on knowledge": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "pass on knowledge",
+      "data-encoded-term": "pass%20on%20knowledge",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "leaf through": {
+      "data-frequency": "60",
+      "data-relevance": "154",
+      "data-term": "leaf through",
+      "data-encoded-term": "leaf%20through",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "song of song": {
+      "data-frequency": "-1",
+      "data-relevance": "153",
+      "data-term": "song of song",
+      "data-encoded-term": "song%20of%20song",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "moby dick": {
+      "data-frequency": "1920",
+      "data-relevance": "152",
+      "data-term": "moby dick",
+      "data-encoded-term": "moby%20dick",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1920",
+        "cn5",
+        "1"
+      ]
+    },
+    "paper page": {
+      "data-frequency": "-1",
+      "data-relevance": "151",
+      "data-term": "paper page",
+      "data-encoded-term": "paper%20page",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "on shelf": {
+      "data-frequency": "79",
+      "data-relevance": "150",
+      "data-term": "on shelf",
+      "data-encoded-term": "on%20shelf",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "book and magazine": {
+      "data-frequency": "329",
+      "data-relevance": "149",
+      "data-term": "book and magazine",
+      "data-encoded-term": "book%20and%20magazine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "329",
+        "cn5",
+        "1"
+      ]
+    },
+    "yellow card": {
+      "data-frequency": "2805",
+      "data-relevance": "148",
+      "data-term": "yellow card",
+      "data-encoded-term": "yellow%20card",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2805",
+        "cn5",
+        "1"
+      ]
+    },
+    "retailing": {
+      "data-frequency": "4727",
+      "data-relevance": "147",
+      "data-term": "retailing",
+      "data-encoded-term": "retailing",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4727",
+        "wiki",
+        "1"
+      ]
+    },
+    "pilgrim's progress": {
+      "data-frequency": "2513",
+      "data-relevance": "146",
+      "data-term": "pilgrim's progress",
+      "data-encoded-term": "pilgrim's%20progress",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2513",
+        "wiki",
+        "1"
+      ]
+    },
+    "novelist": {
+      "data-frequency": "48805",
+      "data-relevance": "145",
+      "data-term": "novelist",
+      "data-encoded-term": "novelist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "48805",
+        "ol",
+        "1"
+      ]
+    },
+    "foxe's book of martyrs": {
+      "data-frequency": "365",
+      "data-relevance": "144",
+      "data-term": "foxe's book of martyrs",
+      "data-encoded-term": "foxe's%20book%20of%20martyrs",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "365",
+        "wiki",
+        "1"
+      ]
+    },
+    "novelette": {
+      "data-frequency": "1671",
+      "data-relevance": "143",
+      "data-term": "novelette",
+      "data-encoded-term": "novelette",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1671",
+        "ol",
+        "1"
+      ]
+    },
+    "author": {
+      "data-frequency": "318710",
+      "data-relevance": "142",
+      "data-term": "author",
+      "data-encoded-term": "author",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "318710",
+        "ol",
+        "1"
+      ]
+    },
+    "novelisation": {
+      "data-frequency": "804",
+      "data-relevance": "141",
+      "data-term": "novelisation",
+      "data-encoded-term": "novelisation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "804",
+        "ol",
+        "1"
+      ]
+    },
+    "sequel": {
+      "data-frequency": "48550",
+      "data-relevance": "140",
+      "data-term": "sequel",
+      "data-encoded-term": "sequel",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "48550",
+        "ol",
+        "1"
+      ]
+    },
+    "authoress": {
+      "data-frequency": "200",
+      "data-relevance": "139",
+      "data-term": "authoress",
+      "data-encoded-term": "authoress",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "200",
+        "ol",
+        "1"
+      ]
+    },
+    "opus": {
+      "data-frequency": "16067",
+      "data-relevance": "138",
+      "data-term": "opus",
+      "data-encoded-term": "opus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "16067",
+        "ol",
+        "1"
+      ]
+    },
+    "bookstores": {
+      "data-frequency": "2466",
+      "data-relevance": "137",
+      "data-term": "bookstores",
+      "data-encoded-term": "bookstores",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2466",
+        "ol",
+        "1"
+      ]
+    },
+    "treatise": {
+      "data-frequency": "19757",
+      "data-relevance": "136",
+      "data-term": "treatise",
+      "data-encoded-term": "treatise",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "19757",
+        "ol",
+        "1"
+      ]
+    },
+    "cookbook": {
+      "data-frequency": "11063",
+      "data-relevance": "135",
+      "data-term": "cookbook",
+      "data-encoded-term": "cookbook",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "11063",
+        "ol",
+        "1"
+      ]
+    },
+    "thrillers": {
+      "data-frequency": "39194",
+      "data-relevance": "134",
+      "data-term": "thrillers",
+      "data-encoded-term": "thrillers",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "39194",
+        "ol",
+        "1"
+      ]
+    },
+    "doubleday": {
+      "data-frequency": "15612",
+      "data-relevance": "133",
+      "data-term": "doubleday",
+      "data-encoded-term": "doubleday",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15612",
+        "ol",
+        "1"
+      ]
+    },
+    "novelization": {
+      "data-frequency": "2043",
+      "data-relevance": "132",
+      "data-term": "novelization",
+      "data-encoded-term": "novelization",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2043",
+        "ol",
+        "1"
+      ]
+    },
+    "bookshelves": {
+      "data-frequency": "516",
+      "data-relevance": "131",
+      "data-term": "bookshelves",
+      "data-encoded-term": "bookshelves",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "516",
+        "ol",
+        "1"
+      ]
+    },
+    "ebook": {
+      "data-frequency": "9816",
+      "data-relevance": "130",
+      "data-term": "ebook",
+      "data-encoded-term": "ebook",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9816",
+        "ol",
+        "1"
+      ]
+    },
+    "adaptation": {
+      "data-frequency": "67658",
+      "data-relevance": "129",
+      "data-term": "adaptation",
+      "data-encoded-term": "adaptation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "67658",
+        "ol",
+        "1"
+      ]
+    },
+    "trilogy": {
+      "data-frequency": "28814",
+      "data-relevance": "128",
+      "data-term": "trilogy",
+      "data-encoded-term": "trilogy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "28814",
+        "ol",
+        "1"
+      ]
+    },
+    "masterpiece": {
+      "data-frequency": "15480",
+      "data-relevance": "127",
+      "data-term": "masterpiece",
+      "data-encoded-term": "masterpiece",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15480",
+        "ol",
+        "1"
+      ]
+    },
+    "masterwork": {
+      "data-frequency": "1010",
+      "data-relevance": "126",
+      "data-term": "masterwork",
+      "data-encoded-term": "masterwork",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1010",
+        "ol",
+        "1"
+      ]
+    },
+    "literary": {
+      "data-frequency": "119563",
+      "data-relevance": "125",
+      "data-term": "literary",
+      "data-encoded-term": "literary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "119563",
+        "ol",
+        "1"
+      ]
+    },
+    "printings": {
+      "data-frequency": "1671",
+      "data-relevance": "124",
+      "data-term": "printings",
+      "data-encoded-term": "printings",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1671",
+        "ol",
+        "1"
+      ]
+    },
+    "afterword": {
+      "data-frequency": "2653",
+      "data-relevance": "123",
+      "data-term": "afterword",
+      "data-encoded-term": "afterword",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2653",
+        "ol",
+        "1"
+      ]
+    },
+    "coauthor": {
+      "data-frequency": "1432",
+      "data-relevance": "122",
+      "data-term": "coauthor",
+      "data-encoded-term": "coauthor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1432",
+        "ol",
+        "1"
+      ]
+    },
+    "copies": {
+      "data-frequency": "84824",
+      "data-relevance": "121",
+      "data-term": "copies",
+      "data-encoded-term": "copies",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "84824",
+        "ol",
+        "1"
+      ]
+    },
+    "knopf": {
+      "data-frequency": "11736",
+      "data-relevance": "120",
+      "data-term": "knopf",
+      "data-encoded-term": "knopf",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "11736",
+        "ol",
+        "1"
+      ]
+    },
+    "bookshop": {
+      "data-frequency": "4148",
+      "data-relevance": "119",
+      "data-term": "bookshop",
+      "data-encoded-term": "bookshop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4148",
+        "ol",
+        "1"
+      ]
+    },
+    "polemic": {
+      "data-frequency": "2577",
+      "data-relevance": "118",
+      "data-term": "polemic",
+      "data-encoded-term": "polemic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2577",
+        "ol",
+        "1"
+      ]
+    },
+    "illustrator": {
+      "data-frequency": "25987",
+      "data-relevance": "117",
+      "data-term": "illustrator",
+      "data-encoded-term": "illustrator",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "25987",
+        "ol",
+        "1"
+      ]
+    },
+    "phenomenon": {
+      "data-frequency": "38729",
+      "data-relevance": "116",
+      "data-term": "phenomenon",
+      "data-encoded-term": "phenomenon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "38729",
+        "ol",
+        "1"
+      ]
+    },
+    "the adventures of roderick random": {
+      "data-frequency": "123",
+      "data-relevance": "115",
+      "data-term": "the adventures of roderick random",
+      "data-encoded-term": "the%20adventures%20of%20roderick%20random",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "123",
+        "wiki",
+        "1"
+      ]
+    },
+    "robinson crusoe": {
+      "data-frequency": "1618",
+      "data-relevance": "114",
+      "data-term": "robinson crusoe",
+      "data-encoded-term": "robinson%20crusoe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1618",
+        "wiki",
+        "1"
+      ]
+    },
+    "laurence sterne": {
+      "data-frequency": "270",
+      "data-relevance": "113",
+      "data-term": "laurence sterne",
+      "data-encoded-term": "laurence%20sterne",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "270",
+        "wiki",
+        "1"
+      ]
+    },
+    "tristram shandy": {
+      "data-frequency": "349",
+      "data-relevance": "112",
+      "data-term": "tristram shandy",
+      "data-encoded-term": "tristram%20shandy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "349",
+        "wiki",
+        "1"
+      ]
+    },
+    "julie, ou la nouvelle héloïse": {
+      "data-frequency": "-1",
+      "data-relevance": "111",
+      "data-term": "julie, ou la nouvelle héloïse",
+      "data-encoded-term": "julie%2C%20ou%20la%20nouvelle%20h%C3%A9lo%C3%AFse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "soundscan": {
+      "data-frequency": "3144",
+      "data-relevance": "110",
+      "data-term": "soundscan",
+      "data-encoded-term": "soundscan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3144",
+        "wiki",
+        "1"
+      ]
+    },
+    "the sorrows of young werther": {
+      "data-frequency": "152",
+      "data-relevance": "109",
+      "data-term": "the sorrows of young werther",
+      "data-encoded-term": "the%20sorrows%20of%20young%20werther",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "152",
+        "wiki",
+        "1"
+      ]
+    },
+    "johann wolfgang von goethe": {
+      "data-frequency": "1493",
+      "data-relevance": "108",
+      "data-term": "johann wolfgang von goethe",
+      "data-encoded-term": "johann%20wolfgang%20von%20goethe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1493",
+        "wiki",
+        "1"
+      ]
+    },
+    "doorstopper": {
+      "data-frequency": "-1",
+      "data-relevance": "107",
+      "data-term": "doorstopper",
+      "data-encoded-term": "doorstopper",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "angelology": {
+      "data-frequency": "141",
+      "data-relevance": "106",
+      "data-term": "angelology",
+      "data-encoded-term": "angelology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "141",
+        "ol",
+        "1"
+      ]
+    },
+    "alienist": {
+      "data-frequency": "276",
+      "data-relevance": "105",
+      "data-term": "alienist",
+      "data-encoded-term": "alienist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "276",
+        "ol",
+        "1"
+      ]
+    },
+    "backlist": {
+      "data-frequency": "203",
+      "data-relevance": "104",
+      "data-term": "backlist",
+      "data-encoded-term": "backlist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "203",
+        "ol",
+        "1"
+      ]
+    },
+    "bildungsroman": {
+      "data-frequency": "550",
+      "data-relevance": "103",
+      "data-term": "bildungsroman",
+      "data-encoded-term": "bildungsroman",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "550",
+        "ol",
+        "1"
+      ]
+    },
+    "potboiler": {
+      "data-frequency": "237",
+      "data-relevance": "102",
+      "data-term": "potboiler",
+      "data-encoded-term": "potboiler",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "237",
+        "ol",
+        "1"
+      ]
+    },
+    "lovesong": {
+      "data-frequency": "385",
+      "data-relevance": "101",
+      "data-term": "lovesong",
+      "data-encoded-term": "lovesong",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "385",
+        "ol",
+        "1"
+      ]
+    },
+    "pesthouse": {
+      "data-frequency": "42",
+      "data-relevance": "100",
+      "data-term": "pesthouse",
+      "data-encoded-term": "pesthouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "42",
+        "ol",
+        "1"
+      ]
+    },
+    "bottomfeeder": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "bottomfeeder",
+      "data-encoded-term": "bottomfeeder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "carcanet": {
+      "data-frequency": "456",
+      "data-relevance": "98",
+      "data-term": "carcanet",
+      "data-encoded-term": "carcanet",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "456",
+        "ol",
+        "1"
+      ]
+    },
+    "paperbound": {
+      "data-frequency": "82",
+      "data-relevance": "97",
+      "data-term": "paperbound",
+      "data-encoded-term": "paperbound",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "megahit": {
+      "data-frequency": "183",
+      "data-relevance": "96",
+      "data-term": "megahit",
+      "data-encoded-term": "megahit",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "183",
+        "ol",
+        "1"
+      ]
+    },
+    "resurrectionist": {
+      "data-frequency": "80",
+      "data-relevance": "95",
+      "data-term": "resurrectionist",
+      "data-encoded-term": "resurrectionist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "neuromancer": {
+      "data-frequency": "351",
+      "data-relevance": "94",
+      "data-term": "neuromancer",
+      "data-encoded-term": "neuromancer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "351",
+        "ol",
+        "1"
+      ]
+    },
+    "walter scott": {
+      "data-frequency": "3978",
+      "data-relevance": "93",
+      "data-term": "walter scott",
+      "data-encoded-term": "walter%20scott",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3978",
+        "wiki",
+        "1"
+      ]
+    },
+    "costco": {
+      "data-frequency": "1162",
+      "data-relevance": "92",
+      "data-term": "costco",
+      "data-encoded-term": "costco",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1162",
+        "wiki",
+        "1"
+      ]
+    },
+    "mark twain": {
+      "data-frequency": "4823",
+      "data-relevance": "91",
+      "data-term": "mark twain",
+      "data-encoded-term": "mark%20twain",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4823",
+        "wiki",
+        "1"
+      ]
+    },
+    "charles dickens": {
+      "data-frequency": "4921",
+      "data-relevance": "90",
+      "data-term": "charles dickens",
+      "data-encoded-term": "charles%20dickens",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4921",
+        "wiki",
+        "1"
+      ]
+    },
+    "east lynne": {
+      "data-frequency": "3661",
+      "data-relevance": "89",
+      "data-term": "east lynne",
+      "data-encoded-term": "east%20lynne",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3661",
+        "wiki",
+        "1"
+      ]
+    },
+    "professor": {
+      "data-frequency": "285231",
+      "data-relevance": "88",
+      "data-term": "professor",
+      "data-encoded-term": "professor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "285231",
+        "wiki",
+        "1"
+      ]
+    },
+    "uncle tom's cabin": {
+      "data-frequency": "1502",
+      "data-relevance": "87",
+      "data-term": "uncle tom's cabin",
+      "data-encoded-term": "uncle%20tom's%20cabin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1502",
+        "wiki",
+        "1"
+      ]
+    },
+    "geophysics": {
+      "data-frequency": "4723",
+      "data-relevance": "86",
+      "data-term": "geophysics",
+      "data-encoded-term": "geophysics",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4723",
+        "wiki",
+        "1"
+      ]
+    },
+    "ucla": {
+      "data-frequency": "23307",
+      "data-relevance": "85",
+      "data-term": "ucla",
+      "data-encoded-term": "ucla",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "23307",
+        "wiki",
+        "1"
+      ]
+    },
+    "sherlock holmes": {
+      "data-frequency": "5981",
+      "data-relevance": "84",
+      "data-term": "sherlock holmes",
+      "data-encoded-term": "sherlock%20holmes",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "5981",
+        "wiki",
+        "1"
+      ]
+    },
+    "publicity": {
+      "data-frequency": "27743",
+      "data-relevance": "83",
+      "data-term": "publicity",
+      "data-encoded-term": "publicity",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "27743",
+        "wiki",
+        "1"
+      ]
+    },
+    "advertising": {
+      "data-frequency": "64447",
+      "data-relevance": "82",
+      "data-term": "advertising",
+      "data-encoded-term": "advertising",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "64447",
+        "wiki",
+        "1"
+      ]
+    },
+    "united kingdom": {
+      "data-frequency": "466760",
+      "data-relevance": "81",
+      "data-term": "united kingdom",
+      "data-encoded-term": "united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "466760",
+        "wiki",
+        "1"
+      ]
+    },
+    "harry potter": {
+      "data-frequency": "5782",
+      "data-relevance": "80",
+      "data-term": "harry potter",
+      "data-encoded-term": "harry%20potter",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5782",
+        "wiki",
+        "1"
+      ]
+    },
+    "zürich": {
+      "data-frequency": "21277",
+      "data-relevance": "79",
+      "data-term": "zürich",
+      "data-encoded-term": "z%C3%BCrich",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "21277",
+        "wiki",
+        "1"
+      ]
+    },
+    "rule of thumb": {
+      "data-frequency": "1065",
+      "data-relevance": "78",
+      "data-term": "rule of thumb",
+      "data-encoded-term": "rule%20of%20thumb",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1065",
+        "wiki",
+        "1"
+      ]
+    },
+    "swiss": {
+      "data-frequency": "88912",
+      "data-relevance": "77",
+      "data-term": "swiss",
+      "data-encoded-term": "swiss",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "88912",
+        "wiki",
+        "1"
+      ]
+    },
+    "bertelsmann": {
+      "data-frequency": "1342",
+      "data-relevance": "76",
+      "data-term": "bertelsmann",
+      "data-encoded-term": "bertelsmann",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1342",
+        "wiki",
+        "1"
+      ]
+    },
+    "jaws": {
+      "data-frequency": "7470",
+      "data-relevance": "75",
+      "data-term": "jaws",
+      "data-encoded-term": "jaws",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7470",
+        "wiki",
+        "1"
+      ]
+    },
+    "faith healing": {
+      "data-frequency": "6879",
+      "data-relevance": "74",
+      "data-term": "faith healing",
+      "data-encoded-term": "faith%20healing",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "6879",
+        "wiki",
+        "1"
+      ]
+    },
+    "harpercollins": {
+      "data-frequency": "22551",
+      "data-relevance": "73",
+      "data-term": "harpercollins",
+      "data-encoded-term": "harpercollins",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "22551",
+        "wiki",
+        "1"
+      ]
+    },
+    "mass market paperback": {
+      "data-frequency": "1792",
+      "data-relevance": "72",
+      "data-term": "mass market paperback",
+      "data-encoded-term": "mass%20market%20paperback",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1792",
+        "wiki",
+        "1"
+      ]
+    },
+    "zhi gang sha": {
+      "data-frequency": "-1",
+      "data-relevance": "71",
+      "data-term": "zhi gang sha",
+      "data-encoded-term": "zhi%20gang%20sha",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "popular music": {
+      "data-frequency": "17698",
+      "data-relevance": "70",
+      "data-term": "popular music",
+      "data-encoded-term": "popular%20music",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "17698",
+        "wiki",
+        "1"
+      ]
+    },
+    "statistical survey": {
+      "data-frequency": "17451",
+      "data-relevance": "69",
+      "data-term": "statistical survey",
+      "data-encoded-term": "statistical%20survey",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "17451",
+        "wiki",
+        "1"
+      ]
+    },
+    "daphne du maurier": {
+      "data-frequency": "406",
+      "data-relevance": "68",
+      "data-term": "daphne du maurier",
+      "data-encoded-term": "daphne%20du%20maurier",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "406",
+        "ol",
+        "1"
+      ]
+    },
+    "magnum opus": {
+      "data-frequency": "2639",
+      "data-relevance": "67",
+      "data-term": "magnum opus",
+      "data-encoded-term": "magnum%20opus",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2639",
+        "ol",
+        "1"
+      ]
+    },
+    "prix goncourt": {
+      "data-frequency": "575",
+      "data-relevance": "66",
+      "data-term": "prix goncourt",
+      "data-encoded-term": "prix%20goncourt",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "575",
+        "ol",
+        "1"
+      ]
+    },
+    "erica jong": {
+      "data-frequency": "126",
+      "data-relevance": "65",
+      "data-term": "erica jong",
+      "data-encoded-term": "erica%20jong",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "126",
+        "ol",
+        "1"
+      ]
+    },
+    "double bind": {
+      "data-frequency": "3656",
+      "data-relevance": "64",
+      "data-term": "double bind",
+      "data-encoded-term": "double%20bind",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3656",
+        "ol",
+        "1"
+      ]
+    },
+    "nancy mitford": {
+      "data-frequency": "199",
+      "data-relevance": "63",
+      "data-term": "nancy mitford",
+      "data-encoded-term": "nancy%20mitford",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "199",
+        "ol",
+        "1"
+      ]
+    },
+    "philip pullman": {
+      "data-frequency": "1004",
+      "data-relevance": "62",
+      "data-term": "philip pullman",
+      "data-encoded-term": "philip%20pullman",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1004",
+        "ol",
+        "1"
+      ]
+    },
+    "bodice ripper": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "bodice ripper",
+      "data-encoded-term": "bodice%20ripper",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "herman wouk": {
+      "data-frequency": "220",
+      "data-relevance": "60",
+      "data-term": "herman wouk",
+      "data-encoded-term": "herman%20wouk",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "220",
+        "ol",
+        "1"
+      ]
+    },
+    "nevil shute": {
+      "data-frequency": "296",
+      "data-relevance": "59",
+      "data-term": "nevil shute",
+      "data-encoded-term": "nevil%20shute",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "296",
+        "ol",
+        "1"
+      ]
+    },
+    "erich maria remarque": {
+      "data-frequency": "333",
+      "data-relevance": "58",
+      "data-term": "erich maria remarque",
+      "data-encoded-term": "erich%20maria%20remarque",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "333",
+        "ol",
+        "1"
+      ]
+    },
+    "joyce carol oates": {
+      "data-frequency": "811",
+      "data-relevance": "57",
+      "data-term": "joyce carol oates",
+      "data-encoded-term": "joyce%20carol%20oates",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "811",
+        "ol",
+        "1"
+      ]
+    },
+    "philip roth": {
+      "data-frequency": "663",
+      "data-relevance": "56",
+      "data-term": "philip roth",
+      "data-encoded-term": "philip%20roth",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "663",
+        "ol",
+        "1"
+      ]
+    },
+    "true believer": {
+      "data-frequency": "661",
+      "data-relevance": "55",
+      "data-term": "true believer",
+      "data-encoded-term": "true%20believer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "661",
+        "ol",
+        "1"
+      ]
+    },
+    "andre gide": {
+      "data-frequency": "665",
+      "data-relevance": "54",
+      "data-term": "andre gide",
+      "data-encoded-term": "andre%20gide",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "665",
+        "ol",
+        "1"
+      ]
+    },
+    "hard candy": {
+      "data-frequency": "615",
+      "data-relevance": "53",
+      "data-term": "hard candy",
+      "data-encoded-term": "hard%20candy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "615",
+        "ol",
+        "1"
+      ]
+    },
+    "william makepeace thackeray": {
+      "data-frequency": "555",
+      "data-relevance": "52",
+      "data-term": "william makepeace thackeray",
+      "data-encoded-term": "william%20makepeace%20thackeray",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "555",
+        "ol",
+        "1"
+      ]
+    },
+    "stefan zweig": {
+      "data-frequency": "740",
+      "data-relevance": "51",
+      "data-term": "stefan zweig",
+      "data-encoded-term": "stefan%20zweig",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "740",
+        "ol",
+        "1"
+      ]
+    },
+    "das kapital": {
+      "data-frequency": "580",
+      "data-relevance": "50",
+      "data-term": "das kapital",
+      "data-encoded-term": "das%20kapital",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "580",
+        "ol",
+        "1"
+      ]
+    },
+    "muriel spark": {
+      "data-frequency": "225",
+      "data-relevance": "49",
+      "data-term": "muriel spark",
+      "data-encoded-term": "muriel%20spark",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "225",
+        "ol",
+        "1"
+      ]
+    },
+    "yukio mishima": {
+      "data-frequency": "362",
+      "data-relevance": "48",
+      "data-term": "yukio mishima",
+      "data-encoded-term": "yukio%20mishima",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "362",
+        "ol",
+        "1"
+      ]
+    },
+    "chris van allsburg": {
+      "data-frequency": "286",
+      "data-relevance": "47",
+      "data-term": "chris van allsburg",
+      "data-encoded-term": "chris%20van%20allsburg",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "286",
+        "ol",
+        "1"
+      ]
+    },
+    "lucy maud montgomery": {
+      "data-frequency": "210",
+      "data-relevance": "46",
+      "data-term": "lucy maud montgomery",
+      "data-encoded-term": "lucy%20maud%20montgomery",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "210",
+        "ol",
+        "1"
+      ]
+    },
+    "book review": {
+      "data-frequency": "19534",
+      "data-relevance": "45",
+      "data-term": "book review",
+      "data-encoded-term": "book%20review",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "19534",
+        "ol",
+        "1"
+      ]
+    },
+    "gustave flaubert": {
+      "data-frequency": "623",
+      "data-relevance": "44",
+      "data-term": "gustave flaubert",
+      "data-encoded-term": "gustave%20flaubert",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "623",
+        "ol",
+        "1"
+      ]
+    },
+    "tom clancy": {
+      "data-frequency": "3759",
+      "data-relevance": "43",
+      "data-term": "tom clancy",
+      "data-encoded-term": "tom%20clancy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3759",
+        "ol",
+        "1"
+      ]
+    },
+    "de quincey": {
+      "data-frequency": "376",
+      "data-relevance": "42",
+      "data-term": "de quincey",
+      "data-encoded-term": "de%20quincey",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "376",
+        "ol",
+        "1"
+      ]
+    },
+    "arthur koestler": {
+      "data-frequency": "559",
+      "data-relevance": "41",
+      "data-term": "arthur koestler",
+      "data-encoded-term": "arthur%20koestler",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "559",
+        "ol",
+        "1"
+      ]
+    },
+    "kurt vonnegut": {
+      "data-frequency": "1236",
+      "data-relevance": "40",
+      "data-term": "kurt vonnegut",
+      "data-encoded-term": "kurt%20vonnegut",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1236",
+        "ol",
+        "1"
+      ]
+    },
+    "umberto eco": {
+      "data-frequency": "1022",
+      "data-relevance": "39",
+      "data-term": "umberto eco",
+      "data-encoded-term": "umberto%20eco",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1022",
+        "ol",
+        "1"
+      ]
+    },
+    "traveling salesman": {
+      "data-frequency": "810",
+      "data-relevance": "38",
+      "data-term": "traveling salesman",
+      "data-encoded-term": "traveling%20salesman",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "810",
+        "ol",
+        "1"
+      ]
+    },
+    "patricia highsmith": {
+      "data-frequency": "247",
+      "data-relevance": "37",
+      "data-term": "patricia highsmith",
+      "data-encoded-term": "patricia%20highsmith",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "247",
+        "ol",
+        "1"
+      ]
+    },
+    "evelyn waugh": {
+      "data-frequency": "731",
+      "data-relevance": "36",
+      "data-term": "evelyn waugh",
+      "data-encoded-term": "evelyn%20waugh",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "731",
+        "ol",
+        "1"
+      ]
+    },
+    "barbara tuchman": {
+      "data-frequency": "125",
+      "data-relevance": "35",
+      "data-term": "barbara tuchman",
+      "data-encoded-term": "barbara%20tuchman",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "125",
+        "ol",
+        "1"
+      ]
+    },
+    "john le carre": {
+      "data-frequency": "500",
+      "data-relevance": "34",
+      "data-term": "john le carre",
+      "data-encoded-term": "john%20le%20carre",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "500",
+        "ol",
+        "1"
+      ]
+    },
+    "isak dinesen": {
+      "data-frequency": "128",
+      "data-relevance": "33",
+      "data-term": "isak dinesen",
+      "data-encoded-term": "isak%20dinesen",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "128",
+        "ol",
+        "1"
+      ]
+    },
+    "billboard magazine": {
+      "data-frequency": "7357",
+      "data-relevance": "32",
+      "data-term": "billboard magazine",
+      "data-encoded-term": "billboard%20magazine",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "7357",
+        "wiki",
+        "1"
+      ]
+    },
+    "mystery novel": {
+      "data-frequency": "2126",
+      "data-relevance": "31",
+      "data-term": "mystery novel",
+      "data-encoded-term": "mystery%20novel",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2126",
+        "ol",
+        "1"
+      ]
+    },
+    "point of sale": {
+      "data-frequency": "1343",
+      "data-relevance": "30",
+      "data-term": "point of sale",
+      "data-encoded-term": "point%20of%20sale",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1343",
+        "wiki",
+        "1"
+      ]
+    },
+    "cash register": {
+      "data-frequency": "790",
+      "data-relevance": "29",
+      "data-term": "cash register",
+      "data-encoded-term": "cash%20register",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "790",
+        "wiki",
+        "1"
+      ]
+    },
+    "nielsen bookscan": {
+      "data-frequency": "123",
+      "data-relevance": "28",
+      "data-term": "nielsen bookscan",
+      "data-encoded-term": "nielsen%20bookscan",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "123",
+        "wiki",
+        "1"
+      ]
+    },
+    "ingram content group": {
+      "data-frequency": "678",
+      "data-relevance": "27",
+      "data-term": "ingram content group",
+      "data-encoded-term": "ingram%20content%20group",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "678",
+        "wiki",
+        "1"
+      ]
+    },
+    "powell's books": {
+      "data-frequency": "313",
+      "data-relevance": "26",
+      "data-term": "powell's books",
+      "data-encoded-term": "powell's%20books",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "313",
+        "wiki",
+        "1"
+      ]
+    },
+    "independent bookstore": {
+      "data-frequency": "2702",
+      "data-relevance": "25",
+      "data-term": "independent bookstore",
+      "data-encoded-term": "independent%20bookstore",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "2702",
+        "wiki",
+        "1"
+      ]
+    },
+    "small press": {
+      "data-frequency": "232855",
+      "data-relevance": "24",
+      "data-term": "small press",
+      "data-encoded-term": "small%20press",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "232855",
+        "wiki",
+        "1"
+      ]
+    },
+    "borders group": {
+      "data-frequency": "75281",
+      "data-relevance": "23",
+      "data-term": "borders group",
+      "data-encoded-term": "borders%20group",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "75281",
+        "wiki",
+        "1"
+      ]
+    },
+    "complex system": {
+      "data-frequency": "89964",
+      "data-relevance": "22",
+      "data-term": "complex system",
+      "data-encoded-term": "complex%20system",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "89964",
+        "wiki",
+        "1"
+      ]
+    },
+    "didier sornette": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "didier sornette",
+      "data-encoded-term": "didier%20sornette",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "information cascade": {
+      "data-frequency": "8359",
+      "data-relevance": "20",
+      "data-term": "information cascade",
+      "data-encoded-term": "information%20cascade",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "8359",
+        "wiki",
+        "1"
+      ]
+    },
+    "the discipline of market leaders": {
+      "data-frequency": "3216",
+      "data-relevance": "19",
+      "data-term": "the discipline of market leaders",
+      "data-encoded-term": "the%20discipline%20of%20market%20leaders",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3216",
+        "wiki",
+        "1"
+      ]
+    },
+    "penguin random house": {
+      "data-frequency": "5631",
+      "data-relevance": "18",
+      "data-term": "penguin random house",
+      "data-encoded-term": "penguin%20random%20house",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "5631",
+        "wiki",
+        "1"
+      ]
+    },
+    "the new republic": {
+      "data-frequency": "189599",
+      "data-relevance": "17",
+      "data-term": "the new republic",
+      "data-encoded-term": "the%20new%20republic",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "189599",
+        "wiki",
+        "1"
+      ]
+    },
+    "reed elsevier": {
+      "data-frequency": "1076",
+      "data-relevance": "16",
+      "data-term": "reed elsevier",
+      "data-encoded-term": "reed%20elsevier",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1076",
+        "wiki",
+        "1"
+      ]
+    },
+    "diogenes verlag": {
+      "data-frequency": "56",
+      "data-relevance": "15",
+      "data-term": "diogenes verlag",
+      "data-encoded-term": "diogenes%20verlag",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "56",
+        "wiki",
+        "1"
+      ]
+    },
+    "macmillan publishers": {
+      "data-frequency": "14657",
+      "data-relevance": "14",
+      "data-term": "macmillan publishers",
+      "data-encoded-term": "macmillan%20publishers",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "14657",
+        "wiki",
+        "1"
+      ]
+    },
+    "simon & schuster": {
+      "data-frequency": "17856",
+      "data-relevance": "13",
+      "data-term": "simon & schuster",
+      "data-encoded-term": "simon%20%26%20schuster",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "17856",
+        "wiki",
+        "1"
+      ]
+    },
+    "thomson reuters": {
+      "data-frequency": "6498",
+      "data-relevance": "12",
+      "data-term": "thomson reuters",
+      "data-encoded-term": "thomson%20reuters",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "6498",
+        "wiki",
+        "1"
+      ]
+    },
+    "harlequin enterprises": {
+      "data-frequency": "516",
+      "data-relevance": "11",
+      "data-term": "harlequin enterprises",
+      "data-encoded-term": "harlequin%20enterprises",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "516",
+        "wiki",
+        "1"
+      ]
+    },
+    "pearson plc": {
+      "data-frequency": "1276",
+      "data-relevance": "10",
+      "data-term": "pearson plc",
+      "data-encoded-term": "pearson%20plc",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1276",
+        "wiki",
+        "1"
+      ]
+    },
+    "wolters kluwer": {
+      "data-frequency": "990",
+      "data-relevance": "9",
+      "data-term": "wolters kluwer",
+      "data-encoded-term": "wolters%20kluwer",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "990",
+        "wiki",
+        "1"
+      ]
+    },
+    "cinema of the united states": {
+      "data-frequency": "1005",
+      "data-relevance": "8",
+      "data-term": "cinema of the united states",
+      "data-encoded-term": "cinema%20of%20the%20united%20states",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1005",
+        "wiki",
+        "1"
+      ]
+    },
+    "mcgraw hill financial": {
+      "data-frequency": "67",
+      "data-relevance": "7",
+      "data-term": "mcgraw hill financial",
+      "data-encoded-term": "mcgraw%20hill%20financial",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "67",
+        "wiki",
+        "1"
+      ]
+    },
+    "john wiley and sons": {
+      "data-frequency": "3931",
+      "data-relevance": "6",
+      "data-term": "john wiley and sons",
+      "data-encoded-term": "john%20wiley%20and%20sons",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3931",
+        "wiki",
+        "1"
+      ]
+    },
+    "harry potter and the order of the phoenix": {
+      "data-frequency": "829",
+      "data-relevance": "5",
+      "data-term": "harry potter and the order of the phoenix",
+      "data-encoded-term": "harry%20potter%20and%20the%20order%20of%20the%20phoenix",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "829",
+        "wiki",
+        "1"
+      ]
+    },
+    "love story": {
+      "data-frequency": "13811",
+      "data-relevance": "4",
+      "data-term": "love story",
+      "data-encoded-term": "love%20story",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "13811",
+        "wiki",
+        "1"
+      ]
+    },
+    "the exorcist": {
+      "data-frequency": "1337",
+      "data-relevance": "3",
+      "data-term": "the exorcist",
+      "data-encoded-term": "the%20exorcist",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1337",
+        "wiki",
+        "1"
+      ]
+    },
+    "houghton mifflin harcourt": {
+      "data-frequency": "12054",
+      "data-relevance": "2",
+      "data-term": "houghton mifflin harcourt",
+      "data-encoded-term": "houghton%20mifflin%20harcourt",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "12054",
+        "wiki",
+        "1"
+      ]
+    },
+    "the godfather": {
+      "data-frequency": "9417",
+      "data-relevance": "1",
+      "data-term": "the godfather",
+      "data-encoded-term": "the%20godfather",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "9417",
+        "wiki",
+        "1"
+      ]
+    },
+    "hachette book group usa": {
+      "data-frequency": "558",
+      "data-relevance": "0",
+      "data-term": "hachette book group usa",
+      "data-encoded-term": "hachette%20book%20group%20usa",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "558",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "best",
+      "sell",
+      "seller"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "This facial oil is one of its bestsellers.",
+        "ru": "Это масло для лица является одним из его бестселлеров."
+      },
+      {
+        "en": "An accompanying book becomes a bestseller.",
+        "ru": "Сопроводительная книга становится бестселлером."
+      },
+      {
+        "en": "I do not suppose that they are popular bestsellers.",
+        "ru": "Я не думаю, что они являются популярными бестселлерами."
+      },
+      {
+        "en": "His bagless vacuum cleaner soon became a bestseller.",
+        "ru": "Его пылесос без мешка вскоре стал бестселлером."
+      },
+      {
+        "en": "J K Rowling’s ‘Harry Potter’ novels are all bestsellers.",
+        "ru": "Все романы Джоан Роулинг о Гарри Поттере являются бестселлерами."
+      },
+      {
+        "en": "The books are direct and accessible, and they were bestsellers.",
+        "ru": "Книги написаны прямо и доступно, и они стали бестселлерами."
+      },
+      {
+        "en": "It was an international bestseller that was turned into a movie last year.",
+        "ru": "Это был международный бестселлер, который в прошлом году был экранизирован."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "bestsellers"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "sell",
+      "best",
+      "seller"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "novel",
+      "bestsellerdom",
+      "magazine",
+      "megaseller",
+      "mainstream",
+      "bestsellers",
+      "hardcover",
+      "book",
+      "bestselling",
+      "fiction",
+      "sold",
+      "film",
+      "bookseller",
+      "paperback"
+    ]
+  }
+}

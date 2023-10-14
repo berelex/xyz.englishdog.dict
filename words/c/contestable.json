@@ -1,0 +1,3047 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "questionable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/questionable/a/wn/,/c/en/contestable/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/questionable/a/wn",
+          "@type": "Node",
+          "label": "questionable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/questionable"
+        },
+        "end": {
+          "@id": "/c/en/contestable/a/wn",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/contestable"
+        }
+      },
+      "uncontestable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/uncontestable/a/,/c/en/contestable/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/uncontestable/a",
+          "@type": "Node",
+          "label": "uncontestable",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/uncontestable"
+        },
+        "end": {
+          "@id": "/c/en/contestable",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "term": "/c/en/contestable"
+        }
+      },
+      "contested": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contestable/a/,/c/en/contested/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contestable/a",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/contestable"
+        },
+        "end": {
+          "@id": "/c/en/contested",
+          "@type": "Node",
+          "label": "contested",
+          "language": "en",
+          "term": "/c/en/contested"
+        }
+      },
+      "noncontestable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/noncontestable/a/,/c/en/contestable/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/noncontestable/a",
+          "@type": "Node",
+          "label": "noncontestable",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/noncontestable"
+        },
+        "end": {
+          "@id": "/c/en/contestable",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "term": "/c/en/contestable"
+        }
+      },
+      "contestability": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contestability/n/,/c/en/contestable/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contestability/n",
+          "@type": "Node",
+          "label": "contestability",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contestability"
+        },
+        "end": {
+          "@id": "/c/en/contestable",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "term": "/c/en/contestable"
+        }
+      },
+      "incontestable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/incontestable/a/,/c/en/contestable/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/incontestable/a",
+          "@type": "Node",
+          "label": "incontestable",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/incontestable"
+        },
+        "end": {
+          "@id": "/c/en/contestable",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "term": "/c/en/contestable"
+        }
+      },
+      "surmise": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/surmise/v/,/c/en/contestable/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/surmise/v",
+          "@type": "Node",
+          "label": "surmise",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/surmise"
+        },
+        "end": {
+          "@id": "/c/en/contestable",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "term": "/c/en/contestable"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {
+      "disputable": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/contestable/a/wn/,/c/en/disputable/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/contestable/a/wn",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/contestable"
+        },
+        "end": {
+          "@id": "/c/en/disputable/a/wn",
+          "@type": "Node",
+          "label": "disputable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/disputable"
+        }
+      },
+      "shakeable": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/contestable/a/wn/,/c/en/shakeable/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/contestable/a/wn",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/contestable"
+        },
+        "end": {
+          "@id": "/c/en/shakeable/a/wn",
+          "@type": "Node",
+          "label": "shakeable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/shakeable"
+        }
+      },
+      "challengeable": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/challengeable/a/wn/,/c/en/contestable/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/challengeable/a/wn",
+          "@type": "Node",
+          "label": "challengeable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/challengeable"
+        },
+        "end": {
+          "@id": "/c/en/contestable/a/wn",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/contestable"
+        }
+      }
+    },
+    "word_forms": {
+      "contestible": {
+        "@id": "/a/[/r/FormOf/,/c/en/contestible/a/,/c/en/contestable/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contestible/a",
+          "@type": "Node",
+          "label": "contestible",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/contestible"
+        },
+        "end": {
+          "@id": "/c/en/contestable",
+          "@type": "Node",
+          "label": "contestable",
+          "language": "en",
+          "term": "/c/en/contestable"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "dubious": {
+      "data-frequency": "13905",
+      "data-relevance": "195",
+      "data-term": "dubious",
+      "data-encoded-term": "dubious",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13905",
+        "ol",
+        "1"
+      ]
+    },
+    "debatable": {
+      "data-frequency": "2461",
+      "data-relevance": "194",
+      "data-term": "debatable",
+      "data-encoded-term": "debatable",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "2461",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "disputable": {
+      "data-frequency": "315",
+      "data-relevance": "193",
+      "data-term": "disputable",
+      "data-encoded-term": "disputable",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "315",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "challengeable": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "challengeable",
+      "data-encoded-term": "challengeable",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "questionable": {
+      "data-frequency": "10400",
+      "data-relevance": "191",
+      "data-term": "questionable",
+      "data-encoded-term": "questionable",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "10400",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "shakable": {
+      "data-frequency": "-1",
+      "data-relevance": "190",
+      "data-term": "shakable",
+      "data-encoded-term": "shakable",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "shakeable": {
+      "data-frequency": "27007",
+      "data-relevance": "189",
+      "data-term": "shakeable",
+      "data-encoded-term": "shakeable",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "27007",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "uneconomic": {
+      "data-frequency": "875",
+      "data-relevance": "188",
+      "data-term": "uneconomic",
+      "data-encoded-term": "uneconomic",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "875",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "unexceptionable": {
+      "data-frequency": "53",
+      "data-relevance": "187",
+      "data-term": "unexceptionable",
+      "data-encoded-term": "unexceptionable",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "53",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "predicable": {
+      "data-frequency": "-1",
+      "data-relevance": "186",
+      "data-term": "predicable",
+      "data-encoded-term": "predicable",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "-1",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "inviable": {
+      "data-frequency": "67",
+      "data-relevance": "185",
+      "data-term": "inviable",
+      "data-encoded-term": "inviable",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "67",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "wiktionary": {
+      "data-frequency": "60169",
+      "data-relevance": "184",
+      "data-term": "wiktionary",
+      "data-encoded-term": "wiktionary",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "60169",
+        "wiki",
+        "1"
+      ]
+    },
+    "unviable": {
+      "data-frequency": "516",
+      "data-relevance": "183",
+      "data-term": "unviable",
+      "data-encoded-term": "unviable",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "516",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "organizationally": {
+      "data-frequency": "382307",
+      "data-relevance": "182",
+      "data-term": "organizationally",
+      "data-encoded-term": "organizationally",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "382307",
+        "w2v",
+        "1"
+      ]
+    },
+    "uncontroversial": {
+      "data-frequency": "559",
+      "data-relevance": "181",
+      "data-term": "uncontroversial",
+      "data-encoded-term": "uncontroversial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "559",
+        "w2v",
+        "1"
+      ]
+    },
+    "calculable": {
+      "data-frequency": "161",
+      "data-relevance": "180",
+      "data-term": "calculable",
+      "data-encoded-term": "calculable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "161",
+        "w2v",
+        "1"
+      ]
+    },
+    "pictorially": {
+      "data-frequency": "14351",
+      "data-relevance": "179",
+      "data-term": "pictorially",
+      "data-encoded-term": "pictorially",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14351",
+        "w2v",
+        "1"
+      ]
+    },
+    "valueless": {
+      "data-frequency": "292",
+      "data-relevance": "178",
+      "data-term": "valueless",
+      "data-encoded-term": "valueless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "292",
+        "w2v",
+        "1"
+      ]
+    },
+    "congruous": {
+      "data-frequency": "97",
+      "data-relevance": "177",
+      "data-term": "congruous",
+      "data-encoded-term": "congruous",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "97",
+        "w2v",
+        "1"
+      ]
+    },
+    "maximally": {
+      "data-frequency": "5352",
+      "data-relevance": "176",
+      "data-term": "maximally",
+      "data-encoded-term": "maximally",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5352",
+        "w2v",
+        "1"
+      ]
+    },
+    "indigestible": {
+      "data-frequency": "334",
+      "data-relevance": "175",
+      "data-term": "indigestible",
+      "data-encoded-term": "indigestible",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "334",
+        "w2v",
+        "1"
+      ]
+    },
+    "ony": {
+      "data-frequency": "234",
+      "data-relevance": "174",
+      "data-term": "ony",
+      "data-encoded-term": "ony",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "234",
+        "w2v",
+        "1"
+      ]
+    },
+    "unobjectionable": {
+      "data-frequency": "126",
+      "data-relevance": "173",
+      "data-term": "unobjectionable",
+      "data-encoded-term": "unobjectionable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "topsails": {
+      "data-frequency": "126",
+      "data-relevance": "172",
+      "data-term": "topsails",
+      "data-encoded-term": "topsails",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "unpleasing": {
+      "data-frequency": "66",
+      "data-relevance": "171",
+      "data-term": "unpleasing",
+      "data-encoded-term": "unpleasing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "66",
+        "w2v",
+        "1"
+      ]
+    },
+    "conformations": {
+      "data-frequency": "749",
+      "data-relevance": "170",
+      "data-term": "conformations",
+      "data-encoded-term": "conformations",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "749",
+        "w2v",
+        "1"
+      ]
+    },
+    "temptingly": {
+      "data-frequency": "-1",
+      "data-relevance": "169",
+      "data-term": "temptingly",
+      "data-encoded-term": "temptingly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "inexpedient": {
+      "data-frequency": "113",
+      "data-relevance": "168",
+      "data-term": "inexpedient",
+      "data-encoded-term": "inexpedient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "113",
+        "w2v",
+        "1"
+      ]
+    },
+    "insubstantial": {
+      "data-frequency": "475",
+      "data-relevance": "167",
+      "data-term": "insubstantial",
+      "data-encoded-term": "insubstantial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "475",
+        "w2v",
+        "1"
+      ]
+    },
+    "moot": {
+      "data-frequency": "3101",
+      "data-relevance": "166",
+      "data-term": "moot",
+      "data-encoded-term": "moot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3101",
+        "ol",
+        "1"
+      ]
+    },
+    "salable": {
+      "data-frequency": "162",
+      "data-relevance": "165",
+      "data-term": "salable",
+      "data-encoded-term": "salable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "162",
+        "w2v",
+        "1"
+      ]
+    },
+    "cerebrally": {
+      "data-frequency": "10390",
+      "data-relevance": "164",
+      "data-term": "cerebrally",
+      "data-encoded-term": "cerebrally",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10390",
+        "w2v",
+        "1"
+      ]
+    },
+    "decontrolled": {
+      "data-frequency": "124",
+      "data-relevance": "163",
+      "data-term": "decontrolled",
+      "data-encoded-term": "decontrolled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "124",
+        "w2v",
+        "1"
+      ]
+    },
+    "auditable": {
+      "data-frequency": "99",
+      "data-relevance": "162",
+      "data-term": "auditable",
+      "data-encoded-term": "auditable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "99",
+        "w2v",
+        "1"
+      ]
+    },
+    "recomputed": {
+      "data-frequency": "146",
+      "data-relevance": "161",
+      "data-term": "recomputed",
+      "data-encoded-term": "recomputed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "146",
+        "w2v",
+        "1"
+      ]
+    },
+    "through-composed": {
+      "data-frequency": "79086",
+      "data-relevance": "160",
+      "data-term": "through-composed",
+      "data-encoded-term": "through-composed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79086",
+        "w2v",
+        "1"
+      ]
+    },
+    "crystallites": {
+      "data-frequency": "150",
+      "data-relevance": "159",
+      "data-term": "crystallites",
+      "data-encoded-term": "crystallites",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "atmospherically": {
+      "data-frequency": "23357",
+      "data-relevance": "158",
+      "data-term": "atmospherically",
+      "data-encoded-term": "atmospherically",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23357",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-viable": {
+      "data-frequency": "221",
+      "data-relevance": "157",
+      "data-term": "non-viable",
+      "data-encoded-term": "non-viable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "221",
+        "w2v",
+        "1"
+      ]
+    },
+    "curently": {
+      "data-frequency": "2",
+      "data-relevance": "156",
+      "data-term": "curently",
+      "data-encoded-term": "curently",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2",
+        "w2v",
+        "1"
+      ]
+    },
+    "arguable": {
+      "data-frequency": "665",
+      "data-relevance": "155",
+      "data-term": "arguable",
+      "data-encoded-term": "arguable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "665",
+        "ol",
+        "1"
+      ]
+    },
+    "quadratically": {
+      "data-frequency": "3157",
+      "data-relevance": "154",
+      "data-term": "quadratically",
+      "data-encoded-term": "quadratically",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3157",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonfunctional": {
+      "data-frequency": "495",
+      "data-relevance": "153",
+      "data-term": "nonfunctional",
+      "data-encoded-term": "nonfunctional",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "495",
+        "w2v",
+        "1"
+      ]
+    },
+    "formula_113": {
+      "data-frequency": "-1",
+      "data-relevance": "152",
+      "data-term": "formula_113",
+      "data-encoded-term": "formula_113",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "irrelevent": {
+      "data-frequency": "-1",
+      "data-relevance": "151",
+      "data-term": "irrelevent",
+      "data-encoded-term": "irrelevent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "microelectrodes": {
+      "data-frequency": "72",
+      "data-relevance": "150",
+      "data-term": "microelectrodes",
+      "data-encoded-term": "microelectrodes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "72",
+        "w2v",
+        "1"
+      ]
+    },
+    "magnificient": {
+      "data-frequency": "44",
+      "data-relevance": "149",
+      "data-term": "magnificient",
+      "data-encoded-term": "magnificient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "competely": {
+      "data-frequency": "284699",
+      "data-relevance": "148",
+      "data-term": "competely",
+      "data-encoded-term": "competely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "284699",
+        "w2v",
+        "1"
+      ]
+    },
+    "metrically": {
+      "data-frequency": "2080",
+      "data-relevance": "147",
+      "data-term": "metrically",
+      "data-encoded-term": "metrically",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2080",
+        "w2v",
+        "1"
+      ]
+    },
+    "crosslinked": {
+      "data-frequency": "257",
+      "data-relevance": "146",
+      "data-term": "crosslinked",
+      "data-encoded-term": "crosslinked",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "257",
+        "w2v",
+        "1"
+      ]
+    },
+    "averagely": {
+      "data-frequency": "118",
+      "data-relevance": "145",
+      "data-term": "averagely",
+      "data-encoded-term": "averagely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "118",
+        "w2v",
+        "1"
+      ]
+    },
+    "realizable": {
+      "data-frequency": "256",
+      "data-relevance": "144",
+      "data-term": "realizable",
+      "data-encoded-term": "realizable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "256",
+        "w2v",
+        "1"
+      ]
+    },
+    "performable": {
+      "data-frequency": "102",
+      "data-relevance": "143",
+      "data-term": "performable",
+      "data-encoded-term": "performable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "102",
+        "w2v",
+        "1"
+      ]
+    },
+    "more-or-less": {
+      "data-frequency": "221292",
+      "data-relevance": "142",
+      "data-term": "more-or-less",
+      "data-encoded-term": "more-or-less",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "221292",
+        "w2v",
+        "1"
+      ]
+    },
+    "illogically": {
+      "data-frequency": "1536",
+      "data-relevance": "141",
+      "data-term": "illogically",
+      "data-encoded-term": "illogically",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1536",
+        "w2v",
+        "1"
+      ]
+    },
+    "undependable": {
+      "data-frequency": "82",
+      "data-relevance": "140",
+      "data-term": "undependable",
+      "data-encoded-term": "undependable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82",
+        "w2v",
+        "1"
+      ]
+    },
+    "blueprinted": {
+      "data-frequency": "8928",
+      "data-relevance": "139",
+      "data-term": "blueprinted",
+      "data-encoded-term": "blueprinted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8928",
+        "w2v",
+        "1"
+      ]
+    },
+    "confoundingly": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "confoundingly",
+      "data-encoded-term": "confoundingly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "declasse": {
+      "data-frequency": "66",
+      "data-relevance": "137",
+      "data-term": "declasse",
+      "data-encoded-term": "declasse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66",
+        "w2v",
+        "1"
+      ]
+    },
+    "preassembled": {
+      "data-frequency": "53",
+      "data-relevance": "136",
+      "data-term": "preassembled",
+      "data-encoded-term": "preassembled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "w2v",
+        "1"
+      ]
+    },
+    "well-characterized": {
+      "data-frequency": "37387",
+      "data-relevance": "135",
+      "data-term": "well-characterized",
+      "data-encoded-term": "well-characterized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37387",
+        "w2v",
+        "1"
+      ]
+    },
+    "insignificantly": {
+      "data-frequency": "4424",
+      "data-relevance": "134",
+      "data-term": "insignificantly",
+      "data-encoded-term": "insignificantly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4424",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonviable": {
+      "data-frequency": "116",
+      "data-relevance": "133",
+      "data-term": "nonviable",
+      "data-encoded-term": "nonviable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "116",
+        "w2v",
+        "1"
+      ]
+    },
+    "interpenetrating": {
+      "data-frequency": "389",
+      "data-relevance": "132",
+      "data-term": "interpenetrating",
+      "data-encoded-term": "interpenetrating",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "389",
+        "w2v",
+        "1"
+      ]
+    },
+    "supercharges": {
+      "data-frequency": "374",
+      "data-relevance": "131",
+      "data-term": "supercharges",
+      "data-encoded-term": "supercharges",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "374",
+        "w2v",
+        "1"
+      ]
+    },
+    "contributive": {
+      "data-frequency": "186328",
+      "data-relevance": "130",
+      "data-term": "contributive",
+      "data-encoded-term": "contributive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "186328",
+        "w2v",
+        "1"
+      ]
+    },
+    "prospectively": {
+      "data-frequency": "14748",
+      "data-relevance": "129",
+      "data-term": "prospectively",
+      "data-encoded-term": "prospectively",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14748",
+        "w2v",
+        "1"
+      ]
+    },
+    "2,641": {
+      "data-frequency": "18089",
+      "data-relevance": "128",
+      "data-term": "2,641",
+      "data-encoded-term": "2%2C641",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18089",
+        "w2v",
+        "1"
+      ]
+    },
+    "organisationally": {
+      "data-frequency": "150105",
+      "data-relevance": "127",
+      "data-term": "organisationally",
+      "data-encoded-term": "organisationally",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "150105",
+        "w2v",
+        "1"
+      ]
+    },
+    "third-lowest": {
+      "data-frequency": "28279",
+      "data-relevance": "126",
+      "data-term": "third-lowest",
+      "data-encoded-term": "third-lowest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28279",
+        "w2v",
+        "1"
+      ]
+    },
+    "formula_112": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "formula_112",
+      "data-encoded-term": "formula_112",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "riskless": {
+      "data-frequency": "59",
+      "data-relevance": "124",
+      "data-term": "riskless",
+      "data-encoded-term": "riskless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59",
+        "w2v",
+        "1"
+      ]
+    },
+    "problematic": {
+      "data-frequency": "13645",
+      "data-relevance": "123",
+      "data-term": "problematic",
+      "data-encoded-term": "problematic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13645",
+        "ol",
+        "1"
+      ]
+    },
+    "schematically": {
+      "data-frequency": "6113",
+      "data-relevance": "122",
+      "data-term": "schematically",
+      "data-encoded-term": "schematically",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6113",
+        "w2v",
+        "1"
+      ]
+    },
+    "wavefunctions": {
+      "data-frequency": "548",
+      "data-relevance": "121",
+      "data-term": "wavefunctions",
+      "data-encoded-term": "wavefunctions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "548",
+        "w2v",
+        "1"
+      ]
+    },
+    "corporatized": {
+      "data-frequency": "52",
+      "data-relevance": "120",
+      "data-term": "corporatized",
+      "data-encoded-term": "corporatized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52",
+        "w2v",
+        "1"
+      ]
+    },
+    "25-32": {
+      "data-frequency": "374766",
+      "data-relevance": "119",
+      "data-term": "25-32",
+      "data-encoded-term": "25-32",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "374766",
+        "w2v",
+        "1"
+      ]
+    },
+    "stably": {
+      "data-frequency": "71840",
+      "data-relevance": "118",
+      "data-term": "stably",
+      "data-encoded-term": "stably",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71840",
+        "w2v",
+        "1"
+      ]
+    },
+    "well-covered": {
+      "data-frequency": "215535",
+      "data-relevance": "117",
+      "data-term": "well-covered",
+      "data-encoded-term": "well-covered",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "215535",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-controversial": {
+      "data-frequency": "26695",
+      "data-relevance": "116",
+      "data-term": "non-controversial",
+      "data-encoded-term": "non-controversial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26695",
+        "w2v",
+        "1"
+      ]
+    },
+    "half-completed": {
+      "data-frequency": "115255",
+      "data-relevance": "115",
+      "data-term": "half-completed",
+      "data-encoded-term": "half-completed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "115255",
+        "w2v",
+        "1"
+      ]
+    },
+    "stereocenters": {
+      "data-frequency": "180",
+      "data-relevance": "114",
+      "data-term": "stereocenters",
+      "data-encoded-term": "stereocenters",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "180",
+        "w2v",
+        "1"
+      ]
+    },
+    "inexistent": {
+      "data-frequency": "68",
+      "data-relevance": "113",
+      "data-term": "inexistent",
+      "data-encoded-term": "inexistent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68",
+        "w2v",
+        "1"
+      ]
+    },
+    "cross-linked": {
+      "data-frequency": "550",
+      "data-relevance": "112",
+      "data-term": "cross-linked",
+      "data-encoded-term": "cross-linked",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "550",
+        "w2v",
+        "1"
+      ]
+    },
+    "dispensable": {
+      "data-frequency": "311",
+      "data-relevance": "111",
+      "data-term": "dispensable",
+      "data-encoded-term": "dispensable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "311",
+        "w2v",
+        "1"
+      ]
+    },
+    "unrepealed": {
+      "data-frequency": "89",
+      "data-relevance": "110",
+      "data-term": "unrepealed",
+      "data-encoded-term": "unrepealed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89",
+        "w2v",
+        "1"
+      ]
+    },
+    "hard-wearing": {
+      "data-frequency": "11662",
+      "data-relevance": "109",
+      "data-term": "hard-wearing",
+      "data-encoded-term": "hard-wearing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11662",
+        "w2v",
+        "1"
+      ]
+    },
+    "negligibly": {
+      "data-frequency": "5786",
+      "data-relevance": "108",
+      "data-term": "negligibly",
+      "data-encoded-term": "negligibly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5786",
+        "w2v",
+        "1"
+      ]
+    },
+    "finer-grained": {
+      "data-frequency": "165",
+      "data-relevance": "107",
+      "data-term": "finer-grained",
+      "data-encoded-term": "finer-grained",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "165",
+        "w2v",
+        "1"
+      ]
+    },
+    "miniscule": {
+      "data-frequency": "118",
+      "data-relevance": "106",
+      "data-term": "miniscule",
+      "data-encoded-term": "miniscule",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "118",
+        "w2v",
+        "1"
+      ]
+    },
+    "redundantly": {
+      "data-frequency": "11919",
+      "data-relevance": "105",
+      "data-term": "redundantly",
+      "data-encoded-term": "redundantly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11919",
+        "w2v",
+        "1"
+      ]
+    },
+    "jettied": {
+      "data-frequency": "4697",
+      "data-relevance": "104",
+      "data-term": "jettied",
+      "data-encoded-term": "jettied",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4697",
+        "w2v",
+        "1"
+      ]
+    },
+    "manipulable": {
+      "data-frequency": "94",
+      "data-relevance": "103",
+      "data-term": "manipulable",
+      "data-encoded-term": "manipulable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "94",
+        "w2v",
+        "1"
+      ]
+    },
+    "shemami": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "shemami",
+      "data-encoded-term": "shemami",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-funding": {
+      "data-frequency": "243",
+      "data-relevance": "101",
+      "data-term": "self-funding",
+      "data-encoded-term": "self-funding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "243",
+        "w2v",
+        "1"
+      ]
+    },
+    "contentious": {
+      "data-frequency": "110211",
+      "data-relevance": "100",
+      "data-term": "contentious",
+      "data-encoded-term": "contentious",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "110211",
+        "ol",
+        "1"
+      ]
+    },
+    "parylene": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "parylene",
+      "data-encoded-term": "parylene",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "themsleves": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "themsleves",
+      "data-encoded-term": "themsleves",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "glass-like": {
+      "data-frequency": "37933",
+      "data-relevance": "97",
+      "data-term": "glass-like",
+      "data-encoded-term": "glass-like",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37933",
+        "w2v",
+        "1"
+      ]
+    },
+    "generationally": {
+      "data-frequency": "48",
+      "data-relevance": "96",
+      "data-term": "generationally",
+      "data-encoded-term": "generationally",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "48",
+        "w2v",
+        "1"
+      ]
+    },
+    "refigured": {
+      "data-frequency": "164",
+      "data-relevance": "95",
+      "data-term": "refigured",
+      "data-encoded-term": "refigured",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "164",
+        "w2v",
+        "1"
+      ]
+    },
+    "controversial": {
+      "data-frequency": "75670",
+      "data-relevance": "94",
+      "data-term": "controversial",
+      "data-encoded-term": "controversial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "75670",
+        "ol",
+        "1"
+      ]
+    },
+    "uncharacterized": {
+      "data-frequency": "377",
+      "data-relevance": "93",
+      "data-term": "uncharacterized",
+      "data-encoded-term": "uncharacterized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "377",
+        "w2v",
+        "1"
+      ]
+    },
+    "trimeric": {
+      "data-frequency": "241",
+      "data-relevance": "92",
+      "data-term": "trimeric",
+      "data-encoded-term": "trimeric",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "241",
+        "w2v",
+        "1"
+      ]
+    },
+    "ahobilam": {
+      "data-frequency": "205",
+      "data-relevance": "91",
+      "data-term": "ahobilam",
+      "data-encoded-term": "ahobilam",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "205",
+        "w2v",
+        "1"
+      ]
+    },
+    "permuted": {
+      "data-frequency": "573",
+      "data-relevance": "90",
+      "data-term": "permuted",
+      "data-encoded-term": "permuted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "573",
+        "w2v",
+        "1"
+      ]
+    },
+    "52-52": {
+      "data-frequency": "505348",
+      "data-relevance": "89",
+      "data-term": "52-52",
+      "data-encoded-term": "52-52",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "505348",
+        "w2v",
+        "1"
+      ]
+    },
+    "unadventurous": {
+      "data-frequency": "103",
+      "data-relevance": "88",
+      "data-term": "unadventurous",
+      "data-encoded-term": "unadventurous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "103",
+        "w2v",
+        "1"
+      ]
+    },
+    "fibrations": {
+      "data-frequency": "10429",
+      "data-relevance": "87",
+      "data-term": "fibrations",
+      "data-encoded-term": "fibrations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10429",
+        "w2v",
+        "1"
+      ]
+    },
+    "formula_152": {
+      "data-frequency": "-1",
+      "data-relevance": "86",
+      "data-term": "formula_152",
+      "data-encoded-term": "formula_152",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "doubtful": {
+      "data-frequency": "7031",
+      "data-relevance": "85",
+      "data-term": "doubtful",
+      "data-encoded-term": "doubtful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7031",
+        "ol",
+        "1"
+      ]
+    },
+    "smoothened": {
+      "data-frequency": "186",
+      "data-relevance": "84",
+      "data-term": "smoothened",
+      "data-encoded-term": "smoothened",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "186",
+        "w2v",
+        "1"
+      ]
+    },
+    "pspp": {
+      "data-frequency": "182",
+      "data-relevance": "83",
+      "data-term": "pspp",
+      "data-encoded-term": "pspp",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "182",
+        "w2v",
+        "1"
+      ]
+    },
+    "naturalistically": {
+      "data-frequency": "3375",
+      "data-relevance": "82",
+      "data-term": "naturalistically",
+      "data-encoded-term": "naturalistically",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3375",
+        "w2v",
+        "1"
+      ]
+    },
+    "competition": {
+      "data-frequency": "371981",
+      "data-relevance": "81",
+      "data-term": "competition",
+      "data-encoded-term": "competition",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "371981",
+        "ol",
+        "1"
+      ]
+    },
+    "disputed": {
+      "data-frequency": "49737",
+      "data-relevance": "80",
+      "data-term": "disputed",
+      "data-encoded-term": "disputed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49737",
+        "ol",
+        "1"
+      ]
+    },
+    "objectionable": {
+      "data-frequency": "1930",
+      "data-relevance": "79",
+      "data-term": "objectionable",
+      "data-encoded-term": "objectionable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1930",
+        "ol",
+        "1"
+      ]
+    },
+    "accessible": {
+      "data-frequency": "69827",
+      "data-relevance": "78",
+      "data-term": "accessible",
+      "data-encoded-term": "accessible",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69827",
+        "ol",
+        "1"
+      ]
+    },
+    "supportable": {
+      "data-frequency": "130",
+      "data-relevance": "77",
+      "data-term": "supportable",
+      "data-encoded-term": "supportable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "130",
+        "ol",
+        "1"
+      ]
+    },
+    "tenable": {
+      "data-frequency": "489",
+      "data-relevance": "76",
+      "data-term": "tenable",
+      "data-encoded-term": "tenable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "489",
+        "ol",
+        "1"
+      ]
+    },
+    "credible": {
+      "data-frequency": "8888",
+      "data-relevance": "75",
+      "data-term": "credible",
+      "data-encoded-term": "credible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8888",
+        "ol",
+        "1"
+      ]
+    },
+    "plausible": {
+      "data-frequency": "6324",
+      "data-relevance": "74",
+      "data-term": "plausible",
+      "data-encoded-term": "plausible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6324",
+        "ol",
+        "1"
+      ]
+    },
+    "factual": {
+      "data-frequency": "18033",
+      "data-relevance": "73",
+      "data-term": "factual",
+      "data-encoded-term": "factual",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18033",
+        "ol",
+        "1"
+      ]
+    },
+    "justifiable": {
+      "data-frequency": "1644",
+      "data-relevance": "72",
+      "data-term": "justifiable",
+      "data-encoded-term": "justifiable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1644",
+        "ol",
+        "1"
+      ]
+    },
+    "conjectural": {
+      "data-frequency": "817",
+      "data-relevance": "71",
+      "data-term": "conjectural",
+      "data-encoded-term": "conjectural",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "817",
+        "ol",
+        "1"
+      ]
+    },
+    "testable": {
+      "data-frequency": "553",
+      "data-relevance": "70",
+      "data-term": "testable",
+      "data-encoded-term": "testable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "553",
+        "ol",
+        "1"
+      ]
+    },
+    "reasonable": {
+      "data-frequency": "23255",
+      "data-relevance": "69",
+      "data-term": "reasonable",
+      "data-encoded-term": "reasonable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23255",
+        "ol",
+        "1"
+      ]
+    },
+    "untenable": {
+      "data-frequency": "2395",
+      "data-relevance": "68",
+      "data-term": "untenable",
+      "data-encoded-term": "untenable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2395",
+        "ol",
+        "1"
+      ]
+    },
+    "problematical": {
+      "data-frequency": "266",
+      "data-relevance": "67",
+      "data-term": "problematical",
+      "data-encoded-term": "problematical",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "266",
+        "ol",
+        "1"
+      ]
+    },
+    "incontrovertible": {
+      "data-frequency": "314",
+      "data-relevance": "66",
+      "data-term": "incontrovertible",
+      "data-encoded-term": "incontrovertible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "314",
+        "ol",
+        "1"
+      ]
+    },
+    "antipodal": {
+      "data-frequency": "269",
+      "data-relevance": "65",
+      "data-term": "antipodal",
+      "data-encoded-term": "antipodal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "269",
+        "ol",
+        "1"
+      ]
+    },
+    "feasible": {
+      "data-frequency": "9469",
+      "data-relevance": "64",
+      "data-term": "feasible",
+      "data-encoded-term": "feasible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9469",
+        "ol",
+        "1"
+      ]
+    },
+    "vexatious": {
+      "data-frequency": "442",
+      "data-relevance": "63",
+      "data-term": "vexatious",
+      "data-encoded-term": "vexatious",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "442",
+        "ol",
+        "1"
+      ]
+    },
+    "contributory": {
+      "data-frequency": "1364",
+      "data-relevance": "62",
+      "data-term": "contributory",
+      "data-encoded-term": "contributory",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1364",
+        "ol",
+        "1"
+      ]
+    },
+    "rational": {
+      "data-frequency": "15608",
+      "data-relevance": "61",
+      "data-term": "rational",
+      "data-encoded-term": "rational",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "15608",
+        "ol",
+        "1"
+      ]
+    },
+    "equitable": {
+      "data-frequency": "5951",
+      "data-relevance": "60",
+      "data-term": "equitable",
+      "data-encoded-term": "equitable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5951",
+        "ol",
+        "1"
+      ]
+    },
+    "unes": {
+      "data-frequency": "27467",
+      "data-relevance": "59",
+      "data-term": "unes",
+      "data-encoded-term": "unes",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "27467",
+        "ol",
+        "1"
+      ]
+    },
+    "remunerated": {
+      "data-frequency": "3008",
+      "data-relevance": "58",
+      "data-term": "remunerated",
+      "data-encoded-term": "remunerated",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3008",
+        "ol",
+        "1"
+      ]
+    },
+    "unpalatable": {
+      "data-frequency": "813",
+      "data-relevance": "57",
+      "data-term": "unpalatable",
+      "data-encoded-term": "unpalatable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "813",
+        "ol",
+        "1"
+      ]
+    },
+    "competitive": {
+      "data-frequency": "66583",
+      "data-relevance": "56",
+      "data-term": "competitive",
+      "data-encoded-term": "competitive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "66583",
+        "ol",
+        "1"
+      ]
+    },
+    "gazetted": {
+      "data-frequency": "4636",
+      "data-relevance": "55",
+      "data-term": "gazetted",
+      "data-encoded-term": "gazetted",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4636",
+        "ol",
+        "1"
+      ]
+    },
+    "maori": {
+      "data-frequency": "14135",
+      "data-relevance": "54",
+      "data-term": "maori",
+      "data-encoded-term": "maori",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14135",
+        "ol",
+        "1"
+      ]
+    },
+    "subjective": {
+      "data-frequency": "13276",
+      "data-relevance": "53",
+      "data-term": "subjective",
+      "data-encoded-term": "subjective",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13276",
+        "ol",
+        "1"
+      ]
+    },
+    "viable": {
+      "data-frequency": "19308",
+      "data-relevance": "52",
+      "data-term": "viable",
+      "data-encoded-term": "viable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19308",
+        "ol",
+        "1"
+      ]
+    },
+    "decentralized": {
+      "data-frequency": "4106",
+      "data-relevance": "51",
+      "data-term": "decentralized",
+      "data-encoded-term": "decentralized",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4106",
+        "ol",
+        "1"
+      ]
+    },
+    "inshore": {
+      "data-frequency": "3839",
+      "data-relevance": "50",
+      "data-term": "inshore",
+      "data-encoded-term": "inshore",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3839",
+        "ol",
+        "1"
+      ]
+    },
+    "disjunct": {
+      "data-frequency": "1261",
+      "data-relevance": "49",
+      "data-term": "disjunct",
+      "data-encoded-term": "disjunct",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1261",
+        "ol",
+        "1"
+      ]
+    },
+    "sensible": {
+      "data-frequency": "5952",
+      "data-relevance": "48",
+      "data-term": "sensible",
+      "data-encoded-term": "sensible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5952",
+        "ol",
+        "1"
+      ]
+    },
+    "rateable": {
+      "data-frequency": "195",
+      "data-relevance": "47",
+      "data-term": "rateable",
+      "data-encoded-term": "rateable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "195",
+        "ol",
+        "1"
+      ]
+    },
+    "workable": {
+      "data-frequency": "1866",
+      "data-relevance": "46",
+      "data-term": "workable",
+      "data-encoded-term": "workable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1866",
+        "ol",
+        "1"
+      ]
+    },
+    "unconstrained": {
+      "data-frequency": "619",
+      "data-relevance": "45",
+      "data-term": "unconstrained",
+      "data-encoded-term": "unconstrained",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "619",
+        "ol",
+        "1"
+      ]
+    },
+    "numeracy": {
+      "data-frequency": "833",
+      "data-relevance": "44",
+      "data-term": "numeracy",
+      "data-encoded-term": "numeracy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "833",
+        "ol",
+        "1"
+      ]
+    },
+    "tenderer": {
+      "data-frequency": "167",
+      "data-relevance": "43",
+      "data-term": "tenderer",
+      "data-encoded-term": "tenderer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "167",
+        "ol",
+        "1"
+      ]
+    },
+    "sufficient": {
+      "data-frequency": "53404",
+      "data-relevance": "42",
+      "data-term": "sufficient",
+      "data-encoded-term": "sufficient",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53404",
+        "ol",
+        "1"
+      ]
+    },
+    "advantaged": {
+      "data-frequency": "542",
+      "data-relevance": "41",
+      "data-term": "advantaged",
+      "data-encoded-term": "advantaged",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "542",
+        "ol",
+        "1"
+      ]
+    },
+    "inclusive": {
+      "data-frequency": "19593",
+      "data-relevance": "40",
+      "data-term": "inclusive",
+      "data-encoded-term": "inclusive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19593",
+        "ol",
+        "1"
+      ]
+    },
+    "sectoral": {
+      "data-frequency": "1373",
+      "data-relevance": "39",
+      "data-term": "sectoral",
+      "data-encoded-term": "sectoral",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1373",
+        "ol",
+        "1"
+      ]
+    },
+    "achievable": {
+      "data-frequency": "2253",
+      "data-relevance": "38",
+      "data-term": "achievable",
+      "data-encoded-term": "achievable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2253",
+        "ol",
+        "1"
+      ]
+    },
+    "tertiary": {
+      "data-frequency": "54531",
+      "data-relevance": "37",
+      "data-term": "tertiary",
+      "data-encoded-term": "tertiary",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "54531",
+        "ol",
+        "1"
+      ]
+    },
+    "definable": {
+      "data-frequency": "811",
+      "data-relevance": "36",
+      "data-term": "definable",
+      "data-encoded-term": "definable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "811",
+        "ol",
+        "1"
+      ]
+    },
+    "coherent": {
+      "data-frequency": "8043",
+      "data-relevance": "35",
+      "data-term": "coherent",
+      "data-encoded-term": "coherent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8043",
+        "ol",
+        "1"
+      ]
+    },
+    "reticulate": {
+      "data-frequency": "1068",
+      "data-relevance": "34",
+      "data-term": "reticulate",
+      "data-encoded-term": "reticulate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1068",
+        "ol",
+        "1"
+      ]
+    },
+    "uneconomical": {
+      "data-frequency": "750",
+      "data-relevance": "33",
+      "data-term": "uneconomical",
+      "data-encoded-term": "uneconomical",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "750",
+        "ol",
+        "1"
+      ]
+    },
+    "consistent": {
+      "data-frequency": "56627",
+      "data-relevance": "32",
+      "data-term": "consistent",
+      "data-encoded-term": "consistent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56627",
+        "ol",
+        "1"
+      ]
+    },
+    "defensible": {
+      "data-frequency": "1706",
+      "data-relevance": "31",
+      "data-term": "defensible",
+      "data-encoded-term": "defensible",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1706",
+        "ol",
+        "1"
+      ]
+    },
+    "controverted": {
+      "data-frequency": "156",
+      "data-relevance": "30",
+      "data-term": "controverted",
+      "data-encoded-term": "controverted",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "156",
+        "ol",
+        "1"
+      ]
+    },
+    "unarguable": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "unarguable",
+      "data-encoded-term": "unarguable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "uncontestable": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "uncontestable",
+      "data-encoded-term": "uncontestable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "disputableness": {
+      "data-frequency": "333",
+      "data-relevance": "27",
+      "data-term": "disputableness",
+      "data-encoded-term": "disputableness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "333",
+        "ol",
+        "1"
+      ]
+    },
+    "justiciable": {
+      "data-frequency": "195",
+      "data-relevance": "26",
+      "data-term": "justiciable",
+      "data-encoded-term": "justiciable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "195",
+        "ol",
+        "1"
+      ]
+    },
+    "rebuttable": {
+      "data-frequency": "2148",
+      "data-relevance": "25",
+      "data-term": "rebuttable",
+      "data-encoded-term": "rebuttable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2148",
+        "ol",
+        "1"
+      ]
+    },
+    "fundable": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "fundable",
+      "data-encoded-term": "fundable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "substitutable": {
+      "data-frequency": "99",
+      "data-relevance": "23",
+      "data-term": "substitutable",
+      "data-encoded-term": "substitutable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "99",
+        "ol",
+        "1"
+      ]
+    },
+    "assailable": {
+      "data-frequency": "2202",
+      "data-relevance": "22",
+      "data-term": "assailable",
+      "data-encoded-term": "assailable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2202",
+        "ol",
+        "1"
+      ]
+    },
+    "controvertible": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "controvertible",
+      "data-encoded-term": "controvertible",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "uncommercial": {
+      "data-frequency": "178",
+      "data-relevance": "20",
+      "data-term": "uncommercial",
+      "data-encoded-term": "uncommercial",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "178",
+        "ol",
+        "1"
+      ]
+    },
+    "appointable": {
+      "data-frequency": "305650",
+      "data-relevance": "19",
+      "data-term": "appointable",
+      "data-encoded-term": "appointable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "305650",
+        "ol",
+        "1"
+      ]
+    },
+    "transitionary": {
+      "data-frequency": "50",
+      "data-relevance": "18",
+      "data-term": "transitionary",
+      "data-encoded-term": "transitionary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "50",
+        "ol",
+        "1"
+      ]
+    },
+    "uncontrovertible": {
+      "data-frequency": "-1",
+      "data-relevance": "17",
+      "data-term": "uncontrovertible",
+      "data-encoded-term": "uncontrovertible",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "plurilateral": {
+      "data-frequency": "-1",
+      "data-relevance": "16",
+      "data-term": "plurilateral",
+      "data-encoded-term": "plurilateral",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unestablished": {
+      "data-frequency": "100",
+      "data-relevance": "15",
+      "data-term": "unestablished",
+      "data-encoded-term": "unestablished",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "100",
+        "ol",
+        "1"
+      ]
+    },
+    "peaky": {
+      "data-frequency": "327",
+      "data-relevance": "14",
+      "data-term": "peaky",
+      "data-encoded-term": "peaky",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "327",
+        "ol",
+        "1"
+      ]
+    },
+    "recommendatory": {
+      "data-frequency": "42",
+      "data-relevance": "13",
+      "data-term": "recommendatory",
+      "data-encoded-term": "recommendatory",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "42",
+        "ol",
+        "1"
+      ]
+    },
+    "confutable": {
+      "data-frequency": "232",
+      "data-relevance": "12",
+      "data-term": "confutable",
+      "data-encoded-term": "confutable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "232",
+        "ol",
+        "1"
+      ]
+    },
+    "commonsensical": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "commonsensical",
+      "data-encoded-term": "commonsensical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "otiose": {
+      "data-frequency": "50",
+      "data-relevance": "10",
+      "data-term": "otiose",
+      "data-encoded-term": "otiose",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "50",
+        "ol",
+        "1"
+      ]
+    },
+    "commensurable": {
+      "data-frequency": "100",
+      "data-relevance": "9",
+      "data-term": "commensurable",
+      "data-encoded-term": "commensurable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "100",
+        "ol",
+        "1"
+      ]
+    },
+    "consociational": {
+      "data-frequency": "56",
+      "data-relevance": "8",
+      "data-term": "consociational",
+      "data-encoded-term": "consociational",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "unedifying": {
+      "data-frequency": "49",
+      "data-relevance": "7",
+      "data-term": "unedifying",
+      "data-encoded-term": "unedifying",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "suspensive": {
+      "data-frequency": "123",
+      "data-relevance": "6",
+      "data-term": "suspensive",
+      "data-encoded-term": "suspensive",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "123",
+        "ol",
+        "1"
+      ]
+    },
+    "pursuable": {
+      "data-frequency": "109309",
+      "data-relevance": "5",
+      "data-term": "pursuable",
+      "data-encoded-term": "pursuable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "109309",
+        "ol",
+        "1"
+      ]
+    },
+    "unadvisable": {
+      "data-frequency": "-1",
+      "data-relevance": "4",
+      "data-term": "unadvisable",
+      "data-encoded-term": "unadvisable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "lodgement": {
+      "data-frequency": "197",
+      "data-relevance": "3",
+      "data-term": "lodgement",
+      "data-encoded-term": "lodgement",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "197",
+        "ol",
+        "1"
+      ]
+    },
+    "improvable": {
+      "data-frequency": "51",
+      "data-relevance": "2",
+      "data-term": "improvable",
+      "data-encoded-term": "improvable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "51",
+        "ol",
+        "1"
+      ]
+    },
+    "electable": {
+      "data-frequency": "187",
+      "data-relevance": "1",
+      "data-term": "electable",
+      "data-encoded-term": "electable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "187",
+        "ol",
+        "1"
+      ]
+    },
+    "imposable": {
+      "data-frequency": "-1",
+      "data-relevance": "0",
+      "data-term": "imposable",
+      "data-encoded-term": "imposable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "contest",
+      "contested",
+      "incontestable",
+      "uncontestable"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "Will you enter the contest?",
+        "ru": "Будете ли вы участвовать в конкурсе?"
+      },
+      {
+        "en": "Contest winners receive a cash prize.",
+        "ru": "Победители конкурса получают денежную премию."
+      },
+      {
+        "en": "She hopes to win the contest for mayor.",
+        "ru": "Она надеется победить в борьбе за пост мэра."
+      },
+      {
+        "en": "She plans to contest a seat in Congress next year.",
+        "ru": "В следующем году она планирует поспорить за место в конгрессе."
+      },
+      {
+        "en": "Both candidates have agreed to another debate before this hotly contested election.",
+        "ru": "Оба кандидата согласились провести ещё одни дебаты перед началом этих выборов, обещающих пройти в ожесточённой борьбе."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "contestible"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "contest",
+      "disputable",
+      "shakeable",
+      "contested",
+      "incontestable",
+      "challengeable",
+      "uncontestable"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "contestability",
+      "disputable",
+      "uneconomic",
+      "shakeable",
+      "unexceptionable",
+      "shakable",
+      "predicable",
+      "surmise",
+      "questionable",
+      "contested",
+      "incontestable",
+      "challengeable",
+      "debatable",
+      "dubious",
+      "uncontestable",
+      "noncontestable"
+    ]
+  }
+}

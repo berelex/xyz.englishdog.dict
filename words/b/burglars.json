@@ -1,0 +1,4574 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "burglar": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/burglars/n/,/c/en/burglar/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/burglars/n",
+          "@type": "Node",
+          "label": "burglars",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/burglars"
+        },
+        "end": {
+          "@id": "/c/en/burglar",
+          "@type": "Node",
+          "label": "burglar",
+          "language": "en",
+          "term": "/c/en/burglar"
+        }
+      },
+      "robbery": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/robbery/,/c/en/burglars/]",
+        "weight": 0.5529999999999999,
+        "start": {
+          "@id": "/c/en/robbery",
+          "@type": "Node",
+          "label": "robbery",
+          "language": "en",
+          "term": "/c/en/robbery"
+        },
+        "end": {
+          "@id": "/c/en/burglars",
+          "@type": "Node",
+          "label": "burglars",
+          "language": "en",
+          "term": "/c/en/burglars"
+        }
+      },
+      "loot": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/loot/,/c/en/burglars/]",
+        "weight": 0.10199999999999987,
+        "start": {
+          "@id": "/c/en/loot",
+          "@type": "Node",
+          "label": "loot",
+          "language": "en",
+          "term": "/c/en/loot"
+        },
+        "end": {
+          "@id": "/c/en/burglars",
+          "@type": "Node",
+          "label": "burglars",
+          "language": "en",
+          "term": "/c/en/burglars"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "burglar": {
+        "@id": "/a/[/r/FormOf/,/c/en/burglars/n/,/c/en/burglar/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/burglars/n",
+          "@type": "Node",
+          "label": "burglars",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/burglars"
+        },
+        "end": {
+          "@id": "/c/en/burglar",
+          "@type": "Node",
+          "label": "burglar",
+          "language": "en",
+          "term": "/c/en/burglar"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "robbers": {
+      "data-frequency": "6027",
+      "data-relevance": "312",
+      "data-term": "robbers",
+      "data-encoded-term": "robbers",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "6027",
+        "vec2",
+        "1"
+      ]
+    },
+    "thief": {
+      "data-frequency": "19658",
+      "data-relevance": "311",
+      "data-term": "thief",
+      "data-encoded-term": "thief",
+      "data-term-stats": [
+        "1",
+        "15.3",
+        "0.000",
+        "19658",
+        "ol,w2v,wn,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "thieves": {
+      "data-frequency": "13049",
+      "data-relevance": "310",
+      "data-term": "thieves",
+      "data-encoded-term": "thieves",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "13049",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "robber": {
+      "data-frequency": "7065",
+      "data-relevance": "309",
+      "data-term": "robber",
+      "data-encoded-term": "robber",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "7065",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "intruder": {
+      "data-frequency": "4126",
+      "data-relevance": "308",
+      "data-term": "intruder",
+      "data-encoded-term": "intruder",
+      "data-term-stats": [
+        "1",
+        "3.9",
+        "0.000",
+        "4126",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "murderer": {
+      "data-frequency": "17260",
+      "data-relevance": "307",
+      "data-term": "murderer",
+      "data-encoded-term": "murderer",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "17260",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "burglary": {
+      "data-frequency": "3882",
+      "data-relevance": "306",
+      "data-term": "burglary",
+      "data-encoded-term": "burglary",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "3882",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "stalker": {
+      "data-frequency": "4726",
+      "data-relevance": "305",
+      "data-term": "stalker",
+      "data-encoded-term": "stalker",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "4726",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "arsonist": {
+      "data-frequency": "1215",
+      "data-relevance": "304",
+      "data-term": "arsonist",
+      "data-encoded-term": "arsonist",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "1215",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "stealer": {
+      "data-frequency": "57840",
+      "data-relevance": "303",
+      "data-term": "stealer",
+      "data-encoded-term": "stealer",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "57840",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "rapist": {
+      "data-frequency": "3227",
+      "data-relevance": "302",
+      "data-term": "rapist",
+      "data-encoded-term": "rapist",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "3227",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "crowbar": {
+      "data-frequency": "975",
+      "data-relevance": "301",
+      "data-term": "crowbar",
+      "data-encoded-term": "crowbar",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "975",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "burglar": {
+      "data-frequency": "2935",
+      "data-relevance": "300",
+      "data-term": "burglar",
+      "data-encoded-term": "burglar",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "2935",
+        "vec2",
+        "1"
+      ]
+    },
+    "home": {
+      "data-frequency": "929241",
+      "data-relevance": "299",
+      "data-term": "home",
+      "data-encoded-term": "home",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "929241",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "vandals": {
+      "data-frequency": "4410",
+      "data-relevance": "298",
+      "data-term": "vandals",
+      "data-encoded-term": "vandals",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "4410",
+        "vec2",
+        "1"
+      ]
+    },
+    "housebreaker": {
+      "data-frequency": "56",
+      "data-relevance": "297",
+      "data-term": "housebreaker",
+      "data-encoded-term": "housebreaker",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "56",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "burglars": {
+      "data-frequency": "4180",
+      "data-relevance": "296",
+      "data-term": "burglars",
+      "data-encoded-term": "burglars",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "4180",
+        "vec2",
+        "1"
+      ]
+    },
+    "robbery": {
+      "data-frequency": "17017",
+      "data-relevance": "295",
+      "data-term": "robbery",
+      "data-encoded-term": "robbery",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "17017",
+        "ol,wiki|vec2",
+        "1"
+      ]
+    },
+    "burglarize": {
+      "data-frequency": "78",
+      "data-relevance": "294",
+      "data-term": "burglarize",
+      "data-encoded-term": "burglarize",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "78",
+        "vec2",
+        "1"
+      ]
+    },
+    "intruders": {
+      "data-frequency": "6750",
+      "data-relevance": "293",
+      "data-term": "intruders",
+      "data-encoded-term": "intruders",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "6750",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "burglaries": {
+      "data-frequency": "950",
+      "data-relevance": "292",
+      "data-term": "burglaries",
+      "data-encoded-term": "burglaries",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "950",
+        "vec2",
+        "1"
+      ]
+    },
+    "cat burglar": {
+      "data-frequency": "1655",
+      "data-relevance": "291",
+      "data-term": "cat burglar",
+      "data-encoded-term": "cat%20burglar",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1655",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "burglarized": {
+      "data-frequency": "248",
+      "data-relevance": "290",
+      "data-term": "burglarized",
+      "data-encoded-term": "burglarized",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "248",
+        "vec2",
+        "1"
+      ]
+    },
+    "shoplifters": {
+      "data-frequency": "1866",
+      "data-relevance": "289",
+      "data-term": "shoplifters",
+      "data-encoded-term": "shoplifters",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1866",
+        "vec2",
+        "1"
+      ]
+    },
+    "break ins": {
+      "data-frequency": "3994",
+      "data-relevance": "288",
+      "data-term": "break ins",
+      "data-encoded-term": "break%20ins",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "3994",
+        "vec2",
+        "1"
+      ]
+    },
+    "burgled": {
+      "data-frequency": "773",
+      "data-relevance": "287",
+      "data-term": "burgled",
+      "data-encoded-term": "burgled",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "773",
+        "vec2",
+        "1"
+      ]
+    },
+    "burglarizing": {
+      "data-frequency": "103",
+      "data-relevance": "286",
+      "data-term": "burglarizing",
+      "data-encoded-term": "burglarizing",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "103",
+        "vec2",
+        "1"
+      ]
+    },
+    "criminals": {
+      "data-frequency": "24215",
+      "data-relevance": "285",
+      "data-term": "criminals",
+      "data-encoded-term": "criminals",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "24215",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "carjackers": {
+      "data-frequency": "52",
+      "data-relevance": "284",
+      "data-term": "carjackers",
+      "data-encoded-term": "carjackers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "52",
+        "vec2",
+        "1"
+      ]
+    },
+    "armed robbers": {
+      "data-frequency": "2113",
+      "data-relevance": "283",
+      "data-term": "armed robbers",
+      "data-encoded-term": "armed%20robbers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "2113",
+        "vec2",
+        "1"
+      ]
+    },
+    "alarms": {
+      "data-frequency": "2919",
+      "data-relevance": "282",
+      "data-term": "alarms",
+      "data-encoded-term": "alarms",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "2919",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "rapists": {
+      "data-frequency": "1653",
+      "data-relevance": "281",
+      "data-term": "rapists",
+      "data-encoded-term": "rapists",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1653",
+        "w2v",
+        "1"
+      ]
+    },
+    "murderers": {
+      "data-frequency": "149984",
+      "data-relevance": "280",
+      "data-term": "murderers",
+      "data-encoded-term": "murderers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "149984",
+        "w2v",
+        "1"
+      ]
+    },
+    "armed robber": {
+      "data-frequency": "277",
+      "data-relevance": "279",
+      "data-term": "armed robber",
+      "data-encoded-term": "armed%20robber",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "277",
+        "vec2",
+        "1"
+      ]
+    },
+    "valuables": {
+      "data-frequency": "2330",
+      "data-relevance": "278",
+      "data-term": "valuables",
+      "data-encoded-term": "valuables",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2330",
+        "vec2",
+        "1"
+      ]
+    },
+    "thieves stole": {
+      "data-frequency": "1059",
+      "data-relevance": "277",
+      "data-term": "thieves stole",
+      "data-encoded-term": "thieves%20stole",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1059",
+        "vec2",
+        "1"
+      ]
+    },
+    "robberies": {
+      "data-frequency": "3571",
+      "data-relevance": "276",
+      "data-term": "robberies",
+      "data-encoded-term": "robberies",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "3571",
+        "vec2",
+        "1"
+      ]
+    },
+    "trespassers": {
+      "data-frequency": "5266",
+      "data-relevance": "275",
+      "data-term": "trespassers",
+      "data-encoded-term": "trespassers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "5266",
+        "vec2",
+        "1"
+      ]
+    },
+    "stolen": {
+      "data-frequency": "40152",
+      "data-relevance": "274",
+      "data-term": "stolen",
+      "data-encoded-term": "stolen",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "40152",
+        "vec2",
+        "1"
+      ]
+    },
+    "raiders": {
+      "data-frequency": "29744",
+      "data-relevance": "273",
+      "data-term": "raiders",
+      "data-encoded-term": "raiders",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "29744",
+        "vec2",
+        "1"
+      ]
+    },
+    "conmen": {
+      "data-frequency": "165",
+      "data-relevance": "272",
+      "data-term": "conmen",
+      "data-encoded-term": "conmen",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "165",
+        "vec2",
+        "1"
+      ]
+    },
+    "edward coke": {
+      "data-frequency": "467",
+      "data-relevance": "271",
+      "data-term": "edward coke",
+      "data-encoded-term": "edward%20coke",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "467",
+        "wiki",
+        "1"
+      ]
+    },
+    "hacker": {
+      "data-frequency": "7026",
+      "data-relevance": "270",
+      "data-term": "hacker",
+      "data-encoded-term": "hacker",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "7026",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "invaders": {
+      "data-frequency": "12846",
+      "data-relevance": "269",
+      "data-term": "invaders",
+      "data-encoded-term": "invaders",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "12846",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "thiefs": {
+      "data-frequency": "-1",
+      "data-relevance": "268",
+      "data-term": "thiefs",
+      "data-encoded-term": "thiefs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pickpocket": {
+      "data-frequency": "954",
+      "data-relevance": "267",
+      "data-term": "pickpocket",
+      "data-encoded-term": "pickpocket",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "954",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "bandits": {
+      "data-frequency": "9881",
+      "data-relevance": "266",
+      "data-term": "bandits",
+      "data-encoded-term": "bandits",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "9881",
+        "vec2",
+        "1"
+      ]
+    },
+    "safes": {
+      "data-frequency": "471",
+      "data-relevance": "265",
+      "data-term": "safes",
+      "data-encoded-term": "safes",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "471",
+        "vec2",
+        "1"
+      ]
+    },
+    "gunman": {
+      "data-frequency": "5483",
+      "data-relevance": "264",
+      "data-term": "gunman",
+      "data-encoded-term": "gunman",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "5483",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "scammers": {
+      "data-frequency": "321",
+      "data-relevance": "263",
+      "data-term": "scammers",
+      "data-encoded-term": "scammers",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "321",
+        "vec2",
+        "1"
+      ]
+    },
+    "armed robberies": {
+      "data-frequency": "4885",
+      "data-relevance": "262",
+      "data-term": "armed robberies",
+      "data-encoded-term": "armed%20robberies",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "4885",
+        "vec2",
+        "1"
+      ]
+    },
+    "looters": {
+      "data-frequency": "1014",
+      "data-relevance": "261",
+      "data-term": "looters",
+      "data-encoded-term": "looters",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1014",
+        "vec2",
+        "1"
+      ]
+    },
+    "purse snatching": {
+      "data-frequency": "309",
+      "data-relevance": "260",
+      "data-term": "purse snatching",
+      "data-encoded-term": "purse%20snatching",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "309",
+        "vec2",
+        "1"
+      ]
+    },
+    "institutes of the lawes of england": {
+      "data-frequency": "20659",
+      "data-relevance": "259",
+      "data-term": "institutes of the lawes of england",
+      "data-encoded-term": "institutes%20of%20the%20lawes%20of%20england",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "20659",
+        "wiki",
+        "1"
+      ]
+    },
+    "molester": {
+      "data-frequency": "667",
+      "data-relevance": "258",
+      "data-term": "molester",
+      "data-encoded-term": "molester",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "667",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "screwdriver": {
+      "data-frequency": "1006",
+      "data-relevance": "257",
+      "data-term": "screwdriver",
+      "data-encoded-term": "screwdriver",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "1006",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "muggers": {
+      "data-frequency": "326",
+      "data-relevance": "256",
+      "data-term": "muggers",
+      "data-encoded-term": "muggers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "326",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "assailants": {
+      "data-frequency": "2736",
+      "data-relevance": "255",
+      "data-term": "assailants",
+      "data-encoded-term": "assailants",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2736",
+        "vec2",
+        "1"
+      ]
+    },
+    "attempted robbery": {
+      "data-frequency": "437",
+      "data-relevance": "254",
+      "data-term": "attempted robbery",
+      "data-encoded-term": "attempted%20robbery",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "437",
+        "vec2",
+        "1"
+      ]
+    },
+    "bolt cutters": {
+      "data-frequency": "510",
+      "data-relevance": "253",
+      "data-term": "bolt cutters",
+      "data-encoded-term": "bolt%20cutters",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "510",
+        "vec2",
+        "1"
+      ]
+    },
+    "shoplifted": {
+      "data-frequency": "1941",
+      "data-relevance": "252",
+      "data-term": "shoplifted",
+      "data-encoded-term": "shoplifted",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1941",
+        "vec2",
+        "1"
+      ]
+    },
+    "unlocked": {
+      "data-frequency": "4939",
+      "data-relevance": "251",
+      "data-term": "unlocked",
+      "data-encoded-term": "unlocked",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "4939",
+        "vec2",
+        "1"
+      ]
+    },
+    "carjacker": {
+      "data-frequency": "130",
+      "data-relevance": "250",
+      "data-term": "carjacker",
+      "data-encoded-term": "carjacker",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "130",
+        "vec2",
+        "1"
+      ]
+    },
+    "attackers": {
+      "data-frequency": "9168",
+      "data-relevance": "249",
+      "data-term": "attackers",
+      "data-encoded-term": "attackers",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "9168",
+        "vec2",
+        "1"
+      ]
+    },
+    "pried open": {
+      "data-frequency": "1254",
+      "data-relevance": "248",
+      "data-term": "pried open",
+      "data-encoded-term": "pried%20open",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1254",
+        "vec2",
+        "1"
+      ]
+    },
+    "hackers": {
+      "data-frequency": "3407",
+      "data-relevance": "247",
+      "data-term": "hackers",
+      "data-encoded-term": "hackers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3407",
+        "vec2",
+        "1"
+      ]
+    },
+    "identity thieves": {
+      "data-frequency": "3780",
+      "data-relevance": "246",
+      "data-term": "identity thieves",
+      "data-encoded-term": "identity%20thieves",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3780",
+        "vec2",
+        "1"
+      ]
+    },
+    "trespasser": {
+      "data-frequency": "430",
+      "data-relevance": "245",
+      "data-term": "trespasser",
+      "data-encoded-term": "trespasser",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "430",
+        "ol,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "ransacked": {
+      "data-frequency": "1940",
+      "data-relevance": "244",
+      "data-term": "ransacked",
+      "data-encoded-term": "ransacked",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1940",
+        "vec2",
+        "1"
+      ]
+    },
+    "bathroom": {
+      "data-frequency": "12016",
+      "data-relevance": "243",
+      "data-term": "bathroom",
+      "data-encoded-term": "bathroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12016",
+        "w2v",
+        "1"
+      ]
+    },
+    "theives": {
+      "data-frequency": "24155",
+      "data-relevance": "242",
+      "data-term": "theives",
+      "data-encoded-term": "theives",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "24155",
+        "ol",
+        "1"
+      ]
+    },
+    "arson": {
+      "data-frequency": "7971",
+      "data-relevance": "241",
+      "data-term": "arson",
+      "data-encoded-term": "arson",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "7971",
+        "wiki",
+        "1"
+      ]
+    },
+    "shoplift": {
+      "data-frequency": "151",
+      "data-relevance": "240",
+      "data-term": "shoplift",
+      "data-encoded-term": "shoplift",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "151",
+        "vec2",
+        "1"
+      ]
+    },
+    "heists": {
+      "data-frequency": "5750",
+      "data-relevance": "239",
+      "data-term": "heists",
+      "data-encoded-term": "heists",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "5750",
+        "vec2",
+        "1"
+      ]
+    },
+    "theft": {
+      "data-frequency": "23707",
+      "data-relevance": "238",
+      "data-term": "theft",
+      "data-encoded-term": "theft",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "23707",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "thief stole": {
+      "data-frequency": "1577",
+      "data-relevance": "237",
+      "data-term": "thief stole",
+      "data-encoded-term": "thief%20stole",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1577",
+        "vec2",
+        "1"
+      ]
+    },
+    "serial rapist": {
+      "data-frequency": "1417",
+      "data-relevance": "236",
+      "data-term": "serial rapist",
+      "data-encoded-term": "serial%20rapist",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1417",
+        "vec2",
+        "1"
+      ]
+    },
+    "robbed": {
+      "data-frequency": "8075",
+      "data-relevance": "235",
+      "data-term": "robbed",
+      "data-encoded-term": "robbed",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "8075",
+        "vec2",
+        "1"
+      ]
+    },
+    "fraudsters": {
+      "data-frequency": "1048",
+      "data-relevance": "234",
+      "data-term": "fraudsters",
+      "data-encoded-term": "fraudsters",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1048",
+        "vec2",
+        "1"
+      ]
+    },
+    "taggers": {
+      "data-frequency": "63818",
+      "data-relevance": "233",
+      "data-term": "taggers",
+      "data-encoded-term": "taggers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "63818",
+        "vec2",
+        "1"
+      ]
+    },
+    "padlocks": {
+      "data-frequency": "214",
+      "data-relevance": "232",
+      "data-term": "padlocks",
+      "data-encoded-term": "padlocks",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "214",
+        "vec2",
+        "1"
+      ]
+    },
+    "crime spree": {
+      "data-frequency": "2731",
+      "data-relevance": "231",
+      "data-term": "crime spree",
+      "data-encoded-term": "crime%20spree",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2731",
+        "vec2",
+        "1"
+      ]
+    },
+    "yobs": {
+      "data-frequency": "407",
+      "data-relevance": "230",
+      "data-term": "yobs",
+      "data-encoded-term": "yobs",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "407",
+        "vec2",
+        "1"
+      ]
+    },
+    "kidnapper": {
+      "data-frequency": "2127",
+      "data-relevance": "229",
+      "data-term": "kidnapper",
+      "data-encoded-term": "kidnapper",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "2127",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "cops": {
+      "data-frequency": "10670",
+      "data-relevance": "228",
+      "data-term": "cops",
+      "data-encoded-term": "cops",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "10670",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "pickpockets": {
+      "data-frequency": "1555",
+      "data-relevance": "227",
+      "data-term": "pickpockets",
+      "data-encoded-term": "pickpockets",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1555",
+        "vec2",
+        "1"
+      ]
+    },
+    "wearing ski masks": {
+      "data-frequency": "-1",
+      "data-relevance": "226",
+      "data-term": "wearing ski masks",
+      "data-encoded-term": "wearing%20ski%20masks",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "vandalized": {
+      "data-frequency": "2520",
+      "data-relevance": "225",
+      "data-term": "vandalized",
+      "data-encoded-term": "vandalized",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2520",
+        "vec2",
+        "1"
+      ]
+    },
+    "stealing": {
+      "data-frequency": "20340",
+      "data-relevance": "224",
+      "data-term": "stealing",
+      "data-encoded-term": "stealing",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "20340",
+        "vec2",
+        "1"
+      ]
+    },
+    "larcenies": {
+      "data-frequency": "1836",
+      "data-relevance": "223",
+      "data-term": "larcenies",
+      "data-encoded-term": "larcenies",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1836",
+        "vec2",
+        "1"
+      ]
+    },
+    "pranksters": {
+      "data-frequency": "1719",
+      "data-relevance": "222",
+      "data-term": "pranksters",
+      "data-encoded-term": "pranksters",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1719",
+        "vec2",
+        "1"
+      ]
+    },
+    "lawbreakers": {
+      "data-frequency": "272",
+      "data-relevance": "221",
+      "data-term": "lawbreakers",
+      "data-encoded-term": "lawbreakers",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "272",
+        "vec2",
+        "1"
+      ]
+    },
+    "matthew hale": {
+      "data-frequency": "5351",
+      "data-relevance": "220",
+      "data-term": "matthew hale",
+      "data-encoded-term": "matthew%20hale",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "5351",
+        "wiki",
+        "1"
+      ]
+    },
+    "vagrants": {
+      "data-frequency": "3834",
+      "data-relevance": "219",
+      "data-term": "vagrants",
+      "data-encoded-term": "vagrants",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "3834",
+        "vec2",
+        "1"
+      ]
+    },
+    "cyber criminals": {
+      "data-frequency": "2725",
+      "data-relevance": "218",
+      "data-term": "cyber criminals",
+      "data-encoded-term": "cyber%20criminals",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "2725",
+        "vec2",
+        "1"
+      ]
+    },
+    "carjackings": {
+      "data-frequency": "527",
+      "data-relevance": "217",
+      "data-term": "carjackings",
+      "data-encoded-term": "carjackings",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "527",
+        "vec2",
+        "1"
+      ]
+    },
+    "carjack": {
+      "data-frequency": "120",
+      "data-relevance": "216",
+      "data-term": "carjack",
+      "data-encoded-term": "carjack",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "120",
+        "vec2",
+        "1"
+      ]
+    },
+    "common law": {
+      "data-frequency": "9795",
+      "data-relevance": "215",
+      "data-term": "common law",
+      "data-encoded-term": "common%20law",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "9795",
+        "wiki",
+        "1"
+      ]
+    },
+    "prowler": {
+      "data-frequency": "966",
+      "data-relevance": "214",
+      "data-term": "prowler",
+      "data-encoded-term": "prowler",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "966",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "mugger": {
+      "data-frequency": "804",
+      "data-relevance": "213",
+      "data-term": "mugger",
+      "data-encoded-term": "mugger",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "804",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "etymology": {
+      "data-frequency": "60675",
+      "data-relevance": "212",
+      "data-term": "etymology",
+      "data-encoded-term": "etymology",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "60675",
+        "wiki",
+        "1"
+      ]
+    },
+    "illegal": {
+      "data-frequency": "61939",
+      "data-relevance": "211",
+      "data-term": "illegal",
+      "data-encoded-term": "illegal",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "61939",
+        "swiki",
+        "1"
+      ]
+    },
+    "vandal": {
+      "data-frequency": "3753",
+      "data-relevance": "210",
+      "data-term": "vandal",
+      "data-encoded-term": "vandal",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3753",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "thefts": {
+      "data-frequency": "1906",
+      "data-relevance": "209",
+      "data-term": "thefts",
+      "data-encoded-term": "thefts",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1906",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "crooks": {
+      "data-frequency": "4193",
+      "data-relevance": "208",
+      "data-term": "crooks",
+      "data-encoded-term": "crooks",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4193",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "arsonists": {
+      "data-frequency": "790",
+      "data-relevance": "207",
+      "data-term": "arsonists",
+      "data-encoded-term": "arsonists",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "790",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "bible": {
+      "data-frequency": "53146",
+      "data-relevance": "206",
+      "data-term": "bible",
+      "data-encoded-term": "bible",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "53146",
+        "wiki",
+        "1"
+      ]
+    },
+    "anglo-saxon": {
+      "data-frequency": "12345",
+      "data-relevance": "205",
+      "data-term": "anglo-saxon",
+      "data-encoded-term": "anglo-saxon",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "12345",
+        "wiki",
+        "1"
+      ]
+    },
+    "burgus": {
+      "data-frequency": "114",
+      "data-relevance": "204",
+      "data-term": "burgus",
+      "data-encoded-term": "burgus",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "114",
+        "wiki",
+        "1"
+      ]
+    },
+    "bandit": {
+      "data-frequency": "7938",
+      "data-relevance": "203",
+      "data-term": "bandit",
+      "data-encoded-term": "bandit",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7938",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "heist": {
+      "data-frequency": "5519",
+      "data-relevance": "202",
+      "data-term": "heist",
+      "data-encoded-term": "heist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5519",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "back-formation": {
+      "data-frequency": "253",
+      "data-relevance": "201",
+      "data-term": "back-formation",
+      "data-encoded-term": "back-formation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "253",
+        "wiki",
+        "1"
+      ]
+    },
+    "crook": {
+      "data-frequency": "10895",
+      "data-relevance": "200",
+      "data-term": "crook",
+      "data-encoded-term": "crook",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10895",
+        "ol",
+        "1"
+      ]
+    },
+    "perpetrator": {
+      "data-frequency": "5251",
+      "data-relevance": "199",
+      "data-term": "perpetrator",
+      "data-encoded-term": "perpetrator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5251",
+        "ol",
+        "1"
+      ]
+    },
+    "shoplifter": {
+      "data-frequency": "318",
+      "data-relevance": "198",
+      "data-term": "shoplifter",
+      "data-encoded-term": "shoplifter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "318",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "thieving": {
+      "data-frequency": "784",
+      "data-relevance": "197",
+      "data-term": "thieving",
+      "data-encoded-term": "thieving",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "784",
+        "ol",
+        "1"
+      ]
+    },
+    "shoplifting": {
+      "data-frequency": "1866",
+      "data-relevance": "196",
+      "data-term": "shoplifting",
+      "data-encoded-term": "shoplifting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1866",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "tantrum": {
+      "data-frequency": "1161",
+      "data-relevance": "195",
+      "data-term": "tantrum",
+      "data-encoded-term": "tantrum",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1161",
+        "w2v",
+        "1"
+      ]
+    },
+    "deranged": {
+      "data-frequency": "3234",
+      "data-relevance": "194",
+      "data-term": "deranged",
+      "data-encoded-term": "deranged",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3234",
+        "w2v",
+        "1"
+      ]
+    },
+    "maniac": {
+      "data-frequency": "3769",
+      "data-relevance": "193",
+      "data-term": "maniac",
+      "data-encoded-term": "maniac",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3769",
+        "w2v",
+        "1"
+      ]
+    },
+    "adulterer": {
+      "data-frequency": "520",
+      "data-relevance": "192",
+      "data-term": "adulterer",
+      "data-encoded-term": "adulterer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "520",
+        "w2v",
+        "1"
+      ]
+    },
+    "electrocuted": {
+      "data-frequency": "1447",
+      "data-relevance": "191",
+      "data-term": "electrocuted",
+      "data-encoded-term": "electrocuted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1447",
+        "w2v",
+        "1"
+      ]
+    },
+    "truncheon": {
+      "data-frequency": "229",
+      "data-relevance": "190",
+      "data-term": "truncheon",
+      "data-encoded-term": "truncheon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "229",
+        "w2v",
+        "1"
+      ]
+    },
+    "escapes": {
+      "data-frequency": "23731",
+      "data-relevance": "189",
+      "data-term": "escapes",
+      "data-encoded-term": "escapes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23731",
+        "w2v",
+        "1"
+      ]
+    },
+    "siren": {
+      "data-frequency": "6407",
+      "data-relevance": "188",
+      "data-term": "siren",
+      "data-encoded-term": "siren",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6407",
+        "ol",
+        "1"
+      ]
+    },
+    "mermaid": {
+      "data-frequency": "8718",
+      "data-relevance": "187",
+      "data-term": "mermaid",
+      "data-encoded-term": "mermaid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8718",
+        "ol",
+        "1"
+      ]
+    },
+    "crazed": {
+      "data-frequency": "2565",
+      "data-relevance": "186",
+      "data-term": "crazed",
+      "data-encoded-term": "crazed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2565",
+        "w2v",
+        "1"
+      ]
+    },
+    "assailant": {
+      "data-frequency": "3293",
+      "data-relevance": "185",
+      "data-term": "assailant",
+      "data-encoded-term": "assailant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3293",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "croc": {
+      "data-frequency": "1000",
+      "data-relevance": "184",
+      "data-term": "croc",
+      "data-encoded-term": "croc",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1000",
+        "w2v",
+        "1"
+      ]
+    },
+    "old english": {
+      "data-frequency": "11864",
+      "data-relevance": "183",
+      "data-term": "old english",
+      "data-encoded-term": "old%20english",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11864",
+        "wiki",
+        "1"
+      ]
+    },
+    "mob": {
+      "data-frequency": "22121",
+      "data-relevance": "182",
+      "data-term": "mob",
+      "data-encoded-term": "mob",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22121",
+        "w2v",
+        "1"
+      ]
+    },
+    "plunger": {
+      "data-frequency": "902",
+      "data-relevance": "181",
+      "data-term": "plunger",
+      "data-encoded-term": "plunger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "902",
+        "w2v",
+        "1"
+      ]
+    },
+    "mugging": {
+      "data-frequency": "759",
+      "data-relevance": "180",
+      "data-term": "mugging",
+      "data-encoded-term": "mugging",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "759",
+        "w2v",
+        "1"
+      ]
+    },
+    "perp": {
+      "data-frequency": "481",
+      "data-relevance": "179",
+      "data-term": "perp",
+      "data-encoded-term": "perp",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "481",
+        "ol",
+        "1"
+      ]
+    },
+    "electrocution": {
+      "data-frequency": "1434",
+      "data-relevance": "178",
+      "data-term": "electrocution",
+      "data-encoded-term": "electrocution",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1434",
+        "w2v",
+        "1"
+      ]
+    },
+    "impersonating": {
+      "data-frequency": "2289",
+      "data-relevance": "177",
+      "data-term": "impersonating",
+      "data-encoded-term": "impersonating",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2289",
+        "w2v",
+        "1"
+      ]
+    },
+    "drunken": {
+      "data-frequency": "10321",
+      "data-relevance": "176",
+      "data-term": "drunken",
+      "data-encoded-term": "drunken",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10321",
+        "w2v",
+        "1"
+      ]
+    },
+    "juggler": {
+      "data-frequency": "1009",
+      "data-relevance": "175",
+      "data-term": "juggler",
+      "data-encoded-term": "juggler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1009",
+        "w2v",
+        "1"
+      ]
+    },
+    "blackmailer": {
+      "data-frequency": "688",
+      "data-relevance": "174",
+      "data-term": "blackmailer",
+      "data-encoded-term": "blackmailer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "688",
+        "w2v",
+        "1"
+      ]
+    },
+    "teller": {
+      "data-frequency": "9181",
+      "data-relevance": "173",
+      "data-term": "teller",
+      "data-encoded-term": "teller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9181",
+        "w2v",
+        "1"
+      ]
+    },
+    "watchman": {
+      "data-frequency": "3319",
+      "data-relevance": "172",
+      "data-term": "watchman",
+      "data-encoded-term": "watchman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3319",
+        "w2v",
+        "1"
+      ]
+    },
+    "germanic languages": {
+      "data-frequency": "2579",
+      "data-relevance": "171",
+      "data-term": "germanic languages",
+      "data-encoded-term": "germanic%20languages",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2579",
+        "wiki",
+        "1"
+      ]
+    },
+    "finland": {
+      "data-frequency": "125118",
+      "data-relevance": "170",
+      "data-term": "finland",
+      "data-encoded-term": "finland",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "125118",
+        "wiki",
+        "1"
+      ]
+    },
+    "prank": {
+      "data-frequency": "6236",
+      "data-relevance": "169",
+      "data-term": "prank",
+      "data-encoded-term": "prank",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6236",
+        "w2v",
+        "1"
+      ]
+    },
+    "bathtub": {
+      "data-frequency": "3195",
+      "data-relevance": "168",
+      "data-term": "bathtub",
+      "data-encoded-term": "bathtub",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3195",
+        "w2v",
+        "1"
+      ]
+    },
+    "houdini": {
+      "data-frequency": "1916",
+      "data-relevance": "167",
+      "data-term": "houdini",
+      "data-encoded-term": "houdini",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1916",
+        "w2v",
+        "1"
+      ]
+    },
+    "tantrums": {
+      "data-frequency": "952",
+      "data-relevance": "166",
+      "data-term": "tantrums",
+      "data-encoded-term": "tantrums",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "952",
+        "w2v",
+        "1"
+      ]
+    },
+    "lynching": {
+      "data-frequency": "4882",
+      "data-relevance": "165",
+      "data-term": "lynching",
+      "data-encoded-term": "lynching",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4882",
+        "w2v",
+        "1"
+      ]
+    },
+    "lavatory": {
+      "data-frequency": "1285",
+      "data-relevance": "164",
+      "data-term": "lavatory",
+      "data-encoded-term": "lavatory",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1285",
+        "w2v",
+        "1"
+      ]
+    },
+    "stowaway": {
+      "data-frequency": "1010",
+      "data-relevance": "163",
+      "data-term": "stowaway",
+      "data-encoded-term": "stowaway",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1010",
+        "w2v",
+        "1"
+      ]
+    },
+    "assassin": {
+      "data-frequency": "13851",
+      "data-relevance": "162",
+      "data-term": "assassin",
+      "data-encoded-term": "assassin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13851",
+        "w2v",
+        "1"
+      ]
+    },
+    "projectionist": {
+      "data-frequency": "737",
+      "data-relevance": "161",
+      "data-term": "projectionist",
+      "data-encoded-term": "projectionist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "737",
+        "w2v",
+        "1"
+      ]
+    },
+    "doorknob": {
+      "data-frequency": "288",
+      "data-relevance": "160",
+      "data-term": "doorknob",
+      "data-encoded-term": "doorknob",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "288",
+        "w2v",
+        "1"
+      ]
+    },
+    "attacker": {
+      "data-frequency": "7724",
+      "data-relevance": "159",
+      "data-term": "attacker",
+      "data-encoded-term": "attacker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7724",
+        "ol",
+        "1"
+      ]
+    },
+    "snatcher": {
+      "data-frequency": "11859",
+      "data-relevance": "158",
+      "data-term": "snatcher",
+      "data-encoded-term": "snatcher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11859",
+        "ol",
+        "1"
+      ]
+    },
+    "holdup": {
+      "data-frequency": "542",
+      "data-relevance": "157",
+      "data-term": "holdup",
+      "data-encoded-term": "holdup",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "542",
+        "ol",
+        "1"
+      ]
+    },
+    "escapee": {
+      "data-frequency": "934",
+      "data-relevance": "156",
+      "data-term": "escapee",
+      "data-encoded-term": "escapee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "934",
+        "ol",
+        "1"
+      ]
+    },
+    "accomplice": {
+      "data-frequency": "4718",
+      "data-relevance": "155",
+      "data-term": "accomplice",
+      "data-encoded-term": "accomplice",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4718",
+        "ol",
+        "1"
+      ]
+    },
+    "offender": {
+      "data-frequency": "5769",
+      "data-relevance": "154",
+      "data-term": "offender",
+      "data-encoded-term": "offender",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5769",
+        "ol",
+        "1"
+      ]
+    },
+    "jemmy": {
+      "data-frequency": "361",
+      "data-relevance": "153",
+      "data-term": "jemmy",
+      "data-encoded-term": "jemmy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "361",
+        "ol",
+        "1"
+      ]
+    },
+    "thug": {
+      "data-frequency": "5580",
+      "data-relevance": "152",
+      "data-term": "thug",
+      "data-encoded-term": "thug",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5580",
+        "ol",
+        "1"
+      ]
+    },
+    "napper": {
+      "data-frequency": "452",
+      "data-relevance": "151",
+      "data-term": "napper",
+      "data-encoded-term": "napper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "452",
+        "ol",
+        "1"
+      ]
+    },
+    "man": {
+      "data-frequency": "649554",
+      "data-relevance": "150",
+      "data-term": "man",
+      "data-encoded-term": "man",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "649554",
+        "ol",
+        "1"
+      ]
+    },
+    "homeowner": {
+      "data-frequency": "2704",
+      "data-relevance": "149",
+      "data-term": "homeowner",
+      "data-encoded-term": "homeowner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2704",
+        "ol",
+        "1"
+      ]
+    },
+    "locksmith": {
+      "data-frequency": "998",
+      "data-relevance": "148",
+      "data-term": "locksmith",
+      "data-encoded-term": "locksmith",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "998",
+        "ol",
+        "1"
+      ]
+    },
+    "crim": {
+      "data-frequency": "1063",
+      "data-relevance": "147",
+      "data-term": "crim",
+      "data-encoded-term": "crim",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1063",
+        "ol",
+        "1"
+      ]
+    },
+    "motorist": {
+      "data-frequency": "1926",
+      "data-relevance": "146",
+      "data-term": "motorist",
+      "data-encoded-term": "motorist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1926",
+        "ol",
+        "1"
+      ]
+    },
+    "strangler": {
+      "data-frequency": "1330",
+      "data-relevance": "145",
+      "data-term": "strangler",
+      "data-encoded-term": "strangler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1330",
+        "ol",
+        "1"
+      ]
+    },
+    "abductor": {
+      "data-frequency": "661",
+      "data-relevance": "144",
+      "data-term": "abductor",
+      "data-encoded-term": "abductor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "661",
+        "ol",
+        "1"
+      ]
+    },
+    "killer": {
+      "data-frequency": "55455",
+      "data-relevance": "143",
+      "data-term": "killer",
+      "data-encoded-term": "killer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "55455",
+        "w2v",
+        "1"
+      ]
+    },
+    "handyman": {
+      "data-frequency": "1630",
+      "data-relevance": "142",
+      "data-term": "handyman",
+      "data-encoded-term": "handyman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1630",
+        "ol",
+        "1"
+      ]
+    },
+    "sorcerer": {
+      "data-frequency": "5857",
+      "data-relevance": "141",
+      "data-term": "sorcerer",
+      "data-encoded-term": "sorcerer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5857",
+        "w2v",
+        "1"
+      ]
+    },
+    "raccoon": {
+      "data-frequency": "4236",
+      "data-relevance": "140",
+      "data-term": "raccoon",
+      "data-encoded-term": "raccoon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4236",
+        "ol",
+        "1"
+      ]
+    },
+    "woman": {
+      "data-frequency": "294391",
+      "data-relevance": "139",
+      "data-term": "woman",
+      "data-encoded-term": "woman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "294391",
+        "ol",
+        "1"
+      ]
+    },
+    "machete": {
+      "data-frequency": "2542",
+      "data-relevance": "138",
+      "data-term": "machete",
+      "data-encoded-term": "machete",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2542",
+        "ol",
+        "1"
+      ]
+    },
+    "cabbie": {
+      "data-frequency": "721",
+      "data-relevance": "137",
+      "data-term": "cabbie",
+      "data-encoded-term": "cabbie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "721",
+        "w2v",
+        "1"
+      ]
+    },
+    "passerby": {
+      "data-frequency": "900",
+      "data-relevance": "136",
+      "data-term": "passerby",
+      "data-encoded-term": "passerby",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "900",
+        "ol",
+        "1"
+      ]
+    },
+    "stabbing": {
+      "data-frequency": "6785",
+      "data-relevance": "135",
+      "data-term": "stabbing",
+      "data-encoded-term": "stabbing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6785",
+        "w2v",
+        "1"
+      ]
+    },
+    "errant": {
+      "data-frequency": "2388",
+      "data-relevance": "134",
+      "data-term": "errant",
+      "data-encoded-term": "errant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2388",
+        "w2v",
+        "1"
+      ]
+    },
+    "wrench": {
+      "data-frequency": "2254",
+      "data-relevance": "133",
+      "data-term": "wrench",
+      "data-encoded-term": "wrench",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2254",
+        "w2v",
+        "1"
+      ]
+    },
+    "homicidal": {
+      "data-frequency": "1337",
+      "data-relevance": "132",
+      "data-term": "homicidal",
+      "data-encoded-term": "homicidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1337",
+        "w2v",
+        "1"
+      ]
+    },
+    "gurney": {
+      "data-frequency": "6118",
+      "data-relevance": "131",
+      "data-term": "gurney",
+      "data-encoded-term": "gurney",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6118",
+        "w2v",
+        "1"
+      ]
+    },
+    "janitor": {
+      "data-frequency": "3473",
+      "data-relevance": "130",
+      "data-term": "janitor",
+      "data-encoded-term": "janitor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3473",
+        "w2v",
+        "1"
+      ]
+    },
+    "trespass": {
+      "data-frequency": "2102",
+      "data-relevance": "129",
+      "data-term": "trespass",
+      "data-encoded-term": "trespass",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2102",
+        "w2v",
+        "1"
+      ]
+    },
+    "toting": {
+      "data-frequency": "685",
+      "data-relevance": "128",
+      "data-term": "toting",
+      "data-encoded-term": "toting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "685",
+        "w2v",
+        "1"
+      ]
+    },
+    "knocks": {
+      "data-frequency": "10120",
+      "data-relevance": "127",
+      "data-term": "knocks",
+      "data-encoded-term": "knocks",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10120",
+        "w2v",
+        "1"
+      ]
+    },
+    "entrapment": {
+      "data-frequency": "1412",
+      "data-relevance": "126",
+      "data-term": "entrapment",
+      "data-encoded-term": "entrapment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1412",
+        "w2v",
+        "1"
+      ]
+    },
+    "cellmate": {
+      "data-frequency": "953",
+      "data-relevance": "125",
+      "data-term": "cellmate",
+      "data-encoded-term": "cellmate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "953",
+        "w2v",
+        "1"
+      ]
+    },
+    "barroom": {
+      "data-frequency": "517",
+      "data-relevance": "124",
+      "data-term": "barroom",
+      "data-encoded-term": "barroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "517",
+        "w2v",
+        "1"
+      ]
+    },
+    "wand": {
+      "data-frequency": "3796",
+      "data-relevance": "123",
+      "data-term": "wand",
+      "data-encoded-term": "wand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3796",
+        "w2v",
+        "1"
+      ]
+    },
+    "cop": {
+      "data-frequency": "21298",
+      "data-relevance": "122",
+      "data-term": "cop",
+      "data-encoded-term": "cop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21298",
+        "w2v",
+        "1"
+      ]
+    },
+    "extinguisher": {
+      "data-frequency": "1161",
+      "data-relevance": "121",
+      "data-term": "extinguisher",
+      "data-encoded-term": "extinguisher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1161",
+        "w2v",
+        "1"
+      ]
+    },
+    "mouthed": {
+      "data-frequency": "1971",
+      "data-relevance": "120",
+      "data-term": "mouthed",
+      "data-encoded-term": "mouthed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1971",
+        "w2v",
+        "1"
+      ]
+    },
+    "manipulators": {
+      "data-frequency": "27042",
+      "data-relevance": "119",
+      "data-term": "manipulators",
+      "data-encoded-term": "manipulators",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27042",
+        "w2v",
+        "1"
+      ]
+    },
+    "brawl": {
+      "data-frequency": "9020",
+      "data-relevance": "118",
+      "data-term": "brawl",
+      "data-encoded-term": "brawl",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9020",
+        "w2v",
+        "1"
+      ]
+    },
+    "accidentally": {
+      "data-frequency": "35690",
+      "data-relevance": "117",
+      "data-term": "accidentally",
+      "data-encoded-term": "accidentally",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35690",
+        "w2v",
+        "1"
+      ]
+    },
+    "bootlegger": {
+      "data-frequency": "649",
+      "data-relevance": "116",
+      "data-term": "bootlegger",
+      "data-encoded-term": "bootlegger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "649",
+        "w2v",
+        "1"
+      ]
+    },
+    "german language": {
+      "data-frequency": "207342",
+      "data-relevance": "115",
+      "data-term": "german language",
+      "data-encoded-term": "german%20language",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "207342",
+        "wiki",
+        "1"
+      ]
+    },
+    "hurl": {
+      "data-frequency": "1217",
+      "data-relevance": "114",
+      "data-term": "hurl",
+      "data-encoded-term": "hurl",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1217",
+        "w2v",
+        "1"
+      ]
+    },
+    "wielding": {
+      "data-frequency": "5093",
+      "data-relevance": "113",
+      "data-term": "wielding",
+      "data-encoded-term": "wielding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5093",
+        "w2v",
+        "1"
+      ]
+    },
+    "overzealous": {
+      "data-frequency": "733",
+      "data-relevance": "112",
+      "data-term": "overzealous",
+      "data-encoded-term": "overzealous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "733",
+        "w2v",
+        "1"
+      ]
+    },
+    "felon": {
+      "data-frequency": "1807",
+      "data-relevance": "111",
+      "data-term": "felon",
+      "data-encoded-term": "felon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1807",
+        "w2v",
+        "1"
+      ]
+    },
+    "locking": {
+      "data-frequency": "8352",
+      "data-relevance": "110",
+      "data-term": "locking",
+      "data-encoded-term": "locking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8352",
+        "w2v",
+        "1"
+      ]
+    },
+    "tranquilizer": {
+      "data-frequency": "581",
+      "data-relevance": "109",
+      "data-term": "tranquilizer",
+      "data-encoded-term": "tranquilizer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "581",
+        "w2v",
+        "1"
+      ]
+    },
+    "sweden": {
+      "data-frequency": "198965",
+      "data-relevance": "108",
+      "data-term": "sweden",
+      "data-encoded-term": "sweden",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "198965",
+        "wiki",
+        "1"
+      ]
+    },
+    "carjacking": {
+      "data-frequency": "437",
+      "data-relevance": "107",
+      "data-term": "carjacking",
+      "data-encoded-term": "carjacking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "437",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "hoaxer": {
+      "data-frequency": "8272",
+      "data-relevance": "106",
+      "data-term": "hoaxer",
+      "data-encoded-term": "hoaxer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8272",
+        "w2v",
+        "1"
+      ]
+    },
+    "extortionist": {
+      "data-frequency": "271",
+      "data-relevance": "105",
+      "data-term": "extortionist",
+      "data-encoded-term": "extortionist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "271",
+        "w2v",
+        "1"
+      ]
+    },
+    "code of hammurabi": {
+      "data-frequency": "362",
+      "data-relevance": "104",
+      "data-term": "code of hammurabi",
+      "data-encoded-term": "code%20of%20hammurabi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "362",
+        "wiki",
+        "1"
+      ]
+    },
+    "telemarketer": {
+      "data-frequency": "179",
+      "data-relevance": "103",
+      "data-term": "telemarketer",
+      "data-encoded-term": "telemarketer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "179",
+        "w2v",
+        "1"
+      ]
+    },
+    "bouncer": {
+      "data-frequency": "2751",
+      "data-relevance": "102",
+      "data-term": "bouncer",
+      "data-encoded-term": "bouncer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2751",
+        "w2v",
+        "1"
+      ]
+    },
+    "one-eyed": {
+      "data-frequency": "2020",
+      "data-relevance": "101",
+      "data-term": "one-eyed",
+      "data-encoded-term": "one-eyed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2020",
+        "w2v",
+        "1"
+      ]
+    },
+    "old testament": {
+      "data-frequency": "8715",
+      "data-relevance": "100",
+      "data-term": "old testament",
+      "data-encoded-term": "old%20testament",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8715",
+        "wiki",
+        "1"
+      ]
+    },
+    "indictment": {
+      "data-frequency": "7808",
+      "data-relevance": "99",
+      "data-term": "indictment",
+      "data-encoded-term": "indictment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7808",
+        "wiki",
+        "1"
+      ]
+    },
+    "firebomb": {
+      "data-frequency": "354",
+      "data-relevance": "98",
+      "data-term": "firebomb",
+      "data-encoded-term": "firebomb",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "354",
+        "w2v",
+        "1"
+      ]
+    },
+    "overeager": {
+      "data-frequency": "117",
+      "data-relevance": "97",
+      "data-term": "overeager",
+      "data-encoded-term": "overeager",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "117",
+        "w2v",
+        "1"
+      ]
+    },
+    "piltdown": {
+      "data-frequency": "179",
+      "data-relevance": "96",
+      "data-term": "piltdown",
+      "data-encoded-term": "piltdown",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "179",
+        "w2v",
+        "1"
+      ]
+    },
+    "arrestor": {
+      "data-frequency": "128717",
+      "data-relevance": "95",
+      "data-term": "arrestor",
+      "data-encoded-term": "arrestor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "128717",
+        "w2v",
+        "1"
+      ]
+    },
+    "looter": {
+      "data-frequency": "148",
+      "data-relevance": "94",
+      "data-term": "looter",
+      "data-encoded-term": "looter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "148",
+        "ol",
+        "1"
+      ]
+    },
+    "yegg": {
+      "data-frequency": "177",
+      "data-relevance": "93",
+      "data-term": "yegg",
+      "data-encoded-term": "yegg",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "177",
+        "ol",
+        "1"
+      ]
+    },
+    "pilferer": {
+      "data-frequency": "650",
+      "data-relevance": "92",
+      "data-term": "pilferer",
+      "data-encoded-term": "pilferer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "650",
+        "ol",
+        "1"
+      ]
+    },
+    "perps": {
+      "data-frequency": "502",
+      "data-relevance": "91",
+      "data-term": "perps",
+      "data-encoded-term": "perps",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "502",
+        "ol",
+        "1"
+      ]
+    },
+    "embezzler": {
+      "data-frequency": "265",
+      "data-relevance": "90",
+      "data-term": "embezzler",
+      "data-encoded-term": "embezzler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "265",
+        "ol",
+        "1"
+      ]
+    },
+    "scammer": {
+      "data-frequency": "210",
+      "data-relevance": "89",
+      "data-term": "scammer",
+      "data-encoded-term": "scammer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "210",
+        "ol",
+        "1"
+      ]
+    },
+    "peeper": {
+      "data-frequency": "226",
+      "data-relevance": "88",
+      "data-term": "peeper",
+      "data-encoded-term": "peeper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "flasher": {
+      "data-frequency": "552",
+      "data-relevance": "87",
+      "data-term": "flasher",
+      "data-encoded-term": "flasher",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "552",
+        "ol",
+        "1"
+      ]
+    },
+    "dognapper": {
+      "data-frequency": "52",
+      "data-relevance": "86",
+      "data-term": "dognapper",
+      "data-encoded-term": "dognapper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    },
+    "parolee": {
+      "data-frequency": "225",
+      "data-relevance": "85",
+      "data-term": "parolee",
+      "data-encoded-term": "parolee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "225",
+        "ol",
+        "1"
+      ]
+    },
+    "conman": {
+      "data-frequency": "741",
+      "data-relevance": "84",
+      "data-term": "conman",
+      "data-encoded-term": "conman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "741",
+        "ol",
+        "1"
+      ]
+    },
+    "larcenist": {
+      "data-frequency": "-1",
+      "data-relevance": "83",
+      "data-term": "larcenist",
+      "data-encoded-term": "larcenist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "firebug": {
+      "data-frequency": "162",
+      "data-relevance": "82",
+      "data-term": "firebug",
+      "data-encoded-term": "firebug",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "162",
+        "ol",
+        "1"
+      ]
+    },
+    "larcener": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "larcener",
+      "data-encoded-term": "larcener",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "knifepoint": {
+      "data-frequency": "238",
+      "data-relevance": "80",
+      "data-term": "knifepoint",
+      "data-encoded-term": "knifepoint",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "238",
+        "ol",
+        "1"
+      ]
+    },
+    "stickup": {
+      "data-frequency": "89",
+      "data-relevance": "79",
+      "data-term": "stickup",
+      "data-encoded-term": "stickup",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89",
+        "ol",
+        "1"
+      ]
+    },
+    "burgle": {
+      "data-frequency": "181",
+      "data-relevance": "78",
+      "data-term": "burgle",
+      "data-encoded-term": "burgle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "181",
+        "ol",
+        "1"
+      ]
+    },
+    "safecracking": {
+      "data-frequency": "56",
+      "data-relevance": "77",
+      "data-term": "safecracking",
+      "data-encoded-term": "safecracking",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "stabber": {
+      "data-frequency": "600",
+      "data-relevance": "76",
+      "data-term": "stabber",
+      "data-encoded-term": "stabber",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "600",
+        "ol",
+        "1"
+      ]
+    },
+    "ganef": {
+      "data-frequency": "178",
+      "data-relevance": "75",
+      "data-term": "ganef",
+      "data-encoded-term": "ganef",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "178",
+        "ol",
+        "1"
+      ]
+    },
+    "thiefly": {
+      "data-frequency": "18709",
+      "data-relevance": "74",
+      "data-term": "thiefly",
+      "data-encoded-term": "thiefly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18709",
+        "ol",
+        "1"
+      ]
+    },
+    "loiterer": {
+      "data-frequency": "38",
+      "data-relevance": "73",
+      "data-term": "loiterer",
+      "data-encoded-term": "loiterer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "38",
+        "ol",
+        "1"
+      ]
+    },
+    "panhandler": {
+      "data-frequency": "100",
+      "data-relevance": "72",
+      "data-term": "panhandler",
+      "data-encoded-term": "panhandler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "100",
+        "ol",
+        "1"
+      ]
+    },
+    "deadbolt": {
+      "data-frequency": "127",
+      "data-relevance": "71",
+      "data-term": "deadbolt",
+      "data-encoded-term": "deadbolt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "127",
+        "ol",
+        "1"
+      ]
+    },
+    "deliveryman": {
+      "data-frequency": "307",
+      "data-relevance": "70",
+      "data-term": "deliveryman",
+      "data-encoded-term": "deliveryman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "307",
+        "ol",
+        "1"
+      ]
+    },
+    "yob": {
+      "data-frequency": "254",
+      "data-relevance": "69",
+      "data-term": "yob",
+      "data-encoded-term": "yob",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "254",
+        "ol",
+        "1"
+      ]
+    },
+    "escaper": {
+      "data-frequency": "92",
+      "data-relevance": "68",
+      "data-term": "escaper",
+      "data-encoded-term": "escaper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "92",
+        "ol",
+        "1"
+      ]
+    },
+    "internet-connected": {
+      "data-frequency": "13423",
+      "data-relevance": "67",
+      "data-term": "internet-connected",
+      "data-encoded-term": "internet-connected",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13423",
+        "w2v",
+        "1"
+      ]
+    },
+    "bugging": {
+      "data-frequency": "539",
+      "data-relevance": "66",
+      "data-term": "bugging",
+      "data-encoded-term": "bugging",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "539",
+        "w2v",
+        "1"
+      ]
+    },
+    "vandalism": {
+      "data-frequency": "9540",
+      "data-relevance": "65",
+      "data-term": "vandalism",
+      "data-encoded-term": "vandalism",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9540",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "deportee": {
+      "data-frequency": "170",
+      "data-relevance": "64",
+      "data-term": "deportee",
+      "data-encoded-term": "deportee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "170",
+        "w2v",
+        "1"
+      ]
+    },
+    "astro-man": {
+      "data-frequency": "4430",
+      "data-relevance": "63",
+      "data-term": "astro-man",
+      "data-encoded-term": "astro-man",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4430",
+        "w2v",
+        "1"
+      ]
+    },
+    "statutes": {
+      "data-frequency": "20063",
+      "data-relevance": "62",
+      "data-term": "statutes",
+      "data-encoded-term": "statutes",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "20063",
+        "wiki",
+        "1"
+      ]
+    },
+    "pornographer": {
+      "data-frequency": "490",
+      "data-relevance": "61",
+      "data-term": "pornographer",
+      "data-encoded-term": "pornographer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "490",
+        "w2v",
+        "1"
+      ]
+    },
+    "slays": {
+      "data-frequency": "19541",
+      "data-relevance": "60",
+      "data-term": "slays",
+      "data-encoded-term": "slays",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19541",
+        "w2v",
+        "1"
+      ]
+    },
+    "small-time": {
+      "data-frequency": "2245",
+      "data-relevance": "59",
+      "data-term": "small-time",
+      "data-encoded-term": "small-time",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2245",
+        "w2v",
+        "1"
+      ]
+    },
+    "486-based": {
+      "data-frequency": "12791",
+      "data-relevance": "58",
+      "data-term": "486-based",
+      "data-encoded-term": "486-based",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12791",
+        "w2v",
+        "1"
+      ]
+    },
+    "felony": {
+      "data-frequency": "6946",
+      "data-relevance": "57",
+      "data-term": "felony",
+      "data-encoded-term": "felony",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6946",
+        "wiki",
+        "1"
+      ]
+    },
+    "inhalant": {
+      "data-frequency": "188",
+      "data-relevance": "56",
+      "data-term": "inhalant",
+      "data-encoded-term": "inhalant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "188",
+        "w2v",
+        "1"
+      ]
+    },
+    "trespassing": {
+      "data-frequency": "2775",
+      "data-relevance": "55",
+      "data-term": "trespassing",
+      "data-encoded-term": "trespassing",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2775",
+        "wiki",
+        "1"
+      ]
+    },
+    "misdemeanor": {
+      "data-frequency": "3529",
+      "data-relevance": "54",
+      "data-term": "misdemeanor",
+      "data-encoded-term": "misdemeanor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3529",
+        "wiki",
+        "1"
+      ]
+    },
+    "intent": {
+      "data-frequency": "38217",
+      "data-relevance": "53",
+      "data-term": "intent",
+      "data-encoded-term": "intent",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "38217",
+        "wiki",
+        "1"
+      ]
+    },
+    "commentaries on the laws of england": {
+      "data-frequency": "264",
+      "data-relevance": "52",
+      "data-term": "commentaries on the laws of england",
+      "data-encoded-term": "commentaries%20on%20the%20laws%20of%20england",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "264",
+        "wiki",
+        "1"
+      ]
+    },
+    "robert peel": {
+      "data-frequency": "1127",
+      "data-relevance": "51",
+      "data-term": "robert peel",
+      "data-encoded-term": "robert%20peel",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1127",
+        "wiki",
+        "1"
+      ]
+    },
+    "william blackstone": {
+      "data-frequency": "416",
+      "data-relevance": "50",
+      "data-term": "william blackstone",
+      "data-encoded-term": "william%20blackstone",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "416",
+        "wiki",
+        "1"
+      ]
+    },
+    "kidnapping": {
+      "data-frequency": "13328",
+      "data-relevance": "49",
+      "data-term": "kidnapping",
+      "data-encoded-term": "kidnapping",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13328",
+        "wiki",
+        "1"
+      ]
+    },
+    "rape": {
+      "data-frequency": "27973",
+      "data-relevance": "48",
+      "data-term": "rape",
+      "data-encoded-term": "rape",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "27973",
+        "wiki",
+        "1"
+      ]
+    },
+    "burglar alarm": {
+      "data-frequency": "190",
+      "data-relevance": "47",
+      "data-term": "burglar alarm",
+      "data-encoded-term": "burglar%20alarm",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "190",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "criminal code": {
+      "data-frequency": "3041",
+      "data-relevance": "46",
+      "data-term": "criminal code",
+      "data-encoded-term": "criminal%20code",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3041",
+        "wiki",
+        "1"
+      ]
+    },
+    "armed robbery": {
+      "data-frequency": "2055",
+      "data-relevance": "45",
+      "data-term": "armed robbery",
+      "data-encoded-term": "armed%20robbery",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2055",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "hybrid offence": {
+      "data-frequency": "284",
+      "data-relevance": "44",
+      "data-term": "hybrid offence",
+      "data-encoded-term": "hybrid%20offence",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "284",
+        "wiki",
+        "1"
+      ]
+    },
+    "sneak thief": {
+      "data-frequency": "42",
+      "data-relevance": "43",
+      "data-term": "sneak thief",
+      "data-encoded-term": "sneak%20thief",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "42",
+        "ol",
+        "1"
+      ]
+    },
+    "indictable offence": {
+      "data-frequency": "331",
+      "data-relevance": "42",
+      "data-term": "indictable offence",
+      "data-encoded-term": "indictable%20offence",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "331",
+        "wiki",
+        "1"
+      ]
+    },
+    "peeping tom": {
+      "data-frequency": "1242",
+      "data-relevance": "41",
+      "data-term": "peeping tom",
+      "data-encoded-term": "peeping%20tom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1242",
+        "ol",
+        "1"
+      ]
+    },
+    "break in": {
+      "data-frequency": "11522",
+      "data-relevance": "40",
+      "data-term": "break in",
+      "data-encoded-term": "break%20in",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "11522",
+        "ol",
+        "1"
+      ]
+    },
+    "ski mask": {
+      "data-frequency": "237",
+      "data-relevance": "39",
+      "data-term": "ski mask",
+      "data-encoded-term": "ski%20mask",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "237",
+        "ol",
+        "1"
+      ]
+    },
+    "bolt cutter": {
+      "data-frequency": "-1",
+      "data-relevance": "38",
+      "data-term": "bolt cutter",
+      "data-encoded-term": "bolt%20cutter",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "serial killer": {
+      "data-frequency": "9904",
+      "data-relevance": "37",
+      "data-term": "serial killer",
+      "data-encoded-term": "serial%20killer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "9904",
+        "ol",
+        "1"
+      ]
+    },
+    "breaking and entering": {
+      "data-frequency": "65445",
+      "data-relevance": "36",
+      "data-term": "breaking and entering",
+      "data-encoded-term": "breaking%20and%20entering",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "65445",
+        "ol",
+        "1"
+      ]
+    },
+    "claw hammer": {
+      "data-frequency": "135",
+      "data-relevance": "35",
+      "data-term": "claw hammer",
+      "data-encoded-term": "claw%20hammer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "135",
+        "ol",
+        "1"
+      ]
+    },
+    "butcher knife": {
+      "data-frequency": "214",
+      "data-relevance": "34",
+      "data-term": "butcher knife",
+      "data-encoded-term": "butcher%20knife",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "214",
+        "ol",
+        "1"
+      ]
+    },
+    "new zealand": {
+      "data-frequency": "237641",
+      "data-relevance": "33",
+      "data-term": "new zealand",
+      "data-encoded-term": "new%20zealand",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "237641",
+        "wiki",
+        "1"
+      ]
+    },
+    "window pane": {
+      "data-frequency": "156",
+      "data-relevance": "32",
+      "data-term": "window pane",
+      "data-encoded-term": "window%20pane",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "156",
+        "ol",
+        "1"
+      ]
+    },
+    "crimes act 1961": {
+      "data-frequency": "6418",
+      "data-relevance": "31",
+      "data-term": "crimes act 1961",
+      "data-encoded-term": "crimes%20act%201961",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6418",
+        "wiki",
+        "1"
+      ]
+    },
+    "california": {
+      "data-frequency": "435330",
+      "data-relevance": "30",
+      "data-term": "california",
+      "data-encoded-term": "california",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "435330",
+        "wiki",
+        "1"
+      ]
+    },
+    "theft act 1968": {
+      "data-frequency": "1749",
+      "data-relevance": "29",
+      "data-term": "theft act 1968",
+      "data-encoded-term": "theft%20act%201968",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1749",
+        "wiki",
+        "1"
+      ]
+    },
+    "twilight": {
+      "data-frequency": "18334",
+      "data-relevance": "28",
+      "data-term": "twilight",
+      "data-encoded-term": "twilight",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "18334",
+        "wiki",
+        "1"
+      ]
+    },
+    "serial": {
+      "data-frequency": "52180",
+      "data-relevance": "27",
+      "data-term": "serial",
+      "data-encoded-term": "serial",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "52180",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "scots law": {
+      "data-frequency": "920",
+      "data-relevance": "26",
+      "data-term": "scots law",
+      "data-encoded-term": "scots%20law",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "920",
+        "wiki",
+        "1"
+      ]
+    },
+    "massachusetts": {
+      "data-frequency": "133791",
+      "data-relevance": "25",
+      "data-term": "massachusetts",
+      "data-encoded-term": "massachusetts",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "133791",
+        "wiki",
+        "1"
+      ]
+    },
+    "fire": {
+      "data-frequency": "368880",
+      "data-relevance": "24",
+      "data-term": "fire",
+      "data-encoded-term": "fire",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "368880",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "aunt": {
+      "data-frequency": "37025",
+      "data-relevance": "23",
+      "data-term": "aunt",
+      "data-encoded-term": "aunt",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "37025",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "sexual": {
+      "data-frequency": "77253",
+      "data-relevance": "22",
+      "data-term": "sexual",
+      "data-encoded-term": "sexual",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "77253",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "21",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "506299",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ghost": {
+      "data-frequency": "74097",
+      "data-relevance": "20",
+      "data-term": "ghost",
+      "data-encoded-term": "ghost",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "74097",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "zorro": {
+      "data-frequency": "2886",
+      "data-relevance": "19",
+      "data-term": "zorro",
+      "data-encoded-term": "zorro",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2886",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "entry": {
+      "data-frequency": "272145",
+      "data-relevance": "18",
+      "data-term": "entry",
+      "data-encoded-term": "entry",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "272145",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "self-defense": {
+      "data-frequency": "10360",
+      "data-relevance": "17",
+      "data-term": "self-defense",
+      "data-encoded-term": "self-defense",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "10360",
+        "wiki",
+        "1"
+      ]
+    },
+    "dog": {
+      "data-frequency": "102331",
+      "data-relevance": "16",
+      "data-term": "dog",
+      "data-encoded-term": "dog",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "102331",
+        "wiki",
+        "1"
+      ]
+    },
+    "identity theft": {
+      "data-frequency": "1244",
+      "data-relevance": "15",
+      "data-term": "identity theft",
+      "data-encoded-term": "identity%20theft",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1244",
+        "wiki",
+        "1"
+      ]
+    },
+    "unodc": {
+      "data-frequency": "580",
+      "data-relevance": "14",
+      "data-term": "unodc",
+      "data-encoded-term": "unodc",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "580",
+        "wiki",
+        "1"
+      ]
+    },
+    "watergate scandal": {
+      "data-frequency": "1196",
+      "data-relevance": "13",
+      "data-term": "watergate scandal",
+      "data-encoded-term": "watergate%20scandal",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1196",
+        "wiki",
+        "1"
+      ]
+    },
+    "civil rights": {
+      "data-frequency": "30327",
+      "data-relevance": "12",
+      "data-term": "civil rights",
+      "data-encoded-term": "civil%20rights",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "30327",
+        "wiki",
+        "1"
+      ]
+    },
+    "inchoate offense": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "inchoate offense",
+      "data-encoded-term": "inchoate%20offense",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "law of the united states": {
+      "data-frequency": "425",
+      "data-relevance": "10",
+      "data-term": "law of the united states",
+      "data-encoded-term": "law%20of%20the%20united%20states",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "425",
+        "wiki",
+        "1"
+      ]
+    },
+    "specific intent": {
+      "data-frequency": "7470",
+      "data-relevance": "9",
+      "data-term": "specific intent",
+      "data-encoded-term": "specific%20intent",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "7470",
+        "wiki",
+        "1"
+      ]
+    },
+    "florida law": {
+      "data-frequency": "29239",
+      "data-relevance": "8",
+      "data-term": "florida law",
+      "data-encoded-term": "florida%20law",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "29239",
+        "wiki",
+        "1"
+      ]
+    },
+    "new york penal law": {
+      "data-frequency": "3351",
+      "data-relevance": "7",
+      "data-term": "new york penal law",
+      "data-encoded-term": "new%20york%20penal%20law",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3351",
+        "wiki",
+        "1"
+      ]
+    },
+    "new hampshire": {
+      "data-frequency": "37681",
+      "data-relevance": "6",
+      "data-term": "new hampshire",
+      "data-encoded-term": "new%20hampshire",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "37681",
+        "wiki",
+        "1"
+      ]
+    },
+    "safety and security window film": {
+      "data-frequency": "1365",
+      "data-relevance": "5",
+      "data-term": "safety and security window film",
+      "data-encoded-term": "safety%20and%20security%20window%20film",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1365",
+        "wiki",
+        "1"
+      ]
+    },
+    "anti-climb paint": {
+      "data-frequency": "-1",
+      "data-relevance": "4",
+      "data-term": "anti-climb paint",
+      "data-encoded-term": "anti-climb%20paint",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "security alarm": {
+      "data-frequency": "5817",
+      "data-relevance": "3",
+      "data-term": "security alarm",
+      "data-encoded-term": "security%20alarm",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "5817",
+        "wiki",
+        "1"
+      ]
+    },
+    "lock and key": {
+      "data-frequency": "426",
+      "data-relevance": "2",
+      "data-term": "lock and key",
+      "data-encoded-term": "lock%20and%20key",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "426",
+        "wiki",
+        "1"
+      ]
+    },
+    "uniform crime reports": {
+      "data-frequency": "4961",
+      "data-relevance": "1",
+      "data-term": "uniform crime reports",
+      "data-encoded-term": "uniform%20crime%20reports",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "4961",
+        "wiki",
+        "1"
+      ]
+    },
+    "dog attack": {
+      "data-frequency": "18216",
+      "data-relevance": "0",
+      "data-term": "dog attack",
+      "data-encoded-term": "dog%20attack",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "18216",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "burglar",
+      "burglary"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The burglars left the house in an awful mess.",
+        "ru": "Грабители оставили в доме страшный разгром /беспорядок/."
+      },
+      {
+        "en": "The burglars robbed him of all his money.",
+        "ru": "Грабители отняли все его деньги."
+      },
+      {
+        "en": "A visible alarm makes burglars think twice.",
+        "ru": "Видимая сигнализация заставляет грабителей дважды подумать."
+      },
+      {
+        "en": "The burglars fled after triggering the alarm.",
+        "ru": "Как только сработала сигнализация, грабители поспешили скрыться."
+      },
+      {
+        "en": "The burglars have turned our house upside down.",
+        "ru": "Грабители перевернули наш дом вверх дном."
+      },
+      {
+        "en": "...the burglars broke in by smashing a window...",
+        "ru": "...грабители вломились, разбив окно..."
+      },
+      {
+        "en": "The burglars broke in through the kitchen window.",
+        "ru": "Грабители ворвались через кухонное окно."
+      },
+      {
+        "en": "Burglars had been in and turned the whole house over.",
+        "ru": "В доме побывали грабители, перевернув его вверх дном."
+      },
+      {
+        "en": "The burglars overturned all the furniture in the house.",
+        "ru": "Взломщики перевернули всю мебель в доме."
+      },
+      {
+        "en": "A security guard surprised the burglars in the storeroom.",
+        "ru": "В подсобке грабителей застал врасплох сотрудник службы охраны."
+      },
+      {
+        "en": "He decided to play along with the burglars for the moment.",
+        "ru": "Он решил пока что подыграть взломщикам."
+      },
+      {
+        "en": "The burglars gagged the home owner and tied him to a chair.",
+        "ru": "Грабители заткнули рот хозяина дома кляпом и привязали его к стулу."
+      },
+      {
+        "en": "By the time the police arrived on the scene, the burglars had fled.",
+        "ru": "К тому времени, когда полиция прибыла на место происшествия, грабители скрылись."
+      },
+      {
+        "en": "I put an extra lock on the door as an added insurance against burglars.",
+        "ru": "В качестве дополнительной защиты от воров я поставил на дверь ещё один замок."
+      },
+      {
+        "en": "The burglars despoiled the art museum in search of treasures they thought they could sell to a fence.",
+        "ru": "Взломщики разграбили художественный музей в поисках сокровищ, которые они надеялись загнать перекупщику."
+      }
+    ]
+  },
+  "important_word": {
+    "word_forms": [
+      "burglar"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "burglary",
+      "burglar"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "robber",
+      "stalker",
+      "burglar",
+      "loot",
+      "robbers",
+      "thief",
+      "murderer",
+      "stealer",
+      "intruder",
+      "arsonist",
+      "thieves",
+      "robbery",
+      "burglary"
+    ]
+  }
+}

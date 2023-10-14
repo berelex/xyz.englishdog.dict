@@ -1,0 +1,4216 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "chastise": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/chastisement/n/,/c/en/chastise/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/chastisement/n",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastisement"
+        },
+        "end": {
+          "@id": "/c/en/chastise",
+          "@type": "Node",
+          "label": "chastise",
+          "language": "en",
+          "term": "/c/en/chastise"
+        }
+      },
+      "chastisable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/chastisable/a/,/c/en/chastisement/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/chastisable/a",
+          "@type": "Node",
+          "label": "chastisable",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/chastisable"
+        },
+        "end": {
+          "@id": "/c/en/chastisement",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "term": "/c/en/chastisement"
+        }
+      },
+      "rebuke": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/chastisement/n/,/c/en/rebuke/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/chastisement/n",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastisement"
+        },
+        "end": {
+          "@id": "/c/en/rebuke",
+          "@type": "Node",
+          "label": "rebuke",
+          "language": "en",
+          "term": "/c/en/rebuke"
+        }
+      },
+      "punishment": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/chastisement/n/,/c/en/punishment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/chastisement/n",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastisement"
+        },
+        "end": {
+          "@id": "/c/en/punishment",
+          "@type": "Node",
+          "label": "punishment",
+          "language": "en",
+          "term": "/c/en/punishment"
+        }
+      },
+      "castigation": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/castigation/n/,/c/en/chastisement/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/castigation/n",
+          "@type": "Node",
+          "label": "castigation",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/castigation"
+        },
+        "end": {
+          "@id": "/c/en/chastisement",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "term": "/c/en/chastisement"
+        }
+      },
+      "chastisements": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/chastisements/n/,/c/en/chastisement/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/chastisements/n",
+          "@type": "Node",
+          "label": "chastisements",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastisements"
+        },
+        "end": {
+          "@id": "/c/en/chastisement",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "term": "/c/en/chastisement"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "castigation": {
+        "@id": "/a/[/r/Synonym/,/c/en/chastisement/n/wn/act/,/c/en/castigation/n/wn/act/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/chastisement/n/wn/act",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/chastisement"
+        },
+        "end": {
+          "@id": "/c/en/castigation/n/wn/act",
+          "@type": "Node",
+          "label": "castigation",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/castigation"
+        }
+      },
+      "correction": {
+        "@id": "/a/[/r/Synonym/,/c/en/chastisement/n/wn/communication/,/c/en/correction/n/wn/communication/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/chastisement/n/wn/communication",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "sense_label": "n, communication",
+          "term": "/c/en/chastisement"
+        },
+        "end": {
+          "@id": "/c/en/correction/n/wn/communication",
+          "@type": "Node",
+          "label": "correction",
+          "language": "en",
+          "sense_label": "n, communication",
+          "term": "/c/en/correction"
+        }
+      },
+      "punishment": {
+        "@id": "/a/[/r/Synonym/,/c/en/chastisement/n/,/c/en/punishment/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/chastisement/n",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastisement"
+        },
+        "end": {
+          "@id": "/c/en/punishment",
+          "@type": "Node",
+          "label": "punishment",
+          "language": "en",
+          "term": "/c/en/punishment"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "chastizement": {
+        "@id": "/a/[/r/FormOf/,/c/en/chastizement/n/,/c/en/chastisement/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/chastizement/n",
+          "@type": "Node",
+          "label": "chastizement",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastizement"
+        },
+        "end": {
+          "@id": "/c/en/chastisement",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "term": "/c/en/chastisement"
+        }
+      },
+      "chastisements": {
+        "@id": "/a/[/r/FormOf/,/c/en/chastisements/n/,/c/en/chastisement/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/chastisements/n",
+          "@type": "Node",
+          "label": "chastisements",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/chastisements"
+        },
+        "end": {
+          "@id": "/c/en/chastisement",
+          "@type": "Node",
+          "label": "chastisement",
+          "language": "en",
+          "term": "/c/en/chastisement"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "punishment": {
+      "data-frequency": "38921",
+      "data-relevance": "280",
+      "data-term": "punishment",
+      "data-encoded-term": "punishment",
+      "data-term-stats": [
+        "1",
+        "4.5",
+        "0.000",
+        "38921",
+        "ol,wn|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "corrective": {
+      "data-frequency": "5193",
+      "data-relevance": "279",
+      "data-term": "corrective",
+      "data-encoded-term": "corrective",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5193",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "castigation": {
+      "data-frequency": "69",
+      "data-relevance": "278",
+      "data-term": "castigation",
+      "data-encoded-term": "castigation",
+      "data-term-stats": [
+        "1",
+        "5.9",
+        "0.000",
+        "69",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "correction": {
+      "data-frequency": "12938",
+      "data-relevance": "277",
+      "data-term": "correction",
+      "data-encoded-term": "correction",
+      "data-term-stats": [
+        "1",
+        "5.9",
+        "0.000",
+        "12938",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "reproof": {
+      "data-frequency": "169",
+      "data-relevance": "276",
+      "data-term": "reproof",
+      "data-encoded-term": "reproof",
+      "data-term-stats": [
+        "1",
+        "4.9",
+        "0.000",
+        "169",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "rebuke": {
+      "data-frequency": "1973",
+      "data-relevance": "275",
+      "data-term": "rebuke",
+      "data-encoded-term": "rebuke",
+      "data-term-stats": [
+        "1",
+        "4.3",
+        "0.000",
+        "1973",
+        "ol,wn|vec2",
+        "1"
+      ]
+    },
+    "reprimand": {
+      "data-frequency": "1646",
+      "data-relevance": "274",
+      "data-term": "reprimand",
+      "data-encoded-term": "reprimand",
+      "data-term-stats": [
+        "1",
+        "4.2",
+        "0.000",
+        "1646",
+        "ol,wn|vec2",
+        "1"
+      ]
+    },
+    "recompense": {
+      "data-frequency": "1194",
+      "data-relevance": "273",
+      "data-term": "recompense",
+      "data-encoded-term": "recompense",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "1194",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "chastening": {
+      "data-frequency": "66",
+      "data-relevance": "272",
+      "data-term": "chastening",
+      "data-encoded-term": "chastening",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "66",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "penalty": {
+      "data-frequency": "52899",
+      "data-relevance": "271",
+      "data-term": "penalty",
+      "data-encoded-term": "penalty",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "52899",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "penalization": {
+      "data-frequency": "91",
+      "data-relevance": "270",
+      "data-term": "penalization",
+      "data-encoded-term": "penalization",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "91",
+        "w2v,wn",
+        "1"
+      ]
+    },
+    "scolding": {
+      "data-frequency": "874",
+      "data-relevance": "269",
+      "data-term": "scolding",
+      "data-encoded-term": "scolding",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "874",
+        "vec2",
+        "1"
+      ]
+    },
+    "tongue lashing": {
+      "data-frequency": "69",
+      "data-relevance": "268",
+      "data-term": "tongue lashing",
+      "data-encoded-term": "tongue%20lashing",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "69",
+        "vec2",
+        "1"
+      ]
+    },
+    "impertinence": {
+      "data-frequency": "181",
+      "data-relevance": "267",
+      "data-term": "impertinence",
+      "data-encoded-term": "impertinence",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "181",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "scornful": {
+      "data-frequency": "735",
+      "data-relevance": "266",
+      "data-term": "scornful",
+      "data-encoded-term": "scornful",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "735",
+        "vec2",
+        "1"
+      ]
+    },
+    "denunciations": {
+      "data-frequency": "695",
+      "data-relevance": "265",
+      "data-term": "denunciations",
+      "data-encoded-term": "denunciations",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "695",
+        "vec2",
+        "1"
+      ]
+    },
+    "self righteousness": {
+      "data-frequency": "175",
+      "data-relevance": "264",
+      "data-term": "self righteousness",
+      "data-encoded-term": "self%20righteousness",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "175",
+        "vec2",
+        "1"
+      ]
+    },
+    "exhortation": {
+      "data-frequency": "1139",
+      "data-relevance": "263",
+      "data-term": "exhortation",
+      "data-encoded-term": "exhortation",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1139",
+        "vec2",
+        "1"
+      ]
+    },
+    "insolent": {
+      "data-frequency": "642",
+      "data-relevance": "262",
+      "data-term": "insolent",
+      "data-encoded-term": "insolent",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "642",
+        "vec2",
+        "1"
+      ]
+    },
+    "derision": {
+      "data-frequency": "1242",
+      "data-relevance": "261",
+      "data-term": "derision",
+      "data-encoded-term": "derision",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1242",
+        "vec2",
+        "1"
+      ]
+    },
+    "righteous": {
+      "data-frequency": "8586",
+      "data-relevance": "260",
+      "data-term": "righteous",
+      "data-encoded-term": "righteous",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "8586",
+        "vec2",
+        "1"
+      ]
+    },
+    "humiliations": {
+      "data-frequency": "15189",
+      "data-relevance": "259",
+      "data-term": "humiliations",
+      "data-encoded-term": "humiliations",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "15189",
+        "vec2",
+        "1"
+      ]
+    },
+    "foolishness": {
+      "data-frequency": "908",
+      "data-relevance": "258",
+      "data-term": "foolishness",
+      "data-encoded-term": "foolishness",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "908",
+        "vec2",
+        "1"
+      ]
+    },
+    "rectitude": {
+      "data-frequency": "333",
+      "data-relevance": "257",
+      "data-term": "rectitude",
+      "data-encoded-term": "rectitude",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "333",
+        "vec2",
+        "1"
+      ]
+    },
+    "admonish": {
+      "data-frequency": "418",
+      "data-relevance": "256",
+      "data-term": "admonish",
+      "data-encoded-term": "admonish",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "418",
+        "vec2",
+        "1"
+      ]
+    },
+    "mirth": {
+      "data-frequency": "1135",
+      "data-relevance": "255",
+      "data-term": "mirth",
+      "data-encoded-term": "mirth",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1135",
+        "vec2",
+        "1"
+      ]
+    },
+    "vitriol": {
+      "data-frequency": "967",
+      "data-relevance": "254",
+      "data-term": "vitriol",
+      "data-encoded-term": "vitriol",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "967",
+        "vec2",
+        "1"
+      ]
+    },
+    "reprimands": {
+      "data-frequency": "938",
+      "data-relevance": "253",
+      "data-term": "reprimands",
+      "data-encoded-term": "reprimands",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "938",
+        "vec2",
+        "1"
+      ]
+    },
+    "righteous indignation": {
+      "data-frequency": "184",
+      "data-relevance": "252",
+      "data-term": "righteous indignation",
+      "data-encoded-term": "righteous%20indignation",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "184",
+        "vec2",
+        "1"
+      ]
+    },
+    "punishments": {
+      "data-frequency": "39774",
+      "data-relevance": "251",
+      "data-term": "punishments",
+      "data-encoded-term": "punishments",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "39774",
+        "vec2",
+        "1"
+      ]
+    },
+    "sins": {
+      "data-frequency": "12252",
+      "data-relevance": "250",
+      "data-term": "sins",
+      "data-encoded-term": "sins",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "12252",
+        "vec2",
+        "1"
+      ]
+    },
+    "righteousness": {
+      "data-frequency": "3388",
+      "data-relevance": "249",
+      "data-term": "righteousness",
+      "data-encoded-term": "righteousness",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "3388",
+        "vec2",
+        "1"
+      ]
+    },
+    "verbal abuse": {
+      "data-frequency": "931",
+      "data-relevance": "248",
+      "data-term": "verbal abuse",
+      "data-encoded-term": "verbal%20abuse",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "931",
+        "vec2",
+        "1"
+      ]
+    },
+    "provocation": {
+      "data-frequency": "3408",
+      "data-relevance": "247",
+      "data-term": "provocation",
+      "data-encoded-term": "provocation",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3408",
+        "vec2",
+        "1"
+      ]
+    },
+    "enlightenment": {
+      "data-frequency": "17314",
+      "data-relevance": "246",
+      "data-term": "enlightenment",
+      "data-encoded-term": "enlightenment",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "17314",
+        "vec2",
+        "1"
+      ]
+    },
+    "contemptuous": {
+      "data-frequency": "1000",
+      "data-relevance": "245",
+      "data-term": "contemptuous",
+      "data-encoded-term": "contemptuous",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1000",
+        "vec2",
+        "1"
+      ]
+    },
+    "idolatry": {
+      "data-frequency": "1607",
+      "data-relevance": "244",
+      "data-term": "idolatry",
+      "data-encoded-term": "idolatry",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1607",
+        "vec2",
+        "1"
+      ]
+    },
+    "sinners": {
+      "data-frequency": "8442",
+      "data-relevance": "243",
+      "data-term": "sinners",
+      "data-encoded-term": "sinners",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "8442",
+        "vec2",
+        "1"
+      ]
+    },
+    "condemnation": {
+      "data-frequency": "6692",
+      "data-relevance": "242",
+      "data-term": "condemnation",
+      "data-encoded-term": "condemnation",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "6692",
+        "vec2",
+        "1"
+      ]
+    },
+    "disobedient": {
+      "data-frequency": "798",
+      "data-relevance": "241",
+      "data-term": "disobedient",
+      "data-encoded-term": "disobedient",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "798",
+        "vec2",
+        "1"
+      ]
+    },
+    "wrath": {
+      "data-frequency": "13649",
+      "data-relevance": "240",
+      "data-term": "wrath",
+      "data-encoded-term": "wrath",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "13649",
+        "vec2",
+        "1"
+      ]
+    },
+    "repent": {
+      "data-frequency": "1875",
+      "data-relevance": "239",
+      "data-term": "repent",
+      "data-encoded-term": "repent",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1875",
+        "vec2",
+        "1"
+      ]
+    },
+    "rebukes": {
+      "data-frequency": "1055",
+      "data-relevance": "238",
+      "data-term": "rebukes",
+      "data-encoded-term": "rebukes",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1055",
+        "vec2",
+        "1"
+      ]
+    },
+    "adoration": {
+      "data-frequency": "5363",
+      "data-relevance": "237",
+      "data-term": "adoration",
+      "data-encoded-term": "adoration",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "5363",
+        "vec2",
+        "1"
+      ]
+    },
+    "spanking": {
+      "data-frequency": "946",
+      "data-relevance": "236",
+      "data-term": "spanking",
+      "data-encoded-term": "spanking",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "946",
+        "vec2",
+        "1"
+      ]
+    },
+    "magnanimity": {
+      "data-frequency": "412",
+      "data-relevance": "235",
+      "data-term": "magnanimity",
+      "data-encoded-term": "magnanimity",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "412",
+        "vec2",
+        "1"
+      ]
+    },
+    "vile": {
+      "data-frequency": "5564",
+      "data-relevance": "234",
+      "data-term": "vile",
+      "data-encoded-term": "vile",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "5564",
+        "vec2",
+        "1"
+      ]
+    },
+    "heathen": {
+      "data-frequency": "2915",
+      "data-relevance": "233",
+      "data-term": "heathen",
+      "data-encoded-term": "heathen",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2915",
+        "vec2",
+        "1"
+      ]
+    },
+    "sin": {
+      "data-frequency": "51376",
+      "data-relevance": "232",
+      "data-term": "sin",
+      "data-encoded-term": "sin",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "51376",
+        "vec2",
+        "1"
+      ]
+    },
+    "constructive criticism": {
+      "data-frequency": "1539",
+      "data-relevance": "231",
+      "data-term": "constructive criticism",
+      "data-encoded-term": "constructive%20criticism",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1539",
+        "vec2",
+        "1"
+      ]
+    },
+    "boorish": {
+      "data-frequency": "427",
+      "data-relevance": "230",
+      "data-term": "boorish",
+      "data-encoded-term": "boorish",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "427",
+        "vec2",
+        "1"
+      ]
+    },
+    "schadenfreude": {
+      "data-frequency": "269",
+      "data-relevance": "229",
+      "data-term": "schadenfreude",
+      "data-encoded-term": "schadenfreude",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "269",
+        "vec2",
+        "1"
+      ]
+    },
+    "embarrassment": {
+      "data-frequency": "6718",
+      "data-relevance": "228",
+      "data-term": "embarrassment",
+      "data-encoded-term": "embarrassment",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "6718",
+        "vec2",
+        "1"
+      ]
+    },
+    "utterances": {
+      "data-frequency": "1345",
+      "data-relevance": "227",
+      "data-term": "utterances",
+      "data-encoded-term": "utterances",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1345",
+        "vec2",
+        "1"
+      ]
+    },
+    "finger wagging": {
+      "data-frequency": "262",
+      "data-relevance": "226",
+      "data-term": "finger wagging",
+      "data-encoded-term": "finger%20wagging",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "262",
+        "vec2",
+        "1"
+      ]
+    },
+    "banishment": {
+      "data-frequency": "4399",
+      "data-relevance": "225",
+      "data-term": "banishment",
+      "data-encoded-term": "banishment",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4399",
+        "vec2",
+        "1"
+      ]
+    },
+    "recrimination": {
+      "data-frequency": "219",
+      "data-relevance": "224",
+      "data-term": "recrimination",
+      "data-encoded-term": "recrimination",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "219",
+        "vec2",
+        "1"
+      ]
+    },
+    "piety": {
+      "data-frequency": "6175",
+      "data-relevance": "223",
+      "data-term": "piety",
+      "data-encoded-term": "piety",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "6175",
+        "vec2",
+        "1"
+      ]
+    },
+    "sinner": {
+      "data-frequency": "4121",
+      "data-relevance": "222",
+      "data-term": "sinner",
+      "data-encoded-term": "sinner",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4121",
+        "vec2",
+        "1"
+      ]
+    },
+    "flattery": {
+      "data-frequency": "1520",
+      "data-relevance": "221",
+      "data-term": "flattery",
+      "data-encoded-term": "flattery",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1520",
+        "vec2",
+        "1"
+      ]
+    },
+    "intemperate": {
+      "data-frequency": "480",
+      "data-relevance": "220",
+      "data-term": "intemperate",
+      "data-encoded-term": "intemperate",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "480",
+        "vec2",
+        "1"
+      ]
+    },
+    "inquisition": {
+      "data-frequency": "5578",
+      "data-relevance": "219",
+      "data-term": "inquisition",
+      "data-encoded-term": "inquisition",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "5578",
+        "vec2",
+        "1"
+      ]
+    },
+    "scold": {
+      "data-frequency": "607",
+      "data-relevance": "218",
+      "data-term": "scold",
+      "data-encoded-term": "scold",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "607",
+        "vec2",
+        "1"
+      ]
+    },
+    "shaming": {
+      "data-frequency": "17775",
+      "data-relevance": "217",
+      "data-term": "shaming",
+      "data-encoded-term": "shaming",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "17775",
+        "vec2",
+        "1"
+      ]
+    },
+    "acquiescence": {
+      "data-frequency": "985",
+      "data-relevance": "216",
+      "data-term": "acquiescence",
+      "data-encoded-term": "acquiescence",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "985",
+        "vec2",
+        "1"
+      ]
+    },
+    "glorification": {
+      "data-frequency": "1738",
+      "data-relevance": "215",
+      "data-term": "glorification",
+      "data-encoded-term": "glorification",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1738",
+        "vec2",
+        "1"
+      ]
+    },
+    "pious": {
+      "data-frequency": "8386",
+      "data-relevance": "214",
+      "data-term": "pious",
+      "data-encoded-term": "pious",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "8386",
+        "vec2",
+        "1"
+      ]
+    },
+    "inhumanity": {
+      "data-frequency": "669",
+      "data-relevance": "213",
+      "data-term": "inhumanity",
+      "data-encoded-term": "inhumanity",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "669",
+        "vec2",
+        "1"
+      ]
+    },
+    "utterance": {
+      "data-frequency": "1587",
+      "data-relevance": "212",
+      "data-term": "utterance",
+      "data-encoded-term": "utterance",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1587",
+        "vec2",
+        "1"
+      ]
+    },
+    "despotism": {
+      "data-frequency": "1334",
+      "data-relevance": "211",
+      "data-term": "despotism",
+      "data-encoded-term": "despotism",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1334",
+        "vec2",
+        "1"
+      ]
+    },
+    "depravity": {
+      "data-frequency": "1141",
+      "data-relevance": "210",
+      "data-term": "depravity",
+      "data-encoded-term": "depravity",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1141",
+        "vec2",
+        "1"
+      ]
+    },
+    "indiscretion": {
+      "data-frequency": "1377",
+      "data-relevance": "209",
+      "data-term": "indiscretion",
+      "data-encoded-term": "indiscretion",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1377",
+        "vec2",
+        "1"
+      ]
+    },
+    "grievous": {
+      "data-frequency": "1847",
+      "data-relevance": "208",
+      "data-term": "grievous",
+      "data-encoded-term": "grievous",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1847",
+        "vec2",
+        "1"
+      ]
+    },
+    "perversion": {
+      "data-frequency": "1321",
+      "data-relevance": "207",
+      "data-term": "perversion",
+      "data-encoded-term": "perversion",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1321",
+        "vec2",
+        "1"
+      ]
+    },
+    "transgressions": {
+      "data-frequency": "1372",
+      "data-relevance": "206",
+      "data-term": "transgressions",
+      "data-encoded-term": "transgressions",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1372",
+        "vec2",
+        "1"
+      ]
+    },
+    "hateful": {
+      "data-frequency": "1914",
+      "data-relevance": "205",
+      "data-term": "hateful",
+      "data-encoded-term": "hateful",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1914",
+        "vec2",
+        "1"
+      ]
+    },
+    "stupidity": {
+      "data-frequency": "2237",
+      "data-relevance": "204",
+      "data-term": "stupidity",
+      "data-encoded-term": "stupidity",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "2237",
+        "vec2",
+        "1"
+      ]
+    },
+    "damnation": {
+      "data-frequency": "2440",
+      "data-relevance": "203",
+      "data-term": "damnation",
+      "data-encoded-term": "damnation",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "2440",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "penance": {
+      "data-frequency": "4332",
+      "data-relevance": "202",
+      "data-term": "penance",
+      "data-encoded-term": "penance",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "4332",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "humiliation": {
+      "data-frequency": "5855",
+      "data-relevance": "201",
+      "data-term": "humiliation",
+      "data-encoded-term": "humiliation",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "5855",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "reproach": {
+      "data-frequency": "1202",
+      "data-relevance": "200",
+      "data-term": "reproach",
+      "data-encoded-term": "reproach",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1202",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "scorn": {
+      "data-frequency": "2353",
+      "data-relevance": "199",
+      "data-term": "scorn",
+      "data-encoded-term": "scorn",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "2353",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "disobedience": {
+      "data-frequency": "5255",
+      "data-relevance": "198",
+      "data-term": "disobedience",
+      "data-encoded-term": "disobedience",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "5255",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "denunciation": {
+      "data-frequency": "1666",
+      "data-relevance": "197",
+      "data-term": "denunciation",
+      "data-encoded-term": "denunciation",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1666",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "opprobrium": {
+      "data-frequency": "259",
+      "data-relevance": "196",
+      "data-term": "opprobrium",
+      "data-encoded-term": "opprobrium",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "259",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "repentance": {
+      "data-frequency": "2810",
+      "data-relevance": "195",
+      "data-term": "repentance",
+      "data-encoded-term": "repentance",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2810",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "vilification": {
+      "data-frequency": "532",
+      "data-relevance": "194",
+      "data-term": "vilification",
+      "data-encoded-term": "vilification",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "532",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "transgression": {
+      "data-frequency": "2166",
+      "data-relevance": "193",
+      "data-term": "transgression",
+      "data-encoded-term": "transgression",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2166",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "corporal punishment": {
+      "data-frequency": "1769",
+      "data-relevance": "192",
+      "data-term": "corporal punishment",
+      "data-encoded-term": "corporal%20punishment",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1769",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "admonition": {
+      "data-frequency": "1078",
+      "data-relevance": "191",
+      "data-term": "admonition",
+      "data-encoded-term": "admonition",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1078",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "ridicule": {
+      "data-frequency": "3840",
+      "data-relevance": "190",
+      "data-term": "ridicule",
+      "data-encoded-term": "ridicule",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3840",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "condescension": {
+      "data-frequency": "442",
+      "data-relevance": "189",
+      "data-term": "condescension",
+      "data-encoded-term": "condescension",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "442",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "invective": {
+      "data-frequency": "615",
+      "data-relevance": "188",
+      "data-term": "invective",
+      "data-encoded-term": "invective",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "615",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "contrition": {
+      "data-frequency": "474",
+      "data-relevance": "187",
+      "data-term": "contrition",
+      "data-encoded-term": "contrition",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "474",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "meanness": {
+      "data-frequency": "311",
+      "data-relevance": "186",
+      "data-term": "meanness",
+      "data-encoded-term": "meanness",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "311",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "insults": {
+      "data-frequency": "7803",
+      "data-relevance": "185",
+      "data-term": "insults",
+      "data-encoded-term": "insults",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7803",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "reprehension": {
+      "data-frequency": "-1",
+      "data-relevance": "184",
+      "data-term": "reprehension",
+      "data-encoded-term": "reprehension",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "indignation": {
+      "data-frequency": "2443",
+      "data-relevance": "183",
+      "data-term": "indignation",
+      "data-encoded-term": "indignation",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2443",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "censure": {
+      "data-frequency": "3550",
+      "data-relevance": "182",
+      "data-term": "censure",
+      "data-encoded-term": "censure",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3550",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "misbehavior": {
+      "data-frequency": "755",
+      "data-relevance": "181",
+      "data-term": "misbehavior",
+      "data-encoded-term": "misbehavior",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "755",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "wickedness": {
+      "data-frequency": "1152",
+      "data-relevance": "180",
+      "data-term": "wickedness",
+      "data-encoded-term": "wickedness",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1152",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "torment": {
+      "data-frequency": "4333",
+      "data-relevance": "179",
+      "data-term": "torment",
+      "data-encoded-term": "torment",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4333",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rudeness": {
+      "data-frequency": "742",
+      "data-relevance": "178",
+      "data-term": "rudeness",
+      "data-encoded-term": "rudeness",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "742",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "penalisation": {
+      "data-frequency": "1555",
+      "data-relevance": "177",
+      "data-term": "penalisation",
+      "data-encoded-term": "penalisation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1555",
+        "wn",
+        "1"
+      ]
+    },
+    "merciful": {
+      "data-frequency": "2118",
+      "data-relevance": "176",
+      "data-term": "merciful",
+      "data-encoded-term": "merciful",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2118",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "iniquity": {
+      "data-frequency": "788",
+      "data-relevance": "175",
+      "data-term": "iniquity",
+      "data-encoded-term": "iniquity",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "788",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "reproval": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "reproval",
+      "data-encoded-term": "reproval",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "denigration": {
+      "data-frequency": "364",
+      "data-relevance": "173",
+      "data-term": "denigration",
+      "data-encoded-term": "denigration",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "364",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "admonishment": {
+      "data-frequency": "203",
+      "data-relevance": "172",
+      "data-term": "admonishment",
+      "data-encoded-term": "admonishment",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "203",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "permanency": {
+      "data-frequency": "297",
+      "data-relevance": "171",
+      "data-term": "permanency",
+      "data-encoded-term": "permanency",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "297",
+        "w2v",
+        "1"
+      ]
+    },
+    "fornication": {
+      "data-frequency": "911",
+      "data-relevance": "170",
+      "data-term": "fornication",
+      "data-encoded-term": "fornication",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "911",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "circumspection": {
+      "data-frequency": "125",
+      "data-relevance": "169",
+      "data-term": "circumspection",
+      "data-encoded-term": "circumspection",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "125",
+        "w2v",
+        "1"
+      ]
+    },
+    "comeuppance": {
+      "data-frequency": "426",
+      "data-relevance": "168",
+      "data-term": "comeuppance",
+      "data-encoded-term": "comeuppance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "426",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "positivity": {
+      "data-frequency": "1283",
+      "data-relevance": "167",
+      "data-term": "positivity",
+      "data-encoded-term": "positivity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1283",
+        "w2v",
+        "1"
+      ]
+    },
+    "apprentice": {
+      "data-frequency": "18835",
+      "data-relevance": "166",
+      "data-term": "apprentice",
+      "data-encoded-term": "apprentice",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18835",
+        "wiki",
+        "1"
+      ]
+    },
+    "strictness": {
+      "data-frequency": "65337",
+      "data-relevance": "165",
+      "data-term": "strictness",
+      "data-encoded-term": "strictness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "65337",
+        "w2v",
+        "1"
+      ]
+    },
+    "exactness": {
+      "data-frequency": "401",
+      "data-relevance": "164",
+      "data-term": "exactness",
+      "data-encoded-term": "exactness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "401",
+        "w2v",
+        "1"
+      ]
+    },
+    "exemplification": {
+      "data-frequency": "213",
+      "data-relevance": "163",
+      "data-term": "exemplification",
+      "data-encoded-term": "exemplification",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "213",
+        "w2v",
+        "1"
+      ]
+    },
+    "retribution": {
+      "data-frequency": "5993",
+      "data-relevance": "162",
+      "data-term": "retribution",
+      "data-encoded-term": "retribution",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5993",
+        "ol",
+        "1"
+      ]
+    },
+    "diminution": {
+      "data-frequency": "846",
+      "data-relevance": "161",
+      "data-term": "diminution",
+      "data-encoded-term": "diminution",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "846",
+        "w2v",
+        "1"
+      ]
+    },
+    "imprudent": {
+      "data-frequency": "426",
+      "data-relevance": "160",
+      "data-term": "imprudent",
+      "data-encoded-term": "imprudent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "426",
+        "w2v",
+        "1"
+      ]
+    },
+    "agony": {
+      "data-frequency": "7285",
+      "data-relevance": "159",
+      "data-term": "agony",
+      "data-encoded-term": "agony",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7285",
+        "ol",
+        "1"
+      ]
+    },
+    "anguish": {
+      "data-frequency": "3597",
+      "data-relevance": "158",
+      "data-term": "anguish",
+      "data-encoded-term": "anguish",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3597",
+        "ol",
+        "1"
+      ]
+    },
+    "prudence": {
+      "data-frequency": "4460",
+      "data-relevance": "157",
+      "data-term": "prudence",
+      "data-encoded-term": "prudence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4460",
+        "w2v",
+        "1"
+      ]
+    },
+    "temporizing": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "temporizing",
+      "data-encoded-term": "temporizing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "promptness": {
+      "data-frequency": "150",
+      "data-relevance": "155",
+      "data-term": "promptness",
+      "data-encoded-term": "promptness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "easiness": {
+      "data-frequency": "141",
+      "data-relevance": "154",
+      "data-term": "easiness",
+      "data-encoded-term": "easiness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "141",
+        "w2v",
+        "1"
+      ]
+    },
+    "firmness": {
+      "data-frequency": "1156",
+      "data-relevance": "153",
+      "data-term": "firmness",
+      "data-encoded-term": "firmness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1156",
+        "w2v",
+        "1"
+      ]
+    },
+    "unfitness": {
+      "data-frequency": "169",
+      "data-relevance": "152",
+      "data-term": "unfitness",
+      "data-encoded-term": "unfitness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "169",
+        "w2v",
+        "1"
+      ]
+    },
+    "nobler": {
+      "data-frequency": "87719",
+      "data-relevance": "151",
+      "data-term": "nobler",
+      "data-encoded-term": "nobler",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "87719",
+        "w2v",
+        "1"
+      ]
+    },
+    "scrupulous": {
+      "data-frequency": "844",
+      "data-relevance": "150",
+      "data-term": "scrupulous",
+      "data-encoded-term": "scrupulous",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "844",
+        "w2v",
+        "1"
+      ]
+    },
+    "unambitious": {
+      "data-frequency": "228",
+      "data-relevance": "149",
+      "data-term": "unambitious",
+      "data-encoded-term": "unambitious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "228",
+        "w2v",
+        "1"
+      ]
+    },
+    "exacting": {
+      "data-frequency": "1830",
+      "data-relevance": "148",
+      "data-term": "exacting",
+      "data-encoded-term": "exacting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1830",
+        "w2v",
+        "1"
+      ]
+    },
+    "dejar": {
+      "data-frequency": "299",
+      "data-relevance": "147",
+      "data-term": "dejar",
+      "data-encoded-term": "dejar",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "299",
+        "w2v",
+        "1"
+      ]
+    },
+    "necesito": {
+      "data-frequency": "291",
+      "data-relevance": "146",
+      "data-term": "necesito",
+      "data-encoded-term": "necesito",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "291",
+        "w2v",
+        "1"
+      ]
+    },
+    "inducement": {
+      "data-frequency": "831",
+      "data-relevance": "145",
+      "data-term": "inducement",
+      "data-encoded-term": "inducement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "831",
+        "w2v",
+        "1"
+      ]
+    },
+    "unthinking": {
+      "data-frequency": "254",
+      "data-relevance": "144",
+      "data-term": "unthinking",
+      "data-encoded-term": "unthinking",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "254",
+        "w2v",
+        "1"
+      ]
+    },
+    "practicability": {
+      "data-frequency": "236",
+      "data-relevance": "143",
+      "data-term": "practicability",
+      "data-encoded-term": "practicability",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "236",
+        "w2v",
+        "1"
+      ]
+    },
+    "commensurate": {
+      "data-frequency": "1475",
+      "data-relevance": "142",
+      "data-term": "commensurate",
+      "data-encoded-term": "commensurate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1475",
+        "w2v",
+        "1"
+      ]
+    },
+    "naughtiness": {
+      "data-frequency": "145",
+      "data-relevance": "141",
+      "data-term": "naughtiness",
+      "data-encoded-term": "naughtiness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "145",
+        "w2v",
+        "1"
+      ]
+    },
+    "evidential": {
+      "data-frequency": "547",
+      "data-relevance": "140",
+      "data-term": "evidential",
+      "data-encoded-term": "evidential",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "547",
+        "w2v",
+        "1"
+      ]
+    },
+    "lessens": {
+      "data-frequency": "626",
+      "data-relevance": "139",
+      "data-term": "lessens",
+      "data-encoded-term": "lessens",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "626",
+        "w2v",
+        "1"
+      ]
+    },
+    "appreciable": {
+      "data-frequency": "1615",
+      "data-relevance": "138",
+      "data-term": "appreciable",
+      "data-encoded-term": "appreciable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1615",
+        "w2v",
+        "1"
+      ]
+    },
+    "materialization": {
+      "data-frequency": "467",
+      "data-relevance": "137",
+      "data-term": "materialization",
+      "data-encoded-term": "materialization",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "467",
+        "w2v",
+        "1"
+      ]
+    },
+    "imaginar": {
+      "data-frequency": "55",
+      "data-relevance": "136",
+      "data-term": "imaginar",
+      "data-encoded-term": "imaginar",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "55",
+        "w2v",
+        "1"
+      ]
+    },
+    "forethought": {
+      "data-frequency": "622",
+      "data-relevance": "135",
+      "data-term": "forethought",
+      "data-encoded-term": "forethought",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "622",
+        "w2v",
+        "1"
+      ]
+    },
+    "passiveness": {
+      "data-frequency": "72",
+      "data-relevance": "134",
+      "data-term": "passiveness",
+      "data-encoded-term": "passiveness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "72",
+        "w2v",
+        "1"
+      ]
+    },
+    "necessitates": {
+      "data-frequency": "1143",
+      "data-relevance": "133",
+      "data-term": "necessitates",
+      "data-encoded-term": "necessitates",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1143",
+        "w2v",
+        "1"
+      ]
+    },
+    "avidity": {
+      "data-frequency": "145",
+      "data-relevance": "132",
+      "data-term": "avidity",
+      "data-encoded-term": "avidity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "145",
+        "w2v",
+        "1"
+      ]
+    },
+    "corporal": {
+      "data-frequency": "13581",
+      "data-relevance": "131",
+      "data-term": "corporal",
+      "data-encoded-term": "corporal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13581",
+        "ol",
+        "1"
+      ]
+    },
+    "idealization": {
+      "data-frequency": "561",
+      "data-relevance": "130",
+      "data-term": "idealization",
+      "data-encoded-term": "idealization",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "561",
+        "w2v",
+        "1"
+      ]
+    },
+    "unmerited": {
+      "data-frequency": "98",
+      "data-relevance": "129",
+      "data-term": "unmerited",
+      "data-encoded-term": "unmerited",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98",
+        "w2v",
+        "1"
+      ]
+    },
+    "foregoing": {
+      "data-frequency": "1465",
+      "data-relevance": "128",
+      "data-term": "foregoing",
+      "data-encoded-term": "foregoing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1465",
+        "w2v",
+        "1"
+      ]
+    },
+    "tradeoff": {
+      "data-frequency": "944",
+      "data-relevance": "127",
+      "data-term": "tradeoff",
+      "data-encoded-term": "tradeoff",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "944",
+        "w2v",
+        "1"
+      ]
+    },
+    "psychologic": {
+      "data-frequency": "113",
+      "data-relevance": "126",
+      "data-term": "psychologic",
+      "data-encoded-term": "psychologic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "113",
+        "w2v",
+        "1"
+      ]
+    },
+    "quantifiable": {
+      "data-frequency": "653",
+      "data-relevance": "125",
+      "data-term": "quantifiable",
+      "data-encoded-term": "quantifiable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "653",
+        "w2v",
+        "1"
+      ]
+    },
+    "proportionate": {
+      "data-frequency": "1554",
+      "data-relevance": "124",
+      "data-term": "proportionate",
+      "data-encoded-term": "proportionate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1554",
+        "w2v",
+        "1"
+      ]
+    },
+    "proportionality": {
+      "data-frequency": "1352",
+      "data-relevance": "123",
+      "data-term": "proportionality",
+      "data-encoded-term": "proportionality",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1352",
+        "w2v",
+        "1"
+      ]
+    },
+    "convexity": {
+      "data-frequency": "961",
+      "data-relevance": "122",
+      "data-term": "convexity",
+      "data-encoded-term": "convexity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "961",
+        "w2v",
+        "1"
+      ]
+    },
+    "doom": {
+      "data-frequency": "18413",
+      "data-relevance": "121",
+      "data-term": "doom",
+      "data-encoded-term": "doom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18413",
+        "ol",
+        "1"
+      ]
+    },
+    "baseness": {
+      "data-frequency": "130",
+      "data-relevance": "120",
+      "data-term": "baseness",
+      "data-encoded-term": "baseness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "130",
+        "w2v",
+        "1"
+      ]
+    },
+    "retracement": {
+      "data-frequency": "101",
+      "data-relevance": "119",
+      "data-term": "retracement",
+      "data-encoded-term": "retracement",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "101",
+        "w2v",
+        "1"
+      ]
+    },
+    "common law": {
+      "data-frequency": "9795",
+      "data-relevance": "118",
+      "data-term": "common law",
+      "data-encoded-term": "common%20law",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9795",
+        "wiki",
+        "1"
+      ]
+    },
+    "lecture": {
+      "data-frequency": "42485",
+      "data-relevance": "117",
+      "data-term": "lecture",
+      "data-encoded-term": "lecture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42485",
+        "ol",
+        "1"
+      ]
+    },
+    "foreseeability": {
+      "data-frequency": "2593",
+      "data-relevance": "116",
+      "data-term": "foreseeability",
+      "data-encoded-term": "foreseeability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2593",
+        "w2v",
+        "1"
+      ]
+    },
+    "flagellation": {
+      "data-frequency": "768",
+      "data-relevance": "115",
+      "data-term": "flagellation",
+      "data-encoded-term": "flagellation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "768",
+        "ol",
+        "1"
+      ]
+    },
+    "abasement": {
+      "data-frequency": "102",
+      "data-relevance": "114",
+      "data-term": "abasement",
+      "data-encoded-term": "abasement",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "102",
+        "ol",
+        "1"
+      ]
+    },
+    "expiation": {
+      "data-frequency": "658",
+      "data-relevance": "113",
+      "data-term": "expiation",
+      "data-encoded-term": "expiation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "658",
+        "ol",
+        "1"
+      ]
+    },
+    "contumely": {
+      "data-frequency": "-1",
+      "data-relevance": "112",
+      "data-term": "contumely",
+      "data-encoded-term": "contumely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "obloquy": {
+      "data-frequency": "66",
+      "data-relevance": "111",
+      "data-term": "obloquy",
+      "data-encoded-term": "obloquy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66",
+        "ol",
+        "1"
+      ]
+    },
+    "disapprobation": {
+      "data-frequency": "117",
+      "data-relevance": "110",
+      "data-term": "disapprobation",
+      "data-encoded-term": "disapprobation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "117",
+        "ol",
+        "1"
+      ]
+    },
+    "vituperation": {
+      "data-frequency": "104",
+      "data-relevance": "109",
+      "data-term": "vituperation",
+      "data-encoded-term": "vituperation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "104",
+        "ol",
+        "1"
+      ]
+    },
+    "penitence": {
+      "data-frequency": "1359",
+      "data-relevance": "108",
+      "data-term": "penitence",
+      "data-encoded-term": "penitence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1359",
+        "ol",
+        "1"
+      ]
+    },
+    "scoldings": {
+      "data-frequency": "3963",
+      "data-relevance": "107",
+      "data-term": "scoldings",
+      "data-encoded-term": "scoldings",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3963",
+        "ol",
+        "1"
+      ]
+    },
+    "approbation": {
+      "data-frequency": "1365",
+      "data-relevance": "106",
+      "data-term": "approbation",
+      "data-encoded-term": "approbation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1365",
+        "ol",
+        "1"
+      ]
+    },
+    "enormities": {
+      "data-frequency": "67",
+      "data-relevance": "105",
+      "data-term": "enormities",
+      "data-encoded-term": "enormities",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "penances": {
+      "data-frequency": "274",
+      "data-relevance": "104",
+      "data-term": "penances",
+      "data-encoded-term": "penances",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "274",
+        "ol",
+        "1"
+      ]
+    },
+    "impiety": {
+      "data-frequency": "360",
+      "data-relevance": "103",
+      "data-term": "impiety",
+      "data-encoded-term": "impiety",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "360",
+        "ol",
+        "1"
+      ]
+    },
+    "immodesty": {
+      "data-frequency": "107",
+      "data-relevance": "102",
+      "data-term": "immodesty",
+      "data-encoded-term": "immodesty",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "107",
+        "ol",
+        "1"
+      ]
+    },
+    "ingratitude": {
+      "data-frequency": "371",
+      "data-relevance": "101",
+      "data-term": "ingratitude",
+      "data-encoded-term": "ingratitude",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "371",
+        "ol",
+        "1"
+      ]
+    },
+    "execration": {
+      "data-frequency": "112",
+      "data-relevance": "100",
+      "data-term": "execration",
+      "data-encoded-term": "execration",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "112",
+        "ol",
+        "1"
+      ]
+    },
+    "infamies": {
+      "data-frequency": "1737",
+      "data-relevance": "99",
+      "data-term": "infamies",
+      "data-encoded-term": "infamies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1737",
+        "ol",
+        "1"
+      ]
+    },
+    "mortification": {
+      "data-frequency": "619",
+      "data-relevance": "98",
+      "data-term": "mortification",
+      "data-encoded-term": "mortification",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "619",
+        "ol",
+        "1"
+      ]
+    },
+    "condign": {
+      "data-frequency": "302",
+      "data-relevance": "97",
+      "data-term": "condign",
+      "data-encoded-term": "condign",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "302",
+        "ol",
+        "1"
+      ]
+    },
+    "turpitude": {
+      "data-frequency": "212",
+      "data-relevance": "96",
+      "data-term": "turpitude",
+      "data-encoded-term": "turpitude",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "212",
+        "ol",
+        "1"
+      ]
+    },
+    "imprecation": {
+      "data-frequency": "45",
+      "data-relevance": "95",
+      "data-term": "imprecation",
+      "data-encoded-term": "imprecation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "calumny": {
+      "data-frequency": "410",
+      "data-relevance": "94",
+      "data-term": "calumny",
+      "data-encoded-term": "calumny",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "410",
+        "ol",
+        "1"
+      ]
+    },
+    "discourtesy": {
+      "data-frequency": "105",
+      "data-relevance": "93",
+      "data-term": "discourtesy",
+      "data-encoded-term": "discourtesy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "105",
+        "ol",
+        "1"
+      ]
+    },
+    "propitiation": {
+      "data-frequency": "156",
+      "data-relevance": "92",
+      "data-term": "propitiation",
+      "data-encoded-term": "propitiation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "156",
+        "ol",
+        "1"
+      ]
+    },
+    "meekness": {
+      "data-frequency": "269",
+      "data-relevance": "91",
+      "data-term": "meekness",
+      "data-encoded-term": "meekness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "269",
+        "ol",
+        "1"
+      ]
+    },
+    "lowliness": {
+      "data-frequency": "51",
+      "data-relevance": "90",
+      "data-term": "lowliness",
+      "data-encoded-term": "lowliness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51",
+        "ol",
+        "1"
+      ]
+    },
+    "vileness": {
+      "data-frequency": "73",
+      "data-relevance": "89",
+      "data-term": "vileness",
+      "data-encoded-term": "vileness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73",
+        "ol",
+        "1"
+      ]
+    },
+    "malignity": {
+      "data-frequency": "82",
+      "data-relevance": "88",
+      "data-term": "malignity",
+      "data-encoded-term": "malignity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "impudence": {
+      "data-frequency": "244",
+      "data-relevance": "87",
+      "data-term": "impudence",
+      "data-encoded-term": "impudence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "244",
+        "ol",
+        "1"
+      ]
+    },
+    "fulness": {
+      "data-frequency": "272",
+      "data-relevance": "86",
+      "data-term": "fulness",
+      "data-encoded-term": "fulness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "272",
+        "ol",
+        "1"
+      ]
+    },
+    "insolence": {
+      "data-frequency": "552",
+      "data-relevance": "85",
+      "data-term": "insolence",
+      "data-encoded-term": "insolence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "552",
+        "ol",
+        "1"
+      ]
+    },
+    "intemperance": {
+      "data-frequency": "290",
+      "data-relevance": "84",
+      "data-term": "intemperance",
+      "data-encoded-term": "intemperance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "290",
+        "ol",
+        "1"
+      ]
+    },
+    "reprobation": {
+      "data-frequency": "93",
+      "data-relevance": "83",
+      "data-term": "reprobation",
+      "data-encoded-term": "reprobation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "93",
+        "ol",
+        "1"
+      ]
+    },
+    "submissiveness": {
+      "data-frequency": "203",
+      "data-relevance": "82",
+      "data-term": "submissiveness",
+      "data-encoded-term": "submissiveness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "203",
+        "ol",
+        "1"
+      ]
+    },
+    "solecism": {
+      "data-frequency": "91",
+      "data-relevance": "81",
+      "data-term": "solecism",
+      "data-encoded-term": "solecism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "91",
+        "ol",
+        "1"
+      ]
+    },
+    "unction": {
+      "data-frequency": "344",
+      "data-relevance": "80",
+      "data-term": "unction",
+      "data-encoded-term": "unction",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "344",
+        "ol",
+        "1"
+      ]
+    },
+    "idealisation": {
+      "data-frequency": "146",
+      "data-relevance": "79",
+      "data-term": "idealisation",
+      "data-encoded-term": "idealisation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "146",
+        "w2v",
+        "1"
+      ]
+    },
+    "thoughtlessness": {
+      "data-frequency": "97",
+      "data-relevance": "78",
+      "data-term": "thoughtlessness",
+      "data-encoded-term": "thoughtlessness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97",
+        "ol",
+        "1"
+      ]
+    },
+    "scienter": {
+      "data-frequency": "62",
+      "data-relevance": "77",
+      "data-term": "scienter",
+      "data-encoded-term": "scienter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62",
+        "w2v",
+        "1"
+      ]
+    },
+    "signficant": {
+      "data-frequency": "-1",
+      "data-relevance": "76",
+      "data-term": "signficant",
+      "data-encoded-term": "signficant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "common-sense": {
+      "data-frequency": "42003",
+      "data-relevance": "75",
+      "data-term": "common-sense",
+      "data-encoded-term": "common-sense",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42003",
+        "w2v",
+        "1"
+      ]
+    },
+    "warranting": {
+      "data-frequency": "26075",
+      "data-relevance": "74",
+      "data-term": "warranting",
+      "data-encoded-term": "warranting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26075",
+        "w2v",
+        "1"
+      ]
+    },
+    "reasonableness": {
+      "data-frequency": "628",
+      "data-relevance": "73",
+      "data-term": "reasonableness",
+      "data-encoded-term": "reasonableness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "628",
+        "w2v",
+        "1"
+      ]
+    },
+    "disproportional": {
+      "data-frequency": "268",
+      "data-relevance": "72",
+      "data-term": "disproportional",
+      "data-encoded-term": "disproportional",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "268",
+        "w2v",
+        "1"
+      ]
+    },
+    "contraindication": {
+      "data-frequency": "236",
+      "data-relevance": "71",
+      "data-term": "contraindication",
+      "data-encoded-term": "contraindication",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "236",
+        "w2v",
+        "1"
+      ]
+    },
+    "after-the-fact": {
+      "data-frequency": "217427",
+      "data-relevance": "70",
+      "data-term": "after-the-fact",
+      "data-encoded-term": "after-the-fact",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "217427",
+        "w2v",
+        "1"
+      ]
+    },
+    "diminishment": {
+      "data-frequency": "181",
+      "data-relevance": "69",
+      "data-term": "diminishment",
+      "data-encoded-term": "diminishment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "181",
+        "w2v",
+        "1"
+      ]
+    },
+    "hedonic": {
+      "data-frequency": "332",
+      "data-relevance": "68",
+      "data-term": "hedonic",
+      "data-encoded-term": "hedonic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "332",
+        "w2v",
+        "1"
+      ]
+    },
+    "even-handed": {
+      "data-frequency": "369",
+      "data-relevance": "67",
+      "data-term": "even-handed",
+      "data-encoded-term": "even-handed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "369",
+        "w2v",
+        "1"
+      ]
+    },
+    "eastbourne manslaughter": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "eastbourne manslaughter",
+      "data-encoded-term": "eastbourne%20manslaughter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "assimilatory": {
+      "data-frequency": "89",
+      "data-relevance": "65",
+      "data-term": "assimilatory",
+      "data-encoded-term": "assimilatory",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89",
+        "w2v",
+        "1"
+      ]
+    },
+    "infelicitous": {
+      "data-frequency": "58",
+      "data-relevance": "64",
+      "data-term": "infelicitous",
+      "data-encoded-term": "infelicitous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "58",
+        "w2v",
+        "1"
+      ]
+    },
+    "categoric": {
+      "data-frequency": "3996",
+      "data-relevance": "63",
+      "data-term": "categoric",
+      "data-encoded-term": "categoric",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3996",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-negotiable": {
+      "data-frequency": "554",
+      "data-relevance": "62",
+      "data-term": "non-negotiable",
+      "data-encoded-term": "non-negotiable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "554",
+        "w2v",
+        "1"
+      ]
+    },
+    "observability": {
+      "data-frequency": "4251",
+      "data-relevance": "61",
+      "data-term": "observability",
+      "data-encoded-term": "observability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4251",
+        "w2v",
+        "1"
+      ]
+    },
+    "unusal": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "unusal",
+      "data-encoded-term": "unusal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "whole-hearted": {
+      "data-frequency": "33232",
+      "data-relevance": "59",
+      "data-term": "whole-hearted",
+      "data-encoded-term": "whole-hearted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33232",
+        "w2v",
+        "1"
+      ]
+    },
+    "one-size-fits-all": {
+      "data-frequency": "488",
+      "data-relevance": "58",
+      "data-term": "one-size-fits-all",
+      "data-encoded-term": "one-size-fits-all",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "488",
+        "w2v",
+        "1"
+      ]
+    },
+    "anthropocentric": {
+      "data-frequency": "235",
+      "data-relevance": "57",
+      "data-term": "anthropocentric",
+      "data-encoded-term": "anthropocentric",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "235",
+        "w2v",
+        "1"
+      ]
+    },
+    "drinkability": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "drinkability",
+      "data-encoded-term": "drinkability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "originalist": {
+      "data-frequency": "91",
+      "data-relevance": "55",
+      "data-term": "originalist",
+      "data-encoded-term": "originalist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "91",
+        "w2v",
+        "1"
+      ]
+    },
+    "in-hospital": {
+      "data-frequency": "202928",
+      "data-relevance": "54",
+      "data-term": "in-hospital",
+      "data-encoded-term": "in-hospital",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "202928",
+        "w2v",
+        "1"
+      ]
+    },
+    "oiliness": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "oiliness",
+      "data-encoded-term": "oiliness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "neccessary": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "neccessary",
+      "data-encoded-term": "neccessary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "qnd": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "qnd",
+      "data-encoded-term": "qnd",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonresistance": {
+      "data-frequency": "144",
+      "data-relevance": "50",
+      "data-term": "nonresistance",
+      "data-encoded-term": "nonresistance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "144",
+        "w2v",
+        "1"
+      ]
+    },
+    "rollbacks": {
+      "data-frequency": "1572",
+      "data-relevance": "49",
+      "data-term": "rollbacks",
+      "data-encoded-term": "rollbacks",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1572",
+        "w2v",
+        "1"
+      ]
+    },
+    "40-dollar": {
+      "data-frequency": "27846",
+      "data-relevance": "48",
+      "data-term": "40-dollar",
+      "data-encoded-term": "40-dollar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27846",
+        "w2v",
+        "1"
+      ]
+    },
+    "tour-de-force": {
+      "data-frequency": "20210",
+      "data-relevance": "47",
+      "data-term": "tour-de-force",
+      "data-encoded-term": "tour-de-force",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20210",
+        "w2v",
+        "1"
+      ]
+    },
+    "all-or-nothing": {
+      "data-frequency": "1760",
+      "data-relevance": "46",
+      "data-term": "all-or-nothing",
+      "data-encoded-term": "all-or-nothing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1760",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-indulgence": {
+      "data-frequency": "638",
+      "data-relevance": "45",
+      "data-term": "self-indulgence",
+      "data-encoded-term": "self-indulgence",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "638",
+        "w2v",
+        "1"
+      ]
+    },
+    "pre-conditions": {
+      "data-frequency": "26668",
+      "data-relevance": "44",
+      "data-term": "pre-conditions",
+      "data-encoded-term": "pre-conditions",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "26668",
+        "w2v",
+        "1"
+      ]
+    },
+    "face-saving": {
+      "data-frequency": "13155",
+      "data-relevance": "43",
+      "data-term": "face-saving",
+      "data-encoded-term": "face-saving",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13155",
+        "w2v",
+        "1"
+      ]
+    },
+    "information-theoretic": {
+      "data-frequency": "14186",
+      "data-relevance": "42",
+      "data-term": "information-theoretic",
+      "data-encoded-term": "information-theoretic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14186",
+        "w2v",
+        "1"
+      ]
+    },
+    "nikah": {
+      "data-frequency": "474",
+      "data-relevance": "41",
+      "data-term": "nikah",
+      "data-encoded-term": "nikah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "474",
+        "w2v",
+        "1"
+      ]
+    },
+    "prestidigitation": {
+      "data-frequency": "65",
+      "data-relevance": "40",
+      "data-term": "prestidigitation",
+      "data-encoded-term": "prestidigitation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65",
+        "w2v",
+        "1"
+      ]
+    },
+    "precisions": {
+      "data-frequency": "21551",
+      "data-relevance": "39",
+      "data-term": "precisions",
+      "data-encoded-term": "precisions",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "21551",
+        "w2v",
+        "1"
+      ]
+    },
+    "formalistic": {
+      "data-frequency": "160",
+      "data-relevance": "38",
+      "data-term": "formalistic",
+      "data-encoded-term": "formalistic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "160",
+        "w2v",
+        "1"
+      ]
+    },
+    "repricing": {
+      "data-frequency": "66",
+      "data-relevance": "37",
+      "data-term": "repricing",
+      "data-encoded-term": "repricing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "66",
+        "w2v",
+        "1"
+      ]
+    },
+    "roughage": {
+      "data-frequency": "87",
+      "data-relevance": "36",
+      "data-term": "roughage",
+      "data-encoded-term": "roughage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "87",
+        "w2v",
+        "1"
+      ]
+    },
+    "manjunatha": {
+      "data-frequency": "185",
+      "data-relevance": "35",
+      "data-term": "manjunatha",
+      "data-encoded-term": "manjunatha",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "185",
+        "w2v",
+        "1"
+      ]
+    },
+    "mtow": {
+      "data-frequency": "282",
+      "data-relevance": "34",
+      "data-term": "mtow",
+      "data-encoded-term": "mtow",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "282",
+        "w2v",
+        "1"
+      ]
+    },
+    "overestimation": {
+      "data-frequency": "280",
+      "data-relevance": "33",
+      "data-term": "overestimation",
+      "data-encoded-term": "overestimation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "280",
+        "w2v",
+        "1"
+      ]
+    },
+    "hibi": {
+      "data-frequency": "912",
+      "data-relevance": "32",
+      "data-term": "hibi",
+      "data-encoded-term": "hibi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "912",
+        "w2v",
+        "1"
+      ]
+    },
+    "liklihood": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "liklihood",
+      "data-encoded-term": "liklihood",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "angulation": {
+      "data-frequency": "203",
+      "data-relevance": "30",
+      "data-term": "angulation",
+      "data-encoded-term": "angulation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "203",
+        "w2v",
+        "1"
+      ]
+    },
+    "corrigendum": {
+      "data-frequency": "217",
+      "data-relevance": "29",
+      "data-term": "corrigendum",
+      "data-encoded-term": "corrigendum",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "217",
+        "ol",
+        "1"
+      ]
+    },
+    "verifiability": {
+      "data-frequency": "10897",
+      "data-relevance": "28",
+      "data-term": "verifiability",
+      "data-encoded-term": "verifiability",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10897",
+        "w2v",
+        "1"
+      ]
+    },
+    "punishability": {
+      "data-frequency": "3514",
+      "data-relevance": "27",
+      "data-term": "punishability",
+      "data-encoded-term": "punishability",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3514",
+        "ol",
+        "1"
+      ]
+    },
+    "sir alexander cockburn, 12th baronet": {
+      "data-frequency": "119",
+      "data-relevance": "26",
+      "data-term": "sir alexander cockburn, 12th baronet",
+      "data-encoded-term": "sir%20alexander%20cockburn%2C%2012th%20baronet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "119",
+        "wiki",
+        "1"
+      ]
+    },
+    "chastisable": {
+      "data-frequency": "-1",
+      "data-relevance": "25",
+      "data-term": "chastisable",
+      "data-encoded-term": "chastisable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "belittlement": {
+      "data-frequency": "1659",
+      "data-relevance": "24",
+      "data-term": "belittlement",
+      "data-encoded-term": "belittlement",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1659",
+        "ol",
+        "1"
+      ]
+    },
+    "harlotry": {
+      "data-frequency": "51",
+      "data-relevance": "23",
+      "data-term": "harlotry",
+      "data-encoded-term": "harlotry",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "51",
+        "ol",
+        "1"
+      ]
+    },
+    "lovingkindness": {
+      "data-frequency": "61",
+      "data-relevance": "22",
+      "data-term": "lovingkindness",
+      "data-encoded-term": "lovingkindness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "61",
+        "ol",
+        "1"
+      ]
+    },
+    "genuflection": {
+      "data-frequency": "243",
+      "data-relevance": "21",
+      "data-term": "genuflection",
+      "data-encoded-term": "genuflection",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "243",
+        "ol",
+        "1"
+      ]
+    },
+    "sanctimony": {
+      "data-frequency": "62",
+      "data-relevance": "20",
+      "data-term": "sanctimony",
+      "data-encoded-term": "sanctimony",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "ol",
+        "1"
+      ]
+    },
+    "churlishness": {
+      "data-frequency": "-1",
+      "data-relevance": "19",
+      "data-term": "churlishness",
+      "data-encoded-term": "churlishness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fornicators": {
+      "data-frequency": "274",
+      "data-relevance": "18",
+      "data-term": "fornicators",
+      "data-encoded-term": "fornicators",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "274",
+        "ol",
+        "1"
+      ]
+    },
+    "puerility": {
+      "data-frequency": "-1",
+      "data-relevance": "17",
+      "data-term": "puerility",
+      "data-encoded-term": "puerility",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hatefulness": {
+      "data-frequency": "1864",
+      "data-relevance": "16",
+      "data-term": "hatefulness",
+      "data-encoded-term": "hatefulness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1864",
+        "ol",
+        "1"
+      ]
+    },
+    "emasculation": {
+      "data-frequency": "262",
+      "data-relevance": "15",
+      "data-term": "emasculation",
+      "data-encoded-term": "emasculation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "262",
+        "ol",
+        "1"
+      ]
+    },
+    "peccadillo": {
+      "data-frequency": "90",
+      "data-relevance": "14",
+      "data-term": "peccadillo",
+      "data-encoded-term": "peccadillo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "90",
+        "ol",
+        "1"
+      ]
+    },
+    "denouncement": {
+      "data-frequency": "211",
+      "data-relevance": "13",
+      "data-term": "denouncement",
+      "data-encoded-term": "denouncement",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "211",
+        "ol",
+        "1"
+      ]
+    },
+    "spitefulness": {
+      "data-frequency": "50",
+      "data-relevance": "12",
+      "data-term": "spitefulness",
+      "data-encoded-term": "spitefulness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "50",
+        "ol",
+        "1"
+      ]
+    },
+    "battery": {
+      "data-frequency": "51439",
+      "data-relevance": "11",
+      "data-term": "battery",
+      "data-encoded-term": "battery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "51439",
+        "wiki",
+        "1"
+      ]
+    },
+    "lord chief justice of england and wales": {
+      "data-frequency": "3083",
+      "data-relevance": "10",
+      "data-term": "lord chief justice of england and wales",
+      "data-encoded-term": "lord%20chief%20justice%20of%20england%20and%20wales",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3083",
+        "wiki",
+        "1"
+      ]
+    },
+    "venial sin": {
+      "data-frequency": "170",
+      "data-relevance": "9",
+      "data-term": "venial sin",
+      "data-encoded-term": "venial%20sin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "170",
+        "ol",
+        "1"
+      ]
+    },
+    "england and wales": {
+      "data-frequency": "22102",
+      "data-relevance": "8",
+      "data-term": "england and wales",
+      "data-encoded-term": "england%20and%20wales",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "22102",
+        "wiki",
+        "1"
+      ]
+    },
+    "common assault": {
+      "data-frequency": "225",
+      "data-relevance": "7",
+      "data-term": "common assault",
+      "data-encoded-term": "common%20assault",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "225",
+        "wiki",
+        "1"
+      ]
+    },
+    "children act 2004": {
+      "data-frequency": "46",
+      "data-relevance": "6",
+      "data-term": "children act 2004",
+      "data-encoded-term": "children%20act%202004",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "wiki",
+        "1"
+      ]
+    },
+    "law in the republic of ireland": {
+      "data-frequency": "17102",
+      "data-relevance": "5",
+      "data-term": "law in the republic of ireland",
+      "data-encoded-term": "law%20in%20the%20republic%20of%20ireland",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "17102",
+        "wiki",
+        "1"
+      ]
+    },
+    "assault occasioning actual bodily harm": {
+      "data-frequency": "189",
+      "data-relevance": "4",
+      "data-term": "assault occasioning actual bodily harm",
+      "data-encoded-term": "assault%20occasioning%20actual%20bodily%20harm",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "189",
+        "wiki",
+        "1"
+      ]
+    },
+    "william blackstone": {
+      "data-frequency": "416",
+      "data-relevance": "3",
+      "data-term": "william blackstone",
+      "data-encoded-term": "william%20blackstone",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "416",
+        "wiki",
+        "1"
+      ]
+    },
+    "rule of law": {
+      "data-frequency": "6431",
+      "data-relevance": "2",
+      "data-term": "rule of law",
+      "data-encoded-term": "rule%20of%20law",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "6431",
+        "wiki",
+        "1"
+      ]
+    },
+    "charles ii of england": {
+      "data-frequency": "1083",
+      "data-relevance": "1",
+      "data-term": "charles ii of england",
+      "data-encoded-term": "charles%20ii%20of%20england",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1083",
+        "wiki",
+        "1"
+      ]
+    },
+    "commentaries on the laws of england": {
+      "data-frequency": "264",
+      "data-relevance": "0",
+      "data-term": "commentaries on the laws of england",
+      "data-encoded-term": "commentaries%20on%20the%20laws%20of%20england",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "264",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The coach is always chastising the players for minor mistakes.",
+        "ru": "Этот тренер всё время распекает игроков за незначительные ошибки."
+      },
+      {
+        "en": "They had never known the infliction of chastisement from ferule.",
+        "ru": "Им неведомы страдания, испытываемые от наказания линейкой."
+      },
+      {
+        "en": "The waiter was chastised for forgetting the customer's order.",
+        "ru": "Официант получил нагоняй за то, что забыл заказ клиента."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "chastizement",
+      "chastisements"
+    ],
+    "synonyms": [
+      "castigation",
+      "correction",
+      "punishment"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "correction",
+      "reproof",
+      "chastisements",
+      "recompense",
+      "castigation",
+      "chastisable",
+      "punishment",
+      "corrective",
+      "reprimand",
+      "penalty",
+      "chastening",
+      "rebuke",
+      "chastise"
+    ]
+  }
+}

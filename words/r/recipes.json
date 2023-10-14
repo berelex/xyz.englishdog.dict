@@ -1,0 +1,6567 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "foodoir": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/foodoir/n/,/c/en/recipes/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/foodoir/n",
+          "@type": "Node",
+          "label": "foodoir",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/foodoir"
+        },
+        "end": {
+          "@id": "/c/en/recipes",
+          "@type": "Node",
+          "label": "recipes",
+          "language": "en",
+          "term": "/c/en/recipes"
+        }
+      },
+      "recipe": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/recipes/n/,/c/en/recipe/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/recipes/n",
+          "@type": "Node",
+          "label": "recipes",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/recipes"
+        },
+        "end": {
+          "@id": "/c/en/recipe",
+          "@type": "Node",
+          "label": "recipe",
+          "language": "en",
+          "term": "/c/en/recipe"
+        }
+      },
+      "mise en place": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/mise_en_place/n/,/c/en/recipes/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/mise_en_place/n",
+          "@type": "Node",
+          "label": "mise en place",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/mise_en_place"
+        },
+        "end": {
+          "@id": "/c/en/recipes",
+          "@type": "Node",
+          "label": "recipes",
+          "language": "en",
+          "term": "/c/en/recipes"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "recipe": {
+        "@id": "/a/[/r/FormOf/,/c/en/recipes/,/c/en/recipe/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/recipes",
+          "@type": "Node",
+          "label": "recipes",
+          "language": "en",
+          "term": "/c/en/recipes"
+        },
+        "end": {
+          "@id": "/c/en/recipe/n",
+          "@type": "Node",
+          "label": "recipe",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/recipe"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "cooking": {
+      "data-frequency": "29833",
+      "data-relevance": "455",
+      "data-term": "cooking",
+      "data-encoded-term": "cooking",
+      "data-term-stats": [
+        "1",
+        "7.0",
+        "0.000",
+        "29833",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "ingredients": {
+      "data-frequency": "21683",
+      "data-relevance": "454",
+      "data-term": "ingredients",
+      "data-encoded-term": "ingredients",
+      "data-term-stats": [
+        "1",
+        "6.1",
+        "0.000",
+        "21683",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "foods": {
+      "data-frequency": "33415",
+      "data-relevance": "453",
+      "data-term": "foods",
+      "data-encoded-term": "foods",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "33415",
+        "vec2",
+        "1"
+      ]
+    },
+    "dish": {
+      "data-frequency": "20271",
+      "data-relevance": "452",
+      "data-term": "dish",
+      "data-encoded-term": "dish",
+      "data-term-stats": [
+        "1",
+        "14.8",
+        "0.000",
+        "20271",
+        "ol,w2v,wiki,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "451",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "233063",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cookbook": {
+      "data-frequency": "11063",
+      "data-relevance": "450",
+      "data-term": "cookbook",
+      "data-encoded-term": "cookbook",
+      "data-term-stats": [
+        "1",
+        "6.7",
+        "0.000",
+        "11063",
+        "ol,w2v,reddit-slashes|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "baking": {
+      "data-frequency": "6011",
+      "data-relevance": "449",
+      "data-term": "baking",
+      "data-encoded-term": "baking",
+      "data-term-stats": [
+        "1",
+        "5.4",
+        "0.000",
+        "6011",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "meals": {
+      "data-frequency": "14274",
+      "data-relevance": "448",
+      "data-term": "meals",
+      "data-encoded-term": "meals",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "14274",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "plans": {
+      "data-frequency": "196873",
+      "data-relevance": "447",
+      "data-term": "plans",
+      "data-encoded-term": "plans",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "196873",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "menu": {
+      "data-frequency": "18157",
+      "data-relevance": "446",
+      "data-term": "menu",
+      "data-encoded-term": "menu",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "18157",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "ingredient": {
+      "data-frequency": "9455",
+      "data-relevance": "445",
+      "data-term": "ingredient",
+      "data-encoded-term": "ingredient",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "9455",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "formula": {
+      "data-frequency": "82073",
+      "data-relevance": "444",
+      "data-term": "formula",
+      "data-encoded-term": "formula",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "82073",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "ideas": {
+      "data-frequency": "97023",
+      "data-relevance": "443",
+      "data-term": "ideas",
+      "data-encoded-term": "ideas",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "97023",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "meatloaf": {
+      "data-frequency": "424",
+      "data-relevance": "442",
+      "data-term": "meatloaf",
+      "data-encoded-term": "meatloaf",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "424",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "casserole": {
+      "data-frequency": "699",
+      "data-relevance": "441",
+      "data-term": "casserole",
+      "data-encoded-term": "casserole",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "699",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "techniques": {
+      "data-frequency": "85092",
+      "data-relevance": "440",
+      "data-term": "techniques",
+      "data-encoded-term": "techniques",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "85092",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cookbooks": {
+      "data-frequency": "1728",
+      "data-relevance": "439",
+      "data-term": "cookbooks",
+      "data-encoded-term": "cookbooks",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1728",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "items": {
+      "data-frequency": "85955",
+      "data-relevance": "438",
+      "data-term": "items",
+      "data-encoded-term": "items",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "85955",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cheesecake": {
+      "data-frequency": "1337",
+      "data-relevance": "437",
+      "data-term": "cheesecake",
+      "data-encoded-term": "cheesecake",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "1337",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "babylonia": {
+      "data-frequency": "2618",
+      "data-relevance": "436",
+      "data-term": "babylonia",
+      "data-encoded-term": "babylonia",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "2618",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "videos": {
+      "data-frequency": "101302",
+      "data-relevance": "435",
+      "data-term": "videos",
+      "data-encoded-term": "videos",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "101302",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hieroglyph": {
+      "data-frequency": "600",
+      "data-relevance": "434",
+      "data-term": "hieroglyph",
+      "data-encoded-term": "hieroglyph",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "600",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "dishes": {
+      "data-frequency": "18123",
+      "data-relevance": "433",
+      "data-term": "dishes",
+      "data-encoded-term": "dishes",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "18123",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "tips": {
+      "data-frequency": "40534",
+      "data-relevance": "432",
+      "data-term": "tips",
+      "data-encoded-term": "tips",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "40534",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "dessert": {
+      "data-frequency": "6317",
+      "data-relevance": "431",
+      "data-term": "dessert",
+      "data-encoded-term": "dessert",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "6317",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "akkadian language": {
+      "data-frequency": "370",
+      "data-relevance": "430",
+      "data-term": "akkadian language",
+      "data-encoded-term": "akkadian%20language",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "370",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "tasty": {
+      "data-frequency": "3426",
+      "data-relevance": "429",
+      "data-term": "tasty",
+      "data-encoded-term": "tasty",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "3426",
+        "w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "risotto": {
+      "data-frequency": "335",
+      "data-relevance": "428",
+      "data-term": "risotto",
+      "data-encoded-term": "risotto",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "335",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "recipe": {
+      "data-frequency": "12305",
+      "data-relevance": "427",
+      "data-term": "recipe",
+      "data-encoded-term": "recipe",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "12305",
+        "vec2",
+        "1"
+      ]
+    },
+    "meal": {
+      "data-frequency": "19521",
+      "data-relevance": "426",
+      "data-term": "meal",
+      "data-encoded-term": "meal",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "19521",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "methods": {
+      "data-frequency": "104872",
+      "data-relevance": "425",
+      "data-term": "methods",
+      "data-encoded-term": "methods",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "104872",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lasagna": {
+      "data-frequency": "529",
+      "data-relevance": "424",
+      "data-term": "lasagna",
+      "data-encoded-term": "lasagna",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "529",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "recipes": {
+      "data-frequency": "10466",
+      "data-relevance": "423",
+      "data-term": "recipes",
+      "data-encoded-term": "recipes",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "10466",
+        "vec2",
+        "1"
+      ]
+    },
+    "sauces": {
+      "data-frequency": "2851",
+      "data-relevance": "422",
+      "data-term": "sauces",
+      "data-encoded-term": "sauces",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2851",
+        "vec2",
+        "1"
+      ]
+    },
+    "instructions": {
+      "data-frequency": "96092",
+      "data-relevance": "421",
+      "data-term": "instructions",
+      "data-encoded-term": "instructions",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "96092",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cato the elder": {
+      "data-frequency": "730",
+      "data-relevance": "420",
+      "data-term": "cato the elder",
+      "data-encoded-term": "cato%20the%20elder",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "730",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "cooks": {
+      "data-frequency": "7244",
+      "data-relevance": "419",
+      "data-term": "cooks",
+      "data-encoded-term": "cooks",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "7244",
+        "vec2",
+        "1"
+      ]
+    },
+    "diys": {
+      "data-frequency": "-1",
+      "data-relevance": "418",
+      "data-term": "diys",
+      "data-encoded-term": "diys",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "soup": {
+      "data-frequency": "17618",
+      "data-relevance": "417",
+      "data-term": "soup",
+      "data-encoded-term": "soup",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "17618",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cookbook author": {
+      "data-frequency": "3103",
+      "data-relevance": "416",
+      "data-term": "cookbook author",
+      "data-encoded-term": "cookbook%20author",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "3103",
+        "vec2",
+        "1"
+      ]
+    },
+    "casseroles": {
+      "data-frequency": "1177",
+      "data-relevance": "415",
+      "data-term": "casseroles",
+      "data-encoded-term": "casseroles",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1177",
+        "vec2",
+        "1"
+      ]
+    },
+    "seasonings": {
+      "data-frequency": "1444",
+      "data-relevance": "414",
+      "data-term": "seasonings",
+      "data-encoded-term": "seasonings",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1444",
+        "vec2",
+        "1"
+      ]
+    },
+    "sauce": {
+      "data-frequency": "12774",
+      "data-relevance": "413",
+      "data-term": "sauce",
+      "data-encoded-term": "sauce",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "12774",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "chefs": {
+      "data-frequency": "6652",
+      "data-relevance": "412",
+      "data-term": "chefs",
+      "data-encoded-term": "chefs",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "6652",
+        "vec2",
+        "1"
+      ]
+    },
+    "flavors": {
+      "data-frequency": "5297",
+      "data-relevance": "411",
+      "data-term": "flavors",
+      "data-encoded-term": "flavors",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "5297",
+        "vec2",
+        "1"
+      ]
+    },
+    "products": {
+      "data-frequency": "187170",
+      "data-relevance": "410",
+      "data-term": "products",
+      "data-encoded-term": "products",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "187170",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "marinades": {
+      "data-frequency": "148",
+      "data-relevance": "409",
+      "data-term": "marinades",
+      "data-encoded-term": "marinades",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "148",
+        "vec2",
+        "1"
+      ]
+    },
+    "menus": {
+      "data-frequency": "4085",
+      "data-relevance": "408",
+      "data-term": "menus",
+      "data-encoded-term": "menus",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "4085",
+        "vec2",
+        "1"
+      ]
+    },
+    "bread pudding": {
+      "data-frequency": "133",
+      "data-relevance": "407",
+      "data-term": "bread pudding",
+      "data-encoded-term": "bread%20pudding",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "133",
+        "vec2",
+        "1"
+      ]
+    },
+    "pasta dishes": {
+      "data-frequency": "478",
+      "data-relevance": "406",
+      "data-term": "pasta dishes",
+      "data-encoded-term": "pasta%20dishes",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "478",
+        "vec2",
+        "1"
+      ]
+    },
+    "materials": {
+      "data-frequency": "151866",
+      "data-relevance": "405",
+      "data-term": "materials",
+      "data-encoded-term": "materials",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "151866",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "breads": {
+      "data-frequency": "2508",
+      "data-relevance": "404",
+      "data-term": "breads",
+      "data-encoded-term": "breads",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2508",
+        "vec2",
+        "1"
+      ]
+    },
+    "cuisines": {
+      "data-frequency": "2963",
+      "data-relevance": "403",
+      "data-term": "cuisines",
+      "data-encoded-term": "cuisines",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2963",
+        "vec2",
+        "1"
+      ]
+    },
+    "guides": {
+      "data-frequency": "45244",
+      "data-relevance": "402",
+      "data-term": "guides",
+      "data-encoded-term": "guides",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "45244",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "blueprints": {
+      "data-frequency": "2600",
+      "data-relevance": "401",
+      "data-term": "blueprints",
+      "data-encoded-term": "blueprints",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2600",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "formulas": {
+      "data-frequency": "6804",
+      "data-relevance": "400",
+      "data-term": "formulas",
+      "data-encoded-term": "formulas",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6804",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cookery": {
+      "data-frequency": "3315",
+      "data-relevance": "399",
+      "data-term": "cookery",
+      "data-encoded-term": "cookery",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "3315",
+        "vec2",
+        "1"
+      ]
+    },
+    "stew": {
+      "data-frequency": "5862",
+      "data-relevance": "398",
+      "data-term": "stew",
+      "data-encoded-term": "stew",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "5862",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "suggestions": {
+      "data-frequency": "161065",
+      "data-relevance": "397",
+      "data-term": "suggestions",
+      "data-encoded-term": "suggestions",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "161065",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "advice": {
+      "data-frequency": "78369",
+      "data-relevance": "396",
+      "data-term": "advice",
+      "data-encoded-term": "advice",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "78369",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "flavorful": {
+      "data-frequency": "445",
+      "data-relevance": "395",
+      "data-term": "flavorful",
+      "data-encoded-term": "flavorful",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "445",
+        "vec2",
+        "1"
+      ]
+    },
+    "yummy": {
+      "data-frequency": "782",
+      "data-relevance": "394",
+      "data-term": "yummy",
+      "data-encoded-term": "yummy",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "782",
+        "vec2",
+        "1"
+      ]
+    },
+    "info": {
+      "data-frequency": "118430",
+      "data-relevance": "393",
+      "data-term": "info",
+      "data-encoded-term": "info",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "118430",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "books": {
+      "data-frequency": "1137706",
+      "data-relevance": "392",
+      "data-term": "books",
+      "data-encoded-term": "books",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1137706",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cuisine": {
+      "data-frequency": "38529",
+      "data-relevance": "391",
+      "data-term": "cuisine",
+      "data-encoded-term": "cuisine",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "38529",
+        "vec2",
+        "1"
+      ]
+    },
+    "scrumptious": {
+      "data-frequency": "161",
+      "data-relevance": "390",
+      "data-term": "scrumptious",
+      "data-encoded-term": "scrumptious",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "161",
+        "vec2",
+        "1"
+      ]
+    },
+    "ratios": {
+      "data-frequency": "8968",
+      "data-relevance": "389",
+      "data-term": "ratios",
+      "data-encoded-term": "ratios",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "8968",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "tasty treats": {
+      "data-frequency": "573",
+      "data-relevance": "388",
+      "data-term": "tasty treats",
+      "data-encoded-term": "tasty%20treats",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "573",
+        "vec2",
+        "1"
+      ]
+    },
+    "patterns": {
+      "data-frequency": "63373",
+      "data-relevance": "387",
+      "data-term": "patterns",
+      "data-encoded-term": "patterns",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "63373",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "motifs": {
+      "data-frequency": "12712",
+      "data-relevance": "386",
+      "data-term": "motifs",
+      "data-encoded-term": "motifs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "12712",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "slow cooker": {
+      "data-frequency": "108",
+      "data-relevance": "385",
+      "data-term": "slow cooker",
+      "data-encoded-term": "slow%20cooker",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "108",
+        "vec2",
+        "1"
+      ]
+    },
+    "concoctions": {
+      "data-frequency": "1272",
+      "data-relevance": "384",
+      "data-term": "concoctions",
+      "data-encoded-term": "concoctions",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1272",
+        "vec2",
+        "1"
+      ]
+    },
+    "salsas": {
+      "data-frequency": "102",
+      "data-relevance": "383",
+      "data-term": "salsas",
+      "data-encoded-term": "salsas",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "102",
+        "vec2",
+        "1"
+      ]
+    },
+    "brands": {
+      "data-frequency": "47672",
+      "data-relevance": "382",
+      "data-term": "brands",
+      "data-encoded-term": "brands",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "47672",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "skills": {
+      "data-frequency": "91094",
+      "data-relevance": "381",
+      "data-term": "skills",
+      "data-encoded-term": "skills",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "91094",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "athenaeus": {
+      "data-frequency": "778",
+      "data-relevance": "380",
+      "data-term": "athenaeus",
+      "data-encoded-term": "athenaeus",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "778",
+        "wiki",
+        "1"
+      ]
+    },
+    "puddings": {
+      "data-frequency": "1032",
+      "data-relevance": "379",
+      "data-term": "puddings",
+      "data-encoded-term": "puddings",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1032",
+        "vec2",
+        "1"
+      ]
+    },
+    "how": {
+      "data-frequency": "1208780",
+      "data-relevance": "378",
+      "data-term": "how",
+      "data-encoded-term": "how",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1208780",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "posts": {
+      "data-frequency": "55476",
+      "data-relevance": "377",
+      "data-term": "posts",
+      "data-encoded-term": "posts",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "55476",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pictures": {
+      "data-frequency": "147815",
+      "data-relevance": "376",
+      "data-term": "pictures",
+      "data-encoded-term": "pictures",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "147815",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "resources": {
+      "data-frequency": "211477",
+      "data-relevance": "375",
+      "data-term": "resources",
+      "data-encoded-term": "resources",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "211477",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cook": {
+      "data-frequency": "102047",
+      "data-relevance": "374",
+      "data-term": "cook",
+      "data-encoded-term": "cook",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "102047",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "delicacies": {
+      "data-frequency": "1615",
+      "data-relevance": "373",
+      "data-term": "delicacies",
+      "data-encoded-term": "delicacies",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1615",
+        "vec2",
+        "1"
+      ]
+    },
+    "flavor": {
+      "data-frequency": "11307",
+      "data-relevance": "372",
+      "data-term": "flavor",
+      "data-encoded-term": "flavor",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "11307",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "coriander": {
+      "data-frequency": "1697",
+      "data-relevance": "371",
+      "data-term": "coriander",
+      "data-encoded-term": "coriander",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1697",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "crafting": {
+      "data-frequency": "4102",
+      "data-relevance": "370",
+      "data-term": "crafting",
+      "data-encoded-term": "crafting",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "4102",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "ways": {
+      "data-frequency": "125366",
+      "data-relevance": "369",
+      "data-term": "ways",
+      "data-encoded-term": "ways",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "125366",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "blog": {
+      "data-frequency": "107778",
+      "data-relevance": "368",
+      "data-term": "blog",
+      "data-encoded-term": "blog",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "107778",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "tutorials": {
+      "data-frequency": "3142",
+      "data-relevance": "367",
+      "data-term": "tutorials",
+      "data-encoded-term": "tutorials",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3142",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "blogs": {
+      "data-frequency": "20030",
+      "data-relevance": "366",
+      "data-term": "blogs",
+      "data-encoded-term": "blogs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "20030",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "betty crocker": {
+      "data-frequency": "567",
+      "data-relevance": "365",
+      "data-term": "betty crocker",
+      "data-encoded-term": "betty%20crocker",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "567",
+        "vec2",
+        "1"
+      ]
+    },
+    "culinary": {
+      "data-frequency": "10418",
+      "data-relevance": "364",
+      "data-term": "culinary",
+      "data-encoded-term": "culinary",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "10418",
+        "vec2",
+        "1"
+      ]
+    },
+    "process": {
+      "data-frequency": "319235",
+      "data-relevance": "363",
+      "data-term": "process",
+      "data-encoded-term": "process",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "319235",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "furniture": {
+      "data-frequency": "32646",
+      "data-relevance": "362",
+      "data-term": "furniture",
+      "data-encoded-term": "furniture",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "32646",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "websites": {
+      "data-frequency": "35452",
+      "data-relevance": "361",
+      "data-term": "websites",
+      "data-encoded-term": "websites",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "35452",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "options": {
+      "data-frequency": "46849",
+      "data-relevance": "360",
+      "data-term": "options",
+      "data-encoded-term": "options",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46849",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "schematics": {
+      "data-frequency": "6197",
+      "data-relevance": "359",
+      "data-term": "schematics",
+      "data-encoded-term": "schematics",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6197",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "recommendations": {
+      "data-frequency": "27848",
+      "data-relevance": "358",
+      "data-term": "recommendations",
+      "data-encoded-term": "recommendations",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "27848",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "diy": {
+      "data-frequency": "8548",
+      "data-relevance": "357",
+      "data-term": "diy",
+      "data-encoded-term": "diy",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "8548",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "processes": {
+      "data-frequency": "59155",
+      "data-relevance": "356",
+      "data-term": "processes",
+      "data-encoded-term": "processes",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "59155",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sweet treats": {
+      "data-frequency": "139",
+      "data-relevance": "355",
+      "data-term": "sweet treats",
+      "data-encoded-term": "sweet%20treats",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "139",
+        "vec2",
+        "1"
+      ]
+    },
+    "pastas": {
+      "data-frequency": "218",
+      "data-relevance": "354",
+      "data-term": "pastas",
+      "data-encoded-term": "pastas",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "218",
+        "vec2",
+        "1"
+      ]
+    },
+    "content": {
+      "data-frequency": "304621",
+      "data-relevance": "353",
+      "data-term": "content",
+      "data-encoded-term": "content",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "304621",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "things": {
+      "data-frequency": "186982",
+      "data-relevance": "352",
+      "data-term": "things",
+      "data-encoded-term": "things",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "186982",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cheesecakes": {
+      "data-frequency": "262",
+      "data-relevance": "351",
+      "data-term": "cheesecakes",
+      "data-encoded-term": "cheesecakes",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "262",
+        "vec2",
+        "1"
+      ]
+    },
+    "veggies": {
+      "data-frequency": "466",
+      "data-relevance": "350",
+      "data-term": "veggies",
+      "data-encoded-term": "veggies",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "466",
+        "vec2",
+        "1"
+      ]
+    },
+    "method": {
+      "data-frequency": "133920",
+      "data-relevance": "349",
+      "data-term": "method",
+      "data-encoded-term": "method",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "133920",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "technique": {
+      "data-frequency": "69026",
+      "data-relevance": "348",
+      "data-term": "technique",
+      "data-encoded-term": "technique",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "69026",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "variations": {
+      "data-frequency": "47412",
+      "data-relevance": "347",
+      "data-term": "variations",
+      "data-encoded-term": "variations",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "47412",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mats": {
+      "data-frequency": "9445",
+      "data-relevance": "346",
+      "data-term": "mats",
+      "data-encoded-term": "mats",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9445",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "articles": {
+      "data-frequency": "6376137",
+      "data-relevance": "345",
+      "data-term": "articles",
+      "data-encoded-term": "articles",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6376137",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gear": {
+      "data-frequency": "45002",
+      "data-relevance": "344",
+      "data-term": "gear",
+      "data-encoded-term": "gear",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "45002",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "notes": {
+      "data-frequency": "686281",
+      "data-relevance": "343",
+      "data-term": "notes",
+      "data-encoded-term": "notes",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "686281",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "snacks": {
+      "data-frequency": "5152",
+      "data-relevance": "342",
+      "data-term": "snacks",
+      "data-encoded-term": "snacks",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5152",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "uses": {
+      "data-frequency": "295379",
+      "data-relevance": "341",
+      "data-term": "uses",
+      "data-encoded-term": "uses",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "295379",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "entrees": {
+      "data-frequency": "1088",
+      "data-relevance": "340",
+      "data-term": "entrees",
+      "data-encoded-term": "entrees",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1088",
+        "vec2",
+        "1"
+      ]
+    },
+    "culinary delights": {
+      "data-frequency": "419",
+      "data-relevance": "339",
+      "data-term": "culinary delights",
+      "data-encoded-term": "culinary%20delights",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "419",
+        "vec2",
+        "1"
+      ]
+    },
+    "bakers": {
+      "data-frequency": "3475",
+      "data-relevance": "338",
+      "data-term": "bakers",
+      "data-encoded-term": "bakers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3475",
+        "vec2",
+        "1"
+      ]
+    },
+    "inspiration": {
+      "data-frequency": "58697",
+      "data-relevance": "337",
+      "data-term": "inspiration",
+      "data-encoded-term": "inspiration",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "58697",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "stuff": {
+      "data-frequency": "38894",
+      "data-relevance": "336",
+      "data-term": "stuff",
+      "data-encoded-term": "stuff",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "38894",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "directions": {
+      "data-frequency": "38348",
+      "data-relevance": "335",
+      "data-term": "directions",
+      "data-encoded-term": "directions",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "38348",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "youtube": {
+      "data-frequency": "210867",
+      "data-relevance": "334",
+      "data-term": "youtube",
+      "data-encoded-term": "youtube",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "210867",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "combinations": {
+      "data-frequency": "21250",
+      "data-relevance": "333",
+      "data-term": "combinations",
+      "data-encoded-term": "combinations",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "21250",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "buildings": {
+      "data-frequency": "330827",
+      "data-relevance": "332",
+      "data-term": "buildings",
+      "data-encoded-term": "buildings",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "330827",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pot roast": {
+      "data-frequency": "154",
+      "data-relevance": "331",
+      "data-term": "pot roast",
+      "data-encoded-term": "pot%20roast",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "154",
+        "vec2",
+        "1"
+      ]
+    },
+    "pics": {
+      "data-frequency": "3874",
+      "data-relevance": "330",
+      "data-term": "pics",
+      "data-encoded-term": "pics",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3874",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "examples": {
+      "data-frequency": "118347",
+      "data-relevance": "329",
+      "data-term": "examples",
+      "data-encoded-term": "examples",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "118347",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "328",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2451433",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "prep": {
+      "data-frequency": "15944",
+      "data-relevance": "327",
+      "data-term": "prep",
+      "data-encoded-term": "prep",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "15944",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "traditions": {
+      "data-frequency": "60058",
+      "data-relevance": "326",
+      "data-term": "traditions",
+      "data-encoded-term": "traditions",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "60058",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "links": {
+      "data-frequency": "1223185",
+      "data-relevance": "325",
+      "data-term": "links",
+      "data-encoded-term": "links",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1223185",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "crepes": {
+      "data-frequency": "378",
+      "data-relevance": "324",
+      "data-term": "crepes",
+      "data-encoded-term": "crepes",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "378",
+        "vec2",
+        "1"
+      ]
+    },
+    "cure": {
+      "data-frequency": "29447",
+      "data-relevance": "323",
+      "data-term": "cure",
+      "data-encoded-term": "cure",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "29447",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "condiments": {
+      "data-frequency": "2169",
+      "data-relevance": "322",
+      "data-term": "condiments",
+      "data-encoded-term": "condiments",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2169",
+        "vec2",
+        "1"
+      ]
+    },
+    "rosemary": {
+      "data-frequency": "22491",
+      "data-relevance": "321",
+      "data-term": "rosemary",
+      "data-encoded-term": "rosemary",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "22491",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "pumpkin pie": {
+      "data-frequency": "717",
+      "data-relevance": "320",
+      "data-term": "pumpkin pie",
+      "data-encoded-term": "pumpkin%20pie",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "717",
+        "vec2",
+        "1"
+      ]
+    },
+    "what": {
+      "data-frequency": "610856",
+      "data-relevance": "319",
+      "data-term": "what",
+      "data-encoded-term": "what",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "610856",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "pages": {
+      "data-frequency": "1098187",
+      "data-relevance": "318",
+      "data-term": "pages",
+      "data-encoded-term": "pages",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1098187",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "drinks": {
+      "data-frequency": "18825",
+      "data-relevance": "317",
+      "data-term": "drinks",
+      "data-encoded-term": "drinks",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "18825",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "types": {
+      "data-frequency": "153645",
+      "data-relevance": "316",
+      "data-term": "types",
+      "data-encoded-term": "types",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "153645",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "stories": {
+      "data-frequency": "172826",
+      "data-relevance": "315",
+      "data-term": "stories",
+      "data-encoded-term": "stories",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "172826",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "kits": {
+      "data-frequency": "11168",
+      "data-relevance": "314",
+      "data-term": "kits",
+      "data-encoded-term": "kits",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "11168",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "designs": {
+      "data-frequency": "71365",
+      "data-relevance": "313",
+      "data-term": "designs",
+      "data-encoded-term": "designs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "71365",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "diet": {
+      "data-frequency": "34307",
+      "data-relevance": "312",
+      "data-term": "diet",
+      "data-encoded-term": "diet",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "34307",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "information": {
+      "data-frequency": "1592572",
+      "data-relevance": "311",
+      "data-term": "information",
+      "data-encoded-term": "information",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1592572",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sources": {
+      "data-frequency": "1543534",
+      "data-relevance": "310",
+      "data-term": "sources",
+      "data-encoded-term": "sources",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1543534",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "knowledge": {
+      "data-frequency": "153031",
+      "data-relevance": "309",
+      "data-term": "knowledge",
+      "data-encoded-term": "knowledge",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "153031",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "photos": {
+      "data-frequency": "105359",
+      "data-relevance": "308",
+      "data-term": "photos",
+      "data-encoded-term": "photos",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "105359",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "styles": {
+      "data-frequency": "63130",
+      "data-relevance": "307",
+      "data-term": "styles",
+      "data-encoded-term": "styles",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "63130",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "new": {
+      "data-frequency": "2251223",
+      "data-relevance": "306",
+      "data-term": "new",
+      "data-encoded-term": "new",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2251223",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "quests": {
+      "data-frequency": "2529",
+      "data-relevance": "305",
+      "data-term": "quests",
+      "data-encoded-term": "quests",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2529",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "times": {
+      "data-frequency": "933931",
+      "data-relevance": "304",
+      "data-term": "times",
+      "data-encoded-term": "times",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "933931",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "tamales": {
+      "data-frequency": "612",
+      "data-relevance": "303",
+      "data-term": "tamales",
+      "data-encoded-term": "tamales",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "612",
+        "vec2",
+        "1"
+      ]
+    },
+    "herbs": {
+      "data-frequency": "9941",
+      "data-relevance": "302",
+      "data-term": "herbs",
+      "data-encoded-term": "herbs",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "9941",
+        "vec2",
+        "1"
+      ]
+    },
+    "curries": {
+      "data-frequency": "637",
+      "data-relevance": "301",
+      "data-term": "curries",
+      "data-encoded-term": "curries",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "637",
+        "vec2",
+        "1"
+      ]
+    },
+    "gluten free": {
+      "data-frequency": "1162",
+      "data-relevance": "300",
+      "data-term": "gluten free",
+      "data-encoded-term": "gluten%20free",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1162",
+        "vec2",
+        "1"
+      ]
+    },
+    "spices": {
+      "data-frequency": "7222",
+      "data-relevance": "299",
+      "data-term": "spices",
+      "data-encoded-term": "spices",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "7222",
+        "vec2",
+        "1"
+      ]
+    },
+    "desserts": {
+      "data-frequency": "5477",
+      "data-relevance": "298",
+      "data-term": "desserts",
+      "data-encoded-term": "desserts",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "5477",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "more": {
+      "data-frequency": "1550252",
+      "data-relevance": "297",
+      "data-term": "more",
+      "data-encoded-term": "more",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1550252",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "use": {
+      "data-frequency": "1829650",
+      "data-relevance": "296",
+      "data-term": "use",
+      "data-encoded-term": "use",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1829650",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "spells": {
+      "data-frequency": "17653",
+      "data-relevance": "295",
+      "data-term": "spells",
+      "data-encoded-term": "spells",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17653",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "potions": {
+      "data-frequency": "1233",
+      "data-relevance": "294",
+      "data-term": "potions",
+      "data-encoded-term": "potions",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1233",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "facilities": {
+      "data-frequency": "181660",
+      "data-relevance": "293",
+      "data-term": "facilities",
+      "data-encoded-term": "facilities",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "181660",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "eating": {
+      "data-frequency": "41921",
+      "data-relevance": "292",
+      "data-term": "eating",
+      "data-encoded-term": "eating",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "41921",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "crafts": {
+      "data-frequency": "19139",
+      "data-relevance": "291",
+      "data-term": "crafts",
+      "data-encoded-term": "crafts",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "19139",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "experiments": {
+      "data-frequency": "39148",
+      "data-relevance": "290",
+      "data-term": "experiments",
+      "data-encoded-term": "experiments",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "39148",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "groceries": {
+      "data-frequency": "2809",
+      "data-relevance": "289",
+      "data-term": "groceries",
+      "data-encoded-term": "groceries",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2809",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "furnishing": {
+      "data-frequency": "2781",
+      "data-relevance": "288",
+      "data-term": "furnishing",
+      "data-encoded-term": "furnishing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2781",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "components": {
+      "data-frequency": "77216",
+      "data-relevance": "287",
+      "data-term": "components",
+      "data-encoded-term": "components",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "77216",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "vids": {
+      "data-frequency": "235",
+      "data-relevance": "286",
+      "data-term": "vids",
+      "data-encoded-term": "vids",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "235",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "custom": {
+      "data-frequency": "49226",
+      "data-relevance": "285",
+      "data-term": "custom",
+      "data-encoded-term": "custom",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "49226",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sites": {
+      "data-frequency": "178159",
+      "data-relevance": "284",
+      "data-term": "sites",
+      "data-encoded-term": "sites",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "178159",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "entrées": {
+      "data-frequency": "775",
+      "data-relevance": "283",
+      "data-term": "entrées",
+      "data-encoded-term": "entr%C3%A9es",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "775",
+        "vec2",
+        "1"
+      ]
+    },
+    "ravioli": {
+      "data-frequency": "469",
+      "data-relevance": "282",
+      "data-term": "ravioli",
+      "data-encoded-term": "ravioli",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "469",
+        "vec2",
+        "1"
+      ]
+    },
+    "baked goods": {
+      "data-frequency": "1459",
+      "data-relevance": "281",
+      "data-term": "baked goods",
+      "data-encoded-term": "baked%20goods",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1459",
+        "vec2",
+        "1"
+      ]
+    },
+    "crusades": {
+      "data-frequency": "6532",
+      "data-relevance": "280",
+      "data-term": "crusades",
+      "data-encoded-term": "crusades",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "6532",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "potato salad": {
+      "data-frequency": "261",
+      "data-relevance": "279",
+      "data-term": "potato salad",
+      "data-encoded-term": "potato%20salad",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "261",
+        "vec2",
+        "1"
+      ]
+    },
+    "beef stew": {
+      "data-frequency": "166",
+      "data-relevance": "278",
+      "data-term": "beef stew",
+      "data-encoded-term": "beef%20stew",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "166",
+        "vec2",
+        "1"
+      ]
+    },
+    "gourmet": {
+      "data-frequency": "4904",
+      "data-relevance": "277",
+      "data-term": "gourmet",
+      "data-encoded-term": "gourmet",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4904",
+        "vec2",
+        "1"
+      ]
+    },
+    "roast chicken": {
+      "data-frequency": "173",
+      "data-relevance": "276",
+      "data-term": "roast chicken",
+      "data-encoded-term": "roast%20chicken",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "173",
+        "vec2",
+        "1"
+      ]
+    },
+    "toppings": {
+      "data-frequency": "867",
+      "data-relevance": "275",
+      "data-term": "toppings",
+      "data-encoded-term": "toppings",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "867",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "mixes": {
+      "data-frequency": "10790",
+      "data-relevance": "274",
+      "data-term": "mixes",
+      "data-encoded-term": "mixes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10790",
+        "w2v",
+        "1"
+      ]
+    },
+    "snack": {
+      "data-frequency": "7135",
+      "data-relevance": "273",
+      "data-term": "snack",
+      "data-encoded-term": "snack",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7135",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "video": {
+      "data-frequency": "438725",
+      "data-relevance": "272",
+      "data-term": "video",
+      "data-encoded-term": "video",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "438725",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "plan": {
+      "data-frequency": "258343",
+      "data-relevance": "271",
+      "data-term": "plan",
+      "data-encoded-term": "plan",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "258343",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "carrot cake": {
+      "data-frequency": "458",
+      "data-relevance": "270",
+      "data-term": "carrot cake",
+      "data-encoded-term": "carrot%20cake",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "458",
+        "vec2",
+        "1"
+      ]
+    },
+    "cakes": {
+      "data-frequency": "6295",
+      "data-relevance": "269",
+      "data-term": "cakes",
+      "data-encoded-term": "cakes",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "6295",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "stews": {
+      "data-frequency": "1809",
+      "data-relevance": "268",
+      "data-term": "stews",
+      "data-encoded-term": "stews",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1809",
+        "vec2",
+        "1"
+      ]
+    },
+    "scones": {
+      "data-frequency": "383",
+      "data-relevance": "267",
+      "data-term": "scones",
+      "data-encoded-term": "scones",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "383",
+        "vec2",
+        "1"
+      ]
+    },
+    "delicious": {
+      "data-frequency": "6542",
+      "data-relevance": "266",
+      "data-term": "delicious",
+      "data-encoded-term": "delicious",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "6542",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "real simple": {
+      "data-frequency": "153",
+      "data-relevance": "265",
+      "data-term": "real simple",
+      "data-encoded-term": "real%20simple",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "153",
+        "vec2",
+        "1"
+      ]
+    },
+    "foodies": {
+      "data-frequency": "363",
+      "data-relevance": "264",
+      "data-term": "foodies",
+      "data-encoded-term": "foodies",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "363",
+        "vec2",
+        "1"
+      ]
+    },
+    "biscotti": {
+      "data-frequency": "414",
+      "data-relevance": "263",
+      "data-term": "biscotti",
+      "data-encoded-term": "biscotti",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "414",
+        "vec2",
+        "1"
+      ]
+    },
+    "latkes": {
+      "data-frequency": "79",
+      "data-relevance": "262",
+      "data-term": "latkes",
+      "data-encoded-term": "latkes",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "79",
+        "vec2",
+        "1"
+      ]
+    },
+    "paella": {
+      "data-frequency": "410",
+      "data-relevance": "261",
+      "data-term": "paella",
+      "data-encoded-term": "paella",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "410",
+        "vec2",
+        "1"
+      ]
+    },
+    "taste": {
+      "data-frequency": "44717",
+      "data-relevance": "260",
+      "data-term": "taste",
+      "data-encoded-term": "taste",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44717",
+        "w2v",
+        "1"
+      ]
+    },
+    "healthful": {
+      "data-frequency": "613",
+      "data-relevance": "259",
+      "data-term": "healthful",
+      "data-encoded-term": "healthful",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "613",
+        "vec2",
+        "1"
+      ]
+    },
+    "soups": {
+      "data-frequency": "3477",
+      "data-relevance": "258",
+      "data-term": "soups",
+      "data-encoded-term": "soups",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "3477",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "pies": {
+      "data-frequency": "4326",
+      "data-relevance": "257",
+      "data-term": "pies",
+      "data-encoded-term": "pies",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "4326",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "favorite": {
+      "data-frequency": "68212",
+      "data-relevance": "256",
+      "data-term": "favorite",
+      "data-encoded-term": "favorite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68212",
+        "w2v",
+        "1"
+      ]
+    },
+    "brand": {
+      "data-frequency": "113951",
+      "data-relevance": "255",
+      "data-term": "brand",
+      "data-encoded-term": "brand",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "113951",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "specs": {
+      "data-frequency": "6376",
+      "data-relevance": "254",
+      "data-term": "specs",
+      "data-encoded-term": "specs",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6376",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "steps": {
+      "data-frequency": "81277",
+      "data-relevance": "253",
+      "data-term": "steps",
+      "data-encoded-term": "steps",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "81277",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "book": {
+      "data-frequency": "752539",
+      "data-relevance": "252",
+      "data-term": "book",
+      "data-encoded-term": "book",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "752539",
+        "swiki,reddit-slashes",
+        "1"
+      ]
+    },
+    "cuneiform": {
+      "data-frequency": "2349",
+      "data-relevance": "251",
+      "data-term": "cuneiform",
+      "data-encoded-term": "cuneiform",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "2349",
+        "wiki",
+        "1"
+      ]
+    },
+    "direction": {
+      "data-frequency": "207023",
+      "data-relevance": "250",
+      "data-term": "direction",
+      "data-encoded-term": "direction",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "207023",
+        "wn",
+        "1"
+      ]
+    },
+    "salads": {
+      "data-frequency": "2851",
+      "data-relevance": "249",
+      "data-term": "salads",
+      "data-encoded-term": "salads",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2851",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "instruction": {
+      "data-frequency": "46748",
+      "data-relevance": "248",
+      "data-term": "instruction",
+      "data-encoded-term": "instruction",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "46748",
+        "wn",
+        "1"
+      ]
+    },
+    "punic": {
+      "data-frequency": "2579",
+      "data-relevance": "247",
+      "data-term": "punic",
+      "data-encoded-term": "punic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2579",
+        "wiki",
+        "1"
+      ]
+    },
+    "mithaecus": {
+      "data-frequency": "-1",
+      "data-relevance": "246",
+      "data-term": "mithaecus",
+      "data-encoded-term": "mithaecus",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "apicius": {
+      "data-frequency": "124",
+      "data-relevance": "245",
+      "data-term": "apicius",
+      "data-encoded-term": "apicius",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "124",
+        "wiki",
+        "1"
+      ]
+    },
+    "cake": {
+      "data-frequency": "19024",
+      "data-relevance": "244",
+      "data-term": "cake",
+      "data-encoded-term": "cake",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "19024",
+        "w2v",
+        "1"
+      ]
+    },
+    "cookies": {
+      "data-frequency": "5624",
+      "data-relevance": "243",
+      "data-term": "cookies",
+      "data-encoded-term": "cookies",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5624",
+        "w2v",
+        "1"
+      ]
+    },
+    "pie": {
+      "data-frequency": "20226",
+      "data-relevance": "242",
+      "data-term": "pie",
+      "data-encoded-term": "pie",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20226",
+        "w2v",
+        "1"
+      ]
+    },
+    "cookie": {
+      "data-frequency": "8122",
+      "data-relevance": "241",
+      "data-term": "cookie",
+      "data-encoded-term": "cookie",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8122",
+        "w2v",
+        "1"
+      ]
+    },
+    "baked": {
+      "data-frequency": "9511",
+      "data-relevance": "240",
+      "data-term": "baked",
+      "data-encoded-term": "baked",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9511",
+        "w2v",
+        "1"
+      ]
+    },
+    "pancakes": {
+      "data-frequency": "1805",
+      "data-relevance": "239",
+      "data-term": "pancakes",
+      "data-encoded-term": "pancakes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1805",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "deipnosophistae": {
+      "data-frequency": "237",
+      "data-relevance": "238",
+      "data-term": "deipnosophistae",
+      "data-encoded-term": "deipnosophistae",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "237",
+        "wiki",
+        "1"
+      ]
+    },
+    "savory": {
+      "data-frequency": "2522",
+      "data-relevance": "237",
+      "data-term": "savory",
+      "data-encoded-term": "savory",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2522",
+        "w2v",
+        "1"
+      ]
+    },
+    "salad": {
+      "data-frequency": "6776",
+      "data-relevance": "236",
+      "data-term": "salad",
+      "data-encoded-term": "salad",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6776",
+        "w2v",
+        "1"
+      ]
+    },
+    "cornbread": {
+      "data-frequency": "817",
+      "data-relevance": "235",
+      "data-term": "cornbread",
+      "data-encoded-term": "cornbread",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "817",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "bread": {
+      "data-frequency": "29037",
+      "data-relevance": "234",
+      "data-term": "bread",
+      "data-encoded-term": "bread",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29037",
+        "w2v",
+        "1"
+      ]
+    },
+    "potato": {
+      "data-frequency": "16289",
+      "data-relevance": "233",
+      "data-term": "potato",
+      "data-encoded-term": "potato",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16289",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheese": {
+      "data-frequency": "21744",
+      "data-relevance": "232",
+      "data-term": "cheese",
+      "data-encoded-term": "cheese",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "21744",
+        "w2v",
+        "1"
+      ]
+    },
+    "pudding": {
+      "data-frequency": "6575",
+      "data-relevance": "231",
+      "data-term": "pudding",
+      "data-encoded-term": "pudding",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6575",
+        "w2v",
+        "1"
+      ]
+    },
+    "entree": {
+      "data-frequency": "1257",
+      "data-relevance": "230",
+      "data-term": "entree",
+      "data-encoded-term": "entree",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1257",
+        "w2v",
+        "1"
+      ]
+    },
+    "tomato": {
+      "data-frequency": "9170",
+      "data-relevance": "229",
+      "data-term": "tomato",
+      "data-encoded-term": "tomato",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9170",
+        "w2v",
+        "1"
+      ]
+    },
+    "chocolate": {
+      "data-frequency": "22566",
+      "data-relevance": "228",
+      "data-term": "chocolate",
+      "data-encoded-term": "chocolate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22566",
+        "w2v",
+        "1"
+      ]
+    },
+    "anno domini": {
+      "data-frequency": "2871",
+      "data-relevance": "227",
+      "data-term": "anno domini",
+      "data-encoded-term": "anno%20domini",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2871",
+        "swiki",
+        "1"
+      ]
+    },
+    "appetizer": {
+      "data-frequency": "842",
+      "data-relevance": "226",
+      "data-term": "appetizer",
+      "data-encoded-term": "appetizer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "842",
+        "w2v",
+        "1"
+      ]
+    },
+    "oatmeal": {
+      "data-frequency": "1158",
+      "data-relevance": "225",
+      "data-term": "oatmeal",
+      "data-encoded-term": "oatmeal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1158",
+        "w2v",
+        "1"
+      ]
+    },
+    "toast": {
+      "data-frequency": "7426",
+      "data-relevance": "224",
+      "data-term": "toast",
+      "data-encoded-term": "toast",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7426",
+        "w2v",
+        "1"
+      ]
+    },
+    "pasta": {
+      "data-frequency": "4546",
+      "data-relevance": "223",
+      "data-term": "pasta",
+      "data-encoded-term": "pasta",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4546",
+        "w2v",
+        "1"
+      ]
+    },
+    "sandwich": {
+      "data-frequency": "17401",
+      "data-relevance": "222",
+      "data-term": "sandwich",
+      "data-encoded-term": "sandwich",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17401",
+        "w2v",
+        "1"
+      ]
+    },
+    "servings": {
+      "data-frequency": "450",
+      "data-relevance": "221",
+      "data-term": "servings",
+      "data-encoded-term": "servings",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "450",
+        "w2v",
+        "1"
+      ]
+    },
+    "chicken": {
+      "data-frequency": "34293",
+      "data-relevance": "220",
+      "data-term": "chicken",
+      "data-encoded-term": "chicken",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "34293",
+        "w2v",
+        "1"
+      ]
+    },
+    "pumpkin": {
+      "data-frequency": "7511",
+      "data-relevance": "219",
+      "data-term": "pumpkin",
+      "data-encoded-term": "pumpkin",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7511",
+        "w2v",
+        "1"
+      ]
+    },
+    "safavid": {
+      "data-frequency": "3661",
+      "data-relevance": "218",
+      "data-term": "safavid",
+      "data-encoded-term": "safavid",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3661",
+        "wiki",
+        "1"
+      ]
+    },
+    "spicy": {
+      "data-frequency": "5333",
+      "data-relevance": "217",
+      "data-term": "spicy",
+      "data-encoded-term": "spicy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5333",
+        "w2v",
+        "1"
+      ]
+    },
+    "mixture": {
+      "data-frequency": "37180",
+      "data-relevance": "216",
+      "data-term": "mixture",
+      "data-encoded-term": "mixture",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "37180",
+        "ol",
+        "1"
+      ]
+    },
+    "user acceptance test": {
+      "data-frequency": "1454",
+      "data-relevance": "215",
+      "data-term": "user acceptance test",
+      "data-encoded-term": "user%20acceptance%20test",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1454",
+        "wiki",
+        "1"
+      ]
+    },
+    "bean": {
+      "data-frequency": "23286",
+      "data-relevance": "214",
+      "data-term": "bean",
+      "data-encoded-term": "bean",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23286",
+        "w2v",
+        "1"
+      ]
+    },
+    "delectable": {
+      "data-frequency": "615",
+      "data-relevance": "213",
+      "data-term": "delectable",
+      "data-encoded-term": "delectable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "615",
+        "w2v",
+        "1"
+      ]
+    },
+    "butter": {
+      "data-frequency": "13885",
+      "data-relevance": "212",
+      "data-term": "butter",
+      "data-encoded-term": "butter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13885",
+        "w2v",
+        "1"
+      ]
+    },
+    "add": {
+      "data-frequency": "163920",
+      "data-relevance": "211",
+      "data-term": "add",
+      "data-encoded-term": "add",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "163920",
+        "w2v",
+        "1"
+      ]
+    },
+    "tart": {
+      "data-frequency": "3648",
+      "data-relevance": "210",
+      "data-term": "tart",
+      "data-encoded-term": "tart",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3648",
+        "w2v",
+        "1"
+      ]
+    },
+    "cooked": {
+      "data-frequency": "11399",
+      "data-relevance": "209",
+      "data-term": "cooked",
+      "data-encoded-term": "cooked",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11399",
+        "w2v",
+        "1"
+      ]
+    },
+    "honey": {
+      "data-frequency": "35451",
+      "data-relevance": "208",
+      "data-term": "honey",
+      "data-encoded-term": "honey",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "35451",
+        "w2v",
+        "1"
+      ]
+    },
+    "sweet": {
+      "data-frequency": "90399",
+      "data-relevance": "207",
+      "data-term": "sweet",
+      "data-encoded-term": "sweet",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "90399",
+        "w2v",
+        "1"
+      ]
+    },
+    "fried": {
+      "data-frequency": "16250",
+      "data-relevance": "206",
+      "data-term": "fried",
+      "data-encoded-term": "fried",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16250",
+        "w2v",
+        "1"
+      ]
+    },
+    "remedy": {
+      "data-frequency": "10566",
+      "data-relevance": "205",
+      "data-term": "remedy",
+      "data-encoded-term": "remedy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10566",
+        "ol",
+        "1"
+      ]
+    },
+    "muffins": {
+      "data-frequency": "638",
+      "data-relevance": "204",
+      "data-term": "muffins",
+      "data-encoded-term": "muffins",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "638",
+        "w2v",
+        "1"
+      ]
+    },
+    "sandwiches": {
+      "data-frequency": "3964",
+      "data-relevance": "203",
+      "data-term": "sandwiches",
+      "data-encoded-term": "sandwiches",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3964",
+        "w2v",
+        "1"
+      ]
+    },
+    "tasting": {
+      "data-frequency": "4869",
+      "data-relevance": "202",
+      "data-term": "tasting",
+      "data-encoded-term": "tasting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4869",
+        "w2v",
+        "1"
+      ]
+    },
+    "mashed": {
+      "data-frequency": "2155",
+      "data-relevance": "201",
+      "data-term": "mashed",
+      "data-encoded-term": "mashed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2155",
+        "w2v",
+        "1"
+      ]
+    },
+    "medical prescription": {
+      "data-frequency": "5151",
+      "data-relevance": "200",
+      "data-term": "medical prescription",
+      "data-encoded-term": "medical%20prescription",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5151",
+        "wiki",
+        "1"
+      ]
+    },
+    "potion": {
+      "data-frequency": "2888",
+      "data-relevance": "199",
+      "data-term": "potion",
+      "data-encoded-term": "potion",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2888",
+        "ol",
+        "1"
+      ]
+    },
+    "lemon": {
+      "data-frequency": "19616",
+      "data-relevance": "198",
+      "data-term": "lemon",
+      "data-encoded-term": "lemon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19616",
+        "w2v",
+        "1"
+      ]
+    },
+    "latin": {
+      "data-frequency": "197809",
+      "data-relevance": "197",
+      "data-term": "latin",
+      "data-encoded-term": "latin",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "197809",
+        "swiki",
+        "1"
+      ]
+    },
+    "custard": {
+      "data-frequency": "2594",
+      "data-relevance": "196",
+      "data-term": "custard",
+      "data-encoded-term": "custard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2594",
+        "w2v",
+        "1"
+      ]
+    },
+    "pizza": {
+      "data-frequency": "13416",
+      "data-relevance": "195",
+      "data-term": "pizza",
+      "data-encoded-term": "pizza",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13416",
+        "w2v",
+        "1"
+      ]
+    },
+    "potatoes": {
+      "data-frequency": "11438",
+      "data-relevance": "194",
+      "data-term": "potatoes",
+      "data-encoded-term": "potatoes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11438",
+        "w2v",
+        "1"
+      ]
+    },
+    "sausage": {
+      "data-frequency": "5974",
+      "data-relevance": "193",
+      "data-term": "sausage",
+      "data-encoded-term": "sausage",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5974",
+        "w2v",
+        "1"
+      ]
+    },
+    "common era": {
+      "data-frequency": "1490",
+      "data-relevance": "192",
+      "data-term": "common era",
+      "data-encoded-term": "common%20era",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1490",
+        "swiki",
+        "1"
+      ]
+    },
+    "slices": {
+      "data-frequency": "4068",
+      "data-relevance": "191",
+      "data-term": "slices",
+      "data-encoded-term": "slices",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4068",
+        "w2v",
+        "1"
+      ]
+    },
+    "cream": {
+      "data-frequency": "32669",
+      "data-relevance": "190",
+      "data-term": "cream",
+      "data-encoded-term": "cream",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32669",
+        "w2v",
+        "1"
+      ]
+    },
+    "peanut": {
+      "data-frequency": "5736",
+      "data-relevance": "189",
+      "data-term": "peanut",
+      "data-encoded-term": "peanut",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5736",
+        "w2v",
+        "1"
+      ]
+    },
+    "item": {
+      "data-frequency": "45166",
+      "data-relevance": "188",
+      "data-term": "item",
+      "data-encoded-term": "item",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "45166",
+        "w2v",
+        "1"
+      ]
+    },
+    "paste": {
+      "data-frequency": "12653",
+      "data-relevance": "187",
+      "data-term": "paste",
+      "data-encoded-term": "paste",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12653",
+        "w2v",
+        "1"
+      ]
+    },
+    "mix": {
+      "data-frequency": "94535",
+      "data-relevance": "186",
+      "data-term": "mix",
+      "data-encoded-term": "mix",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "94535",
+        "ol",
+        "1"
+      ]
+    },
+    "instant": {
+      "data-frequency": "24943",
+      "data-relevance": "185",
+      "data-term": "instant",
+      "data-encoded-term": "instant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24943",
+        "w2v",
+        "1"
+      ]
+    },
+    "slice": {
+      "data-frequency": "9753",
+      "data-relevance": "184",
+      "data-term": "slice",
+      "data-encoded-term": "slice",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9753",
+        "w2v",
+        "1"
+      ]
+    },
+    "seasoning": {
+      "data-frequency": "1619",
+      "data-relevance": "183",
+      "data-term": "seasoning",
+      "data-encoded-term": "seasoning",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1619",
+        "w2v",
+        "1"
+      ]
+    },
+    "fries": {
+      "data-frequency": "5167",
+      "data-relevance": "182",
+      "data-term": "fries",
+      "data-encoded-term": "fries",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5167",
+        "w2v",
+        "1"
+      ]
+    },
+    "fruit": {
+      "data-frequency": "67753",
+      "data-relevance": "181",
+      "data-term": "fruit",
+      "data-encoded-term": "fruit",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "67753",
+        "w2v",
+        "1"
+      ]
+    },
+    "bacon": {
+      "data-frequency": "24895",
+      "data-relevance": "180",
+      "data-term": "bacon",
+      "data-encoded-term": "bacon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24895",
+        "w2v",
+        "1"
+      ]
+    },
+    "handy": {
+      "data-frequency": "7007",
+      "data-relevance": "179",
+      "data-term": "handy",
+      "data-encoded-term": "handy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7007",
+        "w2v",
+        "1"
+      ]
+    },
+    "methodology": {
+      "data-frequency": "21320",
+      "data-relevance": "178",
+      "data-term": "methodology",
+      "data-encoded-term": "methodology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "21320",
+        "ol",
+        "1"
+      ]
+    },
+    "beans": {
+      "data-frequency": "14841",
+      "data-relevance": "177",
+      "data-term": "beans",
+      "data-encoded-term": "beans",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14841",
+        "w2v",
+        "1"
+      ]
+    },
+    "caramel": {
+      "data-frequency": "2383",
+      "data-relevance": "176",
+      "data-term": "caramel",
+      "data-encoded-term": "caramel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2383",
+        "w2v",
+        "1"
+      ]
+    },
+    "barbecue": {
+      "data-frequency": "5871",
+      "data-relevance": "175",
+      "data-term": "barbecue",
+      "data-encoded-term": "barbecue",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5871",
+        "w2v",
+        "1"
+      ]
+    },
+    "insert": {
+      "data-frequency": "13232",
+      "data-relevance": "174",
+      "data-term": "insert",
+      "data-encoded-term": "insert",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13232",
+        "w2v",
+        "1"
+      ]
+    },
+    "combine": {
+      "data-frequency": "30736",
+      "data-relevance": "173",
+      "data-term": "combine",
+      "data-encoded-term": "combine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "30736",
+        "w2v",
+        "1"
+      ]
+    },
+    "roasted": {
+      "data-frequency": "4281",
+      "data-relevance": "172",
+      "data-term": "roasted",
+      "data-encoded-term": "roasted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4281",
+        "w2v",
+        "1"
+      ]
+    },
+    "wine": {
+      "data-frequency": "55565",
+      "data-relevance": "171",
+      "data-term": "wine",
+      "data-encoded-term": "wine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "55565",
+        "w2v",
+        "1"
+      ]
+    },
+    "pastries": {
+      "data-frequency": "2237",
+      "data-relevance": "170",
+      "data-term": "pastries",
+      "data-encoded-term": "pastries",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2237",
+        "w2v",
+        "1"
+      ]
+    },
+    "meat": {
+      "data-frequency": "40904",
+      "data-relevance": "169",
+      "data-term": "meat",
+      "data-encoded-term": "meat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40904",
+        "w2v",
+        "1"
+      ]
+    },
+    "candy": {
+      "data-frequency": "26106",
+      "data-relevance": "168",
+      "data-term": "candy",
+      "data-encoded-term": "candy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26106",
+        "w2v",
+        "1"
+      ]
+    },
+    "dose": {
+      "data-frequency": "15340",
+      "data-relevance": "167",
+      "data-term": "dose",
+      "data-encoded-term": "dose",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15340",
+        "ol",
+        "1"
+      ]
+    },
+    "juicy": {
+      "data-frequency": "4103",
+      "data-relevance": "166",
+      "data-term": "juicy",
+      "data-encoded-term": "juicy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4103",
+        "w2v",
+        "1"
+      ]
+    },
+    "secret": {
+      "data-frequency": "183865",
+      "data-relevance": "165",
+      "data-term": "secret",
+      "data-encoded-term": "secret",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "183865",
+        "ol",
+        "1"
+      ]
+    },
+    "twist": {
+      "data-frequency": "26016",
+      "data-relevance": "164",
+      "data-term": "twist",
+      "data-encoded-term": "twist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26016",
+        "w2v",
+        "1"
+      ]
+    },
+    "prescription": {
+      "data-frequency": "8793",
+      "data-relevance": "163",
+      "data-term": "prescription",
+      "data-encoded-term": "prescription",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8793",
+        "ol",
+        "1"
+      ]
+    },
+    "gift": {
+      "data-frequency": "67401",
+      "data-relevance": "162",
+      "data-term": "gift",
+      "data-encoded-term": "gift",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67401",
+        "ol",
+        "1"
+      ]
+    },
+    "source": {
+      "data-frequency": "621529",
+      "data-relevance": "161",
+      "data-term": "source",
+      "data-encoded-term": "source",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "621529",
+        "ol",
+        "1"
+      ]
+    },
+    "solution": {
+      "data-frequency": "68527",
+      "data-relevance": "160",
+      "data-term": "solution",
+      "data-encoded-term": "solution",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68527",
+        "ol",
+        "1"
+      ]
+    },
+    "counter": {
+      "data-frequency": "69661",
+      "data-relevance": "159",
+      "data-term": "counter",
+      "data-encoded-term": "counter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69661",
+        "ol",
+        "1"
+      ]
+    },
+    "manuscript": {
+      "data-frequency": "39848",
+      "data-relevance": "158",
+      "data-term": "manuscript",
+      "data-encoded-term": "manuscript",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39848",
+        "swiki",
+        "1"
+      ]
+    },
+    "way": {
+      "data-frequency": "583587",
+      "data-relevance": "157",
+      "data-term": "way",
+      "data-encoded-term": "way",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "583587",
+        "ol",
+        "1"
+      ]
+    },
+    "formulae": {
+      "data-frequency": "3057",
+      "data-relevance": "156",
+      "data-term": "formulae",
+      "data-encoded-term": "formulae",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3057",
+        "ol",
+        "1"
+      ]
+    },
+    "aristocracy": {
+      "data-frequency": "10051",
+      "data-relevance": "155",
+      "data-term": "aristocracy",
+      "data-encoded-term": "aristocracy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10051",
+        "wiki",
+        "1"
+      ]
+    },
+    "invitation": {
+      "data-frequency": "38613",
+      "data-relevance": "154",
+      "data-term": "invitation",
+      "data-encoded-term": "invitation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38613",
+        "ol",
+        "1"
+      ]
+    },
+    "gross": {
+      "data-frequency": "61603",
+      "data-relevance": "153",
+      "data-term": "gross",
+      "data-encoded-term": "gross",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61603",
+        "ol",
+        "1"
+      ]
+    },
+    "income": {
+      "data-frequency": "130359",
+      "data-relevance": "152",
+      "data-term": "income",
+      "data-encoded-term": "income",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "130359",
+        "ol",
+        "1"
+      ]
+    },
+    "pesto": {
+      "data-frequency": "319",
+      "data-relevance": "151",
+      "data-term": "pesto",
+      "data-encoded-term": "pesto",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "319",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "receipt": {
+      "data-frequency": "7166",
+      "data-relevance": "150",
+      "data-term": "receipt",
+      "data-encoded-term": "receipt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7166",
+        "ol",
+        "1"
+      ]
+    },
+    "guarantor": {
+      "data-frequency": "875",
+      "data-relevance": "149",
+      "data-term": "guarantor",
+      "data-encoded-term": "guarantor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "875",
+        "ol",
+        "1"
+      ]
+    },
+    "ancient egypt": {
+      "data-frequency": "7889",
+      "data-relevance": "148",
+      "data-term": "ancient egypt",
+      "data-encoded-term": "ancient%20egypt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7889",
+        "wiki",
+        "1"
+      ]
+    },
+    "revenues": {
+      "data-frequency": "18716",
+      "data-relevance": "147",
+      "data-term": "revenues",
+      "data-encoded-term": "revenues",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18716",
+        "ol",
+        "1"
+      ]
+    },
+    "revenue": {
+      "data-frequency": "82292",
+      "data-relevance": "146",
+      "data-term": "revenue",
+      "data-encoded-term": "revenue",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82292",
+        "ol",
+        "1"
+      ]
+    },
+    "flat": {
+      "data-frequency": "121170",
+      "data-relevance": "145",
+      "data-term": "flat",
+      "data-encoded-term": "flat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "121170",
+        "ol",
+        "1"
+      ]
+    },
+    "acceptance": {
+      "data-frequency": "33727",
+      "data-relevance": "144",
+      "data-term": "acceptance",
+      "data-encoded-term": "acceptance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33727",
+        "ol",
+        "1"
+      ]
+    },
+    "mirepoix": {
+      "data-frequency": "1576",
+      "data-relevance": "143",
+      "data-term": "mirepoix",
+      "data-encoded-term": "mirepoix",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1576",
+        "ol",
+        "1"
+      ]
+    },
+    "cacciatore": {
+      "data-frequency": "462",
+      "data-relevance": "142",
+      "data-term": "cacciatore",
+      "data-encoded-term": "cacciatore",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "462",
+        "ol",
+        "1"
+      ]
+    },
+    "parfait": {
+      "data-frequency": "852",
+      "data-relevance": "141",
+      "data-term": "parfait",
+      "data-encoded-term": "parfait",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "852",
+        "ol",
+        "1"
+      ]
+    },
+    "gratin": {
+      "data-frequency": "156",
+      "data-relevance": "140",
+      "data-term": "gratin",
+      "data-encoded-term": "gratin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "156",
+        "ol",
+        "1"
+      ]
+    },
+    "basil": {
+      "data-frequency": "23381",
+      "data-relevance": "139",
+      "data-term": "basil",
+      "data-encoded-term": "basil",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23381",
+        "swiki",
+        "1"
+      ]
+    },
+    "parsley": {
+      "data-frequency": "2804",
+      "data-relevance": "138",
+      "data-term": "parsley",
+      "data-encoded-term": "parsley",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2804",
+        "swiki",
+        "1"
+      ]
+    },
+    "over-the-counter": {
+      "data-frequency": "2366",
+      "data-relevance": "137",
+      "data-term": "over-the-counter",
+      "data-encoded-term": "over-the-counter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2366",
+        "ol",
+        "1"
+      ]
+    },
+    "ancient greece": {
+      "data-frequency": "8202",
+      "data-relevance": "136",
+      "data-term": "ancient greece",
+      "data-encoded-term": "ancient%20greece",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8202",
+        "swiki",
+        "1"
+      ]
+    },
+    "potpie": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "potpie",
+      "data-encoded-term": "potpie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "flourless": {
+      "data-frequency": "224",
+      "data-relevance": "134",
+      "data-term": "flourless",
+      "data-encoded-term": "flourless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "224",
+        "ol",
+        "1"
+      ]
+    },
+    "syllabub": {
+      "data-frequency": "182",
+      "data-relevance": "133",
+      "data-term": "syllabub",
+      "data-encoded-term": "syllabub",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "182",
+        "ol",
+        "1"
+      ]
+    },
+    "coffeecake": {
+      "data-frequency": "-1",
+      "data-relevance": "132",
+      "data-term": "coffeecake",
+      "data-encoded-term": "coffeecake",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ratatouille": {
+      "data-frequency": "648",
+      "data-relevance": "131",
+      "data-term": "ratatouille",
+      "data-encoded-term": "ratatouille",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "648",
+        "ol",
+        "1"
+      ]
+    },
+    "minestrone": {
+      "data-frequency": "117",
+      "data-relevance": "130",
+      "data-term": "minestrone",
+      "data-encoded-term": "minestrone",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "117",
+        "ol",
+        "1"
+      ]
+    },
+    "frittata": {
+      "data-frequency": "77",
+      "data-relevance": "129",
+      "data-term": "frittata",
+      "data-encoded-term": "frittata",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77",
+        "ol",
+        "1"
+      ]
+    },
+    "torte": {
+      "data-frequency": "591",
+      "data-relevance": "128",
+      "data-term": "torte",
+      "data-encoded-term": "torte",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "591",
+        "ol",
+        "1"
+      ]
+    },
+    "piecrust": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "piecrust",
+      "data-encoded-term": "piecrust",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "carbonara": {
+      "data-frequency": "488",
+      "data-relevance": "126",
+      "data-term": "carbonara",
+      "data-encoded-term": "carbonara",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "488",
+        "ol",
+        "1"
+      ]
+    },
+    "sunchoke": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "sunchoke",
+      "data-encoded-term": "sunchoke",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "stroganoff": {
+      "data-frequency": "107",
+      "data-relevance": "124",
+      "data-term": "stroganoff",
+      "data-encoded-term": "stroganoff",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "107",
+        "ol",
+        "1"
+      ]
+    },
+    "de agri cultura": {
+      "data-frequency": "62",
+      "data-relevance": "123",
+      "data-term": "de agri cultura",
+      "data-encoded-term": "de%20agri%20cultura",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "wiki",
+        "1"
+      ]
+    },
+    "mulligatawny": {
+      "data-frequency": "195",
+      "data-relevance": "122",
+      "data-term": "mulligatawny",
+      "data-encoded-term": "mulligatawny",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "195",
+        "ol",
+        "1"
+      ]
+    },
+    "nimmatnama-i-nasiruddin-shahi": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "nimmatnama-i-nasiruddin-shahi",
+      "data-encoded-term": "nimmatnama-i-nasiruddin-shahi",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "ancient rome": {
+      "data-frequency": "9083",
+      "data-relevance": "120",
+      "data-term": "ancient rome",
+      "data-encoded-term": "ancient%20rome",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9083",
+        "swiki",
+        "1"
+      ]
+    },
+    "kheer": {
+      "data-frequency": "403",
+      "data-relevance": "119",
+      "data-term": "kheer",
+      "data-encoded-term": "kheer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "403",
+        "wiki",
+        "1"
+      ]
+    },
+    "ibn sayyar al-warraq": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "ibn sayyar al-warraq",
+      "data-encoded-term": "ibn%20sayyar%20al-warraq",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "ancient greek language": {
+      "data-frequency": "274",
+      "data-relevance": "117",
+      "data-term": "ancient greek language",
+      "data-encoded-term": "ancient%20greek%20language",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "274",
+        "swiki",
+        "1"
+      ]
+    },
+    "muhammad bin hasan al-baghdadi": {
+      "data-frequency": "167",
+      "data-relevance": "116",
+      "data-term": "muhammad bin hasan al-baghdadi",
+      "data-encoded-term": "muhammad%20bin%20hasan%20al-baghdadi",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "167",
+        "wiki",
+        "1"
+      ]
+    },
+    "samosa": {
+      "data-frequency": "1177",
+      "data-relevance": "115",
+      "data-term": "samosa",
+      "data-encoded-term": "samosa",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1177",
+        "wiki",
+        "1"
+      ]
+    },
+    "persian cuisine": {
+      "data-frequency": "2840",
+      "data-relevance": "114",
+      "data-term": "persian cuisine",
+      "data-encoded-term": "persian%20cuisine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2840",
+        "wiki",
+        "1"
+      ]
+    },
+    "qajar era": {
+      "data-frequency": "975",
+      "data-relevance": "113",
+      "data-term": "qajar era",
+      "data-encoded-term": "qajar%20era",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "975",
+        "wiki",
+        "1"
+      ]
+    },
+    "family": {
+      "data-frequency": "1345263",
+      "data-relevance": "112",
+      "data-term": "family",
+      "data-encoded-term": "family",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1345263",
+        "swiki",
+        "1"
+      ]
+    },
+    "english cuisine": {
+      "data-frequency": "14346",
+      "data-relevance": "111",
+      "data-term": "english cuisine",
+      "data-encoded-term": "english%20cuisine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "14346",
+        "wiki",
+        "1"
+      ]
+    },
+    "forme of cury": {
+      "data-frequency": "200",
+      "data-relevance": "110",
+      "data-term": "forme of cury",
+      "data-encoded-term": "forme%20of%20cury",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "200",
+        "wiki",
+        "1"
+      ]
+    },
+    "poison": {
+      "data-frequency": "24305",
+      "data-relevance": "109",
+      "data-term": "poison",
+      "data-encoded-term": "poison",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "24305",
+        "wiki",
+        "1"
+      ]
+    },
+    "pecan pie": {
+      "data-frequency": "414",
+      "data-relevance": "108",
+      "data-term": "pecan pie",
+      "data-encoded-term": "pecan%20pie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "414",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "pasta sauce": {
+      "data-frequency": "94",
+      "data-relevance": "107",
+      "data-term": "pasta sauce",
+      "data-encoded-term": "pasta%20sauce",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "94",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "pie crust": {
+      "data-frequency": "124",
+      "data-relevance": "106",
+      "data-term": "pie crust",
+      "data-encoded-term": "pie%20crust",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "124",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "nigella lawson": {
+      "data-frequency": "222",
+      "data-relevance": "105",
+      "data-term": "nigella lawson",
+      "data-encoded-term": "nigella%20lawson",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "222",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "jamie oliver": {
+      "data-frequency": "7478",
+      "data-relevance": "104",
+      "data-term": "jamie oliver",
+      "data-encoded-term": "jamie%20oliver",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "7478",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "early modern period": {
+      "data-frequency": "3120",
+      "data-relevance": "103",
+      "data-term": "early modern period",
+      "data-encoded-term": "early%20modern%20period",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3120",
+        "wiki",
+        "1"
+      ]
+    },
+    "rachael ray": {
+      "data-frequency": "2019",
+      "data-relevance": "102",
+      "data-term": "rachael ray",
+      "data-encoded-term": "rachael%20ray",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2019",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "banana bread": {
+      "data-frequency": "249",
+      "data-relevance": "101",
+      "data-term": "banana bread",
+      "data-encoded-term": "banana%20bread",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "249",
+        "ol",
+        "1"
+      ]
+    },
+    "icebox cake": {
+      "data-frequency": "-1",
+      "data-relevance": "100",
+      "data-term": "icebox cake",
+      "data-encoded-term": "icebox%20cake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "lemon meringue pie": {
+      "data-frequency": "81",
+      "data-relevance": "99",
+      "data-term": "lemon meringue pie",
+      "data-encoded-term": "lemon%20meringue%20pie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "81",
+        "ol",
+        "1"
+      ]
+    },
+    "cake mix": {
+      "data-frequency": "118",
+      "data-relevance": "98",
+      "data-term": "cake mix",
+      "data-encoded-term": "cake%20mix",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "118",
+        "ol",
+        "1"
+      ]
+    },
+    "irish soda bread": {
+      "data-frequency": "-1",
+      "data-relevance": "97",
+      "data-term": "irish soda bread",
+      "data-encoded-term": "irish%20soda%20bread",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "meat loaf": {
+      "data-frequency": "1159",
+      "data-relevance": "96",
+      "data-term": "meat loaf",
+      "data-encoded-term": "meat%20loaf",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1159",
+        "ol",
+        "1"
+      ]
+    },
+    "chicken casserole": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "chicken casserole",
+      "data-encoded-term": "chicken%20casserole",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "rhubarb pie": {
+      "data-frequency": "56",
+      "data-relevance": "94",
+      "data-term": "rhubarb pie",
+      "data-encoded-term": "rhubarb%20pie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "beef bourguignon": {
+      "data-frequency": "206",
+      "data-relevance": "93",
+      "data-term": "beef bourguignon",
+      "data-encoded-term": "beef%20bourguignon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "206",
+        "ol",
+        "1"
+      ]
+    },
+    "applesauce cake": {
+      "data-frequency": "-1",
+      "data-relevance": "92",
+      "data-term": "applesauce cake",
+      "data-encoded-term": "applesauce%20cake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "shortbread cookie": {
+      "data-frequency": "-1",
+      "data-relevance": "91",
+      "data-term": "shortbread cookie",
+      "data-encoded-term": "shortbread%20cookie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "deviled egg": {
+      "data-frequency": "-1",
+      "data-relevance": "90",
+      "data-term": "deviled egg",
+      "data-encoded-term": "deviled%20egg",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "tamale pie": {
+      "data-frequency": "-1",
+      "data-relevance": "89",
+      "data-term": "tamale pie",
+      "data-encoded-term": "tamale%20pie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "corn chowder": {
+      "data-frequency": "190",
+      "data-relevance": "88",
+      "data-term": "corn chowder",
+      "data-encoded-term": "corn%20chowder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "190",
+        "ol",
+        "1"
+      ]
+    },
+    "crock pot": {
+      "data-frequency": "44",
+      "data-relevance": "87",
+      "data-term": "crock pot",
+      "data-encoded-term": "crock%20pot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "brownie mix": {
+      "data-frequency": "-1",
+      "data-relevance": "86",
+      "data-term": "brownie mix",
+      "data-encoded-term": "brownie%20mix",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "oyster stew": {
+      "data-frequency": "197",
+      "data-relevance": "85",
+      "data-term": "oyster stew",
+      "data-encoded-term": "oyster%20stew",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "197",
+        "ol",
+        "1"
+      ]
+    },
+    "coconut cake": {
+      "data-frequency": "229",
+      "data-relevance": "84",
+      "data-term": "coconut cake",
+      "data-encoded-term": "coconut%20cake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "229",
+        "ol",
+        "1"
+      ]
+    },
+    "hollandaise sauce": {
+      "data-frequency": "68",
+      "data-relevance": "83",
+      "data-term": "hollandaise sauce",
+      "data-encoded-term": "hollandaise%20sauce",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "68",
+        "ol",
+        "1"
+      ]
+    },
+    "chiffon cake": {
+      "data-frequency": "217",
+      "data-relevance": "82",
+      "data-term": "chiffon cake",
+      "data-encoded-term": "chiffon%20cake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "217",
+        "ol",
+        "1"
+      ]
+    },
+    "spaghetti squash": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "spaghetti squash",
+      "data-encoded-term": "spaghetti%20squash",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "molasses cookie": {
+      "data-frequency": "-1",
+      "data-relevance": "80",
+      "data-term": "molasses cookie",
+      "data-encoded-term": "molasses%20cookie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pimento cheese": {
+      "data-frequency": "81",
+      "data-relevance": "79",
+      "data-term": "pimento cheese",
+      "data-encoded-term": "pimento%20cheese",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "81",
+        "ol",
+        "1"
+      ]
+    },
+    "chili con carne": {
+      "data-frequency": "112",
+      "data-relevance": "78",
+      "data-term": "chili con carne",
+      "data-encoded-term": "chili%20con%20carne",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "112",
+        "ol",
+        "1"
+      ]
+    },
+    "remoulade sauce": {
+      "data-frequency": "-1",
+      "data-relevance": "77",
+      "data-term": "remoulade sauce",
+      "data-encoded-term": "remoulade%20sauce",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "lemon curd": {
+      "data-frequency": "71",
+      "data-relevance": "76",
+      "data-term": "lemon curd",
+      "data-encoded-term": "lemon%20curd",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "corn bread": {
+      "data-frequency": "136",
+      "data-relevance": "75",
+      "data-term": "corn bread",
+      "data-encoded-term": "corn%20bread",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "136",
+        "ol",
+        "1"
+      ]
+    },
+    "chicken paprikash": {
+      "data-frequency": "137",
+      "data-relevance": "74",
+      "data-term": "chicken paprikash",
+      "data-encoded-term": "chicken%20paprikash",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "137",
+        "ol",
+        "1"
+      ]
+    },
+    "waldorf salad": {
+      "data-frequency": "47",
+      "data-relevance": "73",
+      "data-term": "waldorf salad",
+      "data-encoded-term": "waldorf%20salad",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "boeuf bourguignon": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "boeuf bourguignon",
+      "data-encoded-term": "boeuf%20bourguignon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "coconut macaroon": {
+      "data-frequency": "346",
+      "data-relevance": "71",
+      "data-term": "coconut macaroon",
+      "data-encoded-term": "coconut%20macaroon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "346",
+        "ol",
+        "1"
+      ]
+    },
+    "orange marmalade": {
+      "data-frequency": "85",
+      "data-relevance": "70",
+      "data-term": "orange marmalade",
+      "data-encoded-term": "orange%20marmalade",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "85",
+        "ol",
+        "1"
+      ]
+    },
+    "oatmeal cookie": {
+      "data-frequency": "-1",
+      "data-relevance": "69",
+      "data-term": "oatmeal cookie",
+      "data-encoded-term": "oatmeal%20cookie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "crumb cake": {
+      "data-frequency": "195",
+      "data-relevance": "68",
+      "data-term": "crumb cake",
+      "data-encoded-term": "crumb%20cake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "195",
+        "ol",
+        "1"
+      ]
+    },
+    "beef stroganoff": {
+      "data-frequency": "47",
+      "data-relevance": "67",
+      "data-term": "beef stroganoff",
+      "data-encoded-term": "beef%20stroganoff",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "pickle relish": {
+      "data-frequency": "45",
+      "data-relevance": "66",
+      "data-term": "pickle relish",
+      "data-encoded-term": "pickle%20relish",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "idea": {
+      "data-frequency": "165103",
+      "data-relevance": "65",
+      "data-term": "idea",
+      "data-encoded-term": "idea",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "165103",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "apple": {
+      "data-frequency": "66648",
+      "data-relevance": "64",
+      "data-term": "apple",
+      "data-encoded-term": "apple",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "66648",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ammo": {
+      "data-frequency": "3060",
+      "data-relevance": "63",
+      "data-term": "ammo",
+      "data-encoded-term": "ammo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3060",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "guide": {
+      "data-frequency": "439395",
+      "data-relevance": "62",
+      "data-term": "guide",
+      "data-encoded-term": "guide",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "439395",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "version": {
+      "data-frequency": "442586",
+      "data-relevance": "61",
+      "data-term": "version",
+      "data-encoded-term": "version",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "442586",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "but": {
+      "data-frequency": "1990827",
+      "data-relevance": "60",
+      "data-term": "but",
+      "data-encoded-term": "but",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1990827",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "drunk": {
+      "data-frequency": "22652",
+      "data-relevance": "59",
+      "data-term": "drunk",
+      "data-encoded-term": "drunk",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "22652",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "interface": {
+      "data-frequency": "32912",
+      "data-relevance": "58",
+      "data-term": "interface",
+      "data-encoded-term": "interface",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "32912",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "name": {
+      "data-frequency": "1916283",
+      "data-relevance": "57",
+      "data-term": "name",
+      "data-encoded-term": "name",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1916283",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "something": {
+      "data-frequency": "165656",
+      "data-relevance": "56",
+      "data-term": "something",
+      "data-encoded-term": "something",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "165656",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "order": {
+      "data-frequency": "1056739",
+      "data-relevance": "55",
+      "data-term": "order",
+      "data-encoded-term": "order",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1056739",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "design": {
+      "data-frequency": "345007",
+      "data-relevance": "54",
+      "data-term": "design",
+      "data-encoded-term": "design",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "345007",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bottles": {
+      "data-frequency": "12387",
+      "data-relevance": "53",
+      "data-term": "bottles",
+      "data-encoded-term": "bottles",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "12387",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "clothing": {
+      "data-frequency": "53564",
+      "data-relevance": "52",
+      "data-term": "clothing",
+      "data-encoded-term": "clothing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "53564",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "price": {
+      "data-frequency": "162428",
+      "data-relevance": "51",
+      "data-term": "price",
+      "data-encoded-term": "price",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "162428",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "culture": {
+      "data-frequency": "450870",
+      "data-relevance": "50",
+      "data-term": "culture",
+      "data-encoded-term": "culture",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "450870",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "remember": {
+      "data-frequency": "59398",
+      "data-relevance": "49",
+      "data-term": "remember",
+      "data-encoded-term": "remember",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "59398",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "usage": {
+      "data-frequency": "65694",
+      "data-relevance": "48",
+      "data-term": "usage",
+      "data-encoded-term": "usage",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "65694",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bowl": {
+      "data-frequency": "73183",
+      "data-relevance": "47",
+      "data-term": "bowl",
+      "data-encoded-term": "bowl",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "73183",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "introductions": {
+      "data-frequency": "192289",
+      "data-relevance": "46",
+      "data-term": "introductions",
+      "data-encoded-term": "introductions",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "192289",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bill": {
+      "data-frequency": "382270",
+      "data-relevance": "45",
+      "data-term": "bill",
+      "data-encoded-term": "bill",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "382270",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "border": {
+      "data-frequency": "165877",
+      "data-relevance": "44",
+      "data-term": "border",
+      "data-encoded-term": "border",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "165877",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "approach": {
+      "data-frequency": "151971",
+      "data-relevance": "43",
+      "data-term": "approach",
+      "data-encoded-term": "approach",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "151971",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "fish": {
+      "data-frequency": "130745",
+      "data-relevance": "42",
+      "data-term": "fish",
+      "data-encoded-term": "fish",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "130745",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "buying": {
+      "data-frequency": "31117",
+      "data-relevance": "41",
+      "data-term": "buying",
+      "data-encoded-term": "buying",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "31117",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "link": {
+      "data-frequency": "1755537",
+      "data-relevance": "40",
+      "data-term": "link",
+      "data-encoded-term": "link",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1755537",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "not": {
+      "data-frequency": "1982633",
+      "data-relevance": "39",
+      "data-term": "not",
+      "data-encoded-term": "not",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1982633",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "supplies": {
+      "data-frequency": "52570",
+      "data-relevance": "38",
+      "data-term": "supplies",
+      "data-encoded-term": "supplies",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "52570",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "demo": {
+      "data-frequency": "33459",
+      "data-relevance": "37",
+      "data-term": "demo",
+      "data-encoded-term": "demo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "33459",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "code": {
+      "data-frequency": "417849",
+      "data-relevance": "36",
+      "data-term": "code",
+      "data-encoded-term": "code",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "417849",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "perk": {
+      "data-frequency": "830",
+      "data-relevance": "35",
+      "data-term": "perk",
+      "data-encoded-term": "perk",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "830",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "available": {
+      "data-frequency": "380491",
+      "data-relevance": "34",
+      "data-term": "available",
+      "data-encoded-term": "available",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "380491",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "american": {
+      "data-frequency": "1754017",
+      "data-relevance": "33",
+      "data-term": "american",
+      "data-encoded-term": "american",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1754017",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "list": {
+      "data-frequency": "1538990",
+      "data-relevance": "32",
+      "data-term": "list",
+      "data-encoded-term": "list",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1538990",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "chef": {
+      "data-frequency": "26919",
+      "data-relevance": "31",
+      "data-term": "chef",
+      "data-encoded-term": "chef",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "26919",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "medieval india": {
+      "data-frequency": "1509",
+      "data-relevance": "30",
+      "data-term": "medieval india",
+      "data-encoded-term": "medieval%20india",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1509",
+        "wiki",
+        "1"
+      ]
+    },
+    "printing press": {
+      "data-frequency": "4569",
+      "data-relevance": "29",
+      "data-term": "printing press",
+      "data-encoded-term": "printing%20press",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "4569",
+        "wiki",
+        "1"
+      ]
+    },
+    "bartender": {
+      "data-frequency": "6628",
+      "data-relevance": "28",
+      "data-term": "bartender",
+      "data-encoded-term": "bartender",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6628",
+        "wiki",
+        "1"
+      ]
+    },
+    "isabella beeton": {
+      "data-frequency": "260",
+      "data-relevance": "27",
+      "data-term": "isabella beeton",
+      "data-encoded-term": "isabella%20beeton",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "260",
+        "wiki",
+        "1"
+      ]
+    },
+    "carême": {
+      "data-frequency": "307",
+      "data-relevance": "26",
+      "data-term": "carême",
+      "data-encoded-term": "car%C3%AAme",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "307",
+        "swiki",
+        "1"
+      ]
+    },
+    "eliza acton": {
+      "data-frequency": "307",
+      "data-relevance": "25",
+      "data-term": "eliza acton",
+      "data-encoded-term": "eliza%20acton",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "307",
+        "wiki",
+        "1"
+      ]
+    },
+    "ceefax": {
+      "data-frequency": "222",
+      "data-relevance": "24",
+      "data-term": "ceefax",
+      "data-encoded-term": "ceefax",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "222",
+        "wiki",
+        "1"
+      ]
+    },
+    "brussels sprouts": {
+      "data-frequency": "243",
+      "data-relevance": "23",
+      "data-term": "brussels sprouts",
+      "data-encoded-term": "brussels%20sprouts",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "243",
+        "wiki",
+        "1"
+      ]
+    },
+    "escoffier": {
+      "data-frequency": "493",
+      "data-relevance": "22",
+      "data-term": "escoffier",
+      "data-encoded-term": "escoffier",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "493",
+        "swiki",
+        "1"
+      ]
+    },
+    "transmog": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "transmog",
+      "data-encoded-term": "transmog",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "pokedex": {
+      "data-frequency": "138",
+      "data-relevance": "20",
+      "data-term": "pokedex",
+      "data-encoded-term": "pokedex",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "138",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "foodie": {
+      "data-frequency": "740",
+      "data-relevance": "19",
+      "data-term": "foodie",
+      "data-encoded-term": "foodie",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "740",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "delia smith": {
+      "data-frequency": "1447",
+      "data-relevance": "18",
+      "data-term": "delia smith",
+      "data-encoded-term": "delia%20smith",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1447",
+        "wiki",
+        "1"
+      ]
+    },
+    "victorian era": {
+      "data-frequency": "7065",
+      "data-relevance": "17",
+      "data-term": "victorian era",
+      "data-encoded-term": "victorian%20era",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "7065",
+        "wiki",
+        "1"
+      ]
+    },
+    "mrs beeton's book of household management": {
+      "data-frequency": "253",
+      "data-relevance": "16",
+      "data-term": "mrs beeton's book of household management",
+      "data-encoded-term": "mrs%20beeton's%20book%20of%20household%20management",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "253",
+        "wiki",
+        "1"
+      ]
+    },
+    "animal husbandry": {
+      "data-frequency": "4695",
+      "data-relevance": "15",
+      "data-term": "animal husbandry",
+      "data-encoded-term": "animal%20husbandry",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "4695",
+        "wiki",
+        "1"
+      ]
+    },
+    "child care": {
+      "data-frequency": "3591",
+      "data-relevance": "14",
+      "data-term": "child care",
+      "data-encoded-term": "child%20care",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "3591",
+        "wiki",
+        "1"
+      ]
+    },
+    "domestic worker": {
+      "data-frequency": "16670",
+      "data-relevance": "13",
+      "data-term": "domestic worker",
+      "data-encoded-term": "domestic%20worker",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "16670",
+        "wiki",
+        "1"
+      ]
+    },
+    "haute cuisine": {
+      "data-frequency": "336",
+      "data-relevance": "12",
+      "data-term": "haute cuisine",
+      "data-encoded-term": "haute%20cuisine",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "336",
+        "swiki",
+        "1"
+      ]
+    },
+    "fannie farmer": {
+      "data-frequency": "797",
+      "data-relevance": "11",
+      "data-term": "fannie farmer",
+      "data-encoded-term": "fannie%20farmer",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "797",
+        "wiki",
+        "1"
+      ]
+    },
+    "la varenne": {
+      "data-frequency": "9107",
+      "data-relevance": "10",
+      "data-term": "la varenne",
+      "data-encoded-term": "la%20varenne",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "9107",
+        "swiki",
+        "1"
+      ]
+    },
+    "usenet newsgroup": {
+      "data-frequency": "774",
+      "data-relevance": "9",
+      "data-term": "usenet newsgroup",
+      "data-encoded-term": "usenet%20newsgroup",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "774",
+        "wiki",
+        "1"
+      ]
+    },
+    "fanny cradock": {
+      "data-frequency": "70",
+      "data-relevance": "8",
+      "data-term": "fanny cradock",
+      "data-encoded-term": "fanny%20cradock",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "70",
+        "wiki",
+        "1"
+      ]
+    },
+    "food network": {
+      "data-frequency": "2772",
+      "data-relevance": "7",
+      "data-term": "food network",
+      "data-encoded-term": "food%20network",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "2772",
+        "wiki",
+        "1"
+      ]
+    },
+    "late-2000s recession": {
+      "data-frequency": "571",
+      "data-relevance": "6",
+      "data-term": "late-2000s recession",
+      "data-encoded-term": "late-2000s%20recession",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "571",
+        "wiki",
+        "1"
+      ]
+    },
+    "top chef": {
+      "data-frequency": "9528",
+      "data-relevance": "5",
+      "data-term": "top chef",
+      "data-encoded-term": "top%20chef",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "9528",
+        "wiki",
+        "1"
+      ]
+    },
+    "gordon ramsay": {
+      "data-frequency": "3130",
+      "data-relevance": "4",
+      "data-term": "gordon ramsay",
+      "data-encoded-term": "gordon%20ramsay",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3130",
+        "wiki",
+        "1"
+      ]
+    },
+    "molecular gastronomy": {
+      "data-frequency": "166",
+      "data-relevance": "3",
+      "data-term": "molecular gastronomy",
+      "data-encoded-term": "molecular%20gastronomy",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "166",
+        "wiki",
+        "1"
+      ]
+    },
+    "iron chef": {
+      "data-frequency": "2267",
+      "data-relevance": "2",
+      "data-term": "iron chef",
+      "data-encoded-term": "iron%20chef",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "2267",
+        "wiki",
+        "1"
+      ]
+    },
+    "julia child": {
+      "data-frequency": "11730",
+      "data-relevance": "1",
+      "data-term": "julia child",
+      "data-encoded-term": "julia%20child",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "11730",
+        "swiki",
+        "1"
+      ]
+    },
+    "isabella mary beeton": {
+      "data-frequency": "216",
+      "data-relevance": "0",
+      "data-term": "isabella mary beeton",
+      "data-encoded-term": "isabella%20mary%20beeton",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "216",
+        "swiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "recipe"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "Recipes of all kinds to fit any taste.",
+        "ru": "Самые разнообразные рецепты на любой вкус."
+      },
+      {
+        "en": "We were looking for this book of recipes.",
+        "ru": "Мы искали именно эту кулинарную книгу."
+      },
+      {
+        "en": "This is one of my grandmother's recipes.",
+        "ru": "Это один из бабушкиных рецептов."
+      },
+      {
+        "en": "All the recipes in the book are illustrated in full colour.",
+        "ru": "Все рецепты в книге снабжены полноцветными иллюстрациями."
+      },
+      {
+        "en": "The book contains over 200 recipes.",
+        "ru": "Книга содержит более двухсот рецептов."
+      },
+      {
+        "en": "These simple recipes put more fun into eating.",
+        "ru": "Эти простые рецепты сделают пищу более вкусной и разнообразной."
+      },
+      {
+        "en": "Her fabulous recipes will delight anyone who loves chocolate.",
+        "ru": "Ее изумительные рецепты порадуют тех, кто любит шоколад."
+      },
+      {
+        "en": "...recipes for a zingy meal that is sure to wow your guests...",
+        "ru": "...рецепт потрясного блюда, которое точно поразит ваших гостей"
+      },
+      {
+        "en": "We organized all the recipes under different subject headings.",
+        "ru": "Мы рассортировали все рецепты по разным предметным рубрикам."
+      },
+      {
+        "en": "After 25 years of collecting recipes, she has compiled them into a cookbook.",
+        "ru": "После двадцати пяти лет коллекционирования рецептов, она собрала их в кулинарной книге."
+      },
+      {
+        "en": "Substitution of applesauce for oil is one way of reducing the fat in recipes.",
+        "ru": "Одним из способов уменьшения количества жира в рецептах является замена растительного масла яблочным пюре."
+      },
+      {
+        "en": "That is what this book is, a collection of successful and time-tested recipes to rid our lives of worry.",
+        "ru": "Именно это и представляет собой данная книга: сборник успешных и проверенных временем способов избавить свою жизнь от беспокойства."
+      },
+      {
+        "en": "Between the recipes for hearty peasant dishes, the author intercalates fond reminiscences of her year in the French countryside.",
+        "ru": "Рецепты сытных крестьянских блюд автор перемежает тёплыми воспоминаниями о годе, проведённом ею во французской деревне."
+      }
+    ]
+  },
+  "important_word": {
+    "word_forms": [
+      "recipe"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "recipe"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "cooking",
+      "foodoir",
+      "dish",
+      "food",
+      "recipe",
+      "ingredients",
+      "cookbook",
+      "foods",
+      "baking",
+      "plans",
+      "menu",
+      "meals"
+    ]
+  }
+}

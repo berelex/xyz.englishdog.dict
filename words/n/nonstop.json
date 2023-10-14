@@ -1,0 +1,5546 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "flight": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonstop/n/,/c/en/flight/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonstop/n",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonstop"
+        },
+        "end": {
+          "@id": "/c/en/flight",
+          "@type": "Node",
+          "label": "flight",
+          "language": "en",
+          "term": "/c/en/flight"
+        }
+      },
+      "stop": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonstop/a/,/c/en/stop/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonstop/a",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nonstop"
+        },
+        "end": {
+          "@id": "/c/en/stop",
+          "@type": "Node",
+          "label": "stop",
+          "language": "en",
+          "term": "/c/en/stop"
+        }
+      },
+      "interruption": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonstop/a/,/c/en/interruption/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonstop/a",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nonstop"
+        },
+        "end": {
+          "@id": "/c/en/interruption",
+          "@type": "Node",
+          "label": "interruption",
+          "language": "en",
+          "term": "/c/en/interruption"
+        }
+      },
+      "break": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonstop/a/,/c/en/break/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonstop/a",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nonstop"
+        },
+        "end": {
+          "@id": "/c/en/break",
+          "@type": "Node",
+          "label": "break",
+          "language": "en",
+          "term": "/c/en/break"
+        }
+      },
+      "nonstops": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonstops/n/,/c/en/nonstop/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonstops/n",
+          "@type": "Node",
+          "label": "nonstops",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonstops"
+        },
+        "end": {
+          "@id": "/c/en/nonstop",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "term": "/c/en/nonstop"
+        }
+      },
+      "round clock": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/round_clock/a/,/c/en/nonstop/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/round_clock/a",
+          "@type": "Node",
+          "label": "round clock",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/round_clock"
+        },
+        "end": {
+          "@id": "/c/en/nonstop",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "term": "/c/en/nonstop"
+        }
+      },
+      "direct": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/direct/,/c/en/nonstop/]",
+        "weight": 0.35299999999999976,
+        "start": {
+          "@id": "/c/en/direct",
+          "@type": "Node",
+          "label": "direct",
+          "language": "en",
+          "term": "/c/en/direct"
+        },
+        "end": {
+          "@id": "/c/en/nonstop",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "term": "/c/en/nonstop"
+        }
+      },
+      "express": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/express/,/c/en/nonstop/]",
+        "weight": 0.17200000000000015,
+        "start": {
+          "@id": "/c/en/express",
+          "@type": "Node",
+          "label": "express",
+          "language": "en",
+          "term": "/c/en/express"
+        },
+        "end": {
+          "@id": "/c/en/nonstop",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "term": "/c/en/nonstop"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "around-the-clock": {
+        "@id": "/a/[/r/Synonym/,/c/en/nonstop/a/wn/,/c/en/around_clock/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nonstop/a/wn",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nonstop"
+        },
+        "end": {
+          "@id": "/c/en/around_clock/a/wn",
+          "@type": "Node",
+          "label": "around-the-clock",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/around_clock"
+        }
+      },
+      "nonstop flight": {
+        "@id": "/a/[/r/Synonym/,/c/en/nonstop/n/wn/act/,/c/en/nonstop_flight/n/wn/act/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nonstop/n/wn/act",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/nonstop"
+        },
+        "end": {
+          "@id": "/c/en/nonstop_flight/n/wn/act",
+          "@type": "Node",
+          "label": "nonstop flight",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/nonstop_flight"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {
+      "direct": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/direct/a/wn/,/c/en/nonstop/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/direct/a/wn",
+          "@type": "Node",
+          "label": "direct",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/direct"
+        },
+        "end": {
+          "@id": "/c/en/nonstop/a/wn",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nonstop"
+        }
+      }
+    },
+    "word_forms": {
+      "nonstops": {
+        "@id": "/a/[/r/FormOf/,/c/en/nonstops/n/,/c/en/nonstop/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonstops/n",
+          "@type": "Node",
+          "label": "nonstops",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonstops"
+        },
+        "end": {
+          "@id": "/c/en/nonstop",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "term": "/c/en/nonstop"
+        }
+      },
+      "non stop": {
+        "@id": "/a/[/r/FormOf/,/c/en/non_stop/a/,/c/en/nonstop/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/non_stop/a",
+          "@type": "Node",
+          "label": "non stop",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/non_stop"
+        },
+        "end": {
+          "@id": "/c/en/nonstop",
+          "@type": "Node",
+          "label": "nonstop",
+          "language": "en",
+          "term": "/c/en/nonstop"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "direct": {
+      "data-frequency": "218794",
+      "data-relevance": "372",
+      "data-term": "direct",
+      "data-encoded-term": "direct",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "218794",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "dolphin": {
+      "data-frequency": "15354",
+      "data-relevance": "371",
+      "data-term": "dolphin",
+      "data-encoded-term": "dolphin",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "15354",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "continuous": {
+      "data-frequency": "63162",
+      "data-relevance": "370",
+      "data-term": "continuous",
+      "data-encoded-term": "continuous",
+      "data-term-stats": [
+        "1",
+        "5.2",
+        "0.000",
+        "63162",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "uninterrupted": {
+      "data-frequency": "4403",
+      "data-relevance": "369",
+      "data-term": "uninterrupted",
+      "data-encoded-term": "uninterrupted",
+      "data-term-stats": [
+        "1",
+        "5.1",
+        "0.000",
+        "4403",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "round-the-clock": {
+      "data-frequency": "1253",
+      "data-relevance": "368",
+      "data-term": "round-the-clock",
+      "data-encoded-term": "round-the-clock",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1253",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "day-and-night": {
+      "data-frequency": "170752",
+      "data-relevance": "367",
+      "data-term": "day-and-night",
+      "data-encoded-term": "day-and-night",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "170752",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "around-the-clock": {
+      "data-frequency": "2677",
+      "data-relevance": "366",
+      "data-term": "around-the-clock",
+      "data-encoded-term": "around-the-clock",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "2677",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "nonstop flight": {
+      "data-frequency": "206",
+      "data-relevance": "365",
+      "data-term": "nonstop flight",
+      "data-encoded-term": "nonstop%20flight",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "206",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "flight": {
+      "data-frequency": "145431",
+      "data-relevance": "364",
+      "data-term": "flight",
+      "data-encoded-term": "flight",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "145431",
+        "w2v,wn",
+        "1"
+      ]
+    },
+    "interruption": {
+      "data-frequency": "6133",
+      "data-relevance": "363",
+      "data-term": "interruption",
+      "data-encoded-term": "interruption",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "6133",
+        "cn5,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "non-stop": {
+      "data-frequency": "73186",
+      "data-relevance": "362",
+      "data-term": "non-stop",
+      "data-encoded-term": "non-stop",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "73186",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "incessant": {
+      "data-frequency": "1888",
+      "data-relevance": "361",
+      "data-term": "incessant",
+      "data-encoded-term": "incessant",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1888",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "unceasing": {
+      "data-frequency": "513",
+      "data-relevance": "360",
+      "data-term": "unceasing",
+      "data-encoded-term": "unceasing",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "513",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "nightly": {
+      "data-frequency": "7738",
+      "data-relevance": "359",
+      "data-term": "nightly",
+      "data-encoded-term": "nightly",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "7738",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "flights": {
+      "data-frequency": "30710",
+      "data-relevance": "358",
+      "data-term": "flights",
+      "data-encoded-term": "flights",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "30710",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "takeoffs": {
+      "data-frequency": "640",
+      "data-relevance": "357",
+      "data-term": "takeoffs",
+      "data-encoded-term": "takeoffs",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "640",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "inflight": {
+      "data-frequency": "1074",
+      "data-relevance": "356",
+      "data-term": "inflight",
+      "data-encoded-term": "inflight",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "1074",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "stops": {
+      "data-frequency": "56608",
+      "data-relevance": "355",
+      "data-term": "stops",
+      "data-encoded-term": "stops",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "56608",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cruises": {
+      "data-frequency": "44718",
+      "data-relevance": "354",
+      "data-term": "cruises",
+      "data-encoded-term": "cruises",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "44718",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "whirlwind": {
+      "data-frequency": "5253",
+      "data-relevance": "353",
+      "data-term": "whirlwind",
+      "data-encoded-term": "whirlwind",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "5253",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "interrupting": {
+      "data-frequency": "2586",
+      "data-relevance": "352",
+      "data-term": "interrupting",
+      "data-encoded-term": "interrupting",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "2586",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "marathons": {
+      "data-frequency": "2813",
+      "data-relevance": "351",
+      "data-term": "marathons",
+      "data-encoded-term": "marathons",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "2813",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "nighttime": {
+      "data-frequency": "5905",
+      "data-relevance": "350",
+      "data-term": "nighttime",
+      "data-encoded-term": "nighttime",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "5905",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "dun": {
+      "data-frequency": "16384",
+      "data-relevance": "349",
+      "data-term": "dun",
+      "data-encoded-term": "dun",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "16384",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "fast": {
+      "data-frequency": "371897",
+      "data-relevance": "348",
+      "data-term": "fast",
+      "data-encoded-term": "fast",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "371897",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "roundtrip": {
+      "data-frequency": "380",
+      "data-relevance": "347",
+      "data-term": "roundtrip",
+      "data-encoded-term": "roundtrip",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "380",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "weekday": {
+      "data-frequency": "14944",
+      "data-relevance": "346",
+      "data-term": "weekday",
+      "data-encoded-term": "weekday",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "14944",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "halt": {
+      "data-frequency": "33324",
+      "data-relevance": "345",
+      "data-term": "halt",
+      "data-encoded-term": "halt",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "33324",
+        "cn5",
+        "1"
+      ]
+    },
+    "transpacific": {
+      "data-frequency": "479",
+      "data-relevance": "344",
+      "data-term": "transpacific",
+      "data-encoded-term": "transpacific",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "479",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "stoppage": {
+      "data-frequency": "5881",
+      "data-relevance": "343",
+      "data-term": "stoppage",
+      "data-encoded-term": "stoppage",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5881",
+        "cn5",
+        "1"
+      ]
+    },
+    "temporarily": {
+      "data-frequency": "48757",
+      "data-relevance": "342",
+      "data-term": "temporarily",
+      "data-encoded-term": "temporarily",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "48757",
+        "cn5",
+        "1"
+      ]
+    },
+    "interrupt": {
+      "data-frequency": "4557",
+      "data-relevance": "341",
+      "data-term": "interrupt",
+      "data-encoded-term": "interrupt",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4557",
+        "cn5",
+        "1"
+      ]
+    },
+    "discontinue": {
+      "data-frequency": "3890",
+      "data-relevance": "340",
+      "data-term": "discontinue",
+      "data-encoded-term": "discontinue",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3890",
+        "cn5",
+        "1"
+      ]
+    },
+    "constant": {
+      "data-frequency": "79958",
+      "data-relevance": "339",
+      "data-term": "constant",
+      "data-encoded-term": "constant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79958",
+        "ol",
+        "1"
+      ]
+    },
+    "cessation": {
+      "data-frequency": "6461",
+      "data-relevance": "338",
+      "data-term": "cessation",
+      "data-encoded-term": "cessation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6461",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "pause": {
+      "data-frequency": "7546",
+      "data-relevance": "337",
+      "data-term": "pause",
+      "data-encoded-term": "pause",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7546",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "cease": {
+      "data-frequency": "22313",
+      "data-relevance": "336",
+      "data-term": "cease",
+      "data-encoded-term": "cease",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "22313",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop": {
+      "data-frequency": "224337",
+      "data-relevance": "335",
+      "data-term": "stop",
+      "data-encoded-term": "stop",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "224337",
+        "cn5",
+        "1"
+      ]
+    },
+    "discontinuance": {
+      "data-frequency": "591",
+      "data-relevance": "334",
+      "data-term": "discontinuance",
+      "data-encoded-term": "discontinuance",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "591",
+        "cn5",
+        "1"
+      ]
+    },
+    "intermission": {
+      "data-frequency": "2410",
+      "data-relevance": "333",
+      "data-term": "intermission",
+      "data-encoded-term": "intermission",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2410",
+        "cn5",
+        "1"
+      ]
+    },
+    "blin": {
+      "data-frequency": "1384",
+      "data-relevance": "332",
+      "data-term": "blin",
+      "data-encoded-term": "blin",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1384",
+        "cn5",
+        "1"
+      ]
+    },
+    "intermit": {
+      "data-frequency": "-1",
+      "data-relevance": "331",
+      "data-term": "intermit",
+      "data-encoded-term": "intermit",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "arrester": {
+      "data-frequency": "187",
+      "data-relevance": "330",
+      "data-term": "arrester",
+      "data-encoded-term": "arrester",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "desist": {
+      "data-frequency": "2227",
+      "data-relevance": "329",
+      "data-term": "desist",
+      "data-encoded-term": "desist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2227",
+        "cn5",
+        "1"
+      ]
+    },
+    "plosive": {
+      "data-frequency": "2761",
+      "data-relevance": "328",
+      "data-term": "plosive",
+      "data-encoded-term": "plosive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2761",
+        "cn5",
+        "1"
+      ]
+    },
+    "sustained": {
+      "data-frequency": "39744",
+      "data-relevance": "327",
+      "data-term": "sustained",
+      "data-encoded-term": "sustained",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39744",
+        "ol",
+        "1"
+      ]
+    },
+    "delay": {
+      "data-frequency": "38355",
+      "data-relevance": "326",
+      "data-term": "delay",
+      "data-encoded-term": "delay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "38355",
+        "cn5",
+        "1"
+      ]
+    },
+    "incessantly": {
+      "data-frequency": "1110",
+      "data-relevance": "325",
+      "data-term": "incessantly",
+      "data-encoded-term": "incessantly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1110",
+        "cn5",
+        "1"
+      ]
+    },
+    "tarry": {
+      "data-frequency": "587",
+      "data-relevance": "324",
+      "data-term": "tarry",
+      "data-encoded-term": "tarry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "587",
+        "cn5",
+        "1"
+      ]
+    },
+    "stopover": {
+      "data-frequency": "2595",
+      "data-relevance": "323",
+      "data-term": "stopover",
+      "data-encoded-term": "stopover",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2595",
+        "cn5",
+        "1"
+      ]
+    },
+    "standstill": {
+      "data-frequency": "3052",
+      "data-relevance": "322",
+      "data-term": "standstill",
+      "data-encoded-term": "standstill",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3052",
+        "cn5",
+        "1"
+      ]
+    },
+    "stanch": {
+      "data-frequency": "106",
+      "data-relevance": "321",
+      "data-term": "stanch",
+      "data-encoded-term": "stanch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "106",
+        "cn5",
+        "1"
+      ]
+    },
+    "postponement": {
+      "data-frequency": "2583",
+      "data-relevance": "320",
+      "data-term": "postponement",
+      "data-encoded-term": "postponement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2583",
+        "cn5",
+        "1"
+      ]
+    },
+    "continual": {
+      "data-frequency": "6497",
+      "data-relevance": "319",
+      "data-term": "continual",
+      "data-encoded-term": "continual",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6497",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "stoppable": {
+      "data-frequency": "57",
+      "data-relevance": "318",
+      "data-term": "stoppable",
+      "data-encoded-term": "stoppable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "57",
+        "cn5",
+        "1"
+      ]
+    },
+    "stay": {
+      "data-frequency": "138060",
+      "data-relevance": "317",
+      "data-term": "stay",
+      "data-encoded-term": "stay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "138060",
+        "cn5",
+        "1"
+      ]
+    },
+    "hesitation": {
+      "data-frequency": "4257",
+      "data-relevance": "316",
+      "data-term": "hesitation",
+      "data-encoded-term": "hesitation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4257",
+        "cn5",
+        "1"
+      ]
+    },
+    "interrupted": {
+      "data-frequency": "27876",
+      "data-relevance": "315",
+      "data-term": "interrupted",
+      "data-encoded-term": "interrupted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27876",
+        "w2v",
+        "1"
+      ]
+    },
+    "stond": {
+      "data-frequency": "51",
+      "data-relevance": "314",
+      "data-term": "stond",
+      "data-encoded-term": "stond",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "broadcasts": {
+      "data-frequency": "36854",
+      "data-relevance": "313",
+      "data-term": "broadcasts",
+      "data-encoded-term": "broadcasts",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "36854",
+        "w2v",
+        "1"
+      ]
+    },
+    "continuously": {
+      "data-frequency": "29403",
+      "data-relevance": "312",
+      "data-term": "continuously",
+      "data-encoded-term": "continuously",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29403",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "break": {
+      "data-frequency": "187983",
+      "data-relevance": "311",
+      "data-term": "break",
+      "data-encoded-term": "break",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "187983",
+        "cn5",
+        "1"
+      ]
+    },
+    "stayless": {
+      "data-frequency": "-1",
+      "data-relevance": "310",
+      "data-term": "stayless",
+      "data-encoded-term": "stayless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unabated": {
+      "data-frequency": "1077",
+      "data-relevance": "309",
+      "data-term": "unabated",
+      "data-encoded-term": "unabated",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1077",
+        "ol",
+        "1"
+      ]
+    },
+    "thwart": {
+      "data-frequency": "4578",
+      "data-relevance": "308",
+      "data-term": "thwart",
+      "data-encoded-term": "thwart",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4578",
+        "cn5",
+        "1"
+      ]
+    },
+    "seamless": {
+      "data-frequency": "3687",
+      "data-relevance": "307",
+      "data-term": "seamless",
+      "data-encoded-term": "seamless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3687",
+        "ol",
+        "1"
+      ]
+    },
+    "hesitate": {
+      "data-frequency": "3198",
+      "data-relevance": "306",
+      "data-term": "hesitate",
+      "data-encoded-term": "hesitate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3198",
+        "cn5",
+        "1"
+      ]
+    },
+    "bork": {
+      "data-frequency": "1683",
+      "data-relevance": "305",
+      "data-term": "bork",
+      "data-encoded-term": "bork",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1683",
+        "cn5",
+        "1"
+      ]
+    },
+    "brokenly": {
+      "data-frequency": "-1",
+      "data-relevance": "304",
+      "data-term": "brokenly",
+      "data-encoded-term": "brokenly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bust": {
+      "data-frequency": "23451",
+      "data-relevance": "303",
+      "data-term": "bust",
+      "data-encoded-term": "bust",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23451",
+        "cn5",
+        "1"
+      ]
+    },
+    "cruising": {
+      "data-frequency": "9083",
+      "data-relevance": "302",
+      "data-term": "cruising",
+      "data-encoded-term": "cruising",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9083",
+        "w2v",
+        "1"
+      ]
+    },
+    "lin": {
+      "data-frequency": "41465",
+      "data-relevance": "301",
+      "data-term": "lin",
+      "data-encoded-term": "lin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41465",
+        "cn5",
+        "1"
+      ]
+    },
+    "infomercials": {
+      "data-frequency": "1994",
+      "data-relevance": "300",
+      "data-term": "infomercials",
+      "data-encoded-term": "infomercials",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1994",
+        "w2v",
+        "1"
+      ]
+    },
+    "postpone": {
+      "data-frequency": "3908",
+      "data-relevance": "299",
+      "data-term": "postpone",
+      "data-encoded-term": "postpone",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3908",
+        "cn5",
+        "1"
+      ]
+    },
+    "continued": {
+      "data-frequency": "385406",
+      "data-relevance": "298",
+      "data-term": "continued",
+      "data-encoded-term": "continued",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "385406",
+        "ol",
+        "1"
+      ]
+    },
+    "continuing": {
+      "data-frequency": "95504",
+      "data-relevance": "297",
+      "data-term": "continuing",
+      "data-encoded-term": "continuing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "95504",
+        "ol",
+        "1"
+      ]
+    },
+    "hour": {
+      "data-frequency": "150735",
+      "data-relevance": "296",
+      "data-term": "hour",
+      "data-encoded-term": "hour",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "150735",
+        "w2v",
+        "1"
+      ]
+    },
+    "breakage": {
+      "data-frequency": "1616",
+      "data-relevance": "295",
+      "data-term": "breakage",
+      "data-encoded-term": "breakage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1616",
+        "cn5",
+        "1"
+      ]
+    },
+    "cruise": {
+      "data-frequency": "34988",
+      "data-relevance": "294",
+      "data-term": "cruise",
+      "data-encoded-term": "cruise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34988",
+        "w2v",
+        "1"
+      ]
+    },
+    "canceled": {
+      "data-frequency": "21715",
+      "data-relevance": "293",
+      "data-term": "canceled",
+      "data-encoded-term": "canceled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21715",
+        "w2v",
+        "1"
+      ]
+    },
+    "suspension": {
+      "data-frequency": "39700",
+      "data-relevance": "292",
+      "data-term": "suspension",
+      "data-encoded-term": "suspension",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39700",
+        "cn5",
+        "1"
+      ]
+    },
+    "unbroken": {
+      "data-frequency": "5561",
+      "data-relevance": "291",
+      "data-term": "unbroken",
+      "data-encoded-term": "unbroken",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5561",
+        "ol",
+        "1"
+      ]
+    },
+    "excursion": {
+      "data-frequency": "7867",
+      "data-relevance": "290",
+      "data-term": "excursion",
+      "data-encoded-term": "excursion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7867",
+        "w2v",
+        "1"
+      ]
+    },
+    "canceling": {
+      "data-frequency": "1683",
+      "data-relevance": "289",
+      "data-term": "canceling",
+      "data-encoded-term": "canceling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1683",
+        "w2v",
+        "1"
+      ]
+    },
+    "refuelling": {
+      "data-frequency": "1769",
+      "data-relevance": "288",
+      "data-term": "refuelling",
+      "data-encoded-term": "refuelling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1769",
+        "w2v",
+        "1"
+      ]
+    },
+    "weekdays": {
+      "data-frequency": "10611",
+      "data-relevance": "287",
+      "data-term": "weekdays",
+      "data-encoded-term": "weekdays",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10611",
+        "w2v",
+        "1"
+      ]
+    },
+    "ongoing": {
+      "data-frequency": "59899",
+      "data-relevance": "286",
+      "data-term": "ongoing",
+      "data-encoded-term": "ongoing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59899",
+        "ol",
+        "1"
+      ]
+    },
+    "hiatus": {
+      "data-frequency": "21178",
+      "data-relevance": "285",
+      "data-term": "hiatus",
+      "data-encoded-term": "hiatus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21178",
+        "cn5",
+        "1"
+      ]
+    },
+    "airs": {
+      "data-frequency": "19025",
+      "data-relevance": "284",
+      "data-term": "airs",
+      "data-encoded-term": "airs",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19025",
+        "w2v",
+        "1"
+      ]
+    },
+    "checkpoint": {
+      "data-frequency": "5830",
+      "data-relevance": "283",
+      "data-term": "checkpoint",
+      "data-encoded-term": "checkpoint",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5830",
+        "cn5",
+        "1"
+      ]
+    },
+    "simulcast": {
+      "data-frequency": "10427",
+      "data-relevance": "282",
+      "data-term": "simulcast",
+      "data-encoded-term": "simulcast",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10427",
+        "w2v",
+        "1"
+      ]
+    },
+    "retardation": {
+      "data-frequency": "2232",
+      "data-relevance": "281",
+      "data-term": "retardation",
+      "data-encoded-term": "retardation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2232",
+        "cn5",
+        "1"
+      ]
+    },
+    "ever": {
+      "data-frequency": "311233",
+      "data-relevance": "280",
+      "data-term": "ever",
+      "data-encoded-term": "ever",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "311233",
+        "ol",
+        "1"
+      ]
+    },
+    "sunrise": {
+      "data-frequency": "24607",
+      "data-relevance": "279",
+      "data-term": "sunrise",
+      "data-encoded-term": "sunrise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24607",
+        "w2v",
+        "1"
+      ]
+    },
+    "arrest": {
+      "data-frequency": "62114",
+      "data-relevance": "278",
+      "data-term": "arrest",
+      "data-encoded-term": "arrest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62114",
+        "cn5",
+        "1"
+      ]
+    },
+    "fios": {
+      "data-frequency": "1341",
+      "data-relevance": "277",
+      "data-term": "fios",
+      "data-encoded-term": "fios",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1341",
+        "w2v",
+        "1"
+      ]
+    },
+    "procrastination": {
+      "data-frequency": "651",
+      "data-relevance": "276",
+      "data-term": "procrastination",
+      "data-encoded-term": "procrastination",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "651",
+        "cn5",
+        "1"
+      ]
+    },
+    "nights": {
+      "data-frequency": "49789",
+      "data-relevance": "275",
+      "data-term": "nights",
+      "data-encoded-term": "nights",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49789",
+        "w2v",
+        "1"
+      ]
+    },
+    "ruggedness": {
+      "data-frequency": "406",
+      "data-relevance": "274",
+      "data-term": "ruggedness",
+      "data-encoded-term": "ruggedness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "406",
+        "cn5",
+        "1"
+      ]
+    },
+    "refueling": {
+      "data-frequency": "4568",
+      "data-relevance": "273",
+      "data-term": "refueling",
+      "data-encoded-term": "refueling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4568",
+        "w2v",
+        "1"
+      ]
+    },
+    "hdnet": {
+      "data-frequency": "518",
+      "data-relevance": "272",
+      "data-term": "hdnet",
+      "data-encoded-term": "hdnet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "518",
+        "w2v",
+        "1"
+      ]
+    },
+    "airing": {
+      "data-frequency": "31864",
+      "data-relevance": "271",
+      "data-term": "airing",
+      "data-encoded-term": "airing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "31864",
+        "w2v",
+        "1"
+      ]
+    },
+    "jaunt": {
+      "data-frequency": "467",
+      "data-relevance": "270",
+      "data-term": "jaunt",
+      "data-encoded-term": "jaunt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "467",
+        "w2v",
+        "1"
+      ]
+    },
+    "engagements": {
+      "data-frequency": "61682",
+      "data-relevance": "269",
+      "data-term": "engagements",
+      "data-encoded-term": "engagements",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61682",
+        "w2v",
+        "1"
+      ]
+    },
+    "tours": {
+      "data-frequency": "68875",
+      "data-relevance": "268",
+      "data-term": "tours",
+      "data-encoded-term": "tours",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68875",
+        "w2v",
+        "1"
+      ]
+    },
+    "trips": {
+      "data-frequency": "34171",
+      "data-relevance": "267",
+      "data-term": "trips",
+      "data-encoded-term": "trips",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34171",
+        "w2v",
+        "1"
+      ]
+    },
+    "cliffhanger": {
+      "data-frequency": "2575",
+      "data-relevance": "266",
+      "data-term": "cliffhanger",
+      "data-encoded-term": "cliffhanger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2575",
+        "cn5",
+        "1"
+      ]
+    },
+    "broadcast": {
+      "data-frequency": "190631",
+      "data-relevance": "265",
+      "data-term": "broadcast",
+      "data-encoded-term": "broadcast",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "190631",
+        "w2v",
+        "1"
+      ]
+    },
+    "anchoring": {
+      "data-frequency": "3554",
+      "data-relevance": "264",
+      "data-term": "anchoring",
+      "data-encoded-term": "anchoring",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3554",
+        "w2v",
+        "1"
+      ]
+    },
+    "trek": {
+      "data-frequency": "21507",
+      "data-relevance": "263",
+      "data-term": "trek",
+      "data-encoded-term": "trek",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21507",
+        "w2v",
+        "1"
+      ]
+    },
+    "weekends": {
+      "data-frequency": "17304",
+      "data-relevance": "262",
+      "data-term": "weekends",
+      "data-encoded-term": "weekends",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17304",
+        "w2v",
+        "1"
+      ]
+    },
+    "circumnavigation": {
+      "data-frequency": "1764",
+      "data-relevance": "261",
+      "data-term": "circumnavigation",
+      "data-encoded-term": "circumnavigation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1764",
+        "w2v",
+        "1"
+      ]
+    },
+    "journeys": {
+      "data-frequency": "13544",
+      "data-relevance": "260",
+      "data-term": "journeys",
+      "data-encoded-term": "journeys",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13544",
+        "w2v",
+        "1"
+      ]
+    },
+    "discontinuous": {
+      "data-frequency": "3143",
+      "data-relevance": "259",
+      "data-term": "discontinuous",
+      "data-encoded-term": "discontinuous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3143",
+        "cn5",
+        "1"
+      ]
+    },
+    "atstunt": {
+      "data-frequency": "-1",
+      "data-relevance": "258",
+      "data-term": "atstunt",
+      "data-encoded-term": "atstunt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "24-hour": {
+      "data-frequency": "13434",
+      "data-relevance": "257",
+      "data-term": "24-hour",
+      "data-encoded-term": "24-hour",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13434",
+        "w2v",
+        "1"
+      ]
+    },
+    "excursions": {
+      "data-frequency": "5756",
+      "data-relevance": "256",
+      "data-term": "excursions",
+      "data-encoded-term": "excursions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5756",
+        "w2v",
+        "1"
+      ]
+    },
+    "fracture": {
+      "data-frequency": "10562",
+      "data-relevance": "255",
+      "data-term": "fracture",
+      "data-encoded-term": "fracture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10562",
+        "cn5",
+        "1"
+      ]
+    },
+    "telecast": {
+      "data-frequency": "7119",
+      "data-relevance": "254",
+      "data-term": "telecast",
+      "data-encoded-term": "telecast",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7119",
+        "w2v",
+        "1"
+      ]
+    },
+    "schedules": {
+      "data-frequency": "14807",
+      "data-relevance": "253",
+      "data-term": "schedules",
+      "data-encoded-term": "schedules",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14807",
+        "w2v",
+        "1"
+      ]
+    },
+    "wfan": {
+      "data-frequency": "546",
+      "data-relevance": "252",
+      "data-term": "wfan",
+      "data-encoded-term": "wfan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "546",
+        "w2v",
+        "1"
+      ]
+    },
+    "sorties": {
+      "data-frequency": "3842",
+      "data-relevance": "251",
+      "data-term": "sorties",
+      "data-encoded-term": "sorties",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3842",
+        "w2v",
+        "1"
+      ]
+    },
+    "coast-to-coast": {
+      "data-frequency": "288364",
+      "data-relevance": "250",
+      "data-term": "coast-to-coast",
+      "data-encoded-term": "coast-to-coast",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "288364",
+        "w2v",
+        "1"
+      ]
+    },
+    "cable": {
+      "data-frequency": "70579",
+      "data-relevance": "249",
+      "data-term": "cable",
+      "data-encoded-term": "cable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "70579",
+        "w2v",
+        "1"
+      ]
+    },
+    "espn2": {
+      "data-frequency": "4399",
+      "data-relevance": "248",
+      "data-term": "espn2",
+      "data-encoded-term": "espn2",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4399",
+        "w2v",
+        "1"
+      ]
+    },
+    "interjection": {
+      "data-frequency": "676",
+      "data-relevance": "247",
+      "data-term": "interjection",
+      "data-encoded-term": "interjection",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "676",
+        "cn5",
+        "1"
+      ]
+    },
+    "shortwave": {
+      "data-frequency": "2377",
+      "data-relevance": "246",
+      "data-term": "shortwave",
+      "data-encoded-term": "shortwave",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2377",
+        "w2v",
+        "1"
+      ]
+    },
+    "crumbly": {
+      "data-frequency": "401",
+      "data-relevance": "245",
+      "data-term": "crumbly",
+      "data-encoded-term": "crumbly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "401",
+        "cn5",
+        "1"
+      ]
+    },
+    "daytime": {
+      "data-frequency": "22517",
+      "data-relevance": "244",
+      "data-term": "daytime",
+      "data-encoded-term": "daytime",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22517",
+        "w2v",
+        "1"
+      ]
+    },
+    "hbo": {
+      "data-frequency": "17888",
+      "data-relevance": "243",
+      "data-term": "hbo",
+      "data-encoded-term": "hbo",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17888",
+        "w2v",
+        "1"
+      ]
+    },
+    "simulcasting": {
+      "data-frequency": "2265",
+      "data-relevance": "242",
+      "data-term": "simulcasting",
+      "data-encoded-term": "simulcasting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2265",
+        "w2v",
+        "1"
+      ]
+    },
+    "telecasts": {
+      "data-frequency": "2848",
+      "data-relevance": "241",
+      "data-term": "telecasts",
+      "data-encoded-term": "telecasts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2848",
+        "w2v",
+        "1"
+      ]
+    },
+    "retard": {
+      "data-frequency": "853",
+      "data-relevance": "240",
+      "data-term": "retard",
+      "data-encoded-term": "retard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "853",
+        "cn5",
+        "1"
+      ]
+    },
+    "sojourn": {
+      "data-frequency": "2590",
+      "data-relevance": "239",
+      "data-term": "sojourn",
+      "data-encoded-term": "sojourn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2590",
+        "cn5",
+        "1"
+      ]
+    },
+    "transatlantic": {
+      "data-frequency": "7577",
+      "data-relevance": "238",
+      "data-term": "transatlantic",
+      "data-encoded-term": "transatlantic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7577",
+        "w2v",
+        "1"
+      ]
+    },
+    "televising": {
+      "data-frequency": "487",
+      "data-relevance": "237",
+      "data-term": "televising",
+      "data-encoded-term": "televising",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "487",
+        "w2v",
+        "1"
+      ]
+    },
+    "transcontinental": {
+      "data-frequency": "5318",
+      "data-relevance": "236",
+      "data-term": "transcontinental",
+      "data-encoded-term": "transcontinental",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5318",
+        "ol",
+        "1"
+      ]
+    },
+    "recrudescence": {
+      "data-frequency": "60",
+      "data-relevance": "235",
+      "data-term": "recrudescence",
+      "data-encoded-term": "recrudescence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "endless": {
+      "data-frequency": "15504",
+      "data-relevance": "234",
+      "data-term": "endless",
+      "data-encoded-term": "endless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15504",
+        "ol",
+        "1"
+      ]
+    },
+    "ceaseless": {
+      "data-frequency": "710",
+      "data-relevance": "233",
+      "data-term": "ceaseless",
+      "data-encoded-term": "ceaseless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "710",
+        "ol",
+        "1"
+      ]
+    },
+    "daily": {
+      "data-frequency": "383205",
+      "data-relevance": "232",
+      "data-term": "daily",
+      "data-encoded-term": "daily",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "383205",
+        "ol",
+        "1"
+      ]
+    },
+    "relentless": {
+      "data-frequency": "7201",
+      "data-relevance": "231",
+      "data-term": "relentless",
+      "data-encoded-term": "relentless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7201",
+        "ol",
+        "1"
+      ]
+    },
+    "exhausting": {
+      "data-frequency": "2516",
+      "data-relevance": "230",
+      "data-term": "exhausting",
+      "data-encoded-term": "exhausting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2516",
+        "ol",
+        "1"
+      ]
+    },
+    "unrelenting": {
+      "data-frequency": "1640",
+      "data-relevance": "229",
+      "data-term": "unrelenting",
+      "data-encoded-term": "unrelenting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1640",
+        "ol",
+        "1"
+      ]
+    },
+    "unending": {
+      "data-frequency": "1341",
+      "data-relevance": "228",
+      "data-term": "unending",
+      "data-encoded-term": "unending",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1341",
+        "ol",
+        "1"
+      ]
+    },
+    "breathless": {
+      "data-frequency": "2071",
+      "data-relevance": "227",
+      "data-term": "breathless",
+      "data-encoded-term": "breathless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2071",
+        "ol",
+        "1"
+      ]
+    },
+    "wearying": {
+      "data-frequency": "126",
+      "data-relevance": "226",
+      "data-term": "wearying",
+      "data-encoded-term": "wearying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "126",
+        "ol",
+        "1"
+      ]
+    },
+    "hubs": {
+      "data-frequency": "6972",
+      "data-relevance": "225",
+      "data-term": "hubs",
+      "data-encoded-term": "hubs",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6972",
+        "ol",
+        "1"
+      ]
+    },
+    "unremitting": {
+      "data-frequency": "427",
+      "data-relevance": "224",
+      "data-term": "unremitting",
+      "data-encoded-term": "unremitting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "427",
+        "ol",
+        "1"
+      ]
+    },
+    "mainline": {
+      "data-frequency": "9185",
+      "data-relevance": "223",
+      "data-term": "mainline",
+      "data-encoded-term": "mainline",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9185",
+        "ol",
+        "1"
+      ]
+    },
+    "interisland": {
+      "data-frequency": "147",
+      "data-relevance": "222",
+      "data-term": "interisland",
+      "data-encoded-term": "interisland",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "147",
+        "ol",
+        "1"
+      ]
+    },
+    "destinations": {
+      "data-frequency": "24093",
+      "data-relevance": "221",
+      "data-term": "destinations",
+      "data-encoded-term": "destinations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24093",
+        "ol",
+        "1"
+      ]
+    },
+    "routes": {
+      "data-frequency": "79925",
+      "data-relevance": "220",
+      "data-term": "routes",
+      "data-encoded-term": "routes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79925",
+        "ol",
+        "1"
+      ]
+    },
+    "interminable": {
+      "data-frequency": "478",
+      "data-relevance": "219",
+      "data-term": "interminable",
+      "data-encoded-term": "interminable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "478",
+        "ol",
+        "1"
+      ]
+    },
+    "frenzied": {
+      "data-frequency": "1427",
+      "data-relevance": "218",
+      "data-term": "frenzied",
+      "data-encoded-term": "frenzied",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1427",
+        "ol",
+        "1"
+      ]
+    },
+    "wearisome": {
+      "data-frequency": "204",
+      "data-relevance": "217",
+      "data-term": "wearisome",
+      "data-encoded-term": "wearisome",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "204",
+        "ol",
+        "1"
+      ]
+    },
+    "hours": {
+      "data-frequency": "194269",
+      "data-relevance": "216",
+      "data-term": "hours",
+      "data-encoded-term": "hours",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "194269",
+        "ol",
+        "1"
+      ]
+    },
+    "frenetic": {
+      "data-frequency": "1361",
+      "data-relevance": "215",
+      "data-term": "frenetic",
+      "data-encoded-term": "frenetic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1361",
+        "ol",
+        "1"
+      ]
+    },
+    "tiresome": {
+      "data-frequency": "939",
+      "data-relevance": "214",
+      "data-term": "tiresome",
+      "data-encoded-term": "tiresome",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "939",
+        "ol",
+        "1"
+      ]
+    },
+    "intermittently": {
+      "data-frequency": "13389",
+      "data-relevance": "213",
+      "data-term": "intermittently",
+      "data-encoded-term": "intermittently",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13389",
+        "ol",
+        "1"
+      ]
+    },
+    "simultaneous": {
+      "data-frequency": "16465",
+      "data-relevance": "212",
+      "data-term": "simultaneous",
+      "data-encoded-term": "simultaneous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16465",
+        "ol",
+        "1"
+      ]
+    },
+    "alternating": {
+      "data-frequency": "17746",
+      "data-relevance": "211",
+      "data-term": "alternating",
+      "data-encoded-term": "alternating",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17746",
+        "ol",
+        "1"
+      ]
+    },
+    "flying": {
+      "data-frequency": "111173",
+      "data-relevance": "210",
+      "data-term": "flying",
+      "data-encoded-term": "flying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "111173",
+        "ol",
+        "1"
+      ]
+    },
+    "airline": {
+      "data-frequency": "26196",
+      "data-relevance": "209",
+      "data-term": "airline",
+      "data-encoded-term": "airline",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26196",
+        "ol",
+        "1"
+      ]
+    },
+    "dizzying": {
+      "data-frequency": "764",
+      "data-relevance": "208",
+      "data-term": "dizzying",
+      "data-encoded-term": "dizzying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "764",
+        "ol",
+        "1"
+      ]
+    },
+    "feverish": {
+      "data-frequency": "839",
+      "data-relevance": "207",
+      "data-term": "feverish",
+      "data-encoded-term": "feverish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "839",
+        "ol",
+        "1"
+      ]
+    },
+    "sightseeing": {
+      "data-frequency": "4666",
+      "data-relevance": "206",
+      "data-term": "sightseeing",
+      "data-encoded-term": "sightseeing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4666",
+        "ol",
+        "1"
+      ]
+    },
+    "ceased": {
+      "data-frequency": "63753",
+      "data-relevance": "205",
+      "data-term": "ceased",
+      "data-encoded-term": "ceased",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "63753",
+        "ol",
+        "1"
+      ]
+    },
+    "monotonous": {
+      "data-frequency": "1759",
+      "data-relevance": "204",
+      "data-term": "monotonous",
+      "data-encoded-term": "monotonous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1759",
+        "ol",
+        "1"
+      ]
+    },
+    "intense": {
+      "data-frequency": "44768",
+      "data-relevance": "203",
+      "data-term": "intense",
+      "data-encoded-term": "intense",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44768",
+        "ol",
+        "1"
+      ]
+    },
+    "lulls": {
+      "data-frequency": "294",
+      "data-relevance": "202",
+      "data-term": "lulls",
+      "data-encoded-term": "lulls",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "294",
+        "ol",
+        "1"
+      ]
+    },
+    "sporadic": {
+      "data-frequency": "7915",
+      "data-relevance": "201",
+      "data-term": "sporadic",
+      "data-encoded-term": "sporadic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7915",
+        "ol",
+        "1"
+      ]
+    },
+    "weekly": {
+      "data-frequency": "248070",
+      "data-relevance": "200",
+      "data-term": "weekly",
+      "data-encoded-term": "weekly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "248070",
+        "ol",
+        "1"
+      ]
+    },
+    "occasional": {
+      "data-frequency": "45613",
+      "data-relevance": "199",
+      "data-term": "occasional",
+      "data-encoded-term": "occasional",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45613",
+        "ol",
+        "1"
+      ]
+    },
+    "breakneck": {
+      "data-frequency": "1239",
+      "data-relevance": "198",
+      "data-term": "breakneck",
+      "data-encoded-term": "breakneck",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1239",
+        "ol",
+        "1"
+      ]
+    },
+    "instantaneous": {
+      "data-frequency": "2850",
+      "data-relevance": "197",
+      "data-term": "instantaneous",
+      "data-encoded-term": "instantaneous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2850",
+        "ol",
+        "1"
+      ]
+    },
+    "summertime": {
+      "data-frequency": "6566",
+      "data-relevance": "196",
+      "data-term": "summertime",
+      "data-encoded-term": "summertime",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6566",
+        "ol",
+        "1"
+      ]
+    },
+    "fares": {
+      "data-frequency": "7982",
+      "data-relevance": "195",
+      "data-term": "fares",
+      "data-encoded-term": "fares",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7982",
+        "ol",
+        "1"
+      ]
+    },
+    "airport": {
+      "data-frequency": "152564",
+      "data-relevance": "194",
+      "data-term": "airport",
+      "data-encoded-term": "airport",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "152564",
+        "ol",
+        "1"
+      ]
+    },
+    "whining": {
+      "data-frequency": "786",
+      "data-relevance": "193",
+      "data-term": "whining",
+      "data-encoded-term": "whining",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "786",
+        "ol",
+        "1"
+      ]
+    },
+    "grueling": {
+      "data-frequency": "1844",
+      "data-relevance": "192",
+      "data-term": "grueling",
+      "data-encoded-term": "grueling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1844",
+        "ol",
+        "1"
+      ]
+    },
+    "defer": {
+      "data-frequency": "2157",
+      "data-relevance": "191",
+      "data-term": "defer",
+      "data-encoded-term": "defer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2157",
+        "cn5",
+        "1"
+      ]
+    },
+    "disintegration": {
+      "data-frequency": "5073",
+      "data-relevance": "190",
+      "data-term": "disintegration",
+      "data-encoded-term": "disintegration",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5073",
+        "cn5",
+        "1"
+      ]
+    },
+    "interrupter": {
+      "data-frequency": "310",
+      "data-relevance": "189",
+      "data-term": "interrupter",
+      "data-encoded-term": "interrupter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "310",
+        "cn5",
+        "1"
+      ]
+    },
+    "breaker": {
+      "data-frequency": "9750",
+      "data-relevance": "188",
+      "data-term": "breaker",
+      "data-encoded-term": "breaker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9750",
+        "cn5",
+        "1"
+      ]
+    },
+    "prevent": {
+      "data-frequency": "109835",
+      "data-relevance": "187",
+      "data-term": "prevent",
+      "data-encoded-term": "prevent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "109835",
+        "cn5",
+        "1"
+      ]
+    },
+    "occlusive": {
+      "data-frequency": "780",
+      "data-relevance": "186",
+      "data-term": "occlusive",
+      "data-encoded-term": "occlusive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "780",
+        "cn5",
+        "1"
+      ]
+    },
+    "layover": {
+      "data-frequency": "693",
+      "data-relevance": "185",
+      "data-term": "layover",
+      "data-encoded-term": "layover",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "693",
+        "w2v",
+        "1"
+      ]
+    },
+    "impede": {
+      "data-frequency": "3544",
+      "data-relevance": "184",
+      "data-term": "impede",
+      "data-encoded-term": "impede",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3544",
+        "cn5",
+        "1"
+      ]
+    },
+    "hindrance": {
+      "data-frequency": "2377",
+      "data-relevance": "183",
+      "data-term": "hindrance",
+      "data-encoded-term": "hindrance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2377",
+        "cn5",
+        "1"
+      ]
+    },
+    "shatter": {
+      "data-frequency": "3121",
+      "data-relevance": "182",
+      "data-term": "shatter",
+      "data-encoded-term": "shatter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3121",
+        "cn5",
+        "1"
+      ]
+    },
+    "unbreakable": {
+      "data-frequency": "3659",
+      "data-relevance": "181",
+      "data-term": "unbreakable",
+      "data-encoded-term": "unbreakable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3659",
+        "cn5",
+        "1"
+      ]
+    },
+    "suspend": {
+      "data-frequency": "7958",
+      "data-relevance": "180",
+      "data-term": "suspend",
+      "data-encoded-term": "suspend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7958",
+        "cn5",
+        "1"
+      ]
+    },
+    "forestall": {
+      "data-frequency": "1352",
+      "data-relevance": "179",
+      "data-term": "forestall",
+      "data-encoded-term": "forestall",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1352",
+        "cn5",
+        "1"
+      ]
+    },
+    "brittleness": {
+      "data-frequency": "324",
+      "data-relevance": "178",
+      "data-term": "brittleness",
+      "data-encoded-term": "brittleness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "324",
+        "cn5",
+        "1"
+      ]
+    },
+    "90-minute": {
+      "data-frequency": "2726",
+      "data-relevance": "177",
+      "data-term": "90-minute",
+      "data-encoded-term": "90-minute",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2726",
+        "w2v",
+        "1"
+      ]
+    },
+    "unstayed": {
+      "data-frequency": "44",
+      "data-relevance": "176",
+      "data-term": "unstayed",
+      "data-encoded-term": "unstayed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "impediment": {
+      "data-frequency": "2543",
+      "data-relevance": "175",
+      "data-term": "impediment",
+      "data-encoded-term": "impediment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2543",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonstops": {
+      "data-frequency": "4382",
+      "data-relevance": "174",
+      "data-term": "nonstops",
+      "data-encoded-term": "nonstops",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4382",
+        "w2v",
+        "1"
+      ]
+    },
+    "forestay": {
+      "data-frequency": "101",
+      "data-relevance": "173",
+      "data-term": "forestay",
+      "data-encoded-term": "forestay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "101",
+        "cn5",
+        "1"
+      ]
+    },
+    "adjourn": {
+      "data-frequency": "499",
+      "data-relevance": "172",
+      "data-term": "adjourn",
+      "data-encoded-term": "adjourn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "499",
+        "cn5",
+        "1"
+      ]
+    },
+    "30-minute": {
+      "data-frequency": "5760",
+      "data-relevance": "171",
+      "data-term": "30-minute",
+      "data-encoded-term": "30-minute",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5760",
+        "w2v",
+        "1"
+      ]
+    },
+    "crack": {
+      "data-frequency": "17075",
+      "data-relevance": "170",
+      "data-term": "crack",
+      "data-encoded-term": "crack",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17075",
+        "cn5",
+        "1"
+      ]
+    },
+    "12-hour": {
+      "data-frequency": "1892",
+      "data-relevance": "169",
+      "data-term": "12-hour",
+      "data-encoded-term": "12-hour",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1892",
+        "w2v",
+        "1"
+      ]
+    },
+    "obstacle": {
+      "data-frequency": "11011",
+      "data-relevance": "168",
+      "data-term": "obstacle",
+      "data-encoded-term": "obstacle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11011",
+        "cn5",
+        "1"
+      ]
+    },
+    "hinder": {
+      "data-frequency": "6242",
+      "data-relevance": "167",
+      "data-term": "hinder",
+      "data-encoded-term": "hinder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6242",
+        "cn5",
+        "1"
+      ]
+    },
+    "brake": {
+      "data-frequency": "14022",
+      "data-relevance": "166",
+      "data-term": "brake",
+      "data-encoded-term": "brake",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14022",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonbroken": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "nonbroken",
+      "data-encoded-term": "nonbroken",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "burst": {
+      "data-frequency": "21125",
+      "data-relevance": "164",
+      "data-term": "burst",
+      "data-encoded-term": "burst",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21125",
+        "cn5",
+        "1"
+      ]
+    },
+    "linger": {
+      "data-frequency": "2843",
+      "data-relevance": "163",
+      "data-term": "linger",
+      "data-encoded-term": "linger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2843",
+        "cn5",
+        "1"
+      ]
+    },
+    "breakthrough": {
+      "data-frequency": "28918",
+      "data-relevance": "162",
+      "data-term": "breakthrough",
+      "data-encoded-term": "breakthrough",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28918",
+        "cn5",
+        "1"
+      ]
+    },
+    "10-minute": {
+      "data-frequency": "3560",
+      "data-relevance": "161",
+      "data-term": "10-minute",
+      "data-encoded-term": "10-minute",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3560",
+        "w2v",
+        "1"
+      ]
+    },
+    "brokenness": {
+      "data-frequency": "152",
+      "data-relevance": "160",
+      "data-term": "brokenness",
+      "data-encoded-term": "brokenness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "152",
+        "cn5",
+        "1"
+      ]
+    },
+    "rein": {
+      "data-frequency": "5541",
+      "data-relevance": "159",
+      "data-term": "rein",
+      "data-encoded-term": "rein",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5541",
+        "cn5",
+        "1"
+      ]
+    },
+    "forbreak": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "forbreak",
+      "data-encoded-term": "forbreak",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "24-hours": {
+      "data-frequency": "157811",
+      "data-relevance": "157",
+      "data-term": "24-hours",
+      "data-encoded-term": "24-hours",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "157811",
+        "w2v",
+        "1"
+      ]
+    },
+    "forstop": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "forstop",
+      "data-encoded-term": "forstop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "breakless": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "breakless",
+      "data-encoded-term": "breakless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "15-minute": {
+      "data-frequency": "4408",
+      "data-relevance": "154",
+      "data-term": "15-minute",
+      "data-encoded-term": "15-minute",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4408",
+        "w2v",
+        "1"
+      ]
+    },
+    "two-hour": {
+      "data-frequency": "207744",
+      "data-relevance": "153",
+      "data-term": "two-hour",
+      "data-encoded-term": "two-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "207744",
+        "w2v",
+        "1"
+      ]
+    },
+    "comma": {
+      "data-frequency": "2645",
+      "data-relevance": "152",
+      "data-term": "comma",
+      "data-encoded-term": "comma",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2645",
+        "cn5",
+        "1"
+      ]
+    },
+    "obstruct": {
+      "data-frequency": "2491",
+      "data-relevance": "151",
+      "data-term": "obstruct",
+      "data-encoded-term": "obstruct",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2491",
+        "cn5",
+        "1"
+      ]
+    },
+    "fragment": {
+      "data-frequency": "16973",
+      "data-relevance": "150",
+      "data-term": "fragment",
+      "data-encoded-term": "fragment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16973",
+        "cn5",
+        "1"
+      ]
+    },
+    "post-zero": {
+      "data-frequency": "17702",
+      "data-relevance": "149",
+      "data-term": "post-zero",
+      "data-encoded-term": "post-zero",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17702",
+        "w2v",
+        "1"
+      ]
+    },
+    "20-minute": {
+      "data-frequency": "2636",
+      "data-relevance": "148",
+      "data-term": "20-minute",
+      "data-encoded-term": "20-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2636",
+        "w2v",
+        "1"
+      ]
+    },
+    "obstruction": {
+      "data-frequency": "6409",
+      "data-relevance": "147",
+      "data-term": "obstruction",
+      "data-encoded-term": "obstruction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6409",
+        "cn5",
+        "1"
+      ]
+    },
+    "obturator": {
+      "data-frequency": "629",
+      "data-relevance": "146",
+      "data-term": "obturator",
+      "data-encoded-term": "obturator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "629",
+        "cn5",
+        "1"
+      ]
+    },
+    "broke": {
+      "data-frequency": "134991",
+      "data-relevance": "145",
+      "data-term": "broke",
+      "data-encoded-term": "broke",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "134991",
+        "cn5",
+        "1"
+      ]
+    },
+    "unrefueled": {
+      "data-frequency": "62",
+      "data-relevance": "144",
+      "data-term": "unrefueled",
+      "data-encoded-term": "unrefueled",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "w2v",
+        "1"
+      ]
+    },
+    "45-minute": {
+      "data-frequency": "1728",
+      "data-relevance": "143",
+      "data-term": "45-minute",
+      "data-encoded-term": "45-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1728",
+        "w2v",
+        "1"
+      ]
+    },
+    "inhibition": {
+      "data-frequency": "8999",
+      "data-relevance": "142",
+      "data-term": "inhibition",
+      "data-encoded-term": "inhibition",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8999",
+        "cn5",
+        "1"
+      ]
+    },
+    "breakproof": {
+      "data-frequency": "-1",
+      "data-relevance": "141",
+      "data-term": "breakproof",
+      "data-encoded-term": "breakproof",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bestay": {
+      "data-frequency": "210",
+      "data-relevance": "140",
+      "data-term": "bestay",
+      "data-encoded-term": "bestay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "210",
+        "cn5",
+        "1"
+      ]
+    },
+    "20-hour": {
+      "data-frequency": "264",
+      "data-relevance": "139",
+      "data-term": "20-hour",
+      "data-encoded-term": "20-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "264",
+        "w2v",
+        "1"
+      ]
+    },
+    "forslow": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "forslow",
+      "data-encoded-term": "forslow",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fitful": {
+      "data-frequency": "230",
+      "data-relevance": "137",
+      "data-term": "fitful",
+      "data-encoded-term": "fitful",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "230",
+        "cn5",
+        "1"
+      ]
+    },
+    "atstand": {
+      "data-frequency": "-1",
+      "data-relevance": "136",
+      "data-term": "atstand",
+      "data-encoded-term": "atstand",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "forbearance": {
+      "data-frequency": "1177",
+      "data-relevance": "135",
+      "data-term": "forbearance",
+      "data-encoded-term": "forbearance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1177",
+        "cn5",
+        "1"
+      ]
+    },
+    "11-hour": {
+      "data-frequency": "176",
+      "data-relevance": "134",
+      "data-term": "11-hour",
+      "data-encoded-term": "11-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "176",
+        "w2v",
+        "1"
+      ]
+    },
+    "a-week": {
+      "data-frequency": "392798",
+      "data-relevance": "133",
+      "data-term": "a-week",
+      "data-encoded-term": "a-week",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "392798",
+        "w2v",
+        "1"
+      ]
+    },
+    "10-hour": {
+      "data-frequency": "570",
+      "data-relevance": "132",
+      "data-term": "10-hour",
+      "data-encoded-term": "10-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "570",
+        "w2v",
+        "1"
+      ]
+    },
+    "frustrate": {
+      "data-frequency": "1449",
+      "data-relevance": "131",
+      "data-term": "frustrate",
+      "data-encoded-term": "frustrate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1449",
+        "cn5",
+        "1"
+      ]
+    },
+    "check": {
+      "data-frequency": "88596",
+      "data-relevance": "130",
+      "data-term": "check",
+      "data-encoded-term": "check",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "88596",
+        "cn5",
+        "1"
+      ]
+    },
+    "allegiant": {
+      "data-frequency": "476",
+      "data-relevance": "129",
+      "data-term": "allegiant",
+      "data-encoded-term": "allegiant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "476",
+        "w2v",
+        "1"
+      ]
+    },
+    "overbreak": {
+      "data-frequency": "-1",
+      "data-relevance": "128",
+      "data-term": "overbreak",
+      "data-encoded-term": "overbreak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "minibreak": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "minibreak",
+      "data-encoded-term": "minibreak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "deter": {
+      "data-frequency": "7337",
+      "data-relevance": "126",
+      "data-term": "deter",
+      "data-encoded-term": "deter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7337",
+        "cn5",
+        "1"
+      ]
+    },
+    "breakly": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "breakly",
+      "data-encoded-term": "breakly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hourlong": {
+      "data-frequency": "150",
+      "data-relevance": "124",
+      "data-term": "hourlong",
+      "data-encoded-term": "hourlong",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "incomplete": {
+      "data-frequency": "74569",
+      "data-relevance": "123",
+      "data-term": "incomplete",
+      "data-encoded-term": "incomplete",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74569",
+        "cn5",
+        "1"
+      ]
+    },
+    "frangent": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "frangent",
+      "data-encoded-term": "frangent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "40-minute": {
+      "data-frequency": "1023",
+      "data-relevance": "121",
+      "data-term": "40-minute",
+      "data-encoded-term": "40-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1023",
+        "w2v",
+        "1"
+      ]
+    },
+    "fugazi": {
+      "data-frequency": "668",
+      "data-relevance": "120",
+      "data-term": "fugazi",
+      "data-encoded-term": "fugazi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "668",
+        "cn5",
+        "1"
+      ]
+    },
+    "breakle": {
+      "data-frequency": "-1",
+      "data-relevance": "119",
+      "data-term": "breakle",
+      "data-encoded-term": "breakle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "respite": {
+      "data-frequency": "2556",
+      "data-relevance": "118",
+      "data-term": "respite",
+      "data-encoded-term": "respite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2556",
+        "cn5",
+        "1"
+      ]
+    },
+    "sist": {
+      "data-frequency": "175",
+      "data-relevance": "117",
+      "data-term": "sist",
+      "data-encoded-term": "sist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "14-hour": {
+      "data-frequency": "497",
+      "data-relevance": "116",
+      "data-term": "14-hour",
+      "data-encoded-term": "14-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "497",
+        "w2v",
+        "1"
+      ]
+    },
+    "accident-free": {
+      "data-frequency": "23305",
+      "data-relevance": "115",
+      "data-term": "accident-free",
+      "data-encoded-term": "accident-free",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23305",
+        "w2v",
+        "1"
+      ]
+    },
+    "britcar": {
+      "data-frequency": "150",
+      "data-relevance": "114",
+      "data-term": "britcar",
+      "data-encoded-term": "britcar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "billiards": {
+      "data-frequency": "4586",
+      "data-relevance": "113",
+      "data-term": "billiards",
+      "data-encoded-term": "billiards",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4586",
+        "cn5",
+        "1"
+      ]
+    },
+    "preventive": {
+      "data-frequency": "6677",
+      "data-relevance": "112",
+      "data-term": "preventive",
+      "data-encoded-term": "preventive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6677",
+        "cn5",
+        "1"
+      ]
+    },
+    "hemostasis": {
+      "data-frequency": "340",
+      "data-relevance": "111",
+      "data-term": "hemostasis",
+      "data-encoded-term": "hemostasis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "340",
+        "cn5",
+        "1"
+      ]
+    },
+    "bankrupt": {
+      "data-frequency": "16327",
+      "data-relevance": "110",
+      "data-term": "bankrupt",
+      "data-encoded-term": "bankrupt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16327",
+        "cn5",
+        "1"
+      ]
+    },
+    "late-night": {
+      "data-frequency": "17674",
+      "data-relevance": "109",
+      "data-term": "late-night",
+      "data-encoded-term": "late-night",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17674",
+        "w2v",
+        "1"
+      ]
+    },
+    "tobreak": {
+      "data-frequency": "-1",
+      "data-relevance": "108",
+      "data-term": "tobreak",
+      "data-encoded-term": "tobreak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "25-minute": {
+      "data-frequency": "857",
+      "data-relevance": "107",
+      "data-term": "25-minute",
+      "data-encoded-term": "25-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "857",
+        "w2v",
+        "1"
+      ]
+    },
+    "monday-friday": {
+      "data-frequency": "22314",
+      "data-relevance": "106",
+      "data-term": "monday-friday",
+      "data-encoded-term": "monday-friday",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22314",
+        "w2v",
+        "1"
+      ]
+    },
+    "fracted": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "fracted",
+      "data-encoded-term": "fracted",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "overslaugh": {
+      "data-frequency": "-1",
+      "data-relevance": "104",
+      "data-term": "overslaugh",
+      "data-encoded-term": "overslaugh",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bursten": {
+      "data-frequency": "141",
+      "data-relevance": "103",
+      "data-term": "bursten",
+      "data-encoded-term": "bursten",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "141",
+        "cn5",
+        "1"
+      ]
+    },
+    "breaktime": {
+      "data-frequency": "92",
+      "data-relevance": "102",
+      "data-term": "breaktime",
+      "data-encoded-term": "breaktime",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "92",
+        "cn5",
+        "1"
+      ]
+    },
+    "four-hour": {
+      "data-frequency": "128604",
+      "data-relevance": "101",
+      "data-term": "four-hour",
+      "data-encoded-term": "four-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "128604",
+        "w2v",
+        "1"
+      ]
+    },
+    "50-minute": {
+      "data-frequency": "41785",
+      "data-relevance": "100",
+      "data-term": "50-minute",
+      "data-encoded-term": "50-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "41785",
+        "w2v",
+        "1"
+      ]
+    },
+    "round-the-world": {
+      "data-frequency": "3234",
+      "data-relevance": "99",
+      "data-term": "round-the-world",
+      "data-encoded-term": "round-the-world",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3234",
+        "w2v",
+        "1"
+      ]
+    },
+    "forburst": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "forburst",
+      "data-encoded-term": "forburst",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ci611": {
+      "data-frequency": "254",
+      "data-relevance": "97",
+      "data-term": "ci611",
+      "data-encoded-term": "ci611",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "254",
+        "w2v",
+        "1"
+      ]
+    },
+    "rein up": {
+      "data-frequency": "-1",
+      "data-relevance": "96",
+      "data-term": "rein up",
+      "data-encoded-term": "rein%20up",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "diphthongize": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "diphthongize",
+      "data-encoded-term": "diphthongize",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lie over": {
+      "data-frequency": "123",
+      "data-relevance": "94",
+      "data-term": "lie over",
+      "data-encoded-term": "lie%20over",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "123",
+        "cn5",
+        "1"
+      ]
+    },
+    "15-hour": {
+      "data-frequency": "276",
+      "data-relevance": "93",
+      "data-term": "15-hour",
+      "data-encoded-term": "15-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "276",
+        "w2v",
+        "1"
+      ]
+    },
+    "breakable": {
+      "data-frequency": "325",
+      "data-relevance": "92",
+      "data-term": "breakable",
+      "data-encoded-term": "breakable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "325",
+        "cn5",
+        "1"
+      ]
+    },
+    "18-hour": {
+      "data-frequency": "340",
+      "data-relevance": "91",
+      "data-term": "18-hour",
+      "data-encoded-term": "18-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "340",
+        "w2v",
+        "1"
+      ]
+    },
+    "3-hour": {
+      "data-frequency": "939",
+      "data-relevance": "90",
+      "data-term": "3-hour",
+      "data-encoded-term": "3-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "939",
+        "w2v",
+        "1"
+      ]
+    },
+    "trans-atlantic": {
+      "data-frequency": "7610",
+      "data-relevance": "89",
+      "data-term": "trans-atlantic",
+      "data-encoded-term": "trans-atlantic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7610",
+        "w2v",
+        "1"
+      ]
+    },
+    "24/7": {
+      "data-frequency": "29291",
+      "data-relevance": "88",
+      "data-term": "24/7",
+      "data-encoded-term": "24%2F7",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "29291",
+        "w2v",
+        "1"
+      ]
+    },
+    "daylong": {
+      "data-frequency": "386",
+      "data-relevance": "87",
+      "data-term": "daylong",
+      "data-encoded-term": "daylong",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "386",
+        "w2v",
+        "1"
+      ]
+    },
+    "12-minute": {
+      "data-frequency": "723",
+      "data-relevance": "86",
+      "data-term": "12-minute",
+      "data-encoded-term": "12-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "723",
+        "w2v",
+        "1"
+      ]
+    },
+    "bebreak": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "bebreak",
+      "data-encoded-term": "bebreak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "12-day": {
+      "data-frequency": "838",
+      "data-relevance": "84",
+      "data-term": "12-day",
+      "data-encoded-term": "12-day",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "838",
+        "w2v",
+        "1"
+      ]
+    },
+    "transoceanic": {
+      "data-frequency": "456",
+      "data-relevance": "83",
+      "data-term": "transoceanic",
+      "data-encoded-term": "transoceanic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "456",
+        "ol",
+        "1"
+      ]
+    },
+    "layovers": {
+      "data-frequency": "77",
+      "data-relevance": "82",
+      "data-term": "layovers",
+      "data-encoded-term": "layovers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77",
+        "ol",
+        "1"
+      ]
+    },
+    "crisscrossing": {
+      "data-frequency": "217",
+      "data-relevance": "81",
+      "data-term": "crisscrossing",
+      "data-encoded-term": "crisscrossing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "217",
+        "ol",
+        "1"
+      ]
+    },
+    "stopovers": {
+      "data-frequency": "432",
+      "data-relevance": "80",
+      "data-term": "stopovers",
+      "data-encoded-term": "stopovers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "432",
+        "ol",
+        "1"
+      ]
+    },
+    "speechifying": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "speechifying",
+      "data-encoded-term": "speechifying",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "letup": {
+      "data-frequency": "53",
+      "data-relevance": "78",
+      "data-term": "letup",
+      "data-encoded-term": "letup",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "nightscape": {
+      "data-frequency": "71",
+      "data-relevance": "77",
+      "data-term": "nightscape",
+      "data-encoded-term": "nightscape",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "frazzling": {
+      "data-frequency": "218",
+      "data-relevance": "76",
+      "data-term": "frazzling",
+      "data-encoded-term": "frazzling",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "218",
+        "ol",
+        "1"
+      ]
+    },
+    "zinging": {
+      "data-frequency": "-1",
+      "data-relevance": "75",
+      "data-term": "zinging",
+      "data-encoded-term": "zinging",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "barraged": {
+      "data-frequency": "8405",
+      "data-relevance": "74",
+      "data-term": "barraged",
+      "data-encoded-term": "barraged",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8405",
+        "ol",
+        "1"
+      ]
+    },
+    "bwi": {
+      "data-frequency": "525",
+      "data-relevance": "73",
+      "data-term": "bwi",
+      "data-encoded-term": "bwi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "525",
+        "ol",
+        "1"
+      ]
+    },
+    "hyperkinetic": {
+      "data-frequency": "135",
+      "data-relevance": "72",
+      "data-term": "hyperkinetic",
+      "data-encoded-term": "hyperkinetic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "135",
+        "ol",
+        "1"
+      ]
+    },
+    "weeklong": {
+      "data-frequency": "623",
+      "data-relevance": "71",
+      "data-term": "weeklong",
+      "data-encoded-term": "weeklong",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "623",
+        "ol",
+        "1"
+      ]
+    },
+    "barnstorm": {
+      "data-frequency": "121",
+      "data-relevance": "70",
+      "data-term": "barnstorm",
+      "data-encoded-term": "barnstorm",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "121",
+        "ol",
+        "1"
+      ]
+    },
+    "drumbeat": {
+      "data-frequency": "571",
+      "data-relevance": "69",
+      "data-term": "drumbeat",
+      "data-encoded-term": "drumbeat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "571",
+        "ol",
+        "1"
+      ]
+    },
+    "catnaps": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "catnaps",
+      "data-encoded-term": "catnaps",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "jetting": {
+      "data-frequency": "363",
+      "data-relevance": "67",
+      "data-term": "jetting",
+      "data-encoded-term": "jetting",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "363",
+        "ol",
+        "1"
+      ]
+    },
+    "hellacious": {
+      "data-frequency": "57",
+      "data-relevance": "66",
+      "data-term": "hellacious",
+      "data-encoded-term": "hellacious",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "57",
+        "ol",
+        "1"
+      ]
+    },
+    "frangible": {
+      "data-frequency": "114",
+      "data-relevance": "65",
+      "data-term": "frangible",
+      "data-encoded-term": "frangible",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "114",
+        "cn5",
+        "1"
+      ]
+    },
+    "stayer": {
+      "data-frequency": "429",
+      "data-relevance": "64",
+      "data-term": "stayer",
+      "data-encoded-term": "stayer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "429",
+        "cn5",
+        "1"
+      ]
+    },
+    "toburst": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "toburst",
+      "data-encoded-term": "toburst",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "instop": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "instop",
+      "data-encoded-term": "instop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "oathbreach": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "oathbreach",
+      "data-encoded-term": "oathbreach",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "refracture": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "refracture",
+      "data-encoded-term": "refracture",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gnide": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "gnide",
+      "data-encoded-term": "gnide",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "forgnide": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "forgnide",
+      "data-encoded-term": "forgnide",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "heckle": {
+      "data-frequency": "427",
+      "data-relevance": "57",
+      "data-term": "heckle",
+      "data-encoded-term": "heckle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "427",
+        "cn5",
+        "1"
+      ]
+    },
+    "astand": {
+      "data-frequency": "113",
+      "data-relevance": "56",
+      "data-term": "astand",
+      "data-encoded-term": "astand",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "113",
+        "cn5",
+        "1"
+      ]
+    },
+    "icebreaking": {
+      "data-frequency": "325",
+      "data-relevance": "55",
+      "data-term": "icebreaking",
+      "data-encoded-term": "icebreaking",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "325",
+        "cn5",
+        "1"
+      ]
+    },
+    "pit stop": {
+      "data-frequency": "1964",
+      "data-relevance": "54",
+      "data-term": "pit stop",
+      "data-encoded-term": "pit%20stop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1964",
+        "cn5",
+        "1"
+      ]
+    },
+    "banjaxed": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "banjaxed",
+      "data-encoded-term": "banjaxed",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop over": {
+      "data-frequency": "657",
+      "data-relevance": "52",
+      "data-term": "stop over",
+      "data-encoded-term": "stop%20over",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "657",
+        "cn5",
+        "1"
+      ]
+    },
+    "burstenness": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "burstenness",
+      "data-encoded-term": "burstenness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "violable": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "violable",
+      "data-encoded-term": "violable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "load zone": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "load zone",
+      "data-encoded-term": "load%20zone",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sneap": {
+      "data-frequency": "196",
+      "data-relevance": "48",
+      "data-term": "sneap",
+      "data-encoded-term": "sneap",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "196",
+        "cn5",
+        "1"
+      ]
+    },
+    "impedimental": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "impedimental",
+      "data-encoded-term": "impedimental",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "obstructionist": {
+      "data-frequency": "153",
+      "data-relevance": "46",
+      "data-term": "obstructionist",
+      "data-encoded-term": "obstructionist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "153",
+        "cn5",
+        "1"
+      ]
+    },
+    "cracky": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "cracky",
+      "data-encoded-term": "cracky",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "take five": {
+      "data-frequency": "950",
+      "data-relevance": "44",
+      "data-term": "take five",
+      "data-encoded-term": "take%20five",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "950",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop car": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "stop car",
+      "data-encoded-term": "stop%20car",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unstanchable": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "unstanchable",
+      "data-encoded-term": "unstanchable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "come to end": {
+      "data-frequency": "76",
+      "data-relevance": "41",
+      "data-term": "come to end",
+      "data-encoded-term": "come%20to%20end",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "break off": {
+      "data-frequency": "2513",
+      "data-relevance": "40",
+      "data-term": "break off",
+      "data-encoded-term": "break%20off",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2513",
+        "cn5",
+        "1"
+      ]
+    },
+    "double stop": {
+      "data-frequency": "57",
+      "data-relevance": "39",
+      "data-term": "double stop",
+      "data-encoded-term": "double%20stop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "57",
+        "cn5",
+        "1"
+      ]
+    },
+    "flag down": {
+      "data-frequency": "180",
+      "data-relevance": "38",
+      "data-term": "flag down",
+      "data-encoded-term": "flag%20down",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "180",
+        "cn5",
+        "1"
+      ]
+    },
+    "call it quit": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "call it quit",
+      "data-encoded-term": "call%20it%20quit",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop your bicycle": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "stop your bicycle",
+      "data-encoded-term": "stop%20your%20bicycle",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "go against": {
+      "data-frequency": "1598",
+      "data-relevance": "35",
+      "data-term": "go against",
+      "data-encoded-term": "go%20against",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1598",
+        "cn5",
+        "1"
+      ]
+    },
+    "half break": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "half break",
+      "data-encoded-term": "half%20break",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bog down": {
+      "data-frequency": "133",
+      "data-relevance": "33",
+      "data-term": "bog down",
+      "data-encoded-term": "bog%20down",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "133",
+        "cn5",
+        "1"
+      ]
+    },
+    "put off": {
+      "data-frequency": "2364",
+      "data-relevance": "32",
+      "data-term": "put off",
+      "data-encoded-term": "put%20off",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2364",
+        "cn5",
+        "1"
+      ]
+    },
+    "step back": {
+      "data-frequency": "2145",
+      "data-relevance": "31",
+      "data-term": "step back",
+      "data-encoded-term": "step%20back",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2145",
+        "cn5",
+        "1"
+      ]
+    },
+    "geological fault": {
+      "data-frequency": "239",
+      "data-relevance": "30",
+      "data-term": "geological fault",
+      "data-encoded-term": "geological%20fault",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "239",
+        "cn5",
+        "1"
+      ]
+    },
+    "redeye flight": {
+      "data-frequency": "80",
+      "data-relevance": "29",
+      "data-term": "redeye flight",
+      "data-encoded-term": "redeye%20flight",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "break in": {
+      "data-frequency": "11522",
+      "data-relevance": "28",
+      "data-term": "break in",
+      "data-encoded-term": "break%20in",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "11522",
+        "cn5",
+        "1"
+      ]
+    },
+    "just second": {
+      "data-frequency": "55",
+      "data-relevance": "27",
+      "data-term": "just second",
+      "data-encoded-term": "just%20second",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "55",
+        "cn5",
+        "1"
+      ]
+    },
+    "delta connection": {
+      "data-frequency": "5675",
+      "data-relevance": "26",
+      "data-term": "delta connection",
+      "data-encoded-term": "delta%20connection",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "5675",
+        "ol",
+        "1"
+      ]
+    },
+    "goose pimple": {
+      "data-frequency": "72",
+      "data-relevance": "25",
+      "data-term": "goose pimple",
+      "data-encoded-term": "goose%20pimple",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "72",
+        "ol",
+        "1"
+      ]
+    },
+    "reach impasse": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "reach impasse",
+      "data-encoded-term": "reach%20impasse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "winter break": {
+      "data-frequency": "2088",
+      "data-relevance": "23",
+      "data-term": "winter break",
+      "data-encoded-term": "winter%20break",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2088",
+        "cn5",
+        "1"
+      ]
+    },
+    "lucky lindy": {
+      "data-frequency": "-1",
+      "data-relevance": "22",
+      "data-term": "lucky lindy",
+      "data-encoded-term": "lucky%20lindy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "seize up": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "seize up",
+      "data-encoded-term": "seize%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "get off": {
+      "data-frequency": "3947",
+      "data-relevance": "20",
+      "data-term": "get off",
+      "data-encoded-term": "get%20off",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3947",
+        "cn5",
+        "1"
+      ]
+    },
+    "rein in": {
+      "data-frequency": "1012",
+      "data-relevance": "19",
+      "data-term": "rein in",
+      "data-encoded-term": "rein%20in",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1012",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop sign": {
+      "data-frequency": "684",
+      "data-relevance": "18",
+      "data-term": "stop sign",
+      "data-encoded-term": "stop%20sign",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "684",
+        "cn5",
+        "1"
+      ]
+    },
+    "break down": {
+      "data-frequency": "6831",
+      "data-relevance": "17",
+      "data-term": "break down",
+      "data-encoded-term": "break%20down",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6831",
+        "cn5",
+        "1"
+      ]
+    },
+    "circuit breaker": {
+      "data-frequency": "494",
+      "data-relevance": "16",
+      "data-term": "circuit breaker",
+      "data-encoded-term": "circuit%20breaker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "494",
+        "cn5",
+        "1"
+      ]
+    },
+    "hold back": {
+      "data-frequency": "2339",
+      "data-relevance": "15",
+      "data-term": "hold back",
+      "data-encoded-term": "hold%20back",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2339",
+        "cn5",
+        "1"
+      ]
+    },
+    "time out": {
+      "data-frequency": "11289",
+      "data-relevance": "14",
+      "data-term": "time out",
+      "data-encoded-term": "time%20out",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "11289",
+        "cn5",
+        "1"
+      ]
+    },
+    "draw up": {
+      "data-frequency": "2204",
+      "data-relevance": "13",
+      "data-term": "draw up",
+      "data-encoded-term": "draw%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2204",
+        "cn5",
+        "1"
+      ]
+    },
+    "duck dive": {
+      "data-frequency": "-1",
+      "data-relevance": "12",
+      "data-term": "duck dive",
+      "data-encoded-term": "duck%20dive",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cut in": {
+      "data-frequency": "8591",
+      "data-relevance": "11",
+      "data-term": "cut in",
+      "data-encoded-term": "cut%20in",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8591",
+        "cn5",
+        "1"
+      ]
+    },
+    "bugger up": {
+      "data-frequency": "-1",
+      "data-relevance": "10",
+      "data-term": "bugger up",
+      "data-encoded-term": "bugger%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "beach break": {
+      "data-frequency": "76",
+      "data-relevance": "9",
+      "data-term": "beach break",
+      "data-encoded-term": "beach%20break",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "lucky break": {
+      "data-frequency": "319",
+      "data-relevance": "8",
+      "data-term": "lucky break",
+      "data-encoded-term": "lucky%20break",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "319",
+        "cn5",
+        "1"
+      ]
+    },
+    "cut short": {
+      "data-frequency": "7853",
+      "data-relevance": "7",
+      "data-term": "cut short",
+      "data-encoded-term": "cut%20short",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7853",
+        "cn5",
+        "1"
+      ]
+    },
+    "hold phone": {
+      "data-frequency": "-1",
+      "data-relevance": "6",
+      "data-term": "hold phone",
+      "data-encoded-term": "hold%20phone",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "put pay to": {
+      "data-frequency": "-1",
+      "data-relevance": "5",
+      "data-term": "put pay to",
+      "data-encoded-term": "put%20pay%20to",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "voice onset time": {
+      "data-frequency": "50",
+      "data-relevance": "4",
+      "data-term": "voice onset time",
+      "data-encoded-term": "voice%20onset%20time",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "break through": {
+      "data-frequency": "5264",
+      "data-relevance": "3",
+      "data-term": "break through",
+      "data-encoded-term": "break%20through",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5264",
+        "cn5",
+        "1"
+      ]
+    },
+    "leave off": {
+      "data-frequency": "156",
+      "data-relevance": "2",
+      "data-term": "leave off",
+      "data-encoded-term": "leave%20off",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "break vessel": {
+      "data-frequency": "-1",
+      "data-relevance": "1",
+      "data-term": "break vessel",
+      "data-encoded-term": "break%20vessel",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "f stop": {
+      "data-frequency": "177",
+      "data-relevance": "0",
+      "data-term": "f stop",
+      "data-encoded-term": "f%20stop",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "She talked nonstop for over an hour.",
+        "ru": "Она целый час болтала без умолку."
+      },
+      {
+        "en": "We are flying nonstop from New York to Tokyo.",
+        "ru": "Мы осуществляем беспосадочный перелёт из Нью-Йорка в Токио."
+      },
+      {
+        "en": "Nonstop negotiations in an eleventh-hour attempt to avert a strike.",
+        "ru": "Целью этих переговоров, идущих одиннадцать часов без перерыва, является предотвращение забастовки."
+      },
+      {
+        "en": "The nonstop torrential rains were threatening to produce an alluvion of biblical proportions.",
+        "ru": "Бесконечные проливные дожди грозили привести к потопу библейских масштабов."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "nonstops"
+    ],
+    "synonyms": [
+      "around-the-clock"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "direct"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "direct",
+      "around-the-clock",
+      "flight",
+      "continuous",
+      "stop",
+      "nonstops",
+      "round-the-clock",
+      "day-and-night",
+      "express",
+      "non-stop",
+      "uninterrupted",
+      "interruption",
+      "dolphin",
+      "break"
+    ]
+  }
+}

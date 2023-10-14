@@ -1,0 +1,6547 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "night": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatient/n/,/c/en/night/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatient/n",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatient"
+        },
+        "end": {
+          "@id": "/c/en/night",
+          "@type": "Node",
+          "label": "night",
+          "language": "en",
+          "term": "/c/en/night"
+        }
+      },
+      "hospitalization": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/hospitalization/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hospitalization",
+          "@type": "Node",
+          "label": "hospitalization",
+          "language": "en",
+          "term": "/c/en/hospitalization"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      },
+      "hospital": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatient/n/,/c/en/hospital/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatient/n",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatient"
+        },
+        "end": {
+          "@id": "/c/en/hospital",
+          "@type": "Node",
+          "label": "hospital",
+          "language": "en",
+          "term": "/c/en/hospital"
+        }
+      },
+      "patient": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatient/n/,/c/en/patient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatient/n",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatient"
+        },
+        "end": {
+          "@id": "/c/en/patient",
+          "@type": "Node",
+          "label": "patient",
+          "language": "en",
+          "term": "/c/en/patient"
+        }
+      },
+      "inpatients": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatients/n/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatients/n",
+          "@type": "Node",
+          "label": "inpatients",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatients"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      },
+      "residence": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatient/n/,/c/en/residence/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatient/n",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatient"
+        },
+        "end": {
+          "@id": "/c/en/residence",
+          "@type": "Node",
+          "label": "residence",
+          "language": "en",
+          "term": "/c/en/residence"
+        }
+      },
+      "treatment": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatient/n/,/c/en/treatment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatient/n",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatient"
+        },
+        "end": {
+          "@id": "/c/en/treatment",
+          "@type": "Node",
+          "label": "treatment",
+          "language": "en",
+          "term": "/c/en/treatment"
+        }
+      },
+      "ward round": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/ward_round/n/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/ward_round/n",
+          "@type": "Node",
+          "label": "ward round",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/ward_round"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      },
+      "noninpatient": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/noninpatient/n/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/noninpatient/n",
+          "@type": "Node",
+          "label": "noninpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/noninpatient"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      },
+      "hospitalize": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inpatient/n/,/c/en/hospitalize/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatient/n",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatient"
+        },
+        "end": {
+          "@id": "/c/en/hospitalize",
+          "@type": "Node",
+          "label": "hospitalize",
+          "language": "en",
+          "term": "/c/en/hospitalize"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "inmate": {
+        "@id": "/a/[/r/Synonym/,/c/en/inmate/n/wn/person/,/c/en/inpatient/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/inmate/n/wn/person",
+          "@type": "Node",
+          "label": "inmate",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/inmate"
+        },
+        "end": {
+          "@id": "/c/en/inpatient/n/wn/person",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/inpatient"
+        }
+      }
+    },
+    "antonyms": {
+      "outpatient": {
+        "@id": "/a/[/r/Antonym/,/c/en/outpatient/n/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/outpatient/n",
+          "@type": "Node",
+          "label": "outpatient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/outpatient"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      }
+    },
+    "similar_terms": {},
+    "word_forms": {
+      "in patient": {
+        "@id": "/a/[/r/FormOf/,/c/en/in_patient/n/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/in_patient/n",
+          "@type": "Node",
+          "label": "in patient",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/in_patient"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      },
+      "inpatients": {
+        "@id": "/a/[/r/FormOf/,/c/en/inpatients/n/,/c/en/inpatient/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inpatients/n",
+          "@type": "Node",
+          "label": "inpatients",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inpatients"
+        },
+        "end": {
+          "@id": "/c/en/inpatient",
+          "@type": "Node",
+          "label": "inpatient",
+          "language": "en",
+          "term": "/c/en/inpatient"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "outpatient": {
+      "data-frequency": "4058",
+      "data-relevance": "443",
+      "data-term": "outpatient",
+      "data-encoded-term": "outpatient",
+      "data-term-stats": [
+        "1",
+        "9.1",
+        "0.000",
+        "4058",
+        "cn5,ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "patient": {
+      "data-frequency": "39978",
+      "data-relevance": "442",
+      "data-term": "patient",
+      "data-encoded-term": "patient",
+      "data-term-stats": [
+        "1",
+        "10.9",
+        "0.000",
+        "39978",
+        "cn5,w2v,wn|reverse-net",
+        "1"
+      ]
+    },
+    "health care": {
+      "data-frequency": "33809",
+      "data-relevance": "441",
+      "data-term": "health care",
+      "data-encoded-term": "health%20care",
+      "data-term-stats": [
+        "1",
+        "7.9",
+        "0.000",
+        "33809",
+        "cn5,ol,wiki",
+        "1"
+      ]
+    },
+    "psychiatric": {
+      "data-frequency": "15383",
+      "data-relevance": "440",
+      "data-term": "psychiatric",
+      "data-encoded-term": "psychiatric",
+      "data-term-stats": [
+        "1",
+        "5.7",
+        "0.000",
+        "15383",
+        "ol,w2v,wiki|reverse-net",
+        "1"
+      ]
+    },
+    "clinical": {
+      "data-frequency": "69561",
+      "data-relevance": "439",
+      "data-term": "clinical",
+      "data-encoded-term": "clinical",
+      "data-term-stats": [
+        "1",
+        "3.7",
+        "0.000",
+        "69561",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "physician": {
+      "data-frequency": "67821",
+      "data-relevance": "438",
+      "data-term": "physician",
+      "data-encoded-term": "physician",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "67821",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "therapy": {
+      "data-frequency": "47239",
+      "data-relevance": "437",
+      "data-term": "therapy",
+      "data-encoded-term": "therapy",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "47239",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "surgical": {
+      "data-frequency": "20367",
+      "data-relevance": "436",
+      "data-term": "surgical",
+      "data-encoded-term": "surgical",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "20367",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "veterinarian": {
+      "data-frequency": "3662",
+      "data-relevance": "435",
+      "data-term": "veterinarian",
+      "data-encoded-term": "veterinarian",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "3662",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "inmate": {
+      "data-frequency": "6909",
+      "data-relevance": "434",
+      "data-term": "inmate",
+      "data-encoded-term": "inmate",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "6909",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "palliative": {
+      "data-frequency": "2001",
+      "data-relevance": "433",
+      "data-term": "palliative",
+      "data-encoded-term": "palliative",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "2001",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "medication": {
+      "data-frequency": "12650",
+      "data-relevance": "432",
+      "data-term": "medication",
+      "data-encoded-term": "medication",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "12650",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "clinic": {
+      "data-frequency": "28526",
+      "data-relevance": "431",
+      "data-term": "clinic",
+      "data-encoded-term": "clinic",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "28526",
+        "cn5,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "surgeon": {
+      "data-frequency": "31099",
+      "data-relevance": "430",
+      "data-term": "surgeon",
+      "data-encoded-term": "surgeon",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "31099",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "medical": {
+      "data-frequency": "235006",
+      "data-relevance": "429",
+      "data-term": "medical",
+      "data-encoded-term": "medical",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "235006",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "hospitalization": {
+      "data-frequency": "2596",
+      "data-relevance": "428",
+      "data-term": "hospitalization",
+      "data-encoded-term": "hospitalization",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "2596",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "ambulatory": {
+      "data-frequency": "2173",
+      "data-relevance": "427",
+      "data-term": "ambulatory",
+      "data-encoded-term": "ambulatory",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "2173",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "nonmedical": {
+      "data-frequency": "132",
+      "data-relevance": "426",
+      "data-term": "nonmedical",
+      "data-encoded-term": "nonmedical",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "132",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "geriatric": {
+      "data-frequency": "1749",
+      "data-relevance": "425",
+      "data-term": "geriatric",
+      "data-encoded-term": "geriatric",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "1749",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "rehabilitative": {
+      "data-frequency": "712",
+      "data-relevance": "424",
+      "data-term": "rehabilitative",
+      "data-encoded-term": "rehabilitative",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "712",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "neonatal": {
+      "data-frequency": "3384",
+      "data-relevance": "423",
+      "data-term": "neonatal",
+      "data-encoded-term": "neonatal",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "3384",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "pediatric": {
+      "data-frequency": "8166",
+      "data-relevance": "422",
+      "data-term": "pediatric",
+      "data-encoded-term": "pediatric",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "8166",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "postoperative": {
+      "data-frequency": "990",
+      "data-relevance": "421",
+      "data-term": "postoperative",
+      "data-encoded-term": "postoperative",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "990",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "nurse practitioner": {
+      "data-frequency": "479",
+      "data-relevance": "420",
+      "data-term": "nurse practitioner",
+      "data-encoded-term": "nurse%20practitioner",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "479",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "residential": {
+      "data-frequency": "81846",
+      "data-relevance": "419",
+      "data-term": "residential",
+      "data-encoded-term": "residential",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "81846",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hospital": {
+      "data-frequency": "243764",
+      "data-relevance": "418",
+      "data-term": "hospital",
+      "data-encoded-term": "hospital",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "243764",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "prescription drug": {
+      "data-frequency": "1177",
+      "data-relevance": "417",
+      "data-term": "prescription drug",
+      "data-encoded-term": "prescription%20drug",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1177",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "detox": {
+      "data-frequency": "813",
+      "data-relevance": "416",
+      "data-term": "detox",
+      "data-encoded-term": "detox",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "813",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "intensive care unit": {
+      "data-frequency": "1903",
+      "data-relevance": "415",
+      "data-term": "intensive care unit",
+      "data-encoded-term": "intensive%20care%20unit",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1903",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "convalescent": {
+      "data-frequency": "2127",
+      "data-relevance": "414",
+      "data-term": "convalescent",
+      "data-encoded-term": "convalescent",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "2127",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "domiciliary": {
+      "data-frequency": "212",
+      "data-relevance": "413",
+      "data-term": "domiciliary",
+      "data-encoded-term": "domiciliary",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "212",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "indigent": {
+      "data-frequency": "1693",
+      "data-relevance": "412",
+      "data-term": "indigent",
+      "data-encoded-term": "indigent",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1693",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "referral": {
+      "data-frequency": "6119",
+      "data-relevance": "411",
+      "data-term": "referral",
+      "data-encoded-term": "referral",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "6119",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "md": {
+      "data-frequency": "60498",
+      "data-relevance": "410",
+      "data-term": "md",
+      "data-encoded-term": "md",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "60498",
+        "cn5",
+        "1"
+      ]
+    },
+    "health care provider": {
+      "data-frequency": "508",
+      "data-relevance": "409",
+      "data-term": "health care provider",
+      "data-encoded-term": "health%20care%20provider",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "508",
+        "wiki",
+        "1"
+      ]
+    },
+    "medico": {
+      "data-frequency": "3462",
+      "data-relevance": "408",
+      "data-term": "medico",
+      "data-encoded-term": "medico",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3462",
+        "cn5",
+        "1"
+      ]
+    },
+    "gp": {
+      "data-frequency": "47186",
+      "data-relevance": "407",
+      "data-term": "gp",
+      "data-encoded-term": "gp",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "47186",
+        "cn5",
+        "1"
+      ]
+    },
+    "dd": {
+      "data-frequency": "16197",
+      "data-relevance": "406",
+      "data-term": "dd",
+      "data-encoded-term": "dd",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "16197",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "acute": {
+      "data-frequency": "24964",
+      "data-relevance": "405",
+      "data-term": "acute",
+      "data-encoded-term": "acute",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "24964",
+        "ol",
+        "1"
+      ]
+    },
+    "doctoral": {
+      "data-frequency": "48757",
+      "data-relevance": "404",
+      "data-term": "doctoral",
+      "data-encoded-term": "doctoral",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "48757",
+        "cn5",
+        "1"
+      ]
+    },
+    "pathologist": {
+      "data-frequency": "4467",
+      "data-relevance": "403",
+      "data-term": "pathologist",
+      "data-encoded-term": "pathologist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4467",
+        "cn5",
+        "1"
+      ]
+    },
+    "referrals": {
+      "data-frequency": "1513",
+      "data-relevance": "402",
+      "data-term": "referrals",
+      "data-encoded-term": "referrals",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "1513",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "illness": {
+      "data-frequency": "60282",
+      "data-relevance": "401",
+      "data-term": "illness",
+      "data-encoded-term": "illness",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "60282",
+        "wiki",
+        "1"
+      ]
+    },
+    "patients": {
+      "data-frequency": "49881",
+      "data-relevance": "400",
+      "data-term": "patients",
+      "data-encoded-term": "patients",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "49881",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "sanatorium": {
+      "data-frequency": "4007",
+      "data-relevance": "399",
+      "data-term": "sanatorium",
+      "data-encoded-term": "sanatorium",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4007",
+        "cn5",
+        "1"
+      ]
+    },
+    "injured": {
+      "data-frequency": "101436",
+      "data-relevance": "398",
+      "data-term": "injured",
+      "data-encoded-term": "injured",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "101436",
+        "wiki",
+        "1"
+      ]
+    },
+    "psychologist": {
+      "data-frequency": "18302",
+      "data-relevance": "397",
+      "data-term": "psychologist",
+      "data-encoded-term": "psychologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "18302",
+        "wiki",
+        "1"
+      ]
+    },
+    "doctor": {
+      "data-frequency": "133338",
+      "data-relevance": "396",
+      "data-term": "doctor",
+      "data-encoded-term": "doctor",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "133338",
+        "cn5",
+        "1"
+      ]
+    },
+    "clinician": {
+      "data-frequency": "2124",
+      "data-relevance": "395",
+      "data-term": "clinician",
+      "data-encoded-term": "clinician",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2124",
+        "cn5",
+        "1"
+      ]
+    },
+    "multidoctor": {
+      "data-frequency": "-1",
+      "data-relevance": "394",
+      "data-term": "multidoctor",
+      "data-encoded-term": "multidoctor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "preterm infant": {
+      "data-frequency": "470",
+      "data-relevance": "393",
+      "data-term": "preterm infant",
+      "data-encoded-term": "preterm%20infant",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "470",
+        "ol",
+        "1"
+      ]
+    },
+    "political correctness": {
+      "data-frequency": "1692",
+      "data-relevance": "392",
+      "data-term": "political correctness",
+      "data-encoded-term": "political%20correctness",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1692",
+        "wiki",
+        "1"
+      ]
+    },
+    "veterinary medicine": {
+      "data-frequency": "5307",
+      "data-relevance": "391",
+      "data-term": "veterinary medicine",
+      "data-encoded-term": "veterinary%20medicine",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "5307",
+        "wiki",
+        "1"
+      ]
+    },
+    "doctor-patient relationship": {
+      "data-frequency": "149",
+      "data-relevance": "390",
+      "data-term": "doctor-patient relationship",
+      "data-encoded-term": "doctor-patient%20relationship",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "149",
+        "wiki",
+        "1"
+      ]
+    },
+    "patient satisfaction": {
+      "data-frequency": "258",
+      "data-relevance": "389",
+      "data-term": "patient satisfaction",
+      "data-encoded-term": "patient%20satisfaction",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "258",
+        "wiki",
+        "1"
+      ]
+    },
+    "winterbourne view hospital abuse": {
+      "data-frequency": "-1",
+      "data-relevance": "388",
+      "data-term": "winterbourne view hospital abuse",
+      "data-encoded-term": "winterbourne%20view%20hospital%20abuse",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "self-report study": {
+      "data-frequency": "-1",
+      "data-relevance": "387",
+      "data-term": "self-report study",
+      "data-encoded-term": "self-report%20study",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "customer satisfaction": {
+      "data-frequency": "946",
+      "data-relevance": "386",
+      "data-term": "customer satisfaction",
+      "data-encoded-term": "customer%20satisfaction",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "946",
+        "wiki",
+        "1"
+      ]
+    },
+    "dermatologist": {
+      "data-frequency": "1170",
+      "data-relevance": "385",
+      "data-term": "dermatologist",
+      "data-encoded-term": "dermatologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1170",
+        "cn5",
+        "1"
+      ]
+    },
+    "oncologist": {
+      "data-frequency": "1268",
+      "data-relevance": "384",
+      "data-term": "oncologist",
+      "data-encoded-term": "oncologist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1268",
+        "cn5",
+        "1"
+      ]
+    },
+    "medic": {
+      "data-frequency": "4023",
+      "data-relevance": "383",
+      "data-term": "medic",
+      "data-encoded-term": "medic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4023",
+        "cn5",
+        "1"
+      ]
+    },
+    "rehab": {
+      "data-frequency": "7691",
+      "data-relevance": "382",
+      "data-term": "rehab",
+      "data-encoded-term": "rehab",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7691",
+        "w2v",
+        "1"
+      ]
+    },
+    "icu": {
+      "data-frequency": "2220",
+      "data-relevance": "381",
+      "data-term": "icu",
+      "data-encoded-term": "icu",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2220",
+        "w2v",
+        "1"
+      ]
+    },
+    "healer": {
+      "data-frequency": "4248",
+      "data-relevance": "380",
+      "data-term": "healer",
+      "data-encoded-term": "healer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4248",
+        "cn5",
+        "1"
+      ]
+    },
+    "obstetrician": {
+      "data-frequency": "1796",
+      "data-relevance": "379",
+      "data-term": "obstetrician",
+      "data-encoded-term": "obstetrician",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1796",
+        "cn5",
+        "1"
+      ]
+    },
+    "harvey": {
+      "data-frequency": "73473",
+      "data-relevance": "378",
+      "data-term": "harvey",
+      "data-encoded-term": "harvey",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "73473",
+        "cn5",
+        "1"
+      ]
+    },
+    "neurologist": {
+      "data-frequency": "3104",
+      "data-relevance": "377",
+      "data-term": "neurologist",
+      "data-encoded-term": "neurologist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3104",
+        "cn5",
+        "1"
+      ]
+    },
+    "hodgkin": {
+      "data-frequency": "1838",
+      "data-relevance": "376",
+      "data-term": "hodgkin",
+      "data-encoded-term": "hodgkin",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1838",
+        "cn5",
+        "1"
+      ]
+    },
+    "dr": {
+      "data-frequency": "300992",
+      "data-relevance": "375",
+      "data-term": "dr",
+      "data-encoded-term": "dr",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "300992",
+        "cn5",
+        "1"
+      ]
+    },
+    "schweitzer": {
+      "data-frequency": "5193",
+      "data-relevance": "374",
+      "data-term": "schweitzer",
+      "data-encoded-term": "schweitzer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5193",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicine": {
+      "data-frequency": "179520",
+      "data-relevance": "373",
+      "data-term": "medicine",
+      "data-encoded-term": "medicine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "179520",
+        "cn5",
+        "1"
+      ]
+    },
+    "avicenna": {
+      "data-frequency": "1576",
+      "data-relevance": "372",
+      "data-term": "avicenna",
+      "data-encoded-term": "avicenna",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1576",
+        "cn5",
+        "1"
+      ]
+    },
+    "veterinary": {
+      "data-frequency": "17412",
+      "data-relevance": "371",
+      "data-term": "veterinary",
+      "data-encoded-term": "veterinary",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "17412",
+        "cn5",
+        "1"
+      ]
+    },
+    "syringe": {
+      "data-frequency": "1494",
+      "data-relevance": "370",
+      "data-term": "syringe",
+      "data-encoded-term": "syringe",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1494",
+        "cn5",
+        "1"
+      ]
+    },
+    "cardiologist": {
+      "data-frequency": "1862",
+      "data-relevance": "369",
+      "data-term": "cardiologist",
+      "data-encoded-term": "cardiologist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1862",
+        "cn5",
+        "1"
+      ]
+    },
+    "bedside": {
+      "data-frequency": "3223",
+      "data-relevance": "368",
+      "data-term": "bedside",
+      "data-encoded-term": "bedside",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3223",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "apc": {
+      "data-frequency": "4657",
+      "data-relevance": "367",
+      "data-term": "apc",
+      "data-encoded-term": "apc",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4657",
+        "cn5",
+        "1"
+      ]
+    },
+    "doc": {
+      "data-frequency": "38607",
+      "data-relevance": "366",
+      "data-term": "doc",
+      "data-encoded-term": "doc",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "38607",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticoagulant": {
+      "data-frequency": "584",
+      "data-relevance": "365",
+      "data-term": "anticoagulant",
+      "data-encoded-term": "anticoagulant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "584",
+        "cn5",
+        "1"
+      ]
+    },
+    "intensive": {
+      "data-frequency": "28850",
+      "data-relevance": "364",
+      "data-term": "intensive",
+      "data-encoded-term": "intensive",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "28850",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "paregoric": {
+      "data-frequency": "255",
+      "data-relevance": "363",
+      "data-term": "paregoric",
+      "data-encoded-term": "paregoric",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "255",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency": {
+      "data-frequency": "76576",
+      "data-relevance": "362",
+      "data-term": "emergency",
+      "data-encoded-term": "emergency",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "76576",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "patiently": {
+      "data-frequency": "1577",
+      "data-relevance": "361",
+      "data-term": "patiently",
+      "data-encoded-term": "patiently",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1577",
+        "cn5",
+        "1"
+      ]
+    },
+    "radiotherapy": {
+      "data-frequency": "1623",
+      "data-relevance": "360",
+      "data-term": "radiotherapy",
+      "data-encoded-term": "radiotherapy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1623",
+        "cn5",
+        "1"
+      ]
+    },
+    "ward": {
+      "data-frequency": "129965",
+      "data-relevance": "359",
+      "data-term": "ward",
+      "data-encoded-term": "ward",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "129965",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "care": {
+      "data-frequency": "177277",
+      "data-relevance": "358",
+      "data-term": "care",
+      "data-encoded-term": "care",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "177277",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "psychiatrist": {
+      "data-frequency": "11663",
+      "data-relevance": "357",
+      "data-term": "psychiatrist",
+      "data-encoded-term": "psychiatrist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11663",
+        "cn5",
+        "1"
+      ]
+    },
+    "oncology": {
+      "data-frequency": "7255",
+      "data-relevance": "356",
+      "data-term": "oncology",
+      "data-encoded-term": "oncology",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7255",
+        "cn5",
+        "1"
+      ]
+    },
+    "catatonic": {
+      "data-frequency": "1002",
+      "data-relevance": "355",
+      "data-term": "catatonic",
+      "data-encoded-term": "catatonic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1002",
+        "cn5",
+        "1"
+      ]
+    },
+    "snf": {
+      "data-frequency": "854",
+      "data-relevance": "354",
+      "data-term": "snf",
+      "data-encoded-term": "snf",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "854",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pediatrician": {
+      "data-frequency": "2297",
+      "data-relevance": "353",
+      "data-term": "pediatrician",
+      "data-encoded-term": "pediatrician",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2297",
+        "cn5",
+        "1"
+      ]
+    },
+    "gynecologist": {
+      "data-frequency": "1437",
+      "data-relevance": "352",
+      "data-term": "gynecologist",
+      "data-encoded-term": "gynecologist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1437",
+        "cn5",
+        "1"
+      ]
+    },
+    "ross": {
+      "data-frequency": "135316",
+      "data-relevance": "351",
+      "data-term": "ross",
+      "data-encoded-term": "ross",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "135316",
+        "cn5",
+        "1"
+      ]
+    },
+    "day": {
+      "data-frequency": "902693",
+      "data-relevance": "350",
+      "data-term": "day",
+      "data-encoded-term": "day",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "902693",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "home": {
+      "data-frequency": "929241",
+      "data-relevance": "349",
+      "data-term": "home",
+      "data-encoded-term": "home",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "929241",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "antihistamine": {
+      "data-frequency": "422",
+      "data-relevance": "348",
+      "data-term": "antihistamine",
+      "data-encoded-term": "antihistamine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "422",
+        "cn5",
+        "1"
+      ]
+    },
+    "placebo": {
+      "data-frequency": "3888",
+      "data-relevance": "347",
+      "data-term": "placebo",
+      "data-encoded-term": "placebo",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3888",
+        "cn5",
+        "1"
+      ]
+    },
+    "psych": {
+      "data-frequency": "3513",
+      "data-relevance": "346",
+      "data-term": "psych",
+      "data-encoded-term": "psych",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3513",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "nurse": {
+      "data-frequency": "44748",
+      "data-relevance": "345",
+      "data-term": "nurse",
+      "data-encoded-term": "nurse",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "44748",
+        "cn5",
+        "1"
+      ]
+    },
+    "nostrum": {
+      "data-frequency": "1284",
+      "data-relevance": "344",
+      "data-term": "nostrum",
+      "data-encoded-term": "nostrum",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1284",
+        "cn5",
+        "1"
+      ]
+    },
+    "diagnose": {
+      "data-frequency": "3857",
+      "data-relevance": "343",
+      "data-term": "diagnose",
+      "data-encoded-term": "diagnose",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3857",
+        "cn5",
+        "1"
+      ]
+    },
+    "php": {
+      "data-frequency": "90795",
+      "data-relevance": "342",
+      "data-term": "php",
+      "data-encoded-term": "php",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "90795",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "biomedicine": {
+      "data-frequency": "1704",
+      "data-relevance": "341",
+      "data-term": "biomedicine",
+      "data-encoded-term": "biomedicine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1704",
+        "cn5",
+        "1"
+      ]
+    },
+    "manson": {
+      "data-frequency": "8181",
+      "data-relevance": "340",
+      "data-term": "manson",
+      "data-encoded-term": "manson",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "8181",
+        "cn5",
+        "1"
+      ]
+    },
+    "hakim": {
+      "data-frequency": "8911",
+      "data-relevance": "339",
+      "data-term": "hakim",
+      "data-encoded-term": "hakim",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "8911",
+        "cn5",
+        "1"
+      ]
+    },
+    "critical": {
+      "data-frequency": "218546",
+      "data-relevance": "338",
+      "data-term": "critical",
+      "data-encoded-term": "critical",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "218546",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "treatment": {
+      "data-frequency": "128741",
+      "data-relevance": "337",
+      "data-term": "treatment",
+      "data-encoded-term": "treatment",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "128741",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "out": {
+      "data-frequency": "1172585",
+      "data-relevance": "336",
+      "data-term": "out",
+      "data-encoded-term": "out",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1172585",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "res": {
+      "data-frequency": "31332",
+      "data-relevance": "335",
+      "data-term": "res",
+      "data-encoded-term": "res",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "31332",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "partial": {
+      "data-frequency": "66476",
+      "data-relevance": "334",
+      "data-term": "partial",
+      "data-encoded-term": "partial",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "66476",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "crisis": {
+      "data-frequency": "130342",
+      "data-relevance": "333",
+      "data-term": "crisis",
+      "data-encoded-term": "crisis",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "130342",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "latin": {
+      "data-frequency": "197809",
+      "data-relevance": "332",
+      "data-term": "latin",
+      "data-encoded-term": "latin",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "197809",
+        "wiki",
+        "1"
+      ]
+    },
+    "therapeutic": {
+      "data-frequency": "13797",
+      "data-relevance": "331",
+      "data-term": "therapeutic",
+      "data-encoded-term": "therapeutic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "13797",
+        "cn5",
+        "1"
+      ]
+    },
+    "hospitalize": {
+      "data-frequency": "64",
+      "data-relevance": "330",
+      "data-term": "hospitalize",
+      "data-encoded-term": "hospitalize",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "64",
+        "cn5",
+        "1"
+      ]
+    },
+    "specialist": {
+      "data-frequency": "53823",
+      "data-relevance": "329",
+      "data-term": "specialist",
+      "data-encoded-term": "specialist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "53823",
+        "cn5",
+        "1"
+      ]
+    },
+    "hospitals": {
+      "data-frequency": "44407",
+      "data-relevance": "328",
+      "data-term": "hospitals",
+      "data-encoded-term": "hospitals",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44407",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "observation": {
+      "data-frequency": "52364",
+      "data-relevance": "327",
+      "data-term": "observation",
+      "data-encoded-term": "observation",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "52364",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "trauma": {
+      "data-frequency": "19192",
+      "data-relevance": "326",
+      "data-term": "trauma",
+      "data-encoded-term": "trauma",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "19192",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "retail": {
+      "data-frequency": "65163",
+      "data-relevance": "325",
+      "data-term": "retail",
+      "data-encoded-term": "retail",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "65163",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "overnight": {
+      "data-frequency": "22130",
+      "data-relevance": "324",
+      "data-term": "overnight",
+      "data-encoded-term": "overnight",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "22130",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "specialty": {
+      "data-frequency": "31460",
+      "data-relevance": "323",
+      "data-term": "specialty",
+      "data-encoded-term": "specialty",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "31460",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "community": {
+      "data-frequency": "540121",
+      "data-relevance": "322",
+      "data-term": "community",
+      "data-encoded-term": "community",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "540121",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hospitalist": {
+      "data-frequency": "57",
+      "data-relevance": "321",
+      "data-term": "hospitalist",
+      "data-encoded-term": "hospitalist",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "57",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "allergist": {
+      "data-frequency": "94",
+      "data-relevance": "320",
+      "data-term": "allergist",
+      "data-encoded-term": "allergist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "94",
+        "cn5",
+        "1"
+      ]
+    },
+    "prescriber": {
+      "data-frequency": "190",
+      "data-relevance": "319",
+      "data-term": "prescriber",
+      "data-encoded-term": "prescriber",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "190",
+        "cn5",
+        "1"
+      ]
+    },
+    "antidoctor": {
+      "data-frequency": "-1",
+      "data-relevance": "318",
+      "data-term": "antidoctor",
+      "data-encoded-term": "antidoctor",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nosocomial": {
+      "data-frequency": "233",
+      "data-relevance": "317",
+      "data-term": "nosocomial",
+      "data-encoded-term": "nosocomial",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "233",
+        "cn5",
+        "1"
+      ]
+    },
+    "nursing": {
+      "data-frequency": "32371",
+      "data-relevance": "316",
+      "data-term": "nursing",
+      "data-encoded-term": "nursing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32371",
+        "w2v",
+        "1"
+      ]
+    },
+    "medician": {
+      "data-frequency": "-1",
+      "data-relevance": "315",
+      "data-term": "medician",
+      "data-encoded-term": "medician",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctorish": {
+      "data-frequency": "-1",
+      "data-relevance": "314",
+      "data-term": "doctorish",
+      "data-encoded-term": "doctorish",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mental": {
+      "data-frequency": "61509",
+      "data-relevance": "313",
+      "data-term": "mental",
+      "data-encoded-term": "mental",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61509",
+        "w2v",
+        "1"
+      ]
+    },
+    "hospitalists": {
+      "data-frequency": "45",
+      "data-relevance": "312",
+      "data-term": "hospitalists",
+      "data-encoded-term": "hospitalists",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "45",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sober": {
+      "data-frequency": "5857",
+      "data-relevance": "311",
+      "data-term": "sober",
+      "data-encoded-term": "sober",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5857",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "ltc": {
+      "data-frequency": "1432",
+      "data-relevance": "310",
+      "data-term": "ltc",
+      "data-encoded-term": "ltc",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1432",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "therapist": {
+      "data-frequency": "6802",
+      "data-relevance": "309",
+      "data-term": "therapist",
+      "data-encoded-term": "therapist",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6802",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "programs": {
+      "data-frequency": "184193",
+      "data-relevance": "308",
+      "data-term": "programs",
+      "data-encoded-term": "programs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "184193",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "group": {
+      "data-frequency": "906315",
+      "data-relevance": "307",
+      "data-term": "group",
+      "data-encoded-term": "group",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "906315",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "surgery": {
+      "data-frequency": "65437",
+      "data-relevance": "306",
+      "data-term": "surgery",
+      "data-encoded-term": "surgery",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "65437",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "nondoctor": {
+      "data-frequency": "-1",
+      "data-relevance": "305",
+      "data-term": "nondoctor",
+      "data-encoded-term": "nondoctor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gastroenterologist": {
+      "data-frequency": "404",
+      "data-relevance": "304",
+      "data-term": "gastroenterologist",
+      "data-encoded-term": "gastroenterologist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "404",
+        "cn5",
+        "1"
+      ]
+    },
+    "nephrologist": {
+      "data-frequency": "288",
+      "data-relevance": "303",
+      "data-term": "nephrologist",
+      "data-encoded-term": "nephrologist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "288",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctorial": {
+      "data-frequency": "-1",
+      "data-relevance": "302",
+      "data-term": "doctorial",
+      "data-encoded-term": "doctorial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "virologist": {
+      "data-frequency": "960",
+      "data-relevance": "301",
+      "data-term": "virologist",
+      "data-encoded-term": "virologist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "960",
+        "cn5",
+        "1"
+      ]
+    },
+    "outpatients": {
+      "data-frequency": "727",
+      "data-relevance": "300",
+      "data-term": "outpatients",
+      "data-encoded-term": "outpatients",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "727",
+        "w2v",
+        "1"
+      ]
+    },
+    "doctorishness": {
+      "data-frequency": "-1",
+      "data-relevance": "299",
+      "data-term": "doctorishness",
+      "data-encoded-term": "doctorishness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "neuropsychologist": {
+      "data-frequency": "285",
+      "data-relevance": "298",
+      "data-term": "neuropsychologist",
+      "data-encoded-term": "neuropsychologist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "285",
+        "cn5",
+        "1"
+      ]
+    },
+    "wards": {
+      "data-frequency": "25004",
+      "data-relevance": "297",
+      "data-term": "wards",
+      "data-encoded-term": "wards",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25004",
+        "w2v",
+        "1"
+      ]
+    },
+    "iatro": {
+      "data-frequency": "-1",
+      "data-relevance": "296",
+      "data-term": "iatro",
+      "data-encoded-term": "iatro",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "admissions": {
+      "data-frequency": "12380",
+      "data-relevance": "295",
+      "data-term": "admissions",
+      "data-encoded-term": "admissions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12380",
+        "w2v",
+        "1"
+      ]
+    },
+    "podiatrist": {
+      "data-frequency": "214",
+      "data-relevance": "294",
+      "data-term": "podiatrist",
+      "data-encoded-term": "podiatrist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "214",
+        "wiki",
+        "1"
+      ]
+    },
+    "internist": {
+      "data-frequency": "578",
+      "data-relevance": "293",
+      "data-term": "internist",
+      "data-encoded-term": "internist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "578",
+        "cn5",
+        "1"
+      ]
+    },
+    "geriatrician": {
+      "data-frequency": "74",
+      "data-relevance": "292",
+      "data-term": "geriatrician",
+      "data-encoded-term": "geriatrician",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "74",
+        "cn5",
+        "1"
+      ]
+    },
+    "leechcraft": {
+      "data-frequency": "-1",
+      "data-relevance": "291",
+      "data-term": "leechcraft",
+      "data-encoded-term": "leechcraft",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pseudomedical": {
+      "data-frequency": "-1",
+      "data-relevance": "290",
+      "data-term": "pseudomedical",
+      "data-encoded-term": "pseudomedical",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "aesculapian": {
+      "data-frequency": "88",
+      "data-relevance": "289",
+      "data-term": "aesculapian",
+      "data-encoded-term": "aesculapian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "88",
+        "cn5",
+        "1"
+      ]
+    },
+    "venesect": {
+      "data-frequency": "-1",
+      "data-relevance": "288",
+      "data-term": "venesect",
+      "data-encoded-term": "venesect",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ethnomedicine": {
+      "data-frequency": "275",
+      "data-relevance": "287",
+      "data-term": "ethnomedicine",
+      "data-encoded-term": "ethnomedicine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "275",
+        "cn5",
+        "1"
+      ]
+    },
+    "counseling": {
+      "data-frequency": "12220",
+      "data-relevance": "286",
+      "data-term": "counseling",
+      "data-encoded-term": "counseling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12220",
+        "w2v",
+        "1"
+      ]
+    },
+    "maternity": {
+      "data-frequency": "7048",
+      "data-relevance": "285",
+      "data-term": "maternity",
+      "data-encoded-term": "maternity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7048",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "azathioprine": {
+      "data-frequency": "361",
+      "data-relevance": "284",
+      "data-term": "azathioprine",
+      "data-encoded-term": "azathioprine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "361",
+        "cn5",
+        "1"
+      ]
+    },
+    "hospice": {
+      "data-frequency": "4856",
+      "data-relevance": "283",
+      "data-term": "hospice",
+      "data-encoded-term": "hospice",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4856",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "clinics": {
+      "data-frequency": "12431",
+      "data-relevance": "282",
+      "data-term": "clinics",
+      "data-encoded-term": "clinics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12431",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "custodial": {
+      "data-frequency": "1500",
+      "data-relevance": "281",
+      "data-term": "custodial",
+      "data-encoded-term": "custodial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1500",
+        "w2v",
+        "1"
+      ]
+    },
+    "preventative": {
+      "data-frequency": "2608",
+      "data-relevance": "280",
+      "data-term": "preventative",
+      "data-encoded-term": "preventative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2608",
+        "w2v",
+        "1"
+      ]
+    },
+    "medicative": {
+      "data-frequency": "-1",
+      "data-relevance": "279",
+      "data-term": "medicative",
+      "data-encoded-term": "medicative",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "traumatology": {
+      "data-frequency": "433",
+      "data-relevance": "278",
+      "data-term": "traumatology",
+      "data-encoded-term": "traumatology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "433",
+        "cn5",
+        "1"
+      ]
+    },
+    "immunosuppressant": {
+      "data-frequency": "257",
+      "data-relevance": "277",
+      "data-term": "immunosuppressant",
+      "data-encoded-term": "immunosuppressant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "257",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicate": {
+      "data-frequency": "244",
+      "data-relevance": "276",
+      "data-term": "medicate",
+      "data-encoded-term": "medicate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "244",
+        "cn5",
+        "1"
+      ]
+    },
+    "premedical": {
+      "data-frequency": "154",
+      "data-relevance": "275",
+      "data-term": "premedical",
+      "data-encoded-term": "premedical",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "154",
+        "cn5",
+        "1"
+      ]
+    },
+    "neurotropic": {
+      "data-frequency": "191",
+      "data-relevance": "274",
+      "data-term": "neurotropic",
+      "data-encoded-term": "neurotropic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "191",
+        "cn5",
+        "1"
+      ]
+    },
+    "clonic": {
+      "data-frequency": "153",
+      "data-relevance": "273",
+      "data-term": "clonic",
+      "data-encoded-term": "clonic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "153",
+        "cn5",
+        "1"
+      ]
+    },
+    "proctologist": {
+      "data-frequency": "-1",
+      "data-relevance": "272",
+      "data-term": "proctologist",
+      "data-encoded-term": "proctologist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "abortionist": {
+      "data-frequency": "221",
+      "data-relevance": "271",
+      "data-term": "abortionist",
+      "data-encoded-term": "abortionist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "221",
+        "cn5",
+        "1"
+      ]
+    },
+    "noninvasive": {
+      "data-frequency": "736",
+      "data-relevance": "270",
+      "data-term": "noninvasive",
+      "data-encoded-term": "noninvasive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "736",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonprescription": {
+      "data-frequency": "93",
+      "data-relevance": "269",
+      "data-term": "nonprescription",
+      "data-encoded-term": "nonprescription",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "polychrest": {
+      "data-frequency": "-1",
+      "data-relevance": "268",
+      "data-term": "polychrest",
+      "data-encoded-term": "polychrest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "in-patient": {
+      "data-frequency": "1343",
+      "data-relevance": "267",
+      "data-term": "in-patient",
+      "data-encoded-term": "in-patient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1343",
+        "w2v",
+        "1"
+      ]
+    },
+    "neuropsychiatry": {
+      "data-frequency": "611",
+      "data-relevance": "266",
+      "data-term": "neuropsychiatry",
+      "data-encoded-term": "neuropsychiatry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "611",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiarrhythmic": {
+      "data-frequency": "227",
+      "data-relevance": "265",
+      "data-term": "antiarrhythmic",
+      "data-encoded-term": "antiarrhythmic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "227",
+        "cn5",
+        "1"
+      ]
+    },
+    "counterirritant": {
+      "data-frequency": "-1",
+      "data-relevance": "264",
+      "data-term": "counterirritant",
+      "data-encoded-term": "counterirritant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mercurialist": {
+      "data-frequency": "-1",
+      "data-relevance": "263",
+      "data-term": "mercurialist",
+      "data-encoded-term": "mercurialist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "vermifuge": {
+      "data-frequency": "44",
+      "data-relevance": "262",
+      "data-term": "vermifuge",
+      "data-encoded-term": "vermifuge",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "clofibrate": {
+      "data-frequency": "96",
+      "data-relevance": "261",
+      "data-term": "clofibrate",
+      "data-encoded-term": "clofibrate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticholinesterase": {
+      "data-frequency": "123",
+      "data-relevance": "260",
+      "data-term": "anticholinesterase",
+      "data-encoded-term": "anticholinesterase",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "123",
+        "cn5",
+        "1"
+      ]
+    },
+    "amrinone": {
+      "data-frequency": "96",
+      "data-relevance": "259",
+      "data-term": "amrinone",
+      "data-encoded-term": "amrinone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "sucralfate": {
+      "data-frequency": "42",
+      "data-relevance": "258",
+      "data-term": "sucralfate",
+      "data-encoded-term": "sucralfate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "42",
+        "cn5",
+        "1"
+      ]
+    },
+    "premedication": {
+      "data-frequency": "46",
+      "data-relevance": "257",
+      "data-term": "premedication",
+      "data-encoded-term": "premedication",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "antipyretic": {
+      "data-frequency": "181",
+      "data-relevance": "256",
+      "data-term": "antipyretic",
+      "data-encoded-term": "antipyretic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "181",
+        "cn5",
+        "1"
+      ]
+    },
+    "urinalysis": {
+      "data-frequency": "319",
+      "data-relevance": "255",
+      "data-term": "urinalysis",
+      "data-encoded-term": "urinalysis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "319",
+        "cn5",
+        "1"
+      ]
+    },
+    "potentiation": {
+      "data-frequency": "668",
+      "data-relevance": "254",
+      "data-term": "potentiation",
+      "data-encoded-term": "potentiation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "668",
+        "cn5",
+        "1"
+      ]
+    },
+    "physostigmine": {
+      "data-frequency": "299",
+      "data-relevance": "253",
+      "data-term": "physostigmine",
+      "data-encoded-term": "physostigmine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "299",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiprotozoal": {
+      "data-frequency": "139",
+      "data-relevance": "252",
+      "data-term": "antiprotozoal",
+      "data-encoded-term": "antiprotozoal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "139",
+        "cn5",
+        "1"
+      ]
+    },
+    "counselling": {
+      "data-frequency": "4985",
+      "data-relevance": "251",
+      "data-term": "counselling",
+      "data-encoded-term": "counselling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4985",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "nosology": {
+      "data-frequency": "151",
+      "data-relevance": "250",
+      "data-term": "nosology",
+      "data-encoded-term": "nosology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "151",
+        "cn5",
+        "1"
+      ]
+    },
+    "achromia": {
+      "data-frequency": "-1",
+      "data-relevance": "249",
+      "data-term": "achromia",
+      "data-encoded-term": "achromia",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "expectorant": {
+      "data-frequency": "118",
+      "data-relevance": "248",
+      "data-term": "expectorant",
+      "data-encoded-term": "expectorant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "118",
+        "cn5",
+        "1"
+      ]
+    },
+    "isosorbide": {
+      "data-frequency": "156",
+      "data-relevance": "247",
+      "data-term": "isosorbide",
+      "data-encoded-term": "isosorbide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "rehabilitation": {
+      "data-frequency": "27212",
+      "data-relevance": "246",
+      "data-term": "rehabilitation",
+      "data-encoded-term": "rehabilitation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27212",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "childcare": {
+      "data-frequency": "2946",
+      "data-relevance": "245",
+      "data-term": "childcare",
+      "data-encoded-term": "childcare",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2946",
+        "w2v",
+        "1"
+      ]
+    },
+    "isoproterenol": {
+      "data-frequency": "60",
+      "data-relevance": "244",
+      "data-term": "isoproterenol",
+      "data-encoded-term": "isoproterenol",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "probenecid": {
+      "data-frequency": "284",
+      "data-relevance": "243",
+      "data-term": "probenecid",
+      "data-encoded-term": "probenecid",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "284",
+        "cn5",
+        "1"
+      ]
+    },
+    "nanomedicine": {
+      "data-frequency": "790",
+      "data-relevance": "242",
+      "data-term": "nanomedicine",
+      "data-encoded-term": "nanomedicine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "790",
+        "cn5",
+        "1"
+      ]
+    },
+    "antidiuretic": {
+      "data-frequency": "171",
+      "data-relevance": "241",
+      "data-term": "antidiuretic",
+      "data-encoded-term": "antidiuretic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "171",
+        "cn5",
+        "1"
+      ]
+    },
+    "vermicide": {
+      "data-frequency": "-1",
+      "data-relevance": "240",
+      "data-term": "vermicide",
+      "data-encoded-term": "vermicide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiemetic": {
+      "data-frequency": "177",
+      "data-relevance": "239",
+      "data-term": "antiemetic",
+      "data-encoded-term": "antiemetic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "decongestant": {
+      "data-frequency": "140",
+      "data-relevance": "238",
+      "data-term": "decongestant",
+      "data-encoded-term": "decongestant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "140",
+        "cn5",
+        "1"
+      ]
+    },
+    "disulfiram": {
+      "data-frequency": "399",
+      "data-relevance": "237",
+      "data-term": "disulfiram",
+      "data-encoded-term": "disulfiram",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "399",
+        "cn5",
+        "1"
+      ]
+    },
+    "parenteral": {
+      "data-frequency": "705",
+      "data-relevance": "236",
+      "data-term": "parenteral",
+      "data-encoded-term": "parenteral",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "705",
+        "cn5",
+        "1"
+      ]
+    },
+    "tiamulin": {
+      "data-frequency": "-1",
+      "data-relevance": "235",
+      "data-term": "tiamulin",
+      "data-encoded-term": "tiamulin",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pentylenetetrazol": {
+      "data-frequency": "194",
+      "data-relevance": "234",
+      "data-term": "pentylenetetrazol",
+      "data-encoded-term": "pentylenetetrazol",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "194",
+        "cn5",
+        "1"
+      ]
+    },
+    "carminative": {
+      "data-frequency": "59",
+      "data-relevance": "233",
+      "data-term": "carminative",
+      "data-encoded-term": "carminative",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "acyclovir": {
+      "data-frequency": "105",
+      "data-relevance": "232",
+      "data-term": "acyclovir",
+      "data-encoded-term": "acyclovir",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "physicker": {
+      "data-frequency": "-1",
+      "data-relevance": "231",
+      "data-term": "physicker",
+      "data-encoded-term": "physicker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gemfibrozil": {
+      "data-frequency": "89",
+      "data-relevance": "230",
+      "data-term": "gemfibrozil",
+      "data-encoded-term": "gemfibrozil",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "89",
+        "cn5",
+        "1"
+      ]
+    },
+    "psychomedicine": {
+      "data-frequency": "-1",
+      "data-relevance": "229",
+      "data-term": "psychomedicine",
+      "data-encoded-term": "psychomedicine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "proctology": {
+      "data-frequency": "54",
+      "data-relevance": "228",
+      "data-term": "proctology",
+      "data-encoded-term": "proctology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "54",
+        "cn5",
+        "1"
+      ]
+    },
+    "allopurinol": {
+      "data-frequency": "264",
+      "data-relevance": "227",
+      "data-term": "allopurinol",
+      "data-encoded-term": "allopurinol",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "264",
+        "cn5",
+        "1"
+      ]
+    },
+    "daycare": {
+      "data-frequency": "1985",
+      "data-relevance": "226",
+      "data-term": "daycare",
+      "data-encoded-term": "daycare",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1985",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "abortifacient": {
+      "data-frequency": "422",
+      "data-relevance": "225",
+      "data-term": "abortifacient",
+      "data-encoded-term": "abortifacient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "422",
+        "cn5",
+        "1"
+      ]
+    },
+    "antidiabetic": {
+      "data-frequency": "196",
+      "data-relevance": "224",
+      "data-term": "antidiabetic",
+      "data-encoded-term": "antidiabetic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "196",
+        "cn5",
+        "1"
+      ]
+    },
+    "antihypertensive": {
+      "data-frequency": "450",
+      "data-relevance": "223",
+      "data-term": "antihypertensive",
+      "data-encoded-term": "antihypertensive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "450",
+        "cn5",
+        "1"
+      ]
+    },
+    "pulmonology": {
+      "data-frequency": "717",
+      "data-relevance": "222",
+      "data-term": "pulmonology",
+      "data-encoded-term": "pulmonology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "717",
+        "cn5",
+        "1"
+      ]
+    },
+    "wellness": {
+      "data-frequency": "7325",
+      "data-relevance": "221",
+      "data-term": "wellness",
+      "data-encoded-term": "wellness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7325",
+        "w2v",
+        "1"
+      ]
+    },
+    "pharmaceutic": {
+      "data-frequency": "56",
+      "data-relevance": "220",
+      "data-term": "pharmaceutic",
+      "data-encoded-term": "pharmaceutic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "antispasmodic": {
+      "data-frequency": "130",
+      "data-relevance": "219",
+      "data-term": "antispasmodic",
+      "data-encoded-term": "antispasmodic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "130",
+        "cn5",
+        "1"
+      ]
+    },
+    "antitussive": {
+      "data-frequency": "121",
+      "data-relevance": "218",
+      "data-term": "antitussive",
+      "data-encoded-term": "antitussive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "121",
+        "cn5",
+        "1"
+      ]
+    },
+    "mfm": {
+      "data-frequency": "492",
+      "data-relevance": "217",
+      "data-term": "mfm",
+      "data-encoded-term": "mfm",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "492",
+        "cn5",
+        "1"
+      ]
+    },
+    "iatrophysics": {
+      "data-frequency": "-1",
+      "data-relevance": "216",
+      "data-term": "iatrophysics",
+      "data-encoded-term": "iatrophysics",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dialysis": {
+      "data-frequency": "2067",
+      "data-relevance": "215",
+      "data-term": "dialysis",
+      "data-encoded-term": "dialysis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2067",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "suppository": {
+      "data-frequency": "267",
+      "data-relevance": "214",
+      "data-term": "suppository",
+      "data-encoded-term": "suppository",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "267",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicament": {
+      "data-frequency": "149",
+      "data-relevance": "213",
+      "data-term": "medicament",
+      "data-encoded-term": "medicament",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "149",
+        "cn5",
+        "1"
+      ]
+    },
+    "physiotherapy": {
+      "data-frequency": "2630",
+      "data-relevance": "212",
+      "data-term": "physiotherapy",
+      "data-encoded-term": "physiotherapy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2630",
+        "w2v",
+        "1"
+      ]
+    },
+    "staffing": {
+      "data-frequency": "4563",
+      "data-relevance": "211",
+      "data-term": "staffing",
+      "data-encoded-term": "staffing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4563",
+        "w2v",
+        "1"
+      ]
+    },
+    "paediatric": {
+      "data-frequency": "2034",
+      "data-relevance": "210",
+      "data-term": "paediatric",
+      "data-encoded-term": "paediatric",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2034",
+        "w2v",
+        "1"
+      ]
+    },
+    "hemodialysis": {
+      "data-frequency": "451",
+      "data-relevance": "209",
+      "data-term": "hemodialysis",
+      "data-encoded-term": "hemodialysis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "451",
+        "w2v",
+        "1"
+      ]
+    },
+    "onsite": {
+      "data-frequency": "2018",
+      "data-relevance": "208",
+      "data-term": "onsite",
+      "data-encoded-term": "onsite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2018",
+        "w2v",
+        "1"
+      ]
+    },
+    "preschool": {
+      "data-frequency": "7669",
+      "data-relevance": "207",
+      "data-term": "preschool",
+      "data-encoded-term": "preschool",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7669",
+        "w2v",
+        "1"
+      ]
+    },
+    "undergoing": {
+      "data-frequency": "19776",
+      "data-relevance": "206",
+      "data-term": "undergoing",
+      "data-encoded-term": "undergoing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19776",
+        "w2v",
+        "1"
+      ]
+    },
+    "detoxification": {
+      "data-frequency": "1562",
+      "data-relevance": "205",
+      "data-term": "detoxification",
+      "data-encoded-term": "detoxification",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1562",
+        "w2v",
+        "1"
+      ]
+    },
+    "tutoring": {
+      "data-frequency": "3579",
+      "data-relevance": "204",
+      "data-term": "tutoring",
+      "data-encoded-term": "tutoring",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3579",
+        "w2v",
+        "1"
+      ]
+    },
+    "out-patient": {
+      "data-frequency": "573",
+      "data-relevance": "203",
+      "data-term": "out-patient",
+      "data-encoded-term": "out-patient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "573",
+        "w2v",
+        "1"
+      ]
+    },
+    "beds": {
+      "data-frequency": "25037",
+      "data-relevance": "202",
+      "data-term": "beds",
+      "data-encoded-term": "beds",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25037",
+        "w2v",
+        "1"
+      ]
+    },
+    "birthing": {
+      "data-frequency": "1227",
+      "data-relevance": "201",
+      "data-term": "birthing",
+      "data-encoded-term": "birthing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1227",
+        "w2v",
+        "1"
+      ]
+    },
+    "accommodations": {
+      "data-frequency": "6042",
+      "data-relevance": "200",
+      "data-term": "accommodations",
+      "data-encoded-term": "accommodations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6042",
+        "w2v",
+        "1"
+      ]
+    },
+    "triage": {
+      "data-frequency": "883",
+      "data-relevance": "199",
+      "data-term": "triage",
+      "data-encoded-term": "triage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "883",
+        "w2v",
+        "1"
+      ]
+    },
+    "upkeep": {
+      "data-frequency": "3876",
+      "data-relevance": "198",
+      "data-term": "upkeep",
+      "data-encoded-term": "upkeep",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3876",
+        "w2v",
+        "1"
+      ]
+    },
+    "bedrooms": {
+      "data-frequency": "5878",
+      "data-relevance": "197",
+      "data-term": "bedrooms",
+      "data-encoded-term": "bedrooms",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5878",
+        "w2v",
+        "1"
+      ]
+    },
+    "internship": {
+      "data-frequency": "7150",
+      "data-relevance": "196",
+      "data-term": "internship",
+      "data-encoded-term": "internship",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7150",
+        "w2v",
+        "1"
+      ]
+    },
+    "concierge": {
+      "data-frequency": "1639",
+      "data-relevance": "195",
+      "data-term": "concierge",
+      "data-encoded-term": "concierge",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1639",
+        "w2v",
+        "1"
+      ]
+    },
+    "playroom": {
+      "data-frequency": "498",
+      "data-relevance": "194",
+      "data-term": "playroom",
+      "data-encoded-term": "playroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "498",
+        "w2v",
+        "1"
+      ]
+    },
+    "accommodation": {
+      "data-frequency": "27213",
+      "data-relevance": "193",
+      "data-term": "accommodation",
+      "data-encoded-term": "accommodation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27213",
+        "w2v",
+        "1"
+      ]
+    },
+    "prenatal": {
+      "data-frequency": "2625",
+      "data-relevance": "192",
+      "data-term": "prenatal",
+      "data-encoded-term": "prenatal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2625",
+        "w2v",
+        "1"
+      ]
+    },
+    "regimen": {
+      "data-frequency": "3539",
+      "data-relevance": "191",
+      "data-term": "regimen",
+      "data-encoded-term": "regimen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3539",
+        "w2v",
+        "1"
+      ]
+    },
+    "maintenance": {
+      "data-frequency": "199946",
+      "data-relevance": "190",
+      "data-term": "maintenance",
+      "data-encoded-term": "maintenance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "199946",
+        "w2v",
+        "1"
+      ]
+    },
+    "rooms": {
+      "data-frequency": "69523",
+      "data-relevance": "189",
+      "data-term": "rooms",
+      "data-encoded-term": "rooms",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69523",
+        "w2v",
+        "1"
+      ]
+    },
+    "advanced practice registered nurse": {
+      "data-frequency": "-1",
+      "data-relevance": "188",
+      "data-term": "advanced practice registered nurse",
+      "data-encoded-term": "advanced%20practice%20registered%20nurse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "surgeries": {
+      "data-frequency": "4636",
+      "data-relevance": "187",
+      "data-term": "surgeries",
+      "data-encoded-term": "surgeries",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4636",
+        "w2v",
+        "1"
+      ]
+    },
+    "regimens": {
+      "data-frequency": "1050",
+      "data-relevance": "186",
+      "data-term": "regimens",
+      "data-encoded-term": "regimens",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1050",
+        "w2v",
+        "1"
+      ]
+    },
+    "gynecological": {
+      "data-frequency": "969",
+      "data-relevance": "185",
+      "data-term": "gynecological",
+      "data-encoded-term": "gynecological",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "969",
+        "w2v",
+        "1"
+      ]
+    },
+    "inpatients": {
+      "data-frequency": "478",
+      "data-relevance": "184",
+      "data-term": "inpatients",
+      "data-encoded-term": "inpatients",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "478",
+        "w2v",
+        "1"
+      ]
+    },
+    "in hospital": {
+      "data-frequency": "8767",
+      "data-relevance": "183",
+      "data-term": "in hospital",
+      "data-encoded-term": "in%20hospital",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8767",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical/surgical": {
+      "data-frequency": "13122",
+      "data-relevance": "182",
+      "data-term": "medical/surgical",
+      "data-encoded-term": "medical%2Fsurgical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13122",
+        "w2v",
+        "1"
+      ]
+    },
+    "battle disease": {
+      "data-frequency": "-1",
+      "data-relevance": "181",
+      "data-term": "battle disease",
+      "data-encoded-term": "battle%20disease",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coma": {
+      "data-frequency": "11116",
+      "data-relevance": "180",
+      "data-term": "coma",
+      "data-encoded-term": "coma",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11116",
+        "wiki",
+        "1"
+      ]
+    },
+    "physician assistant": {
+      "data-frequency": "442",
+      "data-relevance": "179",
+      "data-term": "physician assistant",
+      "data-encoded-term": "physician%20assistant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "442",
+        "wiki",
+        "1"
+      ]
+    },
+    "acute-care": {
+      "data-frequency": "7403",
+      "data-relevance": "178",
+      "data-term": "acute-care",
+      "data-encoded-term": "acute-care",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7403",
+        "w2v",
+        "1"
+      ]
+    },
+    "200-bed": {
+      "data-frequency": "175",
+      "data-relevance": "177",
+      "data-term": "200-bed",
+      "data-encoded-term": "200-bed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "175",
+        "w2v",
+        "1"
+      ]
+    },
+    "en-suite": {
+      "data-frequency": "6711",
+      "data-relevance": "176",
+      "data-term": "en-suite",
+      "data-encoded-term": "en-suite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6711",
+        "w2v",
+        "1"
+      ]
+    },
+    "retail pharmacy": {
+      "data-frequency": "120",
+      "data-relevance": "175",
+      "data-term": "retail pharmacy",
+      "data-encoded-term": "retail%20pharmacy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120",
+        "cn5",
+        "1"
+      ]
+    },
+    "in-home": {
+      "data-frequency": "7456",
+      "data-relevance": "174",
+      "data-term": "in-home",
+      "data-encoded-term": "in-home",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7456",
+        "w2v",
+        "1"
+      ]
+    },
+    "emergency physician": {
+      "data-frequency": "187",
+      "data-relevance": "173",
+      "data-term": "emergency physician",
+      "data-encoded-term": "emergency%20physician",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "60-bed": {
+      "data-frequency": "16231",
+      "data-relevance": "172",
+      "data-term": "60-bed",
+      "data-encoded-term": "60-bed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16231",
+        "w2v",
+        "1"
+      ]
+    },
+    "kitchenette": {
+      "data-frequency": "271",
+      "data-relevance": "171",
+      "data-term": "kitchenette",
+      "data-encoded-term": "kitchenette",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "271",
+        "w2v",
+        "1"
+      ]
+    },
+    "pre-hospital": {
+      "data-frequency": "298",
+      "data-relevance": "170",
+      "data-term": "pre-hospital",
+      "data-encoded-term": "pre-hospital",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "298",
+        "w2v",
+        "1"
+      ]
+    },
+    "doctor patient": {
+      "data-frequency": "352",
+      "data-relevance": "169",
+      "data-term": "doctor patient",
+      "data-encoded-term": "doctor%20patient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "352",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical topic": {
+      "data-frequency": "-1",
+      "data-relevance": "168",
+      "data-term": "medical topic",
+      "data-encoded-term": "medical%20topic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "general practitioner": {
+      "data-frequency": "1761",
+      "data-relevance": "167",
+      "data-term": "general practitioner",
+      "data-encoded-term": "general%20practitioner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1761",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical practitioner": {
+      "data-frequency": "1590",
+      "data-relevance": "166",
+      "data-term": "medical practitioner",
+      "data-encoded-term": "medical%20practitioner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1590",
+        "cn5",
+        "1"
+      ]
+    },
+    "veterinary surgeon": {
+      "data-frequency": "624",
+      "data-relevance": "165",
+      "data-term": "veterinary surgeon",
+      "data-encoded-term": "veterinary%20surgeon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "624",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical professional": {
+      "data-frequency": "543",
+      "data-relevance": "164",
+      "data-term": "medical professional",
+      "data-encoded-term": "medical%20professional",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "543",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical record": {
+      "data-frequency": "554",
+      "data-relevance": "163",
+      "data-term": "medical record",
+      "data-encoded-term": "medical%20record",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "554",
+        "cn5",
+        "1"
+      ]
+    },
+    "resuscitate someone": {
+      "data-frequency": "-1",
+      "data-relevance": "162",
+      "data-term": "resuscitate someone",
+      "data-encoded-term": "resuscitate%20someone",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pre-school": {
+      "data-frequency": "4811",
+      "data-relevance": "161",
+      "data-term": "pre-school",
+      "data-encoded-term": "pre-school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4811",
+        "w2v",
+        "1"
+      ]
+    },
+    "10-bed": {
+      "data-frequency": "48199",
+      "data-relevance": "160",
+      "data-term": "10-bed",
+      "data-encoded-term": "10-bed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48199",
+        "w2v",
+        "1"
+      ]
+    },
+    "on-site": {
+      "data-frequency": "14010",
+      "data-relevance": "159",
+      "data-term": "on-site",
+      "data-encoded-term": "on-site",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14010",
+        "w2v",
+        "1"
+      ]
+    },
+    "intensive-care": {
+      "data-frequency": "8081",
+      "data-relevance": "158",
+      "data-term": "intensive-care",
+      "data-encoded-term": "intensive-care",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8081",
+        "w2v",
+        "1"
+      ]
+    },
+    "x ray machine": {
+      "data-frequency": "261",
+      "data-relevance": "157",
+      "data-term": "x ray machine",
+      "data-encoded-term": "x%20ray%20machine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "261",
+        "cn5",
+        "1"
+      ]
+    },
+    "chronometry": {
+      "data-frequency": "264",
+      "data-relevance": "156",
+      "data-term": "chronometry",
+      "data-encoded-term": "chronometry",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "264",
+        "w2v",
+        "1"
+      ]
+    },
+    "ally health": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "ally health",
+      "data-encoded-term": "ally%20health",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "uncompensated": {
+      "data-frequency": "283",
+      "data-relevance": "154",
+      "data-term": "uncompensated",
+      "data-encoded-term": "uncompensated",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "283",
+        "w2v",
+        "1"
+      ]
+    },
+    "medicine man": {
+      "data-frequency": "1159",
+      "data-relevance": "153",
+      "data-term": "medicine man",
+      "data-encoded-term": "medicine%20man",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1159",
+        "cn5",
+        "1"
+      ]
+    },
+    "500-bed": {
+      "data-frequency": "13947",
+      "data-relevance": "152",
+      "data-term": "500-bed",
+      "data-encoded-term": "500-bed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13947",
+        "w2v",
+        "1"
+      ]
+    },
+    "prehospital": {
+      "data-frequency": "294",
+      "data-relevance": "151",
+      "data-term": "prehospital",
+      "data-encoded-term": "prehospital",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "294",
+        "w2v",
+        "1"
+      ]
+    },
+    "lettings": {
+      "data-frequency": "182",
+      "data-relevance": "150",
+      "data-term": "lettings",
+      "data-encoded-term": "lettings",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "182",
+        "w2v",
+        "1"
+      ]
+    },
+    "group practice": {
+      "data-frequency": "202",
+      "data-relevance": "149",
+      "data-term": "group practice",
+      "data-encoded-term": "group%20practice",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "202",
+        "cn5",
+        "1"
+      ]
+    },
+    "post-operative": {
+      "data-frequency": "840",
+      "data-relevance": "148",
+      "data-term": "post-operative",
+      "data-encoded-term": "post-operative",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "840",
+        "w2v",
+        "1"
+      ]
+    },
+    "30-bed": {
+      "data-frequency": "36606",
+      "data-relevance": "147",
+      "data-term": "30-bed",
+      "data-encoded-term": "30-bed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "36606",
+        "w2v",
+        "1"
+      ]
+    },
+    "wait room": {
+      "data-frequency": "-1",
+      "data-relevance": "146",
+      "data-term": "wait room",
+      "data-encoded-term": "wait%20room",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "practicum": {
+      "data-frequency": "394",
+      "data-relevance": "145",
+      "data-term": "practicum",
+      "data-encoded-term": "practicum",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "394",
+        "w2v",
+        "1"
+      ]
+    },
+    "end-of-life": {
+      "data-frequency": "339777",
+      "data-relevance": "144",
+      "data-term": "end-of-life",
+      "data-encoded-term": "end-of-life",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "339777",
+        "w2v",
+        "1"
+      ]
+    },
+    "checkups": {
+      "data-frequency": "288",
+      "data-relevance": "143",
+      "data-term": "checkups",
+      "data-encoded-term": "checkups",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "288",
+        "w2v",
+        "1"
+      ]
+    },
+    "dastjerd": {
+      "data-frequency": "6014",
+      "data-relevance": "142",
+      "data-term": "dastjerd",
+      "data-encoded-term": "dastjerd",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6014",
+        "w2v",
+        "1"
+      ]
+    },
+    "ed d": {
+      "data-frequency": "1986",
+      "data-relevance": "141",
+      "data-term": "ed d",
+      "data-encoded-term": "ed%20d",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1986",
+        "cn5",
+        "1"
+      ]
+    },
+    "subspecialty": {
+      "data-frequency": "408",
+      "data-relevance": "140",
+      "data-term": "subspecialty",
+      "data-encoded-term": "subspecialty",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "408",
+        "w2v",
+        "1"
+      ]
+    },
+    "high-security": {
+      "data-frequency": "74446",
+      "data-relevance": "139",
+      "data-term": "high-security",
+      "data-encoded-term": "high-security",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74446",
+        "w2v",
+        "1"
+      ]
+    },
+    "40-bed": {
+      "data-frequency": "22584",
+      "data-relevance": "138",
+      "data-term": "40-bed",
+      "data-encoded-term": "40-bed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22584",
+        "w2v",
+        "1"
+      ]
+    },
+    "over counter drug": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "over counter drug",
+      "data-encoded-term": "over%20counter%20drug",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "day-care": {
+      "data-frequency": "2948",
+      "data-relevance": "136",
+      "data-term": "day-care",
+      "data-encoded-term": "day-care",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2948",
+        "w2v",
+        "1"
+      ]
+    },
+    "readmissions": {
+      "data-frequency": "626",
+      "data-relevance": "135",
+      "data-term": "readmissions",
+      "data-encoded-term": "readmissions",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "626",
+        "w2v",
+        "1"
+      ]
+    },
+    "drug cocktail": {
+      "data-frequency": "60",
+      "data-relevance": "134",
+      "data-term": "drug cocktail",
+      "data-encoded-term": "drug%20cocktail",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "k-12": {
+      "data-frequency": "9974",
+      "data-relevance": "133",
+      "data-term": "k-12",
+      "data-encoded-term": "k-12",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9974",
+        "w2v",
+        "1"
+      ]
+    },
+    "cold medicine": {
+      "data-frequency": "75",
+      "data-relevance": "132",
+      "data-term": "cold medicine",
+      "data-encoded-term": "cold%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "75",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency medicine": {
+      "data-frequency": "2687",
+      "data-relevance": "131",
+      "data-term": "emergency medicine",
+      "data-encoded-term": "emergency%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2687",
+        "cn5",
+        "1"
+      ]
+    },
+    "examination table": {
+      "data-frequency": "64",
+      "data-relevance": "130",
+      "data-term": "examination table",
+      "data-encoded-term": "examination%20table",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "64",
+        "cn5",
+        "1"
+      ]
+    },
+    "calcium blocker": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "calcium blocker",
+      "data-encoded-term": "calcium%20blocker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lipid lower medicine": {
+      "data-frequency": "-1",
+      "data-relevance": "128",
+      "data-term": "lipid lower medicine",
+      "data-encoded-term": "lipid%20lower%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tongue depressor": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "tongue depressor",
+      "data-encoded-term": "tongue%20depressor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "home-based": {
+      "data-frequency": "1145",
+      "data-relevance": "126",
+      "data-term": "home-based",
+      "data-encoded-term": "home-based",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1145",
+        "w2v",
+        "1"
+      ]
+    },
+    "in medicine cabinet": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "in medicine cabinet",
+      "data-encoded-term": "in%20medicine%20cabinet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "histamine blocker": {
+      "data-frequency": "-1",
+      "data-relevance": "124",
+      "data-term": "histamine blocker",
+      "data-encoded-term": "histamine%20blocker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "drug therapy": {
+      "data-frequency": "604",
+      "data-relevance": "123",
+      "data-term": "drug therapy",
+      "data-encoded-term": "drug%20therapy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "604",
+        "cn5",
+        "1"
+      ]
+    },
+    "patent medicine": {
+      "data-frequency": "399",
+      "data-relevance": "122",
+      "data-term": "patent medicine",
+      "data-encoded-term": "patent%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "399",
+        "cn5",
+        "1"
+      ]
+    },
+    "nux vomica": {
+      "data-frequency": "79",
+      "data-relevance": "121",
+      "data-term": "nux vomica",
+      "data-encoded-term": "nux%20vomica",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "anti inflammatory": {
+      "data-frequency": "2557",
+      "data-relevance": "120",
+      "data-term": "anti inflammatory",
+      "data-encoded-term": "anti%20inflammatory",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2557",
+        "cn5",
+        "1"
+      ]
+    },
+    "complementary medicine": {
+      "data-frequency": "307",
+      "data-relevance": "119",
+      "data-term": "complementary medicine",
+      "data-encoded-term": "complementary%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "307",
+        "cn5",
+        "1"
+      ]
+    },
+    "d p h": {
+      "data-frequency": "83",
+      "data-relevance": "118",
+      "data-term": "d p h",
+      "data-encoded-term": "d%20p%20h",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctor's office": {
+      "data-frequency": "809",
+      "data-relevance": "117",
+      "data-term": "doctor's office",
+      "data-encoded-term": "doctor's%20office",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "809",
+        "cn5",
+        "1"
+      ]
+    },
+    "nurse home": {
+      "data-frequency": "22034",
+      "data-relevance": "116",
+      "data-term": "nurse home",
+      "data-encoded-term": "nurse%20home",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22034",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical doctor": {
+      "data-frequency": "5853",
+      "data-relevance": "115",
+      "data-term": "medical doctor",
+      "data-encoded-term": "medical%20doctor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5853",
+        "cn5",
+        "1"
+      ]
+    },
+    "internal medicine": {
+      "data-frequency": "5008",
+      "data-relevance": "114",
+      "data-term": "internal medicine",
+      "data-encoded-term": "internal%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5008",
+        "cn5",
+        "1"
+      ]
+    },
+    "nuclear medicine": {
+      "data-frequency": "1460",
+      "data-relevance": "113",
+      "data-term": "nuclear medicine",
+      "data-encoded-term": "nuclear%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1460",
+        "cn5",
+        "1"
+      ]
+    },
+    "alternative medicine": {
+      "data-frequency": "2479",
+      "data-relevance": "112",
+      "data-term": "alternative medicine",
+      "data-encoded-term": "alternative%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2479",
+        "cn5",
+        "1"
+      ]
+    },
+    "d f": {
+      "data-frequency": "15970",
+      "data-relevance": "111",
+      "data-term": "d f",
+      "data-encoded-term": "d%20f",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "15970",
+        "cn5",
+        "1"
+      ]
+    },
+    "family doctor": {
+      "data-frequency": "641",
+      "data-relevance": "110",
+      "data-term": "family doctor",
+      "data-encoded-term": "family%20doctor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "641",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency procedure": {
+      "data-frequency": "106",
+      "data-relevance": "109",
+      "data-term": "emergency procedure",
+      "data-encoded-term": "emergency%20procedure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "106",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical science": {
+      "data-frequency": "3343",
+      "data-relevance": "108",
+      "data-term": "medical science",
+      "data-encoded-term": "medical%20science",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3343",
+        "cn5",
+        "1"
+      ]
+    },
+    "operate on": {
+      "data-frequency": "6376",
+      "data-relevance": "107",
+      "data-term": "operate on",
+      "data-encoded-term": "operate%20on",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6376",
+        "cn5",
+        "1"
+      ]
+    },
+    "bulk bill": {
+      "data-frequency": "-1",
+      "data-relevance": "106",
+      "data-term": "bulk bill",
+      "data-encoded-term": "bulk%20bill",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cure illness": {
+      "data-frequency": "47",
+      "data-relevance": "105",
+      "data-term": "cure illness",
+      "data-encoded-term": "cure%20illness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "primary care": {
+      "data-frequency": "3539",
+      "data-relevance": "104",
+      "data-term": "primary care",
+      "data-encoded-term": "primary%20care",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3539",
+        "cn5",
+        "1"
+      ]
+    },
+    "delivery room": {
+      "data-frequency": "8743",
+      "data-relevance": "103",
+      "data-term": "delivery room",
+      "data-encoded-term": "delivery%20room",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8743",
+        "cn5",
+        "1"
+      ]
+    },
+    "d d s": {
+      "data-frequency": "471",
+      "data-relevance": "102",
+      "data-term": "d d s",
+      "data-encoded-term": "d%20d%20s",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "471",
+        "cn5",
+        "1"
+      ]
+    },
+    "present participle": {
+      "data-frequency": "273",
+      "data-relevance": "101",
+      "data-term": "present participle",
+      "data-encoded-term": "present%20participle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "273",
+        "wiki",
+        "1"
+      ]
+    },
+    "d i t": {
+      "data-frequency": "360",
+      "data-relevance": "100",
+      "data-term": "d i t",
+      "data-encoded-term": "d%20i%20t",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "360",
+        "cn5",
+        "1"
+      ]
+    },
+    "subacute": {
+      "data-frequency": "801",
+      "data-relevance": "99",
+      "data-term": "subacute",
+      "data-encoded-term": "subacute",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "801",
+        "ol",
+        "1"
+      ]
+    },
+    "deponent verb": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "deponent verb",
+      "data-encoded-term": "deponent%20verb",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "obstetrical": {
+      "data-frequency": "621",
+      "data-relevance": "97",
+      "data-term": "obstetrical",
+      "data-encoded-term": "obstetrical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "621",
+        "ol",
+        "1"
+      ]
+    },
+    "perinatal": {
+      "data-frequency": "1367",
+      "data-relevance": "96",
+      "data-term": "perinatal",
+      "data-encoded-term": "perinatal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1367",
+        "ol",
+        "1"
+      ]
+    },
+    "obstetric": {
+      "data-frequency": "1303",
+      "data-relevance": "95",
+      "data-term": "obstetric",
+      "data-encoded-term": "obstetric",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1303",
+        "ol",
+        "1"
+      ]
+    },
+    "uninsured": {
+      "data-frequency": "1066",
+      "data-relevance": "94",
+      "data-term": "uninsured",
+      "data-encoded-term": "uninsured",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1066",
+        "ol",
+        "1"
+      ]
+    },
+    "cardiothoracic": {
+      "data-frequency": "940",
+      "data-relevance": "93",
+      "data-term": "cardiothoracic",
+      "data-encoded-term": "cardiothoracic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "940",
+        "ol",
+        "1"
+      ]
+    },
+    "osteopathic": {
+      "data-frequency": "1472",
+      "data-relevance": "92",
+      "data-term": "osteopathic",
+      "data-encoded-term": "osteopathic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1472",
+        "ol",
+        "1"
+      ]
+    },
+    "orthopedic": {
+      "data-frequency": "3257",
+      "data-relevance": "91",
+      "data-term": "orthopedic",
+      "data-encoded-term": "orthopedic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3257",
+        "ol",
+        "1"
+      ]
+    },
+    "sicker": {
+      "data-frequency": "39520",
+      "data-relevance": "90",
+      "data-term": "sicker",
+      "data-encoded-term": "sicker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "39520",
+        "ol",
+        "1"
+      ]
+    },
+    "cardiac": {
+      "data-frequency": "12511",
+      "data-relevance": "89",
+      "data-term": "cardiac",
+      "data-encoded-term": "cardiac",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "12511",
+        "ol",
+        "1"
+      ]
+    },
+    "homelike": {
+      "data-frequency": "69",
+      "data-relevance": "88",
+      "data-term": "homelike",
+      "data-encoded-term": "homelike",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "69",
+        "ol",
+        "1"
+      ]
+    },
+    "correctional": {
+      "data-frequency": "7904",
+      "data-relevance": "87",
+      "data-term": "correctional",
+      "data-encoded-term": "correctional",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7904",
+        "ol",
+        "1"
+      ]
+    },
+    "quaternary": {
+      "data-frequency": "6976",
+      "data-relevance": "86",
+      "data-term": "quaternary",
+      "data-encoded-term": "quaternary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6976",
+        "ol",
+        "1"
+      ]
+    },
+    "renal": {
+      "data-frequency": "6418",
+      "data-relevance": "85",
+      "data-term": "renal",
+      "data-encoded-term": "renal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6418",
+        "ol",
+        "1"
+      ]
+    },
+    "incarcerated": {
+      "data-frequency": "7602",
+      "data-relevance": "84",
+      "data-term": "incarcerated",
+      "data-encoded-term": "incarcerated",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7602",
+        "ol",
+        "1"
+      ]
+    },
+    "tertiary": {
+      "data-frequency": "54531",
+      "data-relevance": "83",
+      "data-term": "tertiary",
+      "data-encoded-term": "tertiary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "54531",
+        "ol",
+        "1"
+      ]
+    },
+    "behavioral": {
+      "data-frequency": "20528",
+      "data-relevance": "82",
+      "data-term": "behavioral",
+      "data-encoded-term": "behavioral",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "20528",
+        "ol",
+        "1"
+      ]
+    },
+    "pretrial": {
+      "data-frequency": "935",
+      "data-relevance": "81",
+      "data-term": "pretrial",
+      "data-encoded-term": "pretrial",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "935",
+        "ol",
+        "1"
+      ]
+    },
+    "diagnostic": {
+      "data-frequency": "16055",
+      "data-relevance": "80",
+      "data-term": "diagnostic",
+      "data-encoded-term": "diagnostic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "16055",
+        "ol",
+        "1"
+      ]
+    },
+    "psychotherapeutic": {
+      "data-frequency": "470",
+      "data-relevance": "79",
+      "data-term": "psychotherapeutic",
+      "data-encoded-term": "psychotherapeutic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "470",
+        "ol",
+        "1"
+      ]
+    },
+    "pulmonary": {
+      "data-frequency": "7482",
+      "data-relevance": "78",
+      "data-term": "pulmonary",
+      "data-encoded-term": "pulmonary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7482",
+        "ol",
+        "1"
+      ]
+    },
+    "aeromedical": {
+      "data-frequency": "621",
+      "data-relevance": "77",
+      "data-term": "aeromedical",
+      "data-encoded-term": "aeromedical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "621",
+        "ol",
+        "1"
+      ]
+    },
+    "thoracic": {
+      "data-frequency": "3855",
+      "data-relevance": "76",
+      "data-term": "thoracic",
+      "data-encoded-term": "thoracic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3855",
+        "ol",
+        "1"
+      ]
+    },
+    "neuropsychiatric": {
+      "data-frequency": "975",
+      "data-relevance": "75",
+      "data-term": "neuropsychiatric",
+      "data-encoded-term": "neuropsychiatric",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "975",
+        "ol",
+        "1"
+      ]
+    },
+    "opioid": {
+      "data-frequency": "3080",
+      "data-relevance": "74",
+      "data-term": "opioid",
+      "data-encoded-term": "opioid",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3080",
+        "ol",
+        "1"
+      ]
+    },
+    "coronary": {
+      "data-frequency": "4071",
+      "data-relevance": "73",
+      "data-term": "coronary",
+      "data-encoded-term": "coronary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4071",
+        "ol",
+        "1"
+      ]
+    },
+    "dignity": {
+      "data-frequency": "17024",
+      "data-relevance": "72",
+      "data-term": "dignity",
+      "data-encoded-term": "dignity",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "17024",
+        "wiki",
+        "1"
+      ]
+    },
+    "ancient greek": {
+      "data-frequency": "34083",
+      "data-relevance": "71",
+      "data-term": "ancient greek",
+      "data-encoded-term": "ancient%20greek",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "34083",
+        "wiki",
+        "1"
+      ]
+    },
+    "misdiagnosis": {
+      "data-frequency": "414",
+      "data-relevance": "70",
+      "data-term": "misdiagnosis",
+      "data-encoded-term": "misdiagnosis",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "414",
+        "wiki",
+        "1"
+      ]
+    },
+    "ambulatory care": {
+      "data-frequency": "409",
+      "data-relevance": "69",
+      "data-term": "ambulatory care",
+      "data-encoded-term": "ambulatory%20care",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "409",
+        "wiki",
+        "1"
+      ]
+    },
+    "preadmission": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "preadmission",
+      "data-encoded-term": "preadmission",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "outpatient surgery": {
+      "data-frequency": "141",
+      "data-relevance": "67",
+      "data-term": "outpatient surgery",
+      "data-encoded-term": "outpatient%20surgery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "141",
+        "wiki",
+        "1"
+      ]
+    },
+    "iasis": {
+      "data-frequency": "4088",
+      "data-relevance": "66",
+      "data-term": "iasis",
+      "data-encoded-term": "iasis",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4088",
+        "ol",
+        "1"
+      ]
+    },
+    "aftercare": {
+      "data-frequency": "295",
+      "data-relevance": "65",
+      "data-term": "aftercare",
+      "data-encoded-term": "aftercare",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "295",
+        "ol",
+        "1"
+      ]
+    },
+    "podiatric": {
+      "data-frequency": "770",
+      "data-relevance": "64",
+      "data-term": "podiatric",
+      "data-encoded-term": "podiatric",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "770",
+        "ol",
+        "1"
+      ]
+    },
+    "noninstitutional": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "noninstitutional",
+      "data-encoded-term": "noninstitutional",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "antepartum": {
+      "data-frequency": "61",
+      "data-relevance": "62",
+      "data-term": "antepartum",
+      "data-encoded-term": "antepartum",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "61",
+        "ol",
+        "1"
+      ]
+    },
+    "nonelective": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "nonelective",
+      "data-encoded-term": "nonelective",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "gynecologic": {
+      "data-frequency": "4009",
+      "data-relevance": "60",
+      "data-term": "gynecologic",
+      "data-encoded-term": "gynecologic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4009",
+        "ol",
+        "1"
+      ]
+    },
+    "iatric": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "iatric",
+      "data-encoded-term": "iatric",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ophthalmological": {
+      "data-frequency": "4296",
+      "data-relevance": "58",
+      "data-term": "ophthalmological",
+      "data-encoded-term": "ophthalmological",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4296",
+        "ol",
+        "1"
+      ]
+    },
+    "cirrhotic": {
+      "data-frequency": "88",
+      "data-relevance": "57",
+      "data-term": "cirrhotic",
+      "data-encoded-term": "cirrhotic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "88",
+        "ol",
+        "1"
+      ]
+    },
+    "afebrile": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "afebrile",
+      "data-encoded-term": "afebrile",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "disenrolling": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "disenrolling",
+      "data-encoded-term": "disenrolling",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "postop": {
+      "data-frequency": "-1",
+      "data-relevance": "54",
+      "data-term": "postop",
+      "data-encoded-term": "postop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "allopathic": {
+      "data-frequency": "442",
+      "data-relevance": "53",
+      "data-term": "allopathic",
+      "data-encoded-term": "allopathic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "442",
+        "ol",
+        "1"
+      ]
+    },
+    "rheo": {
+      "data-frequency": "53",
+      "data-relevance": "52",
+      "data-term": "rheo",
+      "data-encoded-term": "rheo",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "fgh": {
+      "data-frequency": "76",
+      "data-relevance": "51",
+      "data-term": "fgh",
+      "data-encoded-term": "fgh",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "76",
+        "ol",
+        "1"
+      ]
+    },
+    "operating room": {
+      "data-frequency": "1693",
+      "data-relevance": "50",
+      "data-term": "operating room",
+      "data-encoded-term": "operating%20room",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1693",
+        "wiki",
+        "1"
+      ]
+    },
+    "noninstitutionalized": {
+      "data-frequency": "43",
+      "data-relevance": "49",
+      "data-term": "noninstitutionalized",
+      "data-encoded-term": "noninstitutionalized",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "43",
+        "ol",
+        "1"
+      ]
+    },
+    "inpatient care": {
+      "data-frequency": "219",
+      "data-relevance": "48",
+      "data-term": "inpatient care",
+      "data-encoded-term": "inpatient%20care",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "219",
+        "wiki",
+        "1"
+      ]
+    },
+    "persistent vegetative state": {
+      "data-frequency": "203",
+      "data-relevance": "47",
+      "data-term": "persistent vegetative state",
+      "data-encoded-term": "persistent%20vegetative%20state",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "203",
+        "wiki",
+        "1"
+      ]
+    },
+    "discharge note": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "discharge note",
+      "data-encoded-term": "discharge%20note",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "admission note": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "admission note",
+      "data-encoded-term": "admission%20note",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "medical error": {
+      "data-frequency": "109",
+      "data-relevance": "44",
+      "data-term": "medical error",
+      "data-encoded-term": "medical%20error",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "109",
+        "wiki",
+        "1"
+      ]
+    },
+    "contentment": {
+      "data-frequency": "1360",
+      "data-relevance": "43",
+      "data-term": "contentment",
+      "data-encoded-term": "contentment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1360",
+        "wiki",
+        "1"
+      ]
+    },
+    "day surgery": {
+      "data-frequency": "206",
+      "data-relevance": "42",
+      "data-term": "day surgery",
+      "data-encoded-term": "day%20surgery",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "206",
+        "wiki",
+        "1"
+      ]
+    },
+    "doctor’s office": {
+      "data-frequency": "59",
+      "data-relevance": "41",
+      "data-term": "doctor’s office",
+      "data-encoded-term": "doctor%E2%80%99s%20office",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "59",
+        "wiki",
+        "1"
+      ]
+    },
+    "psychiatric hospital": {
+      "data-frequency": "4228",
+      "data-relevance": "40",
+      "data-term": "psychiatric hospital",
+      "data-encoded-term": "psychiatric%20hospital",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4228",
+        "ol",
+        "1"
+      ]
+    },
+    "intensive care": {
+      "data-frequency": "8081",
+      "data-relevance": "39",
+      "data-term": "intensive care",
+      "data-encoded-term": "intensive%20care",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "8081",
+        "ol",
+        "1"
+      ]
+    },
+    "substance abuse": {
+      "data-frequency": "4763",
+      "data-relevance": "38",
+      "data-term": "substance abuse",
+      "data-encoded-term": "substance%20abuse",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4763",
+        "ol",
+        "1"
+      ]
+    },
+    "veterans administration": {
+      "data-frequency": "16787",
+      "data-relevance": "37",
+      "data-term": "veterans administration",
+      "data-encoded-term": "veterans%20administration",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "16787",
+        "ol",
+        "1"
+      ]
+    },
+    "physical therapy": {
+      "data-frequency": "2862",
+      "data-relevance": "36",
+      "data-term": "physical therapy",
+      "data-encoded-term": "physical%20therapy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2862",
+        "ol",
+        "1"
+      ]
+    },
+    "mentally ill": {
+      "data-frequency": "3736",
+      "data-relevance": "35",
+      "data-term": "mentally ill",
+      "data-encoded-term": "mentally%20ill",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3736",
+        "ol",
+        "1"
+      ]
+    },
+    "primary care physician": {
+      "data-frequency": "194",
+      "data-relevance": "34",
+      "data-term": "primary care physician",
+      "data-encoded-term": "primary%20care%20physician",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "194",
+        "ol",
+        "1"
+      ]
+    },
+    "occupational therapy": {
+      "data-frequency": "1632",
+      "data-relevance": "33",
+      "data-term": "occupational therapy",
+      "data-encoded-term": "occupational%20therapy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1632",
+        "ol",
+        "1"
+      ]
+    },
+    "physical rehabilitation": {
+      "data-frequency": "6399",
+      "data-relevance": "32",
+      "data-term": "physical rehabilitation",
+      "data-encoded-term": "physical%20rehabilitation",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "6399",
+        "ol",
+        "1"
+      ]
+    },
+    "status epilepticus": {
+      "data-frequency": "164",
+      "data-relevance": "31",
+      "data-term": "status epilepticus",
+      "data-encoded-term": "status%20epilepticus",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "164",
+        "ol",
+        "1"
+      ]
+    },
+    "thrombolytic therapy": {
+      "data-frequency": "54",
+      "data-relevance": "30",
+      "data-term": "thrombolytic therapy",
+      "data-encoded-term": "thrombolytic%20therapy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "54",
+        "ol",
+        "1"
+      ]
+    },
+    "affective disorder": {
+      "data-frequency": "408",
+      "data-relevance": "29",
+      "data-term": "affective disorder",
+      "data-encoded-term": "affective%20disorder",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "408",
+        "ol",
+        "1"
+      ]
+    },
+    "social worker": {
+      "data-frequency": "6534",
+      "data-relevance": "28",
+      "data-term": "social worker",
+      "data-encoded-term": "social%20worker",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "6534",
+        "ol",
+        "1"
+      ]
+    },
+    "substance abuser": {
+      "data-frequency": "7680",
+      "data-relevance": "27",
+      "data-term": "substance abuser",
+      "data-encoded-term": "substance%20abuser",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "7680",
+        "ol",
+        "1"
+      ]
+    },
+    "chest pain": {
+      "data-frequency": "927",
+      "data-relevance": "26",
+      "data-term": "chest pain",
+      "data-encoded-term": "chest%20pain",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "927",
+        "ol",
+        "1"
+      ]
+    },
+    "lumbar puncture": {
+      "data-frequency": "196",
+      "data-relevance": "25",
+      "data-term": "lumbar puncture",
+      "data-encoded-term": "lumbar%20puncture",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "196",
+        "ol",
+        "1"
+      ]
+    },
+    "cost containment": {
+      "data-frequency": "1394",
+      "data-relevance": "24",
+      "data-term": "cost containment",
+      "data-encoded-term": "cost%20containment",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1394",
+        "ol",
+        "1"
+      ]
+    },
+    "diabetic acidosis": {
+      "data-frequency": "104",
+      "data-relevance": "23",
+      "data-term": "diabetic acidosis",
+      "data-encoded-term": "diabetic%20acidosis",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "104",
+        "ol",
+        "1"
+      ]
+    },
+    "licensed practical nurse": {
+      "data-frequency": "98",
+      "data-relevance": "22",
+      "data-term": "licensed practical nurse",
+      "data-encoded-term": "licensed%20practical%20nurse",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "98",
+        "ol",
+        "1"
+      ]
+    },
+    "radiation therapy": {
+      "data-frequency": "1263",
+      "data-relevance": "21",
+      "data-term": "radiation therapy",
+      "data-encoded-term": "radiation%20therapy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1263",
+        "ol",
+        "1"
+      ]
+    },
+    "locum tenens": {
+      "data-frequency": "252",
+      "data-relevance": "20",
+      "data-term": "locum tenens",
+      "data-encoded-term": "locum%20tenens",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "252",
+        "ol",
+        "1"
+      ]
+    },
+    "maternity ward": {
+      "data-frequency": "464",
+      "data-relevance": "19",
+      "data-term": "maternity ward",
+      "data-encoded-term": "maternity%20ward",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "464",
+        "ol",
+        "1"
+      ]
+    },
+    "mental illness": {
+      "data-frequency": "6443",
+      "data-relevance": "18",
+      "data-term": "mental illness",
+      "data-encoded-term": "mental%20illness",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "6443",
+        "ol",
+        "1"
+      ]
+    },
+    "total parenteral nutrition": {
+      "data-frequency": "176",
+      "data-relevance": "17",
+      "data-term": "total parenteral nutrition",
+      "data-encoded-term": "total%20parenteral%20nutrition",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "176",
+        "ol",
+        "1"
+      ]
+    },
+    "medical assistant": {
+      "data-frequency": "437",
+      "data-relevance": "16",
+      "data-term": "medical assistant",
+      "data-encoded-term": "medical%20assistant",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "437",
+        "ol",
+        "1"
+      ]
+    },
+    "registered nurse": {
+      "data-frequency": "1678",
+      "data-relevance": "15",
+      "data-term": "registered nurse",
+      "data-encoded-term": "registered%20nurse",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1678",
+        "ol",
+        "1"
+      ]
+    },
+    "vocational rehabilitation": {
+      "data-frequency": "298",
+      "data-relevance": "14",
+      "data-term": "vocational rehabilitation",
+      "data-encoded-term": "vocational%20rehabilitation",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "298",
+        "ol",
+        "1"
+      ]
+    },
+    "atrioventricular block": {
+      "data-frequency": "74",
+      "data-relevance": "13",
+      "data-term": "atrioventricular block",
+      "data-encoded-term": "atrioventricular%20block",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "candy striper": {
+      "data-frequency": "52",
+      "data-relevance": "12",
+      "data-term": "candy striper",
+      "data-encoded-term": "candy%20striper",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    },
+    "depressive disorder": {
+      "data-frequency": "1946",
+      "data-relevance": "11",
+      "data-term": "depressive disorder",
+      "data-encoded-term": "depressive%20disorder",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1946",
+        "ol",
+        "1"
+      ]
+    },
+    "generalized epilepsy": {
+      "data-frequency": "48",
+      "data-relevance": "10",
+      "data-term": "generalized epilepsy",
+      "data-encoded-term": "generalized%20epilepsy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "48",
+        "ol",
+        "1"
+      ]
+    },
+    "antisocial personality disorder": {
+      "data-frequency": "450",
+      "data-relevance": "9",
+      "data-term": "antisocial personality disorder",
+      "data-encoded-term": "antisocial%20personality%20disorder",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "450",
+        "ol",
+        "1"
+      ]
+    },
+    "orthodontic treatment": {
+      "data-frequency": "102",
+      "data-relevance": "8",
+      "data-term": "orthodontic treatment",
+      "data-encoded-term": "orthodontic%20treatment",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "102",
+        "ol",
+        "1"
+      ]
+    },
+    "human rights": {
+      "data-frequency": "85182",
+      "data-relevance": "7",
+      "data-term": "human rights",
+      "data-encoded-term": "human%20rights",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "85182",
+        "wiki",
+        "1"
+      ]
+    },
+    "psychiatric survivors movement": {
+      "data-frequency": "56",
+      "data-relevance": "6",
+      "data-term": "psychiatric survivors movement",
+      "data-encoded-term": "psychiatric%20survivors%20movement",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "56",
+        "wiki",
+        "1"
+      ]
+    },
+    "assisted living": {
+      "data-frequency": "1054",
+      "data-relevance": "5",
+      "data-term": "assisted living",
+      "data-encoded-term": "assisted%20living",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1054",
+        "wiki",
+        "1"
+      ]
+    },
+    "nursing home": {
+      "data-frequency": "5892",
+      "data-relevance": "4",
+      "data-term": "nursing home",
+      "data-encoded-term": "nursing%20home",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "5892",
+        "wiki",
+        "1"
+      ]
+    },
+    "home health care": {
+      "data-frequency": "267",
+      "data-relevance": "3",
+      "data-term": "home health care",
+      "data-encoded-term": "home%20health%20care",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "267",
+        "wiki",
+        "1"
+      ]
+    },
+    "stafford hospital scandal": {
+      "data-frequency": "-1",
+      "data-relevance": "2",
+      "data-term": "stafford hospital scandal",
+      "data-encoded-term": "stafford%20hospital%20scandal",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "health care quality": {
+      "data-frequency": "159",
+      "data-relevance": "1",
+      "data-term": "health care quality",
+      "data-encoded-term": "health%20care%20quality",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "159",
+        "wiki",
+        "1"
+      ]
+    },
+    "performance indicator": {
+      "data-frequency": "233",
+      "data-relevance": "0",
+      "data-term": "performance indicator",
+      "data-encoded-term": "performance%20indicator",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "233",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "inpatients"
+    ],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "inpatients"
+    ],
+    "synonyms": [
+      "inmate"
+    ],
+    "antonyms": [
+      "outpatient"
+    ],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "hospitalize",
+      "residence",
+      "psychiatric",
+      "night",
+      "noninpatient",
+      "treatment",
+      "physician",
+      "therapy",
+      "inpatients",
+      "palliative",
+      "surgical",
+      "veterinarian",
+      "clinical",
+      "inmate",
+      "hospitalization",
+      "hospital",
+      "patient",
+      "outpatient"
+    ]
+  }
+}

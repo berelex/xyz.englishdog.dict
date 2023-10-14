@@ -1,0 +1,3269 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "semantic relation": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/hypernymy/n/,/c/en/semantic_relation/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hypernymy/n",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/hypernymy"
+        },
+        "end": {
+          "@id": "/c/en/semantic_relation",
+          "@type": "Node",
+          "label": "semantic relation",
+          "language": "en",
+          "term": "/c/en/semantic_relation"
+        }
+      },
+      "holonymy": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/holonymy/,/c/en/hypernymy/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/holonymy",
+          "@type": "Node",
+          "label": "holonymy",
+          "language": "en",
+          "term": "/c/en/holonymy"
+        },
+        "end": {
+          "@id": "/c/en/hypernymy",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "term": "/c/en/hypernymy"
+        }
+      },
+      "hypernym": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/hypernymy/n/,/c/en/hypernym/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hypernymy/n",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/hypernymy"
+        },
+        "end": {
+          "@id": "/c/en/hypernym",
+          "@type": "Node",
+          "label": "hypernym",
+          "language": "en",
+          "term": "/c/en/hypernym"
+        }
+      },
+      "meronymy": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/meronymy/n/,/c/en/hypernymy/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/meronymy/n",
+          "@type": "Node",
+          "label": "meronymy",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/meronymy"
+        },
+        "end": {
+          "@id": "/c/en/hypernymy",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "term": "/c/en/hypernymy"
+        }
+      },
+      "hypernymous": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/hypernymy/n/,/c/en/hypernymous/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hypernymy/n",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/hypernymy"
+        },
+        "end": {
+          "@id": "/c/en/hypernymous",
+          "@type": "Node",
+          "label": "hypernymous",
+          "language": "en",
+          "term": "/c/en/hypernymous"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "superordination": {
+        "@id": "/a/[/r/Synonym/,/c/en/superordination/n/wn/linkdef/,/c/en/hypernymy/n/wn/linkdef/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/superordination/n/wn/linkdef",
+          "@type": "Node",
+          "label": "superordination",
+          "language": "en",
+          "sense_label": "n, linkdef",
+          "term": "/c/en/superordination"
+        },
+        "end": {
+          "@id": "/c/en/hypernymy/n/wn/linkdef",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "sense_label": "n, linkdef",
+          "term": "/c/en/hypernymy"
+        }
+      }
+    },
+    "antonyms": {
+      "hyponymy": {
+        "@id": "/a/[/r/Antonym/,/c/en/hypernymy/n/,/c/en/hyponymy/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hypernymy/n",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/hypernymy"
+        },
+        "end": {
+          "@id": "/c/en/hyponymy",
+          "@type": "Node",
+          "label": "hyponymy",
+          "language": "en",
+          "term": "/c/en/hyponymy"
+        }
+      }
+    },
+    "similar_terms": {},
+    "word_forms": {
+      "hyperonymy": {
+        "@id": "/a/[/r/FormOf/,/c/en/hyperonymy/n/,/c/en/hypernymy/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hyperonymy/n",
+          "@type": "Node",
+          "label": "hyperonymy",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/hyperonymy"
+        },
+        "end": {
+          "@id": "/c/en/hypernymy",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "term": "/c/en/hypernymy"
+        }
+      },
+      "hypernymies": {
+        "@id": "/a/[/r/FormOf/,/c/en/hypernymies/n/,/c/en/hypernymy/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hypernymies/n",
+          "@type": "Node",
+          "label": "hypernymies",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/hypernymies"
+        },
+        "end": {
+          "@id": "/c/en/hypernymy",
+          "@type": "Node",
+          "label": "hypernymy",
+          "language": "en",
+          "term": "/c/en/hypernymy"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "phrase": {
+      "data-frequency": "42527",
+      "data-relevance": "216",
+      "data-term": "phrase",
+      "data-encoded-term": "phrase",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "42527",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "semantic relation": {
+      "data-frequency": "-1",
+      "data-relevance": "215",
+      "data-term": "semantic relation",
+      "data-encoded-term": "semantic%20relation",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "-1",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "superordination": {
+      "data-frequency": "-1",
+      "data-relevance": "214",
+      "data-term": "superordination",
+      "data-encoded-term": "superordination",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "wordnet": {
+      "data-frequency": "326",
+      "data-relevance": "213",
+      "data-term": "wordnet",
+      "data-encoded-term": "wordnet",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "326",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "screwdriver": {
+      "data-frequency": "1006",
+      "data-relevance": "212",
+      "data-term": "screwdriver",
+      "data-encoded-term": "screwdriver",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "1006",
+        "wiki",
+        "1"
+      ]
+    },
+    "linguistics": {
+      "data-frequency": "24751",
+      "data-relevance": "211",
+      "data-term": "linguistics",
+      "data-encoded-term": "linguistics",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "24751",
+        "wiki",
+        "1"
+      ]
+    },
+    "synonym": {
+      "data-frequency": "16605",
+      "data-relevance": "210",
+      "data-term": "synonym",
+      "data-encoded-term": "synonym",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "16605",
+        "cn5",
+        "1"
+      ]
+    },
+    "loanword": {
+      "data-frequency": "1007",
+      "data-relevance": "209",
+      "data-term": "loanword",
+      "data-encoded-term": "loanword",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1007",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordy": {
+      "data-frequency": "432",
+      "data-relevance": "208",
+      "data-term": "wordy",
+      "data-encoded-term": "wordy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "432",
+        "cn5",
+        "1"
+      ]
+    },
+    "monosyllable": {
+      "data-frequency": "55",
+      "data-relevance": "207",
+      "data-term": "monosyllable",
+      "data-encoded-term": "monosyllable",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "55",
+        "cn5",
+        "1"
+      ]
+    },
+    "adverbial": {
+      "data-frequency": "648",
+      "data-relevance": "206",
+      "data-term": "adverbial",
+      "data-encoded-term": "adverbial",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "648",
+        "cn5",
+        "1"
+      ]
+    },
+    "paraphrase": {
+      "data-frequency": "1788",
+      "data-relevance": "205",
+      "data-term": "paraphrase",
+      "data-encoded-term": "paraphrase",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1788",
+        "cn5",
+        "1"
+      ]
+    },
+    "bird": {
+      "data-frequency": "112551",
+      "data-relevance": "204",
+      "data-term": "bird",
+      "data-encoded-term": "bird",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "112551",
+        "wiki",
+        "1"
+      ]
+    },
+    "deictic": {
+      "data-frequency": "151",
+      "data-relevance": "203",
+      "data-term": "deictic",
+      "data-encoded-term": "deictic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "151",
+        "cn5",
+        "1"
+      ]
+    },
+    "verb": {
+      "data-frequency": "10117",
+      "data-relevance": "202",
+      "data-term": "verb",
+      "data-encoded-term": "verb",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "10117",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexical": {
+      "data-frequency": "4652",
+      "data-relevance": "201",
+      "data-term": "lexical",
+      "data-encoded-term": "lexical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4652",
+        "cn5",
+        "1"
+      ]
+    },
+    "hypernym": {
+      "data-frequency": "-1",
+      "data-relevance": "200",
+      "data-term": "hypernym",
+      "data-encoded-term": "hypernym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "word": {
+      "data-frequency": "208595",
+      "data-relevance": "199",
+      "data-term": "word",
+      "data-encoded-term": "word",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "208595",
+        "cn5",
+        "1"
+      ]
+    },
+    "expletive": {
+      "data-frequency": "828",
+      "data-relevance": "198",
+      "data-term": "expletive",
+      "data-encoded-term": "expletive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "828",
+        "cn5",
+        "1"
+      ]
+    },
+    "antonym": {
+      "data-frequency": "423",
+      "data-relevance": "197",
+      "data-term": "antonym",
+      "data-encoded-term": "antonym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "423",
+        "cn5",
+        "1"
+      ]
+    },
+    "anagram": {
+      "data-frequency": "1738",
+      "data-relevance": "196",
+      "data-term": "anagram",
+      "data-encoded-term": "anagram",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1738",
+        "cn5",
+        "1"
+      ]
+    },
+    "verbalism": {
+      "data-frequency": "-1",
+      "data-relevance": "195",
+      "data-term": "verbalism",
+      "data-encoded-term": "verbalism",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "monosyllabic": {
+      "data-frequency": "645",
+      "data-relevance": "194",
+      "data-term": "monosyllabic",
+      "data-encoded-term": "monosyllabic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "645",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordless": {
+      "data-frequency": "1099",
+      "data-relevance": "193",
+      "data-term": "wordless",
+      "data-encoded-term": "wordless",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1099",
+        "cn5",
+        "1"
+      ]
+    },
+    "animal": {
+      "data-frequency": "136043",
+      "data-relevance": "192",
+      "data-term": "animal",
+      "data-encoded-term": "animal",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "136043",
+        "wiki",
+        "1"
+      ]
+    },
+    "adverb": {
+      "data-frequency": "907",
+      "data-relevance": "191",
+      "data-term": "adverb",
+      "data-encoded-term": "adverb",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "907",
+        "cn5",
+        "1"
+      ]
+    },
+    "holonym": {
+      "data-frequency": "-1",
+      "data-relevance": "190",
+      "data-term": "holonym",
+      "data-encoded-term": "holonym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "morpheme": {
+      "data-frequency": "994",
+      "data-relevance": "189",
+      "data-term": "morpheme",
+      "data-encoded-term": "morpheme",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "994",
+        "cn5",
+        "1"
+      ]
+    },
+    "byword": {
+      "data-frequency": "411",
+      "data-relevance": "188",
+      "data-term": "byword",
+      "data-encoded-term": "byword",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "411",
+        "cn5",
+        "1"
+      ]
+    },
+    "hyponym": {
+      "data-frequency": "-1",
+      "data-relevance": "187",
+      "data-term": "hyponym",
+      "data-encoded-term": "hyponym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "verbal": {
+      "data-frequency": "16248",
+      "data-relevance": "186",
+      "data-term": "verbal",
+      "data-encoded-term": "verbal",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "16248",
+        "cn5",
+        "1"
+      ]
+    },
+    "meronym": {
+      "data-frequency": "-1",
+      "data-relevance": "185",
+      "data-term": "meronym",
+      "data-encoded-term": "meronym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "philological": {
+      "data-frequency": "3648",
+      "data-relevance": "184",
+      "data-term": "philological",
+      "data-encoded-term": "philological",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3648",
+        "cn5",
+        "1"
+      ]
+    },
+    "antimetathesis": {
+      "data-frequency": "-1",
+      "data-relevance": "183",
+      "data-term": "antimetathesis",
+      "data-encoded-term": "antimetathesis",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "interword": {
+      "data-frequency": "-1",
+      "data-relevance": "182",
+      "data-term": "interword",
+      "data-encoded-term": "interword",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "syllable": {
+      "data-frequency": "6629",
+      "data-relevance": "181",
+      "data-term": "syllable",
+      "data-encoded-term": "syllable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6629",
+        "cn5",
+        "1"
+      ]
+    },
+    "reword": {
+      "data-frequency": "49",
+      "data-relevance": "180",
+      "data-term": "reword",
+      "data-encoded-term": "reword",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "49",
+        "cn5",
+        "1"
+      ]
+    },
+    "disyllable": {
+      "data-frequency": "-1",
+      "data-relevance": "179",
+      "data-term": "disyllable",
+      "data-encoded-term": "disyllable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reduplication": {
+      "data-frequency": "758",
+      "data-relevance": "178",
+      "data-term": "reduplication",
+      "data-encoded-term": "reduplication",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "758",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordness": {
+      "data-frequency": "-1",
+      "data-relevance": "177",
+      "data-term": "wordness",
+      "data-encoded-term": "wordness",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonlexical": {
+      "data-frequency": "-1",
+      "data-relevance": "176",
+      "data-term": "nonlexical",
+      "data-encoded-term": "nonlexical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "misword": {
+      "data-frequency": "-1",
+      "data-relevance": "175",
+      "data-term": "misword",
+      "data-encoded-term": "misword",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordish": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "wordish",
+      "data-encoded-term": "wordish",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "denotation": {
+      "data-frequency": "436",
+      "data-relevance": "173",
+      "data-term": "denotation",
+      "data-encoded-term": "denotation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "436",
+        "cn5",
+        "1"
+      ]
+    },
+    "polyword": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "polyword",
+      "data-encoded-term": "polyword",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unworded": {
+      "data-frequency": "-1",
+      "data-relevance": "171",
+      "data-term": "unworded",
+      "data-encoded-term": "unworded",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordwise": {
+      "data-frequency": "-1",
+      "data-relevance": "170",
+      "data-term": "wordwise",
+      "data-encoded-term": "wordwise",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "terminology": {
+      "data-frequency": "38328",
+      "data-relevance": "169",
+      "data-term": "terminology",
+      "data-encoded-term": "terminology",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "38328",
+        "cn5",
+        "1"
+      ]
+    },
+    "definiendum": {
+      "data-frequency": "-1",
+      "data-relevance": "168",
+      "data-term": "definiendum",
+      "data-encoded-term": "definiendum",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "trisyllable": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "trisyllable",
+      "data-encoded-term": "trisyllable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordinitial": {
+      "data-frequency": "-1",
+      "data-relevance": "166",
+      "data-term": "wordinitial",
+      "data-encoded-term": "wordinitial",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "listeme": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "listeme",
+      "data-encoded-term": "listeme",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordhood": {
+      "data-frequency": "-1",
+      "data-relevance": "164",
+      "data-term": "wordhood",
+      "data-encoded-term": "wordhood",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "troponym": {
+      "data-frequency": "-1",
+      "data-relevance": "163",
+      "data-term": "troponym",
+      "data-encoded-term": "troponym",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordfinal": {
+      "data-frequency": "-1",
+      "data-relevance": "162",
+      "data-term": "wordfinal",
+      "data-encoded-term": "wordfinal",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "catchphrase": {
+      "data-frequency": "3907",
+      "data-relevance": "161",
+      "data-term": "catchphrase",
+      "data-encoded-term": "catchphrase",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3907",
+        "cn5",
+        "1"
+      ]
+    },
+    "quantifier": {
+      "data-frequency": "570",
+      "data-relevance": "160",
+      "data-term": "quantifier",
+      "data-encoded-term": "quantifier",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "570",
+        "cn5",
+        "1"
+      ]
+    },
+    "proparoxytone": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "proparoxytone",
+      "data-encoded-term": "proparoxytone",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "attributive": {
+      "data-frequency": "422",
+      "data-relevance": "158",
+      "data-term": "attributive",
+      "data-encoded-term": "attributive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "422",
+        "cn5",
+        "1"
+      ]
+    },
+    "polyseme": {
+      "data-frequency": "-1",
+      "data-relevance": "157",
+      "data-term": "polyseme",
+      "data-encoded-term": "polyseme",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "polysyllable": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "polysyllable",
+      "data-encoded-term": "polysyllable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "verbally": {
+      "data-frequency": "5110",
+      "data-relevance": "155",
+      "data-term": "verbally",
+      "data-encoded-term": "verbally",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5110",
+        "cn5",
+        "1"
+      ]
+    },
+    "catchword": {
+      "data-frequency": "96",
+      "data-relevance": "154",
+      "data-term": "catchword",
+      "data-encoded-term": "catchword",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "unaccented": {
+      "data-frequency": "197",
+      "data-relevance": "153",
+      "data-term": "unaccented",
+      "data-encoded-term": "unaccented",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "197",
+        "cn5",
+        "1"
+      ]
+    },
+    "motto": {
+      "data-frequency": "67012",
+      "data-relevance": "152",
+      "data-term": "motto",
+      "data-encoded-term": "motto",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "67012",
+        "cn5",
+        "1"
+      ]
+    },
+    "calligram": {
+      "data-frequency": "-1",
+      "data-relevance": "151",
+      "data-term": "calligram",
+      "data-encoded-term": "calligram",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "barytone": {
+      "data-frequency": "55",
+      "data-relevance": "150",
+      "data-term": "barytone",
+      "data-encoded-term": "barytone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "55",
+        "cn5",
+        "1"
+      ]
+    },
+    "anaphor": {
+      "data-frequency": "44",
+      "data-relevance": "149",
+      "data-term": "anaphor",
+      "data-encoded-term": "anaphor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "fuzzword": {
+      "data-frequency": "-1",
+      "data-relevance": "148",
+      "data-term": "fuzzword",
+      "data-encoded-term": "fuzzword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexicon": {
+      "data-frequency": "12879",
+      "data-relevance": "147",
+      "data-term": "lexicon",
+      "data-encoded-term": "lexicon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12879",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordable": {
+      "data-frequency": "-1",
+      "data-relevance": "146",
+      "data-term": "wordable",
+      "data-encoded-term": "wordable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "idiom": {
+      "data-frequency": "4804",
+      "data-relevance": "145",
+      "data-term": "idiom",
+      "data-encoded-term": "idiom",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4804",
+        "cn5",
+        "1"
+      ]
+    },
+    "parenthesis": {
+      "data-frequency": "1699",
+      "data-relevance": "144",
+      "data-term": "parenthesis",
+      "data-encoded-term": "parenthesis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1699",
+        "cn5",
+        "1"
+      ]
+    },
+    "vocabulary": {
+      "data-frequency": "13898",
+      "data-relevance": "143",
+      "data-term": "vocabulary",
+      "data-encoded-term": "vocabulary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13898",
+        "cn5",
+        "1"
+      ]
+    },
+    "sentence": {
+      "data-frequency": "44690",
+      "data-relevance": "142",
+      "data-term": "sentence",
+      "data-encoded-term": "sentence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44690",
+        "cn5",
+        "1"
+      ]
+    },
+    "clause": {
+      "data-frequency": "19905",
+      "data-relevance": "141",
+      "data-term": "clause",
+      "data-encoded-term": "clause",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19905",
+        "cn5",
+        "1"
+      ]
+    },
+    "neosemanticism": {
+      "data-frequency": "-1",
+      "data-relevance": "140",
+      "data-term": "neosemanticism",
+      "data-encoded-term": "neosemanticism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "phraseology": {
+      "data-frequency": "888",
+      "data-relevance": "139",
+      "data-term": "phraseology",
+      "data-encoded-term": "phraseology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "888",
+        "cn5",
+        "1"
+      ]
+    },
+    "oxytone": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "oxytone",
+      "data-encoded-term": "oxytone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "modifier": {
+      "data-frequency": "1646",
+      "data-relevance": "137",
+      "data-term": "modifier",
+      "data-encoded-term": "modifier",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1646",
+        "cn5",
+        "1"
+      ]
+    },
+    "foreword": {
+      "data-frequency": "14900",
+      "data-relevance": "136",
+      "data-term": "foreword",
+      "data-encoded-term": "foreword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14900",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordstock": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "wordstock",
+      "data-encoded-term": "wordstock",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "paroxytone": {
+      "data-frequency": "-1",
+      "data-relevance": "134",
+      "data-term": "paroxytone",
+      "data-encoded-term": "paroxytone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "heteronym": {
+      "data-frequency": "45",
+      "data-relevance": "133",
+      "data-term": "heteronym",
+      "data-encoded-term": "heteronym",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexeme": {
+      "data-frequency": "169",
+      "data-relevance": "132",
+      "data-term": "lexeme",
+      "data-encoded-term": "lexeme",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "169",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordaholic": {
+      "data-frequency": "-1",
+      "data-relevance": "131",
+      "data-term": "wordaholic",
+      "data-encoded-term": "wordaholic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "infinitive": {
+      "data-frequency": "946",
+      "data-relevance": "130",
+      "data-term": "infinitive",
+      "data-encoded-term": "infinitive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "946",
+        "cn5",
+        "1"
+      ]
+    },
+    "participle": {
+      "data-frequency": "1346",
+      "data-relevance": "129",
+      "data-term": "participle",
+      "data-encoded-term": "participle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1346",
+        "cn5",
+        "1"
+      ]
+    },
+    "phrasal": {
+      "data-frequency": "430",
+      "data-relevance": "128",
+      "data-term": "phrasal",
+      "data-encoded-term": "phrasal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "430",
+        "cn5",
+        "1"
+      ]
+    },
+    "heterophemy": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "heterophemy",
+      "data-encoded-term": "heterophemy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "headword": {
+      "data-frequency": "122",
+      "data-relevance": "126",
+      "data-term": "headword",
+      "data-encoded-term": "headword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "122",
+        "cn5",
+        "1"
+      ]
+    },
+    "misconstruction": {
+      "data-frequency": "52",
+      "data-relevance": "125",
+      "data-term": "misconstruction",
+      "data-encoded-term": "misconstruction",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "partword": {
+      "data-frequency": "-1",
+      "data-relevance": "124",
+      "data-term": "partword",
+      "data-encoded-term": "partword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "phonestheme": {
+      "data-frequency": "-1",
+      "data-relevance": "123",
+      "data-term": "phonestheme",
+      "data-encoded-term": "phonestheme",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dword": {
+      "data-frequency": "58",
+      "data-relevance": "122",
+      "data-term": "dword",
+      "data-encoded-term": "dword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "58",
+        "cn5",
+        "1"
+      ]
+    },
+    "logomach": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "logomach",
+      "data-encoded-term": "logomach",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "elision": {
+      "data-frequency": "495",
+      "data-relevance": "120",
+      "data-term": "elision",
+      "data-encoded-term": "elision",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "495",
+        "cn5",
+        "1"
+      ]
+    },
+    "quadword": {
+      "data-frequency": "-1",
+      "data-relevance": "119",
+      "data-term": "quadword",
+      "data-encoded-term": "quadword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiphrasis": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "antiphrasis",
+      "data-encoded-term": "antiphrasis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexicology": {
+      "data-frequency": "281",
+      "data-relevance": "117",
+      "data-term": "lexicology",
+      "data-encoded-term": "lexicology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "281",
+        "cn5",
+        "1"
+      ]
+    },
+    "syllabify": {
+      "data-frequency": "-1",
+      "data-relevance": "116",
+      "data-term": "syllabify",
+      "data-encoded-term": "syllabify",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordcraft": {
+      "data-frequency": "76",
+      "data-relevance": "115",
+      "data-term": "wordcraft",
+      "data-encoded-term": "wordcraft",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "averbal": {
+      "data-frequency": "-1",
+      "data-relevance": "114",
+      "data-term": "averbal",
+      "data-encoded-term": "averbal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "latinism": {
+      "data-frequency": "52",
+      "data-relevance": "113",
+      "data-term": "latinism",
+      "data-encoded-term": "latinism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "hispanism": {
+      "data-frequency": "136",
+      "data-relevance": "112",
+      "data-term": "hispanism",
+      "data-encoded-term": "hispanism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "136",
+        "cn5",
+        "1"
+      ]
+    },
+    "vocable": {
+      "data-frequency": "47",
+      "data-relevance": "111",
+      "data-term": "vocable",
+      "data-encoded-term": "vocable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "pejoration": {
+      "data-frequency": "-1",
+      "data-relevance": "110",
+      "data-term": "pejoration",
+      "data-encoded-term": "pejoration",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "genitive": {
+      "data-frequency": "2844",
+      "data-relevance": "109",
+      "data-term": "genitive",
+      "data-encoded-term": "genitive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2844",
+        "cn5",
+        "1"
+      ]
+    },
+    "term": {
+      "data-frequency": "674702",
+      "data-relevance": "108",
+      "data-term": "term",
+      "data-encoded-term": "term",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "674702",
+        "cn5",
+        "1"
+      ]
+    },
+    "connotation": {
+      "data-frequency": "3201",
+      "data-relevance": "107",
+      "data-term": "connotation",
+      "data-encoded-term": "connotation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3201",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiverbal": {
+      "data-frequency": "-1",
+      "data-relevance": "106",
+      "data-term": "antiverbal",
+      "data-encoded-term": "antiverbal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "verbalist": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "verbalist",
+      "data-encoded-term": "verbalist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "orthographic": {
+      "data-frequency": "1762",
+      "data-relevance": "104",
+      "data-term": "orthographic",
+      "data-encoded-term": "orthographic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1762",
+        "cn5",
+        "1"
+      ]
+    },
+    "subtext": {
+      "data-frequency": "1240",
+      "data-relevance": "103",
+      "data-term": "subtext",
+      "data-encoded-term": "subtext",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1240",
+        "cn5",
+        "1"
+      ]
+    },
+    "nym": {
+      "data-frequency": "1165",
+      "data-relevance": "102",
+      "data-term": "nym",
+      "data-encoded-term": "nym",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1165",
+        "cn5",
+        "1"
+      ]
+    },
+    "hybridize": {
+      "data-frequency": "635",
+      "data-relevance": "101",
+      "data-term": "hybridize",
+      "data-encoded-term": "hybridize",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "635",
+        "cn5",
+        "1"
+      ]
+    },
+    "synonymous": {
+      "data-frequency": "10027",
+      "data-relevance": "100",
+      "data-term": "synonymous",
+      "data-encoded-term": "synonymous",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10027",
+        "cn5",
+        "1"
+      ]
+    },
+    "qualifier": {
+      "data-frequency": "32481",
+      "data-relevance": "99",
+      "data-term": "qualifier",
+      "data-encoded-term": "qualifier",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32481",
+        "cn5",
+        "1"
+      ]
+    },
+    "indianism": {
+      "data-frequency": "93",
+      "data-relevance": "98",
+      "data-term": "indianism",
+      "data-encoded-term": "indianism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "pseudoword": {
+      "data-frequency": "-1",
+      "data-relevance": "97",
+      "data-term": "pseudoword",
+      "data-encoded-term": "pseudoword",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "comitative": {
+      "data-frequency": "265",
+      "data-relevance": "96",
+      "data-term": "comitative",
+      "data-encoded-term": "comitative",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "265",
+        "cn5",
+        "1"
+      ]
+    },
+    "toneme": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "toneme",
+      "data-encoded-term": "toneme",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "logograph": {
+      "data-frequency": "-1",
+      "data-relevance": "94",
+      "data-term": "logograph",
+      "data-encoded-term": "logograph",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "microlinguistics": {
+      "data-frequency": "-1",
+      "data-relevance": "93",
+      "data-term": "microlinguistics",
+      "data-encoded-term": "microlinguistics",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "epenthesis": {
+      "data-frequency": "190",
+      "data-relevance": "92",
+      "data-term": "epenthesis",
+      "data-encoded-term": "epenthesis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "190",
+        "cn5",
+        "1"
+      ]
+    },
+    "nominalism": {
+      "data-frequency": "713",
+      "data-relevance": "91",
+      "data-term": "nominalism",
+      "data-encoded-term": "nominalism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "713",
+        "cn5",
+        "1"
+      ]
+    },
+    "hinglish": {
+      "data-frequency": "124",
+      "data-relevance": "90",
+      "data-term": "hinglish",
+      "data-encoded-term": "hinglish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "124",
+        "cn5",
+        "1"
+      ]
+    },
+    "heterogram": {
+      "data-frequency": "-1",
+      "data-relevance": "89",
+      "data-term": "heterogram",
+      "data-encoded-term": "heterogram",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sinicism": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "sinicism",
+      "data-encoded-term": "sinicism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "abessive": {
+      "data-frequency": "120",
+      "data-relevance": "87",
+      "data-term": "abessive",
+      "data-encoded-term": "abessive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120",
+        "cn5",
+        "1"
+      ]
+    },
+    "translative": {
+      "data-frequency": "131",
+      "data-relevance": "86",
+      "data-term": "translative",
+      "data-encoded-term": "translative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "131",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexicalize": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "lexicalize",
+      "data-encoded-term": "lexicalize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sentential": {
+      "data-frequency": "211",
+      "data-relevance": "84",
+      "data-term": "sentential",
+      "data-encoded-term": "sentential",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "211",
+        "cn5",
+        "1"
+      ]
+    },
+    "overword": {
+      "data-frequency": "-1",
+      "data-relevance": "83",
+      "data-term": "overword",
+      "data-encoded-term": "overword",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coverb": {
+      "data-frequency": "122",
+      "data-relevance": "82",
+      "data-term": "coverb",
+      "data-encoded-term": "coverb",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "122",
+        "cn5",
+        "1"
+      ]
+    },
+    "hunglish": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "hunglish",
+      "data-encoded-term": "hunglish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "illative": {
+      "data-frequency": "155",
+      "data-relevance": "80",
+      "data-term": "illative",
+      "data-encoded-term": "illative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "155",
+        "cn5",
+        "1"
+      ]
+    },
+    "safeword": {
+      "data-frequency": "162",
+      "data-relevance": "79",
+      "data-term": "safeword",
+      "data-encoded-term": "safeword",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "162",
+        "cn5",
+        "1"
+      ]
+    },
+    "spellingly": {
+      "data-frequency": "-1",
+      "data-relevance": "78",
+      "data-term": "spellingly",
+      "data-encoded-term": "spellingly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "catachresis": {
+      "data-frequency": "45",
+      "data-relevance": "77",
+      "data-term": "catachresis",
+      "data-encoded-term": "catachresis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "polysemy": {
+      "data-frequency": "169",
+      "data-relevance": "76",
+      "data-term": "polysemy",
+      "data-encoded-term": "polysemy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "169",
+        "cn5",
+        "1"
+      ]
+    },
+    "onym": {
+      "data-frequency": "45",
+      "data-relevance": "75",
+      "data-term": "onym",
+      "data-encoded-term": "onym",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "frenchism": {
+      "data-frequency": "-1",
+      "data-relevance": "74",
+      "data-term": "frenchism",
+      "data-encoded-term": "frenchism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "janglish": {
+      "data-frequency": "-1",
+      "data-relevance": "73",
+      "data-term": "janglish",
+      "data-encoded-term": "janglish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "metonym": {
+      "data-frequency": "357",
+      "data-relevance": "72",
+      "data-term": "metonym",
+      "data-encoded-term": "metonym",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "357",
+        "cn5",
+        "1"
+      ]
+    },
+    "predicative": {
+      "data-frequency": "382",
+      "data-relevance": "71",
+      "data-term": "predicative",
+      "data-encoded-term": "predicative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382",
+        "cn5",
+        "1"
+      ]
+    },
+    "alphagram": {
+      "data-frequency": "-1",
+      "data-relevance": "70",
+      "data-term": "alphagram",
+      "data-encoded-term": "alphagram",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "semantic field": {
+      "data-frequency": "2917",
+      "data-relevance": "69",
+      "data-term": "semantic field",
+      "data-encoded-term": "semantic%20field",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2917",
+        "wiki",
+        "1"
+      ]
+    },
+    "utterable": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "utterable",
+      "data-encoded-term": "utterable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "aphthong": {
+      "data-frequency": "-1",
+      "data-relevance": "67",
+      "data-term": "aphthong",
+      "data-encoded-term": "aphthong",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordbuilding": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "wordbuilding",
+      "data-encoded-term": "wordbuilding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "framis": {
+      "data-frequency": "130",
+      "data-relevance": "65",
+      "data-term": "framis",
+      "data-encoded-term": "framis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "130",
+        "cn5",
+        "1"
+      ]
+    },
+    "misspell": {
+      "data-frequency": "124",
+      "data-relevance": "64",
+      "data-term": "misspell",
+      "data-encoded-term": "misspell",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "124",
+        "cn5",
+        "1"
+      ]
+    },
+    "logology": {
+      "data-frequency": "45",
+      "data-relevance": "63",
+      "data-term": "logology",
+      "data-encoded-term": "logology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "kineme": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "kineme",
+      "data-encoded-term": "kineme",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "syllabism": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "syllabism",
+      "data-encoded-term": "syllabism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "protoconversation": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "protoconversation",
+      "data-encoded-term": "protoconversation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "kilobyte": {
+      "data-frequency": "232",
+      "data-relevance": "59",
+      "data-term": "kilobyte",
+      "data-encoded-term": "kilobyte",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "232",
+        "cn5",
+        "1"
+      ]
+    },
+    "postmodify": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "postmodify",
+      "data-encoded-term": "postmodify",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordmonger": {
+      "data-frequency": "-1",
+      "data-relevance": "57",
+      "data-term": "wordmonger",
+      "data-encoded-term": "wordmonger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "blanket term": {
+      "data-frequency": "164",
+      "data-relevance": "56",
+      "data-term": "blanket term",
+      "data-encoded-term": "blanket%20term",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "164",
+        "cn5",
+        "1"
+      ]
+    },
+    "finderlist": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "finderlist",
+      "data-encoded-term": "finderlist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexical semantics": {
+      "data-frequency": "139",
+      "data-relevance": "54",
+      "data-term": "lexical semantics",
+      "data-encoded-term": "lexical%20semantics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "139",
+        "cn5",
+        "1"
+      ]
+    },
+    "p word": {
+      "data-frequency": "65",
+      "data-relevance": "53",
+      "data-term": "p word",
+      "data-encoded-term": "p%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "65",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonce word": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "nonce word",
+      "data-encoded-term": "nonce%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexical definition": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "lexical definition",
+      "data-encoded-term": "lexical%20definition",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "b word": {
+      "data-frequency": "146",
+      "data-relevance": "50",
+      "data-term": "b word",
+      "data-encoded-term": "b%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "146",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexical word": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "lexical word",
+      "data-encoded-term": "lexical%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ur word": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "ur word",
+      "data-encoded-term": "ur%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fight word": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "fight word",
+      "data-encoded-term": "fight%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "content word": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "content word",
+      "data-encoded-term": "content%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "function word": {
+      "data-frequency": "46",
+      "data-relevance": "45",
+      "data-term": "function word",
+      "data-encoded-term": "function%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "set phrase": {
+      "data-frequency": "236",
+      "data-relevance": "44",
+      "data-term": "set phrase",
+      "data-encoded-term": "set%20phrase",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "236",
+        "cn5",
+        "1"
+      ]
+    },
+    "h word": {
+      "data-frequency": "75",
+      "data-relevance": "43",
+      "data-term": "h word",
+      "data-encoded-term": "h%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "75",
+        "cn5",
+        "1"
+      ]
+    },
+    "n word": {
+      "data-frequency": "481",
+      "data-relevance": "42",
+      "data-term": "n word",
+      "data-encoded-term": "n%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "481",
+        "cn5",
+        "1"
+      ]
+    },
+    "dirty word": {
+      "data-frequency": "218",
+      "data-relevance": "41",
+      "data-term": "dirty word",
+      "data-encoded-term": "dirty%20word",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "218",
+        "cn5",
+        "1"
+      ]
+    },
+    "mean thing": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "mean thing",
+      "data-encoded-term": "mean%20thing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "compound imperative": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "compound imperative",
+      "data-encoded-term": "compound%20imperative",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "f word": {
+      "data-frequency": "669",
+      "data-relevance": "38",
+      "data-term": "f word",
+      "data-encoded-term": "f%20word",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "669",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexical item": {
+      "data-frequency": "92",
+      "data-relevance": "37",
+      "data-term": "lexical item",
+      "data-encoded-term": "lexical%20item",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "92",
+        "cn5",
+        "1"
+      ]
+    },
+    "give voice": {
+      "data-frequency": "415",
+      "data-relevance": "36",
+      "data-term": "give voice",
+      "data-encoded-term": "give%20voice",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "415",
+        "cn5",
+        "1"
+      ]
+    },
+    "negative interference": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "negative interference",
+      "data-encoded-term": "negative%20interference",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "loan translation": {
+      "data-frequency": "85",
+      "data-relevance": "34",
+      "data-term": "loan translation",
+      "data-encoded-term": "loan%20translation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "85",
+        "cn5",
+        "1"
+      ]
+    },
+    "intransitive verb": {
+      "data-frequency": "268",
+      "data-relevance": "33",
+      "data-term": "intransitive verb",
+      "data-encoded-term": "intransitive%20verb",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "268",
+        "cn5",
+        "1"
+      ]
+    },
+    "swear word": {
+      "data-frequency": "161",
+      "data-relevance": "32",
+      "data-term": "swear word",
+      "data-encoded-term": "swear%20word",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "161",
+        "cn5",
+        "1"
+      ]
+    },
+    "use mention distinction": {
+      "data-frequency": "141",
+      "data-relevance": "31",
+      "data-term": "use mention distinction",
+      "data-encoded-term": "use%20mention%20distinction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "141",
+        "cn5",
+        "1"
+      ]
+    },
+    "verb phrase": {
+      "data-frequency": "300",
+      "data-relevance": "30",
+      "data-term": "verb phrase",
+      "data-encoded-term": "verb%20phrase",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "300",
+        "cn5",
+        "1"
+      ]
+    },
+    "phrasal verb": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "phrasal verb",
+      "data-encoded-term": "phrasal%20verb",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "noun phrase": {
+      "data-frequency": "664",
+      "data-relevance": "28",
+      "data-term": "noun phrase",
+      "data-encoded-term": "noun%20phrase",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "664",
+        "cn5",
+        "1"
+      ]
+    },
+    "dangle modifier": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "dangle modifier",
+      "data-encoded-term": "dangle%20modifier",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "garden path sentence": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "garden path sentence",
+      "data-encoded-term": "garden%20path%20sentence",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "verbal noun": {
+      "data-frequency": "290",
+      "data-relevance": "25",
+      "data-term": "verbal noun",
+      "data-encoded-term": "verbal%20noun",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "290",
+        "cn5",
+        "1"
+      ]
+    },
+    "main clause": {
+      "data-frequency": "204",
+      "data-relevance": "24",
+      "data-term": "main clause",
+      "data-encoded-term": "main%20clause",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "204",
+        "cn5",
+        "1"
+      ]
+    },
+    "propositional function": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "propositional function",
+      "data-encoded-term": "propositional%20function",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "transitive verb": {
+      "data-frequency": "380",
+      "data-relevance": "22",
+      "data-term": "transitive verb",
+      "data-encoded-term": "transitive%20verb",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "380",
+        "cn5",
+        "1"
+      ]
+    },
+    "prepositional phrase": {
+      "data-frequency": "218",
+      "data-relevance": "21",
+      "data-term": "prepositional phrase",
+      "data-encoded-term": "prepositional%20phrase",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "218",
+        "cn5",
+        "1"
+      ]
+    },
+    "word sense": {
+      "data-frequency": "29450",
+      "data-relevance": "20",
+      "data-term": "word sense",
+      "data-encoded-term": "word%20sense",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "29450",
+        "wiki",
+        "1"
+      ]
+    },
+    "subordinate clause": {
+      "data-frequency": "156",
+      "data-relevance": "19",
+      "data-term": "subordinate clause",
+      "data-encoded-term": "subordinate%20clause",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "four letter word": {
+      "data-frequency": "550",
+      "data-relevance": "18",
+      "data-term": "four letter word",
+      "data-encoded-term": "four%20letter%20word",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "550",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexical correspondence": {
+      "data-frequency": "-1",
+      "data-relevance": "17",
+      "data-term": "lexical correspondence",
+      "data-encoded-term": "lexical%20correspondence",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "object language": {
+      "data-frequency": "93",
+      "data-relevance": "16",
+      "data-term": "object language",
+      "data-encoded-term": "object%20language",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "auxiliary verb": {
+      "data-frequency": "332",
+      "data-relevance": "15",
+      "data-term": "auxiliary verb",
+      "data-encoded-term": "auxiliary%20verb",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "332",
+        "cn5",
+        "1"
+      ]
+    },
+    "semantic analysis": {
+      "data-frequency": "356",
+      "data-relevance": "14",
+      "data-term": "semantic analysis",
+      "data-encoded-term": "semantic%20analysis",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "356",
+        "cn5",
+        "1"
+      ]
+    },
+    "part of speech": {
+      "data-frequency": "444",
+      "data-relevance": "13",
+      "data-term": "part of speech",
+      "data-encoded-term": "part%20of%20speech",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "444",
+        "cn5",
+        "1"
+      ]
+    },
+    "string of word": {
+      "data-frequency": "-1",
+      "data-relevance": "12",
+      "data-term": "string of word",
+      "data-encoded-term": "string%20of%20word",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "eye rhyme": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "eye rhyme",
+      "data-encoded-term": "eye%20rhyme",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "is-a": {
+      "data-frequency": "4872072",
+      "data-relevance": "10",
+      "data-term": "is-a",
+      "data-encoded-term": "is-a",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4872072",
+        "wiki",
+        "1"
+      ]
+    },
+    "key word": {
+      "data-frequency": "429",
+      "data-relevance": "9",
+      "data-term": "key word",
+      "data-encoded-term": "key%20word",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "429",
+        "cn5",
+        "1"
+      ]
+    },
+    "computer science": {
+      "data-frequency": "29176",
+      "data-relevance": "8",
+      "data-term": "computer science",
+      "data-encoded-term": "computer%20science",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "29176",
+        "wiki",
+        "1"
+      ]
+    },
+    "transitive relation": {
+      "data-frequency": "57",
+      "data-relevance": "7",
+      "data-term": "transitive relation",
+      "data-encoded-term": "transitive%20relation",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "57",
+        "wiki",
+        "1"
+      ]
+    },
+    "anaphora": {
+      "data-frequency": "587",
+      "data-relevance": "6",
+      "data-term": "anaphora",
+      "data-encoded-term": "anaphora",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "587",
+        "wiki",
+        "1"
+      ]
+    },
+    "specialization": {
+      "data-frequency": "7363",
+      "data-relevance": "5",
+      "data-term": "specialization",
+      "data-encoded-term": "specialization",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7363",
+        "wiki",
+        "1"
+      ]
+    },
+    "semantic similarity": {
+      "data-frequency": "839",
+      "data-relevance": "4",
+      "data-term": "semantic similarity",
+      "data-encoded-term": "semantic%20similarity",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "839",
+        "wiki",
+        "1"
+      ]
+    },
+    "synonym ring": {
+      "data-frequency": "3560",
+      "data-relevance": "3",
+      "data-term": "synonym ring",
+      "data-encoded-term": "synonym%20ring",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3560",
+        "wiki",
+        "1"
+      ]
+    },
+    "language translation": {
+      "data-frequency": "176990",
+      "data-relevance": "2",
+      "data-term": "language translation",
+      "data-encoded-term": "language%20translation",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "176990",
+        "wiki",
+        "1"
+      ]
+    },
+    "semantic compression": {
+      "data-frequency": "160",
+      "data-relevance": "1",
+      "data-term": "semantic compression",
+      "data-encoded-term": "semantic%20compression",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "160",
+        "wiki",
+        "1"
+      ]
+    },
+    "machine translation": {
+      "data-frequency": "54764",
+      "data-relevance": "0",
+      "data-term": "machine translation",
+      "data-encoded-term": "machine%20translation",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "54764",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "hyperonymy",
+      "hypernymies"
+    ],
+    "synonyms": [
+      "superordination"
+    ],
+    "antonyms": [
+      "hyponymy"
+    ],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "superordination",
+      "linguistics",
+      "synonym",
+      "phrase",
+      "wordnet",
+      "monosyllable",
+      "loanword",
+      "meronymy",
+      "hypernym",
+      "adverbial",
+      "screwdriver",
+      "wordy",
+      "hypernymous",
+      "holonymy"
+    ]
+  }
+}

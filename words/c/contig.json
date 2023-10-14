@@ -1,0 +1,997 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "dna": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contig/n/,/c/en/dna/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contig/n",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contig"
+        },
+        "end": {
+          "@id": "/c/en/dna",
+          "@type": "Node",
+          "label": "dna",
+          "language": "en",
+          "term": "/c/en/dna"
+        }
+      },
+      "haplome": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/haplome/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/haplome/n",
+          "@type": "Node",
+          "label": "haplome",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/haplome"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      },
+      "sequence": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contig/n/,/c/en/sequence/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contig/n",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contig"
+        },
+        "end": {
+          "@id": "/c/en/sequence",
+          "@type": "Node",
+          "label": "sequence",
+          "language": "en",
+          "term": "/c/en/sequence"
+        }
+      },
+      "source": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contig/n/,/c/en/source/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contig/n",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contig"
+        },
+        "end": {
+          "@id": "/c/en/source",
+          "@type": "Node",
+          "label": "source",
+          "language": "en",
+          "term": "/c/en/source"
+        }
+      },
+      "unitig": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/unitig/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/unitig/n",
+          "@type": "Node",
+          "label": "unitig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/unitig"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      },
+      "genetic": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contig/n/,/c/en/genetic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contig/n",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contig"
+        },
+        "end": {
+          "@id": "/c/en/genetic",
+          "@type": "Node",
+          "label": "genetic",
+          "language": "en",
+          "term": "/c/en/genetic"
+        }
+      },
+      "metacontig": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/metacontig/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/metacontig/n",
+          "@type": "Node",
+          "label": "metacontig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/metacontig"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      },
+      "omnitig": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/omnitig/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/omnitig/n",
+          "@type": "Node",
+          "label": "omnitig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/omnitig"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      },
+      "contigs": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contigs/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contigs/n",
+          "@type": "Node",
+          "label": "contigs",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contigs"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      },
+      "segment": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contig/n/,/c/en/segment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contig/n",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contig"
+        },
+        "end": {
+          "@id": "/c/en/segment",
+          "@type": "Node",
+          "label": "segment",
+          "language": "en",
+          "term": "/c/en/segment"
+        }
+      },
+      "set": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/contig/n/,/c/en/set/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contig/n",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contig"
+        },
+        "end": {
+          "@id": "/c/en/set",
+          "@type": "Node",
+          "label": "set",
+          "language": "en",
+          "term": "/c/en/set"
+        }
+      },
+      "supercontig": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/supercontig/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/supercontig/n",
+          "@type": "Node",
+          "label": "supercontig",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/supercontig"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      },
+      "pseudomolecule": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/pseudomolecule/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/pseudomolecule/n",
+          "@type": "Node",
+          "label": "pseudomolecule",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/pseudomolecule"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "contigs": {
+        "@id": "/a/[/r/FormOf/,/c/en/contigs/n/,/c/en/contig/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/contigs/n",
+          "@type": "Node",
+          "label": "contigs",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/contigs"
+        },
+        "end": {
+          "@id": "/c/en/contig",
+          "@type": "Node",
+          "label": "contig",
+          "language": "en",
+          "term": "/c/en/contig"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "spanning": {
+      "data-frequency": "21683",
+      "data-relevance": "47",
+      "data-term": "spanning",
+      "data-encoded-term": "spanning",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "21683",
+        "ol",
+        "1"
+      ]
+    },
+    "constructed": {
+      "data-frequency": "155029",
+      "data-relevance": "46",
+      "data-term": "constructed",
+      "data-encoded-term": "constructed",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "155029",
+        "ol",
+        "1"
+      ]
+    },
+    "assembled": {
+      "data-frequency": "33903",
+      "data-relevance": "45",
+      "data-term": "assembled",
+      "data-encoded-term": "assembled",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "33903",
+        "ol",
+        "1"
+      ]
+    },
+    "single": {
+      "data-frequency": "727671",
+      "data-relevance": "44",
+      "data-term": "single",
+      "data-encoded-term": "single",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "727671",
+        "ol",
+        "1"
+      ]
+    },
+    "artificial": {
+      "data-frequency": "48430",
+      "data-relevance": "43",
+      "data-term": "artificial",
+      "data-encoded-term": "artificial",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "48430",
+        "ol",
+        "1"
+      ]
+    },
+    "same": {
+      "data-frequency": "1188279",
+      "data-relevance": "42",
+      "data-term": "same",
+      "data-encoded-term": "same",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1188279",
+        "ol",
+        "1"
+      ]
+    },
+    "clones": {
+      "data-frequency": "10372",
+      "data-relevance": "41",
+      "data-term": "clones",
+      "data-encoded-term": "clones",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "10372",
+        "ol",
+        "1"
+      ]
+    },
+    "end": {
+      "data-frequency": "855602",
+      "data-relevance": "40",
+      "data-term": "end",
+      "data-encoded-term": "end",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "855602",
+        "ol",
+        "1"
+      ]
+    },
+    "construction": {
+      "data-frequency": "382012",
+      "data-relevance": "39",
+      "data-term": "construction",
+      "data-encoded-term": "construction",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "382012",
+        "ol",
+        "1"
+      ]
+    },
+    "region": {
+      "data-frequency": "683480",
+      "data-relevance": "38",
+      "data-term": "region",
+      "data-encoded-term": "region",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "683480",
+        "ol",
+        "1"
+      ]
+    },
+    "part": {
+      "data-frequency": "1345273",
+      "data-relevance": "37",
+      "data-term": "part",
+      "data-encoded-term": "part",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1345273",
+        "ol",
+        "1"
+      ]
+    },
+    "sequence": {
+      "data-frequency": "74841",
+      "data-relevance": "36",
+      "data-term": "sequence",
+      "data-encoded-term": "sequence",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "74841",
+        "ol",
+        "1"
+      ]
+    },
+    "aggregate": {
+      "data-frequency": "48619",
+      "data-relevance": "35",
+      "data-term": "aggregate",
+      "data-encoded-term": "aggregate",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "48619",
+        "ol",
+        "1"
+      ]
+    },
+    "assembly": {
+      "data-frequency": "227487",
+      "data-relevance": "34",
+      "data-term": "assembly",
+      "data-encoded-term": "assembly",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "227487",
+        "ol",
+        "1"
+      ]
+    },
+    "ap": {
+      "data-frequency": "69258",
+      "data-relevance": "33",
+      "data-term": "ap",
+      "data-encoded-term": "ap",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "69258",
+        "ol",
+        "1"
+      ]
+    },
+    "aggregation": {
+      "data-frequency": "9264",
+      "data-relevance": "32",
+      "data-term": "aggregation",
+      "data-encoded-term": "aggregation",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "9264",
+        "ol",
+        "1"
+      ]
+    },
+    "batch": {
+      "data-frequency": "15782",
+      "data-relevance": "31",
+      "data-term": "batch",
+      "data-encoded-term": "batch",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "15782",
+        "ol",
+        "1"
+      ]
+    },
+    "approximate": {
+      "data-frequency": "21972",
+      "data-relevance": "30",
+      "data-term": "approximate",
+      "data-encoded-term": "approximate",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "21972",
+        "ol",
+        "1"
+      ]
+    },
+    "block": {
+      "data-frequency": "159472",
+      "data-relevance": "29",
+      "data-term": "block",
+      "data-encoded-term": "block",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "159472",
+        "ol",
+        "1"
+      ]
+    },
+    "bitmap": {
+      "data-frequency": "958",
+      "data-relevance": "28",
+      "data-term": "bitmap",
+      "data-encoded-term": "bitmap",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "958",
+        "ol",
+        "1"
+      ]
+    },
+    "cc": {
+      "data-frequency": "52843",
+      "data-relevance": "27",
+      "data-term": "cc",
+      "data-encoded-term": "cc",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "52843",
+        "ol",
+        "1"
+      ]
+    },
+    "budget": {
+      "data-frequency": "114513",
+      "data-relevance": "26",
+      "data-term": "budget",
+      "data-encoded-term": "budget",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "114513",
+        "ol",
+        "1"
+      ]
+    },
+    "clone": {
+      "data-frequency": "10796",
+      "data-relevance": "25",
+      "data-term": "clone",
+      "data-encoded-term": "clone",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "10796",
+        "ol",
+        "1"
+      ]
+    },
+    "cell": {
+      "data-frequency": "103004",
+      "data-relevance": "24",
+      "data-term": "cell",
+      "data-encoded-term": "cell",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "103004",
+        "ol",
+        "1"
+      ]
+    },
+    "file": {
+      "data-frequency": "140879",
+      "data-relevance": "23",
+      "data-term": "file",
+      "data-encoded-term": "file",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "140879",
+        "ol",
+        "1"
+      ]
+    },
+    "dataset": {
+      "data-frequency": "5892",
+      "data-relevance": "22",
+      "data-term": "dataset",
+      "data-encoded-term": "dataset",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5892",
+        "ol",
+        "1"
+      ]
+    },
+    "genome": {
+      "data-frequency": "26575",
+      "data-relevance": "21",
+      "data-term": "genome",
+      "data-encoded-term": "genome",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "26575",
+        "ol",
+        "1"
+      ]
+    },
+    "fragment": {
+      "data-frequency": "16973",
+      "data-relevance": "20",
+      "data-term": "fragment",
+      "data-encoded-term": "fragment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "16973",
+        "ol",
+        "1"
+      ]
+    },
+    "map": {
+      "data-frequency": "643924",
+      "data-relevance": "19",
+      "data-term": "map",
+      "data-encoded-term": "map",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "643924",
+        "ol",
+        "1"
+      ]
+    },
+    "intron": {
+      "data-frequency": "1158",
+      "data-relevance": "18",
+      "data-term": "intron",
+      "data-encoded-term": "intron",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1158",
+        "ol",
+        "1"
+      ]
+    },
+    "quotient": {
+      "data-frequency": "6073",
+      "data-relevance": "17",
+      "data-term": "quotient",
+      "data-encoded-term": "quotient",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6073",
+        "ol",
+        "1"
+      ]
+    },
+    "payload": {
+      "data-frequency": "8159",
+      "data-relevance": "16",
+      "data-term": "payload",
+      "data-encoded-term": "payload",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8159",
+        "ol",
+        "1"
+      ]
+    },
+    "bacterial artificial chromosome": {
+      "data-frequency": "267",
+      "data-relevance": "15",
+      "data-term": "bacterial artificial chromosome",
+      "data-encoded-term": "bacterial%20artificial%20chromosome",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "267",
+        "wiki",
+        "1"
+      ]
+    },
+    "subset": {
+      "data-frequency": "14446",
+      "data-relevance": "14",
+      "data-term": "subset",
+      "data-encoded-term": "subset",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "14446",
+        "ol",
+        "1"
+      ]
+    },
+    "consensus sequence": {
+      "data-frequency": "289",
+      "data-relevance": "13",
+      "data-term": "consensus sequence",
+      "data-encoded-term": "consensus%20sequence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "289",
+        "wiki",
+        "1"
+      ]
+    },
+    "scaffolding": {
+      "data-frequency": "2476",
+      "data-relevance": "12",
+      "data-term": "scaffolding",
+      "data-encoded-term": "scaffolding",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2476",
+        "wiki",
+        "1"
+      ]
+    },
+    "shotgun sequencing": {
+      "data-frequency": "629",
+      "data-relevance": "11",
+      "data-term": "shotgun sequencing",
+      "data-encoded-term": "shotgun%20sequencing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "629",
+        "wiki",
+        "1"
+      ]
+    },
+    "sequence assembly": {
+      "data-frequency": "6571",
+      "data-relevance": "10",
+      "data-term": "sequence assembly",
+      "data-encoded-term": "sequence%20assembly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6571",
+        "wiki",
+        "1"
+      ]
+    },
+    "polymerase chain reaction": {
+      "data-frequency": "971",
+      "data-relevance": "9",
+      "data-term": "polymerase chain reaction",
+      "data-encoded-term": "polymerase%20chain%20reaction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "971",
+        "wiki",
+        "1"
+      ]
+    },
+    "dna sequencing": {
+      "data-frequency": "999",
+      "data-relevance": "8",
+      "data-term": "dna sequencing",
+      "data-encoded-term": "dna%20sequencing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "999",
+        "wiki",
+        "1"
+      ]
+    },
+    "mate pair": {
+      "data-frequency": "11486",
+      "data-relevance": "7",
+      "data-term": "mate pair",
+      "data-encoded-term": "mate%20pair",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "11486",
+        "wiki",
+        "1"
+      ]
+    },
+    "library": {
+      "data-frequency": "402244",
+      "data-relevance": "6",
+      "data-term": "library",
+      "data-encoded-term": "library",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "402244",
+        "wiki",
+        "1"
+      ]
+    },
+    "sequence-tagged site": {
+      "data-frequency": "1659",
+      "data-relevance": "5",
+      "data-term": "sequence-tagged site",
+      "data-encoded-term": "sequence-tagged%20site",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1659",
+        "wiki",
+        "1"
+      ]
+    },
+    "p1-derived artificial chromosome": {
+      "data-frequency": "343",
+      "data-relevance": "4",
+      "data-term": "p1-derived artificial chromosome",
+      "data-encoded-term": "p1-derived%20artificial%20chromosome",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "343",
+        "wiki",
+        "1"
+      ]
+    },
+    "restriction enzyme": {
+      "data-frequency": "1108",
+      "data-relevance": "3",
+      "data-term": "restriction enzyme",
+      "data-encoded-term": "restriction%20enzyme",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1108",
+        "wiki",
+        "1"
+      ]
+    },
+    "restriction digest": {
+      "data-frequency": "-1",
+      "data-relevance": "2",
+      "data-term": "restriction digest",
+      "data-encoded-term": "restriction%20digest",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "primer walking": {
+      "data-frequency": "398",
+      "data-relevance": "1",
+      "data-term": "primer walking",
+      "data-encoded-term": "primer%20walking",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "398",
+        "wiki",
+        "1"
+      ]
+    },
+    "gel electrophoresis": {
+      "data-frequency": "705",
+      "data-relevance": "0",
+      "data-term": "gel electrophoresis",
+      "data-encoded-term": "gel%20electrophoresis",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "705",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "contigs"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "segment",
+      "metacontig",
+      "contigs",
+      "haplome",
+      "omnitig",
+      "constructed",
+      "same",
+      "sequence",
+      "single",
+      "clones",
+      "artificial",
+      "end",
+      "source",
+      "genetic",
+      "spanning",
+      "dna",
+      "assembled",
+      "unitig",
+      "region",
+      "construction"
+    ]
+  }
+}

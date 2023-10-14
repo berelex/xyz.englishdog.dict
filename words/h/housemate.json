@@ -1,0 +1,6526 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "roommate": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/roommate/n/,/c/en/housemate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/roommate/n",
+          "@type": "Node",
+          "label": "roommate",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/roommate"
+        },
+        "end": {
+          "@id": "/c/en/housemate",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "term": "/c/en/housemate"
+        }
+      },
+      "flatmate": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/flatmate/,/c/en/housemate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/flatmate",
+          "@type": "Node",
+          "label": "flatmate",
+          "language": "en",
+          "term": "/c/en/flatmate"
+        },
+        "end": {
+          "@id": "/c/en/housemate",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "term": "/c/en/housemate"
+        }
+      },
+      "housemates": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/housemates/n/,/c/en/housemate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/housemates/n",
+          "@type": "Node",
+          "label": "housemates",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/housemates"
+        },
+        "end": {
+          "@id": "/c/en/housemate",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "term": "/c/en/housemate"
+        }
+      },
+      "house": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/housemate/n/,/c/en/house/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/housemate/n",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/housemate"
+        },
+        "end": {
+          "@id": "/c/en/house",
+          "@type": "Node",
+          "label": "house",
+          "language": "en",
+          "term": "/c/en/house"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "roommate": {
+        "@id": "/a/[/r/Synonym/,/c/en/housemate/n/,/c/en/roommate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/housemate/n",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/housemate"
+        },
+        "end": {
+          "@id": "/c/en/roommate",
+          "@type": "Node",
+          "label": "roommate",
+          "language": "en",
+          "term": "/c/en/roommate"
+        }
+      },
+      "flatmate": {
+        "@id": "/a/[/r/Synonym/,/c/en/housemate/n/,/c/en/flatmate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/housemate/n",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/housemate"
+        },
+        "end": {
+          "@id": "/c/en/flatmate",
+          "@type": "Node",
+          "label": "flatmate",
+          "language": "en",
+          "term": "/c/en/flatmate"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "housemates": {
+        "@id": "/a/[/r/FormOf/,/c/en/housemates/n/,/c/en/housemate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/housemates/n",
+          "@type": "Node",
+          "label": "housemates",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/housemates"
+        },
+        "end": {
+          "@id": "/c/en/housemate",
+          "@type": "Node",
+          "label": "housemate",
+          "language": "en",
+          "term": "/c/en/housemate"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "friend": {
+      "data-frequency": "203631",
+      "data-relevance": "451",
+      "data-term": "friend",
+      "data-encoded-term": "friend",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "203631",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "roommate": {
+      "data-frequency": "5823",
+      "data-relevance": "450",
+      "data-term": "roommate",
+      "data-encoded-term": "roommate",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "5823",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "dormitory": {
+      "data-frequency": "7759",
+      "data-relevance": "449",
+      "data-term": "dormitory",
+      "data-encoded-term": "dormitory",
+      "data-term-stats": [
+        "1",
+        "10.0",
+        "0.000",
+        "7759",
+        "cn5,wiki,swiki",
+        "1"
+      ]
+    },
+    "flatmate": {
+      "data-frequency": "572",
+      "data-relevance": "448",
+      "data-term": "flatmate",
+      "data-encoded-term": "flatmate",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "572",
+        "cn5,ol,wiki",
+        "1"
+      ]
+    },
+    "apartment": {
+      "data-frequency": "51117",
+      "data-relevance": "447",
+      "data-term": "apartment",
+      "data-encoded-term": "apartment",
+      "data-term-stats": [
+        "1",
+        "9.3",
+        "0.000",
+        "51117",
+        "cn5,wiki,swiki",
+        "1"
+      ]
+    },
+    "household": {
+      "data-frequency": "95485",
+      "data-relevance": "446",
+      "data-term": "household",
+      "data-encoded-term": "household",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "95485",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "lodger": {
+      "data-frequency": "1603",
+      "data-relevance": "445",
+      "data-term": "lodger",
+      "data-encoded-term": "lodger",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1603",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "room": {
+      "data-frequency": "218975",
+      "data-relevance": "444",
+      "data-term": "room",
+      "data-encoded-term": "room",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "218975",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "british english": {
+      "data-frequency": "255814",
+      "data-relevance": "443",
+      "data-term": "british english",
+      "data-encoded-term": "british%20english",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "255814",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "contestant": {
+      "data-frequency": "20127",
+      "data-relevance": "442",
+      "data-term": "contestant",
+      "data-encoded-term": "contestant",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "20127",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "houseguest": {
+      "data-frequency": "501",
+      "data-relevance": "441",
+      "data-term": "houseguest",
+      "data-encoded-term": "houseguest",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "501",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "eviction": {
+      "data-frequency": "4243",
+      "data-relevance": "440",
+      "data-term": "eviction",
+      "data-encoded-term": "eviction",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "4243",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pal": {
+      "data-frequency": "32875",
+      "data-relevance": "439",
+      "data-term": "pal",
+      "data-encoded-term": "pal",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "32875",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "evictee": {
+      "data-frequency": "117",
+      "data-relevance": "438",
+      "data-term": "evictee",
+      "data-encoded-term": "evictee",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "117",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "neighbor": {
+      "data-frequency": "20053",
+      "data-relevance": "437",
+      "data-term": "neighbor",
+      "data-encoded-term": "neighbor",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "20053",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "friendship": {
+      "data-frequency": "59662",
+      "data-relevance": "436",
+      "data-term": "friendship",
+      "data-encoded-term": "friendship",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "59662",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "rent": {
+      "data-frequency": "26968",
+      "data-relevance": "435",
+      "data-term": "rent",
+      "data-encoded-term": "rent",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "26968",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "bedsit": {
+      "data-frequency": "251",
+      "data-relevance": "434",
+      "data-term": "bedsit",
+      "data-encoded-term": "bedsit",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "251",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "landlord": {
+      "data-frequency": "10376",
+      "data-relevance": "433",
+      "data-term": "landlord",
+      "data-encoded-term": "landlord",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10376",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolfriend": {
+      "data-frequency": "294",
+      "data-relevance": "432",
+      "data-term": "schoolfriend",
+      "data-encoded-term": "schoolfriend",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "294",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "bedroom": {
+      "data-frequency": "20137",
+      "data-relevance": "431",
+      "data-term": "bedroom",
+      "data-encoded-term": "bedroom",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "20137",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "rental": {
+      "data-frequency": "17276",
+      "data-relevance": "430",
+      "data-term": "rental",
+      "data-encoded-term": "rental",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "17276",
+        "wiki",
+        "1"
+      ]
+    },
+    "housebreaker": {
+      "data-frequency": "56",
+      "data-relevance": "429",
+      "data-term": "housebreaker",
+      "data-encoded-term": "housebreaker",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "56",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "resident": {
+      "data-frequency": "84001",
+      "data-relevance": "428",
+      "data-term": "resident",
+      "data-encoded-term": "resident",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "84001",
+        "wn|reverse-net",
+        "1"
+      ]
+    },
+    "occupant": {
+      "data-frequency": "4043",
+      "data-relevance": "427",
+      "data-term": "occupant",
+      "data-encoded-term": "occupant",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4043",
+        "wn",
+        "1"
+      ]
+    },
+    "lease": {
+      "data-frequency": "28721",
+      "data-relevance": "426",
+      "data-term": "lease",
+      "data-encoded-term": "lease",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "28721",
+        "wiki",
+        "1"
+      ]
+    },
+    "occupier": {
+      "data-frequency": "837",
+      "data-relevance": "425",
+      "data-term": "occupier",
+      "data-encoded-term": "occupier",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "837",
+        "wn",
+        "1"
+      ]
+    },
+    "family": {
+      "data-frequency": "1345263",
+      "data-relevance": "424",
+      "data-term": "family",
+      "data-encoded-term": "family",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1345263",
+        "wiki",
+        "1"
+      ]
+    },
+    "housemates": {
+      "data-frequency": "1230",
+      "data-relevance": "423",
+      "data-term": "housemates",
+      "data-encoded-term": "housemates",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1230",
+        "w2v",
+        "1"
+      ]
+    },
+    "expatriate": {
+      "data-frequency": "90388",
+      "data-relevance": "422",
+      "data-term": "expatriate",
+      "data-encoded-term": "expatriate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "90388",
+        "wiki",
+        "1"
+      ]
+    },
+    "owner-occupier": {
+      "data-frequency": "65",
+      "data-relevance": "421",
+      "data-term": "owner-occupier",
+      "data-encoded-term": "owner-occupier",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "65",
+        "wiki",
+        "1"
+      ]
+    },
+    "friends": {
+      "data-frequency": "220145",
+      "data-relevance": "420",
+      "data-term": "friends",
+      "data-encoded-term": "friends",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "220145",
+        "wiki",
+        "1"
+      ]
+    },
+    "partner": {
+      "data-frequency": "162789",
+      "data-relevance": "419",
+      "data-term": "partner",
+      "data-encoded-term": "partner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "162789",
+        "cn5",
+        "1"
+      ]
+    },
+    "loneliness": {
+      "data-frequency": "6797",
+      "data-relevance": "418",
+      "data-term": "loneliness",
+      "data-encoded-term": "loneliness",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6797",
+        "wiki",
+        "1"
+      ]
+    },
+    "marriage": {
+      "data-frequency": "156408",
+      "data-relevance": "417",
+      "data-term": "marriage",
+      "data-encoded-term": "marriage",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "156408",
+        "wiki",
+        "1"
+      ]
+    },
+    "japan": {
+      "data-frequency": "387043",
+      "data-relevance": "416",
+      "data-term": "japan",
+      "data-encoded-term": "japan",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "387043",
+        "wiki",
+        "1"
+      ]
+    },
+    "best": {
+      "data-frequency": "781210",
+      "data-relevance": "415",
+      "data-term": "best",
+      "data-encoded-term": "best",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "781210",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "student": {
+      "data-frequency": "233363",
+      "data-relevance": "414",
+      "data-term": "student",
+      "data-encoded-term": "student",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "233363",
+        "swiki",
+        "1"
+      ]
+    },
+    "houseguests": {
+      "data-frequency": "275",
+      "data-relevance": "413",
+      "data-term": "houseguests",
+      "data-encoded-term": "houseguests",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "275",
+        "w2v",
+        "1"
+      ]
+    },
+    "chum": {
+      "data-frequency": "3885",
+      "data-relevance": "412",
+      "data-term": "chum",
+      "data-encoded-term": "chum",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3885",
+        "cn5",
+        "1"
+      ]
+    },
+    "sibling": {
+      "data-frequency": "9383",
+      "data-relevance": "411",
+      "data-term": "sibling",
+      "data-encoded-term": "sibling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9383",
+        "wiki",
+        "1"
+      ]
+    },
+    "commoner": {
+      "data-frequency": "3150",
+      "data-relevance": "410",
+      "data-term": "commoner",
+      "data-encoded-term": "commoner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3150",
+        "w2v",
+        "1"
+      ]
+    },
+    "bridegroom": {
+      "data-frequency": "1697",
+      "data-relevance": "409",
+      "data-term": "bridegroom",
+      "data-encoded-term": "bridegroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1697",
+        "w2v",
+        "1"
+      ]
+    },
+    "tenant": {
+      "data-frequency": "12070",
+      "data-relevance": "408",
+      "data-term": "tenant",
+      "data-encoded-term": "tenant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12070",
+        "cn5",
+        "1"
+      ]
+    },
+    "evicted": {
+      "data-frequency": "5657",
+      "data-relevance": "407",
+      "data-term": "evicted",
+      "data-encoded-term": "evicted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5657",
+        "w2v",
+        "1"
+      ]
+    },
+    "supernumerary": {
+      "data-frequency": "1121",
+      "data-relevance": "406",
+      "data-term": "supernumerary",
+      "data-encoded-term": "supernumerary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1121",
+        "w2v",
+        "1"
+      ]
+    },
+    "deemster": {
+      "data-frequency": "117",
+      "data-relevance": "405",
+      "data-term": "deemster",
+      "data-encoded-term": "deemster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "117",
+        "w2v",
+        "1"
+      ]
+    },
+    "tuf": {
+      "data-frequency": "3085",
+      "data-relevance": "404",
+      "data-term": "tuf",
+      "data-encoded-term": "tuf",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3085",
+        "w2v",
+        "1"
+      ]
+    },
+    "children": {
+      "data-frequency": "590704",
+      "data-relevance": "403",
+      "data-term": "children",
+      "data-encoded-term": "children",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "590704",
+        "wiki",
+        "1"
+      ]
+    },
+    "campus": {
+      "data-frequency": "120374",
+      "data-relevance": "402",
+      "data-term": "campus",
+      "data-encoded-term": "campus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120374",
+        "swiki",
+        "1"
+      ]
+    },
+    "groom": {
+      "data-frequency": "9227",
+      "data-relevance": "401",
+      "data-term": "groom",
+      "data-encoded-term": "groom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9227",
+        "w2v",
+        "1"
+      ]
+    },
+    "nominates": {
+      "data-frequency": "3038",
+      "data-relevance": "400",
+      "data-term": "nominates",
+      "data-encoded-term": "nominates",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3038",
+        "w2v",
+        "1"
+      ]
+    },
+    "akb48": {
+      "data-frequency": "1342",
+      "data-relevance": "399",
+      "data-term": "akb48",
+      "data-encoded-term": "akb48",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1342",
+        "w2v",
+        "1"
+      ]
+    },
+    "breadwinner": {
+      "data-frequency": "881",
+      "data-relevance": "398",
+      "data-term": "breadwinner",
+      "data-encoded-term": "breadwinner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "881",
+        "w2v",
+        "1"
+      ]
+    },
+    "gentlewoman": {
+      "data-frequency": "595",
+      "data-relevance": "397",
+      "data-term": "gentlewoman",
+      "data-encoded-term": "gentlewoman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "595",
+        "w2v",
+        "1"
+      ]
+    },
+    "bestie": {
+      "data-frequency": "313",
+      "data-relevance": "396",
+      "data-term": "bestie",
+      "data-encoded-term": "bestie",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "313",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "nominate": {
+      "data-frequency": "8937",
+      "data-relevance": "395",
+      "data-term": "nominate",
+      "data-encoded-term": "nominate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8937",
+        "w2v",
+        "1"
+      ]
+    },
+    "wildcard": {
+      "data-frequency": "5298",
+      "data-relevance": "394",
+      "data-term": "wildcard",
+      "data-encoded-term": "wildcard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5298",
+        "w2v",
+        "1"
+      ]
+    },
+    "ogress": {
+      "data-frequency": "162",
+      "data-relevance": "393",
+      "data-term": "ogress",
+      "data-encoded-term": "ogress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "162",
+        "w2v",
+        "1"
+      ]
+    },
+    "entrant": {
+      "data-frequency": "8712",
+      "data-relevance": "392",
+      "data-term": "entrant",
+      "data-encoded-term": "entrant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8712",
+        "w2v",
+        "1"
+      ]
+    },
+    "formateur": {
+      "data-frequency": "173",
+      "data-relevance": "391",
+      "data-term": "formateur",
+      "data-encoded-term": "formateur",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "173",
+        "w2v",
+        "1"
+      ]
+    },
+    "probationer": {
+      "data-frequency": "330",
+      "data-relevance": "390",
+      "data-term": "probationer",
+      "data-encoded-term": "probationer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "330",
+        "w2v",
+        "1"
+      ]
+    },
+    "crony": {
+      "data-frequency": "723",
+      "data-relevance": "389",
+      "data-term": "crony",
+      "data-encoded-term": "crony",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "723",
+        "cn5",
+        "1"
+      ]
+    },
+    "sister": {
+      "data-frequency": "261985",
+      "data-relevance": "388",
+      "data-term": "sister",
+      "data-encoded-term": "sister",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "261985",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "buddy": {
+      "data-frequency": "31478",
+      "data-relevance": "387",
+      "data-term": "buddy",
+      "data-encoded-term": "buddy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "31478",
+        "cn5",
+        "1"
+      ]
+    },
+    "significant other": {
+      "data-frequency": "1672",
+      "data-relevance": "386",
+      "data-term": "significant other",
+      "data-encoded-term": "significant%20other",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1672",
+        "wiki",
+        "1"
+      ]
+    },
+    "real estate agent": {
+      "data-frequency": "2909",
+      "data-relevance": "385",
+      "data-term": "real estate agent",
+      "data-encoded-term": "real%20estate%20agent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2909",
+        "wiki",
+        "1"
+      ]
+    },
+    "landlady": {
+      "data-frequency": "2892",
+      "data-relevance": "384",
+      "data-term": "landlady",
+      "data-encoded-term": "landlady",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2892",
+        "ol",
+        "1"
+      ]
+    },
+    "darkhorse": {
+      "data-frequency": "336",
+      "data-relevance": "383",
+      "data-term": "darkhorse",
+      "data-encoded-term": "darkhorse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "336",
+        "w2v",
+        "1"
+      ]
+    },
+    "foyer": {
+      "data-frequency": "3797",
+      "data-relevance": "382",
+      "data-term": "foyer",
+      "data-encoded-term": "foyer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3797",
+        "cn5",
+        "1"
+      ]
+    },
+    "apartotel": {
+      "data-frequency": "-1",
+      "data-relevance": "381",
+      "data-term": "apartotel",
+      "data-encoded-term": "apartotel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bff": {
+      "data-frequency": "716",
+      "data-relevance": "380",
+      "data-term": "bff",
+      "data-encoded-term": "bff",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "716",
+        "ol",
+        "1"
+      ]
+    },
+    "friendless": {
+      "data-frequency": "610",
+      "data-relevance": "379",
+      "data-term": "friendless",
+      "data-encoded-term": "friendless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "610",
+        "cn5",
+        "1"
+      ]
+    },
+    "tenement": {
+      "data-frequency": "3034",
+      "data-relevance": "378",
+      "data-term": "tenement",
+      "data-encoded-term": "tenement",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3034",
+        "cn5",
+        "1"
+      ]
+    },
+    "dynast": {
+      "data-frequency": "306",
+      "data-relevance": "377",
+      "data-term": "dynast",
+      "data-encoded-term": "dynast",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "306",
+        "w2v",
+        "1"
+      ]
+    },
+    "girlfriend": {
+      "data-frequency": "46794",
+      "data-relevance": "376",
+      "data-term": "girlfriend",
+      "data-encoded-term": "girlfriend",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46794",
+        "ol",
+        "1"
+      ]
+    },
+    "flat": {
+      "data-frequency": "121170",
+      "data-relevance": "375",
+      "data-term": "flat",
+      "data-encoded-term": "flat",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "121170",
+        "cn5",
+        "1"
+      ]
+    },
+    "roomate": {
+      "data-frequency": "-1",
+      "data-relevance": "374",
+      "data-term": "roomate",
+      "data-encoded-term": "roomate",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "good": {
+      "data-frequency": "510744",
+      "data-relevance": "373",
+      "data-term": "good",
+      "data-encoded-term": "good",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "510744",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "spouse": {
+      "data-frequency": "177142",
+      "data-relevance": "372",
+      "data-term": "spouse",
+      "data-encoded-term": "spouse",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "177142",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "longest-serving": {
+      "data-frequency": "14092",
+      "data-relevance": "371",
+      "data-term": "longest-serving",
+      "data-encoded-term": "longest-serving",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14092",
+        "w2v",
+        "1"
+      ]
+    },
+    "gamedaily": {
+      "data-frequency": "433",
+      "data-relevance": "370",
+      "data-term": "gamedaily",
+      "data-encoded-term": "gamedaily",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "433",
+        "w2v",
+        "1"
+      ]
+    },
+    "madhouse": {
+      "data-frequency": "1759",
+      "data-relevance": "369",
+      "data-term": "madhouse",
+      "data-encoded-term": "madhouse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1759",
+        "cn5",
+        "1"
+      ]
+    },
+    "mate": {
+      "data-frequency": "37602",
+      "data-relevance": "368",
+      "data-term": "mate",
+      "data-encoded-term": "mate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "37602",
+        "ol",
+        "1"
+      ]
+    },
+    "cousin": {
+      "data-frequency": "71381",
+      "data-relevance": "367",
+      "data-term": "cousin",
+      "data-encoded-term": "cousin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "71381",
+        "ol",
+        "1"
+      ]
+    },
+    "renter": {
+      "data-frequency": "489",
+      "data-relevance": "366",
+      "data-term": "renter",
+      "data-encoded-term": "renter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "489",
+        "cn5",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "365",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "506299",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "neighbour": {
+      "data-frequency": "10461",
+      "data-relevance": "364",
+      "data-term": "neighbour",
+      "data-encoded-term": "neighbour",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "10461",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "owner": {
+      "data-frequency": "257388",
+      "data-relevance": "363",
+      "data-term": "owner",
+      "data-encoded-term": "owner",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "257388",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "her": {
+      "data-frequency": "785980",
+      "data-relevance": "362",
+      "data-term": "her",
+      "data-encoded-term": "her",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "785980",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mother": {
+      "data-frequency": "380815",
+      "data-relevance": "361",
+      "data-term": "mother",
+      "data-encoded-term": "mother",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "380815",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "dorm": {
+      "data-frequency": "3263",
+      "data-relevance": "360",
+      "data-term": "dorm",
+      "data-encoded-term": "dorm",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3263",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "inuk": {
+      "data-frequency": "441",
+      "data-relevance": "359",
+      "data-term": "inuk",
+      "data-encoded-term": "inuk",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "441",
+        "w2v",
+        "1"
+      ]
+    },
+    "postulant": {
+      "data-frequency": "1092",
+      "data-relevance": "358",
+      "data-term": "postulant",
+      "data-encoded-term": "postulant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1092",
+        "w2v",
+        "1"
+      ]
+    },
+    "boardroom": {
+      "data-frequency": "1769",
+      "data-relevance": "357",
+      "data-term": "boardroom",
+      "data-encoded-term": "boardroom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1769",
+        "cn5",
+        "1"
+      ]
+    },
+    "non-royal": {
+      "data-frequency": "65047",
+      "data-relevance": "356",
+      "data-term": "non-royal",
+      "data-encoded-term": "non-royal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65047",
+        "w2v",
+        "1"
+      ]
+    },
+    "gravid": {
+      "data-frequency": "386",
+      "data-relevance": "355",
+      "data-term": "gravid",
+      "data-encoded-term": "gravid",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "386",
+        "w2v",
+        "1"
+      ]
+    },
+    "house": {
+      "data-frequency": "821612",
+      "data-relevance": "354",
+      "data-term": "house",
+      "data-encoded-term": "house",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "821612",
+        "cn5",
+        "1"
+      ]
+    },
+    "flatlet": {
+      "data-frequency": "-1",
+      "data-relevance": "353",
+      "data-term": "flatlet",
+      "data-encoded-term": "flatlet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "boyfriend": {
+      "data-frequency": "31533",
+      "data-relevance": "352",
+      "data-term": "boyfriend",
+      "data-encoded-term": "boyfriend",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "31533",
+        "ol",
+        "1"
+      ]
+    },
+    "coworker": {
+      "data-frequency": "1345",
+      "data-relevance": "351",
+      "data-term": "coworker",
+      "data-encoded-term": "coworker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1345",
+        "ol",
+        "1"
+      ]
+    },
+    "close": {
+      "data-frequency": "393292",
+      "data-relevance": "350",
+      "data-term": "close",
+      "data-encoded-term": "close",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "393292",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "member": {
+      "data-frequency": "822837",
+      "data-relevance": "349",
+      "data-term": "member",
+      "data-encoded-term": "member",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "822837",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "parent": {
+      "data-frequency": "146032",
+      "data-relevance": "348",
+      "data-term": "parent",
+      "data-encoded-term": "parent",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "146032",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "boarder": {
+      "data-frequency": "1509",
+      "data-relevance": "347",
+      "data-term": "boarder",
+      "data-encoded-term": "boarder",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1509",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "husband": {
+      "data-frequency": "196790",
+      "data-relevance": "346",
+      "data-term": "husband",
+      "data-encoded-term": "husband",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "196790",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "amigo": {
+      "data-frequency": "6887",
+      "data-relevance": "345",
+      "data-term": "amigo",
+      "data-encoded-term": "amigo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6887",
+        "cn5",
+        "1"
+      ]
+    },
+    "h.i.v.e.": {
+      "data-frequency": "153",
+      "data-relevance": "344",
+      "data-term": "h.i.v.e.",
+      "data-encoded-term": "h.i.v.e.",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "153",
+        "w2v",
+        "1"
+      ]
+    },
+    "35-man": {
+      "data-frequency": "101162",
+      "data-relevance": "343",
+      "data-term": "35-man",
+      "data-encoded-term": "35-man",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "101162",
+        "w2v",
+        "1"
+      ]
+    },
+    "castmember": {
+      "data-frequency": "231",
+      "data-relevance": "342",
+      "data-term": "castmember",
+      "data-encoded-term": "castmember",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "231",
+        "w2v",
+        "1"
+      ]
+    },
+    "player-controlled": {
+      "data-frequency": "323",
+      "data-relevance": "341",
+      "data-term": "player-controlled",
+      "data-encoded-term": "player-controlled",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "323",
+        "w2v",
+        "1"
+      ]
+    },
+    "hokage": {
+      "data-frequency": "118",
+      "data-relevance": "340",
+      "data-term": "hokage",
+      "data-encoded-term": "hokage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "118",
+        "w2v",
+        "1"
+      ]
+    },
+    "39-year-old": {
+      "data-frequency": "86235",
+      "data-relevance": "339",
+      "data-term": "39-year-old",
+      "data-encoded-term": "39-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "86235",
+        "w2v",
+        "1"
+      ]
+    },
+    "time-traveler": {
+      "data-frequency": "606",
+      "data-relevance": "338",
+      "data-term": "time-traveler",
+      "data-encoded-term": "time-traveler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "606",
+        "w2v",
+        "1"
+      ]
+    },
+    "colleague": {
+      "data-frequency": "26037",
+      "data-relevance": "337",
+      "data-term": "colleague",
+      "data-encoded-term": "colleague",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "26037",
+        "cn5",
+        "1"
+      ]
+    },
+    "pfai": {
+      "data-frequency": "136",
+      "data-relevance": "336",
+      "data-term": "pfai",
+      "data-encoded-term": "pfai",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "136",
+        "w2v",
+        "1"
+      ]
+    },
+    "godparent": {
+      "data-frequency": "167",
+      "data-relevance": "335",
+      "data-term": "godparent",
+      "data-encoded-term": "godparent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "167",
+        "w2v",
+        "1"
+      ]
+    },
+    "guesthouse": {
+      "data-frequency": "1986",
+      "data-relevance": "334",
+      "data-term": "guesthouse",
+      "data-encoded-term": "guesthouse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1986",
+        "cn5",
+        "1"
+      ]
+    },
+    "crossbencher": {
+      "data-frequency": "238",
+      "data-relevance": "333",
+      "data-term": "crossbencher",
+      "data-encoded-term": "crossbencher",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "238",
+        "w2v",
+        "1"
+      ]
+    },
+    "informateur": {
+      "data-frequency": "85",
+      "data-relevance": "332",
+      "data-term": "informateur",
+      "data-encoded-term": "informateur",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "85",
+        "w2v",
+        "1"
+      ]
+    },
+    "13-room": {
+      "data-frequency": "101295",
+      "data-relevance": "331",
+      "data-term": "13-room",
+      "data-encoded-term": "13-room",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "101295",
+        "w2v",
+        "1"
+      ]
+    },
+    "traditional": {
+      "data-frequency": "254913",
+      "data-relevance": "330",
+      "data-term": "traditional",
+      "data-encoded-term": "traditional",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "254913",
+        "swiki",
+        "1"
+      ]
+    },
+    "anti-jacksonian": {
+      "data-frequency": "443",
+      "data-relevance": "329",
+      "data-term": "anti-jacksonian",
+      "data-encoded-term": "anti-jacksonian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "443",
+        "w2v",
+        "1"
+      ]
+    },
+    "scullery": {
+      "data-frequency": "384",
+      "data-relevance": "328",
+      "data-term": "scullery",
+      "data-encoded-term": "scullery",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "384",
+        "cn5",
+        "1"
+      ]
+    },
+    "comrade": {
+      "data-frequency": "5796",
+      "data-relevance": "327",
+      "data-term": "comrade",
+      "data-encoded-term": "comrade",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5796",
+        "cn5",
+        "1"
+      ]
+    },
+    "universities": {
+      "data-frequency": "98960",
+      "data-relevance": "326",
+      "data-term": "universities",
+      "data-encoded-term": "universities",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "98960",
+        "wiki",
+        "1"
+      ]
+    },
+    "myobatrachidae": {
+      "data-frequency": "184",
+      "data-relevance": "325",
+      "data-term": "myobatrachidae",
+      "data-encoded-term": "myobatrachidae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "184",
+        "w2v",
+        "1"
+      ]
+    },
+    "sixteen-year-old": {
+      "data-frequency": "1757",
+      "data-relevance": "324",
+      "data-term": "sixteen-year-old",
+      "data-encoded-term": "sixteen-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1757",
+        "w2v",
+        "1"
+      ]
+    },
+    "lover": {
+      "data-frequency": "45166",
+      "data-relevance": "323",
+      "data-term": "lover",
+      "data-encoded-term": "lover",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "45166",
+        "ol",
+        "1"
+      ]
+    },
+    "neighbours": {
+      "data-frequency": "19044",
+      "data-relevance": "322",
+      "data-term": "neighbours",
+      "data-encoded-term": "neighbours",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "19044",
+        "ol",
+        "1"
+      ]
+    },
+    "peer": {
+      "data-frequency": "42403",
+      "data-relevance": "321",
+      "data-term": "peer",
+      "data-encoded-term": "peer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "42403",
+        "cn5",
+        "1"
+      ]
+    },
+    "homeowner": {
+      "data-frequency": "2704",
+      "data-relevance": "320",
+      "data-term": "homeowner",
+      "data-encoded-term": "homeowner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2704",
+        "cn5",
+        "1"
+      ]
+    },
+    "sleepover": {
+      "data-frequency": "1219",
+      "data-relevance": "319",
+      "data-term": "sleepover",
+      "data-encoded-term": "sleepover",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1219",
+        "w2v",
+        "1"
+      ]
+    },
+    "34-year-old": {
+      "data-frequency": "92960",
+      "data-relevance": "318",
+      "data-term": "34-year-old",
+      "data-encoded-term": "34-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "92960",
+        "w2v",
+        "1"
+      ]
+    },
+    "sergeant-at-arms": {
+      "data-frequency": "1032",
+      "data-relevance": "317",
+      "data-term": "sergeant-at-arms",
+      "data-encoded-term": "sergeant-at-arms",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1032",
+        "w2v",
+        "1"
+      ]
+    },
+    "lodge": {
+      "data-frequency": "49140",
+      "data-relevance": "316",
+      "data-term": "lodge",
+      "data-encoded-term": "lodge",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49140",
+        "cn5",
+        "1"
+      ]
+    },
+    "collegeinsider.com": {
+      "data-frequency": "862",
+      "data-relevance": "315",
+      "data-term": "collegeinsider.com",
+      "data-encoded-term": "collegeinsider.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "862",
+        "w2v",
+        "1"
+      ]
+    },
+    "aparthotel": {
+      "data-frequency": "43",
+      "data-relevance": "314",
+      "data-term": "aparthotel",
+      "data-encoded-term": "aparthotel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "semi-finalist": {
+      "data-frequency": "14084",
+      "data-relevance": "313",
+      "data-term": "semi-finalist",
+      "data-encoded-term": "semi-finalist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14084",
+        "w2v",
+        "1"
+      ]
+    },
+    "glotzbach": {
+      "data-frequency": "127",
+      "data-relevance": "312",
+      "data-term": "glotzbach",
+      "data-encoded-term": "glotzbach",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "127",
+        "w2v",
+        "1"
+      ]
+    },
+    "34-man": {
+      "data-frequency": "89606",
+      "data-relevance": "311",
+      "data-term": "34-man",
+      "data-encoded-term": "34-man",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89606",
+        "w2v",
+        "1"
+      ]
+    },
+    "13-year-old": {
+      "data-frequency": "3945",
+      "data-relevance": "310",
+      "data-term": "13-year-old",
+      "data-encoded-term": "13-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3945",
+        "w2v",
+        "1"
+      ]
+    },
+    "clergywoman": {
+      "data-frequency": "-1",
+      "data-relevance": "309",
+      "data-term": "clergywoman",
+      "data-encoded-term": "clergywoman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "lady-in-waiting": {
+      "data-frequency": "2090",
+      "data-relevance": "308",
+      "data-term": "lady-in-waiting",
+      "data-encoded-term": "lady-in-waiting",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2090",
+        "w2v",
+        "1"
+      ]
+    },
+    "crew-member": {
+      "data-frequency": "5267",
+      "data-relevance": "307",
+      "data-term": "crew-member",
+      "data-encoded-term": "crew-member",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5267",
+        "w2v",
+        "1"
+      ]
+    },
+    "ten-year-old": {
+      "data-frequency": "1872",
+      "data-relevance": "306",
+      "data-term": "ten-year-old",
+      "data-encoded-term": "ten-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1872",
+        "w2v",
+        "1"
+      ]
+    },
+    "moroi": {
+      "data-frequency": "141",
+      "data-relevance": "305",
+      "data-term": "moroi",
+      "data-encoded-term": "moroi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "141",
+        "w2v",
+        "1"
+      ]
+    },
+    "openly-gay": {
+      "data-frequency": "6457",
+      "data-relevance": "304",
+      "data-term": "openly-gay",
+      "data-encoded-term": "openly-gay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6457",
+        "w2v",
+        "1"
+      ]
+    },
+    "17-year-old": {
+      "data-frequency": "6849",
+      "data-relevance": "303",
+      "data-term": "17-year-old",
+      "data-encoded-term": "17-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6849",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-celebrity": {
+      "data-frequency": "167",
+      "data-relevance": "302",
+      "data-term": "non-celebrity",
+      "data-encoded-term": "non-celebrity",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "167",
+        "w2v",
+        "1"
+      ]
+    },
+    "bigamist": {
+      "data-frequency": "390",
+      "data-relevance": "301",
+      "data-term": "bigamist",
+      "data-encoded-term": "bigamist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "390",
+        "w2v",
+        "1"
+      ]
+    },
+    "honinbo": {
+      "data-frequency": "171",
+      "data-relevance": "300",
+      "data-term": "honinbo",
+      "data-encoded-term": "honinbo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "171",
+        "w2v",
+        "1"
+      ]
+    },
+    "youngest-ever": {
+      "data-frequency": "16641",
+      "data-relevance": "299",
+      "data-term": "youngest-ever",
+      "data-encoded-term": "youngest-ever",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16641",
+        "w2v",
+        "1"
+      ]
+    },
+    "24-man": {
+      "data-frequency": "229956",
+      "data-relevance": "298",
+      "data-term": "24-man",
+      "data-encoded-term": "24-man",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "229956",
+        "w2v",
+        "1"
+      ]
+    },
+    "wieferich": {
+      "data-frequency": "240",
+      "data-relevance": "297",
+      "data-term": "wieferich",
+      "data-encoded-term": "wieferich",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "240",
+        "w2v",
+        "1"
+      ]
+    },
+    "mansion": {
+      "data-frequency": "43314",
+      "data-relevance": "296",
+      "data-term": "mansion",
+      "data-encoded-term": "mansion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "43314",
+        "cn5",
+        "1"
+      ]
+    },
+    "non-canadian": {
+      "data-frequency": "90128",
+      "data-relevance": "295",
+      "data-term": "non-canadian",
+      "data-encoded-term": "non-canadian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "90128",
+        "w2v",
+        "1"
+      ]
+    },
+    "homely": {
+      "data-frequency": "1101",
+      "data-relevance": "294",
+      "data-term": "homely",
+      "data-encoded-term": "homely",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1101",
+        "cn5",
+        "1"
+      ]
+    },
+    "african-canadian": {
+      "data-frequency": "96471",
+      "data-relevance": "293",
+      "data-term": "african-canadian",
+      "data-encoded-term": "african-canadian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "96471",
+        "w2v",
+        "1"
+      ]
+    },
+    "old-timer": {
+      "data-frequency": "3332",
+      "data-relevance": "292",
+      "data-term": "old-timer",
+      "data-encoded-term": "old-timer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3332",
+        "w2v",
+        "1"
+      ]
+    },
+    "highest-paid": {
+      "data-frequency": "21510",
+      "data-relevance": "291",
+      "data-term": "highest-paid",
+      "data-encoded-term": "highest-paid",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "21510",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-american": {
+      "data-frequency": "261263",
+      "data-relevance": "290",
+      "data-term": "non-american",
+      "data-encoded-term": "non-american",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "261263",
+        "w2v",
+        "1"
+      ]
+    },
+    "psathyrellaceae": {
+      "data-frequency": "89",
+      "data-relevance": "289",
+      "data-term": "psathyrellaceae",
+      "data-encoded-term": "psathyrellaceae",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89",
+        "w2v",
+        "1"
+      ]
+    },
+    "vice-regal": {
+      "data-frequency": "1212",
+      "data-relevance": "288",
+      "data-term": "vice-regal",
+      "data-encoded-term": "vice-regal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1212",
+        "w2v",
+        "1"
+      ]
+    },
+    "kat-tun": {
+      "data-frequency": "304",
+      "data-relevance": "287",
+      "data-term": "kat-tun",
+      "data-encoded-term": "kat-tun",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "304",
+        "w2v",
+        "1"
+      ]
+    },
+    "congressperson": {
+      "data-frequency": "122",
+      "data-relevance": "286",
+      "data-term": "congressperson",
+      "data-encoded-term": "congressperson",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "122",
+        "w2v",
+        "1"
+      ]
+    },
+    "kith": {
+      "data-frequency": "387",
+      "data-relevance": "285",
+      "data-term": "kith",
+      "data-encoded-term": "kith",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "387",
+        "cn5",
+        "1"
+      ]
+    },
+    "38-year-old": {
+      "data-frequency": "89259",
+      "data-relevance": "284",
+      "data-term": "38-year-old",
+      "data-encoded-term": "38-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89259",
+        "w2v",
+        "1"
+      ]
+    },
+    "42-year-old": {
+      "data-frequency": "748",
+      "data-relevance": "283",
+      "data-term": "42-year-old",
+      "data-encoded-term": "42-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "748",
+        "w2v",
+        "1"
+      ]
+    },
+    "year-old": {
+      "data-frequency": "124510",
+      "data-relevance": "282",
+      "data-term": "year-old",
+      "data-encoded-term": "year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "124510",
+        "w2v",
+        "1"
+      ]
+    },
+    "fifteen-year-old": {
+      "data-frequency": "1456",
+      "data-relevance": "281",
+      "data-term": "fifteen-year-old",
+      "data-encoded-term": "fifteen-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1456",
+        "w2v",
+        "1"
+      ]
+    },
+    "10-term": {
+      "data-frequency": "194268",
+      "data-relevance": "280",
+      "data-term": "10-term",
+      "data-encoded-term": "10-term",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "194268",
+        "w2v",
+        "1"
+      ]
+    },
+    "glycosyl": {
+      "data-frequency": "527",
+      "data-relevance": "279",
+      "data-term": "glycosyl",
+      "data-encoded-term": "glycosyl",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "527",
+        "w2v",
+        "1"
+      ]
+    },
+    "18-month-old": {
+      "data-frequency": "114808",
+      "data-relevance": "278",
+      "data-term": "18-month-old",
+      "data-encoded-term": "18-month-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "114808",
+        "w2v",
+        "1"
+      ]
+    },
+    "beachgoer": {
+      "data-frequency": "226",
+      "data-relevance": "277",
+      "data-term": "beachgoer",
+      "data-encoded-term": "beachgoer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "w2v",
+        "1"
+      ]
+    },
+    "mouseketeer": {
+      "data-frequency": "313",
+      "data-relevance": "276",
+      "data-term": "mouseketeer",
+      "data-encoded-term": "mouseketeer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "313",
+        "w2v",
+        "1"
+      ]
+    },
+    "highest-ranking": {
+      "data-frequency": "36125",
+      "data-relevance": "275",
+      "data-term": "highest-ranking",
+      "data-encoded-term": "highest-ranking",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "36125",
+        "w2v",
+        "1"
+      ]
+    },
+    "gatehouse": {
+      "data-frequency": "5527",
+      "data-relevance": "274",
+      "data-term": "gatehouse",
+      "data-encoded-term": "gatehouse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5527",
+        "cn5",
+        "1"
+      ]
+    },
+    "deshastha": {
+      "data-frequency": "122",
+      "data-relevance": "273",
+      "data-term": "deshastha",
+      "data-encoded-term": "deshastha",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "122",
+        "w2v",
+        "1"
+      ]
+    },
+    "lightkeeper": {
+      "data-frequency": "253",
+      "data-relevance": "272",
+      "data-term": "lightkeeper",
+      "data-encoded-term": "lightkeeper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "253",
+        "w2v",
+        "1"
+      ]
+    },
+    "72-year-old": {
+      "data-frequency": "404",
+      "data-relevance": "271",
+      "data-term": "72-year-old",
+      "data-encoded-term": "72-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "404",
+        "w2v",
+        "1"
+      ]
+    },
+    "spermatophore": {
+      "data-frequency": "207",
+      "data-relevance": "270",
+      "data-term": "spermatophore",
+      "data-encoded-term": "spermatophore",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "207",
+        "w2v",
+        "1"
+      ]
+    },
+    "75-year-old": {
+      "data-frequency": "424",
+      "data-relevance": "269",
+      "data-term": "75-year-old",
+      "data-encoded-term": "75-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "424",
+        "w2v",
+        "1"
+      ]
+    },
+    "nondisabled": {
+      "data-frequency": "-1",
+      "data-relevance": "268",
+      "data-term": "nondisabled",
+      "data-encoded-term": "nondisabled",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "mexican-born": {
+      "data-frequency": "77684",
+      "data-relevance": "267",
+      "data-term": "mexican-born",
+      "data-encoded-term": "mexican-born",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77684",
+        "w2v",
+        "1"
+      ]
+    },
+    "roomful": {
+      "data-frequency": "231",
+      "data-relevance": "266",
+      "data-term": "roomful",
+      "data-encoded-term": "roomful",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "231",
+        "cn5",
+        "1"
+      ]
+    },
+    "12-year-old": {
+      "data-frequency": "4412",
+      "data-relevance": "265",
+      "data-term": "12-year-old",
+      "data-encoded-term": "12-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4412",
+        "w2v",
+        "1"
+      ]
+    },
+    "eight-year-old": {
+      "data-frequency": "2222",
+      "data-relevance": "264",
+      "data-term": "eight-year-old",
+      "data-encoded-term": "eight-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2222",
+        "w2v",
+        "1"
+      ]
+    },
+    "nineteen-year-old": {
+      "data-frequency": "794",
+      "data-relevance": "263",
+      "data-term": "nineteen-year-old",
+      "data-encoded-term": "nineteen-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "794",
+        "w2v",
+        "1"
+      ]
+    },
+    "home ownership": {
+      "data-frequency": "30102",
+      "data-relevance": "262",
+      "data-term": "home ownership",
+      "data-encoded-term": "home%20ownership",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "30102",
+        "wiki",
+        "1"
+      ]
+    },
+    "divorcée": {
+      "data-frequency": "1354",
+      "data-relevance": "261",
+      "data-term": "divorcée",
+      "data-encoded-term": "divorc%C3%A9e",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1354",
+        "w2v",
+        "1"
+      ]
+    },
+    "29-year-old": {
+      "data-frequency": "193858",
+      "data-relevance": "260",
+      "data-term": "29-year-old",
+      "data-encoded-term": "29-year-old",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "193858",
+        "w2v",
+        "1"
+      ]
+    },
+    "digging": {
+      "data-frequency": "13647",
+      "data-relevance": "259",
+      "data-term": "digging",
+      "data-encoded-term": "digging",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13647",
+        "cn5",
+        "1"
+      ]
+    },
+    "barkha": {
+      "data-frequency": "318",
+      "data-relevance": "258",
+      "data-term": "barkha",
+      "data-encoded-term": "barkha",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "318",
+        "w2v",
+        "1"
+      ]
+    },
+    "confidant": {
+      "data-frequency": "3666",
+      "data-relevance": "257",
+      "data-term": "confidant",
+      "data-encoded-term": "confidant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3666",
+        "cn5",
+        "1"
+      ]
+    },
+    "singly": {
+      "data-frequency": "4192",
+      "data-relevance": "256",
+      "data-term": "singly",
+      "data-encoded-term": "singly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4192",
+        "cn5",
+        "1"
+      ]
+    },
+    "befriend": {
+      "data-frequency": "2652",
+      "data-relevance": "255",
+      "data-term": "befriend",
+      "data-encoded-term": "befriend",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2652",
+        "cn5",
+        "1"
+      ]
+    },
+    "hacienda": {
+      "data-frequency": "4073",
+      "data-relevance": "254",
+      "data-term": "hacienda",
+      "data-encoded-term": "hacienda",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4073",
+        "cn5",
+        "1"
+      ]
+    },
+    "bedfellow": {
+      "data-frequency": "70",
+      "data-relevance": "253",
+      "data-term": "bedfellow",
+      "data-encoded-term": "bedfellow",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "70",
+        "cn5",
+        "1"
+      ]
+    },
+    "anteroom": {
+      "data-frequency": "268",
+      "data-relevance": "252",
+      "data-term": "anteroom",
+      "data-encoded-term": "anteroom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "268",
+        "cn5",
+        "1"
+      ]
+    },
+    "companion": {
+      "data-frequency": "78692",
+      "data-relevance": "251",
+      "data-term": "companion",
+      "data-encoded-term": "companion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "78692",
+        "cn5",
+        "1"
+      ]
+    },
+    "houseroom": {
+      "data-frequency": "-1",
+      "data-relevance": "250",
+      "data-term": "houseroom",
+      "data-encoded-term": "houseroom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "houseless": {
+      "data-frequency": "56",
+      "data-relevance": "249",
+      "data-term": "houseless",
+      "data-encoded-term": "houseless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "camaraderie": {
+      "data-frequency": "1639",
+      "data-relevance": "248",
+      "data-term": "camaraderie",
+      "data-encoded-term": "camaraderie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1639",
+        "cn5",
+        "1"
+      ]
+    },
+    "penthouse": {
+      "data-frequency": "4410",
+      "data-relevance": "247",
+      "data-term": "penthouse",
+      "data-encoded-term": "penthouse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4410",
+        "cn5",
+        "1"
+      ]
+    },
+    "cabin": {
+      "data-frequency": "28919",
+      "data-relevance": "246",
+      "data-term": "cabin",
+      "data-encoded-term": "cabin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "28919",
+        "cn5",
+        "1"
+      ]
+    },
+    "lessee": {
+      "data-frequency": "1015",
+      "data-relevance": "245",
+      "data-term": "lessee",
+      "data-encoded-term": "lessee",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1015",
+        "cn5",
+        "1"
+      ]
+    },
+    "suite": {
+      "data-frequency": "39707",
+      "data-relevance": "244",
+      "data-term": "suite",
+      "data-encoded-term": "suite",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "39707",
+        "cn5",
+        "1"
+      ]
+    },
+    "bachelorette": {
+      "data-frequency": "1466",
+      "data-relevance": "243",
+      "data-term": "bachelorette",
+      "data-encoded-term": "bachelorette",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1466",
+        "ol",
+        "1"
+      ]
+    },
+    "presenter": {
+      "data-frequency": "40533",
+      "data-relevance": "242",
+      "data-term": "presenter",
+      "data-encoded-term": "presenter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "40533",
+        "ol",
+        "1"
+      ]
+    },
+    "sov": {
+      "data-frequency": "1139",
+      "data-relevance": "241",
+      "data-term": "sov",
+      "data-encoded-term": "sov",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1139",
+        "ol",
+        "1"
+      ]
+    },
+    "playmate": {
+      "data-frequency": "1895",
+      "data-relevance": "240",
+      "data-term": "playmate",
+      "data-encoded-term": "playmate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1895",
+        "ol",
+        "1"
+      ]
+    },
+    "beau": {
+      "data-frequency": "14710",
+      "data-relevance": "239",
+      "data-term": "beau",
+      "data-encoded-term": "beau",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14710",
+        "ol",
+        "1"
+      ]
+    },
+    "fiancee": {
+      "data-frequency": "10205",
+      "data-relevance": "238",
+      "data-term": "fiancee",
+      "data-encoded-term": "fiancee",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10205",
+        "ol",
+        "1"
+      ]
+    },
+    "barmaid": {
+      "data-frequency": "1330",
+      "data-relevance": "237",
+      "data-term": "barmaid",
+      "data-encoded-term": "barmaid",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1330",
+        "ol",
+        "1"
+      ]
+    },
+    "missus": {
+      "data-frequency": "453",
+      "data-relevance": "236",
+      "data-term": "missus",
+      "data-encoded-term": "missus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "453",
+        "ol",
+        "1"
+      ]
+    },
+    "newsreader": {
+      "data-frequency": "2396",
+      "data-relevance": "235",
+      "data-term": "newsreader",
+      "data-encoded-term": "newsreader",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2396",
+        "ol",
+        "1"
+      ]
+    },
+    "supermodel": {
+      "data-frequency": "2776",
+      "data-relevance": "234",
+      "data-term": "supermodel",
+      "data-encoded-term": "supermodel",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2776",
+        "ol",
+        "1"
+      ]
+    },
+    "footballer": {
+      "data-frequency": "212963",
+      "data-relevance": "233",
+      "data-term": "footballer",
+      "data-encoded-term": "footballer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "212963",
+        "ol",
+        "1"
+      ]
+    },
+    "babe": {
+      "data-frequency": "13640",
+      "data-relevance": "232",
+      "data-term": "babe",
+      "data-encoded-term": "babe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13640",
+        "ol",
+        "1"
+      ]
+    },
+    "romeo": {
+      "data-frequency": "23810",
+      "data-relevance": "231",
+      "data-term": "romeo",
+      "data-encoded-term": "romeo",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "23810",
+        "ol",
+        "1"
+      ]
+    },
+    "minx": {
+      "data-frequency": "671",
+      "data-relevance": "230",
+      "data-term": "minx",
+      "data-encoded-term": "minx",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "671",
+        "ol",
+        "1"
+      ]
+    },
+    "cilla": {
+      "data-frequency": "1212",
+      "data-relevance": "229",
+      "data-term": "cilla",
+      "data-encoded-term": "cilla",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1212",
+        "ol",
+        "1"
+      ]
+    },
+    "gran": {
+      "data-frequency": "30236",
+      "data-relevance": "228",
+      "data-term": "gran",
+      "data-encoded-term": "gran",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "30236",
+        "ol",
+        "1"
+      ]
+    },
+    "geordie": {
+      "data-frequency": "2071",
+      "data-relevance": "227",
+      "data-term": "geordie",
+      "data-encoded-term": "geordie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2071",
+        "ol",
+        "1"
+      ]
+    },
+    "cellmate": {
+      "data-frequency": "953",
+      "data-relevance": "226",
+      "data-term": "cellmate",
+      "data-encoded-term": "cellmate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "953",
+        "ol",
+        "1"
+      ]
+    },
+    "popstar": {
+      "data-frequency": "1621",
+      "data-relevance": "225",
+      "data-term": "popstar",
+      "data-encoded-term": "popstar",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1621",
+        "ol",
+        "1"
+      ]
+    },
+    "londoner": {
+      "data-frequency": "871",
+      "data-relevance": "224",
+      "data-term": "londoner",
+      "data-encoded-term": "londoner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "871",
+        "ol",
+        "1"
+      ]
+    },
+    "lass": {
+      "data-frequency": "4862",
+      "data-relevance": "223",
+      "data-term": "lass",
+      "data-encoded-term": "lass",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4862",
+        "ol",
+        "1"
+      ]
+    },
+    "kelpie": {
+      "data-frequency": "453",
+      "data-relevance": "222",
+      "data-term": "kelpie",
+      "data-encoded-term": "kelpie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "453",
+        "ol",
+        "1"
+      ]
+    },
+    "transvestite": {
+      "data-frequency": "1018",
+      "data-relevance": "221",
+      "data-term": "transvestite",
+      "data-encoded-term": "transvestite",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1018",
+        "ol",
+        "1"
+      ]
+    },
+    "plot device": {
+      "data-frequency": "13659",
+      "data-relevance": "220",
+      "data-term": "plot device",
+      "data-encoded-term": "plot%20device",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13659",
+        "wiki",
+        "1"
+      ]
+    },
+    "pash": {
+      "data-frequency": "881",
+      "data-relevance": "219",
+      "data-term": "pash",
+      "data-encoded-term": "pash",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "881",
+        "ol",
+        "1"
+      ]
+    },
+    "muso": {
+      "data-frequency": "644",
+      "data-relevance": "218",
+      "data-term": "muso",
+      "data-encoded-term": "muso",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "644",
+        "ol",
+        "1"
+      ]
+    },
+    "telly": {
+      "data-frequency": "3078",
+      "data-relevance": "217",
+      "data-term": "telly",
+      "data-encoded-term": "telly",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3078",
+        "ol",
+        "1"
+      ]
+    },
+    "brunette": {
+      "data-frequency": "1948",
+      "data-relevance": "216",
+      "data-term": "brunette",
+      "data-encoded-term": "brunette",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1948",
+        "ol",
+        "1"
+      ]
+    },
+    "barman": {
+      "data-frequency": "2697",
+      "data-relevance": "215",
+      "data-term": "barman",
+      "data-encoded-term": "barman",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2697",
+        "ol",
+        "1"
+      ]
+    },
+    "vixen": {
+      "data-frequency": "2396",
+      "data-relevance": "214",
+      "data-term": "vixen",
+      "data-encoded-term": "vixen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2396",
+        "ol",
+        "1"
+      ]
+    },
+    "aunty": {
+      "data-frequency": "1837",
+      "data-relevance": "213",
+      "data-term": "aunty",
+      "data-encoded-term": "aunty",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1837",
+        "ol",
+        "1"
+      ]
+    },
+    "totty": {
+      "data-frequency": "188",
+      "data-relevance": "212",
+      "data-term": "totty",
+      "data-encoded-term": "totty",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "188",
+        "ol",
+        "1"
+      ]
+    },
+    "hairdresser": {
+      "data-frequency": "2951",
+      "data-relevance": "211",
+      "data-term": "hairdresser",
+      "data-encoded-term": "hairdresser",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2951",
+        "ol",
+        "1"
+      ]
+    },
+    "castaway": {
+      "data-frequency": "1538",
+      "data-relevance": "210",
+      "data-term": "castaway",
+      "data-encoded-term": "castaway",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1538",
+        "ol",
+        "1"
+      ]
+    },
+    "cutie": {
+      "data-frequency": "1928",
+      "data-relevance": "209",
+      "data-term": "cutie",
+      "data-encoded-term": "cutie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1928",
+        "ol",
+        "1"
+      ]
+    },
+    "granny": {
+      "data-frequency": "4942",
+      "data-relevance": "208",
+      "data-term": "granny",
+      "data-encoded-term": "granny",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4942",
+        "ol",
+        "1"
+      ]
+    },
+    "reveller": {
+      "data-frequency": "306",
+      "data-relevance": "207",
+      "data-term": "reveller",
+      "data-encoded-term": "reveller",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "306",
+        "ol",
+        "1"
+      ]
+    },
+    "paramour": {
+      "data-frequency": "700",
+      "data-relevance": "206",
+      "data-term": "paramour",
+      "data-encoded-term": "paramour",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "700",
+        "ol",
+        "1"
+      ]
+    },
+    "schoolmate": {
+      "data-frequency": "1303",
+      "data-relevance": "205",
+      "data-term": "schoolmate",
+      "data-encoded-term": "schoolmate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1303",
+        "ol",
+        "1"
+      ]
+    },
+    "mum": {
+      "data-frequency": "7691",
+      "data-relevance": "204",
+      "data-term": "mum",
+      "data-encoded-term": "mum",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7691",
+        "ol",
+        "1"
+      ]
+    },
+    "garbo": {
+      "data-frequency": "1688",
+      "data-relevance": "203",
+      "data-term": "garbo",
+      "data-encoded-term": "garbo",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1688",
+        "ol",
+        "1"
+      ]
+    },
+    "cloakroom": {
+      "data-frequency": "408",
+      "data-relevance": "202",
+      "data-term": "cloakroom",
+      "data-encoded-term": "cloakroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "408",
+        "cn5",
+        "1"
+      ]
+    },
+    "bloke": {
+      "data-frequency": "1298",
+      "data-relevance": "201",
+      "data-term": "bloke",
+      "data-encoded-term": "bloke",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1298",
+        "ol",
+        "1"
+      ]
+    },
+    "housekeeper": {
+      "data-frequency": "5210",
+      "data-relevance": "200",
+      "data-term": "housekeeper",
+      "data-encoded-term": "housekeeper",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5210",
+        "cn5",
+        "1"
+      ]
+    },
+    "darkroom": {
+      "data-frequency": "1872",
+      "data-relevance": "199",
+      "data-term": "darkroom",
+      "data-encoded-term": "darkroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1872",
+        "cn5",
+        "1"
+      ]
+    },
+    "friendsome": {
+      "data-frequency": "-1",
+      "data-relevance": "198",
+      "data-term": "friendsome",
+      "data-encoded-term": "friendsome",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "backroom": {
+      "data-frequency": "1768",
+      "data-relevance": "197",
+      "data-term": "backroom",
+      "data-encoded-term": "backroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1768",
+        "cn5",
+        "1"
+      ]
+    },
+    "lessor": {
+      "data-frequency": "475",
+      "data-relevance": "196",
+      "data-term": "lessor",
+      "data-encoded-term": "lessor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "475",
+        "cn5",
+        "1"
+      ]
+    },
+    "yourself": {
+      "data-frequency": "27615",
+      "data-relevance": "195",
+      "data-term": "yourself",
+      "data-encoded-term": "yourself",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "27615",
+        "cn5",
+        "1"
+      ]
+    },
+    "ranchhouse": {
+      "data-frequency": "56",
+      "data-relevance": "194",
+      "data-term": "ranchhouse",
+      "data-encoded-term": "ranchhouse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "home": {
+      "data-frequency": "929241",
+      "data-relevance": "193",
+      "data-term": "home",
+      "data-encoded-term": "home",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "929241",
+        "cn5",
+        "1"
+      ]
+    },
+    "roomy": {
+      "data-frequency": "705",
+      "data-relevance": "192",
+      "data-term": "roomy",
+      "data-encoded-term": "roomy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "705",
+        "cn5",
+        "1"
+      ]
+    },
+    "bungalow": {
+      "data-frequency": "6932",
+      "data-relevance": "191",
+      "data-term": "bungalow",
+      "data-encoded-term": "bungalow",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6932",
+        "cn5",
+        "1"
+      ]
+    },
+    "householder": {
+      "data-frequency": "39919",
+      "data-relevance": "190",
+      "data-term": "householder",
+      "data-encoded-term": "householder",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "39919",
+        "cn5",
+        "1"
+      ]
+    },
+    "houseful": {
+      "data-frequency": "129",
+      "data-relevance": "189",
+      "data-term": "houseful",
+      "data-encoded-term": "houseful",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "129",
+        "cn5",
+        "1"
+      ]
+    },
+    "hostel": {
+      "data-frequency": "7497",
+      "data-relevance": "188",
+      "data-term": "hostel",
+      "data-encoded-term": "hostel",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7497",
+        "cn5",
+        "1"
+      ]
+    },
+    "hall": {
+      "data-frequency": "537023",
+      "data-relevance": "187",
+      "data-term": "hall",
+      "data-encoded-term": "hall",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "537023",
+        "cn5",
+        "1"
+      ]
+    },
+    "flet": {
+      "data-frequency": "102",
+      "data-relevance": "186",
+      "data-term": "flet",
+      "data-encoded-term": "flet",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "102",
+        "cn5",
+        "1"
+      ]
+    },
+    "personal": {
+      "data-frequency": "1020061",
+      "data-relevance": "185",
+      "data-term": "personal",
+      "data-encoded-term": "personal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1020061",
+        "cn5",
+        "1"
+      ]
+    },
+    "clubroom": {
+      "data-frequency": "215",
+      "data-relevance": "184",
+      "data-term": "clubroom",
+      "data-encoded-term": "clubroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "215",
+        "cn5",
+        "1"
+      ]
+    },
+    "cobber": {
+      "data-frequency": "70",
+      "data-relevance": "183",
+      "data-term": "cobber",
+      "data-encoded-term": "cobber",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "70",
+        "cn5",
+        "1"
+      ]
+    },
+    "flatterer": {
+      "data-frequency": "109",
+      "data-relevance": "182",
+      "data-term": "flatterer",
+      "data-encoded-term": "flatterer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "109",
+        "cn5",
+        "1"
+      ]
+    },
+    "maisonette": {
+      "data-frequency": "210",
+      "data-relevance": "181",
+      "data-term": "maisonette",
+      "data-encoded-term": "maisonette",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "210",
+        "cn5",
+        "1"
+      ]
+    },
+    "tenancy": {
+      "data-frequency": "1926",
+      "data-relevance": "180",
+      "data-term": "tenancy",
+      "data-encoded-term": "tenancy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1926",
+        "cn5",
+        "1"
+      ]
+    },
+    "proprietor": {
+      "data-frequency": "9998",
+      "data-relevance": "179",
+      "data-term": "proprietor",
+      "data-encoded-term": "proprietor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9998",
+        "cn5",
+        "1"
+      ]
+    },
+    "lobby": {
+      "data-frequency": "24142",
+      "data-relevance": "178",
+      "data-term": "lobby",
+      "data-encoded-term": "lobby",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "24142",
+        "cn5",
+        "1"
+      ]
+    },
+    "cohousing": {
+      "data-frequency": "264",
+      "data-relevance": "177",
+      "data-term": "cohousing",
+      "data-encoded-term": "cohousing",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "264",
+        "cn5",
+        "1"
+      ]
+    },
+    "europe": {
+      "data-frequency": "476760",
+      "data-relevance": "176",
+      "data-term": "europe",
+      "data-encoded-term": "europe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "476760",
+        "wiki",
+        "1"
+      ]
+    },
+    "upstairs": {
+      "data-frequency": "9497",
+      "data-relevance": "175",
+      "data-term": "upstairs",
+      "data-encoded-term": "upstairs",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9497",
+        "cn5",
+        "1"
+      ]
+    },
+    "personally": {
+      "data-frequency": "44035",
+      "data-relevance": "174",
+      "data-term": "personally",
+      "data-encoded-term": "personally",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "44035",
+        "cn5",
+        "1"
+      ]
+    },
+    "inn": {
+      "data-frequency": "48097",
+      "data-relevance": "173",
+      "data-term": "inn",
+      "data-encoded-term": "inn",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "48097",
+        "cn5",
+        "1"
+      ]
+    },
+    "hallway": {
+      "data-frequency": "4591",
+      "data-relevance": "172",
+      "data-term": "hallway",
+      "data-encoded-term": "hallway",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4591",
+        "cn5",
+        "1"
+      ]
+    },
+    "the big bang theory": {
+      "data-frequency": "4697",
+      "data-relevance": "171",
+      "data-term": "the big bang theory",
+      "data-encoded-term": "the%20big%20bang%20theory",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4697",
+        "wiki",
+        "1"
+      ]
+    },
+    "cohoused": {
+      "data-frequency": "-1",
+      "data-relevance": "170",
+      "data-term": "cohoused",
+      "data-encoded-term": "cohoused",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "copesmate": {
+      "data-frequency": "-1",
+      "data-relevance": "169",
+      "data-term": "copesmate",
+      "data-encoded-term": "copesmate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "basement": {
+      "data-frequency": "30233",
+      "data-relevance": "168",
+      "data-term": "basement",
+      "data-encoded-term": "basement",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "30233",
+        "cn5",
+        "1"
+      ]
+    },
+    "dosshouse": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "dosshouse",
+      "data-encoded-term": "dosshouse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bilevel": {
+      "data-frequency": "236",
+      "data-relevance": "166",
+      "data-term": "bilevel",
+      "data-encoded-term": "bilevel",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "236",
+        "cn5",
+        "1"
+      ]
+    },
+    "housebuyer": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "housebuyer",
+      "data-encoded-term": "housebuyer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "flophouse": {
+      "data-frequency": "204",
+      "data-relevance": "164",
+      "data-term": "flophouse",
+      "data-encoded-term": "flophouse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "204",
+        "cn5",
+        "1"
+      ]
+    },
+    "saltbox": {
+      "data-frequency": "441",
+      "data-relevance": "163",
+      "data-term": "saltbox",
+      "data-encoded-term": "saltbox",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "441",
+        "cn5",
+        "1"
+      ]
+    },
+    "rehouse": {
+      "data-frequency": "162",
+      "data-relevance": "162",
+      "data-term": "rehouse",
+      "data-encoded-term": "rehouse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "162",
+        "cn5",
+        "1"
+      ]
+    },
+    "housepainter": {
+      "data-frequency": "72",
+      "data-relevance": "161",
+      "data-term": "housepainter",
+      "data-encoded-term": "housepainter",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "72",
+        "cn5",
+        "1"
+      ]
+    },
+    "cardroom": {
+      "data-frequency": "107",
+      "data-relevance": "160",
+      "data-term": "cardroom",
+      "data-encoded-term": "cardroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "107",
+        "cn5",
+        "1"
+      ]
+    },
+    "campmate": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "campmate",
+      "data-encoded-term": "campmate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hizzle": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "hizzle",
+      "data-encoded-term": "hizzle",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hgs": {
+      "data-frequency": "462",
+      "data-relevance": "157",
+      "data-term": "hgs",
+      "data-encoded-term": "hgs",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "462",
+        "ol",
+        "1"
+      ]
+    },
+    "roomie": {
+      "data-frequency": "47",
+      "data-relevance": "156",
+      "data-term": "roomie",
+      "data-encoded-term": "roomie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "fianc": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "fianc",
+      "data-encoded-term": "fianc",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fiance": {
+      "data-frequency": "10018",
+      "data-relevance": "154",
+      "data-term": "fiance",
+      "data-encoded-term": "fiance",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "10018",
+        "ol",
+        "1"
+      ]
+    },
+    "workmate": {
+      "data-frequency": "178",
+      "data-relevance": "153",
+      "data-term": "workmate",
+      "data-encoded-term": "workmate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "178",
+        "ol",
+        "1"
+      ]
+    },
+    "partygoer": {
+      "data-frequency": "147",
+      "data-relevance": "152",
+      "data-term": "partygoer",
+      "data-encoded-term": "partygoer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "147",
+        "ol",
+        "1"
+      ]
+    },
+    "crimper": {
+      "data-frequency": "49",
+      "data-relevance": "151",
+      "data-term": "crimper",
+      "data-encoded-term": "crimper",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "snog": {
+      "data-frequency": "253",
+      "data-relevance": "150",
+      "data-term": "snog",
+      "data-encoded-term": "snog",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "253",
+        "ol",
+        "1"
+      ]
+    },
+    "moggie": {
+      "data-frequency": "160",
+      "data-relevance": "149",
+      "data-term": "moggie",
+      "data-encoded-term": "moggie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "160",
+        "ol",
+        "1"
+      ]
+    },
+    "hottie": {
+      "data-frequency": "724",
+      "data-relevance": "148",
+      "data-term": "hottie",
+      "data-encoded-term": "hottie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "724",
+        "ol",
+        "1"
+      ]
+    },
+    "pillock": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "pillock",
+      "data-encoded-term": "pillock",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hubby": {
+      "data-frequency": "620",
+      "data-relevance": "146",
+      "data-term": "hubby",
+      "data-encoded-term": "hubby",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "620",
+        "ol",
+        "1"
+      ]
+    },
+    "auditioner": {
+      "data-frequency": "106",
+      "data-relevance": "145",
+      "data-term": "auditioner",
+      "data-encoded-term": "auditioner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "106",
+        "ol",
+        "1"
+      ]
+    },
+    "pleb": {
+      "data-frequency": "44",
+      "data-relevance": "144",
+      "data-term": "pleb",
+      "data-encoded-term": "pleb",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "holidaymaker": {
+      "data-frequency": "64",
+      "data-relevance": "143",
+      "data-term": "holidaymaker",
+      "data-encoded-term": "holidaymaker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "64",
+        "ol",
+        "1"
+      ]
+    },
+    "clubber": {
+      "data-frequency": "160",
+      "data-relevance": "142",
+      "data-term": "clubber",
+      "data-encoded-term": "clubber",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "160",
+        "ol",
+        "1"
+      ]
+    },
+    "zarf": {
+      "data-frequency": "307",
+      "data-relevance": "141",
+      "data-term": "zarf",
+      "data-encoded-term": "zarf",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "307",
+        "ol",
+        "1"
+      ]
+    },
+    "perdy": {
+      "data-frequency": "-1",
+      "data-relevance": "140",
+      "data-term": "perdy",
+      "data-encoded-term": "perdy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "exboyfriend": {
+      "data-frequency": "-1",
+      "data-relevance": "139",
+      "data-term": "exboyfriend",
+      "data-encoded-term": "exboyfriend",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "minge": {
+      "data-frequency": "478",
+      "data-relevance": "138",
+      "data-term": "minge",
+      "data-encoded-term": "minge",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "478",
+        "ol",
+        "1"
+      ]
+    },
+    "bedmate": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "bedmate",
+      "data-encoded-term": "bedmate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "antm": {
+      "data-frequency": "178",
+      "data-relevance": "136",
+      "data-term": "antm",
+      "data-encoded-term": "antm",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "178",
+        "ol",
+        "1"
+      ]
+    },
+    "ladykiller": {
+      "data-frequency": "150",
+      "data-relevance": "135",
+      "data-term": "ladykiller",
+      "data-encoded-term": "ladykiller",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "150",
+        "ol",
+        "1"
+      ]
+    },
+    "westie": {
+      "data-frequency": "312",
+      "data-relevance": "134",
+      "data-term": "westie",
+      "data-encoded-term": "westie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "312",
+        "ol",
+        "1"
+      ]
+    },
+    "lovebirds": {
+      "data-frequency": "331",
+      "data-relevance": "133",
+      "data-term": "lovebirds",
+      "data-encoded-term": "lovebirds",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "331",
+        "ol",
+        "1"
+      ]
+    },
+    "moaner": {
+      "data-frequency": "56",
+      "data-relevance": "132",
+      "data-term": "moaner",
+      "data-encoded-term": "moaner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "soulmate": {
+      "data-frequency": "736",
+      "data-relevance": "131",
+      "data-term": "soulmate",
+      "data-encoded-term": "soulmate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "736",
+        "ol",
+        "1"
+      ]
+    },
+    "wifey": {
+      "data-frequency": "164",
+      "data-relevance": "130",
+      "data-term": "wifey",
+      "data-encoded-term": "wifey",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "164",
+        "ol",
+        "1"
+      ]
+    },
+    "smush": {
+      "data-frequency": "97",
+      "data-relevance": "129",
+      "data-term": "smush",
+      "data-encoded-term": "smush",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "97",
+        "ol",
+        "1"
+      ]
+    },
+    "ferede": {
+      "data-frequency": "-1",
+      "data-relevance": "128",
+      "data-term": "ferede",
+      "data-encoded-term": "ferede",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dwellinghouse": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "dwellinghouse",
+      "data-encoded-term": "dwellinghouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chartroom": {
+      "data-frequency": "-1",
+      "data-relevance": "126",
+      "data-term": "chartroom",
+      "data-encoded-term": "chartroom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coffeeroom": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "coffeeroom",
+      "data-encoded-term": "coffeeroom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "leaseholder": {
+      "data-frequency": "226",
+      "data-relevance": "124",
+      "data-term": "leaseholder",
+      "data-encoded-term": "leaseholder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "226",
+        "cn5",
+        "1"
+      ]
+    },
+    "single parent": {
+      "data-frequency": "1946",
+      "data-relevance": "123",
+      "data-term": "single parent",
+      "data-encoded-term": "single%20parent",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1946",
+        "wiki",
+        "1"
+      ]
+    },
+    "housebuying": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "housebuying",
+      "data-encoded-term": "housebuying",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bobbasheely": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "bobbasheely",
+      "data-encoded-term": "bobbasheely",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "roomette": {
+      "data-frequency": "79",
+      "data-relevance": "120",
+      "data-term": "roomette",
+      "data-encoded-term": "roomette",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "houseling": {
+      "data-frequency": "-1",
+      "data-relevance": "119",
+      "data-term": "houseling",
+      "data-encoded-term": "houseling",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wirehouse": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "wirehouse",
+      "data-encoded-term": "wirehouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unhoused": {
+      "data-frequency": "80",
+      "data-relevance": "117",
+      "data-term": "unhoused",
+      "data-encoded-term": "unhoused",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "cn5",
+        "1"
+      ]
+    },
+    "friendlily": {
+      "data-frequency": "-1",
+      "data-relevance": "116",
+      "data-term": "friendlily",
+      "data-encoded-term": "friendlily",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tholtan": {
+      "data-frequency": "-1",
+      "data-relevance": "115",
+      "data-term": "tholtan",
+      "data-encoded-term": "tholtan",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unhouse": {
+      "data-frequency": "-1",
+      "data-relevance": "114",
+      "data-term": "unhouse",
+      "data-encoded-term": "unhouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "homebuilder": {
+      "data-frequency": "215",
+      "data-relevance": "113",
+      "data-term": "homebuilder",
+      "data-encoded-term": "homebuilder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "215",
+        "cn5",
+        "1"
+      ]
+    },
+    "live space": {
+      "data-frequency": "54",
+      "data-relevance": "112",
+      "data-term": "live space",
+      "data-encoded-term": "live%20space",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "54",
+        "cn5",
+        "1"
+      ]
+    },
+    "cyclorama": {
+      "data-frequency": "489",
+      "data-relevance": "111",
+      "data-term": "cyclorama",
+      "data-encoded-term": "cyclorama",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "489",
+        "cn5",
+        "1"
+      ]
+    },
+    "personalty": {
+      "data-frequency": "74",
+      "data-relevance": "110",
+      "data-term": "personalty",
+      "data-encoded-term": "personalty",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "74",
+        "cn5",
+        "1"
+      ]
+    },
+    "showhouse": {
+      "data-frequency": "58",
+      "data-relevance": "109",
+      "data-term": "showhouse",
+      "data-encoded-term": "showhouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "58",
+        "cn5",
+        "1"
+      ]
+    },
+    "adulate": {
+      "data-frequency": "-1",
+      "data-relevance": "108",
+      "data-term": "adulate",
+      "data-encoded-term": "adulate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "trend": {
+      "data-frequency": "37871",
+      "data-relevance": "107",
+      "data-term": "trend",
+      "data-encoded-term": "trend",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "37871",
+        "swiki",
+        "1"
+      ]
+    },
+    "social cohesion": {
+      "data-frequency": "938",
+      "data-relevance": "106",
+      "data-term": "social cohesion",
+      "data-encoded-term": "social%20cohesion",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "938",
+        "wiki",
+        "1"
+      ]
+    },
+    "housepride": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "housepride",
+      "data-encoded-term": "housepride",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "peer group": {
+      "data-frequency": "539",
+      "data-relevance": "104",
+      "data-term": "peer group",
+      "data-encoded-term": "peer%20group",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "539",
+        "wiki",
+        "1"
+      ]
+    },
+    "privacy": {
+      "data-frequency": "17293",
+      "data-relevance": "103",
+      "data-term": "privacy",
+      "data-encoded-term": "privacy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "17293",
+        "wiki",
+        "1"
+      ]
+    },
+    "university student": {
+      "data-frequency": "4062",
+      "data-relevance": "102",
+      "data-term": "university student",
+      "data-encoded-term": "university%20student",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4062",
+        "wiki",
+        "1"
+      ]
+    },
+    "stress": {
+      "data-frequency": "47830",
+      "data-relevance": "101",
+      "data-term": "stress",
+      "data-encoded-term": "stress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47830",
+        "wiki",
+        "1"
+      ]
+    },
+    "front room": {
+      "data-frequency": "591",
+      "data-relevance": "100",
+      "data-term": "front room",
+      "data-encoded-term": "front%20room",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "591",
+        "cn5",
+        "1"
+      ]
+    },
+    "apartment build": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "apartment build",
+      "data-encoded-term": "apartment%20build",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "house of common": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "house of common",
+      "data-encoded-term": "house%20of%20common",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "guest room": {
+      "data-frequency": "480",
+      "data-relevance": "97",
+      "data-term": "guest room",
+      "data-encoded-term": "guest%20room",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "480",
+        "cn5",
+        "1"
+      ]
+    },
+    "board house": {
+      "data-frequency": "-1",
+      "data-relevance": "96",
+      "data-term": "board house",
+      "data-encoded-term": "board%20house",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "four wall": {
+      "data-frequency": "185",
+      "data-relevance": "95",
+      "data-term": "four wall",
+      "data-encoded-term": "four%20wall",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "185",
+        "cn5",
+        "1"
+      ]
+    },
+    "bosom friend": {
+      "data-frequency": "67",
+      "data-relevance": "94",
+      "data-term": "bosom friend",
+      "data-encoded-term": "bosom%20friend",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "67",
+        "cn5",
+        "1"
+      ]
+    },
+    "renting": {
+      "data-frequency": "4791",
+      "data-relevance": "93",
+      "data-term": "renting",
+      "data-encoded-term": "renting",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4791",
+        "wiki",
+        "1"
+      ]
+    },
+    "room and board": {
+      "data-frequency": "911",
+      "data-relevance": "92",
+      "data-term": "room and board",
+      "data-encoded-term": "room%20and%20board",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "911",
+        "cn5",
+        "1"
+      ]
+    },
+    "interpersonal relationship": {
+      "data-frequency": "219",
+      "data-relevance": "91",
+      "data-term": "interpersonal relationship",
+      "data-encoded-term": "interpersonal%20relationship",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "219",
+        "wiki",
+        "1"
+      ]
+    },
+    "love nest": {
+      "data-frequency": "248",
+      "data-relevance": "90",
+      "data-term": "love nest",
+      "data-encoded-term": "love%20nest",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "248",
+        "cn5",
+        "1"
+      ]
+    },
+    "friend with benefit": {
+      "data-frequency": "-1",
+      "data-relevance": "89",
+      "data-term": "friend with benefit",
+      "data-encoded-term": "friend%20with%20benefit",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cut room": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "cut room",
+      "data-encoded-term": "cut%20room",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "residential area": {
+      "data-frequency": "7935",
+      "data-relevance": "87",
+      "data-term": "residential area",
+      "data-encoded-term": "residential%20area",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7935",
+        "cn5",
+        "1"
+      ]
+    },
+    "in build": {
+      "data-frequency": "380",
+      "data-relevance": "86",
+      "data-term": "in build",
+      "data-encoded-term": "in%20build",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "380",
+        "cn5",
+        "1"
+      ]
+    },
+    "billiard room": {
+      "data-frequency": "780",
+      "data-relevance": "85",
+      "data-term": "billiard room",
+      "data-encoded-term": "billiard%20room",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "780",
+        "cn5",
+        "1"
+      ]
+    },
+    "cleanliness": {
+      "data-frequency": "2689",
+      "data-relevance": "84",
+      "data-term": "cleanliness",
+      "data-encoded-term": "cleanliness",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2689",
+        "wiki",
+        "1"
+      ]
+    },
+    "cooking": {
+      "data-frequency": "29833",
+      "data-relevance": "83",
+      "data-term": "cooking",
+      "data-encoded-term": "cooking",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "29833",
+        "wiki",
+        "1"
+      ]
+    },
+    "employment": {
+      "data-frequency": "78144",
+      "data-relevance": "82",
+      "data-term": "employment",
+      "data-encoded-term": "employment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "78144",
+        "wiki",
+        "1"
+      ]
+    },
+    "mood": {
+      "data-frequency": "24831",
+      "data-relevance": "81",
+      "data-term": "mood",
+      "data-encoded-term": "mood",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "24831",
+        "wiki",
+        "1"
+      ]
+    },
+    "housework": {
+      "data-frequency": "1380",
+      "data-relevance": "80",
+      "data-term": "housework",
+      "data-encoded-term": "housework",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1380",
+        "wiki",
+        "1"
+      ]
+    },
+    "housekeeping": {
+      "data-frequency": "3043",
+      "data-relevance": "79",
+      "data-term": "housekeeping",
+      "data-encoded-term": "housekeeping",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3043",
+        "wiki",
+        "1"
+      ]
+    },
+    "diet": {
+      "data-frequency": "34307",
+      "data-relevance": "78",
+      "data-term": "diet",
+      "data-encoded-term": "diet",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "34307",
+        "wiki",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "77",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "233063",
+        "wiki",
+        "1"
+      ]
+    },
+    "best friend": {
+      "data-frequency": "22064",
+      "data-relevance": "76",
+      "data-term": "best friend",
+      "data-encoded-term": "best%20friend",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "22064",
+        "cn5",
+        "1"
+      ]
+    },
+    "squad room": {
+      "data-frequency": "93",
+      "data-relevance": "75",
+      "data-term": "squad room",
+      "data-encoded-term": "squad%20room",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "fold door": {
+      "data-frequency": "-1",
+      "data-relevance": "74",
+      "data-term": "fold door",
+      "data-encoded-term": "fold%20door",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "part company": {
+      "data-frequency": "937",
+      "data-relevance": "73",
+      "data-term": "part company",
+      "data-encoded-term": "part%20company",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "937",
+        "cn5",
+        "1"
+      ]
+    },
+    "closet for clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "closet for clothe",
+      "data-encoded-term": "closet%20for%20clothe",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "house of lord": {
+      "data-frequency": "59",
+      "data-relevance": "71",
+      "data-term": "house of lord",
+      "data-encoded-term": "house%20of%20lord",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "laundry room": {
+      "data-frequency": "591",
+      "data-relevance": "70",
+      "data-term": "laundry room",
+      "data-encoded-term": "laundry%20room",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "591",
+        "cn5",
+        "1"
+      ]
+    },
+    "linen chest": {
+      "data-frequency": "-1",
+      "data-relevance": "69",
+      "data-term": "linen chest",
+      "data-encoded-term": "linen%20chest",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "walk in": {
+      "data-frequency": "8698",
+      "data-relevance": "68",
+      "data-term": "walk in",
+      "data-encoded-term": "walk%20in",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "8698",
+        "cn5",
+        "1"
+      ]
+    },
+    "keep secret": {
+      "data-frequency": "285",
+      "data-relevance": "67",
+      "data-term": "keep secret",
+      "data-encoded-term": "keep%20secret",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "285",
+        "cn5",
+        "1"
+      ]
+    },
+    "modern residence": {
+      "data-frequency": "48",
+      "data-relevance": "66",
+      "data-term": "modern residence",
+      "data-encoded-term": "modern%20residence",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "block of flat": {
+      "data-frequency": "-1",
+      "data-relevance": "65",
+      "data-term": "block of flat",
+      "data-encoded-term": "block%20of%20flat",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hinge door": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "hinge door",
+      "data-encoded-term": "hinge%20door",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "american community survey": {
+      "data-frequency": "3411",
+      "data-relevance": "63",
+      "data-term": "american community survey",
+      "data-encoded-term": "american%20community%20survey",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3411",
+        "wiki",
+        "1"
+      ]
+    },
+    "hide bed sofa": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "hide bed sofa",
+      "data-encoded-term": "hide%20bed%20sofa",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "room together": {
+      "data-frequency": "305",
+      "data-relevance": "61",
+      "data-term": "room together",
+      "data-encoded-term": "room%20together",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "305",
+        "cn5",
+        "1"
+      ]
+    },
+    "entrance hall": {
+      "data-frequency": "2074",
+      "data-relevance": "60",
+      "data-term": "entrance hall",
+      "data-encoded-term": "entrance%20hall",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "2074",
+        "cn5",
+        "1"
+      ]
+    },
+    "bill gate": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "bill gate",
+      "data-encoded-term": "bill%20gate",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "window curtain": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "window curtain",
+      "data-encoded-term": "window%20curtain",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "live quarter": {
+      "data-frequency": "-1",
+      "data-relevance": "57",
+      "data-term": "live quarter",
+      "data-encoded-term": "live%20quarter",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hospital room": {
+      "data-frequency": "817",
+      "data-relevance": "56",
+      "data-term": "hospital room",
+      "data-encoded-term": "hospital%20room",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "817",
+        "cn5",
+        "1"
+      ]
+    },
+    "draw room": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "draw room",
+      "data-encoded-term": "draw%20room",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "glass window": {
+      "data-frequency": "3752",
+      "data-relevance": "54",
+      "data-term": "glass window",
+      "data-encoded-term": "glass%20window",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3752",
+        "cn5",
+        "1"
+      ]
+    },
+    "mobile home": {
+      "data-frequency": "1459",
+      "data-relevance": "53",
+      "data-term": "mobile home",
+      "data-encoded-term": "mobile%20home",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1459",
+        "cn5",
+        "1"
+      ]
+    },
+    "live in": {
+      "data-frequency": "98760",
+      "data-relevance": "52",
+      "data-term": "live in",
+      "data-encoded-term": "live%20in",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "98760",
+        "cn5",
+        "1"
+      ]
+    },
+    "house music": {
+      "data-frequency": "3797",
+      "data-relevance": "51",
+      "data-term": "house music",
+      "data-encoded-term": "house%20music",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3797",
+        "cn5",
+        "1"
+      ]
+    },
+    "at at hotel": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "at at hotel",
+      "data-encoded-term": "at%20at%20hotel",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "clothe closet": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "clothe closet",
+      "data-encoded-term": "clothe%20closet",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "storage furniture": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "storage furniture",
+      "data-encoded-term": "storage%20furniture",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "student exchange": {
+      "data-frequency": "31985",
+      "data-relevance": "47",
+      "data-term": "student exchange",
+      "data-encoded-term": "student%20exchange",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "31985",
+        "wiki",
+        "1"
+      ]
+    },
+    "country house": {
+      "data-frequency": "7594",
+      "data-relevance": "46",
+      "data-term": "country house",
+      "data-encoded-term": "country%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "7594",
+        "cn5",
+        "1"
+      ]
+    },
+    "part of build": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "part of build",
+      "data-encoded-term": "part%20of%20build",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "guiding light": {
+      "data-frequency": "64957",
+      "data-relevance": "44",
+      "data-term": "guiding light",
+      "data-encoded-term": "guiding%20light",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "64957",
+        "ol",
+        "1"
+      ]
+    },
+    "big brother": {
+      "data-frequency": "8280",
+      "data-relevance": "43",
+      "data-term": "big brother",
+      "data-encoded-term": "big%20brother",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "8280",
+        "ol",
+        "1"
+      ]
+    },
+    "silky terrier": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "silky terrier",
+      "data-encoded-term": "silky%20terrier",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "x factor": {
+      "data-frequency": "56472",
+      "data-relevance": "41",
+      "data-term": "x factor",
+      "data-encoded-term": "x%20factor",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "56472",
+        "ol",
+        "1"
+      ]
+    },
+    "beauty queen": {
+      "data-frequency": "3126",
+      "data-relevance": "40",
+      "data-term": "beauty queen",
+      "data-encoded-term": "beauty%20queen",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3126",
+        "ol",
+        "1"
+      ]
+    },
+    "douche bag": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "douche bag",
+      "data-encoded-term": "douche%20bag",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "detach house": {
+      "data-frequency": "-1",
+      "data-relevance": "38",
+      "data-term": "detach house",
+      "data-encoded-term": "detach%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "drag queen": {
+      "data-frequency": "1584",
+      "data-relevance": "37",
+      "data-term": "drag queen",
+      "data-encoded-term": "drag%20queen",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1584",
+        "ol",
+        "1"
+      ]
+    },
+    "construction topic": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "construction topic",
+      "data-encoded-term": "construction%20topic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "weather storm": {
+      "data-frequency": "66",
+      "data-relevance": "35",
+      "data-term": "weather storm",
+      "data-encoded-term": "weather%20storm",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "66",
+        "cn5",
+        "1"
+      ]
+    },
+    "group together": {
+      "data-frequency": "1144",
+      "data-relevance": "34",
+      "data-term": "group together",
+      "data-encoded-term": "group%20together",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1144",
+        "cn5",
+        "1"
+      ]
+    },
+    "torture chamber": {
+      "data-frequency": "403",
+      "data-relevance": "33",
+      "data-term": "torture chamber",
+      "data-encoded-term": "torture%20chamber",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "403",
+        "cn5",
+        "1"
+      ]
+    },
+    "semi detach": {
+      "data-frequency": "-1",
+      "data-relevance": "32",
+      "data-term": "semi detach",
+      "data-encoded-term": "semi%20detach",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "war room": {
+      "data-frequency": "651",
+      "data-relevance": "31",
+      "data-term": "war room",
+      "data-encoded-term": "war%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "651",
+        "cn5",
+        "1"
+      ]
+    },
+    "sit room": {
+      "data-frequency": "-1",
+      "data-relevance": "30",
+      "data-term": "sit room",
+      "data-encoded-term": "sit%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "in house": {
+      "data-frequency": "16019",
+      "data-relevance": "29",
+      "data-term": "in house",
+      "data-encoded-term": "in%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "16019",
+        "cn5",
+        "1"
+      ]
+    },
+    "on off switch": {
+      "data-frequency": "192",
+      "data-relevance": "28",
+      "data-term": "on off switch",
+      "data-encoded-term": "on%20off%20switch",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "192",
+        "cn5",
+        "1"
+      ]
+    },
+    "erasmus program": {
+      "data-frequency": "1380",
+      "data-relevance": "27",
+      "data-term": "erasmus program",
+      "data-encoded-term": "erasmus%20program",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1380",
+        "wiki",
+        "1"
+      ]
+    },
+    "steam bath": {
+      "data-frequency": "175",
+      "data-relevance": "26",
+      "data-term": "steam bath",
+      "data-encoded-term": "steam%20bath",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "mise en scene": {
+      "data-frequency": "677",
+      "data-relevance": "25",
+      "data-term": "mise en scene",
+      "data-encoded-term": "mise%20en%20scene",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "677",
+        "cn5",
+        "1"
+      ]
+    },
+    "master control": {
+      "data-frequency": "771",
+      "data-relevance": "24",
+      "data-term": "master control",
+      "data-encoded-term": "master%20control",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "771",
+        "cn5",
+        "1"
+      ]
+    },
+    "safe house": {
+      "data-frequency": "1720",
+      "data-relevance": "23",
+      "data-term": "safe house",
+      "data-encoded-term": "safe%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1720",
+        "cn5",
+        "1"
+      ]
+    },
+    "step chair": {
+      "data-frequency": "11984",
+      "data-relevance": "22",
+      "data-term": "step chair",
+      "data-encoded-term": "step%20chair",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "11984",
+        "cn5",
+        "1"
+      ]
+    },
+    "stair down": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "stair down",
+      "data-encoded-term": "stair%20down",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sew room": {
+      "data-frequency": "-1",
+      "data-relevance": "20",
+      "data-term": "sew room",
+      "data-encoded-term": "sew%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rent strike": {
+      "data-frequency": "4038",
+      "data-relevance": "19",
+      "data-term": "rent strike",
+      "data-encoded-term": "rent%20strike",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4038",
+        "cn5",
+        "1"
+      ]
+    },
+    "live place": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "live place",
+      "data-encoded-term": "live%20place",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ceiling fan": {
+      "data-frequency": "155",
+      "data-relevance": "17",
+      "data-term": "ceiling fan",
+      "data-encoded-term": "ceiling%20fan",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "155",
+        "cn5",
+        "1"
+      ]
+    },
+    "butter up": {
+      "data-frequency": "-1",
+      "data-relevance": "16",
+      "data-term": "butter up",
+      "data-encoded-term": "butter%20up",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "part of house": {
+      "data-frequency": "60",
+      "data-relevance": "15",
+      "data-term": "part of house",
+      "data-encoded-term": "part%20of%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "cost lot": {
+      "data-frequency": "-1",
+      "data-relevance": "14",
+      "data-term": "cost lot",
+      "data-encoded-term": "cost%20lot",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "writ room": {
+      "data-frequency": "-1",
+      "data-relevance": "13",
+      "data-term": "writ room",
+      "data-encoded-term": "writ%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "control room": {
+      "data-frequency": "2901",
+      "data-relevance": "12",
+      "data-term": "control room",
+      "data-encoded-term": "control%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2901",
+        "cn5",
+        "1"
+      ]
+    },
+    "live room": {
+      "data-frequency": "128",
+      "data-relevance": "11",
+      "data-term": "live room",
+      "data-encoded-term": "live%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "128",
+        "cn5",
+        "1"
+      ]
+    },
+    "room service": {
+      "data-frequency": "834",
+      "data-relevance": "10",
+      "data-term": "room service",
+      "data-encoded-term": "room%20service",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "834",
+        "cn5",
+        "1"
+      ]
+    },
+    "help you": {
+      "data-frequency": "2749",
+      "data-relevance": "9",
+      "data-term": "help you",
+      "data-encoded-term": "help%20you",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2749",
+        "cn5",
+        "1"
+      ]
+    },
+    "love one": {
+      "data-frequency": "1106",
+      "data-relevance": "8",
+      "data-term": "love one",
+      "data-encoded-term": "love%20one",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1106",
+        "cn5",
+        "1"
+      ]
+    },
+    "tract house": {
+      "data-frequency": "-1",
+      "data-relevance": "7",
+      "data-term": "tract house",
+      "data-encoded-term": "tract%20house",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chuck schumer": {
+      "data-frequency": "900",
+      "data-relevance": "6",
+      "data-term": "chuck schumer",
+      "data-encoded-term": "chuck%20schumer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "900",
+        "wiki",
+        "1"
+      ]
+    },
+    "wikt": {
+      "data-frequency": "214",
+      "data-relevance": "5",
+      "data-term": "wikt",
+      "data-encoded-term": "wikt",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "214",
+        "swiki",
+        "1"
+      ]
+    },
+    "dick durbin": {
+      "data-frequency": "828",
+      "data-relevance": "4",
+      "data-term": "dick durbin",
+      "data-encoded-term": "dick%20durbin",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "828",
+        "wiki",
+        "1"
+      ]
+    },
+    "william delahunt": {
+      "data-frequency": "365",
+      "data-relevance": "3",
+      "data-term": "william delahunt",
+      "data-encoded-term": "william%20delahunt",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "365",
+        "wiki",
+        "1"
+      ]
+    },
+    "washington, d.c.": {
+      "data-frequency": "107304",
+      "data-relevance": "2",
+      "data-term": "washington, d.c.",
+      "data-encoded-term": "washington%2C%20d.c.",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "107304",
+        "wiki",
+        "1"
+      ]
+    },
+    "george miller": {
+      "data-frequency": "59027",
+      "data-relevance": "1",
+      "data-term": "george miller",
+      "data-encoded-term": "george%20miller",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "59027",
+        "wiki",
+        "1"
+      ]
+    },
+    "public utility": {
+      "data-frequency": "1810",
+      "data-relevance": "0",
+      "data-term": "public utility",
+      "data-encoded-term": "public%20utility",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1810",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "housemates"
+    ],
+    "examples": [
+      {
+        "en": "The TV belongs to my housemate.",
+        "ru": "Телевизор принадлежит моему соседу по дому."
+      },
+      {
+        "en": "In college, she lived in a house off campus with five housemates.",
+        "ru": "Когда она училась в колледже, то жила в доме за пределами университетского городка с пятью соседями."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "housemates"
+    ],
+    "synonyms": [
+      "roommate",
+      "flatmate"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "housemates",
+      "apartment",
+      "household",
+      "houseguest",
+      "friend",
+      "house",
+      "flatmate",
+      "dormitory",
+      "contestant",
+      "roommate",
+      "room",
+      "lodger"
+    ]
+  }
+}

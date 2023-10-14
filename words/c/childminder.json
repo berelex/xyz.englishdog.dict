@@ -1,0 +1,912 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "baby minder": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/baby_minder/n/,/c/en/childminder/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/baby_minder/n",
+          "@type": "Node",
+          "label": "baby minder",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/baby_minder"
+        },
+        "end": {
+          "@id": "/c/en/childminder",
+          "@type": "Node",
+          "label": "childminder",
+          "language": "en",
+          "term": "/c/en/childminder"
+        }
+      },
+      "babysitter": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/childminder/n/,/c/en/babysitter/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/childminder/n",
+          "@type": "Node",
+          "label": "childminder",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/childminder"
+        },
+        "end": {
+          "@id": "/c/en/babysitter",
+          "@type": "Node",
+          "label": "babysitter",
+          "language": "en",
+          "term": "/c/en/babysitter"
+        }
+      },
+      "child": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/childminder/n/,/c/en/child/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/childminder/n",
+          "@type": "Node",
+          "label": "childminder",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/childminder"
+        },
+        "end": {
+          "@id": "/c/en/child",
+          "@type": "Node",
+          "label": "child",
+          "language": "en",
+          "term": "/c/en/child"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "childminders": {
+        "@id": "/a/[/r/FormOf/,/c/en/childminders/n/,/c/en/childminder/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/childminders/n",
+          "@type": "Node",
+          "label": "childminders",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/childminders"
+        },
+        "end": {
+          "@id": "/c/en/childminder",
+          "@type": "Node",
+          "label": "childminder",
+          "language": "en",
+          "term": "/c/en/childminder"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "nursery": {
+      "data-frequency": "18163",
+      "data-relevance": "55",
+      "data-term": "nursery",
+      "data-encoded-term": "nursery",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "18163",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "nanny": {
+      "data-frequency": "6053",
+      "data-relevance": "54",
+      "data-term": "nanny",
+      "data-encoded-term": "nanny",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6053",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "babysitter": {
+      "data-frequency": "2239",
+      "data-relevance": "53",
+      "data-term": "babysitter",
+      "data-encoded-term": "babysitter",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2239",
+        "ol",
+        "1"
+      ]
+    },
+    "registered": {
+      "data-frequency": "148784",
+      "data-relevance": "52",
+      "data-term": "registered",
+      "data-encoded-term": "registered",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "148784",
+        "ol",
+        "1"
+      ]
+    },
+    "accountant": {
+      "data-frequency": "12009",
+      "data-relevance": "51",
+      "data-term": "accountant",
+      "data-encoded-term": "accountant",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "12009",
+        "ol",
+        "1"
+      ]
+    },
+    "accountants": {
+      "data-frequency": "5123",
+      "data-relevance": "50",
+      "data-term": "accountants",
+      "data-encoded-term": "accountants",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5123",
+        "ol",
+        "1"
+      ]
+    },
+    "advisor": {
+      "data-frequency": "75614",
+      "data-relevance": "49",
+      "data-term": "advisor",
+      "data-encoded-term": "advisor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "75614",
+        "ol",
+        "1"
+      ]
+    },
+    "apprenticeships": {
+      "data-frequency": "1417",
+      "data-relevance": "48",
+      "data-term": "apprenticeships",
+      "data-encoded-term": "apprenticeships",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1417",
+        "ol",
+        "1"
+      ]
+    },
+    "artisans": {
+      "data-frequency": "6867",
+      "data-relevance": "47",
+      "data-term": "artisans",
+      "data-encoded-term": "artisans",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6867",
+        "ol",
+        "1"
+      ]
+    },
+    "assistant": {
+      "data-frequency": "279131",
+      "data-relevance": "46",
+      "data-term": "assistant",
+      "data-encoded-term": "assistant",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "279131",
+        "ol",
+        "1"
+      ]
+    },
+    "attorneys": {
+      "data-frequency": "22510",
+      "data-relevance": "45",
+      "data-term": "attorneys",
+      "data-encoded-term": "attorneys",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "22510",
+        "ol",
+        "1"
+      ]
+    },
+    "auditors": {
+      "data-frequency": "3766",
+      "data-relevance": "44",
+      "data-term": "auditors",
+      "data-encoded-term": "auditors",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3766",
+        "ol",
+        "1"
+      ]
+    },
+    "auditor": {
+      "data-frequency": "14476",
+      "data-relevance": "43",
+      "data-term": "auditor",
+      "data-encoded-term": "auditor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "14476",
+        "ol",
+        "1"
+      ]
+    },
+    "carer": {
+      "data-frequency": "1013",
+      "data-relevance": "42",
+      "data-term": "carer",
+      "data-encoded-term": "carer",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1013",
+        "ol",
+        "1"
+      ]
+    },
+    "broker": {
+      "data-frequency": "11273",
+      "data-relevance": "41",
+      "data-term": "broker",
+      "data-encoded-term": "broker",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "11273",
+        "ol",
+        "1"
+      ]
+    },
+    "carers": {
+      "data-frequency": "186280",
+      "data-relevance": "40",
+      "data-term": "carers",
+      "data-encoded-term": "carers",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "186280",
+        "ol",
+        "1"
+      ]
+    },
+    "childcare": {
+      "data-frequency": "2946",
+      "data-relevance": "39",
+      "data-term": "childcare",
+      "data-encoded-term": "childcare",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2946",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "ceo": {
+      "data-frequency": "105900",
+      "data-relevance": "38",
+      "data-term": "ceo",
+      "data-encoded-term": "ceo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "105900",
+        "ol",
+        "1"
+      ]
+    },
+    "informers": {
+      "data-frequency": "1074",
+      "data-relevance": "37",
+      "data-term": "informers",
+      "data-encoded-term": "informers",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1074",
+        "ol",
+        "1"
+      ]
+    },
+    "constables": {
+      "data-frequency": "2718",
+      "data-relevance": "36",
+      "data-term": "constables",
+      "data-encoded-term": "constables",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2718",
+        "ol",
+        "1"
+      ]
+    },
+    "school": {
+      "data-frequency": "957567",
+      "data-relevance": "35",
+      "data-term": "school",
+      "data-encoded-term": "school",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "957567",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cleaner": {
+      "data-frequency": "9622",
+      "data-relevance": "34",
+      "data-term": "cleaner",
+      "data-encoded-term": "cleaner",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9622",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lobbyists": {
+      "data-frequency": "2687",
+      "data-relevance": "33",
+      "data-term": "lobbyists",
+      "data-encoded-term": "lobbyists",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2687",
+        "ol",
+        "1"
+      ]
+    },
+    "lobbyist": {
+      "data-frequency": "4918",
+      "data-relevance": "32",
+      "data-term": "lobbyist",
+      "data-encoded-term": "lobbyist",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4918",
+        "ol",
+        "1"
+      ]
+    },
+    "teacher": {
+      "data-frequency": "177906",
+      "data-relevance": "31",
+      "data-term": "teacher",
+      "data-encoded-term": "teacher",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "177906",
+        "wiki",
+        "1"
+      ]
+    },
+    "child care": {
+      "data-frequency": "3591",
+      "data-relevance": "30",
+      "data-term": "child care",
+      "data-encoded-term": "child%20care",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "3591",
+        "wiki",
+        "1"
+      ]
+    },
+    "veterinarian": {
+      "data-frequency": "3662",
+      "data-relevance": "29",
+      "data-term": "veterinarian",
+      "data-encoded-term": "veterinarian",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3662",
+        "ol",
+        "1"
+      ]
+    },
+    "nursemaid": {
+      "data-frequency": "421",
+      "data-relevance": "28",
+      "data-term": "nursemaid",
+      "data-encoded-term": "nursemaid",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "421",
+        "wiki",
+        "1"
+      ]
+    },
+    "au pair": {
+      "data-frequency": "500",
+      "data-relevance": "27",
+      "data-term": "au pair",
+      "data-encoded-term": "au%20pair",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "500",
+        "wiki",
+        "1"
+      ]
+    },
+    "kindergarten": {
+      "data-frequency": "19650",
+      "data-relevance": "26",
+      "data-term": "kindergarten",
+      "data-encoded-term": "kindergarten",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "19650",
+        "wiki",
+        "1"
+      ]
+    },
+    "governess": {
+      "data-frequency": "3211",
+      "data-relevance": "25",
+      "data-term": "governess",
+      "data-encoded-term": "governess",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3211",
+        "wiki",
+        "1"
+      ]
+    },
+    "domestic worker": {
+      "data-frequency": "16670",
+      "data-relevance": "24",
+      "data-term": "domestic worker",
+      "data-encoded-term": "domestic%20worker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16670",
+        "wiki",
+        "1"
+      ]
+    },
+    "wetnurse": {
+      "data-frequency": "60",
+      "data-relevance": "23",
+      "data-term": "wetnurse",
+      "data-encoded-term": "wetnurse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "wiki",
+        "1"
+      ]
+    },
+    "employment agencies": {
+      "data-frequency": "15696",
+      "data-relevance": "22",
+      "data-term": "employment agencies",
+      "data-encoded-term": "employment%20agencies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15696",
+        "wiki",
+        "1"
+      ]
+    },
+    "bedrest": {
+      "data-frequency": "73",
+      "data-relevance": "21",
+      "data-term": "bedrest",
+      "data-encoded-term": "bedrest",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "73",
+        "wiki",
+        "1"
+      ]
+    },
+    "host family": {
+      "data-frequency": "97042",
+      "data-relevance": "20",
+      "data-term": "host family",
+      "data-encoded-term": "host%20family",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "97042",
+        "wiki",
+        "1"
+      ]
+    },
+    "european colonial empires": {
+      "data-frequency": "12076",
+      "data-relevance": "19",
+      "data-term": "european colonial empires",
+      "data-encoded-term": "european%20colonial%20empires",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "12076",
+        "wiki",
+        "1"
+      ]
+    },
+    "lying-in": {
+      "data-frequency": "6055",
+      "data-relevance": "18",
+      "data-term": "lying-in",
+      "data-encoded-term": "lying-in",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6055",
+        "wiki",
+        "1"
+      ]
+    },
+    "settler colonialism": {
+      "data-frequency": "144",
+      "data-relevance": "17",
+      "data-term": "settler colonialism",
+      "data-encoded-term": "settler%20colonialism",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "144",
+        "wiki",
+        "1"
+      ]
+    },
+    "doula": {
+      "data-frequency": "424",
+      "data-relevance": "16",
+      "data-term": "doula",
+      "data-encoded-term": "doula",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "424",
+        "wiki",
+        "1"
+      ]
+    },
+    "secondary suite": {
+      "data-frequency": "4288",
+      "data-relevance": "15",
+      "data-term": "secondary suite",
+      "data-encoded-term": "secondary%20suite",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4288",
+        "wiki",
+        "1"
+      ]
+    },
+    "employee benefit": {
+      "data-frequency": "17620",
+      "data-relevance": "14",
+      "data-term": "employee benefit",
+      "data-encoded-term": "employee%20benefit",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "17620",
+        "wiki",
+        "1"
+      ]
+    },
+    "kraamzorg": {
+      "data-frequency": "4",
+      "data-relevance": "13",
+      "data-term": "kraamzorg",
+      "data-encoded-term": "kraamzorg",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4",
+        "wiki",
+        "1"
+      ]
+    },
+    "sanhujori": {
+      "data-frequency": "4",
+      "data-relevance": "12",
+      "data-term": "sanhujori",
+      "data-encoded-term": "sanhujori",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4",
+        "wiki",
+        "1"
+      ]
+    },
+    "churching of women": {
+      "data-frequency": "50",
+      "data-relevance": "11",
+      "data-term": "churching of women",
+      "data-encoded-term": "churching%20of%20women",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "50",
+        "wiki",
+        "1"
+      ]
+    },
+    "monthly nurse": {
+      "data-frequency": "2212",
+      "data-relevance": "10",
+      "data-term": "monthly nurse",
+      "data-encoded-term": "monthly%20nurse",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2212",
+        "wiki",
+        "1"
+      ]
+    },
+    "perinatal assistant": {
+      "data-frequency": "104",
+      "data-relevance": "9",
+      "data-term": "perinatal assistant",
+      "data-encoded-term": "perinatal%20assistant",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "104",
+        "wiki",
+        "1"
+      ]
+    },
+    "supernanny": {
+      "data-frequency": "159",
+      "data-relevance": "8",
+      "data-term": "supernanny",
+      "data-encoded-term": "supernanny",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "159",
+        "wiki",
+        "1"
+      ]
+    },
+    "child development": {
+      "data-frequency": "3335",
+      "data-relevance": "7",
+      "data-term": "child development",
+      "data-encoded-term": "child%20development",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3335",
+        "wiki",
+        "1"
+      ]
+    },
+    "postpartum confinement": {
+      "data-frequency": "128",
+      "data-relevance": "6",
+      "data-term": "postpartum confinement",
+      "data-encoded-term": "postpartum%20confinement",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "128",
+        "wiki",
+        "1"
+      ]
+    },
+    "bath, somerset": {
+      "data-frequency": "1690",
+      "data-relevance": "5",
+      "data-term": "bath, somerset",
+      "data-encoded-term": "bath%2C%20somerset",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1690",
+        "wiki",
+        "1"
+      ]
+    },
+    "norland college": {
+      "data-frequency": "235",
+      "data-relevance": "4",
+      "data-term": "norland college",
+      "data-encoded-term": "norland%20college",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "235",
+        "wiki",
+        "1"
+      ]
+    },
+    "abismo de pasión": {
+      "data-frequency": "346",
+      "data-relevance": "3",
+      "data-term": "abismo de pasión",
+      "data-encoded-term": "abismo%20de%20pasi%C3%B3n",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "346",
+        "wiki",
+        "1"
+      ]
+    },
+    "nursery school": {
+      "data-frequency": "1741",
+      "data-relevance": "2",
+      "data-term": "nursery school",
+      "data-encoded-term": "nursery%20school",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1741",
+        "wiki",
+        "1"
+      ]
+    },
+    "take home nanny": {
+      "data-frequency": "2105",
+      "data-relevance": "1",
+      "data-term": "take home nanny",
+      "data-encoded-term": "take%20home%20nanny",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "2105",
+        "wiki",
+        "1"
+      ]
+    },
+    "nanny 911": {
+      "data-frequency": "156",
+      "data-relevance": "0",
+      "data-term": "nanny 911",
+      "data-encoded-term": "nanny%20911",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "156",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "childminders"
+    ],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "childminders"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "assistant",
+      "child",
+      "registered",
+      "apprenticeships",
+      "advisor",
+      "nanny",
+      "nursery",
+      "accountants",
+      "artisans",
+      "accountant",
+      "babysitter"
+    ]
+  }
+}
