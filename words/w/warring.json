@@ -1,0 +1,7437 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "belligerent": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/belligerent/a/,/c/en/warring/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/belligerent/a",
+          "@type": "Node",
+          "label": "belligerent",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/belligerent"
+        },
+        "end": {
+          "@id": "/c/en/warring",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "term": "/c/en/warring"
+        }
+      },
+      "war": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/warring/a/,/c/en/war/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/warring/a",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/warring"
+        },
+        "end": {
+          "@id": "/c/en/war",
+          "@type": "Node",
+          "label": "war",
+          "language": "en",
+          "term": "/c/en/war"
+        }
+      },
+      "engaged": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/warring/a/,/c/en/engaged/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/warring/a",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/warring"
+        },
+        "end": {
+          "@id": "/c/en/engaged",
+          "@type": "Node",
+          "label": "engaged",
+          "language": "en",
+          "term": "/c/en/engaged"
+        }
+      },
+      "army": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/army/,/c/en/warring/]",
+        "weight": 0.21300000000000008,
+        "start": {
+          "@id": "/c/en/army",
+          "@type": "Node",
+          "label": "army",
+          "language": "en",
+          "term": "/c/en/army"
+        },
+        "end": {
+          "@id": "/c/en/warring",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "term": "/c/en/warring"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "war-ridden": {
+        "@id": "/a/[/r/Synonym/,/c/en/warring/a/wn/,/c/en/war_ridden/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/warring/a/wn",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/warring"
+        },
+        "end": {
+          "@id": "/c/en/war_ridden/a/wn",
+          "@type": "Node",
+          "label": "war-ridden",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/war_ridden"
+        }
+      }
+    },
+    "antonyms": {
+      "peaceful": {
+        "@id": "/a/[/r/Antonym/,/c/en/warring/a/,/c/en/peaceful/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/warring/a",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/warring"
+        },
+        "end": {
+          "@id": "/c/en/peaceful",
+          "@type": "Node",
+          "label": "peaceful",
+          "language": "en",
+          "term": "/c/en/peaceful"
+        }
+      }
+    },
+    "similar_terms": {},
+    "word_forms": {
+      "war": {
+        "@id": "/a/[/r/FormOf/,/c/en/warring/v/,/c/en/war/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/warring/v",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/warring"
+        },
+        "end": {
+          "@id": "/c/en/war",
+          "@type": "Node",
+          "label": "war",
+          "language": "en",
+          "term": "/c/en/war"
+        }
+      },
+      "warrings": {
+        "@id": "/a/[/r/FormOf/,/c/en/warrings/n/,/c/en/warring/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/warrings/n",
+          "@type": "Node",
+          "label": "warrings",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/warrings"
+        },
+        "end": {
+          "@id": "/c/en/warring",
+          "@type": "Node",
+          "label": "warring",
+          "language": "en",
+          "term": "/c/en/warring"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "clan": {
+      "data-frequency": "42237",
+      "data-relevance": "511",
+      "data-term": "clan",
+      "data-encoded-term": "clan",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "42237",
+        "vec2",
+        "1"
+      ]
+    },
+    "warfare": {
+      "data-frequency": "53016",
+      "data-relevance": "510",
+      "data-term": "warfare",
+      "data-encoded-term": "warfare",
+      "data-term-stats": [
+        "1",
+        "24.5",
+        "0.000",
+        "53016",
+        "cn5,ol,w2v,wn,wn|vec2",
+        "1"
+      ]
+    },
+    "conflict": {
+      "data-frequency": "135830",
+      "data-relevance": "509",
+      "data-term": "conflict",
+      "data-encoded-term": "conflict",
+      "data-term-stats": [
+        "1",
+        "23.4",
+        "0.000",
+        "135830",
+        "cn5,ol,w2v,wn,wn|vec2",
+        "1"
+      ]
+    },
+    "battle": {
+      "data-frequency": "299698",
+      "data-relevance": "508",
+      "data-term": "battle",
+      "data-encoded-term": "battle",
+      "data-term-stats": [
+        "1",
+        "19.6",
+        "0.000",
+        "299698",
+        "cn5,ol,w2v,wn,wn|vec2",
+        "1"
+      ]
+    },
+    "fight": {
+      "data-frequency": "176401",
+      "data-relevance": "507",
+      "data-term": "fight",
+      "data-encoded-term": "fight",
+      "data-term-stats": [
+        "1",
+        "15.0",
+        "0.000",
+        "176401",
+        "cn5,ol,w2v,wn,wn",
+        "1"
+      ]
+    },
+    "struggle": {
+      "data-frequency": "90407",
+      "data-relevance": "506",
+      "data-term": "struggle",
+      "data-encoded-term": "struggle",
+      "data-term-stats": [
+        "1",
+        "14.6",
+        "0.000",
+        "90407",
+        "cn5,ol,w2v,wn,wn",
+        "1"
+      ]
+    },
+    "combat": {
+      "data-frequency": "102453",
+      "data-relevance": "505",
+      "data-term": "combat",
+      "data-encoded-term": "combat",
+      "data-term-stats": [
+        "1",
+        "9.6",
+        "0.000",
+        "102453",
+        "cn5,ol,w2v,wn",
+        "1"
+      ]
+    },
+    "genocide": {
+      "data-frequency": "24945",
+      "data-relevance": "504",
+      "data-term": "genocide",
+      "data-encoded-term": "genocide",
+      "data-term-stats": [
+        "1",
+        "7.0",
+        "0.000",
+        "24945",
+        "ol,wiki,swiki",
+        "1"
+      ]
+    },
+    "vietnam war": {
+      "data-frequency": "23877",
+      "data-relevance": "503",
+      "data-term": "vietnam war",
+      "data-encoded-term": "vietnam%20war",
+      "data-term-stats": [
+        "1",
+        "6.7",
+        "0.000",
+        "23877",
+        "cn5,wiki,wn",
+        "1"
+      ]
+    },
+    "military": {
+      "data-frequency": "430090",
+      "data-relevance": "502",
+      "data-term": "military",
+      "data-encoded-term": "military",
+      "data-term-stats": [
+        "1",
+        "5.7",
+        "0.000",
+        "430090",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "state of war": {
+      "data-frequency": "311733",
+      "data-relevance": "501",
+      "data-term": "state of war",
+      "data-encoded-term": "state%20of%20war",
+      "data-term-stats": [
+        "1",
+        "6.4",
+        "0.000",
+        "311733",
+        "ol,wn,wn",
+        "1"
+      ]
+    },
+    "crimean war": {
+      "data-frequency": "4882",
+      "data-relevance": "500",
+      "data-term": "crimean war",
+      "data-encoded-term": "crimean%20war",
+      "data-term-stats": [
+        "1",
+        "5.2",
+        "0.000",
+        "4882",
+        "cn5,ol,wn",
+        "1"
+      ]
+    },
+    "campaign": {
+      "data-frequency": "244790",
+      "data-relevance": "499",
+      "data-term": "campaign",
+      "data-encoded-term": "campaign",
+      "data-term-stats": [
+        "1",
+        "5.3",
+        "0.000",
+        "244790",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "army": {
+      "data-frequency": "363766",
+      "data-relevance": "498",
+      "data-term": "army",
+      "data-encoded-term": "army",
+      "data-term-stats": [
+        "1",
+        "4.9",
+        "0.000",
+        "363766",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "wartime": {
+      "data-frequency": "29660",
+      "data-relevance": "497",
+      "data-term": "wartime",
+      "data-encoded-term": "wartime",
+      "data-term-stats": [
+        "1",
+        "5.1",
+        "0.000",
+        "29660",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "world war i": {
+      "data-frequency": "120154",
+      "data-relevance": "496",
+      "data-term": "world war i",
+      "data-encoded-term": "world%20war%20i",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "120154",
+        "wiki",
+        "1"
+      ]
+    },
+    "civil war": {
+      "data-frequency": "117701",
+      "data-relevance": "495",
+      "data-term": "civil war",
+      "data-encoded-term": "civil%20war",
+      "data-term-stats": [
+        "1",
+        "4.7",
+        "0.000",
+        "117701",
+        "cn5,swiki,wn",
+        "1"
+      ]
+    },
+    "famine": {
+      "data-frequency": "15809",
+      "data-relevance": "494",
+      "data-term": "famine",
+      "data-encoded-term": "famine",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "15809",
+        "wiki",
+        "1"
+      ]
+    },
+    "world war ii": {
+      "data-frequency": "250921",
+      "data-relevance": "493",
+      "data-term": "world war ii",
+      "data-encoded-term": "world%20war%20ii",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "250921",
+        "wiki",
+        "1"
+      ]
+    },
+    "punic war": {
+      "data-frequency": "1325",
+      "data-relevance": "492",
+      "data-term": "punic war",
+      "data-encoded-term": "punic%20war",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1325",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "hostility": {
+      "data-frequency": "11199",
+      "data-relevance": "491",
+      "data-term": "hostility",
+      "data-encoded-term": "hostility",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "11199",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "enmity": {
+      "data-frequency": "3406",
+      "data-relevance": "490",
+      "data-term": "enmity",
+      "data-encoded-term": "enmity",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "3406",
+        "cn5,wn|vec2",
+        "1"
+      ]
+    },
+    "competitive": {
+      "data-frequency": "-1",
+      "data-relevance": "489",
+      "data-term": "competitive",
+      "data-encoded-term": "competitive",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "world war": {
+      "data-frequency": "357238",
+      "data-relevance": "488",
+      "data-term": "world war",
+      "data-encoded-term": "world%20war",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "357238",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "aggression": {
+      "data-frequency": "13630",
+      "data-relevance": "487",
+      "data-term": "aggression",
+      "data-encoded-term": "aggression",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "13630",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "proxy war": {
+      "data-frequency": "672",
+      "data-relevance": "486",
+      "data-term": "proxy war",
+      "data-encoded-term": "proxy%20war",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "672",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "trench warfare": {
+      "data-frequency": "1622",
+      "data-relevance": "485",
+      "data-term": "trench warfare",
+      "data-encoded-term": "trench%20warfare",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1622",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "psychological warfare": {
+      "data-frequency": "1329",
+      "data-relevance": "484",
+      "data-term": "psychological warfare",
+      "data-encoded-term": "psychological%20warfare",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1329",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "hot war": {
+      "data-frequency": "225",
+      "data-relevance": "483",
+      "data-term": "hot war",
+      "data-encoded-term": "hot%20war",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "225",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "chemical warfare": {
+      "data-frequency": "1620",
+      "data-relevance": "482",
+      "data-term": "chemical warfare",
+      "data-encoded-term": "chemical%20warfare",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1620",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "farming": {
+      "data-frequency": "-1",
+      "data-relevance": "481",
+      "data-term": "farming",
+      "data-encoded-term": "farming",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "biological warfare": {
+      "data-frequency": "1211",
+      "data-relevance": "480",
+      "data-term": "biological warfare",
+      "data-encoded-term": "biological%20warfare",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "1211",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "country": {
+      "data-frequency": "1583721",
+      "data-relevance": "479",
+      "data-term": "country",
+      "data-encoded-term": "country",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "1583721",
+        "w2v,swiki",
+        "1"
+      ]
+    },
+    "jihad": {
+      "data-frequency": "8267",
+      "data-relevance": "478",
+      "data-term": "jihad",
+      "data-encoded-term": "jihad",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "8267",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "belligerent": {
+      "data-frequency": "2491",
+      "data-relevance": "477",
+      "data-term": "belligerent",
+      "data-encoded-term": "belligerent",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "2491",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "gulf war": {
+      "data-frequency": "8512",
+      "data-relevance": "476",
+      "data-term": "gulf war",
+      "data-encoded-term": "gulf%20war",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "8512",
+        "wn,wn",
+        "1"
+      ]
+    },
+    "warrior": {
+      "data-frequency": "44120",
+      "data-relevance": "475",
+      "data-term": "warrior",
+      "data-encoded-term": "warrior",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "44120",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "arab-israeli war": {
+      "data-frequency": "3388",
+      "data-relevance": "474",
+      "data-term": "arab-israeli war",
+      "data-encoded-term": "arab-israeli%20war",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "3388",
+        "wn,wn",
+        "1"
+      ]
+    },
+    "invasion": {
+      "data-frequency": "94606",
+      "data-relevance": "473",
+      "data-term": "invasion",
+      "data-encoded-term": "invasion",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "94606",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "fighting": {
+      "data-frequency": "165450",
+      "data-relevance": "472",
+      "data-term": "fighting",
+      "data-encoded-term": "fighting",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "165450",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "autumn": {
+      "data-frequency": "-1",
+      "data-relevance": "471",
+      "data-term": "autumn",
+      "data-encoded-term": "autumn",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "military action": {
+      "data-frequency": "3825",
+      "data-relevance": "470",
+      "data-term": "military action",
+      "data-encoded-term": "military%20action",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "3825",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "belligerency": {
+      "data-frequency": "150",
+      "data-relevance": "469",
+      "data-term": "belligerency",
+      "data-encoded-term": "belligerency",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "150",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "competing": {
+      "data-frequency": "-1",
+      "data-relevance": "468",
+      "data-term": "competing",
+      "data-encoded-term": "competing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "war machine": {
+      "data-frequency": "1597",
+      "data-relevance": "467",
+      "data-term": "war machine",
+      "data-encoded-term": "war%20machine",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "1597",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "information warfare": {
+      "data-frequency": "735",
+      "data-relevance": "466",
+      "data-term": "information warfare",
+      "data-encoded-term": "information%20warfare",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "735",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "action": {
+      "data-frequency": "344024",
+      "data-relevance": "465",
+      "data-term": "action",
+      "data-encoded-term": "action",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "344024",
+        "w2v,wn",
+        "1"
+      ]
+    },
+    "sengoku": {
+      "data-frequency": "-1",
+      "data-relevance": "464",
+      "data-term": "sengoku",
+      "data-encoded-term": "sengoku",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "blitzkrieg": {
+      "data-frequency": "2862",
+      "data-relevance": "463",
+      "data-term": "blitzkrieg",
+      "data-encoded-term": "blitzkrieg",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "2862",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "vietnam": {
+      "data-frequency": "100827",
+      "data-relevance": "462",
+      "data-term": "vietnam",
+      "data-encoded-term": "vietnam",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "100827",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "battles": {
+      "data-frequency": "102501",
+      "data-relevance": "461",
+      "data-term": "battles",
+      "data-encoded-term": "battles",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "102501",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "total war": {
+      "data-frequency": "2786",
+      "data-relevance": "460",
+      "data-term": "total war",
+      "data-encoded-term": "total%20war",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "2786",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "iraq": {
+      "data-frequency": "74684",
+      "data-relevance": "459",
+      "data-term": "iraq",
+      "data-encoded-term": "iraq",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "74684",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "warlord": {
+      "data-frequency": "6401",
+      "data-relevance": "458",
+      "data-term": "warlord",
+      "data-encoded-term": "warlord",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "6401",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "warlike": {
+      "data-frequency": "2090",
+      "data-relevance": "457",
+      "data-term": "warlike",
+      "data-encoded-term": "warlike",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "2090",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "states": {
+      "data-frequency": "1506452",
+      "data-relevance": "456",
+      "data-term": "states",
+      "data-encoded-term": "states",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1506452",
+        "w2v",
+        "1"
+      ]
+    },
+    "battlefield": {
+      "data-frequency": "26046",
+      "data-relevance": "455",
+      "data-term": "battlefield",
+      "data-encoded-term": "battlefield",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "26046",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "fighter": {
+      "data-frequency": "63587",
+      "data-relevance": "454",
+      "data-term": "fighter",
+      "data-encoded-term": "fighter",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "63587",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "fought": {
+      "data-frequency": "101595",
+      "data-relevance": "453",
+      "data-term": "fought",
+      "data-encoded-term": "fought",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "101595",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "battleground": {
+      "data-frequency": "4944",
+      "data-relevance": "452",
+      "data-term": "battleground",
+      "data-encoded-term": "battleground",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "4944",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "kingdoms": {
+      "data-frequency": "24934",
+      "data-relevance": "451",
+      "data-term": "kingdoms",
+      "data-encoded-term": "kingdoms",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "24934",
+        "vec2",
+        "1"
+      ]
+    },
+    "occupation": {
+      "data-frequency": "455796",
+      "data-relevance": "450",
+      "data-term": "occupation",
+      "data-encoded-term": "occupation",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "455796",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "warplane": {
+      "data-frequency": "520",
+      "data-relevance": "449",
+      "data-term": "warplane",
+      "data-encoded-term": "warplane",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "520",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "conquering": {
+      "data-frequency": "-1",
+      "data-relevance": "448",
+      "data-term": "conquering",
+      "data-encoded-term": "conquering",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hunting": {
+      "data-frequency": "-1",
+      "data-relevance": "447",
+      "data-term": "hunting",
+      "data-encoded-term": "hunting",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "arguing": {
+      "data-frequency": "-1",
+      "data-relevance": "446",
+      "data-term": "arguing",
+      "data-encoded-term": "arguing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "questing": {
+      "data-frequency": "-1",
+      "data-relevance": "445",
+      "data-term": "questing",
+      "data-encoded-term": "questing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "raiding": {
+      "data-frequency": "-1",
+      "data-relevance": "444",
+      "data-term": "raiding",
+      "data-encoded-term": "raiding",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "jidai": {
+      "data-frequency": "-1",
+      "data-relevance": "443",
+      "data-term": "jidai",
+      "data-encoded-term": "jidai",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "aggressive": {
+      "data-frequency": "-1",
+      "data-relevance": "442",
+      "data-term": "aggressive",
+      "data-encoded-term": "aggressive",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "go to war": {
+      "data-frequency": "2041",
+      "data-relevance": "441",
+      "data-term": "go to war",
+      "data-encoded-term": "go%20to%20war",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "2041",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "feuding": {
+      "data-frequency": "2962",
+      "data-relevance": "440",
+      "data-term": "feuding",
+      "data-encoded-term": "feuding",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "2962",
+        "vec2",
+        "1"
+      ]
+    },
+    "persian gulf war": {
+      "data-frequency": "1396",
+      "data-relevance": "439",
+      "data-term": "persian gulf war",
+      "data-encoded-term": "persian%20gulf%20war",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "1396",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "divided": {
+      "data-frequency": "152452",
+      "data-relevance": "438",
+      "data-term": "divided",
+      "data-encoded-term": "divided",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "152452",
+        "vec2",
+        "1"
+      ]
+    },
+    "troops": {
+      "data-frequency": "108855",
+      "data-relevance": "437",
+      "data-term": "troops",
+      "data-encoded-term": "troops",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "108855",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "enemy": {
+      "data-frequency": "91863",
+      "data-relevance": "436",
+      "data-term": "enemy",
+      "data-encoded-term": "enemy",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "91863",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "boer war": {
+      "data-frequency": "6247",
+      "data-relevance": "435",
+      "data-term": "boer war",
+      "data-encoded-term": "boer%20war",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "6247",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "bickering": {
+      "data-frequency": "1930",
+      "data-relevance": "434",
+      "data-term": "bickering",
+      "data-encoded-term": "bickering",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "1930",
+        "vec2",
+        "1"
+      ]
+    },
+    "napoleonic wars": {
+      "data-frequency": "10887",
+      "data-relevance": "433",
+      "data-term": "napoleonic wars",
+      "data-encoded-term": "napoleonic%20wars",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "10887",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "seven years' war": {
+      "data-frequency": "4919",
+      "data-relevance": "432",
+      "data-term": "seven years' war",
+      "data-encoded-term": "seven%20years'%20war",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "4919",
+        "wiki,wn",
+        "1"
+      ]
+    },
+    "balkan wars": {
+      "data-frequency": "3258",
+      "data-relevance": "431",
+      "data-term": "balkan wars",
+      "data-encoded-term": "balkan%20wars",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "3258",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "strife": {
+      "data-frequency": "8326",
+      "data-relevance": "430",
+      "data-term": "strife",
+      "data-encoded-term": "strife",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "8326",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "thirty years' war": {
+      "data-frequency": "5577",
+      "data-relevance": "429",
+      "data-term": "thirty years' war",
+      "data-encoded-term": "thirty%20years'%20war",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "5577",
+        "wiki,wn",
+        "1"
+      ]
+    },
+    "attack": {
+      "data-frequency": "250545",
+      "data-relevance": "428",
+      "data-term": "attack",
+      "data-encoded-term": "attack",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "250545",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "clans": {
+      "data-frequency": "11897",
+      "data-relevance": "427",
+      "data-term": "clans",
+      "data-encoded-term": "clans",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "11897",
+        "vec2",
+        "1"
+      ]
+    },
+    "peace": {
+      "data-frequency": "183057",
+      "data-relevance": "426",
+      "data-term": "peace",
+      "data-encoded-term": "peace",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "183057",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "squabbling": {
+      "data-frequency": "618",
+      "data-relevance": "425",
+      "data-term": "squabbling",
+      "data-encoded-term": "squabbling",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "618",
+        "vec2",
+        "1"
+      ]
+    },
+    "warring factions": {
+      "data-frequency": "22370",
+      "data-relevance": "424",
+      "data-term": "warring factions",
+      "data-encoded-term": "warring%20factions",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "22370",
+        "vec2",
+        "1"
+      ]
+    },
+    "warring parties": {
+      "data-frequency": "160309",
+      "data-relevance": "423",
+      "data-term": "warring parties",
+      "data-encoded-term": "warring%20parties",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "160309",
+        "vec2",
+        "1"
+      ]
+    },
+    "quarreling": {
+      "data-frequency": "10011",
+      "data-relevance": "422",
+      "data-term": "quarreling",
+      "data-encoded-term": "quarreling",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "10011",
+        "vec2",
+        "1"
+      ]
+    },
+    "quarrels": {
+      "data-frequency": "2717",
+      "data-relevance": "421",
+      "data-term": "quarrels",
+      "data-encoded-term": "quarrels",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2717",
+        "vec2",
+        "1"
+      ]
+    },
+    "warring sides": {
+      "data-frequency": "163412",
+      "data-relevance": "420",
+      "data-term": "warring sides",
+      "data-encoded-term": "warring%20sides",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "163412",
+        "vec2",
+        "1"
+      ]
+    },
+    "warpath": {
+      "data-frequency": "1173",
+      "data-relevance": "419",
+      "data-term": "warpath",
+      "data-encoded-term": "warpath",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1173",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "franco-prussian war": {
+      "data-frequency": "3600",
+      "data-relevance": "418",
+      "data-term": "franco-prussian war",
+      "data-encoded-term": "franco-prussian%20war",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "3600",
+        "wiki,wn",
+        "1"
+      ]
+    },
+    "violence": {
+      "data-frequency": "100292",
+      "data-relevance": "417",
+      "data-term": "violence",
+      "data-encoded-term": "violence",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "100292",
+        "cn5",
+        "1"
+      ]
+    },
+    "allied": {
+      "data-frequency": "67770",
+      "data-relevance": "416",
+      "data-term": "allied",
+      "data-encoded-term": "allied",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "67770",
+        "w2v",
+        "1"
+      ]
+    },
+    "the": {
+      "data-frequency": "6625329",
+      "data-relevance": "415",
+      "data-term": "the",
+      "data-encoded-term": "the",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6625329",
+        "w2v",
+        "1"
+      ]
+    },
+    "warmongering": {
+      "data-frequency": "190",
+      "data-relevance": "414",
+      "data-term": "warmongering",
+      "data-encoded-term": "warmongering",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "190",
+        "ol",
+        "1"
+      ]
+    },
+    "combative": {
+      "data-frequency": "2132",
+      "data-relevance": "413",
+      "data-term": "combative",
+      "data-encoded-term": "combative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2132",
+        "cn5",
+        "1"
+      ]
+    },
+    "internecine": {
+      "data-frequency": "794",
+      "data-relevance": "412",
+      "data-term": "internecine",
+      "data-encoded-term": "internecine",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "794",
+        "vec2",
+        "1"
+      ]
+    },
+    "factions": {
+      "data-frequency": "17205",
+      "data-relevance": "411",
+      "data-term": "factions",
+      "data-encoded-term": "factions",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "17205",
+        "vec2",
+        "1"
+      ]
+    },
+    "fractious": {
+      "data-frequency": "762",
+      "data-relevance": "410",
+      "data-term": "fractious",
+      "data-encoded-term": "fractious",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "762",
+        "vec2",
+        "1"
+      ]
+    },
+    "civilian": {
+      "data-frequency": "63499",
+      "data-relevance": "409",
+      "data-term": "civilian",
+      "data-encoded-term": "civilian",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "63499",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "squabble": {
+      "data-frequency": "754",
+      "data-relevance": "408",
+      "data-term": "squabble",
+      "data-encoded-term": "squabble",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "754",
+        "vec2",
+        "1"
+      ]
+    },
+    "factional": {
+      "data-frequency": "2379",
+      "data-relevance": "407",
+      "data-term": "factional",
+      "data-encoded-term": "factional",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2379",
+        "vec2",
+        "1"
+      ]
+    },
+    "bitterly divided": {
+      "data-frequency": "5596",
+      "data-relevance": "406",
+      "data-term": "bitterly divided",
+      "data-encoded-term": "bitterly%20divided",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "5596",
+        "vec2",
+        "1"
+      ]
+    },
+    "feuds": {
+      "data-frequency": "4203",
+      "data-relevance": "405",
+      "data-term": "feuds",
+      "data-encoded-term": "feuds",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "4203",
+        "vec2",
+        "1"
+      ]
+    },
+    "imperialism": {
+      "data-frequency": "9416",
+      "data-relevance": "404",
+      "data-term": "imperialism",
+      "data-encoded-term": "imperialism",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "9416",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "dueling": {
+      "data-frequency": "2053",
+      "data-relevance": "403",
+      "data-term": "dueling",
+      "data-encoded-term": "dueling",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "2053",
+        "vec2",
+        "1"
+      ]
+    },
+    "squabbles": {
+      "data-frequency": "866",
+      "data-relevance": "402",
+      "data-term": "squabbles",
+      "data-encoded-term": "squabbles",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "866",
+        "vec2",
+        "1"
+      ]
+    },
+    "estranged": {
+      "data-frequency": "8817",
+      "data-relevance": "401",
+      "data-term": "estranged",
+      "data-encoded-term": "estranged",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "8817",
+        "vec2",
+        "1"
+      ]
+    },
+    "split": {
+      "data-frequency": "157686",
+      "data-relevance": "400",
+      "data-term": "split",
+      "data-encoded-term": "split",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "157686",
+        "vec2",
+        "1"
+      ]
+    },
+    "bitter feud": {
+      "data-frequency": "1858",
+      "data-relevance": "399",
+      "data-term": "bitter feud",
+      "data-encoded-term": "bitter%20feud",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1858",
+        "vec2",
+        "1"
+      ]
+    },
+    "infighting": {
+      "data-frequency": "3130",
+      "data-relevance": "398",
+      "data-term": "infighting",
+      "data-encoded-term": "infighting",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "3130",
+        "vec2",
+        "1"
+      ]
+    },
+    "declaration of war": {
+      "data-frequency": "3809",
+      "data-relevance": "397",
+      "data-term": "declaration of war",
+      "data-encoded-term": "declaration%20of%20war",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "3809",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "torn apart": {
+      "data-frequency": "1709",
+      "data-relevance": "396",
+      "data-term": "torn apart",
+      "data-encoded-term": "torn%20apart",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1709",
+        "vec2",
+        "1"
+      ]
+    },
+    "unite": {
+      "data-frequency": "23367",
+      "data-relevance": "395",
+      "data-term": "unite",
+      "data-encoded-term": "unite",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "23367",
+        "vec2",
+        "1"
+      ]
+    },
+    "clashing": {
+      "data-frequency": "51450",
+      "data-relevance": "394",
+      "data-term": "clashing",
+      "data-encoded-term": "clashing",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "51450",
+        "vec2",
+        "1"
+      ]
+    },
+    "turf wars": {
+      "data-frequency": "5293",
+      "data-relevance": "393",
+      "data-term": "turf wars",
+      "data-encoded-term": "turf%20wars",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "5293",
+        "vec2",
+        "1"
+      ]
+    },
+    "bitter rivalry": {
+      "data-frequency": "440",
+      "data-relevance": "392",
+      "data-term": "bitter rivalry",
+      "data-encoded-term": "bitter%20rivalry",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "440",
+        "vec2",
+        "1"
+      ]
+    },
+    "bicker": {
+      "data-frequency": "1032",
+      "data-relevance": "391",
+      "data-term": "bicker",
+      "data-encoded-term": "bicker",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1032",
+        "vec2",
+        "1"
+      ]
+    },
+    "divide": {
+      "data-frequency": "31083",
+      "data-relevance": "390",
+      "data-term": "divide",
+      "data-encoded-term": "divide",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "31083",
+        "vec2",
+        "1"
+      ]
+    },
+    "dividing": {
+      "data-frequency": "16178",
+      "data-relevance": "389",
+      "data-term": "dividing",
+      "data-encoded-term": "dividing",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "16178",
+        "vec2",
+        "1"
+      ]
+    },
+    "discord": {
+      "data-frequency": "3644",
+      "data-relevance": "388",
+      "data-term": "discord",
+      "data-encoded-term": "discord",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "3644",
+        "vec2",
+        "1"
+      ]
+    },
+    "pitting": {
+      "data-frequency": "2688",
+      "data-relevance": "387",
+      "data-term": "pitting",
+      "data-encoded-term": "pitting",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2688",
+        "vec2",
+        "1"
+      ]
+    },
+    "loggerheads": {
+      "data-frequency": "639",
+      "data-relevance": "386",
+      "data-term": "loggerheads",
+      "data-encoded-term": "loggerheads",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "639",
+        "vec2",
+        "1"
+      ]
+    },
+    "sniping": {
+      "data-frequency": "1026",
+      "data-relevance": "385",
+      "data-term": "sniping",
+      "data-encoded-term": "sniping",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1026",
+        "vec2",
+        "1"
+      ]
+    },
+    "cold war": {
+      "data-frequency": "32474",
+      "data-relevance": "384",
+      "data-term": "cold war",
+      "data-encoded-term": "cold%20war",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "32474",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "riven": {
+      "data-frequency": "629",
+      "data-relevance": "383",
+      "data-term": "riven",
+      "data-encoded-term": "riven",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "629",
+        "vec2",
+        "1"
+      ]
+    },
+    "ambani brothers": {
+      "data-frequency": "204",
+      "data-relevance": "382",
+      "data-term": "ambani brothers",
+      "data-encoded-term": "ambani%20brothers",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "204",
+        "vec2",
+        "1"
+      ]
+    },
+    "tug": {
+      "data-frequency": "10118",
+      "data-relevance": "381",
+      "data-term": "tug",
+      "data-encoded-term": "tug",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "10118",
+        "vec2",
+        "1"
+      ]
+    },
+    "acrimony": {
+      "data-frequency": "838",
+      "data-relevance": "380",
+      "data-term": "acrimony",
+      "data-encoded-term": "acrimony",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "838",
+        "vec2",
+        "1"
+      ]
+    },
+    "disarmament": {
+      "data-frequency": "5986",
+      "data-relevance": "379",
+      "data-term": "disarmament",
+      "data-encoded-term": "disarmament",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "5986",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "acrimonious": {
+      "data-frequency": "1718",
+      "data-relevance": "378",
+      "data-term": "acrimonious",
+      "data-encoded-term": "acrimonious",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1718",
+        "vec2",
+        "1"
+      ]
+    },
+    "uniting": {
+      "data-frequency": "8686",
+      "data-relevance": "377",
+      "data-term": "uniting",
+      "data-encoded-term": "uniting",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "8686",
+        "vec2",
+        "1"
+      ]
+    },
+    "bitter rivals": {
+      "data-frequency": "5674",
+      "data-relevance": "376",
+      "data-term": "bitter rivals",
+      "data-encoded-term": "bitter%20rivals",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "5674",
+        "vec2",
+        "1"
+      ]
+    },
+    "bitter": {
+      "data-frequency": "32285",
+      "data-relevance": "375",
+      "data-term": "bitter",
+      "data-encoded-term": "bitter",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "32285",
+        "vec2",
+        "1"
+      ]
+    },
+    "mediate": {
+      "data-frequency": "5688",
+      "data-relevance": "374",
+      "data-term": "mediate",
+      "data-encoded-term": "mediate",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "5688",
+        "vec2",
+        "1"
+      ]
+    },
+    "irreconcilable": {
+      "data-frequency": "1539",
+      "data-relevance": "373",
+      "data-term": "irreconcilable",
+      "data-encoded-term": "irreconcilable",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1539",
+        "vec2",
+        "1"
+      ]
+    },
+    "pitted": {
+      "data-frequency": "5777",
+      "data-relevance": "372",
+      "data-term": "pitted",
+      "data-encoded-term": "pitted",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "5777",
+        "vec2",
+        "1"
+      ]
+    },
+    "upmanship": {
+      "data-frequency": "273",
+      "data-relevance": "371",
+      "data-term": "upmanship",
+      "data-encoded-term": "upmanship",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "273",
+        "vec2",
+        "1"
+      ]
+    },
+    "steven pinker": {
+      "data-frequency": "516",
+      "data-relevance": "370",
+      "data-term": "steven pinker",
+      "data-encoded-term": "steven%20pinker",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "516",
+        "wiki",
+        "1"
+      ]
+    },
+    "peacemakers": {
+      "data-frequency": "2784",
+      "data-relevance": "369",
+      "data-term": "peacemakers",
+      "data-encoded-term": "peacemakers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2784",
+        "vec2",
+        "1"
+      ]
+    },
+    "youth bulge": {
+      "data-frequency": "548",
+      "data-relevance": "368",
+      "data-term": "youth bulge",
+      "data-encoded-term": "youth%20bulge",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "548",
+        "wiki",
+        "1"
+      ]
+    },
+    "antagonistic": {
+      "data-frequency": "3915",
+      "data-relevance": "367",
+      "data-term": "antagonistic",
+      "data-encoded-term": "antagonistic",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "3915",
+        "vec2",
+        "1"
+      ]
+    },
+    "animosities": {
+      "data-frequency": "324",
+      "data-relevance": "366",
+      "data-term": "animosities",
+      "data-encoded-term": "animosities",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "324",
+        "vec2",
+        "1"
+      ]
+    },
+    "battle royale": {
+      "data-frequency": "1169",
+      "data-relevance": "365",
+      "data-term": "battle royale",
+      "data-encoded-term": "battle%20royale",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1169",
+        "vec2",
+        "1"
+      ]
+    },
+    "locking horns": {
+      "data-frequency": "3099",
+      "data-relevance": "364",
+      "data-term": "locking horns",
+      "data-encoded-term": "locking%20horns",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3099",
+        "vec2",
+        "1"
+      ]
+    },
+    "squabbled": {
+      "data-frequency": "2144",
+      "data-relevance": "363",
+      "data-term": "squabbled",
+      "data-encoded-term": "squabbled",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2144",
+        "vec2",
+        "1"
+      ]
+    },
+    "divides": {
+      "data-frequency": "11856",
+      "data-relevance": "362",
+      "data-term": "divides",
+      "data-encoded-term": "divides",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "11856",
+        "vec2",
+        "1"
+      ]
+    },
+    "werewolves": {
+      "data-frequency": "1839",
+      "data-relevance": "361",
+      "data-term": "werewolves",
+      "data-encoded-term": "werewolves",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1839",
+        "vec2",
+        "1"
+      ]
+    },
+    "recalcitrant": {
+      "data-frequency": "818",
+      "data-relevance": "360",
+      "data-term": "recalcitrant",
+      "data-encoded-term": "recalcitrant",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "818",
+        "vec2",
+        "1"
+      ]
+    },
+    "reconcile": {
+      "data-frequency": "10511",
+      "data-relevance": "359",
+      "data-term": "reconcile",
+      "data-encoded-term": "reconcile",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "10511",
+        "vec2",
+        "1"
+      ]
+    },
+    "wrangling": {
+      "data-frequency": "1109",
+      "data-relevance": "358",
+      "data-term": "wrangling",
+      "data-encoded-term": "wrangling",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1109",
+        "vec2",
+        "1"
+      ]
+    },
+    "renegade": {
+      "data-frequency": "6887",
+      "data-relevance": "357",
+      "data-term": "renegade",
+      "data-encoded-term": "renegade",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "6887",
+        "vec2",
+        "1"
+      ]
+    },
+    "splitting": {
+      "data-frequency": "16935",
+      "data-relevance": "356",
+      "data-term": "splitting",
+      "data-encoded-term": "splitting",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "16935",
+        "vec2",
+        "1"
+      ]
+    },
+    "tension": {
+      "data-frequency": "31569",
+      "data-relevance": "355",
+      "data-term": "tension",
+      "data-encoded-term": "tension",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "31569",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloodshed": {
+      "data-frequency": "4434",
+      "data-relevance": "354",
+      "data-term": "bloodshed",
+      "data-encoded-term": "bloodshed",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "4434",
+        "vec2",
+        "1"
+      ]
+    },
+    "reunite": {
+      "data-frequency": "11270",
+      "data-relevance": "353",
+      "data-term": "reunite",
+      "data-encoded-term": "reunite",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "11270",
+        "vec2",
+        "1"
+      ]
+    },
+    "antagonists": {
+      "data-frequency": "12377",
+      "data-relevance": "352",
+      "data-term": "antagonists",
+      "data-encoded-term": "antagonists",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "12377",
+        "vec2",
+        "1"
+      ]
+    },
+    "separated": {
+      "data-frequency": "83117",
+      "data-relevance": "351",
+      "data-term": "separated",
+      "data-encoded-term": "separated",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "83117",
+        "vec2",
+        "1"
+      ]
+    },
+    "natural resource": {
+      "data-frequency": "3844",
+      "data-relevance": "350",
+      "data-term": "natural resource",
+      "data-encoded-term": "natural%20resource",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "3844",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "crossfire": {
+      "data-frequency": "3583",
+      "data-relevance": "349",
+      "data-term": "crossfire",
+      "data-encoded-term": "crossfire",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "3583",
+        "vec2",
+        "1"
+      ]
+    },
+    "vengeful": {
+      "data-frequency": "3093",
+      "data-relevance": "348",
+      "data-term": "vengeful",
+      "data-encoded-term": "vengeful",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "3093",
+        "vec2",
+        "1"
+      ]
+    },
+    "fiefdoms": {
+      "data-frequency": "482",
+      "data-relevance": "347",
+      "data-term": "fiefdoms",
+      "data-encoded-term": "fiefdoms",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "482",
+        "vec2",
+        "1"
+      ]
+    },
+    "mediating": {
+      "data-frequency": "2849",
+      "data-relevance": "346",
+      "data-term": "mediating",
+      "data-encoded-term": "mediating",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2849",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloodletting": {
+      "data-frequency": "830",
+      "data-relevance": "345",
+      "data-term": "bloodletting",
+      "data-encoded-term": "bloodletting",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "830",
+        "vec2",
+        "1"
+      ]
+    },
+    "shuttling": {
+      "data-frequency": "786",
+      "data-relevance": "344",
+      "data-term": "shuttling",
+      "data-encoded-term": "shuttling",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "786",
+        "vec2",
+        "1"
+      ]
+    },
+    "blood thirsty": {
+      "data-frequency": "279",
+      "data-relevance": "343",
+      "data-term": "blood thirsty",
+      "data-encoded-term": "blood%20thirsty",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "279",
+        "vec2",
+        "1"
+      ]
+    },
+    "united": {
+      "data-frequency": "1819227",
+      "data-relevance": "342",
+      "data-term": "united",
+      "data-encoded-term": "united",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1819227",
+        "vec2",
+        "1"
+      ]
+    },
+    "rift": {
+      "data-frequency": "12665",
+      "data-relevance": "341",
+      "data-term": "rift",
+      "data-encoded-term": "rift",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "12665",
+        "vec2",
+        "1"
+      ]
+    },
+    "polar opposites": {
+      "data-frequency": "263",
+      "data-relevance": "340",
+      "data-term": "polar opposites",
+      "data-encoded-term": "polar%20opposites",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "263",
+        "vec2",
+        "1"
+      ]
+    },
+    "quarrel": {
+      "data-frequency": "5950",
+      "data-relevance": "339",
+      "data-term": "quarrel",
+      "data-encoded-term": "quarrel",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "5950",
+        "vec2",
+        "1"
+      ]
+    },
+    "catfight": {
+      "data-frequency": "367",
+      "data-relevance": "338",
+      "data-term": "catfight",
+      "data-encoded-term": "catfight",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "367",
+        "vec2",
+        "1"
+      ]
+    },
+    "sibling rivalry": {
+      "data-frequency": "776",
+      "data-relevance": "337",
+      "data-term": "sibling rivalry",
+      "data-encoded-term": "sibling%20rivalry",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "776",
+        "vec2",
+        "1"
+      ]
+    },
+    "international law": {
+      "data-frequency": "14503",
+      "data-relevance": "336",
+      "data-term": "international law",
+      "data-encoded-term": "international%20law",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "14503",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "estrangement": {
+      "data-frequency": "1454",
+      "data-relevance": "335",
+      "data-term": "estrangement",
+      "data-encoded-term": "estrangement",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1454",
+        "vec2",
+        "1"
+      ]
+    },
+    "wrangle": {
+      "data-frequency": "679",
+      "data-relevance": "334",
+      "data-term": "wrangle",
+      "data-encoded-term": "wrangle",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "679",
+        "vec2",
+        "1"
+      ]
+    },
+    "polarized": {
+      "data-frequency": "5401",
+      "data-relevance": "333",
+      "data-term": "polarized",
+      "data-encoded-term": "polarized",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "5401",
+        "vec2",
+        "1"
+      ]
+    },
+    "chieftains": {
+      "data-frequency": "3963",
+      "data-relevance": "332",
+      "data-term": "chieftains",
+      "data-encoded-term": "chieftains",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "3963",
+        "vec2",
+        "1"
+      ]
+    },
+    "brawling": {
+      "data-frequency": "880",
+      "data-relevance": "331",
+      "data-term": "brawling",
+      "data-encoded-term": "brawling",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "880",
+        "vec2",
+        "1"
+      ]
+    },
+    "rebellious": {
+      "data-frequency": "8949",
+      "data-relevance": "330",
+      "data-term": "rebellious",
+      "data-encoded-term": "rebellious",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "8949",
+        "vec2",
+        "1"
+      ]
+    },
+    "duking": {
+      "data-frequency": "125507",
+      "data-relevance": "329",
+      "data-term": "duking",
+      "data-encoded-term": "duking",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "125507",
+        "vec2",
+        "1"
+      ]
+    },
+    "factionalism": {
+      "data-frequency": "1287",
+      "data-relevance": "328",
+      "data-term": "factionalism",
+      "data-encoded-term": "factionalism",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1287",
+        "vec2",
+        "1"
+      ]
+    },
+    "cliques": {
+      "data-frequency": "727",
+      "data-relevance": "327",
+      "data-term": "cliques",
+      "data-encoded-term": "cliques",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "727",
+        "vec2",
+        "1"
+      ]
+    },
+    "strife torn": {
+      "data-frequency": "478",
+      "data-relevance": "326",
+      "data-term": "strife torn",
+      "data-encoded-term": "strife%20torn",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "478",
+        "vec2",
+        "1"
+      ]
+    },
+    "napoleon i of france": {
+      "data-frequency": "10503",
+      "data-relevance": "325",
+      "data-term": "napoleon i of france",
+      "data-encoded-term": "napoleon%20i%20of%20france",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "10503",
+        "wiki",
+        "1"
+      ]
+    },
+    "feud": {
+      "data-frequency": "19284",
+      "data-relevance": "324",
+      "data-term": "feud",
+      "data-encoded-term": "feud",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "19284",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "casualties": {
+      "data-frequency": "50232",
+      "data-relevance": "323",
+      "data-term": "casualties",
+      "data-encoded-term": "casualties",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "50232",
+        "wiki",
+        "1"
+      ]
+    },
+    "weapon": {
+      "data-frequency": "47956",
+      "data-relevance": "322",
+      "data-term": "weapon",
+      "data-encoded-term": "weapon",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "47956",
+        "swiki",
+        "1"
+      ]
+    },
+    "human": {
+      "data-frequency": "479381",
+      "data-relevance": "321",
+      "data-term": "human",
+      "data-encoded-term": "human",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "479381",
+        "wiki",
+        "1"
+      ]
+    },
+    "paraguay": {
+      "data-frequency": "38931",
+      "data-relevance": "320",
+      "data-term": "paraguay",
+      "data-encoded-term": "paraguay",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "38931",
+        "wiki",
+        "1"
+      ]
+    },
+    "propaganda": {
+      "data-frequency": "38477",
+      "data-relevance": "319",
+      "data-term": "propaganda",
+      "data-encoded-term": "propaganda",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "38477",
+        "wiki",
+        "1"
+      ]
+    },
+    "civilians": {
+      "data-frequency": "30599",
+      "data-relevance": "318",
+      "data-term": "civilians",
+      "data-encoded-term": "civilians",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "30599",
+        "wiki",
+        "1"
+      ]
+    },
+    "franks": {
+      "data-frequency": "11861",
+      "data-relevance": "317",
+      "data-term": "franks",
+      "data-encoded-term": "franks",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "11861",
+        "wiki",
+        "1"
+      ]
+    },
+    "great depression": {
+      "data-frequency": "22126",
+      "data-relevance": "316",
+      "data-term": "great depression",
+      "data-encoded-term": "great%20depression",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "22126",
+        "wiki",
+        "1"
+      ]
+    },
+    "drive": {
+      "data-frequency": "154104",
+      "data-relevance": "315",
+      "data-term": "drive",
+      "data-encoded-term": "drive",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "154104",
+        "wn",
+        "1"
+      ]
+    },
+    "antagonism": {
+      "data-frequency": "2775",
+      "data-relevance": "314",
+      "data-term": "antagonism",
+      "data-encoded-term": "antagonism",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2775",
+        "wn",
+        "1"
+      ]
+    },
+    "cause": {
+      "data-frequency": "182325",
+      "data-relevance": "313",
+      "data-term": "cause",
+      "data-encoded-term": "cause",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "182325",
+        "wn",
+        "1"
+      ]
+    },
+    "crusade": {
+      "data-frequency": "15830",
+      "data-relevance": "312",
+      "data-term": "crusade",
+      "data-encoded-term": "crusade",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "15830",
+        "wn",
+        "1"
+      ]
+    },
+    "raider": {
+      "data-frequency": "7055",
+      "data-relevance": "311",
+      "data-term": "raider",
+      "data-encoded-term": "raider",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7055",
+        "wn",
+        "1"
+      ]
+    },
+    "plunderer": {
+      "data-frequency": "161",
+      "data-relevance": "310",
+      "data-term": "plunderer",
+      "data-encoded-term": "plunderer",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "161",
+        "wn",
+        "1"
+      ]
+    },
+    "movement": {
+      "data-frequency": "261984",
+      "data-relevance": "309",
+      "data-term": "movement",
+      "data-encoded-term": "movement",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "261984",
+        "wn",
+        "1"
+      ]
+    },
+    "engagement": {
+      "data-frequency": "46877",
+      "data-relevance": "308",
+      "data-term": "engagement",
+      "data-encoded-term": "engagement",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "46877",
+        "wn",
+        "1"
+      ]
+    },
+    "effort": {
+      "data-frequency": "147807",
+      "data-relevance": "307",
+      "data-term": "effort",
+      "data-encoded-term": "effort",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "147807",
+        "wn",
+        "1"
+      ]
+    },
+    "bw": {
+      "data-frequency": "8485",
+      "data-relevance": "306",
+      "data-term": "bw",
+      "data-encoded-term": "bw",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "8485",
+        "wn",
+        "1"
+      ]
+    },
+    "spoiler": {
+      "data-frequency": "3980",
+      "data-relevance": "305",
+      "data-term": "spoiler",
+      "data-encoded-term": "spoiler",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3980",
+        "wn",
+        "1"
+      ]
+    },
+    "freebooter": {
+      "data-frequency": "157",
+      "data-relevance": "304",
+      "data-term": "freebooter",
+      "data-encoded-term": "freebooter",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "157",
+        "wn",
+        "1"
+      ]
+    },
+    "contend": {
+      "data-frequency": "6285",
+      "data-relevance": "303",
+      "data-term": "contend",
+      "data-encoded-term": "contend",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "6285",
+        "wn",
+        "1"
+      ]
+    },
+    "side": {
+      "data-frequency": "565051",
+      "data-relevance": "302",
+      "data-term": "side",
+      "data-encoded-term": "side",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "565051",
+        "wn",
+        "1"
+      ]
+    },
+    "hostilities": {
+      "data-frequency": "13409",
+      "data-relevance": "301",
+      "data-term": "hostilities",
+      "data-encoded-term": "hostilities",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "13409",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "latin": {
+      "data-frequency": "197809",
+      "data-relevance": "300",
+      "data-term": "latin",
+      "data-encoded-term": "latin",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "197809",
+        "wiki",
+        "1"
+      ]
+    },
+    "tussle": {
+      "data-frequency": "1493",
+      "data-relevance": "299",
+      "data-term": "tussle",
+      "data-encoded-term": "tussle",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1493",
+        "cn5|vec2",
+        "1"
+      ]
+    },
+    "non-combatant": {
+      "data-frequency": "739",
+      "data-relevance": "298",
+      "data-term": "non-combatant",
+      "data-encoded-term": "non-combatant",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "739",
+        "wiki",
+        "1"
+      ]
+    },
+    "conflicts": {
+      "data-frequency": "65776",
+      "data-relevance": "297",
+      "data-term": "conflicts",
+      "data-encoded-term": "conflicts",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "65776",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "nonwar": {
+      "data-frequency": "-1",
+      "data-relevance": "296",
+      "data-term": "nonwar",
+      "data-encoded-term": "nonwar",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "warmonger": {
+      "data-frequency": "187",
+      "data-relevance": "295",
+      "data-term": "warmonger",
+      "data-encoded-term": "warmonger",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "ecowar": {
+      "data-frequency": "-1",
+      "data-relevance": "294",
+      "data-term": "ecowar",
+      "data-encoded-term": "ecowar",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "warless": {
+      "data-frequency": "-1",
+      "data-relevance": "293",
+      "data-term": "warless",
+      "data-encoded-term": "warless",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wardom": {
+      "data-frequency": "-1",
+      "data-relevance": "292",
+      "data-term": "wardom",
+      "data-encoded-term": "wardom",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "battler": {
+      "data-frequency": "1245",
+      "data-relevance": "291",
+      "data-term": "battler",
+      "data-encoded-term": "battler",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1245",
+        "cn5",
+        "1"
+      ]
+    },
+    "grenade": {
+      "data-frequency": "11342",
+      "data-relevance": "290",
+      "data-term": "grenade",
+      "data-encoded-term": "grenade",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11342",
+        "cn5",
+        "1"
+      ]
+    },
+    "armies": {
+      "data-frequency": "33341",
+      "data-relevance": "289",
+      "data-term": "armies",
+      "data-encoded-term": "armies",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "33341",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "cyberwar": {
+      "data-frequency": "207",
+      "data-relevance": "288",
+      "data-term": "cyberwar",
+      "data-encoded-term": "cyberwar",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "207",
+        "cn5",
+        "1"
+      ]
+    },
+    "soldier": {
+      "data-frequency": "93990",
+      "data-relevance": "287",
+      "data-term": "soldier",
+      "data-encoded-term": "soldier",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "93990",
+        "cn5",
+        "1"
+      ]
+    },
+    "combatant": {
+      "data-frequency": "5653",
+      "data-relevance": "286",
+      "data-term": "combatant",
+      "data-encoded-term": "combatant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5653",
+        "cn5",
+        "1"
+      ]
+    },
+    "gunfight": {
+      "data-frequency": "3552",
+      "data-relevance": "285",
+      "data-term": "gunfight",
+      "data-encoded-term": "gunfight",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3552",
+        "cn5",
+        "1"
+      ]
+    },
+    "wars": {
+      "data-frequency": "162976",
+      "data-relevance": "284",
+      "data-term": "wars",
+      "data-encoded-term": "wars",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "162976",
+        "w2v",
+        "1"
+      ]
+    },
+    "state": {
+      "data-frequency": "1466005",
+      "data-relevance": "283",
+      "data-term": "state",
+      "data-encoded-term": "state",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1466005",
+        "wiki",
+        "1"
+      ]
+    },
+    "wwii": {
+      "data-frequency": "20149",
+      "data-relevance": "282",
+      "data-term": "wwii",
+      "data-encoded-term": "wwii",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "20149",
+        "ol",
+        "1"
+      ]
+    },
+    "militant": {
+      "data-frequency": "16034",
+      "data-relevance": "281",
+      "data-term": "militant",
+      "data-encoded-term": "militant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "16034",
+        "cn5",
+        "1"
+      ]
+    },
+    "looter": {
+      "data-frequency": "148",
+      "data-relevance": "280",
+      "data-term": "looter",
+      "data-encoded-term": "looter",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "148",
+        "wn",
+        "1"
+      ]
+    },
+    "battlefields": {
+      "data-frequency": "4894",
+      "data-relevance": "279",
+      "data-term": "battlefields",
+      "data-encoded-term": "battlefields",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4894",
+        "ol",
+        "1"
+      ]
+    },
+    "pillager": {
+      "data-frequency": "100",
+      "data-relevance": "278",
+      "data-term": "pillager",
+      "data-encoded-term": "pillager",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "100",
+        "wn",
+        "1"
+      ]
+    },
+    "despoiler": {
+      "data-frequency": "615",
+      "data-relevance": "277",
+      "data-term": "despoiler",
+      "data-encoded-term": "despoiler",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "615",
+        "wn",
+        "1"
+      ]
+    },
+    "de-escalation": {
+      "data-frequency": "7641",
+      "data-relevance": "276",
+      "data-term": "de-escalation",
+      "data-encoded-term": "de-escalation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7641",
+        "wn",
+        "1"
+      ]
+    },
+    "bioattack": {
+      "data-frequency": "-1",
+      "data-relevance": "275",
+      "data-term": "bioattack",
+      "data-encoded-term": "bioattack",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "wwi": {
+      "data-frequency": "9034",
+      "data-relevance": "274",
+      "data-term": "wwi",
+      "data-encoded-term": "wwi",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9034",
+        "ol",
+        "1"
+      ]
+    },
+    "iw": {
+      "data-frequency": "1463",
+      "data-relevance": "273",
+      "data-term": "iw",
+      "data-encoded-term": "iw",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1463",
+        "wn",
+        "1"
+      ]
+    },
+    "postwar": {
+      "data-frequency": "16364",
+      "data-relevance": "272",
+      "data-term": "postwar",
+      "data-encoded-term": "postwar",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "16364",
+        "ol",
+        "1"
+      ]
+    },
+    "gunpowder": {
+      "data-frequency": "9054",
+      "data-relevance": "271",
+      "data-term": "gunpowder",
+      "data-encoded-term": "gunpowder",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9054",
+        "wiki",
+        "1"
+      ]
+    },
+    "bombardon": {
+      "data-frequency": "55",
+      "data-relevance": "270",
+      "data-term": "bombardon",
+      "data-encoded-term": "bombardon",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "55",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiwar": {
+      "data-frequency": "1462",
+      "data-relevance": "269",
+      "data-term": "antiwar",
+      "data-encoded-term": "antiwar",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1462",
+        "ol",
+        "1"
+      ]
+    },
+    "-logy": {
+      "data-frequency": "5797639",
+      "data-relevance": "268",
+      "data-term": "-logy",
+      "data-encoded-term": "-logy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5797639",
+        "wiki",
+        "1"
+      ]
+    },
+    "gunbattle": {
+      "data-frequency": "217",
+      "data-relevance": "267",
+      "data-term": "gunbattle",
+      "data-encoded-term": "gunbattle",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "217",
+        "cn5",
+        "1"
+      ]
+    },
+    "conflagration": {
+      "data-frequency": "1620",
+      "data-relevance": "266",
+      "data-term": "conflagration",
+      "data-encoded-term": "conflagration",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1620",
+        "ol",
+        "1"
+      ]
+    },
+    "forces": {
+      "data-frequency": "255408",
+      "data-relevance": "265",
+      "data-term": "forces",
+      "data-encoded-term": "forces",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "255408",
+        "w2v",
+        "1"
+      ]
+    },
+    "civil": {
+      "data-frequency": "332194",
+      "data-relevance": "264",
+      "data-term": "civil",
+      "data-encoded-term": "civil",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "332194",
+        "w2v",
+        "1"
+      ]
+    },
+    "confrontation": {
+      "data-frequency": "22707",
+      "data-relevance": "263",
+      "data-term": "confrontation",
+      "data-encoded-term": "confrontation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "22707",
+        "ol",
+        "1"
+      ]
+    },
+    "during": {
+      "data-frequency": "1552965",
+      "data-relevance": "262",
+      "data-term": "during",
+      "data-encoded-term": "during",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1552965",
+        "w2v",
+        "1"
+      ]
+    },
+    "warclub": {
+      "data-frequency": "-1",
+      "data-relevance": "261",
+      "data-term": "warclub",
+      "data-encoded-term": "warclub",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "warlords": {
+      "data-frequency": "3997",
+      "data-relevance": "260",
+      "data-term": "warlords",
+      "data-encoded-term": "warlords",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3997",
+        "ol",
+        "1"
+      ]
+    },
+    "guerra": {
+      "data-frequency": "19091",
+      "data-relevance": "259",
+      "data-term": "guerra",
+      "data-encoded-term": "guerra",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "19091",
+        "ol",
+        "1"
+      ]
+    },
+    "soviet": {
+      "data-frequency": "159816",
+      "data-relevance": "258",
+      "data-term": "soviet",
+      "data-encoded-term": "soviet",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "159816",
+        "w2v",
+        "1"
+      ]
+    },
+    "guerrilla": {
+      "data-frequency": "15284",
+      "data-relevance": "257",
+      "data-term": "guerrilla",
+      "data-encoded-term": "guerrilla",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "15284",
+        "cn5",
+        "1"
+      ]
+    },
+    "decades": {
+      "data-frequency": "118666",
+      "data-relevance": "256",
+      "data-term": "decades",
+      "data-encoded-term": "decades",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "118666",
+        "w2v",
+        "1"
+      ]
+    },
+    "naval": {
+      "data-frequency": "125953",
+      "data-relevance": "255",
+      "data-term": "naval",
+      "data-encoded-term": "naval",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "125953",
+        "ol",
+        "1"
+      ]
+    },
+    "religion": {
+      "data-frequency": "194127",
+      "data-relevance": "254",
+      "data-term": "religion",
+      "data-encoded-term": "religion",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "194127",
+        "swiki",
+        "1"
+      ]
+    },
+    "combatants": {
+      "data-frequency": "11789",
+      "data-relevance": "253",
+      "data-term": "combatants",
+      "data-encoded-term": "combatants",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11789",
+        "ol",
+        "1"
+      ]
+    },
+    "polemic": {
+      "data-frequency": "2577",
+      "data-relevance": "252",
+      "data-term": "polemic",
+      "data-encoded-term": "polemic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2577",
+        "ol",
+        "1"
+      ]
+    },
+    "warship": {
+      "data-frequency": "12978",
+      "data-relevance": "251",
+      "data-term": "warship",
+      "data-encoded-term": "warship",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12978",
+        "ol",
+        "1"
+      ]
+    },
+    "fights": {
+      "data-frequency": "38381",
+      "data-relevance": "250",
+      "data-term": "fights",
+      "data-encoded-term": "fights",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "38381",
+        "ol",
+        "1"
+      ]
+    },
+    "warships": {
+      "data-frequency": "18194",
+      "data-relevance": "249",
+      "data-term": "warships",
+      "data-encoded-term": "warships",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18194",
+        "ol",
+        "1"
+      ]
+    },
+    "brought": {
+      "data-frequency": "265080",
+      "data-relevance": "248",
+      "data-term": "brought",
+      "data-encoded-term": "brought",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "265080",
+        "w2v",
+        "1"
+      ]
+    },
+    "guerre": {
+      "data-frequency": "11135",
+      "data-relevance": "247",
+      "data-term": "guerre",
+      "data-encoded-term": "guerre",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11135",
+        "ol",
+        "1"
+      ]
+    },
+    "dispute": {
+      "data-frequency": "63308",
+      "data-relevance": "246",
+      "data-term": "dispute",
+      "data-encoded-term": "dispute",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "63308",
+        "ol",
+        "1"
+      ]
+    },
+    "bellicose": {
+      "data-frequency": "460",
+      "data-relevance": "245",
+      "data-term": "bellicose",
+      "data-encoded-term": "bellicose",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "460",
+        "ol",
+        "1"
+      ]
+    },
+    "martial": {
+      "data-frequency": "51192",
+      "data-relevance": "244",
+      "data-term": "martial",
+      "data-encoded-term": "martial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "51192",
+        "ol",
+        "1"
+      ]
+    },
+    "offensive": {
+      "data-frequency": "67992",
+      "data-relevance": "243",
+      "data-term": "offensive",
+      "data-encoded-term": "offensive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "67992",
+        "ol",
+        "1"
+      ]
+    },
+    "force": {
+      "data-frequency": "378163",
+      "data-relevance": "242",
+      "data-term": "force",
+      "data-encoded-term": "force",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "378163",
+        "w2v",
+        "1"
+      ]
+    },
+    "continued": {
+      "data-frequency": "385406",
+      "data-relevance": "241",
+      "data-term": "continued",
+      "data-encoded-term": "continued",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "385406",
+        "w2v",
+        "1"
+      ]
+    },
+    "afghanistan": {
+      "data-frequency": "63863",
+      "data-relevance": "240",
+      "data-term": "afghanistan",
+      "data-encoded-term": "afghanistan",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "63863",
+        "w2v",
+        "1"
+      ]
+    },
+    "decade": {
+      "data-frequency": "123228",
+      "data-relevance": "239",
+      "data-term": "decade",
+      "data-encoded-term": "decade",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "123228",
+        "w2v",
+        "1"
+      ]
+    },
+    "since": {
+      "data-frequency": "1079387",
+      "data-relevance": "238",
+      "data-term": "since",
+      "data-encoded-term": "since",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1079387",
+        "w2v",
+        "1"
+      ]
+    },
+    "clash": {
+      "data-frequency": "36461",
+      "data-relevance": "237",
+      "data-term": "clash",
+      "data-encoded-term": "clash",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "36461",
+        "ol",
+        "1"
+      ]
+    },
+    "part": {
+      "data-frequency": "1345273",
+      "data-relevance": "236",
+      "data-term": "part",
+      "data-encoded-term": "part",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1345273",
+        "w2v",
+        "1"
+      ]
+    },
+    "beginning": {
+      "data-frequency": "316494",
+      "data-relevance": "235",
+      "data-term": "beginning",
+      "data-encoded-term": "beginning",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "316494",
+        "w2v",
+        "1"
+      ]
+    },
+    "trophæal": {
+      "data-frequency": "-1",
+      "data-relevance": "234",
+      "data-term": "trophæal",
+      "data-encoded-term": "troph%C3%A6al",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "brutal": {
+      "data-frequency": "19368",
+      "data-relevance": "233",
+      "data-term": "brutal",
+      "data-encoded-term": "brutal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19368",
+        "w2v",
+        "1"
+      ]
+    },
+    "regime": {
+      "data-frequency": "57938",
+      "data-relevance": "232",
+      "data-term": "regime",
+      "data-encoded-term": "regime",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "57938",
+        "w2v",
+        "1"
+      ]
+    },
+    "tropæum": {
+      "data-frequency": "-1",
+      "data-relevance": "231",
+      "data-term": "tropæum",
+      "data-encoded-term": "trop%C3%A6um",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "foe": {
+      "data-frequency": "9009",
+      "data-relevance": "230",
+      "data-term": "foe",
+      "data-encoded-term": "foe",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9009",
+        "cn5",
+        "1"
+      ]
+    },
+    "pows": {
+      "data-frequency": "4659",
+      "data-relevance": "229",
+      "data-term": "pows",
+      "data-encoded-term": "pows",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4659",
+        "ol",
+        "1"
+      ]
+    },
+    "bloody": {
+      "data-frequency": "30908",
+      "data-relevance": "228",
+      "data-term": "bloody",
+      "data-encoded-term": "bloody",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "30908",
+        "w2v",
+        "1"
+      ]
+    },
+    "continuing": {
+      "data-frequency": "95504",
+      "data-relevance": "227",
+      "data-term": "continuing",
+      "data-encoded-term": "continuing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "95504",
+        "w2v",
+        "1"
+      ]
+    },
+    "armed": {
+      "data-frequency": "115369",
+      "data-relevance": "226",
+      "data-term": "armed",
+      "data-encoded-term": "armed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "115369",
+        "w2v",
+        "1"
+      ]
+    },
+    "end": {
+      "data-frequency": "855602",
+      "data-relevance": "225",
+      "data-term": "end",
+      "data-encoded-term": "end",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "855602",
+        "w2v",
+        "1"
+      ]
+    },
+    "front": {
+      "data-frequency": "323861",
+      "data-relevance": "224",
+      "data-term": "front",
+      "data-encoded-term": "front",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "323861",
+        "ol",
+        "1"
+      ]
+    },
+    "persian": {
+      "data-frequency": "120801",
+      "data-relevance": "223",
+      "data-term": "persian",
+      "data-encoded-term": "persian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "120801",
+        "ol",
+        "1"
+      ]
+    },
+    "threat": {
+      "data-frequency": "76592",
+      "data-relevance": "222",
+      "data-term": "threat",
+      "data-encoded-term": "threat",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "76592",
+        "w2v",
+        "1"
+      ]
+    },
+    "culture": {
+      "data-frequency": "450870",
+      "data-relevance": "221",
+      "data-term": "culture",
+      "data-encoded-term": "culture",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "450870",
+        "swiki",
+        "1"
+      ]
+    },
+    "bringing": {
+      "data-frequency": "89881",
+      "data-relevance": "220",
+      "data-term": "bringing",
+      "data-encoded-term": "bringing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "89881",
+        "w2v",
+        "1"
+      ]
+    },
+    "dehumanization": {
+      "data-frequency": "803",
+      "data-relevance": "219",
+      "data-term": "dehumanization",
+      "data-encoded-term": "dehumanization",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "803",
+        "wiki",
+        "1"
+      ]
+    },
+    "under": {
+      "data-frequency": "1158156",
+      "data-relevance": "218",
+      "data-term": "under",
+      "data-encoded-term": "under",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1158156",
+        "w2v",
+        "1"
+      ]
+    },
+    "wake": {
+      "data-frequency": "63137",
+      "data-relevance": "217",
+      "data-term": "wake",
+      "data-encoded-term": "wake",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "63137",
+        "w2v",
+        "1"
+      ]
+    },
+    "soldiers": {
+      "data-frequency": "126871",
+      "data-relevance": "216",
+      "data-term": "soldiers",
+      "data-encoded-term": "soldiers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "126871",
+        "w2v",
+        "1"
+      ]
+    },
+    "aftermath": {
+      "data-frequency": "73079",
+      "data-relevance": "215",
+      "data-term": "aftermath",
+      "data-encoded-term": "aftermath",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "73079",
+        "w2v",
+        "1"
+      ]
+    },
+    "years": {
+      "data-frequency": "1661571",
+      "data-relevance": "214",
+      "data-term": "years",
+      "data-encoded-term": "years",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1661571",
+        "w2v",
+        "1"
+      ]
+    },
+    "allies": {
+      "data-frequency": "58719",
+      "data-relevance": "213",
+      "data-term": "allies",
+      "data-encoded-term": "allies",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "58719",
+        "w2v",
+        "1"
+      ]
+    },
+    "battailant": {
+      "data-frequency": "-1",
+      "data-relevance": "212",
+      "data-term": "battailant",
+      "data-encoded-term": "battailant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "soviets": {
+      "data-frequency": "11497",
+      "data-relevance": "211",
+      "data-term": "soviets",
+      "data-encoded-term": "soviets",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11497",
+        "w2v",
+        "1"
+      ]
+    },
+    "uprising": {
+      "data-frequency": "33382",
+      "data-relevance": "210",
+      "data-term": "uprising",
+      "data-encoded-term": "uprising",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "33382",
+        "w2v",
+        "1"
+      ]
+    },
+    "ago": {
+      "data-frequency": "164353",
+      "data-relevance": "209",
+      "data-term": "ago",
+      "data-encoded-term": "ago",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "164353",
+        "w2v",
+        "1"
+      ]
+    },
+    "ii": {
+      "data-frequency": "741894",
+      "data-relevance": "208",
+      "data-term": "ii",
+      "data-encoded-term": "ii",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "741894",
+        "w2v",
+        "1"
+      ]
+    },
+    "attacks": {
+      "data-frequency": "121745",
+      "data-relevance": "207",
+      "data-term": "attacks",
+      "data-encoded-term": "attacks",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "121745",
+        "w2v",
+        "1"
+      ]
+    },
+    "came": {
+      "data-frequency": "477874",
+      "data-relevance": "206",
+      "data-term": "came",
+      "data-encoded-term": "came",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "477874",
+        "w2v",
+        "1"
+      ]
+    },
+    "dogfight": {
+      "data-frequency": "1838",
+      "data-relevance": "205",
+      "data-term": "dogfight",
+      "data-encoded-term": "dogfight",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1838",
+        "cn5",
+        "1"
+      ]
+    },
+    "homeland": {
+      "data-frequency": "35404",
+      "data-relevance": "204",
+      "data-term": "homeland",
+      "data-encoded-term": "homeland",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "35404",
+        "w2v",
+        "1"
+      ]
+    },
+    "punishment": {
+      "data-frequency": "38921",
+      "data-relevance": "203",
+      "data-term": "punishment",
+      "data-encoded-term": "punishment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "38921",
+        "ol",
+        "1"
+      ]
+    },
+    "possibly": {
+      "data-frequency": "127210",
+      "data-relevance": "202",
+      "data-term": "possibly",
+      "data-encoded-term": "possibly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "127210",
+        "w2v",
+        "1"
+      ]
+    },
+    "battleful": {
+      "data-frequency": "-1",
+      "data-relevance": "201",
+      "data-term": "battleful",
+      "data-encoded-term": "battleful",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "arms": {
+      "data-frequency": "212598",
+      "data-relevance": "200",
+      "data-term": "arms",
+      "data-encoded-term": "arms",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "212598",
+        "w2v",
+        "1"
+      ]
+    },
+    "independence": {
+      "data-frequency": "134435",
+      "data-relevance": "199",
+      "data-term": "independence",
+      "data-encoded-term": "independence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "134435",
+        "w2v",
+        "1"
+      ]
+    },
+    "began": {
+      "data-frequency": "692649",
+      "data-relevance": "198",
+      "data-term": "began",
+      "data-encoded-term": "began",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "692649",
+        "w2v",
+        "1"
+      ]
+    },
+    "resistance": {
+      "data-frequency": "91351",
+      "data-relevance": "197",
+      "data-term": "resistance",
+      "data-encoded-term": "resistance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "91351",
+        "w2v",
+        "1"
+      ]
+    },
+    "siege": {
+      "data-frequency": "56192",
+      "data-relevance": "196",
+      "data-term": "siege",
+      "data-encoded-term": "siege",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "56192",
+        "w2v",
+        "1"
+      ]
+    },
+    "iraqi": {
+      "data-frequency": "23350",
+      "data-relevance": "195",
+      "data-term": "iraqi",
+      "data-encoded-term": "iraqi",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23350",
+        "w2v",
+        "1"
+      ]
+    },
+    "cyberbattle": {
+      "data-frequency": "-1",
+      "data-relevance": "194",
+      "data-term": "cyberbattle",
+      "data-encoded-term": "cyberbattle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nazi": {
+      "data-frequency": "56966",
+      "data-relevance": "193",
+      "data-term": "nazi",
+      "data-encoded-term": "nazi",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "56966",
+        "w2v",
+        "1"
+      ]
+    },
+    "destruction": {
+      "data-frequency": "81444",
+      "data-relevance": "192",
+      "data-term": "destruction",
+      "data-encoded-term": "destruction",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "81444",
+        "w2v",
+        "1"
+      ]
+    },
+    "paratrooper": {
+      "data-frequency": "2007",
+      "data-relevance": "191",
+      "data-term": "paratrooper",
+      "data-encoded-term": "paratrooper",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2007",
+        "cn5",
+        "1"
+      ]
+    },
+    "rule": {
+      "data-frequency": "176958",
+      "data-relevance": "190",
+      "data-term": "rule",
+      "data-encoded-term": "rule",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "176958",
+        "w2v",
+        "1"
+      ]
+    },
+    "following": {
+      "data-frequency": "1050023",
+      "data-relevance": "189",
+      "data-term": "following",
+      "data-encoded-term": "following",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1050023",
+        "w2v",
+        "1"
+      ]
+    },
+    "soto": {
+      "data-frequency": "16035",
+      "data-relevance": "188",
+      "data-term": "soto",
+      "data-encoded-term": "soto",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16035",
+        "ol",
+        "1"
+      ]
+    },
+    "karo": {
+      "data-frequency": "2985",
+      "data-relevance": "187",
+      "data-term": "karo",
+      "data-encoded-term": "karo",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2985",
+        "ol",
+        "1"
+      ]
+    },
+    "rebellion": {
+      "data-frequency": "58372",
+      "data-relevance": "186",
+      "data-term": "rebellion",
+      "data-encoded-term": "rebellion",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "58372",
+        "w2v",
+        "1"
+      ]
+    },
+    "despite": {
+      "data-frequency": "348132",
+      "data-relevance": "185",
+      "data-term": "despite",
+      "data-encoded-term": "despite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "348132",
+        "w2v",
+        "1"
+      ]
+    },
+    "legitimate military target": {
+      "data-frequency": "2502",
+      "data-relevance": "184",
+      "data-term": "legitimate military target",
+      "data-encoded-term": "legitimate%20military%20target",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2502",
+        "wiki",
+        "1"
+      ]
+    },
+    "krieg": {
+      "data-frequency": "4490",
+      "data-relevance": "183",
+      "data-term": "krieg",
+      "data-encoded-term": "krieg",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4490",
+        "ol",
+        "1"
+      ]
+    },
+    "nato": {
+      "data-frequency": "24038",
+      "data-relevance": "182",
+      "data-term": "nato",
+      "data-encoded-term": "nato",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24038",
+        "w2v",
+        "1"
+      ]
+    },
+    "of": {
+      "data-frequency": "5817668",
+      "data-relevance": "181",
+      "data-term": "of",
+      "data-encoded-term": "of",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5817668",
+        "w2v",
+        "1"
+      ]
+    },
+    "waged": {
+      "data-frequency": "4996",
+      "data-relevance": "180",
+      "data-term": "waged",
+      "data-encoded-term": "waged",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4996",
+        "w2v",
+        "1"
+      ]
+    },
+    "in": {
+      "data-frequency": "5836762",
+      "data-relevance": "179",
+      "data-term": "in",
+      "data-encoded-term": "in",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5836762",
+        "w2v",
+        "1"
+      ]
+    },
+    "lebanon": {
+      "data-frequency": "63730",
+      "data-relevance": "178",
+      "data-term": "lebanon",
+      "data-encoded-term": "lebanon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "63730",
+        "w2v",
+        "1"
+      ]
+    },
+    "territory": {
+      "data-frequency": "185619",
+      "data-relevance": "177",
+      "data-term": "territory",
+      "data-encoded-term": "territory",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "185619",
+        "w2v",
+        "1"
+      ]
+    },
+    "communist": {
+      "data-frequency": "80895",
+      "data-relevance": "176",
+      "data-term": "communist",
+      "data-encoded-term": "communist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "80895",
+        "w2v",
+        "1"
+      ]
+    },
+    "invaded": {
+      "data-frequency": "25722",
+      "data-relevance": "175",
+      "data-term": "invaded",
+      "data-encoded-term": "invaded",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "25722",
+        "w2v",
+        "1"
+      ]
+    },
+    "operation": {
+      "data-frequency": "248999",
+      "data-relevance": "174",
+      "data-term": "operation",
+      "data-encoded-term": "operation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "248999",
+        "w2v",
+        "1"
+      ]
+    },
+    "captured": {
+      "data-frequency": "113541",
+      "data-relevance": "173",
+      "data-term": "captured",
+      "data-encoded-term": "captured",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "113541",
+        "w2v",
+        "1"
+      ]
+    },
+    "throats": {
+      "data-frequency": "1850",
+      "data-relevance": "172",
+      "data-term": "throats",
+      "data-encoded-term": "throats",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1850",
+        "ol",
+        "1"
+      ]
+    },
+    "forced": {
+      "data-frequency": "190479",
+      "data-relevance": "171",
+      "data-term": "forced",
+      "data-encoded-term": "forced",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "190479",
+        "w2v",
+        "1"
+      ]
+    },
+    "once": {
+      "data-frequency": "419958",
+      "data-relevance": "170",
+      "data-term": "once",
+      "data-encoded-term": "once",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "419958",
+        "w2v",
+        "1"
+      ]
+    },
+    "melee": {
+      "data-frequency": "4959",
+      "data-relevance": "169",
+      "data-term": "melee",
+      "data-encoded-term": "melee",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4959",
+        "cn5",
+        "1"
+      ]
+    },
+    "continues": {
+      "data-frequency": "153725",
+      "data-relevance": "168",
+      "data-term": "continues",
+      "data-encoded-term": "continues",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "153725",
+        "w2v",
+        "1"
+      ]
+    },
+    "enemies": {
+      "data-frequency": "43251",
+      "data-relevance": "167",
+      "data-term": "enemies",
+      "data-encoded-term": "enemies",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "43251",
+        "w2v",
+        "1"
+      ]
+    },
+    "1990s": {
+      "data-frequency": "222065",
+      "data-relevance": "166",
+      "data-term": "1990s",
+      "data-encoded-term": "1990s",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "222065",
+        "w2v",
+        "1"
+      ]
+    },
+    "midst": {
+      "data-frequency": "18976",
+      "data-relevance": "165",
+      "data-term": "midst",
+      "data-encoded-term": "midst",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18976",
+        "w2v",
+        "1"
+      ]
+    },
+    "kara": {
+      "data-frequency": "23432",
+      "data-relevance": "164",
+      "data-term": "kara",
+      "data-encoded-term": "kara",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23432",
+        "ol",
+        "1"
+      ]
+    },
+    "engaged": {
+      "data-frequency": "93638",
+      "data-relevance": "163",
+      "data-term": "engaged",
+      "data-encoded-term": "engaged",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "93638",
+        "w2v",
+        "1"
+      ]
+    },
+    "ending": {
+      "data-frequency": "133244",
+      "data-relevance": "162",
+      "data-term": "ending",
+      "data-encoded-term": "ending",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "133244",
+        "w2v",
+        "1"
+      ]
+    },
+    "batful": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "batful",
+      "data-encoded-term": "batful",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "soon": {
+      "data-frequency": "282886",
+      "data-relevance": "160",
+      "data-term": "soon",
+      "data-encoded-term": "soon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "282886",
+        "w2v",
+        "1"
+      ]
+    },
+    "civilian casualties": {
+      "data-frequency": "11821",
+      "data-relevance": "159",
+      "data-term": "civilian casualties",
+      "data-encoded-term": "civilian%20casualties",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11821",
+        "wiki",
+        "1"
+      ]
+    },
+    "armageddon": {
+      "data-frequency": "5074",
+      "data-relevance": "158",
+      "data-term": "armageddon",
+      "data-encoded-term": "armageddon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5074",
+        "cn5",
+        "1"
+      ]
+    },
+    "minibattle": {
+      "data-frequency": "-1",
+      "data-relevance": "157",
+      "data-term": "minibattle",
+      "data-encoded-term": "minibattle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "armory": {
+      "data-frequency": "8036",
+      "data-relevance": "156",
+      "data-term": "armory",
+      "data-encoded-term": "armory",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8036",
+        "cn5",
+        "1"
+      ]
+    },
+    "typhus": {
+      "data-frequency": "3152",
+      "data-relevance": "155",
+      "data-term": "typhus",
+      "data-encoded-term": "typhus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3152",
+        "wiki",
+        "1"
+      ]
+    },
+    "zhan": {
+      "data-frequency": "4621",
+      "data-relevance": "154",
+      "data-term": "zhan",
+      "data-encoded-term": "zhan",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4621",
+        "ol",
+        "1"
+      ]
+    },
+    "duel": {
+      "data-frequency": "17289",
+      "data-relevance": "153",
+      "data-term": "duel",
+      "data-encoded-term": "duel",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17289",
+        "cn5",
+        "1"
+      ]
+    },
+    "kampf": {
+      "data-frequency": "2791",
+      "data-relevance": "152",
+      "data-term": "kampf",
+      "data-encoded-term": "kampf",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2791",
+        "ol",
+        "1"
+      ]
+    },
+    "harb": {
+      "data-frequency": "1315",
+      "data-relevance": "151",
+      "data-term": "harb",
+      "data-encoded-term": "harb",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1315",
+        "ol",
+        "1"
+      ]
+    },
+    "lutte": {
+      "data-frequency": "1037",
+      "data-relevance": "150",
+      "data-term": "lutte",
+      "data-encoded-term": "lutte",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1037",
+        "ol",
+        "1"
+      ]
+    },
+    "karam": {
+      "data-frequency": "10030",
+      "data-relevance": "149",
+      "data-term": "karam",
+      "data-encoded-term": "karam",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10030",
+        "ol",
+        "1"
+      ]
+    },
+    "warfighting": {
+      "data-frequency": "580",
+      "data-relevance": "148",
+      "data-term": "warfighting",
+      "data-encoded-term": "warfighting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "580",
+        "ol",
+        "1"
+      ]
+    },
+    "sota": {
+      "data-frequency": "1909",
+      "data-relevance": "147",
+      "data-term": "sota",
+      "data-encoded-term": "sota",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1909",
+        "ol",
+        "1"
+      ]
+    },
+    "insurgency": {
+      "data-frequency": "13236",
+      "data-relevance": "146",
+      "data-term": "insurgency",
+      "data-encoded-term": "insurgency",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13236",
+        "ol",
+        "1"
+      ]
+    },
+    "karas": {
+      "data-frequency": "2238",
+      "data-relevance": "145",
+      "data-term": "karas",
+      "data-encoded-term": "karas",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2238",
+        "ol",
+        "1"
+      ]
+    },
+    "doughboys": {
+      "data-frequency": "395",
+      "data-relevance": "144",
+      "data-term": "doughboys",
+      "data-encoded-term": "doughboys",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "395",
+        "ol",
+        "1"
+      ]
+    },
+    "militarism": {
+      "data-frequency": "3191",
+      "data-relevance": "143",
+      "data-term": "militarism",
+      "data-encoded-term": "militarism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3191",
+        "ol",
+        "1"
+      ]
+    },
+    "terrorism": {
+      "data-frequency": "34107",
+      "data-relevance": "142",
+      "data-term": "terrorism",
+      "data-encoded-term": "terrorism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "34107",
+        "ol",
+        "1"
+      ]
+    },
+    "holocaust": {
+      "data-frequency": "29556",
+      "data-relevance": "141",
+      "data-term": "holocaust",
+      "data-encoded-term": "holocaust",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29556",
+        "ol",
+        "1"
+      ]
+    },
+    "counterinsurgency": {
+      "data-frequency": "1283",
+      "data-relevance": "140",
+      "data-term": "counterinsurgency",
+      "data-encoded-term": "counterinsurgency",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1283",
+        "ol",
+        "1"
+      ]
+    },
+    "liberation": {
+      "data-frequency": "57359",
+      "data-relevance": "139",
+      "data-term": "liberation",
+      "data-encoded-term": "liberation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "57359",
+        "ol",
+        "1"
+      ]
+    },
+    "intifada": {
+      "data-frequency": "2051",
+      "data-relevance": "138",
+      "data-term": "intifada",
+      "data-encoded-term": "intifada",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2051",
+        "ol",
+        "1"
+      ]
+    },
+    "battlefront": {
+      "data-frequency": "1057",
+      "data-relevance": "137",
+      "data-term": "battlefront",
+      "data-encoded-term": "battlefront",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1057",
+        "ol",
+        "1"
+      ]
+    },
+    "human nature": {
+      "data-frequency": "80794",
+      "data-relevance": "136",
+      "data-term": "human nature",
+      "data-encoded-term": "human%20nature",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "80794",
+        "wiki",
+        "1"
+      ]
+    },
+    "overbattle": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "overbattle",
+      "data-encoded-term": "overbattle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "scrappy": {
+      "data-frequency": "1587",
+      "data-relevance": "134",
+      "data-term": "scrappy",
+      "data-encoded-term": "scrappy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1587",
+        "cn5",
+        "1"
+      ]
+    },
+    "tank": {
+      "data-frequency": "65331",
+      "data-relevance": "133",
+      "data-term": "tank",
+      "data-encoded-term": "tank",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "65331",
+        "cn5",
+        "1"
+      ]
+    },
+    "mongol conquests": {
+      "data-frequency": "177",
+      "data-relevance": "132",
+      "data-term": "mongol conquests",
+      "data-encoded-term": "mongol%20conquests",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "177",
+        "wiki",
+        "1"
+      ]
+    },
+    "polemology": {
+      "data-frequency": "48",
+      "data-relevance": "131",
+      "data-term": "polemology",
+      "data-encoded-term": "polemology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "soldierly": {
+      "data-frequency": "208",
+      "data-relevance": "130",
+      "data-term": "soldierly",
+      "data-encoded-term": "soldierly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "208",
+        "cn5",
+        "1"
+      ]
+    },
+    "law of war": {
+      "data-frequency": "558",
+      "data-relevance": "129",
+      "data-term": "law of war",
+      "data-encoded-term": "law%20of%20war",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "558",
+        "cn5",
+        "1"
+      ]
+    },
+    "paraguayan war": {
+      "data-frequency": "7080",
+      "data-relevance": "128",
+      "data-term": "paraguayan war",
+      "data-encoded-term": "paraguayan%20war",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7080",
+        "wiki",
+        "1"
+      ]
+    },
+    "pre war": {
+      "data-frequency": "10890",
+      "data-relevance": "127",
+      "data-term": "pre war",
+      "data-encoded-term": "pre%20war",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10890",
+        "cn5",
+        "1"
+      ]
+    },
+    "population": {
+      "data-frequency": "644905",
+      "data-relevance": "126",
+      "data-term": "population",
+      "data-encoded-term": "population",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "644905",
+        "wiki",
+        "1"
+      ]
+    },
+    "battlesuit": {
+      "data-frequency": "83",
+      "data-relevance": "125",
+      "data-term": "battlesuit",
+      "data-encoded-term": "battlesuit",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "arab israeli war": {
+      "data-frequency": "3444",
+      "data-relevance": "124",
+      "data-term": "arab israeli war",
+      "data-encoded-term": "arab%20israeli%20war",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3444",
+        "cn5",
+        "1"
+      ]
+    },
+    "anti war": {
+      "data-frequency": "7742",
+      "data-relevance": "123",
+      "data-term": "anti war",
+      "data-encoded-term": "anti%20war",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7742",
+        "cn5",
+        "1"
+      ]
+    },
+    "gunfighting": {
+      "data-frequency": "48",
+      "data-relevance": "122",
+      "data-term": "gunfighting",
+      "data-encoded-term": "gunfighting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "1991": {
+      "data-frequency": "633751",
+      "data-relevance": "121",
+      "data-term": "1991",
+      "data-encoded-term": "1991",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "633751",
+        "w2v",
+        "1"
+      ]
+    },
+    "cavalryman": {
+      "data-frequency": "875",
+      "data-relevance": "120",
+      "data-term": "cavalryman",
+      "data-encoded-term": "cavalryman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "875",
+        "cn5",
+        "1"
+      ]
+    },
+    "martian": {
+      "data-frequency": "6981",
+      "data-relevance": "119",
+      "data-term": "martian",
+      "data-encoded-term": "martian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6981",
+        "cn5",
+        "1"
+      ]
+    },
+    "cannonball": {
+      "data-frequency": "4556",
+      "data-relevance": "118",
+      "data-term": "cannonball",
+      "data-encoded-term": "cannonball",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4556",
+        "cn5",
+        "1"
+      ]
+    },
+    "richard smalley": {
+      "data-frequency": "793",
+      "data-relevance": "117",
+      "data-term": "richard smalley",
+      "data-encoded-term": "richard%20smalley",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "793",
+        "wiki",
+        "1"
+      ]
+    },
+    "bomb": {
+      "data-frequency": "63784",
+      "data-relevance": "116",
+      "data-term": "bomb",
+      "data-encoded-term": "bomb",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "63784",
+        "cn5",
+        "1"
+      ]
+    },
+    "post war": {
+      "data-frequency": "40166",
+      "data-relevance": "115",
+      "data-term": "post war",
+      "data-encoded-term": "post%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40166",
+        "cn5",
+        "1"
+      ]
+    },
+    "government": {
+      "data-frequency": "856803",
+      "data-relevance": "114",
+      "data-term": "government",
+      "data-encoded-term": "government",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "856803",
+        "swiki",
+        "1"
+      ]
+    },
+    "skirmish": {
+      "data-frequency": "6598",
+      "data-relevance": "113",
+      "data-term": "skirmish",
+      "data-encoded-term": "skirmish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6598",
+        "cn5",
+        "1"
+      ]
+    },
+    "prisoner of war": {
+      "data-frequency": "8056",
+      "data-relevance": "112",
+      "data-term": "prisoner of war",
+      "data-encoded-term": "prisoner%20of%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8056",
+        "wiki",
+        "1"
+      ]
+    },
+    "u.s.-led": {
+      "data-frequency": "827",
+      "data-relevance": "111",
+      "data-term": "u.s.-led",
+      "data-encoded-term": "u.s.-led",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "827",
+        "w2v",
+        "1"
+      ]
+    },
+    "hundred year war": {
+      "data-frequency": "59",
+      "data-relevance": "110",
+      "data-term": "hundred year war",
+      "data-encoded-term": "hundred%20year%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "weapons manufacturers": {
+      "data-frequency": "8514",
+      "data-relevance": "109",
+      "data-term": "weapons manufacturers",
+      "data-encoded-term": "weapons%20manufacturers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8514",
+        "wiki",
+        "1"
+      ]
+    },
+    "truculent": {
+      "data-frequency": "240",
+      "data-relevance": "108",
+      "data-term": "truculent",
+      "data-encoded-term": "truculent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "240",
+        "cn5",
+        "1"
+      ]
+    },
+    "old english": {
+      "data-frequency": "11864",
+      "data-relevance": "107",
+      "data-term": "old english",
+      "data-encoded-term": "old%20english",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11864",
+        "wiki",
+        "1"
+      ]
+    },
+    "1945": {
+      "data-frequency": "278096",
+      "data-relevance": "106",
+      "data-term": "1945",
+      "data-encoded-term": "1945",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "278096",
+        "w2v",
+        "1"
+      ]
+    },
+    "old french": {
+      "data-frequency": "3811",
+      "data-relevance": "105",
+      "data-term": "old french",
+      "data-encoded-term": "old%20french",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3811",
+        "wiki",
+        "1"
+      ]
+    },
+    "keynesian": {
+      "data-frequency": "1302",
+      "data-relevance": "104",
+      "data-term": "keynesian",
+      "data-encoded-term": "keynesian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1302",
+        "wiki",
+        "1"
+      ]
+    },
+    "kill enemy": {
+      "data-frequency": "53",
+      "data-relevance": "103",
+      "data-term": "kill enemy",
+      "data-encoded-term": "kill%20enemy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "cn5",
+        "1"
+      ]
+    },
+    "war ride": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "war ride",
+      "data-encoded-term": "war%20ride",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "biffo": {
+      "data-frequency": "72",
+      "data-relevance": "101",
+      "data-term": "biffo",
+      "data-encoded-term": "biffo",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "72",
+        "cn5",
+        "1"
+      ]
+    },
+    "death and destruction": {
+      "data-frequency": "646",
+      "data-relevance": "100",
+      "data-term": "death and destruction",
+      "data-encoded-term": "death%20and%20destruction",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "646",
+        "cn5",
+        "1"
+      ]
+    },
+    "peacelessness": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "peacelessness",
+      "data-encoded-term": "peacelessness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "war whoop": {
+      "data-frequency": "61",
+      "data-relevance": "98",
+      "data-term": "war whoop",
+      "data-encoded-term": "war%20whoop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61",
+        "cn5",
+        "1"
+      ]
+    },
+    "riot": {
+      "data-frequency": "26680",
+      "data-relevance": "97",
+      "data-term": "riot",
+      "data-encoded-term": "riot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26680",
+        "swiki",
+        "1"
+      ]
+    },
+    "proto-germanic language": {
+      "data-frequency": "91",
+      "data-relevance": "96",
+      "data-term": "proto-germanic language",
+      "data-encoded-term": "proto-germanic%20language",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "91",
+        "wiki",
+        "1"
+      ]
+    },
+    "person die": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "person die",
+      "data-encoded-term": "person%20die",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "explosive": {
+      "data-frequency": "27086",
+      "data-relevance": "94",
+      "data-term": "explosive",
+      "data-encoded-term": "explosive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27086",
+        "cn5",
+        "1"
+      ]
+    },
+    "chino-japanese war": {
+      "data-frequency": "-1",
+      "data-relevance": "93",
+      "data-term": "chino-japanese war",
+      "data-encoded-term": "chino-japanese%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "old saxon": {
+      "data-frequency": "569",
+      "data-relevance": "92",
+      "data-term": "old saxon",
+      "data-encoded-term": "old%20saxon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "569",
+        "wiki",
+        "1"
+      ]
+    },
+    "biologic attack": {
+      "data-frequency": "11120",
+      "data-relevance": "91",
+      "data-term": "biologic attack",
+      "data-encoded-term": "biologic%20attack",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11120",
+        "wn",
+        "1"
+      ]
+    },
+    "biological attack": {
+      "data-frequency": "11120",
+      "data-relevance": "90",
+      "data-term": "biological attack",
+      "data-encoded-term": "biological%20attack",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11120",
+        "wn",
+        "1"
+      ]
+    },
+    "armed combat": {
+      "data-frequency": "23690",
+      "data-relevance": "89",
+      "data-term": "armed combat",
+      "data-encoded-term": "armed%20combat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23690",
+        "wn",
+        "1"
+      ]
+    },
+    "chemical operations": {
+      "data-frequency": "19629",
+      "data-relevance": "88",
+      "data-term": "chemical operations",
+      "data-encoded-term": "chemical%20operations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19629",
+        "wn",
+        "1"
+      ]
+    },
+    "limited war": {
+      "data-frequency": "84491",
+      "data-relevance": "87",
+      "data-term": "limited war",
+      "data-encoded-term": "limited%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "84491",
+        "wn",
+        "1"
+      ]
+    },
+    "war of nerves": {
+      "data-frequency": "1583",
+      "data-relevance": "86",
+      "data-term": "war of nerves",
+      "data-encoded-term": "war%20of%20nerves",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1583",
+        "wn",
+        "1"
+      ]
+    },
+    "war of the league of augsburg": {
+      "data-frequency": "817",
+      "data-relevance": "85",
+      "data-term": "war of the league of augsburg",
+      "data-encoded-term": "war%20of%20the%20league%20of%20augsburg",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "817",
+        "wn",
+        "1"
+      ]
+    },
+    "war of the spanish succession": {
+      "data-frequency": "1787",
+      "data-relevance": "84",
+      "data-term": "war of the spanish succession",
+      "data-encoded-term": "war%20of%20the%20spanish%20succession",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1787",
+        "wn",
+        "1"
+      ]
+    },
+    "war of the grand alliance": {
+      "data-frequency": "182",
+      "data-relevance": "83",
+      "data-term": "war of the grand alliance",
+      "data-encoded-term": "war%20of%20the%20grand%20alliance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "182",
+        "wn",
+        "1"
+      ]
+    },
+    "drug war": {
+      "data-frequency": "29760",
+      "data-relevance": "82",
+      "data-term": "drug war",
+      "data-encoded-term": "drug%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "29760",
+        "wn",
+        "1"
+      ]
+    },
+    "take arms": {
+      "data-frequency": "48291",
+      "data-relevance": "81",
+      "data-term": "take arms",
+      "data-encoded-term": "take%20arms",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "48291",
+        "wn",
+        "1"
+      ]
+    },
+    "war of the austrian succession": {
+      "data-frequency": "1379",
+      "data-relevance": "80",
+      "data-term": "war of the austrian succession",
+      "data-encoded-term": "war%20of%20the%20austrian%20succession",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1379",
+        "wn",
+        "1"
+      ]
+    },
+    "war of greek independence": {
+      "data-frequency": "14156",
+      "data-relevance": "79",
+      "data-term": "war of greek independence",
+      "data-encoded-term": "war%20of%20greek%20independence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14156",
+        "wn",
+        "1"
+      ]
+    },
+    "take up arms": {
+      "data-frequency": "38959",
+      "data-relevance": "78",
+      "data-term": "take up arms",
+      "data-encoded-term": "take%20up%20arms",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38959",
+        "wn",
+        "1"
+      ]
+    },
+    "spanish-american war": {
+      "data-frequency": "6100",
+      "data-relevance": "77",
+      "data-term": "spanish-american war",
+      "data-encoded-term": "spanish-american%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6100",
+        "wn",
+        "1"
+      ]
+    },
+    "trojan war": {
+      "data-frequency": "1855",
+      "data-relevance": "76",
+      "data-term": "trojan war",
+      "data-encoded-term": "trojan%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1855",
+        "wn",
+        "1"
+      ]
+    },
+    "military machine": {
+      "data-frequency": "170",
+      "data-relevance": "75",
+      "data-term": "military machine",
+      "data-encoded-term": "military%20machine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "170",
+        "wn",
+        "1"
+      ]
+    },
+    "spanish war": {
+      "data-frequency": "1721",
+      "data-relevance": "74",
+      "data-term": "spanish war",
+      "data-encoded-term": "spanish%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1721",
+        "wn",
+        "1"
+      ]
+    },
+    "peloponnesian war": {
+      "data-frequency": "1139",
+      "data-relevance": "73",
+      "data-term": "peloponnesian war",
+      "data-encoded-term": "peloponnesian%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1139",
+        "wn",
+        "1"
+      ]
+    },
+    "russo-japanese war": {
+      "data-frequency": "3223",
+      "data-relevance": "72",
+      "data-term": "russo-japanese war",
+      "data-encoded-term": "russo-japanese%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3223",
+        "wn",
+        "1"
+      ]
+    },
+    "korean war": {
+      "data-frequency": "16448",
+      "data-relevance": "71",
+      "data-term": "korean war",
+      "data-encoded-term": "korean%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16448",
+        "wn",
+        "1"
+      ]
+    },
+    "mexican war": {
+      "data-frequency": "2083",
+      "data-relevance": "70",
+      "data-term": "mexican war",
+      "data-encoded-term": "mexican%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2083",
+        "wn",
+        "1"
+      ]
+    },
+    "iran-iraq war": {
+      "data-frequency": "2921",
+      "data-relevance": "69",
+      "data-term": "iran-iraq war",
+      "data-encoded-term": "iran-iraq%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2921",
+        "wn",
+        "1"
+      ]
+    },
+    "armed services": {
+      "data-frequency": "3730",
+      "data-relevance": "68",
+      "data-term": "armed services",
+      "data-encoded-term": "armed%20services",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3730",
+        "wn",
+        "1"
+      ]
+    },
+    "war of 1812": {
+      "data-frequency": "8909",
+      "data-relevance": "67",
+      "data-term": "war of 1812",
+      "data-encoded-term": "war%20of%201812",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8909",
+        "wn",
+        "1"
+      ]
+    },
+    "armed forces": {
+      "data-frequency": "52779",
+      "data-relevance": "66",
+      "data-term": "armed forces",
+      "data-encoded-term": "armed%20forces",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52779",
+        "wn",
+        "1"
+      ]
+    },
+    "hundred years' war": {
+      "data-frequency": "2241",
+      "data-relevance": "65",
+      "data-term": "hundred years' war",
+      "data-encoded-term": "hundred%20years'%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2241",
+        "wn",
+        "1"
+      ]
+    },
+    "wars of the roses": {
+      "data-frequency": "1278",
+      "data-relevance": "64",
+      "data-term": "wars of the roses",
+      "data-encoded-term": "wars%20of%20the%20roses",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1278",
+        "wn",
+        "1"
+      ]
+    },
+    "yom kippur war": {
+      "data-frequency": "2026",
+      "data-relevance": "63",
+      "data-term": "yom kippur war",
+      "data-encoded-term": "yom%20kippur%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2026",
+        "wn",
+        "1"
+      ]
+    },
+    "french and indian war": {
+      "data-frequency": "3342",
+      "data-relevance": "62",
+      "data-term": "french and indian war",
+      "data-encoded-term": "french%20and%20indian%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3342",
+        "wn",
+        "1"
+      ]
+    },
+    "six day war": {
+      "data-frequency": "3343",
+      "data-relevance": "61",
+      "data-term": "six day war",
+      "data-encoded-term": "six%20day%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3343",
+        "wn",
+        "1"
+      ]
+    },
+    "six-day war": {
+      "data-frequency": "3343",
+      "data-relevance": "60",
+      "data-term": "six-day war",
+      "data-encoded-term": "six-day%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3343",
+        "wn",
+        "1"
+      ]
+    },
+    "sino-japanese war": {
+      "data-frequency": "6878",
+      "data-relevance": "59",
+      "data-term": "sino-japanese war",
+      "data-encoded-term": "sino-japanese%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6878",
+        "wn",
+        "1"
+      ]
+    },
+    "macedonian war": {
+      "data-frequency": "14333",
+      "data-relevance": "58",
+      "data-term": "macedonian war",
+      "data-encoded-term": "macedonian%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14333",
+        "wn",
+        "1"
+      ]
+    },
+    "old high german": {
+      "data-frequency": "1315",
+      "data-relevance": "57",
+      "data-term": "old high german",
+      "data-encoded-term": "old%20high%20german",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1315",
+        "wiki",
+        "1"
+      ]
+    },
+    "war of the roses": {
+      "data-frequency": "493",
+      "data-relevance": "56",
+      "data-term": "war of the roses",
+      "data-encoded-term": "war%20of%20the%20roses",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "493",
+        "wn",
+        "1"
+      ]
+    },
+    "1992": {
+      "data-frequency": "669093",
+      "data-relevance": "55",
+      "data-term": "1992",
+      "data-encoded-term": "1992",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "669093",
+        "w2v",
+        "1"
+      ]
+    },
+    "1989": {
+      "data-frequency": "594241",
+      "data-relevance": "54",
+      "data-term": "1989",
+      "data-encoded-term": "1989",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "594241",
+        "w2v",
+        "1"
+      ]
+    },
+    "portuguese language": {
+      "data-frequency": "47422",
+      "data-relevance": "53",
+      "data-term": "portuguese language",
+      "data-encoded-term": "portuguese%20language",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47422",
+        "wiki",
+        "1"
+      ]
+    },
+    "conventional warfare": {
+      "data-frequency": "324",
+      "data-relevance": "52",
+      "data-term": "conventional warfare",
+      "data-encoded-term": "conventional%20warfare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "324",
+        "cn5",
+        "1"
+      ]
+    },
+    "1941": {
+      "data-frequency": "201710",
+      "data-relevance": "51",
+      "data-term": "1941",
+      "data-encoded-term": "1941",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "201710",
+        "w2v",
+        "1"
+      ]
+    },
+    "kellogg-briand pact": {
+      "data-frequency": "164",
+      "data-relevance": "50",
+      "data-term": "kellogg-briand pact",
+      "data-encoded-term": "kellogg-briand%20pact",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "164",
+        "swiki",
+        "1"
+      ]
+    },
+    "u.s.": {
+      "data-frequency": "784181",
+      "data-relevance": "49",
+      "data-term": "u.s.",
+      "data-encoded-term": "u.s.",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "784181",
+        "w2v",
+        "1"
+      ]
+    },
+    "holy war": {
+      "data-frequency": "2227",
+      "data-relevance": "48",
+      "data-term": "holy war",
+      "data-encoded-term": "holy%20war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2227",
+        "cn5",
+        "1"
+      ]
+    },
+    "swordfight": {
+      "data-frequency": "90",
+      "data-relevance": "47",
+      "data-term": "swordfight",
+      "data-encoded-term": "swordfight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "90",
+        "cn5",
+        "1"
+      ]
+    },
+    "war studies": {
+      "data-frequency": "154211",
+      "data-relevance": "46",
+      "data-term": "war studies",
+      "data-encoded-term": "war%20studies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "154211",
+        "wiki",
+        "1"
+      ]
+    },
+    "befight": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "befight",
+      "data-encoded-term": "befight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "american english": {
+      "data-frequency": "73806",
+      "data-relevance": "44",
+      "data-term": "american english",
+      "data-encoded-term": "american%20english",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73806",
+        "wiki",
+        "1"
+      ]
+    },
+    "greek language": {
+      "data-frequency": "35566",
+      "data-relevance": "43",
+      "data-term": "greek language",
+      "data-encoded-term": "greek%20language",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35566",
+        "wiki",
+        "1"
+      ]
+    },
+    "germ warfare": {
+      "data-frequency": "211",
+      "data-relevance": "42",
+      "data-term": "germ warfare",
+      "data-encoded-term": "germ%20warfare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "211",
+        "cn5",
+        "1"
+      ]
+    },
+    "war-torn": {
+      "data-frequency": "12114",
+      "data-relevance": "41",
+      "data-term": "war-torn",
+      "data-encoded-term": "war-torn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12114",
+        "ol",
+        "1"
+      ]
+    },
+    "pre-war": {
+      "data-frequency": "82376",
+      "data-relevance": "40",
+      "data-term": "pre-war",
+      "data-encoded-term": "pre-war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82376",
+        "ol",
+        "1"
+      ]
+    },
+    "post-war": {
+      "data-frequency": "37861",
+      "data-relevance": "39",
+      "data-term": "post-war",
+      "data-encoded-term": "post-war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37861",
+        "ol",
+        "1"
+      ]
+    },
+    "court-martial": {
+      "data-frequency": "5345",
+      "data-relevance": "38",
+      "data-term": "court-martial",
+      "data-encoded-term": "court-martial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5345",
+        "ol",
+        "1"
+      ]
+    },
+    "d-day": {
+      "data-frequency": "6878",
+      "data-relevance": "37",
+      "data-term": "d-day",
+      "data-encoded-term": "d-day",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6878",
+        "ol",
+        "1"
+      ]
+    },
+    "anti-war": {
+      "data-frequency": "7638",
+      "data-relevance": "36",
+      "data-term": "anti-war",
+      "data-encoded-term": "anti-war",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7638",
+        "ol",
+        "1"
+      ]
+    },
+    "military technology and equipment": {
+      "data-frequency": "14021",
+      "data-relevance": "35",
+      "data-term": "military technology and equipment",
+      "data-encoded-term": "military%20technology%20and%20equipment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14021",
+        "wiki",
+        "1"
+      ]
+    },
+    "vietminh": {
+      "data-frequency": "85",
+      "data-relevance": "34",
+      "data-term": "vietminh",
+      "data-encoded-term": "vietminh",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "85",
+        "ol",
+        "1"
+      ]
+    },
+    "fightingly": {
+      "data-frequency": "-1",
+      "data-relevance": "33",
+      "data-term": "fightingly",
+      "data-encoded-term": "fightingly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "prefight": {
+      "data-frequency": "-1",
+      "data-relevance": "32",
+      "data-term": "prefight",
+      "data-encoded-term": "prefight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pistoleer": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "pistoleer",
+      "data-encoded-term": "pistoleer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "military tactics": {
+      "data-frequency": "14842",
+      "data-relevance": "30",
+      "data-term": "military tactics",
+      "data-encoded-term": "military%20tactics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14842",
+        "wiki",
+        "1"
+      ]
+    },
+    "operational art": {
+      "data-frequency": "7340",
+      "data-relevance": "29",
+      "data-term": "operational art",
+      "data-encoded-term": "operational%20art",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7340",
+        "wiki",
+        "1"
+      ]
+    },
+    "unfought": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "unfought",
+      "data-encoded-term": "unfought",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "postfight": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "postfight",
+      "data-encoded-term": "postfight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "defeat enemy": {
+      "data-frequency": "71",
+      "data-relevance": "26",
+      "data-term": "defeat enemy",
+      "data-encoded-term": "defeat%20enemy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71",
+        "cn5",
+        "1"
+      ]
+    },
+    "united nations": {
+      "data-frequency": "82822",
+      "data-relevance": "25",
+      "data-term": "united nations",
+      "data-encoded-term": "united%20nations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82822",
+        "swiki",
+        "1"
+      ]
+    },
+    "military strategy": {
+      "data-frequency": "1901",
+      "data-relevance": "24",
+      "data-term": "military strategy",
+      "data-encoded-term": "military%20strategy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1901",
+        "wiki",
+        "1"
+      ]
+    },
+    "bushfighting": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "bushfighting",
+      "data-encoded-term": "bushfighting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wardriving": {
+      "data-frequency": "-1",
+      "data-relevance": "22",
+      "data-term": "wardriving",
+      "data-encoded-term": "wardriving",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "battalia": {
+      "data-frequency": "221",
+      "data-relevance": "21",
+      "data-term": "battalia",
+      "data-encoded-term": "battalia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "221",
+        "cn5",
+        "1"
+      ]
+    },
+    "military logistics": {
+      "data-frequency": "10436",
+      "data-relevance": "20",
+      "data-term": "military logistics",
+      "data-encoded-term": "military%20logistics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10436",
+        "wiki",
+        "1"
+      ]
+    },
+    "demobilize": {
+      "data-frequency": "175",
+      "data-relevance": "19",
+      "data-term": "demobilize",
+      "data-encoded-term": "demobilize",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "violent action": {
+      "data-frequency": "532",
+      "data-relevance": "18",
+      "data-term": "violent action",
+      "data-encoded-term": "violent%20action",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "532",
+        "cn5",
+        "1"
+      ]
+    },
+    "fightable": {
+      "data-frequency": "-1",
+      "data-relevance": "17",
+      "data-term": "fightable",
+      "data-encoded-term": "fightable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "military history": {
+      "data-frequency": "31370",
+      "data-relevance": "16",
+      "data-term": "military history",
+      "data-encoded-term": "military%20history",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "31370",
+        "wiki",
+        "1"
+      ]
+    },
+    "wage war": {
+      "data-frequency": "1462",
+      "data-relevance": "15",
+      "data-term": "wage war",
+      "data-encoded-term": "wage%20war",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1462",
+        "cn5",
+        "1"
+      ]
+    },
+    "recalcitrate": {
+      "data-frequency": "-1",
+      "data-relevance": "14",
+      "data-term": "recalcitrate",
+      "data-encoded-term": "recalcitrate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "war drive": {
+      "data-frequency": "-1",
+      "data-relevance": "13",
+      "data-term": "war drive",
+      "data-encoded-term": "war%20drive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "philosophy of war": {
+      "data-frequency": "33065",
+      "data-relevance": "12",
+      "data-term": "philosophy of war",
+      "data-encoded-term": "philosophy%20of%20war",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "33065",
+        "wiki",
+        "1"
+      ]
+    },
+    "war hawk": {
+      "data-frequency": "96",
+      "data-relevance": "11",
+      "data-term": "war hawk",
+      "data-encoded-term": "war%20hawk",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "military science": {
+      "data-frequency": "2120",
+      "data-relevance": "10",
+      "data-term": "military science",
+      "data-encoded-term": "military%20science",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2120",
+        "wiki",
+        "1"
+      ]
+    },
+    "swordfighter": {
+      "data-frequency": "-1",
+      "data-relevance": "9",
+      "data-term": "swordfighter",
+      "data-encoded-term": "swordfighter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "defence policy": {
+      "data-frequency": "21709",
+      "data-relevance": "8",
+      "data-term": "defence policy",
+      "data-encoded-term": "defence%20policy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "21709",
+        "wiki",
+        "1"
+      ]
+    },
+    "war hammer": {
+      "data-frequency": "112",
+      "data-relevance": "7",
+      "data-term": "war hammer",
+      "data-encoded-term": "war%20hammer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "112",
+        "cn5",
+        "1"
+      ]
+    },
+    "forfight": {
+      "data-frequency": "-1",
+      "data-relevance": "6",
+      "data-term": "forfight",
+      "data-encoded-term": "forfight",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "alsace-lorraine": {
+      "data-frequency": "1236",
+      "data-relevance": "5",
+      "data-term": "alsace-lorraine",
+      "data-encoded-term": "alsace-lorraine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1236",
+        "wiki",
+        "1"
+      ]
+    },
+    "war rape": {
+      "data-frequency": "15019",
+      "data-relevance": "4",
+      "data-term": "war rape",
+      "data-encoded-term": "war%20rape",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "15019",
+        "wiki",
+        "1"
+      ]
+    },
+    "ethnic cleansing": {
+      "data-frequency": "2686",
+      "data-relevance": "3",
+      "data-term": "ethnic cleansing",
+      "data-encoded-term": "ethnic%20cleansing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2686",
+        "wiki",
+        "1"
+      ]
+    },
+    "fightworthy": {
+      "data-frequency": "-1",
+      "data-relevance": "2",
+      "data-term": "fightworthy",
+      "data-encoded-term": "fightworthy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "carthage": {
+      "data-frequency": "8540",
+      "data-relevance": "1",
+      "data-term": "carthage",
+      "data-encoded-term": "carthage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8540",
+        "wiki",
+        "1"
+      ]
+    },
+    "karl von clausewitz": {
+      "data-frequency": "-1",
+      "data-relevance": "0",
+      "data-term": "karl von clausewitz",
+      "data-encoded-term": "karl%20von%20clausewitz",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "swiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": [
+    "war"
+  ],
+  "wooordhunt": {
+    "similar_words": [
+      "war"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "He tried to negotiate a peace between the warring countries.",
+        "ru": "Он пытался заключить мир между воюющими странами."
+      },
+      {
+        "en": "They fought a war over the disputed territory.",
+        "ru": "Они вели войну из-за спорной территории."
+      },
+      {
+        "en": "The party is fragmenting into warring factions.",
+        "ru": "Партия разваливается на враждующие фракции."
+      },
+      {
+        "en": "People behave differently during a time of war.",
+        "ru": "Люди по-разному ведут себя во время войны."
+      },
+      {
+        "en": "We need to resolve our conflicts without resorting to war.",
+        "ru": "Мы должны решать наши противоречия, не прибегая к войне."
+      },
+      {
+        "en": "A war broke out when the colonists demanded their independence.",
+        "ru": "Когда колонисты потребовали независимости, разразилась война."
+      },
+      {
+        "en": "They hoped to bring about a peace accord between the warring nations.",
+        "ru": "Они надеялись добиться мирного соглашения между воюющими государствами."
+      },
+      {
+        "en": "A mere agglomeration of warring tribes, it was far from being a unified nation.",
+        "ru": "Это был просто конгломерат враждующих племён, а далеко не единая нация."
+      },
+      {
+        "en": "The taking of American hostages was seen as an act of war by the United States.",
+        "ru": "Захват американских заложников Соединенные Штаты расценили как акт агрессии."
+      },
+      {
+        "en": "The division of Europe into warring blocs produces ever-increasing centrifugal stress.",
+        "ru": "Разделение Европы на враждующие блоки приводит к всё возрастающему центробежному напряжению."
+      },
+      {
+        "en": "His first aim is to get the warring parties back to the negotiating table (=discussing something).",
+        "ru": "Его главная цель состоит в том, чтобы вернуть враждующие стороны за стол переговоров (чтобы что-то обсудить)."
+      },
+      {
+        "en": "The warring groups need to shake off the manacle of their troubled past and learn to live with one another in peace.",
+        "ru": "Враждующим группировкам необходимо стряхнуть оковы своего тяжёлого прошлого и научиться жить в мире друг с другом."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "war",
+      "warrings"
+    ],
+    "synonyms": [
+      "war-ridden"
+    ],
+    "antonyms": [
+      "peaceful"
+    ],
+    "similar_terms": [
+      "war"
+    ],
+    "gerunds": [
+      "war"
+    ],
+    "irregular_words": [],
+    "relatedwords": [
+      "army",
+      "clan",
+      "belligerent",
+      "conflict",
+      "war",
+      "genocide",
+      "military",
+      "combat",
+      "struggle",
+      "engaged",
+      "battle",
+      "fight",
+      "warfare",
+      "campaign"
+    ]
+  }
+}
