@@ -1,0 +1,5218 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "rider": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/riders/n/,/c/en/rider/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/riders/n",
+          "@type": "Node",
+          "label": "riders",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/riders"
+        },
+        "end": {
+          "@id": "/c/en/rider",
+          "@type": "Node",
+          "label": "rider",
+          "language": "en",
+          "term": "/c/en/rider"
+        }
+      },
+      "horse": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/horse/,/c/en/riders/]",
+        "weight": 0.1160000000000001,
+        "start": {
+          "@id": "/c/en/horse",
+          "@type": "Node",
+          "label": "horse",
+          "language": "en",
+          "term": "/c/en/horse"
+        },
+        "end": {
+          "@id": "/c/en/riders",
+          "@type": "Node",
+          "label": "riders",
+          "language": "en",
+          "term": "/c/en/riders"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "rider": {
+        "@id": "/a/[/r/FormOf/,/c/en/riders/,/c/en/rider/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/riders",
+          "@type": "Node",
+          "label": "riders",
+          "language": "en",
+          "term": "/c/en/riders"
+        },
+        "end": {
+          "@id": "/c/en/rider/n",
+          "@type": "Node",
+          "label": "rider",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/rider"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "drivers": {
+      "data-frequency": "41053",
+      "data-relevance": "361",
+      "data-term": "drivers",
+      "data-encoded-term": "drivers",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "41053",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "traveler": {
+      "data-frequency": "10679",
+      "data-relevance": "360",
+      "data-term": "traveler",
+      "data-encoded-term": "traveler",
+      "data-term-stats": [
+        "1",
+        "6.3",
+        "0.000",
+        "10679",
+        "wn,wn,wn",
+        "1"
+      ]
+    },
+    "traveller": {
+      "data-frequency": "11760",
+      "data-relevance": "359",
+      "data-term": "traveller",
+      "data-encoded-term": "traveller",
+      "data-term-stats": [
+        "1",
+        "6.3",
+        "0.000",
+        "11760",
+        "wn,wn,wn",
+        "1"
+      ]
+    },
+    "bike": {
+      "data-frequency": "26363",
+      "data-relevance": "358",
+      "data-term": "bike",
+      "data-encoded-term": "bike",
+      "data-term-stats": [
+        "1",
+        "5.5",
+        "0.000",
+        "26363",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "racer": {
+      "data-frequency": "20755",
+      "data-relevance": "357",
+      "data-term": "racer",
+      "data-encoded-term": "racer",
+      "data-term-stats": [
+        "1",
+        "5.3",
+        "0.000",
+        "20755",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "cyclist": {
+      "data-frequency": "25417",
+      "data-relevance": "356",
+      "data-term": "cyclist",
+      "data-encoded-term": "cyclist",
+      "data-term-stats": [
+        "1",
+        "4.5",
+        "0.000",
+        "25417",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "cycling": {
+      "data-frequency": "49466",
+      "data-relevance": "355",
+      "data-term": "cycling",
+      "data-encoded-term": "cycling",
+      "data-term-stats": [
+        "1",
+        "3.8",
+        "0.000",
+        "49466",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "driver": {
+      "data-frequency": "99735",
+      "data-relevance": "354",
+      "data-term": "driver",
+      "data-encoded-term": "driver",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "99735",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "runner": {
+      "data-frequency": "121146",
+      "data-relevance": "353",
+      "data-term": "runner",
+      "data-encoded-term": "runner",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "121146",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "passenger": {
+      "data-frequency": "86699",
+      "data-relevance": "352",
+      "data-term": "passenger",
+      "data-encoded-term": "passenger",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "86699",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "horseman": {
+      "data-frequency": "4575",
+      "data-relevance": "351",
+      "data-term": "horseman",
+      "data-encoded-term": "horseman",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "4575",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "equestrian": {
+      "data-frequency": "16331",
+      "data-relevance": "350",
+      "data-term": "equestrian",
+      "data-encoded-term": "equestrian",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "16331",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "riding": {
+      "data-frequency": "69176",
+      "data-relevance": "349",
+      "data-term": "riding",
+      "data-encoded-term": "riding",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "69176",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "straphanger": {
+      "data-frequency": "80",
+      "data-relevance": "348",
+      "data-term": "straphanger",
+      "data-encoded-term": "straphanger",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "80",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "racing": {
+      "data-frequency": "106261",
+      "data-relevance": "347",
+      "data-term": "racing",
+      "data-encoded-term": "racing",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "106261",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "clause": {
+      "data-frequency": "19905",
+      "data-relevance": "346",
+      "data-term": "clause",
+      "data-encoded-term": "clause",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "19905",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "fare": {
+      "data-frequency": "25115",
+      "data-relevance": "345",
+      "data-term": "fare",
+      "data-encoded-term": "fare",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "25115",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "skiers": {
+      "data-frequency": "9537",
+      "data-relevance": "344",
+      "data-term": "skiers",
+      "data-encoded-term": "skiers",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "9537",
+        "vec2",
+        "1"
+      ]
+    },
+    "jockey": {
+      "data-frequency": "18221",
+      "data-relevance": "343",
+      "data-term": "jockey",
+      "data-encoded-term": "jockey",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "18221",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pedaler": {
+      "data-frequency": "-1",
+      "data-relevance": "342",
+      "data-term": "pedaler",
+      "data-encoded-term": "pedaler",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "mountain bikers": {
+      "data-frequency": "12538",
+      "data-relevance": "341",
+      "data-term": "mountain bikers",
+      "data-encoded-term": "mountain%20bikers",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "12538",
+        "vec2",
+        "1"
+      ]
+    },
+    "rider": {
+      "data-frequency": "50698",
+      "data-relevance": "340",
+      "data-term": "rider",
+      "data-encoded-term": "rider",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "50698",
+        "vec2",
+        "1"
+      ]
+    },
+    "bicyclists": {
+      "data-frequency": "975",
+      "data-relevance": "339",
+      "data-term": "bicyclists",
+      "data-encoded-term": "bicyclists",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "975",
+        "vec2",
+        "1"
+      ]
+    },
+    "triathletes": {
+      "data-frequency": "2113",
+      "data-relevance": "338",
+      "data-term": "triathletes",
+      "data-encoded-term": "triathletes",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2113",
+        "vec2",
+        "1"
+      ]
+    },
+    "equestrians": {
+      "data-frequency": "15923",
+      "data-relevance": "337",
+      "data-term": "equestrians",
+      "data-encoded-term": "equestrians",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "15923",
+        "vec2",
+        "1"
+      ]
+    },
+    "protour": {
+      "data-frequency": "793",
+      "data-relevance": "336",
+      "data-term": "protour",
+      "data-encoded-term": "protour",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "793",
+        "vec2",
+        "1"
+      ]
+    },
+    "bikes": {
+      "data-frequency": "6839",
+      "data-relevance": "335",
+      "data-term": "bikes",
+      "data-encoded-term": "bikes",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "6839",
+        "vec2",
+        "1"
+      ]
+    },
+    "horseback rider": {
+      "data-frequency": "70",
+      "data-relevance": "334",
+      "data-term": "horseback rider",
+      "data-encoded-term": "horseback%20rider",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "70",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "motorcycle": {
+      "data-frequency": "29400",
+      "data-relevance": "333",
+      "data-term": "motorcycle",
+      "data-encoded-term": "motorcycle",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "29400",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "riders": {
+      "data-frequency": "32038",
+      "data-relevance": "332",
+      "data-term": "riders",
+      "data-encoded-term": "riders",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "32038",
+        "vec2",
+        "1"
+      ]
+    },
+    "skier": {
+      "data-frequency": "13306",
+      "data-relevance": "331",
+      "data-term": "skier",
+      "data-encoded-term": "skier",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "13306",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "sprinters": {
+      "data-frequency": "10103",
+      "data-relevance": "330",
+      "data-term": "sprinters",
+      "data-encoded-term": "sprinters",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "10103",
+        "vec2",
+        "1"
+      ]
+    },
+    "sprinter": {
+      "data-frequency": "13784",
+      "data-relevance": "329",
+      "data-term": "sprinter",
+      "data-encoded-term": "sprinter",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "13784",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "rides": {
+      "data-frequency": "25088",
+      "data-relevance": "328",
+      "data-term": "rides",
+      "data-encoded-term": "rides",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "25088",
+        "vec2",
+        "1"
+      ]
+    },
+    "criterium": {
+      "data-frequency": "2469",
+      "data-relevance": "327",
+      "data-term": "criterium",
+      "data-encoded-term": "criterium",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "2469",
+        "vec2",
+        "1"
+      ]
+    },
+    "teams": {
+      "data-frequency": "346592",
+      "data-relevance": "326",
+      "data-term": "teams",
+      "data-encoded-term": "teams",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "346592",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "skater": {
+      "data-frequency": "15932",
+      "data-relevance": "325",
+      "data-term": "skater",
+      "data-encoded-term": "skater",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "15932",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "snowboarders": {
+      "data-frequency": "1121",
+      "data-relevance": "324",
+      "data-term": "snowboarders",
+      "data-encoded-term": "snowboarders",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1121",
+        "vec2",
+        "1"
+      ]
+    },
+    "leipheimer": {
+      "data-frequency": "268",
+      "data-relevance": "323",
+      "data-term": "leipheimer",
+      "data-encoded-term": "leipheimer",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "268",
+        "vec2",
+        "1"
+      ]
+    },
+    "walkers": {
+      "data-frequency": "136462",
+      "data-relevance": "322",
+      "data-term": "walkers",
+      "data-encoded-term": "walkers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "136462",
+        "vec2",
+        "1"
+      ]
+    },
+    "lampre": {
+      "data-frequency": "1055",
+      "data-relevance": "321",
+      "data-term": "lampre",
+      "data-encoded-term": "lampre",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1055",
+        "vec2",
+        "1"
+      ]
+    },
+    "bettini": {
+      "data-frequency": "675",
+      "data-relevance": "320",
+      "data-term": "bettini",
+      "data-encoded-term": "bettini",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "675",
+        "vec2",
+        "1"
+      ]
+    },
+    "paddlers": {
+      "data-frequency": "535",
+      "data-relevance": "319",
+      "data-term": "paddlers",
+      "data-encoded-term": "paddlers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "535",
+        "vec2",
+        "1"
+      ]
+    },
+    "climber": {
+      "data-frequency": "4998",
+      "data-relevance": "318",
+      "data-term": "climber",
+      "data-encoded-term": "climber",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "4998",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cyclingnews": {
+      "data-frequency": "3197",
+      "data-relevance": "317",
+      "data-term": "cyclingnews",
+      "data-encoded-term": "cyclingnews",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "3197",
+        "vec2",
+        "1"
+      ]
+    },
+    "vinokourov": {
+      "data-frequency": "350",
+      "data-relevance": "316",
+      "data-term": "vinokourov",
+      "data-encoded-term": "vinokourov",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "350",
+        "vec2",
+        "1"
+      ]
+    },
+    "motorcycle enthusiasts": {
+      "data-frequency": "1441",
+      "data-relevance": "315",
+      "data-term": "motorcycle enthusiasts",
+      "data-encoded-term": "motorcycle%20enthusiasts",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1441",
+        "vec2",
+        "1"
+      ]
+    },
+    "skaters": {
+      "data-frequency": "10865",
+      "data-relevance": "314",
+      "data-term": "skaters",
+      "data-encoded-term": "skaters",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "10865",
+        "vec2",
+        "1"
+      ]
+    },
+    "skateboarders": {
+      "data-frequency": "774",
+      "data-relevance": "313",
+      "data-term": "skateboarders",
+      "data-encoded-term": "skateboarders",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "774",
+        "vec2",
+        "1"
+      ]
+    },
+    "defenders": {
+      "data-frequency": "87375",
+      "data-relevance": "312",
+      "data-term": "defenders",
+      "data-encoded-term": "defenders",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "87375",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "vuelta": {
+      "data-frequency": "5450",
+      "data-relevance": "311",
+      "data-term": "vuelta",
+      "data-encoded-term": "vuelta",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "5450",
+        "vec2",
+        "1"
+      ]
+    },
+    "giro d' italia": {
+      "data-frequency": "-1",
+      "data-relevance": "310",
+      "data-term": "giro d' italia",
+      "data-encoded-term": "giro%20d%26%2339%3B%20italia",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "ktm": {
+      "data-frequency": "1899",
+      "data-relevance": "309",
+      "data-term": "ktm",
+      "data-encoded-term": "ktm",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1899",
+        "vec2",
+        "1"
+      ]
+    },
+    "jockeys": {
+      "data-frequency": "20525",
+      "data-relevance": "308",
+      "data-term": "jockeys",
+      "data-encoded-term": "jockeys",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "20525",
+        "vec2",
+        "1"
+      ]
+    },
+    "owners": {
+      "data-frequency": "89139",
+      "data-relevance": "307",
+      "data-term": "owners",
+      "data-encoded-term": "owners",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "89139",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "horses": {
+      "data-frequency": "48219",
+      "data-relevance": "306",
+      "data-term": "horses",
+      "data-encoded-term": "horses",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "48219",
+        "vec2",
+        "1"
+      ]
+    },
+    "motorcycling": {
+      "data-frequency": "1335",
+      "data-relevance": "305",
+      "data-term": "motorcycling",
+      "data-encoded-term": "motorcycling",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1335",
+        "vec2",
+        "1"
+      ]
+    },
+    "atv riders": {
+      "data-frequency": "364",
+      "data-relevance": "304",
+      "data-term": "atv riders",
+      "data-encoded-term": "atv%20riders",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "364",
+        "vec2",
+        "1"
+      ]
+    },
+    "greipel": {
+      "data-frequency": "428",
+      "data-relevance": "303",
+      "data-term": "greipel",
+      "data-encoded-term": "greipel",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "428",
+        "vec2",
+        "1"
+      ]
+    },
+    "giro": {
+      "data-frequency": "6846",
+      "data-relevance": "302",
+      "data-term": "giro",
+      "data-encoded-term": "giro",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "6846",
+        "vec2",
+        "1"
+      ]
+    },
+    "mushers": {
+      "data-frequency": "133",
+      "data-relevance": "301",
+      "data-term": "mushers",
+      "data-encoded-term": "mushers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "133",
+        "vec2",
+        "1"
+      ]
+    },
+    "cunego": {
+      "data-frequency": "307",
+      "data-relevance": "300",
+      "data-term": "cunego",
+      "data-encoded-term": "cunego",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "307",
+        "vec2",
+        "1"
+      ]
+    },
+    "schleck": {
+      "data-frequency": "503",
+      "data-relevance": "299",
+      "data-term": "schleck",
+      "data-encoded-term": "schleck",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "503",
+        "vec2",
+        "1"
+      ]
+    },
+    "team csc": {
+      "data-frequency": "1356",
+      "data-relevance": "298",
+      "data-term": "team csc",
+      "data-encoded-term": "team%20csc",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1356",
+        "vec2",
+        "1"
+      ]
+    },
+    "racers": {
+      "data-frequency": "9864",
+      "data-relevance": "297",
+      "data-term": "racers",
+      "data-encoded-term": "racers",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "9864",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "chavanel": {
+      "data-frequency": "496",
+      "data-relevance": "296",
+      "data-term": "chavanel",
+      "data-encoded-term": "chavanel",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "496",
+        "vec2",
+        "1"
+      ]
+    },
+    "horse": {
+      "data-frequency": "125052",
+      "data-relevance": "295",
+      "data-term": "horse",
+      "data-encoded-term": "horse",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "125052",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "dragons": {
+      "data-frequency": "26975",
+      "data-relevance": "294",
+      "data-term": "dragons",
+      "data-encoded-term": "dragons",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "26975",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gerolsteiner": {
+      "data-frequency": "320",
+      "data-relevance": "293",
+      "data-term": "gerolsteiner",
+      "data-encoded-term": "gerolsteiner",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "320",
+        "vec2",
+        "1"
+      ]
+    },
+    "robbie mcewen": {
+      "data-frequency": "500",
+      "data-relevance": "292",
+      "data-term": "robbie mcewen",
+      "data-encoded-term": "robbie%20mcewen",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "500",
+        "vec2",
+        "1"
+      ]
+    },
+    "surfers": {
+      "data-frequency": "9005",
+      "data-relevance": "291",
+      "data-term": "surfers",
+      "data-encoded-term": "surfers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "9005",
+        "vec2",
+        "1"
+      ]
+    },
+    "liquigas": {
+      "data-frequency": "643",
+      "data-relevance": "290",
+      "data-term": "liquigas",
+      "data-encoded-term": "liquigas",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "643",
+        "vec2",
+        "1"
+      ]
+    },
+    "hincapie": {
+      "data-frequency": "358",
+      "data-relevance": "289",
+      "data-term": "hincapie",
+      "data-encoded-term": "hincapie",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "358",
+        "vec2",
+        "1"
+      ]
+    },
+    "runners": {
+      "data-frequency": "165519",
+      "data-relevance": "288",
+      "data-term": "runners",
+      "data-encoded-term": "runners",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "165519",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cancellara": {
+      "data-frequency": "562",
+      "data-relevance": "287",
+      "data-term": "cancellara",
+      "data-encoded-term": "cancellara",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "562",
+        "vec2",
+        "1"
+      ]
+    },
+    "alejandro valverde": {
+      "data-frequency": "762",
+      "data-relevance": "286",
+      "data-term": "alejandro valverde",
+      "data-encoded-term": "alejandro%20valverde",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "762",
+        "vec2",
+        "1"
+      ]
+    },
+    "trainers": {
+      "data-frequency": "10677",
+      "data-relevance": "285",
+      "data-term": "trainers",
+      "data-encoded-term": "trainers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "10677",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "zabriskie": {
+      "data-frequency": "860",
+      "data-relevance": "284",
+      "data-term": "zabriskie",
+      "data-encoded-term": "zabriskie",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "860",
+        "vec2",
+        "1"
+      ]
+    },
+    "climbers": {
+      "data-frequency": "5825",
+      "data-relevance": "283",
+      "data-term": "climbers",
+      "data-encoded-term": "climbers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "5825",
+        "vec2",
+        "1"
+      ]
+    },
+    "commuters": {
+      "data-frequency": "6021",
+      "data-relevance": "282",
+      "data-term": "commuters",
+      "data-encoded-term": "commuters",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "6021",
+        "vec2",
+        "1"
+      ]
+    },
+    "tour de": {
+      "data-frequency": "134098",
+      "data-relevance": "281",
+      "data-term": "tour de",
+      "data-encoded-term": "tour%20de",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "134098",
+        "vec2",
+        "1"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "280",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2451433",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "forms": {
+      "data-frequency": "196432",
+      "data-relevance": "279",
+      "data-term": "forms",
+      "data-encoded-term": "forms",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "196432",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "quick step": {
+      "data-frequency": "27954",
+      "data-relevance": "278",
+      "data-term": "quick step",
+      "data-encoded-term": "quick%20step",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "27954",
+        "vec2",
+        "1"
+      ]
+    },
+    "customers": {
+      "data-frequency": "46737",
+      "data-relevance": "277",
+      "data-term": "customers",
+      "data-encoded-term": "customers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46737",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lords": {
+      "data-frequency": "39557",
+      "data-relevance": "276",
+      "data-term": "lords",
+      "data-encoded-term": "lords",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "39557",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "usa cycling": {
+      "data-frequency": "16523",
+      "data-relevance": "275",
+      "data-term": "usa cycling",
+      "data-encoded-term": "usa%20cycling",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "16523",
+        "vec2",
+        "1"
+      ]
+    },
+    "bikers": {
+      "data-frequency": "2675",
+      "data-relevance": "274",
+      "data-term": "bikers",
+      "data-encoded-term": "bikers",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "2675",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "kayakers": {
+      "data-frequency": "807",
+      "data-relevance": "273",
+      "data-term": "kayakers",
+      "data-encoded-term": "kayakers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "807",
+        "vec2",
+        "1"
+      ]
+    },
+    "heroes": {
+      "data-frequency": "68521",
+      "data-relevance": "272",
+      "data-term": "heroes",
+      "data-encoded-term": "heroes",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "68521",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "saunier duval": {
+      "data-frequency": "245",
+      "data-relevance": "271",
+      "data-term": "saunier duval",
+      "data-encoded-term": "saunier%20duval",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "245",
+        "vec2",
+        "1"
+      ]
+    },
+    "day": {
+      "data-frequency": "902693",
+      "data-relevance": "270",
+      "data-term": "day",
+      "data-encoded-term": "day",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "902693",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "casters": {
+      "data-frequency": "2185",
+      "data-relevance": "269",
+      "data-term": "casters",
+      "data-encoded-term": "casters",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2185",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "knights": {
+      "data-frequency": "73642",
+      "data-relevance": "268",
+      "data-term": "knights",
+      "data-encoded-term": "knights",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "73642",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "motos": {
+      "data-frequency": "9792",
+      "data-relevance": "267",
+      "data-term": "motos",
+      "data-encoded-term": "motos",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "9792",
+        "vec2",
+        "1"
+      ]
+    },
+    "superbike": {
+      "data-frequency": "2530",
+      "data-relevance": "266",
+      "data-term": "superbike",
+      "data-encoded-term": "superbike",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2530",
+        "vec2",
+        "1"
+      ]
+    },
+    "team": {
+      "data-frequency": "1131965",
+      "data-relevance": "265",
+      "data-term": "team",
+      "data-encoded-term": "team",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1131965",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "amgen tour": {
+      "data-frequency": "100",
+      "data-relevance": "264",
+      "data-term": "amgen tour",
+      "data-encoded-term": "amgen%20tour",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "100",
+        "vec2",
+        "1"
+      ]
+    },
+    "athletes": {
+      "data-frequency": "121772",
+      "data-relevance": "263",
+      "data-term": "athletes",
+      "data-encoded-term": "athletes",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "121772",
+        "vec2",
+        "1"
+      ]
+    },
+    "voeckler": {
+      "data-frequency": "322",
+      "data-relevance": "262",
+      "data-term": "voeckler",
+      "data-encoded-term": "voeckler",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "322",
+        "vec2",
+        "1"
+      ]
+    },
+    "di luca": {
+      "data-frequency": "14607",
+      "data-relevance": "261",
+      "data-term": "di luca",
+      "data-encoded-term": "di%20luca",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "14607",
+        "vec2",
+        "1"
+      ]
+    },
+    "sentai": {
+      "data-frequency": "2829",
+      "data-relevance": "260",
+      "data-term": "sentai",
+      "data-encoded-term": "sentai",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2829",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "beat": {
+      "data-frequency": "144401",
+      "data-relevance": "259",
+      "data-term": "beat",
+      "data-encoded-term": "beat",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "144401",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "goblin": {
+      "data-frequency": "4631",
+      "data-relevance": "258",
+      "data-term": "goblin",
+      "data-encoded-term": "goblin",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "4631",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "archers": {
+      "data-frequency": "5993",
+      "data-relevance": "257",
+      "data-term": "archers",
+      "data-encoded-term": "archers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5993",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "tom boonen": {
+      "data-frequency": "623",
+      "data-relevance": "256",
+      "data-term": "tom boonen",
+      "data-encoded-term": "tom%20boonen",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "623",
+        "vec2",
+        "1"
+      ]
+    },
+    "daredevils": {
+      "data-frequency": "4442",
+      "data-relevance": "255",
+      "data-term": "daredevils",
+      "data-encoded-term": "daredevils",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4442",
+        "vec2",
+        "1"
+      ]
+    },
+    "passengers": {
+      "data-frequency": "60048",
+      "data-relevance": "254",
+      "data-term": "passengers",
+      "data-encoded-term": "passengers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60048",
+        "ol",
+        "1"
+      ]
+    },
+    "cyclists": {
+      "data-frequency": "31938",
+      "data-relevance": "253",
+      "data-term": "cyclists",
+      "data-encoded-term": "cyclists",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "31938",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "mechanics": {
+      "data-frequency": "36832",
+      "data-relevance": "252",
+      "data-term": "mechanics",
+      "data-encoded-term": "mechanics",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "36832",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "china": {
+      "data-frequency": "366821",
+      "data-relevance": "251",
+      "data-term": "china",
+      "data-encoded-term": "china",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "366821",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "friends": {
+      "data-frequency": "220145",
+      "data-relevance": "250",
+      "data-term": "friends",
+      "data-encoded-term": "friends",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "220145",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "steep": {
+      "data-frequency": "30944",
+      "data-relevance": "249",
+      "data-term": "steep",
+      "data-encoded-term": "steep",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "30944",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "warriors": {
+      "data-frequency": "51176",
+      "data-relevance": "248",
+      "data-term": "warriors",
+      "data-encoded-term": "warriors",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "51176",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "bradley wiggins": {
+      "data-frequency": "1177",
+      "data-relevance": "247",
+      "data-term": "bradley wiggins",
+      "data-encoded-term": "bradley%20wiggins",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1177",
+        "vec2",
+        "1"
+      ]
+    },
+    "ivan basso": {
+      "data-frequency": "481",
+      "data-relevance": "246",
+      "data-term": "ivan basso",
+      "data-encoded-term": "ivan%20basso",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "481",
+        "vec2",
+        "1"
+      ]
+    },
+    "paris roubaix": {
+      "data-frequency": "1430",
+      "data-relevance": "245",
+      "data-term": "paris roubaix",
+      "data-encoded-term": "paris%20roubaix",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1430",
+        "vec2",
+        "1"
+      ]
+    },
+    "ascents": {
+      "data-frequency": "2341",
+      "data-relevance": "244",
+      "data-term": "ascents",
+      "data-encoded-term": "ascents",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2341",
+        "vec2",
+        "1"
+      ]
+    },
+    "hikers": {
+      "data-frequency": "29746",
+      "data-relevance": "243",
+      "data-term": "hikers",
+      "data-encoded-term": "hikers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "29746",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "groups": {
+      "data-frequency": "303907",
+      "data-relevance": "242",
+      "data-term": "groups",
+      "data-encoded-term": "groups",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "303907",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "steel": {
+      "data-frequency": "126349",
+      "data-relevance": "241",
+      "data-term": "steel",
+      "data-encoded-term": "steel",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "126349",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pedestrians": {
+      "data-frequency": "6532",
+      "data-relevance": "240",
+      "data-term": "pedestrians",
+      "data-encoded-term": "pedestrians",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6532",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "users": {
+      "data-frequency": "62944",
+      "data-relevance": "239",
+      "data-term": "users",
+      "data-encoded-term": "users",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "62944",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mtb": {
+      "data-frequency": "2322",
+      "data-relevance": "238",
+      "data-term": "mtb",
+      "data-encoded-term": "mtb",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2322",
+        "vec2",
+        "1"
+      ]
+    },
+    "hushovd": {
+      "data-frequency": "357",
+      "data-relevance": "237",
+      "data-term": "hushovd",
+      "data-encoded-term": "hushovd",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "357",
+        "vec2",
+        "1"
+      ]
+    },
+    "mountain bikes": {
+      "data-frequency": "12541",
+      "data-relevance": "236",
+      "data-term": "mountain bikes",
+      "data-encoded-term": "mountain%20bikes",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "12541",
+        "vec2",
+        "1"
+      ]
+    },
+    "car": {
+      "data-frequency": "235569",
+      "data-relevance": "235",
+      "data-term": "car",
+      "data-encoded-term": "car",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "235569",
+        "wn",
+        "1"
+      ]
+    },
+    "mountain biking": {
+      "data-frequency": "4037",
+      "data-relevance": "234",
+      "data-term": "mountain biking",
+      "data-encoded-term": "mountain%20biking",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "4037",
+        "vec2",
+        "1"
+      ]
+    },
+    "characters": {
+      "data-frequency": "176647",
+      "data-relevance": "233",
+      "data-term": "characters",
+      "data-encoded-term": "characters",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "176647",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "stag": {
+      "data-frequency": "6703",
+      "data-relevance": "232",
+      "data-term": "stag",
+      "data-encoded-term": "stag",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6703",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "delivery": {
+      "data-frequency": "61640",
+      "data-relevance": "231",
+      "data-term": "delivery",
+      "data-encoded-term": "delivery",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "61640",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cannondale": {
+      "data-frequency": "1018",
+      "data-relevance": "230",
+      "data-term": "cannondale",
+      "data-encoded-term": "cannondale",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1018",
+        "vec2",
+        "1"
+      ]
+    },
+    "motorcyclists": {
+      "data-frequency": "2762",
+      "data-relevance": "229",
+      "data-term": "motorcyclists",
+      "data-encoded-term": "motorcyclists",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "2762",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "instructors": {
+      "data-frequency": "9406",
+      "data-relevance": "228",
+      "data-term": "instructors",
+      "data-encoded-term": "instructors",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9406",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sisters": {
+      "data-frequency": "72974",
+      "data-relevance": "227",
+      "data-term": "sisters",
+      "data-encoded-term": "sisters",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "72974",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "rangers": {
+      "data-frequency": "44592",
+      "data-relevance": "226",
+      "data-term": "rangers",
+      "data-encoded-term": "rangers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "44592",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "fans": {
+      "data-frequency": "122525",
+      "data-relevance": "225",
+      "data-term": "fans",
+      "data-encoded-term": "fans",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "122525",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hour": {
+      "data-frequency": "150735",
+      "data-relevance": "224",
+      "data-term": "hour",
+      "data-encoded-term": "hour",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "150735",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "games": {
+      "data-frequency": "480517",
+      "data-relevance": "223",
+      "data-term": "games",
+      "data-encoded-term": "games",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "480517",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "enthusiasts": {
+      "data-frequency": "11902",
+      "data-relevance": "222",
+      "data-term": "enthusiasts",
+      "data-encoded-term": "enthusiasts",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "11902",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mounts": {
+      "data-frequency": "10317",
+      "data-relevance": "221",
+      "data-term": "mounts",
+      "data-encoded-term": "mounts",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "10317",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "death": {
+      "data-frequency": "663526",
+      "data-relevance": "220",
+      "data-term": "death",
+      "data-encoded-term": "death",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "663526",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "peloton": {
+      "data-frequency": "1617",
+      "data-relevance": "219",
+      "data-term": "peloton",
+      "data-encoded-term": "peloton",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1617",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "article": {
+      "data-frequency": "3676757",
+      "data-relevance": "218",
+      "data-term": "article",
+      "data-encoded-term": "article",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3676757",
+        "wn",
+        "1"
+      ]
+    },
+    "ride": {
+      "data-frequency": "69623",
+      "data-relevance": "217",
+      "data-term": "ride",
+      "data-encoded-term": "ride",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "69623",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "measure": {
+      "data-frequency": "84955",
+      "data-relevance": "216",
+      "data-term": "measure",
+      "data-encoded-term": "measure",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "84955",
+        "wn",
+        "1"
+      ]
+    },
+    "bill": {
+      "data-frequency": "382270",
+      "data-relevance": "215",
+      "data-term": "bill",
+      "data-encoded-term": "bill",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "382270",
+        "wn",
+        "1"
+      ]
+    },
+    "aeroplane": {
+      "data-frequency": "5691",
+      "data-relevance": "214",
+      "data-term": "aeroplane",
+      "data-encoded-term": "aeroplane",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5691",
+        "wn",
+        "1"
+      ]
+    },
+    "super": {
+      "data-frequency": "188373",
+      "data-relevance": "213",
+      "data-term": "super",
+      "data-encoded-term": "super",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "188373",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "statute": {
+      "data-frequency": "23093",
+      "data-relevance": "212",
+      "data-term": "statute",
+      "data-encoded-term": "statute",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "23093",
+        "wn",
+        "1"
+      ]
+    },
+    "plane": {
+      "data-frequency": "71330",
+      "data-relevance": "211",
+      "data-term": "plane",
+      "data-encoded-term": "plane",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "71330",
+        "wn",
+        "1"
+      ]
+    },
+    "airplane": {
+      "data-frequency": "17236",
+      "data-relevance": "210",
+      "data-term": "airplane",
+      "data-encoded-term": "airplane",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "17236",
+        "wn",
+        "1"
+      ]
+    },
+    "bus": {
+      "data-frequency": "125791",
+      "data-relevance": "209",
+      "data-term": "bus",
+      "data-encoded-term": "bus",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "125791",
+        "wn",
+        "1"
+      ]
+    },
+    "boat": {
+      "data-frequency": "110095",
+      "data-relevance": "208",
+      "data-term": "boat",
+      "data-encoded-term": "boat",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "110095",
+        "wn",
+        "1"
+      ]
+    },
+    "jitney": {
+      "data-frequency": "587",
+      "data-relevance": "207",
+      "data-term": "jitney",
+      "data-encoded-term": "jitney",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "587",
+        "wn",
+        "1"
+      ]
+    },
+    "coach": {
+      "data-frequency": "327158",
+      "data-relevance": "206",
+      "data-term": "coach",
+      "data-encoded-term": "coach",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "327158",
+        "wn",
+        "1"
+      ]
+    },
+    "auto": {
+      "data-frequency": "72992",
+      "data-relevance": "205",
+      "data-term": "auto",
+      "data-encoded-term": "auto",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "72992",
+        "wn",
+        "1"
+      ]
+    },
+    "omnibus": {
+      "data-frequency": "12666",
+      "data-relevance": "204",
+      "data-term": "omnibus",
+      "data-encoded-term": "omnibus",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "12666",
+        "wn",
+        "1"
+      ]
+    },
+    "race": {
+      "data-frequency": "256999",
+      "data-relevance": "203",
+      "data-term": "race",
+      "data-encoded-term": "race",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "256999",
+        "w2v",
+        "1"
+      ]
+    },
+    "automobile": {
+      "data-frequency": "38359",
+      "data-relevance": "202",
+      "data-term": "automobile",
+      "data-encoded-term": "automobile",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "38359",
+        "wn",
+        "1"
+      ]
+    },
+    "motorcar": {
+      "data-frequency": "575",
+      "data-relevance": "201",
+      "data-term": "motorcar",
+      "data-encoded-term": "motorcar",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "575",
+        "wn",
+        "1"
+      ]
+    },
+    "machine": {
+      "data-frequency": "616983",
+      "data-relevance": "200",
+      "data-term": "machine",
+      "data-encoded-term": "machine",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "616983",
+        "wn",
+        "1"
+      ]
+    },
+    "commuter": {
+      "data-frequency": "18105",
+      "data-relevance": "199",
+      "data-term": "commuter",
+      "data-encoded-term": "commuter",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "18105",
+        "wn",
+        "1"
+      ]
+    },
+    "pilots": {
+      "data-frequency": "31969",
+      "data-relevance": "198",
+      "data-term": "pilots",
+      "data-encoded-term": "pilots",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "31969",
+        "ol",
+        "1"
+      ]
+    },
+    "train": {
+      "data-frequency": "196506",
+      "data-relevance": "197",
+      "data-term": "train",
+      "data-encoded-term": "train",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "196506",
+        "wn",
+        "1"
+      ]
+    },
+    "stowaway": {
+      "data-frequency": "1010",
+      "data-relevance": "196",
+      "data-term": "stowaway",
+      "data-encoded-term": "stowaway",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1010",
+        "wn",
+        "1"
+      ]
+    },
+    "hitchhiker": {
+      "data-frequency": "1446",
+      "data-relevance": "195",
+      "data-term": "hitchhiker",
+      "data-encoded-term": "hitchhiker",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1446",
+        "wn",
+        "1"
+      ]
+    },
+    "enduro": {
+      "data-frequency": "1323",
+      "data-relevance": "194",
+      "data-term": "enduro",
+      "data-encoded-term": "enduro",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1323",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "boonen": {
+      "data-frequency": "781",
+      "data-relevance": "193",
+      "data-term": "boonen",
+      "data-encoded-term": "boonen",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "781",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "autobus": {
+      "data-frequency": "665",
+      "data-relevance": "192",
+      "data-term": "autobus",
+      "data-encoded-term": "autobus",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "665",
+        "wn",
+        "1"
+      ]
+    },
+    "sastre": {
+      "data-frequency": "1014",
+      "data-relevance": "191",
+      "data-term": "sastre",
+      "data-encoded-term": "sastre",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1014",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "double-decker": {
+      "data-frequency": "2381",
+      "data-relevance": "190",
+      "data-term": "double-decker",
+      "data-encoded-term": "double-decker",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2381",
+        "wn",
+        "1"
+      ]
+    },
+    "charabanc": {
+      "data-frequency": "128",
+      "data-relevance": "189",
+      "data-term": "charabanc",
+      "data-encoded-term": "charabanc",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "128",
+        "wn",
+        "1"
+      ]
+    },
+    "motorcoach": {
+      "data-frequency": "440",
+      "data-relevance": "188",
+      "data-term": "motorcoach",
+      "data-encoded-term": "motorcoach",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "440",
+        "wn",
+        "1"
+      ]
+    },
+    "motorbus": {
+      "data-frequency": "114",
+      "data-relevance": "187",
+      "data-term": "motorbus",
+      "data-encoded-term": "motorbus",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "114",
+        "wn",
+        "1"
+      ]
+    },
+    "ducati": {
+      "data-frequency": "1997",
+      "data-relevance": "186",
+      "data-term": "ducati",
+      "data-encoded-term": "ducati",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1997",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "pedaller": {
+      "data-frequency": "-1",
+      "data-relevance": "185",
+      "data-term": "pedaller",
+      "data-encoded-term": "pedaller",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "vettel": {
+      "data-frequency": "937",
+      "data-relevance": "184",
+      "data-term": "vettel",
+      "data-encoded-term": "vettel",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "937",
+        "w2v",
+        "1"
+      ]
+    },
+    "contador": {
+      "data-frequency": "704",
+      "data-relevance": "183",
+      "data-term": "contador",
+      "data-encoded-term": "contador",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "704",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "teammate": {
+      "data-frequency": "24474",
+      "data-relevance": "182",
+      "data-term": "teammate",
+      "data-encoded-term": "teammate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24474",
+        "w2v",
+        "1"
+      ]
+    },
+    "mclaren": {
+      "data-frequency": "12704",
+      "data-relevance": "181",
+      "data-term": "mclaren",
+      "data-encoded-term": "mclaren",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12704",
+        "w2v",
+        "1"
+      ]
+    },
+    "pole": {
+      "data-frequency": "68271",
+      "data-relevance": "180",
+      "data-term": "pole",
+      "data-encoded-term": "pole",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "68271",
+        "w2v",
+        "1"
+      ]
+    },
+    "bourdais": {
+      "data-frequency": "627",
+      "data-relevance": "179",
+      "data-term": "bourdais",
+      "data-encoded-term": "bourdais",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "627",
+        "w2v",
+        "1"
+      ]
+    },
+    "ullrich": {
+      "data-frequency": "1946",
+      "data-relevance": "178",
+      "data-term": "ullrich",
+      "data-encoded-term": "ullrich",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1946",
+        "w2v",
+        "1"
+      ]
+    },
+    "motogp": {
+      "data-frequency": "3539",
+      "data-relevance": "177",
+      "data-term": "motogp",
+      "data-encoded-term": "motogp",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3539",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "coulthard": {
+      "data-frequency": "1828",
+      "data-relevance": "176",
+      "data-term": "coulthard",
+      "data-encoded-term": "coulthard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1828",
+        "w2v",
+        "1"
+      ]
+    },
+    "petacchi": {
+      "data-frequency": "323",
+      "data-relevance": "175",
+      "data-term": "petacchi",
+      "data-encoded-term": "petacchi",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "323",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "rossi": {
+      "data-frequency": "18533",
+      "data-relevance": "174",
+      "data-term": "rossi",
+      "data-encoded-term": "rossi",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18533",
+        "w2v",
+        "1"
+      ]
+    },
+    "andretti": {
+      "data-frequency": "2408",
+      "data-relevance": "173",
+      "data-term": "andretti",
+      "data-encoded-term": "andretti",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2408",
+        "w2v",
+        "1"
+      ]
+    },
+    "biker": {
+      "data-frequency": "4032",
+      "data-relevance": "172",
+      "data-term": "biker",
+      "data-encoded-term": "biker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4032",
+        "ol",
+        "1"
+      ]
+    },
+    "schumacher": {
+      "data-frequency": "7257",
+      "data-relevance": "171",
+      "data-term": "schumacher",
+      "data-encoded-term": "schumacher",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7257",
+        "w2v",
+        "1"
+      ]
+    },
+    "motorcyclist": {
+      "data-frequency": "2026",
+      "data-relevance": "170",
+      "data-term": "motorcyclist",
+      "data-encoded-term": "motorcyclist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2026",
+        "ol",
+        "1"
+      ]
+    },
+    "champion": {
+      "data-frequency": "276033",
+      "data-relevance": "169",
+      "data-term": "champion",
+      "data-encoded-term": "champion",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "276033",
+        "w2v",
+        "1"
+      ]
+    },
+    "ferrari": {
+      "data-frequency": "13798",
+      "data-relevance": "168",
+      "data-term": "ferrari",
+      "data-encoded-term": "ferrari",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13798",
+        "w2v",
+        "1"
+      ]
+    },
+    "bareback": {
+      "data-frequency": "564",
+      "data-relevance": "167",
+      "data-term": "bareback",
+      "data-encoded-term": "bareback",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "564",
+        "ol",
+        "1"
+      ]
+    },
+    "f1": {
+      "data-frequency": "16065",
+      "data-relevance": "166",
+      "data-term": "f1",
+      "data-encoded-term": "f1",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16065",
+        "w2v",
+        "1"
+      ]
+    },
+    "villeneuve": {
+      "data-frequency": "22036",
+      "data-relevance": "165",
+      "data-term": "villeneuve",
+      "data-encoded-term": "villeneuve",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22036",
+        "w2v",
+        "1"
+      ]
+    },
+    "zanardi": {
+      "data-frequency": "497",
+      "data-relevance": "164",
+      "data-term": "zanardi",
+      "data-encoded-term": "zanardi",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "497",
+        "w2v",
+        "1"
+      ]
+    },
+    "montoya": {
+      "data-frequency": "5109",
+      "data-relevance": "163",
+      "data-term": "montoya",
+      "data-encoded-term": "montoya",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5109",
+        "w2v",
+        "1"
+      ]
+    },
+    "sitter": {
+      "data-frequency": "2723",
+      "data-relevance": "162",
+      "data-term": "sitter",
+      "data-encoded-term": "sitter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2723",
+        "w2v",
+        "1"
+      ]
+    },
+    "barrichello": {
+      "data-frequency": "798",
+      "data-relevance": "161",
+      "data-term": "barrichello",
+      "data-encoded-term": "barrichello",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "798",
+        "w2v",
+        "1"
+      ]
+    },
+    "sprint": {
+      "data-frequency": "32204",
+      "data-relevance": "160",
+      "data-term": "sprint",
+      "data-encoded-term": "sprint",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32204",
+        "w2v",
+        "1"
+      ]
+    },
+    "horsemen": {
+      "data-frequency": "6266",
+      "data-relevance": "159",
+      "data-term": "horsemen",
+      "data-encoded-term": "horsemen",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6266",
+        "ol",
+        "1"
+      ]
+    },
+    "swimmer": {
+      "data-frequency": "25463",
+      "data-relevance": "158",
+      "data-term": "swimmer",
+      "data-encoded-term": "swimmer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "25463",
+        "w2v",
+        "1"
+      ]
+    },
+    "raider": {
+      "data-frequency": "7055",
+      "data-relevance": "157",
+      "data-term": "raider",
+      "data-encoded-term": "raider",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7055",
+        "ol",
+        "1"
+      ]
+    },
+    "bull": {
+      "data-frequency": "64954",
+      "data-relevance": "156",
+      "data-term": "bull",
+      "data-encoded-term": "bull",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "64954",
+        "w2v",
+        "1"
+      ]
+    },
+    "heras": {
+      "data-frequency": "1264",
+      "data-relevance": "155",
+      "data-term": "heras",
+      "data-encoded-term": "heras",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1264",
+        "w2v",
+        "1"
+      ]
+    },
+    "operator": {
+      "data-frequency": "99180",
+      "data-relevance": "154",
+      "data-term": "operator",
+      "data-encoded-term": "operator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "99180",
+        "ol",
+        "1"
+      ]
+    },
+    "alonso": {
+      "data-frequency": "17488",
+      "data-relevance": "153",
+      "data-term": "alonso",
+      "data-encoded-term": "alonso",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17488",
+        "w2v",
+        "1"
+      ]
+    },
+    "massa": {
+      "data-frequency": "4545",
+      "data-relevance": "152",
+      "data-term": "massa",
+      "data-encoded-term": "massa",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4545",
+        "w2v",
+        "1"
+      ]
+    },
+    "valverde": {
+      "data-frequency": "4375",
+      "data-relevance": "151",
+      "data-term": "valverde",
+      "data-encoded-term": "valverde",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4375",
+        "w2v",
+        "1"
+      ]
+    },
+    "finn": {
+      "data-frequency": "24651",
+      "data-relevance": "150",
+      "data-term": "finn",
+      "data-encoded-term": "finn",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24651",
+        "w2v",
+        "1"
+      ]
+    },
+    "armstrong": {
+      "data-frequency": "61389",
+      "data-relevance": "149",
+      "data-term": "armstrong",
+      "data-encoded-term": "armstrong",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "61389",
+        "w2v",
+        "1"
+      ]
+    },
+    "mustang": {
+      "data-frequency": "8417",
+      "data-relevance": "148",
+      "data-term": "mustang",
+      "data-encoded-term": "mustang",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8417",
+        "ol",
+        "1"
+      ]
+    },
+    "motorman": {
+      "data-frequency": "685",
+      "data-relevance": "147",
+      "data-term": "motorman",
+      "data-encoded-term": "motorman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "685",
+        "ol",
+        "1"
+      ]
+    },
+    "conductor": {
+      "data-frequency": "45668",
+      "data-relevance": "146",
+      "data-term": "conductor",
+      "data-encoded-term": "conductor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "45668",
+        "ol",
+        "1"
+      ]
+    },
+    "jenson": {
+      "data-frequency": "2812",
+      "data-relevance": "145",
+      "data-term": "jenson",
+      "data-encoded-term": "jenson",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2812",
+        "w2v",
+        "1"
+      ]
+    },
+    "jock": {
+      "data-frequency": "10191",
+      "data-relevance": "144",
+      "data-term": "jock",
+      "data-encoded-term": "jock",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10191",
+        "ol",
+        "1"
+      ]
+    },
+    "knight": {
+      "data-frequency": "97953",
+      "data-relevance": "143",
+      "data-term": "knight",
+      "data-encoded-term": "knight",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "97953",
+        "ol",
+        "1"
+      ]
+    },
+    "mate": {
+      "data-frequency": "37602",
+      "data-relevance": "142",
+      "data-term": "mate",
+      "data-encoded-term": "mate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "37602",
+        "w2v",
+        "1"
+      ]
+    },
+    "spaniard": {
+      "data-frequency": "3695",
+      "data-relevance": "141",
+      "data-term": "spaniard",
+      "data-encoded-term": "spaniard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3695",
+        "w2v",
+        "1"
+      ]
+    },
+    "millar": {
+      "data-frequency": "8807",
+      "data-relevance": "140",
+      "data-term": "millar",
+      "data-encoded-term": "millar",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8807",
+        "w2v",
+        "1"
+      ]
+    },
+    "kenseth": {
+      "data-frequency": "919",
+      "data-relevance": "139",
+      "data-term": "kenseth",
+      "data-encoded-term": "kenseth",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "919",
+        "w2v",
+        "1"
+      ]
+    },
+    "trainer": {
+      "data-frequency": "36572",
+      "data-relevance": "138",
+      "data-term": "trainer",
+      "data-encoded-term": "trainer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "36572",
+        "w2v",
+        "1"
+      ]
+    },
+    "uci": {
+      "data-frequency": "12029",
+      "data-relevance": "137",
+      "data-term": "uci",
+      "data-encoded-term": "uci",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12029",
+        "w2v",
+        "1"
+      ]
+    },
+    "pedrosa": {
+      "data-frequency": "2198",
+      "data-relevance": "136",
+      "data-term": "pedrosa",
+      "data-encoded-term": "pedrosa",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2198",
+        "w2v",
+        "1"
+      ]
+    },
+    "trooper": {
+      "data-frequency": "5263",
+      "data-relevance": "135",
+      "data-term": "trooper",
+      "data-encoded-term": "trooper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5263",
+        "ol",
+        "1"
+      ]
+    },
+    "piloting": {
+      "data-frequency": "3557",
+      "data-relevance": "134",
+      "data-term": "piloting",
+      "data-encoded-term": "piloting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3557",
+        "ol",
+        "1"
+      ]
+    },
+    "sebastien": {
+      "data-frequency": "15667",
+      "data-relevance": "133",
+      "data-term": "sebastien",
+      "data-encoded-term": "sebastien",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15667",
+        "w2v",
+        "1"
+      ]
+    },
+    "astana": {
+      "data-frequency": "8633",
+      "data-relevance": "132",
+      "data-term": "astana",
+      "data-encoded-term": "astana",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8633",
+        "w2v",
+        "1"
+      ]
+    },
+    "fastest": {
+      "data-frequency": "46956",
+      "data-relevance": "131",
+      "data-term": "fastest",
+      "data-encoded-term": "fastest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46956",
+        "w2v",
+        "1"
+      ]
+    },
+    "sled": {
+      "data-frequency": "3442",
+      "data-relevance": "130",
+      "data-term": "sled",
+      "data-encoded-term": "sled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3442",
+        "w2v",
+        "1"
+      ]
+    },
+    "yamaha": {
+      "data-frequency": "8347",
+      "data-relevance": "129",
+      "data-term": "yamaha",
+      "data-encoded-term": "yamaha",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8347",
+        "w2v",
+        "1"
+      ]
+    },
+    "indycar": {
+      "data-frequency": "3262",
+      "data-relevance": "128",
+      "data-term": "indycar",
+      "data-encoded-term": "indycar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3262",
+        "w2v",
+        "1"
+      ]
+    },
+    "sébastien": {
+      "data-frequency": "15357",
+      "data-relevance": "127",
+      "data-term": "sébastien",
+      "data-encoded-term": "s%C3%A9bastien",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15357",
+        "w2v",
+        "1"
+      ]
+    },
+    "pilot": {
+      "data-frequency": "106762",
+      "data-relevance": "126",
+      "data-term": "pilot",
+      "data-encoded-term": "pilot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "106762",
+        "ol",
+        "1"
+      ]
+    },
+    "sailor": {
+      "data-frequency": "26302",
+      "data-relevance": "125",
+      "data-term": "sailor",
+      "data-encoded-term": "sailor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26302",
+        "w2v",
+        "1"
+      ]
+    },
+    "athlete": {
+      "data-frequency": "80043",
+      "data-relevance": "124",
+      "data-term": "athlete",
+      "data-encoded-term": "athlete",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80043",
+        "w2v",
+        "1"
+      ]
+    },
+    "winner": {
+      "data-frequency": "234749",
+      "data-relevance": "123",
+      "data-term": "winner",
+      "data-encoded-term": "winner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "234749",
+        "w2v",
+        "1"
+      ]
+    },
+    "toro": {
+      "data-frequency": "12454",
+      "data-relevance": "122",
+      "data-term": "toro",
+      "data-encoded-term": "toro",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12454",
+        "w2v",
+        "1"
+      ]
+    },
+    "basso": {
+      "data-frequency": "3735",
+      "data-relevance": "121",
+      "data-term": "basso",
+      "data-encoded-term": "basso",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3735",
+        "w2v",
+        "1"
+      ]
+    },
+    "mcewen": {
+      "data-frequency": "3753",
+      "data-relevance": "120",
+      "data-term": "mcewen",
+      "data-encoded-term": "mcewen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3753",
+        "w2v",
+        "1"
+      ]
+    },
+    "tomba": {
+      "data-frequency": "638",
+      "data-relevance": "119",
+      "data-term": "tomba",
+      "data-encoded-term": "tomba",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "638",
+        "w2v",
+        "1"
+      ]
+    },
+    "maier": {
+      "data-frequency": "4412",
+      "data-relevance": "118",
+      "data-term": "maier",
+      "data-encoded-term": "maier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4412",
+        "w2v",
+        "1"
+      ]
+    },
+    "lap": {
+      "data-frequency": "29318",
+      "data-relevance": "117",
+      "data-term": "lap",
+      "data-encoded-term": "lap",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "29318",
+        "w2v",
+        "1"
+      ]
+    },
+    "biffle": {
+      "data-frequency": "903",
+      "data-relevance": "116",
+      "data-term": "biffle",
+      "data-encoded-term": "biffle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "903",
+        "w2v",
+        "1"
+      ]
+    },
+    "prix": {
+      "data-frequency": "61371",
+      "data-relevance": "115",
+      "data-term": "prix",
+      "data-encoded-term": "prix",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61371",
+        "w2v",
+        "1"
+      ]
+    },
+    "champ": {
+      "data-frequency": "21341",
+      "data-relevance": "114",
+      "data-term": "champ",
+      "data-encoded-term": "champ",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21341",
+        "w2v",
+        "1"
+      ]
+    },
+    "jumper": {
+      "data-frequency": "12842",
+      "data-relevance": "113",
+      "data-term": "jumper",
+      "data-encoded-term": "jumper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12842",
+        "w2v",
+        "1"
+      ]
+    },
+    "ace": {
+      "data-frequency": "41809",
+      "data-relevance": "112",
+      "data-term": "ace",
+      "data-encoded-term": "ace",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41809",
+        "w2v",
+        "1"
+      ]
+    },
+    "ganassi": {
+      "data-frequency": "1500",
+      "data-relevance": "111",
+      "data-term": "ganassi",
+      "data-encoded-term": "ganassi",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1500",
+        "w2v",
+        "1"
+      ]
+    },
+    "driving": {
+      "data-frequency": "83606",
+      "data-relevance": "110",
+      "data-term": "driving",
+      "data-encoded-term": "driving",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "83606",
+        "ol",
+        "1"
+      ]
+    },
+    "condition": {
+      "data-frequency": "131543",
+      "data-relevance": "109",
+      "data-term": "condition",
+      "data-encoded-term": "condition",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "131543",
+        "ol",
+        "1"
+      ]
+    },
+    "fisichella": {
+      "data-frequency": "694",
+      "data-relevance": "108",
+      "data-term": "fisichella",
+      "data-encoded-term": "fisichella",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "694",
+        "w2v",
+        "1"
+      ]
+    },
+    "lance": {
+      "data-frequency": "41245",
+      "data-relevance": "107",
+      "data-term": "lance",
+      "data-encoded-term": "lance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41245",
+        "w2v",
+        "1"
+      ]
+    },
+    "rower": {
+      "data-frequency": "15282",
+      "data-relevance": "106",
+      "data-term": "rower",
+      "data-encoded-term": "rower",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15282",
+        "w2v",
+        "1"
+      ]
+    },
+    "indy": {
+      "data-frequency": "7823",
+      "data-relevance": "105",
+      "data-term": "indy",
+      "data-encoded-term": "indy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7823",
+        "w2v",
+        "1"
+      ]
+    },
+    "csc": {
+      "data-frequency": "3329",
+      "data-relevance": "104",
+      "data-term": "csc",
+      "data-encoded-term": "csc",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3329",
+        "w2v",
+        "1"
+      ]
+    },
+    "pilotage": {
+      "data-frequency": "533",
+      "data-relevance": "103",
+      "data-term": "pilotage",
+      "data-encoded-term": "pilotage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "533",
+        "ol",
+        "1"
+      ]
+    },
+    "flier": {
+      "data-frequency": "2280",
+      "data-relevance": "102",
+      "data-term": "flier",
+      "data-encoded-term": "flier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2280",
+        "ol",
+        "1"
+      ]
+    },
+    "freestyle": {
+      "data-frequency": "30669",
+      "data-relevance": "101",
+      "data-term": "freestyle",
+      "data-encoded-term": "freestyle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "30669",
+        "w2v",
+        "1"
+      ]
+    },
+    "kamen": {
+      "data-frequency": "6211",
+      "data-relevance": "100",
+      "data-term": "kamen",
+      "data-encoded-term": "kamen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6211",
+        "w2v",
+        "1"
+      ]
+    },
+    "250cc": {
+      "data-frequency": "1386",
+      "data-relevance": "99",
+      "data-term": "250cc",
+      "data-encoded-term": "250cc",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1386",
+        "w2v",
+        "1"
+      ]
+    },
+    "ryder": {
+      "data-frequency": "11759",
+      "data-relevance": "98",
+      "data-term": "ryder",
+      "data-encoded-term": "ryder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11759",
+        "ol",
+        "1"
+      ]
+    },
+    "frenchman": {
+      "data-frequency": "6414",
+      "data-relevance": "97",
+      "data-term": "frenchman",
+      "data-encoded-term": "frenchman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6414",
+        "w2v",
+        "1"
+      ]
+    },
+    "bicycle": {
+      "data-frequency": "33293",
+      "data-relevance": "96",
+      "data-term": "bicycle",
+      "data-encoded-term": "bicycle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33293",
+        "w2v",
+        "1"
+      ]
+    },
+    "renault": {
+      "data-frequency": "11495",
+      "data-relevance": "95",
+      "data-term": "renault",
+      "data-encoded-term": "renault",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11495",
+        "w2v",
+        "1"
+      ]
+    },
+    "escort": {
+      "data-frequency": "22815",
+      "data-relevance": "94",
+      "data-term": "escort",
+      "data-encoded-term": "escort",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22815",
+        "ol",
+        "1"
+      ]
+    },
+    "amendment": {
+      "data-frequency": "41095",
+      "data-relevance": "93",
+      "data-term": "amendment",
+      "data-encoded-term": "amendment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41095",
+        "ol",
+        "1"
+      ]
+    },
+    "schedule": {
+      "data-frequency": "133204",
+      "data-relevance": "92",
+      "data-term": "schedule",
+      "data-encoded-term": "schedule",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "133204",
+        "ol",
+        "1"
+      ]
+    },
+    "endorsement": {
+      "data-frequency": "11299",
+      "data-relevance": "91",
+      "data-term": "endorsement",
+      "data-encoded-term": "endorsement",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11299",
+        "ol",
+        "1"
+      ]
+    },
+    "easy": {
+      "data-frequency": "98934",
+      "data-relevance": "90",
+      "data-term": "easy",
+      "data-encoded-term": "easy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98934",
+        "ol",
+        "1"
+      ]
+    },
+    "counterweight": {
+      "data-frequency": "1319",
+      "data-relevance": "89",
+      "data-term": "counterweight",
+      "data-encoded-term": "counterweight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1319",
+        "ol",
+        "1"
+      ]
+    },
+    "distant": {
+      "data-frequency": "42106",
+      "data-relevance": "88",
+      "data-term": "distant",
+      "data-encoded-term": "distant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42106",
+        "ol",
+        "1"
+      ]
+    },
+    "drive": {
+      "data-frequency": "154104",
+      "data-relevance": "87",
+      "data-term": "drive",
+      "data-encoded-term": "drive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "154104",
+        "ol",
+        "1"
+      ]
+    },
+    "lamp": {
+      "data-frequency": "14141",
+      "data-relevance": "86",
+      "data-term": "lamp",
+      "data-encoded-term": "lamp",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14141",
+        "ol",
+        "1"
+      ]
+    },
+    "addendum": {
+      "data-frequency": "3442",
+      "data-relevance": "85",
+      "data-term": "addendum",
+      "data-encoded-term": "addendum",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3442",
+        "ol",
+        "1"
+      ]
+    },
+    "status": {
+      "data-frequency": "393030",
+      "data-relevance": "84",
+      "data-term": "status",
+      "data-encoded-term": "status",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "393030",
+        "ol",
+        "1"
+      ]
+    },
+    "legislative act": {
+      "data-frequency": "458",
+      "data-relevance": "83",
+      "data-term": "legislative act",
+      "data-encoded-term": "legislative%20act",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "458",
+        "wn",
+        "1"
+      ]
+    },
+    "counterbalance": {
+      "data-frequency": "1761",
+      "data-relevance": "82",
+      "data-term": "counterbalance",
+      "data-encoded-term": "counterbalance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1761",
+        "ol",
+        "1"
+      ]
+    },
+    "railroad train": {
+      "data-frequency": "395",
+      "data-relevance": "81",
+      "data-term": "railroad train",
+      "data-encoded-term": "railroad%20train",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "395",
+        "wn",
+        "1"
+      ]
+    },
+    "passenger vehicle": {
+      "data-frequency": "503",
+      "data-relevance": "80",
+      "data-term": "passenger vehicle",
+      "data-encoded-term": "passenger%20vehicle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "503",
+        "wn",
+        "1"
+      ]
+    },
+    "date": {
+      "data-frequency": "1103912",
+      "data-relevance": "79",
+      "data-term": "date",
+      "data-encoded-term": "date",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1103912",
+        "ol",
+        "1"
+      ]
+    },
+    "hang glider": {
+      "data-frequency": "827",
+      "data-relevance": "78",
+      "data-term": "hang glider",
+      "data-encoded-term": "hang%20glider",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "827",
+        "wn",
+        "1"
+      ]
+    },
+    "cavalier": {
+      "data-frequency": "8481",
+      "data-relevance": "77",
+      "data-term": "cavalier",
+      "data-encoded-term": "cavalier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8481",
+        "ol",
+        "1"
+      ]
+    },
+    "ridder": {
+      "data-frequency": "3285",
+      "data-relevance": "76",
+      "data-term": "ridder",
+      "data-encoded-term": "ridder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3285",
+        "ol",
+        "1"
+      ]
+    },
+    "annex": {
+      "data-frequency": "19212",
+      "data-relevance": "75",
+      "data-term": "annex",
+      "data-encoded-term": "annex",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19212",
+        "ol",
+        "1"
+      ]
+    },
+    "addition": {
+      "data-frequency": "401506",
+      "data-relevance": "74",
+      "data-term": "addition",
+      "data-encoded-term": "addition",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "401506",
+        "ol",
+        "1"
+      ]
+    },
+    "moto": {
+      "data-frequency": "6244",
+      "data-relevance": "73",
+      "data-term": "moto",
+      "data-encoded-term": "moto",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6244",
+        "ol",
+        "1"
+      ]
+    },
+    "appendix": {
+      "data-frequency": "34031",
+      "data-relevance": "72",
+      "data-term": "appendix",
+      "data-encoded-term": "appendix",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34031",
+        "ol",
+        "1"
+      ]
+    },
+    "motocross": {
+      "data-frequency": "3711",
+      "data-relevance": "71",
+      "data-term": "motocross",
+      "data-encoded-term": "motocross",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3711",
+        "ol",
+        "1"
+      ]
+    },
+    "horsewoman": {
+      "data-frequency": "313",
+      "data-relevance": "70",
+      "data-term": "horsewoman",
+      "data-encoded-term": "horsewoman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "313",
+        "ol",
+        "1"
+      ]
+    },
+    "pillion": {
+      "data-frequency": "605",
+      "data-relevance": "69",
+      "data-term": "pillion",
+      "data-encoded-term": "pillion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "605",
+        "ol",
+        "1"
+      ]
+    },
+    "saddle": {
+      "data-frequency": "16365",
+      "data-relevance": "68",
+      "data-term": "saddle",
+      "data-encoded-term": "saddle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16365",
+        "ol",
+        "1"
+      ]
+    },
+    "snowboarder": {
+      "data-frequency": "1810",
+      "data-relevance": "67",
+      "data-term": "snowboarder",
+      "data-encoded-term": "snowboarder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1810",
+        "ol",
+        "1"
+      ]
+    },
+    "dressage": {
+      "data-frequency": "2697",
+      "data-relevance": "66",
+      "data-term": "dressage",
+      "data-encoded-term": "dressage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2697",
+        "ol",
+        "1"
+      ]
+    },
+    "skateboarder": {
+      "data-frequency": "1414",
+      "data-relevance": "65",
+      "data-term": "skateboarder",
+      "data-encoded-term": "skateboarder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1414",
+        "ol",
+        "1"
+      ]
+    },
+    "steed": {
+      "data-frequency": "3364",
+      "data-relevance": "64",
+      "data-term": "steed",
+      "data-encoded-term": "steed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3364",
+        "ol",
+        "1"
+      ]
+    },
+    "domestique": {
+      "data-frequency": "473",
+      "data-relevance": "63",
+      "data-term": "domestique",
+      "data-encoded-term": "domestique",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "473",
+        "ol",
+        "1"
+      ]
+    },
+    "triathlete": {
+      "data-frequency": "1803",
+      "data-relevance": "62",
+      "data-term": "triathlete",
+      "data-encoded-term": "triathlete",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1803",
+        "ol",
+        "1"
+      ]
+    },
+    "paddler": {
+      "data-frequency": "288",
+      "data-relevance": "61",
+      "data-term": "paddler",
+      "data-encoded-term": "paddler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "288",
+        "ol",
+        "1"
+      ]
+    },
+    "reiner": {
+      "data-frequency": "5120",
+      "data-relevance": "60",
+      "data-term": "reiner",
+      "data-encoded-term": "reiner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5120",
+        "ol",
+        "1"
+      ]
+    },
+    "hinault": {
+      "data-frequency": "537",
+      "data-relevance": "59",
+      "data-term": "hinault",
+      "data-encoded-term": "hinault",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "537",
+        "ol",
+        "1"
+      ]
+    },
+    "stallion": {
+      "data-frequency": "8437",
+      "data-relevance": "58",
+      "data-term": "stallion",
+      "data-encoded-term": "stallion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8437",
+        "ol",
+        "1"
+      ]
+    },
+    "pantani": {
+      "data-frequency": "321",
+      "data-relevance": "57",
+      "data-term": "pantani",
+      "data-encoded-term": "pantani",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "321",
+        "w2v",
+        "1"
+      ]
+    },
+    "gelding": {
+      "data-frequency": "1352",
+      "data-relevance": "56",
+      "data-term": "gelding",
+      "data-encoded-term": "gelding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1352",
+        "ol",
+        "1"
+      ]
+    },
+    "raikkonen": {
+      "data-frequency": "969",
+      "data-relevance": "55",
+      "data-term": "raikkonen",
+      "data-encoded-term": "raikkonen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "969",
+        "w2v",
+        "1"
+      ]
+    },
+    "junqueira": {
+      "data-frequency": "1081",
+      "data-relevance": "54",
+      "data-term": "junqueira",
+      "data-encoded-term": "junqueira",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1081",
+        "w2v",
+        "1"
+      ]
+    },
+    "cuche": {
+      "data-frequency": "564",
+      "data-relevance": "53",
+      "data-term": "cuche",
+      "data-encoded-term": "cuche",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "564",
+        "w2v",
+        "1"
+      ]
+    },
+    "hakkinen": {
+      "data-frequency": "712",
+      "data-relevance": "52",
+      "data-term": "hakkinen",
+      "data-encoded-term": "hakkinen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "712",
+        "w2v",
+        "1"
+      ]
+    },
+    "biaggi": {
+      "data-frequency": "757",
+      "data-relevance": "51",
+      "data-term": "biaggi",
+      "data-encoded-term": "biaggi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "757",
+        "w2v",
+        "1"
+      ]
+    },
+    "cofidis": {
+      "data-frequency": "989",
+      "data-relevance": "50",
+      "data-term": "cofidis",
+      "data-encoded-term": "cofidis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "989",
+        "w2v",
+        "1"
+      ]
+    },
+    "taillight": {
+      "data-frequency": "549",
+      "data-relevance": "49",
+      "data-term": "taillight",
+      "data-encoded-term": "taillight",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "549",
+        "ol",
+        "1"
+      ]
+    },
+    "makinen": {
+      "data-frequency": "1017",
+      "data-relevance": "48",
+      "data-term": "makinen",
+      "data-encoded-term": "makinen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1017",
+        "w2v",
+        "1"
+      ]
+    },
+    "hardtail": {
+      "data-frequency": "96",
+      "data-relevance": "47",
+      "data-term": "hardtail",
+      "data-encoded-term": "hardtail",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "96",
+        "ol",
+        "1"
+      ]
+    },
+    "bicyclist": {
+      "data-frequency": "460",
+      "data-relevance": "46",
+      "data-term": "bicyclist",
+      "data-encoded-term": "bicyclist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "460",
+        "ol",
+        "1"
+      ]
+    },
+    "cadel": {
+      "data-frequency": "562",
+      "data-relevance": "45",
+      "data-term": "cadel",
+      "data-encoded-term": "cadel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "562",
+        "ol",
+        "1"
+      ]
+    },
+    "manxman": {
+      "data-frequency": "437",
+      "data-relevance": "44",
+      "data-term": "manxman",
+      "data-encoded-term": "manxman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "437",
+        "ol",
+        "1"
+      ]
+    },
+    "kermesse": {
+      "data-frequency": "231",
+      "data-relevance": "43",
+      "data-term": "kermesse",
+      "data-encoded-term": "kermesse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "231",
+        "ol",
+        "1"
+      ]
+    },
+    "downhiller": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "downhiller",
+      "data-encoded-term": "downhiller",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "gallopin": {
+      "data-frequency": "287",
+      "data-relevance": "41",
+      "data-term": "gallopin",
+      "data-encoded-term": "gallopin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "287",
+        "ol",
+        "1"
+      ]
+    },
+    "reinsman": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "reinsman",
+      "data-encoded-term": "reinsman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "showjumping": {
+      "data-frequency": "244",
+      "data-relevance": "39",
+      "data-term": "showjumping",
+      "data-encoded-term": "showjumping",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "244",
+        "ol",
+        "1"
+      ]
+    },
+    "equestrienne": {
+      "data-frequency": "116",
+      "data-relevance": "38",
+      "data-term": "equestrienne",
+      "data-encoded-term": "equestrienne",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "116",
+        "ol",
+        "1"
+      ]
+    },
+    "estrapade": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "estrapade",
+      "data-encoded-term": "estrapade",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "steeplechaser": {
+      "data-frequency": "278",
+      "data-relevance": "36",
+      "data-term": "steeplechaser",
+      "data-encoded-term": "steeplechaser",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "278",
+        "ol",
+        "1"
+      ]
+    },
+    "mountain bike": {
+      "data-frequency": "4154",
+      "data-relevance": "35",
+      "data-term": "mountain bike",
+      "data-encoded-term": "mountain%20bike",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4154",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "racegoer": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "racegoer",
+      "data-encoded-term": "racegoer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "waite": {
+      "data-frequency": "6190",
+      "data-relevance": "33",
+      "data-term": "waite",
+      "data-encoded-term": "waite",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6190",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "mountain biker": {
+      "data-frequency": "510",
+      "data-relevance": "32",
+      "data-term": "mountain biker",
+      "data-encoded-term": "mountain%20biker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "510",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "eugene": {
+      "data-frequency": "82395",
+      "data-relevance": "31",
+      "data-term": "eugene",
+      "data-encoded-term": "eugene",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "82395",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "caster": {
+      "data-frequency": "1617",
+      "data-relevance": "30",
+      "data-term": "caster",
+      "data-encoded-term": "caster",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1617",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cargo": {
+      "data-frequency": "49572",
+      "data-relevance": "29",
+      "data-term": "cargo",
+      "data-encoded-term": "cargo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "49572",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "page": {
+      "data-frequency": "1167138",
+      "data-relevance": "28",
+      "data-term": "page",
+      "data-encoded-term": "page",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1167138",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cart": {
+      "data-frequency": "12865",
+      "data-relevance": "27",
+      "data-term": "cart",
+      "data-encoded-term": "cart",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "12865",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "insecure": {
+      "data-frequency": "5547",
+      "data-relevance": "26",
+      "data-term": "insecure",
+      "data-encoded-term": "insecure",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5547",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "weaker": {
+      "data-frequency": "12129",
+      "data-relevance": "25",
+      "data-term": "weaker",
+      "data-encoded-term": "weaker",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "12129",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "strong": {
+      "data-frequency": "266007",
+      "data-relevance": "24",
+      "data-term": "strong",
+      "data-encoded-term": "strong",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "266007",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ruger": {
+      "data-frequency": "1261",
+      "data-relevance": "23",
+      "data-term": "ruger",
+      "data-encoded-term": "ruger",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1261",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "customer": {
+      "data-frequency": "32536",
+      "data-relevance": "22",
+      "data-term": "customer",
+      "data-encoded-term": "customer",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "32536",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "owner": {
+      "data-frequency": "257388",
+      "data-relevance": "21",
+      "data-term": "owner",
+      "data-encoded-term": "owner",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "257388",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "factory": {
+      "data-frequency": "116517",
+      "data-relevance": "20",
+      "data-term": "factory",
+      "data-encoded-term": "factory",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "116517",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lord": {
+      "data-frequency": "200039",
+      "data-relevance": "19",
+      "data-term": "lord",
+      "data-encoded-term": "lord",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "200039",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "saber": {
+      "data-frequency": "5720",
+      "data-relevance": "18",
+      "data-term": "saber",
+      "data-encoded-term": "saber",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5720",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "hunter": {
+      "data-frequency": "101332",
+      "data-relevance": "17",
+      "data-term": "hunter",
+      "data-encoded-term": "hunter",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "101332",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "actor": {
+      "data-frequency": "230916",
+      "data-relevance": "16",
+      "data-term": "actor",
+      "data-encoded-term": "actor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "230916",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "berserker": {
+      "data-frequency": "824",
+      "data-relevance": "15",
+      "data-term": "berserker",
+      "data-encoded-term": "berserker",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "824",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "policy": {
+      "data-frequency": "234718",
+      "data-relevance": "14",
+      "data-term": "policy",
+      "data-encoded-term": "policy",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "234718",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "rodeo": {
+      "data-frequency": "8631",
+      "data-relevance": "13",
+      "data-term": "rodeo",
+      "data-encoded-term": "rodeo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8631",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "gps": {
+      "data-frequency": "14214",
+      "data-relevance": "12",
+      "data-term": "gps",
+      "data-encoded-term": "gps",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "14214",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "medusa": {
+      "data-frequency": "4464",
+      "data-relevance": "11",
+      "data-term": "medusa",
+      "data-encoded-term": "medusa",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4464",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "distributor": {
+      "data-frequency": "32706",
+      "data-relevance": "10",
+      "data-term": "distributor",
+      "data-encoded-term": "distributor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "32706",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "villains": {
+      "data-frequency": "13648",
+      "data-relevance": "9",
+      "data-term": "villains",
+      "data-encoded-term": "villains",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "13648",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "dragon": {
+      "data-frequency": "71830",
+      "data-relevance": "8",
+      "data-term": "dragon",
+      "data-encoded-term": "dragon",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "71830",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "watcher": {
+      "data-frequency": "2605",
+      "data-relevance": "7",
+      "data-term": "watcher",
+      "data-encoded-term": "watcher",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2605",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "self": {
+      "data-frequency": "310351",
+      "data-relevance": "6",
+      "data-term": "self",
+      "data-encoded-term": "self",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "310351",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "golem": {
+      "data-frequency": "1820",
+      "data-relevance": "5",
+      "data-term": "golem",
+      "data-encoded-term": "golem",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1820",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "attendee": {
+      "data-frequency": "1294",
+      "data-relevance": "4",
+      "data-term": "attendee",
+      "data-encoded-term": "attendee",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1294",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "support": {
+      "data-frequency": "483509",
+      "data-relevance": "3",
+      "data-term": "support",
+      "data-encoded-term": "support",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "483509",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "drink": {
+      "data-frequency": "48851",
+      "data-relevance": "2",
+      "data-term": "drink",
+      "data-encoded-term": "drink",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "48851",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lancer": {
+      "data-frequency": "4391",
+      "data-relevance": "1",
+      "data-term": "lancer",
+      "data-encoded-term": "lancer",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4391",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "tamamo": {
+      "data-frequency": "70",
+      "data-relevance": "0",
+      "data-term": "tamamo",
+      "data-encoded-term": "tamamo",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "70",
+        "reddit-slashes",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "rider",
+      "riderless"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The riders unsaddled after the race.",
+        "ru": "После забега всадники спешились."
+      },
+      {
+        "en": "Blown clouds of dust choked the riders.",
+        "ru": "Гонимые ветром облака пыли не давали всадникам дышать."
+      },
+      {
+        "en": "Watch out for bike riders while driving.",
+        "ru": "Когда ведёшь машину, следи за велосипедистами."
+      },
+      {
+        "en": "Horses and riders were completely done up.",
+        "ru": "Лошади и всадники были совершенно вымотаны."
+      },
+      {
+        "en": "When all the riders have saddled up, we can set off.",
+        "ru": "Мы сможем отправиться в путь, как только все наездники оседлают коней."
+      },
+      {
+        "en": "Her success has stamped her as one of the country's top riders.",
+        "ru": "Её победа утвердила за ней славу одной из лучших наездниц страны."
+      },
+      {
+        "en": "Riders have to learn to handle their machines in all conditions.",
+        "ru": "Мотоциклисты должны научиться управлять своими машинами в любых условиях."
+      },
+      {
+        "en": "The mounted riders look striking in their red coats and white breeches.",
+        "ru": "Всадники эффектно выглядели в своих красных плащах и белых бриджах."
+      },
+      {
+        "en": "Some horses are specially trained to buck their riders off, to amuse the crowd at an outdoor performance.",
+        "ru": "Некоторых лошадей специально натаскивают, чтобы они брыкались - зрители это очень любят."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "rider"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "rider",
+      "riderless"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "runner",
+      "racer",
+      "horse",
+      "cycling",
+      "driver",
+      "traveller",
+      "cyclist",
+      "rider",
+      "bike",
+      "drivers",
+      "traveler",
+      "passenger"
+    ]
+  }
+}
