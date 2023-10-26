@@ -1,0 +1,5344 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "peasant": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/peasants/n/,/c/en/peasant/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/peasants/n",
+          "@type": "Node",
+          "label": "peasants",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/peasants"
+        },
+        "end": {
+          "@id": "/c/en/peasant",
+          "@type": "Node",
+          "label": "peasant",
+          "language": "en",
+          "term": "/c/en/peasant"
+        }
+      },
+      "holodomor": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/holodomor/n/,/c/en/peasants/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/holodomor/n",
+          "@type": "Node",
+          "label": "holodomor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/holodomor"
+        },
+        "end": {
+          "@id": "/c/en/peasants",
+          "@type": "Node",
+          "label": "peasants",
+          "language": "en",
+          "term": "/c/en/peasants"
+        }
+      },
+      "lord": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/lord/,/c/en/peasants/]",
+        "weight": 0.16999999999999993,
+        "start": {
+          "@id": "/c/en/lord",
+          "@type": "Node",
+          "label": "lord",
+          "language": "en",
+          "term": "/c/en/lord"
+        },
+        "end": {
+          "@id": "/c/en/peasants",
+          "@type": "Node",
+          "label": "peasants",
+          "language": "en",
+          "term": "/c/en/peasants"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "peasant": {
+        "@id": "/a/[/r/FormOf/,/c/en/peasants/,/c/en/peasant/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/peasants",
+          "@type": "Node",
+          "label": "peasants",
+          "language": "en",
+          "term": "/c/en/peasants"
+        },
+        "end": {
+          "@id": "/c/en/peasant/n",
+          "@type": "Node",
+          "label": "peasant",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/peasant"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "farmers": {
+      "data-frequency": "65322",
+      "data-relevance": "369",
+      "data-term": "farmers",
+      "data-encoded-term": "farmers",
+      "data-term-stats": [
+        "1",
+        "3.4",
+        "0.000",
+        "65322",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "peasantry": {
+      "data-frequency": "2756",
+      "data-relevance": "368",
+      "data-term": "peasantry",
+      "data-encoded-term": "peasantry",
+      "data-term-stats": [
+        "1",
+        "10.5",
+        "0.000",
+        "2756",
+        "ol,w2v,wn|vec2",
+        "1"
+      ]
+    },
+    "serfs": {
+      "data-frequency": "2380",
+      "data-relevance": "367",
+      "data-term": "serfs",
+      "data-encoded-term": "serfs",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "2380",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "farmer": {
+      "data-frequency": "59036",
+      "data-relevance": "366",
+      "data-term": "farmer",
+      "data-encoded-term": "farmer",
+      "data-term-stats": [
+        "1",
+        "6.5",
+        "0.000",
+        "59036",
+        "ol,w2v,swiki,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "proletariat": {
+      "data-frequency": "2182",
+      "data-relevance": "365",
+      "data-term": "proletariat",
+      "data-encoded-term": "proletariat",
+      "data-term-stats": [
+        "1",
+        "5.8",
+        "0.000",
+        "2182",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "serfdom": {
+      "data-frequency": "1751",
+      "data-relevance": "364",
+      "data-term": "serfdom",
+      "data-encoded-term": "serfdom",
+      "data-term-stats": [
+        "1",
+        "3.9",
+        "0.000",
+        "1751",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "landless": {
+      "data-frequency": "1655",
+      "data-relevance": "363",
+      "data-term": "landless",
+      "data-encoded-term": "landless",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "1655",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "agrarian": {
+      "data-frequency": "9927",
+      "data-relevance": "362",
+      "data-term": "agrarian",
+      "data-encoded-term": "agrarian",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "9927",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bourgeoisie": {
+      "data-frequency": "4424",
+      "data-relevance": "361",
+      "data-term": "bourgeoisie",
+      "data-encoded-term": "bourgeoisie",
+      "data-term-stats": [
+        "1",
+        "3.2",
+        "0.000",
+        "4424",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "barbarian": {
+      "data-frequency": "8522",
+      "data-relevance": "360",
+      "data-term": "barbarian",
+      "data-encoded-term": "barbarian",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "8522",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "revolutionaries": {
+      "data-frequency": "11075",
+      "data-relevance": "359",
+      "data-term": "revolutionaries",
+      "data-encoded-term": "revolutionaries",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "11075",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bucolic": {
+      "data-frequency": "878",
+      "data-relevance": "358",
+      "data-term": "bucolic",
+      "data-encoded-term": "bucolic",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "878",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "provincial": {
+      "data-frequency": "101406",
+      "data-relevance": "357",
+      "data-term": "provincial",
+      "data-encoded-term": "provincial",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "101406",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "boor": {
+      "data-frequency": "443",
+      "data-relevance": "356",
+      "data-term": "boor",
+      "data-encoded-term": "boor",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "443",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "churl": {
+      "data-frequency": "96",
+      "data-relevance": "355",
+      "data-term": "churl",
+      "data-encoded-term": "churl",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "96",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "tyke": {
+      "data-frequency": "357",
+      "data-relevance": "354",
+      "data-term": "tyke",
+      "data-encoded-term": "tyke",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "357",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "goth": {
+      "data-frequency": "4842",
+      "data-relevance": "353",
+      "data-term": "goth",
+      "data-encoded-term": "goth",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "4842",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "commoners": {
+      "data-frequency": "3736",
+      "data-relevance": "352",
+      "data-term": "commoners",
+      "data-encoded-term": "commoners",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "3736",
+        "vec2",
+        "1"
+      ]
+    },
+    "countryside": {
+      "data-frequency": "32901",
+      "data-relevance": "351",
+      "data-term": "countryside",
+      "data-encoded-term": "countryside",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "32901",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "tike": {
+      "data-frequency": "172",
+      "data-relevance": "350",
+      "data-term": "tike",
+      "data-encoded-term": "tike",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "172",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "workers": {
+      "data-frequency": "137211",
+      "data-relevance": "349",
+      "data-term": "workers",
+      "data-encoded-term": "workers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "137211",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "fellah": {
+      "data-frequency": "218",
+      "data-relevance": "348",
+      "data-term": "fellah",
+      "data-encoded-term": "fellah",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "218",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "slaves": {
+      "data-frequency": "29225",
+      "data-relevance": "347",
+      "data-term": "slaves",
+      "data-encoded-term": "slaves",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "29225",
+        "w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "aristocracy": {
+      "data-frequency": "10051",
+      "data-relevance": "346",
+      "data-term": "aristocracy",
+      "data-encoded-term": "aristocracy",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "10051",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "farming": {
+      "data-frequency": "49442",
+      "data-relevance": "345",
+      "data-term": "farming",
+      "data-encoded-term": "farming",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "49442",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "feudalism": {
+      "data-frequency": "2855",
+      "data-relevance": "344",
+      "data-term": "feudalism",
+      "data-encoded-term": "feudalism",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "2855",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "muzhik": {
+      "data-frequency": "44",
+      "data-relevance": "343",
+      "data-term": "muzhik",
+      "data-encoded-term": "muzhik",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "44",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "villagers": {
+      "data-frequency": "17115",
+      "data-relevance": "342",
+      "data-term": "villagers",
+      "data-encoded-term": "villagers",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "17115",
+        "vec2",
+        "1"
+      ]
+    },
+    "mujik": {
+      "data-frequency": "-1",
+      "data-relevance": "341",
+      "data-term": "mujik",
+      "data-encoded-term": "mujik",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "peasant farmers": {
+      "data-frequency": "425",
+      "data-relevance": "340",
+      "data-term": "peasant farmers",
+      "data-encoded-term": "peasant%20farmers",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "425",
+        "vec2",
+        "1"
+      ]
+    },
+    "peasant": {
+      "data-frequency": "16258",
+      "data-relevance": "339",
+      "data-term": "peasant",
+      "data-encoded-term": "peasant",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "16258",
+        "vec2",
+        "1"
+      ]
+    },
+    "capitalists": {
+      "data-frequency": "3237",
+      "data-relevance": "338",
+      "data-term": "capitalists",
+      "data-encoded-term": "capitalists",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "3237",
+        "vec2",
+        "1"
+      ]
+    },
+    "agricultural laborer": {
+      "data-frequency": "67",
+      "data-relevance": "337",
+      "data-term": "agricultural laborer",
+      "data-encoded-term": "agricultural%20laborer",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "67",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "agrarian reform": {
+      "data-frequency": "1117",
+      "data-relevance": "336",
+      "data-term": "agrarian reform",
+      "data-encoded-term": "agrarian%20reform",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1117",
+        "vec2",
+        "1"
+      ]
+    },
+    "herders": {
+      "data-frequency": "1444",
+      "data-relevance": "335",
+      "data-term": "herders",
+      "data-encoded-term": "herders",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1444",
+        "vec2",
+        "1"
+      ]
+    },
+    "aristocrats": {
+      "data-frequency": "4550",
+      "data-relevance": "334",
+      "data-term": "aristocrats",
+      "data-encoded-term": "aristocrats",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "4550",
+        "vec2",
+        "1"
+      ]
+    },
+    "transnational corporations": {
+      "data-frequency": "1602",
+      "data-relevance": "333",
+      "data-term": "transnational corporations",
+      "data-encoded-term": "transnational%20corporations",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1602",
+        "vec2",
+        "1"
+      ]
+    },
+    "bolivians": {
+      "data-frequency": "324",
+      "data-relevance": "332",
+      "data-term": "bolivians",
+      "data-encoded-term": "bolivians",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "324",
+        "vec2",
+        "1"
+      ]
+    },
+    "unemployed": {
+      "data-frequency": "11223",
+      "data-relevance": "331",
+      "data-term": "unemployed",
+      "data-encoded-term": "unemployed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11223",
+        "w2v",
+        "1"
+      ]
+    },
+    "slum dwellers": {
+      "data-frequency": "559",
+      "data-relevance": "330",
+      "data-term": "slum dwellers",
+      "data-encoded-term": "slum%20dwellers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "559",
+        "vec2",
+        "1"
+      ]
+    },
+    "subsistence farmers": {
+      "data-frequency": "500",
+      "data-relevance": "329",
+      "data-term": "subsistence farmers",
+      "data-encoded-term": "subsistence%20farmers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "500",
+        "vec2",
+        "1"
+      ]
+    },
+    "feudal": {
+      "data-frequency": "14146",
+      "data-relevance": "328",
+      "data-term": "feudal",
+      "data-encoded-term": "feudal",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "14146",
+        "vec2",
+        "1"
+      ]
+    },
+    "traditional": {
+      "data-frequency": "254913",
+      "data-relevance": "327",
+      "data-term": "traditional",
+      "data-encoded-term": "traditional",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "254913",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "sharecropper": {
+      "data-frequency": "500",
+      "data-relevance": "326",
+      "data-term": "sharecropper",
+      "data-encoded-term": "sharecropper",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "500",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "tribesmen": {
+      "data-frequency": "2758",
+      "data-relevance": "325",
+      "data-term": "tribesmen",
+      "data-encoded-term": "tribesmen",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2758",
+        "vec2",
+        "1"
+      ]
+    },
+    "cultivators": {
+      "data-frequency": "3573",
+      "data-relevance": "324",
+      "data-term": "cultivators",
+      "data-encoded-term": "cultivators",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "3573",
+        "vec2",
+        "1"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "323",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2451433",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "servants": {
+      "data-frequency": "36738",
+      "data-relevance": "322",
+      "data-term": "servants",
+      "data-encoded-term": "servants",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "36738",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "tribals": {
+      "data-frequency": "30831",
+      "data-relevance": "321",
+      "data-term": "tribals",
+      "data-encoded-term": "tribals",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "30831",
+        "vec2",
+        "1"
+      ]
+    },
+    "mestizo": {
+      "data-frequency": "1646",
+      "data-relevance": "320",
+      "data-term": "mestizo",
+      "data-encoded-term": "mestizo",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "1646",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "masses": {
+      "data-frequency": "23412",
+      "data-relevance": "319",
+      "data-term": "masses",
+      "data-encoded-term": "masses",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "23412",
+        "vec2",
+        "1"
+      ]
+    },
+    "class": {
+      "data-frequency": "841896",
+      "data-relevance": "318",
+      "data-term": "class",
+      "data-encoded-term": "class",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "841896",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "migrant workers": {
+      "data-frequency": "2240",
+      "data-relevance": "317",
+      "data-term": "migrant workers",
+      "data-encoded-term": "migrant%20workers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2240",
+        "vec2",
+        "1"
+      ]
+    },
+    "upper castes": {
+      "data-frequency": "2443",
+      "data-relevance": "316",
+      "data-term": "upper castes",
+      "data-encoded-term": "upper%20castes",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2443",
+        "vec2",
+        "1"
+      ]
+    },
+    "common": {
+      "data-frequency": "369700",
+      "data-relevance": "315",
+      "data-term": "common",
+      "data-encoded-term": "common",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "369700",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "soldiers": {
+      "data-frequency": "126871",
+      "data-relevance": "314",
+      "data-term": "soldiers",
+      "data-encoded-term": "soldiers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "126871",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "colonialists": {
+      "data-frequency": "780",
+      "data-relevance": "313",
+      "data-term": "colonialists",
+      "data-encoded-term": "colonialists",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "780",
+        "vec2",
+        "1"
+      ]
+    },
+    "zapatistas": {
+      "data-frequency": "687",
+      "data-relevance": "312",
+      "data-term": "zapatistas",
+      "data-encoded-term": "zapatistas",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "687",
+        "vec2",
+        "1"
+      ]
+    },
+    "indigenous peoples": {
+      "data-frequency": "15305",
+      "data-relevance": "311",
+      "data-term": "indigenous peoples",
+      "data-encoded-term": "indigenous%20peoples",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "15305",
+        "vec2",
+        "1"
+      ]
+    },
+    "poor": {
+      "data-frequency": "164285",
+      "data-relevance": "310",
+      "data-term": "poor",
+      "data-encoded-term": "poor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "164285",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lower": {
+      "data-frequency": "292854",
+      "data-relevance": "309",
+      "data-term": "lower",
+      "data-encoded-term": "lower",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "292854",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "communists": {
+      "data-frequency": "19322",
+      "data-relevance": "308",
+      "data-term": "communists",
+      "data-encoded-term": "communists",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "19322",
+        "vec2",
+        "1"
+      ]
+    },
+    "imperialists": {
+      "data-frequency": "914",
+      "data-relevance": "307",
+      "data-term": "imperialists",
+      "data-encoded-term": "imperialists",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "914",
+        "vec2",
+        "1"
+      ]
+    },
+    "guarani": {
+      "data-frequency": "5091",
+      "data-relevance": "306",
+      "data-term": "guarani",
+      "data-encoded-term": "guarani",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "5091",
+        "vec2",
+        "1"
+      ]
+    },
+    "peons": {
+      "data-frequency": "1073",
+      "data-relevance": "305",
+      "data-term": "peons",
+      "data-encoded-term": "peons",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1073",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "smallfolk": {
+      "data-frequency": "-1",
+      "data-relevance": "304",
+      "data-term": "smallfolk",
+      "data-encoded-term": "smallfolk",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "working": {
+      "data-frequency": "461819",
+      "data-relevance": "303",
+      "data-term": "working",
+      "data-encoded-term": "working",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "461819",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lords": {
+      "data-frequency": "39557",
+      "data-relevance": "302",
+      "data-term": "lords",
+      "data-encoded-term": "lords",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "39557",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "oppressed": {
+      "data-frequency": "5301",
+      "data-relevance": "301",
+      "data-term": "oppressed",
+      "data-encoded-term": "oppressed",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "5301",
+        "vec2",
+        "1"
+      ]
+    },
+    "oxen": {
+      "data-frequency": "3586",
+      "data-relevance": "300",
+      "data-term": "oxen",
+      "data-encoded-term": "oxen",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "3586",
+        "vec2",
+        "1"
+      ]
+    },
+    "guatemalans": {
+      "data-frequency": "38198",
+      "data-relevance": "299",
+      "data-term": "guatemalans",
+      "data-encoded-term": "guatemalans",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "38198",
+        "vec2",
+        "1"
+      ]
+    },
+    "trade unionists": {
+      "data-frequency": "8800",
+      "data-relevance": "298",
+      "data-term": "trade unionists",
+      "data-encoded-term": "trade%20unionists",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "8800",
+        "vec2",
+        "1"
+      ]
+    },
+    "citizens": {
+      "data-frequency": "109326",
+      "data-relevance": "297",
+      "data-term": "citizens",
+      "data-encoded-term": "citizens",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "109326",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "surfs": {
+      "data-frequency": "19653",
+      "data-relevance": "296",
+      "data-term": "surfs",
+      "data-encoded-term": "surfs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "19653",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pigs": {
+      "data-frequency": "17337",
+      "data-relevance": "295",
+      "data-term": "pigs",
+      "data-encoded-term": "pigs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17337",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "land": {
+      "data-frequency": "601246",
+      "data-relevance": "294",
+      "data-term": "land",
+      "data-encoded-term": "land",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "601246",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "barrios": {
+      "data-frequency": "6740",
+      "data-relevance": "293",
+      "data-term": "barrios",
+      "data-encoded-term": "barrios",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "6740",
+        "vec2",
+        "1"
+      ]
+    },
+    "tenant farmer": {
+      "data-frequency": "510",
+      "data-relevance": "292",
+      "data-term": "tenant farmer",
+      "data-encoded-term": "tenant%20farmer",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "510",
+        "wiki",
+        "1"
+      ]
+    },
+    "upper caste": {
+      "data-frequency": "2443",
+      "data-relevance": "291",
+      "data-term": "upper caste",
+      "data-encoded-term": "upper%20caste",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2443",
+        "vec2",
+        "1"
+      ]
+    },
+    "weavers": {
+      "data-frequency": "29106",
+      "data-relevance": "290",
+      "data-term": "weavers",
+      "data-encoded-term": "weavers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "29106",
+        "vec2",
+        "1"
+      ]
+    },
+    "militia": {
+      "data-frequency": "31955",
+      "data-relevance": "289",
+      "data-term": "militia",
+      "data-encoded-term": "militia",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "31955",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "intellectuals": {
+      "data-frequency": "13256",
+      "data-relevance": "288",
+      "data-term": "intellectuals",
+      "data-encoded-term": "intellectuals",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "13256",
+        "vec2",
+        "1"
+      ]
+    },
+    "communes": {
+      "data-frequency": "68684",
+      "data-relevance": "287",
+      "data-term": "communes",
+      "data-encoded-term": "communes",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "68684",
+        "vec2",
+        "1"
+      ]
+    },
+    "womenfolk": {
+      "data-frequency": "263",
+      "data-relevance": "286",
+      "data-term": "womenfolk",
+      "data-encoded-term": "womenfolk",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "263",
+        "vec2",
+        "1"
+      ]
+    },
+    "colonists": {
+      "data-frequency": "11111",
+      "data-relevance": "285",
+      "data-term": "colonists",
+      "data-encoded-term": "colonists",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "11111",
+        "vec2",
+        "1"
+      ]
+    },
+    "migrant laborers": {
+      "data-frequency": "961",
+      "data-relevance": "284",
+      "data-term": "migrant laborers",
+      "data-encoded-term": "migrant%20laborers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "961",
+        "vec2",
+        "1"
+      ]
+    },
+    "laborers": {
+      "data-frequency": "9037",
+      "data-relevance": "283",
+      "data-term": "laborers",
+      "data-encoded-term": "laborers",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "9037",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "armies": {
+      "data-frequency": "33341",
+      "data-relevance": "282",
+      "data-term": "armies",
+      "data-encoded-term": "armies",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "33341",
+        "vec2",
+        "1"
+      ]
+    },
+    "dalits": {
+      "data-frequency": "3138",
+      "data-relevance": "281",
+      "data-term": "dalits",
+      "data-encoded-term": "dalits",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "3138",
+        "vec2",
+        "1"
+      ]
+    },
+    "bolsheviks": {
+      "data-frequency": "5382",
+      "data-relevance": "280",
+      "data-term": "bolsheviks",
+      "data-encoded-term": "bolsheviks",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "5382",
+        "vec2",
+        "1"
+      ]
+    },
+    "agricultural": {
+      "data-frequency": "125954",
+      "data-relevance": "279",
+      "data-term": "agricultural",
+      "data-encoded-term": "agricultural",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "125954",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "monks": {
+      "data-frequency": "26873",
+      "data-relevance": "278",
+      "data-term": "monks",
+      "data-encoded-term": "monks",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "26873",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "low": {
+      "data-frequency": "378364",
+      "data-relevance": "277",
+      "data-term": "low",
+      "data-encoded-term": "low",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "378364",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "craftsmen": {
+      "data-frequency": "6802",
+      "data-relevance": "276",
+      "data-term": "craftsmen",
+      "data-encoded-term": "craftsmen",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6802",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "knights": {
+      "data-frequency": "73642",
+      "data-relevance": "275",
+      "data-term": "knights",
+      "data-encoded-term": "knights",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "73642",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "jade": {
+      "data-frequency": "17788",
+      "data-relevance": "274",
+      "data-term": "jade",
+      "data-encoded-term": "jade",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17788",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "population": {
+      "data-frequency": "644905",
+      "data-relevance": "273",
+      "data-term": "population",
+      "data-encoded-term": "population",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "644905",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "folk": {
+      "data-frequency": "109556",
+      "data-relevance": "272",
+      "data-term": "folk",
+      "data-encoded-term": "folk",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "109556",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mapuche": {
+      "data-frequency": "1243",
+      "data-relevance": "271",
+      "data-term": "mapuche",
+      "data-encoded-term": "mapuche",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1243",
+        "vec2",
+        "1"
+      ]
+    },
+    "oligarchs": {
+      "data-frequency": "832",
+      "data-relevance": "270",
+      "data-term": "oligarchs",
+      "data-encoded-term": "oligarchs",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "832",
+        "vec2",
+        "1"
+      ]
+    },
+    "elites": {
+      "data-frequency": "6762",
+      "data-relevance": "269",
+      "data-term": "elites",
+      "data-encoded-term": "elites",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "6762",
+        "vec2",
+        "1"
+      ]
+    },
+    "nicaraguans": {
+      "data-frequency": "31355",
+      "data-relevance": "268",
+      "data-term": "nicaraguans",
+      "data-encoded-term": "nicaraguans",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "31355",
+        "vec2",
+        "1"
+      ]
+    },
+    "colonizers": {
+      "data-frequency": "1333",
+      "data-relevance": "267",
+      "data-term": "colonizers",
+      "data-encoded-term": "colonizers",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1333",
+        "vec2",
+        "1"
+      ]
+    },
+    "slave": {
+      "data-frequency": "45466",
+      "data-relevance": "266",
+      "data-term": "slave",
+      "data-encoded-term": "slave",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "45466",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "nobles": {
+      "data-frequency": "13550",
+      "data-relevance": "265",
+      "data-term": "nobles",
+      "data-encoded-term": "nobles",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "13550",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rural": {
+      "data-frequency": "248373",
+      "data-relevance": "264",
+      "data-term": "rural",
+      "data-encoded-term": "rural",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "248373",
+        "ol",
+        "1"
+      ]
+    },
+    "labourers": {
+      "data-frequency": "8402",
+      "data-relevance": "263",
+      "data-term": "labourers",
+      "data-encoded-term": "labourers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8402",
+        "w2v",
+        "1"
+      ]
+    },
+    "migrant": {
+      "data-frequency": "11010",
+      "data-relevance": "262",
+      "data-term": "migrant",
+      "data-encoded-term": "migrant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11010",
+        "w2v",
+        "1"
+      ]
+    },
+    "indentured": {
+      "data-frequency": "2458",
+      "data-relevance": "261",
+      "data-term": "indentured",
+      "data-encoded-term": "indentured",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2458",
+        "w2v",
+        "1"
+      ]
+    },
+    "marxists": {
+      "data-frequency": "3262",
+      "data-relevance": "260",
+      "data-term": "marxists",
+      "data-encoded-term": "marxists",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3262",
+        "vec2",
+        "1"
+      ]
+    },
+    "exploiters": {
+      "data-frequency": "278",
+      "data-relevance": "259",
+      "data-term": "exploiters",
+      "data-encoded-term": "exploiters",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "278",
+        "vec2",
+        "1"
+      ]
+    },
+    "farmworkers": {
+      "data-frequency": "571",
+      "data-relevance": "258",
+      "data-term": "farmworkers",
+      "data-encoded-term": "farmworkers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "571",
+        "vec2",
+        "1"
+      ]
+    },
+    "aristocratic": {
+      "data-frequency": "11146",
+      "data-relevance": "257",
+      "data-term": "aristocratic",
+      "data-encoded-term": "aristocratic",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "11146",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "slave labor": {
+      "data-frequency": "7432",
+      "data-relevance": "256",
+      "data-term": "slave labor",
+      "data-encoded-term": "slave%20labor",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "7432",
+        "vec2",
+        "1"
+      ]
+    },
+    "nomads": {
+      "data-frequency": "4871",
+      "data-relevance": "255",
+      "data-term": "nomads",
+      "data-encoded-term": "nomads",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "4871",
+        "vec2",
+        "1"
+      ]
+    },
+    "socialists": {
+      "data-frequency": "12538",
+      "data-relevance": "254",
+      "data-term": "socialists",
+      "data-encoded-term": "socialists",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "12538",
+        "vec2",
+        "1"
+      ]
+    },
+    "destitute": {
+      "data-frequency": "3963",
+      "data-relevance": "253",
+      "data-term": "destitute",
+      "data-encoded-term": "destitute",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "3963",
+        "vec2",
+        "1"
+      ]
+    },
+    "moneylenders": {
+      "data-frequency": "753",
+      "data-relevance": "252",
+      "data-term": "moneylenders",
+      "data-encoded-term": "moneylenders",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "753",
+        "vec2",
+        "1"
+      ]
+    },
+    "proletarian": {
+      "data-frequency": "3716",
+      "data-relevance": "251",
+      "data-term": "proletarian",
+      "data-encoded-term": "proletarian",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3716",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rural dwellers": {
+      "data-frequency": "1764",
+      "data-relevance": "250",
+      "data-term": "rural dwellers",
+      "data-encoded-term": "rural%20dwellers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1764",
+        "vec2",
+        "1"
+      ]
+    },
+    "plantations": {
+      "data-frequency": "17567",
+      "data-relevance": "249",
+      "data-term": "plantations",
+      "data-encoded-term": "plantations",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "17567",
+        "vec2",
+        "1"
+      ]
+    },
+    "farm": {
+      "data-frequency": "158828",
+      "data-relevance": "248",
+      "data-term": "farm",
+      "data-encoded-term": "farm",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "158828",
+        "ol",
+        "1"
+      ]
+    },
+    "leftists": {
+      "data-frequency": "1895",
+      "data-relevance": "247",
+      "data-term": "leftists",
+      "data-encoded-term": "leftists",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1895",
+        "vec2",
+        "1"
+      ]
+    },
+    "subsistence": {
+      "data-frequency": "7290",
+      "data-relevance": "246",
+      "data-term": "subsistence",
+      "data-encoded-term": "subsistence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7290",
+        "w2v",
+        "1"
+      ]
+    },
+    "unskilled": {
+      "data-frequency": "2568",
+      "data-relevance": "245",
+      "data-term": "unskilled",
+      "data-encoded-term": "unskilled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2568",
+        "w2v",
+        "1"
+      ]
+    },
+    "religious": {
+      "data-frequency": "202765",
+      "data-relevance": "244",
+      "data-term": "religious",
+      "data-encoded-term": "religious",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "202765",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "beings": {
+      "data-frequency": "23356",
+      "data-relevance": "243",
+      "data-term": "beings",
+      "data-encoded-term": "beings",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "23356",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "industrialists": {
+      "data-frequency": "4042",
+      "data-relevance": "242",
+      "data-term": "industrialists",
+      "data-encoded-term": "industrialists",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4042",
+        "vec2",
+        "1"
+      ]
+    },
+    "industrialization": {
+      "data-frequency": "6066",
+      "data-relevance": "241",
+      "data-term": "industrialization",
+      "data-encoded-term": "industrialization",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "6066",
+        "vec2",
+        "1"
+      ]
+    },
+    "dispossessed": {
+      "data-frequency": "2131",
+      "data-relevance": "240",
+      "data-term": "dispossessed",
+      "data-encoded-term": "dispossessed",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2131",
+        "vec2",
+        "1"
+      ]
+    },
+    "oppressors": {
+      "data-frequency": "927",
+      "data-relevance": "239",
+      "data-term": "oppressors",
+      "data-encoded-term": "oppressors",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "927",
+        "vec2",
+        "1"
+      ]
+    },
+    "serf": {
+      "data-frequency": "854",
+      "data-relevance": "238",
+      "data-term": "serf",
+      "data-encoded-term": "serf",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "854",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "paramilitaries": {
+      "data-frequency": "1415",
+      "data-relevance": "237",
+      "data-term": "paramilitaries",
+      "data-encoded-term": "paramilitaries",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1415",
+        "vec2",
+        "1"
+      ]
+    },
+    "nationalist": {
+      "data-frequency": "34992",
+      "data-relevance": "236",
+      "data-term": "nationalist",
+      "data-encoded-term": "nationalist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "34992",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "socialist": {
+      "data-frequency": "70088",
+      "data-relevance": "235",
+      "data-term": "socialist",
+      "data-encoded-term": "socialist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "70088",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "conscripts": {
+      "data-frequency": "2147",
+      "data-relevance": "234",
+      "data-term": "conscripts",
+      "data-encoded-term": "conscripts",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2147",
+        "vec2",
+        "1"
+      ]
+    },
+    "guerillas": {
+      "data-frequency": "1331",
+      "data-relevance": "233",
+      "data-term": "guerillas",
+      "data-encoded-term": "guerillas",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1331",
+        "vec2",
+        "1"
+      ]
+    },
+    "literacy": {
+      "data-frequency": "29619",
+      "data-relevance": "232",
+      "data-term": "literacy",
+      "data-encoded-term": "literacy",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "29619",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "paddy fields": {
+      "data-frequency": "6319",
+      "data-relevance": "231",
+      "data-term": "paddy fields",
+      "data-encoded-term": "paddy%20fields",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "6319",
+        "vec2",
+        "1"
+      ]
+    },
+    "oligarchy": {
+      "data-frequency": "1662",
+      "data-relevance": "230",
+      "data-term": "oligarchy",
+      "data-encoded-term": "oligarchy",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1662",
+        "vec2",
+        "1"
+      ]
+    },
+    "mafias": {
+      "data-frequency": "249",
+      "data-relevance": "229",
+      "data-term": "mafias",
+      "data-encoded-term": "mafias",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "249",
+        "vec2",
+        "1"
+      ]
+    },
+    "repression": {
+      "data-frequency": "11810",
+      "data-relevance": "228",
+      "data-term": "repression",
+      "data-encoded-term": "repression",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "11810",
+        "vec2",
+        "1"
+      ]
+    },
+    "farmlands": {
+      "data-frequency": "1833",
+      "data-relevance": "227",
+      "data-term": "farmlands",
+      "data-encoded-term": "farmlands",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1833",
+        "vec2",
+        "1"
+      ]
+    },
+    "peasant movement": {
+      "data-frequency": "9020",
+      "data-relevance": "226",
+      "data-term": "peasant movement",
+      "data-encoded-term": "peasant%20movement",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "9020",
+        "wiki",
+        "1"
+      ]
+    },
+    "villages": {
+      "data-frequency": "309906",
+      "data-relevance": "225",
+      "data-term": "villages",
+      "data-encoded-term": "villages",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "309906",
+        "vec2",
+        "1"
+      ]
+    },
+    "neoliberal": {
+      "data-frequency": "1462",
+      "data-relevance": "224",
+      "data-term": "neoliberal",
+      "data-encoded-term": "neoliberal",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1462",
+        "vec2",
+        "1"
+      ]
+    },
+    "shepherds": {
+      "data-frequency": "6871",
+      "data-relevance": "223",
+      "data-term": "shepherds",
+      "data-encoded-term": "shepherds",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "6871",
+        "vec2",
+        "1"
+      ]
+    },
+    "coca": {
+      "data-frequency": "16156",
+      "data-relevance": "222",
+      "data-term": "coca",
+      "data-encoded-term": "coca",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "16156",
+        "vec2",
+        "1"
+      ]
+    },
+    "emperors": {
+      "data-frequency": "12863",
+      "data-relevance": "221",
+      "data-term": "emperors",
+      "data-encoded-term": "emperors",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "12863",
+        "vec2",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "220",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "506299",
+        "swiki",
+        "1"
+      ]
+    },
+    "herdsmen": {
+      "data-frequency": "619",
+      "data-relevance": "219",
+      "data-term": "herdsmen",
+      "data-encoded-term": "herdsmen",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "619",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "slavery": {
+      "data-frequency": "34576",
+      "data-relevance": "218",
+      "data-term": "slavery",
+      "data-encoded-term": "slavery",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "34576",
+        "wiki",
+        "1"
+      ]
+    },
+    "pre-industrial": {
+      "data-frequency": "22134",
+      "data-relevance": "217",
+      "data-term": "pre-industrial",
+      "data-encoded-term": "pre-industrial",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "22134",
+        "wiki",
+        "1"
+      ]
+    },
+    "moujik": {
+      "data-frequency": "-1",
+      "data-relevance": "216",
+      "data-term": "moujik",
+      "data-encoded-term": "moujik",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "cotter": {
+      "data-frequency": "5465",
+      "data-relevance": "215",
+      "data-term": "cotter",
+      "data-encoded-term": "cotter",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5465",
+        "wn",
+        "1"
+      ]
+    },
+    "rustic": {
+      "data-frequency": "6671",
+      "data-relevance": "214",
+      "data-term": "rustic",
+      "data-encoded-term": "rustic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "6671",
+        "wn",
+        "1"
+      ]
+    },
+    "capitalist": {
+      "data-frequency": "11120",
+      "data-relevance": "213",
+      "data-term": "capitalist",
+      "data-encoded-term": "capitalist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11120",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "money": {
+      "data-frequency": "256095",
+      "data-relevance": "212",
+      "data-term": "money",
+      "data-encoded-term": "money",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "256095",
+        "swiki",
+        "1"
+      ]
+    },
+    "sharecroppers": {
+      "data-frequency": "1150",
+      "data-relevance": "211",
+      "data-term": "sharecroppers",
+      "data-encoded-term": "sharecroppers",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1150",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "copyhold": {
+      "data-frequency": "183",
+      "data-relevance": "210",
+      "data-term": "copyhold",
+      "data-encoded-term": "copyhold",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "183",
+        "wiki",
+        "1"
+      ]
+    },
+    "cottar": {
+      "data-frequency": "141",
+      "data-relevance": "209",
+      "data-term": "cottar",
+      "data-encoded-term": "cottar",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "141",
+        "wn",
+        "1"
+      ]
+    },
+    "villain": {
+      "data-frequency": "21033",
+      "data-relevance": "208",
+      "data-term": "villain",
+      "data-encoded-term": "villain",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "21033",
+        "wiki",
+        "1"
+      ]
+    },
+    "socage": {
+      "data-frequency": "133",
+      "data-relevance": "207",
+      "data-term": "socage",
+      "data-encoded-term": "socage",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "133",
+        "wiki",
+        "1"
+      ]
+    },
+    "muzjik": {
+      "data-frequency": "-1",
+      "data-relevance": "206",
+      "data-term": "muzjik",
+      "data-encoded-term": "muzjik",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "quit-rent": {
+      "data-frequency": "2078",
+      "data-relevance": "205",
+      "data-term": "quit-rent",
+      "data-encoded-term": "quit-rent",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2078",
+        "wiki",
+        "1"
+      ]
+    },
+    "bourgeois": {
+      "data-frequency": "10766",
+      "data-relevance": "204",
+      "data-term": "bourgeois",
+      "data-encoded-term": "bourgeois",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "10766",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "villager": {
+      "data-frequency": "3011",
+      "data-relevance": "203",
+      "data-term": "villager",
+      "data-encoded-term": "villager",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3011",
+        "ol",
+        "1"
+      ]
+    },
+    "campesino": {
+      "data-frequency": "454",
+      "data-relevance": "202",
+      "data-term": "campesino",
+      "data-encoded-term": "campesino",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "454",
+        "ol",
+        "1"
+      ]
+    },
+    "gypsy": {
+      "data-frequency": "12622",
+      "data-relevance": "201",
+      "data-term": "gypsy",
+      "data-encoded-term": "gypsy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12622",
+        "w2v",
+        "1"
+      ]
+    },
+    "medieval": {
+      "data-frequency": "112548",
+      "data-relevance": "200",
+      "data-term": "medieval",
+      "data-encoded-term": "medieval",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "112548",
+        "swiki",
+        "1"
+      ]
+    },
+    "middle ages": {
+      "data-frequency": "43315",
+      "data-relevance": "199",
+      "data-term": "middle ages",
+      "data-encoded-term": "middle%20ages",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "43315",
+        "wiki",
+        "1"
+      ]
+    },
+    "mulatto": {
+      "data-frequency": "1588",
+      "data-relevance": "198",
+      "data-term": "mulatto",
+      "data-encoded-term": "mulatto",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1588",
+        "w2v",
+        "1"
+      ]
+    },
+    "ethnic": {
+      "data-frequency": "98915",
+      "data-relevance": "197",
+      "data-term": "ethnic",
+      "data-encoded-term": "ethnic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "98915",
+        "w2v",
+        "1"
+      ]
+    },
+    "immigrant": {
+      "data-frequency": "31393",
+      "data-relevance": "196",
+      "data-term": "immigrant",
+      "data-encoded-term": "immigrant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "31393",
+        "w2v",
+        "1"
+      ]
+    },
+    "populace": {
+      "data-frequency": "8821",
+      "data-relevance": "195",
+      "data-term": "populace",
+      "data-encoded-term": "populace",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8821",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "rebellious": {
+      "data-frequency": "8949",
+      "data-relevance": "194",
+      "data-term": "rebellious",
+      "data-encoded-term": "rebellious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8949",
+        "w2v",
+        "1"
+      ]
+    },
+    "vietnamese": {
+      "data-frequency": "27162",
+      "data-relevance": "193",
+      "data-term": "vietnamese",
+      "data-encoded-term": "vietnamese",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27162",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "nobleman": {
+      "data-frequency": "15255",
+      "data-relevance": "192",
+      "data-term": "nobleman",
+      "data-encoded-term": "nobleman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15255",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "neapolitan": {
+      "data-frequency": "5036",
+      "data-relevance": "191",
+      "data-term": "neapolitan",
+      "data-encoded-term": "neapolitan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5036",
+        "w2v",
+        "1"
+      ]
+    },
+    "rube": {
+      "data-frequency": "2421",
+      "data-relevance": "190",
+      "data-term": "rube",
+      "data-encoded-term": "rube",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2421",
+        "ol",
+        "1"
+      ]
+    },
+    "slovene": {
+      "data-frequency": "10232",
+      "data-relevance": "189",
+      "data-term": "slovene",
+      "data-encoded-term": "slovene",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10232",
+        "w2v",
+        "1"
+      ]
+    },
+    "hick": {
+      "data-frequency": "1556",
+      "data-relevance": "188",
+      "data-term": "hick",
+      "data-encoded-term": "hick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1556",
+        "ol",
+        "1"
+      ]
+    },
+    "hillbilly": {
+      "data-frequency": "2292",
+      "data-relevance": "187",
+      "data-term": "hillbilly",
+      "data-encoded-term": "hillbilly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2292",
+        "ol",
+        "1"
+      ]
+    },
+    "secessionist": {
+      "data-frequency": "2244",
+      "data-relevance": "186",
+      "data-term": "secessionist",
+      "data-encoded-term": "secessionist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2244",
+        "w2v",
+        "1"
+      ]
+    },
+    "hippie": {
+      "data-frequency": "4469",
+      "data-relevance": "185",
+      "data-term": "hippie",
+      "data-encoded-term": "hippie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4469",
+        "w2v",
+        "1"
+      ]
+    },
+    "nomadic": {
+      "data-frequency": "10467",
+      "data-relevance": "184",
+      "data-term": "nomadic",
+      "data-encoded-term": "nomadic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10467",
+        "w2v",
+        "1"
+      ]
+    },
+    "uneducated": {
+      "data-frequency": "1795",
+      "data-relevance": "183",
+      "data-term": "uneducated",
+      "data-encoded-term": "uneducated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1795",
+        "w2v",
+        "1"
+      ]
+    },
+    "rebellion": {
+      "data-frequency": "58372",
+      "data-relevance": "182",
+      "data-term": "rebellion",
+      "data-encoded-term": "rebellion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "58372",
+        "w2v",
+        "1"
+      ]
+    },
+    "afrikaner": {
+      "data-frequency": "2731",
+      "data-relevance": "181",
+      "data-term": "afrikaner",
+      "data-encoded-term": "afrikaner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2731",
+        "w2v",
+        "1"
+      ]
+    },
+    "laborer": {
+      "data-frequency": "3504",
+      "data-relevance": "180",
+      "data-term": "laborer",
+      "data-encoded-term": "laborer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3504",
+        "w2v",
+        "1"
+      ]
+    },
+    "bedouin": {
+      "data-frequency": "3401",
+      "data-relevance": "179",
+      "data-term": "bedouin",
+      "data-encoded-term": "bedouin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3401",
+        "w2v",
+        "1"
+      ]
+    },
+    "yemenite": {
+      "data-frequency": "1623",
+      "data-relevance": "178",
+      "data-term": "yemenite",
+      "data-encoded-term": "yemenite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1623",
+        "w2v",
+        "1"
+      ]
+    },
+    "mongolian": {
+      "data-frequency": "13019",
+      "data-relevance": "177",
+      "data-term": "mongolian",
+      "data-encoded-term": "mongolian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13019",
+        "w2v",
+        "1"
+      ]
+    },
+    "albanian": {
+      "data-frequency": "23649",
+      "data-relevance": "176",
+      "data-term": "albanian",
+      "data-encoded-term": "albanian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23649",
+        "w2v",
+        "1"
+      ]
+    },
+    "mongrel": {
+      "data-frequency": "932",
+      "data-relevance": "175",
+      "data-term": "mongrel",
+      "data-encoded-term": "mongrel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "932",
+        "ol",
+        "1"
+      ]
+    },
+    "manor": {
+      "data-frequency": "49313",
+      "data-relevance": "174",
+      "data-term": "manor",
+      "data-encoded-term": "manor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49313",
+        "wiki",
+        "1"
+      ]
+    },
+    "occupations": {
+      "data-frequency": "14937",
+      "data-relevance": "173",
+      "data-term": "occupations",
+      "data-encoded-term": "occupations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14937",
+        "w2v",
+        "1"
+      ]
+    },
+    "farmworker": {
+      "data-frequency": "324",
+      "data-relevance": "172",
+      "data-term": "farmworker",
+      "data-encoded-term": "farmworker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "324",
+        "wiki",
+        "1"
+      ]
+    },
+    "redneck": {
+      "data-frequency": "1971",
+      "data-relevance": "171",
+      "data-term": "redneck",
+      "data-encoded-term": "redneck",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1971",
+        "ol",
+        "1"
+      ]
+    },
+    "roots": {
+      "data-frequency": "83741",
+      "data-relevance": "170",
+      "data-term": "roots",
+      "data-encoded-term": "roots",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "83741",
+        "w2v",
+        "1"
+      ]
+    },
+    "canarian": {
+      "data-frequency": "1504",
+      "data-relevance": "169",
+      "data-term": "canarian",
+      "data-encoded-term": "canarian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1504",
+        "w2v",
+        "1"
+      ]
+    },
+    "bauer": {
+      "data-frequency": "26335",
+      "data-relevance": "168",
+      "data-term": "bauer",
+      "data-encoded-term": "bauer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26335",
+        "ol",
+        "1"
+      ]
+    },
+    "bosniak": {
+      "data-frequency": "1716",
+      "data-relevance": "167",
+      "data-term": "bosniak",
+      "data-encoded-term": "bosniak",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1716",
+        "w2v",
+        "1"
+      ]
+    },
+    "free tenant": {
+      "data-frequency": "6466",
+      "data-relevance": "166",
+      "data-term": "free tenant",
+      "data-encoded-term": "free%20tenant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6466",
+        "wiki",
+        "1"
+      ]
+    },
+    "leftist": {
+      "data-frequency": "8614",
+      "data-relevance": "165",
+      "data-term": "leftist",
+      "data-encoded-term": "leftist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8614",
+        "w2v",
+        "1"
+      ]
+    },
+    "revolt": {
+      "data-frequency": "34122",
+      "data-relevance": "164",
+      "data-term": "revolt",
+      "data-encoded-term": "revolt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34122",
+        "w2v",
+        "1"
+      ]
+    },
+    "tutsi": {
+      "data-frequency": "650",
+      "data-relevance": "163",
+      "data-term": "tutsi",
+      "data-encoded-term": "tutsi",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "650",
+        "w2v",
+        "1"
+      ]
+    },
+    "revolts": {
+      "data-frequency": "5631",
+      "data-relevance": "162",
+      "data-term": "revolts",
+      "data-encoded-term": "revolts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5631",
+        "w2v",
+        "1"
+      ]
+    },
+    "caucasian": {
+      "data-frequency": "10645",
+      "data-relevance": "161",
+      "data-term": "caucasian",
+      "data-encoded-term": "caucasian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10645",
+        "w2v",
+        "1"
+      ]
+    },
+    "indigenous": {
+      "data-frequency": "66620",
+      "data-relevance": "160",
+      "data-term": "indigenous",
+      "data-encoded-term": "indigenous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66620",
+        "w2v",
+        "1"
+      ]
+    },
+    "seamstress": {
+      "data-frequency": "1882",
+      "data-relevance": "159",
+      "data-term": "seamstress",
+      "data-encoded-term": "seamstress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1882",
+        "w2v",
+        "1"
+      ]
+    },
+    "romani": {
+      "data-frequency": "8923",
+      "data-relevance": "158",
+      "data-term": "romani",
+      "data-encoded-term": "romani",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8923",
+        "w2v",
+        "1"
+      ]
+    },
+    "berber": {
+      "data-frequency": "8112",
+      "data-relevance": "157",
+      "data-term": "berber",
+      "data-encoded-term": "berber",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8112",
+        "w2v",
+        "1"
+      ]
+    },
+    "nationalism": {
+      "data-frequency": "33884",
+      "data-relevance": "156",
+      "data-term": "nationalism",
+      "data-encoded-term": "nationalism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33884",
+        "w2v",
+        "1"
+      ]
+    },
+    "mexican": {
+      "data-frequency": "97258",
+      "data-relevance": "155",
+      "data-term": "mexican",
+      "data-encoded-term": "mexican",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97258",
+        "w2v",
+        "1"
+      ]
+    },
+    "upbringing": {
+      "data-frequency": "7181",
+      "data-relevance": "154",
+      "data-term": "upbringing",
+      "data-encoded-term": "upbringing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7181",
+        "w2v",
+        "1"
+      ]
+    },
+    "independent": {
+      "data-frequency": "477491",
+      "data-relevance": "153",
+      "data-term": "independent",
+      "data-encoded-term": "independent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "477491",
+        "ol",
+        "1"
+      ]
+    },
+    "collar": {
+      "data-frequency": "19569",
+      "data-relevance": "152",
+      "data-term": "collar",
+      "data-encoded-term": "collar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19569",
+        "w2v",
+        "1"
+      ]
+    },
+    "cossack": {
+      "data-frequency": "5531",
+      "data-relevance": "151",
+      "data-term": "cossack",
+      "data-encoded-term": "cossack",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5531",
+        "w2v",
+        "1"
+      ]
+    },
+    "cracker": {
+      "data-frequency": "5022",
+      "data-relevance": "150",
+      "data-term": "cracker",
+      "data-encoded-term": "cracker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5022",
+        "ol",
+        "1"
+      ]
+    },
+    "basque": {
+      "data-frequency": "15168",
+      "data-relevance": "149",
+      "data-term": "basque",
+      "data-encoded-term": "basque",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15168",
+        "w2v",
+        "1"
+      ]
+    },
+    "uprisings": {
+      "data-frequency": "5766",
+      "data-relevance": "148",
+      "data-term": "uprisings",
+      "data-encoded-term": "uprisings",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5766",
+        "w2v",
+        "1"
+      ]
+    },
+    "predominantly": {
+      "data-frequency": "42045",
+      "data-relevance": "147",
+      "data-term": "predominantly",
+      "data-encoded-term": "predominantly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42045",
+        "w2v",
+        "1"
+      ]
+    },
+    "fee simple": {
+      "data-frequency": "419",
+      "data-relevance": "146",
+      "data-term": "fee simple",
+      "data-encoded-term": "fee%20simple",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "419",
+        "wiki",
+        "1"
+      ]
+    },
+    "nobility": {
+      "data-frequency": "37602",
+      "data-relevance": "145",
+      "data-term": "nobility",
+      "data-encoded-term": "nobility",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37602",
+        "w2v",
+        "1"
+      ]
+    },
+    "fascist": {
+      "data-frequency": "14415",
+      "data-relevance": "144",
+      "data-term": "fascist",
+      "data-encoded-term": "fascist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14415",
+        "w2v",
+        "1"
+      ]
+    },
+    "mannerist": {
+      "data-frequency": "1564",
+      "data-relevance": "143",
+      "data-term": "mannerist",
+      "data-encoded-term": "mannerist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1564",
+        "w2v",
+        "1"
+      ]
+    },
+    "ranching": {
+      "data-frequency": "3551",
+      "data-relevance": "142",
+      "data-term": "ranching",
+      "data-encoded-term": "ranching",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3551",
+        "w2v",
+        "1"
+      ]
+    },
+    "revolutionary": {
+      "data-frequency": "78311",
+      "data-relevance": "141",
+      "data-term": "revolutionary",
+      "data-encoded-term": "revolutionary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "78311",
+        "w2v",
+        "1"
+      ]
+    },
+    "hungarian": {
+      "data-frequency": "72285",
+      "data-relevance": "140",
+      "data-term": "hungarian",
+      "data-encoded-term": "hungarian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "72285",
+        "w2v",
+        "1"
+      ]
+    },
+    "unpleasant person": {
+      "data-frequency": "-1",
+      "data-relevance": "139",
+      "data-term": "unpleasant person",
+      "data-encoded-term": "unpleasant%20person",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "disagreeable person": {
+      "data-frequency": "392",
+      "data-relevance": "138",
+      "data-term": "disagreeable person",
+      "data-encoded-term": "disagreeable%20person",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "392",
+        "wn",
+        "1"
+      ]
+    },
+    "landowning": {
+      "data-frequency": "1068",
+      "data-relevance": "137",
+      "data-term": "landowning",
+      "data-encoded-term": "landowning",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1068",
+        "w2v",
+        "1"
+      ]
+    },
+    "agricultural labourer": {
+      "data-frequency": "612",
+      "data-relevance": "136",
+      "data-term": "agricultural labourer",
+      "data-encoded-term": "agricultural%20labourer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "612",
+        "wn",
+        "1"
+      ]
+    },
+    "tibetan": {
+      "data-frequency": "21209",
+      "data-relevance": "135",
+      "data-term": "tibetan",
+      "data-encoded-term": "tibetan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21209",
+        "w2v",
+        "1"
+      ]
+    },
+    "illiterate": {
+      "data-frequency": "4089",
+      "data-relevance": "134",
+      "data-term": "illiterate",
+      "data-encoded-term": "illiterate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4089",
+        "w2v",
+        "1"
+      ]
+    },
+    "beet": {
+      "data-frequency": "2894",
+      "data-relevance": "133",
+      "data-term": "beet",
+      "data-encoded-term": "beet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2894",
+        "w2v",
+        "1"
+      ]
+    },
+    "circassian": {
+      "data-frequency": "2120",
+      "data-relevance": "132",
+      "data-term": "circassian",
+      "data-encoded-term": "circassian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2120",
+        "w2v",
+        "1"
+      ]
+    },
+    "hungarians": {
+      "data-frequency": "6703",
+      "data-relevance": "131",
+      "data-term": "hungarians",
+      "data-encoded-term": "hungarians",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6703",
+        "w2v",
+        "1"
+      ]
+    },
+    "banana": {
+      "data-frequency": "16823",
+      "data-relevance": "130",
+      "data-term": "banana",
+      "data-encoded-term": "banana",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16823",
+        "w2v",
+        "1"
+      ]
+    },
+    "guatemalan": {
+      "data-frequency": "7233",
+      "data-relevance": "129",
+      "data-term": "guatemalan",
+      "data-encoded-term": "guatemalan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7233",
+        "w2v",
+        "1"
+      ]
+    },
+    "mestizos": {
+      "data-frequency": "845",
+      "data-relevance": "128",
+      "data-term": "mestizos",
+      "data-encoded-term": "mestizos",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "845",
+        "w2v",
+        "1"
+      ]
+    },
+    "guerilla": {
+      "data-frequency": "5274",
+      "data-relevance": "127",
+      "data-term": "guerilla",
+      "data-encoded-term": "guerilla",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5274",
+        "w2v",
+        "1"
+      ]
+    },
+    "insurrection": {
+      "data-frequency": "7479",
+      "data-relevance": "126",
+      "data-term": "insurrection",
+      "data-encoded-term": "insurrection",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7479",
+        "w2v",
+        "1"
+      ]
+    },
+    "aristocrat": {
+      "data-frequency": "6968",
+      "data-relevance": "125",
+      "data-term": "aristocrat",
+      "data-encoded-term": "aristocrat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6968",
+        "ol",
+        "1"
+      ]
+    },
+    "bohemian": {
+      "data-frequency": "15388",
+      "data-relevance": "124",
+      "data-term": "bohemian",
+      "data-encoded-term": "bohemian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15388",
+        "w2v",
+        "1"
+      ]
+    },
+    "herder": {
+      "data-frequency": "3787",
+      "data-relevance": "123",
+      "data-term": "herder",
+      "data-encoded-term": "herder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3787",
+        "ol",
+        "1"
+      ]
+    },
+    "herdsman": {
+      "data-frequency": "556",
+      "data-relevance": "122",
+      "data-term": "herdsman",
+      "data-encoded-term": "herdsman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "556",
+        "ol",
+        "1"
+      ]
+    },
+    "colonist": {
+      "data-frequency": "5000",
+      "data-relevance": "121",
+      "data-term": "colonist",
+      "data-encoded-term": "colonist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5000",
+        "ol",
+        "1"
+      ]
+    },
+    "zamindar": {
+      "data-frequency": "1916",
+      "data-relevance": "120",
+      "data-term": "zamindar",
+      "data-encoded-term": "zamindar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1916",
+        "ol",
+        "1"
+      ]
+    },
+    "chicha": {
+      "data-frequency": "1025",
+      "data-relevance": "119",
+      "data-term": "chicha",
+      "data-encoded-term": "chicha",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1025",
+        "ol",
+        "1"
+      ]
+    },
+    "cowherd": {
+      "data-frequency": "637",
+      "data-relevance": "118",
+      "data-term": "cowherd",
+      "data-encoded-term": "cowherd",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "637",
+        "ol",
+        "1"
+      ]
+    },
+    "cacique": {
+      "data-frequency": "1922",
+      "data-relevance": "117",
+      "data-term": "cacique",
+      "data-encoded-term": "cacique",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1922",
+        "ol",
+        "1"
+      ]
+    },
+    "shepherdess": {
+      "data-frequency": "881",
+      "data-relevance": "116",
+      "data-term": "shepherdess",
+      "data-encoded-term": "shepherdess",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "881",
+        "ol",
+        "1"
+      ]
+    },
+    "hussar": {
+      "data-frequency": "1880",
+      "data-relevance": "115",
+      "data-term": "hussar",
+      "data-encoded-term": "hussar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1880",
+        "ol",
+        "1"
+      ]
+    },
+    "goatherd": {
+      "data-frequency": "226",
+      "data-relevance": "114",
+      "data-term": "goatherd",
+      "data-encoded-term": "goatherd",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "highland": {
+      "data-frequency": "34941",
+      "data-relevance": "113",
+      "data-term": "highland",
+      "data-encoded-term": "highland",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34941",
+        "ol",
+        "1"
+      ]
+    },
+    "milkmaid": {
+      "data-frequency": "453",
+      "data-relevance": "112",
+      "data-term": "milkmaid",
+      "data-encoded-term": "milkmaid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "453",
+        "ol",
+        "1"
+      ]
+    },
+    "caudillo": {
+      "data-frequency": "851",
+      "data-relevance": "111",
+      "data-term": "caudillo",
+      "data-encoded-term": "caudillo",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "851",
+        "ol",
+        "1"
+      ]
+    },
+    "burgher": {
+      "data-frequency": "1130",
+      "data-relevance": "110",
+      "data-term": "burgher",
+      "data-encoded-term": "burgher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1130",
+        "ol",
+        "1"
+      ]
+    },
+    "gaucho": {
+      "data-frequency": "2215",
+      "data-relevance": "109",
+      "data-term": "gaucho",
+      "data-encoded-term": "gaucho",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2215",
+        "ol",
+        "1"
+      ]
+    },
+    "conquistadores": {
+      "data-frequency": "748",
+      "data-relevance": "108",
+      "data-term": "conquistadores",
+      "data-encoded-term": "conquistadores",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "748",
+        "ol",
+        "1"
+      ]
+    },
+    "hussite": {
+      "data-frequency": "1028",
+      "data-relevance": "107",
+      "data-term": "hussite",
+      "data-encoded-term": "hussite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1028",
+        "ol",
+        "1"
+      ]
+    },
+    "altiplano": {
+      "data-frequency": "1222",
+      "data-relevance": "106",
+      "data-term": "altiplano",
+      "data-encoded-term": "altiplano",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1222",
+        "ol",
+        "1"
+      ]
+    },
+    "woodcutter": {
+      "data-frequency": "519",
+      "data-relevance": "105",
+      "data-term": "woodcutter",
+      "data-encoded-term": "woodcutter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "519",
+        "ol",
+        "1"
+      ]
+    },
+    "gonds": {
+      "data-frequency": "587",
+      "data-relevance": "104",
+      "data-term": "gonds",
+      "data-encoded-term": "gonds",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "587",
+        "ol",
+        "1"
+      ]
+    },
+    "lowlanders": {
+      "data-frequency": "416",
+      "data-relevance": "103",
+      "data-term": "lowlanders",
+      "data-encoded-term": "lowlanders",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "416",
+        "ol",
+        "1"
+      ]
+    },
+    "aymara": {
+      "data-frequency": "2497",
+      "data-relevance": "102",
+      "data-term": "aymara",
+      "data-encoded-term": "aymara",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2497",
+        "ol",
+        "1"
+      ]
+    },
+    "santal": {
+      "data-frequency": "488",
+      "data-relevance": "101",
+      "data-term": "santal",
+      "data-encoded-term": "santal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "488",
+        "ol",
+        "1"
+      ]
+    },
+    "mendicant": {
+      "data-frequency": "1572",
+      "data-relevance": "100",
+      "data-term": "mendicant",
+      "data-encoded-term": "mendicant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1572",
+        "ol",
+        "1"
+      ]
+    },
+    "manchus": {
+      "data-frequency": "748",
+      "data-relevance": "99",
+      "data-term": "manchus",
+      "data-encoded-term": "manchus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "748",
+        "ol",
+        "1"
+      ]
+    },
+    "land tenure": {
+      "data-frequency": "1417",
+      "data-relevance": "98",
+      "data-term": "land tenure",
+      "data-encoded-term": "land%20tenure",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1417",
+        "wiki",
+        "1"
+      ]
+    },
+    "caballero": {
+      "data-frequency": "5777",
+      "data-relevance": "97",
+      "data-term": "caballero",
+      "data-encoded-term": "caballero",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5777",
+        "ol",
+        "1"
+      ]
+    },
+    "working-class": {
+      "data-frequency": "19442",
+      "data-relevance": "96",
+      "data-term": "working-class",
+      "data-encoded-term": "working-class",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19442",
+        "w2v",
+        "1"
+      ]
+    },
+    "nong": {
+      "data-frequency": "4210",
+      "data-relevance": "95",
+      "data-term": "nong",
+      "data-encoded-term": "nong",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4210",
+        "ol",
+        "1"
+      ]
+    },
+    "leasehold estate": {
+      "data-frequency": "206",
+      "data-relevance": "94",
+      "data-term": "leasehold estate",
+      "data-encoded-term": "leasehold%20estate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "206",
+        "wiki",
+        "1"
+      ]
+    },
+    "smallholder": {
+      "data-frequency": "693",
+      "data-relevance": "93",
+      "data-term": "smallholder",
+      "data-encoded-term": "smallholder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "693",
+        "wiki",
+        "1"
+      ]
+    },
+    "middle-class": {
+      "data-frequency": "20832",
+      "data-relevance": "92",
+      "data-term": "middle-class",
+      "data-encoded-term": "middle-class",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "20832",
+        "w2v",
+        "1"
+      ]
+    },
+    "donghak": {
+      "data-frequency": "102",
+      "data-relevance": "91",
+      "data-term": "donghak",
+      "data-encoded-term": "donghak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "102",
+        "w2v",
+        "1"
+      ]
+    },
+    "blue-collar": {
+      "data-frequency": "9986",
+      "data-relevance": "90",
+      "data-term": "blue-collar",
+      "data-encoded-term": "blue-collar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9986",
+        "w2v",
+        "1"
+      ]
+    },
+    "muralism": {
+      "data-frequency": "17965",
+      "data-relevance": "89",
+      "data-term": "muralism",
+      "data-encoded-term": "muralism",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17965",
+        "w2v",
+        "1"
+      ]
+    },
+    "mixed-race": {
+      "data-frequency": "19724",
+      "data-relevance": "88",
+      "data-term": "mixed-race",
+      "data-encoded-term": "mixed-race",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19724",
+        "w2v",
+        "1"
+      ]
+    },
+    "oaxacan": {
+      "data-frequency": "1022",
+      "data-relevance": "87",
+      "data-term": "oaxacan",
+      "data-encoded-term": "oaxacan",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1022",
+        "w2v",
+        "1"
+      ]
+    },
+    "african-american": {
+      "data-frequency": "98531",
+      "data-relevance": "86",
+      "data-term": "african-american",
+      "data-encoded-term": "african-american",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "98531",
+        "w2v",
+        "1"
+      ]
+    },
+    "collective noun": {
+      "data-frequency": "234",
+      "data-relevance": "85",
+      "data-term": "collective noun",
+      "data-encoded-term": "collective%20noun",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "234",
+        "wiki",
+        "1"
+      ]
+    },
+    "semi-nomadic": {
+      "data-frequency": "1882",
+      "data-relevance": "84",
+      "data-term": "semi-nomadic",
+      "data-encoded-term": "semi-nomadic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1882",
+        "w2v",
+        "1"
+      ]
+    },
+    "trotskyite": {
+      "data-frequency": "245",
+      "data-relevance": "83",
+      "data-term": "trotskyite",
+      "data-encoded-term": "trotskyite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "245",
+        "w2v",
+        "1"
+      ]
+    },
+    "via campesina": {
+      "data-frequency": "74",
+      "data-relevance": "82",
+      "data-term": "via campesina",
+      "data-encoded-term": "via%20campesina",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74",
+        "wiki",
+        "1"
+      ]
+    },
+    "well-to-do": {
+      "data-frequency": "2788",
+      "data-relevance": "81",
+      "data-term": "well-to-do",
+      "data-encoded-term": "well-to-do",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2788",
+        "w2v",
+        "1"
+      ]
+    },
+    "peasantly": {
+      "data-frequency": "26759",
+      "data-relevance": "80",
+      "data-term": "peasantly",
+      "data-encoded-term": "peasantly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "26759",
+        "ol",
+        "1"
+      ]
+    },
+    "falah": {
+      "data-frequency": "1466",
+      "data-relevance": "79",
+      "data-term": "falah",
+      "data-encoded-term": "falah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1466",
+        "ol",
+        "1"
+      ]
+    },
+    "fellahin": {
+      "data-frequency": "105",
+      "data-relevance": "78",
+      "data-term": "fellahin",
+      "data-encoded-term": "fellahin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "105",
+        "ol",
+        "1"
+      ]
+    },
+    "kulak": {
+      "data-frequency": "1470",
+      "data-relevance": "77",
+      "data-term": "kulak",
+      "data-encoded-term": "kulak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1470",
+        "ol",
+        "1"
+      ]
+    },
+    "mestiza": {
+      "data-frequency": "437",
+      "data-relevance": "76",
+      "data-term": "mestiza",
+      "data-encoded-term": "mestiza",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "437",
+        "ol",
+        "1"
+      ]
+    },
+    "kolkhoz": {
+      "data-frequency": "511",
+      "data-relevance": "75",
+      "data-term": "kolkhoz",
+      "data-encoded-term": "kolkhoz",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "511",
+        "ol",
+        "1"
+      ]
+    },
+    "igorots": {
+      "data-frequency": "338",
+      "data-relevance": "74",
+      "data-term": "igorots",
+      "data-encoded-term": "igorots",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "338",
+        "ol",
+        "1"
+      ]
+    },
+    "agricultor": {
+      "data-frequency": "-1",
+      "data-relevance": "73",
+      "data-term": "agricultor",
+      "data-encoded-term": "agricultor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "babushka": {
+      "data-frequency": "112",
+      "data-relevance": "72",
+      "data-term": "babushka",
+      "data-encoded-term": "babushka",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "112",
+        "ol",
+        "1"
+      ]
+    },
+    "quechuan": {
+      "data-frequency": "471",
+      "data-relevance": "71",
+      "data-term": "quechuan",
+      "data-encoded-term": "quechuan",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "471",
+        "ol",
+        "1"
+      ]
+    },
+    "collectivisation": {
+      "data-frequency": "301",
+      "data-relevance": "70",
+      "data-term": "collectivisation",
+      "data-encoded-term": "collectivisation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "301",
+        "ol",
+        "1"
+      ]
+    },
+    "mulattos": {
+      "data-frequency": "239",
+      "data-relevance": "69",
+      "data-term": "mulattos",
+      "data-encoded-term": "mulattos",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "239",
+        "ol",
+        "1"
+      ]
+    },
+    "latifundia": {
+      "data-frequency": "132",
+      "data-relevance": "68",
+      "data-term": "latifundia",
+      "data-encoded-term": "latifundia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "132",
+        "ol",
+        "1"
+      ]
+    },
+    "adivasi": {
+      "data-frequency": "622",
+      "data-relevance": "67",
+      "data-term": "adivasi",
+      "data-encoded-term": "adivasi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "622",
+        "ol",
+        "1"
+      ]
+    },
+    "laundrywoman": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "laundrywoman",
+      "data-encoded-term": "laundrywoman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "curandera": {
+      "data-frequency": "60",
+      "data-relevance": "65",
+      "data-term": "curandera",
+      "data-encoded-term": "curandera",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "60",
+        "ol",
+        "1"
+      ]
+    },
+    "farmers rights": {
+      "data-frequency": "188",
+      "data-relevance": "64",
+      "data-term": "farmers rights",
+      "data-encoded-term": "farmers%20rights",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "188",
+        "wiki",
+        "1"
+      ]
+    },
+    "enclosure": {
+      "data-frequency": "11338",
+      "data-relevance": "63",
+      "data-term": "enclosure",
+      "data-encoded-term": "enclosure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11338",
+        "wiki",
+        "1"
+      ]
+    },
+    "declaration on the rights of peasants": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "declaration on the rights of peasants",
+      "data-encoded-term": "declaration%20on%20the%20rights%20of%20peasants",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "human rights council": {
+      "data-frequency": "38294",
+      "data-relevance": "61",
+      "data-term": "human rights council",
+      "data-encoded-term": "human%20rights%20council",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "38294",
+        "wiki",
+        "1"
+      ]
+    },
+    "hacienda": {
+      "data-frequency": "4073",
+      "data-relevance": "60",
+      "data-term": "hacienda",
+      "data-encoded-term": "hacienda",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4073",
+        "wiki|vec2",
+        "1"
+      ]
+    },
+    "anthropology": {
+      "data-frequency": "27900",
+      "data-relevance": "59",
+      "data-term": "anthropology",
+      "data-encoded-term": "anthropology",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "27900",
+        "wiki",
+        "1"
+      ]
+    },
+    "pre-industrial society": {
+      "data-frequency": "10644",
+      "data-relevance": "58",
+      "data-term": "pre-industrial society",
+      "data-encoded-term": "pre-industrial%20society",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10644",
+        "wiki",
+        "1"
+      ]
+    },
+    "neologism": {
+      "data-frequency": "1373",
+      "data-relevance": "57",
+      "data-term": "neologism",
+      "data-encoded-term": "neologism",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1373",
+        "wiki",
+        "1"
+      ]
+    },
+    "open field system": {
+      "data-frequency": "67255",
+      "data-relevance": "56",
+      "data-term": "open field system",
+      "data-encoded-term": "open%20field%20system",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "67255",
+        "wiki",
+        "1"
+      ]
+    },
+    "market economy": {
+      "data-frequency": "3031",
+      "data-relevance": "55",
+      "data-term": "market economy",
+      "data-encoded-term": "market%20economy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3031",
+        "wiki",
+        "1"
+      ]
+    },
+    "lord of the manor": {
+      "data-frequency": "2390",
+      "data-relevance": "54",
+      "data-term": "lord of the manor",
+      "data-encoded-term": "lord%20of%20the%20manor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2390",
+        "wiki",
+        "1"
+      ]
+    },
+    "marxism": {
+      "data-frequency": "9459",
+      "data-relevance": "53",
+      "data-term": "marxism",
+      "data-encoded-term": "marxism",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "9459",
+        "wiki",
+        "1"
+      ]
+    },
+    "petite bourgeoisie": {
+      "data-frequency": "161",
+      "data-relevance": "52",
+      "data-term": "petite bourgeoisie",
+      "data-encoded-term": "petite%20bourgeoisie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "161",
+        "ol",
+        "1"
+      ]
+    },
+    "catholic church": {
+      "data-frequency": "82902",
+      "data-relevance": "51",
+      "data-term": "catholic church",
+      "data-encoded-term": "catholic%20church",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "82902",
+        "wiki",
+        "1"
+      ]
+    },
+    "petty bourgeoisie": {
+      "data-frequency": "126",
+      "data-relevance": "50",
+      "data-term": "petty bourgeoisie",
+      "data-encoded-term": "petty%20bourgeoisie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "126",
+        "ol",
+        "1"
+      ]
+    },
+    "feudal lord": {
+      "data-frequency": "836",
+      "data-relevance": "49",
+      "data-term": "feudal lord",
+      "data-encoded-term": "feudal%20lord",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "836",
+        "ol",
+        "1"
+      ]
+    },
+    "petit bourgeois": {
+      "data-frequency": "963",
+      "data-relevance": "48",
+      "data-term": "petit bourgeois",
+      "data-encoded-term": "petit%20bourgeois",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "963",
+        "ol",
+        "1"
+      ]
+    },
+    "small farmer": {
+      "data-frequency": "35610",
+      "data-relevance": "47",
+      "data-term": "small farmer",
+      "data-encoded-term": "small%20farmer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "35610",
+        "ol",
+        "1"
+      ]
+    },
+    "subsistence farmer": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "subsistence farmer",
+      "data-encoded-term": "subsistence%20farmer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "great leap forward": {
+      "data-frequency": "957",
+      "data-relevance": "45",
+      "data-term": "great leap forward",
+      "data-encoded-term": "great%20leap%20forward",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "957",
+        "ol",
+        "1"
+      ]
+    },
+    "manchu dynasty": {
+      "data-frequency": "87",
+      "data-relevance": "44",
+      "data-term": "manchu dynasty",
+      "data-encoded-term": "manchu%20dynasty",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "87",
+        "ol",
+        "1"
+      ]
+    },
+    "landed gentry": {
+      "data-frequency": "2613",
+      "data-relevance": "43",
+      "data-term": "landed gentry",
+      "data-encoded-term": "landed%20gentry",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2613",
+        "ol",
+        "1"
+      ]
+    },
+    "petty bourgeois": {
+      "data-frequency": "225",
+      "data-relevance": "42",
+      "data-term": "petty bourgeois",
+      "data-encoded-term": "petty%20bourgeois",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "225",
+        "ol",
+        "1"
+      ]
+    },
+    "francisco pizarro": {
+      "data-frequency": "531",
+      "data-relevance": "41",
+      "data-term": "francisco pizarro",
+      "data-encoded-term": "francisco%20pizarro",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "531",
+        "ol",
+        "1"
+      ]
+    },
+    "medieval europe": {
+      "data-frequency": "3232",
+      "data-relevance": "40",
+      "data-term": "medieval europe",
+      "data-encoded-term": "medieval%20europe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3232",
+        "wiki",
+        "1"
+      ]
+    },
+    "black death": {
+      "data-frequency": "2760",
+      "data-relevance": "39",
+      "data-term": "black death",
+      "data-encoded-term": "black%20death",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2760",
+        "wiki",
+        "1"
+      ]
+    },
+    "age of enlightenment": {
+      "data-frequency": "2488",
+      "data-relevance": "38",
+      "data-term": "age of enlightenment",
+      "data-encoded-term": "age%20of%20enlightenment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2488",
+        "wiki",
+        "1"
+      ]
+    },
+    "bolivarian": {
+      "data-frequency": "2305",
+      "data-relevance": "37",
+      "data-term": "bolivarian",
+      "data-encoded-term": "bolivarian",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2305",
+        "wiki",
+        "1"
+      ]
+    },
+    "industrial labour": {
+      "data-frequency": "16544",
+      "data-relevance": "36",
+      "data-term": "industrial labour",
+      "data-encoded-term": "industrial%20labour",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "16544",
+        "wiki",
+        "1"
+      ]
+    },
+    "industrial revolution": {
+      "data-frequency": "7876",
+      "data-relevance": "35",
+      "data-term": "industrial revolution",
+      "data-encoded-term": "industrial%20revolution",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7876",
+        "wiki",
+        "1"
+      ]
+    },
+    "artisan": {
+      "data-frequency": "5398",
+      "data-relevance": "34",
+      "data-term": "artisan",
+      "data-encoded-term": "artisan",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5398",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "pauper": {
+      "data-frequency": "1981",
+      "data-relevance": "33",
+      "data-term": "pauper",
+      "data-encoded-term": "pauper",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1981",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "noble": {
+      "data-frequency": "84650",
+      "data-relevance": "32",
+      "data-term": "noble",
+      "data-encoded-term": "noble",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "84650",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "brain": {
+      "data-frequency": "68164",
+      "data-relevance": "31",
+      "data-term": "brain",
+      "data-encoded-term": "brain",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "68164",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "droid": {
+      "data-frequency": "1829",
+      "data-relevance": "30",
+      "data-term": "droid",
+      "data-encoded-term": "droid",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1829",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "rabble": {
+      "data-frequency": "1161",
+      "data-relevance": "29",
+      "data-term": "rabble",
+      "data-encoded-term": "rabble",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1161",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "karl marx": {
+      "data-frequency": "6063",
+      "data-relevance": "28",
+      "data-term": "karl marx",
+      "data-encoded-term": "karl%20marx",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6063",
+        "wiki",
+        "1"
+      ]
+    },
+    "low german": {
+      "data-frequency": "1784",
+      "data-relevance": "27",
+      "data-term": "low german",
+      "data-encoded-term": "low%20german",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1784",
+        "wiki",
+        "1"
+      ]
+    },
+    "agency": {
+      "data-frequency": "216695",
+      "data-relevance": "26",
+      "data-term": "agency",
+      "data-encoded-term": "agency",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "216695",
+        "wiki",
+        "1"
+      ]
+    },
+    "french third republic": {
+      "data-frequency": "1621",
+      "data-relevance": "25",
+      "data-term": "french third republic",
+      "data-encoded-term": "french%20third%20republic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1621",
+        "wiki",
+        "1"
+      ]
+    },
+    "eugen weber": {
+      "data-frequency": "1208",
+      "data-relevance": "24",
+      "data-term": "eugen weber",
+      "data-encoded-term": "eugen%20weber",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1208",
+        "wiki",
+        "1"
+      ]
+    },
+    "boho": {
+      "data-frequency": "502",
+      "data-relevance": "23",
+      "data-term": "boho",
+      "data-encoded-term": "boho",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "502",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "feudal japan": {
+      "data-frequency": "866",
+      "data-relevance": "22",
+      "data-term": "feudal japan",
+      "data-encoded-term": "feudal%20japan",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "866",
+        "wiki",
+        "1"
+      ]
+    },
+    "babydoll": {
+      "data-frequency": "589",
+      "data-relevance": "21",
+      "data-term": "babydoll",
+      "data-encoded-term": "babydoll",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "589",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "gosaku": {
+      "data-frequency": "-1",
+      "data-relevance": "20",
+      "data-term": "gosaku",
+      "data-encoded-term": "gosaku",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ming dynasty": {
+      "data-frequency": "5970",
+      "data-relevance": "19",
+      "data-term": "ming dynasty",
+      "data-encoded-term": "ming%20dynasty",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "5970",
+        "wiki",
+        "1"
+      ]
+    },
+    "frederick w. mote": {
+      "data-frequency": "384",
+      "data-relevance": "18",
+      "data-term": "frederick w. mote",
+      "data-encoded-term": "frederick%20w.%20mote",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "384",
+        "wiki",
+        "1"
+      ]
+    },
+    "land reform": {
+      "data-frequency": "3105",
+      "data-relevance": "17",
+      "data-term": "land reform",
+      "data-encoded-term": "land%20reform",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "3105",
+        "wiki",
+        "1"
+      ]
+    },
+    "qing dynasty": {
+      "data-frequency": "8095",
+      "data-relevance": "16",
+      "data-term": "qing dynasty",
+      "data-encoded-term": "qing%20dynasty",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "8095",
+        "wiki",
+        "1"
+      ]
+    },
+    "tenant farmers": {
+      "data-frequency": "3832",
+      "data-relevance": "15",
+      "data-term": "tenant farmers",
+      "data-encoded-term": "tenant%20farmers",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3832",
+        "wiki",
+        "1"
+      ]
+    },
+    "farm worker": {
+      "data-frequency": "18636",
+      "data-relevance": "14",
+      "data-term": "farm worker",
+      "data-encoded-term": "farm%20worker",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "18636",
+        "wiki",
+        "1"
+      ]
+    },
+    "annales school": {
+      "data-frequency": "142",
+      "data-relevance": "13",
+      "data-term": "annales school",
+      "data-encoded-term": "annales%20school",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "142",
+        "wiki",
+        "1"
+      ]
+    },
+    "estates of the realm": {
+      "data-frequency": "192",
+      "data-relevance": "12",
+      "data-term": "estates of the realm",
+      "data-encoded-term": "estates%20of%20the%20realm",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "192",
+        "wiki",
+        "1"
+      ]
+    },
+    "florian znaniecki": {
+      "data-frequency": "150",
+      "data-relevance": "11",
+      "data-term": "florian znaniecki",
+      "data-encoded-term": "florian%20znaniecki",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "150",
+        "wiki",
+        "1"
+      ]
+    },
+    "fernand braudel": {
+      "data-frequency": "393",
+      "data-relevance": "10",
+      "data-term": "fernand braudel",
+      "data-encoded-term": "fernand%20braudel",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "393",
+        "wiki",
+        "1"
+      ]
+    },
+    "robert redfield": {
+      "data-frequency": "888",
+      "data-relevance": "9",
+      "data-term": "robert redfield",
+      "data-encoded-term": "robert%20redfield",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "888",
+        "wiki",
+        "1"
+      ]
+    },
+    "fei xiaotong": {
+      "data-frequency": "341",
+      "data-relevance": "8",
+      "data-term": "fei xiaotong",
+      "data-encoded-term": "fei%20xiaotong",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "341",
+        "wiki",
+        "1"
+      ]
+    },
+    "third world": {
+      "data-frequency": "7878",
+      "data-relevance": "7",
+      "data-term": "third world",
+      "data-encoded-term": "third%20world",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "7878",
+        "wiki",
+        "1"
+      ]
+    },
+    "peasant revolt": {
+      "data-frequency": "4296",
+      "data-relevance": "6",
+      "data-term": "peasant revolt",
+      "data-encoded-term": "peasant%20revolt",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "4296",
+        "wiki",
+        "1"
+      ]
+    },
+    "daniel thorner": {
+      "data-frequency": "2384",
+      "data-relevance": "5",
+      "data-term": "daniel thorner",
+      "data-encoded-term": "daniel%20thorner",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "2384",
+        "wiki",
+        "1"
+      ]
+    },
+    "eric wolf": {
+      "data-frequency": "176",
+      "data-relevance": "4",
+      "data-term": "eric wolf",
+      "data-encoded-term": "eric%20wolf",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "176",
+        "wiki",
+        "1"
+      ]
+    },
+    "james c. scott": {
+      "data-frequency": "62280",
+      "data-relevance": "3",
+      "data-term": "james c. scott",
+      "data-encoded-term": "james%20c.%20scott",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "62280",
+        "wiki",
+        "1"
+      ]
+    },
+    "transition from feudalism to capitalism": {
+      "data-frequency": "262",
+      "data-relevance": "2",
+      "data-term": "transition from feudalism to capitalism",
+      "data-encoded-term": "transition%20from%20feudalism%20to%20capitalism",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "262",
+        "wiki",
+        "1"
+      ]
+    },
+    "the journal of peasant studies": {
+      "data-frequency": "-1",
+      "data-relevance": "1",
+      "data-term": "the journal of peasant studies",
+      "data-encoded-term": "the%20journal%20of%20peasant%20studies",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "mao zedong": {
+      "data-frequency": "3615",
+      "data-relevance": "0",
+      "data-term": "mao zedong",
+      "data-encoded-term": "mao%20zedong",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3615",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "peasant"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The peasants rose in rebellion.",
+        "ru": "Крестьяне подняли восстание."
+      },
+      {
+        "en": "The peasants groveled before the king.",
+        "ru": "Крестьяне падали перед королем ниц."
+      },
+      {
+        "en": "They treated us like a bunch of peasants.",
+        "ru": "С нами обошлись, как с каким-то деревенским мужичьём."
+      },
+      {
+        "en": "The peasants' revolt was crushed by the king.",
+        "ru": "Крестьянское восстание было подавлено королём."
+      },
+      {
+        "en": "She instructed the peasants in the plantation of corn.",
+        "ru": "Она давала наставления крестьянам о том, как нужно высаживать зерновые."
+      },
+      {
+        "en": "The army tried to co-opt peasants into civil defence groups.",
+        "ru": "Армия пыталась привлечь крестьян к участию в группах гражданской обороны."
+      },
+      {
+        "en": "The rich landowners subjugated the peasants working the land.",
+        "ru": "Богатые землевладельцы порабощали крестьян, обрабатывающих землю."
+      },
+      {
+        "en": "Peasants are still unreconstructed small capitalists at heart.",
+        "ru": "В душе у себя крестьяне по-прежнему остаются мелкими капиталистами, хоть это давно уже не так."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "peasant"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "peasant"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "agrarian",
+      "farmers",
+      "bourgeoisie",
+      "serfdom",
+      "holodomor",
+      "serfs",
+      "landless",
+      "barbarian",
+      "proletariat",
+      "lord",
+      "farmer",
+      "peasant",
+      "peasantry"
+    ]
+  }
+}
