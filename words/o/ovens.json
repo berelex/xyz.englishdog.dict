@@ -1,0 +1,4793 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "bakehouse": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/bakehouse/n/,/c/en/ovens/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bakehouse/n",
+          "@type": "Node",
+          "label": "bakehouse",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/bakehouse"
+        },
+        "end": {
+          "@id": "/c/en/ovens",
+          "@type": "Node",
+          "label": "ovens",
+          "language": "en",
+          "term": "/c/en/ovens"
+        }
+      },
+      "oven": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/ovens/n/,/c/en/oven/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/ovens/n",
+          "@type": "Node",
+          "label": "ovens",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/ovens"
+        },
+        "end": {
+          "@id": "/c/en/oven",
+          "@type": "Node",
+          "label": "oven",
+          "language": "en",
+          "term": "/c/en/oven"
+        }
+      },
+      "heat": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/heat/,/c/en/ovens/]",
+        "weight": 0.2160000000000002,
+        "start": {
+          "@id": "/c/en/heat",
+          "@type": "Node",
+          "label": "heat",
+          "language": "en",
+          "term": "/c/en/heat"
+        },
+        "end": {
+          "@id": "/c/en/ovens",
+          "@type": "Node",
+          "label": "ovens",
+          "language": "en",
+          "term": "/c/en/ovens"
+        }
+      },
+      "hot": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/hot/,/c/en/ovens/]",
+        "weight": 0.16500000000000004,
+        "start": {
+          "@id": "/c/en/hot",
+          "@type": "Node",
+          "label": "hot",
+          "language": "en",
+          "term": "/c/en/hot"
+        },
+        "end": {
+          "@id": "/c/en/ovens",
+          "@type": "Node",
+          "label": "ovens",
+          "language": "en",
+          "term": "/c/en/ovens"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "oven": {
+        "@id": "/a/[/r/FormOf/,/c/en/ovens/,/c/en/oven/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/ovens",
+          "@type": "Node",
+          "label": "ovens",
+          "language": "en",
+          "term": "/c/en/ovens"
+        },
+        "end": {
+          "@id": "/c/en/oven/n",
+          "@type": "Node",
+          "label": "oven",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/oven"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "stoves": {
+      "data-frequency": "1777",
+      "data-relevance": "330",
+      "data-term": "stoves",
+      "data-encoded-term": "stoves",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "1777",
+        "vec2",
+        "1"
+      ]
+    },
+    "cooking": {
+      "data-frequency": "29833",
+      "data-relevance": "329",
+      "data-term": "cooking",
+      "data-encoded-term": "cooking",
+      "data-term-stats": [
+        "1",
+        "17.1",
+        "0.000",
+        "29833",
+        "ol,w2v,wiki,swiki|vec2",
+        "1"
+      ]
+    },
+    "stove": {
+      "data-frequency": "5151",
+      "data-relevance": "328",
+      "data-term": "stove",
+      "data-encoded-term": "stove",
+      "data-term-stats": [
+        "1",
+        "7.6",
+        "0.000",
+        "5151",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "baking": {
+      "data-frequency": "6011",
+      "data-relevance": "327",
+      "data-term": "baking",
+      "data-encoded-term": "baking",
+      "data-term-stats": [
+        "1",
+        "15.2",
+        "0.000",
+        "6011",
+        "ol,w2v,wiki,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "furnace": {
+      "data-frequency": "8996",
+      "data-relevance": "326",
+      "data-term": "furnace",
+      "data-encoded-term": "furnace",
+      "data-term-stats": [
+        "1",
+        "12.4",
+        "0.000",
+        "8996",
+        "ol,wiki,swiki,reddit-slashes|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "kiln": {
+      "data-frequency": "4981",
+      "data-relevance": "325",
+      "data-term": "kiln",
+      "data-encoded-term": "kiln",
+      "data-term-stats": [
+        "1",
+        "11.8",
+        "0.000",
+        "4981",
+        "ol,wiki,swiki,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "broiler": {
+      "data-frequency": "495",
+      "data-relevance": "324",
+      "data-term": "broiler",
+      "data-encoded-term": "broiler",
+      "data-term-stats": [
+        "1",
+        "7.2",
+        "0.000",
+        "495",
+        "ol,w2v,wn,reddit-slashes",
+        "1"
+      ]
+    },
+    "microwave": {
+      "data-frequency": "7291",
+      "data-relevance": "323",
+      "data-term": "microwave",
+      "data-encoded-term": "microwave",
+      "data-term-stats": [
+        "1",
+        "6.4",
+        "0.000",
+        "7291",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "toaster": {
+      "data-frequency": "1365",
+      "data-relevance": "322",
+      "data-term": "toaster",
+      "data-encoded-term": "toaster",
+      "data-term-stats": [
+        "1",
+        "5.6",
+        "0.000",
+        "1365",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "grill": {
+      "data-frequency": "8888",
+      "data-relevance": "321",
+      "data-term": "grill",
+      "data-encoded-term": "grill",
+      "data-term-stats": [
+        "1",
+        "5.6",
+        "0.000",
+        "8888",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "casserole": {
+      "data-frequency": "699",
+      "data-relevance": "320",
+      "data-term": "casserole",
+      "data-encoded-term": "casserole",
+      "data-term-stats": [
+        "1",
+        "5.5",
+        "0.000",
+        "699",
+        "ol,w2v,wiki,reddit-slashes",
+        "1"
+      ]
+    },
+    "pottery": {
+      "data-frequency": "19353",
+      "data-relevance": "319",
+      "data-term": "pottery",
+      "data-encoded-term": "pottery",
+      "data-term-stats": [
+        "1",
+        "4.6",
+        "0.000",
+        "19353",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "stovetop": {
+      "data-frequency": "119",
+      "data-relevance": "318",
+      "data-term": "stovetop",
+      "data-encoded-term": "stovetop",
+      "data-term-stats": [
+        "1",
+        "5.3",
+        "0.000",
+        "119",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "roasting": {
+      "data-frequency": "2125",
+      "data-relevance": "317",
+      "data-term": "roasting",
+      "data-encoded-term": "roasting",
+      "data-term-stats": [
+        "1",
+        "4.4",
+        "0.000",
+        "2125",
+        "w2v,wiki,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "fridge": {
+      "data-frequency": "1720",
+      "data-relevance": "316",
+      "data-term": "fridge",
+      "data-encoded-term": "fridge",
+      "data-term-stats": [
+        "1",
+        "4.5",
+        "0.000",
+        "1720",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "rotisserie": {
+      "data-frequency": "376",
+      "data-relevance": "315",
+      "data-term": "rotisserie",
+      "data-encoded-term": "rotisserie",
+      "data-term-stats": [
+        "1",
+        "3.4",
+        "0.000",
+        "376",
+        "wiki,wn,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "cooker": {
+      "data-frequency": "1302",
+      "data-relevance": "314",
+      "data-term": "cooker",
+      "data-encoded-term": "cooker",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "1302",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "refrigerator": {
+      "data-frequency": "3838",
+      "data-relevance": "313",
+      "data-term": "refrigerator",
+      "data-encoded-term": "refrigerator",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "3838",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "griddle": {
+      "data-frequency": "364",
+      "data-relevance": "312",
+      "data-term": "griddle",
+      "data-encoded-term": "griddle",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "364",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "frying": {
+      "data-frequency": "3606",
+      "data-relevance": "311",
+      "data-term": "frying",
+      "data-encoded-term": "frying",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "3606",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bake": {
+      "data-frequency": "4178",
+      "data-relevance": "310",
+      "data-term": "bake",
+      "data-encoded-term": "bake",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "4178",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "reheat": {
+      "data-frequency": "297",
+      "data-relevance": "309",
+      "data-term": "reheat",
+      "data-encoded-term": "reheat",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "297",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bread": {
+      "data-frequency": "29037",
+      "data-relevance": "308",
+      "data-term": "bread",
+      "data-encoded-term": "bread",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "29037",
+        "w2v,wiki,swiki",
+        "1"
+      ]
+    },
+    "microwave oven": {
+      "data-frequency": "479",
+      "data-relevance": "307",
+      "data-term": "microwave oven",
+      "data-encoded-term": "microwave%20oven",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "479",
+        "ol,wiki|vec2",
+        "1"
+      ]
+    },
+    "preheat": {
+      "data-frequency": "114",
+      "data-relevance": "306",
+      "data-term": "preheat",
+      "data-encoded-term": "preheat",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "114",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "fryer": {
+      "data-frequency": "3202",
+      "data-relevance": "305",
+      "data-term": "fryer",
+      "data-encoded-term": "fryer",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "3202",
+        "ol,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "oven": {
+      "data-frequency": "7184",
+      "data-relevance": "304",
+      "data-term": "oven",
+      "data-encoded-term": "oven",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "7184",
+        "vec2",
+        "1"
+      ]
+    },
+    "cookers": {
+      "data-frequency": "826",
+      "data-relevance": "303",
+      "data-term": "cookers",
+      "data-encoded-term": "cookers",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "826",
+        "vec2",
+        "1"
+      ]
+    },
+    "tandoor": {
+      "data-frequency": "390",
+      "data-relevance": "302",
+      "data-term": "tandoor",
+      "data-encoded-term": "tandoor",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "390",
+        "w2v,wn",
+        "1"
+      ]
+    },
+    "baked": {
+      "data-frequency": "9511",
+      "data-relevance": "301",
+      "data-term": "baked",
+      "data-encoded-term": "baked",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "9511",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "microwaves": {
+      "data-frequency": "7658",
+      "data-relevance": "300",
+      "data-term": "microwaves",
+      "data-encoded-term": "microwaves",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "7658",
+        "vec2",
+        "1"
+      ]
+    },
+    "kitchens": {
+      "data-frequency": "5910",
+      "data-relevance": "299",
+      "data-term": "kitchens",
+      "data-encoded-term": "kitchens",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "5910",
+        "vec2",
+        "1"
+      ]
+    },
+    "freezer": {
+      "data-frequency": "1988",
+      "data-relevance": "298",
+      "data-term": "freezer",
+      "data-encoded-term": "freezer",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "1988",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "burners": {
+      "data-frequency": "1427",
+      "data-relevance": "297",
+      "data-term": "burners",
+      "data-encoded-term": "burners",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1427",
+        "vec2",
+        "1"
+      ]
+    },
+    "boilers": {
+      "data-frequency": "10892",
+      "data-relevance": "296",
+      "data-term": "boilers",
+      "data-encoded-term": "boilers",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "10892",
+        "vec2",
+        "1"
+      ]
+    },
+    "ranges": {
+      "data-frequency": "46374",
+      "data-relevance": "295",
+      "data-term": "ranges",
+      "data-encoded-term": "ranges",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46374",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "heaters": {
+      "data-frequency": "1826",
+      "data-relevance": "294",
+      "data-term": "heaters",
+      "data-encoded-term": "heaters",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1826",
+        "vec2",
+        "1"
+      ]
+    },
+    "grills": {
+      "data-frequency": "13330",
+      "data-relevance": "293",
+      "data-term": "grills",
+      "data-encoded-term": "grills",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "13330",
+        "vec2",
+        "1"
+      ]
+    },
+    "skillet": {
+      "data-frequency": "1060",
+      "data-relevance": "292",
+      "data-term": "skillet",
+      "data-encoded-term": "skillet",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1060",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cook": {
+      "data-frequency": "102047",
+      "data-relevance": "291",
+      "data-term": "cook",
+      "data-encoded-term": "cook",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "102047",
+        "ol,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "kilns": {
+      "data-frequency": "2198",
+      "data-relevance": "290",
+      "data-term": "kilns",
+      "data-encoded-term": "kilns",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2198",
+        "vec2",
+        "1"
+      ]
+    },
+    "dutch oven": {
+      "data-frequency": "350",
+      "data-relevance": "289",
+      "data-term": "dutch oven",
+      "data-encoded-term": "dutch%20oven",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "350",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "dryers": {
+      "data-frequency": "725",
+      "data-relevance": "288",
+      "data-term": "dryers",
+      "data-encoded-term": "dryers",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "725",
+        "vec2",
+        "1"
+      ]
+    },
+    "gas oven": {
+      "data-frequency": "58",
+      "data-relevance": "287",
+      "data-term": "gas oven",
+      "data-encoded-term": "gas%20oven",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "58",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "refrigerators": {
+      "data-frequency": "1351",
+      "data-relevance": "286",
+      "data-term": "refrigerators",
+      "data-encoded-term": "refrigerators",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1351",
+        "vec2",
+        "1"
+      ]
+    },
+    "toasters": {
+      "data-frequency": "1639",
+      "data-relevance": "285",
+      "data-term": "toasters",
+      "data-encoded-term": "toasters",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1639",
+        "vec2",
+        "1"
+      ]
+    },
+    "egg": {
+      "data-frequency": "40679",
+      "data-relevance": "284",
+      "data-term": "egg",
+      "data-encoded-term": "egg",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "40679",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "freezers": {
+      "data-frequency": "773",
+      "data-relevance": "283",
+      "data-term": "freezers",
+      "data-encoded-term": "freezers",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "773",
+        "vec2",
+        "1"
+      ]
+    },
+    "chambers": {
+      "data-frequency": "52169",
+      "data-relevance": "282",
+      "data-term": "chambers",
+      "data-encoded-term": "chambers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "52169",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "fridges": {
+      "data-frequency": "230",
+      "data-relevance": "281",
+      "data-term": "fridges",
+      "data-encoded-term": "fridges",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "230",
+        "vec2",
+        "1"
+      ]
+    },
+    "cookware": {
+      "data-frequency": "632",
+      "data-relevance": "280",
+      "data-term": "cookware",
+      "data-encoded-term": "cookware",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "632",
+        "vec2",
+        "1"
+      ]
+    },
+    "saute": {
+      "data-frequency": "197",
+      "data-relevance": "279",
+      "data-term": "saute",
+      "data-encoded-term": "saute",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "197",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "air": {
+      "data-frequency": "448607",
+      "data-relevance": "278",
+      "data-term": "air",
+      "data-encoded-term": "air",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "448607",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "dishwashers": {
+      "data-frequency": "296",
+      "data-relevance": "277",
+      "data-term": "dishwashers",
+      "data-encoded-term": "dishwashers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "296",
+        "vec2",
+        "1"
+      ]
+    },
+    "broil": {
+      "data-frequency": "124",
+      "data-relevance": "276",
+      "data-term": "broil",
+      "data-encoded-term": "broil",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "124",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "saucepan": {
+      "data-frequency": "264",
+      "data-relevance": "275",
+      "data-term": "saucepan",
+      "data-encoded-term": "saucepan",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "264",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "hobs": {
+      "data-frequency": "100",
+      "data-relevance": "274",
+      "data-term": "hobs",
+      "data-encoded-term": "hobs",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "100",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "fireplaces": {
+      "data-frequency": "2863",
+      "data-relevance": "273",
+      "data-term": "fireplaces",
+      "data-encoded-term": "fireplaces",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2863",
+        "vec2",
+        "1"
+      ]
+    },
+    "kitchen appliance": {
+      "data-frequency": "101",
+      "data-relevance": "272",
+      "data-term": "kitchen appliance",
+      "data-encoded-term": "kitchen%20appliance",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "101",
+        "wiki,wn",
+        "1"
+      ]
+    },
+    "slow cooker": {
+      "data-frequency": "108",
+      "data-relevance": "271",
+      "data-term": "slow cooker",
+      "data-encoded-term": "slow%20cooker",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "108",
+        "vec2",
+        "1"
+      ]
+    },
+    "pans": {
+      "data-frequency": "4152",
+      "data-relevance": "270",
+      "data-term": "pans",
+      "data-encoded-term": "pans",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "4152",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "bakers": {
+      "data-frequency": "3475",
+      "data-relevance": "269",
+      "data-term": "bakers",
+      "data-encoded-term": "bakers",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "3475",
+        "vec2",
+        "1"
+      ]
+    },
+    "refrigeration": {
+      "data-frequency": "3139",
+      "data-relevance": "268",
+      "data-term": "refrigeration",
+      "data-encoded-term": "refrigeration",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "3139",
+        "vec2",
+        "1"
+      ]
+    },
+    "lamps": {
+      "data-frequency": "9221",
+      "data-relevance": "267",
+      "data-term": "lamps",
+      "data-encoded-term": "lamps",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "9221",
+        "vec2",
+        "1"
+      ]
+    },
+    "boiler": {
+      "data-frequency": "11998",
+      "data-relevance": "266",
+      "data-term": "boiler",
+      "data-encoded-term": "boiler",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "11998",
+        "vec2",
+        "1"
+      ]
+    },
+    "stovetops": {
+      "data-frequency": "-1",
+      "data-relevance": "265",
+      "data-term": "stovetops",
+      "data-encoded-term": "stovetops",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "water heaters": {
+      "data-frequency": "375",
+      "data-relevance": "264",
+      "data-term": "water heaters",
+      "data-encoded-term": "water%20heaters",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "375",
+        "vec2",
+        "1"
+      ]
+    },
+    "charcoal grill": {
+      "data-frequency": "66",
+      "data-relevance": "263",
+      "data-term": "charcoal grill",
+      "data-encoded-term": "charcoal%20grill",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "66",
+        "vec2",
+        "1"
+      ]
+    },
+    "fryers": {
+      "data-frequency": "3364",
+      "data-relevance": "262",
+      "data-term": "fryers",
+      "data-encoded-term": "fryers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3364",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "space heaters": {
+      "data-frequency": "81",
+      "data-relevance": "261",
+      "data-term": "space heaters",
+      "data-encoded-term": "space%20heaters",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "81",
+        "vec2",
+        "1"
+      ]
+    },
+    "kettles": {
+      "data-frequency": "846",
+      "data-relevance": "260",
+      "data-term": "kettles",
+      "data-encoded-term": "kettles",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "846",
+        "vec2",
+        "1"
+      ]
+    },
+    "tubs": {
+      "data-frequency": "1110",
+      "data-relevance": "259",
+      "data-term": "tubs",
+      "data-encoded-term": "tubs",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1110",
+        "vec2",
+        "1"
+      ]
+    },
+    "dryer": {
+      "data-frequency": "2209",
+      "data-relevance": "258",
+      "data-term": "dryer",
+      "data-encoded-term": "dryer",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "2209",
+        "ol,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "fire": {
+      "data-frequency": "368880",
+      "data-relevance": "257",
+      "data-term": "fire",
+      "data-encoded-term": "fire",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "368880",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "range": {
+      "data-frequency": "382995",
+      "data-relevance": "256",
+      "data-term": "range",
+      "data-encoded-term": "range",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "382995",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "gas": {
+      "data-frequency": "119199",
+      "data-relevance": "255",
+      "data-term": "gas",
+      "data-encoded-term": "gas",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "119199",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "braisers": {
+      "data-frequency": "-1",
+      "data-relevance": "254",
+      "data-term": "braisers",
+      "data-encoded-term": "braisers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "bowls": {
+      "data-frequency": "18087",
+      "data-relevance": "253",
+      "data-term": "bowls",
+      "data-encoded-term": "bowls",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "18087",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cooktops": {
+      "data-frequency": "84",
+      "data-relevance": "252",
+      "data-term": "cooktops",
+      "data-encoded-term": "cooktops",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "84",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cooks": {
+      "data-frequency": "7244",
+      "data-relevance": "251",
+      "data-term": "cooks",
+      "data-encoded-term": "cooks",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "7244",
+        "vec2",
+        "1"
+      ]
+    },
+    "burning stove": {
+      "data-frequency": "206",
+      "data-relevance": "250",
+      "data-term": "burning stove",
+      "data-encoded-term": "burning%20stove",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "206",
+        "vec2",
+        "1"
+      ]
+    },
+    "roaster": {
+      "data-frequency": "496",
+      "data-relevance": "249",
+      "data-term": "roaster",
+      "data-encoded-term": "roaster",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "496",
+        "vec2",
+        "1"
+      ]
+    },
+    "heating": {
+      "data-frequency": "20226",
+      "data-relevance": "248",
+      "data-term": "heating",
+      "data-encoded-term": "heating",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "20226",
+        "wiki",
+        "1"
+      ]
+    },
+    "wood stove": {
+      "data-frequency": "178",
+      "data-relevance": "247",
+      "data-term": "wood stove",
+      "data-encoded-term": "wood%20stove",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "178",
+        "vec2",
+        "1"
+      ]
+    },
+    "wood stoves": {
+      "data-frequency": "108",
+      "data-relevance": "246",
+      "data-term": "wood stoves",
+      "data-encoded-term": "wood%20stoves",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "108",
+        "vec2",
+        "1"
+      ]
+    },
+    "washing machines": {
+      "data-frequency": "757",
+      "data-relevance": "245",
+      "data-term": "washing machines",
+      "data-encoded-term": "washing%20machines",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "757",
+        "vec2",
+        "1"
+      ]
+    },
+    "cake": {
+      "data-frequency": "19024",
+      "data-relevance": "244",
+      "data-term": "cake",
+      "data-encoded-term": "cake",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "19024",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "microwave ovens": {
+      "data-frequency": "905",
+      "data-relevance": "243",
+      "data-term": "microwave ovens",
+      "data-encoded-term": "microwave%20ovens",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "905",
+        "vec2",
+        "1"
+      ]
+    },
+    "countertop": {
+      "data-frequency": "195",
+      "data-relevance": "242",
+      "data-term": "countertop",
+      "data-encoded-term": "countertop",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "195",
+        "vec2",
+        "1"
+      ]
+    },
+    "compressors": {
+      "data-frequency": "1262",
+      "data-relevance": "241",
+      "data-term": "compressors",
+      "data-encoded-term": "compressors",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1262",
+        "vec2",
+        "1"
+      ]
+    },
+    "bakeries": {
+      "data-frequency": "11767",
+      "data-relevance": "240",
+      "data-term": "bakeries",
+      "data-encoded-term": "bakeries",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "11767",
+        "vec2",
+        "1"
+      ]
+    },
+    "furnaces": {
+      "data-frequency": "3420",
+      "data-relevance": "239",
+      "data-term": "furnaces",
+      "data-encoded-term": "furnaces",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "3420",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "pies": {
+      "data-frequency": "4326",
+      "data-relevance": "238",
+      "data-term": "pies",
+      "data-encoded-term": "pies",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "4326",
+        "vec2",
+        "1"
+      ]
+    },
+    "fireplace": {
+      "data-frequency": "6108",
+      "data-relevance": "237",
+      "data-term": "fireplace",
+      "data-encoded-term": "fireplace",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "6108",
+        "vec2",
+        "1"
+      ]
+    },
+    "kitchen appliances": {
+      "data-frequency": "287",
+      "data-relevance": "236",
+      "data-term": "kitchen appliances",
+      "data-encoded-term": "kitchen%20appliances",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "287",
+        "vec2",
+        "1"
+      ]
+    },
+    "smoker": {
+      "data-frequency": "2645",
+      "data-relevance": "235",
+      "data-term": "smoker",
+      "data-encoded-term": "smoker",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2645",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "pots": {
+      "data-frequency": "9535",
+      "data-relevance": "234",
+      "data-term": "pots",
+      "data-encoded-term": "pots",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "9535",
+        "vec2",
+        "1"
+      ]
+    },
+    "air conditioners": {
+      "data-frequency": "685",
+      "data-relevance": "233",
+      "data-term": "air conditioners",
+      "data-encoded-term": "air%20conditioners",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "685",
+        "vec2",
+        "1"
+      ]
+    },
+    "coils": {
+      "data-frequency": "3029",
+      "data-relevance": "232",
+      "data-term": "coils",
+      "data-encoded-term": "coils",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "3029",
+        "vec2",
+        "1"
+      ]
+    },
+    "aga": {
+      "data-frequency": "7333",
+      "data-relevance": "231",
+      "data-term": "aga",
+      "data-encoded-term": "aga",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "7333",
+        "vec2",
+        "1"
+      ]
+    },
+    "buns": {
+      "data-frequency": "1651",
+      "data-relevance": "230",
+      "data-term": "buns",
+      "data-encoded-term": "buns",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1651",
+        "vec2",
+        "1"
+      ]
+    },
+    "crusts": {
+      "data-frequency": "586",
+      "data-relevance": "229",
+      "data-term": "crusts",
+      "data-encoded-term": "crusts",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "586",
+        "vec2",
+        "1"
+      ]
+    },
+    "steamers": {
+      "data-frequency": "4814",
+      "data-relevance": "228",
+      "data-term": "steamers",
+      "data-encoded-term": "steamers",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4814",
+        "vec2",
+        "1"
+      ]
+    },
+    "chimneys": {
+      "data-frequency": "6278",
+      "data-relevance": "227",
+      "data-term": "chimneys",
+      "data-encoded-term": "chimneys",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "6278",
+        "vec2",
+        "1"
+      ]
+    },
+    "roasters": {
+      "data-frequency": "715",
+      "data-relevance": "226",
+      "data-term": "roasters",
+      "data-encoded-term": "roasters",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "715",
+        "vec2",
+        "1"
+      ]
+    },
+    "electric": {
+      "data-frequency": "138176",
+      "data-relevance": "225",
+      "data-term": "electric",
+      "data-encoded-term": "electric",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "138176",
+        "swiki",
+        "1"
+      ]
+    },
+    "loaves": {
+      "data-frequency": "992",
+      "data-relevance": "224",
+      "data-term": "loaves",
+      "data-encoded-term": "loaves",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "992",
+        "vec2",
+        "1"
+      ]
+    },
+    "casseroles": {
+      "data-frequency": "1177",
+      "data-relevance": "223",
+      "data-term": "casseroles",
+      "data-encoded-term": "casseroles",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1177",
+        "vec2",
+        "1"
+      ]
+    },
+    "boiling": {
+      "data-frequency": "11969",
+      "data-relevance": "222",
+      "data-term": "boiling",
+      "data-encoded-term": "boiling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11969",
+        "w2v",
+        "1"
+      ]
+    },
+    "dishes": {
+      "data-frequency": "18123",
+      "data-relevance": "221",
+      "data-term": "dishes",
+      "data-encoded-term": "dishes",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "18123",
+        "vec2",
+        "1"
+      ]
+    },
+    "hob": {
+      "data-frequency": "1439",
+      "data-relevance": "220",
+      "data-term": "hob",
+      "data-encoded-term": "hob",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1439",
+        "ol",
+        "1"
+      ]
+    },
+    "cat": {
+      "data-frequency": "81504",
+      "data-relevance": "219",
+      "data-term": "cat",
+      "data-encoded-term": "cat",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "81504",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "218",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "506299",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "washing": {
+      "data-frequency": "10567",
+      "data-relevance": "217",
+      "data-term": "washing",
+      "data-encoded-term": "washing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "10567",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "radiators": {
+      "data-frequency": "1372",
+      "data-relevance": "216",
+      "data-term": "radiators",
+      "data-encoded-term": "radiators",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1372",
+        "vec2",
+        "1"
+      ]
+    },
+    "blenders": {
+      "data-frequency": "3959",
+      "data-relevance": "215",
+      "data-term": "blenders",
+      "data-encoded-term": "blenders",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "3959",
+        "vec2",
+        "1"
+      ]
+    },
+    "cast iron": {
+      "data-frequency": "9972",
+      "data-relevance": "214",
+      "data-term": "cast iron",
+      "data-encoded-term": "cast%20iron",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "9972",
+        "vec2",
+        "1"
+      ]
+    },
+    "grinders": {
+      "data-frequency": "696",
+      "data-relevance": "213",
+      "data-term": "grinders",
+      "data-encoded-term": "grinders",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "696",
+        "vec2",
+        "1"
+      ]
+    },
+    "charcoal": {
+      "data-frequency": "7725",
+      "data-relevance": "212",
+      "data-term": "charcoal",
+      "data-encoded-term": "charcoal",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "7725",
+        "vec2",
+        "1"
+      ]
+    },
+    "blast furnaces": {
+      "data-frequency": "801",
+      "data-relevance": "211",
+      "data-term": "blast furnaces",
+      "data-encoded-term": "blast%20furnaces",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "801",
+        "vec2",
+        "1"
+      ]
+    },
+    "stockpot": {
+      "data-frequency": "-1",
+      "data-relevance": "210",
+      "data-term": "stockpot",
+      "data-encoded-term": "stockpot",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "-1",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "stainless steel": {
+      "data-frequency": "7110",
+      "data-relevance": "209",
+      "data-term": "stainless steel",
+      "data-encoded-term": "stainless%20steel",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "7110",
+        "vec2",
+        "1"
+      ]
+    },
+    "breads": {
+      "data-frequency": "2508",
+      "data-relevance": "208",
+      "data-term": "breads",
+      "data-encoded-term": "breads",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2508",
+        "vec2",
+        "1"
+      ]
+    },
+    "water heater": {
+      "data-frequency": "381",
+      "data-relevance": "207",
+      "data-term": "water heater",
+      "data-encoded-term": "water%20heater",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "381",
+        "vec2",
+        "1"
+      ]
+    },
+    "indus valley civilization": {
+      "data-frequency": "831",
+      "data-relevance": "206",
+      "data-term": "indus valley civilization",
+      "data-encoded-term": "indus%20valley%20civilization",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "831",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "stoneware": {
+      "data-frequency": "915",
+      "data-relevance": "205",
+      "data-term": "stoneware",
+      "data-encoded-term": "stoneware",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "915",
+        "vec2",
+        "1"
+      ]
+    },
+    "countertops": {
+      "data-frequency": "182",
+      "data-relevance": "204",
+      "data-term": "countertops",
+      "data-encoded-term": "countertops",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "182",
+        "vec2",
+        "1"
+      ]
+    },
+    "natural gas": {
+      "data-frequency": "14540",
+      "data-relevance": "203",
+      "data-term": "natural gas",
+      "data-encoded-term": "natural%20gas",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "14540",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "stainless steel appliances": {
+      "data-frequency": "288",
+      "data-relevance": "202",
+      "data-term": "stainless steel appliances",
+      "data-encoded-term": "stainless%20steel%20appliances",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "288",
+        "vec2",
+        "1"
+      ]
+    },
+    "aga cooker": {
+      "data-frequency": "27",
+      "data-relevance": "201",
+      "data-term": "aga cooker",
+      "data-encoded-term": "aga%20cooker",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "27",
+        "wiki",
+        "1"
+      ]
+    },
+    "container": {
+      "data-frequency": "18887",
+      "data-relevance": "200",
+      "data-term": "container",
+      "data-encoded-term": "container",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "18887",
+        "swiki",
+        "1"
+      ]
+    },
+    "heater": {
+      "data-frequency": "3152",
+      "data-relevance": "199",
+      "data-term": "heater",
+      "data-encoded-term": "heater",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "3152",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "kitchen": {
+      "data-frequency": "46734",
+      "data-relevance": "198",
+      "data-term": "kitchen",
+      "data-encoded-term": "kitchen",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "46734",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "drying": {
+      "data-frequency": "7477",
+      "data-relevance": "197",
+      "data-term": "drying",
+      "data-encoded-term": "drying",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "7477",
+        "wiki",
+        "1"
+      ]
+    },
+    "pizzas": {
+      "data-frequency": "827",
+      "data-relevance": "196",
+      "data-term": "pizzas",
+      "data-encoded-term": "pizzas",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "827",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "dishwasher": {
+      "data-frequency": "943",
+      "data-relevance": "195",
+      "data-term": "dishwasher",
+      "data-encoded-term": "dishwasher",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "943",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "194",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "233063",
+        "swiki",
+        "1"
+      ]
+    },
+    "metalworking": {
+      "data-frequency": "2134",
+      "data-relevance": "193",
+      "data-term": "metalworking",
+      "data-encoded-term": "metalworking",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2134",
+        "wiki",
+        "1"
+      ]
+    },
+    "mammoth": {
+      "data-frequency": "8029",
+      "data-relevance": "192",
+      "data-term": "mammoth",
+      "data-encoded-term": "mammoth",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "8029",
+        "wiki",
+        "1"
+      ]
+    },
+    "yurt": {
+      "data-frequency": "874",
+      "data-relevance": "191",
+      "data-term": "yurt",
+      "data-encoded-term": "yurt",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "874",
+        "wiki",
+        "1"
+      ]
+    },
+    "rack": {
+      "data-frequency": "9178",
+      "data-relevance": "190",
+      "data-term": "rack",
+      "data-encoded-term": "rack",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9178",
+        "w2v",
+        "1"
+      ]
+    },
+    "cooked": {
+      "data-frequency": "11399",
+      "data-relevance": "189",
+      "data-term": "cooked",
+      "data-encoded-term": "cooked",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11399",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "ukraine": {
+      "data-frequency": "104567",
+      "data-relevance": "188",
+      "data-term": "ukraine",
+      "data-encoded-term": "ukraine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "104567",
+        "wiki",
+        "1"
+      ]
+    },
+    "loaf": {
+      "data-frequency": "5549",
+      "data-relevance": "187",
+      "data-term": "loaf",
+      "data-encoded-term": "loaf",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5549",
+        "w2v",
+        "1"
+      ]
+    },
+    "butter": {
+      "data-frequency": "13885",
+      "data-relevance": "186",
+      "data-term": "butter",
+      "data-encoded-term": "butter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13885",
+        "w2v",
+        "1"
+      ]
+    },
+    "preferably": {
+      "data-frequency": "3549",
+      "data-relevance": "185",
+      "data-term": "preferably",
+      "data-encoded-term": "preferably",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3549",
+        "w2v",
+        "1"
+      ]
+    },
+    "browned": {
+      "data-frequency": "354",
+      "data-relevance": "184",
+      "data-term": "browned",
+      "data-encoded-term": "browned",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "354",
+        "w2v",
+        "1"
+      ]
+    },
+    "quart": {
+      "data-frequency": "1582",
+      "data-relevance": "183",
+      "data-term": "quart",
+      "data-encoded-term": "quart",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1582",
+        "w2v",
+        "1"
+      ]
+    },
+    "dough": {
+      "data-frequency": "5355",
+      "data-relevance": "182",
+      "data-term": "dough",
+      "data-encoded-term": "dough",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5355",
+        "w2v",
+        "1"
+      ]
+    },
+    "grease": {
+      "data-frequency": "5500",
+      "data-relevance": "181",
+      "data-term": "grease",
+      "data-encoded-term": "grease",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5500",
+        "w2v",
+        "1"
+      ]
+    },
+    "preheated": {
+      "data-frequency": "474",
+      "data-relevance": "180",
+      "data-term": "preheated",
+      "data-encoded-term": "preheated",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "474",
+        "w2v",
+        "1"
+      ]
+    },
+    "hearth": {
+      "data-frequency": "3745",
+      "data-relevance": "179",
+      "data-term": "hearth",
+      "data-encoded-term": "hearth",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3745",
+        "wiki",
+        "1"
+      ]
+    },
+    "roast": {
+      "data-frequency": "4926",
+      "data-relevance": "178",
+      "data-term": "roast",
+      "data-encoded-term": "roast",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4926",
+        "w2v",
+        "1"
+      ]
+    },
+    "dish": {
+      "data-frequency": "20271",
+      "data-relevance": "177",
+      "data-term": "dish",
+      "data-encoded-term": "dish",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20271",
+        "w2v",
+        "1"
+      ]
+    },
+    "thermometer": {
+      "data-frequency": "1590",
+      "data-relevance": "176",
+      "data-term": "thermometer",
+      "data-encoded-term": "thermometer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1590",
+        "w2v",
+        "1"
+      ]
+    },
+    "crust": {
+      "data-frequency": "6909",
+      "data-relevance": "175",
+      "data-term": "crust",
+      "data-encoded-term": "crust",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6909",
+        "w2v",
+        "1"
+      ]
+    },
+    "drawer": {
+      "data-frequency": "2959",
+      "data-relevance": "174",
+      "data-term": "drawer",
+      "data-encoded-term": "drawer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2959",
+        "ol",
+        "1"
+      ]
+    },
+    "melts": {
+      "data-frequency": "2949",
+      "data-relevance": "173",
+      "data-term": "melts",
+      "data-encoded-term": "melts",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2949",
+        "w2v",
+        "1"
+      ]
+    },
+    "pastry": {
+      "data-frequency": "4546",
+      "data-relevance": "172",
+      "data-term": "pastry",
+      "data-encoded-term": "pastry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4546",
+        "w2v",
+        "1"
+      ]
+    },
+    "wok": {
+      "data-frequency": "941",
+      "data-relevance": "171",
+      "data-term": "wok",
+      "data-encoded-term": "wok",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "941",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "sprinkle": {
+      "data-frequency": "1660",
+      "data-relevance": "170",
+      "data-term": "sprinkle",
+      "data-encoded-term": "sprinkle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1660",
+        "w2v",
+        "1"
+      ]
+    },
+    "buttered": {
+      "data-frequency": "571",
+      "data-relevance": "169",
+      "data-term": "buttered",
+      "data-encoded-term": "buttered",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "571",
+        "w2v",
+        "1"
+      ]
+    },
+    "melt": {
+      "data-frequency": "7690",
+      "data-relevance": "168",
+      "data-term": "melt",
+      "data-encoded-term": "melt",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7690",
+        "w2v",
+        "1"
+      ]
+    },
+    "toast": {
+      "data-frequency": "7426",
+      "data-relevance": "167",
+      "data-term": "toast",
+      "data-encoded-term": "toast",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7426",
+        "w2v",
+        "1"
+      ]
+    },
+    "baker": {
+      "data-frequency": "125100",
+      "data-relevance": "166",
+      "data-term": "baker",
+      "data-encoded-term": "baker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "125100",
+        "ol",
+        "1"
+      ]
+    },
+    "cookie": {
+      "data-frequency": "8122",
+      "data-relevance": "165",
+      "data-term": "cookie",
+      "data-encoded-term": "cookie",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8122",
+        "w2v",
+        "1"
+      ]
+    },
+    "greenhouse": {
+      "data-frequency": "11355",
+      "data-relevance": "164",
+      "data-term": "greenhouse",
+      "data-encoded-term": "greenhouse",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11355",
+        "ol",
+        "1"
+      ]
+    },
+    "appliance": {
+      "data-frequency": "4158",
+      "data-relevance": "163",
+      "data-term": "appliance",
+      "data-encoded-term": "appliance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4158",
+        "ol",
+        "1"
+      ]
+    },
+    "spoon": {
+      "data-frequency": "9746",
+      "data-relevance": "162",
+      "data-term": "spoon",
+      "data-encoded-term": "spoon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9746",
+        "w2v",
+        "1"
+      ]
+    },
+    "grate": {
+      "data-frequency": "1727",
+      "data-relevance": "161",
+      "data-term": "grate",
+      "data-encoded-term": "grate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1727",
+        "w2v",
+        "1"
+      ]
+    },
+    "crumbs": {
+      "data-frequency": "1158",
+      "data-relevance": "160",
+      "data-term": "crumbs",
+      "data-encoded-term": "crumbs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1158",
+        "w2v",
+        "1"
+      ]
+    },
+    "melted": {
+      "data-frequency": "6355",
+      "data-relevance": "159",
+      "data-term": "melted",
+      "data-encoded-term": "melted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6355",
+        "w2v",
+        "1"
+      ]
+    },
+    "custard": {
+      "data-frequency": "2594",
+      "data-relevance": "158",
+      "data-term": "custard",
+      "data-encoded-term": "custard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2594",
+        "w2v",
+        "1"
+      ]
+    },
+    "flour": {
+      "data-frequency": "16871",
+      "data-relevance": "157",
+      "data-term": "flour",
+      "data-encoded-term": "flour",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16871",
+        "w2v",
+        "1"
+      ]
+    },
+    "mixture": {
+      "data-frequency": "37180",
+      "data-relevance": "156",
+      "data-term": "mixture",
+      "data-encoded-term": "mixture",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "37180",
+        "w2v",
+        "1"
+      ]
+    },
+    "mitt": {
+      "data-frequency": "5742",
+      "data-relevance": "155",
+      "data-term": "mitt",
+      "data-encoded-term": "mitt",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5742",
+        "ol",
+        "1"
+      ]
+    },
+    "inferno": {
+      "data-frequency": "9724",
+      "data-relevance": "154",
+      "data-term": "inferno",
+      "data-encoded-term": "inferno",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9724",
+        "ol",
+        "1"
+      ]
+    },
+    "boil": {
+      "data-frequency": "4153",
+      "data-relevance": "153",
+      "data-term": "boil",
+      "data-encoded-term": "boil",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4153",
+        "w2v",
+        "1"
+      ]
+    },
+    "potatoes": {
+      "data-frequency": "11438",
+      "data-relevance": "152",
+      "data-term": "potatoes",
+      "data-encoded-term": "potatoes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11438",
+        "w2v",
+        "1"
+      ]
+    },
+    "fry": {
+      "data-frequency": "18709",
+      "data-relevance": "151",
+      "data-term": "fry",
+      "data-encoded-term": "fry",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18709",
+        "w2v",
+        "1"
+      ]
+    },
+    "greased": {
+      "data-frequency": "668",
+      "data-relevance": "150",
+      "data-term": "greased",
+      "data-encoded-term": "greased",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "668",
+        "w2v",
+        "1"
+      ]
+    },
+    "pot": {
+      "data-frequency": "25493",
+      "data-relevance": "149",
+      "data-term": "pot",
+      "data-encoded-term": "pot",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "25493",
+        "w2v",
+        "1"
+      ]
+    },
+    "toothpick": {
+      "data-frequency": "831",
+      "data-relevance": "148",
+      "data-term": "toothpick",
+      "data-encoded-term": "toothpick",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "831",
+        "w2v",
+        "1"
+      ]
+    },
+    "350-degree": {
+      "data-frequency": "10542",
+      "data-relevance": "147",
+      "data-term": "350-degree",
+      "data-encoded-term": "350-degree",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10542",
+        "w2v",
+        "1"
+      ]
+    },
+    "slices": {
+      "data-frequency": "4068",
+      "data-relevance": "146",
+      "data-term": "slices",
+      "data-encoded-term": "slices",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4068",
+        "w2v",
+        "1"
+      ]
+    },
+    "cubes": {
+      "data-frequency": "3107",
+      "data-relevance": "145",
+      "data-term": "cubes",
+      "data-encoded-term": "cubes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3107",
+        "w2v",
+        "1"
+      ]
+    },
+    "bacon": {
+      "data-frequency": "24895",
+      "data-relevance": "144",
+      "data-term": "bacon",
+      "data-encoded-term": "bacon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24895",
+        "w2v",
+        "1"
+      ]
+    },
+    "coal": {
+      "data-frequency": "69102",
+      "data-relevance": "143",
+      "data-term": "coal",
+      "data-encoded-term": "coal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69102",
+        "swiki",
+        "1"
+      ]
+    },
+    "coals": {
+      "data-frequency": "1602",
+      "data-relevance": "142",
+      "data-term": "coals",
+      "data-encoded-term": "coals",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1602",
+        "w2v",
+        "1"
+      ]
+    },
+    "lightly": {
+      "data-frequency": "11130",
+      "data-relevance": "141",
+      "data-term": "lightly",
+      "data-encoded-term": "lightly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11130",
+        "w2v",
+        "1"
+      ]
+    },
+    "crispy": {
+      "data-frequency": "1443",
+      "data-relevance": "140",
+      "data-term": "crispy",
+      "data-encoded-term": "crispy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1443",
+        "w2v",
+        "1"
+      ]
+    },
+    "marshmallows": {
+      "data-frequency": "421",
+      "data-relevance": "139",
+      "data-term": "marshmallows",
+      "data-encoded-term": "marshmallows",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "421",
+        "w2v",
+        "1"
+      ]
+    },
+    "filling": {
+      "data-frequency": "24980",
+      "data-relevance": "138",
+      "data-term": "filling",
+      "data-encoded-term": "filling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24980",
+        "w2v",
+        "1"
+      ]
+    },
+    "meatballs": {
+      "data-frequency": "1497",
+      "data-relevance": "137",
+      "data-term": "meatballs",
+      "data-encoded-term": "meatballs",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1497",
+        "w2v",
+        "1"
+      ]
+    },
+    "brownies": {
+      "data-frequency": "1130",
+      "data-relevance": "136",
+      "data-term": "brownies",
+      "data-encoded-term": "brownies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1130",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheese": {
+      "data-frequency": "21744",
+      "data-relevance": "135",
+      "data-term": "cheese",
+      "data-encoded-term": "cheese",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21744",
+        "w2v",
+        "1"
+      ]
+    },
+    "broth": {
+      "data-frequency": "2284",
+      "data-relevance": "134",
+      "data-term": "broth",
+      "data-encoded-term": "broth",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2284",
+        "w2v",
+        "1"
+      ]
+    },
+    "pasta": {
+      "data-frequency": "4546",
+      "data-relevance": "133",
+      "data-term": "pasta",
+      "data-encoded-term": "pasta",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4546",
+        "w2v",
+        "1"
+      ]
+    },
+    "bakes": {
+      "data-frequency": "730",
+      "data-relevance": "132",
+      "data-term": "bakes",
+      "data-encoded-term": "bakes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "730",
+        "w2v",
+        "1"
+      ]
+    },
+    "sausage": {
+      "data-frequency": "5974",
+      "data-relevance": "131",
+      "data-term": "sausage",
+      "data-encoded-term": "sausage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5974",
+        "w2v",
+        "1"
+      ]
+    },
+    "grits": {
+      "data-frequency": "1486",
+      "data-relevance": "130",
+      "data-term": "grits",
+      "data-encoded-term": "grits",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1486",
+        "w2v",
+        "1"
+      ]
+    },
+    "chilled": {
+      "data-frequency": "2485",
+      "data-relevance": "129",
+      "data-term": "chilled",
+      "data-encoded-term": "chilled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2485",
+        "w2v",
+        "1"
+      ]
+    },
+    "eggplant": {
+      "data-frequency": "1812",
+      "data-relevance": "128",
+      "data-term": "eggplant",
+      "data-encoded-term": "eggplant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1812",
+        "w2v",
+        "1"
+      ]
+    },
+    "omelet": {
+      "data-frequency": "252",
+      "data-relevance": "127",
+      "data-term": "omelet",
+      "data-encoded-term": "omelet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "252",
+        "w2v",
+        "1"
+      ]
+    },
+    "fours": {
+      "data-frequency": "6168",
+      "data-relevance": "126",
+      "data-term": "fours",
+      "data-encoded-term": "fours",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6168",
+        "ol",
+        "1"
+      ]
+    },
+    "mitts": {
+      "data-frequency": "409",
+      "data-relevance": "125",
+      "data-term": "mitts",
+      "data-encoded-term": "mitts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "409",
+        "ol",
+        "1"
+      ]
+    },
+    "smelter": {
+      "data-frequency": "1715",
+      "data-relevance": "124",
+      "data-term": "smelter",
+      "data-encoded-term": "smelter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1715",
+        "ol",
+        "1"
+      ]
+    },
+    "nonstick": {
+      "data-frequency": "49",
+      "data-relevance": "123",
+      "data-term": "nonstick",
+      "data-encoded-term": "nonstick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "evacuation": {
+      "data-frequency": "17317",
+      "data-relevance": "122",
+      "data-term": "evacuation",
+      "data-encoded-term": "evacuation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17317",
+        "ol",
+        "1"
+      ]
+    },
+    "mezhirich": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "mezhirich",
+      "data-encoded-term": "mezhirich",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "400-degree": {
+      "data-frequency": "23647",
+      "data-relevance": "120",
+      "data-term": "400-degree",
+      "data-encoded-term": "400-degree",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23647",
+        "w2v",
+        "1"
+      ]
+    },
+    "fur": {
+      "data-frequency": "85722",
+      "data-relevance": "119",
+      "data-term": "fur",
+      "data-encoded-term": "fur",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "85722",
+        "ol",
+        "1"
+      ]
+    },
+    "four": {
+      "data-frequency": "935687",
+      "data-relevance": "118",
+      "data-term": "four",
+      "data-encoded-term": "four",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "935687",
+        "ol",
+        "1"
+      ]
+    },
+    "owen": {
+      "data-frequency": "66209",
+      "data-relevance": "117",
+      "data-term": "owen",
+      "data-encoded-term": "owen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66209",
+        "ol",
+        "1"
+      ]
+    },
+    "325-degree": {
+      "data-frequency": "5122",
+      "data-relevance": "116",
+      "data-term": "325-degree",
+      "data-encoded-term": "325-degree",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5122",
+        "w2v",
+        "1"
+      ]
+    },
+    "10-inch": {
+      "data-frequency": "1941",
+      "data-relevance": "115",
+      "data-term": "10-inch",
+      "data-encoded-term": "10-inch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1941",
+        "w2v",
+        "1"
+      ]
+    },
+    "refrigerate": {
+      "data-frequency": "80",
+      "data-relevance": "114",
+      "data-term": "refrigerate",
+      "data-encoded-term": "refrigerate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80",
+        "w2v",
+        "1"
+      ]
+    },
+    "9-inch": {
+      "data-frequency": "1063",
+      "data-relevance": "113",
+      "data-term": "9-inch",
+      "data-encoded-term": "9-inch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1063",
+        "w2v",
+        "1"
+      ]
+    },
+    "baste": {
+      "data-frequency": "318",
+      "data-relevance": "112",
+      "data-term": "baste",
+      "data-encoded-term": "baste",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "318",
+        "ol",
+        "1"
+      ]
+    },
+    "evaporator": {
+      "data-frequency": "332",
+      "data-relevance": "111",
+      "data-term": "evaporator",
+      "data-encoded-term": "evaporator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "332",
+        "ol",
+        "1"
+      ]
+    },
+    "firebox": {
+      "data-frequency": "1753",
+      "data-relevance": "110",
+      "data-term": "firebox",
+      "data-encoded-term": "firebox",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1753",
+        "ol",
+        "1"
+      ]
+    },
+    "colander": {
+      "data-frequency": "437",
+      "data-relevance": "109",
+      "data-term": "colander",
+      "data-encoded-term": "colander",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "437",
+        "ol",
+        "1"
+      ]
+    },
+    "spatula": {
+      "data-frequency": "1141",
+      "data-relevance": "108",
+      "data-term": "spatula",
+      "data-encoded-term": "spatula",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1141",
+        "ol",
+        "1"
+      ]
+    },
+    "375-degree": {
+      "data-frequency": "5081",
+      "data-relevance": "107",
+      "data-term": "375-degree",
+      "data-encoded-term": "375-degree",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5081",
+        "w2v",
+        "1"
+      ]
+    },
+    "brick": {
+      "data-frequency": "71125",
+      "data-relevance": "106",
+      "data-term": "brick",
+      "data-encoded-term": "brick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71125",
+        "swiki",
+        "1"
+      ]
+    },
+    "300-degree": {
+      "data-frequency": "29099",
+      "data-relevance": "105",
+      "data-term": "300-degree",
+      "data-encoded-term": "300-degree",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "29099",
+        "w2v",
+        "1"
+      ]
+    },
+    "8-inch": {
+      "data-frequency": "71472",
+      "data-relevance": "104",
+      "data-term": "8-inch",
+      "data-encoded-term": "8-inch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71472",
+        "w2v",
+        "1"
+      ]
+    },
+    "450-degree": {
+      "data-frequency": "7882",
+      "data-relevance": "103",
+      "data-term": "450-degree",
+      "data-encoded-term": "450-degree",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7882",
+        "w2v",
+        "1"
+      ]
+    },
+    "marinate": {
+      "data-frequency": "97",
+      "data-relevance": "102",
+      "data-term": "marinate",
+      "data-encoded-term": "marinate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97",
+        "w2v",
+        "1"
+      ]
+    },
+    "200-degree": {
+      "data-frequency": "36984",
+      "data-relevance": "101",
+      "data-term": "200-degree",
+      "data-encoded-term": "200-degree",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "36984",
+        "w2v",
+        "1"
+      ]
+    },
+    "bundt": {
+      "data-frequency": "277",
+      "data-relevance": "100",
+      "data-term": "bundt",
+      "data-encoded-term": "bundt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "277",
+        "w2v",
+        "1"
+      ]
+    },
+    "clay": {
+      "data-frequency": "89267",
+      "data-relevance": "99",
+      "data-term": "clay",
+      "data-encoded-term": "clay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89267",
+        "swiki",
+        "1"
+      ]
+    },
+    "ovenproof": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "ovenproof",
+      "data-encoded-term": "ovenproof",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "eaf": {
+      "data-frequency": "189",
+      "data-relevance": "97",
+      "data-term": "eaf",
+      "data-encoded-term": "eaf",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "189",
+        "ol",
+        "1"
+      ]
+    },
+    "central europe": {
+      "data-frequency": "13584",
+      "data-relevance": "96",
+      "data-term": "central europe",
+      "data-encoded-term": "central%20europe",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13584",
+        "wiki",
+        "1"
+      ]
+    },
+    "cooktop": {
+      "data-frequency": "49",
+      "data-relevance": "95",
+      "data-term": "cooktop",
+      "data-encoded-term": "cooktop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "fook": {
+      "data-frequency": "1187",
+      "data-relevance": "94",
+      "data-term": "fook",
+      "data-encoded-term": "fook",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1187",
+        "ol",
+        "1"
+      ]
+    },
+    "crockpot": {
+      "data-frequency": "-1",
+      "data-relevance": "93",
+      "data-term": "crockpot",
+      "data-encoded-term": "crockpot",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hotplate": {
+      "data-frequency": "72",
+      "data-relevance": "92",
+      "data-term": "hotplate",
+      "data-encoded-term": "hotplate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "72",
+        "ol",
+        "1"
+      ]
+    },
+    "hornito": {
+      "data-frequency": "-1",
+      "data-relevance": "91",
+      "data-term": "hornito",
+      "data-encoded-term": "hornito",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "chargrill": {
+      "data-frequency": "-1",
+      "data-relevance": "90",
+      "data-term": "chargrill",
+      "data-encoded-term": "chargrill",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "comal": {
+      "data-frequency": "791",
+      "data-relevance": "89",
+      "data-term": "comal",
+      "data-encoded-term": "comal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "791",
+        "ol",
+        "1"
+      ]
+    },
+    "frypan": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "frypan",
+      "data-encoded-term": "frypan",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "saucepot": {
+      "data-frequency": "-1",
+      "data-relevance": "87",
+      "data-term": "saucepot",
+      "data-encoded-term": "saucepot",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "frittata": {
+      "data-frequency": "77",
+      "data-relevance": "86",
+      "data-term": "frittata",
+      "data-encoded-term": "frittata",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77",
+        "ol",
+        "1"
+      ]
+    },
+    "piecrust": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "piecrust",
+      "data-encoded-term": "piecrust",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "heatproof": {
+      "data-frequency": "-1",
+      "data-relevance": "84",
+      "data-term": "heatproof",
+      "data-encoded-term": "heatproof",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ramekin": {
+      "data-frequency": "-1",
+      "data-relevance": "83",
+      "data-term": "ramekin",
+      "data-encoded-term": "ramekin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "doneness": {
+      "data-frequency": "191244",
+      "data-relevance": "82",
+      "data-term": "doneness",
+      "data-encoded-term": "doneness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "191244",
+        "ol",
+        "1"
+      ]
+    },
+    "marinade": {
+      "data-frequency": "287",
+      "data-relevance": "81",
+      "data-term": "marinade",
+      "data-encoded-term": "marinade",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "287",
+        "ol",
+        "1"
+      ]
+    },
+    "tisar": {
+      "data-frequency": "-1",
+      "data-relevance": "80",
+      "data-term": "tisar",
+      "data-encoded-term": "tisar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "defrost": {
+      "data-frequency": "234",
+      "data-relevance": "79",
+      "data-term": "defrost",
+      "data-encoded-term": "defrost",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "234",
+        "ol",
+        "1"
+      ]
+    },
+    "popovers": {
+      "data-frequency": "62",
+      "data-relevance": "78",
+      "data-term": "popovers",
+      "data-encoded-term": "popovers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "ol",
+        "1"
+      ]
+    },
+    "dessert": {
+      "data-frequency": "6317",
+      "data-relevance": "77",
+      "data-term": "dessert",
+      "data-encoded-term": "dessert",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6317",
+        "wiki",
+        "1"
+      ]
+    },
+    "meat": {
+      "data-frequency": "40904",
+      "data-relevance": "76",
+      "data-term": "meat",
+      "data-encoded-term": "meat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "40904",
+        "wiki",
+        "1"
+      ]
+    },
+    "electricity": {
+      "data-frequency": "44934",
+      "data-relevance": "75",
+      "data-term": "electricity",
+      "data-encoded-term": "electricity",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44934",
+        "wiki",
+        "1"
+      ]
+    },
+    "gustaf dalén": {
+      "data-frequency": "67",
+      "data-relevance": "74",
+      "data-term": "gustaf dalén",
+      "data-encoded-term": "gustaf%20dal%C3%A9n",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "67",
+        "wiki",
+        "1"
+      ]
+    },
+    "pizza oven": {
+      "data-frequency": "647",
+      "data-relevance": "73",
+      "data-term": "pizza oven",
+      "data-encoded-term": "pizza%20oven",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "647",
+        "wiki",
+        "1"
+      ]
+    },
+    "clothes dryer": {
+      "data-frequency": "140",
+      "data-relevance": "72",
+      "data-term": "clothes dryer",
+      "data-encoded-term": "clothes%20dryer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "140",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "candy thermometer": {
+      "data-frequency": "-1",
+      "data-relevance": "71",
+      "data-term": "candy thermometer",
+      "data-encoded-term": "candy%20thermometer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "crock pot": {
+      "data-frequency": "44",
+      "data-relevance": "70",
+      "data-term": "crock pot",
+      "data-encoded-term": "crock%20pot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "waffle iron": {
+      "data-frequency": "107",
+      "data-relevance": "69",
+      "data-term": "waffle iron",
+      "data-encoded-term": "waffle%20iron",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "107",
+        "ol",
+        "1"
+      ]
+    },
+    "cookie sheet": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "cookie sheet",
+      "data-encoded-term": "cookie%20sheet",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "drip pan": {
+      "data-frequency": "-1",
+      "data-relevance": "67",
+      "data-term": "drip pan",
+      "data-encoded-term": "drip%20pan",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "immersion heater": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "immersion heater",
+      "data-encoded-term": "immersion%20heater",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "toaster oven": {
+      "data-frequency": "46",
+      "data-relevance": "65",
+      "data-term": "toaster oven",
+      "data-encoded-term": "toaster%20oven",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "oven thermometer": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "oven thermometer",
+      "data-encoded-term": "oven%20thermometer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "kitchen range": {
+      "data-frequency": "71",
+      "data-relevance": "63",
+      "data-term": "kitchen range",
+      "data-encoded-term": "kitchen%20range",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "gas burner": {
+      "data-frequency": "105",
+      "data-relevance": "62",
+      "data-term": "gas burner",
+      "data-encoded-term": "gas%20burner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "105",
+        "ol",
+        "1"
+      ]
+    },
+    "gas range": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "gas range",
+      "data-encoded-term": "gas%20range",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "electric range": {
+      "data-frequency": "204",
+      "data-relevance": "60",
+      "data-term": "electric range",
+      "data-encoded-term": "electric%20range",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "204",
+        "ol",
+        "1"
+      ]
+    },
+    "gas ring": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "gas ring",
+      "data-encoded-term": "gas%20ring",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "omelet pan": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "omelet pan",
+      "data-encoded-term": "omelet%20pan",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "chafing dish": {
+      "data-frequency": "45",
+      "data-relevance": "57",
+      "data-term": "chafing dish",
+      "data-encoded-term": "chafing%20dish",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "pie crust": {
+      "data-frequency": "124",
+      "data-relevance": "56",
+      "data-term": "pie crust",
+      "data-encoded-term": "pie%20crust",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "124",
+        "ol",
+        "1"
+      ]
+    },
+    "range hood": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "range hood",
+      "data-encoded-term": "range%20hood",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "frying pan": {
+      "data-frequency": "2059",
+      "data-relevance": "54",
+      "data-term": "frying pan",
+      "data-encoded-term": "frying%20pan",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2059",
+        "ol",
+        "1"
+      ]
+    },
+    "gas cooker": {
+      "data-frequency": "49",
+      "data-relevance": "53",
+      "data-term": "gas cooker",
+      "data-encoded-term": "gas%20cooker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "garlic clove": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "garlic clove",
+      "data-encoded-term": "garlic%20clove",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "meat thermometer": {
+      "data-frequency": "112",
+      "data-relevance": "51",
+      "data-term": "meat thermometer",
+      "data-encoded-term": "meat%20thermometer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "112",
+        "ol",
+        "1"
+      ]
+    },
+    "masonry oven": {
+      "data-frequency": "263",
+      "data-relevance": "50",
+      "data-term": "masonry oven",
+      "data-encoded-term": "masonry%20oven",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "263",
+        "wiki",
+        "1"
+      ]
+    },
+    "bread dough": {
+      "data-frequency": "167",
+      "data-relevance": "49",
+      "data-term": "bread dough",
+      "data-encoded-term": "bread%20dough",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "167",
+        "ol",
+        "1"
+      ]
+    },
+    "grilling": {
+      "data-frequency": "998",
+      "data-relevance": "48",
+      "data-term": "grilling",
+      "data-encoded-term": "grilling",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "998",
+        "wiki",
+        "1"
+      ]
+    },
+    "broiling": {
+      "data-frequency": "147",
+      "data-relevance": "47",
+      "data-term": "broiling",
+      "data-encoded-term": "broiling",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "147",
+        "wiki",
+        "1"
+      ]
+    },
+    "ethnographic museum, belgrade": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "ethnographic museum, belgrade",
+      "data-encoded-term": "ethnographic%20museum%2C%20belgrade",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "pan": {
+      "data-frequency": "97364",
+      "data-relevance": "45",
+      "data-term": "pan",
+      "data-encoded-term": "pan",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "97364",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bbq": {
+      "data-frequency": "2571",
+      "data-relevance": "44",
+      "data-term": "bbq",
+      "data-encoded-term": "bbq",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2571",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "burner": {
+      "data-frequency": "3417",
+      "data-relevance": "43",
+      "data-term": "burner",
+      "data-encoded-term": "burner",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3417",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "stretching": {
+      "data-frequency": "15048",
+      "data-relevance": "42",
+      "data-term": "stretching",
+      "data-encoded-term": "stretching",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "15048",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "your": {
+      "data-frequency": "346142",
+      "data-relevance": "41",
+      "data-term": "your",
+      "data-encoded-term": "your",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "346142",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "off": {
+      "data-frequency": "627847",
+      "data-relevance": "40",
+      "data-term": "off",
+      "data-encoded-term": "off",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "627847",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "take": {
+      "data-frequency": "529263",
+      "data-relevance": "39",
+      "data-term": "take",
+      "data-encoded-term": "take",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "529263",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "counter": {
+      "data-frequency": "69661",
+      "data-relevance": "38",
+      "data-term": "counter",
+      "data-encoded-term": "counter",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "69661",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "mayhem": {
+      "data-frequency": "8371",
+      "data-relevance": "37",
+      "data-term": "mayhem",
+      "data-encoded-term": "mayhem",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8371",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "takeaway": {
+      "data-frequency": "1537",
+      "data-relevance": "36",
+      "data-term": "takeaway",
+      "data-encoded-term": "takeaway",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1537",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "muffler": {
+      "data-frequency": "640",
+      "data-relevance": "35",
+      "data-term": "muffler",
+      "data-encoded-term": "muffler",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "640",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "crock": {
+      "data-frequency": "649",
+      "data-relevance": "34",
+      "data-term": "crock",
+      "data-encoded-term": "crock",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "649",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "caudron": {
+      "data-frequency": "573",
+      "data-relevance": "33",
+      "data-term": "caudron",
+      "data-encoded-term": "caudron",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "573",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "surface": {
+      "data-frequency": "194506",
+      "data-relevance": "32",
+      "data-term": "surface",
+      "data-encoded-term": "surface",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "194506",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cupboard": {
+      "data-frequency": "2121",
+      "data-relevance": "31",
+      "data-term": "cupboard",
+      "data-encoded-term": "cupboard",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2121",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "combo": {
+      "data-frequency": "7501",
+      "data-relevance": "30",
+      "data-term": "combo",
+      "data-encoded-term": "combo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7501",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lower": {
+      "data-frequency": "292854",
+      "data-relevance": "29",
+      "data-term": "lower",
+      "data-encoded-term": "lower",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "292854",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "trombone": {
+      "data-frequency": "15422",
+      "data-relevance": "28",
+      "data-term": "trombone",
+      "data-encoded-term": "trombone",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "15422",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "crisco": {
+      "data-frequency": "113",
+      "data-relevance": "27",
+      "data-term": "crisco",
+      "data-encoded-term": "crisco",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "113",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lye": {
+      "data-frequency": "3727",
+      "data-relevance": "26",
+      "data-term": "lye",
+      "data-encoded-term": "lye",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3727",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "fear": {
+      "data-frequency": "91773",
+      "data-relevance": "25",
+      "data-term": "fear",
+      "data-encoded-term": "fear",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "91773",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cloths": {
+      "data-frequency": "1776",
+      "data-relevance": "24",
+      "data-term": "cloths",
+      "data-encoded-term": "cloths",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1776",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "glove": {
+      "data-frequency": "8634",
+      "data-relevance": "23",
+      "data-term": "glove",
+      "data-encoded-term": "glove",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8634",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "top": {
+      "data-frequency": "685875",
+      "data-relevance": "22",
+      "data-term": "top",
+      "data-encoded-term": "top",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "685875",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "space": {
+      "data-frequency": "316009",
+      "data-relevance": "21",
+      "data-term": "space",
+      "data-encoded-term": "space",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "316009",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "play": {
+      "data-frequency": "501433",
+      "data-relevance": "20",
+      "data-term": "play",
+      "data-encoded-term": "play",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "501433",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "appliances": {
+      "data-frequency": "7626",
+      "data-relevance": "19",
+      "data-term": "appliances",
+      "data-encoded-term": "appliances",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7626",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "temps": {
+      "data-frequency": "8180",
+      "data-relevance": "18",
+      "data-term": "temps",
+      "data-encoded-term": "temps",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8180",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "rag": {
+      "data-frequency": "8370",
+      "data-relevance": "17",
+      "data-term": "rag",
+      "data-encoded-term": "rag",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8370",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "over": {
+      "data-frequency": "1486712",
+      "data-relevance": "16",
+      "data-term": "over",
+      "data-encoded-term": "over",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1486712",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "towel": {
+      "data-frequency": "3013",
+      "data-relevance": "15",
+      "data-term": "towel",
+      "data-encoded-term": "towel",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3013",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "timer": {
+      "data-frequency": "6419",
+      "data-relevance": "14",
+      "data-term": "timer",
+      "data-encoded-term": "timer",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6419",
+        "wiki",
+        "1"
+      ]
+    },
+    "thermostat": {
+      "data-frequency": "1143",
+      "data-relevance": "13",
+      "data-term": "thermostat",
+      "data-encoded-term": "thermostat",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1143",
+        "wiki",
+        "1"
+      ]
+    },
+    "catalysis": {
+      "data-frequency": "3047",
+      "data-relevance": "12",
+      "data-term": "catalysis",
+      "data-encoded-term": "catalysis",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3047",
+        "wiki",
+        "1"
+      ]
+    },
+    "computer": {
+      "data-frequency": "176265",
+      "data-relevance": "11",
+      "data-term": "computer",
+      "data-encoded-term": "computer",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "176265",
+        "wiki",
+        "1"
+      ]
+    },
+    "art": {
+      "data-frequency": "540366",
+      "data-relevance": "10",
+      "data-term": "art",
+      "data-encoded-term": "art",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "540366",
+        "swiki",
+        "1"
+      ]
+    },
+    "pyrolysis": {
+      "data-frequency": "675",
+      "data-relevance": "9",
+      "data-term": "pyrolysis",
+      "data-encoded-term": "pyrolysis",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "675",
+        "wiki",
+        "1"
+      ]
+    },
+    "daifuku": {
+      "data-frequency": "112",
+      "data-relevance": "8",
+      "data-term": "daifuku",
+      "data-encoded-term": "daifuku",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "112",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "smoothie": {
+      "data-frequency": "994",
+      "data-relevance": "7",
+      "data-term": "smoothie",
+      "data-encoded-term": "smoothie",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "994",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "takeaways": {
+      "data-frequency": "2190",
+      "data-relevance": "6",
+      "data-term": "takeaways",
+      "data-encoded-term": "takeaways",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2190",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "micowave": {
+      "data-frequency": "-1",
+      "data-relevance": "5",
+      "data-term": "micowave",
+      "data-encoded-term": "micowave",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "liquefied petroleum gas": {
+      "data-frequency": "409",
+      "data-relevance": "4",
+      "data-term": "liquefied petroleum gas",
+      "data-encoded-term": "liquefied%20petroleum%20gas",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "409",
+        "wiki",
+        "1"
+      ]
+    },
+    "thermistor": {
+      "data-frequency": "375",
+      "data-relevance": "3",
+      "data-term": "thermistor",
+      "data-encoded-term": "thermistor",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "375",
+        "wiki",
+        "1"
+      ]
+    },
+    "convection oven": {
+      "data-frequency": "150",
+      "data-relevance": "2",
+      "data-term": "convection oven",
+      "data-encoded-term": "convection%20oven",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "150",
+        "wiki",
+        "1"
+      ]
+    },
+    "ancient greece": {
+      "data-frequency": "8202",
+      "data-relevance": "1",
+      "data-term": "ancient greece",
+      "data-encoded-term": "ancient%20greece",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "8202",
+        "swiki",
+        "1"
+      ]
+    },
+    "self-cleaning oven": {
+      "data-frequency": "371",
+      "data-relevance": "0",
+      "data-term": "self-cleaning oven",
+      "data-encoded-term": "self-cleaning%20oven",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "371",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "oven"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "Microwave ovens have simplified cooking.",
+        "ru": "Микроволновые печи упростили приготовление пищи."
+      },
+      {
+        "en": "Microwave ovens have come a long way (=have developed or improved a lot) since they first appeared in our kitchens.",
+        "ru": "Микроволновые печи прошли долгий путь (т.е. сильно развились или усовершенствовались) с тех пор, как они впервые появились на наших кухнях."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "oven"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "oven"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "stove",
+      "grill",
+      "stoves",
+      "kiln",
+      "oven",
+      "furnace",
+      "toaster",
+      "cooking",
+      "baking",
+      "hot",
+      "microwave",
+      "bakehouse",
+      "broiler",
+      "heat"
+    ]
+  }
+}
