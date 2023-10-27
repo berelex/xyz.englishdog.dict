@@ -1,0 +1,4431 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "metrocard": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/metrocard/n/,/c/en/fares/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/metrocard/n",
+          "@type": "Node",
+          "label": "metrocard",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/metrocard"
+        },
+        "end": {
+          "@id": "/c/en/fares",
+          "@type": "Node",
+          "label": "fares",
+          "language": "en",
+          "term": "/c/en/fares"
+        }
+      },
+      "fare": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/fares/n/,/c/en/fare/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/fares/n",
+          "@type": "Node",
+          "label": "fares",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/fares"
+        },
+        "end": {
+          "@id": "/c/en/fare",
+          "@type": "Node",
+          "label": "fare",
+          "language": "en",
+          "term": "/c/en/fare"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "fare": {
+        "@id": "/a/[/r/FormOf/,/c/en/fares/n/,/c/en/fare/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/fares/n",
+          "@type": "Node",
+          "label": "fares",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/fares"
+        },
+        "end": {
+          "@id": "/c/en/fare",
+          "@type": "Node",
+          "label": "fare",
+          "language": "en",
+          "term": "/c/en/fare"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "tickets": {
+      "data-frequency": "29831",
+      "data-relevance": "304",
+      "data-term": "tickets",
+      "data-encoded-term": "tickets",
+      "data-term-stats": [
+        "1",
+        "3.4",
+        "0.000",
+        "29831",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "tolls": {
+      "data-frequency": "4849",
+      "data-relevance": "303",
+      "data-term": "tolls",
+      "data-encoded-term": "tolls",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "4849",
+        "vec2",
+        "1"
+      ]
+    },
+    "tips": {
+      "data-frequency": "40534",
+      "data-relevance": "302",
+      "data-term": "tips",
+      "data-encoded-term": "tips",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "40534",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "passes": {
+      "data-frequency": "93006",
+      "data-relevance": "301",
+      "data-term": "passes",
+      "data-encoded-term": "passes",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "93006",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "airfare": {
+      "data-frequency": "371",
+      "data-relevance": "300",
+      "data-term": "airfare",
+      "data-encoded-term": "airfare",
+      "data-term-stats": [
+        "1",
+        "20.0",
+        "0.000",
+        "371",
+        "ol,w2v,wn|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "menu": {
+      "data-frequency": "18157",
+      "data-relevance": "299",
+      "data-term": "menu",
+      "data-encoded-term": "menu",
+      "data-term-stats": [
+        "1",
+        "10.9",
+        "0.000",
+        "18157",
+        "ol,w2v,wn,wn",
+        "1"
+      ]
+    },
+    "airline": {
+      "data-frequency": "26196",
+      "data-relevance": "298",
+      "data-term": "airline",
+      "data-encoded-term": "airline",
+      "data-term-stats": [
+        "1",
+        "8.0",
+        "0.000",
+        "26196",
+        "ol,w2v,wiki|vec2",
+        "1"
+      ]
+    },
+    "passenger": {
+      "data-frequency": "86699",
+      "data-relevance": "297",
+      "data-term": "passenger",
+      "data-encoded-term": "passenger",
+      "data-term-stats": [
+        "1",
+        "6.7",
+        "0.000",
+        "86699",
+        "ol,wiki,wn|vec2",
+        "1"
+      ]
+    },
+    "fees": {
+      "data-frequency": "30231",
+      "data-relevance": "296",
+      "data-term": "fees",
+      "data-encoded-term": "fees",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "30231",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "fee": {
+      "data-frequency": "56626",
+      "data-relevance": "295",
+      "data-term": "fee",
+      "data-encoded-term": "fee",
+      "data-term-stats": [
+        "1",
+        "5.2",
+        "0.000",
+        "56626",
+        "ol,w2v,wiki|reverse-net",
+        "1"
+      ]
+    },
+    "deliveries": {
+      "data-frequency": "6949",
+      "data-relevance": "294",
+      "data-term": "deliveries",
+      "data-encoded-term": "deliveries",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6949",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "groups": {
+      "data-frequency": "303907",
+      "data-relevance": "293",
+      "data-term": "groups",
+      "data-encoded-term": "groups",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "303907",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "ticket": {
+      "data-frequency": "53504",
+      "data-relevance": "292",
+      "data-term": "ticket",
+      "data-encoded-term": "ticket",
+      "data-term-stats": [
+        "1",
+        "3.7",
+        "0.000",
+        "53504",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "travel": {
+      "data-frequency": "183471",
+      "data-relevance": "291",
+      "data-term": "travel",
+      "data-encoded-term": "travel",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "183471",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "roundtrip": {
+      "data-frequency": "380",
+      "data-relevance": "290",
+      "data-term": "roundtrip",
+      "data-encoded-term": "roundtrip",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "380",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "surcharge": {
+      "data-frequency": "1501",
+      "data-relevance": "289",
+      "data-term": "surcharge",
+      "data-encoded-term": "surcharge",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "1501",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "routes": {
+      "data-frequency": "79925",
+      "data-relevance": "288",
+      "data-term": "routes",
+      "data-encoded-term": "routes",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "79925",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "fuel": {
+      "data-frequency": "84205",
+      "data-relevance": "287",
+      "data-term": "fuel",
+      "data-encoded-term": "fuel",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "84205",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "come": {
+      "data-frequency": "315242",
+      "data-relevance": "286",
+      "data-term": "come",
+      "data-encoded-term": "come",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "315242",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "fare": {
+      "data-frequency": "25115",
+      "data-relevance": "285",
+      "data-term": "fare",
+      "data-encoded-term": "fare",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "25115",
+        "vec2",
+        "1"
+      ]
+    },
+    "do": {
+      "data-frequency": "683136",
+      "data-relevance": "284",
+      "data-term": "do",
+      "data-encoded-term": "do",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "683136",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "get along": {
+      "data-frequency": "4603",
+      "data-relevance": "283",
+      "data-term": "get along",
+      "data-encoded-term": "get%20along",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "4603",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "diet": {
+      "data-frequency": "34307",
+      "data-relevance": "282",
+      "data-term": "diet",
+      "data-encoded-term": "diet",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "34307",
+        "wn,wn",
+        "1"
+      ]
+    },
+    "commuter": {
+      "data-frequency": "18105",
+      "data-relevance": "281",
+      "data-term": "commuter",
+      "data-encoded-term": "commuter",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "18105",
+        "ol,w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "make out": {
+      "data-frequency": "1746",
+      "data-relevance": "280",
+      "data-term": "make out",
+      "data-encoded-term": "make%20out",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "1746",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "charge": {
+      "data-frequency": "170970",
+      "data-relevance": "279",
+      "data-term": "charge",
+      "data-encoded-term": "charge",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "170970",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "flights": {
+      "data-frequency": "30710",
+      "data-relevance": "278",
+      "data-term": "flights",
+      "data-encoded-term": "flights",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "30710",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "277",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "233063",
+        "wn",
+        "1"
+      ]
+    },
+    "prices": {
+      "data-frequency": "40096",
+      "data-relevance": "276",
+      "data-term": "prices",
+      "data-encoded-term": "prices",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "40096",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "rates": {
+      "data-frequency": "59341",
+      "data-relevance": "275",
+      "data-term": "rates",
+      "data-encoded-term": "rates",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "59341",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "schedules": {
+      "data-frequency": "14807",
+      "data-relevance": "274",
+      "data-term": "schedules",
+      "data-encoded-term": "schedules",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14807",
+        "w2v",
+        "1"
+      ]
+    },
+    "costs": {
+      "data-frequency": "69504",
+      "data-relevance": "273",
+      "data-term": "costs",
+      "data-encoded-term": "costs",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69504",
+        "w2v",
+        "1"
+      ]
+    },
+    "flight": {
+      "data-frequency": "145431",
+      "data-relevance": "272",
+      "data-term": "flight",
+      "data-encoded-term": "flight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "145431",
+        "ol",
+        "1"
+      ]
+    },
+    "rider": {
+      "data-frequency": "50698",
+      "data-relevance": "271",
+      "data-term": "rider",
+      "data-encoded-term": "rider",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "50698",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "fuel surcharge": {
+      "data-frequency": "302",
+      "data-relevance": "270",
+      "data-term": "fuel surcharge",
+      "data-encoded-term": "fuel%20surcharge",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "302",
+        "vec2",
+        "1"
+      ]
+    },
+    "fares": {
+      "data-frequency": "7982",
+      "data-relevance": "269",
+      "data-term": "fares",
+      "data-encoded-term": "fares",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "7982",
+        "vec2",
+        "1"
+      ]
+    },
+    "fare hikes": {
+      "data-frequency": "672",
+      "data-relevance": "268",
+      "data-term": "fare hikes",
+      "data-encoded-term": "fare%20hikes",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "672",
+        "vec2",
+        "1"
+      ]
+    },
+    "fuel surcharges": {
+      "data-frequency": "302",
+      "data-relevance": "267",
+      "data-term": "fuel surcharges",
+      "data-encoded-term": "fuel%20surcharges",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "302",
+        "vec2",
+        "1"
+      ]
+    },
+    "train fare": {
+      "data-frequency": "11789",
+      "data-relevance": "266",
+      "data-term": "train fare",
+      "data-encoded-term": "train%20fare",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "11789",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "airlines": {
+      "data-frequency": "35656",
+      "data-relevance": "265",
+      "data-term": "airlines",
+      "data-encoded-term": "airlines",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "35656",
+        "vec2",
+        "1"
+      ]
+    },
+    "surcharges": {
+      "data-frequency": "391",
+      "data-relevance": "264",
+      "data-term": "surcharges",
+      "data-encoded-term": "surcharges",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "391",
+        "vec2",
+        "1"
+      ]
+    },
+    "nonstop flights": {
+      "data-frequency": "1390",
+      "data-relevance": "263",
+      "data-term": "nonstop flights",
+      "data-encoded-term": "nonstop%20flights",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1390",
+        "vec2",
+        "1"
+      ]
+    },
+    "airtran": {
+      "data-frequency": "183",
+      "data-relevance": "262",
+      "data-term": "airtran",
+      "data-encoded-term": "airtran",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "183",
+        "vec2",
+        "1"
+      ]
+    },
+    "pricing": {
+      "data-frequency": "10285",
+      "data-relevance": "261",
+      "data-term": "pricing",
+      "data-encoded-term": "pricing",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "10285",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "frills": {
+      "data-frequency": "1709",
+      "data-relevance": "260",
+      "data-term": "frills",
+      "data-encoded-term": "frills",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1709",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "schedule": {
+      "data-frequency": "133204",
+      "data-relevance": "259",
+      "data-term": "schedule",
+      "data-encoded-term": "schedule",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "133204",
+        "wn",
+        "1"
+      ]
+    },
+    "bus": {
+      "data-frequency": "125791",
+      "data-relevance": "258",
+      "data-term": "bus",
+      "data-encoded-term": "bus",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "125791",
+        "wiki",
+        "1"
+      ]
+    },
+    "taxis": {
+      "data-frequency": "5279",
+      "data-relevance": "257",
+      "data-term": "taxis",
+      "data-encoded-term": "taxis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5279",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "bread": {
+      "data-frequency": "29037",
+      "data-relevance": "256",
+      "data-term": "bread",
+      "data-encoded-term": "bread",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29037",
+        "ol",
+        "1"
+      ]
+    },
+    "less": {
+      "data-frequency": "368681",
+      "data-relevance": "255",
+      "data-term": "less",
+      "data-encoded-term": "less",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "368681",
+        "w2v",
+        "1"
+      ]
+    },
+    "payment": {
+      "data-frequency": "41572",
+      "data-relevance": "254",
+      "data-term": "payment",
+      "data-encoded-term": "payment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41572",
+        "ol",
+        "1"
+      ]
+    },
+    "award": {
+      "data-frequency": "473188",
+      "data-relevance": "253",
+      "data-term": "award",
+      "data-encoded-term": "award",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "473188",
+        "ol",
+        "1"
+      ]
+    },
+    "meals": {
+      "data-frequency": "14274",
+      "data-relevance": "252",
+      "data-term": "meals",
+      "data-encoded-term": "meals",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "14274",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cost": {
+      "data-frequency": "170589",
+      "data-relevance": "251",
+      "data-term": "cost",
+      "data-encoded-term": "cost",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "170589",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "airasia x": {
+      "data-frequency": "126",
+      "data-relevance": "250",
+      "data-term": "airasia x",
+      "data-encoded-term": "airasia%20x",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "126",
+        "vec2",
+        "1"
+      ]
+    },
+    "haul flights": {
+      "data-frequency": "2817",
+      "data-relevance": "249",
+      "data-term": "haul flights",
+      "data-encoded-term": "haul%20flights",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "2817",
+        "vec2",
+        "1"
+      ]
+    },
+    "allegiant": {
+      "data-frequency": "476",
+      "data-relevance": "248",
+      "data-term": "allegiant",
+      "data-encoded-term": "allegiant",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "476",
+        "vec2",
+        "1"
+      ]
+    },
+    "sailings": {
+      "data-frequency": "643",
+      "data-relevance": "247",
+      "data-term": "sailings",
+      "data-encoded-term": "sailings",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "643",
+        "vec2",
+        "1"
+      ]
+    },
+    "itineraries": {
+      "data-frequency": "5182",
+      "data-relevance": "246",
+      "data-term": "itineraries",
+      "data-encoded-term": "itineraries",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "5182",
+        "vec2",
+        "1"
+      ]
+    },
+    "blackout dates": {
+      "data-frequency": "2958",
+      "data-relevance": "245",
+      "data-term": "blackout dates",
+      "data-encoded-term": "blackout%20dates",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2958",
+        "vec2",
+        "1"
+      ]
+    },
+    "bmi": {
+      "data-frequency": "5120",
+      "data-relevance": "244",
+      "data-term": "bmi",
+      "data-encoded-term": "bmi",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "5120",
+        "vec2",
+        "1"
+      ]
+    },
+    "skybus": {
+      "data-frequency": "1102",
+      "data-relevance": "243",
+      "data-term": "skybus",
+      "data-encoded-term": "skybus",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1102",
+        "vec2",
+        "1"
+      ]
+    },
+    "farecompare.com": {
+      "data-frequency": "-1",
+      "data-relevance": "242",
+      "data-term": "farecompare.com",
+      "data-encoded-term": "farecompare.com",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "entrees": {
+      "data-frequency": "1088",
+      "data-relevance": "241",
+      "data-term": "entrees",
+      "data-encoded-term": "entrees",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1088",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "allegiant air": {
+      "data-frequency": "348",
+      "data-relevance": "240",
+      "data-term": "allegiant air",
+      "data-encoded-term": "allegiant%20air",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "348",
+        "vec2",
+        "1"
+      ]
+    },
+    "ryanair": {
+      "data-frequency": "986",
+      "data-relevance": "239",
+      "data-term": "ryanair",
+      "data-encoded-term": "ryanair",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "986",
+        "vec2",
+        "1"
+      ]
+    },
+    "codeshare": {
+      "data-frequency": "544",
+      "data-relevance": "238",
+      "data-term": "codeshare",
+      "data-encoded-term": "codeshare",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "544",
+        "vec2",
+        "1"
+      ]
+    },
+    "stansted": {
+      "data-frequency": "2488",
+      "data-relevance": "237",
+      "data-term": "stansted",
+      "data-encoded-term": "stansted",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2488",
+        "vec2",
+        "1"
+      ]
+    },
+    "airfares": {
+      "data-frequency": "502",
+      "data-relevance": "236",
+      "data-term": "airfares",
+      "data-encoded-term": "airfares",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "502",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "westjet": {
+      "data-frequency": "690",
+      "data-relevance": "235",
+      "data-term": "westjet",
+      "data-encoded-term": "westjet",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "690",
+        "vec2",
+        "1"
+      ]
+    },
+    "easyjet": {
+      "data-frequency": "644",
+      "data-relevance": "234",
+      "data-term": "easyjet",
+      "data-encoded-term": "easyjet",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "644",
+        "vec2",
+        "1"
+      ]
+    },
+    "gatwick": {
+      "data-frequency": "2632",
+      "data-relevance": "233",
+      "data-term": "gatwick",
+      "data-encoded-term": "gatwick",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2632",
+        "vec2",
+        "1"
+      ]
+    },
+    "jetblue": {
+      "data-frequency": "933",
+      "data-relevance": "232",
+      "data-term": "jetblue",
+      "data-encoded-term": "jetblue",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "933",
+        "vec2",
+        "1"
+      ]
+    },
+    "spirit airlines": {
+      "data-frequency": "201",
+      "data-relevance": "231",
+      "data-term": "spirit airlines",
+      "data-encoded-term": "spirit%20airlines",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "201",
+        "vec2",
+        "1"
+      ]
+    },
+    "gds": {
+      "data-frequency": "543",
+      "data-relevance": "230",
+      "data-term": "gds",
+      "data-encoded-term": "gds",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "543",
+        "vec2",
+        "1"
+      ]
+    },
+    "leisure travelers": {
+      "data-frequency": "827",
+      "data-relevance": "229",
+      "data-term": "leisure travelers",
+      "data-encoded-term": "leisure%20travelers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "827",
+        "vec2",
+        "1"
+      ]
+    },
+    "orbitz": {
+      "data-frequency": "148",
+      "data-relevance": "228",
+      "data-term": "orbitz",
+      "data-encoded-term": "orbitz",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "148",
+        "vec2",
+        "1"
+      ]
+    },
+    "london gatwick": {
+      "data-frequency": "2374",
+      "data-relevance": "227",
+      "data-term": "london gatwick",
+      "data-encoded-term": "london%20gatwick",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2374",
+        "vec2",
+        "1"
+      ]
+    },
+    "checked baggage": {
+      "data-frequency": "415",
+      "data-relevance": "226",
+      "data-term": "checked baggage",
+      "data-encoded-term": "checked%20baggage",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "415",
+        "vec2",
+        "1"
+      ]
+    },
+    "transatlantic flights": {
+      "data-frequency": "1922",
+      "data-relevance": "225",
+      "data-term": "transatlantic flights",
+      "data-encoded-term": "transatlantic%20flights",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1922",
+        "vec2",
+        "1"
+      ]
+    },
+    "paratransit": {
+      "data-frequency": "618",
+      "data-relevance": "224",
+      "data-term": "paratransit",
+      "data-encoded-term": "paratransit",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "618",
+        "vec2",
+        "1"
+      ]
+    },
+    "air deccan": {
+      "data-frequency": "1822",
+      "data-relevance": "223",
+      "data-term": "air deccan",
+      "data-encoded-term": "air%20deccan",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1822",
+        "vec2",
+        "1"
+      ]
+    },
+    "e ticketing": {
+      "data-frequency": "43575",
+      "data-relevance": "222",
+      "data-term": "e ticketing",
+      "data-encoded-term": "e%20ticketing",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "43575",
+        "vec2",
+        "1"
+      ]
+    },
+    "open skies": {
+      "data-frequency": "42268",
+      "data-relevance": "221",
+      "data-term": "open skies",
+      "data-encoded-term": "open%20skies",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "42268",
+        "vec2",
+        "1"
+      ]
+    },
+    "jetstar": {
+      "data-frequency": "603",
+      "data-relevance": "220",
+      "data-term": "jetstar",
+      "data-encoded-term": "jetstar",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "603",
+        "vec2",
+        "1"
+      ]
+    },
+    "airasia": {
+      "data-frequency": "899",
+      "data-relevance": "219",
+      "data-term": "airasia",
+      "data-encoded-term": "airasia",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "899",
+        "vec2",
+        "1"
+      ]
+    },
+    "jet airways": {
+      "data-frequency": "581",
+      "data-relevance": "218",
+      "data-term": "jet airways",
+      "data-encoded-term": "jet%20airways",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "581",
+        "vec2",
+        "1"
+      ]
+    },
+    "translink": {
+      "data-frequency": "1094",
+      "data-relevance": "217",
+      "data-term": "translink",
+      "data-encoded-term": "translink",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1094",
+        "vec2",
+        "1"
+      ]
+    },
+    "excess baggage": {
+      "data-frequency": "254",
+      "data-relevance": "216",
+      "data-term": "excess baggage",
+      "data-encoded-term": "excess%20baggage",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "254",
+        "vec2",
+        "1"
+      ]
+    },
+    "hotwire": {
+      "data-frequency": "180",
+      "data-relevance": "215",
+      "data-term": "hotwire",
+      "data-encoded-term": "hotwire",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "180",
+        "vec2",
+        "1"
+      ]
+    },
+    "bookings": {
+      "data-frequency": "2765",
+      "data-relevance": "214",
+      "data-term": "bookings",
+      "data-encoded-term": "bookings",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "2765",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "airways": {
+      "data-frequency": "15624",
+      "data-relevance": "213",
+      "data-term": "airways",
+      "data-encoded-term": "airways",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "15624",
+        "vec2",
+        "1"
+      ]
+    },
+    "rents": {
+      "data-frequency": "5803",
+      "data-relevance": "212",
+      "data-term": "rents",
+      "data-encoded-term": "rents",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "5803",
+        "vec2",
+        "1"
+      ]
+    },
+    "cruises": {
+      "data-frequency": "44718",
+      "data-relevance": "211",
+      "data-term": "cruises",
+      "data-encoded-term": "cruises",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "44718",
+        "vec2",
+        "1"
+      ]
+    },
+    "airtran airways": {
+      "data-frequency": "136",
+      "data-relevance": "210",
+      "data-term": "airtran airways",
+      "data-encoded-term": "airtran%20airways",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "136",
+        "vec2",
+        "1"
+      ]
+    },
+    "mileage": {
+      "data-frequency": "4737",
+      "data-relevance": "209",
+      "data-term": "mileage",
+      "data-encoded-term": "mileage",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4737",
+        "vec2",
+        "1"
+      ]
+    },
+    "air arabia": {
+      "data-frequency": "15702",
+      "data-relevance": "208",
+      "data-term": "air arabia",
+      "data-encoded-term": "air%20arabia",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "15702",
+        "vec2",
+        "1"
+      ]
+    },
+    "flight cancellations": {
+      "data-frequency": "107",
+      "data-relevance": "207",
+      "data-term": "flight cancellations",
+      "data-encoded-term": "flight%20cancellations",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "107",
+        "vec2",
+        "1"
+      ]
+    },
+    "frequent flyers": {
+      "data-frequency": "2856",
+      "data-relevance": "206",
+      "data-term": "frequent flyers",
+      "data-encoded-term": "frequent%20flyers",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2856",
+        "vec2",
+        "1"
+      ]
+    },
+    "tuition fees": {
+      "data-frequency": "4268",
+      "data-relevance": "205",
+      "data-term": "tuition fees",
+      "data-encoded-term": "tuition%20fees",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "4268",
+        "vec2",
+        "1"
+      ]
+    },
+    "travelocity": {
+      "data-frequency": "129",
+      "data-relevance": "204",
+      "data-term": "travelocity",
+      "data-encoded-term": "travelocity",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "129",
+        "vec2",
+        "1"
+      ]
+    },
+    "ryanair holdings": {
+      "data-frequency": "173",
+      "data-relevance": "203",
+      "data-term": "ryanair holdings",
+      "data-encoded-term": "ryanair%20holdings",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "173",
+        "vec2",
+        "1"
+      ]
+    },
+    "hotels.com": {
+      "data-frequency": "139",
+      "data-relevance": "202",
+      "data-term": "hotels.com",
+      "data-encoded-term": "hotels.com",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "139",
+        "vec2",
+        "1"
+      ]
+    },
+    "etihad": {
+      "data-frequency": "2394",
+      "data-relevance": "201",
+      "data-term": "etihad",
+      "data-encoded-term": "etihad",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2394",
+        "vec2",
+        "1"
+      ]
+    },
+    "airtran holdings inc.": {
+      "data-frequency": "-1",
+      "data-relevance": "200",
+      "data-term": "airtran holdings inc.",
+      "data-encoded-term": "airtran%20holdings%20inc.",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "congestion": {
+      "data-frequency": "9066",
+      "data-relevance": "199",
+      "data-term": "congestion",
+      "data-encoded-term": "congestion",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "9066",
+        "vec2",
+        "1"
+      ]
+    },
+    "tuitions": {
+      "data-frequency": "12547",
+      "data-relevance": "198",
+      "data-term": "tuitions",
+      "data-encoded-term": "tuitions",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "12547",
+        "vec2",
+        "1"
+      ]
+    },
+    "tuition": {
+      "data-frequency": "13209",
+      "data-relevance": "197",
+      "data-term": "tuition",
+      "data-encoded-term": "tuition",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "13209",
+        "vec2",
+        "1"
+      ]
+    },
+    "ridership": {
+      "data-frequency": "5066",
+      "data-relevance": "196",
+      "data-term": "ridership",
+      "data-encoded-term": "ridership",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "5066",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "destinations": {
+      "data-frequency": "24093",
+      "data-relevance": "195",
+      "data-term": "destinations",
+      "data-encoded-term": "destinations",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "24093",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "transportation": {
+      "data-frequency": "166379",
+      "data-relevance": "194",
+      "data-term": "transportation",
+      "data-encoded-term": "transportation",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "166379",
+        "wn",
+        "1"
+      ]
+    },
+    "travelers": {
+      "data-frequency": "16122",
+      "data-relevance": "193",
+      "data-term": "travelers",
+      "data-encoded-term": "travelers",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "16122",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "ticketing": {
+      "data-frequency": "3698",
+      "data-relevance": "192",
+      "data-term": "ticketing",
+      "data-encoded-term": "ticketing",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3698",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "freight": {
+      "data-frequency": "32373",
+      "data-relevance": "191",
+      "data-term": "freight",
+      "data-encoded-term": "freight",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "32373",
+        "ol|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "docket": {
+      "data-frequency": "3925",
+      "data-relevance": "190",
+      "data-term": "docket",
+      "data-encoded-term": "docket",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3925",
+        "wn",
+        "1"
+      ]
+    },
+    "agenda": {
+      "data-frequency": "29918",
+      "data-relevance": "189",
+      "data-term": "agenda",
+      "data-encoded-term": "agenda",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "29918",
+        "wn",
+        "1"
+      ]
+    },
+    "dietary": {
+      "data-frequency": "7545",
+      "data-relevance": "188",
+      "data-term": "dietary",
+      "data-encoded-term": "dietary",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7545",
+        "wn",
+        "1"
+      ]
+    },
+    "nutrient": {
+      "data-frequency": "6756",
+      "data-relevance": "187",
+      "data-term": "nutrient",
+      "data-encoded-term": "nutrient",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "6756",
+        "wn",
+        "1"
+      ]
+    },
+    "chuck": {
+      "data-frequency": "52164",
+      "data-relevance": "186",
+      "data-term": "chuck",
+      "data-encoded-term": "chuck",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "52164",
+        "wn",
+        "1"
+      ]
+    },
+    "chow": {
+      "data-frequency": "13335",
+      "data-relevance": "185",
+      "data-term": "chow",
+      "data-encoded-term": "chow",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "13335",
+        "wn",
+        "1"
+      ]
+    },
+    "grub": {
+      "data-frequency": "4464",
+      "data-relevance": "184",
+      "data-term": "grub",
+      "data-encoded-term": "grub",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4464",
+        "wn",
+        "1"
+      ]
+    },
+    "eats": {
+      "data-frequency": "9828",
+      "data-relevance": "183",
+      "data-term": "eats",
+      "data-encoded-term": "eats",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "9828",
+        "wn",
+        "1"
+      ]
+    },
+    "table": {
+      "data-frequency": "235661",
+      "data-relevance": "182",
+      "data-term": "table",
+      "data-encoded-term": "table",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "235661",
+        "wn",
+        "1"
+      ]
+    },
+    "board": {
+      "data-frequency": "479736",
+      "data-relevance": "181",
+      "data-term": "board",
+      "data-encoded-term": "board",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "479736",
+        "wn",
+        "1"
+      ]
+    },
+    "eat": {
+      "data-frequency": "51972",
+      "data-relevance": "180",
+      "data-term": "eat",
+      "data-encoded-term": "eat",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "51972",
+        "wn",
+        "1"
+      ]
+    },
+    "ration": {
+      "data-frequency": "2235",
+      "data-relevance": "179",
+      "data-term": "ration",
+      "data-encoded-term": "ration",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2235",
+        "wn",
+        "1"
+      ]
+    },
+    "proceed": {
+      "data-frequency": "25360",
+      "data-relevance": "178",
+      "data-term": "proceed",
+      "data-encoded-term": "proceed",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "25360",
+        "wn",
+        "1"
+      ]
+    },
+    "go": {
+      "data-frequency": "462662",
+      "data-relevance": "177",
+      "data-term": "go",
+      "data-encoded-term": "go",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "462662",
+        "wn",
+        "1"
+      ]
+    },
+    "passengers": {
+      "data-frequency": "60048",
+      "data-relevance": "176",
+      "data-term": "passengers",
+      "data-encoded-term": "passengers",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "60048",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "taxicab": {
+      "data-frequency": "1816",
+      "data-relevance": "175",
+      "data-term": "taxicab",
+      "data-encoded-term": "taxicab",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1816",
+        "wiki",
+        "1"
+      ]
+    },
+    "carfare": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "carfare",
+      "data-encoded-term": "carfare",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "premium": {
+      "data-frequency": "23383",
+      "data-relevance": "173",
+      "data-term": "premium",
+      "data-encoded-term": "premium",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "23383",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheapest": {
+      "data-frequency": "2433",
+      "data-relevance": "172",
+      "data-term": "cheapest",
+      "data-encoded-term": "cheapest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2433",
+        "w2v",
+        "1"
+      ]
+    },
+    "expensive": {
+      "data-frequency": "48508",
+      "data-relevance": "171",
+      "data-term": "expensive",
+      "data-encoded-term": "expensive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48508",
+        "w2v",
+        "1"
+      ]
+    },
+    "discounts": {
+      "data-frequency": "3427",
+      "data-relevance": "170",
+      "data-term": "discounts",
+      "data-encoded-term": "discounts",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3427",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "usual": {
+      "data-frequency": "57072",
+      "data-relevance": "169",
+      "data-term": "usual",
+      "data-encoded-term": "usual",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "57072",
+        "w2v",
+        "1"
+      ]
+    },
+    "discount": {
+      "data-frequency": "8951",
+      "data-relevance": "168",
+      "data-term": "discount",
+      "data-encoded-term": "discount",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8951",
+        "w2v",
+        "1"
+      ]
+    },
+    "accommodations": {
+      "data-frequency": "6042",
+      "data-relevance": "167",
+      "data-term": "accommodations",
+      "data-encoded-term": "accommodations",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6042",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheaper": {
+      "data-frequency": "14392",
+      "data-relevance": "166",
+      "data-term": "cheaper",
+      "data-encoded-term": "cheaper",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14392",
+        "w2v",
+        "1"
+      ]
+    },
+    "restaurants": {
+      "data-frequency": "43833",
+      "data-relevance": "165",
+      "data-term": "restaurants",
+      "data-encoded-term": "restaurants",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "43833",
+        "w2v",
+        "1"
+      ]
+    },
+    "priced": {
+      "data-frequency": "9381",
+      "data-relevance": "164",
+      "data-term": "priced",
+      "data-encoded-term": "priced",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9381",
+        "w2v",
+        "1"
+      ]
+    },
+    "convenient": {
+      "data-frequency": "14936",
+      "data-relevance": "163",
+      "data-term": "convenient",
+      "data-encoded-term": "convenient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14936",
+        "w2v",
+        "1"
+      ]
+    },
+    "booking": {
+      "data-frequency": "9700",
+      "data-relevance": "162",
+      "data-term": "booking",
+      "data-encoded-term": "booking",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9700",
+        "w2v",
+        "1"
+      ]
+    },
+    "typical": {
+      "data-frequency": "107754",
+      "data-relevance": "161",
+      "data-term": "typical",
+      "data-encoded-term": "typical",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "107754",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheap": {
+      "data-frequency": "23942",
+      "data-relevance": "160",
+      "data-term": "cheap",
+      "data-encoded-term": "cheap",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23942",
+        "w2v",
+        "1"
+      ]
+    },
+    "destination": {
+      "data-frequency": "50123",
+      "data-relevance": "159",
+      "data-term": "destination",
+      "data-encoded-term": "destination",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "50123",
+        "w2v",
+        "1"
+      ]
+    },
+    "advertised": {
+      "data-frequency": "13407",
+      "data-relevance": "158",
+      "data-term": "advertised",
+      "data-encoded-term": "advertised",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13407",
+        "w2v",
+        "1"
+      ]
+    },
+    "rentals": {
+      "data-frequency": "5440",
+      "data-relevance": "157",
+      "data-term": "rentals",
+      "data-encoded-term": "rentals",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5440",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "tariffs": {
+      "data-frequency": "5055",
+      "data-relevance": "156",
+      "data-term": "tariffs",
+      "data-encoded-term": "tariffs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5055",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "inexpensive": {
+      "data-frequency": "8176",
+      "data-relevance": "155",
+      "data-term": "inexpensive",
+      "data-encoded-term": "inexpensive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8176",
+        "w2v",
+        "1"
+      ]
+    },
+    "occupancy": {
+      "data-frequency": "7614",
+      "data-relevance": "154",
+      "data-term": "occupancy",
+      "data-encoded-term": "occupancy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7614",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "slots": {
+      "data-frequency": "9533",
+      "data-relevance": "153",
+      "data-term": "slots",
+      "data-encoded-term": "slots",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9533",
+        "w2v",
+        "1"
+      ]
+    },
+    "packages": {
+      "data-frequency": "13641",
+      "data-relevance": "152",
+      "data-term": "packages",
+      "data-encoded-term": "packages",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13641",
+        "w2v",
+        "1"
+      ]
+    },
+    "convenience": {
+      "data-frequency": "14928",
+      "data-relevance": "151",
+      "data-term": "convenience",
+      "data-encoded-term": "convenience",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14928",
+        "w2v",
+        "1"
+      ]
+    },
+    "lodging": {
+      "data-frequency": "6972",
+      "data-relevance": "150",
+      "data-term": "lodging",
+      "data-encoded-term": "lodging",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6972",
+        "w2v",
+        "1"
+      ]
+    },
+    "option": {
+      "data-frequency": "69929",
+      "data-relevance": "149",
+      "data-term": "option",
+      "data-encoded-term": "option",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "69929",
+        "w2v",
+        "1"
+      ]
+    },
+    "options": {
+      "data-frequency": "46849",
+      "data-relevance": "148",
+      "data-term": "options",
+      "data-encoded-term": "options",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46849",
+        "w2v",
+        "1"
+      ]
+    },
+    "rental": {
+      "data-frequency": "17276",
+      "data-relevance": "147",
+      "data-term": "rental",
+      "data-encoded-term": "rental",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17276",
+        "w2v",
+        "1"
+      ]
+    },
+    "cruise": {
+      "data-frequency": "34988",
+      "data-relevance": "146",
+      "data-term": "cruise",
+      "data-encoded-term": "cruise",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "34988",
+        "w2v",
+        "1"
+      ]
+    },
+    "typically": {
+      "data-frequency": "130907",
+      "data-relevance": "145",
+      "data-term": "typically",
+      "data-encoded-term": "typically",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "130907",
+        "w2v",
+        "1"
+      ]
+    },
+    "taxi": {
+      "data-frequency": "24608",
+      "data-relevance": "144",
+      "data-term": "taxi",
+      "data-encoded-term": "taxi",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24608",
+        "ol",
+        "1"
+      ]
+    },
+    "offering": {
+      "data-frequency": "77254",
+      "data-relevance": "143",
+      "data-term": "offering",
+      "data-encoded-term": "offering",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "77254",
+        "w2v",
+        "1"
+      ]
+    },
+    "tariff": {
+      "data-frequency": "6208",
+      "data-relevance": "142",
+      "data-term": "tariff",
+      "data-encoded-term": "tariff",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6208",
+        "ol",
+        "1"
+      ]
+    },
+    "safest": {
+      "data-frequency": "2674",
+      "data-relevance": "141",
+      "data-term": "safest",
+      "data-encoded-term": "safest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2674",
+        "w2v",
+        "1"
+      ]
+    },
+    "buffet": {
+      "data-frequency": "4441",
+      "data-relevance": "140",
+      "data-term": "buffet",
+      "data-encoded-term": "buffet",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4441",
+        "w2v",
+        "1"
+      ]
+    },
+    "luxury": {
+      "data-frequency": "29454",
+      "data-relevance": "139",
+      "data-term": "luxury",
+      "data-encoded-term": "luxury",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29454",
+        "w2v",
+        "1"
+      ]
+    },
+    "diners": {
+      "data-frequency": "2242",
+      "data-relevance": "138",
+      "data-term": "diners",
+      "data-encoded-term": "diners",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2242",
+        "w2v",
+        "1"
+      ]
+    },
+    "trip": {
+      "data-frequency": "97382",
+      "data-relevance": "137",
+      "data-term": "trip",
+      "data-encoded-term": "trip",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "97382",
+        "ol",
+        "1"
+      ]
+    },
+    "discounted": {
+      "data-frequency": "4853",
+      "data-relevance": "136",
+      "data-term": "discounted",
+      "data-encoded-term": "discounted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4853",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "price": {
+      "data-frequency": "162428",
+      "data-relevance": "135",
+      "data-term": "price",
+      "data-encoded-term": "price",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "162428",
+        "ol",
+        "1"
+      ]
+    },
+    "choices": {
+      "data-frequency": "26015",
+      "data-relevance": "134",
+      "data-term": "choices",
+      "data-encoded-term": "choices",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "26015",
+        "w2v",
+        "1"
+      ]
+    },
+    "charging": {
+      "data-frequency": "16882",
+      "data-relevance": "133",
+      "data-term": "charging",
+      "data-encoded-term": "charging",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16882",
+        "ol",
+        "1"
+      ]
+    },
+    "normally": {
+      "data-frequency": "64863",
+      "data-relevance": "132",
+      "data-term": "normally",
+      "data-encoded-term": "normally",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "64863",
+        "w2v",
+        "1"
+      ]
+    },
+    "departures": {
+      "data-frequency": "11304",
+      "data-relevance": "131",
+      "data-term": "departures",
+      "data-encoded-term": "departures",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11304",
+        "w2v",
+        "1"
+      ]
+    },
+    "commercial": {
+      "data-frequency": "268044",
+      "data-relevance": "130",
+      "data-term": "commercial",
+      "data-encoded-term": "commercial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "268044",
+        "w2v",
+        "1"
+      ]
+    },
+    "sightseeing": {
+      "data-frequency": "4666",
+      "data-relevance": "129",
+      "data-term": "sightseeing",
+      "data-encoded-term": "sightseeing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4666",
+        "w2v",
+        "1"
+      ]
+    },
+    "item": {
+      "data-frequency": "45166",
+      "data-relevance": "128",
+      "data-term": "item",
+      "data-encoded-term": "item",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "45166",
+        "w2v",
+        "1"
+      ]
+    },
+    "customers": {
+      "data-frequency": "46737",
+      "data-relevance": "127",
+      "data-term": "customers",
+      "data-encoded-term": "customers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46737",
+        "w2v",
+        "1"
+      ]
+    },
+    "rent": {
+      "data-frequency": "26968",
+      "data-relevance": "126",
+      "data-term": "rent",
+      "data-encoded-term": "rent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "26968",
+        "w2v",
+        "1"
+      ]
+    },
+    "menus": {
+      "data-frequency": "4085",
+      "data-relevance": "125",
+      "data-term": "menus",
+      "data-encoded-term": "menus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4085",
+        "w2v",
+        "1"
+      ]
+    },
+    "holiday": {
+      "data-frequency": "73024",
+      "data-relevance": "124",
+      "data-term": "holiday",
+      "data-encoded-term": "holiday",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73024",
+        "w2v",
+        "1"
+      ]
+    },
+    "vacation": {
+      "data-frequency": "24635",
+      "data-relevance": "123",
+      "data-term": "vacation",
+      "data-encoded-term": "vacation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24635",
+        "w2v",
+        "1"
+      ]
+    },
+    "operators": {
+      "data-frequency": "47118",
+      "data-relevance": "122",
+      "data-term": "operators",
+      "data-encoded-term": "operators",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47118",
+        "w2v",
+        "1"
+      ]
+    },
+    "pay": {
+      "data-frequency": "162839",
+      "data-relevance": "121",
+      "data-term": "pay",
+      "data-encoded-term": "pay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "162839",
+        "ol",
+        "1"
+      ]
+    },
+    "plus": {
+      "data-frequency": "150436",
+      "data-relevance": "120",
+      "data-term": "plus",
+      "data-encoded-term": "plus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "150436",
+        "w2v",
+        "1"
+      ]
+    },
+    "attractive": {
+      "data-frequency": "29295",
+      "data-relevance": "119",
+      "data-term": "attractive",
+      "data-encoded-term": "attractive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "29295",
+        "w2v",
+        "1"
+      ]
+    },
+    "fancy": {
+      "data-frequency": "14881",
+      "data-relevance": "118",
+      "data-term": "fancy",
+      "data-encoded-term": "fancy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14881",
+        "w2v",
+        "1"
+      ]
+    },
+    "preferred": {
+      "data-frequency": "53850",
+      "data-relevance": "117",
+      "data-term": "preferred",
+      "data-encoded-term": "preferred",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53850",
+        "w2v",
+        "1"
+      ]
+    },
+    "affordable": {
+      "data-frequency": "15901",
+      "data-relevance": "116",
+      "data-term": "affordable",
+      "data-encoded-term": "affordable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15901",
+        "w2v",
+        "1"
+      ]
+    },
+    "token": {
+      "data-frequency": "9617",
+      "data-relevance": "115",
+      "data-term": "token",
+      "data-encoded-term": "token",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9617",
+        "ol",
+        "1"
+      ]
+    },
+    "complimentary": {
+      "data-frequency": "2960",
+      "data-relevance": "114",
+      "data-term": "complimentary",
+      "data-encoded-term": "complimentary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2960",
+        "w2v",
+        "1"
+      ]
+    },
+    "provender": {
+      "data-frequency": "89",
+      "data-relevance": "113",
+      "data-term": "provender",
+      "data-encoded-term": "provender",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89",
+        "ol",
+        "1"
+      ]
+    },
+    "vacations": {
+      "data-frequency": "3605",
+      "data-relevance": "112",
+      "data-term": "vacations",
+      "data-encoded-term": "vacations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3605",
+        "w2v",
+        "1"
+      ]
+    },
+    "lifestyle": {
+      "data-frequency": "41951",
+      "data-relevance": "111",
+      "data-term": "lifestyle",
+      "data-encoded-term": "lifestyle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41951",
+        "w2v",
+        "1"
+      ]
+    },
+    "purchases": {
+      "data-frequency": "13818",
+      "data-relevance": "110",
+      "data-term": "purchases",
+      "data-encoded-term": "purchases",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13818",
+        "w2v",
+        "1"
+      ]
+    },
+    "afford": {
+      "data-frequency": "21094",
+      "data-relevance": "109",
+      "data-term": "afford",
+      "data-encoded-term": "afford",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21094",
+        "w2v",
+        "1"
+      ]
+    },
+    "rate": {
+      "data-frequency": "155664",
+      "data-relevance": "108",
+      "data-term": "rate",
+      "data-encoded-term": "rate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "155664",
+        "ol",
+        "1"
+      ]
+    },
+    "weekends": {
+      "data-frequency": "17304",
+      "data-relevance": "107",
+      "data-term": "weekends",
+      "data-encoded-term": "weekends",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17304",
+        "w2v",
+        "1"
+      ]
+    },
+    "toll": {
+      "data-frequency": "40253",
+      "data-relevance": "106",
+      "data-term": "toll",
+      "data-encoded-term": "toll",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40253",
+        "ol",
+        "1"
+      ]
+    },
+    "ups": {
+      "data-frequency": "33226",
+      "data-relevance": "105",
+      "data-term": "ups",
+      "data-encoded-term": "ups",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33226",
+        "w2v",
+        "1"
+      ]
+    },
+    "restaurant": {
+      "data-frequency": "69541",
+      "data-relevance": "104",
+      "data-term": "restaurant",
+      "data-encoded-term": "restaurant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69541",
+        "w2v",
+        "1"
+      ]
+    },
+    "usually": {
+      "data-frequency": "249401",
+      "data-relevance": "103",
+      "data-term": "usually",
+      "data-encoded-term": "usually",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "249401",
+        "w2v",
+        "1"
+      ]
+    },
+    "excursion": {
+      "data-frequency": "7867",
+      "data-relevance": "102",
+      "data-term": "excursion",
+      "data-encoded-term": "excursion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7867",
+        "w2v",
+        "1"
+      ]
+    },
+    "avion": {
+      "data-frequency": "1992",
+      "data-relevance": "101",
+      "data-term": "avion",
+      "data-encoded-term": "avion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1992",
+        "ol",
+        "1"
+      ]
+    },
+    "holidays": {
+      "data-frequency": "33933",
+      "data-relevance": "100",
+      "data-term": "holidays",
+      "data-encoded-term": "holidays",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33933",
+        "w2v",
+        "1"
+      ]
+    },
+    "trips": {
+      "data-frequency": "34171",
+      "data-relevance": "99",
+      "data-term": "trips",
+      "data-encoded-term": "trips",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34171",
+        "w2v",
+        "1"
+      ]
+    },
+    "casual": {
+      "data-frequency": "16902",
+      "data-relevance": "98",
+      "data-term": "casual",
+      "data-encoded-term": "casual",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16902",
+        "w2v",
+        "1"
+      ]
+    },
+    "tolling": {
+      "data-frequency": "846",
+      "data-relevance": "97",
+      "data-term": "tolling",
+      "data-encoded-term": "tolling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "846",
+        "ol",
+        "1"
+      ]
+    },
+    "cater": {
+      "data-frequency": "9105",
+      "data-relevance": "96",
+      "data-term": "cater",
+      "data-encoded-term": "cater",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9105",
+        "w2v",
+        "1"
+      ]
+    },
+    "offers": {
+      "data-frequency": "142869",
+      "data-relevance": "95",
+      "data-term": "offers",
+      "data-encoded-term": "offers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "142869",
+        "w2v",
+        "1"
+      ]
+    },
+    "catering": {
+      "data-frequency": "13291",
+      "data-relevance": "94",
+      "data-term": "catering",
+      "data-encoded-term": "catering",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13291",
+        "w2v",
+        "1"
+      ]
+    },
+    "air": {
+      "data-frequency": "448607",
+      "data-relevance": "93",
+      "data-term": "air",
+      "data-encoded-term": "air",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "448607",
+        "ol",
+        "1"
+      ]
+    },
+    "tolled": {
+      "data-frequency": "1349",
+      "data-relevance": "92",
+      "data-term": "tolled",
+      "data-encoded-term": "tolled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1349",
+        "ol",
+        "1"
+      ]
+    },
+    "ride": {
+      "data-frequency": "69623",
+      "data-relevance": "91",
+      "data-term": "ride",
+      "data-encoded-term": "ride",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69623",
+        "w2v",
+        "1"
+      ]
+    },
+    "choice": {
+      "data-frequency": "162773",
+      "data-relevance": "90",
+      "data-term": "choice",
+      "data-encoded-term": "choice",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "162773",
+        "w2v",
+        "1"
+      ]
+    },
+    "charges": {
+      "data-frequency": "75026",
+      "data-relevance": "89",
+      "data-term": "charges",
+      "data-encoded-term": "charges",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "75026",
+        "ol",
+        "1"
+      ]
+    },
+    "depending": {
+      "data-frequency": "76391",
+      "data-relevance": "88",
+      "data-term": "depending",
+      "data-encoded-term": "depending",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "76391",
+        "w2v",
+        "1"
+      ]
+    },
+    "subscription": {
+      "data-frequency": "81353",
+      "data-relevance": "87",
+      "data-term": "subscription",
+      "data-encoded-term": "subscription",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "81353",
+        "ol",
+        "1"
+      ]
+    },
+    "prizes": {
+      "data-frequency": "33944",
+      "data-relevance": "86",
+      "data-term": "prizes",
+      "data-encoded-term": "prizes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33944",
+        "ol",
+        "1"
+      ]
+    },
+    "travelling": {
+      "data-frequency": "38761",
+      "data-relevance": "85",
+      "data-term": "travelling",
+      "data-encoded-term": "travelling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38761",
+        "ol",
+        "1"
+      ]
+    },
+    "class": {
+      "data-frequency": "841896",
+      "data-relevance": "84",
+      "data-term": "class",
+      "data-encoded-term": "class",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "841896",
+        "ol",
+        "1"
+      ]
+    },
+    "aeroplane": {
+      "data-frequency": "5691",
+      "data-relevance": "83",
+      "data-term": "aeroplane",
+      "data-encoded-term": "aeroplane",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5691",
+        "ol",
+        "1"
+      ]
+    },
+    "aircraft": {
+      "data-frequency": "119280",
+      "data-relevance": "82",
+      "data-term": "aircraft",
+      "data-encoded-term": "aircraft",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "119280",
+        "ol",
+        "1"
+      ]
+    },
+    "public transport": {
+      "data-frequency": "16116",
+      "data-relevance": "81",
+      "data-term": "public transport",
+      "data-encoded-term": "public%20transport",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16116",
+        "wiki",
+        "1"
+      ]
+    },
+    "prize": {
+      "data-frequency": "210630",
+      "data-relevance": "80",
+      "data-term": "prize",
+      "data-encoded-term": "prize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "210630",
+        "ol",
+        "1"
+      ]
+    },
+    "plane": {
+      "data-frequency": "71330",
+      "data-relevance": "79",
+      "data-term": "plane",
+      "data-encoded-term": "plane",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71330",
+        "ol",
+        "1"
+      ]
+    },
+    "cashier": {
+      "data-frequency": "3138",
+      "data-relevance": "78",
+      "data-term": "cashier",
+      "data-encoded-term": "cashier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3138",
+        "ol",
+        "1"
+      ]
+    },
+    "race": {
+      "data-frequency": "256999",
+      "data-relevance": "77",
+      "data-term": "race",
+      "data-encoded-term": "race",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "256999",
+        "ol",
+        "1"
+      ]
+    },
+    "bond": {
+      "data-frequency": "72893",
+      "data-relevance": "76",
+      "data-term": "bond",
+      "data-encoded-term": "bond",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "72893",
+        "ol",
+        "1"
+      ]
+    },
+    "charged": {
+      "data-frequency": "82060",
+      "data-relevance": "75",
+      "data-term": "charged",
+      "data-encoded-term": "charged",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82060",
+        "ol",
+        "1"
+      ]
+    },
+    "airplane": {
+      "data-frequency": "17236",
+      "data-relevance": "74",
+      "data-term": "airplane",
+      "data-encoded-term": "airplane",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17236",
+        "ol",
+        "1"
+      ]
+    },
+    "customer": {
+      "data-frequency": "32536",
+      "data-relevance": "73",
+      "data-term": "customer",
+      "data-encoded-term": "customer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "32536",
+        "ol",
+        "1"
+      ]
+    },
+    "bill": {
+      "data-frequency": "382270",
+      "data-relevance": "72",
+      "data-term": "bill",
+      "data-encoded-term": "bill",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382270",
+        "ol",
+        "1"
+      ]
+    },
+    "note": {
+      "data-frequency": "263174",
+      "data-relevance": "71",
+      "data-term": "note",
+      "data-encoded-term": "note",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "263174",
+        "ol",
+        "1"
+      ]
+    },
+    "break": {
+      "data-frequency": "187983",
+      "data-relevance": "70",
+      "data-term": "break",
+      "data-encoded-term": "break",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "187983",
+        "ol",
+        "1"
+      ]
+    },
+    "pricey": {
+      "data-frequency": "769",
+      "data-relevance": "69",
+      "data-term": "pricey",
+      "data-encoded-term": "pricey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "769",
+        "w2v",
+        "1"
+      ]
+    },
+    "chargeable": {
+      "data-frequency": "489",
+      "data-relevance": "68",
+      "data-term": "chargeable",
+      "data-encoded-term": "chargeable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "489",
+        "ol",
+        "1"
+      ]
+    },
+    "errand": {
+      "data-frequency": "1758",
+      "data-relevance": "67",
+      "data-term": "errand",
+      "data-encoded-term": "errand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1758",
+        "ol",
+        "1"
+      ]
+    },
+    "pare": {
+      "data-frequency": "3855",
+      "data-relevance": "66",
+      "data-term": "pare",
+      "data-encoded-term": "pare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3855",
+        "ol",
+        "1"
+      ]
+    },
+    "banknotes": {
+      "data-frequency": "3501",
+      "data-relevance": "65",
+      "data-term": "banknotes",
+      "data-encoded-term": "banknotes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3501",
+        "ol",
+        "1"
+      ]
+    },
+    "prix": {
+      "data-frequency": "61371",
+      "data-relevance": "64",
+      "data-term": "prix",
+      "data-encoded-term": "prix",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61371",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "billet": {
+      "data-frequency": "2520",
+      "data-relevance": "63",
+      "data-term": "billet",
+      "data-encoded-term": "billet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2520",
+        "ol",
+        "1"
+      ]
+    },
+    "banknote": {
+      "data-frequency": "2986",
+      "data-relevance": "62",
+      "data-term": "banknote",
+      "data-encoded-term": "banknote",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2986",
+        "ol",
+        "1"
+      ]
+    },
+    "sidebar": {
+      "data-frequency": "1505",
+      "data-relevance": "61",
+      "data-term": "sidebar",
+      "data-encoded-term": "sidebar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1505",
+        "ol",
+        "1"
+      ]
+    },
+    "bus fare": {
+      "data-frequency": "280",
+      "data-relevance": "60",
+      "data-term": "bus fare",
+      "data-encoded-term": "bus%20fare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "280",
+        "wn",
+        "1"
+      ]
+    },
+    "awards": {
+      "data-frequency": "518359",
+      "data-relevance": "59",
+      "data-term": "awards",
+      "data-encoded-term": "awards",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "518359",
+        "ol",
+        "1"
+      ]
+    },
+    "taxi fare": {
+      "data-frequency": "97",
+      "data-relevance": "58",
+      "data-term": "taxi fare",
+      "data-encoded-term": "taxi%20fare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97",
+        "wn",
+        "1"
+      ]
+    },
+    "cab fare": {
+      "data-frequency": "63",
+      "data-relevance": "57",
+      "data-term": "cab fare",
+      "data-encoded-term": "cab%20fare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "63",
+        "wn",
+        "1"
+      ]
+    },
+    "tarifa": {
+      "data-frequency": "656",
+      "data-relevance": "56",
+      "data-term": "tarifa",
+      "data-encoded-term": "tarifa",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "656",
+        "ol",
+        "1"
+      ]
+    },
+    "tarif": {
+      "data-frequency": "537",
+      "data-relevance": "55",
+      "data-term": "tarif",
+      "data-encoded-term": "tarif",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "537",
+        "ol",
+        "1"
+      ]
+    },
+    "client": {
+      "data-frequency": "35649",
+      "data-relevance": "54",
+      "data-term": "client",
+      "data-encoded-term": "client",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35649",
+        "ol",
+        "1"
+      ]
+    },
+    "classroom": {
+      "data-frequency": "26146",
+      "data-relevance": "53",
+      "data-term": "classroom",
+      "data-encoded-term": "classroom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26146",
+        "ol",
+        "1"
+      ]
+    },
+    "cuisine": {
+      "data-frequency": "38529",
+      "data-relevance": "52",
+      "data-term": "cuisine",
+      "data-encoded-term": "cuisine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "38529",
+        "ol",
+        "1"
+      ]
+    },
+    "mtk": {
+      "data-frequency": "1555",
+      "data-relevance": "51",
+      "data-term": "mtk",
+      "data-encoded-term": "mtk",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1555",
+        "ol",
+        "1"
+      ]
+    },
+    "buffets": {
+      "data-frequency": "4839",
+      "data-relevance": "50",
+      "data-term": "buffets",
+      "data-encoded-term": "buffets",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4839",
+        "ol",
+        "1"
+      ]
+    },
+    "vittles": {
+      "data-frequency": "264",
+      "data-relevance": "49",
+      "data-term": "vittles",
+      "data-encoded-term": "vittles",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "264",
+        "ol",
+        "1"
+      ]
+    },
+    "rail transport": {
+      "data-frequency": "17317",
+      "data-relevance": "48",
+      "data-term": "rail transport",
+      "data-encoded-term": "rail%20transport",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17317",
+        "wiki",
+        "1"
+      ]
+    },
+    "low-cost": {
+      "data-frequency": "53262",
+      "data-relevance": "47",
+      "data-term": "low-cost",
+      "data-encoded-term": "low-cost",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53262",
+        "w2v",
+        "1"
+      ]
+    },
+    "24-hour": {
+      "data-frequency": "13434",
+      "data-relevance": "46",
+      "data-term": "24-hour",
+      "data-encoded-term": "24-hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13434",
+        "w2v",
+        "1"
+      ]
+    },
+    "mtr": {
+      "data-frequency": "3192",
+      "data-relevance": "45",
+      "data-term": "mtr",
+      "data-encoded-term": "mtr",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3192",
+        "ol",
+        "1"
+      ]
+    },
+    "splurge": {
+      "data-frequency": "194",
+      "data-relevance": "44",
+      "data-term": "splurge",
+      "data-encoded-term": "splurge",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "194",
+        "w2v",
+        "1"
+      ]
+    },
+    "fee-paying": {
+      "data-frequency": "23471",
+      "data-relevance": "43",
+      "data-term": "fee-paying",
+      "data-encoded-term": "fee-paying",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23471",
+        "ol",
+        "1"
+      ]
+    },
+    "fee-for-service": {
+      "data-frequency": "31643",
+      "data-relevance": "42",
+      "data-term": "fee-for-service",
+      "data-encoded-term": "fee-for-service",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "31643",
+        "ol",
+        "1"
+      ]
+    },
+    "nmb": {
+      "data-frequency": "230",
+      "data-relevance": "41",
+      "data-term": "nmb",
+      "data-encoded-term": "nmb",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "230",
+        "ol",
+        "1"
+      ]
+    },
+    "kgm": {
+      "data-frequency": "186",
+      "data-relevance": "40",
+      "data-term": "kgm",
+      "data-encoded-term": "kgm",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "186",
+        "ol",
+        "1"
+      ]
+    },
+    "round-trip": {
+      "data-frequency": "22646",
+      "data-relevance": "39",
+      "data-term": "round-trip",
+      "data-encoded-term": "round-trip",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22646",
+        "ol",
+        "1"
+      ]
+    },
+    "price-fixing": {
+      "data-frequency": "733",
+      "data-relevance": "38",
+      "data-term": "price-fixing",
+      "data-encoded-term": "price-fixing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "733",
+        "ol",
+        "1"
+      ]
+    },
+    "misfare": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "misfare",
+      "data-encoded-term": "misfare",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "taximeter": {
+      "data-frequency": "53",
+      "data-relevance": "36",
+      "data-term": "taximeter",
+      "data-encoded-term": "taximeter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "nonsked": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "nonsked",
+      "data-encoded-term": "nonsked",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "corkage": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "corkage",
+      "data-encoded-term": "corkage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "southern": {
+      "data-frequency": "484155",
+      "data-relevance": "33",
+      "data-term": "southern",
+      "data-encoded-term": "southern",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "484155",
+        "wiki",
+        "1"
+      ]
+    },
+    "transit vehicle": {
+      "data-frequency": "10752",
+      "data-relevance": "32",
+      "data-term": "transit vehicle",
+      "data-encoded-term": "transit%20vehicle",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10752",
+        "wiki",
+        "1"
+      ]
+    },
+    "vehicle for hire": {
+      "data-frequency": "9630",
+      "data-relevance": "31",
+      "data-term": "vehicle for hire",
+      "data-encoded-term": "vehicle%20for%20hire",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9630",
+        "wiki",
+        "1"
+      ]
+    },
+    "farebox recovery ratio": {
+      "data-frequency": "45",
+      "data-relevance": "30",
+      "data-term": "farebox recovery ratio",
+      "data-encoded-term": "farebox%20recovery%20ratio",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "45",
+        "wiki",
+        "1"
+      ]
+    },
+    "prix fixe": {
+      "data-frequency": "64",
+      "data-relevance": "29",
+      "data-term": "prix fixe",
+      "data-encoded-term": "prix%20fixe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "64",
+        "ol",
+        "1"
+      ]
+    },
+    "free transfer": {
+      "data-frequency": "69191",
+      "data-relevance": "28",
+      "data-term": "free transfer",
+      "data-encoded-term": "free%20transfer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "69191",
+        "wiki",
+        "1"
+      ]
+    },
+    "haute cuisine": {
+      "data-frequency": "336",
+      "data-relevance": "27",
+      "data-term": "haute cuisine",
+      "data-encoded-term": "haute%20cuisine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "336",
+        "ol",
+        "1"
+      ]
+    },
+    "chow mein": {
+      "data-frequency": "230",
+      "data-relevance": "26",
+      "data-term": "chow mein",
+      "data-encoded-term": "chow%20mein",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "230",
+        "ol",
+        "1"
+      ]
+    },
+    "penalty fare": {
+      "data-frequency": "1362",
+      "data-relevance": "25",
+      "data-term": "penalty fare",
+      "data-encoded-term": "penalty%20fare",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1362",
+        "wiki",
+        "1"
+      ]
+    },
+    "bus depot": {
+      "data-frequency": "1253",
+      "data-relevance": "24",
+      "data-term": "bus depot",
+      "data-encoded-term": "bus%20depot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1253",
+        "ol",
+        "1"
+      ]
+    },
+    "have": {
+      "data-frequency": "1473926",
+      "data-relevance": "23",
+      "data-term": "have",
+      "data-encoded-term": "have",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1473926",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "standard fare": {
+      "data-frequency": "8038",
+      "data-relevance": "22",
+      "data-term": "standard fare",
+      "data-encoded-term": "standard%20fare",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8038",
+        "wiki",
+        "1"
+      ]
+    },
+    "prosecution": {
+      "data-frequency": "28083",
+      "data-relevance": "21",
+      "data-term": "prosecution",
+      "data-encoded-term": "prosecution",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "28083",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "arc": {
+      "data-frequency": "43905",
+      "data-relevance": "20",
+      "data-term": "arc",
+      "data-encoded-term": "arc",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "43905",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "uscire": {
+      "data-frequency": "45",
+      "data-relevance": "19",
+      "data-term": "uscire",
+      "data-encoded-term": "uscire",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "45",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "survive": {
+      "data-frequency": "69084",
+      "data-relevance": "18",
+      "data-term": "survive",
+      "data-encoded-term": "survive",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "69084",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "vedere": {
+      "data-frequency": "140",
+      "data-relevance": "17",
+      "data-term": "vedere",
+      "data-encoded-term": "vedere",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "140",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "luoghi": {
+      "data-frequency": "490",
+      "data-relevance": "16",
+      "data-term": "luoghi",
+      "data-encoded-term": "luoghi",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "490",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "fatto": {
+      "data-frequency": "1264",
+      "data-relevance": "15",
+      "data-term": "fatto",
+      "data-encoded-term": "fatto",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1264",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "pass": {
+      "data-frequency": "159289",
+      "data-relevance": "14",
+      "data-term": "pass",
+      "data-encoded-term": "pass",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "159289",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "debt": {
+      "data-frequency": "43293",
+      "data-relevance": "13",
+      "data-term": "debt",
+      "data-encoded-term": "debt",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "43293",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "smartcard": {
+      "data-frequency": "372",
+      "data-relevance": "12",
+      "data-term": "smartcard",
+      "data-encoded-term": "smartcard",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "372",
+        "wiki",
+        "1"
+      ]
+    },
+    "transport in the united kingdom": {
+      "data-frequency": "52569",
+      "data-relevance": "11",
+      "data-term": "transport in the united kingdom",
+      "data-encoded-term": "transport%20in%20the%20united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "52569",
+        "wiki",
+        "1"
+      ]
+    },
+    "bogo": {
+      "data-frequency": "794",
+      "data-relevance": "10",
+      "data-term": "bogo",
+      "data-encoded-term": "bogo",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "794",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "south western railway": {
+      "data-frequency": "42610",
+      "data-relevance": "9",
+      "data-term": "south western railway",
+      "data-encoded-term": "south%20western%20railway",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "42610",
+        "wiki",
+        "1"
+      ]
+    },
+    "flat fee": {
+      "data-frequency": "4367",
+      "data-relevance": "8",
+      "data-term": "flat fee",
+      "data-encoded-term": "flat%20fee",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "4367",
+        "wiki",
+        "1"
+      ]
+    },
+    "toronto transit commission": {
+      "data-frequency": "728",
+      "data-relevance": "7",
+      "data-term": "toronto transit commission",
+      "data-encoded-term": "toronto%20transit%20commission",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "728",
+        "wiki",
+        "1"
+      ]
+    },
+    "london underground ticketing": {
+      "data-frequency": "2467",
+      "data-relevance": "6",
+      "data-term": "london underground ticketing",
+      "data-encoded-term": "london%20underground%20ticketing",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "2467",
+        "wiki",
+        "1"
+      ]
+    },
+    "los angeles county metropolitan transportation authority": {
+      "data-frequency": "1379",
+      "data-relevance": "5",
+      "data-term": "los angeles county metropolitan transportation authority",
+      "data-encoded-term": "los%20angeles%20county%20metropolitan%20transportation%20authority",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1379",
+        "wiki",
+        "1"
+      ]
+    },
+    "autoritat del transport metropolità": {
+      "data-frequency": "102",
+      "data-relevance": "4",
+      "data-term": "autoritat del transport metropolità",
+      "data-encoded-term": "autoritat%20del%20transport%20metropolit%C3%A0",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "102",
+        "wiki",
+        "1"
+      ]
+    },
+    "verkehrsverbund berlin-brandenburg": {
+      "data-frequency": "113",
+      "data-relevance": "3",
+      "data-term": "verkehrsverbund berlin-brandenburg",
+      "data-encoded-term": "verkehrsverbund%20berlin-brandenburg",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "113",
+        "wiki",
+        "1"
+      ]
+    },
+    "tom l. johnson": {
+      "data-frequency": "25595",
+      "data-relevance": "2",
+      "data-term": "tom l. johnson",
+      "data-encoded-term": "tom%20l.%20johnson",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "25595",
+        "wiki",
+        "1"
+      ]
+    },
+    "exit fare": {
+      "data-frequency": "4208",
+      "data-relevance": "1",
+      "data-term": "exit fare",
+      "data-encoded-term": "exit%20fare",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "4208",
+        "wiki",
+        "1"
+      ]
+    },
+    "st. louis car company": {
+      "data-frequency": "8993",
+      "data-relevance": "0",
+      "data-term": "st. louis car company",
+      "data-encoded-term": "st.%20louis%20car%20company",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "8993",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "fare"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "Train fares have gone up.",
+        "ru": "Железнодорожные тарифы возросли."
+      },
+      {
+        "en": "Air fares to Africa don't come cheap (=are expensive).",
+        "ru": "Авиабилеты в Африку стоят недёшево (т.е. дорого)."
+      },
+      {
+        "en": "Fares have gone up, perhaps to more than the market will bear.",
+        "ru": "Тарифы выросли, возможно, больше, чем сможет вынести рынок."
+      },
+      {
+        "en": "I begrudge spending so much money on train fares.",
+        "ru": "Мне жалко тратить столько денег на проезд по железной дороге."
+      },
+      {
+        "en": "Air fares have shot up by 20%.",
+        "ru": "Цены на авиабилеты взлетели на двадцать процентов."
+      },
+      {
+        "en": "Rail fares have fallen 17 per cent in real terms.",
+        "ru": "Железнодорожные тарифы в реальном выражении снизились на семнадцать процентов."
+      },
+      {
+        "en": "The taxi driver picked up his fares at the airport.",
+        "ru": "Таксист подобрал своих пассажиров в аэропорту."
+      },
+      {
+        "en": "Few customers take full advantage of off-peak fares.",
+        "ru": "Немногие клиенты в полной мере пользуются внесезонными тарифами."
+      },
+      {
+        "en": "Rail chiefs came under fire after raising train fares.",
+        "ru": "Руководство железной дороги попало под огонь критики после повышения цен на билеты."
+      },
+      {
+        "en": "Season-ticket holders are furious at the rise in rail fares.",
+        "ru": "Повышение железнодорожных тарифов привело в ярость владельцев сезонных абонементов."
+      },
+      {
+        "en": "Airlines are raising fares to cover the rising costs of fuel.",
+        "ru": "Авиакомпании поднимают цены на билеты, чтобы компенсировать рост затрат на топливо."
+      },
+      {
+        "en": "Budget companies have been so successful that other airlines have had to follow suit and lower their fares.",
+        "ru": "Бюджетные авиакомпании оказались настолько успешными, что остальным пришлось последовать их примеру и снизить свои тарифы."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "fare"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "fare"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "fee",
+      "tips",
+      "passes",
+      "metrocard",
+      "airfare",
+      "menu",
+      "fare",
+      "airline",
+      "passenger",
+      "tickets",
+      "fees",
+      "tolls"
+    ]
+  }
+}
