@@ -1,0 +1,5460 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "college": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassman/n/,/c/en/college/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassman/n",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassman"
+        },
+        "end": {
+          "@id": "/c/en/college",
+          "@type": "Node",
+          "label": "college",
+          "language": "en",
+          "term": "/c/en/college"
+        }
+      },
+      "freshman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/freshman/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/freshman",
+          "@type": "Node",
+          "label": "freshman",
+          "language": "en",
+          "term": "/c/en/freshman"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      },
+      "underclassman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassman/,/c/en/underclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        },
+        "end": {
+          "@id": "/c/en/underclassman",
+          "@type": "Node",
+          "label": "underclassman",
+          "language": "en",
+          "term": "/c/en/underclassman"
+        }
+      },
+      "lowerclassman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassman/,/c/en/lowerclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        },
+        "end": {
+          "@id": "/c/en/lowerclassman",
+          "@type": "Node",
+          "label": "lowerclassman",
+          "language": "en",
+          "term": "/c/en/lowerclassman"
+        }
+      },
+      "student": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassman/n/,/c/en/student/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassman/n",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassman"
+        },
+        "end": {
+          "@id": "/c/en/student",
+          "@type": "Node",
+          "label": "student",
+          "language": "en",
+          "term": "/c/en/student"
+        }
+      },
+      "upperclassperson": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassperson/n/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassperson/n",
+          "@type": "Node",
+          "label": "upperclassperson",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassperson"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      },
+      "classman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/classman/n/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/classman/n",
+          "@type": "Node",
+          "label": "classman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/classman"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      },
+      "upperclassmen": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassmen/n/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassmen/n",
+          "@type": "Node",
+          "label": "upperclassmen",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassmen"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      },
+      "senior": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassman/n/,/c/en/senior/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassman/n",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassman"
+        },
+        "end": {
+          "@id": "/c/en/senior",
+          "@type": "Node",
+          "label": "senior",
+          "language": "en",
+          "term": "/c/en/senior"
+        }
+      },
+      "school": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclassman/n/,/c/en/school/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassman/n",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassman"
+        },
+        "end": {
+          "@id": "/c/en/school",
+          "@type": "Node",
+          "label": "school",
+          "language": "en",
+          "term": "/c/en/school"
+        }
+      },
+      "senpai": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/senpai/n/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/senpai/n",
+          "@type": "Node",
+          "label": "senpai",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/senpai"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      },
+      "upperclasswoman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/upperclasswoman/n/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclasswoman/n",
+          "@type": "Node",
+          "label": "upperclasswoman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclasswoman"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "upperclassmen": {
+        "@id": "/a/[/r/FormOf/,/c/en/upperclassmen/n/,/c/en/upperclassman/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/upperclassmen/n",
+          "@type": "Node",
+          "label": "upperclassmen",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/upperclassmen"
+        },
+        "end": {
+          "@id": "/c/en/upperclassman",
+          "@type": "Node",
+          "label": "upperclassman",
+          "language": "en",
+          "term": "/c/en/upperclassman"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "college": {
+      "data-frequency": "718889",
+      "data-relevance": "367",
+      "data-term": "college",
+      "data-encoded-term": "college",
+      "data-term-stats": [
+        "1",
+        "12.4",
+        "0.000",
+        "718889",
+        "cn5,ol,wiki|reverse-net",
+        "1"
+      ]
+    },
+    "grad": {
+      "data-frequency": "10070",
+      "data-relevance": "366",
+      "data-term": "grad",
+      "data-encoded-term": "grad",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10070",
+        "ol",
+        "1"
+      ]
+    },
+    "university": {
+      "data-frequency": "1497618",
+      "data-relevance": "365",
+      "data-term": "university",
+      "data-encoded-term": "university",
+      "data-term-stats": [
+        "1",
+        "7.1",
+        "0.000",
+        "1497618",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "collegiate": {
+      "data-frequency": "45245",
+      "data-relevance": "364",
+      "data-term": "collegiate",
+      "data-encoded-term": "collegiate",
+      "data-term-stats": [
+        "1",
+        "3.8",
+        "0.000",
+        "45245",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "varsity": {
+      "data-frequency": "20254",
+      "data-relevance": "363",
+      "data-term": "varsity",
+      "data-encoded-term": "varsity",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "20254",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "high school": {
+      "data-frequency": "306945",
+      "data-relevance": "362",
+      "data-term": "high school",
+      "data-encoded-term": "high%20school",
+      "data-term-stats": [
+        "1",
+        "3.4",
+        "0.000",
+        "306945",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "collegian": {
+      "data-frequency": "1738",
+      "data-relevance": "361",
+      "data-term": "collegian",
+      "data-encoded-term": "collegian",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1738",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "alumna": {
+      "data-frequency": "3430",
+      "data-relevance": "360",
+      "data-term": "alumna",
+      "data-encoded-term": "alumna",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "3430",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "student": {
+      "data-frequency": "233363",
+      "data-relevance": "359",
+      "data-term": "student",
+      "data-encoded-term": "student",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "233363",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "intramural": {
+      "data-frequency": "2104",
+      "data-relevance": "358",
+      "data-term": "intramural",
+      "data-encoded-term": "intramural",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2104",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "campus": {
+      "data-frequency": "120374",
+      "data-relevance": "357",
+      "data-term": "campus",
+      "data-encoded-term": "campus",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "120374",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "vocational school": {
+      "data-frequency": "3003",
+      "data-relevance": "356",
+      "data-term": "vocational school",
+      "data-encoded-term": "vocational%20school",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "3003",
+        "cn5,wiki",
+        "1"
+      ]
+    },
+    "classmate": {
+      "data-frequency": "9170",
+      "data-relevance": "355",
+      "data-term": "classmate",
+      "data-encoded-term": "classmate",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "9170",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "learning": {
+      "data-frequency": "145936",
+      "data-relevance": "354",
+      "data-term": "learning",
+      "data-encoded-term": "learning",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "145936",
+        "wiki",
+        "1"
+      ]
+    },
+    "sophomore year": {
+      "data-frequency": "19194",
+      "data-relevance": "353",
+      "data-term": "sophomore year",
+      "data-encoded-term": "sophomore%20year",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "19194",
+        "wiki",
+        "1"
+      ]
+    },
+    "scholastic": {
+      "data-frequency": "9157",
+      "data-relevance": "352",
+      "data-term": "scholastic",
+      "data-encoded-term": "scholastic",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "9157",
+        "cn5",
+        "1"
+      ]
+    },
+    "researcher": {
+      "data-frequency": "34658",
+      "data-relevance": "351",
+      "data-term": "researcher",
+      "data-encoded-term": "researcher",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "34658",
+        "wiki",
+        "1"
+      ]
+    },
+    "kindergarten": {
+      "data-frequency": "19650",
+      "data-relevance": "350",
+      "data-term": "kindergarten",
+      "data-encoded-term": "kindergarten",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "19650",
+        "wiki",
+        "1"
+      ]
+    },
+    "ucla": {
+      "data-frequency": "23307",
+      "data-relevance": "349",
+      "data-term": "ucla",
+      "data-encoded-term": "ucla",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "23307",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolfellow": {
+      "data-frequency": "68",
+      "data-relevance": "348",
+      "data-term": "schoolfellow",
+      "data-encoded-term": "schoolfellow",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "68",
+        "cn5",
+        "1"
+      ]
+    },
+    "experienced": {
+      "data-frequency": "76585",
+      "data-relevance": "347",
+      "data-term": "experienced",
+      "data-encoded-term": "experienced",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "76585",
+        "wiki",
+        "1"
+      ]
+    },
+    "academy": {
+      "data-frequency": "385740",
+      "data-relevance": "346",
+      "data-term": "academy",
+      "data-encoded-term": "academy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "385740",
+        "cn5",
+        "1"
+      ]
+    },
+    "teacher": {
+      "data-frequency": "177906",
+      "data-relevance": "345",
+      "data-term": "teacher",
+      "data-encoded-term": "teacher",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "177906",
+        "cn5",
+        "1"
+      ]
+    },
+    "mentorship": {
+      "data-frequency": "3039",
+      "data-relevance": "344",
+      "data-term": "mentorship",
+      "data-encoded-term": "mentorship",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3039",
+        "wiki",
+        "1"
+      ]
+    },
+    "seniors": {
+      "data-frequency": "16465",
+      "data-relevance": "343",
+      "data-term": "seniors",
+      "data-encoded-term": "seniors",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "16465",
+        "ol",
+        "1"
+      ]
+    },
+    "academical": {
+      "data-frequency": "3405",
+      "data-relevance": "342",
+      "data-term": "academical",
+      "data-encoded-term": "academical",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3405",
+        "cn5",
+        "1"
+      ]
+    },
+    "school": {
+      "data-frequency": "957567",
+      "data-relevance": "341",
+      "data-term": "school",
+      "data-encoded-term": "school",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "957567",
+        "cn5",
+        "1"
+      ]
+    },
+    "extramural": {
+      "data-frequency": "646",
+      "data-relevance": "340",
+      "data-term": "extramural",
+      "data-encoded-term": "extramural",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "646",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolboy": {
+      "data-frequency": "5599",
+      "data-relevance": "339",
+      "data-term": "schoolboy",
+      "data-encoded-term": "schoolboy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5599",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolteacher": {
+      "data-frequency": "5669",
+      "data-relevance": "338",
+      "data-term": "schoolteacher",
+      "data-encoded-term": "schoolteacher",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5669",
+        "cn5",
+        "1"
+      ]
+    },
+    "scholasticism": {
+      "data-frequency": "1956",
+      "data-relevance": "337",
+      "data-term": "scholasticism",
+      "data-encoded-term": "scholasticism",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1956",
+        "cn5",
+        "1"
+      ]
+    },
+    "classroom": {
+      "data-frequency": "26146",
+      "data-relevance": "336",
+      "data-term": "classroom",
+      "data-encoded-term": "classroom",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "26146",
+        "cn5",
+        "1"
+      ]
+    },
+    "lyceum": {
+      "data-frequency": "6598",
+      "data-relevance": "335",
+      "data-term": "lyceum",
+      "data-encoded-term": "lyceum",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "6598",
+        "cn5",
+        "1"
+      ]
+    },
+    "cambodia": {
+      "data-frequency": "37827",
+      "data-relevance": "334",
+      "data-term": "cambodia",
+      "data-encoded-term": "cambodia",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "37827",
+        "wiki",
+        "1"
+      ]
+    },
+    "academia": {
+      "data-frequency": "29347",
+      "data-relevance": "333",
+      "data-term": "academia",
+      "data-encoded-term": "academia",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "29347",
+        "cn5",
+        "1"
+      ]
+    },
+    "stanford": {
+      "data-frequency": "65303",
+      "data-relevance": "332",
+      "data-term": "stanford",
+      "data-encoded-term": "stanford",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "65303",
+        "cn5",
+        "1"
+      ]
+    },
+    "academician": {
+      "data-frequency": "5148",
+      "data-relevance": "331",
+      "data-term": "academician",
+      "data-encoded-term": "academician",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5148",
+        "cn5",
+        "1"
+      ]
+    },
+    "academe": {
+      "data-frequency": "771",
+      "data-relevance": "330",
+      "data-term": "academe",
+      "data-encoded-term": "academe",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "771",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolmate": {
+      "data-frequency": "1303",
+      "data-relevance": "329",
+      "data-term": "schoolmate",
+      "data-encoded-term": "schoolmate",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1303",
+        "cn5",
+        "1"
+      ]
+    },
+    "philippines": {
+      "data-frequency": "115862",
+      "data-relevance": "328",
+      "data-term": "philippines",
+      "data-encoded-term": "philippines",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "115862",
+        "wiki",
+        "1"
+      ]
+    },
+    "nepal": {
+      "data-frequency": "52902",
+      "data-relevance": "327",
+      "data-term": "nepal",
+      "data-encoded-term": "nepal",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "52902",
+        "wiki",
+        "1"
+      ]
+    },
+    "minischool": {
+      "data-frequency": "-1",
+      "data-relevance": "326",
+      "data-term": "minischool",
+      "data-encoded-term": "minischool",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "professor": {
+      "data-frequency": "285231",
+      "data-relevance": "325",
+      "data-term": "professor",
+      "data-encoded-term": "professor",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "285231",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolie": {
+      "data-frequency": "-1",
+      "data-relevance": "324",
+      "data-term": "schoolie",
+      "data-encoded-term": "schoolie",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "afterschool": {
+      "data-frequency": "1015",
+      "data-relevance": "323",
+      "data-term": "afterschool",
+      "data-encoded-term": "afterschool",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1015",
+        "cn5",
+        "1"
+      ]
+    },
+    "curriculum": {
+      "data-frequency": "43027",
+      "data-relevance": "322",
+      "data-term": "curriculum",
+      "data-encoded-term": "curriculum",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "43027",
+        "cn5",
+        "1"
+      ]
+    },
+    "neoplatonism": {
+      "data-frequency": "1311",
+      "data-relevance": "321",
+      "data-term": "neoplatonism",
+      "data-encoded-term": "neoplatonism",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1311",
+        "cn5",
+        "1"
+      ]
+    },
+    "antischool": {
+      "data-frequency": "-1",
+      "data-relevance": "320",
+      "data-term": "antischool",
+      "data-encoded-term": "antischool",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "australia": {
+      "data-frequency": "472904",
+      "data-relevance": "319",
+      "data-term": "australia",
+      "data-encoded-term": "australia",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "472904",
+        "wiki",
+        "1"
+      ]
+    },
+    "schoolgoer": {
+      "data-frequency": "-1",
+      "data-relevance": "318",
+      "data-term": "schoolgoer",
+      "data-encoded-term": "schoolgoer",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "preceptor": {
+      "data-frequency": "1008",
+      "data-relevance": "317",
+      "data-term": "preceptor",
+      "data-encoded-term": "preceptor",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1008",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolish": {
+      "data-frequency": "-1",
+      "data-relevance": "316",
+      "data-term": "schoolish",
+      "data-encoded-term": "schoolish",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "subschool": {
+      "data-frequency": "-1",
+      "data-relevance": "315",
+      "data-term": "subschool",
+      "data-encoded-term": "subschool",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "deschool": {
+      "data-frequency": "-1",
+      "data-relevance": "314",
+      "data-term": "deschool",
+      "data-encoded-term": "deschool",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "interschool": {
+      "data-frequency": "255",
+      "data-relevance": "313",
+      "data-term": "interschool",
+      "data-encoded-term": "interschool",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "255",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolwise": {
+      "data-frequency": "-1",
+      "data-relevance": "312",
+      "data-term": "schoolwise",
+      "data-encoded-term": "schoolwise",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "conservatory": {
+      "data-frequency": "21603",
+      "data-relevance": "311",
+      "data-term": "conservatory",
+      "data-encoded-term": "conservatory",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "21603",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolless": {
+      "data-frequency": "-1",
+      "data-relevance": "310",
+      "data-term": "schoolless",
+      "data-encoded-term": "schoolless",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unschooled": {
+      "data-frequency": "135",
+      "data-relevance": "309",
+      "data-term": "unschooled",
+      "data-encoded-term": "unschooled",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "135",
+        "cn5",
+        "1"
+      ]
+    },
+    "deconstructivism": {
+      "data-frequency": "127",
+      "data-relevance": "308",
+      "data-term": "deconstructivism",
+      "data-encoded-term": "deconstructivism",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "127",
+        "cn5",
+        "1"
+      ]
+    },
+    "schooler": {
+      "data-frequency": "969",
+      "data-relevance": "307",
+      "data-term": "schooler",
+      "data-encoded-term": "schooler",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "969",
+        "cn5",
+        "1"
+      ]
+    },
+    "sorbonne": {
+      "data-frequency": "7541",
+      "data-relevance": "306",
+      "data-term": "sorbonne",
+      "data-encoded-term": "sorbonne",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7541",
+        "cn5",
+        "1"
+      ]
+    },
+    "chalkboard": {
+      "data-frequency": "870",
+      "data-relevance": "305",
+      "data-term": "chalkboard",
+      "data-encoded-term": "chalkboard",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "870",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolwide": {
+      "data-frequency": "298",
+      "data-relevance": "304",
+      "data-term": "schoolwide",
+      "data-encoded-term": "schoolwide",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "298",
+        "cn5",
+        "1"
+      ]
+    },
+    "undergraduate": {
+      "data-frequency": "44334",
+      "data-relevance": "303",
+      "data-term": "undergraduate",
+      "data-encoded-term": "undergraduate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "44334",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoollike": {
+      "data-frequency": "-1",
+      "data-relevance": "302",
+      "data-term": "schoollike",
+      "data-encoded-term": "schoollike",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schooliosis": {
+      "data-frequency": "-1",
+      "data-relevance": "301",
+      "data-term": "schooliosis",
+      "data-encoded-term": "schooliosis",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolery": {
+      "data-frequency": "-1",
+      "data-relevance": "300",
+      "data-term": "schoolery",
+      "data-encoded-term": "schoolery",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "victoria": {
+      "data-frequency": "228248",
+      "data-relevance": "299",
+      "data-term": "victoria",
+      "data-encoded-term": "victoria",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "228248",
+        "wiki",
+        "1"
+      ]
+    },
+    "scholar": {
+      "data-frequency": "541459",
+      "data-relevance": "298",
+      "data-term": "scholar",
+      "data-encoded-term": "scholar",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "541459",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolroom": {
+      "data-frequency": "949",
+      "data-relevance": "297",
+      "data-term": "schoolroom",
+      "data-encoded-term": "schoolroom",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "949",
+        "cn5",
+        "1"
+      ]
+    },
+    "schooly": {
+      "data-frequency": "43",
+      "data-relevance": "296",
+      "data-term": "schooly",
+      "data-encoded-term": "schooly",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolteaching": {
+      "data-frequency": "-1",
+      "data-relevance": "295",
+      "data-term": "schoolteaching",
+      "data-encoded-term": "schoolteaching",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolbook": {
+      "data-frequency": "229",
+      "data-relevance": "294",
+      "data-term": "schoolbook",
+      "data-encoded-term": "schoolbook",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "229",
+        "cn5",
+        "1"
+      ]
+    },
+    "cyberschool": {
+      "data-frequency": "-1",
+      "data-relevance": "293",
+      "data-term": "cyberschool",
+      "data-encoded-term": "cyberschool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "academic": {
+      "data-frequency": "236267",
+      "data-relevance": "292",
+      "data-term": "academic",
+      "data-encoded-term": "academic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "236267",
+        "cn5",
+        "1"
+      ]
+    },
+    "academian": {
+      "data-frequency": "45",
+      "data-relevance": "291",
+      "data-term": "academian",
+      "data-encoded-term": "academian",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "studenty": {
+      "data-frequency": "-1",
+      "data-relevance": "290",
+      "data-term": "studenty",
+      "data-encoded-term": "studenty",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coeducation": {
+      "data-frequency": "442",
+      "data-relevance": "289",
+      "data-term": "coeducation",
+      "data-encoded-term": "coeducation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "442",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolgoing": {
+      "data-frequency": "-1",
+      "data-relevance": "288",
+      "data-term": "schoolgoing",
+      "data-encoded-term": "schoolgoing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "multiversity": {
+      "data-frequency": "300",
+      "data-relevance": "287",
+      "data-term": "multiversity",
+      "data-encoded-term": "multiversity",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "300",
+        "cn5",
+        "1"
+      ]
+    },
+    "lecturer": {
+      "data-frequency": "48567",
+      "data-relevance": "286",
+      "data-term": "lecturer",
+      "data-encoded-term": "lecturer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "48567",
+        "cn5",
+        "1"
+      ]
+    },
+    "queensland": {
+      "data-frequency": "68056",
+      "data-relevance": "285",
+      "data-term": "queensland",
+      "data-encoded-term": "queensland",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "68056",
+        "wiki",
+        "1"
+      ]
+    },
+    "educational": {
+      "data-frequency": "172245",
+      "data-relevance": "284",
+      "data-term": "educational",
+      "data-encoded-term": "educational",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "172245",
+        "cn5",
+        "1"
+      ]
+    },
+    "sophomore": {
+      "data-frequency": "23952",
+      "data-relevance": "283",
+      "data-term": "sophomore",
+      "data-encoded-term": "sophomore",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "23952",
+        "cn5",
+        "1"
+      ]
+    },
+    "paraeducator": {
+      "data-frequency": "-1",
+      "data-relevance": "282",
+      "data-term": "paraeducator",
+      "data-encoded-term": "paraeducator",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "instructor": {
+      "data-frequency": "32548",
+      "data-relevance": "281",
+      "data-term": "instructor",
+      "data-encoded-term": "instructor",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "32548",
+        "cn5",
+        "1"
+      ]
+    },
+    "foundationer": {
+      "data-frequency": "-1",
+      "data-relevance": "280",
+      "data-term": "foundationer",
+      "data-encoded-term": "foundationer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "teach": {
+      "data-frequency": "58505",
+      "data-relevance": "279",
+      "data-term": "teach",
+      "data-encoded-term": "teach",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "58505",
+        "cn5",
+        "1"
+      ]
+    },
+    "crammer": {
+      "data-frequency": "148",
+      "data-relevance": "278",
+      "data-term": "crammer",
+      "data-encoded-term": "crammer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "148",
+        "cn5",
+        "1"
+      ]
+    },
+    "superschool": {
+      "data-frequency": "-1",
+      "data-relevance": "277",
+      "data-term": "superschool",
+      "data-encoded-term": "superschool",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolhouse": {
+      "data-frequency": "9015",
+      "data-relevance": "276",
+      "data-term": "schoolhouse",
+      "data-encoded-term": "schoolhouse",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9015",
+        "cn5",
+        "1"
+      ]
+    },
+    "lesson": {
+      "data-frequency": "22793",
+      "data-relevance": "275",
+      "data-term": "lesson",
+      "data-encoded-term": "lesson",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "22793",
+        "cn5",
+        "1"
+      ]
+    },
+    "blackboard": {
+      "data-frequency": "1609",
+      "data-relevance": "274",
+      "data-term": "blackboard",
+      "data-encoded-term": "blackboard",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1609",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolkid": {
+      "data-frequency": "-1",
+      "data-relevance": "273",
+      "data-term": "schoolkid",
+      "data-encoded-term": "schoolkid",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "extemp": {
+      "data-frequency": "-1",
+      "data-relevance": "272",
+      "data-term": "extemp",
+      "data-encoded-term": "extemp",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "baccalauréat": {
+      "data-frequency": "683",
+      "data-relevance": "271",
+      "data-term": "baccalauréat",
+      "data-encoded-term": "baccalaur%C3%A9at",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "683",
+        "wiki",
+        "1"
+      ]
+    },
+    "mit": {
+      "data-frequency": "59287",
+      "data-relevance": "270",
+      "data-term": "mit",
+      "data-encoded-term": "mit",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "59287",
+        "cn5",
+        "1"
+      ]
+    },
+    "aristotle": {
+      "data-frequency": "9105",
+      "data-relevance": "269",
+      "data-term": "aristotle",
+      "data-encoded-term": "aristotle",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9105",
+        "cn5",
+        "1"
+      ]
+    },
+    "homework": {
+      "data-frequency": "3883",
+      "data-relevance": "268",
+      "data-term": "homework",
+      "data-encoded-term": "homework",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3883",
+        "cn5",
+        "1"
+      ]
+    },
+    "abitur": {
+      "data-frequency": "1471",
+      "data-relevance": "267",
+      "data-term": "abitur",
+      "data-encoded-term": "abitur",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1471",
+        "wiki",
+        "1"
+      ]
+    },
+    "schoolchild": {
+      "data-frequency": "113",
+      "data-relevance": "266",
+      "data-term": "schoolchild",
+      "data-encoded-term": "schoolchild",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "113",
+        "cn5",
+        "1"
+      ]
+    },
+    "pedagogical": {
+      "data-frequency": "7050",
+      "data-relevance": "265",
+      "data-term": "pedagogical",
+      "data-encoded-term": "pedagogical",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7050",
+        "cn5",
+        "1"
+      ]
+    },
+    "tutor": {
+      "data-frequency": "17616",
+      "data-relevance": "264",
+      "data-term": "tutor",
+      "data-encoded-term": "tutor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17616",
+        "cn5",
+        "1"
+      ]
+    },
+    "shoal": {
+      "data-frequency": "5911",
+      "data-relevance": "263",
+      "data-term": "shoal",
+      "data-encoded-term": "shoal",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5911",
+        "cn5",
+        "1"
+      ]
+    },
+    "educator": {
+      "data-frequency": "40200",
+      "data-relevance": "262",
+      "data-term": "educator",
+      "data-encoded-term": "educator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "40200",
+        "cn5",
+        "1"
+      ]
+    },
+    "collegial": {
+      "data-frequency": "858",
+      "data-relevance": "261",
+      "data-term": "collegial",
+      "data-encoded-term": "collegial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "858",
+        "cn5",
+        "1"
+      ]
+    },
+    "seminary": {
+      "data-frequency": "35202",
+      "data-relevance": "260",
+      "data-term": "seminary",
+      "data-encoded-term": "seminary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "35202",
+        "cn5",
+        "1"
+      ]
+    },
+    "harvard": {
+      "data-frequency": "112810",
+      "data-relevance": "259",
+      "data-term": "harvard",
+      "data-encoded-term": "harvard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "112810",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolgirl": {
+      "data-frequency": "3263",
+      "data-relevance": "258",
+      "data-term": "schoolgirl",
+      "data-encoded-term": "schoolgirl",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3263",
+        "cn5",
+        "1"
+      ]
+    },
+    "tutorial": {
+      "data-frequency": "6338",
+      "data-relevance": "257",
+      "data-term": "tutorial",
+      "data-encoded-term": "tutorial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6338",
+        "cn5",
+        "1"
+      ]
+    },
+    "tuition": {
+      "data-frequency": "13209",
+      "data-relevance": "256",
+      "data-term": "tuition",
+      "data-encoded-term": "tuition",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13209",
+        "cn5",
+        "1"
+      ]
+    },
+    "alumnus": {
+      "data-frequency": "14994",
+      "data-relevance": "255",
+      "data-term": "alumnus",
+      "data-encoded-term": "alumnus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14994",
+        "cn5",
+        "1"
+      ]
+    },
+    "docent": {
+      "data-frequency": "1582",
+      "data-relevance": "254",
+      "data-term": "docent",
+      "data-encoded-term": "docent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1582",
+        "cn5",
+        "1"
+      ]
+    },
+    "gymnatorium": {
+      "data-frequency": "-1",
+      "data-relevance": "253",
+      "data-term": "gymnatorium",
+      "data-encoded-term": "gymnatorium",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "vocational education": {
+      "data-frequency": "3477",
+      "data-relevance": "252",
+      "data-term": "vocational education",
+      "data-encoded-term": "vocational%20education",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3477",
+        "wiki",
+        "1"
+      ]
+    },
+    "schoolwear": {
+      "data-frequency": "-1",
+      "data-relevance": "251",
+      "data-term": "schoolwear",
+      "data-encoded-term": "schoolwear",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "educational institution": {
+      "data-frequency": "8739",
+      "data-relevance": "250",
+      "data-term": "educational institution",
+      "data-encoded-term": "educational%20institution",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8739",
+        "cn5",
+        "1"
+      ]
+    },
+    "feeder school": {
+      "data-frequency": "395",
+      "data-relevance": "249",
+      "data-term": "feeder school",
+      "data-encoded-term": "feeder%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "395",
+        "cn5",
+        "1"
+      ]
+    },
+    "student teacher ratio": {
+      "data-frequency": "3457",
+      "data-relevance": "248",
+      "data-term": "student teacher ratio",
+      "data-encoded-term": "student%20teacher%20ratio",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3457",
+        "cn5",
+        "1"
+      ]
+    },
+    "middle school": {
+      "data-frequency": "33427",
+      "data-relevance": "247",
+      "data-term": "middle school",
+      "data-encoded-term": "middle%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "33427",
+        "cn5",
+        "1"
+      ]
+    },
+    "chalkface": {
+      "data-frequency": "-1",
+      "data-relevance": "246",
+      "data-term": "chalkface",
+      "data-encoded-term": "chalkface",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "junior school": {
+      "data-frequency": "3615",
+      "data-relevance": "245",
+      "data-term": "junior school",
+      "data-encoded-term": "junior%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3615",
+        "cn5",
+        "1"
+      ]
+    },
+    "elementary school": {
+      "data-frequency": "42693",
+      "data-relevance": "244",
+      "data-term": "elementary school",
+      "data-encoded-term": "elementary%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "42693",
+        "cn5",
+        "1"
+      ]
+    },
+    "dance school": {
+      "data-frequency": "1204",
+      "data-relevance": "243",
+      "data-term": "dance school",
+      "data-encoded-term": "dance%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1204",
+        "cn5",
+        "1"
+      ]
+    },
+    "learn place": {
+      "data-frequency": "-1",
+      "data-relevance": "242",
+      "data-term": "learn place",
+      "data-encoded-term": "learn%20place",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "special school": {
+      "data-frequency": "2134",
+      "data-relevance": "241",
+      "data-term": "special school",
+      "data-encoded-term": "special%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2134",
+        "cn5",
+        "1"
+      ]
+    },
+    "private school": {
+      "data-frequency": "12022",
+      "data-relevance": "240",
+      "data-term": "private school",
+      "data-encoded-term": "private%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12022",
+        "cn5",
+        "1"
+      ]
+    },
+    "secondary school": {
+      "data-frequency": "49528",
+      "data-relevance": "239",
+      "data-term": "secondary school",
+      "data-encoded-term": "secondary%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "49528",
+        "cn5",
+        "1"
+      ]
+    },
+    "class room": {
+      "data-frequency": "369",
+      "data-relevance": "238",
+      "data-term": "class room",
+      "data-encoded-term": "class%20room",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "369",
+        "cn5",
+        "1"
+      ]
+    },
+    "public school": {
+      "data-frequency": "38784",
+      "data-relevance": "237",
+      "data-term": "public school",
+      "data-encoded-term": "public%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "38784",
+        "cn5",
+        "1"
+      ]
+    },
+    "religious school": {
+      "data-frequency": "885",
+      "data-relevance": "236",
+      "data-term": "religious school",
+      "data-encoded-term": "religious%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "885",
+        "cn5",
+        "1"
+      ]
+    },
+    "technical school": {
+      "data-frequency": "4625",
+      "data-relevance": "235",
+      "data-term": "technical school",
+      "data-encoded-term": "technical%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4625",
+        "cn5",
+        "1"
+      ]
+    },
+    "alumnus association": {
+      "data-frequency": "-1",
+      "data-relevance": "234",
+      "data-term": "alumnus association",
+      "data-encoded-term": "alumnus%20association",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "primary school": {
+      "data-frequency": "41807",
+      "data-relevance": "233",
+      "data-term": "primary school",
+      "data-encoded-term": "primary%20school",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "41807",
+        "cn5",
+        "1"
+      ]
+    },
+    "classroom chair": {
+      "data-frequency": "-1",
+      "data-relevance": "232",
+      "data-term": "classroom chair",
+      "data-encoded-term": "classroom%20chair",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rule school": {
+      "data-frequency": "-1",
+      "data-relevance": "231",
+      "data-term": "rule school",
+      "data-encoded-term": "rule%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "freshman": {
+      "data-frequency": "29544",
+      "data-relevance": "230",
+      "data-term": "freshman",
+      "data-encoded-term": "freshman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "29544",
+        "wiki|reverse-net",
+        "1"
+      ]
+    },
+    "bus student": {
+      "data-frequency": "-1",
+      "data-relevance": "229",
+      "data-term": "bus student",
+      "data-encoded-term": "bus%20student",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lake poet": {
+      "data-frequency": "-1",
+      "data-relevance": "228",
+      "data-term": "lake poet",
+      "data-encoded-term": "lake%20poet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "school system": {
+      "data-frequency": "11636",
+      "data-relevance": "227",
+      "data-term": "school system",
+      "data-encoded-term": "school%20system",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11636",
+        "cn5",
+        "1"
+      ]
+    },
+    "postsecondary school": {
+      "data-frequency": "-1",
+      "data-relevance": "226",
+      "data-term": "postsecondary school",
+      "data-encoded-term": "postsecondary%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unteach": {
+      "data-frequency": "-1",
+      "data-relevance": "225",
+      "data-term": "unteach",
+      "data-encoded-term": "unteach",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grade school": {
+      "data-frequency": "4015",
+      "data-relevance": "224",
+      "data-term": "grade school",
+      "data-encoded-term": "grade%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4015",
+        "cn5",
+        "1"
+      ]
+    },
+    "prep school": {
+      "data-frequency": "2850",
+      "data-relevance": "223",
+      "data-term": "prep school",
+      "data-encoded-term": "prep%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2850",
+        "cn5",
+        "1"
+      ]
+    },
+    "integrated programme": {
+      "data-frequency": "7846",
+      "data-relevance": "222",
+      "data-term": "integrated programme",
+      "data-encoded-term": "integrated%20programme",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7846",
+        "wiki",
+        "1"
+      ]
+    },
+    "misteach": {
+      "data-frequency": "-1",
+      "data-relevance": "221",
+      "data-term": "misteach",
+      "data-encoded-term": "misteach",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "home school": {
+      "data-frequency": "1271",
+      "data-relevance": "220",
+      "data-term": "home school",
+      "data-encoded-term": "home%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1271",
+        "cn5",
+        "1"
+      ]
+    },
+    "school uniform": {
+      "data-frequency": "1309",
+      "data-relevance": "219",
+      "data-term": "school uniform",
+      "data-encoded-term": "school%20uniform",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1309",
+        "cn5",
+        "1"
+      ]
+    },
+    "legacy student": {
+      "data-frequency": "-1",
+      "data-relevance": "218",
+      "data-term": "legacy student",
+      "data-encoded-term": "legacy%20student",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "junior college": {
+      "data-frequency": "11148",
+      "data-relevance": "217",
+      "data-term": "junior college",
+      "data-encoded-term": "junior%20college",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11148",
+        "cn5",
+        "1"
+      ]
+    },
+    "lecture hall": {
+      "data-frequency": "1401",
+      "data-relevance": "216",
+      "data-term": "lecture hall",
+      "data-encoded-term": "lecture%20hall",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1401",
+        "cn5",
+        "1"
+      ]
+    },
+    "alma mat": {
+      "data-frequency": "-1",
+      "data-relevance": "215",
+      "data-term": "alma mat",
+      "data-encoded-term": "alma%20mat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "enrollee": {
+      "data-frequency": "89",
+      "data-relevance": "214",
+      "data-term": "enrollee",
+      "data-encoded-term": "enrollee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89",
+        "cn5",
+        "1"
+      ]
+    },
+    "academic year": {
+      "data-frequency": "10360",
+      "data-relevance": "213",
+      "data-term": "academic year",
+      "data-encoded-term": "academic%20year",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10360",
+        "cn5",
+        "1"
+      ]
+    },
+    "day school": {
+      "data-frequency": "7420",
+      "data-relevance": "212",
+      "data-term": "day school",
+      "data-encoded-term": "day%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7420",
+        "cn5",
+        "1"
+      ]
+    },
+    "england": {
+      "data-frequency": "609840",
+      "data-relevance": "211",
+      "data-term": "england",
+      "data-encoded-term": "england",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "609840",
+        "wiki",
+        "1"
+      ]
+    },
+    "river valley high school": {
+      "data-frequency": "24965",
+      "data-relevance": "210",
+      "data-term": "river valley high school",
+      "data-encoded-term": "river%20valley%20high%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24965",
+        "wiki",
+        "1"
+      ]
+    },
+    "pointillism": {
+      "data-frequency": "392",
+      "data-relevance": "209",
+      "data-term": "pointillism",
+      "data-encoded-term": "pointillism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "392",
+        "cn5",
+        "1"
+      ]
+    },
+    "studentship": {
+      "data-frequency": "416",
+      "data-relevance": "208",
+      "data-term": "studentship",
+      "data-encoded-term": "studentship",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "416",
+        "cn5",
+        "1"
+      ]
+    },
+    "teach student": {
+      "data-frequency": "-1",
+      "data-relevance": "207",
+      "data-term": "teach student",
+      "data-encoded-term": "teach%20student",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "text book": {
+      "data-frequency": "1762",
+      "data-relevance": "206",
+      "data-term": "text book",
+      "data-encoded-term": "text%20book",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1762",
+        "cn5",
+        "1"
+      ]
+    },
+    "summer school": {
+      "data-frequency": "3445",
+      "data-relevance": "205",
+      "data-term": "summer school",
+      "data-encoded-term": "summer%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3445",
+        "cn5",
+        "1"
+      ]
+    },
+    "study hall": {
+      "data-frequency": "491",
+      "data-relevance": "204",
+      "data-term": "study hall",
+      "data-encoded-term": "study%20hall",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "491",
+        "cn5",
+        "1"
+      ]
+    },
+    "moo u": {
+      "data-frequency": "-1",
+      "data-relevance": "203",
+      "data-term": "moo u",
+      "data-encoded-term": "moo%20u",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "madrassah": {
+      "data-frequency": "276",
+      "data-relevance": "202",
+      "data-term": "madrassah",
+      "data-encoded-term": "madrassah",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "276",
+        "cn5",
+        "1"
+      ]
+    },
+    "bachelor's degree": {
+      "data-frequency": "33805",
+      "data-relevance": "201",
+      "data-term": "bachelor's degree",
+      "data-encoded-term": "bachelor's%20degree",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33805",
+        "wiki",
+        "1"
+      ]
+    },
+    "normal school": {
+      "data-frequency": "4742",
+      "data-relevance": "200",
+      "data-term": "normal school",
+      "data-encoded-term": "normal%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4742",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolfriend": {
+      "data-frequency": "294",
+      "data-relevance": "199",
+      "data-term": "schoolfriend",
+      "data-encoded-term": "schoolfriend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "294",
+        "cn5",
+        "1"
+      ]
+    },
+    "wales": {
+      "data-frequency": "218344",
+      "data-relevance": "198",
+      "data-term": "wales",
+      "data-encoded-term": "wales",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "218344",
+        "wiki",
+        "1"
+      ]
+    },
+    "board school": {
+      "data-frequency": "823",
+      "data-relevance": "197",
+      "data-term": "board school",
+      "data-encoded-term": "board%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "823",
+        "cn5",
+        "1"
+      ]
+    },
+    "dean's list": {
+      "data-frequency": "538",
+      "data-relevance": "196",
+      "data-term": "dean's list",
+      "data-encoded-term": "dean's%20list",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "538",
+        "cn5",
+        "1"
+      ]
+    },
+    "night school": {
+      "data-frequency": "1288",
+      "data-relevance": "195",
+      "data-term": "night school",
+      "data-encoded-term": "night%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1288",
+        "cn5",
+        "1"
+      ]
+    },
+    "scotland": {
+      "data-frequency": "187536",
+      "data-relevance": "194",
+      "data-term": "scotland",
+      "data-encoded-term": "scotland",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "187536",
+        "wiki",
+        "1"
+      ]
+    },
+    "grammar school": {
+      "data-frequency": "25764",
+      "data-relevance": "193",
+      "data-term": "grammar school",
+      "data-encoded-term": "grammar%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25764",
+        "cn5",
+        "1"
+      ]
+    },
+    "vestibule school": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "vestibule school",
+      "data-encoded-term": "vestibule%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "teach person": {
+      "data-frequency": "-1",
+      "data-relevance": "191",
+      "data-term": "teach person",
+      "data-encoded-term": "teach%20person",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "foreteach": {
+      "data-frequency": "-1",
+      "data-relevance": "190",
+      "data-term": "foreteach",
+      "data-encoded-term": "foreteach",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "high education": {
+      "data-frequency": "391",
+      "data-relevance": "189",
+      "data-term": "high education",
+      "data-encoded-term": "high%20education",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "391",
+        "cn5",
+        "1"
+      ]
+    },
+    "higher": {
+      "data-frequency": "248861",
+      "data-relevance": "188",
+      "data-term": "higher",
+      "data-encoded-term": "higher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "248861",
+        "wiki",
+        "1"
+      ]
+    },
+    "nursery school": {
+      "data-frequency": "1741",
+      "data-relevance": "187",
+      "data-term": "nursery school",
+      "data-encoded-term": "nursery%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1741",
+        "cn5",
+        "1"
+      ]
+    },
+    "georgia tech": {
+      "data-frequency": "8776",
+      "data-relevance": "186",
+      "data-term": "georgia tech",
+      "data-encoded-term": "georgia%20tech",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8776",
+        "cn5",
+        "1"
+      ]
+    },
+    "korea university": {
+      "data-frequency": "1176",
+      "data-relevance": "185",
+      "data-term": "korea university",
+      "data-encoded-term": "korea%20university",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1176",
+        "cn5",
+        "1"
+      ]
+    },
+    "college student": {
+      "data-frequency": "5410",
+      "data-relevance": "184",
+      "data-term": "college student",
+      "data-encoded-term": "college%20student",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5410",
+        "cn5",
+        "1"
+      ]
+    },
+    "secondary education": {
+      "data-frequency": "22659",
+      "data-relevance": "183",
+      "data-term": "secondary education",
+      "data-encoded-term": "secondary%20education",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22659",
+        "cn5",
+        "1"
+      ]
+    },
+    "at school": {
+      "data-frequency": "14652",
+      "data-relevance": "182",
+      "data-term": "at school",
+      "data-encoded-term": "at%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14652",
+        "cn5",
+        "1"
+      ]
+    },
+    "iranian university entrance exam": {
+      "data-frequency": "235",
+      "data-relevance": "181",
+      "data-term": "iranian university entrance exam",
+      "data-encoded-term": "iranian%20university%20entrance%20exam",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "235",
+        "wiki",
+        "1"
+      ]
+    },
+    "school age": {
+      "data-frequency": "2665",
+      "data-relevance": "180",
+      "data-term": "school age",
+      "data-encoded-term": "school%20age",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2665",
+        "cn5",
+        "1"
+      ]
+    },
+    "comprehensive school": {
+      "data-frequency": "4365",
+      "data-relevance": "179",
+      "data-term": "comprehensive school",
+      "data-encoded-term": "comprehensive%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4365",
+        "cn5",
+        "1"
+      ]
+    },
+    "lecture theatre": {
+      "data-frequency": "653",
+      "data-relevance": "178",
+      "data-term": "lecture theatre",
+      "data-encoded-term": "lecture%20theatre",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "653",
+        "cn5",
+        "1"
+      ]
+    },
+    "goliardia": {
+      "data-frequency": "-1",
+      "data-relevance": "177",
+      "data-term": "goliardia",
+      "data-encoded-term": "goliardia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "graduate school": {
+      "data-frequency": "22926",
+      "data-relevance": "176",
+      "data-term": "graduate school",
+      "data-encoded-term": "graduate%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22926",
+        "cn5",
+        "1"
+      ]
+    },
+    "off campus": {
+      "data-frequency": "3088",
+      "data-relevance": "175",
+      "data-term": "off campus",
+      "data-encoded-term": "off%20campus",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3088",
+        "cn5",
+        "1"
+      ]
+    },
+    "new south wales": {
+      "data-frequency": "73756",
+      "data-relevance": "174",
+      "data-term": "new south wales",
+      "data-encoded-term": "new%20south%20wales",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "73756",
+        "wiki",
+        "1"
+      ]
+    },
+    "special education": {
+      "data-frequency": "5291",
+      "data-relevance": "173",
+      "data-term": "special education",
+      "data-encoded-term": "special%20education",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5291",
+        "cn5",
+        "1"
+      ]
+    },
+    "fastener binder": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "fastener binder",
+      "data-encoded-term": "fastener%20binder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "law student": {
+      "data-frequency": "2174",
+      "data-relevance": "171",
+      "data-term": "law student",
+      "data-encoded-term": "law%20student",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2174",
+        "cn5",
+        "1"
+      ]
+    },
+    "grade inflation": {
+      "data-frequency": "108",
+      "data-relevance": "170",
+      "data-term": "grade inflation",
+      "data-encoded-term": "grade%20inflation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "108",
+        "cn5",
+        "1"
+      ]
+    },
+    "open university": {
+      "data-frequency": "6583",
+      "data-relevance": "169",
+      "data-term": "open university",
+      "data-encoded-term": "open%20university",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6583",
+        "cn5",
+        "1"
+      ]
+    },
+    "semester hour": {
+      "data-frequency": "-1",
+      "data-relevance": "168",
+      "data-term": "semester hour",
+      "data-encoded-term": "semester%20hour",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fac brat": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "fac brat",
+      "data-encoded-term": "fac%20brat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "south australia": {
+      "data-frequency": "33038",
+      "data-relevance": "166",
+      "data-term": "south australia",
+      "data-encoded-term": "south%20australia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "33038",
+        "wiki",
+        "1"
+      ]
+    },
+    "junior high school": {
+      "data-frequency": "10868",
+      "data-relevance": "165",
+      "data-term": "junior high school",
+      "data-encoded-term": "junior%20high%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10868",
+        "cn5",
+        "1"
+      ]
+    },
+    "western australia": {
+      "data-frequency": "37944",
+      "data-relevance": "164",
+      "data-term": "western australia",
+      "data-encoded-term": "western%20australia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "37944",
+        "wiki",
+        "1"
+      ]
+    },
+    "quiz bowl": {
+      "data-frequency": "617",
+      "data-relevance": "163",
+      "data-term": "quiz bowl",
+      "data-encoded-term": "quiz%20bowl",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "617",
+        "cn5",
+        "1"
+      ]
+    },
+    "on campus": {
+      "data-frequency": "14173",
+      "data-relevance": "162",
+      "data-term": "on campus",
+      "data-encoded-term": "on%20campus",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14173",
+        "cn5",
+        "1"
+      ]
+    },
+    "technical and further education": {
+      "data-frequency": "18274",
+      "data-relevance": "161",
+      "data-term": "technical and further education",
+      "data-encoded-term": "technical%20and%20further%20education",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18274",
+        "wiki",
+        "1"
+      ]
+    },
+    "show and tell": {
+      "data-frequency": "458",
+      "data-relevance": "160",
+      "data-term": "show and tell",
+      "data-encoded-term": "show%20and%20tell",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "458",
+        "cn5",
+        "1"
+      ]
+    },
+    "new zealand": {
+      "data-frequency": "237641",
+      "data-relevance": "159",
+      "data-term": "new zealand",
+      "data-encoded-term": "new%20zealand",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "237641",
+        "wiki",
+        "1"
+      ]
+    },
+    "stick eraser": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "stick eraser",
+      "data-encoded-term": "stick%20eraser",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "classe préparatoire aux grandes écoles": {
+      "data-frequency": "48",
+      "data-relevance": "157",
+      "data-term": "classe préparatoire aux grandes écoles",
+      "data-encoded-term": "classe%20pr%C3%A9paratoire%20aux%20grandes%20%C3%A9coles",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "wiki",
+        "1"
+      ]
+    },
+    "school student": {
+      "data-frequency": "6659",
+      "data-relevance": "156",
+      "data-term": "school student",
+      "data-encoded-term": "school%20student",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6659",
+        "cn5",
+        "1"
+      ]
+    },
+    "charm school": {
+      "data-frequency": "343",
+      "data-relevance": "155",
+      "data-term": "charm school",
+      "data-encoded-term": "charm%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "343",
+        "cn5",
+        "1"
+      ]
+    },
+    "finish school": {
+      "data-frequency": "205",
+      "data-relevance": "154",
+      "data-term": "finish school",
+      "data-encoded-term": "finish%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "205",
+        "cn5",
+        "1"
+      ]
+    },
+    "rational think": {
+      "data-frequency": "-1",
+      "data-relevance": "153",
+      "data-term": "rational think",
+      "data-encoded-term": "rational%20think",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "party school": {
+      "data-frequency": "561",
+      "data-relevance": "152",
+      "data-term": "party school",
+      "data-encoded-term": "party%20school",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "561",
+        "cn5",
+        "1"
+      ]
+    },
+    "in school": {
+      "data-frequency": "21722",
+      "data-relevance": "151",
+      "data-term": "in school",
+      "data-encoded-term": "in%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "21722",
+        "cn5",
+        "1"
+      ]
+    },
+    "blackboard eraser": {
+      "data-frequency": "-1",
+      "data-relevance": "150",
+      "data-term": "blackboard eraser",
+      "data-encoded-term": "blackboard%20eraser",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "republic of ireland": {
+      "data-frequency": "23267",
+      "data-relevance": "149",
+      "data-term": "republic of ireland",
+      "data-encoded-term": "republic%20of%20ireland",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "23267",
+        "wiki",
+        "1"
+      ]
+    },
+    "military academy": {
+      "data-frequency": "17517",
+      "data-relevance": "148",
+      "data-term": "military academy",
+      "data-encoded-term": "military%20academy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "17517",
+        "cn5",
+        "1"
+      ]
+    },
+    "sadie hawkins dance": {
+      "data-frequency": "62",
+      "data-relevance": "147",
+      "data-term": "sadie hawkins dance",
+      "data-encoded-term": "sadie%20hawkins%20dance",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "62",
+        "cn5",
+        "1"
+      ]
+    },
+    "exam table": {
+      "data-frequency": "-1",
+      "data-relevance": "146",
+      "data-term": "exam table",
+      "data-encoded-term": "exam%20table",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "technological university": {
+      "data-frequency": "3274",
+      "data-relevance": "145",
+      "data-term": "technological university",
+      "data-encoded-term": "technological%20university",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3274",
+        "cn5",
+        "1"
+      ]
+    },
+    "junior certificate": {
+      "data-frequency": "6644",
+      "data-relevance": "144",
+      "data-term": "junior certificate",
+      "data-encoded-term": "junior%20certificate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6644",
+        "wiki",
+        "1"
+      ]
+    },
+    "art school": {
+      "data-frequency": "6980",
+      "data-relevance": "143",
+      "data-term": "art school",
+      "data-encoded-term": "art%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6980",
+        "cn5",
+        "1"
+      ]
+    },
+    "frat boy": {
+      "data-frequency": "197",
+      "data-relevance": "142",
+      "data-term": "frat boy",
+      "data-encoded-term": "frat%20boy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "197",
+        "cn5",
+        "1"
+      ]
+    },
+    "sophomores": {
+      "data-frequency": "1670",
+      "data-relevance": "141",
+      "data-term": "sophomores",
+      "data-encoded-term": "sophomores",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1670",
+        "ol",
+        "1"
+      ]
+    },
+    "freshmen": {
+      "data-frequency": "6277",
+      "data-relevance": "140",
+      "data-term": "freshmen",
+      "data-encoded-term": "freshmen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6277",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "juniors": {
+      "data-frequency": "17491",
+      "data-relevance": "139",
+      "data-term": "juniors",
+      "data-encoded-term": "juniors",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "17491",
+        "ol",
+        "1"
+      ]
+    },
+    "sorority": {
+      "data-frequency": "3835",
+      "data-relevance": "138",
+      "data-term": "sorority",
+      "data-encoded-term": "sorority",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3835",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "plebe": {
+      "data-frequency": "235",
+      "data-relevance": "137",
+      "data-term": "plebe",
+      "data-encoded-term": "plebe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "235",
+        "ol",
+        "1"
+      ]
+    },
+    "redshirt": {
+      "data-frequency": "8447",
+      "data-relevance": "136",
+      "data-term": "redshirt",
+      "data-encoded-term": "redshirt",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8447",
+        "ol",
+        "1"
+      ]
+    },
+    "rotc": {
+      "data-frequency": "2690",
+      "data-relevance": "135",
+      "data-term": "rotc",
+      "data-encoded-term": "rotc",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2690",
+        "ol",
+        "1"
+      ]
+    },
+    "roommate": {
+      "data-frequency": "5823",
+      "data-relevance": "134",
+      "data-term": "roommate",
+      "data-encoded-term": "roommate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5823",
+        "ol",
+        "1"
+      ]
+    },
+    "dorm": {
+      "data-frequency": "3263",
+      "data-relevance": "133",
+      "data-term": "dorm",
+      "data-encoded-term": "dorm",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3263",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "athlete": {
+      "data-frequency": "80043",
+      "data-relevance": "132",
+      "data-term": "athlete",
+      "data-encoded-term": "athlete",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "80043",
+        "ol",
+        "1"
+      ]
+    },
+    "teammates": {
+      "data-frequency": "19775",
+      "data-relevance": "131",
+      "data-term": "teammates",
+      "data-encoded-term": "teammates",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "19775",
+        "ol",
+        "1"
+      ]
+    },
+    "reft": {
+      "data-frequency": "49",
+      "data-relevance": "130",
+      "data-term": "reft",
+      "data-encoded-term": "reft",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "legree": {
+      "data-frequency": "143",
+      "data-relevance": "129",
+      "data-term": "legree",
+      "data-encoded-term": "legree",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "143",
+        "ol",
+        "1"
+      ]
+    },
+    "irish leaving certificate": {
+      "data-frequency": "4193",
+      "data-relevance": "128",
+      "data-term": "irish leaving certificate",
+      "data-encoded-term": "irish%20leaving%20certificate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4193",
+        "wiki",
+        "1"
+      ]
+    },
+    "unselfishness": {
+      "data-frequency": "171",
+      "data-relevance": "127",
+      "data-term": "unselfishness",
+      "data-encoded-term": "unselfishness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "171",
+        "ol",
+        "1"
+      ]
+    },
+    "undergraduates": {
+      "data-frequency": "4597",
+      "data-relevance": "126",
+      "data-term": "undergraduates",
+      "data-encoded-term": "undergraduates",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4597",
+        "ol",
+        "1"
+      ]
+    },
+    "starters": {
+      "data-frequency": "8152",
+      "data-relevance": "125",
+      "data-term": "starters",
+      "data-encoded-term": "starters",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8152",
+        "ol",
+        "1"
+      ]
+    },
+    "athletically": {
+      "data-frequency": "102005",
+      "data-relevance": "124",
+      "data-term": "athletically",
+      "data-encoded-term": "athletically",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "102005",
+        "ol",
+        "1"
+      ]
+    },
+    "fraternities": {
+      "data-frequency": "3262",
+      "data-relevance": "123",
+      "data-term": "fraternities",
+      "data-encoded-term": "fraternities",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3262",
+        "ol",
+        "1"
+      ]
+    },
+    "academically": {
+      "data-frequency": "5704",
+      "data-relevance": "122",
+      "data-term": "academically",
+      "data-encoded-term": "academically",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5704",
+        "ol",
+        "1"
+      ]
+    },
+    "stater": {
+      "data-frequency": "905",
+      "data-relevance": "121",
+      "data-term": "stater",
+      "data-encoded-term": "stater",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "905",
+        "ol",
+        "1"
+      ]
+    },
+    "semester": {
+      "data-frequency": "13075",
+      "data-relevance": "120",
+      "data-term": "semester",
+      "data-encoded-term": "semester",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13075",
+        "ol",
+        "1"
+      ]
+    },
+    "rebounder": {
+      "data-frequency": "23744",
+      "data-relevance": "119",
+      "data-term": "rebounder",
+      "data-encoded-term": "rebounder",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "23744",
+        "ol",
+        "1"
+      ]
+    },
+    "alum": {
+      "data-frequency": "6560",
+      "data-relevance": "118",
+      "data-term": "alum",
+      "data-encoded-term": "alum",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6560",
+        "ol",
+        "1"
+      ]
+    },
+    "midshipmen": {
+      "data-frequency": "2099",
+      "data-relevance": "117",
+      "data-term": "midshipmen",
+      "data-encoded-term": "midshipmen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2099",
+        "ol",
+        "1"
+      ]
+    },
+    "homeroom": {
+      "data-frequency": "922",
+      "data-relevance": "116",
+      "data-term": "homeroom",
+      "data-encoded-term": "homeroom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "922",
+        "ol",
+        "1"
+      ]
+    },
+    "sandburg": {
+      "data-frequency": "1296",
+      "data-relevance": "115",
+      "data-term": "sandburg",
+      "data-encoded-term": "sandburg",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1296",
+        "ol",
+        "1"
+      ]
+    },
+    "greeks": {
+      "data-frequency": "15974",
+      "data-relevance": "114",
+      "data-term": "greeks",
+      "data-encoded-term": "greeks",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15974",
+        "ol",
+        "1"
+      ]
+    },
+    "pinner": {
+      "data-frequency": "1271",
+      "data-relevance": "113",
+      "data-term": "pinner",
+      "data-encoded-term": "pinner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1271",
+        "ol",
+        "1"
+      ]
+    },
+    "kid": {
+      "data-frequency": "53014",
+      "data-relevance": "112",
+      "data-term": "kid",
+      "data-encoded-term": "kid",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "53014",
+        "ol",
+        "1"
+      ]
+    },
+    "cadet": {
+      "data-frequency": "20882",
+      "data-relevance": "111",
+      "data-term": "cadet",
+      "data-encoded-term": "cadet",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "20882",
+        "ol",
+        "1"
+      ]
+    },
+    "offensively": {
+      "data-frequency": "1748",
+      "data-relevance": "110",
+      "data-term": "offensively",
+      "data-encoded-term": "offensively",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1748",
+        "ol",
+        "1"
+      ]
+    },
+    "rooming": {
+      "data-frequency": "742",
+      "data-relevance": "109",
+      "data-term": "rooming",
+      "data-encoded-term": "rooming",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "742",
+        "ol",
+        "1"
+      ]
+    },
+    "alumni": {
+      "data-frequency": "412660",
+      "data-relevance": "108",
+      "data-term": "alumni",
+      "data-encoded-term": "alumni",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "412660",
+        "ol",
+        "1"
+      ]
+    },
+    "recruits": {
+      "data-frequency": "98430",
+      "data-relevance": "107",
+      "data-term": "recruits",
+      "data-encoded-term": "recruits",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "98430",
+        "ol",
+        "1"
+      ]
+    },
+    "soph": {
+      "data-frequency": "345",
+      "data-relevance": "106",
+      "data-term": "soph",
+      "data-encoded-term": "soph",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "345",
+        "ol",
+        "1"
+      ]
+    },
+    "frat house": {
+      "data-frequency": "158",
+      "data-relevance": "105",
+      "data-term": "frat house",
+      "data-encoded-term": "frat%20house",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "158",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical student": {
+      "data-frequency": "2735",
+      "data-relevance": "104",
+      "data-term": "medical student",
+      "data-encoded-term": "medical%20student",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2735",
+        "cn5",
+        "1"
+      ]
+    },
+    "play truant": {
+      "data-frequency": "44",
+      "data-relevance": "103",
+      "data-term": "play truant",
+      "data-encoded-term": "play%20truant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "rag school": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "rag school",
+      "data-encoded-term": "rag%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "preschool": {
+      "data-frequency": "7669",
+      "data-relevance": "101",
+      "data-term": "preschool",
+      "data-encoded-term": "preschool",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7669",
+        "wiki",
+        "1"
+      ]
+    },
+    "trinity college, dublin": {
+      "data-frequency": "7101",
+      "data-relevance": "100",
+      "data-term": "trinity college, dublin",
+      "data-encoded-term": "trinity%20college%2C%20dublin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7101",
+        "wiki",
+        "1"
+      ]
+    },
+    "pre-kindergarten": {
+      "data-frequency": "5896",
+      "data-relevance": "99",
+      "data-term": "pre-kindergarten",
+      "data-encoded-term": "pre-kindergarten",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5896",
+        "wiki",
+        "1"
+      ]
+    },
+    "find in school": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "find in school",
+      "data-encoded-term": "find%20in%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "self educate": {
+      "data-frequency": "-1",
+      "data-relevance": "97",
+      "data-term": "self educate",
+      "data-encoded-term": "self%20educate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "music school": {
+      "data-frequency": "4999",
+      "data-relevance": "96",
+      "data-term": "music school",
+      "data-encoded-term": "music%20school",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4999",
+        "cn5",
+        "1"
+      ]
+    },
+    "liceo classico": {
+      "data-frequency": "180",
+      "data-relevance": "95",
+      "data-term": "liceo classico",
+      "data-encoded-term": "liceo%20classico",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "180",
+        "wiki",
+        "1"
+      ]
+    },
+    "orientation week": {
+      "data-frequency": "5899",
+      "data-relevance": "94",
+      "data-term": "orientation week",
+      "data-encoded-term": "orientation%20week",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5899",
+        "wiki",
+        "1"
+      ]
+    },
+    "united kingdom": {
+      "data-frequency": "466760",
+      "data-relevance": "93",
+      "data-term": "united kingdom",
+      "data-encoded-term": "united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "466760",
+        "wiki",
+        "1"
+      ]
+    },
+    "liceo scientifico": {
+      "data-frequency": "128",
+      "data-relevance": "92",
+      "data-term": "liceo scientifico",
+      "data-encoded-term": "liceo%20scientifico",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "128",
+        "wiki",
+        "1"
+      ]
+    },
+    "american english": {
+      "data-frequency": "73806",
+      "data-relevance": "91",
+      "data-term": "american english",
+      "data-encoded-term": "american%20english",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "73806",
+        "wiki",
+        "1"
+      ]
+    },
+    "anglosphere": {
+      "data-frequency": "356",
+      "data-relevance": "90",
+      "data-term": "anglosphere",
+      "data-encoded-term": "anglosphere",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "356",
+        "wiki",
+        "1"
+      ]
+    },
+    "underclassman": {
+      "data-frequency": "253",
+      "data-relevance": "89",
+      "data-term": "underclassman",
+      "data-encoded-term": "underclassman",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "253",
+        "ol",
+        "1"
+      ]
+    },
+    "francosphere": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "francosphere",
+      "data-encoded-term": "francosphere",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "classmen": {
+      "data-frequency": "99",
+      "data-relevance": "87",
+      "data-term": "classmen",
+      "data-encoded-term": "classmen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "99",
+        "ol",
+        "1"
+      ]
+    },
+    "frosh": {
+      "data-frequency": "588",
+      "data-relevance": "86",
+      "data-term": "frosh",
+      "data-encoded-term": "frosh",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "588",
+        "ol",
+        "1"
+      ]
+    },
+    "weightroom": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "weightroom",
+      "data-encoded-term": "weightroom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "classman": {
+      "data-frequency": "-1",
+      "data-relevance": "84",
+      "data-term": "classman",
+      "data-encoded-term": "classman",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "bmoc": {
+      "data-frequency": "-1",
+      "data-relevance": "83",
+      "data-term": "bmoc",
+      "data-encoded-term": "bmoc",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "middie": {
+      "data-frequency": "-1",
+      "data-relevance": "82",
+      "data-term": "middie",
+      "data-encoded-term": "middie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "scholastically": {
+      "data-frequency": "9261",
+      "data-relevance": "81",
+      "data-term": "scholastically",
+      "data-encoded-term": "scholastically",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "9261",
+        "ol",
+        "1"
+      ]
+    },
+    "overachiever": {
+      "data-frequency": "386",
+      "data-relevance": "80",
+      "data-term": "overachiever",
+      "data-encoded-term": "overachiever",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "386",
+        "ol",
+        "1"
+      ]
+    },
+    "yalie": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "yalie",
+      "data-encoded-term": "yalie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "senioritis": {
+      "data-frequency": "-1",
+      "data-relevance": "78",
+      "data-term": "senioritis",
+      "data-encoded-term": "senioritis",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "undergrad": {
+      "data-frequency": "664",
+      "data-relevance": "77",
+      "data-term": "undergrad",
+      "data-encoded-term": "undergrad",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "664",
+        "ol",
+        "1"
+      ]
+    },
+    "signee": {
+      "data-frequency": "665",
+      "data-relevance": "76",
+      "data-term": "signee",
+      "data-encoded-term": "signee",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "665",
+        "ol",
+        "1"
+      ]
+    },
+    "rookies": {
+      "data-frequency": "6739",
+      "data-relevance": "75",
+      "data-term": "rookies",
+      "data-encoded-term": "rookies",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6739",
+        "ol",
+        "1"
+      ]
+    },
+    "doolies": {
+      "data-frequency": "11209",
+      "data-relevance": "74",
+      "data-term": "doolies",
+      "data-encoded-term": "doolies",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "11209",
+        "ol",
+        "1"
+      ]
+    },
+    "frontcourt": {
+      "data-frequency": "222",
+      "data-relevance": "73",
+      "data-term": "frontcourt",
+      "data-encoded-term": "frontcourt",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "222",
+        "ol",
+        "1"
+      ]
+    },
+    "colligate": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "colligate",
+      "data-encoded-term": "colligate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "gridder": {
+      "data-frequency": "117",
+      "data-relevance": "71",
+      "data-term": "gridder",
+      "data-encoded-term": "gridder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "117",
+        "ol",
+        "1"
+      ]
+    },
+    "middies": {
+      "data-frequency": "167",
+      "data-relevance": "70",
+      "data-term": "middies",
+      "data-encoded-term": "middies",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "167",
+        "ol",
+        "1"
+      ]
+    },
+    "shallon": {
+      "data-frequency": "122",
+      "data-relevance": "69",
+      "data-term": "shallon",
+      "data-encoded-term": "shallon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "122",
+        "ol",
+        "1"
+      ]
+    },
+    "lettermen": {
+      "data-frequency": "608",
+      "data-relevance": "68",
+      "data-term": "lettermen",
+      "data-encoded-term": "lettermen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "608",
+        "ol",
+        "1"
+      ]
+    },
+    "backcourt": {
+      "data-frequency": "430",
+      "data-relevance": "67",
+      "data-term": "backcourt",
+      "data-encoded-term": "backcourt",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "430",
+        "ol",
+        "1"
+      ]
+    },
+    "roundedness": {
+      "data-frequency": "62",
+      "data-relevance": "66",
+      "data-term": "roundedness",
+      "data-encoded-term": "roundedness",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62",
+        "ol",
+        "1"
+      ]
+    },
+    "frats": {
+      "data-frequency": "1147",
+      "data-relevance": "65",
+      "data-term": "frats",
+      "data-encoded-term": "frats",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1147",
+        "ol",
+        "1"
+      ]
+    },
+    "epeeist": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "epeeist",
+      "data-encoded-term": "epeeist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "cashs": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "cashs",
+      "data-encoded-term": "cashs",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pontee": {
+      "data-frequency": "-1",
+      "data-relevance": "62",
+      "data-term": "pontee",
+      "data-encoded-term": "pontee",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "cappie": {
+      "data-frequency": "166",
+      "data-relevance": "61",
+      "data-term": "cappie",
+      "data-encoded-term": "cappie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "166",
+        "ol",
+        "1"
+      ]
+    },
+    "attackman": {
+      "data-frequency": "114",
+      "data-relevance": "60",
+      "data-term": "attackman",
+      "data-encoded-term": "attackman",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "114",
+        "ol",
+        "1"
+      ]
+    },
+    "overachieving": {
+      "data-frequency": "133",
+      "data-relevance": "59",
+      "data-term": "overachieving",
+      "data-encoded-term": "overachieving",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "133",
+        "ol",
+        "1"
+      ]
+    },
+    "noseguard": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "noseguard",
+      "data-encoded-term": "noseguard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "returnee": {
+      "data-frequency": "351",
+      "data-relevance": "57",
+      "data-term": "returnee",
+      "data-encoded-term": "returnee",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "351",
+        "ol",
+        "1"
+      ]
+    },
+    "heptagonal": {
+      "data-frequency": "424",
+      "data-relevance": "56",
+      "data-term": "heptagonal",
+      "data-encoded-term": "heptagonal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "424",
+        "ol",
+        "1"
+      ]
+    },
+    "physicalness": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "physicalness",
+      "data-encoded-term": "physicalness",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fys": {
+      "data-frequency": "80",
+      "data-relevance": "54",
+      "data-term": "fys",
+      "data-encoded-term": "fys",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "mentee": {
+      "data-frequency": "185",
+      "data-relevance": "53",
+      "data-term": "mentee",
+      "data-encoded-term": "mentee",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "185",
+        "ol",
+        "1"
+      ]
+    },
+    "advisee": {
+      "data-frequency": "44",
+      "data-relevance": "52",
+      "data-term": "advisee",
+      "data-encoded-term": "advisee",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "partier": {
+      "data-frequency": "139",
+      "data-relevance": "51",
+      "data-term": "partier",
+      "data-encoded-term": "partier",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "139",
+        "ol",
+        "1"
+      ]
+    },
+    "gradate": {
+      "data-frequency": "55",
+      "data-relevance": "50",
+      "data-term": "gradate",
+      "data-encoded-term": "gradate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "55",
+        "ol",
+        "1"
+      ]
+    },
+    "studiousness": {
+      "data-frequency": "58",
+      "data-relevance": "49",
+      "data-term": "studiousness",
+      "data-encoded-term": "studiousness",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "58",
+        "ol",
+        "1"
+      ]
+    },
+    "benchwarmer": {
+      "data-frequency": "65",
+      "data-relevance": "48",
+      "data-term": "benchwarmer",
+      "data-encoded-term": "benchwarmer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "65",
+        "ol",
+        "1"
+      ]
+    },
+    "salutatorian": {
+      "data-frequency": "370",
+      "data-relevance": "47",
+      "data-term": "salutatorian",
+      "data-encoded-term": "salutatorian",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "370",
+        "ol",
+        "1"
+      ]
+    },
+    "allice": {
+      "data-frequency": "44",
+      "data-relevance": "46",
+      "data-term": "allice",
+      "data-encoded-term": "allice",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "sophism": {
+      "data-frequency": "132",
+      "data-relevance": "45",
+      "data-term": "sophism",
+      "data-encoded-term": "sophism",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "132",
+        "wiki",
+        "1"
+      ]
+    },
+    "goas": {
+      "data-frequency": "14467",
+      "data-relevance": "44",
+      "data-term": "goas",
+      "data-encoded-term": "goas",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "14467",
+        "ol",
+        "1"
+      ]
+    },
+    "university of st andrews": {
+      "data-frequency": "18778",
+      "data-relevance": "43",
+      "data-term": "university of st andrews",
+      "data-encoded-term": "university%20of%20st%20andrews",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "18778",
+        "wiki",
+        "1"
+      ]
+    },
+    "advanced highers": {
+      "data-frequency": "29951",
+      "data-relevance": "42",
+      "data-term": "advanced highers",
+      "data-encoded-term": "advanced%20highers",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "29951",
+        "wiki",
+        "1"
+      ]
+    },
+    "sixth form college": {
+      "data-frequency": "17278",
+      "data-relevance": "41",
+      "data-term": "sixth form college",
+      "data-encoded-term": "sixth%20form%20college",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "17278",
+        "wiki",
+        "1"
+      ]
+    },
+    "england and wales": {
+      "data-frequency": "22102",
+      "data-relevance": "40",
+      "data-term": "england and wales",
+      "data-encoded-term": "england%20and%20wales",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "22102",
+        "wiki",
+        "1"
+      ]
+    },
+    "provinces and territories of canada": {
+      "data-frequency": "158",
+      "data-relevance": "39",
+      "data-term": "provinces and territories of canada",
+      "data-encoded-term": "provinces%20and%20territories%20of%20canada",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "158",
+        "wiki",
+        "1"
+      ]
+    },
+    "northern ireland": {
+      "data-frequency": "47286",
+      "data-relevance": "38",
+      "data-term": "northern ireland",
+      "data-encoded-term": "northern%20ireland",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "47286",
+        "wiki",
+        "1"
+      ]
+    },
+    "state": {
+      "data-frequency": "1466005",
+      "data-relevance": "37",
+      "data-term": "state",
+      "data-encoded-term": "state",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1466005",
+        "wiki",
+        "1"
+      ]
+    },
+    "album": {
+      "data-frequency": "432231",
+      "data-relevance": "36",
+      "data-term": "album",
+      "data-encoded-term": "album",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "432231",
+        "wiki",
+        "1"
+      ]
+    },
+    "postgraduate": {
+      "data-frequency": "19278",
+      "data-relevance": "35",
+      "data-term": "postgraduate",
+      "data-encoded-term": "postgraduate",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "19278",
+        "wiki",
+        "1"
+      ]
+    },
+    "mascot": {
+      "data-frequency": "33441",
+      "data-relevance": "34",
+      "data-term": "mascot",
+      "data-encoded-term": "mascot",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "33441",
+        "wiki",
+        "1"
+      ]
+    },
+    "sportsperson": {
+      "data-frequency": "6401",
+      "data-relevance": "33",
+      "data-term": "sportsperson",
+      "data-encoded-term": "sportsperson",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6401",
+        "wiki",
+        "1"
+      ]
+    },
+    "politician": {
+      "data-frequency": "351233",
+      "data-relevance": "32",
+      "data-term": "politician",
+      "data-encoded-term": "politician",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "351233",
+        "wiki",
+        "1"
+      ]
+    },
+    "ontario academic credit": {
+      "data-frequency": "1181",
+      "data-relevance": "31",
+      "data-term": "ontario academic credit",
+      "data-encoded-term": "ontario%20academic%20credit",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1181",
+        "wiki",
+        "1"
+      ]
+    },
+    "education in ontario": {
+      "data-frequency": "15789",
+      "data-relevance": "30",
+      "data-term": "education in ontario",
+      "data-encoded-term": "education%20in%20ontario",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "15789",
+        "wiki",
+        "1"
+      ]
+    },
+    "college education in quebec": {
+      "data-frequency": "4439",
+      "data-relevance": "29",
+      "data-term": "college education in quebec",
+      "data-encoded-term": "college%20education%20in%20quebec",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "4439",
+        "wiki",
+        "1"
+      ]
+    },
+    "education in quebec": {
+      "data-frequency": "9492",
+      "data-relevance": "28",
+      "data-term": "education in quebec",
+      "data-encoded-term": "education%20in%20quebec",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "9492",
+        "wiki",
+        "1"
+      ]
+    },
+    "ivy leaguer": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "ivy leaguer",
+      "data-encoded-term": "ivy%20leaguer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "blue devil": {
+      "data-frequency": "501",
+      "data-relevance": "26",
+      "data-term": "blue devil",
+      "data-encoded-term": "blue%20devil",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "501",
+        "ol",
+        "1"
+      ]
+    },
+    "work ethic": {
+      "data-frequency": "2903",
+      "data-relevance": "25",
+      "data-term": "work ethic",
+      "data-encoded-term": "work%20ethic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2903",
+        "ol",
+        "1"
+      ]
+    },
+    "gym rat": {
+      "data-frequency": "47",
+      "data-relevance": "24",
+      "data-term": "gym rat",
+      "data-encoded-term": "gym%20rat",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "signal caller": {
+      "data-frequency": "1050",
+      "data-relevance": "23",
+      "data-term": "signal caller",
+      "data-encoded-term": "signal%20caller",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1050",
+        "ol",
+        "1"
+      ]
+    },
+    "junior varsity": {
+      "data-frequency": "1383",
+      "data-relevance": "22",
+      "data-term": "junior varsity",
+      "data-encoded-term": "junior%20varsity",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1383",
+        "ol",
+        "1"
+      ]
+    },
+    "residence hall": {
+      "data-frequency": "2083",
+      "data-relevance": "21",
+      "data-term": "residence hall",
+      "data-encoded-term": "residence%20hall",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2083",
+        "ol",
+        "1"
+      ]
+    },
+    "extracurricular activity": {
+      "data-frequency": "255",
+      "data-relevance": "20",
+      "data-term": "extracurricular activity",
+      "data-encoded-term": "extracurricular%20activity",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "255",
+        "ol",
+        "1"
+      ]
+    },
+    "phi beta kappa": {
+      "data-frequency": "3883",
+      "data-relevance": "19",
+      "data-term": "phi beta kappa",
+      "data-encoded-term": "phi%20beta%20kappa",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3883",
+        "ol",
+        "1"
+      ]
+    },
+    "dorm room": {
+      "data-frequency": "655",
+      "data-relevance": "18",
+      "data-term": "dorm room",
+      "data-encoded-term": "dorm%20room",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "655",
+        "ol",
+        "1"
+      ]
+    },
+    "wise fool": {
+      "data-frequency": "2158",
+      "data-relevance": "17",
+      "data-term": "wise fool",
+      "data-encoded-term": "wise%20fool",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "2158",
+        "wiki",
+        "1"
+      ]
+    },
+    "folk etymology": {
+      "data-frequency": "852",
+      "data-relevance": "16",
+      "data-term": "folk etymology",
+      "data-encoded-term": "folk%20etymology",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "852",
+        "wiki",
+        "1"
+      ]
+    },
+    "super senior": {
+      "data-frequency": "38121",
+      "data-relevance": "15",
+      "data-term": "super senior",
+      "data-encoded-term": "super%20senior",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "38121",
+        "wiki",
+        "1"
+      ]
+    },
+    "oxford english dictionary": {
+      "data-frequency": "5789",
+      "data-relevance": "14",
+      "data-term": "oxford english dictionary",
+      "data-encoded-term": "oxford%20english%20dictionary",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "5789",
+        "wiki",
+        "1"
+      ]
+    },
+    "doctor of philosophy": {
+      "data-frequency": "4797",
+      "data-relevance": "13",
+      "data-term": "doctor of philosophy",
+      "data-encoded-term": "doctor%20of%20philosophy",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "4797",
+        "wiki",
+        "1"
+      ]
+    },
+    "master’s degree": {
+      "data-frequency": "83579",
+      "data-relevance": "12",
+      "data-term": "master’s degree",
+      "data-encoded-term": "master%E2%80%99s%20degree",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "83579",
+        "wiki",
+        "1"
+      ]
+    },
+    "student rights in higher education": {
+      "data-frequency": "10466",
+      "data-relevance": "11",
+      "data-term": "student rights in higher education",
+      "data-encoded-term": "student%20rights%20in%20higher%20education",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "10466",
+        "wiki",
+        "1"
+      ]
+    },
+    "first professional degree": {
+      "data-frequency": "43123",
+      "data-relevance": "10",
+      "data-term": "first professional degree",
+      "data-encoded-term": "first%20professional%20degree",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "43123",
+        "wiki",
+        "1"
+      ]
+    },
+    "german occupation of czechoslovakia": {
+      "data-frequency": "4334",
+      "data-relevance": "9",
+      "data-term": "german occupation of czechoslovakia",
+      "data-encoded-term": "german%20occupation%20of%20czechoslovakia",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "4334",
+        "wiki",
+        "1"
+      ]
+    },
+    "course of study": {
+      "data-frequency": "1905",
+      "data-relevance": "8",
+      "data-term": "course of study",
+      "data-encoded-term": "course%20of%20study",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1905",
+        "wiki",
+        "1"
+      ]
+    },
+    "traffic cone": {
+      "data-frequency": "1276",
+      "data-relevance": "7",
+      "data-term": "traffic cone",
+      "data-encoded-term": "traffic%20cone",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1276",
+        "wiki",
+        "1"
+      ]
+    },
+    "middle ages": {
+      "data-frequency": "43315",
+      "data-relevance": "6",
+      "data-term": "middle ages",
+      "data-encoded-term": "middle%20ages",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "43315",
+        "wiki",
+        "1"
+      ]
+    },
+    "junior senator": {
+      "data-frequency": "8511",
+      "data-relevance": "5",
+      "data-term": "junior senator",
+      "data-encoded-term": "junior%20senator",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "8511",
+        "wiki",
+        "1"
+      ]
+    },
+    "professional sports team": {
+      "data-frequency": "87089",
+      "data-relevance": "4",
+      "data-term": "professional sports team",
+      "data-encoded-term": "professional%20sports%20team",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "87089",
+        "wiki",
+        "1"
+      ]
+    },
+    "international students' day": {
+      "data-frequency": "55407",
+      "data-relevance": "3",
+      "data-term": "international students' day",
+      "data-encoded-term": "international%20students'%20day",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "55407",
+        "wiki",
+        "1"
+      ]
+    },
+    "tertiary education": {
+      "data-frequency": "3629",
+      "data-relevance": "2",
+      "data-term": "tertiary education",
+      "data-encoded-term": "tertiary%20education",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3629",
+        "wiki",
+        "1"
+      ]
+    },
+    "literal and figurative language": {
+      "data-frequency": "417",
+      "data-relevance": "1",
+      "data-term": "literal and figurative language",
+      "data-encoded-term": "literal%20and%20figurative%20language",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "417",
+        "wiki",
+        "1"
+      ]
+    },
+    "charles university in prague": {
+      "data-frequency": "1249",
+      "data-relevance": "0",
+      "data-term": "charles university in prague",
+      "data-encoded-term": "charles%20university%20in%20prague",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1249",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "upperclassmen"
+    ],
+    "examples": [
+      {
+        "en": "Only upperclassmen can go off-campus for lunch.",
+        "ru": "Только старшекурсники имеют право обедать вне кампуса."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "upperclassmen"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "college",
+      "collegiate",
+      "underclassman",
+      "school",
+      "intramural",
+      "lowerclassman",
+      "university",
+      "alumna",
+      "campus",
+      "senior",
+      "collegian",
+      "classman",
+      "grad",
+      "upperclassmen",
+      "freshman",
+      "upperclassperson",
+      "varsity",
+      "student"
+    ]
+  }
+}
