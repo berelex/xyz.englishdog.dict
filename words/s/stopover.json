@@ -1,0 +1,5486 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "station": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/station/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/station",
+          "@type": "Node",
+          "label": "station",
+          "language": "en",
+          "term": "/c/en/station"
+        }
+      },
+      "journey": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/journey/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/journey",
+          "@type": "Node",
+          "label": "journey",
+          "language": "en",
+          "term": "/c/en/journey"
+        }
+      },
+      "interruption": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/interruption/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/interruption",
+          "@type": "Node",
+          "label": "interruption",
+          "language": "en",
+          "term": "/c/en/interruption"
+        }
+      },
+      "stop over": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stop_over/v/,/c/en/stopover/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stop_over/v",
+          "@type": "Node",
+          "label": "stop over",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/stop_over"
+        },
+        "end": {
+          "@id": "/c/en/stopover",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "term": "/c/en/stopover"
+        }
+      },
+      "visited": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/visited/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/visited",
+          "@type": "Node",
+          "label": "visited",
+          "language": "en",
+          "term": "/c/en/visited"
+        }
+      },
+      "layover": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/layover/n/,/c/en/stopover/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/layover/n",
+          "@type": "Node",
+          "label": "layover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/layover"
+        },
+        "end": {
+          "@id": "/c/en/stopover",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "term": "/c/en/stopover"
+        }
+      },
+      "rest area": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/rest_area/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/rest_area",
+          "@type": "Node",
+          "label": "rest area",
+          "language": "en",
+          "term": "/c/en/rest_area"
+        }
+      },
+      "airport": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/airport/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/airport",
+          "@type": "Node",
+          "label": "airport",
+          "language": "en",
+          "term": "/c/en/airport"
+        }
+      },
+      "whistle stop": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/whistle_stop/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/whistle_stop",
+          "@type": "Node",
+          "label": "whistle stop",
+          "language": "en",
+          "term": "/c/en/whistle_stop"
+        }
+      },
+      "leg": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/leg/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/leg",
+          "@type": "Node",
+          "label": "leg",
+          "language": "en",
+          "term": "/c/en/leg"
+        }
+      },
+      "weigh station": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopover/n/,/c/en/weigh_station/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/weigh_station",
+          "@type": "Node",
+          "label": "weigh station",
+          "language": "en",
+          "term": "/c/en/weigh_station"
+        }
+      },
+      "stayover": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stayover/n/,/c/en/stopover/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stayover/n",
+          "@type": "Node",
+          "label": "stayover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stayover"
+        },
+        "end": {
+          "@id": "/c/en/stopover",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "term": "/c/en/stopover"
+        }
+      },
+      "stopovers": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/stopovers/n/,/c/en/stopover/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopovers/n",
+          "@type": "Node",
+          "label": "stopovers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopovers"
+        },
+        "end": {
+          "@id": "/c/en/stopover",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "term": "/c/en/stopover"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "way station": {
+        "@id": "/a/[/r/Synonym/,/c/en/way_station/n/wn/location/,/c/en/stopover/n/wn/location/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/way_station/n/wn/location",
+          "@type": "Node",
+          "label": "way station",
+          "language": "en",
+          "sense_label": "n, location",
+          "term": "/c/en/way_station"
+        },
+        "end": {
+          "@id": "/c/en/stopover/n/wn/location",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n, location",
+          "term": "/c/en/stopover"
+        }
+      },
+      "stop": {
+        "@id": "/a/[/r/Synonym/,/c/en/stopover/n/wn/act/,/c/en/stop/n/wn/act/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/stopover/n/wn/act",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/stopover"
+        },
+        "end": {
+          "@id": "/c/en/stop/n/wn/act",
+          "@type": "Node",
+          "label": "stop",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/stop"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "stopovers": {
+        "@id": "/a/[/r/FormOf/,/c/en/stopovers/,/c/en/stopover/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stopovers",
+          "@type": "Node",
+          "label": "stopovers",
+          "language": "en",
+          "term": "/c/en/stopovers"
+        },
+        "end": {
+          "@id": "/c/en/stopover/n",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stopover"
+        }
+      },
+      "stop over": {
+        "@id": "/a/[/r/FormOf/,/c/en/stop_over/n/,/c/en/stopover/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/stop_over/n",
+          "@type": "Node",
+          "label": "stop over",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/stop_over"
+        },
+        "end": {
+          "@id": "/c/en/stopover",
+          "@type": "Node",
+          "label": "stopover",
+          "language": "en",
+          "term": "/c/en/stopover"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "layover": {
+      "data-frequency": "693",
+      "data-relevance": "362",
+      "data-term": "layover",
+      "data-encoded-term": "layover",
+      "data-term-stats": [
+        "1",
+        "6.4",
+        "0.000",
+        "693",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "port": {
+      "data-frequency": "223999",
+      "data-relevance": "361",
+      "data-term": "port",
+      "data-encoded-term": "port",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "223999",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "stop": {
+      "data-frequency": "224337",
+      "data-relevance": "360",
+      "data-term": "stop",
+      "data-encoded-term": "stop",
+      "data-term-stats": [
+        "1",
+        "22.7",
+        "0.000",
+        "224337",
+        "cn5,ol,wn,wn|reverse-net",
+        "1"
+      ]
+    },
+    "pit stop": {
+      "data-frequency": "1964",
+      "data-relevance": "359",
+      "data-term": "pit stop",
+      "data-encoded-term": "pit%20stop",
+      "data-term-stats": [
+        "1",
+        "5.7",
+        "0.000",
+        "1964",
+        "cn5,wn,wn",
+        "1"
+      ]
+    },
+    "stay": {
+      "data-frequency": "138060",
+      "data-relevance": "358",
+      "data-term": "stay",
+      "data-encoded-term": "stay",
+      "data-term-stats": [
+        "1",
+        "5.0",
+        "0.000",
+        "138060",
+        "cn5,ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "stops": {
+      "data-frequency": "56608",
+      "data-relevance": "357",
+      "data-term": "stops",
+      "data-encoded-term": "stops",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "56608",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "open": {
+      "data-frequency": "550083",
+      "data-relevance": "356",
+      "data-term": "open",
+      "data-encoded-term": "open",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "550083",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hub": {
+      "data-frequency": "48307",
+      "data-relevance": "355",
+      "data-term": "hub",
+      "data-encoded-term": "hub",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "48307",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "halt": {
+      "data-frequency": "33324",
+      "data-relevance": "354",
+      "data-term": "halt",
+      "data-encoded-term": "halt",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "33324",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "stoppage": {
+      "data-frequency": "5881",
+      "data-relevance": "353",
+      "data-term": "stoppage",
+      "data-encoded-term": "stoppage",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "5881",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "stand": {
+      "data-frequency": "161437",
+      "data-relevance": "352",
+      "data-term": "stand",
+      "data-encoded-term": "stand",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "161437",
+        "cn5,wn|reverse-net",
+        "1"
+      ]
+    },
+    "cessation": {
+      "data-frequency": "6461",
+      "data-relevance": "351",
+      "data-term": "cessation",
+      "data-encoded-term": "cessation",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "6461",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "cease": {
+      "data-frequency": "22313",
+      "data-relevance": "350",
+      "data-term": "cease",
+      "data-encoded-term": "cease",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "22313",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "transit": {
+      "data-frequency": "60247",
+      "data-relevance": "349",
+      "data-term": "transit",
+      "data-encoded-term": "transit",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "60247",
+        "ol",
+        "1"
+      ]
+    },
+    "visits": {
+      "data-frequency": "55326",
+      "data-relevance": "348",
+      "data-term": "visits",
+      "data-encoded-term": "visits",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "55326",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "visit": {
+      "data-frequency": "140736",
+      "data-relevance": "347",
+      "data-term": "visit",
+      "data-encoded-term": "visit",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "140736",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "itinerary": {
+      "data-frequency": "4675",
+      "data-relevance": "346",
+      "data-term": "itinerary",
+      "data-encoded-term": "itinerary",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "4675",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "cruise": {
+      "data-frequency": "34988",
+      "data-relevance": "345",
+      "data-term": "cruise",
+      "data-encoded-term": "cruise",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "34988",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "arrest": {
+      "data-frequency": "62114",
+      "data-relevance": "344",
+      "data-term": "arrest",
+      "data-encoded-term": "arrest",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "62114",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "sightseeing": {
+      "data-frequency": "4666",
+      "data-relevance": "343",
+      "data-term": "sightseeing",
+      "data-encoded-term": "sightseeing",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "4666",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "trip": {
+      "data-frequency": "97382",
+      "data-relevance": "342",
+      "data-term": "trip",
+      "data-encoded-term": "trip",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "97382",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "landing": {
+      "data-frequency": "84910",
+      "data-relevance": "341",
+      "data-term": "landing",
+      "data-encoded-term": "landing",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "84910",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "interruption": {
+      "data-frequency": "6133",
+      "data-relevance": "340",
+      "data-term": "interruption",
+      "data-encoded-term": "interruption",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "6133",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "sojourn": {
+      "data-frequency": "2590",
+      "data-relevance": "339",
+      "data-term": "sojourn",
+      "data-encoded-term": "sojourn",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2590",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "arrival": {
+      "data-frequency": "94565",
+      "data-relevance": "338",
+      "data-term": "arrival",
+      "data-encoded-term": "arrival",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "94565",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "destination": {
+      "data-frequency": "50123",
+      "data-relevance": "337",
+      "data-term": "destination",
+      "data-encoded-term": "destination",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "50123",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "detour": {
+      "data-frequency": "4286",
+      "data-relevance": "336",
+      "data-term": "detour",
+      "data-encoded-term": "detour",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "4286",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "jaunt": {
+      "data-frequency": "467",
+      "data-relevance": "335",
+      "data-term": "jaunt",
+      "data-encoded-term": "jaunt",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "467",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "excursion": {
+      "data-frequency": "7867",
+      "data-relevance": "334",
+      "data-term": "excursion",
+      "data-encoded-term": "excursion",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "7867",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "stop-over": {
+      "data-frequency": "654",
+      "data-relevance": "333",
+      "data-term": "stop-over",
+      "data-encoded-term": "stop-over",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "654",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "airport": {
+      "data-frequency": "152564",
+      "data-relevance": "332",
+      "data-term": "airport",
+      "data-encoded-term": "airport",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "152564",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "voyage": {
+      "data-frequency": "42098",
+      "data-relevance": "331",
+      "data-term": "voyage",
+      "data-encoded-term": "voyage",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "42098",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "pause": {
+      "data-frequency": "7546",
+      "data-relevance": "330",
+      "data-term": "pause",
+      "data-encoded-term": "pause",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "7546",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "suspension": {
+      "data-frequency": "39700",
+      "data-relevance": "329",
+      "data-term": "suspension",
+      "data-encoded-term": "suspension",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "39700",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "turnaround": {
+      "data-frequency": "6119",
+      "data-relevance": "328",
+      "data-term": "turnaround",
+      "data-encoded-term": "turnaround",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6119",
+        "ol",
+        "1"
+      ]
+    },
+    "rest": {
+      "data-frequency": "261011",
+      "data-relevance": "327",
+      "data-term": "rest",
+      "data-encoded-term": "rest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "261011",
+        "ol",
+        "1"
+      ]
+    },
+    "timing point": {
+      "data-frequency": "8474",
+      "data-relevance": "326",
+      "data-term": "timing point",
+      "data-encoded-term": "timing%20point",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "8474",
+        "wiki",
+        "1"
+      ]
+    },
+    "staging": {
+      "data-frequency": "17691",
+      "data-relevance": "325",
+      "data-term": "staging",
+      "data-encoded-term": "staging",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17691",
+        "ol",
+        "1"
+      ]
+    },
+    "refueling": {
+      "data-frequency": "4568",
+      "data-relevance": "324",
+      "data-term": "refueling",
+      "data-encoded-term": "refueling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4568",
+        "ol",
+        "1"
+      ]
+    },
+    "route": {
+      "data-frequency": "228695",
+      "data-relevance": "323",
+      "data-term": "route",
+      "data-encoded-term": "route",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "228695",
+        "ol",
+        "1"
+      ]
+    },
+    "layovers": {
+      "data-frequency": "77",
+      "data-relevance": "322",
+      "data-term": "layovers",
+      "data-encoded-term": "layovers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "77",
+        "w2v",
+        "1"
+      ]
+    },
+    "vacation": {
+      "data-frequency": "24635",
+      "data-relevance": "321",
+      "data-term": "vacation",
+      "data-encoded-term": "vacation",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "24635",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "flight": {
+      "data-frequency": "145431",
+      "data-relevance": "320",
+      "data-term": "flight",
+      "data-encoded-term": "flight",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "145431",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "honeymoon": {
+      "data-frequency": "9241",
+      "data-relevance": "319",
+      "data-term": "honeymoon",
+      "data-encoded-term": "honeymoon",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "9241",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "embarkation": {
+      "data-frequency": "1838",
+      "data-relevance": "318",
+      "data-term": "embarkation",
+      "data-encoded-term": "embarkation",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1838",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pilgrimage": {
+      "data-frequency": "22694",
+      "data-relevance": "317",
+      "data-term": "pilgrimage",
+      "data-encoded-term": "pilgrimage",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "22694",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "enroute": {
+      "data-frequency": "994",
+      "data-relevance": "316",
+      "data-term": "enroute",
+      "data-encoded-term": "enroute",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "994",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cruises": {
+      "data-frequency": "44718",
+      "data-relevance": "315",
+      "data-term": "cruises",
+      "data-encoded-term": "cruises",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "44718",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "fly": {
+      "data-frequency": "103734",
+      "data-relevance": "314",
+      "data-term": "fly",
+      "data-encoded-term": "fly",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "103734",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "travel": {
+      "data-frequency": "183471",
+      "data-relevance": "313",
+      "data-term": "travel",
+      "data-encoded-term": "travel",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "183471",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "tourist": {
+      "data-frequency": "91138",
+      "data-relevance": "312",
+      "data-term": "tourist",
+      "data-encoded-term": "tourist",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "91138",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "night-stop": {
+      "data-frequency": "60",
+      "data-relevance": "311",
+      "data-term": "night-stop",
+      "data-encoded-term": "night-stop",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "60",
+        "wn",
+        "1"
+      ]
+    },
+    "stond": {
+      "data-frequency": "51",
+      "data-relevance": "310",
+      "data-term": "stond",
+      "data-encoded-term": "stond",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "standstill": {
+      "data-frequency": "3052",
+      "data-relevance": "309",
+      "data-term": "standstill",
+      "data-encoded-term": "standstill",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3052",
+        "cn5",
+        "1"
+      ]
+    },
+    "discontinue": {
+      "data-frequency": "3890",
+      "data-relevance": "308",
+      "data-term": "discontinue",
+      "data-encoded-term": "discontinue",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3890",
+        "cn5",
+        "1"
+      ]
+    },
+    "arrester": {
+      "data-frequency": "187",
+      "data-relevance": "307",
+      "data-term": "arrester",
+      "data-encoded-term": "arrester",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "way station": {
+      "data-frequency": "820",
+      "data-relevance": "306",
+      "data-term": "way station",
+      "data-encoded-term": "way%20station",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "820",
+        "wn",
+        "1"
+      ]
+    },
+    "desist": {
+      "data-frequency": "2227",
+      "data-relevance": "305",
+      "data-term": "desist",
+      "data-encoded-term": "desist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2227",
+        "cn5",
+        "1"
+      ]
+    },
+    "tarry": {
+      "data-frequency": "587",
+      "data-relevance": "304",
+      "data-term": "tarry",
+      "data-encoded-term": "tarry",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "587",
+        "cn5",
+        "1"
+      ]
+    },
+    "plosive": {
+      "data-frequency": "2761",
+      "data-relevance": "303",
+      "data-term": "plosive",
+      "data-encoded-term": "plosive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2761",
+        "cn5",
+        "1"
+      ]
+    },
+    "blin": {
+      "data-frequency": "1384",
+      "data-relevance": "302",
+      "data-term": "blin",
+      "data-encoded-term": "blin",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1384",
+        "cn5",
+        "1"
+      ]
+    },
+    "delay": {
+      "data-frequency": "38355",
+      "data-relevance": "301",
+      "data-term": "delay",
+      "data-encoded-term": "delay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "38355",
+        "cn5",
+        "1"
+      ]
+    },
+    "unceasing": {
+      "data-frequency": "513",
+      "data-relevance": "300",
+      "data-term": "unceasing",
+      "data-encoded-term": "unceasing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "513",
+        "cn5",
+        "1"
+      ]
+    },
+    "postponement": {
+      "data-frequency": "2583",
+      "data-relevance": "299",
+      "data-term": "postponement",
+      "data-encoded-term": "postponement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2583",
+        "cn5",
+        "1"
+      ]
+    },
+    "stoppable": {
+      "data-frequency": "57",
+      "data-relevance": "298",
+      "data-term": "stoppable",
+      "data-encoded-term": "stoppable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "57",
+        "cn5",
+        "1"
+      ]
+    },
+    "unscheduled": {
+      "data-frequency": "1675",
+      "data-relevance": "297",
+      "data-term": "unscheduled",
+      "data-encoded-term": "unscheduled",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1675",
+        "w2v",
+        "1"
+      ]
+    },
+    "departs": {
+      "data-frequency": "36143",
+      "data-relevance": "296",
+      "data-term": "departs",
+      "data-encoded-term": "departs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "36143",
+        "w2v",
+        "1"
+      ]
+    },
+    "intermit": {
+      "data-frequency": "-1",
+      "data-relevance": "295",
+      "data-term": "intermit",
+      "data-encoded-term": "intermit",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonstop": {
+      "data-frequency": "4722",
+      "data-relevance": "294",
+      "data-term": "nonstop",
+      "data-encoded-term": "nonstop",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4722",
+        "cn5",
+        "1"
+      ]
+    },
+    "forestall": {
+      "data-frequency": "1352",
+      "data-relevance": "293",
+      "data-term": "forestall",
+      "data-encoded-term": "forestall",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1352",
+        "cn5",
+        "1"
+      ]
+    },
+    "stanch": {
+      "data-frequency": "106",
+      "data-relevance": "292",
+      "data-term": "stanch",
+      "data-encoded-term": "stanch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "106",
+        "cn5",
+        "1"
+      ]
+    },
+    "checkpoint": {
+      "data-frequency": "5830",
+      "data-relevance": "291",
+      "data-term": "checkpoint",
+      "data-encoded-term": "checkpoint",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5830",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "retardation": {
+      "data-frequency": "2232",
+      "data-relevance": "290",
+      "data-term": "retardation",
+      "data-encoded-term": "retardation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2232",
+        "cn5",
+        "1"
+      ]
+    },
+    "impede": {
+      "data-frequency": "3544",
+      "data-relevance": "289",
+      "data-term": "impede",
+      "data-encoded-term": "impede",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3544",
+        "cn5",
+        "1"
+      ]
+    },
+    "incessantly": {
+      "data-frequency": "1110",
+      "data-relevance": "288",
+      "data-term": "incessantly",
+      "data-encoded-term": "incessantly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1110",
+        "cn5",
+        "1"
+      ]
+    },
+    "temporarily": {
+      "data-frequency": "48757",
+      "data-relevance": "287",
+      "data-term": "temporarily",
+      "data-encoded-term": "temporarily",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48757",
+        "cn5",
+        "1"
+      ]
+    },
+    "flights": {
+      "data-frequency": "30710",
+      "data-relevance": "286",
+      "data-term": "flights",
+      "data-encoded-term": "flights",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "30710",
+        "w2v",
+        "1"
+      ]
+    },
+    "stayless": {
+      "data-frequency": "-1",
+      "data-relevance": "285",
+      "data-term": "stayless",
+      "data-encoded-term": "stayless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hindrance": {
+      "data-frequency": "2377",
+      "data-relevance": "284",
+      "data-term": "hindrance",
+      "data-encoded-term": "hindrance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2377",
+        "cn5",
+        "1"
+      ]
+    },
+    "occlusive": {
+      "data-frequency": "780",
+      "data-relevance": "283",
+      "data-term": "occlusive",
+      "data-encoded-term": "occlusive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "780",
+        "cn5",
+        "1"
+      ]
+    },
+    "postpone": {
+      "data-frequency": "3908",
+      "data-relevance": "282",
+      "data-term": "postpone",
+      "data-encoded-term": "postpone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3908",
+        "cn5",
+        "1"
+      ]
+    },
+    "depart": {
+      "data-frequency": "14167",
+      "data-relevance": "281",
+      "data-term": "depart",
+      "data-encoded-term": "depart",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14167",
+        "w2v",
+        "1"
+      ]
+    },
+    "impediment": {
+      "data-frequency": "2543",
+      "data-relevance": "280",
+      "data-term": "impediment",
+      "data-encoded-term": "impediment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2543",
+        "cn5",
+        "1"
+      ]
+    },
+    "arriving": {
+      "data-frequency": "50270",
+      "data-relevance": "279",
+      "data-term": "arriving",
+      "data-encoded-term": "arriving",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "50270",
+        "w2v",
+        "1"
+      ]
+    },
+    "obstacle": {
+      "data-frequency": "11011",
+      "data-relevance": "278",
+      "data-term": "obstacle",
+      "data-encoded-term": "obstacle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11011",
+        "cn5",
+        "1"
+      ]
+    },
+    "glottis": {
+      "data-frequency": "286",
+      "data-relevance": "277",
+      "data-term": "glottis",
+      "data-encoded-term": "glottis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "286",
+        "cn5",
+        "1"
+      ]
+    },
+    "departing": {
+      "data-frequency": "16203",
+      "data-relevance": "276",
+      "data-term": "departing",
+      "data-encoded-term": "departing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16203",
+        "w2v",
+        "1"
+      ]
+    },
+    "obstruct": {
+      "data-frequency": "2491",
+      "data-relevance": "275",
+      "data-term": "obstruct",
+      "data-encoded-term": "obstruct",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2491",
+        "cn5",
+        "1"
+      ]
+    },
+    "appearance": {
+      "data-frequency": "255727",
+      "data-relevance": "274",
+      "data-term": "appearance",
+      "data-encoded-term": "appearance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "255727",
+        "ol",
+        "1"
+      ]
+    },
+    "unannounced": {
+      "data-frequency": "2278",
+      "data-relevance": "273",
+      "data-term": "unannounced",
+      "data-encoded-term": "unannounced",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2278",
+        "w2v",
+        "1"
+      ]
+    },
+    "hinder": {
+      "data-frequency": "6242",
+      "data-relevance": "272",
+      "data-term": "hinder",
+      "data-encoded-term": "hinder",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6242",
+        "cn5",
+        "1"
+      ]
+    },
+    "destinations": {
+      "data-frequency": "24093",
+      "data-relevance": "271",
+      "data-term": "destinations",
+      "data-encoded-term": "destinations",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24093",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "obstruction": {
+      "data-frequency": "6409",
+      "data-relevance": "270",
+      "data-term": "obstruction",
+      "data-encoded-term": "obstruction",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6409",
+        "cn5",
+        "1"
+      ]
+    },
+    "retard": {
+      "data-frequency": "853",
+      "data-relevance": "269",
+      "data-term": "retard",
+      "data-encoded-term": "retard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "853",
+        "cn5",
+        "1"
+      ]
+    },
+    "thwart": {
+      "data-frequency": "4578",
+      "data-relevance": "268",
+      "data-term": "thwart",
+      "data-encoded-term": "thwart",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4578",
+        "cn5",
+        "1"
+      ]
+    },
+    "incessant": {
+      "data-frequency": "1888",
+      "data-relevance": "267",
+      "data-term": "incessant",
+      "data-encoded-term": "incessant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1888",
+        "cn5",
+        "1"
+      ]
+    },
+    "forstop": {
+      "data-frequency": "-1",
+      "data-relevance": "266",
+      "data-term": "forstop",
+      "data-encoded-term": "forstop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "haneda": {
+      "data-frequency": "1120",
+      "data-relevance": "265",
+      "data-term": "haneda",
+      "data-encoded-term": "haneda",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1120",
+        "w2v",
+        "1"
+      ]
+    },
+    "roosting": {
+      "data-frequency": "1170",
+      "data-relevance": "264",
+      "data-term": "roosting",
+      "data-encoded-term": "roosting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1170",
+        "ol",
+        "1"
+      ]
+    },
+    "midway": {
+      "data-frequency": "25686",
+      "data-relevance": "263",
+      "data-term": "midway",
+      "data-encoded-term": "midway",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25686",
+        "ol",
+        "1"
+      ]
+    },
+    "hiatus": {
+      "data-frequency": "21178",
+      "data-relevance": "262",
+      "data-term": "hiatus",
+      "data-encoded-term": "hiatus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21178",
+        "ol",
+        "1"
+      ]
+    },
+    "stop over": {
+      "data-frequency": "657",
+      "data-relevance": "261",
+      "data-term": "stop over",
+      "data-encoded-term": "stop%20over",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "657",
+        "cn5",
+        "1"
+      ]
+    },
+    "resting": {
+      "data-frequency": "26661",
+      "data-relevance": "260",
+      "data-term": "resting",
+      "data-encoded-term": "resting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26661",
+        "ol",
+        "1"
+      ]
+    },
+    "station": {
+      "data-frequency": "448922",
+      "data-relevance": "259",
+      "data-term": "station",
+      "data-encoded-term": "station",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "448922",
+        "ol",
+        "1"
+      ]
+    },
+    "trips": {
+      "data-frequency": "34171",
+      "data-relevance": "258",
+      "data-term": "trips",
+      "data-encoded-term": "trips",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34171",
+        "w2v",
+        "1"
+      ]
+    },
+    "excursions": {
+      "data-frequency": "5756",
+      "data-relevance": "257",
+      "data-term": "excursions",
+      "data-encoded-term": "excursions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5756",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "prevent": {
+      "data-frequency": "109835",
+      "data-relevance": "256",
+      "data-term": "prevent",
+      "data-encoded-term": "prevent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "109835",
+        "cn5",
+        "1"
+      ]
+    },
+    "inbound": {
+      "data-frequency": "3235",
+      "data-relevance": "255",
+      "data-term": "inbound",
+      "data-encoded-term": "inbound",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3235",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "crossing": {
+      "data-frequency": "89662",
+      "data-relevance": "254",
+      "data-term": "crossing",
+      "data-encoded-term": "crossing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89662",
+        "ol",
+        "1"
+      ]
+    },
+    "xiamen": {
+      "data-frequency": "3009",
+      "data-relevance": "253",
+      "data-term": "xiamen",
+      "data-encoded-term": "xiamen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3009",
+        "w2v",
+        "1"
+      ]
+    },
+    "inn": {
+      "data-frequency": "48097",
+      "data-relevance": "252",
+      "data-term": "inn",
+      "data-encoded-term": "inn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "48097",
+        "ol",
+        "1"
+      ]
+    },
+    "outbound": {
+      "data-frequency": "3144",
+      "data-relevance": "251",
+      "data-term": "outbound",
+      "data-encoded-term": "outbound",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3144",
+        "w2v",
+        "1"
+      ]
+    },
+    "sist": {
+      "data-frequency": "175",
+      "data-relevance": "250",
+      "data-term": "sist",
+      "data-encoded-term": "sist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "hesitation": {
+      "data-frequency": "4257",
+      "data-relevance": "249",
+      "data-term": "hesitation",
+      "data-encoded-term": "hesitation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4257",
+        "cn5",
+        "1"
+      ]
+    },
+    "stopping": {
+      "data-frequency": "28765",
+      "data-relevance": "248",
+      "data-term": "stopping",
+      "data-encoded-term": "stopping",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28765",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "lin": {
+      "data-frequency": "41465",
+      "data-relevance": "247",
+      "data-term": "lin",
+      "data-encoded-term": "lin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41465",
+        "cn5",
+        "1"
+      ]
+    },
+    "procrastination": {
+      "data-frequency": "651",
+      "data-relevance": "246",
+      "data-term": "procrastination",
+      "data-encoded-term": "procrastination",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "651",
+        "cn5",
+        "1"
+      ]
+    },
+    "preventive": {
+      "data-frequency": "6677",
+      "data-relevance": "245",
+      "data-term": "preventive",
+      "data-encoded-term": "preventive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6677",
+        "cn5",
+        "1"
+      ]
+    },
+    "mediterranean": {
+      "data-frequency": "70268",
+      "data-relevance": "244",
+      "data-term": "mediterranean",
+      "data-encoded-term": "mediterranean",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "70268",
+        "w2v",
+        "1"
+      ]
+    },
+    "sailings": {
+      "data-frequency": "643",
+      "data-relevance": "243",
+      "data-term": "sailings",
+      "data-encoded-term": "sailings",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "643",
+        "w2v",
+        "1"
+      ]
+    },
+    "stall": {
+      "data-frequency": "12764",
+      "data-relevance": "242",
+      "data-term": "stall",
+      "data-encoded-term": "stall",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12764",
+        "cn5",
+        "1"
+      ]
+    },
+    "itineraries": {
+      "data-frequency": "5182",
+      "data-relevance": "241",
+      "data-term": "itineraries",
+      "data-encoded-term": "itineraries",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5182",
+        "w2v",
+        "1"
+      ]
+    },
+    "canceled": {
+      "data-frequency": "21715",
+      "data-relevance": "240",
+      "data-term": "canceled",
+      "data-encoded-term": "canceled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21715",
+        "w2v",
+        "1"
+      ]
+    },
+    "heathrow": {
+      "data-frequency": "4409",
+      "data-relevance": "239",
+      "data-term": "heathrow",
+      "data-encoded-term": "heathrow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4409",
+        "w2v",
+        "1"
+      ]
+    },
+    "stopovers": {
+      "data-frequency": "432",
+      "data-relevance": "238",
+      "data-term": "stopovers",
+      "data-encoded-term": "stopovers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "432",
+        "w2v",
+        "1"
+      ]
+    },
+    "repose": {
+      "data-frequency": "2092",
+      "data-relevance": "237",
+      "data-term": "repose",
+      "data-encoded-term": "repose",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2092",
+        "ol",
+        "1"
+      ]
+    },
+    "call": {
+      "data-frequency": "241845",
+      "data-relevance": "236",
+      "data-term": "call",
+      "data-encoded-term": "call",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "241845",
+        "ol",
+        "1"
+      ]
+    },
+    "forslow": {
+      "data-frequency": "-1",
+      "data-relevance": "235",
+      "data-term": "forslow",
+      "data-encoded-term": "forslow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "incheon": {
+      "data-frequency": "6748",
+      "data-relevance": "234",
+      "data-term": "incheon",
+      "data-encoded-term": "incheon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6748",
+        "w2v",
+        "1"
+      ]
+    },
+    "atstand": {
+      "data-frequency": "-1",
+      "data-relevance": "233",
+      "data-term": "atstand",
+      "data-encoded-term": "atstand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "atstunt": {
+      "data-frequency": "-1",
+      "data-relevance": "232",
+      "data-term": "atstunt",
+      "data-encoded-term": "atstunt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "prevention": {
+      "data-frequency": "37153",
+      "data-relevance": "231",
+      "data-term": "prevention",
+      "data-encoded-term": "prevention",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37153",
+        "cn5",
+        "1"
+      ]
+    },
+    "vladivostok": {
+      "data-frequency": "3802",
+      "data-relevance": "230",
+      "data-term": "vladivostok",
+      "data-encoded-term": "vladivostok",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3802",
+        "w2v",
+        "1"
+      ]
+    },
+    "overslaugh": {
+      "data-frequency": "-1",
+      "data-relevance": "229",
+      "data-term": "overslaugh",
+      "data-encoded-term": "overslaugh",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "larnaca": {
+      "data-frequency": "2570",
+      "data-relevance": "228",
+      "data-term": "larnaca",
+      "data-encoded-term": "larnaca",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2570",
+        "w2v",
+        "1"
+      ]
+    },
+    "resumption": {
+      "data-frequency": "4462",
+      "data-relevance": "227",
+      "data-term": "resumption",
+      "data-encoded-term": "resumption",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4462",
+        "w2v",
+        "1"
+      ]
+    },
+    "yokosuka": {
+      "data-frequency": "2817",
+      "data-relevance": "226",
+      "data-term": "yokosuka",
+      "data-encoded-term": "yokosuka",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2817",
+        "w2v",
+        "1"
+      ]
+    },
+    "canceling": {
+      "data-frequency": "1683",
+      "data-relevance": "225",
+      "data-term": "canceling",
+      "data-encoded-term": "canceling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1683",
+        "w2v",
+        "1"
+      ]
+    },
+    "cancelling": {
+      "data-frequency": "2824",
+      "data-relevance": "224",
+      "data-term": "cancelling",
+      "data-encoded-term": "cancelling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2824",
+        "w2v",
+        "1"
+      ]
+    },
+    "deter": {
+      "data-frequency": "7337",
+      "data-relevance": "223",
+      "data-term": "deter",
+      "data-encoded-term": "deter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7337",
+        "cn5",
+        "1"
+      ]
+    },
+    "ground": {
+      "data-frequency": "312310",
+      "data-relevance": "222",
+      "data-term": "ground",
+      "data-encoded-term": "ground",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "312310",
+        "ol",
+        "1"
+      ]
+    },
+    "judgement": {
+      "data-frequency": "21286",
+      "data-relevance": "221",
+      "data-term": "judgement",
+      "data-encoded-term": "judgement",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21286",
+        "ol",
+        "1"
+      ]
+    },
+    "hesitate": {
+      "data-frequency": "3198",
+      "data-relevance": "220",
+      "data-term": "hesitate",
+      "data-encoded-term": "hesitate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3198",
+        "cn5",
+        "1"
+      ]
+    },
+    "touquet": {
+      "data-frequency": "1373",
+      "data-relevance": "219",
+      "data-term": "touquet",
+      "data-encoded-term": "touquet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1373",
+        "w2v",
+        "1"
+      ]
+    },
+    "busiest": {
+      "data-frequency": "12226",
+      "data-relevance": "218",
+      "data-term": "busiest",
+      "data-encoded-term": "busiest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12226",
+        "w2v",
+        "1"
+      ]
+    },
+    "jaunts": {
+      "data-frequency": "140",
+      "data-relevance": "217",
+      "data-term": "jaunts",
+      "data-encoded-term": "jaunts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "140",
+        "w2v",
+        "1"
+      ]
+    },
+    "circuitous": {
+      "data-frequency": "1025",
+      "data-relevance": "216",
+      "data-term": "circuitous",
+      "data-encoded-term": "circuitous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1025",
+        "w2v",
+        "1"
+      ]
+    },
+    "traveling": {
+      "data-frequency": "47986",
+      "data-relevance": "215",
+      "data-term": "traveling",
+      "data-encoded-term": "traveling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47986",
+        "w2v",
+        "1"
+      ]
+    },
+    "unstayed": {
+      "data-frequency": "44",
+      "data-relevance": "214",
+      "data-term": "unstayed",
+      "data-encoded-term": "unstayed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "scale": {
+      "data-frequency": "148963",
+      "data-relevance": "213",
+      "data-term": "scale",
+      "data-encoded-term": "scale",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "148963",
+        "ol",
+        "1"
+      ]
+    },
+    "hemostasis": {
+      "data-frequency": "340",
+      "data-relevance": "212",
+      "data-term": "hemostasis",
+      "data-encoded-term": "hemostasis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "340",
+        "cn5",
+        "1"
+      ]
+    },
+    "trek": {
+      "data-frequency": "21507",
+      "data-relevance": "211",
+      "data-term": "trek",
+      "data-encoded-term": "trek",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21507",
+        "ol",
+        "1"
+      ]
+    },
+    "judgment": {
+      "data-frequency": "33109",
+      "data-relevance": "210",
+      "data-term": "judgment",
+      "data-encoded-term": "judgment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33109",
+        "ol",
+        "1"
+      ]
+    },
+    "journey": {
+      "data-frequency": "111616",
+      "data-relevance": "209",
+      "data-term": "journey",
+      "data-encoded-term": "journey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "111616",
+        "ol",
+        "1"
+      ]
+    },
+    "debarkation": {
+      "data-frequency": "134",
+      "data-relevance": "208",
+      "data-term": "debarkation",
+      "data-encoded-term": "debarkation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "134",
+        "ol",
+        "1"
+      ]
+    },
+    "disembarkation": {
+      "data-frequency": "526",
+      "data-relevance": "207",
+      "data-term": "disembarkation",
+      "data-encoded-term": "disembarkation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "526",
+        "ol",
+        "1"
+      ]
+    },
+    "rendezvous": {
+      "data-frequency": "9656",
+      "data-relevance": "206",
+      "data-term": "rendezvous",
+      "data-encoded-term": "rendezvous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9656",
+        "ol",
+        "1"
+      ]
+    },
+    "getaway": {
+      "data-frequency": "5302",
+      "data-relevance": "205",
+      "data-term": "getaway",
+      "data-encoded-term": "getaway",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5302",
+        "ol",
+        "1"
+      ]
+    },
+    "tour": {
+      "data-frequency": "256981",
+      "data-relevance": "204",
+      "data-term": "tour",
+      "data-encoded-term": "tour",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "256981",
+        "ol",
+        "1"
+      ]
+    },
+    "junket": {
+      "data-frequency": "350",
+      "data-relevance": "203",
+      "data-term": "junket",
+      "data-encoded-term": "junket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "350",
+        "ol",
+        "1"
+      ]
+    },
+    "walkabout": {
+      "data-frequency": "983",
+      "data-relevance": "202",
+      "data-term": "walkabout",
+      "data-encoded-term": "walkabout",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "983",
+        "ol",
+        "1"
+      ]
+    },
+    "homeport": {
+      "data-frequency": "4487",
+      "data-relevance": "201",
+      "data-term": "homeport",
+      "data-encoded-term": "homeport",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4487",
+        "ol",
+        "1"
+      ]
+    },
+    "overland": {
+      "data-frequency": "11589",
+      "data-relevance": "200",
+      "data-term": "overland",
+      "data-encoded-term": "overland",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11589",
+        "ol",
+        "1"
+      ]
+    },
+    "entourage": {
+      "data-frequency": "6190",
+      "data-relevance": "199",
+      "data-term": "entourage",
+      "data-encoded-term": "entourage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6190",
+        "ol",
+        "1"
+      ]
+    },
+    "sortie": {
+      "data-frequency": "3381",
+      "data-relevance": "198",
+      "data-term": "sortie",
+      "data-encoded-term": "sortie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3381",
+        "ol",
+        "1"
+      ]
+    },
+    "ferry": {
+      "data-frequency": "56830",
+      "data-relevance": "197",
+      "data-term": "ferry",
+      "data-encoded-term": "ferry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56830",
+        "ol",
+        "1"
+      ]
+    },
+    "motorcade": {
+      "data-frequency": "1124",
+      "data-relevance": "196",
+      "data-term": "motorcade",
+      "data-encoded-term": "motorcade",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1124",
+        "ol",
+        "1"
+      ]
+    },
+    "consul": {
+      "data-frequency": "22411",
+      "data-relevance": "195",
+      "data-term": "consul",
+      "data-encoded-term": "consul",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22411",
+        "ol",
+        "1"
+      ]
+    },
+    "airstrip": {
+      "data-frequency": "4549",
+      "data-relevance": "194",
+      "data-term": "airstrip",
+      "data-encoded-term": "airstrip",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4549",
+        "ol",
+        "1"
+      ]
+    },
+    "plane": {
+      "data-frequency": "71330",
+      "data-relevance": "193",
+      "data-term": "plane",
+      "data-encoded-term": "plane",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71330",
+        "ol",
+        "1"
+      ]
+    },
+    "wintering": {
+      "data-frequency": "2760",
+      "data-relevance": "192",
+      "data-term": "wintering",
+      "data-encoded-term": "wintering",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2760",
+        "ol",
+        "1"
+      ]
+    },
+    "traveler": {
+      "data-frequency": "10679",
+      "data-relevance": "191",
+      "data-term": "traveler",
+      "data-encoded-term": "traveler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10679",
+        "ol",
+        "1"
+      ]
+    },
+    "commute": {
+      "data-frequency": "6140",
+      "data-relevance": "190",
+      "data-term": "commute",
+      "data-encoded-term": "commute",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6140",
+        "ol",
+        "1"
+      ]
+    },
+    "odyssey": {
+      "data-frequency": "19125",
+      "data-relevance": "189",
+      "data-term": "odyssey",
+      "data-encoded-term": "odyssey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19125",
+        "ol",
+        "1"
+      ]
+    },
+    "stint": {
+      "data-frequency": "28404",
+      "data-relevance": "188",
+      "data-term": "stint",
+      "data-encoded-term": "stint",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28404",
+        "ol",
+        "1"
+      ]
+    },
+    "hitchhiking": {
+      "data-frequency": "968",
+      "data-relevance": "187",
+      "data-term": "hitchhiking",
+      "data-encoded-term": "hitchhiking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "968",
+        "ol",
+        "1"
+      ]
+    },
+    "airbase": {
+      "data-frequency": "4650",
+      "data-relevance": "186",
+      "data-term": "airbase",
+      "data-encoded-term": "airbase",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4650",
+        "ol",
+        "1"
+      ]
+    },
+    "keelung": {
+      "data-frequency": "941",
+      "data-relevance": "185",
+      "data-term": "keelung",
+      "data-encoded-term": "keelung",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "941",
+        "w2v",
+        "1"
+      ]
+    },
+    "felucca": {
+      "data-frequency": "396",
+      "data-relevance": "184",
+      "data-term": "felucca",
+      "data-encoded-term": "felucca",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "396",
+        "ol",
+        "1"
+      ]
+    },
+    "hainan": {
+      "data-frequency": "6309",
+      "data-relevance": "183",
+      "data-term": "hainan",
+      "data-encoded-term": "hainan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6309",
+        "w2v",
+        "1"
+      ]
+    },
+    "cancelled": {
+      "data-frequency": "68145",
+      "data-relevance": "182",
+      "data-term": "cancelled",
+      "data-encoded-term": "cancelled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68145",
+        "w2v",
+        "1"
+      ]
+    },
+    "departures": {
+      "data-frequency": "11304",
+      "data-relevance": "181",
+      "data-term": "departures",
+      "data-encoded-term": "departures",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11304",
+        "w2v",
+        "1"
+      ]
+    },
+    "narita": {
+      "data-frequency": "2421",
+      "data-relevance": "180",
+      "data-term": "narita",
+      "data-encoded-term": "narita",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2421",
+        "w2v",
+        "1"
+      ]
+    },
+    "havana": {
+      "data-frequency": "17660",
+      "data-relevance": "179",
+      "data-term": "havana",
+      "data-encoded-term": "havana",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17660",
+        "w2v",
+        "1"
+      ]
+    },
+    "cancels": {
+      "data-frequency": "6054",
+      "data-relevance": "178",
+      "data-term": "cancels",
+      "data-encoded-term": "cancels",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6054",
+        "w2v",
+        "1"
+      ]
+    },
+    "reception": {
+      "data-frequency": "230530",
+      "data-relevance": "177",
+      "data-term": "reception",
+      "data-encoded-term": "reception",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "230530",
+        "w2v",
+        "1"
+      ]
+    },
+    "eilat": {
+      "data-frequency": "1983",
+      "data-relevance": "176",
+      "data-term": "eilat",
+      "data-encoded-term": "eilat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1983",
+        "w2v",
+        "1"
+      ]
+    },
+    "obturator": {
+      "data-frequency": "629",
+      "data-relevance": "175",
+      "data-term": "obturator",
+      "data-encoded-term": "obturator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "629",
+        "cn5",
+        "1"
+      ]
+    },
+    "forestay": {
+      "data-frequency": "101",
+      "data-relevance": "174",
+      "data-term": "forestay",
+      "data-encoded-term": "forestay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "101",
+        "cn5",
+        "1"
+      ]
+    },
+    "phuket": {
+      "data-frequency": "2121",
+      "data-relevance": "173",
+      "data-term": "phuket",
+      "data-encoded-term": "phuket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2121",
+        "w2v",
+        "1"
+      ]
+    },
+    "charette": {
+      "data-frequency": "2690",
+      "data-relevance": "172",
+      "data-term": "charette",
+      "data-encoded-term": "charette",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2690",
+        "w2v",
+        "1"
+      ]
+    },
+    "sanya": {
+      "data-frequency": "2852",
+      "data-relevance": "171",
+      "data-term": "sanya",
+      "data-encoded-term": "sanya",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2852",
+        "w2v",
+        "1"
+      ]
+    },
+    "mombasa": {
+      "data-frequency": "2736",
+      "data-relevance": "170",
+      "data-term": "mombasa",
+      "data-encoded-term": "mombasa",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2736",
+        "w2v",
+        "1"
+      ]
+    },
+    "reopening": {
+      "data-frequency": "7200",
+      "data-relevance": "169",
+      "data-term": "reopening",
+      "data-encoded-term": "reopening",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7200",
+        "w2v",
+        "1"
+      ]
+    },
+    "blockage": {
+      "data-frequency": "1903",
+      "data-relevance": "168",
+      "data-term": "blockage",
+      "data-encoded-term": "blockage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1903",
+        "cn5",
+        "1"
+      ]
+    },
+    "docked": {
+      "data-frequency": "6318",
+      "data-relevance": "167",
+      "data-term": "docked",
+      "data-encoded-term": "docked",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6318",
+        "w2v",
+        "1"
+      ]
+    },
+    "tours": {
+      "data-frequency": "68875",
+      "data-relevance": "166",
+      "data-term": "tours",
+      "data-encoded-term": "tours",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "68875",
+        "w2v",
+        "1"
+      ]
+    },
+    "arrivals": {
+      "data-frequency": "8904",
+      "data-relevance": "165",
+      "data-term": "arrivals",
+      "data-encoded-term": "arrivals",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8904",
+        "w2v",
+        "1"
+      ]
+    },
+    "orly": {
+      "data-frequency": "2328",
+      "data-relevance": "164",
+      "data-term": "orly",
+      "data-encoded-term": "orly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2328",
+        "w2v",
+        "1"
+      ]
+    },
+    "gatwick": {
+      "data-frequency": "2632",
+      "data-relevance": "163",
+      "data-term": "gatwick",
+      "data-encoded-term": "gatwick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2632",
+        "w2v",
+        "1"
+      ]
+    },
+    "departed": {
+      "data-frequency": "37299",
+      "data-relevance": "162",
+      "data-term": "departed",
+      "data-encoded-term": "departed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37299",
+        "w2v",
+        "1"
+      ]
+    },
+    "leisurely": {
+      "data-frequency": "1433",
+      "data-relevance": "161",
+      "data-term": "leisurely",
+      "data-encoded-term": "leisurely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1433",
+        "w2v",
+        "1"
+      ]
+    },
+    "defer": {
+      "data-frequency": "2157",
+      "data-relevance": "160",
+      "data-term": "defer",
+      "data-encoded-term": "defer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2157",
+        "cn5",
+        "1"
+      ]
+    },
+    "scheduled": {
+      "data-frequency": "101779",
+      "data-relevance": "159",
+      "data-term": "scheduled",
+      "data-encoded-term": "scheduled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "101779",
+        "w2v",
+        "1"
+      ]
+    },
+    "lameness": {
+      "data-frequency": "441",
+      "data-relevance": "158",
+      "data-term": "lameness",
+      "data-encoded-term": "lameness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "441",
+        "cn5",
+        "1"
+      ]
+    },
+    "linger": {
+      "data-frequency": "2843",
+      "data-relevance": "157",
+      "data-term": "linger",
+      "data-encoded-term": "linger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2843",
+        "cn5",
+        "1"
+      ]
+    },
+    "barricade": {
+      "data-frequency": "2769",
+      "data-relevance": "156",
+      "data-term": "barricade",
+      "data-encoded-term": "barricade",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2769",
+        "cn5",
+        "1"
+      ]
+    },
+    "public transit": {
+      "data-frequency": "3499",
+      "data-relevance": "155",
+      "data-term": "public transit",
+      "data-encoded-term": "public%20transit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3499",
+        "wiki",
+        "1"
+      ]
+    },
+    "stonewall": {
+      "data-frequency": "6259",
+      "data-relevance": "154",
+      "data-term": "stonewall",
+      "data-encoded-term": "stonewall",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6259",
+        "cn5",
+        "1"
+      ]
+    },
+    "bestay": {
+      "data-frequency": "210",
+      "data-relevance": "153",
+      "data-term": "bestay",
+      "data-encoded-term": "bestay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "210",
+        "cn5",
+        "1"
+      ]
+    },
+    "obstructionist": {
+      "data-frequency": "153",
+      "data-relevance": "152",
+      "data-term": "obstructionist",
+      "data-encoded-term": "obstructionist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "153",
+        "cn5",
+        "1"
+      ]
+    },
+    "inhibition": {
+      "data-frequency": "8999",
+      "data-relevance": "151",
+      "data-term": "inhibition",
+      "data-encoded-term": "inhibition",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8999",
+        "cn5",
+        "1"
+      ]
+    },
+    "impedimental": {
+      "data-frequency": "-1",
+      "data-relevance": "150",
+      "data-term": "impedimental",
+      "data-encoded-term": "impedimental",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cliffhanger": {
+      "data-frequency": "2575",
+      "data-relevance": "149",
+      "data-term": "cliffhanger",
+      "data-encoded-term": "cliffhanger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2575",
+        "cn5",
+        "1"
+      ]
+    },
+    "adjourn": {
+      "data-frequency": "499",
+      "data-relevance": "148",
+      "data-term": "adjourn",
+      "data-encoded-term": "adjourn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "499",
+        "cn5",
+        "1"
+      ]
+    },
+    "check": {
+      "data-frequency": "88596",
+      "data-relevance": "147",
+      "data-term": "check",
+      "data-encoded-term": "check",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "88596",
+        "cn5",
+        "1"
+      ]
+    },
+    "suspend": {
+      "data-frequency": "7958",
+      "data-relevance": "146",
+      "data-term": "suspend",
+      "data-encoded-term": "suspend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7958",
+        "cn5",
+        "1"
+      ]
+    },
+    "blockade": {
+      "data-frequency": "15659",
+      "data-relevance": "145",
+      "data-term": "blockade",
+      "data-encoded-term": "blockade",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15659",
+        "cn5",
+        "1"
+      ]
+    },
+    "block": {
+      "data-frequency": "159472",
+      "data-relevance": "144",
+      "data-term": "block",
+      "data-encoded-term": "block",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "159472",
+        "cn5",
+        "1"
+      ]
+    },
+    "instop": {
+      "data-frequency": "-1",
+      "data-relevance": "143",
+      "data-term": "instop",
+      "data-encoded-term": "instop",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "11-night": {
+      "data-frequency": "189405",
+      "data-relevance": "142",
+      "data-term": "11-night",
+      "data-encoded-term": "11-night",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "189405",
+        "w2v",
+        "1"
+      ]
+    },
+    "lie over": {
+      "data-frequency": "123",
+      "data-relevance": "141",
+      "data-term": "lie over",
+      "data-encoded-term": "lie%20over",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "123",
+        "cn5",
+        "1"
+      ]
+    },
+    "frustrate": {
+      "data-frequency": "1449",
+      "data-relevance": "140",
+      "data-term": "frustrate",
+      "data-encoded-term": "frustrate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1449",
+        "cn5",
+        "1"
+      ]
+    },
+    "12-day": {
+      "data-frequency": "838",
+      "data-relevance": "139",
+      "data-term": "12-day",
+      "data-encoded-term": "12-day",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "838",
+        "w2v",
+        "1"
+      ]
+    },
+    "brake": {
+      "data-frequency": "14022",
+      "data-relevance": "138",
+      "data-term": "brake",
+      "data-encoded-term": "brake",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14022",
+        "cn5",
+        "1"
+      ]
+    },
+    "wait": {
+      "data-frequency": "50849",
+      "data-relevance": "137",
+      "data-term": "wait",
+      "data-encoded-term": "wait",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "50849",
+        "cn5",
+        "1"
+      ]
+    },
+    "clog": {
+      "data-frequency": "1065",
+      "data-relevance": "136",
+      "data-term": "clog",
+      "data-encoded-term": "clog",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1065",
+        "cn5",
+        "1"
+      ]
+    },
+    "10-day": {
+      "data-frequency": "2926",
+      "data-relevance": "135",
+      "data-term": "10-day",
+      "data-encoded-term": "10-day",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2926",
+        "w2v",
+        "1"
+      ]
+    },
+    "stayer": {
+      "data-frequency": "429",
+      "data-relevance": "134",
+      "data-term": "stayer",
+      "data-encoded-term": "stayer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "429",
+        "cn5",
+        "1"
+      ]
+    },
+    "roadblock": {
+      "data-frequency": "2181",
+      "data-relevance": "133",
+      "data-term": "roadblock",
+      "data-encoded-term": "roadblock",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2181",
+        "cn5",
+        "1"
+      ]
+    },
+    "detain": {
+      "data-frequency": "3301",
+      "data-relevance": "132",
+      "data-term": "detain",
+      "data-encoded-term": "detain",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3301",
+        "cn5",
+        "1"
+      ]
+    },
+    "astand": {
+      "data-frequency": "113",
+      "data-relevance": "131",
+      "data-term": "astand",
+      "data-encoded-term": "astand",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "113",
+        "cn5",
+        "1"
+      ]
+    },
+    "rein": {
+      "data-frequency": "5541",
+      "data-relevance": "130",
+      "data-term": "rein",
+      "data-encoded-term": "rein",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5541",
+        "cn5",
+        "1"
+      ]
+    },
+    "11-day": {
+      "data-frequency": "692",
+      "data-relevance": "129",
+      "data-term": "11-day",
+      "data-encoded-term": "11-day",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "692",
+        "w2v",
+        "1"
+      ]
+    },
+    "barrier": {
+      "data-frequency": "35344",
+      "data-relevance": "128",
+      "data-term": "barrier",
+      "data-encoded-term": "barrier",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "35344",
+        "cn5",
+        "1"
+      ]
+    },
+    "forbearance": {
+      "data-frequency": "1177",
+      "data-relevance": "127",
+      "data-term": "forbearance",
+      "data-encoded-term": "forbearance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1177",
+        "cn5",
+        "1"
+      ]
+    },
+    "remain": {
+      "data-frequency": "248247",
+      "data-relevance": "126",
+      "data-term": "remain",
+      "data-encoded-term": "remain",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "248247",
+        "cn5",
+        "1"
+      ]
+    },
+    "jeddah": {
+      "data-frequency": "3813",
+      "data-relevance": "125",
+      "data-term": "jeddah",
+      "data-encoded-term": "jeddah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3813",
+        "w2v",
+        "1"
+      ]
+    },
+    "limp": {
+      "data-frequency": "3772",
+      "data-relevance": "124",
+      "data-term": "limp",
+      "data-encoded-term": "limp",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3772",
+        "cn5",
+        "1"
+      ]
+    },
+    "load zone": {
+      "data-frequency": "-1",
+      "data-relevance": "123",
+      "data-term": "load zone",
+      "data-encoded-term": "load%20zone",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lampedusa": {
+      "data-frequency": "541",
+      "data-relevance": "122",
+      "data-term": "lampedusa",
+      "data-encoded-term": "lampedusa",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "541",
+        "w2v",
+        "1"
+      ]
+    },
+    "plug": {
+      "data-frequency": "14790",
+      "data-relevance": "121",
+      "data-term": "plug",
+      "data-encoded-term": "plug",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14790",
+        "cn5",
+        "1"
+      ]
+    },
+    "jiddah": {
+      "data-frequency": "61",
+      "data-relevance": "120",
+      "data-term": "jiddah",
+      "data-encoded-term": "jiddah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "61",
+        "w2v",
+        "1"
+      ]
+    },
+    "dilatory": {
+      "data-frequency": "177",
+      "data-relevance": "119",
+      "data-term": "dilatory",
+      "data-encoded-term": "dilatory",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "45-minute": {
+      "data-frequency": "1728",
+      "data-relevance": "118",
+      "data-term": "45-minute",
+      "data-encoded-term": "45-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1728",
+        "w2v",
+        "1"
+      ]
+    },
+    "rein up": {
+      "data-frequency": "-1",
+      "data-relevance": "117",
+      "data-term": "rein up",
+      "data-encoded-term": "rein%20up",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "haikou": {
+      "data-frequency": "1480",
+      "data-relevance": "116",
+      "data-term": "haikou",
+      "data-encoded-term": "haikou",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1480",
+        "w2v",
+        "1"
+      ]
+    },
+    "unhindered": {
+      "data-frequency": "1026",
+      "data-relevance": "115",
+      "data-term": "unhindered",
+      "data-encoded-term": "unhindered",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1026",
+        "cn5",
+        "1"
+      ]
+    },
+    "weeklong": {
+      "data-frequency": "623",
+      "data-relevance": "114",
+      "data-term": "weeklong",
+      "data-encoded-term": "weeklong",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "623",
+        "w2v",
+        "1"
+      ]
+    },
+    "setback": {
+      "data-frequency": "7377",
+      "data-relevance": "113",
+      "data-term": "setback",
+      "data-encoded-term": "setback",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7377",
+        "cn5",
+        "1"
+      ]
+    },
+    "interrupt": {
+      "data-frequency": "4557",
+      "data-relevance": "112",
+      "data-term": "interrupt",
+      "data-encoded-term": "interrupt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4557",
+        "cn5",
+        "1"
+      ]
+    },
+    "mainstay": {
+      "data-frequency": "6072",
+      "data-relevance": "111",
+      "data-term": "mainstay",
+      "data-encoded-term": "mainstay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6072",
+        "cn5",
+        "1"
+      ]
+    },
+    "interfere": {
+      "data-frequency": "12598",
+      "data-relevance": "110",
+      "data-term": "interfere",
+      "data-encoded-term": "interfere",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12598",
+        "cn5",
+        "1"
+      ]
+    },
+    "stan": {
+      "data-frequency": "45788",
+      "data-relevance": "109",
+      "data-term": "stan",
+      "data-encoded-term": "stan",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45788",
+        "cn5",
+        "1"
+      ]
+    },
+    "embargo": {
+      "data-frequency": "4673",
+      "data-relevance": "108",
+      "data-term": "embargo",
+      "data-encoded-term": "embargo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4673",
+        "cn5",
+        "1"
+      ]
+    },
+    "20-minute": {
+      "data-frequency": "2636",
+      "data-relevance": "107",
+      "data-term": "20-minute",
+      "data-encoded-term": "20-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2636",
+        "w2v",
+        "1"
+      ]
+    },
+    "letup": {
+      "data-frequency": "53",
+      "data-relevance": "106",
+      "data-term": "letup",
+      "data-encoded-term": "letup",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "stopper": {
+      "data-frequency": "2692",
+      "data-relevance": "105",
+      "data-term": "stopper",
+      "data-encoded-term": "stopper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2692",
+        "cn5",
+        "1"
+      ]
+    },
+    "staysail": {
+      "data-frequency": "150",
+      "data-relevance": "104",
+      "data-term": "staysail",
+      "data-encoded-term": "staysail",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "150",
+        "cn5",
+        "1"
+      ]
+    },
+    "comma": {
+      "data-frequency": "2645",
+      "data-relevance": "103",
+      "data-term": "comma",
+      "data-encoded-term": "comma",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2645",
+        "cn5",
+        "1"
+      ]
+    },
+    "stuffy": {
+      "data-frequency": "831",
+      "data-relevance": "102",
+      "data-term": "stuffy",
+      "data-encoded-term": "stuffy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "831",
+        "cn5",
+        "1"
+      ]
+    },
+    "luch-energiya": {
+      "data-frequency": "513",
+      "data-relevance": "101",
+      "data-term": "luch-energiya",
+      "data-encoded-term": "luch-energiya",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "513",
+        "w2v",
+        "1"
+      ]
+    },
+    "tardy": {
+      "data-frequency": "995",
+      "data-relevance": "100",
+      "data-term": "tardy",
+      "data-encoded-term": "tardy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "995",
+        "cn5",
+        "1"
+      ]
+    },
+    "40-minute": {
+      "data-frequency": "1023",
+      "data-relevance": "99",
+      "data-term": "40-minute",
+      "data-encoded-term": "40-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1023",
+        "w2v",
+        "1"
+      ]
+    },
+    "90-minute": {
+      "data-frequency": "2726",
+      "data-relevance": "98",
+      "data-term": "90-minute",
+      "data-encoded-term": "90-minute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2726",
+        "w2v",
+        "1"
+      ]
+    },
+    "latency": {
+      "data-frequency": "2799",
+      "data-relevance": "97",
+      "data-term": "latency",
+      "data-encoded-term": "latency",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2799",
+        "cn5",
+        "1"
+      ]
+    },
+    "intermission": {
+      "data-frequency": "2410",
+      "data-relevance": "96",
+      "data-term": "intermission",
+      "data-encoded-term": "intermission",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2410",
+        "cn5",
+        "1"
+      ]
+    },
+    "overnighter": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "overnighter",
+      "data-encoded-term": "overnighter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "roundtrip": {
+      "data-frequency": "380",
+      "data-relevance": "94",
+      "data-term": "roundtrip",
+      "data-encoded-term": "roundtrip",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "380",
+        "ol",
+        "1"
+      ]
+    },
+    "jetting": {
+      "data-frequency": "363",
+      "data-relevance": "93",
+      "data-term": "jetting",
+      "data-encoded-term": "jetting",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "363",
+        "ol",
+        "1"
+      ]
+    },
+    "airfare": {
+      "data-frequency": "371",
+      "data-relevance": "92",
+      "data-term": "airfare",
+      "data-encoded-term": "airfare",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "371",
+        "ol",
+        "1"
+      ]
+    },
+    "redeye": {
+      "data-frequency": "772",
+      "data-relevance": "91",
+      "data-term": "redeye",
+      "data-encoded-term": "redeye",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "772",
+        "ol",
+        "1"
+      ]
+    },
+    "treck": {
+      "data-frequency": "46",
+      "data-relevance": "90",
+      "data-term": "treck",
+      "data-encoded-term": "treck",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "bottleneck": {
+      "data-frequency": "2915",
+      "data-relevance": "89",
+      "data-term": "bottleneck",
+      "data-encoded-term": "bottleneck",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2915",
+        "cn5",
+        "1"
+      ]
+    },
+    "vacationland": {
+      "data-frequency": "148",
+      "data-relevance": "88",
+      "data-term": "vacationland",
+      "data-encoded-term": "vacationland",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "148",
+        "ol",
+        "1"
+      ]
+    },
+    "reblock": {
+      "data-frequency": "-1",
+      "data-relevance": "87",
+      "data-term": "reblock",
+      "data-encoded-term": "reblock",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unrefueled": {
+      "data-frequency": "62",
+      "data-relevance": "86",
+      "data-term": "unrefueled",
+      "data-encoded-term": "unrefueled",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "62",
+        "w2v",
+        "1"
+      ]
+    },
+    "whalebone": {
+      "data-frequency": "649",
+      "data-relevance": "85",
+      "data-term": "whalebone",
+      "data-encoded-term": "whalebone",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "649",
+        "cn5",
+        "1"
+      ]
+    },
+    "around-the-world": {
+      "data-frequency": "362337",
+      "data-relevance": "84",
+      "data-term": "around-the-world",
+      "data-encoded-term": "around-the-world",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "362337",
+        "w2v",
+        "1"
+      ]
+    },
+    "kinmen": {
+      "data-frequency": "1110",
+      "data-relevance": "83",
+      "data-term": "kinmen",
+      "data-encoded-term": "kinmen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1110",
+        "w2v",
+        "1"
+      ]
+    },
+    "jackstay": {
+      "data-frequency": "1366",
+      "data-relevance": "82",
+      "data-term": "jackstay",
+      "data-encoded-term": "jackstay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1366",
+        "cn5",
+        "1"
+      ]
+    },
+    "unstanchable": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "unstanchable",
+      "data-encoded-term": "unstanchable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "impedance": {
+      "data-frequency": "2265",
+      "data-relevance": "80",
+      "data-term": "impedance",
+      "data-encoded-term": "impedance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2265",
+        "cn5",
+        "1"
+      ]
+    },
+    "surcease": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "surcease",
+      "data-encoded-term": "surcease",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "standout": {
+      "data-frequency": "8051",
+      "data-relevance": "78",
+      "data-term": "standout",
+      "data-encoded-term": "standout",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8051",
+        "cn5",
+        "1"
+      ]
+    },
+    "intermittent": {
+      "data-frequency": "7974",
+      "data-relevance": "77",
+      "data-term": "intermittent",
+      "data-encoded-term": "intermittent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7974",
+        "cn5",
+        "1"
+      ]
+    },
+    "discontinuance": {
+      "data-frequency": "591",
+      "data-relevance": "76",
+      "data-term": "discontinuance",
+      "data-encoded-term": "discontinuance",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "591",
+        "cn5",
+        "1"
+      ]
+    },
+    "logjam": {
+      "data-frequency": "258",
+      "data-relevance": "75",
+      "data-term": "logjam",
+      "data-encoded-term": "logjam",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "258",
+        "cn5",
+        "1"
+      ]
+    },
+    "gainstay": {
+      "data-frequency": "-1",
+      "data-relevance": "74",
+      "data-term": "gainstay",
+      "data-encoded-term": "gainstay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hamper": {
+      "data-frequency": "2236",
+      "data-relevance": "73",
+      "data-term": "hamper",
+      "data-encoded-term": "hamper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2236",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonchecking": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "nonchecking",
+      "data-encoded-term": "nonchecking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schedule padding": {
+      "data-frequency": "429",
+      "data-relevance": "71",
+      "data-term": "schedule padding",
+      "data-encoded-term": "schedule%20padding",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "429",
+        "wiki",
+        "1"
+      ]
+    },
+    "overstay": {
+      "data-frequency": "246",
+      "data-relevance": "70",
+      "data-term": "overstay",
+      "data-encoded-term": "overstay",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "246",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop car": {
+      "data-frequency": "-1",
+      "data-relevance": "69",
+      "data-term": "stop car",
+      "data-encoded-term": "stop%20car",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "flag down": {
+      "data-frequency": "180",
+      "data-relevance": "68",
+      "data-term": "flag down",
+      "data-encoded-term": "flag%20down",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "180",
+        "cn5",
+        "1"
+      ]
+    },
+    "recheck": {
+      "data-frequency": "58",
+      "data-relevance": "67",
+      "data-term": "recheck",
+      "data-encoded-term": "recheck",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "58",
+        "cn5",
+        "1"
+      ]
+    },
+    "call it quit": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "call it quit",
+      "data-encoded-term": "call%20it%20quit",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "procrastinate": {
+      "data-frequency": "149",
+      "data-relevance": "65",
+      "data-term": "procrastinate",
+      "data-encoded-term": "procrastinate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "149",
+        "cn5",
+        "1"
+      ]
+    },
+    "krummhorn": {
+      "data-frequency": "59",
+      "data-relevance": "64",
+      "data-term": "krummhorn",
+      "data-encoded-term": "krummhorn",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "checkless": {
+      "data-frequency": "78",
+      "data-relevance": "63",
+      "data-term": "checkless",
+      "data-encoded-term": "checkless",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "78",
+        "cn5",
+        "1"
+      ]
+    },
+    "double stop": {
+      "data-frequency": "57",
+      "data-relevance": "62",
+      "data-term": "double stop",
+      "data-encoded-term": "double%20stop",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "57",
+        "cn5",
+        "1"
+      ]
+    },
+    "telecheck": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "telecheck",
+      "data-encoded-term": "telecheck",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "come to end": {
+      "data-frequency": "76",
+      "data-relevance": "60",
+      "data-term": "come to end",
+      "data-encoded-term": "come%20to%20end",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "overcheck": {
+      "data-frequency": "93",
+      "data-relevance": "59",
+      "data-term": "overcheck",
+      "data-encoded-term": "overcheck",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "checkmark": {
+      "data-frequency": "616",
+      "data-relevance": "58",
+      "data-term": "checkmark",
+      "data-encoded-term": "checkmark",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "616",
+        "cn5",
+        "1"
+      ]
+    },
+    "stymie": {
+      "data-frequency": "570",
+      "data-relevance": "57",
+      "data-term": "stymie",
+      "data-encoded-term": "stymie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "570",
+        "cn5",
+        "1"
+      ]
+    },
+    "remora": {
+      "data-frequency": "152",
+      "data-relevance": "56",
+      "data-term": "remora",
+      "data-encoded-term": "remora",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "152",
+        "cn5",
+        "1"
+      ]
+    },
+    "checkwriter": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "checkwriter",
+      "data-encoded-term": "checkwriter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "drag one's foot": {
+      "data-frequency": "-1",
+      "data-relevance": "54",
+      "data-term": "drag one's foot",
+      "data-encoded-term": "drag%20one's%20foot",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unstay": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "unstay",
+      "data-encoded-term": "unstay",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "babystay": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "babystay",
+      "data-encoded-term": "babystay",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "metrograph": {
+      "data-frequency": "48",
+      "data-relevance": "51",
+      "data-term": "metrograph",
+      "data-encoded-term": "metrograph",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "blockish": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "blockish",
+      "data-encoded-term": "blockish",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "outstand": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "outstand",
+      "data-encoded-term": "outstand",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "stumble block": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "stumble block",
+      "data-encoded-term": "stumble%20block",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "put off": {
+      "data-frequency": "2364",
+      "data-relevance": "47",
+      "data-term": "put off",
+      "data-encoded-term": "put%20off",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2364",
+        "cn5",
+        "1"
+      ]
+    },
+    "step back": {
+      "data-frequency": "2145",
+      "data-relevance": "46",
+      "data-term": "step back",
+      "data-encoded-term": "step%20back",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2145",
+        "cn5",
+        "1"
+      ]
+    },
+    "get off": {
+      "data-frequency": "3947",
+      "data-relevance": "45",
+      "data-term": "get off",
+      "data-encoded-term": "get%20off",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3947",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop sign": {
+      "data-frequency": "684",
+      "data-relevance": "44",
+      "data-term": "stop sign",
+      "data-encoded-term": "stop%20sign",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "684",
+        "cn5",
+        "1"
+      ]
+    },
+    "just second": {
+      "data-frequency": "55",
+      "data-relevance": "43",
+      "data-term": "just second",
+      "data-encoded-term": "just%20second",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "55",
+        "cn5",
+        "1"
+      ]
+    },
+    "hold phone": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "hold phone",
+      "data-encoded-term": "hold%20phone",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reach impasse": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "reach impasse",
+      "data-encoded-term": "reach%20impasse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rein in": {
+      "data-frequency": "1012",
+      "data-relevance": "40",
+      "data-term": "rein in",
+      "data-encoded-term": "rein%20in",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1012",
+        "cn5",
+        "1"
+      ]
+    },
+    "in something's way": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "in something's way",
+      "data-encoded-term": "in%20something's%20way",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "block up": {
+      "data-frequency": "118",
+      "data-relevance": "38",
+      "data-term": "block up",
+      "data-encoded-term": "block%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "118",
+        "cn5",
+        "1"
+      ]
+    },
+    "f stop": {
+      "data-frequency": "177",
+      "data-relevance": "37",
+      "data-term": "f stop",
+      "data-encoded-term": "f%20stop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "hold back": {
+      "data-frequency": "2339",
+      "data-relevance": "36",
+      "data-term": "hold back",
+      "data-encoded-term": "hold%20back",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2339",
+        "cn5",
+        "1"
+      ]
+    },
+    "put pay to": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "put pay to",
+      "data-encoded-term": "put%20pay%20to",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "redeye flight": {
+      "data-frequency": "80",
+      "data-relevance": "34",
+      "data-term": "redeye flight",
+      "data-encoded-term": "redeye%20flight",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "truck stop": {
+      "data-frequency": "715",
+      "data-relevance": "33",
+      "data-term": "truck stop",
+      "data-encoded-term": "truck%20stop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "715",
+        "cn5",
+        "1"
+      ]
+    },
+    "en route": {
+      "data-frequency": "26940",
+      "data-relevance": "32",
+      "data-term": "en route",
+      "data-encoded-term": "en%20route",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "26940",
+        "ol",
+        "1"
+      ]
+    },
+    "ponta delgada": {
+      "data-frequency": "930",
+      "data-relevance": "31",
+      "data-term": "ponta delgada",
+      "data-encoded-term": "ponta%20delgada",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "930",
+        "ol",
+        "1"
+      ]
+    },
+    "medical checkup": {
+      "data-frequency": "91",
+      "data-relevance": "30",
+      "data-term": "medical checkup",
+      "data-encoded-term": "medical%20checkup",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "91",
+        "ol",
+        "1"
+      ]
+    },
+    "maiden voyage": {
+      "data-frequency": "2735",
+      "data-relevance": "29",
+      "data-term": "maiden voyage",
+      "data-encoded-term": "maiden%20voyage",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2735",
+        "ol",
+        "1"
+      ]
+    },
+    "seize up": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "seize up",
+      "data-encoded-term": "seize%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "great auk": {
+      "data-frequency": "189",
+      "data-relevance": "27",
+      "data-term": "great auk",
+      "data-encoded-term": "great%20auk",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "189",
+        "ol",
+        "1"
+      ]
+    },
+    "stop your bicycle": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "stop your bicycle",
+      "data-encoded-term": "stop%20your%20bicycle",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "voice onset time": {
+      "data-frequency": "50",
+      "data-relevance": "25",
+      "data-term": "voice onset time",
+      "data-encoded-term": "voice%20onset%20time",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "hang up": {
+      "data-frequency": "1085",
+      "data-relevance": "24",
+      "data-term": "hang up",
+      "data-encoded-term": "hang%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1085",
+        "cn5",
+        "1"
+      ]
+    },
+    "just minute": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "just minute",
+      "data-encoded-term": "just%20minute",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "in way": {
+      "data-frequency": "450",
+      "data-relevance": "22",
+      "data-term": "in way",
+      "data-encoded-term": "in%20way",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "450",
+        "cn5",
+        "1"
+      ]
+    },
+    "milk run": {
+      "data-frequency": "114",
+      "data-relevance": "21",
+      "data-term": "milk run",
+      "data-encoded-term": "milk%20run",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "114",
+        "cn5",
+        "1"
+      ]
+    },
+    "hang about": {
+      "data-frequency": "49",
+      "data-relevance": "20",
+      "data-term": "hang about",
+      "data-encoded-term": "hang%20about",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "49",
+        "cn5",
+        "1"
+      ]
+    },
+    "draw up": {
+      "data-frequency": "2204",
+      "data-relevance": "19",
+      "data-term": "draw up",
+      "data-encoded-term": "draw%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2204",
+        "cn5",
+        "1"
+      ]
+    },
+    "traveler's check": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "traveler's check",
+      "data-encoded-term": "traveler's%20check",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "leave off": {
+      "data-frequency": "156",
+      "data-relevance": "17",
+      "data-term": "leave off",
+      "data-encoded-term": "leave%20off",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "hang around": {
+      "data-frequency": "522",
+      "data-relevance": "16",
+      "data-term": "hang around",
+      "data-encoded-term": "hang%20around",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "522",
+        "cn5",
+        "1"
+      ]
+    },
+    "cashier's check": {
+      "data-frequency": "54",
+      "data-relevance": "15",
+      "data-term": "cashier's check",
+      "data-encoded-term": "cashier's%20check",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "54",
+        "cn5",
+        "1"
+      ]
+    },
+    "choke luff": {
+      "data-frequency": "-1",
+      "data-relevance": "14",
+      "data-term": "choke luff",
+      "data-encoded-term": "choke%20luff",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bad check": {
+      "data-frequency": "93",
+      "data-relevance": "13",
+      "data-term": "bad check",
+      "data-encoded-term": "bad%20check",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "stand by": {
+      "data-frequency": "6553",
+      "data-relevance": "12",
+      "data-term": "stand by",
+      "data-encoded-term": "stand%20by",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6553",
+        "cn5",
+        "1"
+      ]
+    },
+    "hold up": {
+      "data-frequency": "5052",
+      "data-relevance": "11",
+      "data-term": "hold up",
+      "data-encoded-term": "hold%20up",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5052",
+        "cn5",
+        "1"
+      ]
+    },
+    "reality check": {
+      "data-frequency": "1263",
+      "data-relevance": "10",
+      "data-term": "reality check",
+      "data-encoded-term": "reality%20check",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1263",
+        "cn5",
+        "1"
+      ]
+    },
+    "bus station": {
+      "data-frequency": "10202",
+      "data-relevance": "9",
+      "data-term": "bus station",
+      "data-encoded-term": "bus%20station",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "10202",
+        "wiki",
+        "1"
+      ]
+    },
+    "check call": {
+      "data-frequency": "-1",
+      "data-relevance": "8",
+      "data-term": "check call",
+      "data-encoded-term": "check%20call",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "on hold": {
+      "data-frequency": "9218",
+      "data-relevance": "7",
+      "data-term": "on hold",
+      "data-encoded-term": "on%20hold",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "9218",
+        "cn5",
+        "1"
+      ]
+    },
+    "keep out": {
+      "data-frequency": "1430",
+      "data-relevance": "6",
+      "data-term": "keep out",
+      "data-encoded-term": "keep%20out",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1430",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop start": {
+      "data-frequency": "386",
+      "data-relevance": "5",
+      "data-term": "stop start",
+      "data-encoded-term": "stop%20start",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "386",
+        "cn5",
+        "1"
+      ]
+    },
+    "pipe organ": {
+      "data-frequency": "4285",
+      "data-relevance": "4",
+      "data-term": "pipe organ",
+      "data-encoded-term": "pipe%20organ",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "4285",
+        "cn5",
+        "1"
+      ]
+    },
+    "stop down": {
+      "data-frequency": "94",
+      "data-relevance": "3",
+      "data-term": "stop down",
+      "data-encoded-term": "stop%20down",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "94",
+        "cn5",
+        "1"
+      ]
+    },
+    "intercity bus service": {
+      "data-frequency": "441",
+      "data-relevance": "2",
+      "data-term": "intercity bus service",
+      "data-encoded-term": "intercity%20bus%20service",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "441",
+        "wiki",
+        "1"
+      ]
+    },
+    "rail transport": {
+      "data-frequency": "17317",
+      "data-relevance": "1",
+      "data-term": "rail transport",
+      "data-encoded-term": "rail%20transport",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "17317",
+        "wiki",
+        "1"
+      ]
+    },
+    "air travel": {
+      "data-frequency": "2982",
+      "data-relevance": "0",
+      "data-term": "air travel",
+      "data-encoded-term": "air%20travel",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "2982",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "stopovers"
+    ],
+    "examples": [
+      {
+        "en": "There is a stopover to change planes in Chicago.",
+        "ru": "В Чикаго будет пересадка на другой самолёт."
+      },
+      {
+        "en": "The city is a favorite stopover for tourists.",
+        "ru": "Этот город является любимым местом остановки туристов."
+      },
+      {
+        "en": "They made a stopover to visit their friends.",
+        "ru": "Они сделали остановку, чтобы навестить своих друзей."
+      },
+      {
+        "en": "I've been to Belgium — if you count a stopover in Brussels on my way to Istanbul.",
+        "ru": "Я бывал в Бельгии — если считать остановку в Брюсселе по пути в Стамбул."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "stopovers"
+    ],
+    "synonyms": [
+      "stop"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "layover",
+      "stopovers",
+      "visited",
+      "leg",
+      "stop",
+      "journey",
+      "stoppage",
+      "hub",
+      "halt",
+      "stay",
+      "open",
+      "stops",
+      "port",
+      "stand",
+      "airport",
+      "interruption",
+      "station",
+      "stayover"
+    ]
+  }
+}

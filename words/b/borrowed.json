@@ -1,0 +1,5231 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "modification": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/modification/n/,/c/en/borrowed/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/modification/n",
+          "@type": "Node",
+          "label": "modification",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/modification"
+        },
+        "end": {
+          "@id": "/c/en/borrowed",
+          "@type": "Node",
+          "label": "borrowed",
+          "language": "en",
+          "term": "/c/en/borrowed"
+        }
+      },
+      "appropriation": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/appropriation/n/,/c/en/borrowed/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/appropriation/n",
+          "@type": "Node",
+          "label": "appropriation",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/appropriation"
+        },
+        "end": {
+          "@id": "/c/en/borrowed",
+          "@type": "Node",
+          "label": "borrowed",
+          "language": "en",
+          "term": "/c/en/borrowed"
+        }
+      },
+      "borrow": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/borrowed/v/,/c/en/borrow/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/borrowed/v",
+          "@type": "Node",
+          "label": "borrowed",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/borrowed"
+        },
+        "end": {
+          "@id": "/c/en/borrow",
+          "@type": "Node",
+          "label": "borrow",
+          "language": "en",
+          "term": "/c/en/borrow"
+        }
+      },
+      "unborrowed": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/unborrowed/a/,/c/en/borrowed/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/unborrowed/a",
+          "@type": "Node",
+          "label": "unborrowed",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/unborrowed"
+        },
+        "end": {
+          "@id": "/c/en/borrowed",
+          "@type": "Node",
+          "label": "borrowed",
+          "language": "en",
+          "term": "/c/en/borrowed"
+        }
+      },
+      "on loaned": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/on_loaned/a/,/c/en/borrowed/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/on_loaned/a",
+          "@type": "Node",
+          "label": "on loaned",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/on_loaned"
+        },
+        "end": {
+          "@id": "/c/en/borrowed",
+          "@type": "Node",
+          "label": "borrowed",
+          "language": "en",
+          "term": "/c/en/borrowed"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "borrow": {
+        "@id": "/a/[/r/FormOf/,/c/en/borrowed/,/c/en/borrow/v/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/borrowed",
+          "@type": "Node",
+          "label": "borrowed",
+          "language": "en",
+          "term": "/c/en/borrowed"
+        },
+        "end": {
+          "@id": "/c/en/borrow/v",
+          "@type": "Node",
+          "label": "borrow",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/borrow"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "lend": {
+      "data-frequency": "12226",
+      "data-relevance": "352",
+      "data-term": "lend",
+      "data-encoded-term": "lend",
+      "data-term-stats": [
+        "1",
+        "7.8",
+        "0.000",
+        "12226",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "stolen": {
+      "data-frequency": "40152",
+      "data-relevance": "351",
+      "data-term": "stolen",
+      "data-encoded-term": "stolen",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "40152",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "buy": {
+      "data-frequency": "78822",
+      "data-relevance": "350",
+      "data-term": "buy",
+      "data-encoded-term": "buy",
+      "data-term-stats": [
+        "1",
+        "6.7",
+        "0.000",
+        "78822",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "take": {
+      "data-frequency": "529263",
+      "data-relevance": "349",
+      "data-term": "take",
+      "data-encoded-term": "take",
+      "data-term-stats": [
+        "1",
+        "4.5",
+        "0.000",
+        "529263",
+        "ol,wn,reddit-slashes",
+        "1"
+      ]
+    },
+    "loan": {
+      "data-frequency": "113821",
+      "data-relevance": "348",
+      "data-term": "loan",
+      "data-encoded-term": "loan",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "113821",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "repay": {
+      "data-frequency": "5698",
+      "data-relevance": "347",
+      "data-term": "repay",
+      "data-encoded-term": "repay",
+      "data-term-stats": [
+        "1",
+        "4.2",
+        "0.000",
+        "5698",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "stole": {
+      "data-frequency": "17429",
+      "data-relevance": "346",
+      "data-term": "stole",
+      "data-encoded-term": "stole",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17429",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pay": {
+      "data-frequency": "162839",
+      "data-relevance": "345",
+      "data-term": "pay",
+      "data-encoded-term": "pay",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "162839",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "raise": {
+      "data-frequency": "84734",
+      "data-relevance": "344",
+      "data-term": "raise",
+      "data-encoded-term": "raise",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "84734",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "lending": {
+      "data-frequency": "9550",
+      "data-relevance": "343",
+      "data-term": "lending",
+      "data-encoded-term": "lending",
+      "data-term-stats": [
+        "1",
+        "3.8",
+        "0.000",
+        "9550",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "rented": {
+      "data-frequency": "19901",
+      "data-relevance": "342",
+      "data-term": "rented",
+      "data-encoded-term": "rented",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "19901",
+        "vec2",
+        "1"
+      ]
+    },
+    "debt": {
+      "data-frequency": "43293",
+      "data-relevance": "341",
+      "data-term": "debt",
+      "data-encoded-term": "debt",
+      "data-term-stats": [
+        "1",
+        "3.8",
+        "0.000",
+        "43293",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "loans": {
+      "data-frequency": "21887",
+      "data-relevance": "340",
+      "data-term": "loans",
+      "data-encoded-term": "loans",
+      "data-term-stats": [
+        "1",
+        "3.7",
+        "0.000",
+        "21887",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "rent": {
+      "data-frequency": "26968",
+      "data-relevance": "339",
+      "data-term": "rent",
+      "data-encoded-term": "rent",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "26968",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "spend": {
+      "data-frequency": "55309",
+      "data-relevance": "338",
+      "data-term": "spend",
+      "data-encoded-term": "spend",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "55309",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "bought": {
+      "data-frequency": "112557",
+      "data-relevance": "337",
+      "data-term": "bought",
+      "data-encoded-term": "bought",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "112557",
+        "vec2",
+        "1"
+      ]
+    },
+    "adopt": {
+      "data-frequency": "32277",
+      "data-relevance": "336",
+      "data-term": "adopt",
+      "data-encoded-term": "adopt",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "32277",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "refinance": {
+      "data-frequency": "507",
+      "data-relevance": "335",
+      "data-term": "refinance",
+      "data-encoded-term": "refinance",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "507",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "lent": {
+      "data-frequency": "16917",
+      "data-relevance": "334",
+      "data-term": "lent",
+      "data-encoded-term": "lent",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "16917",
+        "vec2",
+        "1"
+      ]
+    },
+    "owe": {
+      "data-frequency": "6088",
+      "data-relevance": "333",
+      "data-term": "owe",
+      "data-encoded-term": "owe",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "6088",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "invest": {
+      "data-frequency": "19308",
+      "data-relevance": "332",
+      "data-term": "invest",
+      "data-encoded-term": "invest",
+      "data-term-stats": [
+        "1",
+        "3.2",
+        "0.000",
+        "19308",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "loaned": {
+      "data-frequency": "21057",
+      "data-relevance": "331",
+      "data-term": "loaned",
+      "data-encoded-term": "loaned",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "21057",
+        "vec2",
+        "1"
+      ]
+    },
+    "take up": {
+      "data-frequency": "20786",
+      "data-relevance": "330",
+      "data-term": "take up",
+      "data-encoded-term": "take%20up",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "20786",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "take over": {
+      "data-frequency": "36720",
+      "data-relevance": "329",
+      "data-term": "take over",
+      "data-encoded-term": "take%20over",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "36720",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "used": {
+      "data-frequency": "942603",
+      "data-relevance": "328",
+      "data-term": "used",
+      "data-encoded-term": "used",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "942603",
+        "vec2",
+        "1"
+      ]
+    },
+    "underwrite": {
+      "data-frequency": "674",
+      "data-relevance": "327",
+      "data-term": "underwrite",
+      "data-encoded-term": "underwrite",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "674",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "subsidize": {
+      "data-frequency": "1280",
+      "data-relevance": "326",
+      "data-term": "subsidize",
+      "data-encoded-term": "subsidize",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "1280",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "sell": {
+      "data-frequency": "90121",
+      "data-relevance": "325",
+      "data-term": "sell",
+      "data-encoded-term": "sell",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "90121",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "derived": {
+      "data-frequency": "119178",
+      "data-relevance": "324",
+      "data-term": "derived",
+      "data-encoded-term": "derived",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "119178",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "reinvest": {
+      "data-frequency": "308",
+      "data-relevance": "323",
+      "data-term": "reinvest",
+      "data-encoded-term": "reinvest",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "308",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "allocate": {
+      "data-frequency": "4673",
+      "data-relevance": "322",
+      "data-term": "allocate",
+      "data-encoded-term": "allocate",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "4673",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "borrow": {
+      "data-frequency": "8896",
+      "data-relevance": "321",
+      "data-term": "borrow",
+      "data-encoded-term": "borrow",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "8896",
+        "vec2",
+        "1"
+      ]
+    },
+    "purchase": {
+      "data-frequency": "92571",
+      "data-relevance": "320",
+      "data-term": "purchase",
+      "data-encoded-term": "purchase",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "92571",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "shorted": {
+      "data-frequency": "1449202",
+      "data-relevance": "319",
+      "data-term": "shorted",
+      "data-encoded-term": "shorted",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1449202",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "purchased": {
+      "data-frequency": "133080",
+      "data-relevance": "318",
+      "data-term": "purchased",
+      "data-encoded-term": "purchased",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "133080",
+        "vec2",
+        "1"
+      ]
+    },
+    "deduct": {
+      "data-frequency": "754",
+      "data-relevance": "317",
+      "data-term": "deduct",
+      "data-encoded-term": "deduct",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "754",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "refinanced": {
+      "data-frequency": "259",
+      "data-relevance": "316",
+      "data-term": "refinanced",
+      "data-encoded-term": "refinanced",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "259",
+        "vec2",
+        "1"
+      ]
+    },
+    "printed": {
+      "data-frequency": "68575",
+      "data-relevance": "315",
+      "data-term": "printed",
+      "data-encoded-term": "printed",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "68575",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "splurged": {
+      "data-frequency": "282",
+      "data-relevance": "314",
+      "data-term": "splurged",
+      "data-encoded-term": "splurged",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "282",
+        "vec2",
+        "1"
+      ]
+    },
+    "misappropriated": {
+      "data-frequency": "707",
+      "data-relevance": "313",
+      "data-term": "misappropriated",
+      "data-encoded-term": "misappropriated",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "707",
+        "vec2",
+        "1"
+      ]
+    },
+    "repaying": {
+      "data-frequency": "757",
+      "data-relevance": "312",
+      "data-term": "repaying",
+      "data-encoded-term": "repaying",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "757",
+        "vec2",
+        "1"
+      ]
+    },
+    "appropriated": {
+      "data-frequency": "90045",
+      "data-relevance": "311",
+      "data-term": "appropriated",
+      "data-encoded-term": "appropriated",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "90045",
+        "vec2",
+        "1"
+      ]
+    },
+    "securitize": {
+      "data-frequency": "51",
+      "data-relevance": "310",
+      "data-term": "securitize",
+      "data-encoded-term": "securitize",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "51",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "adapted": {
+      "data-frequency": "90469",
+      "data-relevance": "309",
+      "data-term": "adapted",
+      "data-encoded-term": "adapted",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "90469",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "have": {
+      "data-frequency": "1473926",
+      "data-relevance": "308",
+      "data-term": "have",
+      "data-encoded-term": "have",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1473926",
+        "wn,reddit-slashes",
+        "1"
+      ]
+    },
+    "embezzled": {
+      "data-frequency": "977",
+      "data-relevance": "307",
+      "data-term": "embezzled",
+      "data-encoded-term": "embezzled",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "977",
+        "vec2",
+        "1"
+      ]
+    },
+    "fake": {
+      "data-frequency": "36602",
+      "data-relevance": "306",
+      "data-term": "fake",
+      "data-encoded-term": "fake",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "36602",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "copied": {
+      "data-frequency": "15244",
+      "data-relevance": "305",
+      "data-term": "copied",
+      "data-encoded-term": "copied",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "15244",
+        "vec2",
+        "1"
+      ]
+    },
+    "sold": {
+      "data-frequency": "281329",
+      "data-relevance": "304",
+      "data-term": "sold",
+      "data-encoded-term": "sold",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "281329",
+        "vec2",
+        "1"
+      ]
+    },
+    "shared": {
+      "data-frequency": "123244",
+      "data-relevance": "303",
+      "data-term": "shared",
+      "data-encoded-term": "shared",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "123244",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "leant": {
+      "data-frequency": "192",
+      "data-relevance": "302",
+      "data-term": "leant",
+      "data-encoded-term": "leant",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "192",
+        "vec2",
+        "1"
+      ]
+    },
+    "pawned": {
+      "data-frequency": "7471",
+      "data-relevance": "301",
+      "data-term": "pawned",
+      "data-encoded-term": "pawned",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "7471",
+        "vec2",
+        "1"
+      ]
+    },
+    "taken": {
+      "data-frequency": "363695",
+      "data-relevance": "300",
+      "data-term": "taken",
+      "data-encoded-term": "taken",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "363695",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hock": {
+      "data-frequency": "3084",
+      "data-relevance": "299",
+      "data-term": "hock",
+      "data-encoded-term": "hock",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "3084",
+        "vec2",
+        "1"
+      ]
+    },
+    "financed": {
+      "data-frequency": "20138",
+      "data-relevance": "298",
+      "data-term": "financed",
+      "data-encoded-term": "financed",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "20138",
+        "vec2",
+        "1"
+      ]
+    },
+    "spent": {
+      "data-frequency": "263582",
+      "data-relevance": "297",
+      "data-term": "spent",
+      "data-encoded-term": "spent",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "263582",
+        "vec2",
+        "1"
+      ]
+    },
+    "mortgaging": {
+      "data-frequency": "264",
+      "data-relevance": "296",
+      "data-term": "mortgaging",
+      "data-encoded-term": "mortgaging",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "264",
+        "vec2",
+        "1"
+      ]
+    },
+    "returned": {
+      "data-frequency": "472825",
+      "data-relevance": "295",
+      "data-term": "returned",
+      "data-encoded-term": "returned",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "472825",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "overspent": {
+      "data-frequency": "120",
+      "data-relevance": "294",
+      "data-term": "overspent",
+      "data-encoded-term": "overspent",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "120",
+        "vec2",
+        "1"
+      ]
+    },
+    "inspired": {
+      "data-frequency": "141449",
+      "data-relevance": "293",
+      "data-term": "inspired",
+      "data-encoded-term": "inspired",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "141449",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gambled": {
+      "data-frequency": "872",
+      "data-relevance": "292",
+      "data-term": "gambled",
+      "data-encoded-term": "gambled",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "872",
+        "vec2",
+        "1"
+      ]
+    },
+    "stashed": {
+      "data-frequency": "605",
+      "data-relevance": "291",
+      "data-term": "stashed",
+      "data-encoded-term": "stashed",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "605",
+        "vec2",
+        "1"
+      ]
+    },
+    "repays": {
+      "data-frequency": "6259",
+      "data-relevance": "290",
+      "data-term": "repays",
+      "data-encoded-term": "repays",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "6259",
+        "vec2",
+        "1"
+      ]
+    },
+    "hired": {
+      "data-frequency": "89281",
+      "data-relevance": "289",
+      "data-term": "hired",
+      "data-encoded-term": "hired",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "89281",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "use": {
+      "data-frequency": "1829650",
+      "data-relevance": "288",
+      "data-term": "use",
+      "data-encoded-term": "use",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1829650",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "repossessed": {
+      "data-frequency": "814",
+      "data-relevance": "287",
+      "data-term": "repossessed",
+      "data-encoded-term": "repossessed",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "814",
+        "vec2",
+        "1"
+      ]
+    },
+    "donated": {
+      "data-frequency": "57214",
+      "data-relevance": "286",
+      "data-term": "donated",
+      "data-encoded-term": "donated",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "57214",
+        "vec2",
+        "1"
+      ]
+    },
+    "margin": {
+      "data-frequency": "59139",
+      "data-relevance": "285",
+      "data-term": "margin",
+      "data-encoded-term": "margin",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "59139",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "steal": {
+      "data-frequency": "26933",
+      "data-relevance": "284",
+      "data-term": "steal",
+      "data-encoded-term": "steal",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "26933",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "defaulted": {
+      "data-frequency": "16521",
+      "data-relevance": "283",
+      "data-term": "defaulted",
+      "data-encoded-term": "defaulted",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "16521",
+        "vec2",
+        "1"
+      ]
+    },
+    "pilfered": {
+      "data-frequency": "237",
+      "data-relevance": "282",
+      "data-term": "pilfered",
+      "data-encoded-term": "pilfered",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "237",
+        "vec2",
+        "1"
+      ]
+    },
+    "naked": {
+      "data-frequency": "37424",
+      "data-relevance": "281",
+      "data-term": "naked",
+      "data-encoded-term": "naked",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "37424",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "pawning": {
+      "data-frequency": "7452",
+      "data-relevance": "280",
+      "data-term": "pawning",
+      "data-encoded-term": "pawning",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "7452",
+        "vec2",
+        "1"
+      ]
+    },
+    "owes": {
+      "data-frequency": "7658",
+      "data-relevance": "279",
+      "data-term": "owes",
+      "data-encoded-term": "owes",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "7658",
+        "vec2",
+        "1"
+      ]
+    },
+    "took": {
+      "data-frequency": "659862",
+      "data-relevance": "278",
+      "data-term": "took",
+      "data-encoded-term": "took",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "659862",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "laundered": {
+      "data-frequency": "531",
+      "data-relevance": "277",
+      "data-term": "laundered",
+      "data-encoded-term": "laundered",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "531",
+        "vec2",
+        "1"
+      ]
+    },
+    "bequeathed": {
+      "data-frequency": "7117",
+      "data-relevance": "276",
+      "data-term": "bequeathed",
+      "data-encoded-term": "bequeathed",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "7117",
+        "vec2",
+        "1"
+      ]
+    },
+    "inherited": {
+      "data-frequency": "46960",
+      "data-relevance": "275",
+      "data-term": "inherited",
+      "data-encoded-term": "inherited",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46960",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "supplied": {
+      "data-frequency": "42552",
+      "data-relevance": "274",
+      "data-term": "supplied",
+      "data-encoded-term": "supplied",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "42552",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "modified": {
+      "data-frequency": "73198",
+      "data-relevance": "273",
+      "data-term": "modified",
+      "data-encoded-term": "modified",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "73198",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "out": {
+      "data-frequency": "1172585",
+      "data-relevance": "272",
+      "data-term": "out",
+      "data-encoded-term": "out",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1172585",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gifted": {
+      "data-frequency": "17669",
+      "data-relevance": "271",
+      "data-term": "gifted",
+      "data-encoded-term": "gifted",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17669",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "swindled": {
+      "data-frequency": "575",
+      "data-relevance": "270",
+      "data-term": "swindled",
+      "data-encoded-term": "swindled",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "575",
+        "vec2",
+        "1"
+      ]
+    },
+    "paid": {
+      "data-frequency": "127254",
+      "data-relevance": "269",
+      "data-term": "paid",
+      "data-encoded-term": "paid",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "127254",
+        "vec2",
+        "1"
+      ]
+    },
+    "invested": {
+      "data-frequency": "24823",
+      "data-relevance": "268",
+      "data-term": "invested",
+      "data-encoded-term": "invested",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "24823",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "promissory notes": {
+      "data-frequency": "412",
+      "data-relevance": "267",
+      "data-term": "promissory notes",
+      "data-encoded-term": "promissory%20notes",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "412",
+        "vec2",
+        "1"
+      ]
+    },
+    "will": {
+      "data-frequency": "731014",
+      "data-relevance": "266",
+      "data-term": "will",
+      "data-encoded-term": "will",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "731014",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "adopted": {
+      "data-frequency": "136498",
+      "data-relevance": "265",
+      "data-term": "adopted",
+      "data-encoded-term": "adopted",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "136498",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "new": {
+      "data-frequency": "2251223",
+      "data-relevance": "264",
+      "data-term": "new",
+      "data-encoded-term": "new",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2251223",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "funneled": {
+      "data-frequency": "793",
+      "data-relevance": "263",
+      "data-term": "funneled",
+      "data-encoded-term": "funneled",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "793",
+        "vec2",
+        "1"
+      ]
+    },
+    "embezzle": {
+      "data-frequency": "194",
+      "data-relevance": "262",
+      "data-term": "embezzle",
+      "data-encoded-term": "embezzle",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "194",
+        "vec2",
+        "1"
+      ]
+    },
+    "hire": {
+      "data-frequency": "28003",
+      "data-relevance": "261",
+      "data-term": "hire",
+      "data-encoded-term": "hire",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "28003",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "foreign": {
+      "data-frequency": "314134",
+      "data-relevance": "260",
+      "data-term": "foreign",
+      "data-encoded-term": "foreign",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "314134",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "raised": {
+      "data-frequency": "210209",
+      "data-relevance": "259",
+      "data-term": "raised",
+      "data-encoded-term": "raised",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "210209",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "plagiarized": {
+      "data-frequency": "1117",
+      "data-relevance": "258",
+      "data-term": "plagiarized",
+      "data-encoded-term": "plagiarized",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1117",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lost": {
+      "data-frequency": "454838",
+      "data-relevance": "257",
+      "data-term": "lost",
+      "data-encoded-term": "lost",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "454838",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "been": {
+      "data-frequency": "1627602",
+      "data-relevance": "256",
+      "data-term": "been",
+      "data-encoded-term": "been",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1627602",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "removed": {
+      "data-frequency": "771580",
+      "data-relevance": "255",
+      "data-term": "removed",
+      "data-encoded-term": "removed",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "771580",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "systems": {
+      "data-frequency": "216617",
+      "data-relevance": "254",
+      "data-term": "systems",
+      "data-encoded-term": "systems",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "216617",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hard": {
+      "data-frequency": "210439",
+      "data-relevance": "253",
+      "data-term": "hard",
+      "data-encoded-term": "hard",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "210439",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "unbreakable": {
+      "data-frequency": "3659",
+      "data-relevance": "252",
+      "data-term": "unbreakable",
+      "data-encoded-term": "unbreakable",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3659",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "scrounged": {
+      "data-frequency": "459",
+      "data-relevance": "251",
+      "data-term": "scrounged",
+      "data-encoded-term": "scrounged",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "459",
+        "vec2",
+        "1"
+      ]
+    },
+    "owed": {
+      "data-frequency": "12565",
+      "data-relevance": "250",
+      "data-term": "owed",
+      "data-encoded-term": "owed",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "12565",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "iou": {
+      "data-frequency": "336",
+      "data-relevance": "249",
+      "data-term": "iou",
+      "data-encoded-term": "iou",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "336",
+        "vec2",
+        "1"
+      ]
+    },
+    "read": {
+      "data-frequency": "153514",
+      "data-relevance": "248",
+      "data-term": "read",
+      "data-encoded-term": "read",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "153514",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "created": {
+      "data-frequency": "536098",
+      "data-relevance": "247",
+      "data-term": "created",
+      "data-encoded-term": "created",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "536098",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "strike": {
+      "data-frequency": "85560",
+      "data-relevance": "246",
+      "data-term": "strike",
+      "data-encoded-term": "strike",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "85560",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "influenced": {
+      "data-frequency": "98095",
+      "data-relevance": "245",
+      "data-term": "influenced",
+      "data-encoded-term": "influenced",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "98095",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "got": {
+      "data-frequency": "245574",
+      "data-relevance": "244",
+      "data-term": "got",
+      "data-encoded-term": "got",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "245574",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "made": {
+      "data-frequency": "1158939",
+      "data-relevance": "243",
+      "data-term": "made",
+      "data-encoded-term": "made",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1158939",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "tried": {
+      "data-frequency": "124315",
+      "data-relevance": "242",
+      "data-term": "tried",
+      "data-encoded-term": "tried",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "124315",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "owned": {
+      "data-frequency": "268785",
+      "data-relevance": "241",
+      "data-term": "owned",
+      "data-encoded-term": "owned",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "268785",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "rental": {
+      "data-frequency": "17276",
+      "data-relevance": "240",
+      "data-term": "rental",
+      "data-encoded-term": "rental",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "17276",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "afford": {
+      "data-frequency": "21094",
+      "data-relevance": "239",
+      "data-term": "afford",
+      "data-encoded-term": "afford",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "21094",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "forked": {
+      "data-frequency": "3353",
+      "data-relevance": "238",
+      "data-term": "forked",
+      "data-encoded-term": "forked",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3353",
+        "vec2",
+        "1"
+      ]
+    },
+    "misappropriating": {
+      "data-frequency": "370",
+      "data-relevance": "237",
+      "data-term": "misappropriating",
+      "data-encoded-term": "misappropriating",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "370",
+        "vec2",
+        "1"
+      ]
+    },
+    "spendthrift": {
+      "data-frequency": "664",
+      "data-relevance": "236",
+      "data-term": "spendthrift",
+      "data-encoded-term": "spendthrift",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "664",
+        "vec2",
+        "1"
+      ]
+    },
+    "piggy bank": {
+      "data-frequency": "362",
+      "data-relevance": "235",
+      "data-term": "piggy bank",
+      "data-encoded-term": "piggy%20bank",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "362",
+        "vec2",
+        "1"
+      ]
+    },
+    "ripped": {
+      "data-frequency": "7651",
+      "data-relevance": "234",
+      "data-term": "ripped",
+      "data-encoded-term": "ripped",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "7651",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "available": {
+      "data-frequency": "380491",
+      "data-relevance": "233",
+      "data-term": "available",
+      "data-encoded-term": "available",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "380491",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "downloaded": {
+      "data-frequency": "24520",
+      "data-relevance": "232",
+      "data-term": "downloaded",
+      "data-encoded-term": "downloaded",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "24520",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "was": {
+      "data-frequency": "4118717",
+      "data-relevance": "231",
+      "data-term": "was",
+      "data-encoded-term": "was",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "4118717",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "given": {
+      "data-frequency": "563794",
+      "data-relevance": "230",
+      "data-term": "given",
+      "data-encoded-term": "given",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "563794",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "had": {
+      "data-frequency": "1556402",
+      "data-relevance": "229",
+      "data-term": "had",
+      "data-encoded-term": "had",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1556402",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "invented": {
+      "data-frequency": "38495",
+      "data-relevance": "228",
+      "data-term": "invented",
+      "data-encoded-term": "invented",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "38495",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "decisive": {
+      "data-frequency": "24815",
+      "data-relevance": "227",
+      "data-term": "decisive",
+      "data-encoded-term": "decisive",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "24815",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "temporary": {
+      "data-frequency": "81098",
+      "data-relevance": "226",
+      "data-term": "temporary",
+      "data-encoded-term": "temporary",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "81098",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "shares": {
+      "data-frequency": "68731",
+      "data-relevance": "225",
+      "data-term": "shares",
+      "data-encoded-term": "shares",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "68731",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "saved": {
+      "data-frequency": "63066",
+      "data-relevance": "224",
+      "data-term": "saved",
+      "data-encoded-term": "saved",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "63066",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "referenced": {
+      "data-frequency": "19387",
+      "data-relevance": "223",
+      "data-term": "referenced",
+      "data-encoded-term": "referenced",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "19387",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "recycled": {
+      "data-frequency": "7967",
+      "data-relevance": "222",
+      "data-term": "recycled",
+      "data-encoded-term": "recycled",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "7967",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "reference": {
+      "data-frequency": "566211",
+      "data-relevance": "221",
+      "data-term": "reference",
+      "data-encoded-term": "reference",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "566211",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "money": {
+      "data-frequency": "256095",
+      "data-relevance": "220",
+      "data-term": "money",
+      "data-encoded-term": "money",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "256095",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "fraudulently obtained": {
+      "data-frequency": "2290",
+      "data-relevance": "219",
+      "data-term": "fraudulently obtained",
+      "data-encoded-term": "fraudulently%20obtained",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2290",
+        "vec2",
+        "1"
+      ]
+    },
+    "overdrawn": {
+      "data-frequency": "202",
+      "data-relevance": "218",
+      "data-term": "overdrawn",
+      "data-encoded-term": "overdrawn",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "202",
+        "vec2",
+        "1"
+      ]
+    },
+    "revolving": {
+      "data-frequency": "7668",
+      "data-relevance": "217",
+      "data-term": "revolving",
+      "data-encoded-term": "revolving",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "7668",
+        "vec2",
+        "1"
+      ]
+    },
+    "credit": {
+      "data-frequency": "90518",
+      "data-relevance": "216",
+      "data-term": "credit",
+      "data-encoded-term": "credit",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "90518",
+        "w2v",
+        "1"
+      ]
+    },
+    "own": {
+      "data-frequency": "598458",
+      "data-relevance": "215",
+      "data-term": "own",
+      "data-encoded-term": "own",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "598458",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "adrenaline": {
+      "data-frequency": "3495",
+      "data-relevance": "214",
+      "data-term": "adrenaline",
+      "data-encoded-term": "adrenaline",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3495",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mixture": {
+      "data-frequency": "37180",
+      "data-relevance": "213",
+      "data-term": "mixture",
+      "data-encoded-term": "mixture",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "37180",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "charyeok": {
+      "data-frequency": "-1",
+      "data-relevance": "212",
+      "data-term": "charyeok",
+      "data-encoded-term": "charyeok",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "rentals": {
+      "data-frequency": "5440",
+      "data-relevance": "211",
+      "data-term": "rentals",
+      "data-encoded-term": "rentals",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5440",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "old": {
+      "data-frequency": "859655",
+      "data-relevance": "210",
+      "data-term": "old",
+      "data-encoded-term": "old",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "859655",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "begged": {
+      "data-frequency": "4562",
+      "data-relevance": "209",
+      "data-term": "begged",
+      "data-encoded-term": "begged",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "4562",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "leveraged": {
+      "data-frequency": "2448",
+      "data-relevance": "208",
+      "data-term": "leveraged",
+      "data-encoded-term": "leveraged",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2448",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "one": {
+      "data-frequency": "2171236",
+      "data-relevance": "207",
+      "data-term": "one",
+      "data-encoded-term": "one",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2171236",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "found": {
+      "data-frequency": "850354",
+      "data-relevance": "206",
+      "data-term": "found",
+      "data-encoded-term": "found",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "850354",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "off": {
+      "data-frequency": "627847",
+      "data-relevance": "205",
+      "data-term": "off",
+      "data-encoded-term": "off",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "627847",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "short": {
+      "data-frequency": "2671852",
+      "data-relevance": "204",
+      "data-term": "short",
+      "data-encoded-term": "short",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2671852",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "leased": {
+      "data-frequency": "23852",
+      "data-relevance": "203",
+      "data-term": "leased",
+      "data-encoded-term": "leased",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "23852",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "learned": {
+      "data-frequency": "90435",
+      "data-relevance": "202",
+      "data-term": "learned",
+      "data-encoded-term": "learned",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "90435",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "synthetic": {
+      "data-frequency": "22066",
+      "data-relevance": "201",
+      "data-term": "synthetic",
+      "data-encoded-term": "synthetic",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "22066",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sale": {
+      "data-frequency": "114895",
+      "data-relevance": "200",
+      "data-term": "sale",
+      "data-encoded-term": "sale",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "114895",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "altered": {
+      "data-frequency": "42601",
+      "data-relevance": "199",
+      "data-term": "altered",
+      "data-encoded-term": "altered",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "42601",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "similar": {
+      "data-frequency": "383409",
+      "data-relevance": "198",
+      "data-term": "similar",
+      "data-encoded-term": "similar",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "383409",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lifted": {
+      "data-frequency": "25343",
+      "data-relevance": "197",
+      "data-term": "lifted",
+      "data-encoded-term": "lifted",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "25343",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "free": {
+      "data-frequency": "598202",
+      "data-relevance": "196",
+      "data-term": "free",
+      "data-encoded-term": "free",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "598202",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "extorted": {
+      "data-frequency": "747",
+      "data-relevance": "195",
+      "data-term": "extorted",
+      "data-encoded-term": "extorted",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "747",
+        "vec2",
+        "1"
+      ]
+    },
+    "sourced": {
+      "data-frequency": "120947",
+      "data-relevance": "194",
+      "data-term": "sourced",
+      "data-encoded-term": "sourced",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "120947",
+        "vec2",
+        "1"
+      ]
+    },
+    "recouped": {
+      "data-frequency": "610",
+      "data-relevance": "193",
+      "data-term": "recouped",
+      "data-encoded-term": "recouped",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "610",
+        "vec2",
+        "1"
+      ]
+    },
+    "tax": {
+      "data-frequency": "86591",
+      "data-relevance": "192",
+      "data-term": "tax",
+      "data-encoded-term": "tax",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "86591",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "strapped": {
+      "data-frequency": "10375",
+      "data-relevance": "191",
+      "data-term": "strapped",
+      "data-encoded-term": "strapped",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "10375",
+        "vec2",
+        "1"
+      ]
+    },
+    "overspending": {
+      "data-frequency": "525",
+      "data-relevance": "190",
+      "data-term": "overspending",
+      "data-encoded-term": "overspending",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "525",
+        "vec2",
+        "1"
+      ]
+    },
+    "spare": {
+      "data-frequency": "25436",
+      "data-relevance": "189",
+      "data-term": "spare",
+      "data-encoded-term": "spare",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "25436",
+        "ol",
+        "1"
+      ]
+    },
+    "borrowing": {
+      "data-frequency": "7714",
+      "data-relevance": "188",
+      "data-term": "borrowing",
+      "data-encoded-term": "borrowing",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "7714",
+        "w2v|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "maxed": {
+      "data-frequency": "1504",
+      "data-relevance": "187",
+      "data-term": "maxed",
+      "data-encoded-term": "maxed",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1504",
+        "vec2",
+        "1"
+      ]
+    },
+    "stay afloat": {
+      "data-frequency": "621",
+      "data-relevance": "186",
+      "data-term": "stay afloat",
+      "data-encoded-term": "stay%20afloat",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "621",
+        "vec2",
+        "1"
+      ]
+    },
+    "paying": {
+      "data-frequency": "40265",
+      "data-relevance": "185",
+      "data-term": "paying",
+      "data-encoded-term": "paying",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "40265",
+        "w2v",
+        "1"
+      ]
+    },
+    "cashed": {
+      "data-frequency": "1210",
+      "data-relevance": "184",
+      "data-term": "cashed",
+      "data-encoded-term": "cashed",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1210",
+        "vec2",
+        "1"
+      ]
+    },
+    "investors": {
+      "data-frequency": "32644",
+      "data-relevance": "183",
+      "data-term": "investors",
+      "data-encoded-term": "investors",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32644",
+        "w2v",
+        "1"
+      ]
+    },
+    "keep": {
+      "data-frequency": "206471",
+      "data-relevance": "182",
+      "data-term": "keep",
+      "data-encoded-term": "keep",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "206471",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "supply": {
+      "data-frequency": "131848",
+      "data-relevance": "181",
+      "data-term": "supply",
+      "data-encoded-term": "supply",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "131848",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "work": {
+      "data-frequency": "1040658",
+      "data-relevance": "180",
+      "data-term": "work",
+      "data-encoded-term": "work",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1040658",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "defaulting": {
+      "data-frequency": "48635",
+      "data-relevance": "179",
+      "data-term": "defaulting",
+      "data-encoded-term": "defaulting",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "48635",
+        "vec2",
+        "1"
+      ]
+    },
+    "borrows": {
+      "data-frequency": "32588",
+      "data-relevance": "178",
+      "data-term": "borrows",
+      "data-encoded-term": "borrows",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "32588",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "credit cards": {
+      "data-frequency": "3002",
+      "data-relevance": "177",
+      "data-term": "credit cards",
+      "data-encoded-term": "credit%20cards",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "3002",
+        "vec2",
+        "1"
+      ]
+    },
+    "appropriating": {
+      "data-frequency": "90594",
+      "data-relevance": "176",
+      "data-term": "appropriating",
+      "data-encoded-term": "appropriating",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "90594",
+        "vec2",
+        "1"
+      ]
+    },
+    "indebted": {
+      "data-frequency": "3598",
+      "data-relevance": "175",
+      "data-term": "indebted",
+      "data-encoded-term": "indebted",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "3598",
+        "vec2",
+        "1"
+      ]
+    },
+    "pocketed": {
+      "data-frequency": "732",
+      "data-relevance": "174",
+      "data-term": "pocketed",
+      "data-encoded-term": "pocketed",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "732",
+        "vec2",
+        "1"
+      ]
+    },
+    "checkbook": {
+      "data-frequency": "332",
+      "data-relevance": "173",
+      "data-term": "checkbook",
+      "data-encoded-term": "checkbook",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "332",
+        "vec2",
+        "1"
+      ]
+    },
+    "siphoned": {
+      "data-frequency": "505",
+      "data-relevance": "172",
+      "data-term": "siphoned",
+      "data-encoded-term": "siphoned",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "505",
+        "vec2",
+        "1"
+      ]
+    },
+    "down": {
+      "data-frequency": "598138",
+      "data-relevance": "171",
+      "data-term": "down",
+      "data-encoded-term": "down",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "598138",
+        "ol",
+        "1"
+      ]
+    },
+    "indebtedness": {
+      "data-frequency": "1473",
+      "data-relevance": "170",
+      "data-term": "indebtedness",
+      "data-encoded-term": "indebtedness",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1473",
+        "vec2",
+        "1"
+      ]
+    },
+    "pooled": {
+      "data-frequency": "1999",
+      "data-relevance": "169",
+      "data-term": "pooled",
+      "data-encoded-term": "pooled",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1999",
+        "vec2",
+        "1"
+      ]
+    },
+    "investments": {
+      "data-frequency": "29014",
+      "data-relevance": "168",
+      "data-term": "investments",
+      "data-encoded-term": "investments",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29014",
+        "w2v",
+        "1"
+      ]
+    },
+    "currency": {
+      "data-frequency": "37194",
+      "data-relevance": "167",
+      "data-term": "currency",
+      "data-encoded-term": "currency",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "37194",
+        "w2v",
+        "1"
+      ]
+    },
+    "procured": {
+      "data-frequency": "4922",
+      "data-relevance": "166",
+      "data-term": "procured",
+      "data-encoded-term": "procured",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "4922",
+        "vec2",
+        "1"
+      ]
+    },
+    "cheap": {
+      "data-frequency": "23942",
+      "data-relevance": "165",
+      "data-term": "cheap",
+      "data-encoded-term": "cheap",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23942",
+        "w2v",
+        "1"
+      ]
+    },
+    "for": {
+      "data-frequency": "4172834",
+      "data-relevance": "164",
+      "data-term": "for",
+      "data-encoded-term": "for",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4172834",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "computer": {
+      "data-frequency": "176265",
+      "data-relevance": "163",
+      "data-term": "computer",
+      "data-encoded-term": "computer",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "176265",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "mortgage": {
+      "data-frequency": "12626",
+      "data-relevance": "162",
+      "data-term": "mortgage",
+      "data-encoded-term": "mortgage",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "12626",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "share": {
+      "data-frequency": "167038",
+      "data-relevance": "161",
+      "data-term": "share",
+      "data-encoded-term": "share",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "167038",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "loaner": {
+      "data-frequency": "109",
+      "data-relevance": "160",
+      "data-term": "loaner",
+      "data-encoded-term": "loaner",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "109",
+        "reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "mortgaged": {
+      "data-frequency": "1357",
+      "data-relevance": "159",
+      "data-term": "mortgaged",
+      "data-encoded-term": "mortgaged",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "1357",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "loaning": {
+      "data-frequency": "729",
+      "data-relevance": "158",
+      "data-term": "loaning",
+      "data-encoded-term": "loaning",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "729",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "renting": {
+      "data-frequency": "4791",
+      "data-relevance": "157",
+      "data-term": "renting",
+      "data-encoded-term": "renting",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "4791",
+        "vec2",
+        "1"
+      ]
+    },
+    "imitated": {
+      "data-frequency": "13062",
+      "data-relevance": "156",
+      "data-term": "imitated",
+      "data-encoded-term": "imitated",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "13062",
+        "vec2",
+        "1"
+      ]
+    },
+    "borrowings": {
+      "data-frequency": "1483",
+      "data-relevance": "155",
+      "data-term": "borrowings",
+      "data-encoded-term": "borrowings",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "1483",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "repaid": {
+      "data-frequency": "3046",
+      "data-relevance": "154",
+      "data-term": "repaid",
+      "data-encoded-term": "repaid",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "3046",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "cash": {
+      "data-frequency": "76743",
+      "data-relevance": "153",
+      "data-term": "cash",
+      "data-encoded-term": "cash",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "76743",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "debts": {
+      "data-frequency": "16696",
+      "data-relevance": "152",
+      "data-term": "debts",
+      "data-encoded-term": "debts",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "16696",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "get": {
+      "data-frequency": "428657",
+      "data-relevance": "151",
+      "data-term": "get",
+      "data-encoded-term": "get",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "428657",
+        "wn",
+        "1"
+      ]
+    },
+    "acquire": {
+      "data-frequency": "47790",
+      "data-relevance": "150",
+      "data-term": "acquire",
+      "data-encoded-term": "acquire",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "47790",
+        "wn",
+        "1"
+      ]
+    },
+    "bailing": {
+      "data-frequency": "738",
+      "data-relevance": "149",
+      "data-term": "bailing",
+      "data-encoded-term": "bailing",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "738",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "accept": {
+      "data-frequency": "74952",
+      "data-relevance": "148",
+      "data-term": "accept",
+      "data-encoded-term": "accept",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "74952",
+        "wn",
+        "1"
+      ]
+    },
+    "quote": {
+      "data-frequency": "22572",
+      "data-relevance": "147",
+      "data-term": "quote",
+      "data-encoded-term": "quote",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "22572",
+        "ol",
+        "1"
+      ]
+    },
+    "paraphrase": {
+      "data-frequency": "1788",
+      "data-relevance": "146",
+      "data-term": "paraphrase",
+      "data-encoded-term": "paraphrase",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1788",
+        "ol",
+        "1"
+      ]
+    },
+    "bail": {
+      "data-frequency": "12874",
+      "data-relevance": "145",
+      "data-term": "bail",
+      "data-encoded-term": "bail",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "12874",
+        "ol",
+        "1"
+      ]
+    },
+    "choose": {
+      "data-frequency": "66134",
+      "data-relevance": "144",
+      "data-term": "choose",
+      "data-encoded-term": "choose",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "66134",
+        "ol",
+        "1"
+      ]
+    },
+    "move": {
+      "data-frequency": "242744",
+      "data-relevance": "143",
+      "data-term": "move",
+      "data-encoded-term": "move",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "242744",
+        "ol",
+        "1"
+      ]
+    },
+    "repossess": {
+      "data-frequency": "299",
+      "data-relevance": "142",
+      "data-term": "repossess",
+      "data-encoded-term": "repossess",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "299",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "tread": {
+      "data-frequency": "3110",
+      "data-relevance": "141",
+      "data-term": "tread",
+      "data-encoded-term": "tread",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3110",
+        "ol",
+        "1"
+      ]
+    },
+    "pursue": {
+      "data-frequency": "57116",
+      "data-relevance": "140",
+      "data-term": "pursue",
+      "data-encoded-term": "pursue",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "57116",
+        "ol",
+        "1"
+      ]
+    },
+    "hike": {
+      "data-frequency": "7603",
+      "data-relevance": "139",
+      "data-term": "hike",
+      "data-encoded-term": "hike",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7603",
+        "ol",
+        "1"
+      ]
+    },
+    "fly": {
+      "data-frequency": "103734",
+      "data-relevance": "138",
+      "data-term": "fly",
+      "data-encoded-term": "fly",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "103734",
+        "ol",
+        "1"
+      ]
+    },
+    "proceed": {
+      "data-frequency": "25360",
+      "data-relevance": "137",
+      "data-term": "proceed",
+      "data-encoded-term": "proceed",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "25360",
+        "ol",
+        "1"
+      ]
+    },
+    "embrace": {
+      "data-frequency": "17607",
+      "data-relevance": "136",
+      "data-term": "embrace",
+      "data-encoded-term": "embrace",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "17607",
+        "ol",
+        "1"
+      ]
+    },
+    "walk": {
+      "data-frequency": "121712",
+      "data-relevance": "135",
+      "data-term": "walk",
+      "data-encoded-term": "walk",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "121712",
+        "ol",
+        "1"
+      ]
+    },
+    "inspire": {
+      "data-frequency": "19101",
+      "data-relevance": "134",
+      "data-term": "inspire",
+      "data-encoded-term": "inspire",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "19101",
+        "ol",
+        "1"
+      ]
+    },
+    "travel": {
+      "data-frequency": "183471",
+      "data-relevance": "133",
+      "data-term": "travel",
+      "data-encoded-term": "travel",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "183471",
+        "ol",
+        "1"
+      ]
+    },
+    "appropriates": {
+      "data-frequency": "90291",
+      "data-relevance": "132",
+      "data-term": "appropriates",
+      "data-encoded-term": "appropriates",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "90291",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "embark": {
+      "data-frequency": "7260",
+      "data-relevance": "131",
+      "data-term": "embark",
+      "data-encoded-term": "embark",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7260",
+        "ol",
+        "1"
+      ]
+    },
+    "investing": {
+      "data-frequency": "13026",
+      "data-relevance": "130",
+      "data-term": "investing",
+      "data-encoded-term": "investing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "13026",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "follow": {
+      "data-frequency": "149434",
+      "data-relevance": "129",
+      "data-term": "follow",
+      "data-encoded-term": "follow",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "149434",
+        "ol",
+        "1"
+      ]
+    },
+    "bother": {
+      "data-frequency": "4976",
+      "data-relevance": "128",
+      "data-term": "bother",
+      "data-encoded-term": "bother",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4976",
+        "ol",
+        "1"
+      ]
+    },
+    "disturb": {
+      "data-frequency": "4314",
+      "data-relevance": "127",
+      "data-term": "disturb",
+      "data-encoded-term": "disturb",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4314",
+        "ol",
+        "1"
+      ]
+    },
+    "resume": {
+      "data-frequency": "25002",
+      "data-relevance": "126",
+      "data-term": "resume",
+      "data-encoded-term": "resume",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "25002",
+        "ol",
+        "1"
+      ]
+    },
+    "ready": {
+      "data-frequency": "110376",
+      "data-relevance": "125",
+      "data-term": "ready",
+      "data-encoded-term": "ready",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "110376",
+        "ol",
+        "1"
+      ]
+    },
+    "undergo": {
+      "data-frequency": "20601",
+      "data-relevance": "124",
+      "data-term": "undergo",
+      "data-encoded-term": "undergo",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20601",
+        "ol",
+        "1"
+      ]
+    },
+    "depreciate": {
+      "data-frequency": "215",
+      "data-relevance": "123",
+      "data-term": "depreciate",
+      "data-encoded-term": "depreciate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "215",
+        "ol",
+        "1"
+      ]
+    },
+    "finance": {
+      "data-frequency": "120619",
+      "data-relevance": "122",
+      "data-term": "finance",
+      "data-encoded-term": "finance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "120619",
+        "ol",
+        "1"
+      ]
+    },
+    "denominate": {
+      "data-frequency": "113",
+      "data-relevance": "121",
+      "data-term": "denominate",
+      "data-encoded-term": "denominate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "113",
+        "ol",
+        "1"
+      ]
+    },
+    "disburse": {
+      "data-frequency": "283",
+      "data-relevance": "120",
+      "data-term": "disburse",
+      "data-encoded-term": "disburse",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "283",
+        "ol",
+        "1"
+      ]
+    },
+    "procure": {
+      "data-frequency": "4869",
+      "data-relevance": "119",
+      "data-term": "procure",
+      "data-encoded-term": "procure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4869",
+        "ol",
+        "1"
+      ]
+    },
+    "embroider": {
+      "data-frequency": "193",
+      "data-relevance": "118",
+      "data-term": "embroider",
+      "data-encoded-term": "embroider",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "193",
+        "ol",
+        "1"
+      ]
+    },
+    "buying": {
+      "data-frequency": "31117",
+      "data-relevance": "117",
+      "data-term": "buying",
+      "data-encoded-term": "buying",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "31117",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "advertise": {
+      "data-frequency": "5883",
+      "data-relevance": "116",
+      "data-term": "advertise",
+      "data-encoded-term": "advertise",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5883",
+        "ol",
+        "1"
+      ]
+    },
+    "buyers": {
+      "data-frequency": "12886",
+      "data-relevance": "115",
+      "data-term": "buyers",
+      "data-encoded-term": "buyers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12886",
+        "w2v",
+        "1"
+      ]
+    },
+    "savings": {
+      "data-frequency": "23145",
+      "data-relevance": "114",
+      "data-term": "savings",
+      "data-encoded-term": "savings",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23145",
+        "w2v",
+        "1"
+      ]
+    },
+    "lenders": {
+      "data-frequency": "2969",
+      "data-relevance": "113",
+      "data-term": "lenders",
+      "data-encoded-term": "lenders",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2969",
+        "w2v",
+        "1"
+      ]
+    },
+    "denominated": {
+      "data-frequency": "1787",
+      "data-relevance": "112",
+      "data-term": "denominated",
+      "data-encoded-term": "denominated",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1787",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheaper": {
+      "data-frequency": "14392",
+      "data-relevance": "111",
+      "data-term": "cheaper",
+      "data-encoded-term": "cheaper",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14392",
+        "w2v",
+        "1"
+      ]
+    },
+    "purchases": {
+      "data-frequency": "13818",
+      "data-relevance": "110",
+      "data-term": "purchases",
+      "data-encoded-term": "purchases",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13818",
+        "w2v",
+        "1"
+      ]
+    },
+    "borrowers": {
+      "data-frequency": "1505",
+      "data-relevance": "109",
+      "data-term": "borrowers",
+      "data-encoded-term": "borrowers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1505",
+        "w2v",
+        "1"
+      ]
+    },
+    "resell": {
+      "data-frequency": "812",
+      "data-relevance": "108",
+      "data-term": "resell",
+      "data-encoded-term": "resell",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "812",
+        "w2v",
+        "1"
+      ]
+    },
+    "incentive": {
+      "data-frequency": "10827",
+      "data-relevance": "107",
+      "data-term": "incentive",
+      "data-encoded-term": "incentive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10827",
+        "w2v",
+        "1"
+      ]
+    },
+    "fetch": {
+      "data-frequency": "5002",
+      "data-relevance": "106",
+      "data-term": "fetch",
+      "data-encoded-term": "fetch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5002",
+        "w2v",
+        "1"
+      ]
+    },
+    "mortgages": {
+      "data-frequency": "3008",
+      "data-relevance": "105",
+      "data-term": "mortgages",
+      "data-encoded-term": "mortgages",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3008",
+        "w2v",
+        "1"
+      ]
+    },
+    "banks": {
+      "data-frequency": "101294",
+      "data-relevance": "104",
+      "data-term": "banks",
+      "data-encoded-term": "banks",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "101294",
+        "w2v",
+        "1"
+      ]
+    },
+    "rebates": {
+      "data-frequency": "899",
+      "data-relevance": "103",
+      "data-term": "rebates",
+      "data-encoded-term": "rebates",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "899",
+        "w2v",
+        "1"
+      ]
+    },
+    "billions": {
+      "data-frequency": "7113",
+      "data-relevance": "102",
+      "data-term": "billions",
+      "data-encoded-term": "billions",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7113",
+        "w2v",
+        "1"
+      ]
+    },
+    "funds": {
+      "data-frequency": "89671",
+      "data-relevance": "101",
+      "data-term": "funds",
+      "data-encoded-term": "funds",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "89671",
+        "w2v",
+        "1"
+      ]
+    },
+    "translate": {
+      "data-frequency": "69555",
+      "data-relevance": "100",
+      "data-term": "translate",
+      "data-encoded-term": "translate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "69555",
+        "w2v",
+        "1"
+      ]
+    },
+    "taxes": {
+      "data-frequency": "33400",
+      "data-relevance": "99",
+      "data-term": "taxes",
+      "data-encoded-term": "taxes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "33400",
+        "w2v",
+        "1"
+      ]
+    },
+    "issuers": {
+      "data-frequency": "911",
+      "data-relevance": "98",
+      "data-term": "issuers",
+      "data-encoded-term": "issuers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "911",
+        "w2v",
+        "1"
+      ]
+    },
+    "sellers": {
+      "data-frequency": "15737",
+      "data-relevance": "97",
+      "data-term": "sellers",
+      "data-encoded-term": "sellers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15737",
+        "w2v",
+        "1"
+      ]
+    },
+    "incentives": {
+      "data-frequency": "9082",
+      "data-relevance": "96",
+      "data-term": "incentives",
+      "data-encoded-term": "incentives",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9082",
+        "w2v",
+        "1"
+      ]
+    },
+    "entice": {
+      "data-frequency": "2395",
+      "data-relevance": "95",
+      "data-term": "entice",
+      "data-encoded-term": "entice",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2395",
+        "w2v",
+        "1"
+      ]
+    },
+    "trillions": {
+      "data-frequency": "583",
+      "data-relevance": "94",
+      "data-term": "trillions",
+      "data-encoded-term": "trillions",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "583",
+        "w2v",
+        "1"
+      ]
+    },
+    "taxpayers": {
+      "data-frequency": "6816",
+      "data-relevance": "93",
+      "data-term": "taxpayers",
+      "data-encoded-term": "taxpayers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6816",
+        "w2v",
+        "1"
+      ]
+    },
+    "easier": {
+      "data-frequency": "38948",
+      "data-relevance": "92",
+      "data-term": "easier",
+      "data-encoded-term": "easier",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "38948",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheaply": {
+      "data-frequency": "2854",
+      "data-relevance": "91",
+      "data-term": "cheaply",
+      "data-encoded-term": "cheaply",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2854",
+        "w2v",
+        "1"
+      ]
+    },
+    "balances": {
+      "data-frequency": "4665",
+      "data-relevance": "90",
+      "data-term": "balances",
+      "data-encoded-term": "balances",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4665",
+        "w2v",
+        "1"
+      ]
+    },
+    "buys": {
+      "data-frequency": "25045",
+      "data-relevance": "89",
+      "data-term": "buys",
+      "data-encoded-term": "buys",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "25045",
+        "w2v",
+        "1"
+      ]
+    },
+    "proceeds": {
+      "data-frequency": "28500",
+      "data-relevance": "88",
+      "data-term": "proceeds",
+      "data-encoded-term": "proceeds",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "28500",
+        "w2v",
+        "1"
+      ]
+    },
+    "redeem": {
+      "data-frequency": "3404",
+      "data-relevance": "87",
+      "data-term": "redeem",
+      "data-encoded-term": "redeem",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3404",
+        "w2v",
+        "1"
+      ]
+    },
+    "customers": {
+      "data-frequency": "46737",
+      "data-relevance": "86",
+      "data-term": "customers",
+      "data-encoded-term": "customers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46737",
+        "w2v",
+        "1"
+      ]
+    },
+    "consumers": {
+      "data-frequency": "23995",
+      "data-relevance": "85",
+      "data-term": "consumers",
+      "data-encoded-term": "consumers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23995",
+        "w2v",
+        "1"
+      ]
+    },
+    "priced": {
+      "data-frequency": "9381",
+      "data-relevance": "84",
+      "data-term": "priced",
+      "data-encoded-term": "priced",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9381",
+        "w2v",
+        "1"
+      ]
+    },
+    "recoup": {
+      "data-frequency": "1692",
+      "data-relevance": "83",
+      "data-term": "recoup",
+      "data-encoded-term": "recoup",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1692",
+        "w2v",
+        "1"
+      ]
+    },
+    "junk": {
+      "data-frequency": "8661",
+      "data-relevance": "82",
+      "data-term": "junk",
+      "data-encoded-term": "junk",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8661",
+        "w2v",
+        "1"
+      ]
+    },
+    "refund": {
+      "data-frequency": "3219",
+      "data-relevance": "81",
+      "data-term": "refund",
+      "data-encoded-term": "refund",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3219",
+        "w2v",
+        "1"
+      ]
+    },
+    "write": {
+      "data-frequency": "110784",
+      "data-relevance": "80",
+      "data-term": "write",
+      "data-encoded-term": "write",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "110784",
+        "w2v",
+        "1"
+      ]
+    },
+    "payment": {
+      "data-frequency": "41572",
+      "data-relevance": "79",
+      "data-term": "payment",
+      "data-encoded-term": "payment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "41572",
+        "w2v",
+        "1"
+      ]
+    },
+    "tempted": {
+      "data-frequency": "3994",
+      "data-relevance": "78",
+      "data-term": "tempted",
+      "data-encoded-term": "tempted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3994",
+        "w2v",
+        "1"
+      ]
+    },
+    "dividends": {
+      "data-frequency": "3444",
+      "data-relevance": "77",
+      "data-term": "dividends",
+      "data-encoded-term": "dividends",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3444",
+        "w2v",
+        "1"
+      ]
+    },
+    "convert": {
+      "data-frequency": "31622",
+      "data-relevance": "76",
+      "data-term": "convert",
+      "data-encoded-term": "convert",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "31622",
+        "w2v",
+        "1"
+      ]
+    },
+    "repayments": {
+      "data-frequency": "771",
+      "data-relevance": "75",
+      "data-term": "repayments",
+      "data-encoded-term": "repayments",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "771",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "payments": {
+      "data-frequency": "28279",
+      "data-relevance": "74",
+      "data-term": "payments",
+      "data-encoded-term": "payments",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "28279",
+        "w2v",
+        "1"
+      ]
+    },
+    "credits": {
+      "data-frequency": "103710",
+      "data-relevance": "73",
+      "data-term": "credits",
+      "data-encoded-term": "credits",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "103710",
+        "w2v",
+        "1"
+      ]
+    },
+    "lure": {
+      "data-frequency": "13069",
+      "data-relevance": "72",
+      "data-term": "lure",
+      "data-encoded-term": "lure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "13069",
+        "w2v",
+        "1"
+      ]
+    },
+    "reluctant": {
+      "data-frequency": "23118",
+      "data-relevance": "71",
+      "data-term": "reluctant",
+      "data-encoded-term": "reluctant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23118",
+        "w2v",
+        "1"
+      ]
+    },
+    "assets": {
+      "data-frequency": "56366",
+      "data-relevance": "70",
+      "data-term": "assets",
+      "data-encoded-term": "assets",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56366",
+        "w2v",
+        "1"
+      ]
+    },
+    "homeowners": {
+      "data-frequency": "3814",
+      "data-relevance": "69",
+      "data-term": "homeowners",
+      "data-encoded-term": "homeowners",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3814",
+        "w2v",
+        "1"
+      ]
+    },
+    "willing": {
+      "data-frequency": "37822",
+      "data-relevance": "68",
+      "data-term": "willing",
+      "data-encoded-term": "willing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "37822",
+        "w2v",
+        "1"
+      ]
+    },
+    "rebate": {
+      "data-frequency": "1683",
+      "data-relevance": "67",
+      "data-term": "rebate",
+      "data-encoded-term": "rebate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1683",
+        "w2v",
+        "1"
+      ]
+    },
+    "diversify": {
+      "data-frequency": "3356",
+      "data-relevance": "66",
+      "data-term": "diversify",
+      "data-encoded-term": "diversify",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3356",
+        "w2v",
+        "1"
+      ]
+    },
+    "compensate": {
+      "data-frequency": "11419",
+      "data-relevance": "65",
+      "data-term": "compensate",
+      "data-encoded-term": "compensate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11419",
+        "w2v",
+        "1"
+      ]
+    },
+    "wisely": {
+      "data-frequency": "2786",
+      "data-relevance": "64",
+      "data-term": "wisely",
+      "data-encoded-term": "wisely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2786",
+        "w2v",
+        "1"
+      ]
+    },
+    "monies": {
+      "data-frequency": "2488",
+      "data-relevance": "63",
+      "data-term": "monies",
+      "data-encoded-term": "monies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2488",
+        "w2v",
+        "1"
+      ]
+    },
+    "rely": {
+      "data-frequency": "33199",
+      "data-relevance": "62",
+      "data-term": "rely",
+      "data-encoded-term": "rely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33199",
+        "w2v",
+        "1"
+      ]
+    },
+    "opt": {
+      "data-frequency": "9204",
+      "data-relevance": "61",
+      "data-term": "opt",
+      "data-encoded-term": "opt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9204",
+        "w2v",
+        "1"
+      ]
+    },
+    "expense": {
+      "data-frequency": "26912",
+      "data-relevance": "60",
+      "data-term": "expense",
+      "data-encoded-term": "expense",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26912",
+        "w2v",
+        "1"
+      ]
+    },
+    "amortize": {
+      "data-frequency": "111",
+      "data-relevance": "59",
+      "data-term": "amortize",
+      "data-encoded-term": "amortize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "111",
+        "ol",
+        "1"
+      ]
+    },
+    "collateralize": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "collateralize",
+      "data-encoded-term": "collateralize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "cosign": {
+      "data-frequency": "78",
+      "data-relevance": "57",
+      "data-term": "cosign",
+      "data-encoded-term": "cosign",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "78",
+        "ol",
+        "1"
+      ]
+    },
+    "indebt": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "indebt",
+      "data-encoded-term": "indebt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "reloan": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "reloan",
+      "data-encoded-term": "reloan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "mutuary": {
+      "data-frequency": "-1",
+      "data-relevance": "54",
+      "data-term": "mutuary",
+      "data-encoded-term": "mutuary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hypothecator": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "hypothecator",
+      "data-encoded-term": "hypothecator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fenerate": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "fenerate",
+      "data-encoded-term": "fenerate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "refurnish": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "refurnish",
+      "data-encoded-term": "refurnish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "reappropriate": {
+      "data-frequency": "165",
+      "data-relevance": "50",
+      "data-term": "reappropriate",
+      "data-encoded-term": "reappropriate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "165",
+        "ol",
+        "1"
+      ]
+    },
+    "rediscount": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "rediscount",
+      "data-encoded-term": "rediscount",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "indebting": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "indebting",
+      "data-encoded-term": "indebting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "rehypothecate": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "rehypothecate",
+      "data-encoded-term": "rehypothecate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "amortise": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "amortise",
+      "data-encoded-term": "amortise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "reallocate": {
+      "data-frequency": "393",
+      "data-relevance": "45",
+      "data-term": "reallocate",
+      "data-encoded-term": "reallocate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "393",
+        "ol",
+        "1"
+      ]
+    },
+    "recapitalize": {
+      "data-frequency": "126",
+      "data-relevance": "44",
+      "data-term": "recapitalize",
+      "data-encoded-term": "recapitalize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "126",
+        "ol",
+        "1"
+      ]
+    },
+    "scrimp": {
+      "data-frequency": "45",
+      "data-relevance": "43",
+      "data-term": "scrimp",
+      "data-encoded-term": "scrimp",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "squirrelling": {
+      "data-frequency": "11875",
+      "data-relevance": "42",
+      "data-term": "squirrelling",
+      "data-encoded-term": "squirrelling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11875",
+        "ol",
+        "1"
+      ]
+    },
+    "upsize": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "upsize",
+      "data-encoded-term": "upsize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "prepay": {
+      "data-frequency": "119",
+      "data-relevance": "40",
+      "data-term": "prepay",
+      "data-encoded-term": "prepay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "119",
+        "ol",
+        "1"
+      ]
+    },
+    "misspend": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "misspend",
+      "data-encoded-term": "misspend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "outspend": {
+      "data-frequency": "40",
+      "data-relevance": "38",
+      "data-term": "outspend",
+      "data-encoded-term": "outspend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40",
+        "ol",
+        "1"
+      ]
+    },
+    "splurge": {
+      "data-frequency": "194",
+      "data-relevance": "37",
+      "data-term": "splurge",
+      "data-encoded-term": "splurge",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "194",
+        "ol",
+        "1"
+      ]
+    },
+    "overdraw": {
+      "data-frequency": "46",
+      "data-relevance": "36",
+      "data-term": "overdraw",
+      "data-encoded-term": "overdraw",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "downsize": {
+      "data-frequency": "583",
+      "data-relevance": "35",
+      "data-term": "downsize",
+      "data-encoded-term": "downsize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "583",
+        "ol",
+        "1"
+      ]
+    },
+    "reflate": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "reflate",
+      "data-encoded-term": "reflate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "repackage": {
+      "data-frequency": "563",
+      "data-relevance": "33",
+      "data-term": "repackage",
+      "data-encoded-term": "repackage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "563",
+        "w2v",
+        "1"
+      ]
+    },
+    "mismanage": {
+      "data-frequency": "40",
+      "data-relevance": "32",
+      "data-term": "mismanage",
+      "data-encoded-term": "mismanage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40",
+        "ol",
+        "1"
+      ]
+    },
+    "time loan": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "time loan",
+      "data-encoded-term": "time%20loan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "riskier": {
+      "data-frequency": "8812",
+      "data-relevance": "30",
+      "data-term": "riskier",
+      "data-encoded-term": "riskier",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8812",
+        "w2v",
+        "1"
+      ]
+    },
+    "car loan": {
+      "data-frequency": "82",
+      "data-relevance": "29",
+      "data-term": "car loan",
+      "data-encoded-term": "car%20loan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "debt instrument": {
+      "data-frequency": "66",
+      "data-relevance": "28",
+      "data-term": "debt instrument",
+      "data-encoded-term": "debt%20instrument",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "66",
+        "ol",
+        "1"
+      ]
+    },
+    "balloon payment": {
+      "data-frequency": "56",
+      "data-relevance": "27",
+      "data-term": "balloon payment",
+      "data-encoded-term": "balloon%20payment",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "soft loan": {
+      "data-frequency": "81",
+      "data-relevance": "26",
+      "data-term": "soft loan",
+      "data-encoded-term": "soft%20loan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "81",
+        "ol",
+        "1"
+      ]
+    },
+    "credit side": {
+      "data-frequency": "-1",
+      "data-relevance": "25",
+      "data-term": "credit side",
+      "data-encoded-term": "credit%20side",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "security interest": {
+      "data-frequency": "32122",
+      "data-relevance": "24",
+      "data-term": "security interest",
+      "data-encoded-term": "security%20interest",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "32122",
+        "ol",
+        "1"
+      ]
+    },
+    "bank rate": {
+      "data-frequency": "327",
+      "data-relevance": "23",
+      "data-term": "bank rate",
+      "data-encoded-term": "bank%20rate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "327",
+        "ol",
+        "1"
+      ]
+    },
+    "call loan": {
+      "data-frequency": "-1",
+      "data-relevance": "22",
+      "data-term": "call loan",
+      "data-encoded-term": "call%20loan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "print": {
+      "data-frequency": "138763",
+      "data-relevance": "21",
+      "data-term": "print",
+      "data-encoded-term": "print",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "138763",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "find": {
+      "data-frequency": "994220",
+      "data-relevance": "20",
+      "data-term": "find",
+      "data-encoded-term": "find",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "994220",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "still": {
+      "data-frequency": "642156",
+      "data-relevance": "19",
+      "data-term": "still",
+      "data-encoded-term": "still",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "642156",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lift": {
+      "data-frequency": "40579",
+      "data-relevance": "18",
+      "data-term": "lift",
+      "data-encoded-term": "lift",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "40579",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "catalog": {
+      "data-frequency": "103427",
+      "data-relevance": "17",
+      "data-term": "catalog",
+      "data-encoded-term": "catalog",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "103427",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ride": {
+      "data-frequency": "69623",
+      "data-relevance": "16",
+      "data-term": "ride",
+      "data-encoded-term": "ride",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "69623",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "incorporate": {
+      "data-frequency": "24430",
+      "data-relevance": "15",
+      "data-term": "incorporate",
+      "data-encoded-term": "incorporate",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "24430",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "contract": {
+      "data-frequency": "195622",
+      "data-relevance": "14",
+      "data-term": "contract",
+      "data-encoded-term": "contract",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "195622",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "return": {
+      "data-frequency": "355620",
+      "data-relevance": "13",
+      "data-term": "return",
+      "data-encoded-term": "return",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "355620",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "play": {
+      "data-frequency": "501433",
+      "data-relevance": "12",
+      "data-term": "play",
+      "data-encoded-term": "play",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "501433",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "inflation": {
+      "data-frequency": "19421",
+      "data-relevance": "11",
+      "data-term": "inflation",
+      "data-encoded-term": "inflation",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "19421",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "that": {
+      "data-frequency": "3048113",
+      "data-relevance": "10",
+      "data-term": "that",
+      "data-encoded-term": "that",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3048113",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "watch": {
+      "data-frequency": "161205",
+      "data-relevance": "9",
+      "data-term": "watch",
+      "data-encoded-term": "watch",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "161205",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "brows": {
+      "data-frequency": "476",
+      "data-relevance": "8",
+      "data-term": "brows",
+      "data-encoded-term": "brows",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "476",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bring": {
+      "data-frequency": "155548",
+      "data-relevance": "7",
+      "data-term": "bring",
+      "data-encoded-term": "bring",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "155548",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "extort": {
+      "data-frequency": "1673",
+      "data-relevance": "6",
+      "data-term": "extort",
+      "data-encoded-term": "extort",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1673",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "lender": {
+      "data-frequency": "2961",
+      "data-relevance": "5",
+      "data-term": "lender",
+      "data-encoded-term": "lender",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2961",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "create": {
+      "data-frequency": "215376",
+      "data-relevance": "4",
+      "data-term": "create",
+      "data-encoded-term": "create",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "215376",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "samples": {
+      "data-frequency": "33919",
+      "data-relevance": "3",
+      "data-term": "samples",
+      "data-encoded-term": "samples",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "33919",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "highjack": {
+      "data-frequency": "-1",
+      "data-relevance": "2",
+      "data-term": "highjack",
+      "data-encoded-term": "highjack",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "repurpose": {
+      "data-frequency": "310",
+      "data-relevance": "1",
+      "data-term": "repurpose",
+      "data-encoded-term": "repurpose",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "310",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "aquire": {
+      "data-frequency": "44",
+      "data-relevance": "0",
+      "data-term": "aquire",
+      "data-encoded-term": "aquire",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "44",
+        "reddit-slashes",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "borrow",
+      "borrowing",
+      "borrower",
+      "unborrowed"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "He borrowed a cup of sugar.",
+        "ru": "Он взял взаймы стакан сахара."
+      },
+      {
+        "en": "She borrowed $20 from me.",
+        "ru": "Она заняла у меня $20."
+      },
+      {
+        "en": "The word was borrowed from English.",
+        "ru": "Слово было заимствовано из английского языка."
+      },
+      {
+        "en": "I borrowed ten francs off him.",
+        "ru": "Я занял у него десять франков."
+      },
+      {
+        "en": "He borrowed the book from the library.",
+        "ru": "Он позаимствовал эту книгу из библиотеки."
+      },
+      {
+        "en": "We borrowed the car.",
+        "ru": "Мы одолжили эту машину."
+      },
+      {
+        "en": "The word was borrowed from English into German.",
+        "ru": "Слово было заимствовано из английского языка немецким."
+      },
+      {
+        "en": "Our neighbor borrowed my lawn mower.",
+        "ru": "Наш сосед взял у меня газонокосилку на время."
+      },
+      {
+        "en": "We paid back everything we had borrowed.",
+        "ru": "Мы выплатили всё, что взяли взаймы."
+      },
+      {
+        "en": "I borrowed the book from the school library.",
+        "ru": "Я взял эту книгу в школьной библиотеке."
+      },
+      {
+        "en": "He borrowed a craft to get across the river.",
+        "ru": "Чтобы перебраться через реку, он позаимствовал какую-то посудину."
+      },
+      {
+        "en": "My brother once borrowed some money off him.",
+        "ru": "Мой брат однажды занял у него денег."
+      },
+      {
+        "en": "English has borrowed words from many languages.",
+        "ru": "Английский язык позаимствовал слова из многих языков."
+      },
+      {
+        "en": "She borrowed the technique from local artisans.",
+        "ru": "Она позаимствовала этот приём у местных ремесленников."
+      },
+      {
+        "en": "'Steve stole it — or rather borrowed it,' he amended.",
+        "ru": "— Стив это украл — или, скорее, позаимствовал, — поправил себя он."
+      },
+      {
+        "en": "She's been living on borrowed time for the last year.",
+        "ru": "Она должна была умереть ещё год назад, но всё ещё жива. (live on borrowed time — зажиться на этом свете, доживать последние дни)"
+      },
+      {
+        "en": "Interest is only charged on the actual amount borrowed.",
+        "ru": "Проценты начисляются только на фактическую сумму кредита."
+      },
+      {
+        "en": "The Treasury borrowed £40 billion, just to stay afloat.",
+        "ru": "Казначейство заняло сорок миллиардов фунтов стерлингов, чтобы просто остаться на плаву."
+      },
+      {
+        "en": "They borrowed a page from the playbook of the opposition.",
+        "ru": "Они позаимствовали у оппозиции одну тактическую уловку. (букв. позаимствовали страницу из сборника тактических схем)"
+      },
+      {
+        "en": "He borrowed £150,000 and used the money for legal expenses.",
+        "ru": "Он одолжил сто пятьдесят тысяч фунтов стерлингов и пустил эти деньги на юридические расходы."
+      },
+      {
+        "en": "I borrowed my ideas from Eliot's famous poem 'The Waste Land'.",
+        "ru": "Я позаимствовал свои идеи из знаменитого стихотворения Элиота \"Пустошь\"."
+      },
+      {
+        "en": "Steve borrowed his dad's sports car to impress his girlfriend.",
+        "ru": "Стив одолжил папину спортивную машину, чтобы произвести впечатление на свою девушку."
+      },
+      {
+        "en": "This prefix was subtracted when the word was borrowed from French.",
+        "ru": "Когда данное слово позаимствовали из французского языка, эта приставка отпала."
+      },
+      {
+        "en": "The speech was peppered with phrases borrowed from Winston Churchill.",
+        "ru": "Речь была щедро сдобрена фразами, позаимствованными у Уинстона Черчилля."
+      },
+      {
+        "en": "John picked us up in his car, or rather his dad's car which he'd borrowed.",
+        "ru": "Джон посадил нас в свою машину, или точнее, в автомобиль своего отца, который он у него позаимствовал."
+      },
+      {
+        "en": "They borrowed heavily (=borrowed a lot of money) from the bank to start their new business.",
+        "ru": "Они взяли огромную сумму (т.е. заняли много денег) в банке, чтобы начать свой новый бизнес."
+      },
+      {
+        "en": "During the party we ran short of tableware, so I went next door and borrowed some forks and knives.",
+        "ru": "Во время вечеринки у нас не хватило посуды, поэтому я пошла к соседям и взяла взаймы несколько ножей и вилок."
+      },
+      {
+        "en": "Without more ado Barker borrowed a knife from his brigade Major and honed it on a carborundum stone as coolly as a butcher.",
+        "ru": "Без дальнейших церемоний, Баркер одолжил нож у своего бригадного майора, и заточил его на карборундовом камне с хладнокровием мясника."
+      }
+    ]
+  },
+  "important_word": {
+    "word_forms": [
+      "borrow"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "borrowing",
+      "borrower",
+      "borrow",
+      "unborrowed"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "stolen",
+      "lending",
+      "modification",
+      "appropriation",
+      "loan",
+      "unborrowed",
+      "buy",
+      "repay",
+      "raise",
+      "stole",
+      "pay",
+      "lend",
+      "borrow",
+      "take"
+    ]
+  }
+}

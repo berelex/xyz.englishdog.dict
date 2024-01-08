@@ -1,0 +1,2921 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "intensionally": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/intensionally/r/,/c/en/intensional/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/intensionally/r",
+          "@type": "Node",
+          "label": "intensionally",
+          "language": "en",
+          "sense_label": "r",
+          "term": "/c/en/intensionally"
+        },
+        "end": {
+          "@id": "/c/en/intensional",
+          "@type": "Node",
+          "label": "intensional",
+          "language": "en",
+          "term": "/c/en/intensional"
+        }
+      },
+      "extensional": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/extensional/a/,/c/en/intensional/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/extensional/a",
+          "@type": "Node",
+          "label": "extensional",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/extensional"
+        },
+        "end": {
+          "@id": "/c/en/intensional",
+          "@type": "Node",
+          "label": "intensional",
+          "language": "en",
+          "term": "/c/en/intensional"
+        }
+      },
+      "intension": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/intensional/a/,/c/en/intension/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/intensional/a",
+          "@type": "Node",
+          "label": "intensional",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/intensional"
+        },
+        "end": {
+          "@id": "/c/en/intension",
+          "@type": "Node",
+          "label": "intension",
+          "language": "en",
+          "term": "/c/en/intension"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {
+      "extensional": {
+        "@id": "/a/[/r/Antonym/,/c/en/intensional/a/,/c/en/extensional/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/intensional/a",
+          "@type": "Node",
+          "label": "intensional",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/intensional"
+        },
+        "end": {
+          "@id": "/c/en/extensional",
+          "@type": "Node",
+          "label": "extensional",
+          "language": "en",
+          "term": "/c/en/extensional"
+        }
+      }
+    },
+    "similar_terms": {
+      "connotative": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/intensional/a/wn/logic/,/c/en/connotative/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/intensional/a/wn/logic",
+          "@type": "Node",
+          "label": "intensional",
+          "language": "en",
+          "sense_label": "a, logic",
+          "term": "/c/en/intensional"
+        },
+        "end": {
+          "@id": "/c/en/connotative/a/wn",
+          "@type": "Node",
+          "label": "connotative",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/connotative"
+        }
+      }
+    },
+    "word_forms": {}
+  },
+  "relatedwords": {
+    "extensional": {
+      "data-frequency": "669",
+      "data-relevance": "197",
+      "data-term": "extensional",
+      "data-encoded-term": "extensional",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "669",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "connotative": {
+      "data-frequency": "95",
+      "data-relevance": "196",
+      "data-term": "connotative",
+      "data-encoded-term": "connotative",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "95",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "equational": {
+      "data-frequency": "24409",
+      "data-relevance": "195",
+      "data-term": "equational",
+      "data-encoded-term": "equational",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "24409",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "deontic": {
+      "data-frequency": "103",
+      "data-relevance": "194",
+      "data-term": "deontic",
+      "data-encoded-term": "deontic",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "103",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "sentential": {
+      "data-frequency": "211",
+      "data-relevance": "193",
+      "data-term": "sentential",
+      "data-encoded-term": "sentential",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "211",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "intension": {
+      "data-frequency": "227",
+      "data-relevance": "192",
+      "data-term": "intension",
+      "data-encoded-term": "intension",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "227",
+        "wiki",
+        "1"
+      ]
+    },
+    "logic": {
+      "data-frequency": "34468",
+      "data-relevance": "191",
+      "data-term": "logic",
+      "data-encoded-term": "logic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "34468",
+        "wn",
+        "1"
+      ]
+    },
+    "isotropic": {
+      "data-frequency": "1523",
+      "data-relevance": "190",
+      "data-term": "isotropic",
+      "data-encoded-term": "isotropic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1523",
+        "w2v",
+        "1"
+      ]
+    },
+    "undefinable": {
+      "data-frequency": "125",
+      "data-relevance": "189",
+      "data-term": "undefinable",
+      "data-encoded-term": "undefinable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "125",
+        "w2v",
+        "1"
+      ]
+    },
+    "ferromagnetic": {
+      "data-frequency": "723",
+      "data-relevance": "188",
+      "data-term": "ferromagnetic",
+      "data-encoded-term": "ferromagnetic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "723",
+        "w2v",
+        "1"
+      ]
+    },
+    "accoutrement": {
+      "data-frequency": "74",
+      "data-relevance": "187",
+      "data-term": "accoutrement",
+      "data-encoded-term": "accoutrement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "74",
+        "w2v",
+        "1"
+      ]
+    },
+    "rpc": {
+      "data-frequency": "1695",
+      "data-relevance": "186",
+      "data-term": "rpc",
+      "data-encoded-term": "rpc",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1695",
+        "w2v",
+        "1"
+      ]
+    },
+    "anisotropic": {
+      "data-frequency": "1463",
+      "data-relevance": "185",
+      "data-term": "anisotropic",
+      "data-encoded-term": "anisotropic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1463",
+        "w2v",
+        "1"
+      ]
+    },
+    "wideband": {
+      "data-frequency": "843",
+      "data-relevance": "184",
+      "data-term": "wideband",
+      "data-encoded-term": "wideband",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "843",
+        "w2v",
+        "1"
+      ]
+    },
+    "finitary": {
+      "data-frequency": "107",
+      "data-relevance": "183",
+      "data-term": "finitary",
+      "data-encoded-term": "finitary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "107",
+        "w2v",
+        "1"
+      ]
+    },
+    "unalterable": {
+      "data-frequency": "256",
+      "data-relevance": "182",
+      "data-term": "unalterable",
+      "data-encoded-term": "unalterable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "256",
+        "w2v",
+        "1"
+      ]
+    },
+    "adjudicative": {
+      "data-frequency": "129",
+      "data-relevance": "181",
+      "data-term": "adjudicative",
+      "data-encoded-term": "adjudicative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "129",
+        "w2v",
+        "1"
+      ]
+    },
+    "provability": {
+      "data-frequency": "857",
+      "data-relevance": "180",
+      "data-term": "provability",
+      "data-encoded-term": "provability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "857",
+        "w2v",
+        "1"
+      ]
+    },
+    "xml-based": {
+      "data-frequency": "816",
+      "data-relevance": "179",
+      "data-term": "xml-based",
+      "data-encoded-term": "xml-based",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "816",
+        "w2v",
+        "1"
+      ]
+    },
+    "ahistorical": {
+      "data-frequency": "328",
+      "data-relevance": "178",
+      "data-term": "ahistorical",
+      "data-encoded-term": "ahistorical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "328",
+        "w2v",
+        "1"
+      ]
+    },
+    "immunomodulator": {
+      "data-frequency": "98",
+      "data-relevance": "177",
+      "data-term": "immunomodulator",
+      "data-encoded-term": "immunomodulator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98",
+        "w2v",
+        "1"
+      ]
+    },
+    "diegetic": {
+      "data-frequency": "213",
+      "data-relevance": "176",
+      "data-term": "diegetic",
+      "data-encoded-term": "diegetic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "213",
+        "w2v",
+        "1"
+      ]
+    },
+    "c-algebras": {
+      "data-frequency": "9907",
+      "data-relevance": "175",
+      "data-term": "c-algebras",
+      "data-encoded-term": "c-algebras",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9907",
+        "w2v",
+        "1"
+      ]
+    },
+    "afci": {
+      "data-frequency": "63",
+      "data-relevance": "174",
+      "data-term": "afci",
+      "data-encoded-term": "afci",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "63",
+        "w2v",
+        "1"
+      ]
+    },
+    "1h24": {
+      "data-frequency": "-1",
+      "data-relevance": "173",
+      "data-term": "1h24",
+      "data-encoded-term": "1h24",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "isolator": {
+      "data-frequency": "226",
+      "data-relevance": "172",
+      "data-term": "isolator",
+      "data-encoded-term": "isolator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "226",
+        "w2v",
+        "1"
+      ]
+    },
+    "etn": {
+      "data-frequency": "321",
+      "data-relevance": "171",
+      "data-term": "etn",
+      "data-encoded-term": "etn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "321",
+        "w2v",
+        "1"
+      ]
+    },
+    "sensory-motor": {
+      "data-frequency": "2256",
+      "data-relevance": "170",
+      "data-term": "sensory-motor",
+      "data-encoded-term": "sensory-motor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2256",
+        "w2v",
+        "1"
+      ]
+    },
+    "foundationalism": {
+      "data-frequency": "638",
+      "data-relevance": "169",
+      "data-term": "foundationalism",
+      "data-encoded-term": "foundationalism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "638",
+        "w2v",
+        "1"
+      ]
+    },
+    "individual-level": {
+      "data-frequency": "91038",
+      "data-relevance": "168",
+      "data-term": "individual-level",
+      "data-encoded-term": "individual-level",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "91038",
+        "w2v",
+        "1"
+      ]
+    },
+    "essentialism": {
+      "data-frequency": "502",
+      "data-relevance": "167",
+      "data-term": "essentialism",
+      "data-encoded-term": "essentialism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "502",
+        "w2v",
+        "1"
+      ]
+    },
+    "metatheory": {
+      "data-frequency": "170",
+      "data-relevance": "166",
+      "data-term": "metatheory",
+      "data-encoded-term": "metatheory",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "170",
+        "w2v",
+        "1"
+      ]
+    },
+    "involutive": {
+      "data-frequency": "90",
+      "data-relevance": "165",
+      "data-term": "involutive",
+      "data-encoded-term": "involutive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "90",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-perturbative": {
+      "data-frequency": "192",
+      "data-relevance": "164",
+      "data-term": "non-perturbative",
+      "data-encoded-term": "non-perturbative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "192",
+        "w2v",
+        "1"
+      ]
+    },
+    "wagiman": {
+      "data-frequency": "313",
+      "data-relevance": "163",
+      "data-term": "wagiman",
+      "data-encoded-term": "wagiman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "313",
+        "w2v",
+        "1"
+      ]
+    },
+    "802.15.4": {
+      "data-frequency": "138",
+      "data-relevance": "162",
+      "data-term": "802.15.4",
+      "data-encoded-term": "802.15.4",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "138",
+        "w2v",
+        "1"
+      ]
+    },
+    "iframe": {
+      "data-frequency": "326",
+      "data-relevance": "161",
+      "data-term": "iframe",
+      "data-encoded-term": "iframe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "326",
+        "w2v",
+        "1"
+      ]
+    },
+    "intertype": {
+      "data-frequency": "66",
+      "data-relevance": "160",
+      "data-term": "intertype",
+      "data-encoded-term": "intertype",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66",
+        "w2v",
+        "1"
+      ]
+    },
+    "unobservable": {
+      "data-frequency": "340",
+      "data-relevance": "159",
+      "data-term": "unobservable",
+      "data-encoded-term": "unobservable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "340",
+        "w2v",
+        "1"
+      ]
+    },
+    "unconscionability": {
+      "data-frequency": "568",
+      "data-relevance": "158",
+      "data-term": "unconscionability",
+      "data-encoded-term": "unconscionability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "568",
+        "w2v",
+        "1"
+      ]
+    },
+    "paramatman": {
+      "data-frequency": "210",
+      "data-relevance": "157",
+      "data-term": "paramatman",
+      "data-encoded-term": "paramatman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "210",
+        "w2v",
+        "1"
+      ]
+    },
+    "declinations": {
+      "data-frequency": "8695",
+      "data-relevance": "156",
+      "data-term": "declinations",
+      "data-encoded-term": "declinations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8695",
+        "w2v",
+        "1"
+      ]
+    },
+    "truth-functional": {
+      "data-frequency": "2183",
+      "data-relevance": "155",
+      "data-term": "truth-functional",
+      "data-encoded-term": "truth-functional",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2183",
+        "w2v",
+        "1"
+      ]
+    },
+    "ideational": {
+      "data-frequency": "150",
+      "data-relevance": "154",
+      "data-term": "ideational",
+      "data-encoded-term": "ideational",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "multi-valued": {
+      "data-frequency": "150",
+      "data-relevance": "153",
+      "data-term": "multi-valued",
+      "data-encoded-term": "multi-valued",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "150",
+        "w2v",
+        "1"
+      ]
+    },
+    "infinitary": {
+      "data-frequency": "105",
+      "data-relevance": "152",
+      "data-term": "infinitary",
+      "data-encoded-term": "infinitary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "105",
+        "w2v",
+        "1"
+      ]
+    },
+    "intersubjective": {
+      "data-frequency": "448",
+      "data-relevance": "151",
+      "data-term": "intersubjective",
+      "data-encoded-term": "intersubjective",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "448",
+        "w2v",
+        "1"
+      ]
+    },
+    "unreferenced": {
+      "data-frequency": "3792",
+      "data-relevance": "150",
+      "data-term": "unreferenced",
+      "data-encoded-term": "unreferenced",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3792",
+        "w2v",
+        "1"
+      ]
+    },
+    "dispositive": {
+      "data-frequency": "149",
+      "data-relevance": "149",
+      "data-term": "dispositive",
+      "data-encoded-term": "dispositive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "149",
+        "w2v",
+        "1"
+      ]
+    },
+    "mbn": {
+      "data-frequency": "1663",
+      "data-relevance": "148",
+      "data-term": "mbn",
+      "data-encoded-term": "mbn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1663",
+        "w2v",
+        "1"
+      ]
+    },
+    "mayapuri": {
+      "data-frequency": "320",
+      "data-relevance": "147",
+      "data-term": "mayapuri",
+      "data-encoded-term": "mayapuri",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "320",
+        "w2v",
+        "1"
+      ]
+    },
+    "polarizability": {
+      "data-frequency": "5405",
+      "data-relevance": "146",
+      "data-term": "polarizability",
+      "data-encoded-term": "polarizability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5405",
+        "w2v",
+        "1"
+      ]
+    },
+    "icalendar": {
+      "data-frequency": "100",
+      "data-relevance": "145",
+      "data-term": "icalendar",
+      "data-encoded-term": "icalendar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "100",
+        "w2v",
+        "1"
+      ]
+    },
+    "ctla-4": {
+      "data-frequency": "132",
+      "data-relevance": "144",
+      "data-term": "ctla-4",
+      "data-encoded-term": "ctla-4",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "132",
+        "w2v",
+        "1"
+      ]
+    },
+    "syncretistic": {
+      "data-frequency": "251",
+      "data-relevance": "143",
+      "data-term": "syncretistic",
+      "data-encoded-term": "syncretistic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "251",
+        "w2v",
+        "1"
+      ]
+    },
+    "oligopoly": {
+      "data-frequency": "555",
+      "data-relevance": "142",
+      "data-term": "oligopoly",
+      "data-encoded-term": "oligopoly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "555",
+        "w2v",
+        "1"
+      ]
+    },
+    "nichrome": {
+      "data-frequency": "82",
+      "data-relevance": "141",
+      "data-term": "nichrome",
+      "data-encoded-term": "nichrome",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-conducting": {
+      "data-frequency": "65016",
+      "data-relevance": "140",
+      "data-term": "non-conducting",
+      "data-encoded-term": "non-conducting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "65016",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-organized": {
+      "data-frequency": "21413",
+      "data-relevance": "139",
+      "data-term": "self-organized",
+      "data-encoded-term": "self-organized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21413",
+        "w2v",
+        "1"
+      ]
+    },
+    "n-type": {
+      "data-frequency": "335005",
+      "data-relevance": "138",
+      "data-term": "n-type",
+      "data-encoded-term": "n-type",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "335005",
+        "w2v",
+        "1"
+      ]
+    },
+    "mereology": {
+      "data-frequency": "65",
+      "data-relevance": "137",
+      "data-term": "mereology",
+      "data-encoded-term": "mereology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "65",
+        "w2v",
+        "1"
+      ]
+    },
+    "ekphrasis": {
+      "data-frequency": "125",
+      "data-relevance": "136",
+      "data-term": "ekphrasis",
+      "data-encoded-term": "ekphrasis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "125",
+        "w2v",
+        "1"
+      ]
+    },
+    "vsm": {
+      "data-frequency": "558",
+      "data-relevance": "135",
+      "data-term": "vsm",
+      "data-encoded-term": "vsm",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "558",
+        "w2v",
+        "1"
+      ]
+    },
+    "idempotent": {
+      "data-frequency": "325",
+      "data-relevance": "134",
+      "data-term": "idempotent",
+      "data-encoded-term": "idempotent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "325",
+        "w2v",
+        "1"
+      ]
+    },
+    "saucier": {
+      "data-frequency": "2118",
+      "data-relevance": "133",
+      "data-term": "saucier",
+      "data-encoded-term": "saucier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2118",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-theistic": {
+      "data-frequency": "659",
+      "data-relevance": "132",
+      "data-term": "non-theistic",
+      "data-encoded-term": "non-theistic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "659",
+        "w2v",
+        "1"
+      ]
+    },
+    "576i": {
+      "data-frequency": "5669",
+      "data-relevance": "131",
+      "data-term": "576i",
+      "data-encoded-term": "576i",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5669",
+        "w2v",
+        "1"
+      ]
+    },
+    "o-methylated": {
+      "data-frequency": "1019",
+      "data-relevance": "130",
+      "data-term": "o-methylated",
+      "data-encoded-term": "o-methylated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1019",
+        "w2v",
+        "1"
+      ]
+    },
+    "subzone": {
+      "data-frequency": "382",
+      "data-relevance": "129",
+      "data-term": "subzone",
+      "data-encoded-term": "subzone",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382",
+        "w2v",
+        "1"
+      ]
+    },
+    "zigbee": {
+      "data-frequency": "174",
+      "data-relevance": "128",
+      "data-term": "zigbee",
+      "data-encoded-term": "zigbee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "174",
+        "w2v",
+        "1"
+      ]
+    },
+    "mereological": {
+      "data-frequency": "46",
+      "data-relevance": "127",
+      "data-term": "mereological",
+      "data-encoded-term": "mereological",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "w2v",
+        "1"
+      ]
+    },
+    "advertorial": {
+      "data-frequency": "186",
+      "data-relevance": "126",
+      "data-term": "advertorial",
+      "data-encoded-term": "advertorial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "186",
+        "w2v",
+        "1"
+      ]
+    },
+    "agglutinating": {
+      "data-frequency": "316",
+      "data-relevance": "125",
+      "data-term": "agglutinating",
+      "data-encoded-term": "agglutinating",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "316",
+        "w2v",
+        "1"
+      ]
+    },
+    "stepless": {
+      "data-frequency": "114",
+      "data-relevance": "124",
+      "data-term": "stepless",
+      "data-encoded-term": "stepless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "114",
+        "w2v",
+        "1"
+      ]
+    },
+    "worldbeat": {
+      "data-frequency": "423",
+      "data-relevance": "123",
+      "data-term": "worldbeat",
+      "data-encoded-term": "worldbeat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "423",
+        "w2v",
+        "1"
+      ]
+    },
+    "narrowcasting": {
+      "data-frequency": "191",
+      "data-relevance": "122",
+      "data-term": "narrowcasting",
+      "data-encoded-term": "narrowcasting",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "191",
+        "w2v",
+        "1"
+      ]
+    },
+    "emersonian": {
+      "data-frequency": "46",
+      "data-relevance": "121",
+      "data-term": "emersonian",
+      "data-encoded-term": "emersonian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "w2v",
+        "1"
+      ]
+    },
+    "avb": {
+      "data-frequency": "274",
+      "data-relevance": "120",
+      "data-term": "avb",
+      "data-encoded-term": "avb",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "274",
+        "w2v",
+        "1"
+      ]
+    },
+    "kosli": {
+      "data-frequency": "465",
+      "data-relevance": "119",
+      "data-term": "kosli",
+      "data-encoded-term": "kosli",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "465",
+        "w2v",
+        "1"
+      ]
+    },
+    "tissue-specific": {
+      "data-frequency": "12286",
+      "data-relevance": "118",
+      "data-term": "tissue-specific",
+      "data-encoded-term": "tissue-specific",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12286",
+        "w2v",
+        "1"
+      ]
+    },
+    "fdm": {
+      "data-frequency": "575",
+      "data-relevance": "117",
+      "data-term": "fdm",
+      "data-encoded-term": "fdm",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "575",
+        "w2v",
+        "1"
+      ]
+    },
+    "metalanguage": {
+      "data-frequency": "323",
+      "data-relevance": "116",
+      "data-term": "metalanguage",
+      "data-encoded-term": "metalanguage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "323",
+        "w2v",
+        "1"
+      ]
+    },
+    "spectatorship": {
+      "data-frequency": "202",
+      "data-relevance": "115",
+      "data-term": "spectatorship",
+      "data-encoded-term": "spectatorship",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "202",
+        "w2v",
+        "1"
+      ]
+    },
+    "aafes": {
+      "data-frequency": "256",
+      "data-relevance": "114",
+      "data-term": "aafes",
+      "data-encoded-term": "aafes",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "256",
+        "w2v",
+        "1"
+      ]
+    },
+    "blg": {
+      "data-frequency": "416",
+      "data-relevance": "113",
+      "data-term": "blg",
+      "data-encoded-term": "blg",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "416",
+        "w2v",
+        "1"
+      ]
+    },
+    "electrocardiograph": {
+      "data-frequency": "70",
+      "data-relevance": "112",
+      "data-term": "electrocardiograph",
+      "data-encoded-term": "electrocardiograph",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "70",
+        "w2v",
+        "1"
+      ]
+    },
+    "narratology": {
+      "data-frequency": "311",
+      "data-relevance": "111",
+      "data-term": "narratology",
+      "data-encoded-term": "narratology",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "311",
+        "w2v",
+        "1"
+      ]
+    },
+    "unsatisfiable": {
+      "data-frequency": "54",
+      "data-relevance": "110",
+      "data-term": "unsatisfiable",
+      "data-encoded-term": "unsatisfiable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "54",
+        "w2v",
+        "1"
+      ]
+    },
+    "bossism": {
+      "data-frequency": "90",
+      "data-relevance": "109",
+      "data-term": "bossism",
+      "data-encoded-term": "bossism",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "90",
+        "w2v",
+        "1"
+      ]
+    },
+    "clay-like": {
+      "data-frequency": "18908",
+      "data-relevance": "108",
+      "data-term": "clay-like",
+      "data-encoded-term": "clay-like",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18908",
+        "w2v",
+        "1"
+      ]
+    },
+    "paraconsistent": {
+      "data-frequency": "84",
+      "data-relevance": "107",
+      "data-term": "paraconsistent",
+      "data-encoded-term": "paraconsistent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "84",
+        "w2v",
+        "1"
+      ]
+    },
+    "ybco": {
+      "data-frequency": "65",
+      "data-relevance": "106",
+      "data-term": "ybco",
+      "data-encoded-term": "ybco",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65",
+        "w2v",
+        "1"
+      ]
+    },
+    "austrian-german": {
+      "data-frequency": "123991",
+      "data-relevance": "105",
+      "data-term": "austrian-german",
+      "data-encoded-term": "austrian-german",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "123991",
+        "w2v",
+        "1"
+      ]
+    },
+    "temperature-dependent": {
+      "data-frequency": "7038",
+      "data-relevance": "104",
+      "data-term": "temperature-dependent",
+      "data-encoded-term": "temperature-dependent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7038",
+        "w2v",
+        "1"
+      ]
+    },
+    "airburst": {
+      "data-frequency": "239",
+      "data-relevance": "103",
+      "data-term": "airburst",
+      "data-encoded-term": "airburst",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "239",
+        "w2v",
+        "1"
+      ]
+    },
+    "archaism": {
+      "data-frequency": "244",
+      "data-relevance": "102",
+      "data-term": "archaism",
+      "data-encoded-term": "archaism",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "244",
+        "w2v",
+        "1"
+      ]
+    },
+    "banatski": {
+      "data-frequency": "147",
+      "data-relevance": "101",
+      "data-term": "banatski",
+      "data-encoded-term": "banatski",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "147",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-interactive": {
+      "data-frequency": "35555",
+      "data-relevance": "100",
+      "data-term": "non-interactive",
+      "data-encoded-term": "non-interactive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "35555",
+        "w2v",
+        "1"
+      ]
+    },
+    "indiscrete": {
+      "data-frequency": "87",
+      "data-relevance": "99",
+      "data-term": "indiscrete",
+      "data-encoded-term": "indiscrete",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "87",
+        "w2v",
+        "1"
+      ]
+    },
+    "hme": {
+      "data-frequency": "368",
+      "data-relevance": "98",
+      "data-term": "hme",
+      "data-encoded-term": "hme",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "368",
+        "w2v",
+        "1"
+      ]
+    },
+    "left-right": {
+      "data-frequency": "3206",
+      "data-relevance": "97",
+      "data-term": "left-right",
+      "data-encoded-term": "left-right",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3206",
+        "w2v",
+        "1"
+      ]
+    },
+    "an/tps": {
+      "data-frequency": "2121",
+      "data-relevance": "96",
+      "data-term": "an/tps",
+      "data-encoded-term": "an%2Ftps",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2121",
+        "w2v",
+        "1"
+      ]
+    },
+    "intuitionistic": {
+      "data-frequency": "260",
+      "data-relevance": "95",
+      "data-term": "intuitionistic",
+      "data-encoded-term": "intuitionistic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "260",
+        "ol",
+        "1"
+      ]
+    },
+    "internet-enabled": {
+      "data-frequency": "14207",
+      "data-relevance": "94",
+      "data-term": "internet-enabled",
+      "data-encoded-term": "internet-enabled",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14207",
+        "w2v",
+        "1"
+      ]
+    },
+    "ontological": {
+      "data-frequency": "2002",
+      "data-relevance": "93",
+      "data-term": "ontological",
+      "data-encoded-term": "ontological",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2002",
+        "ol",
+        "1"
+      ]
+    },
+    "semantic": {
+      "data-frequency": "7136",
+      "data-relevance": "92",
+      "data-term": "semantic",
+      "data-encoded-term": "semantic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7136",
+        "ol",
+        "1"
+      ]
+    },
+    "transitive": {
+      "data-frequency": "2336",
+      "data-relevance": "91",
+      "data-term": "transitive",
+      "data-encoded-term": "transitive",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2336",
+        "ol",
+        "1"
+      ]
+    },
+    "propositional": {
+      "data-frequency": "848",
+      "data-relevance": "90",
+      "data-term": "propositional",
+      "data-encoded-term": "propositional",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "848",
+        "ol",
+        "1"
+      ]
+    },
+    "decidable": {
+      "data-frequency": "310",
+      "data-relevance": "89",
+      "data-term": "decidable",
+      "data-encoded-term": "decidable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "310",
+        "ol",
+        "1"
+      ]
+    },
+    "epistemic": {
+      "data-frequency": "923",
+      "data-relevance": "88",
+      "data-term": "epistemic",
+      "data-encoded-term": "epistemic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "923",
+        "ol",
+        "1"
+      ]
+    },
+    "syntactic": {
+      "data-frequency": "2527",
+      "data-relevance": "87",
+      "data-term": "syntactic",
+      "data-encoded-term": "syntactic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2527",
+        "ol",
+        "1"
+      ]
+    },
+    "normative": {
+      "data-frequency": "4218",
+      "data-relevance": "86",
+      "data-term": "normative",
+      "data-encoded-term": "normative",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4218",
+        "ol",
+        "1"
+      ]
+    },
+    "ergative": {
+      "data-frequency": "551",
+      "data-relevance": "85",
+      "data-term": "ergative",
+      "data-encoded-term": "ergative",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "551",
+        "ol",
+        "1"
+      ]
+    },
+    "theoretic": {
+      "data-frequency": "2524",
+      "data-relevance": "84",
+      "data-term": "theoretic",
+      "data-encoded-term": "theoretic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2524",
+        "ol",
+        "1"
+      ]
+    },
+    "lexical": {
+      "data-frequency": "4652",
+      "data-relevance": "83",
+      "data-term": "lexical",
+      "data-encoded-term": "lexical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4652",
+        "ol",
+        "1"
+      ]
+    },
+    "reflexive": {
+      "data-frequency": "2305",
+      "data-relevance": "82",
+      "data-term": "reflexive",
+      "data-encoded-term": "reflexive",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2305",
+        "ol",
+        "1"
+      ]
+    },
+    "inferential": {
+      "data-frequency": "379",
+      "data-relevance": "81",
+      "data-term": "inferential",
+      "data-encoded-term": "inferential",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "379",
+        "ol",
+        "1"
+      ]
+    },
+    "probabilistic": {
+      "data-frequency": "3385",
+      "data-relevance": "80",
+      "data-term": "probabilistic",
+      "data-encoded-term": "probabilistic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3385",
+        "ol",
+        "1"
+      ]
+    },
+    "referential": {
+      "data-frequency": "1534",
+      "data-relevance": "79",
+      "data-term": "referential",
+      "data-encoded-term": "referential",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1534",
+        "ol",
+        "1"
+      ]
+    },
+    "axiomatic": {
+      "data-frequency": "1234",
+      "data-relevance": "78",
+      "data-term": "axiomatic",
+      "data-encoded-term": "axiomatic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1234",
+        "ol",
+        "1"
+      ]
+    },
+    "intransitive": {
+      "data-frequency": "933",
+      "data-relevance": "77",
+      "data-term": "intransitive",
+      "data-encoded-term": "intransitive",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "933",
+        "ol",
+        "1"
+      ]
+    },
+    "unary": {
+      "data-frequency": "504",
+      "data-relevance": "76",
+      "data-term": "unary",
+      "data-encoded-term": "unary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "504",
+        "ol",
+        "1"
+      ]
+    },
+    "teleological": {
+      "data-frequency": "705",
+      "data-relevance": "75",
+      "data-term": "teleological",
+      "data-encoded-term": "teleological",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "705",
+        "ol",
+        "1"
+      ]
+    },
+    "declarative": {
+      "data-frequency": "1582",
+      "data-relevance": "74",
+      "data-term": "declarative",
+      "data-encoded-term": "declarative",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1582",
+        "ol",
+        "1"
+      ]
+    },
+    "syntactical": {
+      "data-frequency": "509",
+      "data-relevance": "73",
+      "data-term": "syntactical",
+      "data-encoded-term": "syntactical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "509",
+        "ol",
+        "1"
+      ]
+    },
+    "logical": {
+      "data-frequency": "16834",
+      "data-relevance": "72",
+      "data-term": "logical",
+      "data-encoded-term": "logical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "16834",
+        "ol",
+        "1"
+      ]
+    },
+    "semiotic": {
+      "data-frequency": "1061",
+      "data-relevance": "71",
+      "data-term": "semiotic",
+      "data-encoded-term": "semiotic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1061",
+        "ol",
+        "1"
+      ]
+    },
+    "syllogistic": {
+      "data-frequency": "167",
+      "data-relevance": "70",
+      "data-term": "syllogistic",
+      "data-encoded-term": "syllogistic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "167",
+        "ol",
+        "1"
+      ]
+    },
+    "analogical": {
+      "data-frequency": "21036",
+      "data-relevance": "69",
+      "data-term": "analogical",
+      "data-encoded-term": "analogical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "21036",
+        "ol",
+        "1"
+      ]
+    },
+    "epistemological": {
+      "data-frequency": "1778",
+      "data-relevance": "68",
+      "data-term": "epistemological",
+      "data-encoded-term": "epistemological",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1778",
+        "ol",
+        "1"
+      ]
+    },
+    "semasiological": {
+      "data-frequency": "-1",
+      "data-relevance": "67",
+      "data-term": "semasiological",
+      "data-encoded-term": "semasiological",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "quantifier": {
+      "data-frequency": "570",
+      "data-relevance": "66",
+      "data-term": "quantifier",
+      "data-encoded-term": "quantifier",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "570",
+        "ol",
+        "1"
+      ]
+    },
+    "categorematic": {
+      "data-frequency": "-1",
+      "data-relevance": "65",
+      "data-term": "categorematic",
+      "data-encoded-term": "categorematic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "syncategorematic": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "syncategorematic",
+      "data-encoded-term": "syncategorematic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "holonymy": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "holonymy",
+      "data-encoded-term": "holonymy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "autological": {
+      "data-frequency": "55",
+      "data-relevance": "62",
+      "data-term": "autological",
+      "data-encoded-term": "autological",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "55",
+        "ol",
+        "1"
+      ]
+    },
+    "categorial": {
+      "data-frequency": "131",
+      "data-relevance": "61",
+      "data-term": "categorial",
+      "data-encoded-term": "categorial",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "131",
+        "ol",
+        "1"
+      ]
+    },
+    "monadic": {
+      "data-frequency": "206",
+      "data-relevance": "60",
+      "data-term": "monadic",
+      "data-encoded-term": "monadic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "206",
+        "ol",
+        "1"
+      ]
+    },
+    "nonnormative": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "nonnormative",
+      "data-encoded-term": "nonnormative",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "intrasentential": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "intrasentential",
+      "data-encoded-term": "intrasentential",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "axiomatical": {
+      "data-frequency": "1155",
+      "data-relevance": "57",
+      "data-term": "axiomatical",
+      "data-encoded-term": "axiomatical",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1155",
+        "ol",
+        "1"
+      ]
+    },
+    "nonlogical": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "nonlogical",
+      "data-encoded-term": "nonlogical",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "nonstative": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "nonstative",
+      "data-encoded-term": "nonstative",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "endocentric": {
+      "data-frequency": "-1",
+      "data-relevance": "54",
+      "data-term": "endocentric",
+      "data-encoded-term": "endocentric",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "coreferential": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "coreferential",
+      "data-encoded-term": "coreferential",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "predicative": {
+      "data-frequency": "382",
+      "data-relevance": "52",
+      "data-term": "predicative",
+      "data-encoded-term": "predicative",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "382",
+        "ol",
+        "1"
+      ]
+    },
+    "metalinguistic": {
+      "data-frequency": "85",
+      "data-relevance": "51",
+      "data-term": "metalinguistic",
+      "data-encoded-term": "metalinguistic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "85",
+        "ol",
+        "1"
+      ]
+    },
+    "aspectual": {
+      "data-frequency": "204",
+      "data-relevance": "50",
+      "data-term": "aspectual",
+      "data-encoded-term": "aspectual",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "204",
+        "ol",
+        "1"
+      ]
+    },
+    "aoristic": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "aoristic",
+      "data-encoded-term": "aoristic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "nonmonotonic": {
+      "data-frequency": "70",
+      "data-relevance": "48",
+      "data-term": "nonmonotonic",
+      "data-encoded-term": "nonmonotonic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "70",
+        "ol",
+        "1"
+      ]
+    },
+    "overlogical": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "overlogical",
+      "data-encoded-term": "overlogical",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "deductive": {
+      "data-frequency": "1386",
+      "data-relevance": "46",
+      "data-term": "deductive",
+      "data-encoded-term": "deductive",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1386",
+        "ol",
+        "1"
+      ]
+    },
+    "connotational": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "connotational",
+      "data-encoded-term": "connotational",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "stative": {
+      "data-frequency": "439",
+      "data-relevance": "44",
+      "data-term": "stative",
+      "data-encoded-term": "stative",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "439",
+        "ol",
+        "1"
+      ]
+    },
+    "metalogical": {
+      "data-frequency": "187",
+      "data-relevance": "43",
+      "data-term": "metalogical",
+      "data-encoded-term": "metalogical",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "187",
+        "ol",
+        "1"
+      ]
+    },
+    "nonlexical": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "nonlexical",
+      "data-encoded-term": "nonlexical",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "indexical": {
+      "data-frequency": "157",
+      "data-relevance": "41",
+      "data-term": "indexical",
+      "data-encoded-term": "indexical",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "157",
+        "ol",
+        "1"
+      ]
+    },
+    "terminological": {
+      "data-frequency": "368",
+      "data-relevance": "40",
+      "data-term": "terminological",
+      "data-encoded-term": "terminological",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "368",
+        "ol",
+        "1"
+      ]
+    },
+    "essentialist": {
+      "data-frequency": "336",
+      "data-relevance": "39",
+      "data-term": "essentialist",
+      "data-encoded-term": "essentialist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "336",
+        "ol",
+        "1"
+      ]
+    },
+    "adnominal": {
+      "data-frequency": "43",
+      "data-relevance": "38",
+      "data-term": "adnominal",
+      "data-encoded-term": "adnominal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "43",
+        "ol",
+        "1"
+      ]
+    },
+    "predicate calculus": {
+      "data-frequency": "127",
+      "data-relevance": "37",
+      "data-term": "predicate calculus",
+      "data-encoded-term": "predicate%20calculus",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "127",
+        "ol",
+        "1"
+      ]
+    },
+    "logical system": {
+      "data-frequency": "157",
+      "data-relevance": "36",
+      "data-term": "logical system",
+      "data-encoded-term": "logical%20system",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "157",
+        "ol",
+        "1"
+      ]
+    },
+    "propositional calculus": {
+      "data-frequency": "212",
+      "data-relevance": "35",
+      "data-term": "propositional calculus",
+      "data-encoded-term": "propositional%20calculus",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "212",
+        "ol",
+        "1"
+      ]
+    },
+    "symbolic logic": {
+      "data-frequency": "719",
+      "data-relevance": "34",
+      "data-term": "symbolic logic",
+      "data-encoded-term": "symbolic%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "719",
+        "ol",
+        "1"
+      ]
+    },
+    "existential quantifier": {
+      "data-frequency": "80",
+      "data-relevance": "33",
+      "data-term": "existential quantifier",
+      "data-encoded-term": "existential%20quantifier",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "formal logic": {
+      "data-frequency": "520",
+      "data-relevance": "32",
+      "data-term": "formal logic",
+      "data-encoded-term": "formal%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "520",
+        "ol",
+        "1"
+      ]
+    },
+    "semantic relation": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "semantic relation",
+      "data-encoded-term": "semantic%20relation",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "propositional logic": {
+      "data-frequency": "293",
+      "data-relevance": "30",
+      "data-term": "propositional logic",
+      "data-encoded-term": "propositional%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "293",
+        "ol",
+        "1"
+      ]
+    },
+    "universal quantifier": {
+      "data-frequency": "73",
+      "data-relevance": "29",
+      "data-term": "universal quantifier",
+      "data-encoded-term": "universal%20quantifier",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "73",
+        "ol",
+        "1"
+      ]
+    },
+    "formal language": {
+      "data-frequency": "706",
+      "data-relevance": "28",
+      "data-term": "formal language",
+      "data-encoded-term": "formal%20language",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "706",
+        "ol",
+        "1"
+      ]
+    },
+    "logical relation": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "logical relation",
+      "data-encoded-term": "logical%20relation",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "mathematical logic": {
+      "data-frequency": "1674",
+      "data-relevance": "26",
+      "data-term": "mathematical logic",
+      "data-encoded-term": "mathematical%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1674",
+        "ol",
+        "1"
+      ]
+    },
+    "direct object": {
+      "data-frequency": "495",
+      "data-relevance": "25",
+      "data-term": "direct object",
+      "data-encoded-term": "direct%20object",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "495",
+        "ol",
+        "1"
+      ]
+    },
+    "ostensive definition": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "ostensive definition",
+      "data-encoded-term": "ostensive%20definition",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "indirect object": {
+      "data-frequency": "295",
+      "data-relevance": "23",
+      "data-term": "indirect object",
+      "data-encoded-term": "indirect%20object",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "295",
+        "ol",
+        "1"
+      ]
+    },
+    "modal logic": {
+      "data-frequency": "343",
+      "data-relevance": "22",
+      "data-term": "modal logic",
+      "data-encoded-term": "modal%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "343",
+        "ol",
+        "1"
+      ]
+    },
+    "universe of discourse": {
+      "data-frequency": "86",
+      "data-relevance": "21",
+      "data-term": "universe of discourse",
+      "data-encoded-term": "universe%20of%20discourse",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "86",
+        "ol",
+        "1"
+      ]
+    },
+    "reflexive verb": {
+      "data-frequency": "116",
+      "data-relevance": "20",
+      "data-term": "reflexive verb",
+      "data-encoded-term": "reflexive%20verb",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "116",
+        "ol",
+        "1"
+      ]
+    },
+    "set theoretic": {
+      "data-frequency": "14924",
+      "data-relevance": "19",
+      "data-term": "set theoretic",
+      "data-encoded-term": "set%20theoretic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "14924",
+        "ol",
+        "1"
+      ]
+    },
+    "recursive definition": {
+      "data-frequency": "103",
+      "data-relevance": "18",
+      "data-term": "recursive definition",
+      "data-encoded-term": "recursive%20definition",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "103",
+        "ol",
+        "1"
+      ]
+    },
+    "grammatical case": {
+      "data-frequency": "209",
+      "data-relevance": "17",
+      "data-term": "grammatical case",
+      "data-encoded-term": "grammatical%20case",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "209",
+        "ol",
+        "1"
+      ]
+    },
+    "linguistic relation": {
+      "data-frequency": "2806",
+      "data-relevance": "16",
+      "data-term": "linguistic relation",
+      "data-encoded-term": "linguistic%20relation",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2806",
+        "ol",
+        "1"
+      ]
+    },
+    "logic gate": {
+      "data-frequency": "245",
+      "data-relevance": "15",
+      "data-term": "logic gate",
+      "data-encoded-term": "logic%20gate",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "245",
+        "ol",
+        "1"
+      ]
+    },
+    "object language": {
+      "data-frequency": "93",
+      "data-relevance": "14",
+      "data-term": "object language",
+      "data-encoded-term": "object%20language",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "93",
+        "ol",
+        "1"
+      ]
+    },
+    "stipulative definition": {
+      "data-frequency": "1428",
+      "data-relevance": "13",
+      "data-term": "stipulative definition",
+      "data-encoded-term": "stipulative%20definition",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1428",
+        "ol",
+        "1"
+      ]
+    },
+    "descriptive linguistics": {
+      "data-frequency": "102",
+      "data-relevance": "12",
+      "data-term": "descriptive linguistics",
+      "data-encoded-term": "descriptive%20linguistics",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "102",
+        "ol",
+        "1"
+      ]
+    },
+    "grammatical relation": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "grammatical relation",
+      "data-encoded-term": "grammatical%20relation",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "minor premise": {
+      "data-frequency": "1725",
+      "data-relevance": "10",
+      "data-term": "minor premise",
+      "data-encoded-term": "minor%20premise",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1725",
+        "ol",
+        "1"
+      ]
+    },
+    "modal auxiliary": {
+      "data-frequency": "-1",
+      "data-relevance": "9",
+      "data-term": "modal auxiliary",
+      "data-encoded-term": "modal%20auxiliary",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "philosophical doctrine": {
+      "data-frequency": "71",
+      "data-relevance": "8",
+      "data-term": "philosophical doctrine",
+      "data-encoded-term": "philosophical%20doctrine",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "major form class": {
+      "data-frequency": "-1",
+      "data-relevance": "7",
+      "data-term": "major form class",
+      "data-encoded-term": "major%20form%20class",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "cartesian product": {
+      "data-frequency": "520",
+      "data-relevance": "6",
+      "data-term": "cartesian product",
+      "data-encoded-term": "cartesian%20product",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "520",
+        "ol",
+        "1"
+      ]
+    },
+    "demonstrative pronoun": {
+      "data-frequency": "124",
+      "data-relevance": "5",
+      "data-term": "demonstrative pronoun",
+      "data-encoded-term": "demonstrative%20pronoun",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "124",
+        "ol",
+        "1"
+      ]
+    },
+    "deontic logic": {
+      "data-frequency": "53",
+      "data-relevance": "4",
+      "data-term": "deontic logic",
+      "data-encoded-term": "deontic%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "inclusive or": {
+      "data-frequency": "19136",
+      "data-relevance": "3",
+      "data-term": "inclusive or",
+      "data-encoded-term": "inclusive%20or",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "19136",
+        "ol",
+        "1"
+      ]
+    },
+    "function word": {
+      "data-frequency": "46",
+      "data-relevance": "2",
+      "data-term": "function word",
+      "data-encoded-term": "function%20word",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "analytic philosophy": {
+      "data-frequency": "840",
+      "data-relevance": "1",
+      "data-term": "analytic philosophy",
+      "data-encoded-term": "analytic%20philosophy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "840",
+        "ol",
+        "1"
+      ]
+    },
+    "nominative case": {
+      "data-frequency": "363",
+      "data-relevance": "0",
+      "data-term": "nominative case",
+      "data-encoded-term": "nominative%20case",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "363",
+        "ol",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [],
+    "synonyms": [],
+    "antonyms": [
+      "extensional"
+    ],
+    "similar_terms": [
+      "connotative"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "logic",
+      "equational",
+      "sentential",
+      "intensionally",
+      "intension",
+      "connotative",
+      "ferromagnetic",
+      "extensional",
+      "isotropic",
+      "deontic",
+      "undefinable"
+    ]
+  }
+}

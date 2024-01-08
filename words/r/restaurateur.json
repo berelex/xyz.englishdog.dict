@@ -1,0 +1,5596 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "restaurant": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/restaurant/n/,/c/en/restaurateur/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/restaurant/n",
+          "@type": "Node",
+          "label": "restaurant",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/restaurant"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "term": "/c/en/restaurateur"
+        }
+      },
+      "restaurateurial": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/restaurateurial/a/,/c/en/restaurateur/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/restaurateurial/a",
+          "@type": "Node",
+          "label": "restaurateurial",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/restaurateurial"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "term": "/c/en/restaurateur"
+        }
+      },
+      "traiteur": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/traiteur/n/,/c/en/restaurateur/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/traiteur/n",
+          "@type": "Node",
+          "label": "traiteur",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/traiteur"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "term": "/c/en/restaurateur"
+        }
+      },
+      "restaurateurs": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/restaurateurs/n/,/c/en/restaurateur/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/restaurateurs/n",
+          "@type": "Node",
+          "label": "restaurateurs",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/restaurateurs"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "term": "/c/en/restaurateur"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "restauranter": {
+        "@id": "/a/[/r/Synonym/,/c/en/restauranter/n/wn/person/,/c/en/restaurateur/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/restauranter/n/wn/person",
+          "@type": "Node",
+          "label": "restauranter",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/restauranter"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur/n/wn/person",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/restaurateur"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "restauranteur": {
+        "@id": "/a/[/r/FormOf/,/c/en/restauranteur/,/c/en/restaurateur/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/restauranteur",
+          "@type": "Node",
+          "label": "restauranteur",
+          "language": "en",
+          "term": "/c/en/restauranteur"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur/n",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/restaurateur"
+        }
+      },
+      "restaurateurs": {
+        "@id": "/a/[/r/FormOf/,/c/en/restaurateurs/n/,/c/en/restaurateur/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/restaurateurs/n",
+          "@type": "Node",
+          "label": "restaurateurs",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/restaurateurs"
+        },
+        "end": {
+          "@id": "/c/en/restaurateur",
+          "@type": "Node",
+          "label": "restaurateur",
+          "language": "en",
+          "term": "/c/en/restaurateur"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "chef": {
+      "data-frequency": "26919",
+      "data-relevance": "385",
+      "data-term": "chef",
+      "data-encoded-term": "chef",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "26919",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "restaurant": {
+      "data-frequency": "69541",
+      "data-relevance": "384",
+      "data-term": "restaurant",
+      "data-encoded-term": "restaurant",
+      "data-term-stats": [
+        "1",
+        "6.9",
+        "0.000",
+        "69541",
+        "cn5,ol,w2v,wiki",
+        "1"
+      ]
+    },
+    "proprietor": {
+      "data-frequency": "9998",
+      "data-relevance": "383",
+      "data-term": "proprietor",
+      "data-encoded-term": "proprietor",
+      "data-term-stats": [
+        "1",
+        "4.1",
+        "0.000",
+        "9998",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "bistro": {
+      "data-frequency": "2229",
+      "data-relevance": "382",
+      "data-term": "bistro",
+      "data-encoded-term": "bistro",
+      "data-term-stats": [
+        "1",
+        "3.7",
+        "0.000",
+        "2229",
+        "cn5,ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "eatery": {
+      "data-frequency": "1335",
+      "data-relevance": "381",
+      "data-term": "eatery",
+      "data-encoded-term": "eatery",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "1335",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "waitress": {
+      "data-frequency": "6879",
+      "data-relevance": "380",
+      "data-term": "waitress",
+      "data-encoded-term": "waitress",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "6879",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "diner": {
+      "data-frequency": "6986",
+      "data-relevance": "379",
+      "data-term": "diner",
+      "data-encoded-term": "diner",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "6986",
+        "cn5,ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "waiter": {
+      "data-frequency": "6704",
+      "data-relevance": "378",
+      "data-term": "waiter",
+      "data-encoded-term": "waiter",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "6704",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "377",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "233063",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "restauranter": {
+      "data-frequency": "87709",
+      "data-relevance": "376",
+      "data-term": "restauranter",
+      "data-encoded-term": "restauranter",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "87709",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "owner": {
+      "data-frequency": "257388",
+      "data-relevance": "375",
+      "data-term": "owner",
+      "data-encoded-term": "owner",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "257388",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "cafe": {
+      "data-frequency": "47786",
+      "data-relevance": "374",
+      "data-term": "cafe",
+      "data-encoded-term": "cafe",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "47786",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "brasserie": {
+      "data-frequency": "710",
+      "data-relevance": "373",
+      "data-term": "brasserie",
+      "data-encoded-term": "brasserie",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "710",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "businesswoman": {
+      "data-frequency": "8359",
+      "data-relevance": "372",
+      "data-term": "businesswoman",
+      "data-encoded-term": "businesswoman",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "8359",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "fast food": {
+      "data-frequency": "7169",
+      "data-relevance": "371",
+      "data-term": "fast food",
+      "data-encoded-term": "fast%20food",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "7169",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "bartender": {
+      "data-frequency": "6628",
+      "data-relevance": "370",
+      "data-term": "bartender",
+      "data-encoded-term": "bartender",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "6628",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "entrepreneur": {
+      "data-frequency": "42784",
+      "data-relevance": "369",
+      "data-term": "entrepreneur",
+      "data-encoded-term": "entrepreneur",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "42784",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "hotelier": {
+      "data-frequency": "1765",
+      "data-relevance": "368",
+      "data-term": "hotelier",
+      "data-encoded-term": "hotelier",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "1765",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "realtor": {
+      "data-frequency": "2068",
+      "data-relevance": "367",
+      "data-term": "realtor",
+      "data-encoded-term": "realtor",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "2068",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "steakhouse": {
+      "data-frequency": "1452",
+      "data-relevance": "366",
+      "data-term": "steakhouse",
+      "data-encoded-term": "steakhouse",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "1452",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "businessman": {
+      "data-frequency": "84746",
+      "data-relevance": "365",
+      "data-term": "businessman",
+      "data-encoded-term": "businessman",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "84746",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "caterer": {
+      "data-frequency": "1158",
+      "data-relevance": "364",
+      "data-term": "caterer",
+      "data-encoded-term": "caterer",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "1158",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "impresario": {
+      "data-frequency": "3351",
+      "data-relevance": "363",
+      "data-term": "impresario",
+      "data-encoded-term": "impresario",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "3351",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pizzeria": {
+      "data-frequency": "1330",
+      "data-relevance": "362",
+      "data-term": "pizzeria",
+      "data-encoded-term": "pizzeria",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1330",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "filmmaker": {
+      "data-frequency": "39667",
+      "data-relevance": "361",
+      "data-term": "filmmaker",
+      "data-encoded-term": "filmmaker",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "39667",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "greasy spoon": {
+      "data-frequency": "148",
+      "data-relevance": "360",
+      "data-term": "greasy spoon",
+      "data-encoded-term": "greasy%20spoon",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "148",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "winemaker": {
+      "data-frequency": "1241",
+      "data-relevance": "359",
+      "data-term": "winemaker",
+      "data-encoded-term": "winemaker",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "1241",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "connoisseur": {
+      "data-frequency": "2235",
+      "data-relevance": "358",
+      "data-term": "connoisseur",
+      "data-encoded-term": "connoisseur",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "2235",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cabdriver": {
+      "data-frequency": "93",
+      "data-relevance": "357",
+      "data-term": "cabdriver",
+      "data-encoded-term": "cabdriver",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "93",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "musician": {
+      "data-frequency": "161018",
+      "data-relevance": "356",
+      "data-term": "musician",
+      "data-encoded-term": "musician",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "161018",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "deli": {
+      "data-frequency": "7966",
+      "data-relevance": "355",
+      "data-term": "deli",
+      "data-encoded-term": "deli",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "7966",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "busboy": {
+      "data-frequency": "418",
+      "data-relevance": "354",
+      "data-term": "busboy",
+      "data-encoded-term": "busboy",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "418",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cuisine": {
+      "data-frequency": "38529",
+      "data-relevance": "353",
+      "data-term": "cuisine",
+      "data-encoded-term": "cuisine",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "38529",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "kitchen": {
+      "data-frequency": "46734",
+      "data-relevance": "352",
+      "data-term": "kitchen",
+      "data-encoded-term": "kitchen",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "46734",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "restaurants": {
+      "data-frequency": "43833",
+      "data-relevance": "351",
+      "data-term": "restaurants",
+      "data-encoded-term": "restaurants",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "43833",
+        "wiki",
+        "1"
+      ]
+    },
+    "chefs": {
+      "data-frequency": "6652",
+      "data-relevance": "350",
+      "data-term": "chefs",
+      "data-encoded-term": "chefs",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "6652",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "coffee shop": {
+      "data-frequency": "3926",
+      "data-relevance": "349",
+      "data-term": "coffee shop",
+      "data-encoded-term": "coffee%20shop",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3926",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "mcdonald's": {
+      "data-frequency": "9003",
+      "data-relevance": "348",
+      "data-term": "mcdonald's",
+      "data-encoded-term": "mcdonald's",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "9003",
+        "swiki",
+        "1"
+      ]
+    },
+    "socialite": {
+      "data-frequency": "6401",
+      "data-relevance": "347",
+      "data-term": "socialite",
+      "data-encoded-term": "socialite",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6401",
+        "w2v",
+        "1"
+      ]
+    },
+    "car": {
+      "data-frequency": "235569",
+      "data-relevance": "346",
+      "data-term": "car",
+      "data-encoded-term": "car",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "235569",
+        "swiki",
+        "1"
+      ]
+    },
+    "lunchroom": {
+      "data-frequency": "342",
+      "data-relevance": "345",
+      "data-term": "lunchroom",
+      "data-encoded-term": "lunchroom",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "342",
+        "cn5",
+        "1"
+      ]
+    },
+    "newspaperman": {
+      "data-frequency": "1365",
+      "data-relevance": "344",
+      "data-term": "newspaperman",
+      "data-encoded-term": "newspaperman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1365",
+        "w2v",
+        "1"
+      ]
+    },
+    "multimillionaire": {
+      "data-frequency": "610",
+      "data-relevance": "343",
+      "data-term": "multimillionaire",
+      "data-encoded-term": "multimillionaire",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "610",
+        "w2v",
+        "1"
+      ]
+    },
+    "menu": {
+      "data-frequency": "18157",
+      "data-relevance": "342",
+      "data-term": "menu",
+      "data-encoded-term": "menu",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18157",
+        "cn5",
+        "1"
+      ]
+    },
+    "hairdresser": {
+      "data-frequency": "2951",
+      "data-relevance": "341",
+      "data-term": "hairdresser",
+      "data-encoded-term": "hairdresser",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2951",
+        "w2v",
+        "1"
+      ]
+    },
+    "extraordinaire": {
+      "data-frequency": "1624",
+      "data-relevance": "340",
+      "data-term": "extraordinaire",
+      "data-encoded-term": "extraordinaire",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1624",
+        "w2v",
+        "1"
+      ]
+    },
+    "scriptwriter": {
+      "data-frequency": "3971",
+      "data-relevance": "339",
+      "data-term": "scriptwriter",
+      "data-encoded-term": "scriptwriter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3971",
+        "w2v",
+        "1"
+      ]
+    },
+    "millionaire": {
+      "data-frequency": "12318",
+      "data-relevance": "338",
+      "data-term": "millionaire",
+      "data-encoded-term": "millionaire",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12318",
+        "w2v",
+        "1"
+      ]
+    },
+    "philanthropist": {
+      "data-frequency": "27520",
+      "data-relevance": "337",
+      "data-term": "philanthropist",
+      "data-encoded-term": "philanthropist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27520",
+        "w2v",
+        "1"
+      ]
+    },
+    "cafeteria": {
+      "data-frequency": "7000",
+      "data-relevance": "336",
+      "data-term": "cafeteria",
+      "data-encoded-term": "cafeteria",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7000",
+        "cn5",
+        "1"
+      ]
+    },
+    "dinner": {
+      "data-frequency": "47273",
+      "data-relevance": "335",
+      "data-term": "dinner",
+      "data-encoded-term": "dinner",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "47273",
+        "cn5",
+        "1"
+      ]
+    },
+    "oilman": {
+      "data-frequency": "826",
+      "data-relevance": "334",
+      "data-term": "oilman",
+      "data-encoded-term": "oilman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "826",
+        "w2v",
+        "1"
+      ]
+    },
+    "homemaker": {
+      "data-frequency": "2607",
+      "data-relevance": "333",
+      "data-term": "homemaker",
+      "data-encoded-term": "homemaker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2607",
+        "w2v",
+        "1"
+      ]
+    },
+    "stockbroker": {
+      "data-frequency": "2661",
+      "data-relevance": "332",
+      "data-term": "stockbroker",
+      "data-encoded-term": "stockbroker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2661",
+        "w2v",
+        "1"
+      ]
+    },
+    "schoolteacher": {
+      "data-frequency": "5669",
+      "data-relevance": "331",
+      "data-term": "schoolteacher",
+      "data-encoded-term": "schoolteacher",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5669",
+        "w2v",
+        "1"
+      ]
+    },
+    "comedian": {
+      "data-frequency": "47940",
+      "data-relevance": "330",
+      "data-term": "comedian",
+      "data-encoded-term": "comedian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "47940",
+        "w2v",
+        "1"
+      ]
+    },
+    "dishwasher": {
+      "data-frequency": "943",
+      "data-relevance": "329",
+      "data-term": "dishwasher",
+      "data-encoded-term": "dishwasher",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "943",
+        "cn5",
+        "1"
+      ]
+    },
+    "kitchenware": {
+      "data-frequency": "673",
+      "data-relevance": "328",
+      "data-term": "kitchenware",
+      "data-encoded-term": "kitchenware",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "673",
+        "cn5",
+        "1"
+      ]
+    },
+    "decorator": {
+      "data-frequency": "3149",
+      "data-relevance": "327",
+      "data-term": "decorator",
+      "data-encoded-term": "decorator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3149",
+        "w2v",
+        "1"
+      ]
+    },
+    "californian": {
+      "data-frequency": "5936",
+      "data-relevance": "326",
+      "data-term": "californian",
+      "data-encoded-term": "californian",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5936",
+        "w2v",
+        "1"
+      ]
+    },
+    "rancher": {
+      "data-frequency": "5134",
+      "data-relevance": "325",
+      "data-term": "rancher",
+      "data-encoded-term": "rancher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5134",
+        "w2v",
+        "1"
+      ]
+    },
+    "raconteur": {
+      "data-frequency": "767",
+      "data-relevance": "324",
+      "data-term": "raconteur",
+      "data-encoded-term": "raconteur",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "767",
+        "w2v",
+        "1"
+      ]
+    },
+    "hangout": {
+      "data-frequency": "1825",
+      "data-relevance": "323",
+      "data-term": "hangout",
+      "data-encoded-term": "hangout",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1825",
+        "w2v",
+        "1"
+      ]
+    },
+    "billionaire": {
+      "data-frequency": "9757",
+      "data-relevance": "322",
+      "data-term": "billionaire",
+      "data-encoded-term": "billionaire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9757",
+        "w2v",
+        "1"
+      ]
+    },
+    "essayist": {
+      "data-frequency": "9665",
+      "data-relevance": "321",
+      "data-term": "essayist",
+      "data-encoded-term": "essayist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9665",
+        "w2v",
+        "1"
+      ]
+    },
+    "entertainer": {
+      "data-frequency": "15111",
+      "data-relevance": "320",
+      "data-term": "entertainer",
+      "data-encoded-term": "entertainer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15111",
+        "w2v",
+        "1"
+      ]
+    },
+    "banker": {
+      "data-frequency": "24402",
+      "data-relevance": "319",
+      "data-term": "banker",
+      "data-encoded-term": "banker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24402",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "psychotherapist": {
+      "data-frequency": "1803",
+      "data-relevance": "318",
+      "data-term": "psychotherapist",
+      "data-encoded-term": "psychotherapist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1803",
+        "w2v",
+        "1"
+      ]
+    },
+    "industrialist": {
+      "data-frequency": "13368",
+      "data-relevance": "317",
+      "data-term": "industrialist",
+      "data-encoded-term": "industrialist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13368",
+        "w2v",
+        "1"
+      ]
+    },
+    "hostess": {
+      "data-frequency": "5752",
+      "data-relevance": "316",
+      "data-term": "hostess",
+      "data-encoded-term": "hostess",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5752",
+        "w2v",
+        "1"
+      ]
+    },
+    "salesman": {
+      "data-frequency": "11799",
+      "data-relevance": "315",
+      "data-term": "salesman",
+      "data-encoded-term": "salesman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11799",
+        "w2v",
+        "1"
+      ]
+    },
+    "screenwriter": {
+      "data-frequency": "33828",
+      "data-relevance": "314",
+      "data-term": "screenwriter",
+      "data-encoded-term": "screenwriter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33828",
+        "w2v",
+        "1"
+      ]
+    },
+    "playwright": {
+      "data-frequency": "36128",
+      "data-relevance": "313",
+      "data-term": "playwright",
+      "data-encoded-term": "playwright",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "36128",
+        "w2v",
+        "1"
+      ]
+    },
+    "drive-thru": {
+      "data-frequency": "1674",
+      "data-relevance": "312",
+      "data-term": "drive-thru",
+      "data-encoded-term": "drive-thru",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1674",
+        "swiki",
+        "1"
+      ]
+    },
+    "housewife": {
+      "data-frequency": "6899",
+      "data-relevance": "311",
+      "data-term": "housewife",
+      "data-encoded-term": "housewife",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6899",
+        "w2v",
+        "1"
+      ]
+    },
+    "clarinetist": {
+      "data-frequency": "2561",
+      "data-relevance": "310",
+      "data-term": "clarinetist",
+      "data-encoded-term": "clarinetist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2561",
+        "w2v",
+        "1"
+      ]
+    },
+    "humorist": {
+      "data-frequency": "3907",
+      "data-relevance": "309",
+      "data-term": "humorist",
+      "data-encoded-term": "humorist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3907",
+        "w2v",
+        "1"
+      ]
+    },
+    "novelist": {
+      "data-frequency": "48805",
+      "data-relevance": "308",
+      "data-term": "novelist",
+      "data-encoded-term": "novelist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "48805",
+        "w2v",
+        "1"
+      ]
+    },
+    "cattleman": {
+      "data-frequency": "702",
+      "data-relevance": "307",
+      "data-term": "cattleman",
+      "data-encoded-term": "cattleman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "702",
+        "w2v",
+        "1"
+      ]
+    },
+    "lyricist": {
+      "data-frequency": "17300",
+      "data-relevance": "306",
+      "data-term": "lyricist",
+      "data-encoded-term": "lyricist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17300",
+        "w2v",
+        "1"
+      ]
+    },
+    "barmaid": {
+      "data-frequency": "1330",
+      "data-relevance": "305",
+      "data-term": "barmaid",
+      "data-encoded-term": "barmaid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1330",
+        "w2v",
+        "1"
+      ]
+    },
+    "gourmet": {
+      "data-frequency": "4904",
+      "data-relevance": "304",
+      "data-term": "gourmet",
+      "data-encoded-term": "gourmet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4904",
+        "w2v",
+        "1"
+      ]
+    },
+    "mobster": {
+      "data-frequency": "3926",
+      "data-relevance": "303",
+      "data-term": "mobster",
+      "data-encoded-term": "mobster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3926",
+        "w2v",
+        "1"
+      ]
+    },
+    "comedienne": {
+      "data-frequency": "853",
+      "data-relevance": "302",
+      "data-term": "comedienne",
+      "data-encoded-term": "comedienne",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "853",
+        "w2v",
+        "1"
+      ]
+    },
+    "publicist": {
+      "data-frequency": "5228",
+      "data-relevance": "301",
+      "data-term": "publicist",
+      "data-encoded-term": "publicist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5228",
+        "w2v",
+        "1"
+      ]
+    },
+    "educator": {
+      "data-frequency": "40200",
+      "data-relevance": "300",
+      "data-term": "educator",
+      "data-encoded-term": "educator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "40200",
+        "w2v",
+        "1"
+      ]
+    },
+    "burger king": {
+      "data-frequency": "1807",
+      "data-relevance": "299",
+      "data-term": "burger king",
+      "data-encoded-term": "burger%20king",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1807",
+        "swiki",
+        "1"
+      ]
+    },
+    "tradesman": {
+      "data-frequency": "1311",
+      "data-relevance": "298",
+      "data-term": "tradesman",
+      "data-encoded-term": "tradesman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1311",
+        "w2v",
+        "1"
+      ]
+    },
+    "blogger": {
+      "data-frequency": "10073",
+      "data-relevance": "297",
+      "data-term": "blogger",
+      "data-encoded-term": "blogger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10073",
+        "w2v",
+        "1"
+      ]
+    },
+    "quintessential": {
+      "data-frequency": "2737",
+      "data-relevance": "296",
+      "data-term": "quintessential",
+      "data-encoded-term": "quintessential",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2737",
+        "w2v",
+        "1"
+      ]
+    },
+    "storyteller": {
+      "data-frequency": "5161",
+      "data-relevance": "295",
+      "data-term": "storyteller",
+      "data-encoded-term": "storyteller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5161",
+        "w2v",
+        "1"
+      ]
+    },
+    "aficionado": {
+      "data-frequency": "1208",
+      "data-relevance": "294",
+      "data-term": "aficionado",
+      "data-encoded-term": "aficionado",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1208",
+        "w2v",
+        "1"
+      ]
+    },
+    "cookbook": {
+      "data-frequency": "11063",
+      "data-relevance": "293",
+      "data-term": "cookbook",
+      "data-encoded-term": "cookbook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11063",
+        "w2v",
+        "1"
+      ]
+    },
+    "befriended": {
+      "data-frequency": "8880",
+      "data-relevance": "292",
+      "data-term": "befriended",
+      "data-encoded-term": "befriended",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8880",
+        "w2v",
+        "1"
+      ]
+    },
+    "stylist": {
+      "data-frequency": "4710",
+      "data-relevance": "291",
+      "data-term": "stylist",
+      "data-encoded-term": "stylist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4710",
+        "w2v",
+        "1"
+      ]
+    },
+    "magnate": {
+      "data-frequency": "8898",
+      "data-relevance": "290",
+      "data-term": "magnate",
+      "data-encoded-term": "magnate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8898",
+        "w2v",
+        "1"
+      ]
+    },
+    "cartoonist": {
+      "data-frequency": "13654",
+      "data-relevance": "289",
+      "data-term": "cartoonist",
+      "data-encoded-term": "cartoonist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13654",
+        "w2v",
+        "1"
+      ]
+    },
+    "wealthy": {
+      "data-frequency": "52531",
+      "data-relevance": "288",
+      "data-term": "wealthy",
+      "data-encoded-term": "wealthy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52531",
+        "w2v",
+        "1"
+      ]
+    },
+    "housekeeper": {
+      "data-frequency": "5210",
+      "data-relevance": "287",
+      "data-term": "housekeeper",
+      "data-encoded-term": "housekeeper",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5210",
+        "w2v",
+        "1"
+      ]
+    },
+    "bandleader": {
+      "data-frequency": "7234",
+      "data-relevance": "286",
+      "data-term": "bandleader",
+      "data-encoded-term": "bandleader",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7234",
+        "w2v",
+        "1"
+      ]
+    },
+    "dilettante": {
+      "data-frequency": "564",
+      "data-relevance": "285",
+      "data-term": "dilettante",
+      "data-encoded-term": "dilettante",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "564",
+        "w2v",
+        "1"
+      ]
+    },
+    "parisian": {
+      "data-frequency": "8828",
+      "data-relevance": "284",
+      "data-term": "parisian",
+      "data-encoded-term": "parisian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8828",
+        "w2v",
+        "1"
+      ]
+    },
+    "lithographer": {
+      "data-frequency": "6118",
+      "data-relevance": "283",
+      "data-term": "lithographer",
+      "data-encoded-term": "lithographer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6118",
+        "w2v",
+        "1"
+      ]
+    },
+    "satirist": {
+      "data-frequency": "3195",
+      "data-relevance": "282",
+      "data-term": "satirist",
+      "data-encoded-term": "satirist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3195",
+        "w2v",
+        "1"
+      ]
+    },
+    "barstaurant": {
+      "data-frequency": "-1",
+      "data-relevance": "281",
+      "data-term": "barstaurant",
+      "data-encoded-term": "barstaurant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "consultant": {
+      "data-frequency": "51220",
+      "data-relevance": "280",
+      "data-term": "consultant",
+      "data-encoded-term": "consultant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51220",
+        "w2v",
+        "1"
+      ]
+    },
+    "atlantan": {
+      "data-frequency": "176",
+      "data-relevance": "279",
+      "data-term": "atlantan",
+      "data-encoded-term": "atlantan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "176",
+        "w2v",
+        "1"
+      ]
+    },
+    "resturant": {
+      "data-frequency": "-1",
+      "data-relevance": "278",
+      "data-term": "resturant",
+      "data-encoded-term": "resturant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pizza hut": {
+      "data-frequency": "1441",
+      "data-relevance": "277",
+      "data-term": "pizza hut",
+      "data-encoded-term": "pizza%20hut",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1441",
+        "swiki",
+        "1"
+      ]
+    },
+    "moonlights": {
+      "data-frequency": "15903",
+      "data-relevance": "276",
+      "data-term": "moonlights",
+      "data-encoded-term": "moonlights",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15903",
+        "w2v",
+        "1"
+      ]
+    },
+    "restauranteur": {
+      "data-frequency": "75",
+      "data-relevance": "275",
+      "data-term": "restauranteur",
+      "data-encoded-term": "restauranteur",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "75",
+        "w2v",
+        "1"
+      ]
+    },
+    "spoon": {
+      "data-frequency": "9746",
+      "data-relevance": "274",
+      "data-term": "spoon",
+      "data-encoded-term": "spoon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9746",
+        "cn5",
+        "1"
+      ]
+    },
+    "chopstick": {
+      "data-frequency": "181",
+      "data-relevance": "273",
+      "data-term": "chopstick",
+      "data-encoded-term": "chopstick",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "181",
+        "cn5",
+        "1"
+      ]
+    },
+    "fork": {
+      "data-frequency": "24699",
+      "data-relevance": "272",
+      "data-term": "fork",
+      "data-encoded-term": "fork",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "24699",
+        "cn5",
+        "1"
+      ]
+    },
+    "applebee's": {
+      "data-frequency": "322",
+      "data-relevance": "271",
+      "data-term": "applebee's",
+      "data-encoded-term": "applebee's",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "322",
+        "swiki",
+        "1"
+      ]
+    },
+    "bbq": {
+      "data-frequency": "2571",
+      "data-relevance": "270",
+      "data-term": "bbq",
+      "data-encoded-term": "bbq",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2571",
+        "cn5",
+        "1"
+      ]
+    },
+    "multi-millionaire": {
+      "data-frequency": "1934",
+      "data-relevance": "269",
+      "data-term": "multi-millionaire",
+      "data-encoded-term": "multi-millionaire",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1934",
+        "w2v",
+        "1"
+      ]
+    },
+    "boulud": {
+      "data-frequency": "139",
+      "data-relevance": "268",
+      "data-term": "boulud",
+      "data-encoded-term": "boulud",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "139",
+        "w2v",
+        "1"
+      ]
+    },
+    "lobsterman": {
+      "data-frequency": "44",
+      "data-relevance": "267",
+      "data-term": "lobsterman",
+      "data-encoded-term": "lobsterman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "nebbish": {
+      "data-frequency": "52",
+      "data-relevance": "266",
+      "data-term": "nebbish",
+      "data-encoded-term": "nebbish",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "w2v",
+        "1"
+      ]
+    },
+    "dine": {
+      "data-frequency": "4695",
+      "data-relevance": "265",
+      "data-term": "dine",
+      "data-encoded-term": "dine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4695",
+        "cn5",
+        "1"
+      ]
+    },
+    "housepainter": {
+      "data-frequency": "72",
+      "data-relevance": "264",
+      "data-term": "housepainter",
+      "data-encoded-term": "housepainter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "72",
+        "w2v",
+        "1"
+      ]
+    },
+    "spaghetti": {
+      "data-frequency": "4280",
+      "data-relevance": "263",
+      "data-term": "spaghetti",
+      "data-encoded-term": "spaghetti",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4280",
+        "cn5",
+        "1"
+      ]
+    },
+    "brainchild": {
+      "data-frequency": "3086",
+      "data-relevance": "262",
+      "data-term": "brainchild",
+      "data-encoded-term": "brainchild",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3086",
+        "w2v",
+        "1"
+      ]
+    },
+    "utensil": {
+      "data-frequency": "601",
+      "data-relevance": "261",
+      "data-term": "utensil",
+      "data-encoded-term": "utensil",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "601",
+        "cn5",
+        "1"
+      ]
+    },
+    "ssosa": {
+      "data-frequency": "-1",
+      "data-relevance": "260",
+      "data-term": "ssosa",
+      "data-encoded-term": "ssosa",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "dramaturge": {
+      "data-frequency": "446",
+      "data-relevance": "259",
+      "data-term": "dramaturge",
+      "data-encoded-term": "dramaturge",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "446",
+        "w2v",
+        "1"
+      ]
+    },
+    "italian-american": {
+      "data-frequency": "166962",
+      "data-relevance": "258",
+      "data-term": "italian-american",
+      "data-encoded-term": "italian-american",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "166962",
+        "w2v",
+        "1"
+      ]
+    },
+    "sportscaster": {
+      "data-frequency": "4302",
+      "data-relevance": "257",
+      "data-term": "sportscaster",
+      "data-encoded-term": "sportscaster",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4302",
+        "w2v",
+        "1"
+      ]
+    },
+    "eat establishment": {
+      "data-frequency": "7724",
+      "data-relevance": "256",
+      "data-term": "eat establishment",
+      "data-encoded-term": "eat%20establishment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7724",
+        "cn5",
+        "1"
+      ]
+    },
+    "wine list": {
+      "data-frequency": "30458",
+      "data-relevance": "255",
+      "data-term": "wine list",
+      "data-encoded-term": "wine%20list",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "30458",
+        "cn5",
+        "1"
+      ]
+    },
+    "hoofer": {
+      "data-frequency": "164",
+      "data-relevance": "254",
+      "data-term": "hoofer",
+      "data-encoded-term": "hoofer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "164",
+        "w2v",
+        "1"
+      ]
+    },
+    "canteen": {
+      "data-frequency": "4877",
+      "data-relevance": "253",
+      "data-term": "canteen",
+      "data-encoded-term": "canteen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4877",
+        "cn5",
+        "1"
+      ]
+    },
+    "silverware": {
+      "data-frequency": "2899",
+      "data-relevance": "252",
+      "data-term": "silverware",
+      "data-encoded-term": "silverware",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2899",
+        "cn5",
+        "1"
+      ]
+    },
+    "wunderkind": {
+      "data-frequency": "460",
+      "data-relevance": "251",
+      "data-term": "wunderkind",
+      "data-encoded-term": "wunderkind",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "460",
+        "w2v",
+        "1"
+      ]
+    },
+    "down-on-his-luck": {
+      "data-frequency": "437",
+      "data-relevance": "250",
+      "data-term": "down-on-his-luck",
+      "data-encoded-term": "down-on-his-luck",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "437",
+        "w2v",
+        "1"
+      ]
+    },
+    "luncheon": {
+      "data-frequency": "3477",
+      "data-relevance": "249",
+      "data-term": "luncheon",
+      "data-encoded-term": "luncheon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3477",
+        "cn5",
+        "1"
+      ]
+    },
+    "tokyo": {
+      "data-frequency": "103796",
+      "data-relevance": "248",
+      "data-term": "tokyo",
+      "data-encoded-term": "tokyo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "103796",
+        "swiki",
+        "1"
+      ]
+    },
+    "saloonkeeper": {
+      "data-frequency": "126",
+      "data-relevance": "247",
+      "data-term": "saloonkeeper",
+      "data-encoded-term": "saloonkeeper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "126",
+        "w2v",
+        "1"
+      ]
+    },
+    "redash": {
+      "data-frequency": "-1",
+      "data-relevance": "246",
+      "data-term": "redash",
+      "data-encoded-term": "redash",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "buffet": {
+      "data-frequency": "4441",
+      "data-relevance": "245",
+      "data-term": "buffet",
+      "data-encoded-term": "buffet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4441",
+        "cn5",
+        "1"
+      ]
+    },
+    "meal": {
+      "data-frequency": "19521",
+      "data-relevance": "244",
+      "data-term": "meal",
+      "data-encoded-term": "meal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19521",
+        "cn5",
+        "1"
+      ]
+    },
+    "chef special": {
+      "data-frequency": "8428",
+      "data-relevance": "243",
+      "data-term": "chef special",
+      "data-encoded-term": "chef%20special",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8428",
+        "cn5",
+        "1"
+      ]
+    },
+    "ceramist": {
+      "data-frequency": "715",
+      "data-relevance": "242",
+      "data-term": "ceramist",
+      "data-encoded-term": "ceramist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "715",
+        "w2v",
+        "1"
+      ]
+    },
+    "bouche": {
+      "data-frequency": "1199",
+      "data-relevance": "241",
+      "data-term": "bouche",
+      "data-encoded-term": "bouche",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1199",
+        "cn5",
+        "1"
+      ]
+    },
+    "grillroom": {
+      "data-frequency": "-1",
+      "data-relevance": "240",
+      "data-term": "grillroom",
+      "data-encoded-term": "grillroom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grocerant": {
+      "data-frequency": "-1",
+      "data-relevance": "239",
+      "data-term": "grocerant",
+      "data-encoded-term": "grocerant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "supper": {
+      "data-frequency": "9660",
+      "data-relevance": "238",
+      "data-term": "supper",
+      "data-encoded-term": "supper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9660",
+        "cn5",
+        "1"
+      ]
+    },
+    "serve trolley": {
+      "data-frequency": "3537",
+      "data-relevance": "237",
+      "data-term": "serve trolley",
+      "data-encoded-term": "serve%20trolley",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3537",
+        "cn5",
+        "1"
+      ]
+    },
+    "tableware": {
+      "data-frequency": "1045",
+      "data-relevance": "236",
+      "data-term": "tableware",
+      "data-encoded-term": "tableware",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1045",
+        "cn5",
+        "1"
+      ]
+    },
+    "pasta": {
+      "data-frequency": "4546",
+      "data-relevance": "235",
+      "data-term": "pasta",
+      "data-encoded-term": "pasta",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4546",
+        "cn5",
+        "1"
+      ]
+    },
+    "table": {
+      "data-frequency": "235661",
+      "data-relevance": "234",
+      "data-term": "table",
+      "data-encoded-term": "table",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "235661",
+        "cn5",
+        "1"
+      ]
+    },
+    "tamale": {
+      "data-frequency": "2599",
+      "data-relevance": "233",
+      "data-term": "tamale",
+      "data-encoded-term": "tamale",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2599",
+        "cn5",
+        "1"
+      ]
+    },
+    "sushi": {
+      "data-frequency": "3514",
+      "data-relevance": "232",
+      "data-term": "sushi",
+      "data-encoded-term": "sushi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3514",
+        "cn5",
+        "1"
+      ]
+    },
+    "kyoto": {
+      "data-frequency": "20045",
+      "data-relevance": "231",
+      "data-term": "kyoto",
+      "data-encoded-term": "kyoto",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "20045",
+        "swiki",
+        "1"
+      ]
+    },
+    "hotel": {
+      "data-frequency": "152730",
+      "data-relevance": "230",
+      "data-term": "hotel",
+      "data-encoded-term": "hotel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "152730",
+        "cn5",
+        "1"
+      ]
+    },
+    "late latin": {
+      "data-frequency": "626",
+      "data-relevance": "229",
+      "data-term": "late latin",
+      "data-encoded-term": "late%20latin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "626",
+        "wiki",
+        "1"
+      ]
+    },
+    "steak": {
+      "data-frequency": "4934",
+      "data-relevance": "228",
+      "data-term": "steak",
+      "data-encoded-term": "steak",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4934",
+        "cn5",
+        "1"
+      ]
+    },
+    "treadmill": {
+      "data-frequency": "1235",
+      "data-relevance": "227",
+      "data-term": "treadmill",
+      "data-encoded-term": "treadmill",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1235",
+        "cn5",
+        "1"
+      ]
+    },
+    "cookline": {
+      "data-frequency": "-1",
+      "data-relevance": "226",
+      "data-term": "cookline",
+      "data-encoded-term": "cookline",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "teaspoon": {
+      "data-frequency": "367",
+      "data-relevance": "225",
+      "data-term": "teaspoon",
+      "data-encoded-term": "teaspoon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "367",
+        "cn5",
+        "1"
+      ]
+    },
+    "pizza store": {
+      "data-frequency": "2974",
+      "data-relevance": "224",
+      "data-term": "pizza store",
+      "data-encoded-term": "pizza%20store",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2974",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat": {
+      "data-frequency": "51972",
+      "data-relevance": "223",
+      "data-term": "eat",
+      "data-encoded-term": "eat",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "51972",
+        "cn5",
+        "1"
+      ]
+    },
+    "mall": {
+      "data-frequency": "39342",
+      "data-relevance": "222",
+      "data-term": "mall",
+      "data-encoded-term": "mall",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "39342",
+        "cn5",
+        "1"
+      ]
+    },
+    "bar": {
+      "data-frequency": "207772",
+      "data-relevance": "221",
+      "data-term": "bar",
+      "data-encoded-term": "bar",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "207772",
+        "cn5",
+        "1"
+      ]
+    },
+    "tablespoon": {
+      "data-frequency": "192",
+      "data-relevance": "220",
+      "data-term": "tablespoon",
+      "data-encoded-term": "tablespoon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "192",
+        "cn5",
+        "1"
+      ]
+    },
+    "winery": {
+      "data-frequency": "5150",
+      "data-relevance": "219",
+      "data-term": "winery",
+      "data-encoded-term": "winery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5150",
+        "cn5",
+        "1"
+      ]
+    },
+    "blog": {
+      "data-frequency": "107778",
+      "data-relevance": "218",
+      "data-term": "blog",
+      "data-encoded-term": "blog",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "107778",
+        "cn5",
+        "1"
+      ]
+    },
+    "marina": {
+      "data-frequency": "38506",
+      "data-relevance": "217",
+      "data-term": "marina",
+      "data-encoded-term": "marina",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "38506",
+        "cn5",
+        "1"
+      ]
+    },
+    "brewery": {
+      "data-frequency": "15030",
+      "data-relevance": "216",
+      "data-term": "brewery",
+      "data-encoded-term": "brewery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15030",
+        "cn5",
+        "1"
+      ]
+    },
+    "pub": {
+      "data-frequency": "54861",
+      "data-relevance": "215",
+      "data-term": "pub",
+      "data-encoded-term": "pub",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "54861",
+        "cn5",
+        "1"
+      ]
+    },
+    "plate": {
+      "data-frequency": "67316",
+      "data-relevance": "214",
+      "data-term": "plate",
+      "data-encoded-term": "plate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "67316",
+        "cn5",
+        "1"
+      ]
+    },
+    "tableside": {
+      "data-frequency": "71",
+      "data-relevance": "213",
+      "data-term": "tableside",
+      "data-encoded-term": "tableside",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "71",
+        "cn5",
+        "1"
+      ]
+    },
+    "tablecloth": {
+      "data-frequency": "363",
+      "data-relevance": "212",
+      "data-term": "tablecloth",
+      "data-encoded-term": "tablecloth",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "363",
+        "cn5",
+        "1"
+      ]
+    },
+    "cutlery": {
+      "data-frequency": "1471",
+      "data-relevance": "211",
+      "data-term": "cutlery",
+      "data-encoded-term": "cutlery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1471",
+        "cn5",
+        "1"
+      ]
+    },
+    "dish": {
+      "data-frequency": "20271",
+      "data-relevance": "210",
+      "data-term": "dish",
+      "data-encoded-term": "dish",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "20271",
+        "cn5",
+        "1"
+      ]
+    },
+    "pizza parlor": {
+      "data-frequency": "261",
+      "data-relevance": "209",
+      "data-term": "pizza parlor",
+      "data-encoded-term": "pizza%20parlor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "261",
+        "cn5",
+        "1"
+      ]
+    },
+    "edinburgh": {
+      "data-frequency": "83967",
+      "data-relevance": "208",
+      "data-term": "edinburgh",
+      "data-encoded-term": "edinburgh",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "83967",
+        "cn5",
+        "1"
+      ]
+    },
+    "hot table": {
+      "data-frequency": "-1",
+      "data-relevance": "207",
+      "data-term": "hot table",
+      "data-encoded-term": "hot%20table",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "garlic": {
+      "data-frequency": "6215",
+      "data-relevance": "206",
+      "data-term": "garlic",
+      "data-encoded-term": "garlic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6215",
+        "cn5",
+        "1"
+      ]
+    },
+    "brunch": {
+      "data-frequency": "2056",
+      "data-relevance": "205",
+      "data-term": "brunch",
+      "data-encoded-term": "brunch",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2056",
+        "cn5",
+        "1"
+      ]
+    },
+    "lunch": {
+      "data-frequency": "24021",
+      "data-relevance": "204",
+      "data-term": "lunch",
+      "data-encoded-term": "lunch",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "24021",
+        "cn5",
+        "1"
+      ]
+    },
+    "rotisserie": {
+      "data-frequency": "376",
+      "data-relevance": "203",
+      "data-term": "rotisserie",
+      "data-encoded-term": "rotisserie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "376",
+        "cn5",
+        "1"
+      ]
+    },
+    "sideboard": {
+      "data-frequency": "301",
+      "data-relevance": "202",
+      "data-term": "sideboard",
+      "data-encoded-term": "sideboard",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "301",
+        "cn5",
+        "1"
+      ]
+    },
+    "downstairs": {
+      "data-frequency": "4890",
+      "data-relevance": "201",
+      "data-term": "downstairs",
+      "data-encoded-term": "downstairs",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4890",
+        "cn5",
+        "1"
+      ]
+    },
+    "sommelier": {
+      "data-frequency": "591",
+      "data-relevance": "200",
+      "data-term": "sommelier",
+      "data-encoded-term": "sommelier",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "591",
+        "ol",
+        "1"
+      ]
+    },
+    "delicatessen": {
+      "data-frequency": "971",
+      "data-relevance": "199",
+      "data-term": "delicatessen",
+      "data-encoded-term": "delicatessen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "971",
+        "ol",
+        "1"
+      ]
+    },
+    "baker": {
+      "data-frequency": "125100",
+      "data-relevance": "198",
+      "data-term": "baker",
+      "data-encoded-term": "baker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "125100",
+        "ol",
+        "1"
+      ]
+    },
+    "vintner": {
+      "data-frequency": "511",
+      "data-relevance": "197",
+      "data-term": "vintner",
+      "data-encoded-term": "vintner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "511",
+        "ol",
+        "1"
+      ]
+    },
+    "microbrewery": {
+      "data-frequency": "592",
+      "data-relevance": "196",
+      "data-term": "microbrewery",
+      "data-encoded-term": "microbrewery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "592",
+        "ol",
+        "1"
+      ]
+    },
+    "place to eat": {
+      "data-frequency": "97",
+      "data-relevance": "195",
+      "data-term": "place to eat",
+      "data-encoded-term": "place%20to%20eat",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "97",
+        "cn5",
+        "1"
+      ]
+    },
+    "grocer": {
+      "data-frequency": "3256",
+      "data-relevance": "194",
+      "data-term": "grocer",
+      "data-encoded-term": "grocer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3256",
+        "ol",
+        "1"
+      ]
+    },
+    "gourmand": {
+      "data-frequency": "591",
+      "data-relevance": "193",
+      "data-term": "gourmand",
+      "data-encoded-term": "gourmand",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "591",
+        "ol",
+        "1"
+      ]
+    },
+    "jeweler": {
+      "data-frequency": "1797",
+      "data-relevance": "192",
+      "data-term": "jeweler",
+      "data-encoded-term": "jeweler",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1797",
+        "ol",
+        "1"
+      ]
+    },
+    "fishmonger": {
+      "data-frequency": "521",
+      "data-relevance": "191",
+      "data-term": "fishmonger",
+      "data-encoded-term": "fishmonger",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "521",
+        "ol",
+        "1"
+      ]
+    },
+    "bakery": {
+      "data-frequency": "10463",
+      "data-relevance": "190",
+      "data-term": "bakery",
+      "data-encoded-term": "bakery",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10463",
+        "ol",
+        "1"
+      ]
+    },
+    "epicure": {
+      "data-frequency": "263",
+      "data-relevance": "189",
+      "data-term": "epicure",
+      "data-encoded-term": "epicure",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "263",
+        "ol",
+        "1"
+      ]
+    },
+    "publican": {
+      "data-frequency": "1477",
+      "data-relevance": "188",
+      "data-term": "publican",
+      "data-encoded-term": "publican",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1477",
+        "ol",
+        "1"
+      ]
+    },
+    "franchisee": {
+      "data-frequency": "1069",
+      "data-relevance": "187",
+      "data-term": "franchisee",
+      "data-encoded-term": "franchisee",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1069",
+        "ol",
+        "1"
+      ]
+    },
+    "barkeeper": {
+      "data-frequency": "146",
+      "data-relevance": "186",
+      "data-term": "barkeeper",
+      "data-encoded-term": "barkeeper",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "146",
+        "ol",
+        "1"
+      ]
+    },
+    "tobacconist": {
+      "data-frequency": "397",
+      "data-relevance": "185",
+      "data-term": "tobacconist",
+      "data-encoded-term": "tobacconist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "397",
+        "ol",
+        "1"
+      ]
+    },
+    "tavern": {
+      "data-frequency": "15476",
+      "data-relevance": "184",
+      "data-term": "tavern",
+      "data-encoded-term": "tavern",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15476",
+        "ol",
+        "1"
+      ]
+    },
+    "babbo": {
+      "data-frequency": "102",
+      "data-relevance": "183",
+      "data-term": "babbo",
+      "data-encoded-term": "babbo",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "102",
+        "ol",
+        "1"
+      ]
+    },
+    "barman": {
+      "data-frequency": "2697",
+      "data-relevance": "182",
+      "data-term": "barman",
+      "data-encoded-term": "barman",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2697",
+        "ol",
+        "1"
+      ]
+    },
+    "taverna": {
+      "data-frequency": "716",
+      "data-relevance": "181",
+      "data-term": "taverna",
+      "data-encoded-term": "taverna",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "716",
+        "ol",
+        "1"
+      ]
+    },
+    "dining": {
+      "data-frequency": "26195",
+      "data-relevance": "180",
+      "data-term": "dining",
+      "data-encoded-term": "dining",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "26195",
+        "ol",
+        "1"
+      ]
+    },
+    "burger": {
+      "data-frequency": "14528",
+      "data-relevance": "179",
+      "data-term": "burger",
+      "data-encoded-term": "burger",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14528",
+        "ol",
+        "1"
+      ]
+    },
+    "lasagna": {
+      "data-frequency": "529",
+      "data-relevance": "178",
+      "data-term": "lasagna",
+      "data-encoded-term": "lasagna",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "529",
+        "cn5",
+        "1"
+      ]
+    },
+    "councilman": {
+      "data-frequency": "6218",
+      "data-relevance": "177",
+      "data-term": "councilman",
+      "data-encoded-term": "councilman",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6218",
+        "ol",
+        "1"
+      ]
+    },
+    "gnocchi": {
+      "data-frequency": "515",
+      "data-relevance": "176",
+      "data-term": "gnocchi",
+      "data-encoded-term": "gnocchi",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "515",
+        "cn5",
+        "1"
+      ]
+    },
+    "restaurant table": {
+      "data-frequency": "11901",
+      "data-relevance": "175",
+      "data-term": "restaurant table",
+      "data-encoded-term": "restaurant%20table",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "11901",
+        "cn5",
+        "1"
+      ]
+    },
+    "foodtography": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "foodtography",
+      "data-encoded-term": "foodtography",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "paris": {
+      "data-frequency": "291208",
+      "data-relevance": "173",
+      "data-term": "paris",
+      "data-encoded-term": "paris",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "291208",
+        "swiki",
+        "1"
+      ]
+    },
+    "eggcup": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "eggcup",
+      "data-encoded-term": "eggcup",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat place": {
+      "data-frequency": "38965",
+      "data-relevance": "171",
+      "data-term": "eat place",
+      "data-encoded-term": "eat%20place",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "38965",
+        "cn5",
+        "1"
+      ]
+    },
+    "saltshaker": {
+      "data-frequency": "-1",
+      "data-relevance": "170",
+      "data-term": "saltshaker",
+      "data-encoded-term": "saltshaker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dine area": {
+      "data-frequency": "15664",
+      "data-relevance": "169",
+      "data-term": "dine area",
+      "data-encoded-term": "dine%20area",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15664",
+        "cn5",
+        "1"
+      ]
+    },
+    "fast casual restaurant": {
+      "data-frequency": "991",
+      "data-relevance": "168",
+      "data-term": "fast casual restaurant",
+      "data-encoded-term": "fast%20casual%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "991",
+        "swiki",
+        "1"
+      ]
+    },
+    "soupspoon": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "soupspoon",
+      "data-encoded-term": "soupspoon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dinnerplate": {
+      "data-frequency": "-1",
+      "data-relevance": "166",
+      "data-term": "dinnerplate",
+      "data-encoded-term": "dinnerplate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "spork": {
+      "data-frequency": "186",
+      "data-relevance": "165",
+      "data-term": "spork",
+      "data-encoded-term": "spork",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "186",
+        "cn5",
+        "1"
+      ]
+    },
+    "dishware": {
+      "data-frequency": "136",
+      "data-relevance": "164",
+      "data-term": "dishware",
+      "data-encoded-term": "dishware",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "136",
+        "cn5",
+        "1"
+      ]
+    },
+    "tablemate": {
+      "data-frequency": "-1",
+      "data-relevance": "163",
+      "data-term": "tablemate",
+      "data-encoded-term": "tablemate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dinnerware": {
+      "data-frequency": "288",
+      "data-relevance": "162",
+      "data-term": "dinnerware",
+      "data-encoded-term": "dinnerware",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "288",
+        "cn5",
+        "1"
+      ]
+    },
+    "hotdog": {
+      "data-frequency": "444",
+      "data-relevance": "161",
+      "data-term": "hotdog",
+      "data-encoded-term": "hotdog",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "444",
+        "cn5",
+        "1"
+      ]
+    },
+    "plateman": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "plateman",
+      "data-encoded-term": "plateman",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "corkage": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "corkage",
+      "data-encoded-term": "corkage",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "restaurant storage area": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "restaurant storage area",
+      "data-encoded-term": "restaurant%20storage%20area",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "london": {
+      "data-frequency": "800896",
+      "data-relevance": "157",
+      "data-term": "london",
+      "data-encoded-term": "london",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "800896",
+        "swiki",
+        "1"
+      ]
+    },
+    "dessertspoon": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "dessertspoon",
+      "data-encoded-term": "dessertspoon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "kitchenless": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "kitchenless",
+      "data-encoded-term": "kitchenless",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "in restaurant": {
+      "data-frequency": "642",
+      "data-relevance": "154",
+      "data-term": "in restaurant",
+      "data-encoded-term": "in%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "642",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat meal": {
+      "data-frequency": "8028",
+      "data-relevance": "153",
+      "data-term": "eat meal",
+      "data-encoded-term": "eat%20meal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8028",
+        "cn5",
+        "1"
+      ]
+    },
+    "kitchenry": {
+      "data-frequency": "-1",
+      "data-relevance": "152",
+      "data-term": "kitchenry",
+      "data-encoded-term": "kitchenry",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "at restaurant": {
+      "data-frequency": "241",
+      "data-relevance": "151",
+      "data-term": "at restaurant",
+      "data-encoded-term": "at%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "241",
+        "cn5",
+        "1"
+      ]
+    },
+    "food court": {
+      "data-frequency": "2316",
+      "data-relevance": "150",
+      "data-term": "food court",
+      "data-encoded-term": "food%20court",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2316",
+        "cn5",
+        "1"
+      ]
+    },
+    "paper menu": {
+      "data-frequency": "-1",
+      "data-relevance": "149",
+      "data-term": "paper menu",
+      "data-encoded-term": "paper%20menu",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "spellbook": {
+      "data-frequency": "177",
+      "data-relevance": "148",
+      "data-term": "spellbook",
+      "data-encoded-term": "spellbook",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "fast food restaurant": {
+      "data-frequency": "1384",
+      "data-relevance": "147",
+      "data-term": "fast food restaurant",
+      "data-encoded-term": "fast%20food%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1384",
+        "cn5",
+        "1"
+      ]
+    },
+    "flatware": {
+      "data-frequency": "216",
+      "data-relevance": "146",
+      "data-term": "flatware",
+      "data-encoded-term": "flatware",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "216",
+        "cn5",
+        "1"
+      ]
+    },
+    "mycophile": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "mycophile",
+      "data-encoded-term": "mycophile",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "restaurant bill": {
+      "data-frequency": "13791",
+      "data-relevance": "144",
+      "data-term": "restaurant bill",
+      "data-encoded-term": "restaurant%20bill",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "13791",
+        "cn5",
+        "1"
+      ]
+    },
+    "tearoom": {
+      "data-frequency": "629",
+      "data-relevance": "143",
+      "data-term": "tearoom",
+      "data-encoded-term": "tearoom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "629",
+        "cn5",
+        "1"
+      ]
+    },
+    "bottle of wine": {
+      "data-frequency": "6891",
+      "data-relevance": "142",
+      "data-term": "bottle of wine",
+      "data-encoded-term": "bottle%20of%20wine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6891",
+        "cn5",
+        "1"
+      ]
+    },
+    "gastropub": {
+      "data-frequency": "197",
+      "data-relevance": "141",
+      "data-term": "gastropub",
+      "data-encoded-term": "gastropub",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "197",
+        "ol",
+        "1"
+      ]
+    },
+    "foodie": {
+      "data-frequency": "740",
+      "data-relevance": "140",
+      "data-term": "foodie",
+      "data-encoded-term": "foodie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "740",
+        "ol",
+        "1"
+      ]
+    },
+    "gastronome": {
+      "data-frequency": "105",
+      "data-relevance": "139",
+      "data-term": "gastronome",
+      "data-encoded-term": "gastronome",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "105",
+        "ol",
+        "1"
+      ]
+    },
+    "trattoria": {
+      "data-frequency": "252",
+      "data-relevance": "138",
+      "data-term": "trattoria",
+      "data-encoded-term": "trattoria",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "252",
+        "ol",
+        "1"
+      ]
+    },
+    "ristorante": {
+      "data-frequency": "282",
+      "data-relevance": "137",
+      "data-term": "ristorante",
+      "data-encoded-term": "ristorante",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "282",
+        "ol",
+        "1"
+      ]
+    },
+    "brewpub": {
+      "data-frequency": "394",
+      "data-relevance": "136",
+      "data-term": "brewpub",
+      "data-encoded-term": "brewpub",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "394",
+        "ol",
+        "1"
+      ]
+    },
+    "picholine": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "picholine",
+      "data-encoded-term": "picholine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "locanda": {
+      "data-frequency": "83",
+      "data-relevance": "134",
+      "data-term": "locanda",
+      "data-encoded-term": "locanda",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "83",
+        "ol",
+        "1"
+      ]
+    },
+    "counterman": {
+      "data-frequency": "118",
+      "data-relevance": "133",
+      "data-term": "counterman",
+      "data-encoded-term": "counterman",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "118",
+        "ol",
+        "1"
+      ]
+    },
+    "scampo": {
+      "data-frequency": "-1",
+      "data-relevance": "132",
+      "data-term": "scampo",
+      "data-encoded-term": "scampo",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "chophouse": {
+      "data-frequency": "77",
+      "data-relevance": "131",
+      "data-term": "chophouse",
+      "data-encoded-term": "chophouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "77",
+        "ol",
+        "1"
+      ]
+    },
+    "noshery": {
+      "data-frequency": "-1",
+      "data-relevance": "130",
+      "data-term": "noshery",
+      "data-encoded-term": "noshery",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "cheesemonger": {
+      "data-frequency": "45",
+      "data-relevance": "129",
+      "data-term": "cheesemonger",
+      "data-encoded-term": "cheesemonger",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "mixologist": {
+      "data-frequency": "130",
+      "data-relevance": "128",
+      "data-term": "mixologist",
+      "data-encoded-term": "mixologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "130",
+        "ol",
+        "1"
+      ]
+    },
+    "barkeep": {
+      "data-frequency": "114",
+      "data-relevance": "127",
+      "data-term": "barkeep",
+      "data-encoded-term": "barkeep",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "114",
+        "ol",
+        "1"
+      ]
+    },
+    "barbecuer": {
+      "data-frequency": "6001",
+      "data-relevance": "126",
+      "data-term": "barbecuer",
+      "data-encoded-term": "barbecuer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6001",
+        "ol",
+        "1"
+      ]
+    },
+    "taqueria": {
+      "data-frequency": "115",
+      "data-relevance": "125",
+      "data-term": "taqueria",
+      "data-encoded-term": "taqueria",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "115",
+        "ol",
+        "1"
+      ]
+    },
+    "storeowner": {
+      "data-frequency": "62",
+      "data-relevance": "124",
+      "data-term": "storeowner",
+      "data-encoded-term": "storeowner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62",
+        "ol",
+        "1"
+      ]
+    },
+    "saucebox": {
+      "data-frequency": "227",
+      "data-relevance": "123",
+      "data-term": "saucebox",
+      "data-encoded-term": "saucebox",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "227",
+        "ol",
+        "1"
+      ]
+    },
+    "fruiterer": {
+      "data-frequency": "75",
+      "data-relevance": "122",
+      "data-term": "fruiterer",
+      "data-encoded-term": "fruiterer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "75",
+        "ol",
+        "1"
+      ]
+    },
+    "culinarian": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "culinarian",
+      "data-encoded-term": "culinarian",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "mancy": {
+      "data-frequency": "663",
+      "data-relevance": "120",
+      "data-term": "mancy",
+      "data-encoded-term": "mancy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "663",
+        "ol",
+        "1"
+      ]
+    },
+    "luncheonette": {
+      "data-frequency": "152",
+      "data-relevance": "119",
+      "data-term": "luncheonette",
+      "data-encoded-term": "luncheonette",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "152",
+        "ol",
+        "1"
+      ]
+    },
+    "spago": {
+      "data-frequency": "80",
+      "data-relevance": "118",
+      "data-term": "spago",
+      "data-encoded-term": "spago",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "oenophile": {
+      "data-frequency": "-1",
+      "data-relevance": "117",
+      "data-term": "oenophile",
+      "data-encoded-term": "oenophile",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pampano": {
+      "data-frequency": "175",
+      "data-relevance": "116",
+      "data-term": "pampano",
+      "data-encoded-term": "pampano",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "175",
+        "ol",
+        "1"
+      ]
+    },
+    "brewmaster": {
+      "data-frequency": "241",
+      "data-relevance": "115",
+      "data-term": "brewmaster",
+      "data-encoded-term": "brewmaster",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "241",
+        "ol",
+        "1"
+      ]
+    },
+    "nonni": {
+      "data-frequency": "117",
+      "data-relevance": "114",
+      "data-term": "nonni",
+      "data-encoded-term": "nonni",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "117",
+        "ol",
+        "1"
+      ]
+    },
+    "nightspot": {
+      "data-frequency": "397",
+      "data-relevance": "113",
+      "data-term": "nightspot",
+      "data-encoded-term": "nightspot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "397",
+        "ol",
+        "1"
+      ]
+    },
+    "bartending": {
+      "data-frequency": "533",
+      "data-relevance": "112",
+      "data-term": "bartending",
+      "data-encoded-term": "bartending",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "533",
+        "ol",
+        "1"
+      ]
+    },
+    "cioppino": {
+      "data-frequency": "54",
+      "data-relevance": "111",
+      "data-term": "cioppino",
+      "data-encoded-term": "cioppino",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "54",
+        "ol",
+        "1"
+      ]
+    },
+    "restaurante": {
+      "data-frequency": "242",
+      "data-relevance": "110",
+      "data-term": "restaurante",
+      "data-encoded-term": "restaurante",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "242",
+        "ol",
+        "1"
+      ]
+    },
+    "sonsie": {
+      "data-frequency": "49",
+      "data-relevance": "109",
+      "data-term": "sonsie",
+      "data-encoded-term": "sonsie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "churrascaria": {
+      "data-frequency": "142",
+      "data-relevance": "108",
+      "data-term": "churrascaria",
+      "data-encoded-term": "churrascaria",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "142",
+        "ol",
+        "1"
+      ]
+    },
+    "muffuletta": {
+      "data-frequency": "43",
+      "data-relevance": "107",
+      "data-term": "muffuletta",
+      "data-encoded-term": "muffuletta",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "43",
+        "ol",
+        "1"
+      ]
+    },
+    "chocolatier": {
+      "data-frequency": "391",
+      "data-relevance": "106",
+      "data-term": "chocolatier",
+      "data-encoded-term": "chocolatier",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "391",
+        "ol",
+        "1"
+      ]
+    },
+    "restaurant diner": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "restaurant diner",
+      "data-encoded-term": "restaurant%20diner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ortanique": {
+      "data-frequency": "-1",
+      "data-relevance": "104",
+      "data-term": "ortanique",
+      "data-encoded-term": "ortanique",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "kitchen table": {
+      "data-frequency": "9584",
+      "data-relevance": "103",
+      "data-term": "kitchen table",
+      "data-encoded-term": "kitchen%20table",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "9584",
+        "cn5",
+        "1"
+      ]
+    },
+    "restaurant dine area": {
+      "data-frequency": "5069",
+      "data-relevance": "102",
+      "data-term": "restaurant dine area",
+      "data-encoded-term": "restaurant%20dine%20area",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "5069",
+        "cn5",
+        "1"
+      ]
+    },
+    "cutlery drawer": {
+      "data-frequency": "-1",
+      "data-relevance": "101",
+      "data-term": "cutlery drawer",
+      "data-encoded-term": "cutlery%20drawer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "serve food": {
+      "data-frequency": "230",
+      "data-relevance": "100",
+      "data-term": "serve food",
+      "data-encoded-term": "serve%20food",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "230",
+        "cn5",
+        "1"
+      ]
+    },
+    "glass front cupboard": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "glass front cupboard",
+      "data-encoded-term": "glass%20front%20cupboard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "diet coke": {
+      "data-frequency": "687",
+      "data-relevance": "98",
+      "data-term": "diet coke",
+      "data-encoded-term": "diet%20coke",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "687",
+        "cn5",
+        "1"
+      ]
+    },
+    "cold tap": {
+      "data-frequency": "3605",
+      "data-relevance": "97",
+      "data-term": "cold tap",
+      "data-encoded-term": "cold%20tap",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3605",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat at": {
+      "data-frequency": "842",
+      "data-relevance": "96",
+      "data-term": "eat at",
+      "data-encoded-term": "eat%20at",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "842",
+        "cn5",
+        "1"
+      ]
+    },
+    "french restaurant": {
+      "data-frequency": "22432",
+      "data-relevance": "95",
+      "data-term": "french restaurant",
+      "data-encoded-term": "french%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "22432",
+        "cn5",
+        "1"
+      ]
+    },
+    "salad bar": {
+      "data-frequency": "146",
+      "data-relevance": "94",
+      "data-term": "salad bar",
+      "data-encoded-term": "salad%20bar",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "146",
+        "cn5",
+        "1"
+      ]
+    },
+    "snack bar": {
+      "data-frequency": "877",
+      "data-relevance": "93",
+      "data-term": "snack bar",
+      "data-encoded-term": "snack%20bar",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "877",
+        "cn5",
+        "1"
+      ]
+    },
+    "haute cuisine": {
+      "data-frequency": "336",
+      "data-relevance": "92",
+      "data-term": "haute cuisine",
+      "data-encoded-term": "haute%20cuisine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "336",
+        "swiki",
+        "1"
+      ]
+    },
+    "eat out": {
+      "data-frequency": "233",
+      "data-relevance": "91",
+      "data-term": "eat out",
+      "data-encoded-term": "eat%20out",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "233",
+        "cn5",
+        "1"
+      ]
+    },
+    "dine room": {
+      "data-frequency": "13849",
+      "data-relevance": "90",
+      "data-term": "dine room",
+      "data-encoded-term": "dine%20room",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "13849",
+        "cn5",
+        "1"
+      ]
+    },
+    "dinner table": {
+      "data-frequency": "8153",
+      "data-relevance": "89",
+      "data-term": "dinner table",
+      "data-encoded-term": "dinner%20table",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8153",
+        "cn5",
+        "1"
+      ]
+    },
+    "ferment grape juice": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "ferment grape juice",
+      "data-encoded-term": "ferment%20grape%20juice",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat utensil": {
+      "data-frequency": "793",
+      "data-relevance": "87",
+      "data-term": "eat utensil",
+      "data-encoded-term": "eat%20utensil",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "793",
+        "cn5",
+        "1"
+      ]
+    },
+    "dine car": {
+      "data-frequency": "5544",
+      "data-relevance": "86",
+      "data-term": "dine car",
+      "data-encoded-term": "dine%20car",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "5544",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat food with": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "eat food with",
+      "data-encoded-term": "eat%20food%20with",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cocktail cabinet": {
+      "data-frequency": "-1",
+      "data-relevance": "84",
+      "data-term": "cocktail cabinet",
+      "data-encoded-term": "cocktail%20cabinet",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "michelin guide": {
+      "data-frequency": "1981",
+      "data-relevance": "83",
+      "data-term": "michelin guide",
+      "data-encoded-term": "michelin%20guide",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1981",
+        "swiki",
+        "1"
+      ]
+    },
+    "have dinner": {
+      "data-frequency": "933",
+      "data-relevance": "82",
+      "data-term": "have dinner",
+      "data-encoded-term": "have%20dinner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "933",
+        "cn5",
+        "1"
+      ]
+    },
+    "steak house": {
+      "data-frequency": "2164",
+      "data-relevance": "81",
+      "data-term": "steak house",
+      "data-encoded-term": "steak%20house",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2164",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat in": {
+      "data-frequency": "1190",
+      "data-relevance": "80",
+      "data-term": "eat in",
+      "data-encoded-term": "eat%20in",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1190",
+        "cn5",
+        "1"
+      ]
+    },
+    "swiss army knife": {
+      "data-frequency": "405",
+      "data-relevance": "79",
+      "data-term": "swiss army knife",
+      "data-encoded-term": "swiss%20army%20knife",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "405",
+        "cn5",
+        "1"
+      ]
+    },
+    "at dinner": {
+      "data-frequency": "1596",
+      "data-relevance": "78",
+      "data-term": "at dinner",
+      "data-encoded-term": "at%20dinner",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1596",
+        "cn5",
+        "1"
+      ]
+    },
+    "beer parlour": {
+      "data-frequency": "205",
+      "data-relevance": "77",
+      "data-term": "beer parlour",
+      "data-encoded-term": "beer%20parlour",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "205",
+        "cn5",
+        "1"
+      ]
+    },
+    "dine table": {
+      "data-frequency": "6617",
+      "data-relevance": "76",
+      "data-term": "dine table",
+      "data-encoded-term": "dine%20table",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6617",
+        "cn5",
+        "1"
+      ]
+    },
+    "main course": {
+      "data-frequency": "1461",
+      "data-relevance": "75",
+      "data-term": "main course",
+      "data-encoded-term": "main%20course",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1461",
+        "cn5",
+        "1"
+      ]
+    },
+    "person eat": {
+      "data-frequency": "19522",
+      "data-relevance": "74",
+      "data-term": "person eat",
+      "data-encoded-term": "person%20eat",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "19522",
+        "cn5",
+        "1"
+      ]
+    },
+    "indian restaurant": {
+      "data-frequency": "495",
+      "data-relevance": "73",
+      "data-term": "indian restaurant",
+      "data-encoded-term": "indian%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "495",
+        "cn5",
+        "1"
+      ]
+    },
+    "chinese restaurant": {
+      "data-frequency": "1434",
+      "data-relevance": "72",
+      "data-term": "chinese restaurant",
+      "data-encoded-term": "chinese%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1434",
+        "cn5",
+        "1"
+      ]
+    },
+    "bar stool": {
+      "data-frequency": "98",
+      "data-relevance": "71",
+      "data-term": "bar stool",
+      "data-encoded-term": "bar%20stool",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "98",
+        "cn5",
+        "1"
+      ]
+    },
+    "bottle wine": {
+      "data-frequency": "42",
+      "data-relevance": "70",
+      "data-term": "bottle wine",
+      "data-encoded-term": "bottle%20wine",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "42",
+        "cn5",
+        "1"
+      ]
+    },
+    "barbecue restaurant": {
+      "data-frequency": "1959",
+      "data-relevance": "69",
+      "data-term": "barbecue restaurant",
+      "data-encoded-term": "barbecue%20restaurant",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1959",
+        "cn5",
+        "1"
+      ]
+    },
+    "salad bowl": {
+      "data-frequency": "143",
+      "data-relevance": "68",
+      "data-term": "salad bowl",
+      "data-encoded-term": "salad%20bowl",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "143",
+        "cn5",
+        "1"
+      ]
+    },
+    "cotton fiber": {
+      "data-frequency": "68",
+      "data-relevance": "67",
+      "data-term": "cotton fiber",
+      "data-encoded-term": "cotton%20fiber",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "68",
+        "cn5",
+        "1"
+      ]
+    },
+    "pompeii": {
+      "data-frequency": "3848",
+      "data-relevance": "66",
+      "data-term": "pompeii",
+      "data-encoded-term": "pompeii",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3848",
+        "swiki",
+        "1"
+      ]
+    },
+    "table cloth": {
+      "data-frequency": "125",
+      "data-relevance": "65",
+      "data-term": "table cloth",
+      "data-encoded-term": "table%20cloth",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "125",
+        "cn5",
+        "1"
+      ]
+    },
+    "truck stop": {
+      "data-frequency": "715",
+      "data-relevance": "64",
+      "data-term": "truck stop",
+      "data-encoded-term": "truck%20stop",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "715",
+        "cn5",
+        "1"
+      ]
+    },
+    "kosher delicatessen": {
+      "data-frequency": "95",
+      "data-relevance": "63",
+      "data-term": "kosher delicatessen",
+      "data-encoded-term": "kosher%20delicatessen",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "95",
+        "cn5",
+        "1"
+      ]
+    },
+    "dinner plate": {
+      "data-frequency": "121",
+      "data-relevance": "62",
+      "data-term": "dinner plate",
+      "data-encoded-term": "dinner%20plate",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "121",
+        "cn5",
+        "1"
+      ]
+    },
+    "math problem": {
+      "data-frequency": "10172",
+      "data-relevance": "61",
+      "data-term": "math problem",
+      "data-encoded-term": "math%20problem",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "10172",
+        "cn5",
+        "1"
+      ]
+    },
+    "dish up": {
+      "data-frequency": "50",
+      "data-relevance": "60",
+      "data-term": "dish up",
+      "data-encoded-term": "dish%20up",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "mexican restaurant": {
+      "data-frequency": "9376",
+      "data-relevance": "59",
+      "data-term": "mexican restaurant",
+      "data-encoded-term": "mexican%20restaurant",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "9376",
+        "cn5",
+        "1"
+      ]
+    },
+    "breakfast bar": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "breakfast bar",
+      "data-encoded-term": "breakfast%20bar",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "deli restaurant": {
+      "data-frequency": "989",
+      "data-relevance": "57",
+      "data-term": "deli restaurant",
+      "data-encoded-term": "deli%20restaurant",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "989",
+        "cn5",
+        "1"
+      ]
+    },
+    "trash container": {
+      "data-frequency": "572",
+      "data-relevance": "56",
+      "data-term": "trash container",
+      "data-encoded-term": "trash%20container",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "572",
+        "cn5",
+        "1"
+      ]
+    },
+    "bottle of vodka": {
+      "data-frequency": "132",
+      "data-relevance": "55",
+      "data-term": "bottle of vodka",
+      "data-encoded-term": "bottle%20of%20vodka",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "132",
+        "cn5",
+        "1"
+      ]
+    },
+    "subway station": {
+      "data-frequency": "4692",
+      "data-relevance": "54",
+      "data-term": "subway station",
+      "data-encoded-term": "subway%20station",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "4692",
+        "cn5",
+        "1"
+      ]
+    },
+    "seafood restaurant": {
+      "data-frequency": "3160",
+      "data-relevance": "53",
+      "data-term": "seafood restaurant",
+      "data-encoded-term": "seafood%20restaurant",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3160",
+        "cn5",
+        "1"
+      ]
+    },
+    "dine room table": {
+      "data-frequency": "3766",
+      "data-relevance": "52",
+      "data-term": "dine room table",
+      "data-encoded-term": "dine%20room%20table",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3766",
+        "cn5",
+        "1"
+      ]
+    },
+    "kosher restaurant": {
+      "data-frequency": "862",
+      "data-relevance": "51",
+      "data-term": "kosher restaurant",
+      "data-encoded-term": "kosher%20restaurant",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "862",
+        "cn5",
+        "1"
+      ]
+    },
+    "convenience food": {
+      "data-frequency": "122",
+      "data-relevance": "50",
+      "data-term": "convenience food",
+      "data-encoded-term": "convenience%20food",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "122",
+        "cn5",
+        "1"
+      ]
+    },
+    "pot and pan": {
+      "data-frequency": "-1",
+      "data-relevance": "49",
+      "data-term": "pot and pan",
+      "data-encoded-term": "pot%20and%20pan",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gourmet shop": {
+      "data-frequency": "1399",
+      "data-relevance": "48",
+      "data-term": "gourmet shop",
+      "data-encoded-term": "gourmet%20shop",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1399",
+        "cn5",
+        "1"
+      ]
+    },
+    "big city": {
+      "data-frequency": "4669",
+      "data-relevance": "47",
+      "data-term": "big city",
+      "data-encoded-term": "big%20city",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "4669",
+        "cn5",
+        "1"
+      ]
+    },
+    "piece of food": {
+      "data-frequency": "72",
+      "data-relevance": "46",
+      "data-term": "piece of food",
+      "data-encoded-term": "piece%20of%20food",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "72",
+        "cn5",
+        "1"
+      ]
+    },
+    "corner cupboard": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "corner cupboard",
+      "data-encoded-term": "corner%20cupboard",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cup of coffee": {
+      "data-frequency": "1018",
+      "data-relevance": "44",
+      "data-term": "cup of coffee",
+      "data-encoded-term": "cup%20of%20coffee",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1018",
+        "cn5",
+        "1"
+      ]
+    },
+    "on table": {
+      "data-frequency": "261097",
+      "data-relevance": "43",
+      "data-term": "on table",
+      "data-encoded-term": "on%20table",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "261097",
+        "cn5",
+        "1"
+      ]
+    },
+    "kosher deli": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "kosher deli",
+      "data-encoded-term": "kosher%20deli",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grocer shop": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "grocer shop",
+      "data-encoded-term": "grocer%20shop",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "refrigerator freezer": {
+      "data-frequency": "52",
+      "data-relevance": "40",
+      "data-term": "refrigerator freezer",
+      "data-encoded-term": "refrigerator%20freezer",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "coca cola can": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "coca cola can",
+      "data-encoded-term": "coca%20cola%20can",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pepper and salt": {
+      "data-frequency": "4432",
+      "data-relevance": "38",
+      "data-term": "pepper and salt",
+      "data-encoded-term": "pepper%20and%20salt",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "4432",
+        "cn5",
+        "1"
+      ]
+    },
+    "large food store": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "large food store",
+      "data-encoded-term": "large%20food%20store",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chafe dish": {
+      "data-frequency": "70",
+      "data-relevance": "36",
+      "data-term": "chafe dish",
+      "data-encoded-term": "chafe%20dish",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "70",
+        "cn5",
+        "1"
+      ]
+    },
+    "your table": {
+      "data-frequency": "89",
+      "data-relevance": "35",
+      "data-term": "your table",
+      "data-encoded-term": "your%20table",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "89",
+        "cn5",
+        "1"
+      ]
+    },
+    "your stomach": {
+      "data-frequency": "157",
+      "data-relevance": "34",
+      "data-term": "your stomach",
+      "data-encoded-term": "your%20stomach",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "157",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat on": {
+      "data-frequency": "238",
+      "data-relevance": "33",
+      "data-term": "eat on",
+      "data-encoded-term": "eat%20on",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "238",
+        "cn5",
+        "1"
+      ]
+    },
+    "bake pan": {
+      "data-frequency": "-1",
+      "data-relevance": "32",
+      "data-term": "bake pan",
+      "data-encoded-term": "bake%20pan",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "japanese restaurant": {
+      "data-frequency": "12833",
+      "data-relevance": "31",
+      "data-term": "japanese restaurant",
+      "data-encoded-term": "japanese%20restaurant",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "12833",
+        "cn5",
+        "1"
+      ]
+    },
+    "your pantry": {
+      "data-frequency": "-1",
+      "data-relevance": "30",
+      "data-term": "your pantry",
+      "data-encoded-term": "your%20pantry",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hair salon": {
+      "data-frequency": "914",
+      "data-relevance": "29",
+      "data-term": "hair salon",
+      "data-encoded-term": "hair%20salon",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "914",
+        "cn5",
+        "1"
+      ]
+    },
+    "cook dinner": {
+      "data-frequency": "101",
+      "data-relevance": "28",
+      "data-term": "cook dinner",
+      "data-encoded-term": "cook%20dinner",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "101",
+        "cn5",
+        "1"
+      ]
+    },
+    "health food store": {
+      "data-frequency": "8417",
+      "data-relevance": "27",
+      "data-term": "health food store",
+      "data-encoded-term": "health%20food%20store",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "8417",
+        "cn5",
+        "1"
+      ]
+    },
+    "place set": {
+      "data-frequency": "90",
+      "data-relevance": "26",
+      "data-term": "place set",
+      "data-encoded-term": "place%20set",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "90",
+        "cn5",
+        "1"
+      ]
+    },
+    "west end": {
+      "data-frequency": "34599",
+      "data-relevance": "25",
+      "data-term": "west end",
+      "data-encoded-term": "west%20end",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "34599",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat food": {
+      "data-frequency": "360",
+      "data-relevance": "24",
+      "data-term": "eat food",
+      "data-encoded-term": "eat%20food",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "360",
+        "cn5",
+        "1"
+      ]
+    },
+    "prepare food": {
+      "data-frequency": "240",
+      "data-relevance": "23",
+      "data-term": "prepare food",
+      "data-encoded-term": "prepare%20food",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "240",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat dinner": {
+      "data-frequency": "271",
+      "data-relevance": "22",
+      "data-term": "eat dinner",
+      "data-encoded-term": "eat%20dinner",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "271",
+        "cn5",
+        "1"
+      ]
+    },
+    "large container": {
+      "data-frequency": "215",
+      "data-relevance": "21",
+      "data-term": "large container",
+      "data-encoded-term": "large%20container",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "215",
+        "cn5",
+        "1"
+      ]
+    },
+    "place mat": {
+      "data-frequency": "-1",
+      "data-relevance": "20",
+      "data-term": "place mat",
+      "data-encoded-term": "place%20mat",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "eat off": {
+      "data-frequency": "44",
+      "data-relevance": "19",
+      "data-term": "eat off",
+      "data-encoded-term": "eat%20off",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "cook meal": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "cook meal",
+      "data-encoded-term": "cook%20meal",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hungry person": {
+      "data-frequency": "-1",
+      "data-relevance": "17",
+      "data-term": "hungry person",
+      "data-encoded-term": "hungry%20person",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cook pot": {
+      "data-frequency": "-1",
+      "data-relevance": "16",
+      "data-term": "cook pot",
+      "data-encoded-term": "cook%20pot",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "interior designer": {
+      "data-frequency": "2313",
+      "data-relevance": "15",
+      "data-term": "interior designer",
+      "data-encoded-term": "interior%20designer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2313",
+        "ol",
+        "1"
+      ]
+    },
+    "food storage": {
+      "data-frequency": "696",
+      "data-relevance": "14",
+      "data-term": "food storage",
+      "data-encoded-term": "food%20storage",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "696",
+        "cn5",
+        "1"
+      ]
+    },
+    "sushi bar": {
+      "data-frequency": "1067",
+      "data-relevance": "13",
+      "data-term": "sushi bar",
+      "data-encoded-term": "sushi%20bar",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1067",
+        "ol",
+        "1"
+      ]
+    },
+    "fashion designer": {
+      "data-frequency": "8729",
+      "data-relevance": "12",
+      "data-term": "fashion designer",
+      "data-encoded-term": "fashion%20designer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "8729",
+        "ol",
+        "1"
+      ]
+    },
+    "watering hole": {
+      "data-frequency": "502",
+      "data-relevance": "11",
+      "data-term": "watering hole",
+      "data-encoded-term": "watering%20hole",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "502",
+        "ol",
+        "1"
+      ]
+    },
+    "butcher shop": {
+      "data-frequency": "719",
+      "data-relevance": "10",
+      "data-term": "butcher shop",
+      "data-encoded-term": "butcher%20shop",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "719",
+        "ol",
+        "1"
+      ]
+    },
+    "coney island": {
+      "data-frequency": "3493",
+      "data-relevance": "9",
+      "data-term": "coney island",
+      "data-encoded-term": "coney%20island",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3493",
+        "ol",
+        "1"
+      ]
+    },
+    "grub street": {
+      "data-frequency": "2071",
+      "data-relevance": "8",
+      "data-term": "grub street",
+      "data-encoded-term": "grub%20street",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2071",
+        "ol",
+        "1"
+      ]
+    },
+    "runcible spoon": {
+      "data-frequency": "-1",
+      "data-relevance": "7",
+      "data-term": "runcible spoon",
+      "data-encoded-term": "runcible%20spoon",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fry cook": {
+      "data-frequency": "101",
+      "data-relevance": "6",
+      "data-term": "fry cook",
+      "data-encoded-term": "fry%20cook",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "101",
+        "ol",
+        "1"
+      ]
+    },
+    "monte carlo": {
+      "data-frequency": "13994",
+      "data-relevance": "5",
+      "data-term": "monte carlo",
+      "data-encoded-term": "monte%20carlo",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "13994",
+        "swiki",
+        "1"
+      ]
+    },
+    "new york": {
+      "data-frequency": "893638",
+      "data-relevance": "4",
+      "data-term": "new york",
+      "data-encoded-term": "new%20york",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "893638",
+        "swiki",
+        "1"
+      ]
+    },
+    "hôtel ritz paris": {
+      "data-frequency": "591",
+      "data-relevance": "3",
+      "data-term": "hôtel ritz paris",
+      "data-encoded-term": "h%C3%B4tel%20ritz%20paris",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "591",
+        "swiki",
+        "1"
+      ]
+    },
+    "mariana starke": {
+      "data-frequency": "65",
+      "data-relevance": "2",
+      "data-term": "mariana starke",
+      "data-encoded-term": "mariana%20starke",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "65",
+        "wiki",
+        "1"
+      ]
+    },
+    "ancient rome": {
+      "data-frequency": "9083",
+      "data-relevance": "1",
+      "data-term": "ancient rome",
+      "data-encoded-term": "ancient%20rome",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "9083",
+        "swiki",
+        "1"
+      ]
+    },
+    "ancient greece": {
+      "data-frequency": "8202",
+      "data-relevance": "0",
+      "data-term": "ancient greece",
+      "data-encoded-term": "ancient%20greece",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "8202",
+        "swiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "restaurateurs"
+    ],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "restauranteur",
+      "restaurateurs"
+    ],
+    "synonyms": [
+      "restauranter"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "bistro",
+      "restaurateurial",
+      "proprietor",
+      "traiteur",
+      "diner",
+      "restaurateurs",
+      "restaurant",
+      "eatery",
+      "waiter",
+      "restauranter",
+      "waitress",
+      "chef",
+      "food"
+    ]
+  }
+}

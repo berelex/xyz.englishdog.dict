@@ -1,0 +1,5725 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "distraint": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/distraint/n/,/c/en/nonpayment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/distraint/n",
+          "@type": "Node",
+          "label": "distraint",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/distraint"
+        },
+        "end": {
+          "@id": "/c/en/nonpayment",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "term": "/c/en/nonpayment"
+        }
+      },
+      "payment": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonpayment/n/,/c/en/payment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonpayment/n",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonpayment"
+        },
+        "end": {
+          "@id": "/c/en/payment",
+          "@type": "Node",
+          "label": "payment",
+          "language": "en",
+          "term": "/c/en/payment"
+        }
+      },
+      "failure": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonpayment/n/,/c/en/failure/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonpayment/n",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonpayment"
+        },
+        "end": {
+          "@id": "/c/en/failure",
+          "@type": "Node",
+          "label": "failure",
+          "language": "en",
+          "term": "/c/en/failure"
+        }
+      },
+      "avoision": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/avoision/n/,/c/en/nonpayment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/avoision/n",
+          "@type": "Node",
+          "label": "avoision",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/avoision"
+        },
+        "end": {
+          "@id": "/c/en/nonpayment",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "term": "/c/en/nonpayment"
+        }
+      },
+      "nonpayments": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonpayments/n/,/c/en/nonpayment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonpayments/n",
+          "@type": "Node",
+          "label": "nonpayments",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonpayments"
+        },
+        "end": {
+          "@id": "/c/en/nonpayment",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "term": "/c/en/nonpayment"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "evasion": {
+        "@id": "/a/[/r/Synonym/,/c/en/nonpayment/n/wn/act/,/c/en/evasion/n/wn/act/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nonpayment/n/wn/act",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/nonpayment"
+        },
+        "end": {
+          "@id": "/c/en/evasion/n/wn/act",
+          "@type": "Node",
+          "label": "evasion",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/evasion"
+        }
+      },
+      "nonremittal": {
+        "@id": "/a/[/r/Synonym/,/c/en/nonremittal/n/wn/possession/,/c/en/nonpayment/n/wn/possession/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nonremittal/n/wn/possession",
+          "@type": "Node",
+          "label": "nonremittal",
+          "language": "en",
+          "sense_label": "n, possession",
+          "term": "/c/en/nonremittal"
+        },
+        "end": {
+          "@id": "/c/en/nonpayment/n/wn/possession",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "sense_label": "n, possession",
+          "term": "/c/en/nonpayment"
+        }
+      },
+      "default": {
+        "@id": "/a/[/r/Synonym/,/c/en/default/n/wn/possession/,/c/en/nonpayment/n/wn/possession/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/default/n/wn/possession",
+          "@type": "Node",
+          "label": "default",
+          "language": "en",
+          "sense_label": "n, possession",
+          "term": "/c/en/default"
+        },
+        "end": {
+          "@id": "/c/en/nonpayment/n/wn/possession",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "sense_label": "n, possession",
+          "term": "/c/en/nonpayment"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "nonpayments": {
+        "@id": "/a/[/r/FormOf/,/c/en/nonpayments/n/,/c/en/nonpayment/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonpayments/n",
+          "@type": "Node",
+          "label": "nonpayments",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nonpayments"
+        },
+        "end": {
+          "@id": "/c/en/nonpayment",
+          "@type": "Node",
+          "label": "nonpayment",
+          "language": "en",
+          "term": "/c/en/nonpayment"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "late": {
+      "data-frequency": "616571",
+      "data-relevance": "391",
+      "data-term": "late",
+      "data-encoded-term": "late",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "616571",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "default": {
+      "data-frequency": "33903",
+      "data-relevance": "390",
+      "data-term": "default",
+      "data-encoded-term": "default",
+      "data-term-stats": [
+        "1",
+        "6.1",
+        "0.000",
+        "33903",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "overpayment": {
+      "data-frequency": "141",
+      "data-relevance": "389",
+      "data-term": "overpayment",
+      "data-encoded-term": "overpayment",
+      "data-term-stats": [
+        "1",
+        "5.0",
+        "0.000",
+        "141",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "nonremittal": {
+      "data-frequency": "-1",
+      "data-relevance": "388",
+      "data-term": "nonremittal",
+      "data-encoded-term": "nonremittal",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "arrears": {
+      "data-frequency": "1948",
+      "data-relevance": "387",
+      "data-term": "arrears",
+      "data-encoded-term": "arrears",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1948",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "payment": {
+      "data-frequency": "41572",
+      "data-relevance": "386",
+      "data-term": "payment",
+      "data-encoded-term": "payment",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "41572",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "prepayment": {
+      "data-frequency": "259",
+      "data-relevance": "385",
+      "data-term": "prepayment",
+      "data-encoded-term": "prepayment",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "259",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "pay": {
+      "data-frequency": "162839",
+      "data-relevance": "384",
+      "data-term": "pay",
+      "data-encoded-term": "pay",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "162839",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "underpayment": {
+      "data-frequency": "143",
+      "data-relevance": "383",
+      "data-term": "underpayment",
+      "data-encoded-term": "underpayment",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "143",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "unpaid": {
+      "data-frequency": "8280",
+      "data-relevance": "382",
+      "data-term": "unpaid",
+      "data-encoded-term": "unpaid",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "8280",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "delinquency": {
+      "data-frequency": "2457",
+      "data-relevance": "381",
+      "data-term": "delinquency",
+      "data-encoded-term": "delinquency",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "2457",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "refund": {
+      "data-frequency": "3219",
+      "data-relevance": "380",
+      "data-term": "refund",
+      "data-encoded-term": "refund",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "3219",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "gratuity": {
+      "data-frequency": "411",
+      "data-relevance": "379",
+      "data-term": "gratuity",
+      "data-encoded-term": "gratuity",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "411",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "tax evasion": {
+      "data-frequency": "3710",
+      "data-relevance": "378",
+      "data-term": "tax evasion",
+      "data-encoded-term": "tax%20evasion",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "3710",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "refunds": {
+      "data-frequency": "1581",
+      "data-relevance": "377",
+      "data-term": "refunds",
+      "data-encoded-term": "refunds",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1581",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "overcharges": {
+      "data-frequency": "82",
+      "data-relevance": "376",
+      "data-term": "overcharges",
+      "data-encoded-term": "overcharges",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "82",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "exaction": {
+      "data-frequency": "125",
+      "data-relevance": "375",
+      "data-term": "exaction",
+      "data-encoded-term": "exaction",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "125",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "setoff": {
+      "data-frequency": "-1",
+      "data-relevance": "374",
+      "data-term": "setoff",
+      "data-encoded-term": "setoff",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "-1",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "indemnification": {
+      "data-frequency": "276",
+      "data-relevance": "373",
+      "data-term": "indemnification",
+      "data-encoded-term": "indemnification",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "276",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "remittance": {
+      "data-frequency": "907",
+      "data-relevance": "372",
+      "data-term": "remittance",
+      "data-encoded-term": "remittance",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "907",
+        "cn5",
+        "1"
+      ]
+    },
+    "evasion": {
+      "data-frequency": "5392",
+      "data-relevance": "371",
+      "data-term": "evasion",
+      "data-encoded-term": "evasion",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "5392",
+        "wn",
+        "1"
+      ]
+    },
+    "payer": {
+      "data-frequency": "1977",
+      "data-relevance": "370",
+      "data-term": "payer",
+      "data-encoded-term": "payer",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1977",
+        "cn5",
+        "1"
+      ]
+    },
+    "repayment": {
+      "data-frequency": "3163",
+      "data-relevance": "369",
+      "data-term": "repayment",
+      "data-encoded-term": "repayment",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "3163",
+        "cn5",
+        "1"
+      ]
+    },
+    "rent": {
+      "data-frequency": "26968",
+      "data-relevance": "368",
+      "data-term": "rent",
+      "data-encoded-term": "rent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "26968",
+        "ol",
+        "1"
+      ]
+    },
+    "dues": {
+      "data-frequency": "4352",
+      "data-relevance": "367",
+      "data-term": "dues",
+      "data-encoded-term": "dues",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4352",
+        "ol",
+        "1"
+      ]
+    },
+    "cancellation": {
+      "data-frequency": "16181",
+      "data-relevance": "366",
+      "data-term": "cancellation",
+      "data-encoded-term": "cancellation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16181",
+        "ol",
+        "1"
+      ]
+    },
+    "defray": {
+      "data-frequency": "681",
+      "data-relevance": "365",
+      "data-term": "defray",
+      "data-encoded-term": "defray",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "681",
+        "cn5",
+        "1"
+      ]
+    },
+    "payee": {
+      "data-frequency": "235",
+      "data-relevance": "364",
+      "data-term": "payee",
+      "data-encoded-term": "payee",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "235",
+        "cn5",
+        "1"
+      ]
+    },
+    "remuneration": {
+      "data-frequency": "2844",
+      "data-relevance": "363",
+      "data-term": "remuneration",
+      "data-encoded-term": "remuneration",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2844",
+        "cn5",
+        "1"
+      ]
+    },
+    "disburse": {
+      "data-frequency": "283",
+      "data-relevance": "362",
+      "data-term": "disburse",
+      "data-encoded-term": "disburse",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "283",
+        "cn5",
+        "1"
+      ]
+    },
+    "commerce": {
+      "data-frequency": "101923",
+      "data-relevance": "361",
+      "data-term": "commerce",
+      "data-encoded-term": "commerce",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "101923",
+        "wn",
+        "1"
+      ]
+    },
+    "commercialism": {
+      "data-frequency": "803",
+      "data-relevance": "360",
+      "data-term": "commercialism",
+      "data-encoded-term": "commercialism",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "803",
+        "wn",
+        "1"
+      ]
+    },
+    "mercantilism": {
+      "data-frequency": "821",
+      "data-relevance": "359",
+      "data-term": "mercantilism",
+      "data-encoded-term": "mercantilism",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "821",
+        "wn",
+        "1"
+      ]
+    },
+    "failure": {
+      "data-frequency": "115142",
+      "data-relevance": "358",
+      "data-term": "failure",
+      "data-encoded-term": "failure",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "115142",
+        "wn",
+        "1"
+      ]
+    },
+    "repay": {
+      "data-frequency": "5698",
+      "data-relevance": "357",
+      "data-term": "repay",
+      "data-encoded-term": "repay",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5698",
+        "cn5",
+        "1"
+      ]
+    },
+    "reimburse": {
+      "data-frequency": "1378",
+      "data-relevance": "356",
+      "data-term": "reimburse",
+      "data-encoded-term": "reimburse",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1378",
+        "cn5",
+        "1"
+      ]
+    },
+    "wage": {
+      "data-frequency": "20047",
+      "data-relevance": "355",
+      "data-term": "wage",
+      "data-encoded-term": "wage",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "20047",
+        "cn5",
+        "1"
+      ]
+    },
+    "salary": {
+      "data-frequency": "26543",
+      "data-relevance": "354",
+      "data-term": "salary",
+      "data-encoded-term": "salary",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "26543",
+        "cn5",
+        "1"
+      ]
+    },
+    "bonus": {
+      "data-frequency": "66695",
+      "data-relevance": "353",
+      "data-term": "bonus",
+      "data-encoded-term": "bonus",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "66695",
+        "cn5",
+        "1"
+      ]
+    },
+    "reimbursement": {
+      "data-frequency": "2361",
+      "data-relevance": "352",
+      "data-term": "reimbursement",
+      "data-encoded-term": "reimbursement",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2361",
+        "cn5",
+        "1"
+      ]
+    },
+    "prepay": {
+      "data-frequency": "119",
+      "data-relevance": "351",
+      "data-term": "prepay",
+      "data-encoded-term": "prepay",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "119",
+        "cn5",
+        "1"
+      ]
+    },
+    "requite": {
+      "data-frequency": "62",
+      "data-relevance": "350",
+      "data-term": "requite",
+      "data-encoded-term": "requite",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "62",
+        "cn5",
+        "1"
+      ]
+    },
+    "taxpayer": {
+      "data-frequency": "4751",
+      "data-relevance": "349",
+      "data-term": "taxpayer",
+      "data-encoded-term": "taxpayer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4751",
+        "cn5",
+        "1"
+      ]
+    },
+    "bribe": {
+      "data-frequency": "6542",
+      "data-relevance": "348",
+      "data-term": "bribe",
+      "data-encoded-term": "bribe",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6542",
+        "cn5",
+        "1"
+      ]
+    },
+    "recompense": {
+      "data-frequency": "1194",
+      "data-relevance": "347",
+      "data-term": "recompense",
+      "data-encoded-term": "recompense",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1194",
+        "cn5",
+        "1"
+      ]
+    },
+    "taxpaid": {
+      "data-frequency": "-1",
+      "data-relevance": "346",
+      "data-term": "taxpaid",
+      "data-encoded-term": "taxpaid",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "postpaid": {
+      "data-frequency": "205",
+      "data-relevance": "345",
+      "data-term": "postpaid",
+      "data-encoded-term": "postpaid",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "205",
+        "cn5",
+        "1"
+      ]
+    },
+    "payable": {
+      "data-frequency": "3600",
+      "data-relevance": "344",
+      "data-term": "payable",
+      "data-encoded-term": "payable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3600",
+        "cn5",
+        "1"
+      ]
+    },
+    "prestation": {
+      "data-frequency": "76",
+      "data-relevance": "343",
+      "data-term": "prestation",
+      "data-encoded-term": "prestation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "billpaying": {
+      "data-frequency": "-1",
+      "data-relevance": "342",
+      "data-term": "billpaying",
+      "data-encoded-term": "billpaying",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "compensate": {
+      "data-frequency": "11419",
+      "data-relevance": "341",
+      "data-term": "compensate",
+      "data-encoded-term": "compensate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11419",
+        "cn5",
+        "1"
+      ]
+    },
+    "payout": {
+      "data-frequency": "3609",
+      "data-relevance": "340",
+      "data-term": "payout",
+      "data-encoded-term": "payout",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3609",
+        "cn5",
+        "1"
+      ]
+    },
+    "compensable": {
+      "data-frequency": "84",
+      "data-relevance": "339",
+      "data-term": "compensable",
+      "data-encoded-term": "compensable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "84",
+        "cn5",
+        "1"
+      ]
+    },
+    "expenditure": {
+      "data-frequency": "9844",
+      "data-relevance": "338",
+      "data-term": "expenditure",
+      "data-encoded-term": "expenditure",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9844",
+        "cn5",
+        "1"
+      ]
+    },
+    "tax": {
+      "data-frequency": "86591",
+      "data-relevance": "337",
+      "data-term": "tax",
+      "data-encoded-term": "tax",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "86591",
+        "cn5",
+        "1"
+      ]
+    },
+    "tribute": {
+      "data-frequency": "88438",
+      "data-relevance": "336",
+      "data-term": "tribute",
+      "data-encoded-term": "tribute",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "88438",
+        "cn5",
+        "1"
+      ]
+    },
+    "feepaying": {
+      "data-frequency": "-1",
+      "data-relevance": "335",
+      "data-term": "feepaying",
+      "data-encoded-term": "feepaying",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "compensation": {
+      "data-frequency": "32404",
+      "data-relevance": "334",
+      "data-term": "compensation",
+      "data-encoded-term": "compensation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "32404",
+        "cn5",
+        "1"
+      ]
+    },
+    "ach": {
+      "data-frequency": "2532",
+      "data-relevance": "333",
+      "data-term": "ach",
+      "data-encoded-term": "ach",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2532",
+        "cn5",
+        "1"
+      ]
+    },
+    "billpayer": {
+      "data-frequency": "-1",
+      "data-relevance": "332",
+      "data-term": "billpayer",
+      "data-encoded-term": "billpayer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "emolument": {
+      "data-frequency": "182",
+      "data-relevance": "331",
+      "data-term": "emolument",
+      "data-encoded-term": "emolument",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "182",
+        "cn5",
+        "1"
+      ]
+    },
+    "redeem": {
+      "data-frequency": "3404",
+      "data-relevance": "330",
+      "data-term": "redeem",
+      "data-encoded-term": "redeem",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3404",
+        "cn5",
+        "1"
+      ]
+    },
+    "indemnities": {
+      "data-frequency": "459",
+      "data-relevance": "329",
+      "data-term": "indemnities",
+      "data-encoded-term": "indemnities",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "459",
+        "w2v",
+        "1"
+      ]
+    },
+    "prest": {
+      "data-frequency": "1296",
+      "data-relevance": "328",
+      "data-term": "prest",
+      "data-encoded-term": "prest",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1296",
+        "cn5",
+        "1"
+      ]
+    },
+    "defrayment": {
+      "data-frequency": "-1",
+      "data-relevance": "327",
+      "data-term": "defrayment",
+      "data-encoded-term": "defrayment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tithe": {
+      "data-frequency": "2964",
+      "data-relevance": "326",
+      "data-term": "tithe",
+      "data-encoded-term": "tithe",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2964",
+        "cn5",
+        "1"
+      ]
+    },
+    "surety": {
+      "data-frequency": "1301",
+      "data-relevance": "325",
+      "data-term": "surety",
+      "data-encoded-term": "surety",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1301",
+        "cn5",
+        "1"
+      ]
+    },
+    "fund": {
+      "data-frequency": "118223",
+      "data-relevance": "324",
+      "data-term": "fund",
+      "data-encoded-term": "fund",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "118223",
+        "cn5",
+        "1"
+      ]
+    },
+    "capitation": {
+      "data-frequency": "243",
+      "data-relevance": "323",
+      "data-term": "capitation",
+      "data-encoded-term": "capitation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "243",
+        "cn5",
+        "1"
+      ]
+    },
+    "non-payment": {
+      "data-frequency": "1298",
+      "data-relevance": "322",
+      "data-term": "non-payment",
+      "data-encoded-term": "non-payment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1298",
+        "w2v",
+        "1"
+      ]
+    },
+    "expense": {
+      "data-frequency": "26912",
+      "data-relevance": "321",
+      "data-term": "expense",
+      "data-encoded-term": "expense",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "26912",
+        "cn5",
+        "1"
+      ]
+    },
+    "ransom": {
+      "data-frequency": "14185",
+      "data-relevance": "320",
+      "data-term": "ransom",
+      "data-encoded-term": "ransom",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14185",
+        "cn5",
+        "1"
+      ]
+    },
+    "bagman": {
+      "data-frequency": "268",
+      "data-relevance": "319",
+      "data-term": "bagman",
+      "data-encoded-term": "bagman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "268",
+        "cn5",
+        "1"
+      ]
+    },
+    "annuity": {
+      "data-frequency": "2043",
+      "data-relevance": "318",
+      "data-term": "annuity",
+      "data-encoded-term": "annuity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2043",
+        "cn5",
+        "1"
+      ]
+    },
+    "revenue": {
+      "data-frequency": "82292",
+      "data-relevance": "317",
+      "data-term": "revenue",
+      "data-encoded-term": "revenue",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "82292",
+        "cn5",
+        "1"
+      ]
+    },
+    "mortpay": {
+      "data-frequency": "-1",
+      "data-relevance": "316",
+      "data-term": "mortpay",
+      "data-encoded-term": "mortpay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "taxable": {
+      "data-frequency": "2331",
+      "data-relevance": "315",
+      "data-term": "taxable",
+      "data-encoded-term": "taxable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2331",
+        "cn5",
+        "1"
+      ]
+    },
+    "reparation": {
+      "data-frequency": "1889",
+      "data-relevance": "314",
+      "data-term": "reparation",
+      "data-encoded-term": "reparation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1889",
+        "cn5",
+        "1"
+      ]
+    },
+    "quittance": {
+      "data-frequency": "59",
+      "data-relevance": "313",
+      "data-term": "quittance",
+      "data-encoded-term": "quittance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "loan": {
+      "data-frequency": "113821",
+      "data-relevance": "312",
+      "data-term": "loan",
+      "data-encoded-term": "loan",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "113821",
+        "cn5",
+        "1"
+      ]
+    },
+    "furloughs": {
+      "data-frequency": "244",
+      "data-relevance": "311",
+      "data-term": "furloughs",
+      "data-encoded-term": "furloughs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "244",
+        "w2v",
+        "1"
+      ]
+    },
+    "taxation": {
+      "data-frequency": "24373",
+      "data-relevance": "310",
+      "data-term": "taxation",
+      "data-encoded-term": "taxation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24373",
+        "cn5",
+        "1"
+      ]
+    },
+    "exorbitant": {
+      "data-frequency": "1354",
+      "data-relevance": "309",
+      "data-term": "exorbitant",
+      "data-encoded-term": "exorbitant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1354",
+        "w2v",
+        "1"
+      ]
+    },
+    "alimony": {
+      "data-frequency": "1031",
+      "data-relevance": "308",
+      "data-term": "alimony",
+      "data-encoded-term": "alimony",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1031",
+        "w2v",
+        "1"
+      ]
+    },
+    "delinquent": {
+      "data-frequency": "2898",
+      "data-relevance": "307",
+      "data-term": "delinquent",
+      "data-encoded-term": "delinquent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2898",
+        "ol",
+        "1"
+      ]
+    },
+    "feepayer": {
+      "data-frequency": "-1",
+      "data-relevance": "306",
+      "data-term": "feepayer",
+      "data-encoded-term": "feepayer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "uncollected": {
+      "data-frequency": "1222",
+      "data-relevance": "305",
+      "data-term": "uncollected",
+      "data-encoded-term": "uncollected",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1222",
+        "ol",
+        "1"
+      ]
+    },
+    "liens": {
+      "data-frequency": "6008",
+      "data-relevance": "304",
+      "data-term": "liens",
+      "data-encoded-term": "liens",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6008",
+        "ol",
+        "1"
+      ]
+    },
+    "dunning": {
+      "data-frequency": "5771",
+      "data-relevance": "303",
+      "data-term": "dunning",
+      "data-encoded-term": "dunning",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5771",
+        "ol",
+        "1"
+      ]
+    },
+    "disconnection": {
+      "data-frequency": "1122",
+      "data-relevance": "302",
+      "data-term": "disconnection",
+      "data-encoded-term": "disconnection",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1122",
+        "ol",
+        "1"
+      ]
+    },
+    "debtors": {
+      "data-frequency": "1849",
+      "data-relevance": "301",
+      "data-term": "debtors",
+      "data-encoded-term": "debtors",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1849",
+        "ol",
+        "1"
+      ]
+    },
+    "termination": {
+      "data-frequency": "15344",
+      "data-relevance": "300",
+      "data-term": "termination",
+      "data-encoded-term": "termination",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15344",
+        "ol",
+        "1"
+      ]
+    },
+    "revocation": {
+      "data-frequency": "3221",
+      "data-relevance": "299",
+      "data-term": "revocation",
+      "data-encoded-term": "revocation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3221",
+        "ol",
+        "1"
+      ]
+    },
+    "disconnecting": {
+      "data-frequency": "3205",
+      "data-relevance": "298",
+      "data-term": "disconnecting",
+      "data-encoded-term": "disconnecting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3205",
+        "ol",
+        "1"
+      ]
+    },
+    "misappropriation": {
+      "data-frequency": "1150",
+      "data-relevance": "297",
+      "data-term": "misappropriation",
+      "data-encoded-term": "misappropriation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1150",
+        "ol",
+        "1"
+      ]
+    },
+    "evictions": {
+      "data-frequency": "1144",
+      "data-relevance": "296",
+      "data-term": "evictions",
+      "data-encoded-term": "evictions",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1144",
+        "ol",
+        "1"
+      ]
+    },
+    "landlord": {
+      "data-frequency": "10376",
+      "data-relevance": "295",
+      "data-term": "landlord",
+      "data-encoded-term": "landlord",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10376",
+        "ol",
+        "1"
+      ]
+    },
+    "receivable": {
+      "data-frequency": "681",
+      "data-relevance": "294",
+      "data-term": "receivable",
+      "data-encoded-term": "receivable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "681",
+        "ol",
+        "1"
+      ]
+    },
+    "bailiffs": {
+      "data-frequency": "1167",
+      "data-relevance": "293",
+      "data-term": "bailiffs",
+      "data-encoded-term": "bailiffs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1167",
+        "ol",
+        "1"
+      ]
+    },
+    "employe": {
+      "data-frequency": "104",
+      "data-relevance": "292",
+      "data-term": "employe",
+      "data-encoded-term": "employe",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "104",
+        "ol",
+        "1"
+      ]
+    },
+    "defalcation": {
+      "data-frequency": "66",
+      "data-relevance": "291",
+      "data-term": "defalcation",
+      "data-encoded-term": "defalcation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "66",
+        "ol",
+        "1"
+      ]
+    },
+    "owing": {
+      "data-frequency": "26540",
+      "data-relevance": "290",
+      "data-term": "owing",
+      "data-encoded-term": "owing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "26540",
+        "ol",
+        "1"
+      ]
+    },
+    "ejectment": {
+      "data-frequency": "128",
+      "data-relevance": "289",
+      "data-term": "ejectment",
+      "data-encoded-term": "ejectment",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "128",
+        "ol",
+        "1"
+      ]
+    },
+    "noncompliance": {
+      "data-frequency": "748",
+      "data-relevance": "288",
+      "data-term": "noncompliance",
+      "data-encoded-term": "noncompliance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "748",
+        "ol",
+        "1"
+      ]
+    },
+    "debts": {
+      "data-frequency": "16696",
+      "data-relevance": "287",
+      "data-term": "debts",
+      "data-encoded-term": "debts",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16696",
+        "ol",
+        "1"
+      ]
+    },
+    "invoices": {
+      "data-frequency": "928",
+      "data-relevance": "286",
+      "data-term": "invoices",
+      "data-encoded-term": "invoices",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "928",
+        "ol",
+        "1"
+      ]
+    },
+    "invalid": {
+      "data-frequency": "24798",
+      "data-relevance": "285",
+      "data-term": "invalid",
+      "data-encoded-term": "invalid",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24798",
+        "ol",
+        "1"
+      ]
+    },
+    "misbehavior": {
+      "data-frequency": "755",
+      "data-relevance": "284",
+      "data-term": "misbehavior",
+      "data-encoded-term": "misbehavior",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "755",
+        "ol",
+        "1"
+      ]
+    },
+    "negligence": {
+      "data-frequency": "5621",
+      "data-relevance": "283",
+      "data-term": "negligence",
+      "data-encoded-term": "negligence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5621",
+        "ol",
+        "1"
+      ]
+    },
+    "trespassing": {
+      "data-frequency": "2775",
+      "data-relevance": "282",
+      "data-term": "trespassing",
+      "data-encoded-term": "trespassing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2775",
+        "ol",
+        "1"
+      ]
+    },
+    "violations": {
+      "data-frequency": "20403",
+      "data-relevance": "281",
+      "data-term": "violations",
+      "data-encoded-term": "violations",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20403",
+        "ol",
+        "1"
+      ]
+    },
+    "arrear": {
+      "data-frequency": "46",
+      "data-relevance": "280",
+      "data-term": "arrear",
+      "data-encoded-term": "arrear",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "bills": {
+      "data-frequency": "31873",
+      "data-relevance": "279",
+      "data-term": "bills",
+      "data-encoded-term": "bills",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "31873",
+        "ol",
+        "1"
+      ]
+    },
+    "mismanagement": {
+      "data-frequency": "4468",
+      "data-relevance": "278",
+      "data-term": "mismanagement",
+      "data-encoded-term": "mismanagement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4468",
+        "ol",
+        "1"
+      ]
+    },
+    "movables": {
+      "data-frequency": "5340",
+      "data-relevance": "277",
+      "data-term": "movables",
+      "data-encoded-term": "movables",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5340",
+        "ol",
+        "1"
+      ]
+    },
+    "neglect": {
+      "data-frequency": "11069",
+      "data-relevance": "276",
+      "data-term": "neglect",
+      "data-encoded-term": "neglect",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11069",
+        "ol",
+        "1"
+      ]
+    },
+    "foreclosure": {
+      "data-frequency": "2703",
+      "data-relevance": "275",
+      "data-term": "foreclosure",
+      "data-encoded-term": "foreclosure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2703",
+        "ol",
+        "1"
+      ]
+    },
+    "lessee": {
+      "data-frequency": "1015",
+      "data-relevance": "274",
+      "data-term": "lessee",
+      "data-encoded-term": "lessee",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1015",
+        "ol",
+        "1"
+      ]
+    },
+    "notices": {
+      "data-frequency": "34230",
+      "data-relevance": "273",
+      "data-term": "notices",
+      "data-encoded-term": "notices",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "34230",
+        "ol",
+        "1"
+      ]
+    },
+    "borrower": {
+      "data-frequency": "1018",
+      "data-relevance": "272",
+      "data-term": "borrower",
+      "data-encoded-term": "borrower",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1018",
+        "ol",
+        "1"
+      ]
+    },
+    "filing": {
+      "data-frequency": "15778",
+      "data-relevance": "271",
+      "data-term": "filing",
+      "data-encoded-term": "filing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15778",
+        "ol",
+        "1"
+      ]
+    },
+    "deductions": {
+      "data-frequency": "2127",
+      "data-relevance": "270",
+      "data-term": "deductions",
+      "data-encoded-term": "deductions",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2127",
+        "ol",
+        "1"
+      ]
+    },
+    "vendee": {
+      "data-frequency": "2672",
+      "data-relevance": "269",
+      "data-term": "vendee",
+      "data-encoded-term": "vendee",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2672",
+        "ol",
+        "1"
+      ]
+    },
+    "falsification": {
+      "data-frequency": "1390",
+      "data-relevance": "268",
+      "data-term": "falsification",
+      "data-encoded-term": "falsification",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1390",
+        "ol",
+        "1"
+      ]
+    },
+    "theft": {
+      "data-frequency": "23707",
+      "data-relevance": "267",
+      "data-term": "theft",
+      "data-encoded-term": "theft",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "23707",
+        "ol",
+        "1"
+      ]
+    },
+    "embezzlement": {
+      "data-frequency": "3486",
+      "data-relevance": "266",
+      "data-term": "embezzlement",
+      "data-encoded-term": "embezzlement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3486",
+        "ol",
+        "1"
+      ]
+    },
+    "creditor": {
+      "data-frequency": "2075",
+      "data-relevance": "265",
+      "data-term": "creditor",
+      "data-encoded-term": "creditor",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2075",
+        "ol",
+        "1"
+      ]
+    },
+    "defaulter": {
+      "data-frequency": "99",
+      "data-relevance": "264",
+      "data-term": "defaulter",
+      "data-encoded-term": "defaulter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "99",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgagee": {
+      "data-frequency": "211",
+      "data-relevance": "263",
+      "data-term": "mortgagee",
+      "data-encoded-term": "mortgagee",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "211",
+        "ol",
+        "1"
+      ]
+    },
+    "owe": {
+      "data-frequency": "6088",
+      "data-relevance": "262",
+      "data-term": "owe",
+      "data-encoded-term": "owe",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6088",
+        "cn5",
+        "1"
+      ]
+    },
+    "bote": {
+      "data-frequency": "1076",
+      "data-relevance": "261",
+      "data-term": "bote",
+      "data-encoded-term": "bote",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1076",
+        "cn5",
+        "1"
+      ]
+    },
+    "reward": {
+      "data-frequency": "24481",
+      "data-relevance": "260",
+      "data-term": "reward",
+      "data-encoded-term": "reward",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24481",
+        "cn5",
+        "1"
+      ]
+    },
+    "lender": {
+      "data-frequency": "2961",
+      "data-relevance": "259",
+      "data-term": "lender",
+      "data-encoded-term": "lender",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2961",
+        "cn5",
+        "1"
+      ]
+    },
+    "lump sum": {
+      "data-frequency": "1043",
+      "data-relevance": "258",
+      "data-term": "lump sum",
+      "data-encoded-term": "lump%20sum",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1043",
+        "cn5",
+        "1"
+      ]
+    },
+    "gabel": {
+      "data-frequency": "1283",
+      "data-relevance": "257",
+      "data-term": "gabel",
+      "data-encoded-term": "gabel",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1283",
+        "cn5",
+        "1"
+      ]
+    },
+    "pay up": {
+      "data-frequency": "968",
+      "data-relevance": "256",
+      "data-term": "pay up",
+      "data-encoded-term": "pay%20up",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "968",
+        "cn5",
+        "1"
+      ]
+    },
+    "levying": {
+      "data-frequency": "1102",
+      "data-relevance": "255",
+      "data-term": "levying",
+      "data-encoded-term": "levying",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1102",
+        "w2v",
+        "1"
+      ]
+    },
+    "income": {
+      "data-frequency": "130359",
+      "data-relevance": "254",
+      "data-term": "income",
+      "data-encoded-term": "income",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "130359",
+        "cn5",
+        "1"
+      ]
+    },
+    "extortionate": {
+      "data-frequency": "203",
+      "data-relevance": "253",
+      "data-term": "extortionate",
+      "data-encoded-term": "extortionate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "203",
+        "w2v",
+        "1"
+      ]
+    },
+    "bankroll": {
+      "data-frequency": "575",
+      "data-relevance": "252",
+      "data-term": "bankroll",
+      "data-encoded-term": "bankroll",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "575",
+        "cn5",
+        "1"
+      ]
+    },
+    "heirship": {
+      "data-frequency": "196",
+      "data-relevance": "251",
+      "data-term": "heirship",
+      "data-encoded-term": "heirship",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "196",
+        "w2v",
+        "1"
+      ]
+    },
+    "ratepaying": {
+      "data-frequency": "-1",
+      "data-relevance": "250",
+      "data-term": "ratepaying",
+      "data-encoded-term": "ratepaying",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "monetary": {
+      "data-frequency": "24602",
+      "data-relevance": "249",
+      "data-term": "monetary",
+      "data-encoded-term": "monetary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "24602",
+        "cn5",
+        "1"
+      ]
+    },
+    "agio": {
+      "data-frequency": "100",
+      "data-relevance": "248",
+      "data-term": "agio",
+      "data-encoded-term": "agio",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "100",
+        "cn5",
+        "1"
+      ]
+    },
+    "accrued": {
+      "data-frequency": "2426",
+      "data-relevance": "247",
+      "data-term": "accrued",
+      "data-encoded-term": "accrued",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2426",
+        "w2v",
+        "1"
+      ]
+    },
+    "solvency": {
+      "data-frequency": "713",
+      "data-relevance": "246",
+      "data-term": "solvency",
+      "data-encoded-term": "solvency",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "713",
+        "cn5",
+        "1"
+      ]
+    },
+    "forfeitures": {
+      "data-frequency": "2206",
+      "data-relevance": "245",
+      "data-term": "forfeitures",
+      "data-encoded-term": "forfeitures",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2206",
+        "w2v",
+        "1"
+      ]
+    },
+    "cash": {
+      "data-frequency": "76743",
+      "data-relevance": "244",
+      "data-term": "cash",
+      "data-encoded-term": "cash",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "76743",
+        "cn5",
+        "1"
+      ]
+    },
+    "underpay": {
+      "data-frequency": "47",
+      "data-relevance": "243",
+      "data-term": "underpay",
+      "data-encoded-term": "underpay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "incurs": {
+      "data-frequency": "900",
+      "data-relevance": "242",
+      "data-term": "incurs",
+      "data-encoded-term": "incurs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "900",
+        "w2v",
+        "1"
+      ]
+    },
+    "maladministration": {
+      "data-frequency": "386",
+      "data-relevance": "241",
+      "data-term": "maladministration",
+      "data-encoded-term": "maladministration",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "386",
+        "w2v",
+        "1"
+      ]
+    },
+    "idleness": {
+      "data-frequency": "1261",
+      "data-relevance": "240",
+      "data-term": "idleness",
+      "data-encoded-term": "idleness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1261",
+        "w2v",
+        "1"
+      ]
+    },
+    "outlay": {
+      "data-frequency": "962",
+      "data-relevance": "239",
+      "data-term": "outlay",
+      "data-encoded-term": "outlay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "962",
+        "cn5",
+        "1"
+      ]
+    },
+    "meed": {
+      "data-frequency": "295",
+      "data-relevance": "238",
+      "data-term": "meed",
+      "data-encoded-term": "meed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "295",
+        "cn5",
+        "1"
+      ]
+    },
+    "redemption": {
+      "data-frequency": "13655",
+      "data-relevance": "237",
+      "data-term": "redemption",
+      "data-encoded-term": "redemption",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13655",
+        "cn5",
+        "1"
+      ]
+    },
+    "lateness": {
+      "data-frequency": "462",
+      "data-relevance": "236",
+      "data-term": "lateness",
+      "data-encoded-term": "lateness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "462",
+        "w2v",
+        "1"
+      ]
+    },
+    "pay back": {
+      "data-frequency": "1754",
+      "data-relevance": "235",
+      "data-term": "pay back",
+      "data-encoded-term": "pay%20back",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1754",
+        "cn5",
+        "1"
+      ]
+    },
+    "deducting": {
+      "data-frequency": "477",
+      "data-relevance": "234",
+      "data-term": "deducting",
+      "data-encoded-term": "deducting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "477",
+        "w2v",
+        "1"
+      ]
+    },
+    "dowry": {
+      "data-frequency": "5434",
+      "data-relevance": "233",
+      "data-term": "dowry",
+      "data-encoded-term": "dowry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5434",
+        "w2v",
+        "1"
+      ]
+    },
+    "gratuities": {
+      "data-frequency": "208",
+      "data-relevance": "232",
+      "data-term": "gratuities",
+      "data-encoded-term": "gratuities",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "208",
+        "w2v",
+        "1"
+      ]
+    },
+    "moneylender": {
+      "data-frequency": "412",
+      "data-relevance": "231",
+      "data-term": "moneylender",
+      "data-encoded-term": "moneylender",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "412",
+        "cn5",
+        "1"
+      ]
+    },
+    "tithes": {
+      "data-frequency": "1872",
+      "data-relevance": "230",
+      "data-term": "tithes",
+      "data-encoded-term": "tithes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1872",
+        "w2v",
+        "1"
+      ]
+    },
+    "pay off": {
+      "data-frequency": "5761",
+      "data-relevance": "229",
+      "data-term": "pay off",
+      "data-encoded-term": "pay%20off",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5761",
+        "cn5",
+        "1"
+      ]
+    },
+    "waiving": {
+      "data-frequency": "676",
+      "data-relevance": "228",
+      "data-term": "waiving",
+      "data-encoded-term": "waiving",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "676",
+        "w2v",
+        "1"
+      ]
+    },
+    "restitution": {
+      "data-frequency": "4090",
+      "data-relevance": "227",
+      "data-term": "restitution",
+      "data-encoded-term": "restitution",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4090",
+        "cn5",
+        "1"
+      ]
+    },
+    "scoldings": {
+      "data-frequency": "3963",
+      "data-relevance": "226",
+      "data-term": "scoldings",
+      "data-encoded-term": "scoldings",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3963",
+        "w2v",
+        "1"
+      ]
+    },
+    "incurring": {
+      "data-frequency": "1914",
+      "data-relevance": "225",
+      "data-term": "incurring",
+      "data-encoded-term": "incurring",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1914",
+        "w2v",
+        "1"
+      ]
+    },
+    "groveling": {
+      "data-frequency": "321",
+      "data-relevance": "224",
+      "data-term": "groveling",
+      "data-encoded-term": "groveling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "321",
+        "w2v",
+        "1"
+      ]
+    },
+    "furlough": {
+      "data-frequency": "1478",
+      "data-relevance": "223",
+      "data-term": "furlough",
+      "data-encoded-term": "furlough",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1478",
+        "w2v",
+        "1"
+      ]
+    },
+    "money": {
+      "data-frequency": "256095",
+      "data-relevance": "222",
+      "data-term": "money",
+      "data-encoded-term": "money",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "256095",
+        "cn5",
+        "1"
+      ]
+    },
+    "hommage": {
+      "data-frequency": "2487",
+      "data-relevance": "221",
+      "data-term": "hommage",
+      "data-encoded-term": "hommage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2487",
+        "w2v",
+        "1"
+      ]
+    },
+    "levies": {
+      "data-frequency": "1952",
+      "data-relevance": "220",
+      "data-term": "levies",
+      "data-encoded-term": "levies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1952",
+        "w2v",
+        "1"
+      ]
+    },
+    "doling": {
+      "data-frequency": "209",
+      "data-relevance": "219",
+      "data-term": "doling",
+      "data-encoded-term": "doling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "209",
+        "w2v",
+        "1"
+      ]
+    },
+    "fines": {
+      "data-frequency": "10848",
+      "data-relevance": "218",
+      "data-term": "fines",
+      "data-encoded-term": "fines",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10848",
+        "w2v",
+        "1"
+      ]
+    },
+    "bill": {
+      "data-frequency": "382270",
+      "data-relevance": "217",
+      "data-term": "bill",
+      "data-encoded-term": "bill",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382270",
+        "cn5",
+        "1"
+      ]
+    },
+    "drunkenness": {
+      "data-frequency": "2251",
+      "data-relevance": "216",
+      "data-term": "drunkenness",
+      "data-encoded-term": "drunkenness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2251",
+        "w2v",
+        "1"
+      ]
+    },
+    "redundancy": {
+      "data-frequency": "4869",
+      "data-relevance": "215",
+      "data-term": "redundancy",
+      "data-encoded-term": "redundancy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4869",
+        "w2v",
+        "1"
+      ]
+    },
+    "inconveniences": {
+      "data-frequency": "2886",
+      "data-relevance": "214",
+      "data-term": "inconveniences",
+      "data-encoded-term": "inconveniences",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2886",
+        "w2v",
+        "1"
+      ]
+    },
+    "debt": {
+      "data-frequency": "43293",
+      "data-relevance": "213",
+      "data-term": "debt",
+      "data-encoded-term": "debt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "43293",
+        "cn5",
+        "1"
+      ]
+    },
+    "overworking": {
+      "data-frequency": "260",
+      "data-relevance": "212",
+      "data-term": "overworking",
+      "data-encoded-term": "overworking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "260",
+        "w2v",
+        "1"
+      ]
+    },
+    "qualm": {
+      "data-frequency": "255",
+      "data-relevance": "211",
+      "data-term": "qualm",
+      "data-encoded-term": "qualm",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "255",
+        "w2v",
+        "1"
+      ]
+    },
+    "burdening": {
+      "data-frequency": "25493",
+      "data-relevance": "210",
+      "data-term": "burdening",
+      "data-encoded-term": "burdening",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25493",
+        "w2v",
+        "1"
+      ]
+    },
+    "compensating": {
+      "data-frequency": "2050",
+      "data-relevance": "209",
+      "data-term": "compensating",
+      "data-encoded-term": "compensating",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2050",
+        "w2v",
+        "1"
+      ]
+    },
+    "invoice": {
+      "data-frequency": "1018",
+      "data-relevance": "208",
+      "data-term": "invoice",
+      "data-encoded-term": "invoice",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1018",
+        "cn5",
+        "1"
+      ]
+    },
+    "renewals": {
+      "data-frequency": "1073",
+      "data-relevance": "207",
+      "data-term": "renewals",
+      "data-encoded-term": "renewals",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1073",
+        "w2v",
+        "1"
+      ]
+    },
+    "financial": {
+      "data-frequency": "244806",
+      "data-relevance": "206",
+      "data-term": "financial",
+      "data-encoded-term": "financial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "244806",
+        "cn5",
+        "1"
+      ]
+    },
+    "accruing": {
+      "data-frequency": "1040",
+      "data-relevance": "205",
+      "data-term": "accruing",
+      "data-encoded-term": "accruing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1040",
+        "w2v",
+        "1"
+      ]
+    },
+    "extorting": {
+      "data-frequency": "700",
+      "data-relevance": "204",
+      "data-term": "extorting",
+      "data-encoded-term": "extorting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "700",
+        "w2v",
+        "1"
+      ]
+    },
+    "perquisites": {
+      "data-frequency": "286",
+      "data-relevance": "203",
+      "data-term": "perquisites",
+      "data-encoded-term": "perquisites",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "286",
+        "w2v",
+        "1"
+      ]
+    },
+    "debit": {
+      "data-frequency": "2762",
+      "data-relevance": "202",
+      "data-term": "debit",
+      "data-encoded-term": "debit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2762",
+        "cn5",
+        "1"
+      ]
+    },
+    "fixity": {
+      "data-frequency": "206",
+      "data-relevance": "201",
+      "data-term": "fixity",
+      "data-encoded-term": "fixity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "206",
+        "w2v",
+        "1"
+      ]
+    },
+    "tardiness": {
+      "data-frequency": "371",
+      "data-relevance": "200",
+      "data-term": "tardiness",
+      "data-encoded-term": "tardiness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "371",
+        "w2v",
+        "1"
+      ]
+    },
+    "allowances": {
+      "data-frequency": "4094",
+      "data-relevance": "199",
+      "data-term": "allowances",
+      "data-encoded-term": "allowances",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4094",
+        "w2v",
+        "1"
+      ]
+    },
+    "contraints": {
+      "data-frequency": "-1",
+      "data-relevance": "198",
+      "data-term": "contraints",
+      "data-encoded-term": "contraints",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "levy": {
+      "data-frequency": "36487",
+      "data-relevance": "197",
+      "data-term": "levy",
+      "data-encoded-term": "levy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "36487",
+        "cn5",
+        "1"
+      ]
+    },
+    "mise": {
+      "data-frequency": "2402",
+      "data-relevance": "196",
+      "data-term": "mise",
+      "data-encoded-term": "mise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2402",
+        "cn5",
+        "1"
+      ]
+    },
+    "surtax": {
+      "data-frequency": "147",
+      "data-relevance": "195",
+      "data-term": "surtax",
+      "data-encoded-term": "surtax",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "147",
+        "cn5",
+        "1"
+      ]
+    },
+    "usurer": {
+      "data-frequency": "138",
+      "data-relevance": "194",
+      "data-term": "usurer",
+      "data-encoded-term": "usurer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "138",
+        "cn5",
+        "1"
+      ]
+    },
+    "requital": {
+      "data-frequency": "60",
+      "data-relevance": "193",
+      "data-term": "requital",
+      "data-encoded-term": "requital",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "due": {
+      "data-frequency": "643456",
+      "data-relevance": "192",
+      "data-term": "due",
+      "data-encoded-term": "due",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "643456",
+        "cn5",
+        "1"
+      ]
+    },
+    "giro": {
+      "data-frequency": "6846",
+      "data-relevance": "191",
+      "data-term": "giro",
+      "data-encoded-term": "giro",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6846",
+        "cn5",
+        "1"
+      ]
+    },
+    "financial loss": {
+      "data-frequency": "780",
+      "data-relevance": "190",
+      "data-term": "financial loss",
+      "data-encoded-term": "financial%20loss",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "780",
+        "wn",
+        "1"
+      ]
+    },
+    "go dutch": {
+      "data-frequency": "65",
+      "data-relevance": "189",
+      "data-term": "go dutch",
+      "data-encoded-term": "go%20dutch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "65",
+        "cn5",
+        "1"
+      ]
+    },
+    "give money": {
+      "data-frequency": "353",
+      "data-relevance": "188",
+      "data-term": "give money",
+      "data-encoded-term": "give%20money",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "353",
+        "cn5",
+        "1"
+      ]
+    },
+    "finance": {
+      "data-frequency": "120619",
+      "data-relevance": "187",
+      "data-term": "finance",
+      "data-encoded-term": "finance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120619",
+        "cn5",
+        "1"
+      ]
+    },
+    "garnishment": {
+      "data-frequency": "102",
+      "data-relevance": "186",
+      "data-term": "garnishment",
+      "data-encoded-term": "garnishment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "102",
+        "ol",
+        "1"
+      ]
+    },
+    "spillionaire": {
+      "data-frequency": "-1",
+      "data-relevance": "185",
+      "data-term": "spillionaire",
+      "data-encoded-term": "spillionaire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "arrearage": {
+      "data-frequency": "-1",
+      "data-relevance": "184",
+      "data-term": "arrearage",
+      "data-encoded-term": "arrearage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "garnishee": {
+      "data-frequency": "-1",
+      "data-relevance": "183",
+      "data-term": "garnishee",
+      "data-encoded-term": "garnishee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "distraint": {
+      "data-frequency": "80",
+      "data-relevance": "182",
+      "data-term": "distraint",
+      "data-encoded-term": "distraint",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "nonperformance": {
+      "data-frequency": "-1",
+      "data-relevance": "181",
+      "data-term": "nonperformance",
+      "data-encoded-term": "nonperformance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "deadbeats": {
+      "data-frequency": "711",
+      "data-relevance": "180",
+      "data-term": "deadbeats",
+      "data-encoded-term": "deadbeats",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "711",
+        "ol",
+        "1"
+      ]
+    },
+    "undercharge": {
+      "data-frequency": "-1",
+      "data-relevance": "179",
+      "data-term": "undercharge",
+      "data-encoded-term": "undercharge",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "shutoff": {
+      "data-frequency": "217",
+      "data-relevance": "178",
+      "data-term": "shutoff",
+      "data-encoded-term": "shutoff",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "217",
+        "ol",
+        "1"
+      ]
+    },
+    "replevin": {
+      "data-frequency": "175",
+      "data-relevance": "177",
+      "data-term": "replevin",
+      "data-encoded-term": "replevin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "175",
+        "ol",
+        "1"
+      ]
+    },
+    "stiffed": {
+      "data-frequency": "15658",
+      "data-relevance": "176",
+      "data-term": "stiffed",
+      "data-encoded-term": "stiffed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15658",
+        "ol",
+        "1"
+      ]
+    },
+    "appellee": {
+      "data-frequency": "732",
+      "data-relevance": "175",
+      "data-term": "appellee",
+      "data-encoded-term": "appellee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "732",
+        "ol",
+        "1"
+      ]
+    },
+    "obligor": {
+      "data-frequency": "51",
+      "data-relevance": "174",
+      "data-term": "obligor",
+      "data-encoded-term": "obligor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51",
+        "ol",
+        "1"
+      ]
+    },
+    "noncurrent": {
+      "data-frequency": "-1",
+      "data-relevance": "173",
+      "data-term": "noncurrent",
+      "data-encoded-term": "noncurrent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "reconveyance": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "reconveyance",
+      "data-encoded-term": "reconveyance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ineligibility": {
+      "data-frequency": "592",
+      "data-relevance": "171",
+      "data-term": "ineligibility",
+      "data-encoded-term": "ineligibility",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "592",
+        "ol",
+        "1"
+      ]
+    },
+    "escrowing": {
+      "data-frequency": "-1",
+      "data-relevance": "170",
+      "data-term": "escrowing",
+      "data-encoded-term": "escrowing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "repossession": {
+      "data-frequency": "437",
+      "data-relevance": "169",
+      "data-term": "repossession",
+      "data-encoded-term": "repossession",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "437",
+        "ol",
+        "1"
+      ]
+    },
+    "cancelable": {
+      "data-frequency": "-1",
+      "data-relevance": "168",
+      "data-term": "cancelable",
+      "data-encoded-term": "cancelable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "demandable": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "demandable",
+      "data-encoded-term": "demandable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sorbin": {
+      "data-frequency": "348",
+      "data-relevance": "166",
+      "data-term": "sorbin",
+      "data-encoded-term": "sorbin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "348",
+        "ol",
+        "1"
+      ]
+    },
+    "indigency": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "indigency",
+      "data-encoded-term": "indigency",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "interpleader": {
+      "data-frequency": "75",
+      "data-relevance": "164",
+      "data-term": "interpleader",
+      "data-encoded-term": "interpleader",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "75",
+        "ol",
+        "1"
+      ]
+    },
+    "rels": {
+      "data-frequency": "46",
+      "data-relevance": "163",
+      "data-term": "rels",
+      "data-encoded-term": "rels",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "bailor": {
+      "data-frequency": "124",
+      "data-relevance": "162",
+      "data-term": "bailor",
+      "data-encoded-term": "bailor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "124",
+        "ol",
+        "1"
+      ]
+    },
+    "nonsupport": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "nonsupport",
+      "data-encoded-term": "nonsupport",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "mortgagors": {
+      "data-frequency": "45",
+      "data-relevance": "160",
+      "data-term": "mortgagors",
+      "data-encoded-term": "mortgagors",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "nondelivery": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "nondelivery",
+      "data-encoded-term": "nondelivery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "suretyship": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "suretyship",
+      "data-encoded-term": "suretyship",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "subtenant": {
+      "data-frequency": "42",
+      "data-relevance": "157",
+      "data-term": "subtenant",
+      "data-encoded-term": "subtenant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42",
+        "ol",
+        "1"
+      ]
+    },
+    "counterclaim": {
+      "data-frequency": "323",
+      "data-relevance": "156",
+      "data-term": "counterclaim",
+      "data-encoded-term": "counterclaim",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "323",
+        "ol",
+        "1"
+      ]
+    },
+    "bailee": {
+      "data-frequency": "227",
+      "data-relevance": "155",
+      "data-term": "bailee",
+      "data-encoded-term": "bailee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "227",
+        "ol",
+        "1"
+      ]
+    },
+    "includable": {
+      "data-frequency": "-1",
+      "data-relevance": "154",
+      "data-term": "includable",
+      "data-encoded-term": "includable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "misspending": {
+      "data-frequency": "53",
+      "data-relevance": "153",
+      "data-term": "misspending",
+      "data-encoded-term": "misspending",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "showiness": {
+      "data-frequency": "45",
+      "data-relevance": "152",
+      "data-term": "showiness",
+      "data-encoded-term": "showiness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "pay out": {
+      "data-frequency": "888",
+      "data-relevance": "151",
+      "data-term": "pay out",
+      "data-encoded-term": "pay%20out",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "888",
+        "cn5",
+        "1"
+      ]
+    },
+    "lump-sum": {
+      "data-frequency": "1043",
+      "data-relevance": "150",
+      "data-term": "lump-sum",
+      "data-encoded-term": "lump-sum",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1043",
+        "w2v",
+        "1"
+      ]
+    },
+    "exempt": {
+      "data-frequency": "27083",
+      "data-relevance": "149",
+      "data-term": "exempt",
+      "data-encoded-term": "exempt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27083",
+        "cn5",
+        "1"
+      ]
+    },
+    "blood money": {
+      "data-frequency": "1218",
+      "data-relevance": "148",
+      "data-term": "blood money",
+      "data-encoded-term": "blood%20money",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1218",
+        "cn5",
+        "1"
+      ]
+    },
+    "performance-related": {
+      "data-frequency": "142668",
+      "data-relevance": "147",
+      "data-term": "performance-related",
+      "data-encoded-term": "performance-related",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "142668",
+        "w2v",
+        "1"
+      ]
+    },
+    "pilferage": {
+      "data-frequency": "109",
+      "data-relevance": "146",
+      "data-term": "pilferage",
+      "data-encoded-term": "pilferage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "109",
+        "w2v",
+        "1"
+      ]
+    },
+    "danger pay": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "danger pay",
+      "data-encoded-term": "danger%20pay",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hassles": {
+      "data-frequency": "3200",
+      "data-relevance": "144",
+      "data-term": "hassles",
+      "data-encoded-term": "hassles",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3200",
+        "w2v",
+        "1"
+      ]
+    },
+    "overspending": {
+      "data-frequency": "525",
+      "data-relevance": "143",
+      "data-term": "overspending",
+      "data-encoded-term": "overspending",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "525",
+        "w2v",
+        "1"
+      ]
+    },
+    "underpaying": {
+      "data-frequency": "101",
+      "data-relevance": "142",
+      "data-term": "underpaying",
+      "data-encoded-term": "underpaying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "101",
+        "w2v",
+        "1"
+      ]
+    },
+    "cash in hand": {
+      "data-frequency": "90",
+      "data-relevance": "141",
+      "data-term": "cash in hand",
+      "data-encoded-term": "cash%20in%20hand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "90",
+        "cn5",
+        "1"
+      ]
+    },
+    "deferrals": {
+      "data-frequency": "115",
+      "data-relevance": "140",
+      "data-term": "deferrals",
+      "data-encoded-term": "deferrals",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "115",
+        "w2v",
+        "1"
+      ]
+    },
+    "old-age": {
+      "data-frequency": "347256",
+      "data-relevance": "139",
+      "data-term": "old-age",
+      "data-encoded-term": "old-age",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "347256",
+        "w2v",
+        "1"
+      ]
+    },
+    "lobola": {
+      "data-frequency": "45",
+      "data-relevance": "138",
+      "data-term": "lobola",
+      "data-encoded-term": "lobola",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "overcharging": {
+      "data-frequency": "861",
+      "data-relevance": "137",
+      "data-term": "overcharging",
+      "data-encoded-term": "overcharging",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "861",
+        "w2v",
+        "1"
+      ]
+    },
+    "reversions": {
+      "data-frequency": "155",
+      "data-relevance": "136",
+      "data-term": "reversions",
+      "data-encoded-term": "reversions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "155",
+        "w2v",
+        "1"
+      ]
+    },
+    "recusancy": {
+      "data-frequency": "994",
+      "data-relevance": "135",
+      "data-term": "recusancy",
+      "data-encoded-term": "recusancy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "994",
+        "w2v",
+        "1"
+      ]
+    },
+    "sess": {
+      "data-frequency": "1076",
+      "data-relevance": "134",
+      "data-term": "sess",
+      "data-encoded-term": "sess",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1076",
+        "cn5",
+        "1"
+      ]
+    },
+    "subsidization": {
+      "data-frequency": "180",
+      "data-relevance": "133",
+      "data-term": "subsidization",
+      "data-encoded-term": "subsidization",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "180",
+        "cn5",
+        "1"
+      ]
+    },
+    "underfunding": {
+      "data-frequency": "274",
+      "data-relevance": "132",
+      "data-term": "underfunding",
+      "data-encoded-term": "underfunding",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "274",
+        "w2v",
+        "1"
+      ]
+    },
+    "overpay": {
+      "data-frequency": "63",
+      "data-relevance": "131",
+      "data-term": "overpay",
+      "data-encoded-term": "overpay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "63",
+        "cn5",
+        "1"
+      ]
+    },
+    "abatements": {
+      "data-frequency": "88",
+      "data-relevance": "130",
+      "data-term": "abatements",
+      "data-encoded-term": "abatements",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "88",
+        "w2v",
+        "1"
+      ]
+    },
+    "givebacks": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "givebacks",
+      "data-encoded-term": "givebacks",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "buyer's premium": {
+      "data-frequency": "103",
+      "data-relevance": "128",
+      "data-term": "buyer's premium",
+      "data-encoded-term": "buyer's%20premium",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "103",
+        "cn5",
+        "1"
+      ]
+    },
+    "down payment": {
+      "data-frequency": "851",
+      "data-relevance": "127",
+      "data-term": "down payment",
+      "data-encoded-term": "down%20payment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "851",
+        "cn5",
+        "1"
+      ]
+    },
+    "trade-mark": {
+      "data-frequency": "1264",
+      "data-relevance": "126",
+      "data-term": "trade-mark",
+      "data-encoded-term": "trade-mark",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1264",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonbusiness": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "nonbusiness",
+      "data-encoded-term": "nonbusiness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "fmla": {
+      "data-frequency": "57",
+      "data-relevance": "124",
+      "data-term": "fmla",
+      "data-encoded-term": "fmla",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "57",
+        "w2v",
+        "1"
+      ]
+    },
+    "withholdings": {
+      "data-frequency": "5405",
+      "data-relevance": "123",
+      "data-term": "withholdings",
+      "data-encoded-term": "withholdings",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5405",
+        "w2v",
+        "1"
+      ]
+    },
+    "widepread": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "widepread",
+      "data-encoded-term": "widepread",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "government-imposed": {
+      "data-frequency": "25826",
+      "data-relevance": "121",
+      "data-term": "government-imposed",
+      "data-encoded-term": "government-imposed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "25826",
+        "w2v",
+        "1"
+      ]
+    },
+    "prepaying": {
+      "data-frequency": "395",
+      "data-relevance": "120",
+      "data-term": "prepaying",
+      "data-encoded-term": "prepaying",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "395",
+        "w2v",
+        "1"
+      ]
+    },
+    "snafu": {
+      "data-frequency": "941",
+      "data-relevance": "119",
+      "data-term": "snafu",
+      "data-encoded-term": "snafu",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "941",
+        "w2v",
+        "1"
+      ]
+    },
+    "imburse": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "imburse",
+      "data-encoded-term": "imburse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "recoupment": {
+      "data-frequency": "70",
+      "data-relevance": "117",
+      "data-term": "recoupment",
+      "data-encoded-term": "recoupment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "70",
+        "w2v",
+        "1"
+      ]
+    },
+    "60,000,000": {
+      "data-frequency": "180785",
+      "data-relevance": "116",
+      "data-term": "60,000,000",
+      "data-encoded-term": "60%2C000%2C000",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "180785",
+        "w2v",
+        "1"
+      ]
+    },
+    "self-induced": {
+      "data-frequency": "9565",
+      "data-relevance": "115",
+      "data-term": "self-induced",
+      "data-encoded-term": "self-induced",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9565",
+        "w2v",
+        "1"
+      ]
+    },
+    "cashless": {
+      "data-frequency": "412",
+      "data-relevance": "114",
+      "data-term": "cashless",
+      "data-encoded-term": "cashless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "412",
+        "cn5",
+        "1"
+      ]
+    },
+    "cashola": {
+      "data-frequency": "-1",
+      "data-relevance": "113",
+      "data-term": "cashola",
+      "data-encoded-term": "cashola",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "betall": {
+      "data-frequency": "-1",
+      "data-relevance": "112",
+      "data-term": "betall",
+      "data-encoded-term": "betall",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "paybook": {
+      "data-frequency": "-1",
+      "data-relevance": "111",
+      "data-term": "paybook",
+      "data-encoded-term": "paybook",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "shakedowns": {
+      "data-frequency": "4757",
+      "data-relevance": "110",
+      "data-term": "shakedowns",
+      "data-encoded-term": "shakedowns",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4757",
+        "w2v",
+        "1"
+      ]
+    },
+    "peonage": {
+      "data-frequency": "770",
+      "data-relevance": "109",
+      "data-term": "peonage",
+      "data-encoded-term": "peonage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "770",
+        "w2v",
+        "1"
+      ]
+    },
+    "ill-health": {
+      "data-frequency": "23307",
+      "data-relevance": "108",
+      "data-term": "ill-health",
+      "data-encoded-term": "ill-health",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23307",
+        "w2v",
+        "1"
+      ]
+    },
+    "cutoffs": {
+      "data-frequency": "3358",
+      "data-relevance": "107",
+      "data-term": "cutoffs",
+      "data-encoded-term": "cutoffs",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3358",
+        "w2v",
+        "1"
+      ]
+    },
+    "overzealousness": {
+      "data-frequency": "49",
+      "data-relevance": "106",
+      "data-term": "overzealousness",
+      "data-encoded-term": "overzealousness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "tonic-clonic": {
+      "data-frequency": "208",
+      "data-relevance": "105",
+      "data-term": "tonic-clonic",
+      "data-encoded-term": "tonic-clonic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "208",
+        "w2v",
+        "1"
+      ]
+    },
+    "deductibility": {
+      "data-frequency": "6804",
+      "data-relevance": "104",
+      "data-term": "deductibility",
+      "data-encoded-term": "deductibility",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6804",
+        "w2v",
+        "1"
+      ]
+    },
+    "bride-price": {
+      "data-frequency": "536",
+      "data-relevance": "103",
+      "data-term": "bride-price",
+      "data-encoded-term": "bride-price",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "536",
+        "w2v",
+        "1"
+      ]
+    },
+    "backaches": {
+      "data-frequency": "140",
+      "data-relevance": "102",
+      "data-term": "backaches",
+      "data-encoded-term": "backaches",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "140",
+        "w2v",
+        "1"
+      ]
+    },
+    "long-ago": {
+      "data-frequency": "6809",
+      "data-relevance": "101",
+      "data-term": "long-ago",
+      "data-encoded-term": "long-ago",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6809",
+        "w2v",
+        "1"
+      ]
+    },
+    "pay for": {
+      "data-frequency": "27477",
+      "data-relevance": "100",
+      "data-term": "pay for",
+      "data-encoded-term": "pay%20for",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "27477",
+        "cn5",
+        "1"
+      ]
+    },
+    "understaffing": {
+      "data-frequency": "104",
+      "data-relevance": "99",
+      "data-term": "understaffing",
+      "data-encoded-term": "understaffing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "104",
+        "w2v",
+        "1"
+      ]
+    },
+    "write-offs": {
+      "data-frequency": "125",
+      "data-relevance": "98",
+      "data-term": "write-offs",
+      "data-encoded-term": "write-offs",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "125",
+        "w2v",
+        "1"
+      ]
+    },
+    "passenger-miles": {
+      "data-frequency": "30236",
+      "data-relevance": "97",
+      "data-term": "passenger-miles",
+      "data-encoded-term": "passenger-miles",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "30236",
+        "w2v",
+        "1"
+      ]
+    },
+    "1990-1999": {
+      "data-frequency": "273408",
+      "data-relevance": "96",
+      "data-term": "1990-1999",
+      "data-encoded-term": "1990-1999",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "273408",
+        "w2v",
+        "1"
+      ]
+    },
+    "disposable income": {
+      "data-frequency": "573",
+      "data-relevance": "95",
+      "data-term": "disposable income",
+      "data-encoded-term": "disposable%20income",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "573",
+        "cn5",
+        "1"
+      ]
+    },
+    "moneywise": {
+      "data-frequency": "48",
+      "data-relevance": "94",
+      "data-term": "moneywise",
+      "data-encoded-term": "moneywise",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "featherbedding": {
+      "data-frequency": "233",
+      "data-relevance": "93",
+      "data-term": "featherbedding",
+      "data-encoded-term": "featherbedding",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "233",
+        "w2v",
+        "1"
+      ]
+    },
+    "reimbursements": {
+      "data-frequency": "430",
+      "data-relevance": "92",
+      "data-term": "reimbursements",
+      "data-encoded-term": "reimbursements",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "430",
+        "w2v",
+        "1"
+      ]
+    },
+    "overbooking": {
+      "data-frequency": "156",
+      "data-relevance": "91",
+      "data-term": "overbooking",
+      "data-encoded-term": "overbooking",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "156",
+        "w2v",
+        "1"
+      ]
+    },
+    "fanucci": {
+      "data-frequency": "106",
+      "data-relevance": "90",
+      "data-term": "fanucci",
+      "data-encoded-term": "fanucci",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "106",
+        "w2v",
+        "1"
+      ]
+    },
+    "scofflaws": {
+      "data-frequency": "65",
+      "data-relevance": "89",
+      "data-term": "scofflaws",
+      "data-encoded-term": "scofflaws",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65",
+        "w2v",
+        "1"
+      ]
+    },
+    "sentimentalizing": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "sentimentalizing",
+      "data-encoded-term": "sentimentalizing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "denouncements": {
+      "data-frequency": "20262",
+      "data-relevance": "87",
+      "data-term": "denouncements",
+      "data-encoded-term": "denouncements",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "20262",
+        "w2v",
+        "1"
+      ]
+    },
+    "gpfs": {
+      "data-frequency": "249",
+      "data-relevance": "86",
+      "data-term": "gpfs",
+      "data-encoded-term": "gpfs",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "249",
+        "w2v",
+        "1"
+      ]
+    },
+    "moola": {
+      "data-frequency": "233",
+      "data-relevance": "85",
+      "data-term": "moola",
+      "data-encoded-term": "moola",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "233",
+        "cn5",
+        "1"
+      ]
+    },
+    "antimoney": {
+      "data-frequency": "-1",
+      "data-relevance": "84",
+      "data-term": "antimoney",
+      "data-encoded-term": "antimoney",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "credit transfer": {
+      "data-frequency": "372",
+      "data-relevance": "83",
+      "data-term": "credit transfer",
+      "data-encoded-term": "credit%20transfer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "372",
+        "cn5",
+        "1"
+      ]
+    },
+    "cybermoney": {
+      "data-frequency": "-1",
+      "data-relevance": "82",
+      "data-term": "cybermoney",
+      "data-encoded-term": "cybermoney",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grubstake": {
+      "data-frequency": "52",
+      "data-relevance": "81",
+      "data-term": "grubstake",
+      "data-encoded-term": "grubstake",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "moneymaker": {
+      "data-frequency": "597",
+      "data-relevance": "80",
+      "data-term": "moneymaker",
+      "data-encoded-term": "moneymaker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "597",
+        "cn5",
+        "1"
+      ]
+    },
+    "gelt": {
+      "data-frequency": "236",
+      "data-relevance": "79",
+      "data-term": "gelt",
+      "data-encoded-term": "gelt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "236",
+        "cn5",
+        "1"
+      ]
+    },
+    "modaraba": {
+      "data-frequency": "-1",
+      "data-relevance": "78",
+      "data-term": "modaraba",
+      "data-encoded-term": "modaraba",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tax collector": {
+      "data-frequency": "1608",
+      "data-relevance": "77",
+      "data-term": "tax collector",
+      "data-encoded-term": "tax%20collector",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1608",
+        "cn5",
+        "1"
+      ]
+    },
+    "operate expense": {
+      "data-frequency": "-1",
+      "data-relevance": "76",
+      "data-term": "operate expense",
+      "data-encoded-term": "operate%20expense",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "key money": {
+      "data-frequency": "44",
+      "data-relevance": "75",
+      "data-term": "key money",
+      "data-encoded-term": "key%20money",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "buy off": {
+      "data-frequency": "188",
+      "data-relevance": "74",
+      "data-term": "buy off",
+      "data-encoded-term": "buy%20off",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "188",
+        "cn5",
+        "1"
+      ]
+    },
+    "chargecard": {
+      "data-frequency": "-1",
+      "data-relevance": "73",
+      "data-term": "chargecard",
+      "data-encoded-term": "chargecard",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "billable": {
+      "data-frequency": "160",
+      "data-relevance": "72",
+      "data-term": "billable",
+      "data-encoded-term": "billable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "160",
+        "cn5",
+        "1"
+      ]
+    },
+    "pinchpenny": {
+      "data-frequency": "-1",
+      "data-relevance": "71",
+      "data-term": "pinchpenny",
+      "data-encoded-term": "pinchpenny",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dollarwise": {
+      "data-frequency": "-1",
+      "data-relevance": "70",
+      "data-term": "dollarwise",
+      "data-encoded-term": "dollarwise",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "overcompensation": {
+      "data-frequency": "60",
+      "data-relevance": "69",
+      "data-term": "overcompensation",
+      "data-encoded-term": "overcompensation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "lubrication payment": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "lubrication payment",
+      "data-encoded-term": "lubrication%20payment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "moneyboy": {
+      "data-frequency": "-1",
+      "data-relevance": "67",
+      "data-term": "moneyboy",
+      "data-encoded-term": "moneyboy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "income tax": {
+      "data-frequency": "8699",
+      "data-relevance": "66",
+      "data-term": "income tax",
+      "data-encoded-term": "income%20tax",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8699",
+        "cn5",
+        "1"
+      ]
+    },
+    "grease payment": {
+      "data-frequency": "-1",
+      "data-relevance": "65",
+      "data-term": "grease payment",
+      "data-encoded-term": "grease%20payment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pay one's due": {
+      "data-frequency": "-1",
+      "data-relevance": "64",
+      "data-term": "pay one's due",
+      "data-encoded-term": "pay%20one's%20due",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "capital gain tax": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "capital gain tax",
+      "data-encoded-term": "capital%20gain%20tax",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "transfer tax": {
+      "data-frequency": "570",
+      "data-relevance": "62",
+      "data-term": "transfer tax",
+      "data-encoded-term": "transfer%20tax",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "570",
+        "cn5",
+        "1"
+      ]
+    },
+    "front money": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "front money",
+      "data-encoded-term": "front%20money",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unearned income": {
+      "data-frequency": "73",
+      "data-relevance": "60",
+      "data-term": "unearned income",
+      "data-encoded-term": "unearned%20income",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "73",
+        "cn5",
+        "1"
+      ]
+    },
+    "dead pledge": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "dead pledge",
+      "data-encoded-term": "dead%20pledge",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "inheritance tax": {
+      "data-frequency": "593",
+      "data-relevance": "58",
+      "data-term": "inheritance tax",
+      "data-encoded-term": "inheritance%20tax",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "593",
+        "cn5",
+        "1"
+      ]
+    },
+    "ready money": {
+      "data-frequency": "117",
+      "data-relevance": "57",
+      "data-term": "ready money",
+      "data-encoded-term": "ready%20money",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "117",
+        "cn5",
+        "1"
+      ]
+    },
+    "estate tax": {
+      "data-frequency": "1133",
+      "data-relevance": "56",
+      "data-term": "estate tax",
+      "data-encoded-term": "estate%20tax",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1133",
+        "cn5",
+        "1"
+      ]
+    },
+    "head tax": {
+      "data-frequency": "243",
+      "data-relevance": "55",
+      "data-term": "head tax",
+      "data-encoded-term": "head%20tax",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "243",
+        "cn5",
+        "1"
+      ]
+    },
+    "dollar bill": {
+      "data-frequency": "1263",
+      "data-relevance": "54",
+      "data-term": "dollar bill",
+      "data-encoded-term": "dollar%20bill",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1263",
+        "cn5",
+        "1"
+      ]
+    },
+    "pay stub": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "pay stub",
+      "data-encoded-term": "pay%20stub",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cash and carry": {
+      "data-frequency": "383",
+      "data-relevance": "52",
+      "data-term": "cash and carry",
+      "data-encoded-term": "cash%20and%20carry",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "383",
+        "cn5",
+        "1"
+      ]
+    },
+    "stealth tax": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "stealth tax",
+      "data-encoded-term": "stealth%20tax",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticipatory breach": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "anticipatory breach",
+      "data-encoded-term": "anticipatory%20breach",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "bridge loan": {
+      "data-frequency": "122",
+      "data-relevance": "49",
+      "data-term": "bridge loan",
+      "data-encoded-term": "bridge%20loan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "122",
+        "cn5",
+        "1"
+      ]
+    },
+    "accounts receivable": {
+      "data-frequency": "273",
+      "data-relevance": "48",
+      "data-term": "accounts receivable",
+      "data-encoded-term": "accounts%20receivable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "273",
+        "ol",
+        "1"
+      ]
+    },
+    "nonjudicial foreclosure": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "nonjudicial foreclosure",
+      "data-encoded-term": "nonjudicial%20foreclosure",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fork over": {
+      "data-frequency": "46",
+      "data-relevance": "46",
+      "data-term": "fork over",
+      "data-encoded-term": "fork%20over",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "lis pendens": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "lis pendens",
+      "data-encoded-term": "lis%20pendens",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "liquidated damages": {
+      "data-frequency": "186",
+      "data-relevance": "44",
+      "data-term": "liquidated damages",
+      "data-encoded-term": "liquidated%20damages",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "186",
+        "ol",
+        "1"
+      ]
+    },
+    "viatical settlement": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "viatical settlement",
+      "data-encoded-term": "viatical%20settlement",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pay through nose": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "pay through nose",
+      "data-encoded-term": "pay%20through%20nose",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pendente lite": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "pendente lite",
+      "data-encoded-term": "pendente%20lite",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "combat pay": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "combat pay",
+      "data-encoded-term": "combat%20pay",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "interest rate": {
+      "data-frequency": "2826",
+      "data-relevance": "39",
+      "data-term": "interest rate",
+      "data-encoded-term": "interest%20rate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2826",
+        "cn5",
+        "1"
+      ]
+    },
+    "peace dividend": {
+      "data-frequency": "105",
+      "data-relevance": "38",
+      "data-term": "peace dividend",
+      "data-encoded-term": "peace%20dividend",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "rent money": {
+      "data-frequency": "181",
+      "data-relevance": "37",
+      "data-term": "rent money",
+      "data-encoded-term": "rent%20money",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "181",
+        "cn5",
+        "1"
+      ]
+    },
+    "money supply": {
+      "data-frequency": "995",
+      "data-relevance": "36",
+      "data-term": "money supply",
+      "data-encoded-term": "money%20supply",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "995",
+        "cn5",
+        "1"
+      ]
+    },
+    "plastic money": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "plastic money",
+      "data-encoded-term": "plastic%20money",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mutual fund": {
+      "data-frequency": "1094",
+      "data-relevance": "34",
+      "data-term": "mutual fund",
+      "data-encoded-term": "mutual%20fund",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1094",
+        "cn5",
+        "1"
+      ]
+    },
+    "in cash": {
+      "data-frequency": "8009",
+      "data-relevance": "33",
+      "data-term": "in cash",
+      "data-encoded-term": "in%20cash",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8009",
+        "cn5",
+        "1"
+      ]
+    },
+    "premium bond": {
+      "data-frequency": "-1",
+      "data-relevance": "32",
+      "data-term": "premium bond",
+      "data-encoded-term": "premium%20bond",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "penny pinch": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "penny pinch",
+      "data-encoded-term": "penny%20pinch",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "break bank": {
+      "data-frequency": "-1",
+      "data-relevance": "30",
+      "data-term": "break bank",
+      "data-encoded-term": "break%20bank",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ante up": {
+      "data-frequency": "129",
+      "data-relevance": "29",
+      "data-term": "ante up",
+      "data-encoded-term": "ante%20up",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "129",
+        "cn5",
+        "1"
+      ]
+    },
+    "paper money": {
+      "data-frequency": "1839",
+      "data-relevance": "28",
+      "data-term": "paper money",
+      "data-encoded-term": "paper%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1839",
+        "cn5",
+        "1"
+      ]
+    },
+    "cough up": {
+      "data-frequency": "167",
+      "data-relevance": "27",
+      "data-term": "cough up",
+      "data-encoded-term": "cough%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "167",
+        "cn5",
+        "1"
+      ]
+    },
+    "value add tax": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "value add tax",
+      "data-encoded-term": "value%20add%20tax",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pretty penny": {
+      "data-frequency": "55",
+      "data-relevance": "25",
+      "data-term": "pretty penny",
+      "data-encoded-term": "pretty%20penny",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "55",
+        "cn5",
+        "1"
+      ]
+    },
+    "basket house": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "basket house",
+      "data-encoded-term": "basket%20house",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "property tax": {
+      "data-frequency": "3027",
+      "data-relevance": "23",
+      "data-term": "property tax",
+      "data-encoded-term": "property%20tax",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3027",
+        "cn5",
+        "1"
+      ]
+    },
+    "credit card": {
+      "data-frequency": "5470",
+      "data-relevance": "22",
+      "data-term": "credit card",
+      "data-encoded-term": "credit%20card",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "5470",
+        "cn5",
+        "1"
+      ]
+    },
+    "caution money": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "caution money",
+      "data-encoded-term": "caution%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "liquid asset": {
+      "data-frequency": "46",
+      "data-relevance": "20",
+      "data-term": "liquid asset",
+      "data-encoded-term": "liquid%20asset",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "medium of exchange": {
+      "data-frequency": "307",
+      "data-relevance": "19",
+      "data-term": "medium of exchange",
+      "data-encoded-term": "medium%20of%20exchange",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "307",
+        "cn5",
+        "1"
+      ]
+    },
+    "free of charge": {
+      "data-frequency": "7673",
+      "data-relevance": "18",
+      "data-term": "free of charge",
+      "data-encoded-term": "free%20of%20charge",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "7673",
+        "cn5",
+        "1"
+      ]
+    },
+    "fiat money": {
+      "data-frequency": "187",
+      "data-relevance": "17",
+      "data-term": "fiat money",
+      "data-encoded-term": "fiat%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "in wallet": {
+      "data-frequency": "-1",
+      "data-relevance": "16",
+      "data-term": "in wallet",
+      "data-encoded-term": "in%20wallet",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fnance and economy": {
+      "data-frequency": "-1",
+      "data-relevance": "15",
+      "data-term": "fnance and economy",
+      "data-encoded-term": "fnance%20and%20economy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "legal tender": {
+      "data-frequency": "1270",
+      "data-relevance": "14",
+      "data-term": "legal tender",
+      "data-encoded-term": "legal%20tender",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1270",
+        "cn5",
+        "1"
+      ]
+    },
+    "cash advance": {
+      "data-frequency": "156",
+      "data-relevance": "13",
+      "data-term": "cash advance",
+      "data-encoded-term": "cash%20advance",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "dirty money": {
+      "data-frequency": "709",
+      "data-relevance": "12",
+      "data-term": "dirty money",
+      "data-encoded-term": "dirty%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "709",
+        "cn5",
+        "1"
+      ]
+    },
+    "sale tax": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "sale tax",
+      "data-encoded-term": "sale%20tax",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "e money": {
+      "data-frequency": "138",
+      "data-relevance": "10",
+      "data-term": "e money",
+      "data-encoded-term": "e%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "138",
+        "cn5",
+        "1"
+      ]
+    },
+    "pay for something": {
+      "data-frequency": "-1",
+      "data-relevance": "9",
+      "data-term": "pay for something",
+      "data-encoded-term": "pay%20for%20something",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fold money": {
+      "data-frequency": "-1",
+      "data-relevance": "8",
+      "data-term": "fold money",
+      "data-encoded-term": "fold%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "penny pincher": {
+      "data-frequency": "52",
+      "data-relevance": "7",
+      "data-term": "penny pincher",
+      "data-encoded-term": "penny%20pincher",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "blow one's wad": {
+      "data-frequency": "165",
+      "data-relevance": "6",
+      "data-term": "blow one's wad",
+      "data-encoded-term": "blow%20one's%20wad",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "165",
+        "cn5",
+        "1"
+      ]
+    },
+    "venture capital": {
+      "data-frequency": "6670",
+      "data-relevance": "5",
+      "data-term": "venture capital",
+      "data-encoded-term": "venture%20capital",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "6670",
+        "cn5",
+        "1"
+      ]
+    },
+    "cash token": {
+      "data-frequency": "-1",
+      "data-relevance": "4",
+      "data-term": "cash token",
+      "data-encoded-term": "cash%20token",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "kick back": {
+      "data-frequency": "254",
+      "data-relevance": "3",
+      "data-term": "kick back",
+      "data-encoded-term": "kick%20back",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "254",
+        "cn5",
+        "1"
+      ]
+    },
+    "hard money": {
+      "data-frequency": "266",
+      "data-relevance": "2",
+      "data-term": "hard money",
+      "data-encoded-term": "hard%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "266",
+        "cn5",
+        "1"
+      ]
+    },
+    "nickel and dime": {
+      "data-frequency": "777",
+      "data-relevance": "1",
+      "data-term": "nickel and dime",
+      "data-encoded-term": "nickel%20and%20dime",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "777",
+        "cn5",
+        "1"
+      ]
+    },
+    "smart money": {
+      "data-frequency": "301",
+      "data-relevance": "0",
+      "data-term": "smart money",
+      "data-encoded-term": "smart%20money",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "301",
+        "cn5",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "She filed an action for unlawful detainer of land after nonpayment of rent.",
+        "ru": "После неуплаты аренды она подала иск за незаконное удержание земли."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "nonpayments"
+    ],
+    "synonyms": [
+      "evasion",
+      "nonremittal",
+      "default"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "failure",
+      "nonremittal",
+      "nonpayments",
+      "payment",
+      "avoision",
+      "distraint",
+      "pay",
+      "overpayment",
+      "unpaid",
+      "default",
+      "arrears",
+      "prepayment",
+      "late",
+      "underpayment"
+    ]
+  }
+}

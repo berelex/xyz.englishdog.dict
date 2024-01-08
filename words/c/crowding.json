@@ -1,0 +1,5822 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "crowd": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/crowding/v/,/c/en/crowd/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/crowding/v",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/crowding"
+        },
+        "end": {
+          "@id": "/c/en/crowd",
+          "@type": "Node",
+          "label": "crowd",
+          "language": "en",
+          "term": "/c/en/crowd"
+        }
+      },
+      "inrush": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inrush/n/,/c/en/crowding/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inrush/n",
+          "@type": "Node",
+          "label": "inrush",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inrush"
+        },
+        "end": {
+          "@id": "/c/en/crowding",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "term": "/c/en/crowding"
+        }
+      },
+      "anticrowding": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/anticrowding/a/,/c/en/crowding/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/anticrowding/a",
+          "@type": "Node",
+          "label": "anticrowding",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/anticrowding"
+        },
+        "end": {
+          "@id": "/c/en/crowding",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "term": "/c/en/crowding"
+        }
+      },
+      "density dependence": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/density_dependence/n/,/c/en/crowding/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/density_dependence/n",
+          "@type": "Node",
+          "label": "density dependence",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/density_dependence"
+        },
+        "end": {
+          "@id": "/c/en/crowding",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "term": "/c/en/crowding"
+        }
+      },
+      "crush": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/crush/n/,/c/en/crowding/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/crush/n",
+          "@type": "Node",
+          "label": "crush",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/crush"
+        },
+        "end": {
+          "@id": "/c/en/crowding",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "term": "/c/en/crowding"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "crowd": {
+        "@id": "/a/[/r/FormOf/,/c/en/crowding/v/,/c/en/crowd/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/crowding/v",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/crowding"
+        },
+        "end": {
+          "@id": "/c/en/crowd",
+          "@type": "Node",
+          "label": "crowd",
+          "language": "en",
+          "term": "/c/en/crowd"
+        }
+      },
+      "crowdings": {
+        "@id": "/a/[/r/FormOf/,/c/en/crowdings/n/,/c/en/crowding/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/crowdings/n",
+          "@type": "Node",
+          "label": "crowdings",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/crowdings"
+        },
+        "end": {
+          "@id": "/c/en/crowding",
+          "@type": "Node",
+          "label": "crowding",
+          "language": "en",
+          "term": "/c/en/crowding"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "mob": {
+      "data-frequency": "22121",
+      "data-relevance": "399",
+      "data-term": "mob",
+      "data-encoded-term": "mob",
+      "data-term-stats": [
+        "1",
+        "8.3",
+        "0.000",
+        "22121",
+        "ol,wn,wn,reddit-slashes",
+        "1"
+      ]
+    },
+    "traffic": {
+      "data-frequency": "111358",
+      "data-relevance": "398",
+      "data-term": "traffic",
+      "data-encoded-term": "traffic",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "111358",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "swarm": {
+      "data-frequency": "6089",
+      "data-relevance": "397",
+      "data-term": "swarm",
+      "data-encoded-term": "swarm",
+      "data-term-stats": [
+        "1",
+        "8.9",
+        "0.000",
+        "6089",
+        "ol,wn,wn|vec2",
+        "1"
+      ]
+    },
+    "throng": {
+      "data-frequency": "1672",
+      "data-relevance": "396",
+      "data-term": "throng",
+      "data-encoded-term": "throng",
+      "data-term-stats": [
+        "1",
+        "8.2",
+        "0.000",
+        "1672",
+        "ol,w2v,wn|vec2",
+        "1"
+      ]
+    },
+    "herd": {
+      "data-frequency": "13251",
+      "data-relevance": "395",
+      "data-term": "herd",
+      "data-encoded-term": "herd",
+      "data-term-stats": [
+        "1",
+        "6.6",
+        "0.000",
+        "13251",
+        "ol,wn,wn",
+        "1"
+      ]
+    },
+    "gathering": {
+      "data-frequency": "44192",
+      "data-relevance": "394",
+      "data-term": "gathering",
+      "data-encoded-term": "gathering",
+      "data-term-stats": [
+        "1",
+        "5.6",
+        "0.000",
+        "44192",
+        "ol,wn,wn",
+        "1"
+      ]
+    },
+    "jam": {
+      "data-frequency": "43539",
+      "data-relevance": "393",
+      "data-term": "jam",
+      "data-encoded-term": "jam",
+      "data-term-stats": [
+        "1",
+        "5.5",
+        "0.000",
+        "43539",
+        "ol,wn,wn",
+        "1"
+      ]
+    },
+    "crew": {
+      "data-frequency": "133280",
+      "data-relevance": "392",
+      "data-term": "crew",
+      "data-encoded-term": "crew",
+      "data-term-stats": [
+        "1",
+        "5.1",
+        "0.000",
+        "133280",
+        "ol,wn,reddit-slashes",
+        "1"
+      ]
+    },
+    "demonstration": {
+      "data-frequency": "33901",
+      "data-relevance": "391",
+      "data-term": "demonstration",
+      "data-encoded-term": "demonstration",
+      "data-term-stats": [
+        "1",
+        "4.5",
+        "0.000",
+        "33901",
+        "w2v,wiki",
+        "1"
+      ]
+    },
+    "group": {
+      "data-frequency": "906315",
+      "data-relevance": "390",
+      "data-term": "group",
+      "data-encoded-term": "group",
+      "data-term-stats": [
+        "1",
+        "4.3",
+        "0.000",
+        "906315",
+        "ol,wiki,reddit-slashes",
+        "1"
+      ]
+    },
+    "audience": {
+      "data-frequency": "120509",
+      "data-relevance": "389",
+      "data-term": "audience",
+      "data-encoded-term": "audience",
+      "data-term-stats": [
+        "1",
+        "3.8",
+        "0.000",
+        "120509",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "mass": {
+      "data-frequency": "260437",
+      "data-relevance": "388",
+      "data-term": "mass",
+      "data-encoded-term": "mass",
+      "data-term-stats": [
+        "1",
+        "3.9",
+        "0.000",
+        "260437",
+        "ol,wn,reddit-slashes",
+        "1"
+      ]
+    },
+    "spectators": {
+      "data-frequency": "33179",
+      "data-relevance": "387",
+      "data-term": "spectators",
+      "data-encoded-term": "spectators",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "33179",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "riot": {
+      "data-frequency": "26680",
+      "data-relevance": "386",
+      "data-term": "riot",
+      "data-encoded-term": "riot",
+      "data-term-stats": [
+        "1",
+        "3.4",
+        "0.000",
+        "26680",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "fans": {
+      "data-frequency": "122525",
+      "data-relevance": "385",
+      "data-term": "fans",
+      "data-encoded-term": "fans",
+      "data-term-stats": [
+        "1",
+        "3.6",
+        "0.000",
+        "122525",
+        "ol,w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "crooked": {
+      "data-frequency": "11449",
+      "data-relevance": "384",
+      "data-term": "crooked",
+      "data-encoded-term": "crooked",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "11449",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gang": {
+      "data-frequency": "59366",
+      "data-relevance": "383",
+      "data-term": "gang",
+      "data-encoded-term": "gang",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "59366",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "bunch": {
+      "data-frequency": "15443",
+      "data-relevance": "382",
+      "data-term": "bunch",
+      "data-encoded-term": "bunch",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "15443",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "assemblage": {
+      "data-frequency": "5500",
+      "data-relevance": "381",
+      "data-term": "assemblage",
+      "data-encoded-term": "assemblage",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "5500",
+        "wn,wn",
+        "1"
+      ]
+    },
+    "push": {
+      "data-frequency": "52126",
+      "data-relevance": "380",
+      "data-term": "push",
+      "data-encoded-term": "push",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "52126",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "spacing": {
+      "data-frequency": "5177",
+      "data-relevance": "379",
+      "data-term": "spacing",
+      "data-encoded-term": "spacing",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5177",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "bite": {
+      "data-frequency": "16244",
+      "data-relevance": "378",
+      "data-term": "bite",
+      "data-encoded-term": "bite",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "16244",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "crowd together": {
+      "data-frequency": "-1",
+      "data-relevance": "377",
+      "data-term": "crowd together",
+      "data-encoded-term": "crowd%20together",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "overcrowd": {
+      "data-frequency": "-1",
+      "data-relevance": "376",
+      "data-term": "overcrowd",
+      "data-encoded-term": "overcrowd",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "-1",
+        "wn,wn",
+        "1"
+      ]
+    },
+    "overcrowding": {
+      "data-frequency": "6863",
+      "data-relevance": "375",
+      "data-term": "overcrowding",
+      "data-encoded-term": "overcrowding",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "6863",
+        "vec2",
+        "1"
+      ]
+    },
+    "flock": {
+      "data-frequency": "10074",
+      "data-relevance": "374",
+      "data-term": "flock",
+      "data-encoded-term": "flock",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "10074",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "horde": {
+      "data-frequency": "4979",
+      "data-relevance": "373",
+      "data-term": "horde",
+      "data-encoded-term": "horde",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "4979",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "parking": {
+      "data-frequency": "46992",
+      "data-relevance": "372",
+      "data-term": "parking",
+      "data-encoded-term": "parking",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46992",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "lack": {
+      "data-frequency": "165062",
+      "data-relevance": "371",
+      "data-term": "lack",
+      "data-encoded-term": "lack",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "165062",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "crush": {
+      "data-frequency": "24332",
+      "data-relevance": "370",
+      "data-term": "crush",
+      "data-encoded-term": "crush",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "24332",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "huddle": {
+      "data-frequency": "1670",
+      "data-relevance": "369",
+      "data-term": "huddle",
+      "data-encoded-term": "huddle",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "1670",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "gather": {
+      "data-frequency": "33908",
+      "data-relevance": "368",
+      "data-term": "gather",
+      "data-encoded-term": "gather",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "33908",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "congestion": {
+      "data-frequency": "9066",
+      "data-relevance": "367",
+      "data-term": "congestion",
+      "data-encoded-term": "congestion",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "9066",
+        "ol|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "cheers": {
+      "data-frequency": "7481",
+      "data-relevance": "366",
+      "data-term": "cheers",
+      "data-encoded-term": "cheers",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "7481",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "overpopulation": {
+      "data-frequency": "1810",
+      "data-relevance": "365",
+      "data-term": "overpopulation",
+      "data-encoded-term": "overpopulation",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1810",
+        "vec2",
+        "1"
+      ]
+    },
+    "overcrowded": {
+      "data-frequency": "3522",
+      "data-relevance": "364",
+      "data-term": "overcrowded",
+      "data-encoded-term": "overcrowded",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "3522",
+        "vec2",
+        "1"
+      ]
+    },
+    "population": {
+      "data-frequency": "644905",
+      "data-relevance": "363",
+      "data-term": "population",
+      "data-encoded-term": "population",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "644905",
+        "ol",
+        "1"
+      ]
+    },
+    "density": {
+      "data-frequency": "269943",
+      "data-relevance": "362",
+      "data-term": "density",
+      "data-encoded-term": "density",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "269943",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "over": {
+      "data-frequency": "1486712",
+      "data-relevance": "361",
+      "data-term": "over",
+      "data-encoded-term": "over",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1486712",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "crookedness": {
+      "data-frequency": "51",
+      "data-relevance": "360",
+      "data-term": "crookedness",
+      "data-encoded-term": "crookedness",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "51",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "overlapping": {
+      "data-frequency": "10489",
+      "data-relevance": "359",
+      "data-term": "overlapping",
+      "data-encoded-term": "overlapping",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "10489",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "competition": {
+      "data-frequency": "371981",
+      "data-relevance": "358",
+      "data-term": "competition",
+      "data-encoded-term": "competition",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "371981",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "blocking": {
+      "data-frequency": "18641",
+      "data-relevance": "357",
+      "data-term": "blocking",
+      "data-encoded-term": "blocking",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "18641",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "hitting": {
+      "data-frequency": "38783",
+      "data-relevance": "356",
+      "data-term": "hitting",
+      "data-encoded-term": "hitting",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "38783",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "diving": {
+      "data-frequency": "30968",
+      "data-relevance": "355",
+      "data-term": "diving",
+      "data-encoded-term": "diving",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "30968",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "wait": {
+      "data-frequency": "50849",
+      "data-relevance": "354",
+      "data-term": "wait",
+      "data-encoded-term": "wait",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "50849",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "traffic congestion": {
+      "data-frequency": "2675",
+      "data-relevance": "353",
+      "data-term": "traffic congestion",
+      "data-encoded-term": "traffic%20congestion",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "2675",
+        "vec2",
+        "1"
+      ]
+    },
+    "crowded": {
+      "data-frequency": "13679",
+      "data-relevance": "352",
+      "data-term": "crowded",
+      "data-encoded-term": "crowded",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "13679",
+        "vec2",
+        "1"
+      ]
+    },
+    "rallies": {
+      "data-frequency": "11036",
+      "data-relevance": "351",
+      "data-term": "rallies",
+      "data-encoded-term": "rallies",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "11036",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "traffic jams": {
+      "data-frequency": "4571",
+      "data-relevance": "350",
+      "data-term": "traffic jams",
+      "data-encoded-term": "traffic%20jams",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "4571",
+        "vec2",
+        "1"
+      ]
+    },
+    "traffic snarls": {
+      "data-frequency": "254",
+      "data-relevance": "349",
+      "data-term": "traffic snarls",
+      "data-encoded-term": "traffic%20snarls",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "254",
+        "vec2",
+        "1"
+      ]
+    },
+    "rally": {
+      "data-frequency": "40399",
+      "data-relevance": "348",
+      "data-term": "rally",
+      "data-encoded-term": "rally",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "40399",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "overflow": {
+      "data-frequency": "5130",
+      "data-relevance": "347",
+      "data-term": "overflow",
+      "data-encoded-term": "overflow",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "5130",
+        "vec2",
+        "1"
+      ]
+    },
+    "screaming": {
+      "data-frequency": "12927",
+      "data-relevance": "346",
+      "data-term": "screaming",
+      "data-encoded-term": "screaming",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12927",
+        "w2v",
+        "1"
+      ]
+    },
+    "covid": {
+      "data-frequency": "2551",
+      "data-relevance": "345",
+      "data-term": "covid",
+      "data-encoded-term": "covid",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2551",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "parade": {
+      "data-frequency": "55268",
+      "data-relevance": "344",
+      "data-term": "parade",
+      "data-encoded-term": "parade",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "55268",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "clogging": {
+      "data-frequency": "783",
+      "data-relevance": "343",
+      "data-term": "clogging",
+      "data-encoded-term": "clogging",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "783",
+        "vec2",
+        "1"
+      ]
+    },
+    "applause": {
+      "data-frequency": "6173",
+      "data-relevance": "342",
+      "data-term": "applause",
+      "data-encoded-term": "applause",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "6173",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "onlookers": {
+      "data-frequency": "2505",
+      "data-relevance": "341",
+      "data-term": "onlookers",
+      "data-encoded-term": "onlookers",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "2505",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "bottleneck": {
+      "data-frequency": "2915",
+      "data-relevance": "340",
+      "data-term": "bottleneck",
+      "data-encoded-term": "bottleneck",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "2915",
+        "vec2",
+        "1"
+      ]
+    },
+    "ease overcrowding": {
+      "data-frequency": "578",
+      "data-relevance": "339",
+      "data-term": "ease overcrowding",
+      "data-encoded-term": "ease%20overcrowding",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "578",
+        "vec2",
+        "1"
+      ]
+    },
+    "congested": {
+      "data-frequency": "3064",
+      "data-relevance": "338",
+      "data-term": "congested",
+      "data-encoded-term": "congested",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "3064",
+        "vec2",
+        "1"
+      ]
+    },
+    "congregating": {
+      "data-frequency": "490",
+      "data-relevance": "337",
+      "data-term": "congregating",
+      "data-encoded-term": "congregating",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "490",
+        "vec2",
+        "1"
+      ]
+    },
+    "overpopulated": {
+      "data-frequency": "450",
+      "data-relevance": "336",
+      "data-term": "overpopulated",
+      "data-encoded-term": "overpopulated",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "450",
+        "vec2",
+        "1"
+      ]
+    },
+    "sellout": {
+      "data-frequency": "1949",
+      "data-relevance": "335",
+      "data-term": "sellout",
+      "data-encoded-term": "sellout",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "1949",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "supporters": {
+      "data-frequency": "57077",
+      "data-relevance": "334",
+      "data-term": "supporters",
+      "data-encoded-term": "supporters",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "57077",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "overburdened": {
+      "data-frequency": "462",
+      "data-relevance": "333",
+      "data-term": "overburdened",
+      "data-encoded-term": "overburdened",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "462",
+        "vec2",
+        "1"
+      ]
+    },
+    "loud": {
+      "data-frequency": "32212",
+      "data-relevance": "332",
+      "data-term": "loud",
+      "data-encoded-term": "loud",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "32212",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "overflowing": {
+      "data-frequency": "1888",
+      "data-relevance": "331",
+      "data-term": "overflowing",
+      "data-encoded-term": "overflowing",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1888",
+        "vec2",
+        "1"
+      ]
+    },
+    "stadium": {
+      "data-frequency": "239639",
+      "data-relevance": "330",
+      "data-term": "stadium",
+      "data-encoded-term": "stadium",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "239639",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "crammed": {
+      "data-frequency": "1400",
+      "data-relevance": "329",
+      "data-term": "crammed",
+      "data-encoded-term": "crammed",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1400",
+        "vec2",
+        "1"
+      ]
+    },
+    "hogging": {
+      "data-frequency": "11968",
+      "data-relevance": "328",
+      "data-term": "hogging",
+      "data-encoded-term": "hogging",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "11968",
+        "vec2",
+        "1"
+      ]
+    },
+    "crowds": {
+      "data-frequency": "17157",
+      "data-relevance": "327",
+      "data-term": "crowds",
+      "data-encoded-term": "crowds",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "17157",
+        "w2v",
+        "1"
+      ]
+    },
+    "shouting": {
+      "data-frequency": "7312",
+      "data-relevance": "326",
+      "data-term": "shouting",
+      "data-encoded-term": "shouting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7312",
+        "w2v",
+        "1"
+      ]
+    },
+    "watching": {
+      "data-frequency": "50644",
+      "data-relevance": "325",
+      "data-term": "watching",
+      "data-encoded-term": "watching",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "50644",
+        "w2v",
+        "1"
+      ]
+    },
+    "turned": {
+      "data-frequency": "218462",
+      "data-relevance": "324",
+      "data-term": "turned",
+      "data-encoded-term": "turned",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "218462",
+        "w2v",
+        "1"
+      ]
+    },
+    "yelling": {
+      "data-frequency": "3557",
+      "data-relevance": "323",
+      "data-term": "yelling",
+      "data-encoded-term": "yelling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3557",
+        "w2v",
+        "1"
+      ]
+    },
+    "around": {
+      "data-frequency": "699661",
+      "data-relevance": "322",
+      "data-term": "around",
+      "data-encoded-term": "around",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "699661",
+        "w2v",
+        "1"
+      ]
+    },
+    "bullying": {
+      "data-frequency": "8274",
+      "data-relevance": "321",
+      "data-term": "bullying",
+      "data-encoded-term": "bullying",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8274",
+        "wiki",
+        "1"
+      ]
+    },
+    "out": {
+      "data-frequency": "1172585",
+      "data-relevance": "320",
+      "data-term": "out",
+      "data-encoded-term": "out",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1172585",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "access": {
+      "data-frequency": "251025",
+      "data-relevance": "319",
+      "data-term": "access",
+      "data-encoded-term": "access",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "251025",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bots": {
+      "data-frequency": "1768",
+      "data-relevance": "318",
+      "data-term": "bots",
+      "data-encoded-term": "bots",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1768",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "riots": {
+      "data-frequency": "24508",
+      "data-relevance": "317",
+      "data-term": "riots",
+      "data-encoded-term": "riots",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "24508",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "glut": {
+      "data-frequency": "1853",
+      "data-relevance": "316",
+      "data-term": "glut",
+      "data-encoded-term": "glut",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1853",
+        "vec2",
+        "1"
+      ]
+    },
+    "cramming": {
+      "data-frequency": "330",
+      "data-relevance": "315",
+      "data-term": "cramming",
+      "data-encoded-term": "cramming",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "330",
+        "vec2",
+        "1"
+      ]
+    },
+    "ovation": {
+      "data-frequency": "5154",
+      "data-relevance": "314",
+      "data-term": "ovation",
+      "data-encoded-term": "ovation",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "5154",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "gridlock": {
+      "data-frequency": "1061",
+      "data-relevance": "313",
+      "data-term": "gridlock",
+      "data-encoded-term": "gridlock",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1061",
+        "vec2",
+        "1"
+      ]
+    },
+    "booing": {
+      "data-frequency": "697",
+      "data-relevance": "312",
+      "data-term": "booing",
+      "data-encoded-term": "booing",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "697",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "swarming": {
+      "data-frequency": "1458",
+      "data-relevance": "311",
+      "data-term": "swarming",
+      "data-encoded-term": "swarming",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1458",
+        "vec2",
+        "1"
+      ]
+    },
+    "clogged": {
+      "data-frequency": "1137",
+      "data-relevance": "310",
+      "data-term": "clogged",
+      "data-encoded-term": "clogged",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1137",
+        "vec2",
+        "1"
+      ]
+    },
+    "clapping": {
+      "data-frequency": "2102",
+      "data-relevance": "309",
+      "data-term": "clapping",
+      "data-encoded-term": "clapping",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "2102",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "bursting": {
+      "data-frequency": "4575",
+      "data-relevance": "308",
+      "data-term": "bursting",
+      "data-encoded-term": "bursting",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "4575",
+        "vec2",
+        "1"
+      ]
+    },
+    "traffic jam": {
+      "data-frequency": "1168",
+      "data-relevance": "307",
+      "data-term": "traffic jam",
+      "data-encoded-term": "traffic%20jam",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1168",
+        "vec2",
+        "1"
+      ]
+    },
+    "jam packed": {
+      "data-frequency": "1360",
+      "data-relevance": "306",
+      "data-term": "jam packed",
+      "data-encoded-term": "jam%20packed",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1360",
+        "vec2",
+        "1"
+      ]
+    },
+    "mourners": {
+      "data-frequency": "2661",
+      "data-relevance": "305",
+      "data-term": "mourners",
+      "data-encoded-term": "mourners",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2661",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "adoring": {
+      "data-frequency": "946",
+      "data-relevance": "304",
+      "data-term": "adoring",
+      "data-encoded-term": "adoring",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "946",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "influx": {
+      "data-frequency": "13240",
+      "data-relevance": "303",
+      "data-term": "influx",
+      "data-encoded-term": "influx",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "13240",
+        "vec2",
+        "1"
+      ]
+    },
+    "overloaded": {
+      "data-frequency": "2110",
+      "data-relevance": "302",
+      "data-term": "overloaded",
+      "data-encoded-term": "overloaded",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2110",
+        "vec2",
+        "1"
+      ]
+    },
+    "cheering": {
+      "data-frequency": "3874",
+      "data-relevance": "301",
+      "data-term": "cheering",
+      "data-encoded-term": "cheering",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "3874",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "cramped": {
+      "data-frequency": "2735",
+      "data-relevance": "300",
+      "data-term": "cramped",
+      "data-encoded-term": "cramped",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2735",
+        "vec2",
+        "1"
+      ]
+    },
+    "clog": {
+      "data-frequency": "1065",
+      "data-relevance": "299",
+      "data-term": "clog",
+      "data-encoded-term": "clog",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1065",
+        "vec2",
+        "1"
+      ]
+    },
+    "swarmed": {
+      "data-frequency": "9208",
+      "data-relevance": "298",
+      "data-term": "swarmed",
+      "data-encoded-term": "swarmed",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "9208",
+        "vec2",
+        "1"
+      ]
+    },
+    "bunching": {
+      "data-frequency": "209",
+      "data-relevance": "297",
+      "data-term": "bunching",
+      "data-encoded-term": "bunching",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "209",
+        "vec2",
+        "1"
+      ]
+    },
+    "thronging": {
+      "data-frequency": "95",
+      "data-relevance": "296",
+      "data-term": "thronging",
+      "data-encoded-term": "thronging",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "95",
+        "vec2",
+        "1"
+      ]
+    },
+    "sprawl": {
+      "data-frequency": "2586",
+      "data-relevance": "295",
+      "data-term": "sprawl",
+      "data-encoded-term": "sprawl",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2586",
+        "vec2",
+        "1"
+      ]
+    },
+    "hurrying": {
+      "data-frequency": "577",
+      "data-relevance": "294",
+      "data-term": "hurrying",
+      "data-encoded-term": "hurrying",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "577",
+        "vec2",
+        "1"
+      ]
+    },
+    "congregate": {
+      "data-frequency": "2113",
+      "data-relevance": "293",
+      "data-term": "congregate",
+      "data-encoded-term": "congregate",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2113",
+        "vec2",
+        "1"
+      ]
+    },
+    "swamping": {
+      "data-frequency": "30198",
+      "data-relevance": "292",
+      "data-term": "swamping",
+      "data-encoded-term": "swamping",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "30198",
+        "vec2",
+        "1"
+      ]
+    },
+    "bottlenecks": {
+      "data-frequency": "3757",
+      "data-relevance": "291",
+      "data-term": "bottlenecks",
+      "data-encoded-term": "bottlenecks",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "3757",
+        "vec2",
+        "1"
+      ]
+    },
+    "urban sprawl": {
+      "data-frequency": "1431",
+      "data-relevance": "290",
+      "data-term": "urban sprawl",
+      "data-encoded-term": "urban%20sprawl",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1431",
+        "vec2",
+        "1"
+      ]
+    },
+    "flocking": {
+      "data-frequency": "1035",
+      "data-relevance": "289",
+      "data-term": "flocking",
+      "data-encoded-term": "flocking",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1035",
+        "vec2",
+        "1"
+      ]
+    },
+    "yawning": {
+      "data-frequency": "577",
+      "data-relevance": "288",
+      "data-term": "yawning",
+      "data-encoded-term": "yawning",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "577",
+        "vec2",
+        "1"
+      ]
+    },
+    "mushrooming": {
+      "data-frequency": "247",
+      "data-relevance": "287",
+      "data-term": "mushrooming",
+      "data-encoded-term": "mushrooming",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "247",
+        "vec2",
+        "1"
+      ]
+    },
+    "rowdiness": {
+      "data-frequency": "142",
+      "data-relevance": "286",
+      "data-term": "rowdiness",
+      "data-encoded-term": "rowdiness",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "142",
+        "vec2",
+        "1"
+      ]
+    },
+    "bulging": {
+      "data-frequency": "1293",
+      "data-relevance": "285",
+      "data-term": "bulging",
+      "data-encoded-term": "bulging",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1293",
+        "vec2",
+        "1"
+      ]
+    },
+    "overloading": {
+      "data-frequency": "6670",
+      "data-relevance": "284",
+      "data-term": "overloading",
+      "data-encoded-term": "overloading",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "6670",
+        "vec2",
+        "1"
+      ]
+    },
+    "squeezed": {
+      "data-frequency": "3095",
+      "data-relevance": "283",
+      "data-term": "squeezed",
+      "data-encoded-term": "squeezed",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "3095",
+        "vec2",
+        "1"
+      ]
+    },
+    "decongest": {
+      "data-frequency": "196",
+      "data-relevance": "282",
+      "data-term": "decongest",
+      "data-encoded-term": "decongest",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "196",
+        "vec2",
+        "1"
+      ]
+    },
+    "queues": {
+      "data-frequency": "7295",
+      "data-relevance": "281",
+      "data-term": "queues",
+      "data-encoded-term": "queues",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "7295",
+        "vec2",
+        "1"
+      ]
+    },
+    "suburban sprawl": {
+      "data-frequency": "1088",
+      "data-relevance": "280",
+      "data-term": "suburban sprawl",
+      "data-encoded-term": "suburban%20sprawl",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1088",
+        "vec2",
+        "1"
+      ]
+    },
+    "cluttering": {
+      "data-frequency": "302",
+      "data-relevance": "279",
+      "data-term": "cluttering",
+      "data-encoded-term": "cluttering",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "302",
+        "vec2",
+        "1"
+      ]
+    },
+    "overload": {
+      "data-frequency": "3657",
+      "data-relevance": "278",
+      "data-term": "overload",
+      "data-encoded-term": "overload",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "3657",
+        "vec2",
+        "1"
+      ]
+    },
+    "jostling": {
+      "data-frequency": "334",
+      "data-relevance": "277",
+      "data-term": "jostling",
+      "data-encoded-term": "jostling",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "334",
+        "vec2",
+        "1"
+      ]
+    },
+    "ease congestion": {
+      "data-frequency": "263",
+      "data-relevance": "276",
+      "data-term": "ease congestion",
+      "data-encoded-term": "ease%20congestion",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "263",
+        "vec2",
+        "1"
+      ]
+    },
+    "clustered": {
+      "data-frequency": "5075",
+      "data-relevance": "275",
+      "data-term": "clustered",
+      "data-encoded-term": "clustered",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "5075",
+        "vec2",
+        "1"
+      ]
+    },
+    "cram": {
+      "data-frequency": "2355",
+      "data-relevance": "274",
+      "data-term": "cram",
+      "data-encoded-term": "cram",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "2355",
+        "vec2",
+        "1"
+      ]
+    },
+    "jostled": {
+      "data-frequency": "795",
+      "data-relevance": "273",
+      "data-term": "jostled",
+      "data-encoded-term": "jostled",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "795",
+        "vec2",
+        "1"
+      ]
+    },
+    "fan": {
+      "data-frequency": "96779",
+      "data-relevance": "272",
+      "data-term": "fan",
+      "data-encoded-term": "fan",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "96779",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "squeezing": {
+      "data-frequency": "1458",
+      "data-relevance": "271",
+      "data-term": "squeezing",
+      "data-encoded-term": "squeezing",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1458",
+        "vec2",
+        "1"
+      ]
+    },
+    "spilling": {
+      "data-frequency": "18137",
+      "data-relevance": "270",
+      "data-term": "spilling",
+      "data-encoded-term": "spilling",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "18137",
+        "vec2",
+        "1"
+      ]
+    },
+    "burdening": {
+      "data-frequency": "25493",
+      "data-relevance": "269",
+      "data-term": "burdening",
+      "data-encoded-term": "burdening",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "25493",
+        "vec2",
+        "1"
+      ]
+    },
+    "hopping": {
+      "data-frequency": "3895",
+      "data-relevance": "268",
+      "data-term": "hopping",
+      "data-encoded-term": "hopping",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "3895",
+        "vec2",
+        "1"
+      ]
+    },
+    "stampedes": {
+      "data-frequency": "7866",
+      "data-relevance": "267",
+      "data-term": "stampedes",
+      "data-encoded-term": "stampedes",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "7866",
+        "vec2",
+        "1"
+      ]
+    },
+    "protest": {
+      "data-frequency": "60879",
+      "data-relevance": "266",
+      "data-term": "protest",
+      "data-encoded-term": "protest",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "60879",
+        "w2v,reddit-slashes",
+        "1"
+      ]
+    },
+    "snaking": {
+      "data-frequency": "280",
+      "data-relevance": "265",
+      "data-term": "snaking",
+      "data-encoded-term": "snaking",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "280",
+        "vec2",
+        "1"
+      ]
+    },
+    "queuing": {
+      "data-frequency": "986",
+      "data-relevance": "264",
+      "data-term": "queuing",
+      "data-encoded-term": "queuing",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "986",
+        "vec2",
+        "1"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "263",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "2451433",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "shortage": {
+      "data-frequency": "15672",
+      "data-relevance": "262",
+      "data-term": "shortage",
+      "data-encoded-term": "shortage",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "15672",
+        "vec2",
+        "1"
+      ]
+    },
+    "bedlam": {
+      "data-frequency": "2156",
+      "data-relevance": "261",
+      "data-term": "bedlam",
+      "data-encoded-term": "bedlam",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2156",
+        "vec2",
+        "1"
+      ]
+    },
+    "gawking": {
+      "data-frequency": "2370",
+      "data-relevance": "260",
+      "data-term": "gawking",
+      "data-encoded-term": "gawking",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2370",
+        "vec2",
+        "1"
+      ]
+    },
+    "congregated": {
+      "data-frequency": "1015",
+      "data-relevance": "259",
+      "data-term": "congregated",
+      "data-encoded-term": "congregated",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1015",
+        "vec2",
+        "1"
+      ]
+    },
+    "relieve congestion": {
+      "data-frequency": "409",
+      "data-relevance": "258",
+      "data-term": "relieve congestion",
+      "data-encoded-term": "relieve%20congestion",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "409",
+        "vec2",
+        "1"
+      ]
+    },
+    "heaving": {
+      "data-frequency": "778",
+      "data-relevance": "257",
+      "data-term": "heaving",
+      "data-encoded-term": "heaving",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "778",
+        "vec2",
+        "1"
+      ]
+    },
+    "shuffled": {
+      "data-frequency": "1666",
+      "data-relevance": "256",
+      "data-term": "shuffled",
+      "data-encoded-term": "shuffled",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1666",
+        "vec2",
+        "1"
+      ]
+    },
+    "multitude": {
+      "data-frequency": "8933",
+      "data-relevance": "255",
+      "data-term": "multitude",
+      "data-encoded-term": "multitude",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "8933",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "groaning": {
+      "data-frequency": "421",
+      "data-relevance": "254",
+      "data-term": "groaning",
+      "data-encoded-term": "groaning",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "421",
+        "vec2",
+        "1"
+      ]
+    },
+    "staffing shortages": {
+      "data-frequency": "6096",
+      "data-relevance": "253",
+      "data-term": "staffing shortages",
+      "data-encoded-term": "staffing%20shortages",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "6096",
+        "vec2",
+        "1"
+      ]
+    },
+    "gawkers": {
+      "data-frequency": "2387",
+      "data-relevance": "252",
+      "data-term": "gawkers",
+      "data-encoded-term": "gawkers",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2387",
+        "vec2",
+        "1"
+      ]
+    },
+    "mingling": {
+      "data-frequency": "4399",
+      "data-relevance": "251",
+      "data-term": "mingling",
+      "data-encoded-term": "mingling",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "4399",
+        "vec2",
+        "1"
+      ]
+    },
+    "shuttled": {
+      "data-frequency": "20801",
+      "data-relevance": "250",
+      "data-term": "shuttled",
+      "data-encoded-term": "shuttled",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "20801",
+        "vec2",
+        "1"
+      ]
+    },
+    "overflows": {
+      "data-frequency": "1052",
+      "data-relevance": "249",
+      "data-term": "overflows",
+      "data-encoded-term": "overflows",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1052",
+        "vec2",
+        "1"
+      ]
+    },
+    "stampeding": {
+      "data-frequency": "179",
+      "data-relevance": "248",
+      "data-term": "stampeding",
+      "data-encoded-term": "stampeding",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "179",
+        "vec2",
+        "1"
+      ]
+    },
+    "commotion": {
+      "data-frequency": "2725",
+      "data-relevance": "247",
+      "data-term": "commotion",
+      "data-encoded-term": "commotion",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2725",
+        "vec2",
+        "1"
+      ]
+    },
+    "arena": {
+      "data-frequency": "119743",
+      "data-relevance": "246",
+      "data-term": "arena",
+      "data-encoded-term": "arena",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "119743",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "mass exodus": {
+      "data-frequency": "786",
+      "data-relevance": "245",
+      "data-term": "mass exodus",
+      "data-encoded-term": "mass%20exodus",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "786",
+        "vec2",
+        "1"
+      ]
+    },
+    "understaffing": {
+      "data-frequency": "104",
+      "data-relevance": "244",
+      "data-term": "understaffing",
+      "data-encoded-term": "understaffing",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "104",
+        "vec2",
+        "1"
+      ]
+    },
+    "tightly packed": {
+      "data-frequency": "1905",
+      "data-relevance": "243",
+      "data-term": "tightly packed",
+      "data-encoded-term": "tightly%20packed",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1905",
+        "vec2",
+        "1"
+      ]
+    },
+    "unruly": {
+      "data-frequency": "2974",
+      "data-relevance": "242",
+      "data-term": "unruly",
+      "data-encoded-term": "unruly",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2974",
+        "vec2",
+        "1"
+      ]
+    },
+    "spillover": {
+      "data-frequency": "1908",
+      "data-relevance": "241",
+      "data-term": "spillover",
+      "data-encoded-term": "spillover",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1908",
+        "vec2",
+        "1"
+      ]
+    },
+    "squeeze": {
+      "data-frequency": "6664",
+      "data-relevance": "240",
+      "data-term": "squeeze",
+      "data-encoded-term": "squeeze",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "6664",
+        "vec2",
+        "1"
+      ]
+    },
+    "crunch": {
+      "data-frequency": "5936",
+      "data-relevance": "239",
+      "data-term": "crunch",
+      "data-encoded-term": "crunch",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "5936",
+        "vec2",
+        "1"
+      ]
+    },
+    "shuffling": {
+      "data-frequency": "1619",
+      "data-relevance": "238",
+      "data-term": "shuffling",
+      "data-encoded-term": "shuffling",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1619",
+        "vec2",
+        "1"
+      ]
+    },
+    "logjam": {
+      "data-frequency": "258",
+      "data-relevance": "237",
+      "data-term": "logjam",
+      "data-encoded-term": "logjam",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "258",
+        "vec2",
+        "1"
+      ]
+    },
+    "scarcity": {
+      "data-frequency": "5412",
+      "data-relevance": "236",
+      "data-term": "scarcity",
+      "data-encoded-term": "scarcity",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "5412",
+        "vec2",
+        "1"
+      ]
+    },
+    "segregating": {
+      "data-frequency": "1749",
+      "data-relevance": "235",
+      "data-term": "segregating",
+      "data-encoded-term": "segregating",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1749",
+        "vec2",
+        "1"
+      ]
+    },
+    "teeming": {
+      "data-frequency": "905",
+      "data-relevance": "234",
+      "data-term": "teeming",
+      "data-encoded-term": "teeming",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "905",
+        "vec2",
+        "1"
+      ]
+    },
+    "overflowed": {
+      "data-frequency": "8706",
+      "data-relevance": "233",
+      "data-term": "overflowed",
+      "data-encoded-term": "overflowed",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "8706",
+        "vec2",
+        "1"
+      ]
+    },
+    "boredom": {
+      "data-frequency": "3128",
+      "data-relevance": "232",
+      "data-term": "boredom",
+      "data-encoded-term": "boredom",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "3128",
+        "vec2",
+        "1"
+      ]
+    },
+    "thinning": {
+      "data-frequency": "1815",
+      "data-relevance": "231",
+      "data-term": "thinning",
+      "data-encoded-term": "thinning",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1815",
+        "vec2",
+        "1"
+      ]
+    },
+    "jammed": {
+      "data-frequency": "3119",
+      "data-relevance": "230",
+      "data-term": "jammed",
+      "data-encoded-term": "jammed",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "3119",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "mobbing": {
+      "data-frequency": "581",
+      "data-relevance": "229",
+      "data-term": "mobbing",
+      "data-encoded-term": "mobbing",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "581",
+        "wiki",
+        "1"
+      ]
+    },
+    "army": {
+      "data-frequency": "363766",
+      "data-relevance": "228",
+      "data-term": "army",
+      "data-encoded-term": "army",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "363766",
+        "wn",
+        "1"
+      ]
+    },
+    "throngs": {
+      "data-frequency": "2643",
+      "data-relevance": "227",
+      "data-term": "throngs",
+      "data-encoded-term": "throngs",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "2643",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "drove": {
+      "data-frequency": "37029",
+      "data-relevance": "226",
+      "data-term": "drove",
+      "data-encoded-term": "drove",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "37029",
+        "wn",
+        "1"
+      ]
+    },
+    "press": {
+      "data-frequency": "1188500",
+      "data-relevance": "225",
+      "data-term": "press",
+      "data-encoded-term": "press",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1188500",
+        "wn",
+        "1"
+      ]
+    },
+    "rout": {
+      "data-frequency": "7105",
+      "data-relevance": "224",
+      "data-term": "rout",
+      "data-encoded-term": "rout",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7105",
+        "wn",
+        "1"
+      ]
+    },
+    "rabble": {
+      "data-frequency": "1161",
+      "data-relevance": "223",
+      "data-term": "rabble",
+      "data-encoded-term": "rabble",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1161",
+        "wn",
+        "1"
+      ]
+    },
+    "troop": {
+      "data-frequency": "23658",
+      "data-relevance": "222",
+      "data-term": "troop",
+      "data-encoded-term": "troop",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "23658",
+        "wn",
+        "1"
+      ]
+    },
+    "phalanx": {
+      "data-frequency": "2858",
+      "data-relevance": "221",
+      "data-term": "phalanx",
+      "data-encoded-term": "phalanx",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2858",
+        "wn",
+        "1"
+      ]
+    },
+    "stream": {
+      "data-frequency": "94112",
+      "data-relevance": "220",
+      "data-term": "stream",
+      "data-encoded-term": "stream",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "94112",
+        "wn",
+        "1"
+      ]
+    },
+    "pour": {
+      "data-frequency": "47197",
+      "data-relevance": "219",
+      "data-term": "pour",
+      "data-encoded-term": "pour",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "47197",
+        "wn",
+        "1"
+      ]
+    },
+    "pack": {
+      "data-frequency": "40701",
+      "data-relevance": "218",
+      "data-term": "pack",
+      "data-encoded-term": "pack",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "40701",
+        "wn",
+        "1"
+      ]
+    },
+    "teem": {
+      "data-frequency": "205",
+      "data-relevance": "217",
+      "data-term": "teem",
+      "data-encoded-term": "teem",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "205",
+        "wn",
+        "1"
+      ]
+    },
+    "assemble": {
+      "data-frequency": "10283",
+      "data-relevance": "216",
+      "data-term": "assemble",
+      "data-encoded-term": "assemble",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "10283",
+        "wn",
+        "1"
+      ]
+    },
+    "pile": {
+      "data-frequency": "18166",
+      "data-relevance": "215",
+      "data-term": "pile",
+      "data-encoded-term": "pile",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "18166",
+        "wn",
+        "1"
+      ]
+    },
+    "displace": {
+      "data-frequency": "3377",
+      "data-relevance": "214",
+      "data-term": "displace",
+      "data-encoded-term": "displace",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3377",
+        "wn",
+        "1"
+      ]
+    },
+    "meet": {
+      "data-frequency": "284768",
+      "data-relevance": "213",
+      "data-term": "meet",
+      "data-encoded-term": "meet",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "284768",
+        "wn",
+        "1"
+      ]
+    },
+    "approach": {
+      "data-frequency": "151971",
+      "data-relevance": "212",
+      "data-term": "approach",
+      "data-encoded-term": "approach",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "151971",
+        "wn",
+        "1"
+      ]
+    },
+    "move": {
+      "data-frequency": "242744",
+      "data-relevance": "211",
+      "data-term": "move",
+      "data-encoded-term": "move",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "242744",
+        "wn",
+        "1"
+      ]
+    },
+    "fill": {
+      "data-frequency": "53461",
+      "data-relevance": "210",
+      "data-term": "fill",
+      "data-encoded-term": "fill",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "53461",
+        "wn",
+        "1"
+      ]
+    },
+    "near": {
+      "data-frequency": "665813",
+      "data-relevance": "209",
+      "data-term": "near",
+      "data-encoded-term": "near",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "665813",
+        "wn",
+        "1"
+      ]
+    },
+    "occupy": {
+      "data-frequency": "29100",
+      "data-relevance": "208",
+      "data-term": "occupy",
+      "data-encoded-term": "occupy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "29100",
+        "wn",
+        "1"
+      ]
+    },
+    "cheered": {
+      "data-frequency": "2470",
+      "data-relevance": "207",
+      "data-term": "cheered",
+      "data-encoded-term": "cheered",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2470",
+        "w2v",
+        "1"
+      ]
+    },
+    "sport": {
+      "data-frequency": "395965",
+      "data-relevance": "206",
+      "data-term": "sport",
+      "data-encoded-term": "sport",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "395965",
+        "wiki",
+        "1"
+      ]
+    },
+    "pullulate": {
+      "data-frequency": "-1",
+      "data-relevance": "205",
+      "data-term": "pullulate",
+      "data-encoded-term": "pullulate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "looting": {
+      "data-frequency": "6979",
+      "data-relevance": "204",
+      "data-term": "looting",
+      "data-encoded-term": "looting",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6979",
+        "wiki",
+        "1"
+      ]
+    },
+    "forgather": {
+      "data-frequency": "-1",
+      "data-relevance": "203",
+      "data-term": "forgather",
+      "data-encoded-term": "forgather",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "foregather": {
+      "data-frequency": "-1",
+      "data-relevance": "202",
+      "data-term": "foregather",
+      "data-encoded-term": "foregather",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "greeted": {
+      "data-frequency": "10166",
+      "data-relevance": "201",
+      "data-term": "greeted",
+      "data-encoded-term": "greeted",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "10166",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheer": {
+      "data-frequency": "11370",
+      "data-relevance": "200",
+      "data-term": "cheer",
+      "data-encoded-term": "cheer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "11370",
+        "w2v",
+        "1"
+      ]
+    },
+    "watched": {
+      "data-frequency": "32294",
+      "data-relevance": "199",
+      "data-term": "watched",
+      "data-encoded-term": "watched",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "32294",
+        "w2v",
+        "1"
+      ]
+    },
+    "boisterous": {
+      "data-frequency": "1534",
+      "data-relevance": "198",
+      "data-term": "boisterous",
+      "data-encoded-term": "boisterous",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1534",
+        "w2v",
+        "1"
+      ]
+    },
+    "jubilant": {
+      "data-frequency": "1341",
+      "data-relevance": "197",
+      "data-term": "jubilant",
+      "data-encoded-term": "jubilant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1341",
+        "w2v",
+        "1"
+      ]
+    },
+    "raucous": {
+      "data-frequency": "2095",
+      "data-relevance": "196",
+      "data-term": "raucous",
+      "data-encoded-term": "raucous",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2095",
+        "w2v",
+        "1"
+      ]
+    },
+    "angry": {
+      "data-frequency": "41806",
+      "data-relevance": "195",
+      "data-term": "angry",
+      "data-encoded-term": "angry",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "41806",
+        "w2v",
+        "1"
+      ]
+    },
+    "waving": {
+      "data-frequency": "4586",
+      "data-relevance": "194",
+      "data-term": "waving",
+      "data-encoded-term": "waving",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4586",
+        "w2v",
+        "1"
+      ]
+    },
+    "gathered": {
+      "data-frequency": "44189",
+      "data-relevance": "193",
+      "data-term": "gathered",
+      "data-encoded-term": "gathered",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44189",
+        "w2v",
+        "1"
+      ]
+    },
+    "protesters": {
+      "data-frequency": "12816",
+      "data-relevance": "192",
+      "data-term": "protesters",
+      "data-encoded-term": "protesters",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12816",
+        "w2v",
+        "1"
+      ]
+    },
+    "booed": {
+      "data-frequency": "12981",
+      "data-relevance": "191",
+      "data-term": "booed",
+      "data-encoded-term": "booed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12981",
+        "w2v",
+        "1"
+      ]
+    },
+    "demonstrators": {
+      "data-frequency": "4951",
+      "data-relevance": "190",
+      "data-term": "demonstrators",
+      "data-encoded-term": "demonstrators",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4951",
+        "w2v",
+        "1"
+      ]
+    },
+    "waved": {
+      "data-frequency": "3197",
+      "data-relevance": "189",
+      "data-term": "waved",
+      "data-encoded-term": "waved",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3197",
+        "w2v",
+        "1"
+      ]
+    },
+    "night": {
+      "data-frequency": "364713",
+      "data-relevance": "188",
+      "data-term": "night",
+      "data-encoded-term": "night",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "364713",
+        "w2v",
+        "1"
+      ]
+    },
+    "shouted": {
+      "data-frequency": "5618",
+      "data-relevance": "187",
+      "data-term": "shouted",
+      "data-encoded-term": "shouted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5618",
+        "w2v",
+        "1"
+      ]
+    },
+    "chanting": {
+      "data-frequency": "6661",
+      "data-relevance": "186",
+      "data-term": "chanting",
+      "data-encoded-term": "chanting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6661",
+        "w2v",
+        "1"
+      ]
+    },
+    "marched": {
+      "data-frequency": "17331",
+      "data-relevance": "185",
+      "data-term": "marched",
+      "data-encoded-term": "marched",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17331",
+        "w2v",
+        "1"
+      ]
+    },
+    "chanted": {
+      "data-frequency": "3198",
+      "data-relevance": "184",
+      "data-term": "chanted",
+      "data-encoded-term": "chanted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3198",
+        "w2v",
+        "1"
+      ]
+    },
+    "delight": {
+      "data-frequency": "17550",
+      "data-relevance": "183",
+      "data-term": "delight",
+      "data-encoded-term": "delight",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17550",
+        "w2v",
+        "1"
+      ]
+    },
+    "noisy": {
+      "data-frequency": "9382",
+      "data-relevance": "182",
+      "data-term": "noisy",
+      "data-encoded-term": "noisy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9382",
+        "w2v",
+        "1"
+      ]
+    },
+    "enthusiastic": {
+      "data-frequency": "15057",
+      "data-relevance": "181",
+      "data-term": "enthusiastic",
+      "data-encoded-term": "enthusiastic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15057",
+        "w2v",
+        "1"
+      ]
+    },
+    "jeered": {
+      "data-frequency": "1732",
+      "data-relevance": "180",
+      "data-term": "jeered",
+      "data-encoded-term": "jeered",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1732",
+        "w2v",
+        "1"
+      ]
+    },
+    "loudly": {
+      "data-frequency": "4745",
+      "data-relevance": "179",
+      "data-term": "loudly",
+      "data-encoded-term": "loudly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4745",
+        "w2v",
+        "1"
+      ]
+    },
+    "spectator": {
+      "data-frequency": "16678",
+      "data-relevance": "178",
+      "data-term": "spectator",
+      "data-encoded-term": "spectator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "16678",
+        "ol",
+        "1"
+      ]
+    },
+    "outside": {
+      "data-frequency": "345648",
+      "data-relevance": "177",
+      "data-term": "outside",
+      "data-encoded-term": "outside",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "345648",
+        "w2v",
+        "1"
+      ]
+    },
+    "shouts": {
+      "data-frequency": "3802",
+      "data-relevance": "176",
+      "data-term": "shouts",
+      "data-encoded-term": "shouts",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3802",
+        "w2v",
+        "1"
+      ]
+    },
+    "drew": {
+      "data-frequency": "103939",
+      "data-relevance": "175",
+      "data-term": "drew",
+      "data-encoded-term": "drew",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "103939",
+        "w2v",
+        "1"
+      ]
+    },
+    "silence": {
+      "data-frequency": "46686",
+      "data-relevance": "174",
+      "data-term": "silence",
+      "data-encoded-term": "silence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "46686",
+        "w2v",
+        "1"
+      ]
+    },
+    "shaking": {
+      "data-frequency": "8634",
+      "data-relevance": "173",
+      "data-term": "shaking",
+      "data-encoded-term": "shaking",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8634",
+        "w2v",
+        "1"
+      ]
+    },
+    "ecstatic": {
+      "data-frequency": "3221",
+      "data-relevance": "172",
+      "data-term": "ecstatic",
+      "data-encoded-term": "ecstatic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3221",
+        "w2v",
+        "1"
+      ]
+    },
+    "marching": {
+      "data-frequency": "21610",
+      "data-relevance": "171",
+      "data-term": "marching",
+      "data-encoded-term": "marching",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "21610",
+        "w2v",
+        "1"
+      ]
+    },
+    "furious": {
+      "data-frequency": "20131",
+      "data-relevance": "170",
+      "data-term": "furious",
+      "data-encoded-term": "furious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20131",
+        "w2v",
+        "1"
+      ]
+    },
+    "turnout": {
+      "data-frequency": "40925",
+      "data-relevance": "169",
+      "data-term": "turnout",
+      "data-encoded-term": "turnout",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "40925",
+        "ol",
+        "1"
+      ]
+    },
+    "laughter": {
+      "data-frequency": "9735",
+      "data-relevance": "168",
+      "data-term": "laughter",
+      "data-encoded-term": "laughter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9735",
+        "w2v",
+        "1"
+      ]
+    },
+    "stunned": {
+      "data-frequency": "7382",
+      "data-relevance": "167",
+      "data-term": "stunned",
+      "data-encoded-term": "stunned",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7382",
+        "w2v",
+        "1"
+      ]
+    },
+    "heard": {
+      "data-frequency": "105198",
+      "data-relevance": "166",
+      "data-term": "heard",
+      "data-encoded-term": "heard",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "105198",
+        "w2v",
+        "1"
+      ]
+    },
+    "danced": {
+      "data-frequency": "7523",
+      "data-relevance": "165",
+      "data-term": "danced",
+      "data-encoded-term": "danced",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7523",
+        "w2v",
+        "1"
+      ]
+    },
+    "revelers": {
+      "data-frequency": "586",
+      "data-relevance": "164",
+      "data-term": "revelers",
+      "data-encoded-term": "revelers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "586",
+        "w2v",
+        "1"
+      ]
+    },
+    "thousands": {
+      "data-frequency": "84237",
+      "data-relevance": "163",
+      "data-term": "thousands",
+      "data-encoded-term": "thousands",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "84237",
+        "w2v",
+        "1"
+      ]
+    },
+    "marchers": {
+      "data-frequency": "1521",
+      "data-relevance": "162",
+      "data-term": "marchers",
+      "data-encoded-term": "marchers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1521",
+        "w2v",
+        "1"
+      ]
+    },
+    "welcome": {
+      "data-frequency": "88001",
+      "data-relevance": "161",
+      "data-term": "welcome",
+      "data-encoded-term": "welcome",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "88001",
+        "w2v",
+        "1"
+      ]
+    },
+    "front": {
+      "data-frequency": "323861",
+      "data-relevance": "160",
+      "data-term": "front",
+      "data-encoded-term": "front",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "323861",
+        "w2v",
+        "1"
+      ]
+    },
+    "streets": {
+      "data-frequency": "114668",
+      "data-relevance": "159",
+      "data-term": "streets",
+      "data-encoded-term": "streets",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "114668",
+        "w2v",
+        "1"
+      ]
+    },
+    "laugh": {
+      "data-frequency": "19301",
+      "data-relevance": "158",
+      "data-term": "laugh",
+      "data-encoded-term": "laugh",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19301",
+        "w2v",
+        "1"
+      ]
+    },
+    "greet": {
+      "data-frequency": "6838",
+      "data-relevance": "157",
+      "data-term": "greet",
+      "data-encoded-term": "greet",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6838",
+        "w2v",
+        "1"
+      ]
+    },
+    "loudest": {
+      "data-frequency": "1283",
+      "data-relevance": "156",
+      "data-term": "loudest",
+      "data-encoded-term": "loudest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1283",
+        "w2v",
+        "1"
+      ]
+    },
+    "stood": {
+      "data-frequency": "78925",
+      "data-relevance": "155",
+      "data-term": "stood",
+      "data-encoded-term": "stood",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "78925",
+        "w2v",
+        "1"
+      ]
+    },
+    "walked": {
+      "data-frequency": "27968",
+      "data-relevance": "154",
+      "data-term": "walked",
+      "data-encoded-term": "walked",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27968",
+        "w2v",
+        "1"
+      ]
+    },
+    "locals": {
+      "data-frequency": "27589",
+      "data-relevance": "153",
+      "data-term": "locals",
+      "data-encoded-term": "locals",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27589",
+        "w2v",
+        "1"
+      ]
+    },
+    "roared": {
+      "data-frequency": "1150",
+      "data-relevance": "152",
+      "data-term": "roared",
+      "data-encoded-term": "roared",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1150",
+        "w2v",
+        "1"
+      ]
+    },
+    "applauded": {
+      "data-frequency": "4820",
+      "data-relevance": "151",
+      "data-term": "applauded",
+      "data-encoded-term": "applauded",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4820",
+        "w2v",
+        "1"
+      ]
+    },
+    "watch": {
+      "data-frequency": "161205",
+      "data-relevance": "150",
+      "data-term": "watch",
+      "data-encoded-term": "watch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "161205",
+        "w2v",
+        "1"
+      ]
+    },
+    "visitors": {
+      "data-frequency": "73276",
+      "data-relevance": "149",
+      "data-term": "visitors",
+      "data-encoded-term": "visitors",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "73276",
+        "w2v",
+        "1"
+      ]
+    },
+    "mobbed": {
+      "data-frequency": "703",
+      "data-relevance": "148",
+      "data-term": "mobbed",
+      "data-encoded-term": "mobbed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "703",
+        "w2v",
+        "1"
+      ]
+    },
+    "hundreds": {
+      "data-frequency": "75172",
+      "data-relevance": "147",
+      "data-term": "hundreds",
+      "data-encoded-term": "hundreds",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "75172",
+        "w2v",
+        "1"
+      ]
+    },
+    "yelled": {
+      "data-frequency": "2159",
+      "data-relevance": "146",
+      "data-term": "yelled",
+      "data-encoded-term": "yelled",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2159",
+        "w2v",
+        "1"
+      ]
+    },
+    "screamed": {
+      "data-frequency": "1787",
+      "data-relevance": "145",
+      "data-term": "screamed",
+      "data-encoded-term": "screamed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1787",
+        "w2v",
+        "1"
+      ]
+    },
+    "jeering": {
+      "data-frequency": "360",
+      "data-relevance": "144",
+      "data-term": "jeering",
+      "data-encoded-term": "jeering",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "360",
+        "w2v",
+        "1"
+      ]
+    },
+    "drawing": {
+      "data-frequency": "93009",
+      "data-relevance": "143",
+      "data-term": "drawing",
+      "data-encoded-term": "drawing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "93009",
+        "w2v",
+        "1"
+      ]
+    },
+    "quiet": {
+      "data-frequency": "47229",
+      "data-relevance": "142",
+      "data-term": "quiet",
+      "data-encoded-term": "quiet",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "47229",
+        "w2v",
+        "1"
+      ]
+    },
+    "away": {
+      "data-frequency": "413000",
+      "data-relevance": "141",
+      "data-term": "away",
+      "data-encoded-term": "away",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "413000",
+        "w2v",
+        "1"
+      ]
+    },
+    "thronged": {
+      "data-frequency": "433",
+      "data-relevance": "140",
+      "data-term": "thronged",
+      "data-encoded-term": "thronged",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "433",
+        "w2v",
+        "1"
+      ]
+    },
+    "evening": {
+      "data-frequency": "129952",
+      "data-relevance": "139",
+      "data-term": "evening",
+      "data-encoded-term": "evening",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "129952",
+        "w2v",
+        "1"
+      ]
+    },
+    "protestors": {
+      "data-frequency": "3516",
+      "data-relevance": "138",
+      "data-term": "protestors",
+      "data-encoded-term": "protestors",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3516",
+        "w2v",
+        "1"
+      ]
+    },
+    "massed": {
+      "data-frequency": "177612",
+      "data-relevance": "137",
+      "data-term": "massed",
+      "data-encoded-term": "massed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "177612",
+        "w2v",
+        "1"
+      ]
+    },
+    "waited": {
+      "data-frequency": "10659",
+      "data-relevance": "136",
+      "data-term": "waited",
+      "data-encoded-term": "waited",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10659",
+        "w2v",
+        "1"
+      ]
+    },
+    "felt": {
+      "data-frequency": "116506",
+      "data-relevance": "135",
+      "data-term": "felt",
+      "data-encoded-term": "felt",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "116506",
+        "w2v",
+        "1"
+      ]
+    },
+    "boos": {
+      "data-frequency": "2379",
+      "data-relevance": "134",
+      "data-term": "boos",
+      "data-encoded-term": "boos",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2379",
+        "w2v",
+        "1"
+      ]
+    },
+    "draw": {
+      "data-frequency": "160706",
+      "data-relevance": "133",
+      "data-term": "draw",
+      "data-encoded-term": "draw",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "160706",
+        "ol",
+        "1"
+      ]
+    },
+    "filled": {
+      "data-frequency": "83383",
+      "data-relevance": "132",
+      "data-term": "filled",
+      "data-encoded-term": "filled",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "83383",
+        "w2v",
+        "1"
+      ]
+    },
+    "band": {
+      "data-frequency": "382655",
+      "data-relevance": "131",
+      "data-term": "band",
+      "data-encoded-term": "band",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382655",
+        "ol",
+        "1"
+      ]
+    },
+    "clientele": {
+      "data-frequency": "3755",
+      "data-relevance": "130",
+      "data-term": "clientele",
+      "data-encoded-term": "clientele",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3755",
+        "ol",
+        "1"
+      ]
+    },
+    "massing": {
+      "data-frequency": "2045",
+      "data-relevance": "129",
+      "data-term": "massing",
+      "data-encoded-term": "massing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2045",
+        "ol",
+        "1"
+      ]
+    },
+    "assortment": {
+      "data-frequency": "5321",
+      "data-relevance": "128",
+      "data-term": "assortment",
+      "data-encoded-term": "assortment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5321",
+        "ol",
+        "1"
+      ]
+    },
+    "array": {
+      "data-frequency": "31100",
+      "data-relevance": "127",
+      "data-term": "array",
+      "data-encoded-term": "array",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "31100",
+        "ol",
+        "1"
+      ]
+    },
+    "rioting": {
+      "data-frequency": "4074",
+      "data-relevance": "126",
+      "data-term": "rioting",
+      "data-encoded-term": "rioting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4074",
+        "ol",
+        "1"
+      ]
+    },
+    "attracting": {
+      "data-frequency": "17522",
+      "data-relevance": "125",
+      "data-term": "attracting",
+      "data-encoded-term": "attracting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17522",
+        "ol",
+        "1"
+      ]
+    },
+    "turf": {
+      "data-frequency": "18310",
+      "data-relevance": "124",
+      "data-term": "turf",
+      "data-encoded-term": "turf",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18310",
+        "ol",
+        "1"
+      ]
+    },
+    "number": {
+      "data-frequency": "1195062",
+      "data-relevance": "123",
+      "data-term": "number",
+      "data-encoded-term": "number",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1195062",
+        "ol",
+        "1"
+      ]
+    },
+    "plenty": {
+      "data-frequency": "23391",
+      "data-relevance": "122",
+      "data-term": "plenty",
+      "data-encoded-term": "plenty",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23391",
+        "ol",
+        "1"
+      ]
+    },
+    "rallying": {
+      "data-frequency": "6424",
+      "data-relevance": "121",
+      "data-term": "rallying",
+      "data-encoded-term": "rallying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6424",
+        "ol",
+        "1"
+      ]
+    },
+    "buildup": {
+      "data-frequency": "5253",
+      "data-relevance": "120",
+      "data-term": "buildup",
+      "data-encoded-term": "buildup",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5253",
+        "ol",
+        "1"
+      ]
+    },
+    "attract": {
+      "data-frequency": "33050",
+      "data-relevance": "119",
+      "data-term": "attract",
+      "data-encoded-term": "attract",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33050",
+        "ol",
+        "1"
+      ]
+    },
+    "curious": {
+      "data-frequency": "20080",
+      "data-relevance": "118",
+      "data-term": "curious",
+      "data-encoded-term": "curious",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20080",
+        "ol",
+        "1"
+      ]
+    },
+    "lot": {
+      "data-frequency": "128178",
+      "data-relevance": "117",
+      "data-term": "lot",
+      "data-encoded-term": "lot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "128178",
+        "ol",
+        "1"
+      ]
+    },
+    "world": {
+      "data-frequency": "1468683",
+      "data-relevance": "116",
+      "data-term": "world",
+      "data-encoded-term": "world",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1468683",
+        "ol",
+        "1"
+      ]
+    },
+    "dispersal": {
+      "data-frequency": "7338",
+      "data-relevance": "115",
+      "data-term": "dispersal",
+      "data-encoded-term": "dispersal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7338",
+        "ol",
+        "1"
+      ]
+    },
+    "public": {
+      "data-frequency": "840740",
+      "data-relevance": "114",
+      "data-term": "public",
+      "data-encoded-term": "public",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "840740",
+        "ol",
+        "1"
+      ]
+    },
+    "mobilize": {
+      "data-frequency": "3915",
+      "data-relevance": "113",
+      "data-term": "mobilize",
+      "data-encoded-term": "mobilize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3915",
+        "ol",
+        "1"
+      ]
+    },
+    "mobilizing": {
+      "data-frequency": "11770",
+      "data-relevance": "112",
+      "data-term": "mobilizing",
+      "data-encoded-term": "mobilizing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11770",
+        "ol",
+        "1"
+      ]
+    },
+    "mobilized": {
+      "data-frequency": "6228",
+      "data-relevance": "111",
+      "data-term": "mobilized",
+      "data-encoded-term": "mobilized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6228",
+        "ol",
+        "1"
+      ]
+    },
+    "clique": {
+      "data-frequency": "3319",
+      "data-relevance": "110",
+      "data-term": "clique",
+      "data-encoded-term": "clique",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3319",
+        "ol",
+        "1"
+      ]
+    },
+    "mobilization": {
+      "data-frequency": "8958",
+      "data-relevance": "109",
+      "data-term": "mobilization",
+      "data-encoded-term": "mobilization",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8958",
+        "ol",
+        "1"
+      ]
+    },
+    "tide": {
+      "data-frequency": "29060",
+      "data-relevance": "108",
+      "data-term": "tide",
+      "data-encoded-term": "tide",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "29060",
+        "ol",
+        "1"
+      ]
+    },
+    "unrest": {
+      "data-frequency": "19862",
+      "data-relevance": "107",
+      "data-term": "unrest",
+      "data-encoded-term": "unrest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19862",
+        "ol",
+        "1"
+      ]
+    },
+    "host": {
+      "data-frequency": "182350",
+      "data-relevance": "106",
+      "data-term": "host",
+      "data-encoded-term": "host",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "182350",
+        "ol",
+        "1"
+      ]
+    },
+    "plethora": {
+      "data-frequency": "3469",
+      "data-relevance": "105",
+      "data-term": "plethora",
+      "data-encoded-term": "plethora",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3469",
+        "ol",
+        "1"
+      ]
+    },
+    "flood": {
+      "data-frequency": "51830",
+      "data-relevance": "104",
+      "data-term": "flood",
+      "data-encoded-term": "flood",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51830",
+        "ol",
+        "1"
+      ]
+    },
+    "aggressive": {
+      "data-frequency": "34113",
+      "data-relevance": "103",
+      "data-term": "aggressive",
+      "data-encoded-term": "aggressive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34113",
+        "ol",
+        "1"
+      ]
+    },
+    "neil": {
+      "data-frequency": "112463",
+      "data-relevance": "102",
+      "data-term": "neil",
+      "data-encoded-term": "neil",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "112463",
+        "ol",
+        "1"
+      ]
+    },
+    "variety": {
+      "data-frequency": "262232",
+      "data-relevance": "101",
+      "data-term": "variety",
+      "data-encoded-term": "variety",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "262232",
+        "ol",
+        "1"
+      ]
+    },
+    "multiplicity": {
+      "data-frequency": "4790",
+      "data-relevance": "100",
+      "data-term": "multiplicity",
+      "data-encoded-term": "multiplicity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4790",
+        "ol",
+        "1"
+      ]
+    },
+    "range": {
+      "data-frequency": "382995",
+      "data-relevance": "99",
+      "data-term": "range",
+      "data-encoded-term": "range",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382995",
+        "ol",
+        "1"
+      ]
+    },
+    "myriad": {
+      "data-frequency": "6782",
+      "data-relevance": "98",
+      "data-term": "myriad",
+      "data-encoded-term": "myriad",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6782",
+        "ol",
+        "1"
+      ]
+    },
+    "peter": {
+      "data-frequency": "564270",
+      "data-relevance": "97",
+      "data-term": "peter",
+      "data-encoded-term": "peter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "564270",
+        "ol",
+        "1"
+      ]
+    },
+    "flow": {
+      "data-frequency": "78421",
+      "data-relevance": "96",
+      "data-term": "flow",
+      "data-encoded-term": "flow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "78421",
+        "ol",
+        "1"
+      ]
+    },
+    "collection": {
+      "data-frequency": "331008",
+      "data-relevance": "95",
+      "data-term": "collection",
+      "data-encoded-term": "collection",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "331008",
+        "ol",
+        "1"
+      ]
+    },
+    "come near": {
+      "data-frequency": "457",
+      "data-relevance": "94",
+      "data-term": "come near",
+      "data-encoded-term": "come%20near",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "457",
+        "wn",
+        "1"
+      ]
+    },
+    "courtship": {
+      "data-frequency": "6355",
+      "data-relevance": "93",
+      "data-term": "courtship",
+      "data-encoded-term": "courtship",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6355",
+        "ol",
+        "1"
+      ]
+    },
+    "draw close": {
+      "data-frequency": "52",
+      "data-relevance": "92",
+      "data-term": "draw close",
+      "data-encoded-term": "draw%20close",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52",
+        "wn",
+        "1"
+      ]
+    },
+    "come on": {
+      "data-frequency": "8792",
+      "data-relevance": "91",
+      "data-term": "come on",
+      "data-encoded-term": "come%20on",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8792",
+        "wn",
+        "1"
+      ]
+    },
+    "go up": {
+      "data-frequency": "4544",
+      "data-relevance": "90",
+      "data-term": "go up",
+      "data-encoded-term": "go%20up",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4544",
+        "wn",
+        "1"
+      ]
+    },
+    "draw near": {
+      "data-frequency": "184",
+      "data-relevance": "89",
+      "data-term": "draw near",
+      "data-encoded-term": "draw%20near",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "184",
+        "wn",
+        "1"
+      ]
+    },
+    "collect": {
+      "data-frequency": "42994",
+      "data-relevance": "88",
+      "data-term": "collect",
+      "data-encoded-term": "collect",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42994",
+        "ol",
+        "1"
+      ]
+    },
+    "lobbying": {
+      "data-frequency": "12888",
+      "data-relevance": "87",
+      "data-term": "lobbying",
+      "data-encoded-term": "lobbying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12888",
+        "ol",
+        "1"
+      ]
+    },
+    "collecting": {
+      "data-frequency": "46162",
+      "data-relevance": "86",
+      "data-term": "collecting",
+      "data-encoded-term": "collecting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46162",
+        "ol",
+        "1"
+      ]
+    },
+    "wealth": {
+      "data-frequency": "48225",
+      "data-relevance": "85",
+      "data-term": "wealth",
+      "data-encoded-term": "wealth",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "48225",
+        "ol",
+        "1"
+      ]
+    },
+    "roar": {
+      "data-frequency": "10411",
+      "data-relevance": "84",
+      "data-term": "roar",
+      "data-encoded-term": "roar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10411",
+        "ol",
+        "1"
+      ]
+    },
+    "peat": {
+      "data-frequency": "6933",
+      "data-relevance": "83",
+      "data-term": "peat",
+      "data-encoded-term": "peat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6933",
+        "ol",
+        "1"
+      ]
+    },
+    "auditorium": {
+      "data-frequency": "25330",
+      "data-relevance": "82",
+      "data-term": "auditorium",
+      "data-encoded-term": "auditorium",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25330",
+        "ol",
+        "1"
+      ]
+    },
+    "grandstand": {
+      "data-frequency": "4955",
+      "data-relevance": "81",
+      "data-term": "grandstand",
+      "data-encoded-term": "grandstand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4955",
+        "ol",
+        "1"
+      ]
+    },
+    "volge": {
+      "data-frequency": "-1",
+      "data-relevance": "80",
+      "data-term": "volge",
+      "data-encoded-term": "volge",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "jeers": {
+      "data-frequency": "597",
+      "data-relevance": "79",
+      "data-term": "jeers",
+      "data-encoded-term": "jeers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "597",
+        "ol",
+        "1"
+      ]
+    },
+    "chants": {
+      "data-frequency": "5478",
+      "data-relevance": "78",
+      "data-term": "chants",
+      "data-encoded-term": "chants",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5478",
+        "ol",
+        "1"
+      ]
+    },
+    "build-up": {
+      "data-frequency": "11594",
+      "data-relevance": "77",
+      "data-term": "build-up",
+      "data-encoded-term": "build-up",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11594",
+        "ol",
+        "1"
+      ]
+    },
+    "crowdedness": {
+      "data-frequency": "-1",
+      "data-relevance": "76",
+      "data-term": "crowdedness",
+      "data-encoded-term": "crowdedness",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hecklers": {
+      "data-frequency": "4459",
+      "data-relevance": "75",
+      "data-term": "hecklers",
+      "data-encoded-term": "hecklers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4459",
+        "ol",
+        "1"
+      ]
+    },
+    "throngly": {
+      "data-frequency": "-1",
+      "data-relevance": "74",
+      "data-term": "throngly",
+      "data-encoded-term": "throngly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "vincent price": {
+      "data-frequency": "1296",
+      "data-relevance": "73",
+      "data-term": "vincent price",
+      "data-encoded-term": "vincent%20price",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1296",
+        "wiki",
+        "1"
+      ]
+    },
+    "draw together": {
+      "data-frequency": "29500",
+      "data-relevance": "72",
+      "data-term": "draw together",
+      "data-encoded-term": "draw%20together",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "29500",
+        "ol",
+        "1"
+      ]
+    },
+    "shopping mall": {
+      "data-frequency": "8316",
+      "data-relevance": "71",
+      "data-term": "shopping mall",
+      "data-encoded-term": "shopping%20mall",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8316",
+        "wiki",
+        "1"
+      ]
+    },
+    "bird": {
+      "data-frequency": "112551",
+      "data-relevance": "70",
+      "data-term": "bird",
+      "data-encoded-term": "bird",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "112551",
+        "wiki",
+        "1"
+      ]
+    },
+    "flag waving": {
+      "data-frequency": "11849",
+      "data-relevance": "69",
+      "data-term": "flag waving",
+      "data-encoded-term": "flag%20waving",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "11849",
+        "ol",
+        "1"
+      ]
+    },
+    "standing ovation": {
+      "data-frequency": "3166",
+      "data-relevance": "68",
+      "data-term": "standing ovation",
+      "data-encoded-term": "standing%20ovation",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3166",
+        "ol",
+        "1"
+      ]
+    },
+    "damage": {
+      "data-frequency": "125591",
+      "data-relevance": "67",
+      "data-term": "damage",
+      "data-encoded-term": "damage",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "125591",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "support": {
+      "data-frequency": "483509",
+      "data-relevance": "66",
+      "data-term": "support",
+      "data-encoded-term": "support",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "483509",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "area": {
+      "data-frequency": "1030766",
+      "data-relevance": "65",
+      "data-term": "area",
+      "data-encoded-term": "area",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1030766",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "vibe": {
+      "data-frequency": "10526",
+      "data-relevance": "64",
+      "data-term": "vibe",
+      "data-encoded-term": "vibe",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "10526",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "defensive": {
+      "data-frequency": "71131",
+      "data-relevance": "63",
+      "data-term": "defensive",
+      "data-encoded-term": "defensive",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "71131",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "battle": {
+      "data-frequency": "299698",
+      "data-relevance": "62",
+      "data-term": "battle",
+      "data-encoded-term": "battle",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "299698",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "sports": {
+      "data-frequency": "645256",
+      "data-relevance": "61",
+      "data-term": "sports",
+      "data-encoded-term": "sports",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "645256",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "mind": {
+      "data-frequency": "137299",
+      "data-relevance": "60",
+      "data-term": "mind",
+      "data-encoded-term": "mind",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "137299",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "part": {
+      "data-frequency": "1345273",
+      "data-relevance": "59",
+      "data-term": "part",
+      "data-encoded-term": "part",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1345273",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "background": {
+      "data-frequency": "341927",
+      "data-relevance": "58",
+      "data-term": "background",
+      "data-encoded-term": "background",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "341927",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "facing": {
+      "data-frequency": "83619",
+      "data-relevance": "57",
+      "data-term": "facing",
+      "data-encoded-term": "facing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "83619",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "building": {
+      "data-frequency": "566147",
+      "data-relevance": "56",
+      "data-term": "building",
+      "data-encoded-term": "building",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "566147",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "nuke": {
+      "data-frequency": "1651",
+      "data-relevance": "55",
+      "data-term": "nuke",
+      "data-encoded-term": "nuke",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1651",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "areas": {
+      "data-frequency": "362309",
+      "data-relevance": "54",
+      "data-term": "areas",
+      "data-encoded-term": "areas",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "362309",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "battlefield": {
+      "data-frequency": "26046",
+      "data-relevance": "53",
+      "data-term": "battlefield",
+      "data-encoded-term": "battlefield",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "26046",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "spread": {
+      "data-frequency": "153804",
+      "data-relevance": "52",
+      "data-term": "spread",
+      "data-encoded-term": "spread",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "153804",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "game": {
+      "data-frequency": "426613",
+      "data-relevance": "51",
+      "data-term": "game",
+      "data-encoded-term": "game",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "426613",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "dense": {
+      "data-frequency": "29304",
+      "data-relevance": "50",
+      "data-term": "dense",
+      "data-encoded-term": "dense",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "29304",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "initiation": {
+      "data-frequency": "12137",
+      "data-relevance": "49",
+      "data-term": "initiation",
+      "data-encoded-term": "initiation",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "12137",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "sub": {
+      "data-frequency": "123599",
+      "data-relevance": "48",
+      "data-term": "sub",
+      "data-encoded-term": "sub",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "123599",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "target": {
+      "data-frequency": "98774",
+      "data-relevance": "47",
+      "data-term": "target",
+      "data-encoded-term": "target",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "98774",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "dancers": {
+      "data-frequency": "25218",
+      "data-relevance": "46",
+      "data-term": "dancers",
+      "data-encoded-term": "dancers",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "25218",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "venue": {
+      "data-frequency": "162555",
+      "data-relevance": "45",
+      "data-term": "venue",
+      "data-encoded-term": "venue",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "162555",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "party": {
+      "data-frequency": "574281",
+      "data-relevance": "44",
+      "data-term": "party",
+      "data-encoded-term": "party",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "574281",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "community": {
+      "data-frequency": "540121",
+      "data-relevance": "43",
+      "data-term": "community",
+      "data-encoded-term": "community",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "540121",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ventilation": {
+      "data-frequency": "8121",
+      "data-relevance": "42",
+      "data-term": "ventilation",
+      "data-encoded-term": "ventilation",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "8121",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "line": {
+      "data-frequency": "646147",
+      "data-relevance": "41",
+      "data-term": "line",
+      "data-encoded-term": "line",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "646147",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "mature": {
+      "data-frequency": "32698",
+      "data-relevance": "40",
+      "data-term": "mature",
+      "data-encoded-term": "mature",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "32698",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "make": {
+      "data-frequency": "577505",
+      "data-relevance": "39",
+      "data-term": "make",
+      "data-encoded-term": "make",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "577505",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "race": {
+      "data-frequency": "256999",
+      "data-relevance": "38",
+      "data-term": "race",
+      "data-encoded-term": "race",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "256999",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "general": {
+      "data-frequency": "1125349",
+      "data-relevance": "37",
+      "data-term": "general",
+      "data-encoded-term": "general",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1125349",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "and": {
+      "data-frequency": "5430271",
+      "data-relevance": "36",
+      "data-term": "and",
+      "data-encoded-term": "and",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5430271",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "right": {
+      "data-frequency": "632018",
+      "data-relevance": "35",
+      "data-term": "right",
+      "data-encoded-term": "right",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "632018",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "individual": {
+      "data-frequency": "276671",
+      "data-relevance": "34",
+      "data-term": "individual",
+      "data-encoded-term": "individual",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "276671",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "door": {
+      "data-frequency": "115345",
+      "data-relevance": "33",
+      "data-term": "door",
+      "data-encoded-term": "door",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "115345",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "bench": {
+      "data-frequency": "56720",
+      "data-relevance": "32",
+      "data-term": "bench",
+      "data-encoded-term": "bench",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "56720",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "whiplash": {
+      "data-frequency": "1763",
+      "data-relevance": "31",
+      "data-term": "whiplash",
+      "data-encoded-term": "whiplash",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1763",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "atmosphere": {
+      "data-frequency": "41917",
+      "data-relevance": "30",
+      "data-term": "atmosphere",
+      "data-encoded-term": "atmosphere",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "41917",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "single": {
+      "data-frequency": "727671",
+      "data-relevance": "29",
+      "data-term": "single",
+      "data-encoded-term": "single",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "727671",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "flat": {
+      "data-frequency": "121170",
+      "data-relevance": "28",
+      "data-term": "flat",
+      "data-encoded-term": "flat",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "121170",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "after": {
+      "data-frequency": "2058603",
+      "data-relevance": "27",
+      "data-term": "after",
+      "data-encoded-term": "after",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2058603",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "day": {
+      "data-frequency": "902693",
+      "data-relevance": "26",
+      "data-term": "day",
+      "data-encoded-term": "day",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "902693",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "clean": {
+      "data-frequency": "84683",
+      "data-relevance": "25",
+      "data-term": "clean",
+      "data-encoded-term": "clean",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "84683",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "visionary": {
+      "data-frequency": "9649",
+      "data-relevance": "24",
+      "data-term": "visionary",
+      "data-encoded-term": "visionary",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "9649",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "shade": {
+      "data-frequency": "19844",
+      "data-relevance": "23",
+      "data-term": "shade",
+      "data-encoded-term": "shade",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "19844",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "attitude": {
+      "data-frequency": "40271",
+      "data-relevance": "22",
+      "data-term": "attitude",
+      "data-encoded-term": "attitude",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "40271",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "games": {
+      "data-frequency": "480517",
+      "data-relevance": "21",
+      "data-term": "games",
+      "data-encoded-term": "games",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "480517",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "abilities": {
+      "data-frequency": "37804",
+      "data-relevance": "20",
+      "data-term": "abilities",
+      "data-encoded-term": "abilities",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "37804",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "student": {
+      "data-frequency": "233363",
+      "data-relevance": "19",
+      "data-term": "student",
+      "data-encoded-term": "student",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "233363",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "masks": {
+      "data-frequency": "10271",
+      "data-relevance": "18",
+      "data-term": "masks",
+      "data-encoded-term": "masks",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "10271",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "cover": {
+      "data-frequency": "297809",
+      "data-relevance": "17",
+      "data-term": "cover",
+      "data-encoded-term": "cover",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "297809",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ground": {
+      "data-frequency": "312310",
+      "data-relevance": "16",
+      "data-term": "ground",
+      "data-encoded-term": "ground",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "312310",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "survivability": {
+      "data-frequency": "209117",
+      "data-relevance": "15",
+      "data-term": "survivability",
+      "data-encoded-term": "survivability",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "209117",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "circumstances": {
+      "data-frequency": "59546",
+      "data-relevance": "14",
+      "data-term": "circumstances",
+      "data-encoded-term": "circumstances",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "59546",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "gear": {
+      "data-frequency": "45002",
+      "data-relevance": "13",
+      "data-term": "gear",
+      "data-encoded-term": "gear",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "45002",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "nightlife": {
+      "data-frequency": "3901",
+      "data-relevance": "12",
+      "data-term": "nightlife",
+      "data-encoded-term": "nightlife",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3901",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "flying": {
+      "data-frequency": "111173",
+      "data-relevance": "11",
+      "data-term": "flying",
+      "data-encoded-term": "flying",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "111173",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "commentary": {
+      "data-frequency": "55966",
+      "data-relevance": "10",
+      "data-term": "commentary",
+      "data-encoded-term": "commentary",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "55966",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "unique": {
+      "data-frequency": "193190",
+      "data-relevance": "9",
+      "data-term": "unique",
+      "data-encoded-term": "unique",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "193190",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "song": {
+      "data-frequency": "459260",
+      "data-relevance": "8",
+      "data-term": "song",
+      "data-encoded-term": "song",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "459260",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "goes": {
+      "data-frequency": "198178",
+      "data-relevance": "7",
+      "data-term": "goes",
+      "data-encoded-term": "goes",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "198178",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "overwhe": {
+      "data-frequency": "-1",
+      "data-relevance": "6",
+      "data-term": "overwhe",
+      "data-encoded-term": "overwhe",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "inflictors": {
+      "data-frequency": "-1",
+      "data-relevance": "5",
+      "data-term": "inflictors",
+      "data-encoded-term": "inflictors",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "debuffs": {
+      "data-frequency": "70",
+      "data-relevance": "4",
+      "data-term": "debuffs",
+      "data-encoded-term": "debuffs",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "70",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "crowd psychology": {
+      "data-frequency": "343",
+      "data-relevance": "3",
+      "data-term": "crowd psychology",
+      "data-encoded-term": "crowd%20psychology",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "343",
+        "wiki",
+        "1"
+      ]
+    },
+    "crowd control": {
+      "data-frequency": "900",
+      "data-relevance": "2",
+      "data-term": "crowd control",
+      "data-encoded-term": "crowd%20control",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "900",
+        "wiki",
+        "1"
+      ]
+    },
+    "1992 los angeles riots": {
+      "data-frequency": "3109",
+      "data-relevance": "1",
+      "data-term": "1992 los angeles riots",
+      "data-encoded-term": "1992%20los%20angeles%20riots",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3109",
+        "wiki",
+        "1"
+      ]
+    },
+    "civil rights movement": {
+      "data-frequency": "6544",
+      "data-relevance": "0",
+      "data-term": "civil rights movement",
+      "data-encoded-term": "civil%20rights%20movement",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "6544",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "crowd",
+      "crowded",
+      "overcrowding",
+      "crowdy"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "Please move back. You're crowding me.",
+        "ru": "Пожалуйста, отойди, ты теснишь меня / давишь на меня."
+      },
+      {
+        "en": "There are too many products crowding the market.",
+        "ru": "Рынок переполнен чересчур большим количеством продукции."
+      },
+      {
+        "en": "The club has been accused of crowding too many people into too small a space.",
+        "ru": "Клуб обвинили в том, что они собрали слишком большое количество людей в слишком маленьком помещении."
+      },
+      {
+        "en": "George is crowding sixty.",
+        "ru": "Джорджу скоро шестьдесят."
+      },
+      {
+        "en": "Stop crowding me — there's plenty of room.",
+        "ru": "Хватит меня толкать: тут полно места."
+      },
+      {
+        "en": "Strange thoughts and worries were crowding his mind.",
+        "ru": "В его голове теснились странные мысли и заботы."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "crowdings",
+      "crowd"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [
+      "overcrowding",
+      "crowd",
+      "crowded",
+      "crowdy"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "demonstration",
+      "crowd",
+      "group",
+      "gathering",
+      "mob",
+      "anticrowding",
+      "inrush",
+      "herd",
+      "swarm",
+      "traffic",
+      "crush",
+      "throng",
+      "crew",
+      "jam"
+    ]
+  }
+}

@@ -1,0 +1,891 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "confident": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confident/a/,/c/en/confidential/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/confident/a",
+          "@type": "Node",
+          "label": "confident",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confident"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "confidentially": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidentially/r/,/c/en/confidential/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/confidentially/r",
+          "@type": "Node",
+          "label": "confidentially",
+          "language": "en",
+          "sense_label": "r",
+          "term": "/c/en/confidentially"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "confidentiality": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidentiality/n/,/c/en/confidential/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/confidentiality/n",
+          "@type": "Node",
+          "label": "confidentiality",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/confidentiality"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "confidence": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidential/a/,/c/en/confidence/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/confidence",
+          "@type": "Node",
+          "label": "confidence",
+          "language": "en",
+          "term": "/c/en/confidence"
+        }
+      },
+      "nonconfidential": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nonconfidential/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonconfidential/a",
+          "@type": "Node",
+          "label": "nonconfidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nonconfidential"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "clickjack": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/clickjack/v/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/clickjack/v",
+          "@type": "Node",
+          "label": "clickjack",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/clickjack"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "intend": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidential/a/,/c/en/intend/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/intend",
+          "@type": "Node",
+          "label": "intend",
+          "language": "en",
+          "term": "/c/en/intend"
+        }
+      },
+      "betrayer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/betrayer/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/betrayer/n",
+          "@type": "Node",
+          "label": "betrayer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/betrayer"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "informant": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/informant/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/informant/n",
+          "@type": "Node",
+          "label": "informant",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/informant"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "confidentialness": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidentialness/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidentialness/n",
+          "@type": "Node",
+          "label": "confidentialness",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/confidentialness"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "cbi": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/cbi/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/cbi",
+          "@type": "Node",
+          "label": "cbi",
+          "language": "en",
+          "term": "/c/en/cbi"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "confide": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidential/a/,/c/en/confide/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/confide",
+          "@type": "Node",
+          "label": "confide",
+          "language": "en",
+          "term": "/c/en/confide"
+        }
+      },
+      "buzz": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/buzz/v/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/buzz/v",
+          "@type": "Node",
+          "label": "buzz",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/buzz"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "secret agent": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/secret_agent/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/secret_agent/n",
+          "@type": "Node",
+          "label": "secret agent",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/secret_agent"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "esoteric": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/esoteric/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/esoteric/a",
+          "@type": "Node",
+          "label": "esoteric",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/esoteric"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "list 99": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/list_99/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/list_99/n",
+          "@type": "Node",
+          "label": "list 99",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/list_99"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "loose lip": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/loose_lip/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/loose_lip/n",
+          "@type": "Node",
+          "label": "loose lip",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/loose_lip"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "top secret": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/top_secret/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/top_secret/a",
+          "@type": "Node",
+          "label": "top secret",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/top_secret"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "lone gunman": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/lone_gunman/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/lone_gunman/n",
+          "@type": "Node",
+          "label": "lone gunman",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/lone_gunman"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "public": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidential/a/,/c/en/public/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/public",
+          "@type": "Node",
+          "label": "public",
+          "language": "en",
+          "term": "/c/en/public"
+        }
+      },
+      "classified": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/classified/a/wikt/en_1/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/classified/a/wikt/en_1",
+          "@type": "Node",
+          "label": "classified",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/classified"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "under one's hat": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/under_one's_hat/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/under_one's_hat",
+          "@type": "Node",
+          "label": "under one's hat",
+          "language": "en",
+          "term": "/c/en/under_one's_hat"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "circle": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidential/a/,/c/en/circle/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/circle",
+          "@type": "Node",
+          "label": "circle",
+          "language": "en",
+          "term": "/c/en/circle"
+        }
+      },
+      "get wind of": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/get_wind_of/v/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/get_wind_of/v",
+          "@type": "Node",
+          "label": "get wind of",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/get_wind_of"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "no fly list": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/no_fly_list/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/no_fly_list/n",
+          "@type": "Node",
+          "label": "no fly list",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/no_fly_list"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "attorney client privilege": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/attorney_client_privilege/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/attorney_client_privilege/n",
+          "@type": "Node",
+          "label": "attorney client privilege",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/attorney_client_privilege"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "tell tales out of school": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/tell_tales_out_of_school/v/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/tell_tales_out_of_school/v",
+          "@type": "Node",
+          "label": "tell tales out of school",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/tell_tales_out_of_school"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "secret": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/confidential/a/,/c/en/secret/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/secret",
+          "@type": "Node",
+          "label": "secret",
+          "language": "en",
+          "term": "/c/en/secret"
+        }
+      },
+      "leaked": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/leaked/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/leaked/a",
+          "@type": "Node",
+          "label": "leaked",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/leaked"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "in room": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/in_room/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/in_room",
+          "@type": "Node",
+          "label": "in room",
+          "language": "en",
+          "term": "/c/en/in_room"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "know where bodies are buried": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/know_where_bodies_are_buried/v/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/know_where_bodies_are_buried/v",
+          "@type": "Node",
+          "label": "know where bodies are buried",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/know_where_bodies_are_buried"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "list x": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/list_x/n/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/list_x/n",
+          "@type": "Node",
+          "label": "list x",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/list_x"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "private": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/private/,/c/en/confidential/]",
+        "weight": 0.18599999999999994,
+        "start": {
+          "@id": "/c/en/private",
+          "@type": "Node",
+          "label": "private",
+          "language": "en",
+          "term": "/c/en/private"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "secret": {
+        "@id": "/a/[/r/Synonym/,/c/en/secret/a/wn/,/c/en/confidential/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/secret/a/wn",
+          "@type": "Node",
+          "label": "secret",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/secret"
+        },
+        "end": {
+          "@id": "/c/en/confidential/a/wn",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/confidential"
+        }
+      },
+      "withheld": {
+        "@id": "/a/[/r/Synonym/,/c/en/withheld/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/withheld/a",
+          "@type": "Node",
+          "label": "withheld",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/withheld"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "dern": {
+        "@id": "/a/[/r/Synonym/,/c/en/confidential/a/,/c/en/dern/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/confidential/a",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/dern",
+          "@type": "Node",
+          "label": "dern",
+          "language": "en",
+          "term": "/c/en/dern"
+        }
+      },
+      "hush hush": {
+        "@id": "/a/[/r/Synonym/,/c/en/hush_hush/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/hush_hush/a",
+          "@type": "Node",
+          "label": "hush hush",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/hush_hush"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      },
+      "classified": {
+        "@id": "/a/[/r/Synonym/,/c/en/classified/a/,/c/en/confidential/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/classified/a",
+          "@type": "Node",
+          "label": "classified",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/classified"
+        },
+        "end": {
+          "@id": "/c/en/confidential",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "term": "/c/en/confidential"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {
+      "close": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/confidential/a/wn/,/c/en/close/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/confidential/a/wn",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/confidential"
+        },
+        "end": {
+          "@id": "/c/en/close/a/wn",
+          "@type": "Node",
+          "label": "close",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/close"
+        }
+      },
+      "private": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/private/a/wn/,/c/en/confidential/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/private/a/wn",
+          "@type": "Node",
+          "label": "private",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/private"
+        },
+        "end": {
+          "@id": "/c/en/confidential/a/wn",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/confidential"
+        }
+      },
+      "classified": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/classified/a/wn/,/c/en/confidential/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/classified/a/wn",
+          "@type": "Node",
+          "label": "classified",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/classified"
+        },
+        "end": {
+          "@id": "/c/en/confidential/a/wn",
+          "@type": "Node",
+          "label": "confidential",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/confidential"
+        }
+      }
+    },
+    "word_forms": {}
+  },
+  "relatedwords": {},
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {
+    "rank": 330,
+    "word": "confidential",
+    "meaning": "",
+    "word_form": "adj",
+    "inflected_forms": "",
+    "inflected_forms_array": {}
+  },
+  "related_awl_computer_science": {
+    "rank": 330,
+    "word": "confidential",
+    "meaning": "",
+    "word_form": "adj",
+    "inflected_forms": "",
+    "inflected_forms_array": {}
+  },
+  "wooordhunt": {
+    "similar_words": [
+      "confidentially",
+      "confidentiality"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "All medical records are kept confidential.",
+        "ru": "Все медицинские данные хранятся в секрете."
+      },
+      {
+        "en": "This arrangement must be kept confidential.",
+        "ru": "Эту договоренность необходимо держать в секрете."
+      },
+      {
+        "en": "The envelope was marked 'Personal and Confidential'.",
+        "ru": "На конверте стояла пометка \"Конфиденциально\" /\"Лично в руки\"/."
+      },
+      {
+        "en": "He was dismissed for sending confidential report to the newspaper.",
+        "ru": "Его уволили за то, что он послал в газету конфиденциальный отчет."
+      },
+      {
+        "en": "Please treat this information as completely confidential.",
+        "ru": "Прошу отнестись к этой информации как к абсолютно конфиденциальной."
+      },
+      {
+        "en": "The confidential documents are kept shut up in a strongbox.",
+        "ru": "Секретные документы хранятся в сейфе."
+      },
+      {
+        "en": "I need hardly remind you that this information is confidential.",
+        "ru": "Вряд ли мне стоит напоминать вам, что эта информация является конфиденциальной."
+      },
+      {
+        "en": "The information will be regarded as strictly confidential (=completely confidential).",
+        "ru": "Данная информация будет рассматриваться как строго конфиденциальная (т.е. полностью конфиденциальная)."
+      },
+      {
+        "en": "I'd be obliged if you'd treat this matter as strictly confidential.",
+        "ru": "Я был бы благодарен, если бы вы отнеслись к этому вопросу строго конфиденциально."
+      },
+      {
+        "en": "The source of the information is irrelevant. Moreover, the information need not be confidential.",
+        "ru": "Источник информации не имеет значения. Кроме того, информация не обязана быть конфиденциальной."
+      }
+    ]
+  },
+  "important_word": {
+    "word_forms": [],
+    "synonyms": [
+      "secret",
+      "withheld",
+      "dern",
+      "classified"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "confidentiality",
+      "confidentially",
+      "private",
+      "close",
+      "classified"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "confidentialness",
+      "confidence",
+      "confidentiality",
+      "clickjack",
+      "confident",
+      "confidentially",
+      "betrayer",
+      "nonconfidential",
+      "informant",
+      "intend"
+    ]
+  }
+}

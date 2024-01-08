@@ -1,0 +1,4001 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "dietitians": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/dietitians/n/,/c/en/dietitian/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/dietitians/n",
+          "@type": "Node",
+          "label": "dietitians",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/dietitians"
+        },
+        "end": {
+          "@id": "/c/en/dietitian",
+          "@type": "Node",
+          "label": "dietitian",
+          "language": "en",
+          "term": "/c/en/dietitian"
+        }
+      },
+      "dietetics": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/dietitian/n/,/c/en/dietetics/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/dietitian/n",
+          "@type": "Node",
+          "label": "dietitian",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/dietitian"
+        },
+        "end": {
+          "@id": "/c/en/dietetics",
+          "@type": "Node",
+          "label": "dietetics",
+          "language": "en",
+          "term": "/c/en/dietetics"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "dietician": {
+        "@id": "/a/[/r/Synonym/,/c/en/dietitian/n/wn/person/,/c/en/dietician/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/dietitian/n/wn/person",
+          "@type": "Node",
+          "label": "dietitian",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/dietitian"
+        },
+        "end": {
+          "@id": "/c/en/dietician/n/wn/person",
+          "@type": "Node",
+          "label": "dietician",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/dietician"
+        }
+      },
+      "dietitian": {
+        "@id": "/a/[/r/Synonym/,/c/en/dietitian/,/c/en/dietitian/]",
+        "weight": 0.5,
+        "start": {
+          "@id": "/c/en/dietitian",
+          "@type": "Node",
+          "label": "dietitian",
+          "language": "en",
+          "term": "/c/en/dietitian"
+        },
+        "end": {
+          "@id": "/c/en/dietitian",
+          "@type": "Node",
+          "label": "dietitian",
+          "language": "en",
+          "term": "/c/en/dietitian"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "dietitians": {
+        "@id": "/a/[/r/FormOf/,/c/en/dietitians/n/,/c/en/dietitian/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/dietitians/n",
+          "@type": "Node",
+          "label": "dietitians",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/dietitians"
+        },
+        "end": {
+          "@id": "/c/en/dietitian",
+          "@type": "Node",
+          "label": "dietitian",
+          "language": "en",
+          "term": "/c/en/dietitian"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "nutritionist": {
+      "data-frequency": "1061",
+      "data-relevance": "274",
+      "data-term": "nutritionist",
+      "data-encoded-term": "nutritionist",
+      "data-term-stats": [
+        "1",
+        "11.5",
+        "0.000",
+        "1061",
+        "ol,w2v,wiki",
+        "1"
+      ]
+    },
+    "dietician": {
+      "data-frequency": "239",
+      "data-relevance": "273",
+      "data-term": "dietician",
+      "data-encoded-term": "dietician",
+      "data-term-stats": [
+        "1",
+        "5.4",
+        "0.000",
+        "239",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "nutrition": {
+      "data-frequency": "20789",
+      "data-relevance": "272",
+      "data-term": "nutrition",
+      "data-encoded-term": "nutrition",
+      "data-term-stats": [
+        "1",
+        "7.6",
+        "0.000",
+        "20789",
+        "ol,w2v,swiki|reverse-net",
+        "1"
+      ]
+    },
+    "diet": {
+      "data-frequency": "34307",
+      "data-relevance": "271",
+      "data-term": "diet",
+      "data-encoded-term": "diet",
+      "data-term-stats": [
+        "1",
+        "10.5",
+        "0.000",
+        "34307",
+        "ol,wiki,swiki|reverse-net",
+        "1"
+      ]
+    },
+    "foodservice": {
+      "data-frequency": "1131",
+      "data-relevance": "270",
+      "data-term": "foodservice",
+      "data-encoded-term": "foodservice",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "1131",
+        "wiki",
+        "1"
+      ]
+    },
+    "healthcare provider requisites": {
+      "data-frequency": "61",
+      "data-relevance": "269",
+      "data-term": "healthcare provider requisites",
+      "data-encoded-term": "healthcare%20provider%20requisites",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "61",
+        "wiki",
+        "1"
+      ]
+    },
+    "scope of practice": {
+      "data-frequency": "13150",
+      "data-relevance": "268",
+      "data-term": "scope of practice",
+      "data-encoded-term": "scope%20of%20practice",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "13150",
+        "wiki",
+        "1"
+      ]
+    },
+    "research": {
+      "data-frequency": "521841",
+      "data-relevance": "267",
+      "data-term": "research",
+      "data-encoded-term": "research",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "521841",
+        "wiki",
+        "1"
+      ]
+    },
+    "consultant": {
+      "data-frequency": "51220",
+      "data-relevance": "266",
+      "data-term": "consultant",
+      "data-encoded-term": "consultant",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "51220",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "physician": {
+      "data-frequency": "67821",
+      "data-relevance": "265",
+      "data-term": "physician",
+      "data-encoded-term": "physician",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "67821",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "food safety": {
+      "data-frequency": "23022",
+      "data-relevance": "264",
+      "data-term": "food safety",
+      "data-encoded-term": "food%20safety",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "23022",
+        "wiki",
+        "1"
+      ]
+    },
+    "hospital": {
+      "data-frequency": "243764",
+      "data-relevance": "263",
+      "data-term": "hospital",
+      "data-encoded-term": "hospital",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "243764",
+        "wiki",
+        "1"
+      ]
+    },
+    "pediatrician": {
+      "data-frequency": "2297",
+      "data-relevance": "262",
+      "data-term": "pediatrician",
+      "data-encoded-term": "pediatrician",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "2297",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "dietetic": {
+      "data-frequency": "561",
+      "data-relevance": "261",
+      "data-term": "dietetic",
+      "data-encoded-term": "dietetic",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "561",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "therapist": {
+      "data-frequency": "6802",
+      "data-relevance": "260",
+      "data-term": "therapist",
+      "data-encoded-term": "therapist",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "6802",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "veterinarian": {
+      "data-frequency": "3662",
+      "data-relevance": "259",
+      "data-term": "veterinarian",
+      "data-encoded-term": "veterinarian",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "3662",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "gynecologist": {
+      "data-frequency": "1437",
+      "data-relevance": "258",
+      "data-term": "gynecologist",
+      "data-encoded-term": "gynecologist",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1437",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "psychotherapist": {
+      "data-frequency": "1803",
+      "data-relevance": "257",
+      "data-term": "psychotherapist",
+      "data-encoded-term": "psychotherapist",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1803",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "obstetrician": {
+      "data-frequency": "1796",
+      "data-relevance": "256",
+      "data-term": "obstetrician",
+      "data-encoded-term": "obstetrician",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1796",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "counselor": {
+      "data-frequency": "12671",
+      "data-relevance": "255",
+      "data-term": "counselor",
+      "data-encoded-term": "counselor",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "12671",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "epidemiologist": {
+      "data-frequency": "1314",
+      "data-relevance": "254",
+      "data-term": "epidemiologist",
+      "data-encoded-term": "epidemiologist",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "1314",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "psychologist": {
+      "data-frequency": "18302",
+      "data-relevance": "253",
+      "data-term": "psychologist",
+      "data-encoded-term": "psychologist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "18302",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "food": {
+      "data-frequency": "233063",
+      "data-relevance": "252",
+      "data-term": "food",
+      "data-encoded-term": "food",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "233063",
+        "swiki",
+        "1"
+      ]
+    },
+    "health care": {
+      "data-frequency": "33809",
+      "data-relevance": "251",
+      "data-term": "health care",
+      "data-encoded-term": "health%20care",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "33809",
+        "wiki,swiki",
+        "1"
+      ]
+    },
+    "oncologist": {
+      "data-frequency": "1268",
+      "data-relevance": "250",
+      "data-term": "oncologist",
+      "data-encoded-term": "oncologist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "1268",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "public health": {
+      "data-frequency": "28262",
+      "data-relevance": "249",
+      "data-term": "public health",
+      "data-encoded-term": "public%20health",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "28262",
+        "wiki",
+        "1"
+      ]
+    },
+    "internist": {
+      "data-frequency": "578",
+      "data-relevance": "248",
+      "data-term": "internist",
+      "data-encoded-term": "internist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "578",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pharmacist": {
+      "data-frequency": "5263",
+      "data-relevance": "247",
+      "data-term": "pharmacist",
+      "data-encoded-term": "pharmacist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "5263",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "disease": {
+      "data-frequency": "109251",
+      "data-relevance": "246",
+      "data-term": "disease",
+      "data-encoded-term": "disease",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "109251",
+        "wiki",
+        "1"
+      ]
+    },
+    "specialist": {
+      "data-frequency": "53823",
+      "data-relevance": "245",
+      "data-term": "specialist",
+      "data-encoded-term": "specialist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "53823",
+        "wn",
+        "1"
+      ]
+    },
+    "obesity": {
+      "data-frequency": "7252",
+      "data-relevance": "244",
+      "data-term": "obesity",
+      "data-encoded-term": "obesity",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7252",
+        "wiki",
+        "1"
+      ]
+    },
+    "endocrinologist": {
+      "data-frequency": "648",
+      "data-relevance": "243",
+      "data-term": "endocrinologist",
+      "data-encoded-term": "endocrinologist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "648",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "dermatologist": {
+      "data-frequency": "1170",
+      "data-relevance": "242",
+      "data-term": "dermatologist",
+      "data-encoded-term": "dermatologist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "1170",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "behaviorist": {
+      "data-frequency": "357",
+      "data-relevance": "241",
+      "data-term": "behaviorist",
+      "data-encoded-term": "behaviorist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "357",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "geriatrician": {
+      "data-frequency": "74",
+      "data-relevance": "240",
+      "data-term": "geriatrician",
+      "data-encoded-term": "geriatrician",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "74",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "urologist": {
+      "data-frequency": "517",
+      "data-relevance": "239",
+      "data-term": "urologist",
+      "data-encoded-term": "urologist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "517",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "micronutrient": {
+      "data-frequency": "336",
+      "data-relevance": "238",
+      "data-term": "micronutrient",
+      "data-encoded-term": "micronutrient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "336",
+        "wiki",
+        "1"
+      ]
+    },
+    "anesthesiologist": {
+      "data-frequency": "641",
+      "data-relevance": "237",
+      "data-term": "anesthesiologist",
+      "data-encoded-term": "anesthesiologist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "641",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "nourishment": {
+      "data-frequency": "1668",
+      "data-relevance": "236",
+      "data-term": "nourishment",
+      "data-encoded-term": "nourishment",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1668",
+        "wiki",
+        "1"
+      ]
+    },
+    "allergist": {
+      "data-frequency": "94",
+      "data-relevance": "235",
+      "data-term": "allergist",
+      "data-encoded-term": "allergist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "94",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "preventive medicine": {
+      "data-frequency": "1572",
+      "data-relevance": "234",
+      "data-term": "preventive medicine",
+      "data-encoded-term": "preventive%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1572",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "physical therapist": {
+      "data-frequency": "705",
+      "data-relevance": "233",
+      "data-term": "physical therapist",
+      "data-encoded-term": "physical%20therapist",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "705",
+        "ol,wiki",
+        "1"
+      ]
+    },
+    "gerontology": {
+      "data-frequency": "1416",
+      "data-relevance": "232",
+      "data-term": "gerontology",
+      "data-encoded-term": "gerontology",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "1416",
+        "wiki",
+        "1"
+      ]
+    },
+    "crohn's disease": {
+      "data-frequency": "1232",
+      "data-relevance": "231",
+      "data-term": "crohn's disease",
+      "data-encoded-term": "crohn's%20disease",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1232",
+        "wiki",
+        "1"
+      ]
+    },
+    "chiropractor": {
+      "data-frequency": "631",
+      "data-relevance": "230",
+      "data-term": "chiropractor",
+      "data-encoded-term": "chiropractor",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "631",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "food industry": {
+      "data-frequency": "3439",
+      "data-relevance": "229",
+      "data-term": "food industry",
+      "data-encoded-term": "food%20industry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3439",
+        "wiki",
+        "1"
+      ]
+    },
+    "gastroenterologist": {
+      "data-frequency": "404",
+      "data-relevance": "228",
+      "data-term": "gastroenterologist",
+      "data-encoded-term": "gastroenterologist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "404",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "doctor": {
+      "data-frequency": "133338",
+      "data-relevance": "227",
+      "data-term": "doctor",
+      "data-encoded-term": "doctor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "133338",
+        "ol",
+        "1"
+      ]
+    },
+    "podiatrist": {
+      "data-frequency": "214",
+      "data-relevance": "226",
+      "data-term": "podiatrist",
+      "data-encoded-term": "podiatrist",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "214",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "osteoporosis": {
+      "data-frequency": "1421",
+      "data-relevance": "225",
+      "data-term": "osteoporosis",
+      "data-encoded-term": "osteoporosis",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1421",
+        "wiki",
+        "1"
+      ]
+    },
+    "diabetics": {
+      "data-frequency": "552",
+      "data-relevance": "224",
+      "data-term": "diabetics",
+      "data-encoded-term": "diabetics",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "552",
+        "ol",
+        "1"
+      ]
+    },
+    "overeating": {
+      "data-frequency": "292",
+      "data-relevance": "223",
+      "data-term": "overeating",
+      "data-encoded-term": "overeating",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "292",
+        "ol",
+        "1"
+      ]
+    },
+    "glycemic": {
+      "data-frequency": "339",
+      "data-relevance": "222",
+      "data-term": "glycemic",
+      "data-encoded-term": "glycemic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "339",
+        "ol",
+        "1"
+      ]
+    },
+    "oncology": {
+      "data-frequency": "7255",
+      "data-relevance": "221",
+      "data-term": "oncology",
+      "data-encoded-term": "oncology",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7255",
+        "wiki",
+        "1"
+      ]
+    },
+    "specialiser": {
+      "data-frequency": "18119",
+      "data-relevance": "220",
+      "data-term": "specialiser",
+      "data-encoded-term": "specialiser",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "18119",
+        "wn",
+        "1"
+      ]
+    },
+    "merriam-webster": {
+      "data-frequency": "5792",
+      "data-relevance": "219",
+      "data-term": "merriam-webster",
+      "data-encoded-term": "merriam-webster",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5792",
+        "wiki",
+        "1"
+      ]
+    },
+    "patient": {
+      "data-frequency": "39978",
+      "data-relevance": "218",
+      "data-term": "patient",
+      "data-encoded-term": "patient",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "39978",
+        "wiki",
+        "1"
+      ]
+    },
+    "specializer": {
+      "data-frequency": "46641",
+      "data-relevance": "217",
+      "data-term": "specializer",
+      "data-encoded-term": "specializer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "46641",
+        "wn",
+        "1"
+      ]
+    },
+    "physicians": {
+      "data-frequency": "27427",
+      "data-relevance": "216",
+      "data-term": "physicians",
+      "data-encoded-term": "physicians",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27427",
+        "wiki",
+        "1"
+      ]
+    },
+    "pharmacists": {
+      "data-frequency": "2972",
+      "data-relevance": "215",
+      "data-term": "pharmacists",
+      "data-encoded-term": "pharmacists",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2972",
+        "wiki",
+        "1"
+      ]
+    },
+    "human nutrition": {
+      "data-frequency": "9507",
+      "data-relevance": "214",
+      "data-term": "human nutrition",
+      "data-encoded-term": "human%20nutrition",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9507",
+        "wiki",
+        "1"
+      ]
+    },
+    "postgraduate education": {
+      "data-frequency": "553",
+      "data-relevance": "213",
+      "data-term": "postgraduate education",
+      "data-encoded-term": "postgraduate%20education",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "553",
+        "wiki",
+        "1"
+      ]
+    },
+    "career": {
+      "data-frequency": "1008816",
+      "data-relevance": "212",
+      "data-term": "career",
+      "data-encoded-term": "career",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1008816",
+        "wiki",
+        "1"
+      ]
+    },
+    "nurse": {
+      "data-frequency": "44748",
+      "data-relevance": "211",
+      "data-term": "nurse",
+      "data-encoded-term": "nurse",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "44748",
+        "ol,swiki",
+        "1"
+      ]
+    },
+    "nurses": {
+      "data-frequency": "14917",
+      "data-relevance": "210",
+      "data-term": "nurses",
+      "data-encoded-term": "nurses",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14917",
+        "wiki",
+        "1"
+      ]
+    },
+    "community": {
+      "data-frequency": "540121",
+      "data-relevance": "209",
+      "data-term": "community",
+      "data-encoded-term": "community",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "540121",
+        "wiki",
+        "1"
+      ]
+    },
+    "health maintenance organization": {
+      "data-frequency": "10137",
+      "data-relevance": "208",
+      "data-term": "health maintenance organization",
+      "data-encoded-term": "health%20maintenance%20organization",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10137",
+        "wiki",
+        "1"
+      ]
+    },
+    "american heritage dictionary": {
+      "data-frequency": "13981",
+      "data-relevance": "207",
+      "data-term": "american heritage dictionary",
+      "data-encoded-term": "american%20heritage%20dictionary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13981",
+        "wiki",
+        "1"
+      ]
+    },
+    "rhonda": {
+      "data-frequency": "6873",
+      "data-relevance": "206",
+      "data-term": "rhonda",
+      "data-encoded-term": "rhonda",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6873",
+        "w2v",
+        "1"
+      ]
+    },
+    "trainer": {
+      "data-frequency": "36572",
+      "data-relevance": "205",
+      "data-term": "trainer",
+      "data-encoded-term": "trainer",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "36572",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "rothman": {
+      "data-frequency": "5403",
+      "data-relevance": "204",
+      "data-term": "rothman",
+      "data-encoded-term": "rothman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5403",
+        "w2v",
+        "1"
+      ]
+    },
+    "paralegal": {
+      "data-frequency": "982",
+      "data-relevance": "203",
+      "data-term": "paralegal",
+      "data-encoded-term": "paralegal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "982",
+        "w2v",
+        "1"
+      ]
+    },
+    "school": {
+      "data-frequency": "957567",
+      "data-relevance": "202",
+      "data-term": "school",
+      "data-encoded-term": "school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "957567",
+        "wiki",
+        "1"
+      ]
+    },
+    "advises": {
+      "data-frequency": "11677",
+      "data-relevance": "201",
+      "data-term": "advises",
+      "data-encoded-term": "advises",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11677",
+        "w2v",
+        "1"
+      ]
+    },
+    "carolyn": {
+      "data-frequency": "28092",
+      "data-relevance": "200",
+      "data-term": "carolyn",
+      "data-encoded-term": "carolyn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28092",
+        "w2v",
+        "1"
+      ]
+    },
+    "caregiver": {
+      "data-frequency": "1576",
+      "data-relevance": "199",
+      "data-term": "caregiver",
+      "data-encoded-term": "caregiver",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1576",
+        "w2v",
+        "1"
+      ]
+    },
+    "nutritionists": {
+      "data-frequency": "1375",
+      "data-relevance": "198",
+      "data-term": "nutritionists",
+      "data-encoded-term": "nutritionists",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1375",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "radiologist": {
+      "data-frequency": "1017",
+      "data-relevance": "197",
+      "data-term": "radiologist",
+      "data-encoded-term": "radiologist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1017",
+        "w2v",
+        "1"
+      ]
+    },
+    "prison": {
+      "data-frequency": "133589",
+      "data-relevance": "196",
+      "data-term": "prison",
+      "data-encoded-term": "prison",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "133589",
+        "wiki",
+        "1"
+      ]
+    },
+    "aarp": {
+      "data-frequency": "970",
+      "data-relevance": "195",
+      "data-term": "aarp",
+      "data-encoded-term": "aarp",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "970",
+        "w2v",
+        "1"
+      ]
+    },
+    "chef": {
+      "data-frequency": "26919",
+      "data-relevance": "194",
+      "data-term": "chef",
+      "data-encoded-term": "chef",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "26919",
+        "ol",
+        "1"
+      ]
+    },
+    "diabetes": {
+      "data-frequency": "13562",
+      "data-relevance": "193",
+      "data-term": "diabetes",
+      "data-encoded-term": "diabetes",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "13562",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "restaurant": {
+      "data-frequency": "69541",
+      "data-relevance": "192",
+      "data-term": "restaurant",
+      "data-encoded-term": "restaurant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "69541",
+        "wiki",
+        "1"
+      ]
+    },
+    "optometrist": {
+      "data-frequency": "564",
+      "data-relevance": "191",
+      "data-term": "optometrist",
+      "data-encoded-term": "optometrist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "564",
+        "w2v",
+        "1"
+      ]
+    },
+    "diabetes mellitus": {
+      "data-frequency": "2230",
+      "data-relevance": "190",
+      "data-term": "diabetes mellitus",
+      "data-encoded-term": "diabetes%20mellitus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2230",
+        "wiki",
+        "1"
+      ]
+    },
+    "hebdomadaire": {
+      "data-frequency": "550",
+      "data-relevance": "189",
+      "data-term": "hebdomadaire",
+      "data-encoded-term": "hebdomadaire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "550",
+        "w2v",
+        "1"
+      ]
+    },
+    "dietitians": {
+      "data-frequency": "582",
+      "data-relevance": "188",
+      "data-term": "dietitians",
+      "data-encoded-term": "dietitians",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "582",
+        "w2v",
+        "1"
+      ]
+    },
+    "medical": {
+      "data-frequency": "235006",
+      "data-relevance": "187",
+      "data-term": "medical",
+      "data-encoded-term": "medical",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "235006",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "doc": {
+      "data-frequency": "38607",
+      "data-relevance": "186",
+      "data-term": "doc",
+      "data-encoded-term": "doc",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "38607",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "doctors": {
+      "data-frequency": "46629",
+      "data-relevance": "185",
+      "data-term": "doctors",
+      "data-encoded-term": "doctors",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "46629",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "icm": {
+      "data-frequency": "1897",
+      "data-relevance": "184",
+      "data-term": "icm",
+      "data-encoded-term": "icm",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1897",
+        "w2v",
+        "1"
+      ]
+    },
+    "coauthor": {
+      "data-frequency": "1432",
+      "data-relevance": "183",
+      "data-term": "coauthor",
+      "data-encoded-term": "coauthor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1432",
+        "w2v",
+        "1"
+      ]
+    },
+    "dolch": {
+      "data-frequency": "139",
+      "data-relevance": "182",
+      "data-term": "dolch",
+      "data-encoded-term": "dolch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "139",
+        "w2v",
+        "1"
+      ]
+    },
+    "housekeeping": {
+      "data-frequency": "3043",
+      "data-relevance": "181",
+      "data-term": "housekeeping",
+      "data-encoded-term": "housekeeping",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3043",
+        "w2v",
+        "1"
+      ]
+    },
+    "cafeteria": {
+      "data-frequency": "7000",
+      "data-relevance": "180",
+      "data-term": "cafeteria",
+      "data-encoded-term": "cafeteria",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7000",
+        "wiki",
+        "1"
+      ]
+    },
+    "health": {
+      "data-frequency": "296319",
+      "data-relevance": "179",
+      "data-term": "health",
+      "data-encoded-term": "health",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "296319",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "professional": {
+      "data-frequency": "508055",
+      "data-relevance": "178",
+      "data-term": "professional",
+      "data-encoded-term": "professional",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "508055",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "surgeon": {
+      "data-frequency": "31099",
+      "data-relevance": "177",
+      "data-term": "surgeon",
+      "data-encoded-term": "surgeon",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "31099",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "scientist": {
+      "data-frequency": "81031",
+      "data-relevance": "176",
+      "data-term": "scientist",
+      "data-encoded-term": "scientist",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "81031",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "farber": {
+      "data-frequency": "3818",
+      "data-relevance": "175",
+      "data-term": "farber",
+      "data-encoded-term": "farber",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3818",
+        "w2v",
+        "1"
+      ]
+    },
+    "infertility": {
+      "data-frequency": "2560",
+      "data-relevance": "174",
+      "data-term": "infertility",
+      "data-encoded-term": "infertility",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2560",
+        "w2v",
+        "1"
+      ]
+    },
+    "asta": {
+      "data-frequency": "1621",
+      "data-relevance": "173",
+      "data-term": "asta",
+      "data-encoded-term": "asta",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1621",
+        "w2v",
+        "1"
+      ]
+    },
+    "cari": {
+      "data-frequency": "1060",
+      "data-relevance": "172",
+      "data-term": "cari",
+      "data-encoded-term": "cari",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1060",
+        "w2v",
+        "1"
+      ]
+    },
+    "scripps": {
+      "data-frequency": "6035",
+      "data-relevance": "171",
+      "data-term": "scripps",
+      "data-encoded-term": "scripps",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6035",
+        "w2v",
+        "1"
+      ]
+    },
+    "dentist": {
+      "data-frequency": "7561",
+      "data-relevance": "170",
+      "data-term": "dentist",
+      "data-encoded-term": "dentist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7561",
+        "w2v",
+        "1"
+      ]
+    },
+    "samalin": {
+      "data-frequency": "-1",
+      "data-relevance": "169",
+      "data-term": "samalin",
+      "data-encoded-term": "samalin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "marling": {
+      "data-frequency": "6159",
+      "data-relevance": "168",
+      "data-term": "marling",
+      "data-encoded-term": "marling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6159",
+        "w2v",
+        "1"
+      ]
+    },
+    "belcove": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "belcove",
+      "data-encoded-term": "belcove",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "jdrew": {
+      "data-frequency": "-1",
+      "data-relevance": "166",
+      "data-term": "jdrew",
+      "data-encoded-term": "jdrew",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "masseuse": {
+      "data-frequency": "469",
+      "data-relevance": "165",
+      "data-term": "masseuse",
+      "data-encoded-term": "masseuse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "469",
+        "w2v",
+        "1"
+      ]
+    },
+    "rochman": {
+      "data-frequency": "95",
+      "data-relevance": "164",
+      "data-term": "rochman",
+      "data-encoded-term": "rochman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "95",
+        "w2v",
+        "1"
+      ]
+    },
+    "sawkill": {
+      "data-frequency": "56",
+      "data-relevance": "163",
+      "data-term": "sawkill",
+      "data-encoded-term": "sawkill",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "w2v",
+        "1"
+      ]
+    },
+    "ethicist": {
+      "data-frequency": "604",
+      "data-relevance": "162",
+      "data-term": "ethicist",
+      "data-encoded-term": "ethicist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "604",
+        "w2v",
+        "1"
+      ]
+    },
+    "screnar": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "screnar",
+      "data-encoded-term": "screnar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "gynecologic": {
+      "data-frequency": "4009",
+      "data-relevance": "160",
+      "data-term": "gynecologic",
+      "data-encoded-term": "gynecologic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4009",
+        "w2v",
+        "1"
+      ]
+    },
+    "phocuswright": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "phocuswright",
+      "data-encoded-term": "phocuswright",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "hattner": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "hattner",
+      "data-encoded-term": "hattner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "aspey": {
+      "data-frequency": "371",
+      "data-relevance": "157",
+      "data-term": "aspey",
+      "data-encoded-term": "aspey",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "371",
+        "w2v",
+        "1"
+      ]
+    },
+    "sasich": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "sasich",
+      "data-encoded-term": "sasich",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "groomers": {
+      "data-frequency": "16343",
+      "data-relevance": "155",
+      "data-term": "groomers",
+      "data-encoded-term": "groomers",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16343",
+        "w2v",
+        "1"
+      ]
+    },
+    "biology": {
+      "data-frequency": "108474",
+      "data-relevance": "154",
+      "data-term": "biology",
+      "data-encoded-term": "biology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "108474",
+        "wiki",
+        "1"
+      ]
+    },
+    "zagat": {
+      "data-frequency": "923",
+      "data-relevance": "153",
+      "data-term": "zagat",
+      "data-encoded-term": "zagat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "923",
+        "w2v",
+        "1"
+      ]
+    },
+    "lauzen": {
+      "data-frequency": "44",
+      "data-relevance": "152",
+      "data-term": "lauzen",
+      "data-encoded-term": "lauzen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "nursing home": {
+      "data-frequency": "5892",
+      "data-relevance": "151",
+      "data-term": "nursing home",
+      "data-encoded-term": "nursing%20home",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5892",
+        "wiki",
+        "1"
+      ]
+    },
+    "trippler": {
+      "data-frequency": "-1",
+      "data-relevance": "150",
+      "data-term": "trippler",
+      "data-encoded-term": "trippler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "hypnotherapist": {
+      "data-frequency": "234",
+      "data-relevance": "149",
+      "data-term": "hypnotherapist",
+      "data-encoded-term": "hypnotherapist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "234",
+        "w2v",
+        "1"
+      ]
+    },
+    "elderhostel": {
+      "data-frequency": "-1",
+      "data-relevance": "148",
+      "data-term": "elderhostel",
+      "data-encoded-term": "elderhostel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "schulken": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "schulken",
+      "data-encoded-term": "schulken",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "pinkus": {
+      "data-frequency": "577",
+      "data-relevance": "146",
+      "data-term": "pinkus",
+      "data-encoded-term": "pinkus",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "577",
+        "w2v",
+        "1"
+      ]
+    },
+    "etcoff": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "etcoff",
+      "data-encoded-term": "etcoff",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "pulmonologist": {
+      "data-frequency": "106",
+      "data-relevance": "144",
+      "data-term": "pulmonologist",
+      "data-encoded-term": "pulmonologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "106",
+        "w2v",
+        "1"
+      ]
+    },
+    "cpas": {
+      "data-frequency": "301",
+      "data-relevance": "143",
+      "data-term": "cpas",
+      "data-encoded-term": "cpas",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "301",
+        "w2v",
+        "1"
+      ]
+    },
+    "stamberg": {
+      "data-frequency": "148",
+      "data-relevance": "142",
+      "data-term": "stamberg",
+      "data-encoded-term": "stamberg",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "148",
+        "w2v",
+        "1"
+      ]
+    },
+    "dagne": {
+      "data-frequency": "119",
+      "data-relevance": "141",
+      "data-term": "dagne",
+      "data-encoded-term": "dagne",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "119",
+        "w2v",
+        "1"
+      ]
+    },
+    "shrager": {
+      "data-frequency": "116",
+      "data-relevance": "140",
+      "data-term": "shrager",
+      "data-encoded-term": "shrager",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "116",
+        "w2v",
+        "1"
+      ]
+    },
+    "hydrologist": {
+      "data-frequency": "272",
+      "data-relevance": "139",
+      "data-term": "hydrologist",
+      "data-encoded-term": "hydrologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "272",
+        "w2v",
+        "1"
+      ]
+    },
+    "groomer": {
+      "data-frequency": "184",
+      "data-relevance": "138",
+      "data-term": "groomer",
+      "data-encoded-term": "groomer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "184",
+        "w2v",
+        "1"
+      ]
+    },
+    "borakove": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "borakove",
+      "data-encoded-term": "borakove",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "anesthetists": {
+      "data-frequency": "325",
+      "data-relevance": "136",
+      "data-term": "anesthetists",
+      "data-encoded-term": "anesthetists",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "325",
+        "w2v",
+        "1"
+      ]
+    },
+    "anesthetist": {
+      "data-frequency": "231",
+      "data-relevance": "135",
+      "data-term": "anesthetist",
+      "data-encoded-term": "anesthetist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "231",
+        "w2v",
+        "1"
+      ]
+    },
+    "medical record": {
+      "data-frequency": "554",
+      "data-relevance": "134",
+      "data-term": "medical record",
+      "data-encoded-term": "medical%20record",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "554",
+        "wiki",
+        "1"
+      ]
+    },
+    "margulis": {
+      "data-frequency": "543",
+      "data-relevance": "133",
+      "data-term": "margulis",
+      "data-encoded-term": "margulis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "543",
+        "w2v",
+        "1"
+      ]
+    },
+    "(775)": {
+      "data-frequency": "18719",
+      "data-relevance": "132",
+      "data-term": "(775)",
+      "data-encoded-term": "(775)",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18719",
+        "w2v",
+        "1"
+      ]
+    },
+    "amoss": {
+      "data-frequency": "122",
+      "data-relevance": "131",
+      "data-term": "amoss",
+      "data-encoded-term": "amoss",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "122",
+        "w2v",
+        "1"
+      ]
+    },
+    "escutia": {
+      "data-frequency": "86",
+      "data-relevance": "130",
+      "data-term": "escutia",
+      "data-encoded-term": "escutia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "86",
+        "w2v",
+        "1"
+      ]
+    },
+    "trebilcock": {
+      "data-frequency": "160",
+      "data-relevance": "129",
+      "data-term": "trebilcock",
+      "data-encoded-term": "trebilcock",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "160",
+        "w2v",
+        "1"
+      ]
+    },
+    "atencio": {
+      "data-frequency": "263",
+      "data-relevance": "128",
+      "data-term": "atencio",
+      "data-encoded-term": "atencio",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "263",
+        "w2v",
+        "1"
+      ]
+    },
+    "boyles": {
+      "data-frequency": "22912",
+      "data-relevance": "127",
+      "data-term": "boyles",
+      "data-encoded-term": "boyles",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22912",
+        "w2v",
+        "1"
+      ]
+    },
+    "salamon": {
+      "data-frequency": "878",
+      "data-relevance": "126",
+      "data-term": "salamon",
+      "data-encoded-term": "salamon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "878",
+        "w2v",
+        "1"
+      ]
+    },
+    "workload": {
+      "data-frequency": "3924",
+      "data-relevance": "125",
+      "data-term": "workload",
+      "data-encoded-term": "workload",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3924",
+        "wiki",
+        "1"
+      ]
+    },
+    "hortman": {
+      "data-frequency": "274",
+      "data-relevance": "124",
+      "data-term": "hortman",
+      "data-encoded-term": "hortman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "274",
+        "w2v",
+        "1"
+      ]
+    },
+    "gesine": {
+      "data-frequency": "347",
+      "data-relevance": "123",
+      "data-term": "gesine",
+      "data-encoded-term": "gesine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "347",
+        "w2v",
+        "1"
+      ]
+    },
+    "mobitv": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "mobitv",
+      "data-encoded-term": "mobitv",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "lopatto": {
+      "data-frequency": "58",
+      "data-relevance": "121",
+      "data-term": "lopatto",
+      "data-encoded-term": "lopatto",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "58",
+        "w2v",
+        "1"
+      ]
+    },
+    "crider": {
+      "data-frequency": "826",
+      "data-relevance": "120",
+      "data-term": "crider",
+      "data-encoded-term": "crider",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "826",
+        "w2v",
+        "1"
+      ]
+    },
+    "transcriptionist": {
+      "data-frequency": "44",
+      "data-relevance": "119",
+      "data-term": "transcriptionist",
+      "data-encoded-term": "transcriptionist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "trausch": {
+      "data-frequency": "68",
+      "data-relevance": "118",
+      "data-term": "trausch",
+      "data-encoded-term": "trausch",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "68",
+        "w2v",
+        "1"
+      ]
+    },
+    "chaib": {
+      "data-frequency": "98",
+      "data-relevance": "117",
+      "data-term": "chaib",
+      "data-encoded-term": "chaib",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "98",
+        "w2v",
+        "1"
+      ]
+    },
+    "glaciologist": {
+      "data-frequency": "495",
+      "data-relevance": "116",
+      "data-term": "glaciologist",
+      "data-encoded-term": "glaciologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "495",
+        "w2v",
+        "1"
+      ]
+    },
+    "o'neil": {
+      "data-frequency": "8245",
+      "data-relevance": "115",
+      "data-term": "o'neil",
+      "data-encoded-term": "o'neil",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8245",
+        "w2v",
+        "1"
+      ]
+    },
+    "administration": {
+      "data-frequency": "318898",
+      "data-relevance": "114",
+      "data-term": "administration",
+      "data-encoded-term": "administration",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "318898",
+        "wiki",
+        "1"
+      ]
+    },
+    "thernstrom": {
+      "data-frequency": "165",
+      "data-relevance": "113",
+      "data-term": "thernstrom",
+      "data-encoded-term": "thernstrom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "165",
+        "w2v",
+        "1"
+      ]
+    },
+    "nasogastric intubation": {
+      "data-frequency": "-1",
+      "data-relevance": "112",
+      "data-term": "nasogastric intubation",
+      "data-encoded-term": "nasogastric%20intubation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "management": {
+      "data-frequency": "325141",
+      "data-relevance": "111",
+      "data-term": "management",
+      "data-encoded-term": "management",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "325141",
+        "wiki",
+        "1"
+      ]
+    },
+    "total parenteral nutrition": {
+      "data-frequency": "176",
+      "data-relevance": "110",
+      "data-term": "total parenteral nutrition",
+      "data-encoded-term": "total%20parenteral%20nutrition",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "176",
+        "wiki",
+        "1"
+      ]
+    },
+    "business": {
+      "data-frequency": "534682",
+      "data-relevance": "109",
+      "data-term": "business",
+      "data-encoded-term": "business",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "534682",
+        "wiki",
+        "1"
+      ]
+    },
+    "dieter": {
+      "data-frequency": "18962",
+      "data-relevance": "108",
+      "data-term": "dieter",
+      "data-encoded-term": "dieter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "18962",
+        "ol",
+        "1"
+      ]
+    },
+    "physician assistants": {
+      "data-frequency": "9059",
+      "data-relevance": "107",
+      "data-term": "physician assistants",
+      "data-encoded-term": "physician%20assistants",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9059",
+        "wiki",
+        "1"
+      ]
+    },
+    "cardiologist": {
+      "data-frequency": "1862",
+      "data-relevance": "106",
+      "data-term": "cardiologist",
+      "data-encoded-term": "cardiologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1862",
+        "ol",
+        "1"
+      ]
+    },
+    "neurologist": {
+      "data-frequency": "3104",
+      "data-relevance": "105",
+      "data-term": "neurologist",
+      "data-encoded-term": "neurologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3104",
+        "ol",
+        "1"
+      ]
+    },
+    "psychiatrist": {
+      "data-frequency": "11663",
+      "data-relevance": "104",
+      "data-term": "psychiatrist",
+      "data-encoded-term": "psychiatrist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "11663",
+        "ol",
+        "1"
+      ]
+    },
+    "physiologist": {
+      "data-frequency": "3345",
+      "data-relevance": "103",
+      "data-term": "physiologist",
+      "data-encoded-term": "physiologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3345",
+        "ol",
+        "1"
+      ]
+    },
+    "physiotherapist": {
+      "data-frequency": "2893",
+      "data-relevance": "102",
+      "data-term": "physiotherapist",
+      "data-encoded-term": "physiotherapist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2893",
+        "ol",
+        "1"
+      ]
+    },
+    "clinician": {
+      "data-frequency": "2124",
+      "data-relevance": "101",
+      "data-term": "clinician",
+      "data-encoded-term": "clinician",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2124",
+        "ol",
+        "1"
+      ]
+    },
+    "wellness": {
+      "data-frequency": "7325",
+      "data-relevance": "100",
+      "data-term": "wellness",
+      "data-encoded-term": "wellness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7325",
+        "ol",
+        "1"
+      ]
+    },
+    "midwife": {
+      "data-frequency": "3411",
+      "data-relevance": "99",
+      "data-term": "midwife",
+      "data-encoded-term": "midwife",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3411",
+        "ol",
+        "1"
+      ]
+    },
+    "calorie": {
+      "data-frequency": "1593",
+      "data-relevance": "98",
+      "data-term": "calorie",
+      "data-encoded-term": "calorie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1593",
+        "ol",
+        "1"
+      ]
+    },
+    "carbohydrates": {
+      "data-frequency": "3223",
+      "data-relevance": "97",
+      "data-term": "carbohydrates",
+      "data-encoded-term": "carbohydrates",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3223",
+        "ol",
+        "1"
+      ]
+    },
+    "caterer": {
+      "data-frequency": "1158",
+      "data-relevance": "96",
+      "data-term": "caterer",
+      "data-encoded-term": "caterer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1158",
+        "ol",
+        "1"
+      ]
+    },
+    "foods": {
+      "data-frequency": "33415",
+      "data-relevance": "95",
+      "data-term": "foods",
+      "data-encoded-term": "foods",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "33415",
+        "ol",
+        "1"
+      ]
+    },
+    "pathologist": {
+      "data-frequency": "4467",
+      "data-relevance": "94",
+      "data-term": "pathologist",
+      "data-encoded-term": "pathologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4467",
+        "ol",
+        "1"
+      ]
+    },
+    "planner": {
+      "data-frequency": "9186",
+      "data-relevance": "93",
+      "data-term": "planner",
+      "data-encoded-term": "planner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9186",
+        "ol",
+        "1"
+      ]
+    },
+    "vegetarian": {
+      "data-frequency": "6881",
+      "data-relevance": "92",
+      "data-term": "vegetarian",
+      "data-encoded-term": "vegetarian",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6881",
+        "ol",
+        "1"
+      ]
+    },
+    "herbalist": {
+      "data-frequency": "777",
+      "data-relevance": "91",
+      "data-term": "herbalist",
+      "data-encoded-term": "herbalist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "777",
+        "ol",
+        "1"
+      ]
+    },
+    "pediatrics": {
+      "data-frequency": "5695",
+      "data-relevance": "90",
+      "data-term": "pediatrics",
+      "data-encoded-term": "pediatrics",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5695",
+        "ol",
+        "1"
+      ]
+    },
+    "hypnotherapy": {
+      "data-frequency": "499",
+      "data-relevance": "89",
+      "data-term": "hypnotherapy",
+      "data-encoded-term": "hypnotherapy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "499",
+        "ol",
+        "1"
+      ]
+    },
+    "stylist": {
+      "data-frequency": "4710",
+      "data-relevance": "88",
+      "data-term": "stylist",
+      "data-encoded-term": "stylist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4710",
+        "ol",
+        "1"
+      ]
+    },
+    "speech therapist": {
+      "data-frequency": "285",
+      "data-relevance": "87",
+      "data-term": "speech therapist",
+      "data-encoded-term": "speech%20therapist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "285",
+        "wiki",
+        "1"
+      ]
+    },
+    "occupational therapists": {
+      "data-frequency": "299",
+      "data-relevance": "86",
+      "data-term": "occupational therapists",
+      "data-encoded-term": "occupational%20therapists",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "299",
+        "wiki",
+        "1"
+      ]
+    },
+    "ireland": {
+      "data-frequency": "285946",
+      "data-relevance": "85",
+      "data-term": "ireland",
+      "data-encoded-term": "ireland",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "285946",
+        "wiki",
+        "1"
+      ]
+    },
+    "social workers": {
+      "data-frequency": "58854",
+      "data-relevance": "84",
+      "data-term": "social workers",
+      "data-encoded-term": "social%20workers",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "58854",
+        "wiki",
+        "1"
+      ]
+    },
+    "medicare": {
+      "data-frequency": "4117",
+      "data-relevance": "83",
+      "data-term": "medicare",
+      "data-encoded-term": "medicare",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4117",
+        "wiki",
+        "1"
+      ]
+    },
+    "contract": {
+      "data-frequency": "195622",
+      "data-relevance": "82",
+      "data-term": "contract",
+      "data-encoded-term": "contract",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "195622",
+        "wiki",
+        "1"
+      ]
+    },
+    "home care": {
+      "data-frequency": "82211",
+      "data-relevance": "81",
+      "data-term": "home care",
+      "data-encoded-term": "home%20care",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "82211",
+        "wiki",
+        "1"
+      ]
+    },
+    "anatomy": {
+      "data-frequency": "34469",
+      "data-relevance": "80",
+      "data-term": "anatomy",
+      "data-encoded-term": "anatomy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "34469",
+        "wiki",
+        "1"
+      ]
+    },
+    "health promotion": {
+      "data-frequency": "21817",
+      "data-relevance": "79",
+      "data-term": "health promotion",
+      "data-encoded-term": "health%20promotion",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "21817",
+        "wiki",
+        "1"
+      ]
+    },
+    "chemistry": {
+      "data-frequency": "83539",
+      "data-relevance": "78",
+      "data-term": "chemistry",
+      "data-encoded-term": "chemistry",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "83539",
+        "wiki",
+        "1"
+      ]
+    },
+    "naturopath": {
+      "data-frequency": "115",
+      "data-relevance": "77",
+      "data-term": "naturopath",
+      "data-encoded-term": "naturopath",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "115",
+        "ol",
+        "1"
+      ]
+    },
+    "biochemistry": {
+      "data-frequency": "21178",
+      "data-relevance": "76",
+      "data-term": "biochemistry",
+      "data-encoded-term": "biochemistry",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "21178",
+        "wiki",
+        "1"
+      ]
+    },
+    "aromatherapist": {
+      "data-frequency": "-1",
+      "data-relevance": "75",
+      "data-term": "aromatherapist",
+      "data-encoded-term": "aromatherapist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "dieters": {
+      "data-frequency": "52730",
+      "data-relevance": "74",
+      "data-term": "dieters",
+      "data-encoded-term": "dieters",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "52730",
+        "ol",
+        "1"
+      ]
+    },
+    "rheumatologist": {
+      "data-frequency": "159",
+      "data-relevance": "73",
+      "data-term": "rheumatologist",
+      "data-encoded-term": "rheumatologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "159",
+        "ol",
+        "1"
+      ]
+    },
+    "macrobiotics": {
+      "data-frequency": "44",
+      "data-relevance": "72",
+      "data-term": "macrobiotics",
+      "data-encoded-term": "macrobiotics",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "esthetician": {
+      "data-frequency": "91",
+      "data-relevance": "71",
+      "data-term": "esthetician",
+      "data-encoded-term": "esthetician",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "91",
+        "ol",
+        "1"
+      ]
+    },
+    "nephrologist": {
+      "data-frequency": "288",
+      "data-relevance": "70",
+      "data-term": "nephrologist",
+      "data-encoded-term": "nephrologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "288",
+        "ol",
+        "1"
+      ]
+    },
+    "gerontologist": {
+      "data-frequency": "260",
+      "data-relevance": "69",
+      "data-term": "gerontologist",
+      "data-encoded-term": "gerontologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "260",
+        "ol",
+        "1"
+      ]
+    },
+    "flexitarian": {
+      "data-frequency": "-1",
+      "data-relevance": "68",
+      "data-term": "flexitarian",
+      "data-encoded-term": "flexitarian",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "reflexologist": {
+      "data-frequency": "-1",
+      "data-relevance": "67",
+      "data-term": "reflexologist",
+      "data-encoded-term": "reflexologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hepatologist": {
+      "data-frequency": "46",
+      "data-relevance": "66",
+      "data-term": "hepatologist",
+      "data-encoded-term": "hepatologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "prosthetist": {
+      "data-frequency": "74",
+      "data-relevance": "65",
+      "data-term": "prosthetist",
+      "data-encoded-term": "prosthetist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "hematologist": {
+      "data-frequency": "298",
+      "data-relevance": "64",
+      "data-term": "hematologist",
+      "data-encoded-term": "hematologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "298",
+        "ol",
+        "1"
+      ]
+    },
+    "culinarian": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "culinarian",
+      "data-encoded-term": "culinarian",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "audiologist": {
+      "data-frequency": "142",
+      "data-relevance": "62",
+      "data-term": "audiologist",
+      "data-encoded-term": "audiologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "142",
+        "ol",
+        "1"
+      ]
+    },
+    "acupuncturist": {
+      "data-frequency": "194",
+      "data-relevance": "61",
+      "data-term": "acupuncturist",
+      "data-encoded-term": "acupuncturist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "194",
+        "ol",
+        "1"
+      ]
+    },
+    "toxicologist": {
+      "data-frequency": "393",
+      "data-relevance": "60",
+      "data-term": "toxicologist",
+      "data-encoded-term": "toxicologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "393",
+        "ol",
+        "1"
+      ]
+    },
+    "carbs": {
+      "data-frequency": "247",
+      "data-relevance": "59",
+      "data-term": "carbs",
+      "data-encoded-term": "carbs",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "247",
+        "ol",
+        "1"
+      ]
+    },
+    "perinatologist": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "perinatologist",
+      "data-encoded-term": "perinatologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "aesthetician": {
+      "data-frequency": "118",
+      "data-relevance": "57",
+      "data-term": "aesthetician",
+      "data-encoded-term": "aesthetician",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "118",
+        "ol",
+        "1"
+      ]
+    },
+    "hygienist": {
+      "data-frequency": "617",
+      "data-relevance": "56",
+      "data-term": "hygienist",
+      "data-encoded-term": "hygienist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "617",
+        "ol",
+        "1"
+      ]
+    },
+    "diabetologist": {
+      "data-frequency": "71",
+      "data-relevance": "55",
+      "data-term": "diabetologist",
+      "data-encoded-term": "diabetologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "haematologist": {
+      "data-frequency": "176",
+      "data-relevance": "54",
+      "data-term": "haematologist",
+      "data-encoded-term": "haematologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "176",
+        "ol",
+        "1"
+      ]
+    },
+    "chocoholic": {
+      "data-frequency": "45",
+      "data-relevance": "53",
+      "data-term": "chocoholic",
+      "data-encoded-term": "chocoholic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "sexologist": {
+      "data-frequency": "628",
+      "data-relevance": "52",
+      "data-term": "sexologist",
+      "data-encoded-term": "sexologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "628",
+        "ol",
+        "1"
+      ]
+    },
+    "foodie": {
+      "data-frequency": "740",
+      "data-relevance": "51",
+      "data-term": "foodie",
+      "data-encoded-term": "foodie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "740",
+        "ol",
+        "1"
+      ]
+    },
+    "pharmacologist": {
+      "data-frequency": "1170",
+      "data-relevance": "50",
+      "data-term": "pharmacologist",
+      "data-encoded-term": "pharmacologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1170",
+        "ol",
+        "1"
+      ]
+    },
+    "homeopath": {
+      "data-frequency": "192",
+      "data-relevance": "49",
+      "data-term": "homeopath",
+      "data-encoded-term": "homeopath",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "192",
+        "ol",
+        "1"
+      ]
+    },
+    "intern": {
+      "data-frequency": "8310",
+      "data-relevance": "48",
+      "data-term": "intern",
+      "data-encoded-term": "intern",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8310",
+        "wiki",
+        "1"
+      ]
+    },
+    "physiology": {
+      "data-frequency": "26475",
+      "data-relevance": "47",
+      "data-term": "physiology",
+      "data-encoded-term": "physiology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "26475",
+        "wiki",
+        "1"
+      ]
+    },
+    "australia": {
+      "data-frequency": "472904",
+      "data-relevance": "46",
+      "data-term": "australia",
+      "data-encoded-term": "australia",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "472904",
+        "wiki",
+        "1"
+      ]
+    },
+    "psychology": {
+      "data-frequency": "62194",
+      "data-relevance": "45",
+      "data-term": "psychology",
+      "data-encoded-term": "psychology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62194",
+        "wiki",
+        "1"
+      ]
+    },
+    "canada": {
+      "data-frequency": "512376",
+      "data-relevance": "44",
+      "data-term": "canada",
+      "data-encoded-term": "canada",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "512376",
+        "wiki",
+        "1"
+      ]
+    },
+    "nursing homes": {
+      "data-frequency": "1620",
+      "data-relevance": "43",
+      "data-term": "nursing homes",
+      "data-encoded-term": "nursing%20homes",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1620",
+        "wiki",
+        "1"
+      ]
+    },
+    "internship": {
+      "data-frequency": "7150",
+      "data-relevance": "42",
+      "data-term": "internship",
+      "data-encoded-term": "internship",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "7150",
+        "wiki",
+        "1"
+      ]
+    },
+    "school health services": {
+      "data-frequency": "69762",
+      "data-relevance": "41",
+      "data-term": "school health services",
+      "data-encoded-term": "school%20health%20services",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "69762",
+        "wiki",
+        "1"
+      ]
+    },
+    "social sciences": {
+      "data-frequency": "27370",
+      "data-relevance": "40",
+      "data-term": "social sciences",
+      "data-encoded-term": "social%20sciences",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "27370",
+        "wiki",
+        "1"
+      ]
+    },
+    "childhood obesity": {
+      "data-frequency": "541",
+      "data-relevance": "39",
+      "data-term": "childhood obesity",
+      "data-encoded-term": "childhood%20obesity",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "541",
+        "wiki",
+        "1"
+      ]
+    },
+    "medical doctor": {
+      "data-frequency": "5853",
+      "data-relevance": "38",
+      "data-term": "medical doctor",
+      "data-encoded-term": "medical%20doctor",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "5853",
+        "swiki",
+        "1"
+      ]
+    },
+    "licensing": {
+      "data-frequency": "23126",
+      "data-relevance": "37",
+      "data-term": "licensing",
+      "data-encoded-term": "licensing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "23126",
+        "wiki",
+        "1"
+      ]
+    },
+    "expertise": {
+      "data-frequency": "26328",
+      "data-relevance": "36",
+      "data-term": "expertise",
+      "data-encoded-term": "expertise",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "26328",
+        "wiki",
+        "1"
+      ]
+    },
+    "catering": {
+      "data-frequency": "13291",
+      "data-relevance": "35",
+      "data-term": "catering",
+      "data-encoded-term": "catering",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "13291",
+        "wiki",
+        "1"
+      ]
+    },
+    "medicaid": {
+      "data-frequency": "2943",
+      "data-relevance": "34",
+      "data-term": "medicaid",
+      "data-encoded-term": "medicaid",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2943",
+        "wiki",
+        "1"
+      ]
+    },
+    "health services research": {
+      "data-frequency": "52699",
+      "data-relevance": "33",
+      "data-term": "health services research",
+      "data-encoded-term": "health%20services%20research",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "52699",
+        "wiki",
+        "1"
+      ]
+    },
+    "behavior change": {
+      "data-frequency": "418",
+      "data-relevance": "32",
+      "data-term": "behavior change",
+      "data-encoded-term": "behavior%20change",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "418",
+        "wiki",
+        "1"
+      ]
+    },
+    "health policy": {
+      "data-frequency": "58546",
+      "data-relevance": "31",
+      "data-term": "health policy",
+      "data-encoded-term": "health%20policy",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "58546",
+        "wiki",
+        "1"
+      ]
+    },
+    "sales representatives": {
+      "data-frequency": "12584",
+      "data-relevance": "30",
+      "data-term": "sales representatives",
+      "data-encoded-term": "sales%20representatives",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "12584",
+        "wiki",
+        "1"
+      ]
+    },
+    "mass media": {
+      "data-frequency": "40099",
+      "data-relevance": "29",
+      "data-term": "mass media",
+      "data-encoded-term": "mass%20media",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "40099",
+        "wiki",
+        "1"
+      ]
+    },
+    "registered nurse": {
+      "data-frequency": "1678",
+      "data-relevance": "28",
+      "data-term": "registered nurse",
+      "data-encoded-term": "registered%20nurse",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1678",
+        "ol",
+        "1"
+      ]
+    },
+    "nutritional supplements": {
+      "data-frequency": "3937",
+      "data-relevance": "27",
+      "data-term": "nutritional supplements",
+      "data-encoded-term": "nutritional%20supplements",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3937",
+        "wiki",
+        "1"
+      ]
+    },
+    "occupational therapist": {
+      "data-frequency": "335",
+      "data-relevance": "26",
+      "data-term": "occupational therapist",
+      "data-encoded-term": "occupational%20therapist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "335",
+        "ol",
+        "1"
+      ]
+    },
+    "nurse practitioner": {
+      "data-frequency": "479",
+      "data-relevance": "25",
+      "data-term": "nurse practitioner",
+      "data-encoded-term": "nurse%20practitioner",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "479",
+        "ol",
+        "1"
+      ]
+    },
+    "balanced diet": {
+      "data-frequency": "268",
+      "data-relevance": "24",
+      "data-term": "balanced diet",
+      "data-encoded-term": "balanced%20diet",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "268",
+        "ol",
+        "1"
+      ]
+    },
+    "clinical psychologist": {
+      "data-frequency": "1023",
+      "data-relevance": "23",
+      "data-term": "clinical psychologist",
+      "data-encoded-term": "clinical%20psychologist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1023",
+        "ol",
+        "1"
+      ]
+    },
+    "weight watcher": {
+      "data-frequency": "15171",
+      "data-relevance": "22",
+      "data-term": "weight watcher",
+      "data-encoded-term": "weight%20watcher",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "15171",
+        "ol",
+        "1"
+      ]
+    },
+    "fad diet": {
+      "data-frequency": "436",
+      "data-relevance": "21",
+      "data-term": "fad diet",
+      "data-encoded-term": "fad%20diet",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "436",
+        "ol",
+        "1"
+      ]
+    },
+    "blood sugar": {
+      "data-frequency": "1052",
+      "data-relevance": "20",
+      "data-term": "blood sugar",
+      "data-encoded-term": "blood%20sugar",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1052",
+        "ol",
+        "1"
+      ]
+    },
+    "dental hygienist": {
+      "data-frequency": "212",
+      "data-relevance": "19",
+      "data-term": "dental hygienist",
+      "data-encoded-term": "dental%20hygienist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "212",
+        "ol",
+        "1"
+      ]
+    },
+    "macrobiotic diet": {
+      "data-frequency": "154",
+      "data-relevance": "18",
+      "data-term": "macrobiotic diet",
+      "data-encoded-term": "macrobiotic%20diet",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "154",
+        "ol",
+        "1"
+      ]
+    },
+    "infant feeding": {
+      "data-frequency": "2950",
+      "data-relevance": "17",
+      "data-term": "infant feeding",
+      "data-encoded-term": "infant%20feeding",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2950",
+        "ol",
+        "1"
+      ]
+    },
+    "eating disorder": {
+      "data-frequency": "937",
+      "data-relevance": "16",
+      "data-term": "eating disorder",
+      "data-encoded-term": "eating%20disorder",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "937",
+        "ol",
+        "1"
+      ]
+    },
+    "interior designer": {
+      "data-frequency": "2313",
+      "data-relevance": "15",
+      "data-term": "interior designer",
+      "data-encoded-term": "interior%20designer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2313",
+        "ol",
+        "1"
+      ]
+    },
+    "cosmetic surgeon": {
+      "data-frequency": "106",
+      "data-relevance": "14",
+      "data-term": "cosmetic surgeon",
+      "data-encoded-term": "cosmetic%20surgeon",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "106",
+        "ol",
+        "1"
+      ]
+    },
+    "anorexia nervosa": {
+      "data-frequency": "749",
+      "data-relevance": "13",
+      "data-term": "anorexia nervosa",
+      "data-encoded-term": "anorexia%20nervosa",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "749",
+        "ol",
+        "1"
+      ]
+    },
+    "united kingdom": {
+      "data-frequency": "466760",
+      "data-relevance": "12",
+      "data-term": "united kingdom",
+      "data-encoded-term": "united%20kingdom",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "466760",
+        "wiki",
+        "1"
+      ]
+    },
+    "medical practice": {
+      "data-frequency": "45982",
+      "data-relevance": "11",
+      "data-term": "medical practice",
+      "data-encoded-term": "medical%20practice",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "45982",
+        "wiki",
+        "1"
+      ]
+    },
+    "health science": {
+      "data-frequency": "3636",
+      "data-relevance": "10",
+      "data-term": "health science",
+      "data-encoded-term": "health%20science",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "3636",
+        "wiki",
+        "1"
+      ]
+    },
+    "food and nutrition service": {
+      "data-frequency": "5497",
+      "data-relevance": "9",
+      "data-term": "food and nutrition service",
+      "data-encoded-term": "food%20and%20nutrition%20service",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "5497",
+        "wiki",
+        "1"
+      ]
+    },
+    "health screening": {
+      "data-frequency": "6955",
+      "data-relevance": "8",
+      "data-term": "health screening",
+      "data-encoded-term": "health%20screening",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "6955",
+        "wiki",
+        "1"
+      ]
+    },
+    "dietitians of canada": {
+      "data-frequency": "200",
+      "data-relevance": "7",
+      "data-term": "dietitians of canada",
+      "data-encoded-term": "dietitians%20of%20canada",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "200",
+        "wiki",
+        "1"
+      ]
+    },
+    "health intervention": {
+      "data-frequency": "15604",
+      "data-relevance": "6",
+      "data-term": "health intervention",
+      "data-encoded-term": "health%20intervention",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "15604",
+        "wiki",
+        "1"
+      ]
+    },
+    "community college": {
+      "data-frequency": "21680",
+      "data-relevance": "5",
+      "data-term": "community college",
+      "data-encoded-term": "community%20college",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "21680",
+        "wiki",
+        "1"
+      ]
+    },
+    "academy of nutrition and dietetics": {
+      "data-frequency": "184",
+      "data-relevance": "4",
+      "data-term": "academy of nutrition and dietetics",
+      "data-encoded-term": "academy%20of%20nutrition%20and%20dietetics",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "184",
+        "wiki",
+        "1"
+      ]
+    },
+    "conestoga college": {
+      "data-frequency": "447",
+      "data-relevance": "3",
+      "data-term": "conestoga college",
+      "data-encoded-term": "conestoga%20college",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "447",
+        "wiki",
+        "1"
+      ]
+    },
+    "hiv/aids in south africa": {
+      "data-frequency": "55",
+      "data-relevance": "2",
+      "data-term": "hiv/aids in south africa",
+      "data-encoded-term": "hiv%2Faids%20in%20south%20africa",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "55",
+        "wiki",
+        "1"
+      ]
+    },
+    "health and care professions council": {
+      "data-frequency": "3017",
+      "data-relevance": "1",
+      "data-term": "health and care professions council",
+      "data-encoded-term": "health%20and%20care%20professions%20council",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3017",
+        "wiki",
+        "1"
+      ]
+    },
+    "national health service": {
+      "data-frequency": "4657",
+      "data-relevance": "0",
+      "data-term": "national health service",
+      "data-encoded-term": "national%20health%20service",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "4657",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "dietitians"
+    ],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "dietitians"
+    ],
+    "synonyms": [
+      "dietician"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "diet",
+      "dietician",
+      "dietetics",
+      "nutritionist",
+      "research",
+      "hospital",
+      "pediatrician",
+      "physician",
+      "consultant",
+      "dietitians",
+      "foodservice",
+      "nutrition"
+    ]
+  }
+}

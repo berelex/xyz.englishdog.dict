@@ -1,0 +1,3858 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "solved": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/unsolved/a/,/c/en/solved/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/unsolved/a",
+          "@type": "Node",
+          "label": "unsolved",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/unsolved"
+        },
+        "end": {
+          "@id": "/c/en/solved",
+          "@type": "Node",
+          "label": "solved",
+          "language": "en",
+          "term": "/c/en/solved"
+        }
+      },
+      "unsolve": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/unsolve/v/,/c/en/unsolved/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/unsolve/v",
+          "@type": "Node",
+          "label": "unsolve",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/unsolve"
+        },
+        "end": {
+          "@id": "/c/en/unsolved",
+          "@type": "Node",
+          "label": "unsolved",
+          "language": "en",
+          "term": "/c/en/unsolved"
+        }
+      },
+      "unresolved": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/unsolved/,/c/en/unresolved/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/unsolved",
+          "@type": "Node",
+          "label": "unsolved",
+          "language": "en",
+          "term": "/c/en/unsolved"
+        },
+        "end": {
+          "@id": "/c/en/unresolved",
+          "@type": "Node",
+          "label": "unresolved",
+          "language": "en",
+          "term": "/c/en/unresolved"
+        }
+      },
+      "mystery": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/mystery/,/c/en/unsolved/]",
+        "weight": 0.21300000000000008,
+        "start": {
+          "@id": "/c/en/mystery",
+          "@type": "Node",
+          "label": "mystery",
+          "language": "en",
+          "term": "/c/en/mystery"
+        },
+        "end": {
+          "@id": "/c/en/unsolved",
+          "@type": "Node",
+          "label": "unsolved",
+          "language": "en",
+          "term": "/c/en/unsolved"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "unresolved": {
+        "@id": "/a/[/r/Synonym/,/c/en/unresolved/a/wn/,/c/en/unsolved/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/unresolved/a/wn",
+          "@type": "Node",
+          "label": "unresolved",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/unresolved"
+        },
+        "end": {
+          "@id": "/c/en/unsolved/a/wn",
+          "@type": "Node",
+          "label": "unsolved",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/unsolved"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {}
+  },
+  "relatedwords": {
+    "solved": {
+      "data-frequency": "17099",
+      "data-relevance": "263",
+      "data-term": "solved",
+      "data-encoded-term": "solved",
+      "data-term-stats": [
+        "1",
+        "6.2",
+        "0.000",
+        "17099",
+        "ol,w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "crime": {
+      "data-frequency": "137167",
+      "data-relevance": "262",
+      "data-term": "crime",
+      "data-encoded-term": "crime",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "137167",
+        "w2v,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "unresolved": {
+      "data-frequency": "5790",
+      "data-relevance": "261",
+      "data-term": "unresolved",
+      "data-encoded-term": "unresolved",
+      "data-term-stats": [
+        "1",
+        "24.2",
+        "0.000",
+        "5790",
+        "ol,w2v,wn|reverse-net|vec2",
+        "1"
+      ]
+    },
+    "unreported": {
+      "data-frequency": "1871",
+      "data-relevance": "260",
+      "data-term": "unreported",
+      "data-encoded-term": "unreported",
+      "data-term-stats": [
+        "1",
+        "2.3",
+        "0.000",
+        "1871",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "unexplained": {
+      "data-frequency": "5030",
+      "data-relevance": "259",
+      "data-term": "unexplained",
+      "data-encoded-term": "unexplained",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "5030",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "unsolved murders": {
+      "data-frequency": "3401",
+      "data-relevance": "258",
+      "data-term": "unsolved murders",
+      "data-encoded-term": "unsolved%20murders",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "3401",
+        "vec2",
+        "1"
+      ]
+    },
+    "unsolved crimes": {
+      "data-frequency": "2698",
+      "data-relevance": "257",
+      "data-term": "unsolved crimes",
+      "data-encoded-term": "unsolved%20crimes",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "2698",
+        "vec2",
+        "1"
+      ]
+    },
+    "detectives": {
+      "data-frequency": "9586",
+      "data-relevance": "256",
+      "data-term": "detectives",
+      "data-encoded-term": "detectives",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "9586",
+        "vec2",
+        "1"
+      ]
+    },
+    "homicide detectives": {
+      "data-frequency": "173",
+      "data-relevance": "255",
+      "data-term": "homicide detectives",
+      "data-encoded-term": "homicide%20detectives",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "173",
+        "vec2",
+        "1"
+      ]
+    },
+    "serial killings": {
+      "data-frequency": "7323",
+      "data-relevance": "254",
+      "data-term": "serial killings",
+      "data-encoded-term": "serial%20killings",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "7323",
+        "vec2",
+        "1"
+      ]
+    },
+    "cold case": {
+      "data-frequency": "2642",
+      "data-relevance": "253",
+      "data-term": "cold case",
+      "data-encoded-term": "cold%20case",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "2642",
+        "vec2",
+        "1"
+      ]
+    },
+    "unanswered questions": {
+      "data-frequency": "3926",
+      "data-relevance": "252",
+      "data-term": "unanswered questions",
+      "data-encoded-term": "unanswered%20questions",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "3926",
+        "vec2",
+        "1"
+      ]
+    },
+    "detective": {
+      "data-frequency": "51461",
+      "data-relevance": "251",
+      "data-term": "detective",
+      "data-encoded-term": "detective",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "51461",
+        "vec2",
+        "1"
+      ]
+    },
+    "homicide detective": {
+      "data-frequency": "714",
+      "data-relevance": "250",
+      "data-term": "homicide detective",
+      "data-encoded-term": "homicide%20detective",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "714",
+        "vec2",
+        "1"
+      ]
+    },
+    "serial killer": {
+      "data-frequency": "9904",
+      "data-relevance": "249",
+      "data-term": "serial killer",
+      "data-encoded-term": "serial%20killer",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "9904",
+        "vec2",
+        "1"
+      ]
+    },
+    "gangland": {
+      "data-frequency": "1256",
+      "data-relevance": "248",
+      "data-term": "gangland",
+      "data-encoded-term": "gangland",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "1256",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "mysterious disappearance": {
+      "data-frequency": "645",
+      "data-relevance": "247",
+      "data-term": "mysterious disappearance",
+      "data-encoded-term": "mysterious%20disappearance",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "645",
+        "vec2",
+        "1"
+      ]
+    },
+    "murdered": {
+      "data-frequency": "52595",
+      "data-relevance": "246",
+      "data-term": "murdered",
+      "data-encoded-term": "murdered",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "52595",
+        "vec2",
+        "1"
+      ]
+    },
+    "serial rapist": {
+      "data-frequency": "1417",
+      "data-relevance": "245",
+      "data-term": "serial rapist",
+      "data-encoded-term": "serial%20rapist",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1417",
+        "vec2",
+        "1"
+      ]
+    },
+    "unpunished": {
+      "data-frequency": "944",
+      "data-relevance": "244",
+      "data-term": "unpunished",
+      "data-encoded-term": "unpunished",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "944",
+        "ol,reddit-slashes|vec2",
+        "1"
+      ]
+    },
+    "crime stoppers": {
+      "data-frequency": "336",
+      "data-relevance": "243",
+      "data-term": "crime stoppers",
+      "data-encoded-term": "crime%20stoppers",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "336",
+        "vec2",
+        "1"
+      ]
+    },
+    "forensics": {
+      "data-frequency": "3481",
+      "data-relevance": "242",
+      "data-term": "forensics",
+      "data-encoded-term": "forensics",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "3481",
+        "vec2",
+        "1"
+      ]
+    },
+    "serial killers": {
+      "data-frequency": "11783",
+      "data-relevance": "241",
+      "data-term": "serial killers",
+      "data-encoded-term": "serial%20killers",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "11783",
+        "vec2",
+        "1"
+      ]
+    },
+    "arsons": {
+      "data-frequency": "7330",
+      "data-relevance": "240",
+      "data-term": "arsons",
+      "data-encoded-term": "arsons",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "7330",
+        "vec2",
+        "1"
+      ]
+    },
+    "suspects": {
+      "data-frequency": "19994",
+      "data-relevance": "239",
+      "data-term": "suspects",
+      "data-encoded-term": "suspects",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "19994",
+        "vec2",
+        "1"
+      ]
+    },
+    "unsolvable": {
+      "data-frequency": "407",
+      "data-relevance": "238",
+      "data-term": "unsolvable",
+      "data-encoded-term": "unsolvable",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "407",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "suspect": {
+      "data-frequency": "27966",
+      "data-relevance": "237",
+      "data-term": "suspect",
+      "data-encoded-term": "suspect",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "27966",
+        "vec2",
+        "1"
+      ]
+    },
+    "missing": {
+      "data-frequency": "491743",
+      "data-relevance": "236",
+      "data-term": "missing",
+      "data-encoded-term": "missing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "491743",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "wrongful conviction": {
+      "data-frequency": "1404",
+      "data-relevance": "235",
+      "data-term": "wrongful conviction",
+      "data-encoded-term": "wrongful%20conviction",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1404",
+        "vec2",
+        "1"
+      ]
+    },
+    "unrelated": {
+      "data-frequency": "20283",
+      "data-relevance": "234",
+      "data-term": "unrelated",
+      "data-encoded-term": "unrelated",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "20283",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "gruesome": {
+      "data-frequency": "4076",
+      "data-relevance": "233",
+      "data-term": "gruesome",
+      "data-encoded-term": "gruesome",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "4076",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "whodunit": {
+      "data-frequency": "869",
+      "data-relevance": "232",
+      "data-term": "whodunit",
+      "data-encoded-term": "whodunit",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "869",
+        "vec2",
+        "1"
+      ]
+    },
+    "detective bureau": {
+      "data-frequency": "2804",
+      "data-relevance": "231",
+      "data-term": "detective bureau",
+      "data-encoded-term": "detective%20bureau",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2804",
+        "vec2",
+        "1"
+      ]
+    },
+    "tragic": {
+      "data-frequency": "22203",
+      "data-relevance": "230",
+      "data-term": "tragic",
+      "data-encoded-term": "tragic",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "22203",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "wrongfully convicted": {
+      "data-frequency": "1692",
+      "data-relevance": "229",
+      "data-term": "wrongfully convicted",
+      "data-encoded-term": "wrongfully%20convicted",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "1692",
+        "vec2",
+        "1"
+      ]
+    },
+    "murder": {
+      "data-frequency": "137729",
+      "data-relevance": "228",
+      "data-term": "murder",
+      "data-encoded-term": "murder",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "137729",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "intractable": {
+      "data-frequency": "1352",
+      "data-relevance": "227",
+      "data-term": "intractable",
+      "data-encoded-term": "intractable",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "1352",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cold": {
+      "data-frequency": "142184",
+      "data-relevance": "226",
+      "data-term": "cold",
+      "data-encoded-term": "cold",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "142184",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "baseline killer": {
+      "data-frequency": "218",
+      "data-relevance": "225",
+      "data-term": "baseline killer",
+      "data-encoded-term": "baseline%20killer",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "218",
+        "vec2",
+        "1"
+      ]
+    },
+    "det": {
+      "data-frequency": "23905",
+      "data-relevance": "224",
+      "data-term": "det",
+      "data-encoded-term": "det",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "23905",
+        "vec2",
+        "1"
+      ]
+    },
+    "persons": {
+      "data-frequency": "189773",
+      "data-relevance": "223",
+      "data-term": "persons",
+      "data-encoded-term": "persons",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "189773",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "222",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "506299",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "ghost": {
+      "data-frequency": "74097",
+      "data-relevance": "221",
+      "data-term": "ghost",
+      "data-encoded-term": "ghost",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "74097",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "skeletal remains": {
+      "data-frequency": "2950",
+      "data-relevance": "220",
+      "data-term": "skeletal remains",
+      "data-encoded-term": "skeletal%20remains",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2950",
+        "vec2",
+        "1"
+      ]
+    },
+    "fugitives": {
+      "data-frequency": "13715",
+      "data-relevance": "219",
+      "data-term": "fugitives",
+      "data-encoded-term": "fugitives",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "13715",
+        "vec2",
+        "1"
+      ]
+    },
+    "case": {
+      "data-frequency": "411697",
+      "data-relevance": "218",
+      "data-term": "case",
+      "data-encoded-term": "case",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "411697",
+        "vec2",
+        "1"
+      ]
+    },
+    "murderer": {
+      "data-frequency": "17260",
+      "data-relevance": "217",
+      "data-term": "murderer",
+      "data-encoded-term": "murderer",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "17260",
+        "vec2",
+        "1"
+      ]
+    },
+    "reward offered": {
+      "data-frequency": "12663",
+      "data-relevance": "216",
+      "data-term": "reward offered",
+      "data-encoded-term": "reward%20offered",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "12663",
+        "vec2",
+        "1"
+      ]
+    },
+    "btk": {
+      "data-frequency": "455",
+      "data-relevance": "215",
+      "data-term": "btk",
+      "data-encoded-term": "btk",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "455",
+        "vec2",
+        "1"
+      ]
+    },
+    "open": {
+      "data-frequency": "550083",
+      "data-relevance": "214",
+      "data-term": "open",
+      "data-encoded-term": "open",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "550083",
+        "ol",
+        "1"
+      ]
+    },
+    "investigators": {
+      "data-frequency": "15478",
+      "data-relevance": "213",
+      "data-term": "investigators",
+      "data-encoded-term": "investigators",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "15478",
+        "vec2",
+        "1"
+      ]
+    },
+    "unknown": {
+      "data-frequency": "425404",
+      "data-relevance": "212",
+      "data-term": "unknown",
+      "data-encoded-term": "unknown",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "425404",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "enigma": {
+      "data-frequency": "7690",
+      "data-relevance": "211",
+      "data-term": "enigma",
+      "data-encoded-term": "enigma",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "7690",
+        "vec2",
+        "1"
+      ]
+    },
+    "mysterious": {
+      "data-frequency": "51448",
+      "data-relevance": "210",
+      "data-term": "mysterious",
+      "data-encoded-term": "mysterious",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "51448",
+        "ol,reddit-slashes",
+        "1"
+      ]
+    },
+    "not": {
+      "data-frequency": "1982633",
+      "data-relevance": "209",
+      "data-term": "not",
+      "data-encoded-term": "not",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "1982633",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "true": {
+      "data-frequency": "223803",
+      "data-relevance": "208",
+      "data-term": "true",
+      "data-encoded-term": "true",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "223803",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "sexual assaults": {
+      "data-frequency": "12601",
+      "data-relevance": "207",
+      "data-term": "sexual assaults",
+      "data-encoded-term": "sexual%20assaults",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "12601",
+        "vec2",
+        "1"
+      ]
+    },
+    "unanswered": {
+      "data-frequency": "5954",
+      "data-relevance": "206",
+      "data-term": "unanswered",
+      "data-encoded-term": "unanswered",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5954",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "chandra levy": {
+      "data-frequency": "65",
+      "data-relevance": "205",
+      "data-term": "chandra levy",
+      "data-encoded-term": "chandra%20levy",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "65",
+        "vec2",
+        "1"
+      ]
+    },
+    "murders": {
+      "data-frequency": "30008",
+      "data-relevance": "204",
+      "data-term": "murders",
+      "data-encoded-term": "murders",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "30008",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "mystery": {
+      "data-frequency": "78248",
+      "data-relevance": "203",
+      "data-term": "mystery",
+      "data-encoded-term": "mystery",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "78248",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "fatal shootings": {
+      "data-frequency": "7468",
+      "data-relevance": "202",
+      "data-term": "fatal shootings",
+      "data-encoded-term": "fatal%20shootings",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "7468",
+        "vec2",
+        "1"
+      ]
+    },
+    "dna": {
+      "data-frequency": "50005",
+      "data-relevance": "201",
+      "data-term": "dna",
+      "data-encoded-term": "dna",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "50005",
+        "vec2",
+        "1"
+      ]
+    },
+    "watcher": {
+      "data-frequency": "2605",
+      "data-relevance": "200",
+      "data-term": "watcher",
+      "data-encoded-term": "watcher",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2605",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "crimestoppers": {
+      "data-frequency": "117",
+      "data-relevance": "199",
+      "data-term": "crimestoppers",
+      "data-encoded-term": "crimestoppers",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "117",
+        "vec2",
+        "1"
+      ]
+    },
+    "mysteries": {
+      "data-frequency": "20270",
+      "data-relevance": "198",
+      "data-term": "mysteries",
+      "data-encoded-term": "mysteries",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "20270",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "riddle": {
+      "data-frequency": "11974",
+      "data-relevance": "197",
+      "data-term": "riddle",
+      "data-encoded-term": "riddle",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "11974",
+        "vec2",
+        "1"
+      ]
+    },
+    "dna testing": {
+      "data-frequency": "11870",
+      "data-relevance": "196",
+      "data-term": "dna testing",
+      "data-encoded-term": "dna%20testing",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "11870",
+        "vec2",
+        "1"
+      ]
+    },
+    "arrests": {
+      "data-frequency": "15463",
+      "data-relevance": "195",
+      "data-term": "arrests",
+      "data-encoded-term": "arrests",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "15463",
+        "vec2",
+        "1"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "194",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2451433",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "killer": {
+      "data-frequency": "55455",
+      "data-relevance": "193",
+      "data-term": "killer",
+      "data-encoded-term": "killer",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "55455",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "files": {
+      "data-frequency": "99195",
+      "data-relevance": "192",
+      "data-term": "files",
+      "data-encoded-term": "files",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "99195",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "killers": {
+      "data-frequency": "14366",
+      "data-relevance": "191",
+      "data-term": "killers",
+      "data-encoded-term": "killers",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "14366",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "exhumed": {
+      "data-frequency": "2931",
+      "data-relevance": "190",
+      "data-term": "exhumed",
+      "data-encoded-term": "exhumed",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2931",
+        "vec2",
+        "1"
+      ]
+    },
+    "disappearance": {
+      "data-frequency": "17265",
+      "data-relevance": "189",
+      "data-term": "disappearance",
+      "data-encoded-term": "disappearance",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "17265",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "carjackings": {
+      "data-frequency": "527",
+      "data-relevance": "188",
+      "data-term": "carjackings",
+      "data-encoded-term": "carjackings",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "527",
+        "vec2",
+        "1"
+      ]
+    },
+    "murder case": {
+      "data-frequency": "52468",
+      "data-relevance": "187",
+      "data-term": "murder case",
+      "data-encoded-term": "murder%20case",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "52468",
+        "vec2",
+        "1"
+      ]
+    },
+    "wrongly convicted": {
+      "data-frequency": "5774",
+      "data-relevance": "186",
+      "data-term": "wrongly convicted",
+      "data-encoded-term": "wrongly%20convicted",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "5774",
+        "vec2",
+        "1"
+      ]
+    },
+    "disappearances": {
+      "data-frequency": "18547",
+      "data-relevance": "185",
+      "data-term": "disappearances",
+      "data-encoded-term": "disappearances",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "18547",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "investigation": {
+      "data-frequency": "132812",
+      "data-relevance": "184",
+      "data-term": "investigation",
+      "data-encoded-term": "investigation",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "132812",
+        "vec2",
+        "1"
+      ]
+    },
+    "conspiracy": {
+      "data-frequency": "34595",
+      "data-relevance": "183",
+      "data-term": "conspiracy",
+      "data-encoded-term": "conspiracy",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "34595",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cases": {
+      "data-frequency": "168581",
+      "data-relevance": "182",
+      "data-term": "cases",
+      "data-encoded-term": "cases",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "168581",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "new": {
+      "data-frequency": "2251223",
+      "data-relevance": "181",
+      "data-term": "new",
+      "data-encoded-term": "new",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "2251223",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "stabbings": {
+      "data-frequency": "6107",
+      "data-relevance": "180",
+      "data-term": "stabbings",
+      "data-encoded-term": "stabbings",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "6107",
+        "vec2",
+        "1"
+      ]
+    },
+    "rapist": {
+      "data-frequency": "3227",
+      "data-relevance": "179",
+      "data-term": "rapist",
+      "data-encoded-term": "rapist",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "3227",
+        "vec2",
+        "1"
+      ]
+    },
+    "crimes": {
+      "data-frequency": "54014",
+      "data-relevance": "178",
+      "data-term": "crimes",
+      "data-encoded-term": "crimes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "54014",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "unaddressed": {
+      "data-frequency": "311",
+      "data-relevance": "177",
+      "data-term": "unaddressed",
+      "data-encoded-term": "unaddressed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "311",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "wrongful convictions": {
+      "data-frequency": "1455",
+      "data-relevance": "176",
+      "data-term": "wrongful convictions",
+      "data-encoded-term": "wrongful%20convictions",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1455",
+        "vec2",
+        "1"
+      ]
+    },
+    "unfinished": {
+      "data-frequency": "22395",
+      "data-relevance": "175",
+      "data-term": "unfinished",
+      "data-encoded-term": "unfinished",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22395",
+        "ol",
+        "1"
+      ]
+    },
+    "fbi": {
+      "data-frequency": "24667",
+      "data-relevance": "174",
+      "data-term": "fbi",
+      "data-encoded-term": "fbi",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "24667",
+        "vec2",
+        "1"
+      ]
+    },
+    "convicted murderer": {
+      "data-frequency": "22180",
+      "data-relevance": "173",
+      "data-term": "convicted murderer",
+      "data-encoded-term": "convicted%20murderer",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "22180",
+        "vec2",
+        "1"
+      ]
+    },
+    "undiscovered": {
+      "data-frequency": "3292",
+      "data-relevance": "172",
+      "data-term": "undiscovered",
+      "data-encoded-term": "undiscovered",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3292",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "undiagnosed": {
+      "data-frequency": "877",
+      "data-relevance": "171",
+      "data-term": "undiagnosed",
+      "data-encoded-term": "undiagnosed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "877",
+        "ol",
+        "1"
+      ]
+    },
+    "netflix": {
+      "data-frequency": "28902",
+      "data-relevance": "170",
+      "data-term": "netflix",
+      "data-encoded-term": "netflix",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "28902",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "creepy": {
+      "data-frequency": "4631",
+      "data-relevance": "169",
+      "data-term": "creepy",
+      "data-encoded-term": "creepy",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4631",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "america most wanted": {
+      "data-frequency": "97991",
+      "data-relevance": "168",
+      "data-term": "america most wanted",
+      "data-encoded-term": "america%20most%20wanted",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "97991",
+        "vec2",
+        "1"
+      ]
+    },
+    "holloway disappearance": {
+      "data-frequency": "224",
+      "data-relevance": "167",
+      "data-term": "holloway disappearance",
+      "data-encoded-term": "holloway%20disappearance",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "224",
+        "vec2",
+        "1"
+      ]
+    },
+    "fingerprints": {
+      "data-frequency": "3198",
+      "data-relevance": "166",
+      "data-term": "fingerprints",
+      "data-encoded-term": "fingerprints",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "3198",
+        "vec2",
+        "1"
+      ]
+    },
+    "slaying": {
+      "data-frequency": "4634",
+      "data-relevance": "165",
+      "data-term": "slaying",
+      "data-encoded-term": "slaying",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "4634",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "homicides": {
+      "data-frequency": "1646",
+      "data-relevance": "164",
+      "data-term": "homicides",
+      "data-encoded-term": "homicides",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1646",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "slayings": {
+      "data-frequency": "19561",
+      "data-relevance": "163",
+      "data-term": "slayings",
+      "data-encoded-term": "slayings",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "19561",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "killings": {
+      "data-frequency": "14165",
+      "data-relevance": "162",
+      "data-term": "killings",
+      "data-encoded-term": "killings",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "14165",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "homicide": {
+      "data-frequency": "10804",
+      "data-relevance": "161",
+      "data-term": "homicide",
+      "data-encoded-term": "homicide",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "10804",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "solve": {
+      "data-frequency": "29724",
+      "data-relevance": "160",
+      "data-term": "solve",
+      "data-encoded-term": "solve",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "29724",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "supernatural": {
+      "data-frequency": "22210",
+      "data-relevance": "159",
+      "data-term": "supernatural",
+      "data-encoded-term": "supernatural",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "22210",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "wrong": {
+      "data-frequency": "82080",
+      "data-relevance": "158",
+      "data-term": "wrong",
+      "data-encoded-term": "wrong",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "82080",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "ongoing": {
+      "data-frequency": "59899",
+      "data-relevance": "157",
+      "data-term": "ongoing",
+      "data-encoded-term": "ongoing",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "59899",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "solving": {
+      "data-frequency": "18490",
+      "data-relevance": "156",
+      "data-term": "solving",
+      "data-encoded-term": "solving",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "18490",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "abductions": {
+      "data-frequency": "2233",
+      "data-relevance": "155",
+      "data-term": "abductions",
+      "data-encoded-term": "abductions",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2233",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "abduction": {
+      "data-frequency": "7896",
+      "data-relevance": "154",
+      "data-term": "abduction",
+      "data-encoded-term": "abduction",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7896",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "shootings": {
+      "data-frequency": "6226",
+      "data-relevance": "153",
+      "data-term": "shootings",
+      "data-encoded-term": "shootings",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6226",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "rapes": {
+      "data-frequency": "34333",
+      "data-relevance": "152",
+      "data-term": "rapes",
+      "data-encoded-term": "rapes",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "34333",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "solvable": {
+      "data-frequency": "60115",
+      "data-relevance": "151",
+      "data-term": "solvable",
+      "data-encoded-term": "solvable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "60115",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "forensic": {
+      "data-frequency": "14201",
+      "data-relevance": "150",
+      "data-term": "forensic",
+      "data-encoded-term": "forensic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "14201",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "arson": {
+      "data-frequency": "7971",
+      "data-relevance": "149",
+      "data-term": "arson",
+      "data-encoded-term": "arson",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7971",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "investigating": {
+      "data-frequency": "28600",
+      "data-relevance": "148",
+      "data-term": "investigating",
+      "data-encoded-term": "investigating",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "28600",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "fugitive": {
+      "data-frequency": "11960",
+      "data-relevance": "147",
+      "data-term": "fugitive",
+      "data-encoded-term": "fugitive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11960",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "investigates": {
+      "data-frequency": "199978",
+      "data-relevance": "146",
+      "data-term": "investigates",
+      "data-encoded-term": "investigates",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "199978",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "burglaries": {
+      "data-frequency": "950",
+      "data-relevance": "145",
+      "data-term": "burglaries",
+      "data-encoded-term": "burglaries",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "950",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "horrific": {
+      "data-frequency": "5204",
+      "data-relevance": "144",
+      "data-term": "horrific",
+      "data-encoded-term": "horrific",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5204",
+        "w2v",
+        "1"
+      ]
+    },
+    "incest": {
+      "data-frequency": "4286",
+      "data-relevance": "143",
+      "data-term": "incest",
+      "data-encoded-term": "incest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4286",
+        "w2v",
+        "1"
+      ]
+    },
+    "grisly": {
+      "data-frequency": "1586",
+      "data-relevance": "142",
+      "data-term": "grisly",
+      "data-encoded-term": "grisly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1586",
+        "w2v",
+        "1"
+      ]
+    },
+    "massacres": {
+      "data-frequency": "10172",
+      "data-relevance": "141",
+      "data-term": "massacres",
+      "data-encoded-term": "massacres",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10172",
+        "w2v",
+        "1"
+      ]
+    },
+    "incidents": {
+      "data-frequency": "62733",
+      "data-relevance": "140",
+      "data-term": "incidents",
+      "data-encoded-term": "incidents",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62733",
+        "w2v",
+        "1"
+      ]
+    },
+    "resolved": {
+      "data-frequency": "27950",
+      "data-relevance": "139",
+      "data-term": "resolved",
+      "data-encoded-term": "resolved",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27950",
+        "ol",
+        "1"
+      ]
+    },
+    "insoluble": {
+      "data-frequency": "2996",
+      "data-relevance": "138",
+      "data-term": "insoluble",
+      "data-encoded-term": "insoluble",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2996",
+        "ol",
+        "1"
+      ]
+    },
+    "implicated": {
+      "data-frequency": "11388",
+      "data-relevance": "137",
+      "data-term": "implicated",
+      "data-encoded-term": "implicated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11388",
+        "w2v",
+        "1"
+      ]
+    },
+    "pending": {
+      "data-frequency": "25906",
+      "data-relevance": "136",
+      "data-term": "pending",
+      "data-encoded-term": "pending",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25906",
+        "ol",
+        "1"
+      ]
+    },
+    "sordid": {
+      "data-frequency": "1487",
+      "data-relevance": "135",
+      "data-term": "sordid",
+      "data-encoded-term": "sordid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1487",
+        "w2v",
+        "1"
+      ]
+    },
+    "fraught": {
+      "data-frequency": "2250",
+      "data-relevance": "134",
+      "data-term": "fraught",
+      "data-encoded-term": "fraught",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2250",
+        "w2v",
+        "1"
+      ]
+    },
+    "lingering": {
+      "data-frequency": "4120",
+      "data-relevance": "133",
+      "data-term": "lingering",
+      "data-encoded-term": "lingering",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4120",
+        "ol",
+        "1"
+      ]
+    },
+    "unsettled": {
+      "data-frequency": "3155",
+      "data-relevance": "132",
+      "data-term": "unsettled",
+      "data-encoded-term": "unsettled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3155",
+        "ol",
+        "1"
+      ]
+    },
+    "resolve": {
+      "data-frequency": "24536",
+      "data-relevance": "131",
+      "data-term": "resolve",
+      "data-encoded-term": "resolve",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24536",
+        "ol",
+        "1"
+      ]
+    },
+    "unconnected": {
+      "data-frequency": "2258",
+      "data-relevance": "130",
+      "data-term": "unconnected",
+      "data-encoded-term": "unconnected",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2258",
+        "w2v",
+        "1"
+      ]
+    },
+    "felonies": {
+      "data-frequency": "1255",
+      "data-relevance": "129",
+      "data-term": "felonies",
+      "data-encoded-term": "felonies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1255",
+        "w2v",
+        "1"
+      ]
+    },
+    "kidnapping": {
+      "data-frequency": "13328",
+      "data-relevance": "128",
+      "data-term": "kidnapping",
+      "data-encoded-term": "kidnapping",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13328",
+        "w2v",
+        "1"
+      ]
+    },
+    "riddled": {
+      "data-frequency": "2719",
+      "data-relevance": "127",
+      "data-term": "riddled",
+      "data-encoded-term": "riddled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2719",
+        "w2v",
+        "1"
+      ]
+    },
+    "unfolding": {
+      "data-frequency": "3759",
+      "data-relevance": "126",
+      "data-term": "unfolding",
+      "data-encoded-term": "unfolding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3759",
+        "w2v",
+        "1"
+      ]
+    },
+    "unfolded": {
+      "data-frequency": "3460",
+      "data-relevance": "125",
+      "data-term": "unfolded",
+      "data-encoded-term": "unfolded",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3460",
+        "w2v",
+        "1"
+      ]
+    },
+    "perpetrated": {
+      "data-frequency": "4767",
+      "data-relevance": "124",
+      "data-term": "perpetrated",
+      "data-encoded-term": "perpetrated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4767",
+        "w2v",
+        "1"
+      ]
+    },
+    "perpetrator": {
+      "data-frequency": "5251",
+      "data-relevance": "123",
+      "data-term": "perpetrator",
+      "data-encoded-term": "perpetrator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5251",
+        "w2v",
+        "1"
+      ]
+    },
+    "horrifying": {
+      "data-frequency": "2164",
+      "data-relevance": "122",
+      "data-term": "horrifying",
+      "data-encoded-term": "horrifying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2164",
+        "w2v",
+        "1"
+      ]
+    },
+    "tragedies": {
+      "data-frequency": "4589",
+      "data-relevance": "121",
+      "data-term": "tragedies",
+      "data-encoded-term": "tragedies",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4589",
+        "w2v",
+        "1"
+      ]
+    },
+    "rife": {
+      "data-frequency": "2757",
+      "data-relevance": "120",
+      "data-term": "rife",
+      "data-encoded-term": "rife",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2757",
+        "w2v",
+        "1"
+      ]
+    },
+    "offenses": {
+      "data-frequency": "6972",
+      "data-relevance": "119",
+      "data-term": "offenses",
+      "data-encoded-term": "offenses",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6972",
+        "w2v",
+        "1"
+      ]
+    },
+    "watergate": {
+      "data-frequency": "2979",
+      "data-relevance": "118",
+      "data-term": "watergate",
+      "data-encoded-term": "watergate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2979",
+        "w2v",
+        "1"
+      ]
+    },
+    "thefts": {
+      "data-frequency": "1906",
+      "data-relevance": "117",
+      "data-term": "thefts",
+      "data-encoded-term": "thefts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1906",
+        "w2v",
+        "1"
+      ]
+    },
+    "assassinations": {
+      "data-frequency": "50171",
+      "data-relevance": "116",
+      "data-term": "assassinations",
+      "data-encoded-term": "assassinations",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "50171",
+        "w2v",
+        "1"
+      ]
+    },
+    "beset": {
+      "data-frequency": "3228",
+      "data-relevance": "115",
+      "data-term": "beset",
+      "data-encoded-term": "beset",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3228",
+        "w2v",
+        "1"
+      ]
+    },
+    "spate": {
+      "data-frequency": "2511",
+      "data-relevance": "114",
+      "data-term": "spate",
+      "data-encoded-term": "spate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2511",
+        "w2v",
+        "1"
+      ]
+    },
+    "bloodiest": {
+      "data-frequency": "1563",
+      "data-relevance": "113",
+      "data-term": "bloodiest",
+      "data-encoded-term": "bloodiest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1563",
+        "w2v",
+        "1"
+      ]
+    },
+    "atrocity": {
+      "data-frequency": "1815",
+      "data-relevance": "112",
+      "data-term": "atrocity",
+      "data-encoded-term": "atrocity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1815",
+        "w2v",
+        "1"
+      ]
+    },
+    "frozen": {
+      "data-frequency": "27405",
+      "data-relevance": "111",
+      "data-term": "frozen",
+      "data-encoded-term": "frozen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27405",
+        "ol",
+        "1"
+      ]
+    },
+    "masterminds": {
+      "data-frequency": "7914",
+      "data-relevance": "110",
+      "data-term": "masterminds",
+      "data-encoded-term": "masterminds",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7914",
+        "w2v",
+        "1"
+      ]
+    },
+    "gravest": {
+      "data-frequency": "444",
+      "data-relevance": "109",
+      "data-term": "gravest",
+      "data-encoded-term": "gravest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "444",
+        "w2v",
+        "1"
+      ]
+    },
+    "plaguing": {
+      "data-frequency": "904",
+      "data-relevance": "108",
+      "data-term": "plaguing",
+      "data-encoded-term": "plaguing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "904",
+        "w2v",
+        "1"
+      ]
+    },
+    "befell": {
+      "data-frequency": "1109",
+      "data-relevance": "107",
+      "data-term": "befell",
+      "data-encoded-term": "befell",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1109",
+        "w2v",
+        "1"
+      ]
+    },
+    "publicized": {
+      "data-frequency": "11332",
+      "data-relevance": "106",
+      "data-term": "publicized",
+      "data-encoded-term": "publicized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11332",
+        "w2v",
+        "1"
+      ]
+    },
+    "tragedy": {
+      "data-frequency": "45021",
+      "data-relevance": "105",
+      "data-term": "tragedy",
+      "data-encoded-term": "tragedy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45021",
+        "w2v",
+        "1"
+      ]
+    },
+    "atrocities": {
+      "data-frequency": "8328",
+      "data-relevance": "104",
+      "data-term": "atrocities",
+      "data-encoded-term": "atrocities",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8328",
+        "w2v",
+        "1"
+      ]
+    },
+    "uncovering": {
+      "data-frequency": "4457",
+      "data-relevance": "103",
+      "data-term": "uncovering",
+      "data-encoded-term": "uncovering",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4457",
+        "w2v",
+        "1"
+      ]
+    },
+    "kidnappings": {
+      "data-frequency": "2059",
+      "data-relevance": "102",
+      "data-term": "kidnappings",
+      "data-encoded-term": "kidnappings",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2059",
+        "w2v",
+        "1"
+      ]
+    },
+    "assassination": {
+      "data-frequency": "34591",
+      "data-relevance": "101",
+      "data-term": "assassination",
+      "data-encoded-term": "assassination",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34591",
+        "w2v",
+        "1"
+      ]
+    },
+    "revolves": {
+      "data-frequency": "12618",
+      "data-relevance": "100",
+      "data-term": "revolves",
+      "data-encoded-term": "revolves",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12618",
+        "w2v",
+        "1"
+      ]
+    },
+    "investigated": {
+      "data-frequency": "197802",
+      "data-relevance": "99",
+      "data-term": "investigated",
+      "data-encoded-term": "investigated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "197802",
+        "w2v",
+        "1"
+      ]
+    },
+    "robbery": {
+      "data-frequency": "17017",
+      "data-relevance": "98",
+      "data-term": "robbery",
+      "data-encoded-term": "robbery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17017",
+        "w2v",
+        "1"
+      ]
+    },
+    "burglary": {
+      "data-frequency": "3882",
+      "data-relevance": "97",
+      "data-term": "burglary",
+      "data-encoded-term": "burglary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3882",
+        "w2v",
+        "1"
+      ]
+    },
+    "unraveling": {
+      "data-frequency": "1886",
+      "data-relevance": "96",
+      "data-term": "unraveling",
+      "data-encoded-term": "unraveling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1886",
+        "w2v",
+        "1"
+      ]
+    },
+    "outstanding": {
+      "data-frequency": "106484",
+      "data-relevance": "95",
+      "data-term": "outstanding",
+      "data-encoded-term": "outstanding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "106484",
+        "ol",
+        "1"
+      ]
+    },
+    "bloodbath": {
+      "data-frequency": "1606",
+      "data-relevance": "94",
+      "data-term": "bloodbath",
+      "data-encoded-term": "bloodbath",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1606",
+        "w2v",
+        "1"
+      ]
+    },
+    "haunted": {
+      "data-frequency": "22139",
+      "data-relevance": "93",
+      "data-term": "haunted",
+      "data-encoded-term": "haunted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22139",
+        "w2v",
+        "1"
+      ]
+    },
+    "remaining": {
+      "data-frequency": "190521",
+      "data-relevance": "92",
+      "data-term": "remaining",
+      "data-encoded-term": "remaining",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "190521",
+        "ol",
+        "1"
+      ]
+    },
+    "worst": {
+      "data-frequency": "58018",
+      "data-relevance": "91",
+      "data-term": "worst",
+      "data-encoded-term": "worst",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "58018",
+        "w2v",
+        "1"
+      ]
+    },
+    "genocide": {
+      "data-frequency": "24945",
+      "data-relevance": "90",
+      "data-term": "genocide",
+      "data-encoded-term": "genocide",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24945",
+        "w2v",
+        "1"
+      ]
+    },
+    "plagued": {
+      "data-frequency": "11682",
+      "data-relevance": "89",
+      "data-term": "plagued",
+      "data-encoded-term": "plagued",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11682",
+        "w2v",
+        "1"
+      ]
+    },
+    "embroiled": {
+      "data-frequency": "5629",
+      "data-relevance": "88",
+      "data-term": "embroiled",
+      "data-encoded-term": "embroiled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5629",
+        "w2v",
+        "1"
+      ]
+    },
+    "molestation": {
+      "data-frequency": "1598",
+      "data-relevance": "87",
+      "data-term": "molestation",
+      "data-encoded-term": "molestation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1598",
+        "w2v",
+        "1"
+      ]
+    },
+    "subplot": {
+      "data-frequency": "2321",
+      "data-relevance": "86",
+      "data-term": "subplot",
+      "data-encoded-term": "subplot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2321",
+        "w2v",
+        "1"
+      ]
+    },
+    "stemming": {
+      "data-frequency": "7543",
+      "data-relevance": "85",
+      "data-term": "stemming",
+      "data-encoded-term": "stemming",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7543",
+        "w2v",
+        "1"
+      ]
+    },
+    "bombings": {
+      "data-frequency": "17670",
+      "data-relevance": "84",
+      "data-term": "bombings",
+      "data-encoded-term": "bombings",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17670",
+        "w2v",
+        "1"
+      ]
+    },
+    "probing": {
+      "data-frequency": "3811",
+      "data-relevance": "83",
+      "data-term": "probing",
+      "data-encoded-term": "probing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3811",
+        "w2v",
+        "1"
+      ]
+    },
+    "uncovers": {
+      "data-frequency": "3635",
+      "data-relevance": "82",
+      "data-term": "uncovers",
+      "data-encoded-term": "uncovers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3635",
+        "w2v",
+        "1"
+      ]
+    },
+    "pedophilia": {
+      "data-frequency": "843",
+      "data-relevance": "81",
+      "data-term": "pedophilia",
+      "data-encoded-term": "pedophilia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "843",
+        "w2v",
+        "1"
+      ]
+    },
+    "involving": {
+      "data-frequency": "98193",
+      "data-relevance": "80",
+      "data-term": "involving",
+      "data-encoded-term": "involving",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98193",
+        "w2v",
+        "1"
+      ]
+    },
+    "deadliest": {
+      "data-frequency": "8516",
+      "data-relevance": "79",
+      "data-term": "deadliest",
+      "data-encoded-term": "deadliest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8516",
+        "w2v",
+        "1"
+      ]
+    },
+    "mired": {
+      "data-frequency": "1620",
+      "data-relevance": "78",
+      "data-term": "mired",
+      "data-encoded-term": "mired",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1620",
+        "w2v",
+        "1"
+      ]
+    },
+    "revolved": {
+      "data-frequency": "4077",
+      "data-relevance": "77",
+      "data-term": "revolved",
+      "data-encoded-term": "revolved",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4077",
+        "w2v",
+        "1"
+      ]
+    },
+    "occurred": {
+      "data-frequency": "155517",
+      "data-relevance": "76",
+      "data-term": "occurred",
+      "data-encoded-term": "occurred",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "155517",
+        "w2v",
+        "1"
+      ]
+    },
+    "massacre": {
+      "data-frequency": "42195",
+      "data-relevance": "75",
+      "data-term": "massacre",
+      "data-encoded-term": "massacre",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42195",
+        "w2v",
+        "1"
+      ]
+    },
+    "unmet": {
+      "data-frequency": "661",
+      "data-relevance": "74",
+      "data-term": "unmet",
+      "data-encoded-term": "unmet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "661",
+        "ol",
+        "1"
+      ]
+    },
+    "unaccounted": {
+      "data-frequency": "1223",
+      "data-relevance": "73",
+      "data-term": "unaccounted",
+      "data-encoded-term": "unaccounted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1223",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "investigative": {
+      "data-frequency": "17111",
+      "data-relevance": "72",
+      "data-term": "investigative",
+      "data-encoded-term": "investigative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17111",
+        "ol",
+        "1"
+      ]
+    },
+    "unanswerable": {
+      "data-frequency": "211",
+      "data-relevance": "71",
+      "data-term": "unanswerable",
+      "data-encoded-term": "unanswerable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "211",
+        "ol",
+        "1"
+      ]
+    },
+    "unexplored": {
+      "data-frequency": "2075",
+      "data-relevance": "70",
+      "data-term": "unexplored",
+      "data-encoded-term": "unexplored",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2075",
+        "ol",
+        "1"
+      ]
+    },
+    "criminal": {
+      "data-frequency": "117267",
+      "data-relevance": "69",
+      "data-term": "criminal",
+      "data-encoded-term": "criminal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "117267",
+        "ol",
+        "1"
+      ]
+    },
+    "fatal": {
+      "data-frequency": "43454",
+      "data-relevance": "68",
+      "data-term": "fatal",
+      "data-encoded-term": "fatal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "43454",
+        "ol",
+        "1"
+      ]
+    },
+    "elusive": {
+      "data-frequency": "8080",
+      "data-relevance": "67",
+      "data-term": "elusive",
+      "data-encoded-term": "elusive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8080",
+        "ol",
+        "1"
+      ]
+    },
+    "vexing": {
+      "data-frequency": "365",
+      "data-relevance": "66",
+      "data-term": "vexing",
+      "data-encoded-term": "vexing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "365",
+        "ol",
+        "1"
+      ]
+    },
+    "unclaimed": {
+      "data-frequency": "1405",
+      "data-relevance": "65",
+      "data-term": "unclaimed",
+      "data-encoded-term": "unclaimed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1405",
+        "ol",
+        "1"
+      ]
+    },
+    "unfixed": {
+      "data-frequency": "194",
+      "data-relevance": "64",
+      "data-term": "unfixed",
+      "data-encoded-term": "unfixed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "194",
+        "ol",
+        "1"
+      ]
+    },
+    "undetected": {
+      "data-frequency": "2433",
+      "data-relevance": "63",
+      "data-term": "undetected",
+      "data-encoded-term": "undetected",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2433",
+        "ol",
+        "1"
+      ]
+    },
+    "absconding": {
+      "data-frequency": "405",
+      "data-relevance": "62",
+      "data-term": "absconding",
+      "data-encoded-term": "absconding",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "405",
+        "ol",
+        "1"
+      ]
+    },
+    "unacknowledged": {
+      "data-frequency": "725",
+      "data-relevance": "61",
+      "data-term": "unacknowledged",
+      "data-encoded-term": "unacknowledged",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "725",
+        "ol",
+        "1"
+      ]
+    },
+    "unforgotten": {
+      "data-frequency": "267",
+      "data-relevance": "60",
+      "data-term": "unforgotten",
+      "data-encoded-term": "unforgotten",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "267",
+        "ol",
+        "1"
+      ]
+    },
+    "unexamined": {
+      "data-frequency": "330",
+      "data-relevance": "59",
+      "data-term": "unexamined",
+      "data-encoded-term": "unexamined",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "330",
+        "ol",
+        "1"
+      ]
+    },
+    "unfulfilled": {
+      "data-frequency": "1957",
+      "data-relevance": "58",
+      "data-term": "unfulfilled",
+      "data-encoded-term": "unfulfilled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1957",
+        "ol",
+        "1"
+      ]
+    },
+    "untraceable": {
+      "data-frequency": "502",
+      "data-relevance": "57",
+      "data-term": "untraceable",
+      "data-encoded-term": "untraceable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "502",
+        "ol",
+        "1"
+      ]
+    },
+    "unavenged": {
+      "data-frequency": "60",
+      "data-relevance": "56",
+      "data-term": "unavenged",
+      "data-encoded-term": "unavenged",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "ol",
+        "1"
+      ]
+    },
+    "dormant": {
+      "data-frequency": "9993",
+      "data-relevance": "55",
+      "data-term": "dormant",
+      "data-encoded-term": "dormant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9993",
+        "ol",
+        "1"
+      ]
+    },
+    "unmentioned": {
+      "data-frequency": "470",
+      "data-relevance": "54",
+      "data-term": "unmentioned",
+      "data-encoded-term": "unmentioned",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "470",
+        "ol",
+        "1"
+      ]
+    },
+    "circumstantial": {
+      "data-frequency": "2344",
+      "data-relevance": "53",
+      "data-term": "circumstantial",
+      "data-encoded-term": "circumstantial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2344",
+        "ol",
+        "1"
+      ]
+    },
+    "uncounted": {
+      "data-frequency": "414",
+      "data-relevance": "52",
+      "data-term": "uncounted",
+      "data-encoded-term": "uncounted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "414",
+        "ol",
+        "1"
+      ]
+    },
+    "dead": {
+      "data-frequency": "515965",
+      "data-relevance": "51",
+      "data-term": "dead",
+      "data-encoded-term": "dead",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "515965",
+        "ol",
+        "1"
+      ]
+    },
+    "festering": {
+      "data-frequency": "1018",
+      "data-relevance": "50",
+      "data-term": "festering",
+      "data-encoded-term": "festering",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1018",
+        "ol",
+        "1"
+      ]
+    },
+    "untouched": {
+      "data-frequency": "4800",
+      "data-relevance": "49",
+      "data-term": "untouched",
+      "data-encoded-term": "untouched",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4800",
+        "ol",
+        "1"
+      ]
+    },
+    "undisturbed": {
+      "data-frequency": "3877",
+      "data-relevance": "48",
+      "data-term": "undisturbed",
+      "data-encoded-term": "undisturbed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3877",
+        "ol",
+        "1"
+      ]
+    },
+    "unburied": {
+      "data-frequency": "463",
+      "data-relevance": "47",
+      "data-term": "unburied",
+      "data-encoded-term": "unburied",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "463",
+        "ol",
+        "1"
+      ]
+    },
+    "dismembered": {
+      "data-frequency": "1897",
+      "data-relevance": "46",
+      "data-term": "dismembered",
+      "data-encoded-term": "dismembered",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1897",
+        "ol",
+        "1"
+      ]
+    },
+    "perplexing": {
+      "data-frequency": "725",
+      "data-relevance": "45",
+      "data-term": "perplexing",
+      "data-encoded-term": "perplexing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "725",
+        "ol",
+        "1"
+      ]
+    },
+    "murky": {
+      "data-frequency": "2189",
+      "data-relevance": "44",
+      "data-term": "murky",
+      "data-encoded-term": "murky",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2189",
+        "ol",
+        "1"
+      ]
+    },
+    "uncollected": {
+      "data-frequency": "1222",
+      "data-relevance": "43",
+      "data-term": "uncollected",
+      "data-encoded-term": "uncollected",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1222",
+        "ol",
+        "1"
+      ]
+    },
+    "stillborn": {
+      "data-frequency": "2271",
+      "data-relevance": "42",
+      "data-term": "stillborn",
+      "data-encoded-term": "stillborn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2271",
+        "ol",
+        "1"
+      ]
+    },
+    "serial": {
+      "data-frequency": "52180",
+      "data-relevance": "41",
+      "data-term": "serial",
+      "data-encoded-term": "serial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52180",
+        "ol",
+        "1"
+      ]
+    },
+    "strangled": {
+      "data-frequency": "3909",
+      "data-relevance": "40",
+      "data-term": "strangled",
+      "data-encoded-term": "strangled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3909",
+        "ol",
+        "1"
+      ]
+    },
+    "puzzling": {
+      "data-frequency": "2136",
+      "data-relevance": "39",
+      "data-term": "puzzling",
+      "data-encoded-term": "puzzling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2136",
+        "ol",
+        "1"
+      ]
+    },
+    "unopened": {
+      "data-frequency": "1497",
+      "data-relevance": "38",
+      "data-term": "unopened",
+      "data-encoded-term": "unopened",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1497",
+        "ol",
+        "1"
+      ]
+    },
+    "unpublished": {
+      "data-frequency": "18057",
+      "data-relevance": "37",
+      "data-term": "unpublished",
+      "data-encoded-term": "unpublished",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18057",
+        "ol",
+        "1"
+      ]
+    },
+    "unemployed": {
+      "data-frequency": "11223",
+      "data-relevance": "36",
+      "data-term": "unemployed",
+      "data-encoded-term": "unemployed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11223",
+        "ol",
+        "1"
+      ]
+    },
+    "incarcerated": {
+      "data-frequency": "7602",
+      "data-relevance": "35",
+      "data-term": "incarcerated",
+      "data-encoded-term": "incarcerated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7602",
+        "ol",
+        "1"
+      ]
+    },
+    "charred": {
+      "data-frequency": "2272",
+      "data-relevance": "34",
+      "data-term": "charred",
+      "data-encoded-term": "charred",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2272",
+        "ol",
+        "1"
+      ]
+    },
+    "occured": {
+      "data-frequency": "-1",
+      "data-relevance": "33",
+      "data-term": "occured",
+      "data-encoded-term": "occured",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "thorniest": {
+      "data-frequency": "45",
+      "data-relevance": "32",
+      "data-term": "thorniest",
+      "data-encoded-term": "thorniest",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "masterminding": {
+      "data-frequency": "494",
+      "data-relevance": "31",
+      "data-term": "masterminding",
+      "data-encoded-term": "masterminding",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "494",
+        "w2v",
+        "1"
+      ]
+    },
+    "carjacking": {
+      "data-frequency": "437",
+      "data-relevance": "30",
+      "data-term": "carjacking",
+      "data-encoded-term": "carjacking",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "437",
+        "w2v",
+        "1"
+      ]
+    },
+    "unliquidated": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "unliquidated",
+      "data-encoded-term": "unliquidated",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "drug-related": {
+      "data-frequency": "2436",
+      "data-relevance": "28",
+      "data-term": "drug-related",
+      "data-encoded-term": "drug-related",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2436",
+        "w2v",
+        "1"
+      ]
+    },
+    "drownings": {
+      "data-frequency": "32402",
+      "data-relevance": "27",
+      "data-term": "drownings",
+      "data-encoded-term": "drownings",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "32402",
+        "w2v",
+        "1"
+      ]
+    },
+    "coverup": {
+      "data-frequency": "646",
+      "data-relevance": "26",
+      "data-term": "coverup",
+      "data-encoded-term": "coverup",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "646",
+        "w2v",
+        "1"
+      ]
+    },
+    "insolvable": {
+      "data-frequency": "-1",
+      "data-relevance": "25",
+      "data-term": "insolvable",
+      "data-encoded-term": "insolvable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "np-complete": {
+      "data-frequency": "6742",
+      "data-relevance": "24",
+      "data-term": "np-complete",
+      "data-encoded-term": "np-complete",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6742",
+        "w2v",
+        "1"
+      ]
+    },
+    "mysterize": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "mysterize",
+      "data-encoded-term": "mysterize",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unclarified": {
+      "data-frequency": "44",
+      "data-relevance": "22",
+      "data-term": "unclarified",
+      "data-encoded-term": "unclarified",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "motiveless": {
+      "data-frequency": "72",
+      "data-relevance": "21",
+      "data-term": "motiveless",
+      "data-encoded-term": "motiveless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "72",
+        "ol",
+        "1"
+      ]
+    },
+    "grisliest": {
+      "data-frequency": "-1",
+      "data-relevance": "20",
+      "data-term": "grisliest",
+      "data-encoded-term": "grisliest",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unacted": {
+      "data-frequency": "-1",
+      "data-relevance": "19",
+      "data-term": "unacted",
+      "data-encoded-term": "unacted",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unriddler": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "unriddler",
+      "data-encoded-term": "unriddler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "uncharged": {
+      "data-frequency": "383",
+      "data-relevance": "17",
+      "data-term": "uncharged",
+      "data-encoded-term": "uncharged",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "383",
+        "ol",
+        "1"
+      ]
+    },
+    "unanalyzed": {
+      "data-frequency": "46",
+      "data-relevance": "16",
+      "data-term": "unanalyzed",
+      "data-encoded-term": "unanalyzed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "enigmatist": {
+      "data-frequency": "-1",
+      "data-relevance": "15",
+      "data-term": "enigmatist",
+      "data-encoded-term": "enigmatist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "incriminatory": {
+      "data-frequency": "-1",
+      "data-relevance": "14",
+      "data-term": "incriminatory",
+      "data-encoded-term": "incriminatory",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "closemouthed": {
+      "data-frequency": "-1",
+      "data-relevance": "13",
+      "data-term": "closemouthed",
+      "data-encoded-term": "closemouthed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "irresoluble": {
+      "data-frequency": "-1",
+      "data-relevance": "12",
+      "data-term": "irresoluble",
+      "data-encoded-term": "irresoluble",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unrepaired": {
+      "data-frequency": "179",
+      "data-relevance": "11",
+      "data-term": "unrepaired",
+      "data-encoded-term": "unrepaired",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "179",
+        "ol",
+        "1"
+      ]
+    },
+    "stillbirth": {
+      "data-frequency": "610",
+      "data-relevance": "10",
+      "data-term": "stillbirth",
+      "data-encoded-term": "stillbirth",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "610",
+        "ol",
+        "1"
+      ]
+    },
+    "unmapped": {
+      "data-frequency": "223",
+      "data-relevance": "9",
+      "data-term": "unmapped",
+      "data-encoded-term": "unmapped",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "223",
+        "ol",
+        "1"
+      ]
+    },
+    "unremedied": {
+      "data-frequency": "-1",
+      "data-relevance": "8",
+      "data-term": "unremedied",
+      "data-encoded-term": "unremedied",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "knottiest": {
+      "data-frequency": "-1",
+      "data-relevance": "7",
+      "data-term": "knottiest",
+      "data-encoded-term": "knottiest",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unremarked": {
+      "data-frequency": "103",
+      "data-relevance": "6",
+      "data-term": "unremarked",
+      "data-encoded-term": "unremarked",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "103",
+        "ol",
+        "1"
+      ]
+    },
+    "unplumbed": {
+      "data-frequency": "-1",
+      "data-relevance": "5",
+      "data-term": "unplumbed",
+      "data-encoded-term": "unplumbed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "snowless": {
+      "data-frequency": "49",
+      "data-relevance": "4",
+      "data-term": "snowless",
+      "data-encoded-term": "snowless",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "unachieved": {
+      "data-frequency": "53",
+      "data-relevance": "3",
+      "data-term": "unachieved",
+      "data-encoded-term": "unachieved",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "indagate": {
+      "data-frequency": "-1",
+      "data-relevance": "2",
+      "data-term": "indagate",
+      "data-encoded-term": "indagate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "detective story": {
+      "data-frequency": "1248",
+      "data-relevance": "1",
+      "data-term": "detective story",
+      "data-encoded-term": "detective%20story",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1248",
+        "ol",
+        "1"
+      ]
+    },
+    "intercommunal": {
+      "data-frequency": "30510",
+      "data-relevance": "0",
+      "data-term": "intercommunal",
+      "data-encoded-term": "intercommunal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "30510",
+        "ol",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "unsolvable"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The murder still remains unsolved.",
+        "ru": "Это убийство по-прежнему остаётся нераскрытым."
+      },
+      {
+        "en": "Public finance had long presented problems unsolvable or at least unsolved.",
+        "ru": "Государственные финансы уже давно преподнесли неразрешимые или, по крайней мере, нерешённые проблемы."
+      },
+      {
+        "en": "What happened to the paintings after that is an unsolved mystery.",
+        "ru": "Тайна того, что случилось с этими картинами потом, не разгадана до сих пор."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [],
+    "synonyms": [
+      "unresolved"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "unsolvable"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "unpunished",
+      "mystery",
+      "detectives",
+      "crime",
+      "detective",
+      "unsolve",
+      "gangland",
+      "solved",
+      "murdered",
+      "unresolved",
+      "unexplained",
+      "unreported"
+    ]
+  }
+}

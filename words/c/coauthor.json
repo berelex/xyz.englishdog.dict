@@ -1,0 +1,5769 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "coauthorial": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/coauthorial/a/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthorial/a",
+          "@type": "Node",
+          "label": "coauthorial",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/coauthorial"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      },
+      "author": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/coauthor/n/,/c/en/author/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthor/n",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/coauthor"
+        },
+        "end": {
+          "@id": "/c/en/author",
+          "@type": "Node",
+          "label": "author",
+          "language": "en",
+          "term": "/c/en/author"
+        }
+      },
+      "collaborate": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/coauthor/n/,/c/en/collaborate/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthor/n",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/coauthor"
+        },
+        "end": {
+          "@id": "/c/en/collaborate",
+          "@type": "Node",
+          "label": "collaborate",
+          "language": "en",
+          "term": "/c/en/collaborate"
+        }
+      },
+      "coauthors": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/coauthors/v/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthors/v",
+          "@type": "Node",
+          "label": "coauthors",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/coauthors"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      },
+      "coauthoring": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/coauthoring/v/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthoring/v",
+          "@type": "Node",
+          "label": "coauthoring",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/coauthoring"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "joint author": {
+        "@id": "/a/[/r/Synonym/,/c/en/joint_author/n/wn/person/,/c/en/coauthor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/joint_author/n/wn/person",
+          "@type": "Node",
+          "label": "joint author",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/joint_author"
+        },
+        "end": {
+          "@id": "/c/en/coauthor/n/wn/person",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/coauthor"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "coauthors": {
+        "@id": "/a/[/r/FormOf/,/c/en/coauthors/n/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthors/n",
+          "@type": "Node",
+          "label": "coauthors",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/coauthors"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      },
+      "co author": {
+        "@id": "/a/[/r/FormOf/,/c/en/co_author/v/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/co_author/v",
+          "@type": "Node",
+          "label": "co author",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/co_author"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      },
+      "coauthored": {
+        "@id": "/a/[/r/FormOf/,/c/en/coauthored/v/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthored/v",
+          "@type": "Node",
+          "label": "coauthored",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/coauthored"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      },
+      "coauthores": {
+        "@id": "/a/[/r/FormOf/,/c/en/coauthores/,/c/en/coauthor/n/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthores",
+          "@type": "Node",
+          "label": "coauthores",
+          "language": "en",
+          "term": "/c/en/coauthores"
+        },
+        "end": {
+          "@id": "/c/en/coauthor/n",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/coauthor"
+        }
+      },
+      "coauthoring": {
+        "@id": "/a/[/r/FormOf/,/c/en/coauthoring/v/,/c/en/coauthor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/coauthoring/v",
+          "@type": "Node",
+          "label": "coauthoring",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/coauthoring"
+        },
+        "end": {
+          "@id": "/c/en/coauthor",
+          "@type": "Node",
+          "label": "coauthor",
+          "language": "en",
+          "term": "/c/en/coauthor"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "author": {
+      "data-frequency": "318710",
+      "data-relevance": "392",
+      "data-term": "author",
+      "data-encoded-term": "author",
+      "data-term-stats": [
+        "1",
+        "15.6",
+        "0.000",
+        "318710",
+        "cn5,ol,w2v,wn|reverse-net",
+        "1"
+      ]
+    },
+    "writer": {
+      "data-frequency": "317855",
+      "data-relevance": "391",
+      "data-term": "writer",
+      "data-encoded-term": "writer",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "317855",
+        "cn5,wn|reverse-net",
+        "1"
+      ]
+    },
+    "joint author": {
+      "data-frequency": "293",
+      "data-relevance": "390",
+      "data-term": "joint author",
+      "data-encoded-term": "joint%20author",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "293",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "ghostwriter": {
+      "data-frequency": "1074",
+      "data-relevance": "389",
+      "data-term": "ghostwriter",
+      "data-encoded-term": "ghostwriter",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "1074",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "anthropologist": {
+      "data-frequency": "13431",
+      "data-relevance": "388",
+      "data-term": "anthropologist",
+      "data-encoded-term": "anthropologist",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "13431",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "sociologist": {
+      "data-frequency": "13137",
+      "data-relevance": "387",
+      "data-term": "sociologist",
+      "data-encoded-term": "sociologist",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "13137",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "foreword": {
+      "data-frequency": "14900",
+      "data-relevance": "386",
+      "data-term": "foreword",
+      "data-encoded-term": "foreword",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "14900",
+        "ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "monograph": {
+      "data-frequency": "15852",
+      "data-relevance": "385",
+      "data-term": "monograph",
+      "data-encoded-term": "monograph",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "15852",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "treatise": {
+      "data-frequency": "19757",
+      "data-relevance": "384",
+      "data-term": "treatise",
+      "data-encoded-term": "treatise",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "19757",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "psychologist": {
+      "data-frequency": "18302",
+      "data-relevance": "383",
+      "data-term": "psychologist",
+      "data-encoded-term": "psychologist",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "18302",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "demographer": {
+      "data-frequency": "520",
+      "data-relevance": "382",
+      "data-term": "demographer",
+      "data-encoded-term": "demographer",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "520",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "researches": {
+      "data-frequency": "9031",
+      "data-relevance": "381",
+      "data-term": "researches",
+      "data-encoded-term": "researches",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "9031",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "authorial": {
+      "data-frequency": "707",
+      "data-relevance": "380",
+      "data-term": "authorial",
+      "data-encoded-term": "authorial",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "707",
+        "cn5",
+        "1"
+      ]
+    },
+    "collaboration": {
+      "data-frequency": "95510",
+      "data-relevance": "379",
+      "data-term": "collaboration",
+      "data-encoded-term": "collaboration",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "95510",
+        "wiki",
+        "1"
+      ]
+    },
+    "burroughs": {
+      "data-frequency": "7243",
+      "data-relevance": "378",
+      "data-term": "burroughs",
+      "data-encoded-term": "burroughs",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "7243",
+        "cn5",
+        "1"
+      ]
+    },
+    "powys": {
+      "data-frequency": "5714",
+      "data-relevance": "377",
+      "data-term": "powys",
+      "data-encoded-term": "powys",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "5714",
+        "cn5",
+        "1"
+      ]
+    },
+    "scrawler": {
+      "data-frequency": "-1",
+      "data-relevance": "376",
+      "data-term": "scrawler",
+      "data-encoded-term": "scrawler",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "scriptwriter": {
+      "data-frequency": "3971",
+      "data-relevance": "375",
+      "data-term": "scriptwriter",
+      "data-encoded-term": "scriptwriter",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3971",
+        "cn5",
+        "1"
+      ]
+    },
+    "editing": {
+      "data-frequency": "48742",
+      "data-relevance": "374",
+      "data-term": "editing",
+      "data-encoded-term": "editing",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "48742",
+        "wiki",
+        "1"
+      ]
+    },
+    "authoress": {
+      "data-frequency": "200",
+      "data-relevance": "373",
+      "data-term": "authoress",
+      "data-encoded-term": "authoress",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "200",
+        "cn5",
+        "1"
+      ]
+    },
+    "poe": {
+      "data-frequency": "9924",
+      "data-relevance": "372",
+      "data-term": "poe",
+      "data-encoded-term": "poe",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9924",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "write": {
+      "data-frequency": "110784",
+      "data-relevance": "371",
+      "data-term": "write",
+      "data-encoded-term": "write",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "110784",
+        "cn5",
+        "1"
+      ]
+    },
+    "harris": {
+      "data-frequency": "162166",
+      "data-relevance": "370",
+      "data-term": "harris",
+      "data-encoded-term": "harris",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "162166",
+        "cn5",
+        "1"
+      ]
+    },
+    "paragrapher": {
+      "data-frequency": "-1",
+      "data-relevance": "369",
+      "data-term": "paragrapher",
+      "data-encoded-term": "paragrapher",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "essayist": {
+      "data-frequency": "9665",
+      "data-relevance": "368",
+      "data-term": "essayist",
+      "data-encoded-term": "essayist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "9665",
+        "cn5",
+        "1"
+      ]
+    },
+    "scribe": {
+      "data-frequency": "6349",
+      "data-relevance": "367",
+      "data-term": "scribe",
+      "data-encoded-term": "scribe",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6349",
+        "cn5",
+        "1"
+      ]
+    },
+    "superscription": {
+      "data-frequency": "170",
+      "data-relevance": "366",
+      "data-term": "superscription",
+      "data-encoded-term": "superscription",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "170",
+        "cn5",
+        "1"
+      ]
+    },
+    "coauthored": {
+      "data-frequency": "1981",
+      "data-relevance": "365",
+      "data-term": "coauthored",
+      "data-encoded-term": "coauthored",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1981",
+        "w2v",
+        "1"
+      ]
+    },
+    "novelist": {
+      "data-frequency": "48805",
+      "data-relevance": "364",
+      "data-term": "novelist",
+      "data-encoded-term": "novelist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "48805",
+        "cn5",
+        "1"
+      ]
+    },
+    "holographic": {
+      "data-frequency": "2827",
+      "data-relevance": "363",
+      "data-term": "holographic",
+      "data-encoded-term": "holographic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2827",
+        "cn5",
+        "1"
+      ]
+    },
+    "pamphleteer": {
+      "data-frequency": "713",
+      "data-relevance": "362",
+      "data-term": "pamphleteer",
+      "data-encoded-term": "pamphleteer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "713",
+        "cn5",
+        "1"
+      ]
+    },
+    "handwritten": {
+      "data-frequency": "5445",
+      "data-relevance": "361",
+      "data-term": "handwritten",
+      "data-encoded-term": "handwritten",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "5445",
+        "cn5",
+        "1"
+      ]
+    },
+    "poet": {
+      "data-frequency": "135640",
+      "data-relevance": "360",
+      "data-term": "poet",
+      "data-encoded-term": "poet",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "135640",
+        "cn5",
+        "1"
+      ]
+    },
+    "irving": {
+      "data-frequency": "36649",
+      "data-relevance": "359",
+      "data-term": "irving",
+      "data-encoded-term": "irving",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "36649",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "rewrite": {
+      "data-frequency": "13748",
+      "data-relevance": "358",
+      "data-term": "rewrite",
+      "data-encoded-term": "rewrite",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "13748",
+        "cn5",
+        "1"
+      ]
+    },
+    "unwritten": {
+      "data-frequency": "3017",
+      "data-relevance": "357",
+      "data-term": "unwritten",
+      "data-encoded-term": "unwritten",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3017",
+        "cn5",
+        "1"
+      ]
+    },
+    "cryptogram": {
+      "data-frequency": "390",
+      "data-relevance": "356",
+      "data-term": "cryptogram",
+      "data-encoded-term": "cryptogram",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "390",
+        "cn5",
+        "1"
+      ]
+    },
+    "scrawl": {
+      "data-frequency": "226",
+      "data-relevance": "355",
+      "data-term": "scrawl",
+      "data-encoded-term": "scrawl",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "226",
+        "cn5",
+        "1"
+      ]
+    },
+    "lewis": {
+      "data-frequency": "224464",
+      "data-relevance": "354",
+      "data-term": "lewis",
+      "data-encoded-term": "lewis",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "224464",
+        "cn5",
+        "1"
+      ]
+    },
+    "penmanship": {
+      "data-frequency": "461",
+      "data-relevance": "353",
+      "data-term": "penmanship",
+      "data-encoded-term": "penmanship",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "461",
+        "cn5",
+        "1"
+      ]
+    },
+    "novelization": {
+      "data-frequency": "2043",
+      "data-relevance": "352",
+      "data-term": "novelization",
+      "data-encoded-term": "novelization",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2043",
+        "cn5",
+        "1"
+      ]
+    },
+    "shorthand": {
+      "data-frequency": "3996",
+      "data-relevance": "351",
+      "data-term": "shorthand",
+      "data-encoded-term": "shorthand",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3996",
+        "cn5",
+        "1"
+      ]
+    },
+    "writercraft": {
+      "data-frequency": "-1",
+      "data-relevance": "350",
+      "data-term": "writercraft",
+      "data-encoded-term": "writercraft",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "penner": {
+      "data-frequency": "1601",
+      "data-relevance": "349",
+      "data-term": "penner",
+      "data-encoded-term": "penner",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1601",
+        "cn5",
+        "1"
+      ]
+    },
+    "scribble": {
+      "data-frequency": "436",
+      "data-relevance": "348",
+      "data-term": "scribble",
+      "data-encoded-term": "scribble",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "436",
+        "cn5",
+        "1"
+      ]
+    },
+    "redaction": {
+      "data-frequency": "1356",
+      "data-relevance": "347",
+      "data-term": "redaction",
+      "data-encoded-term": "redaction",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1356",
+        "cn5",
+        "1"
+      ]
+    },
+    "recursion": {
+      "data-frequency": "1447",
+      "data-relevance": "346",
+      "data-term": "recursion",
+      "data-encoded-term": "recursion",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1447",
+        "wiki",
+        "1"
+      ]
+    },
+    "hieroglyph": {
+      "data-frequency": "600",
+      "data-relevance": "345",
+      "data-term": "hieroglyph",
+      "data-encoded-term": "hieroglyph",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "600",
+        "cn5",
+        "1"
+      ]
+    },
+    "paragraph": {
+      "data-frequency": "11812",
+      "data-relevance": "344",
+      "data-term": "paragraph",
+      "data-encoded-term": "paragraph",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11812",
+        "cn5",
+        "1"
+      ]
+    },
+    "ayurveda": {
+      "data-frequency": "3105",
+      "data-relevance": "343",
+      "data-term": "ayurveda",
+      "data-encoded-term": "ayurveda",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3105",
+        "cn5",
+        "1"
+      ]
+    },
+    "speechwriter": {
+      "data-frequency": "1158",
+      "data-relevance": "342",
+      "data-term": "speechwriter",
+      "data-encoded-term": "speechwriter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1158",
+        "cn5",
+        "1"
+      ]
+    },
+    "historiography": {
+      "data-frequency": "10954",
+      "data-relevance": "341",
+      "data-term": "historiography",
+      "data-encoded-term": "historiography",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10954",
+        "cn5",
+        "1"
+      ]
+    },
+    "authored": {
+      "data-frequency": "40769",
+      "data-relevance": "340",
+      "data-term": "authored",
+      "data-encoded-term": "authored",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "40769",
+        "w2v",
+        "1"
+      ]
+    },
+    "cursive": {
+      "data-frequency": "1940",
+      "data-relevance": "339",
+      "data-term": "cursive",
+      "data-encoded-term": "cursive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1940",
+        "cn5",
+        "1"
+      ]
+    },
+    "co-author": {
+      "data-frequency": "11919",
+      "data-relevance": "338",
+      "data-term": "co-author",
+      "data-encoded-term": "co-author",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11919",
+        "w2v",
+        "1"
+      ]
+    },
+    "scrivener": {
+      "data-frequency": "2456",
+      "data-relevance": "337",
+      "data-term": "scrivener",
+      "data-encoded-term": "scrivener",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2456",
+        "cn5",
+        "1"
+      ]
+    },
+    "fabulator": {
+      "data-frequency": "-1",
+      "data-relevance": "336",
+      "data-term": "fabulator",
+      "data-encoded-term": "fabulator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "calligraphic": {
+      "data-frequency": "1132",
+      "data-relevance": "335",
+      "data-term": "calligraphic",
+      "data-encoded-term": "calligraphic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1132",
+        "cn5",
+        "1"
+      ]
+    },
+    "authorship": {
+      "data-frequency": "9638",
+      "data-relevance": "334",
+      "data-term": "authorship",
+      "data-encoded-term": "authorship",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9638",
+        "cn5",
+        "1"
+      ]
+    },
+    "manuscript": {
+      "data-frequency": "39848",
+      "data-relevance": "333",
+      "data-term": "manuscript",
+      "data-encoded-term": "manuscript",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "39848",
+        "cn5",
+        "1"
+      ]
+    },
+    "literary": {
+      "data-frequency": "119563",
+      "data-relevance": "332",
+      "data-term": "literary",
+      "data-encoded-term": "literary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "119563",
+        "cn5",
+        "1"
+      ]
+    },
+    "updike": {
+      "data-frequency": "1345",
+      "data-relevance": "331",
+      "data-term": "updike",
+      "data-encoded-term": "updike",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1345",
+        "w2v",
+        "1"
+      ]
+    },
+    "monographs": {
+      "data-frequency": "12120",
+      "data-relevance": "330",
+      "data-term": "monographs",
+      "data-encoded-term": "monographs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12120",
+        "w2v",
+        "1"
+      ]
+    },
+    "screed": {
+      "data-frequency": "202",
+      "data-relevance": "329",
+      "data-term": "screed",
+      "data-encoded-term": "screed",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "202",
+        "cn5",
+        "1"
+      ]
+    },
+    "pencraft": {
+      "data-frequency": "-1",
+      "data-relevance": "328",
+      "data-term": "pencraft",
+      "data-encoded-term": "pencraft",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "patristics": {
+      "data-frequency": "363",
+      "data-relevance": "327",
+      "data-term": "patristics",
+      "data-encoded-term": "patristics",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "363",
+        "cn5",
+        "1"
+      ]
+    },
+    "handwrite": {
+      "data-frequency": "-1",
+      "data-relevance": "326",
+      "data-term": "handwrite",
+      "data-encoded-term": "handwrite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "calligraph": {
+      "data-frequency": "-1",
+      "data-relevance": "325",
+      "data-term": "calligraph",
+      "data-encoded-term": "calligraph",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "co-authored": {
+      "data-frequency": "15509",
+      "data-relevance": "324",
+      "data-term": "co-authored",
+      "data-encoded-term": "co-authored",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15509",
+        "w2v",
+        "1"
+      ]
+    },
+    "writtenness": {
+      "data-frequency": "-1",
+      "data-relevance": "323",
+      "data-term": "writtenness",
+      "data-encoded-term": "writtenness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "writable": {
+      "data-frequency": "288",
+      "data-relevance": "322",
+      "data-term": "writable",
+      "data-encoded-term": "writable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "288",
+        "cn5",
+        "1"
+      ]
+    },
+    "enwrite": {
+      "data-frequency": "-1",
+      "data-relevance": "321",
+      "data-term": "enwrite",
+      "data-encoded-term": "enwrite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dissertation": {
+      "data-frequency": "32520",
+      "data-relevance": "320",
+      "data-term": "dissertation",
+      "data-encoded-term": "dissertation",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "32520",
+        "w2v",
+        "1"
+      ]
+    },
+    "calligraphy": {
+      "data-frequency": "5797",
+      "data-relevance": "319",
+      "data-term": "calligraphy",
+      "data-encoded-term": "calligraphy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5797",
+        "cn5",
+        "1"
+      ]
+    },
+    "woolrich": {
+      "data-frequency": "404",
+      "data-relevance": "318",
+      "data-term": "woolrich",
+      "data-encoded-term": "woolrich",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "404",
+        "w2v",
+        "1"
+      ]
+    },
+    "script": {
+      "data-frequency": "104278",
+      "data-relevance": "317",
+      "data-term": "script",
+      "data-encoded-term": "script",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "104278",
+        "cn5",
+        "1"
+      ]
+    },
+    "inscription": {
+      "data-frequency": "31736",
+      "data-relevance": "316",
+      "data-term": "inscription",
+      "data-encoded-term": "inscription",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "31736",
+        "cn5",
+        "1"
+      ]
+    },
+    "gagwriting": {
+      "data-frequency": "-1",
+      "data-relevance": "315",
+      "data-term": "gagwriting",
+      "data-encoded-term": "gagwriting",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "quill": {
+      "data-frequency": "5276",
+      "data-relevance": "314",
+      "data-term": "quill",
+      "data-encoded-term": "quill",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5276",
+        "cn5",
+        "1"
+      ]
+    },
+    "epitaph": {
+      "data-frequency": "5691",
+      "data-relevance": "313",
+      "data-term": "epitaph",
+      "data-encoded-term": "epitaph",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5691",
+        "cn5",
+        "1"
+      ]
+    },
+    "sociology": {
+      "data-frequency": "30360",
+      "data-relevance": "312",
+      "data-term": "sociology",
+      "data-encoded-term": "sociology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "30360",
+        "w2v",
+        "1"
+      ]
+    },
+    "essay": {
+      "data-frequency": "48356",
+      "data-relevance": "311",
+      "data-term": "essay",
+      "data-encoded-term": "essay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "48356",
+        "w2v",
+        "1"
+      ]
+    },
+    "prewrite": {
+      "data-frequency": "-1",
+      "data-relevance": "310",
+      "data-term": "prewrite",
+      "data-encoded-term": "prewrite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dyslexia": {
+      "data-frequency": "1663",
+      "data-relevance": "309",
+      "data-term": "dyslexia",
+      "data-encoded-term": "dyslexia",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1663",
+        "cn5",
+        "1"
+      ]
+    },
+    "linguistics": {
+      "data-frequency": "24751",
+      "data-relevance": "308",
+      "data-term": "linguistics",
+      "data-encoded-term": "linguistics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24751",
+        "w2v",
+        "1"
+      ]
+    },
+    "ghostwrite": {
+      "data-frequency": "79",
+      "data-relevance": "307",
+      "data-term": "ghostwrite",
+      "data-encoded-term": "ghostwrite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "anthropology": {
+      "data-frequency": "27900",
+      "data-relevance": "306",
+      "data-term": "anthropology",
+      "data-encoded-term": "anthropology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27900",
+        "w2v",
+        "1"
+      ]
+    },
+    "adoxography": {
+      "data-frequency": "-1",
+      "data-relevance": "305",
+      "data-term": "adoxography",
+      "data-encoded-term": "adoxography",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fisch": {
+      "data-frequency": "1307",
+      "data-relevance": "304",
+      "data-term": "fisch",
+      "data-encoded-term": "fisch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1307",
+        "w2v",
+        "1"
+      ]
+    },
+    "hitchens": {
+      "data-frequency": "1671",
+      "data-relevance": "303",
+      "data-term": "hitchens",
+      "data-encoded-term": "hitchens",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1671",
+        "w2v",
+        "1"
+      ]
+    },
+    "criminology": {
+      "data-frequency": "6117",
+      "data-relevance": "302",
+      "data-term": "criminology",
+      "data-encoded-term": "criminology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6117",
+        "w2v",
+        "1"
+      ]
+    },
+    "essays": {
+      "data-frequency": "54357",
+      "data-relevance": "301",
+      "data-term": "essays",
+      "data-encoded-term": "essays",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "54357",
+        "w2v",
+        "1"
+      ]
+    },
+    "kinsey": {
+      "data-frequency": "3690",
+      "data-relevance": "300",
+      "data-term": "kinsey",
+      "data-encoded-term": "kinsey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3690",
+        "w2v",
+        "1"
+      ]
+    },
+    "margolis": {
+      "data-frequency": "1791",
+      "data-relevance": "299",
+      "data-term": "margolis",
+      "data-encoded-term": "margolis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1791",
+        "w2v",
+        "1"
+      ]
+    },
+    "autography": {
+      "data-frequency": "-1",
+      "data-relevance": "298",
+      "data-term": "autography",
+      "data-encoded-term": "autography",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bioethics": {
+      "data-frequency": "2335",
+      "data-relevance": "297",
+      "data-term": "bioethics",
+      "data-encoded-term": "bioethics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2335",
+        "w2v",
+        "1"
+      ]
+    },
+    "exegetical": {
+      "data-frequency": "1212",
+      "data-relevance": "296",
+      "data-term": "exegetical",
+      "data-encoded-term": "exegetical",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1212",
+        "w2v",
+        "1"
+      ]
+    },
+    "dramatization": {
+      "data-frequency": "1524",
+      "data-relevance": "295",
+      "data-term": "dramatization",
+      "data-encoded-term": "dramatization",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1524",
+        "cn5",
+        "1"
+      ]
+    },
+    "delany": {
+      "data-frequency": "2497",
+      "data-relevance": "294",
+      "data-term": "delany",
+      "data-encoded-term": "delany",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2497",
+        "w2v",
+        "1"
+      ]
+    },
+    "neuman": {
+      "data-frequency": "2883",
+      "data-relevance": "293",
+      "data-term": "neuman",
+      "data-encoded-term": "neuman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2883",
+        "w2v",
+        "1"
+      ]
+    },
+    "plagiarism": {
+      "data-frequency": "3542",
+      "data-relevance": "292",
+      "data-term": "plagiarism",
+      "data-encoded-term": "plagiarism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3542",
+        "cn5",
+        "1"
+      ]
+    },
+    "wilson": {
+      "data-frequency": "255172",
+      "data-relevance": "291",
+      "data-term": "wilson",
+      "data-encoded-term": "wilson",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "255172",
+        "cn5",
+        "1"
+      ]
+    },
+    "superscribe": {
+      "data-frequency": "-1",
+      "data-relevance": "290",
+      "data-term": "superscribe",
+      "data-encoded-term": "superscribe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "emory": {
+      "data-frequency": "9806",
+      "data-relevance": "289",
+      "data-term": "emory",
+      "data-encoded-term": "emory",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9806",
+        "w2v",
+        "1"
+      ]
+    },
+    "folklorist": {
+      "data-frequency": "2976",
+      "data-relevance": "288",
+      "data-term": "folklorist",
+      "data-encoded-term": "folklorist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2976",
+        "w2v",
+        "1"
+      ]
+    },
+    "wright": {
+      "data-frequency": "131529",
+      "data-relevance": "287",
+      "data-term": "wright",
+      "data-encoded-term": "wright",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "131529",
+        "cn5",
+        "1"
+      ]
+    },
+    "bibliography": {
+      "data-frequency": "215387",
+      "data-relevance": "286",
+      "data-term": "bibliography",
+      "data-encoded-term": "bibliography",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "215387",
+        "w2v",
+        "1"
+      ]
+    },
+    "garrow": {
+      "data-frequency": "1070",
+      "data-relevance": "285",
+      "data-term": "garrow",
+      "data-encoded-term": "garrow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1070",
+        "w2v",
+        "1"
+      ]
+    },
+    "pen": {
+      "data-frequency": "74243",
+      "data-relevance": "284",
+      "data-term": "pen",
+      "data-encoded-term": "pen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "74243",
+        "cn5",
+        "1"
+      ]
+    },
+    "examines": {
+      "data-frequency": "11339",
+      "data-relevance": "283",
+      "data-term": "examines",
+      "data-encoded-term": "examines",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11339",
+        "w2v",
+        "1"
+      ]
+    },
+    "neuroscience": {
+      "data-frequency": "14596",
+      "data-relevance": "282",
+      "data-term": "neuroscience",
+      "data-encoded-term": "neuroscience",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14596",
+        "w2v",
+        "1"
+      ]
+    },
+    "copyist": {
+      "data-frequency": "1021",
+      "data-relevance": "281",
+      "data-term": "copyist",
+      "data-encoded-term": "copyist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1021",
+        "cn5",
+        "1"
+      ]
+    },
+    "lexicography": {
+      "data-frequency": "1301",
+      "data-relevance": "280",
+      "data-term": "lexicography",
+      "data-encoded-term": "lexicography",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1301",
+        "cn5",
+        "1"
+      ]
+    },
+    "exegesis": {
+      "data-frequency": "3775",
+      "data-relevance": "279",
+      "data-term": "exegesis",
+      "data-encoded-term": "exegesis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3775",
+        "w2v",
+        "1"
+      ]
+    },
+    "psychology": {
+      "data-frequency": "62194",
+      "data-relevance": "278",
+      "data-term": "psychology",
+      "data-encoded-term": "psychology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62194",
+        "w2v",
+        "1"
+      ]
+    },
+    "bowdlerization": {
+      "data-frequency": "-1",
+      "data-relevance": "277",
+      "data-term": "bowdlerization",
+      "data-encoded-term": "bowdlerization",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pediatrics": {
+      "data-frequency": "5695",
+      "data-relevance": "276",
+      "data-term": "pediatrics",
+      "data-encoded-term": "pediatrics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5695",
+        "w2v",
+        "1"
+      ]
+    },
+    "mckenna": {
+      "data-frequency": "13719",
+      "data-relevance": "275",
+      "data-term": "mckenna",
+      "data-encoded-term": "mckenna",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13719",
+        "w2v",
+        "1"
+      ]
+    },
+    "treatises": {
+      "data-frequency": "5664",
+      "data-relevance": "274",
+      "data-term": "treatises",
+      "data-encoded-term": "treatises",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5664",
+        "w2v",
+        "1"
+      ]
+    },
+    "opines": {
+      "data-frequency": "1003",
+      "data-relevance": "273",
+      "data-term": "opines",
+      "data-encoded-term": "opines",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1003",
+        "w2v",
+        "1"
+      ]
+    },
+    "textbook": {
+      "data-frequency": "20072",
+      "data-relevance": "272",
+      "data-term": "textbook",
+      "data-encoded-term": "textbook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20072",
+        "w2v",
+        "1"
+      ]
+    },
+    "goosequill": {
+      "data-frequency": "-1",
+      "data-relevance": "271",
+      "data-term": "goosequill",
+      "data-encoded-term": "goosequill",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bewrite": {
+      "data-frequency": "-1",
+      "data-relevance": "270",
+      "data-term": "bewrite",
+      "data-encoded-term": "bewrite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "africana": {
+      "data-frequency": "5170",
+      "data-relevance": "269",
+      "data-term": "africana",
+      "data-encoded-term": "africana",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5170",
+        "w2v",
+        "1"
+      ]
+    },
+    "vellum": {
+      "data-frequency": "1235",
+      "data-relevance": "268",
+      "data-term": "vellum",
+      "data-encoded-term": "vellum",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1235",
+        "cn5",
+        "1"
+      ]
+    },
+    "ricks": {
+      "data-frequency": "80673",
+      "data-relevance": "267",
+      "data-term": "ricks",
+      "data-encoded-term": "ricks",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "80673",
+        "w2v",
+        "1"
+      ]
+    },
+    "tufts": {
+      "data-frequency": "7994",
+      "data-relevance": "266",
+      "data-term": "tufts",
+      "data-encoded-term": "tufts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7994",
+        "w2v",
+        "1"
+      ]
+    },
+    "apostrophize": {
+      "data-frequency": "-1",
+      "data-relevance": "265",
+      "data-term": "apostrophize",
+      "data-encoded-term": "apostrophize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "longhand": {
+      "data-frequency": "257",
+      "data-relevance": "264",
+      "data-term": "longhand",
+      "data-encoded-term": "longhand",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "257",
+        "cn5",
+        "1"
+      ]
+    },
+    "neurology": {
+      "data-frequency": "7534",
+      "data-relevance": "263",
+      "data-term": "neurology",
+      "data-encoded-term": "neurology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7534",
+        "w2v",
+        "1"
+      ]
+    },
+    "nutritionist": {
+      "data-frequency": "1061",
+      "data-relevance": "262",
+      "data-term": "nutritionist",
+      "data-encoded-term": "nutritionist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1061",
+        "w2v",
+        "1"
+      ]
+    },
+    "poetics": {
+      "data-frequency": "4617",
+      "data-relevance": "261",
+      "data-term": "poetics",
+      "data-encoded-term": "poetics",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4617",
+        "w2v",
+        "1"
+      ]
+    },
+    "psychiatry": {
+      "data-frequency": "14777",
+      "data-relevance": "260",
+      "data-term": "psychiatry",
+      "data-encoded-term": "psychiatry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14777",
+        "w2v",
+        "1"
+      ]
+    },
+    "preface": {
+      "data-frequency": "17552",
+      "data-relevance": "259",
+      "data-term": "preface",
+      "data-encoded-term": "preface",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17552",
+        "w2v",
+        "1"
+      ]
+    },
+    "feldstein": {
+      "data-frequency": "883",
+      "data-relevance": "258",
+      "data-term": "feldstein",
+      "data-encoded-term": "feldstein",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "883",
+        "w2v",
+        "1"
+      ]
+    },
+    "pharmacology": {
+      "data-frequency": "14346",
+      "data-relevance": "257",
+      "data-term": "pharmacology",
+      "data-encoded-term": "pharmacology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14346",
+        "w2v",
+        "1"
+      ]
+    },
+    "neurologist": {
+      "data-frequency": "3104",
+      "data-relevance": "256",
+      "data-term": "neurologist",
+      "data-encoded-term": "neurologist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3104",
+        "w2v",
+        "1"
+      ]
+    },
+    "psychotherapist": {
+      "data-frequency": "1803",
+      "data-relevance": "255",
+      "data-term": "psychotherapist",
+      "data-encoded-term": "psychotherapist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1803",
+        "w2v",
+        "1"
+      ]
+    },
+    "booklist": {
+      "data-frequency": "2394",
+      "data-relevance": "254",
+      "data-term": "booklist",
+      "data-encoded-term": "booklist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2394",
+        "w2v",
+        "1"
+      ]
+    },
+    "sontag": {
+      "data-frequency": "1139",
+      "data-relevance": "253",
+      "data-term": "sontag",
+      "data-encoded-term": "sontag",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1139",
+        "w2v",
+        "1"
+      ]
+    },
+    "heaney": {
+      "data-frequency": "2995",
+      "data-relevance": "252",
+      "data-term": "heaney",
+      "data-encoded-term": "heaney",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2995",
+        "w2v",
+        "1"
+      ]
+    },
+    "overwrite": {
+      "data-frequency": "345",
+      "data-relevance": "251",
+      "data-term": "overwrite",
+      "data-encoded-term": "overwrite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "345",
+        "cn5",
+        "1"
+      ]
+    },
+    "excerpted": {
+      "data-frequency": "1907",
+      "data-relevance": "250",
+      "data-term": "excerpted",
+      "data-encoded-term": "excerpted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1907",
+        "w2v",
+        "1"
+      ]
+    },
+    "summarizes": {
+      "data-frequency": "3641",
+      "data-relevance": "249",
+      "data-term": "summarizes",
+      "data-encoded-term": "summarizes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3641",
+        "w2v",
+        "1"
+      ]
+    },
+    "co-edited": {
+      "data-frequency": "5145",
+      "data-relevance": "248",
+      "data-term": "co-edited",
+      "data-encoded-term": "co-edited",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5145",
+        "w2v",
+        "1"
+      ]
+    },
+    "musicology": {
+      "data-frequency": "4142",
+      "data-relevance": "247",
+      "data-term": "musicology",
+      "data-encoded-term": "musicology",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4142",
+        "w2v",
+        "1"
+      ]
+    },
+    "lawrence": {
+      "data-frequency": "172171",
+      "data-relevance": "246",
+      "data-term": "lawrence",
+      "data-encoded-term": "lawrence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "172171",
+        "cn5",
+        "1"
+      ]
+    },
+    "caplan": {
+      "data-frequency": "2502",
+      "data-relevance": "245",
+      "data-term": "caplan",
+      "data-encoded-term": "caplan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2502",
+        "w2v",
+        "1"
+      ]
+    },
+    "dershowitz": {
+      "data-frequency": "710",
+      "data-relevance": "244",
+      "data-term": "dershowitz",
+      "data-encoded-term": "dershowitz",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "710",
+        "w2v",
+        "1"
+      ]
+    },
+    "feder": {
+      "data-frequency": "53126",
+      "data-relevance": "243",
+      "data-term": "feder",
+      "data-encoded-term": "feder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53126",
+        "w2v",
+        "1"
+      ]
+    },
+    "scholarly": {
+      "data-frequency": "25729",
+      "data-relevance": "242",
+      "data-term": "scholarly",
+      "data-encoded-term": "scholarly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25729",
+        "w2v",
+        "1"
+      ]
+    },
+    "strayer": {
+      "data-frequency": "12582",
+      "data-relevance": "241",
+      "data-term": "strayer",
+      "data-encoded-term": "strayer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12582",
+        "w2v",
+        "1"
+      ]
+    },
+    "proofread": {
+      "data-frequency": "252",
+      "data-relevance": "240",
+      "data-term": "proofread",
+      "data-encoded-term": "proofread",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "252",
+        "cn5",
+        "1"
+      ]
+    },
+    "sociological": {
+      "data-frequency": "9134",
+      "data-relevance": "239",
+      "data-term": "sociological",
+      "data-encoded-term": "sociological",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9134",
+        "w2v",
+        "1"
+      ]
+    },
+    "jacob": {
+      "data-frequency": "87933",
+      "data-relevance": "238",
+      "data-term": "jacob",
+      "data-encoded-term": "jacob",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "87933",
+        "cn5",
+        "1"
+      ]
+    },
+    "inscribe": {
+      "data-frequency": "557",
+      "data-relevance": "237",
+      "data-term": "inscribe",
+      "data-encoded-term": "inscribe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "557",
+        "cn5",
+        "1"
+      ]
+    },
+    "writeback": {
+      "data-frequency": "-1",
+      "data-relevance": "236",
+      "data-term": "writeback",
+      "data-encoded-term": "writeback",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "orwell": {
+      "data-frequency": "4374",
+      "data-relevance": "235",
+      "data-term": "orwell",
+      "data-encoded-term": "orwell",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4374",
+        "cn5",
+        "1"
+      ]
+    },
+    "italicize": {
+      "data-frequency": "-1",
+      "data-relevance": "234",
+      "data-term": "italicize",
+      "data-encoded-term": "italicize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dithyramb": {
+      "data-frequency": "91",
+      "data-relevance": "233",
+      "data-term": "dithyramb",
+      "data-encoded-term": "dithyramb",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "91",
+        "cn5",
+        "1"
+      ]
+    },
+    "inkjet": {
+      "data-frequency": "623",
+      "data-relevance": "232",
+      "data-term": "inkjet",
+      "data-encoded-term": "inkjet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "623",
+        "cn5",
+        "1"
+      ]
+    },
+    "transcriber": {
+      "data-frequency": "306",
+      "data-relevance": "231",
+      "data-term": "transcriber",
+      "data-encoded-term": "transcriber",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "306",
+        "cn5",
+        "1"
+      ]
+    },
+    "protowriting": {
+      "data-frequency": "-1",
+      "data-relevance": "230",
+      "data-term": "protowriting",
+      "data-encoded-term": "protowriting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "uncial": {
+      "data-frequency": "918",
+      "data-relevance": "229",
+      "data-term": "uncial",
+      "data-encoded-term": "uncial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "918",
+        "cn5",
+        "1"
+      ]
+    },
+    "dramatist": {
+      "data-frequency": "8905",
+      "data-relevance": "228",
+      "data-term": "dramatist",
+      "data-encoded-term": "dramatist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8905",
+        "cn5",
+        "1"
+      ]
+    },
+    "scriptwriting": {
+      "data-frequency": "808",
+      "data-relevance": "227",
+      "data-term": "scriptwriting",
+      "data-encoded-term": "scriptwriting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "808",
+        "cn5",
+        "1"
+      ]
+    },
+    "co-editor": {
+      "data-frequency": "6501",
+      "data-relevance": "226",
+      "data-term": "co-editor",
+      "data-encoded-term": "co-editor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6501",
+        "w2v",
+        "1"
+      ]
+    },
+    "scribbler": {
+      "data-frequency": "163",
+      "data-relevance": "225",
+      "data-term": "scribbler",
+      "data-encoded-term": "scribbler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "163",
+        "cn5",
+        "1"
+      ]
+    },
+    "epistolary": {
+      "data-frequency": "1084",
+      "data-relevance": "224",
+      "data-term": "epistolary",
+      "data-encoded-term": "epistolary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1084",
+        "cn5",
+        "1"
+      ]
+    },
+    "schiffman": {
+      "data-frequency": "718",
+      "data-relevance": "223",
+      "data-term": "schiffman",
+      "data-encoded-term": "schiffman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "718",
+        "w2v",
+        "1"
+      ]
+    },
+    "wiki": {
+      "data-frequency": "23276",
+      "data-relevance": "222",
+      "data-term": "wiki",
+      "data-encoded-term": "wiki",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "23276",
+        "wiki",
+        "1"
+      ]
+    },
+    "hieroglyphic": {
+      "data-frequency": "2414",
+      "data-relevance": "221",
+      "data-term": "hieroglyphic",
+      "data-encoded-term": "hieroglyphic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2414",
+        "cn5",
+        "1"
+      ]
+    },
+    "underwrite": {
+      "data-frequency": "674",
+      "data-relevance": "220",
+      "data-term": "underwrite",
+      "data-encoded-term": "underwrite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "674",
+        "cn5",
+        "1"
+      ]
+    },
+    "transcript": {
+      "data-frequency": "25878",
+      "data-relevance": "219",
+      "data-term": "transcript",
+      "data-encoded-term": "transcript",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "25878",
+        "cn5",
+        "1"
+      ]
+    },
+    "blendon": {
+      "data-frequency": "167",
+      "data-relevance": "218",
+      "data-term": "blendon",
+      "data-encoded-term": "blendon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "167",
+        "w2v",
+        "1"
+      ]
+    },
+    "authorcraft": {
+      "data-frequency": "-1",
+      "data-relevance": "217",
+      "data-term": "authorcraft",
+      "data-encoded-term": "authorcraft",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "impen": {
+      "data-frequency": "-1",
+      "data-relevance": "216",
+      "data-term": "impen",
+      "data-encoded-term": "impen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fleming": {
+      "data-frequency": "33643",
+      "data-relevance": "215",
+      "data-term": "fleming",
+      "data-encoded-term": "fleming",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33643",
+        "cn5",
+        "1"
+      ]
+    },
+    "printer": {
+      "data-frequency": "20658",
+      "data-relevance": "214",
+      "data-term": "printer",
+      "data-encoded-term": "printer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20658",
+        "cn5",
+        "1"
+      ]
+    },
+    "bookwright": {
+      "data-frequency": "-1",
+      "data-relevance": "213",
+      "data-term": "bookwright",
+      "data-encoded-term": "bookwright",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "russell": {
+      "data-frequency": "166061",
+      "data-relevance": "212",
+      "data-term": "russell",
+      "data-encoded-term": "russell",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "166061",
+        "cn5",
+        "1"
+      ]
+    },
+    "brainwriting": {
+      "data-frequency": "-1",
+      "data-relevance": "211",
+      "data-term": "brainwriting",
+      "data-encoded-term": "brainwriting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "overprint": {
+      "data-frequency": "405",
+      "data-relevance": "210",
+      "data-term": "overprint",
+      "data-encoded-term": "overprint",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "405",
+        "cn5",
+        "1"
+      ]
+    },
+    "write book": {
+      "data-frequency": "79",
+      "data-relevance": "209",
+      "data-term": "write book",
+      "data-encoded-term": "write%20book",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "rhymer": {
+      "data-frequency": "763",
+      "data-relevance": "208",
+      "data-term": "rhymer",
+      "data-encoded-term": "rhymer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "763",
+        "cn5",
+        "1"
+      ]
+    },
+    "book-length": {
+      "data-frequency": "65001",
+      "data-relevance": "207",
+      "data-term": "book-length",
+      "data-encoded-term": "book-length",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65001",
+        "w2v",
+        "1"
+      ]
+    },
+    "print": {
+      "data-frequency": "138763",
+      "data-relevance": "206",
+      "data-term": "print",
+      "data-encoded-term": "print",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "138763",
+        "cn5",
+        "1"
+      ]
+    },
+    "fleischman": {
+      "data-frequency": "695",
+      "data-relevance": "205",
+      "data-term": "fleischman",
+      "data-encoded-term": "fleischman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "695",
+        "w2v",
+        "1"
+      ]
+    },
+    "fiction/fantasy": {
+      "data-frequency": "25930",
+      "data-relevance": "204",
+      "data-term": "fiction/fantasy",
+      "data-encoded-term": "fiction%2Ffantasy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "25930",
+        "w2v",
+        "1"
+      ]
+    },
+    "coauthors": {
+      "data-frequency": "500",
+      "data-relevance": "203",
+      "data-term": "coauthors",
+      "data-encoded-term": "coauthors",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "500",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-fiction": {
+      "data-frequency": "49537",
+      "data-relevance": "202",
+      "data-term": "non-fiction",
+      "data-encoded-term": "non-fiction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49537",
+        "w2v",
+        "1"
+      ]
+    },
+    "prize-winning": {
+      "data-frequency": "8478",
+      "data-relevance": "201",
+      "data-term": "prize-winning",
+      "data-encoded-term": "prize-winning",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8478",
+        "w2v",
+        "1"
+      ]
+    },
+    "penwiper": {
+      "data-frequency": "-1",
+      "data-relevance": "200",
+      "data-term": "penwiper",
+      "data-encoded-term": "penwiper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "co-authoring": {
+      "data-frequency": "136629",
+      "data-relevance": "199",
+      "data-term": "co-authoring",
+      "data-encoded-term": "co-authoring",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "136629",
+        "w2v",
+        "1"
+      ]
+    },
+    "shonku": {
+      "data-frequency": "48",
+      "data-relevance": "198",
+      "data-term": "shonku",
+      "data-encoded-term": "shonku",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "w2v",
+        "1"
+      ]
+    },
+    "christakis": {
+      "data-frequency": "308",
+      "data-relevance": "197",
+      "data-term": "christakis",
+      "data-encoded-term": "christakis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "308",
+        "w2v",
+        "1"
+      ]
+    },
+    "peer-reviewed": {
+      "data-frequency": "13903",
+      "data-relevance": "196",
+      "data-term": "peer-reviewed",
+      "data-encoded-term": "peer-reviewed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13903",
+        "w2v",
+        "1"
+      ]
+    },
+    "pagels": {
+      "data-frequency": "1479",
+      "data-relevance": "195",
+      "data-term": "pagels",
+      "data-encoded-term": "pagels",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1479",
+        "w2v",
+        "1"
+      ]
+    },
+    "sexologist": {
+      "data-frequency": "628",
+      "data-relevance": "194",
+      "data-term": "sexologist",
+      "data-encoded-term": "sexologist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "628",
+        "w2v",
+        "1"
+      ]
+    },
+    "interscribe": {
+      "data-frequency": "-1",
+      "data-relevance": "193",
+      "data-term": "interscribe",
+      "data-encoded-term": "interscribe",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "glenmullen": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "glenmullen",
+      "data-encoded-term": "glenmullen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "greenstein": {
+      "data-frequency": "1215",
+      "data-relevance": "191",
+      "data-term": "greenstein",
+      "data-encoded-term": "greenstein",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1215",
+        "w2v",
+        "1"
+      ]
+    },
+    "semiautobiographical": {
+      "data-frequency": "65",
+      "data-relevance": "190",
+      "data-term": "semiautobiographical",
+      "data-encoded-term": "semiautobiographical",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "65",
+        "w2v",
+        "1"
+      ]
+    },
+    "tell-all": {
+      "data-frequency": "1245",
+      "data-relevance": "189",
+      "data-term": "tell-all",
+      "data-encoded-term": "tell-all",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1245",
+        "w2v",
+        "1"
+      ]
+    },
+    "semi-autobiographical": {
+      "data-frequency": "2163",
+      "data-relevance": "188",
+      "data-term": "semi-autobiographical",
+      "data-encoded-term": "semi-autobiographical",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2163",
+        "w2v",
+        "1"
+      ]
+    },
+    "glantz": {
+      "data-frequency": "1052",
+      "data-relevance": "187",
+      "data-term": "glantz",
+      "data-encoded-term": "glantz",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1052",
+        "w2v",
+        "1"
+      ]
+    },
+    "cosman": {
+      "data-frequency": "242",
+      "data-relevance": "186",
+      "data-term": "cosman",
+      "data-encoded-term": "cosman",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "242",
+        "w2v",
+        "1"
+      ]
+    },
+    "thernstrom": {
+      "data-frequency": "165",
+      "data-relevance": "185",
+      "data-term": "thernstrom",
+      "data-encoded-term": "thernstrom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "165",
+        "w2v",
+        "1"
+      ]
+    },
+    "192-page": {
+      "data-frequency": "25139",
+      "data-relevance": "184",
+      "data-term": "192-page",
+      "data-encoded-term": "192-page",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "25139",
+        "w2v",
+        "1"
+      ]
+    },
+    "tachygraphy": {
+      "data-frequency": "-1",
+      "data-relevance": "183",
+      "data-term": "tachygraphy",
+      "data-encoded-term": "tachygraphy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "biostatistics": {
+      "data-frequency": "1325",
+      "data-relevance": "182",
+      "data-term": "biostatistics",
+      "data-encoded-term": "biostatistics",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1325",
+        "w2v",
+        "1"
+      ]
+    },
+    "wordsmith": {
+      "data-frequency": "377",
+      "data-relevance": "181",
+      "data-term": "wordsmith",
+      "data-encoded-term": "wordsmith",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "377",
+        "cn5",
+        "1"
+      ]
+    },
+    "co-authors": {
+      "data-frequency": "136649",
+      "data-relevance": "180",
+      "data-term": "co-authors",
+      "data-encoded-term": "co-authors",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "136649",
+        "w2v",
+        "1"
+      ]
+    },
+    "http://www.aap.org": {
+      "data-frequency": "-1",
+      "data-relevance": "179",
+      "data-term": "http://www.aap.org",
+      "data-encoded-term": "http%3A%2F%2Fwww.aap.org",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "mcgarvey": {
+      "data-frequency": "870",
+      "data-relevance": "178",
+      "data-term": "mcgarvey",
+      "data-encoded-term": "mcgarvey",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "870",
+        "w2v",
+        "1"
+      ]
+    },
+    "salon.com": {
+      "data-frequency": "3486",
+      "data-relevance": "177",
+      "data-term": "salon.com",
+      "data-encoded-term": "salon.com",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3486",
+        "w2v",
+        "1"
+      ]
+    },
+    "hand write": {
+      "data-frequency": "-1",
+      "data-relevance": "176",
+      "data-term": "hand write",
+      "data-encoded-term": "hand%20write",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "klausner": {
+      "data-frequency": "726",
+      "data-relevance": "175",
+      "data-term": "klausner",
+      "data-encoded-term": "klausner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "726",
+        "w2v",
+        "1"
+      ]
+    },
+    "stenograph": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "stenograph",
+      "data-encoded-term": "stenograph",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "signwriter": {
+      "data-frequency": "83",
+      "data-relevance": "173",
+      "data-term": "signwriter",
+      "data-encoded-term": "signwriter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "printability": {
+      "data-frequency": "47",
+      "data-relevance": "172",
+      "data-term": "printability",
+      "data-encoded-term": "printability",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "wordmonger": {
+      "data-frequency": "-1",
+      "data-relevance": "171",
+      "data-term": "wordmonger",
+      "data-encoded-term": "wordmonger",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pinfold": {
+      "data-frequency": "284",
+      "data-relevance": "170",
+      "data-term": "pinfold",
+      "data-encoded-term": "pinfold",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "284",
+        "cn5",
+        "1"
+      ]
+    },
+    "literary composition": {
+      "data-frequency": "148",
+      "data-relevance": "169",
+      "data-term": "literary composition",
+      "data-encoded-term": "literary%20composition",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "148",
+        "cn5",
+        "1"
+      ]
+    },
+    "intertextuality": {
+      "data-frequency": "633",
+      "data-relevance": "168",
+      "data-term": "intertextuality",
+      "data-encoded-term": "intertextuality",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "633",
+        "cn5",
+        "1"
+      ]
+    },
+    "nastygram": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "nastygram",
+      "data-encoded-term": "nastygram",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "preprint": {
+      "data-frequency": "1174",
+      "data-relevance": "166",
+      "data-term": "preprint",
+      "data-encoded-term": "preprint",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1174",
+        "cn5",
+        "1"
+      ]
+    },
+    "use ink": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "use ink",
+      "data-encoded-term": "use%20ink",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "copywrite": {
+      "data-frequency": "74",
+      "data-relevance": "164",
+      "data-term": "copywrite",
+      "data-encoded-term": "copywrite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "74",
+        "cn5",
+        "1"
+      ]
+    },
+    "record information": {
+      "data-frequency": "399",
+      "data-relevance": "163",
+      "data-term": "record information",
+      "data-encoded-term": "record%20information",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "399",
+        "cn5",
+        "1"
+      ]
+    },
+    "write only": {
+      "data-frequency": "198",
+      "data-relevance": "162",
+      "data-term": "write only",
+      "data-encoded-term": "write%20only",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "198",
+        "cn5",
+        "1"
+      ]
+    },
+    "use blue pen": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "use blue pen",
+      "data-encoded-term": "use%20blue%20pen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "creative write": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "creative write",
+      "data-encoded-term": "creative%20write",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "writability": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "writability",
+      "data-encoded-term": "writability",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "only person": {
+      "data-frequency": "6680",
+      "data-relevance": "158",
+      "data-term": "only person",
+      "data-encoded-term": "only%20person",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6680",
+        "cn5",
+        "1"
+      ]
+    },
+    "write out": {
+      "data-frequency": "443",
+      "data-relevance": "157",
+      "data-term": "write out",
+      "data-encoded-term": "write%20out",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "443",
+        "cn5",
+        "1"
+      ]
+    },
+    "outwrite": {
+      "data-frequency": "-1",
+      "data-relevance": "156",
+      "data-term": "outwrite",
+      "data-encoded-term": "outwrite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "opisthograph": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "opisthograph",
+      "data-encoded-term": "opisthograph",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "skopos": {
+      "data-frequency": "150",
+      "data-relevance": "154",
+      "data-term": "skopos",
+      "data-encoded-term": "skopos",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "150",
+        "cn5",
+        "1"
+      ]
+    },
+    "in write": {
+      "data-frequency": "212",
+      "data-relevance": "153",
+      "data-term": "in write",
+      "data-encoded-term": "in%20write",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "212",
+        "cn5",
+        "1"
+      ]
+    },
+    "screeve": {
+      "data-frequency": "-1",
+      "data-relevance": "152",
+      "data-term": "screeve",
+      "data-encoded-term": "screeve",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "learn to spell": {
+      "data-frequency": "-1",
+      "data-relevance": "151",
+      "data-term": "learn to spell",
+      "data-encoded-term": "learn%20to%20spell",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "space writer": {
+      "data-frequency": "-1",
+      "data-relevance": "150",
+      "data-term": "space writer",
+      "data-encoded-term": "space%20writer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "on paper": {
+      "data-frequency": "9547",
+      "data-relevance": "149",
+      "data-term": "on paper",
+      "data-encoded-term": "on%20paper",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9547",
+        "cn5",
+        "1"
+      ]
+    },
+    "penmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "148",
+      "data-term": "penmaking",
+      "data-encoded-term": "penmaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rescribe": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "rescribe",
+      "data-encoded-term": "rescribe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "metrification": {
+      "data-frequency": "51",
+      "data-relevance": "146",
+      "data-term": "metrification",
+      "data-encoded-term": "metrification",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "in print": {
+      "data-frequency": "14199",
+      "data-relevance": "145",
+      "data-term": "in print",
+      "data-encoded-term": "in%20print",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14199",
+        "cn5",
+        "1"
+      ]
+    },
+    "dash off": {
+      "data-frequency": "49",
+      "data-relevance": "144",
+      "data-term": "dash off",
+      "data-encoded-term": "dash%20off",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "49",
+        "cn5",
+        "1"
+      ]
+    },
+    "genre of write": {
+      "data-frequency": "-1",
+      "data-relevance": "143",
+      "data-term": "genre of write",
+      "data-encoded-term": "genre%20of%20write",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "automatic write": {
+      "data-frequency": "-1",
+      "data-relevance": "142",
+      "data-term": "automatic write",
+      "data-encoded-term": "automatic%20write",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "use pen": {
+      "data-frequency": "-1",
+      "data-relevance": "141",
+      "data-term": "use pen",
+      "data-encoded-term": "use%20pen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "researcher": {
+      "data-frequency": "34658",
+      "data-relevance": "140",
+      "data-term": "researcher",
+      "data-encoded-term": "researcher",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "34658",
+        "ol",
+        "1"
+      ]
+    },
+    "write communication": {
+      "data-frequency": "-1",
+      "data-relevance": "139",
+      "data-term": "write communication",
+      "data-encoded-term": "write%20communication",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "geographer": {
+      "data-frequency": "8232",
+      "data-relevance": "138",
+      "data-term": "geographer",
+      "data-encoded-term": "geographer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8232",
+        "ol",
+        "1"
+      ]
+    },
+    "professor": {
+      "data-frequency": "285231",
+      "data-relevance": "137",
+      "data-term": "professor",
+      "data-encoded-term": "professor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "285231",
+        "ol",
+        "1"
+      ]
+    },
+    "ecologist": {
+      "data-frequency": "4546",
+      "data-relevance": "136",
+      "data-term": "ecologist",
+      "data-encoded-term": "ecologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4546",
+        "ol",
+        "1"
+      ]
+    },
+    "biologist": {
+      "data-frequency": "15212",
+      "data-relevance": "135",
+      "data-term": "biologist",
+      "data-encoded-term": "biologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "15212",
+        "ol",
+        "1"
+      ]
+    },
+    "geneticist": {
+      "data-frequency": "3662",
+      "data-relevance": "134",
+      "data-term": "geneticist",
+      "data-encoded-term": "geneticist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3662",
+        "ol",
+        "1"
+      ]
+    },
+    "neuroscientist": {
+      "data-frequency": "2525",
+      "data-relevance": "133",
+      "data-term": "neuroscientist",
+      "data-encoded-term": "neuroscientist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2525",
+        "ol",
+        "1"
+      ]
+    },
+    "biochemist": {
+      "data-frequency": "4254",
+      "data-relevance": "132",
+      "data-term": "biochemist",
+      "data-encoded-term": "biochemist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4254",
+        "ol",
+        "1"
+      ]
+    },
+    "theorist": {
+      "data-frequency": "13299",
+      "data-relevance": "131",
+      "data-term": "theorist",
+      "data-encoded-term": "theorist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13299",
+        "ol",
+        "1"
+      ]
+    },
+    "writes": {
+      "data-frequency": "56550",
+      "data-relevance": "130",
+      "data-term": "writes",
+      "data-encoded-term": "writes",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "56550",
+        "ol",
+        "1"
+      ]
+    },
+    "scientist": {
+      "data-frequency": "81031",
+      "data-relevance": "129",
+      "data-term": "scientist",
+      "data-encoded-term": "scientist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "81031",
+        "ol",
+        "1"
+      ]
+    },
+    "explains": {
+      "data-frequency": "51637",
+      "data-relevance": "128",
+      "data-term": "explains",
+      "data-encoded-term": "explains",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "51637",
+        "ol",
+        "1"
+      ]
+    },
+    "illus": {
+      "data-frequency": "1652",
+      "data-relevance": "127",
+      "data-term": "illus",
+      "data-encoded-term": "illus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1652",
+        "ol",
+        "1"
+      ]
+    },
+    "physiologist": {
+      "data-frequency": "3345",
+      "data-relevance": "126",
+      "data-term": "physiologist",
+      "data-encoded-term": "physiologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3345",
+        "ol",
+        "1"
+      ]
+    },
+    "lecturer": {
+      "data-frequency": "48567",
+      "data-relevance": "125",
+      "data-term": "lecturer",
+      "data-encoded-term": "lecturer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "48567",
+        "ol",
+        "1"
+      ]
+    },
+    "titled": {
+      "data-frequency": "137216",
+      "data-relevance": "124",
+      "data-term": "titled",
+      "data-encoded-term": "titled",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "137216",
+        "ol",
+        "1"
+      ]
+    },
+    "epidemiologist": {
+      "data-frequency": "1314",
+      "data-relevance": "123",
+      "data-term": "epidemiologist",
+      "data-encoded-term": "epidemiologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1314",
+        "ol",
+        "1"
+      ]
+    },
+    "physicist": {
+      "data-frequency": "30054",
+      "data-relevance": "122",
+      "data-term": "physicist",
+      "data-encoded-term": "physicist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "30054",
+        "ol",
+        "1"
+      ]
+    },
+    "oceanographer": {
+      "data-frequency": "1318",
+      "data-relevance": "121",
+      "data-term": "oceanographer",
+      "data-encoded-term": "oceanographer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1318",
+        "ol",
+        "1"
+      ]
+    },
+    "zoologist": {
+      "data-frequency": "9109",
+      "data-relevance": "120",
+      "data-term": "zoologist",
+      "data-encoded-term": "zoologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9109",
+        "ol",
+        "1"
+      ]
+    },
+    "dphil": {
+      "data-frequency": "1242",
+      "data-relevance": "119",
+      "data-term": "dphil",
+      "data-encoded-term": "dphil",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1242",
+        "ol",
+        "1"
+      ]
+    },
+    "expert": {
+      "data-frequency": "79000",
+      "data-relevance": "118",
+      "data-term": "expert",
+      "data-encoded-term": "expert",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "79000",
+        "ol",
+        "1"
+      ]
+    },
+    "observes": {
+      "data-frequency": "8466",
+      "data-relevance": "117",
+      "data-term": "observes",
+      "data-encoded-term": "observes",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8466",
+        "ol",
+        "1"
+      ]
+    },
+    "economist": {
+      "data-frequency": "46183",
+      "data-relevance": "116",
+      "data-term": "economist",
+      "data-encoded-term": "economist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46183",
+        "ol",
+        "1"
+      ]
+    },
+    "palaeontologist": {
+      "data-frequency": "1300",
+      "data-relevance": "115",
+      "data-term": "palaeontologist",
+      "data-encoded-term": "palaeontologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1300",
+        "ol",
+        "1"
+      ]
+    },
+    "theorizes": {
+      "data-frequency": "1179",
+      "data-relevance": "114",
+      "data-term": "theorizes",
+      "data-encoded-term": "theorizes",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1179",
+        "ol",
+        "1"
+      ]
+    },
+    "cofounder": {
+      "data-frequency": "2434",
+      "data-relevance": "113",
+      "data-term": "cofounder",
+      "data-encoded-term": "cofounder",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2434",
+        "ol",
+        "1"
+      ]
+    },
+    "entomologist": {
+      "data-frequency": "10135",
+      "data-relevance": "112",
+      "data-term": "entomologist",
+      "data-encoded-term": "entomologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10135",
+        "ol",
+        "1"
+      ]
+    },
+    "geophysicist": {
+      "data-frequency": "1352",
+      "data-relevance": "111",
+      "data-term": "geophysicist",
+      "data-encoded-term": "geophysicist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1352",
+        "ol",
+        "1"
+      ]
+    },
+    "elaborates": {
+      "data-frequency": "39367",
+      "data-relevance": "110",
+      "data-term": "elaborates",
+      "data-encoded-term": "elaborates",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "39367",
+        "ol",
+        "1"
+      ]
+    },
+    "astronomer": {
+      "data-frequency": "19299",
+      "data-relevance": "109",
+      "data-term": "astronomer",
+      "data-encoded-term": "astronomer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "19299",
+        "ol",
+        "1"
+      ]
+    },
+    "bestseller": {
+      "data-frequency": "7659",
+      "data-relevance": "108",
+      "data-term": "bestseller",
+      "data-encoded-term": "bestseller",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7659",
+        "ol",
+        "1"
+      ]
+    },
+    "historian": {
+      "data-frequency": "113880",
+      "data-relevance": "107",
+      "data-term": "historian",
+      "data-encoded-term": "historian",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "113880",
+        "ol",
+        "1"
+      ]
+    },
+    "casebook": {
+      "data-frequency": "1683",
+      "data-relevance": "106",
+      "data-term": "casebook",
+      "data-encoded-term": "casebook",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1683",
+        "ol",
+        "1"
+      ]
+    },
+    "scholar": {
+      "data-frequency": "541459",
+      "data-relevance": "105",
+      "data-term": "scholar",
+      "data-encoded-term": "scholar",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "541459",
+        "ol",
+        "1"
+      ]
+    },
+    "criminologist": {
+      "data-frequency": "1223",
+      "data-relevance": "104",
+      "data-term": "criminologist",
+      "data-encoded-term": "criminologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1223",
+        "ol",
+        "1"
+      ]
+    },
+    "astrophysicist": {
+      "data-frequency": "2815",
+      "data-relevance": "103",
+      "data-term": "astrophysicist",
+      "data-encoded-term": "astrophysicist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2815",
+        "ol",
+        "1"
+      ]
+    },
+    "posits": {
+      "data-frequency": "2974",
+      "data-relevance": "102",
+      "data-term": "posits",
+      "data-encoded-term": "posits",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2974",
+        "ol",
+        "1"
+      ]
+    },
+    "eds": {
+      "data-frequency": "202411",
+      "data-relevance": "101",
+      "data-term": "eds",
+      "data-encoded-term": "eds",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "202411",
+        "ol",
+        "1"
+      ]
+    },
+    "postulates": {
+      "data-frequency": "1861",
+      "data-relevance": "100",
+      "data-term": "postulates",
+      "data-encoded-term": "postulates",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1861",
+        "ol",
+        "1"
+      ]
+    },
+    "mycologist": {
+      "data-frequency": "2818",
+      "data-relevance": "99",
+      "data-term": "mycologist",
+      "data-encoded-term": "mycologist",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2818",
+        "ol",
+        "1"
+      ]
+    },
+    "make note": {
+      "data-frequency": "143",
+      "data-relevance": "98",
+      "data-term": "make note",
+      "data-encoded-term": "make%20note",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "143",
+        "cn5",
+        "1"
+      ]
+    },
+    "published": {
+      "data-frequency": "575368",
+      "data-relevance": "97",
+      "data-term": "published",
+      "data-encoded-term": "published",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "575368",
+        "ol",
+        "1"
+      ]
+    },
+    "use pencil": {
+      "data-frequency": "-1",
+      "data-relevance": "96",
+      "data-term": "use pencil",
+      "data-encoded-term": "use%20pencil",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pick up pen": {
+      "data-frequency": "-1",
+      "data-relevance": "95",
+      "data-term": "pick up pen",
+      "data-encoded-term": "pick%20up%20pen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "credit line": {
+      "data-frequency": "386",
+      "data-relevance": "94",
+      "data-term": "credit line",
+      "data-encoded-term": "credit%20line",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "386",
+        "cn5",
+        "1"
+      ]
+    },
+    "record data": {
+      "data-frequency": "307",
+      "data-relevance": "93",
+      "data-term": "record data",
+      "data-encoded-term": "record%20data",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "307",
+        "cn5",
+        "1"
+      ]
+    },
+    "write once": {
+      "data-frequency": "175",
+      "data-relevance": "92",
+      "data-term": "write once",
+      "data-encoded-term": "write%20once",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "write instrument": {
+      "data-frequency": "-1",
+      "data-relevance": "91",
+      "data-term": "write instrument",
+      "data-encoded-term": "write%20instrument",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "write with": {
+      "data-frequency": "805",
+      "data-relevance": "90",
+      "data-term": "write with",
+      "data-encoded-term": "write%20with",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "805",
+        "cn5",
+        "1"
+      ]
+    },
+    "write in": {
+      "data-frequency": "7684",
+      "data-relevance": "89",
+      "data-term": "write in",
+      "data-encoded-term": "write%20in",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7684",
+        "cn5",
+        "1"
+      ]
+    },
+    "jot down": {
+      "data-frequency": "85",
+      "data-relevance": "88",
+      "data-term": "jot down",
+      "data-encoded-term": "jot%20down",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "85",
+        "cn5",
+        "1"
+      ]
+    },
+    "write on": {
+      "data-frequency": "1353",
+      "data-relevance": "87",
+      "data-term": "write on",
+      "data-encoded-term": "write%20on",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1353",
+        "cn5",
+        "1"
+      ]
+    },
+    "write word": {
+      "data-frequency": "-1",
+      "data-relevance": "86",
+      "data-term": "write word",
+      "data-encoded-term": "write%20word",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "get pen": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "get pen",
+      "data-encoded-term": "get%20pen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coeditor": {
+      "data-frequency": "328",
+      "data-relevance": "84",
+      "data-term": "coeditor",
+      "data-encoded-term": "coeditor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "328",
+        "ol",
+        "1"
+      ]
+    },
+    "scd": {
+      "data-frequency": "804",
+      "data-relevance": "83",
+      "data-term": "scd",
+      "data-encoded-term": "scd",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "804",
+        "ol",
+        "1"
+      ]
+    },
+    "limnologist": {
+      "data-frequency": "116",
+      "data-relevance": "82",
+      "data-term": "limnologist",
+      "data-encoded-term": "limnologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "116",
+        "ol",
+        "1"
+      ]
+    },
+    "biophysicist": {
+      "data-frequency": "797",
+      "data-relevance": "81",
+      "data-term": "biophysicist",
+      "data-encoded-term": "biophysicist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "797",
+        "ol",
+        "1"
+      ]
+    },
+    "immunologist": {
+      "data-frequency": "1127",
+      "data-relevance": "80",
+      "data-term": "immunologist",
+      "data-encoded-term": "immunologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1127",
+        "ol",
+        "1"
+      ]
+    },
+    "methodologist": {
+      "data-frequency": "174",
+      "data-relevance": "79",
+      "data-term": "methodologist",
+      "data-encoded-term": "methodologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "174",
+        "ol",
+        "1"
+      ]
+    },
+    "gerontologist": {
+      "data-frequency": "260",
+      "data-relevance": "78",
+      "data-term": "gerontologist",
+      "data-encoded-term": "gerontologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "260",
+        "ol",
+        "1"
+      ]
+    },
+    "neurobiologist": {
+      "data-frequency": "386",
+      "data-relevance": "77",
+      "data-term": "neurobiologist",
+      "data-encoded-term": "neurobiologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "386",
+        "ol",
+        "1"
+      ]
+    },
+    "meteoritics": {
+      "data-frequency": "695",
+      "data-relevance": "76",
+      "data-term": "meteoritics",
+      "data-encoded-term": "meteoritics",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "695",
+        "ol",
+        "1"
+      ]
+    },
+    "biometeorology": {
+      "data-frequency": "60",
+      "data-relevance": "75",
+      "data-term": "biometeorology",
+      "data-encoded-term": "biometeorology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "60",
+        "ol",
+        "1"
+      ]
+    },
+    "postdoc": {
+      "data-frequency": "769",
+      "data-relevance": "74",
+      "data-term": "postdoc",
+      "data-encoded-term": "postdoc",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "769",
+        "ol",
+        "1"
+      ]
+    },
+    "mammalogist": {
+      "data-frequency": "229",
+      "data-relevance": "73",
+      "data-term": "mammalogist",
+      "data-encoded-term": "mammalogist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "229",
+        "ol",
+        "1"
+      ]
+    },
+    "paleontologist": {
+      "data-frequency": "4020",
+      "data-relevance": "72",
+      "data-term": "paleontologist",
+      "data-encoded-term": "paleontologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4020",
+        "ol",
+        "1"
+      ]
+    },
+    "ethologist": {
+      "data-frequency": "315",
+      "data-relevance": "71",
+      "data-term": "ethologist",
+      "data-encoded-term": "ethologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "315",
+        "ol",
+        "1"
+      ]
+    },
+    "endocrinologist": {
+      "data-frequency": "648",
+      "data-relevance": "70",
+      "data-term": "endocrinologist",
+      "data-encoded-term": "endocrinologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "648",
+        "ol",
+        "1"
+      ]
+    },
+    "neuroendocrinology": {
+      "data-frequency": "435",
+      "data-relevance": "69",
+      "data-term": "neuroendocrinology",
+      "data-encoded-term": "neuroendocrinology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "435",
+        "ol",
+        "1"
+      ]
+    },
+    "paleobotanist": {
+      "data-frequency": "214",
+      "data-relevance": "68",
+      "data-term": "paleobotanist",
+      "data-encoded-term": "paleobotanist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "214",
+        "ol",
+        "1"
+      ]
+    },
+    "nanus": {
+      "data-frequency": "2116",
+      "data-relevance": "67",
+      "data-term": "nanus",
+      "data-encoded-term": "nanus",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2116",
+        "ol",
+        "1"
+      ]
+    },
+    "virologist": {
+      "data-frequency": "960",
+      "data-relevance": "66",
+      "data-term": "virologist",
+      "data-encoded-term": "virologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "960",
+        "ol",
+        "1"
+      ]
+    },
+    "crystallographer": {
+      "data-frequency": "475",
+      "data-relevance": "65",
+      "data-term": "crystallographer",
+      "data-encoded-term": "crystallographer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "475",
+        "ol",
+        "1"
+      ]
+    },
+    "paleoclimatology": {
+      "data-frequency": "503",
+      "data-relevance": "64",
+      "data-term": "paleoclimatology",
+      "data-encoded-term": "paleoclimatology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "503",
+        "ol",
+        "1"
+      ]
+    },
+    "paleobiology": {
+      "data-frequency": "9344",
+      "data-relevance": "63",
+      "data-term": "paleobiology",
+      "data-encoded-term": "paleobiology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "9344",
+        "ol",
+        "1"
+      ]
+    },
+    "consilience": {
+      "data-frequency": "226",
+      "data-relevance": "62",
+      "data-term": "consilience",
+      "data-encoded-term": "consilience",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "penzias": {
+      "data-frequency": "249",
+      "data-relevance": "61",
+      "data-term": "penzias",
+      "data-encoded-term": "penzias",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "249",
+        "ol",
+        "1"
+      ]
+    },
+    "glaciologist": {
+      "data-frequency": "495",
+      "data-relevance": "60",
+      "data-term": "glaciologist",
+      "data-encoded-term": "glaciologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "495",
+        "ol",
+        "1"
+      ]
+    },
+    "chronobiology": {
+      "data-frequency": "399",
+      "data-relevance": "59",
+      "data-term": "chronobiology",
+      "data-encoded-term": "chronobiology",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "399",
+        "ol",
+        "1"
+      ]
+    },
+    "seismologist": {
+      "data-frequency": "505",
+      "data-relevance": "58",
+      "data-term": "seismologist",
+      "data-encoded-term": "seismologist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "505",
+        "ol",
+        "1"
+      ]
+    },
+    "geriatrician": {
+      "data-frequency": "74",
+      "data-relevance": "57",
+      "data-term": "geriatrician",
+      "data-encoded-term": "geriatrician",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "pen or pencil": {
+      "data-frequency": "51",
+      "data-relevance": "56",
+      "data-term": "pen or pencil",
+      "data-encoded-term": "pen%20or%20pencil",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "51",
+        "cn5",
+        "1"
+      ]
+    },
+    "write case": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "write case",
+      "data-encoded-term": "write%20case",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "in desk": {
+      "data-frequency": "99",
+      "data-relevance": "54",
+      "data-term": "in desk",
+      "data-encoded-term": "in%20desk",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "99",
+        "cn5",
+        "1"
+      ]
+    },
+    "write implement": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "write implement",
+      "data-encoded-term": "write%20implement",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "copy typist": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "copy typist",
+      "data-encoded-term": "copy%20typist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "create verbally": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "create verbally",
+      "data-encoded-term": "create%20verbally",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "find pen": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "find pen",
+      "data-encoded-term": "find%20pen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "vulgar latin": {
+      "data-frequency": "533",
+      "data-relevance": "49",
+      "data-term": "vulgar latin",
+      "data-encoded-term": "vulgar%20latin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "533",
+        "cn5",
+        "1"
+      ]
+    },
+    "writer's block": {
+      "data-frequency": "983",
+      "data-relevance": "48",
+      "data-term": "writer's block",
+      "data-encoded-term": "writer's%20block",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "983",
+        "cn5",
+        "1"
+      ]
+    },
+    "ballpoint pen": {
+      "data-frequency": "456",
+      "data-relevance": "47",
+      "data-term": "ballpoint pen",
+      "data-encoded-term": "ballpoint%20pen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "456",
+        "cn5",
+        "1"
+      ]
+    },
+    "douglas adam": {
+      "data-frequency": "70",
+      "data-relevance": "46",
+      "data-term": "douglas adam",
+      "data-encoded-term": "douglas%20adam",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "70",
+        "cn5",
+        "1"
+      ]
+    },
+    "hand cramp": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "hand cramp",
+      "data-encoded-term": "hand%20cramp",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "language skill": {
+      "data-frequency": "50",
+      "data-relevance": "44",
+      "data-term": "language skill",
+      "data-encoded-term": "language%20skill",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "writer's cramp": {
+      "data-frequency": "45",
+      "data-relevance": "43",
+      "data-term": "writer's cramp",
+      "data-encoded-term": "writer's%20cramp",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "hot off press": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "hot off press",
+      "data-encoded-term": "hot%20off%20press",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "write poem": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "write poem",
+      "data-encoded-term": "write%20poem",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "memo pad": {
+      "data-frequency": "284",
+      "data-relevance": "40",
+      "data-term": "memo pad",
+      "data-encoded-term": "memo%20pad",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "284",
+        "cn5",
+        "1"
+      ]
+    },
+    "write brush": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "write brush",
+      "data-encoded-term": "write%20brush",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fair copy": {
+      "data-frequency": "143",
+      "data-relevance": "38",
+      "data-term": "fair copy",
+      "data-encoded-term": "fair%20copy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "143",
+        "cn5",
+        "1"
+      ]
+    },
+    "convey message": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "convey message",
+      "data-encoded-term": "convey%20message",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "poison pen": {
+      "data-frequency": "297",
+      "data-relevance": "36",
+      "data-term": "poison pen",
+      "data-encoded-term": "poison%20pen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "297",
+        "cn5",
+        "1"
+      ]
+    },
+    "write up": {
+      "data-frequency": "1049",
+      "data-relevance": "35",
+      "data-term": "write up",
+      "data-encoded-term": "write%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1049",
+        "cn5",
+        "1"
+      ]
+    },
+    "feel tip pen": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "feel tip pen",
+      "data-encoded-term": "feel%20tip%20pen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "contact print": {
+      "data-frequency": "45",
+      "data-relevance": "33",
+      "data-term": "contact print",
+      "data-encoded-term": "contact%20print",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "mechanical pencil": {
+      "data-frequency": "81",
+      "data-relevance": "32",
+      "data-term": "mechanical pencil",
+      "data-encoded-term": "mechanical%20pencil",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "81",
+        "cn5",
+        "1"
+      ]
+    },
+    "spin up": {
+      "data-frequency": "49710",
+      "data-relevance": "31",
+      "data-term": "spin up",
+      "data-encoded-term": "spin%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "49710",
+        "cn5",
+        "1"
+      ]
+    },
+    "small print": {
+      "data-frequency": "525",
+      "data-relevance": "30",
+      "data-term": "small print",
+      "data-encoded-term": "small%20print",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "525",
+        "cn5",
+        "1"
+      ]
+    },
+    "write on paper": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "write on paper",
+      "data-encoded-term": "write%20on%20paper",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ink eraser": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "ink eraser",
+      "data-encoded-term": "ink%20eraser",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fountain pen": {
+      "data-frequency": "392",
+      "data-relevance": "27",
+      "data-term": "fountain pen",
+      "data-encoded-term": "fountain%20pen",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "392",
+        "cn5",
+        "1"
+      ]
+    },
+    "get pencil": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "get pencil",
+      "data-encoded-term": "get%20pencil",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "you make mistake": {
+      "data-frequency": "-1",
+      "data-relevance": "25",
+      "data-term": "you make mistake",
+      "data-encoded-term": "you%20make%20mistake",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sheet of paper": {
+      "data-frequency": "920",
+      "data-relevance": "24",
+      "data-term": "sheet of paper",
+      "data-encoded-term": "sheet%20of%20paper",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "920",
+        "cn5",
+        "1"
+      ]
+    },
+    "on your desk": {
+      "data-frequency": "-1",
+      "data-relevance": "23",
+      "data-term": "on your desk",
+      "data-encoded-term": "on%20your%20desk",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "associate professor": {
+      "data-frequency": "22568",
+      "data-relevance": "22",
+      "data-term": "associate professor",
+      "data-encoded-term": "associate%20professor",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "22568",
+        "ol",
+        "1"
+      ]
+    },
+    "interactive writing": {
+      "data-frequency": "13283",
+      "data-relevance": "21",
+      "data-term": "interactive writing",
+      "data-encoded-term": "interactive%20writing",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "13283",
+        "wiki",
+        "1"
+      ]
+    },
+    "principal investigator": {
+      "data-frequency": "2212",
+      "data-relevance": "20",
+      "data-term": "principal investigator",
+      "data-encoded-term": "principal%20investigator",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2212",
+        "ol",
+        "1"
+      ]
+    },
+    "political economy": {
+      "data-frequency": "11860",
+      "data-relevance": "19",
+      "data-term": "political economy",
+      "data-encoded-term": "political%20economy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "11860",
+        "ol",
+        "1"
+      ]
+    },
+    "cognitive neuroscientist": {
+      "data-frequency": "100",
+      "data-relevance": "18",
+      "data-term": "cognitive neuroscientist",
+      "data-encoded-term": "cognitive%20neuroscientist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "100",
+        "ol",
+        "1"
+      ]
+    },
+    "assistant professor": {
+      "data-frequency": "18874",
+      "data-relevance": "17",
+      "data-term": "assistant professor",
+      "data-encoded-term": "assistant%20professor",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "18874",
+        "ol",
+        "1"
+      ]
+    },
+    "cultural anthropologist": {
+      "data-frequency": "493",
+      "data-relevance": "16",
+      "data-term": "cultural anthropologist",
+      "data-encoded-term": "cultural%20anthropologist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "493",
+        "ol",
+        "1"
+      ]
+    },
+    "molecular biologist": {
+      "data-frequency": "1098",
+      "data-relevance": "15",
+      "data-term": "molecular biologist",
+      "data-encoded-term": "molecular%20biologist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1098",
+        "ol",
+        "1"
+      ]
+    },
+    "harold urey": {
+      "data-frequency": "260",
+      "data-relevance": "14",
+      "data-term": "harold urey",
+      "data-encoded-term": "harold%20urey",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "260",
+        "ol",
+        "1"
+      ]
+    },
+    "electron microscopist": {
+      "data-frequency": "90",
+      "data-relevance": "13",
+      "data-term": "electron microscopist",
+      "data-encoded-term": "electron%20microscopist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "90",
+        "ol",
+        "1"
+      ]
+    },
+    "fluid mechanics": {
+      "data-frequency": "1773",
+      "data-relevance": "12",
+      "data-term": "fluid mechanics",
+      "data-encoded-term": "fluid%20mechanics",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1773",
+        "ol",
+        "1"
+      ]
+    },
+    "comparative psychology": {
+      "data-frequency": "4756",
+      "data-relevance": "11",
+      "data-term": "comparative psychology",
+      "data-encoded-term": "comparative%20psychology",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4756",
+        "ol",
+        "1"
+      ]
+    },
+    "et al": {
+      "data-frequency": "218236",
+      "data-relevance": "10",
+      "data-term": "et al",
+      "data-encoded-term": "et%20al",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "218236",
+        "ol",
+        "1"
+      ]
+    },
+    "competitive advantage": {
+      "data-frequency": "1657",
+      "data-relevance": "9",
+      "data-term": "competitive advantage",
+      "data-encoded-term": "competitive%20advantage",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1657",
+        "ol",
+        "1"
+      ]
+    },
+    "clinical neurology": {
+      "data-frequency": "7399",
+      "data-relevance": "8",
+      "data-term": "clinical neurology",
+      "data-encoded-term": "clinical%20neurology",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "7399",
+        "ol",
+        "1"
+      ]
+    },
+    "functional anatomy": {
+      "data-frequency": "2727",
+      "data-relevance": "7",
+      "data-term": "functional anatomy",
+      "data-encoded-term": "functional%20anatomy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2727",
+        "ol",
+        "1"
+      ]
+    },
+    "clinical psychologist": {
+      "data-frequency": "1023",
+      "data-relevance": "6",
+      "data-term": "clinical psychologist",
+      "data-encoded-term": "clinical%20psychologist",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1023",
+        "ol",
+        "1"
+      ]
+    },
+    "developmental psychology": {
+      "data-frequency": "1359",
+      "data-relevance": "5",
+      "data-term": "developmental psychology",
+      "data-encoded-term": "developmental%20psychology",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1359",
+        "ol",
+        "1"
+      ]
+    },
+    "nervous system": {
+      "data-frequency": "11218",
+      "data-relevance": "4",
+      "data-term": "nervous system",
+      "data-encoded-term": "nervous%20system",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "11218",
+        "ol",
+        "1"
+      ]
+    },
+    "critical appraisal": {
+      "data-frequency": "700",
+      "data-relevance": "3",
+      "data-term": "critical appraisal",
+      "data-encoded-term": "critical%20appraisal",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "700",
+        "ol",
+        "1"
+      ]
+    },
+    "developmental editing": {
+      "data-frequency": "3645",
+      "data-relevance": "2",
+      "data-term": "developmental editing",
+      "data-encoded-term": "developmental%20editing",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "3645",
+        "wiki",
+        "1"
+      ]
+    },
+    "trace element": {
+      "data-frequency": "367",
+      "data-relevance": "1",
+      "data-term": "trace element",
+      "data-encoded-term": "trace%20element",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "367",
+        "ol",
+        "1"
+      ]
+    },
+    "author editing": {
+      "data-frequency": "63115",
+      "data-relevance": "0",
+      "data-term": "author editing",
+      "data-encoded-term": "author%20editing",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "63115",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "coauthors",
+      "coauthored",
+      "coauthoring",
+      "coauthores"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "anthropologist",
+      "coauthors",
+      "coauthorial",
+      "demographer",
+      "author",
+      "ghostwriter",
+      "treatise",
+      "sociologist",
+      "monograph",
+      "writer",
+      "foreword",
+      "coauthoring",
+      "psychologist",
+      "collaborate"
+    ]
+  }
+}

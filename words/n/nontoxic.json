@@ -1,0 +1,4084 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "harmless": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/harmless/a/wn/,/c/en/nontoxic/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/harmless/a/wn",
+          "@type": "Node",
+          "label": "harmless",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/harmless"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic/a/wn",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nontoxic"
+        }
+      },
+      "poisonous": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nontoxic/a/,/c/en/poisonous/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/poisonous",
+          "@type": "Node",
+          "label": "poisonous",
+          "language": "en",
+          "term": "/c/en/poisonous"
+        }
+      },
+      "toxic": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nontoxic/a/,/c/en/toxic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/toxic",
+          "@type": "Node",
+          "label": "toxic",
+          "language": "en",
+          "term": "/c/en/toxic"
+        }
+      },
+      "nontoxicity": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/nontoxicity/n/,/c/en/nontoxic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxicity/n",
+          "@type": "Node",
+          "label": "nontoxicity",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/nontoxicity"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "term": "/c/en/nontoxic"
+        }
+      },
+      "detoxicate": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/detoxicate/v/,/c/en/nontoxic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detoxicate/v",
+          "@type": "Node",
+          "label": "detoxicate",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/detoxicate"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "term": "/c/en/nontoxic"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "atoxic": {
+        "@id": "/a/[/r/Synonym/,/c/en/atoxic/a/wn/,/c/en/nontoxic/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/atoxic/a/wn",
+          "@type": "Node",
+          "label": "atoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/atoxic"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic/a/wn",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nontoxic"
+        }
+      },
+      "non-poisonous": {
+        "@id": "/a/[/r/Synonym/,/c/en/nontoxic/a/wn/,/c/en/non_poisonous/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a/wn",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/non_poisonous/a/wn",
+          "@type": "Node",
+          "label": "non-poisonous",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/non_poisonous"
+        }
+      },
+      "innocuous": {
+        "@id": "/a/[/r/Synonym/,/c/en/nontoxic/a/,/c/en/innocuous/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/innocuous",
+          "@type": "Node",
+          "label": "innocuous",
+          "language": "en",
+          "term": "/c/en/innocuous"
+        }
+      },
+      "nonpoisonous": {
+        "@id": "/a/[/r/Synonym/,/c/en/nonpoisonous/a/,/c/en/nontoxic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nonpoisonous/a",
+          "@type": "Node",
+          "label": "nonpoisonous",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nonpoisonous"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "term": "/c/en/nontoxic"
+        }
+      },
+      "harmless": {
+        "@id": "/a/[/r/Synonym/,/c/en/nontoxic/a/,/c/en/harmless/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/harmless",
+          "@type": "Node",
+          "label": "harmless",
+          "language": "en",
+          "term": "/c/en/harmless"
+        }
+      }
+    },
+    "antonyms": {
+      "nocuous": {
+        "@id": "/a/[/r/Antonym/,/c/en/nontoxic/a/,/c/en/nocuous/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/nocuous",
+          "@type": "Node",
+          "label": "nocuous",
+          "language": "en",
+          "term": "/c/en/nocuous"
+        }
+      },
+      "toxic": {
+        "@id": "/a/[/r/Antonym/,/c/en/nontoxic/a/,/c/en/toxic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/toxic",
+          "@type": "Node",
+          "label": "toxic",
+          "language": "en",
+          "term": "/c/en/toxic"
+        }
+      },
+      "poisonous": {
+        "@id": "/a/[/r/Antonym/,/c/en/nontoxic/a/,/c/en/poisonous/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/poisonous",
+          "@type": "Node",
+          "label": "poisonous",
+          "language": "en",
+          "term": "/c/en/poisonous"
+        }
+      },
+      "harmful": {
+        "@id": "/a/[/r/Antonym/,/c/en/nontoxic/a/,/c/en/harmful/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/harmful",
+          "@type": "Node",
+          "label": "harmful",
+          "language": "en",
+          "term": "/c/en/harmful"
+        }
+      }
+    },
+    "similar_terms": {
+      "nonvenomous": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/nonvenomous/a/wn/,/c/en/nontoxic/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nonvenomous/a/wn",
+          "@type": "Node",
+          "label": "nonvenomous",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nonvenomous"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic/a/wn",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nontoxic"
+        }
+      },
+      "nonpoisonous": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/nontoxic/a/wn/,/c/en/nonpoisonous/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a/wn",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/nonpoisonous/a/wn",
+          "@type": "Node",
+          "label": "nonpoisonous",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nonpoisonous"
+        }
+      },
+      "antitoxic": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/nontoxic/a/wn/,/c/en/antitoxic/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/nontoxic/a/wn",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/nontoxic"
+        },
+        "end": {
+          "@id": "/c/en/antitoxic/a/wn",
+          "@type": "Node",
+          "label": "antitoxic",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/antitoxic"
+        }
+      }
+    },
+    "word_forms": {
+      "non toxic": {
+        "@id": "/a/[/r/FormOf/,/c/en/non_toxic/a/,/c/en/nontoxic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/non_toxic/a",
+          "@type": "Node",
+          "label": "non toxic",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/non_toxic"
+        },
+        "end": {
+          "@id": "/c/en/nontoxic",
+          "@type": "Node",
+          "label": "nontoxic",
+          "language": "en",
+          "term": "/c/en/nontoxic"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "toxic": {
+      "data-frequency": "28108",
+      "data-relevance": "261",
+      "data-term": "toxic",
+      "data-encoded-term": "toxic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "28108",
+        "ol",
+        "1"
+      ]
+    },
+    "edible": {
+      "data-frequency": "11193",
+      "data-relevance": "260",
+      "data-term": "edible",
+      "data-encoded-term": "edible",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "11193",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "harmless": {
+      "data-frequency": "5867",
+      "data-relevance": "259",
+      "data-term": "harmless",
+      "data-encoded-term": "harmless",
+      "data-term-stats": [
+        "1",
+        "11.4",
+        "0.000",
+        "5867",
+        "ol,w2v,wn|reverse-net",
+        "1"
+      ]
+    },
+    "nonpoisonous": {
+      "data-frequency": "48",
+      "data-relevance": "258",
+      "data-term": "nonpoisonous",
+      "data-encoded-term": "nonpoisonous",
+      "data-term-stats": [
+        "1",
+        "6.9",
+        "0.000",
+        "48",
+        "ol,wn,wn",
+        "1"
+      ]
+    },
+    "non-toxic": {
+      "data-frequency": "1144",
+      "data-relevance": "257",
+      "data-term": "non-toxic",
+      "data-encoded-term": "non-toxic",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "1144",
+        "ol,w2v,wiki",
+        "1"
+      ]
+    },
+    "non-poisonous": {
+      "data-frequency": "2061",
+      "data-relevance": "256",
+      "data-term": "non-poisonous",
+      "data-encoded-term": "non-poisonous",
+      "data-term-stats": [
+        "1",
+        "3.1",
+        "0.000",
+        "2061",
+        "wn,wn",
+        "1"
+      ]
+    },
+    "atoxic": {
+      "data-frequency": "-1",
+      "data-relevance": "255",
+      "data-term": "atoxic",
+      "data-encoded-term": "atoxic",
+      "data-term-stats": [
+        "1",
+        "2.9",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "eatable": {
+      "data-frequency": "65",
+      "data-relevance": "254",
+      "data-term": "eatable",
+      "data-encoded-term": "eatable",
+      "data-term-stats": [
+        "1",
+        "2.8",
+        "0.000",
+        "65",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "safe": {
+      "data-frequency": "83153",
+      "data-relevance": "253",
+      "data-term": "safe",
+      "data-encoded-term": "safe",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "83153",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "biodegradable": {
+      "data-frequency": "1256",
+      "data-relevance": "252",
+      "data-term": "biodegradable",
+      "data-encoded-term": "biodegradable",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "1256",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "nonvenomous": {
+      "data-frequency": "302",
+      "data-relevance": "251",
+      "data-term": "nonvenomous",
+      "data-encoded-term": "nonvenomous",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "302",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "comestible": {
+      "data-frequency": "45",
+      "data-relevance": "250",
+      "data-term": "comestible",
+      "data-encoded-term": "comestible",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "45",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "antitoxic": {
+      "data-frequency": "-1",
+      "data-relevance": "249",
+      "data-term": "antitoxic",
+      "data-encoded-term": "antitoxic",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "flammable": {
+      "data-frequency": "3196",
+      "data-relevance": "248",
+      "data-term": "flammable",
+      "data-encoded-term": "flammable",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "3196",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "inclusive": {
+      "data-frequency": "19593",
+      "data-relevance": "247",
+      "data-term": "inclusive",
+      "data-encoded-term": "inclusive",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "19593",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "repellent": {
+      "data-frequency": "1236",
+      "data-relevance": "246",
+      "data-term": "repellent",
+      "data-encoded-term": "repellent",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "1236",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "antiseptic": {
+      "data-frequency": "1059",
+      "data-relevance": "245",
+      "data-term": "antiseptic",
+      "data-encoded-term": "antiseptic",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "1059",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "soluble": {
+      "data-frequency": "8659",
+      "data-relevance": "244",
+      "data-term": "soluble",
+      "data-encoded-term": "soluble",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "8659",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "odorless": {
+      "data-frequency": "812",
+      "data-relevance": "243",
+      "data-term": "odorless",
+      "data-encoded-term": "odorless",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "812",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "mixture": {
+      "data-frequency": "37180",
+      "data-relevance": "242",
+      "data-term": "mixture",
+      "data-encoded-term": "mixture",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "37180",
+        "wiki",
+        "1"
+      ]
+    },
+    "natural": {
+      "data-frequency": "351738",
+      "data-relevance": "241",
+      "data-term": "natural",
+      "data-encoded-term": "natural",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "351738",
+        "reddit-slashes",
+        "1"
+      ]
+    },
+    "healthy": {
+      "data-frequency": "37211",
+      "data-relevance": "240",
+      "data-term": "healthy",
+      "data-encoded-term": "healthy",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "37211",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "good": {
+      "data-frequency": "510744",
+      "data-relevance": "239",
+      "data-term": "good",
+      "data-encoded-term": "good",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "510744",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "degradable": {
+      "data-frequency": "318",
+      "data-relevance": "238",
+      "data-term": "degradable",
+      "data-encoded-term": "degradable",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "318",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "animal": {
+      "data-frequency": "136043",
+      "data-relevance": "237",
+      "data-term": "animal",
+      "data-encoded-term": "animal",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "136043",
+        "wiki",
+        "1"
+      ]
+    },
+    "organism": {
+      "data-frequency": "14344",
+      "data-relevance": "236",
+      "data-term": "organism",
+      "data-encoded-term": "organism",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "14344",
+        "wiki",
+        "1"
+      ]
+    },
+    "plant": {
+      "data-frequency": "226091",
+      "data-relevance": "235",
+      "data-term": "plant",
+      "data-encoded-term": "plant",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "226091",
+        "wiki",
+        "1"
+      ]
+    },
+    "bacteria": {
+      "data-frequency": "27123",
+      "data-relevance": "234",
+      "data-term": "bacteria",
+      "data-encoded-term": "bacteria",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "27123",
+        "wiki",
+        "1"
+      ]
+    },
+    "liver": {
+      "data-frequency": "20016",
+      "data-relevance": "233",
+      "data-term": "liver",
+      "data-encoded-term": "liver",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "20016",
+        "wiki",
+        "1"
+      ]
+    },
+    "inert": {
+      "data-frequency": "3451",
+      "data-relevance": "232",
+      "data-term": "inert",
+      "data-encoded-term": "inert",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3451",
+        "w2v",
+        "1"
+      ]
+    },
+    "cell": {
+      "data-frequency": "103004",
+      "data-relevance": "231",
+      "data-term": "cell",
+      "data-encoded-term": "cell",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "103004",
+        "wiki",
+        "1"
+      ]
+    },
+    "metaphor": {
+      "data-frequency": "10876",
+      "data-relevance": "230",
+      "data-term": "metaphor",
+      "data-encoded-term": "metaphor",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "10876",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxicology": {
+      "data-frequency": "6001",
+      "data-relevance": "229",
+      "data-term": "toxicology",
+      "data-encoded-term": "toxicology",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6001",
+        "wiki",
+        "1"
+      ]
+    },
+    "family": {
+      "data-frequency": "1345263",
+      "data-relevance": "228",
+      "data-term": "family",
+      "data-encoded-term": "family",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1345263",
+        "wiki",
+        "1"
+      ]
+    },
+    "cytotoxicity": {
+      "data-frequency": "850",
+      "data-relevance": "227",
+      "data-term": "cytotoxicity",
+      "data-encoded-term": "cytotoxicity",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "850",
+        "wiki",
+        "1"
+      ]
+    },
+    "poisonous": {
+      "data-frequency": "7427",
+      "data-relevance": "226",
+      "data-term": "poisonous",
+      "data-encoded-term": "poisonous",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7427",
+        "ol",
+        "1"
+      ]
+    },
+    "water": {
+      "data-frequency": "512949",
+      "data-relevance": "225",
+      "data-term": "water",
+      "data-encoded-term": "water",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "512949",
+        "wiki",
+        "1"
+      ]
+    },
+    "dose": {
+      "data-frequency": "15340",
+      "data-relevance": "224",
+      "data-term": "dose",
+      "data-encoded-term": "dose",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "15340",
+        "wiki",
+        "1"
+      ]
+    },
+    "hepatotoxicity": {
+      "data-frequency": "355",
+      "data-relevance": "223",
+      "data-term": "hepatotoxicity",
+      "data-encoded-term": "hepatotoxicity",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "355",
+        "wiki",
+        "1"
+      ]
+    },
+    "mixing": {
+      "data-frequency": "46616",
+      "data-relevance": "222",
+      "data-term": "mixing",
+      "data-encoded-term": "mixing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "46616",
+        "ol",
+        "1"
+      ]
+    },
+    "glues": {
+      "data-frequency": "440",
+      "data-relevance": "221",
+      "data-term": "glues",
+      "data-encoded-term": "glues",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "440",
+        "w2v",
+        "1"
+      ]
+    },
+    "lubricant": {
+      "data-frequency": "1382",
+      "data-relevance": "220",
+      "data-term": "lubricant",
+      "data-encoded-term": "lubricant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1382",
+        "w2v",
+        "1"
+      ]
+    },
+    "solvents": {
+      "data-frequency": "3677",
+      "data-relevance": "219",
+      "data-term": "solvents",
+      "data-encoded-term": "solvents",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3677",
+        "w2v",
+        "1"
+      ]
+    },
+    "washable": {
+      "data-frequency": "232",
+      "data-relevance": "218",
+      "data-term": "washable",
+      "data-encoded-term": "washable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "232",
+        "ol",
+        "1"
+      ]
+    },
+    "preservative": {
+      "data-frequency": "1284",
+      "data-relevance": "217",
+      "data-term": "preservative",
+      "data-encoded-term": "preservative",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1284",
+        "ol",
+        "1"
+      ]
+    },
+    "prodrug": {
+      "data-frequency": "720",
+      "data-relevance": "216",
+      "data-term": "prodrug",
+      "data-encoded-term": "prodrug",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "720",
+        "ol",
+        "1"
+      ]
+    },
+    "antimicrobial": {
+      "data-frequency": "2787",
+      "data-relevance": "215",
+      "data-term": "antimicrobial",
+      "data-encoded-term": "antimicrobial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2787",
+        "ol",
+        "1"
+      ]
+    },
+    "antibacterial": {
+      "data-frequency": "1593",
+      "data-relevance": "214",
+      "data-term": "antibacterial",
+      "data-encoded-term": "antibacterial",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1593",
+        "ol",
+        "1"
+      ]
+    },
+    "scentless": {
+      "data-frequency": "289",
+      "data-relevance": "213",
+      "data-term": "scentless",
+      "data-encoded-term": "scentless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "289",
+        "ol",
+        "1"
+      ]
+    },
+    "additive": {
+      "data-frequency": "6267",
+      "data-relevance": "212",
+      "data-term": "additive",
+      "data-encoded-term": "additive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6267",
+        "ol",
+        "1"
+      ]
+    },
+    "repellant": {
+      "data-frequency": "153",
+      "data-relevance": "211",
+      "data-term": "repellant",
+      "data-encoded-term": "repellant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "153",
+        "ol",
+        "1"
+      ]
+    },
+    "hygroscopic": {
+      "data-frequency": "676",
+      "data-relevance": "210",
+      "data-term": "hygroscopic",
+      "data-encoded-term": "hygroscopic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "676",
+        "ol",
+        "1"
+      ]
+    },
+    "inexpensive": {
+      "data-frequency": "8176",
+      "data-relevance": "209",
+      "data-term": "inexpensive",
+      "data-encoded-term": "inexpensive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8176",
+        "ol",
+        "1"
+      ]
+    },
+    "salicylic": {
+      "data-frequency": "734",
+      "data-relevance": "208",
+      "data-term": "salicylic",
+      "data-encoded-term": "salicylic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "734",
+        "ol",
+        "1"
+      ]
+    },
+    "isopropyl": {
+      "data-frequency": "1170",
+      "data-relevance": "207",
+      "data-term": "isopropyl",
+      "data-encoded-term": "isopropyl",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1170",
+        "ol",
+        "1"
+      ]
+    },
+    "aqueous": {
+      "data-frequency": "4581",
+      "data-relevance": "206",
+      "data-term": "aqueous",
+      "data-encoded-term": "aqueous",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4581",
+        "ol",
+        "1"
+      ]
+    },
+    "synthetic": {
+      "data-frequency": "22066",
+      "data-relevance": "205",
+      "data-term": "synthetic",
+      "data-encoded-term": "synthetic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "22066",
+        "ol",
+        "1"
+      ]
+    },
+    "diethyl": {
+      "data-frequency": "2311",
+      "data-relevance": "204",
+      "data-term": "diethyl",
+      "data-encoded-term": "diethyl",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2311",
+        "ol",
+        "1"
+      ]
+    },
+    "alkaline": {
+      "data-frequency": "6845",
+      "data-relevance": "203",
+      "data-term": "alkaline",
+      "data-encoded-term": "alkaline",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6845",
+        "ol",
+        "1"
+      ]
+    },
+    "dimethyl": {
+      "data-frequency": "3539",
+      "data-relevance": "202",
+      "data-term": "dimethyl",
+      "data-encoded-term": "dimethyl",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3539",
+        "ol",
+        "1"
+      ]
+    },
+    "sulfite": {
+      "data-frequency": "404",
+      "data-relevance": "201",
+      "data-term": "sulfite",
+      "data-encoded-term": "sulfite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "404",
+        "ol",
+        "1"
+      ]
+    },
+    "glucoside": {
+      "data-frequency": "632",
+      "data-relevance": "200",
+      "data-term": "glucoside",
+      "data-encoded-term": "glucoside",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "632",
+        "ol",
+        "1"
+      ]
+    },
+    "diol": {
+      "data-frequency": "999",
+      "data-relevance": "199",
+      "data-term": "diol",
+      "data-encoded-term": "diol",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "999",
+        "ol",
+        "1"
+      ]
+    },
+    "ferric": {
+      "data-frequency": "883",
+      "data-relevance": "198",
+      "data-term": "ferric",
+      "data-encoded-term": "ferric",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "883",
+        "ol",
+        "1"
+      ]
+    },
+    "solvent": {
+      "data-frequency": "5343",
+      "data-relevance": "197",
+      "data-term": "solvent",
+      "data-encoded-term": "solvent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5343",
+        "w2v",
+        "1"
+      ]
+    },
+    "acidic": {
+      "data-frequency": "8311",
+      "data-relevance": "196",
+      "data-term": "acidic",
+      "data-encoded-term": "acidic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8311",
+        "ol",
+        "1"
+      ]
+    },
+    "resin": {
+      "data-frequency": "5595",
+      "data-relevance": "195",
+      "data-term": "resin",
+      "data-encoded-term": "resin",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5595",
+        "w2v",
+        "1"
+      ]
+    },
+    "paradigm": {
+      "data-frequency": "12852",
+      "data-relevance": "194",
+      "data-term": "paradigm",
+      "data-encoded-term": "paradigm",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12852",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxicant": {
+      "data-frequency": "133",
+      "data-relevance": "193",
+      "data-term": "toxicant",
+      "data-encoded-term": "toxicant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "133",
+        "wiki",
+        "1"
+      ]
+    },
+    "chemically": {
+      "data-frequency": "5538",
+      "data-relevance": "192",
+      "data-term": "chemically",
+      "data-encoded-term": "chemically",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5538",
+        "w2v",
+        "1"
+      ]
+    },
+    "chemical substance": {
+      "data-frequency": "329",
+      "data-relevance": "191",
+      "data-term": "chemical substance",
+      "data-encoded-term": "chemical%20substance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "329",
+        "wiki",
+        "1"
+      ]
+    },
+    "polycarbonate": {
+      "data-frequency": "774",
+      "data-relevance": "190",
+      "data-term": "polycarbonate",
+      "data-encoded-term": "polycarbonate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "774",
+        "w2v",
+        "1"
+      ]
+    },
+    "sterile": {
+      "data-frequency": "4408",
+      "data-relevance": "189",
+      "data-term": "sterile",
+      "data-encoded-term": "sterile",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4408",
+        "w2v",
+        "1"
+      ]
+    },
+    "varnishes": {
+      "data-frequency": "338",
+      "data-relevance": "188",
+      "data-term": "varnishes",
+      "data-encoded-term": "varnishes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "338",
+        "w2v",
+        "1"
+      ]
+    },
+    "aerodynamically": {
+      "data-frequency": "5400",
+      "data-relevance": "187",
+      "data-term": "aerodynamically",
+      "data-encoded-term": "aerodynamically",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5400",
+        "w2v",
+        "1"
+      ]
+    },
+    "nanomaterials": {
+      "data-frequency": "1075",
+      "data-relevance": "186",
+      "data-term": "nanomaterials",
+      "data-encoded-term": "nanomaterials",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1075",
+        "w2v",
+        "1"
+      ]
+    },
+    "recyclable": {
+      "data-frequency": "945",
+      "data-relevance": "185",
+      "data-term": "recyclable",
+      "data-encoded-term": "recyclable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "945",
+        "w2v",
+        "1"
+      ]
+    },
+    "acrylic": {
+      "data-frequency": "4221",
+      "data-relevance": "184",
+      "data-term": "acrylic",
+      "data-encoded-term": "acrylic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4221",
+        "w2v",
+        "1"
+      ]
+    },
+    "latex": {
+      "data-frequency": "3254",
+      "data-relevance": "183",
+      "data-term": "latex",
+      "data-encoded-term": "latex",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3254",
+        "w2v",
+        "1"
+      ]
+    },
+    "adhesives": {
+      "data-frequency": "1317",
+      "data-relevance": "182",
+      "data-term": "adhesives",
+      "data-encoded-term": "adhesives",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1317",
+        "w2v",
+        "1"
+      ]
+    },
+    "acetone": {
+      "data-frequency": "2039",
+      "data-relevance": "181",
+      "data-term": "acetone",
+      "data-encoded-term": "acetone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2039",
+        "w2v",
+        "1"
+      ]
+    },
+    "emollient": {
+      "data-frequency": "159",
+      "data-relevance": "180",
+      "data-term": "emollient",
+      "data-encoded-term": "emollient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "159",
+        "w2v",
+        "1"
+      ]
+    },
+    "epoxy": {
+      "data-frequency": "1735",
+      "data-relevance": "179",
+      "data-term": "epoxy",
+      "data-encoded-term": "epoxy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1735",
+        "w2v",
+        "1"
+      ]
+    },
+    "insecticide": {
+      "data-frequency": "1823",
+      "data-relevance": "178",
+      "data-term": "insecticide",
+      "data-encoded-term": "insecticide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1823",
+        "w2v",
+        "1"
+      ]
+    },
+    "emulsion": {
+      "data-frequency": "1496",
+      "data-relevance": "177",
+      "data-term": "emulsion",
+      "data-encoded-term": "emulsion",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1496",
+        "w2v",
+        "1"
+      ]
+    },
+    "fungicide": {
+      "data-frequency": "754",
+      "data-relevance": "176",
+      "data-term": "fungicide",
+      "data-encoded-term": "fungicide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "754",
+        "w2v",
+        "1"
+      ]
+    },
+    "coating": {
+      "data-frequency": "7650",
+      "data-relevance": "175",
+      "data-term": "coating",
+      "data-encoded-term": "coating",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7650",
+        "w2v",
+        "1"
+      ]
+    },
+    "mutagenic": {
+      "data-frequency": "685",
+      "data-relevance": "174",
+      "data-term": "mutagenic",
+      "data-encoded-term": "mutagenic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "685",
+        "w2v",
+        "1"
+      ]
+    },
+    "odorous": {
+      "data-frequency": "263",
+      "data-relevance": "173",
+      "data-term": "odorous",
+      "data-encoded-term": "odorous",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "263",
+        "w2v",
+        "1"
+      ]
+    },
+    "oily": {
+      "data-frequency": "2131",
+      "data-relevance": "172",
+      "data-term": "oily",
+      "data-encoded-term": "oily",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2131",
+        "w2v",
+        "1"
+      ]
+    },
+    "polyurethane": {
+      "data-frequency": "1318",
+      "data-relevance": "171",
+      "data-term": "polyurethane",
+      "data-encoded-term": "polyurethane",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1318",
+        "w2v",
+        "1"
+      ]
+    },
+    "peroxide": {
+      "data-frequency": "3332",
+      "data-relevance": "170",
+      "data-term": "peroxide",
+      "data-encoded-term": "peroxide",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3332",
+        "w2v",
+        "1"
+      ]
+    },
+    "coatings": {
+      "data-frequency": "3206",
+      "data-relevance": "169",
+      "data-term": "coatings",
+      "data-encoded-term": "coatings",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3206",
+        "w2v",
+        "1"
+      ]
+    },
+    "resins": {
+      "data-frequency": "1808",
+      "data-relevance": "168",
+      "data-term": "resins",
+      "data-encoded-term": "resins",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1808",
+        "w2v",
+        "1"
+      ]
+    },
+    "formaldehyde": {
+      "data-frequency": "1584",
+      "data-relevance": "167",
+      "data-term": "formaldehyde",
+      "data-encoded-term": "formaldehyde",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1584",
+        "w2v",
+        "1"
+      ]
+    },
+    "aerosol": {
+      "data-frequency": "2173",
+      "data-relevance": "166",
+      "data-term": "aerosol",
+      "data-encoded-term": "aerosol",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2173",
+        "w2v",
+        "1"
+      ]
+    },
+    "colorless": {
+      "data-frequency": "3878",
+      "data-relevance": "165",
+      "data-term": "colorless",
+      "data-encoded-term": "colorless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3878",
+        "w2v",
+        "1"
+      ]
+    },
+    "disinfectant": {
+      "data-frequency": "695",
+      "data-relevance": "164",
+      "data-term": "disinfectant",
+      "data-encoded-term": "disinfectant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "695",
+        "w2v",
+        "1"
+      ]
+    },
+    "additives": {
+      "data-frequency": "3499",
+      "data-relevance": "163",
+      "data-term": "additives",
+      "data-encoded-term": "additives",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3499",
+        "w2v",
+        "1"
+      ]
+    },
+    "meretricious": {
+      "data-frequency": "74",
+      "data-relevance": "162",
+      "data-term": "meretricious",
+      "data-encoded-term": "meretricious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "74",
+        "w2v",
+        "1"
+      ]
+    },
+    "dyes": {
+      "data-frequency": "3847",
+      "data-relevance": "161",
+      "data-term": "dyes",
+      "data-encoded-term": "dyes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3847",
+        "w2v",
+        "1"
+      ]
+    },
+    "tempera": {
+      "data-frequency": "1815",
+      "data-relevance": "160",
+      "data-term": "tempera",
+      "data-encoded-term": "tempera",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1815",
+        "w2v",
+        "1"
+      ]
+    },
+    "psychoactive": {
+      "data-frequency": "2144",
+      "data-relevance": "159",
+      "data-term": "psychoactive",
+      "data-encoded-term": "psychoactive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2144",
+        "w2v",
+        "1"
+      ]
+    },
+    "saleable": {
+      "data-frequency": "371",
+      "data-relevance": "158",
+      "data-term": "saleable",
+      "data-encoded-term": "saleable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "371",
+        "w2v",
+        "1"
+      ]
+    },
+    "nitrocellulose": {
+      "data-frequency": "505",
+      "data-relevance": "157",
+      "data-term": "nitrocellulose",
+      "data-encoded-term": "nitrocellulose",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "505",
+        "w2v",
+        "1"
+      ]
+    },
+    "wastes": {
+      "data-frequency": "4334",
+      "data-relevance": "156",
+      "data-term": "wastes",
+      "data-encoded-term": "wastes",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4334",
+        "w2v",
+        "1"
+      ]
+    },
+    "chlorinated": {
+      "data-frequency": "831",
+      "data-relevance": "155",
+      "data-term": "chlorinated",
+      "data-encoded-term": "chlorinated",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "831",
+        "w2v",
+        "1"
+      ]
+    },
+    "reusing": {
+      "data-frequency": "1618",
+      "data-relevance": "154",
+      "data-term": "reusing",
+      "data-encoded-term": "reusing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1618",
+        "w2v",
+        "1"
+      ]
+    },
+    "pasteurized": {
+      "data-frequency": "776",
+      "data-relevance": "153",
+      "data-term": "pasteurized",
+      "data-encoded-term": "pasteurized",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "776",
+        "w2v",
+        "1"
+      ]
+    },
+    "environmentally": {
+      "data-frequency": "7646",
+      "data-relevance": "152",
+      "data-term": "environmentally",
+      "data-encoded-term": "environmentally",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7646",
+        "w2v",
+        "1"
+      ]
+    },
+    "formalin": {
+      "data-frequency": "487",
+      "data-relevance": "151",
+      "data-term": "formalin",
+      "data-encoded-term": "formalin",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "487",
+        "w2v",
+        "1"
+      ]
+    },
+    "combustible": {
+      "data-frequency": "1438",
+      "data-relevance": "150",
+      "data-term": "combustible",
+      "data-encoded-term": "combustible",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1438",
+        "w2v",
+        "1"
+      ]
+    },
+    "inflammable": {
+      "data-frequency": "326",
+      "data-relevance": "149",
+      "data-term": "inflammable",
+      "data-encoded-term": "inflammable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "326",
+        "w2v",
+        "1"
+      ]
+    },
+    "colourless": {
+      "data-frequency": "1474",
+      "data-relevance": "148",
+      "data-term": "colourless",
+      "data-encoded-term": "colourless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1474",
+        "w2v",
+        "1"
+      ]
+    },
+    "carcinogenic": {
+      "data-frequency": "1550",
+      "data-relevance": "147",
+      "data-term": "carcinogenic",
+      "data-encoded-term": "carcinogenic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1550",
+        "w2v",
+        "1"
+      ]
+    },
+    "phosphorescent": {
+      "data-frequency": "419",
+      "data-relevance": "146",
+      "data-term": "phosphorescent",
+      "data-encoded-term": "phosphorescent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "419",
+        "w2v",
+        "1"
+      ]
+    },
+    "mixtures": {
+      "data-frequency": "4709",
+      "data-relevance": "145",
+      "data-term": "mixtures",
+      "data-encoded-term": "mixtures",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4709",
+        "w2v",
+        "1"
+      ]
+    },
+    "carcinogens": {
+      "data-frequency": "1312",
+      "data-relevance": "144",
+      "data-term": "carcinogens",
+      "data-encoded-term": "carcinogens",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1312",
+        "wiki",
+        "1"
+      ]
+    },
+    "gasoline": {
+      "data-frequency": "13986",
+      "data-relevance": "143",
+      "data-term": "gasoline",
+      "data-encoded-term": "gasoline",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13986",
+        "wiki",
+        "1"
+      ]
+    },
+    "chloroform": {
+      "data-frequency": "2565",
+      "data-relevance": "142",
+      "data-term": "chloroform",
+      "data-encoded-term": "chloroform",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2565",
+        "w2v",
+        "1"
+      ]
+    },
+    "permethrin": {
+      "data-frequency": "423",
+      "data-relevance": "141",
+      "data-term": "permethrin",
+      "data-encoded-term": "permethrin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "423",
+        "w2v",
+        "1"
+      ]
+    },
+    "biocompatible": {
+      "data-frequency": "351",
+      "data-relevance": "140",
+      "data-term": "biocompatible",
+      "data-encoded-term": "biocompatible",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "351",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonflammable": {
+      "data-frequency": "100",
+      "data-relevance": "139",
+      "data-term": "nonflammable",
+      "data-encoded-term": "nonflammable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "100",
+        "ol",
+        "1"
+      ]
+    },
+    "drug-free": {
+      "data-frequency": "31459",
+      "data-relevance": "138",
+      "data-term": "drug-free",
+      "data-encoded-term": "drug-free",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "31459",
+        "ol",
+        "1"
+      ]
+    },
+    "unscented": {
+      "data-frequency": "106",
+      "data-relevance": "137",
+      "data-term": "unscented",
+      "data-encoded-term": "unscented",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "106",
+        "ol",
+        "1"
+      ]
+    },
+    "hypoallergenic": {
+      "data-frequency": "191",
+      "data-relevance": "136",
+      "data-term": "hypoallergenic",
+      "data-encoded-term": "hypoallergenic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "191",
+        "ol",
+        "1"
+      ]
+    },
+    "bacteriostatic": {
+      "data-frequency": "163",
+      "data-relevance": "135",
+      "data-term": "bacteriostatic",
+      "data-encoded-term": "bacteriostatic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "163",
+        "ol",
+        "1"
+      ]
+    },
+    "noncombustible": {
+      "data-frequency": "60",
+      "data-relevance": "134",
+      "data-term": "noncombustible",
+      "data-encoded-term": "noncombustible",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "ol",
+        "1"
+      ]
+    },
+    "decomposable": {
+      "data-frequency": "12403",
+      "data-relevance": "133",
+      "data-term": "decomposable",
+      "data-encoded-term": "decomposable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12403",
+        "ol",
+        "1"
+      ]
+    },
+    "chelated": {
+      "data-frequency": "90",
+      "data-relevance": "132",
+      "data-term": "chelated",
+      "data-encoded-term": "chelated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "90",
+        "ol",
+        "1"
+      ]
+    },
+    "humectant": {
+      "data-frequency": "57",
+      "data-relevance": "131",
+      "data-term": "humectant",
+      "data-encoded-term": "humectant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "57",
+        "ol",
+        "1"
+      ]
+    },
+    "resorcinol": {
+      "data-frequency": "179",
+      "data-relevance": "130",
+      "data-term": "resorcinol",
+      "data-encoded-term": "resorcinol",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "179",
+        "ol",
+        "1"
+      ]
+    },
+    "nonconductive": {
+      "data-frequency": "62",
+      "data-relevance": "129",
+      "data-term": "nonconductive",
+      "data-encoded-term": "nonconductive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62",
+        "ol",
+        "1"
+      ]
+    },
+    "biocidal": {
+      "data-frequency": "133",
+      "data-relevance": "128",
+      "data-term": "biocidal",
+      "data-encoded-term": "biocidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "133",
+        "ol",
+        "1"
+      ]
+    },
+    "nonabrasive": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "nonabrasive",
+      "data-encoded-term": "nonabrasive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "colorfast": {
+      "data-frequency": "47",
+      "data-relevance": "126",
+      "data-term": "colorfast",
+      "data-encoded-term": "colorfast",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "organochlorine": {
+      "data-frequency": "186",
+      "data-relevance": "125",
+      "data-term": "organochlorine",
+      "data-encoded-term": "organochlorine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "186",
+        "ol",
+        "1"
+      ]
+    },
+    "nonaddictive": {
+      "data-frequency": "-1",
+      "data-relevance": "124",
+      "data-term": "nonaddictive",
+      "data-encoded-term": "nonaddictive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "nonionic": {
+      "data-frequency": "126",
+      "data-relevance": "123",
+      "data-term": "nonionic",
+      "data-encoded-term": "nonionic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "126",
+        "ol",
+        "1"
+      ]
+    },
+    "paintable": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "paintable",
+      "data-encoded-term": "paintable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fungicidal": {
+      "data-frequency": "136",
+      "data-relevance": "121",
+      "data-term": "fungicidal",
+      "data-encoded-term": "fungicidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "136",
+        "ol",
+        "1"
+      ]
+    },
+    "aerosolized": {
+      "data-frequency": "165",
+      "data-relevance": "120",
+      "data-term": "aerosolized",
+      "data-encoded-term": "aerosolized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "165",
+        "ol",
+        "1"
+      ]
+    },
+    "allergenic": {
+      "data-frequency": "276",
+      "data-relevance": "119",
+      "data-term": "allergenic",
+      "data-encoded-term": "allergenic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "276",
+        "ol",
+        "1"
+      ]
+    },
+    "nonstick": {
+      "data-frequency": "49",
+      "data-relevance": "118",
+      "data-term": "nonstick",
+      "data-encoded-term": "nonstick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49",
+        "ol",
+        "1"
+      ]
+    },
+    "virucidal": {
+      "data-frequency": "45",
+      "data-relevance": "117",
+      "data-term": "virucidal",
+      "data-encoded-term": "virucidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "nonporous": {
+      "data-frequency": "53",
+      "data-relevance": "116",
+      "data-term": "nonporous",
+      "data-encoded-term": "nonporous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "dibasic": {
+      "data-frequency": "135",
+      "data-relevance": "115",
+      "data-term": "dibasic",
+      "data-encoded-term": "dibasic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "135",
+        "ol",
+        "1"
+      ]
+    },
+    "chloramine": {
+      "data-frequency": "87",
+      "data-relevance": "114",
+      "data-term": "chloramine",
+      "data-encoded-term": "chloramine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "87",
+        "ol",
+        "1"
+      ]
+    },
+    "bactericidal": {
+      "data-frequency": "379",
+      "data-relevance": "113",
+      "data-term": "bactericidal",
+      "data-encoded-term": "bactericidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "379",
+        "ol",
+        "1"
+      ]
+    },
+    "glycolic": {
+      "data-frequency": "135",
+      "data-relevance": "112",
+      "data-term": "glycolic",
+      "data-encoded-term": "glycolic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "135",
+        "ol",
+        "1"
+      ]
+    },
+    "pyrolytic": {
+      "data-frequency": "134",
+      "data-relevance": "111",
+      "data-term": "pyrolytic",
+      "data-encoded-term": "pyrolytic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "134",
+        "ol",
+        "1"
+      ]
+    },
+    "insecticidal": {
+      "data-frequency": "422",
+      "data-relevance": "110",
+      "data-term": "insecticidal",
+      "data-encoded-term": "insecticidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "422",
+        "ol",
+        "1"
+      ]
+    },
+    "intumescent": {
+      "data-frequency": "47",
+      "data-relevance": "109",
+      "data-term": "intumescent",
+      "data-encoded-term": "intumescent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "polyacrylamide": {
+      "data-frequency": "247",
+      "data-relevance": "108",
+      "data-term": "polyacrylamide",
+      "data-encoded-term": "polyacrylamide",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "247",
+        "ol",
+        "1"
+      ]
+    },
+    "organophosphate": {
+      "data-frequency": "329",
+      "data-relevance": "107",
+      "data-term": "organophosphate",
+      "data-encoded-term": "organophosphate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "329",
+        "ol",
+        "1"
+      ]
+    },
+    "germicidal": {
+      "data-frequency": "77",
+      "data-relevance": "106",
+      "data-term": "germicidal",
+      "data-encoded-term": "germicidal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "77",
+        "ol",
+        "1"
+      ]
+    },
+    "cupric": {
+      "data-frequency": "157",
+      "data-relevance": "105",
+      "data-term": "cupric",
+      "data-encoded-term": "cupric",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "157",
+        "ol",
+        "1"
+      ]
+    },
+    "cyanoacrylate": {
+      "data-frequency": "116",
+      "data-relevance": "104",
+      "data-term": "cyanoacrylate",
+      "data-encoded-term": "cyanoacrylate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "116",
+        "ol",
+        "1"
+      ]
+    },
+    "antimycin": {
+      "data-frequency": "-1",
+      "data-relevance": "103",
+      "data-term": "antimycin",
+      "data-encoded-term": "antimycin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "nonabsorbent": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "nonabsorbent",
+      "data-encoded-term": "nonabsorbent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "propanediol": {
+      "data-frequency": "226",
+      "data-relevance": "101",
+      "data-term": "propanediol",
+      "data-encoded-term": "propanediol",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "photoactive": {
+      "data-frequency": "84",
+      "data-relevance": "100",
+      "data-term": "photoactive",
+      "data-encoded-term": "photoactive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "84",
+        "ol",
+        "1"
+      ]
+    },
+    "incombustible": {
+      "data-frequency": "54",
+      "data-relevance": "99",
+      "data-term": "incombustible",
+      "data-encoded-term": "incombustible",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "54",
+        "ol",
+        "1"
+      ]
+    },
+    "flameless": {
+      "data-frequency": "60",
+      "data-relevance": "98",
+      "data-term": "flameless",
+      "data-encoded-term": "flameless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "ol",
+        "1"
+      ]
+    },
+    "odourless": {
+      "data-frequency": "149",
+      "data-relevance": "97",
+      "data-term": "odourless",
+      "data-encoded-term": "odourless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "149",
+        "ol",
+        "1"
+      ]
+    },
+    "isosorbide": {
+      "data-frequency": "156",
+      "data-relevance": "96",
+      "data-term": "isosorbide",
+      "data-encoded-term": "isosorbide",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "156",
+        "ol",
+        "1"
+      ]
+    },
+    "thixotropic": {
+      "data-frequency": "73",
+      "data-relevance": "95",
+      "data-term": "thixotropic",
+      "data-encoded-term": "thixotropic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73",
+        "ol",
+        "1"
+      ]
+    },
+    "semipermeable": {
+      "data-frequency": "126",
+      "data-relevance": "94",
+      "data-term": "semipermeable",
+      "data-encoded-term": "semipermeable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "126",
+        "ol",
+        "1"
+      ]
+    },
+    "propanol": {
+      "data-frequency": "723",
+      "data-relevance": "93",
+      "data-term": "propanol",
+      "data-encoded-term": "propanol",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "723",
+        "ol",
+        "1"
+      ]
+    },
+    "gunite": {
+      "data-frequency": "56",
+      "data-relevance": "92",
+      "data-term": "gunite",
+      "data-encoded-term": "gunite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "humic": {
+      "data-frequency": "311",
+      "data-relevance": "91",
+      "data-term": "humic",
+      "data-encoded-term": "humic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "311",
+        "ol",
+        "1"
+      ]
+    },
+    "claylike": {
+      "data-frequency": "-1",
+      "data-relevance": "90",
+      "data-term": "claylike",
+      "data-encoded-term": "claylike",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "eugenol": {
+      "data-frequency": "383",
+      "data-relevance": "89",
+      "data-term": "eugenol",
+      "data-encoded-term": "eugenol",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "383",
+        "ol",
+        "1"
+      ]
+    },
+    "cementitious": {
+      "data-frequency": "128",
+      "data-relevance": "88",
+      "data-term": "cementitious",
+      "data-encoded-term": "cementitious",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "128",
+        "ol",
+        "1"
+      ]
+    },
+    "thermostable": {
+      "data-frequency": "182",
+      "data-relevance": "87",
+      "data-term": "thermostable",
+      "data-encoded-term": "thermostable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "182",
+        "ol",
+        "1"
+      ]
+    },
+    "suppressant": {
+      "data-frequency": "434",
+      "data-relevance": "86",
+      "data-term": "suppressant",
+      "data-encoded-term": "suppressant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "434",
+        "ol",
+        "1"
+      ]
+    },
+    "nonskid": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "nonskid",
+      "data-encoded-term": "nonskid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "dissolvable": {
+      "data-frequency": "63418",
+      "data-relevance": "84",
+      "data-term": "dissolvable",
+      "data-encoded-term": "dissolvable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "63418",
+        "ol",
+        "1"
+      ]
+    },
+    "nonradioactive": {
+      "data-frequency": "60",
+      "data-relevance": "83",
+      "data-term": "nonradioactive",
+      "data-encoded-term": "nonradioactive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "ol",
+        "1"
+      ]
+    },
+    "non-flammable": {
+      "data-frequency": "1621",
+      "data-relevance": "82",
+      "data-term": "non-flammable",
+      "data-encoded-term": "non-flammable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1621",
+        "w2v",
+        "1"
+      ]
+    },
+    "antiparasitic": {
+      "data-frequency": "207",
+      "data-relevance": "81",
+      "data-term": "antiparasitic",
+      "data-encoded-term": "antiparasitic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "207",
+        "ol",
+        "1"
+      ]
+    },
+    "moldable": {
+      "data-frequency": "71",
+      "data-relevance": "80",
+      "data-term": "moldable",
+      "data-encoded-term": "moldable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "71",
+        "w2v",
+        "1"
+      ]
+    },
+    "mulches": {
+      "data-frequency": "61",
+      "data-relevance": "79",
+      "data-term": "mulches",
+      "data-encoded-term": "mulches",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "61",
+        "w2v",
+        "1"
+      ]
+    },
+    "all-natural": {
+      "data-frequency": "268963",
+      "data-relevance": "78",
+      "data-term": "all-natural",
+      "data-encoded-term": "all-natural",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "268963",
+        "w2v",
+        "1"
+      ]
+    },
+    "plasticizer": {
+      "data-frequency": "195",
+      "data-relevance": "77",
+      "data-term": "plasticizer",
+      "data-encoded-term": "plasticizer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "195",
+        "w2v",
+        "1"
+      ]
+    },
+    "injection-molded": {
+      "data-frequency": "669",
+      "data-relevance": "76",
+      "data-term": "injection-molded",
+      "data-encoded-term": "injection-molded",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "669",
+        "w2v",
+        "1"
+      ]
+    },
+    "thermoset": {
+      "data-frequency": "165",
+      "data-relevance": "75",
+      "data-term": "thermoset",
+      "data-encoded-term": "thermoset",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "165",
+        "w2v",
+        "1"
+      ]
+    },
+    "coolants": {
+      "data-frequency": "2100",
+      "data-relevance": "74",
+      "data-term": "coolants",
+      "data-encoded-term": "coolants",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2100",
+        "w2v",
+        "1"
+      ]
+    },
+    "oil-based": {
+      "data-frequency": "633",
+      "data-relevance": "73",
+      "data-term": "oil-based",
+      "data-encoded-term": "oil-based",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "633",
+        "w2v",
+        "1"
+      ]
+    },
+    "fixative": {
+      "data-frequency": "171",
+      "data-relevance": "72",
+      "data-term": "fixative",
+      "data-encoded-term": "fixative",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "171",
+        "w2v",
+        "1"
+      ]
+    },
+    "plant-derived": {
+      "data-frequency": "300",
+      "data-relevance": "71",
+      "data-term": "plant-derived",
+      "data-encoded-term": "plant-derived",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "300",
+        "w2v",
+        "1"
+      ]
+    },
+    "well-designed": {
+      "data-frequency": "205950",
+      "data-relevance": "70",
+      "data-term": "well-designed",
+      "data-encoded-term": "well-designed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "205950",
+        "w2v",
+        "1"
+      ]
+    },
+    "semisolid": {
+      "data-frequency": "79",
+      "data-relevance": "69",
+      "data-term": "semisolid",
+      "data-encoded-term": "semisolid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79",
+        "w2v",
+        "1"
+      ]
+    },
+    "thermosetting": {
+      "data-frequency": "166",
+      "data-relevance": "68",
+      "data-term": "thermosetting",
+      "data-encoded-term": "thermosetting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "166",
+        "w2v",
+        "1"
+      ]
+    },
+    "flavorless": {
+      "data-frequency": "88",
+      "data-relevance": "67",
+      "data-term": "flavorless",
+      "data-encoded-term": "flavorless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "88",
+        "w2v",
+        "1"
+      ]
+    },
+    "fipronil": {
+      "data-frequency": "383",
+      "data-relevance": "66",
+      "data-term": "fipronil",
+      "data-encoded-term": "fipronil",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "383",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonthreatening": {
+      "data-frequency": "60",
+      "data-relevance": "65",
+      "data-term": "nonthreatening",
+      "data-encoded-term": "nonthreatening",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "w2v",
+        "1"
+      ]
+    },
+    "out-of-date": {
+      "data-frequency": "3764",
+      "data-relevance": "64",
+      "data-term": "out-of-date",
+      "data-encoded-term": "out-of-date",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3764",
+        "w2v",
+        "1"
+      ]
+    },
+    "water-soluble": {
+      "data-frequency": "2031",
+      "data-relevance": "63",
+      "data-term": "water-soluble",
+      "data-encoded-term": "water-soluble",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2031",
+        "w2v",
+        "1"
+      ]
+    },
+    "terrarium": {
+      "data-frequency": "442",
+      "data-relevance": "62",
+      "data-term": "terrarium",
+      "data-encoded-term": "terrarium",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "442",
+        "w2v",
+        "1"
+      ]
+    },
+    "sellable": {
+      "data-frequency": "99",
+      "data-relevance": "61",
+      "data-term": "sellable",
+      "data-encoded-term": "sellable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "99",
+        "w2v",
+        "1"
+      ]
+    },
+    "unlabeled": {
+      "data-frequency": "1553",
+      "data-relevance": "60",
+      "data-term": "unlabeled",
+      "data-encoded-term": "unlabeled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1553",
+        "w2v",
+        "1"
+      ]
+    },
+    "unappealing": {
+      "data-frequency": "655",
+      "data-relevance": "59",
+      "data-term": "unappealing",
+      "data-encoded-term": "unappealing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "655",
+        "w2v",
+        "1"
+      ]
+    },
+    "peroxides": {
+      "data-frequency": "375",
+      "data-relevance": "58",
+      "data-term": "peroxides",
+      "data-encoded-term": "peroxides",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "375",
+        "w2v",
+        "1"
+      ]
+    },
+    "eco-friendly": {
+      "data-frequency": "2104",
+      "data-relevance": "57",
+      "data-term": "eco-friendly",
+      "data-encoded-term": "eco-friendly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2104",
+        "w2v",
+        "1"
+      ]
+    },
+    "radiosity": {
+      "data-frequency": "103",
+      "data-relevance": "56",
+      "data-term": "radiosity",
+      "data-encoded-term": "radiosity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "103",
+        "w2v",
+        "1"
+      ]
+    },
+    "non-reactive": {
+      "data-frequency": "4555",
+      "data-relevance": "55",
+      "data-term": "non-reactive",
+      "data-encoded-term": "non-reactive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4555",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonorganic": {
+      "data-frequency": "45",
+      "data-relevance": "54",
+      "data-term": "nonorganic",
+      "data-encoded-term": "nonorganic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "biocide": {
+      "data-frequency": "153",
+      "data-relevance": "53",
+      "data-term": "biocide",
+      "data-encoded-term": "biocide",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "153",
+        "w2v",
+        "1"
+      ]
+    },
+    "terrifyingly": {
+      "data-frequency": "181",
+      "data-relevance": "52",
+      "data-term": "terrifyingly",
+      "data-encoded-term": "terrifyingly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "181",
+        "w2v",
+        "1"
+      ]
+    },
+    "water-insoluble": {
+      "data-frequency": "2367",
+      "data-relevance": "51",
+      "data-term": "water-insoluble",
+      "data-encoded-term": "water-insoluble",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2367",
+        "w2v",
+        "1"
+      ]
+    },
+    "atomized": {
+      "data-frequency": "563",
+      "data-relevance": "50",
+      "data-term": "atomized",
+      "data-encoded-term": "atomized",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "563",
+        "w2v",
+        "1"
+      ]
+    },
+    "thickener": {
+      "data-frequency": "316",
+      "data-relevance": "49",
+      "data-term": "thickener",
+      "data-encoded-term": "thickener",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "316",
+        "w2v",
+        "1"
+      ]
+    },
+    "refrigerants": {
+      "data-frequency": "732",
+      "data-relevance": "48",
+      "data-term": "refrigerants",
+      "data-encoded-term": "refrigerants",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "732",
+        "w2v",
+        "1"
+      ]
+    },
+    "squeezable": {
+      "data-frequency": "48",
+      "data-relevance": "47",
+      "data-term": "squeezable",
+      "data-encoded-term": "squeezable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "w2v",
+        "1"
+      ]
+    },
+    "water intoxication": {
+      "data-frequency": "1867",
+      "data-relevance": "46",
+      "data-term": "water intoxication",
+      "data-encoded-term": "water%20intoxication",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1867",
+        "wiki",
+        "1"
+      ]
+    },
+    "pesticide": {
+      "data-frequency": "2830",
+      "data-relevance": "45",
+      "data-term": "pesticide",
+      "data-encoded-term": "pesticide",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2830",
+        "wiki",
+        "1"
+      ]
+    },
+    "snake venom": {
+      "data-frequency": "1839",
+      "data-relevance": "44",
+      "data-term": "snake venom",
+      "data-encoded-term": "snake%20venom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1839",
+        "wiki",
+        "1"
+      ]
+    },
+    "inflammation": {
+      "data-frequency": "9388",
+      "data-relevance": "43",
+      "data-term": "inflammation",
+      "data-encoded-term": "inflammation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9388",
+        "wiki",
+        "1"
+      ]
+    },
+    "paris green": {
+      "data-frequency": "259",
+      "data-relevance": "42",
+      "data-term": "paris green",
+      "data-encoded-term": "paris%20green",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "259",
+        "ol",
+        "1"
+      ]
+    },
+    "dose–response relationship": {
+      "data-frequency": "1736",
+      "data-relevance": "41",
+      "data-term": "dose–response relationship",
+      "data-encoded-term": "dose%E2%80%93response%20relationship",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1736",
+        "wiki",
+        "1"
+      ]
+    },
+    "animal testing": {
+      "data-frequency": "24073",
+      "data-relevance": "40",
+      "data-term": "animal testing",
+      "data-encoded-term": "animal%20testing",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "24073",
+        "wiki",
+        "1"
+      ]
+    },
+    "hatters": {
+      "data-frequency": "1351",
+      "data-relevance": "39",
+      "data-term": "hatters",
+      "data-encoded-term": "hatters",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1351",
+        "wiki",
+        "1"
+      ]
+    },
+    "safety factor": {
+      "data-frequency": "16528",
+      "data-relevance": "38",
+      "data-term": "safety factor",
+      "data-encoded-term": "safety%20factor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "16528",
+        "wiki",
+        "1"
+      ]
+    },
+    "median lethal dose": {
+      "data-frequency": "187",
+      "data-relevance": "37",
+      "data-term": "median lethal dose",
+      "data-encoded-term": "median%20lethal%20dose",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "187",
+        "wiki",
+        "1"
+      ]
+    },
+    "intaglio": {
+      "data-frequency": "583",
+      "data-relevance": "36",
+      "data-term": "intaglio",
+      "data-encoded-term": "intaglio",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "583",
+        "wiki",
+        "1"
+      ]
+    },
+    "turpentine": {
+      "data-frequency": "1417",
+      "data-relevance": "35",
+      "data-term": "turpentine",
+      "data-encoded-term": "turpentine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1417",
+        "wiki",
+        "1"
+      ]
+    },
+    "industrial waste": {
+      "data-frequency": "10962",
+      "data-relevance": "34",
+      "data-term": "industrial waste",
+      "data-encoded-term": "industrial%20waste",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "10962",
+        "wiki",
+        "1"
+      ]
+    },
+    "tobacco smoking": {
+      "data-frequency": "877",
+      "data-relevance": "33",
+      "data-term": "tobacco smoking",
+      "data-encoded-term": "tobacco%20smoking",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "877",
+        "wiki",
+        "1"
+      ]
+    },
+    "no-observed-adverse-effect level": {
+      "data-frequency": "1795",
+      "data-relevance": "32",
+      "data-term": "no-observed-adverse-effect level",
+      "data-encoded-term": "no-observed-adverse-effect%20level",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1795",
+        "wiki",
+        "1"
+      ]
+    },
+    "xylol": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "xylol",
+      "data-encoded-term": "xylol",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "tolerable daily intake": {
+      "data-frequency": "163",
+      "data-relevance": "30",
+      "data-term": "tolerable daily intake",
+      "data-encoded-term": "tolerable%20daily%20intake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "163",
+        "wiki",
+        "1"
+      ]
+    },
+    "threshold limit value": {
+      "data-frequency": "2141",
+      "data-relevance": "29",
+      "data-term": "threshold limit value",
+      "data-encoded-term": "threshold%20limit%20value",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2141",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxicity class": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "toxicity class",
+      "data-encoded-term": "toxicity%20class",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "wiki",
+        "1"
+      ]
+    },
+    "lithography": {
+      "data-frequency": "2638",
+      "data-relevance": "27",
+      "data-term": "lithography",
+      "data-encoded-term": "lithography",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2638",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxicity label": {
+      "data-frequency": "3952",
+      "data-relevance": "26",
+      "data-term": "toxicity label",
+      "data-encoded-term": "toxicity%20label",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3952",
+        "wiki",
+        "1"
+      ]
+    },
+    "superfund": {
+      "data-frequency": "1806",
+      "data-relevance": "25",
+      "data-term": "superfund",
+      "data-encoded-term": "superfund",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1806",
+        "wiki",
+        "1"
+      ]
+    },
+    "globally harmonized system of classification and labelling of chemicals": {
+      "data-frequency": "56",
+      "data-relevance": "24",
+      "data-term": "globally harmonized system of classification and labelling of chemicals",
+      "data-encoded-term": "globally%20harmonized%20system%20of%20classification%20and%20labelling%20of%20chemicals",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "56",
+        "wiki",
+        "1"
+      ]
+    },
+    "fish": {
+      "data-frequency": "130745",
+      "data-relevance": "23",
+      "data-term": "fish",
+      "data-encoded-term": "fish",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "130745",
+        "wiki",
+        "1"
+      ]
+    },
+    "pubmed": {
+      "data-frequency": "20359",
+      "data-relevance": "22",
+      "data-term": "pubmed",
+      "data-encoded-term": "pubmed",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "20359",
+        "wiki",
+        "1"
+      ]
+    },
+    "bow": {
+      "data-frequency": "43494",
+      "data-relevance": "21",
+      "data-term": "bow",
+      "data-encoded-term": "bow",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "43494",
+        "wiki",
+        "1"
+      ]
+    },
+    "crustacea": {
+      "data-frequency": "4525",
+      "data-relevance": "20",
+      "data-term": "crustacea",
+      "data-encoded-term": "crustacea",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4525",
+        "wiki",
+        "1"
+      ]
+    },
+    "environmental hazard": {
+      "data-frequency": "6389",
+      "data-relevance": "19",
+      "data-term": "environmental hazard",
+      "data-encoded-term": "environmental%20hazard",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "6389",
+        "wiki",
+        "1"
+      ]
+    },
+    "ion": {
+      "data-frequency": "34766",
+      "data-relevance": "18",
+      "data-term": "ion",
+      "data-encoded-term": "ion",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "34766",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxmap": {
+      "data-frequency": "77",
+      "data-relevance": "17",
+      "data-term": "toxmap",
+      "data-encoded-term": "toxmap",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "77",
+        "wiki",
+        "1"
+      ]
+    },
+    "patch test": {
+      "data-frequency": "6994",
+      "data-relevance": "16",
+      "data-term": "patch test",
+      "data-encoded-term": "patch%20test",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "6994",
+        "wiki",
+        "1"
+      ]
+    },
+    "alice in wonderland": {
+      "data-frequency": "4611",
+      "data-relevance": "15",
+      "data-term": "alice in wonderland",
+      "data-encoded-term": "alice%20in%20wonderland",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "4611",
+        "wiki",
+        "1"
+      ]
+    },
+    "human eye": {
+      "data-frequency": "1687",
+      "data-relevance": "14",
+      "data-term": "human eye",
+      "data-encoded-term": "human%20eye",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1687",
+        "wiki",
+        "1"
+      ]
+    },
+    "silk screens": {
+      "data-frequency": "2648",
+      "data-relevance": "13",
+      "data-term": "silk screens",
+      "data-encoded-term": "silk%20screens",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2648",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxodon": {
+      "data-frequency": "45",
+      "data-relevance": "12",
+      "data-term": "toxodon",
+      "data-encoded-term": "toxodon",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "45",
+        "wiki",
+        "1"
+      ]
+    },
+    "photo etching": {
+      "data-frequency": "649",
+      "data-relevance": "11",
+      "data-term": "photo etching",
+      "data-encoded-term": "photo%20etching",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "649",
+        "wiki",
+        "1"
+      ]
+    },
+    "keith howard": {
+      "data-frequency": "16040",
+      "data-relevance": "10",
+      "data-term": "keith howard",
+      "data-encoded-term": "keith%20howard",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "16040",
+        "wiki",
+        "1"
+      ]
+    },
+    "acrylic paint": {
+      "data-frequency": "416",
+      "data-relevance": "9",
+      "data-term": "acrylic paint",
+      "data-encoded-term": "acrylic%20paint",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "416",
+        "wiki",
+        "1"
+      ]
+    },
+    "digital imaging": {
+      "data-frequency": "938",
+      "data-relevance": "8",
+      "data-term": "digital imaging",
+      "data-encoded-term": "digital%20imaging",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "938",
+        "wiki",
+        "1"
+      ]
+    },
+    "united states environmental protection agency": {
+      "data-frequency": "2712",
+      "data-relevance": "7",
+      "data-term": "united states environmental protection agency",
+      "data-encoded-term": "united%20states%20environmental%20protection%20agency",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "2712",
+        "wiki",
+        "1"
+      ]
+    },
+    "united states national library of medicine": {
+      "data-frequency": "3227",
+      "data-relevance": "6",
+      "data-term": "united states national library of medicine",
+      "data-encoded-term": "united%20states%20national%20library%20of%20medicine",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "3227",
+        "wiki",
+        "1"
+      ]
+    },
+    "aquatic toxicity": {
+      "data-frequency": "1472",
+      "data-relevance": "5",
+      "data-term": "aquatic toxicity",
+      "data-encoded-term": "aquatic%20toxicity",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1472",
+        "wiki",
+        "1"
+      ]
+    },
+    "toxics release inventory": {
+      "data-frequency": "163",
+      "data-relevance": "4",
+      "data-term": "toxics release inventory",
+      "data-encoded-term": "toxics%20release%20inventory",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "163",
+        "wiki",
+        "1"
+      ]
+    },
+    "arrow poison": {
+      "data-frequency": "101",
+      "data-relevance": "3",
+      "data-term": "arrow poison",
+      "data-encoded-term": "arrow%20poison",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "101",
+        "wiki",
+        "1"
+      ]
+    },
+    "ancient greek": {
+      "data-frequency": "34083",
+      "data-relevance": "2",
+      "data-term": "ancient greek",
+      "data-encoded-term": "ancient%20greek",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "34083",
+        "wiki",
+        "1"
+      ]
+    },
+    "biological name": {
+      "data-frequency": "39374",
+      "data-relevance": "1",
+      "data-term": "biological name",
+      "data-encoded-term": "biological%20name",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "39374",
+        "wiki",
+        "1"
+      ]
+    },
+    "classical greek": {
+      "data-frequency": "1865",
+      "data-relevance": "0",
+      "data-term": "classical greek",
+      "data-encoded-term": "classical%20greek",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1865",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [],
+    "synonyms": [
+      "atoxic",
+      "non-poisonous",
+      "innocuous",
+      "nonpoisonous",
+      "harmless"
+    ],
+    "antonyms": [
+      "nocuous",
+      "toxic",
+      "poisonous",
+      "harmful"
+    ],
+    "similar_terms": [
+      "antitoxic",
+      "nonvenomous",
+      "nonpoisonous"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "nontoxicity",
+      "non-poisonous",
+      "biodegradable",
+      "poisonous",
+      "harmless",
+      "safe",
+      "toxic",
+      "nonpoisonous",
+      "non-toxic",
+      "edible",
+      "eatable",
+      "atoxic",
+      "detoxicate"
+    ]
+  }
+}

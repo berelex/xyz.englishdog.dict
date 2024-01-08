@@ -1,0 +1,4322 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "physician": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/prescriber/n/,/c/en/physician/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/prescriber/n",
+          "@type": "Node",
+          "label": "prescriber",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/prescriber"
+        },
+        "end": {
+          "@id": "/c/en/physician",
+          "@type": "Node",
+          "label": "physician",
+          "language": "en",
+          "term": "/c/en/physician"
+        }
+      },
+      "physician assistant": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/prescriber/n/,/c/en/physician_assistant/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/prescriber/n",
+          "@type": "Node",
+          "label": "prescriber",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/prescriber"
+        },
+        "end": {
+          "@id": "/c/en/physician_assistant",
+          "@type": "Node",
+          "label": "physician assistant",
+          "language": "en",
+          "term": "/c/en/physician_assistant"
+        }
+      },
+      "off label": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/off_label/a/,/c/en/prescriber/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/off_label/a",
+          "@type": "Node",
+          "label": "off label",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/off_label"
+        },
+        "end": {
+          "@id": "/c/en/prescriber",
+          "@type": "Node",
+          "label": "prescriber",
+          "language": "en",
+          "term": "/c/en/prescriber"
+        }
+      },
+      "prescribe": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/prescriber/n/,/c/en/prescribe/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/prescriber/n",
+          "@type": "Node",
+          "label": "prescriber",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/prescriber"
+        },
+        "end": {
+          "@id": "/c/en/prescribe",
+          "@type": "Node",
+          "label": "prescribe",
+          "language": "en",
+          "term": "/c/en/prescribe"
+        }
+      },
+      "nurse practitioner": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/prescriber/n/,/c/en/nurse_practitioner/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/prescriber/n",
+          "@type": "Node",
+          "label": "prescriber",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/prescriber"
+        },
+        "end": {
+          "@id": "/c/en/nurse_practitioner",
+          "@type": "Node",
+          "label": "nurse practitioner",
+          "language": "en",
+          "term": "/c/en/nurse_practitioner"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {},
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "prescribers": {
+        "@id": "/a/[/r/FormOf/,/c/en/prescribers/n/,/c/en/prescriber/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/prescribers/n",
+          "@type": "Node",
+          "label": "prescribers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/prescribers"
+        },
+        "end": {
+          "@id": "/c/en/prescriber",
+          "@type": "Node",
+          "label": "prescriber",
+          "language": "en",
+          "term": "/c/en/prescriber"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "doctor": {
+      "data-frequency": "133338",
+      "data-relevance": "296",
+      "data-term": "doctor",
+      "data-encoded-term": "doctor",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "133338",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "patient": {
+      "data-frequency": "39978",
+      "data-relevance": "295",
+      "data-term": "patient",
+      "data-encoded-term": "patient",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "39978",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "physician": {
+      "data-frequency": "67821",
+      "data-relevance": "294",
+      "data-term": "physician",
+      "data-encoded-term": "physician",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "67821",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "clinician": {
+      "data-frequency": "2124",
+      "data-relevance": "293",
+      "data-term": "clinician",
+      "data-encoded-term": "clinician",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "2124",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "anesthesiology": {
+      "data-frequency": "1315",
+      "data-relevance": "292",
+      "data-term": "anesthesiology",
+      "data-encoded-term": "anesthesiology",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1315",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "pharmaceutical": {
+      "data-frequency": "19411",
+      "data-relevance": "291",
+      "data-term": "pharmaceutical",
+      "data-encoded-term": "pharmaceutical",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "19411",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "premedication": {
+      "data-frequency": "46",
+      "data-relevance": "290",
+      "data-term": "premedication",
+      "data-encoded-term": "premedication",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "46",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "isosorbide": {
+      "data-frequency": "156",
+      "data-relevance": "289",
+      "data-term": "isosorbide",
+      "data-encoded-term": "isosorbide",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "156",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "prescription drug": {
+      "data-frequency": "1177",
+      "data-relevance": "288",
+      "data-term": "prescription drug",
+      "data-encoded-term": "prescription%20drug",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "1177",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "medico": {
+      "data-frequency": "3462",
+      "data-relevance": "287",
+      "data-term": "medico",
+      "data-encoded-term": "medico",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "3462",
+        "cn5",
+        "1"
+      ]
+    },
+    "oncologist": {
+      "data-frequency": "1268",
+      "data-relevance": "286",
+      "data-term": "oncologist",
+      "data-encoded-term": "oncologist",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1268",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctoral": {
+      "data-frequency": "48757",
+      "data-relevance": "285",
+      "data-term": "doctoral",
+      "data-encoded-term": "doctoral",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "48757",
+        "cn5",
+        "1"
+      ]
+    },
+    "dermatologist": {
+      "data-frequency": "1170",
+      "data-relevance": "284",
+      "data-term": "dermatologist",
+      "data-encoded-term": "dermatologist",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1170",
+        "cn5",
+        "1"
+      ]
+    },
+    "gp": {
+      "data-frequency": "47186",
+      "data-relevance": "283",
+      "data-term": "gp",
+      "data-encoded-term": "gp",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "47186",
+        "cn5",
+        "1"
+      ]
+    },
+    "surgeon": {
+      "data-frequency": "31099",
+      "data-relevance": "282",
+      "data-term": "surgeon",
+      "data-encoded-term": "surgeon",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "31099",
+        "cn5",
+        "1"
+      ]
+    },
+    "psychiatrist": {
+      "data-frequency": "11663",
+      "data-relevance": "281",
+      "data-term": "psychiatrist",
+      "data-encoded-term": "psychiatrist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "11663",
+        "cn5",
+        "1"
+      ]
+    },
+    "obstetrician": {
+      "data-frequency": "1796",
+      "data-relevance": "280",
+      "data-term": "obstetrician",
+      "data-encoded-term": "obstetrician",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1796",
+        "cn5",
+        "1"
+      ]
+    },
+    "md": {
+      "data-frequency": "60498",
+      "data-relevance": "279",
+      "data-term": "md",
+      "data-encoded-term": "md",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "60498",
+        "cn5",
+        "1"
+      ]
+    },
+    "pathologist": {
+      "data-frequency": "4467",
+      "data-relevance": "278",
+      "data-term": "pathologist",
+      "data-encoded-term": "pathologist",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "4467",
+        "cn5",
+        "1"
+      ]
+    },
+    "harvey": {
+      "data-frequency": "73473",
+      "data-relevance": "277",
+      "data-term": "harvey",
+      "data-encoded-term": "harvey",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "73473",
+        "cn5",
+        "1"
+      ]
+    },
+    "medic": {
+      "data-frequency": "4023",
+      "data-relevance": "276",
+      "data-term": "medic",
+      "data-encoded-term": "medic",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "4023",
+        "cn5",
+        "1"
+      ]
+    },
+    "schweitzer": {
+      "data-frequency": "5193",
+      "data-relevance": "275",
+      "data-term": "schweitzer",
+      "data-encoded-term": "schweitzer",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "5193",
+        "cn5",
+        "1"
+      ]
+    },
+    "doc": {
+      "data-frequency": "38607",
+      "data-relevance": "274",
+      "data-term": "doc",
+      "data-encoded-term": "doc",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "38607",
+        "cn5",
+        "1"
+      ]
+    },
+    "avicenna": {
+      "data-frequency": "1576",
+      "data-relevance": "273",
+      "data-term": "avicenna",
+      "data-encoded-term": "avicenna",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1576",
+        "cn5",
+        "1"
+      ]
+    },
+    "veterinarian": {
+      "data-frequency": "3662",
+      "data-relevance": "272",
+      "data-term": "veterinarian",
+      "data-encoded-term": "veterinarian",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "3662",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical": {
+      "data-frequency": "235006",
+      "data-relevance": "271",
+      "data-term": "medical",
+      "data-encoded-term": "medical",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "235006",
+        "cn5",
+        "1"
+      ]
+    },
+    "neurologist": {
+      "data-frequency": "3104",
+      "data-relevance": "270",
+      "data-term": "neurologist",
+      "data-encoded-term": "neurologist",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "3104",
+        "cn5",
+        "1"
+      ]
+    },
+    "hodgkin": {
+      "data-frequency": "1838",
+      "data-relevance": "269",
+      "data-term": "hodgkin",
+      "data-encoded-term": "hodgkin",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1838",
+        "cn5",
+        "1"
+      ]
+    },
+    "healer": {
+      "data-frequency": "4248",
+      "data-relevance": "268",
+      "data-term": "healer",
+      "data-encoded-term": "healer",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4248",
+        "cn5",
+        "1"
+      ]
+    },
+    "dr": {
+      "data-frequency": "300992",
+      "data-relevance": "267",
+      "data-term": "dr",
+      "data-encoded-term": "dr",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "300992",
+        "cn5",
+        "1"
+      ]
+    },
+    "therapist": {
+      "data-frequency": "6802",
+      "data-relevance": "266",
+      "data-term": "therapist",
+      "data-encoded-term": "therapist",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "6802",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "cardiologist": {
+      "data-frequency": "1862",
+      "data-relevance": "265",
+      "data-term": "cardiologist",
+      "data-encoded-term": "cardiologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1862",
+        "cn5",
+        "1"
+      ]
+    },
+    "medication": {
+      "data-frequency": "12650",
+      "data-relevance": "264",
+      "data-term": "medication",
+      "data-encoded-term": "medication",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "12650",
+        "cn5",
+        "1"
+      ]
+    },
+    "ross": {
+      "data-frequency": "135316",
+      "data-relevance": "263",
+      "data-term": "ross",
+      "data-encoded-term": "ross",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "135316",
+        "cn5",
+        "1"
+      ]
+    },
+    "pediatrician": {
+      "data-frequency": "2297",
+      "data-relevance": "262",
+      "data-term": "pediatrician",
+      "data-encoded-term": "pediatrician",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2297",
+        "cn5",
+        "1"
+      ]
+    },
+    "syringe": {
+      "data-frequency": "1494",
+      "data-relevance": "261",
+      "data-term": "syringe",
+      "data-encoded-term": "syringe",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1494",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicine": {
+      "data-frequency": "179520",
+      "data-relevance": "260",
+      "data-term": "medicine",
+      "data-encoded-term": "medicine",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "179520",
+        "cn5",
+        "1"
+      ]
+    },
+    "apc": {
+      "data-frequency": "4657",
+      "data-relevance": "259",
+      "data-term": "apc",
+      "data-encoded-term": "apc",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4657",
+        "cn5",
+        "1"
+      ]
+    },
+    "paregoric": {
+      "data-frequency": "255",
+      "data-relevance": "258",
+      "data-term": "paregoric",
+      "data-encoded-term": "paregoric",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "255",
+        "cn5",
+        "1"
+      ]
+    },
+    "specialist": {
+      "data-frequency": "53823",
+      "data-relevance": "257",
+      "data-term": "specialist",
+      "data-encoded-term": "specialist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "53823",
+        "cn5",
+        "1"
+      ]
+    },
+    "veterinary": {
+      "data-frequency": "17412",
+      "data-relevance": "256",
+      "data-term": "veterinary",
+      "data-encoded-term": "veterinary",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "17412",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticoagulant": {
+      "data-frequency": "584",
+      "data-relevance": "255",
+      "data-term": "anticoagulant",
+      "data-encoded-term": "anticoagulant",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "584",
+        "cn5",
+        "1"
+      ]
+    },
+    "provider": {
+      "data-frequency": "27823",
+      "data-relevance": "254",
+      "data-term": "provider",
+      "data-encoded-term": "provider",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "27823",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "doctorate": {
+      "data-frequency": "50000",
+      "data-relevance": "253",
+      "data-term": "doctorate",
+      "data-encoded-term": "doctorate",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "50000",
+        "cn5",
+        "1"
+      ]
+    },
+    "hakim": {
+      "data-frequency": "8911",
+      "data-relevance": "252",
+      "data-term": "hakim",
+      "data-encoded-term": "hakim",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "8911",
+        "cn5",
+        "1"
+      ]
+    },
+    "manson": {
+      "data-frequency": "8181",
+      "data-relevance": "251",
+      "data-term": "manson",
+      "data-encoded-term": "manson",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "8181",
+        "cn5",
+        "1"
+      ]
+    },
+    "clinic": {
+      "data-frequency": "28526",
+      "data-relevance": "250",
+      "data-term": "clinic",
+      "data-encoded-term": "clinic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "28526",
+        "cn5",
+        "1"
+      ]
+    },
+    "psych": {
+      "data-frequency": "3513",
+      "data-relevance": "249",
+      "data-term": "psych",
+      "data-encoded-term": "psych",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "3513",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gynecologist": {
+      "data-frequency": "1437",
+      "data-relevance": "248",
+      "data-term": "gynecologist",
+      "data-encoded-term": "gynecologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1437",
+        "cn5",
+        "1"
+      ]
+    },
+    "radiotherapy": {
+      "data-frequency": "1623",
+      "data-relevance": "247",
+      "data-term": "radiotherapy",
+      "data-encoded-term": "radiotherapy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1623",
+        "cn5",
+        "1"
+      ]
+    },
+    "pharmacist": {
+      "data-frequency": "5263",
+      "data-relevance": "246",
+      "data-term": "pharmacist",
+      "data-encoded-term": "pharmacist",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "5263",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "gilbert": {
+      "data-frequency": "76646",
+      "data-relevance": "245",
+      "data-term": "gilbert",
+      "data-encoded-term": "gilbert",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "76646",
+        "cn5",
+        "1"
+      ]
+    },
+    "biomedicine": {
+      "data-frequency": "1704",
+      "data-relevance": "244",
+      "data-term": "biomedicine",
+      "data-encoded-term": "biomedicine",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1704",
+        "cn5",
+        "1"
+      ]
+    },
+    "antihistamine": {
+      "data-frequency": "422",
+      "data-relevance": "243",
+      "data-term": "antihistamine",
+      "data-encoded-term": "antihistamine",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "422",
+        "cn5",
+        "1"
+      ]
+    },
+    "catatonic": {
+      "data-frequency": "1002",
+      "data-relevance": "242",
+      "data-term": "catatonic",
+      "data-encoded-term": "catatonic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1002",
+        "cn5",
+        "1"
+      ]
+    },
+    "pharmacy": {
+      "data-frequency": "18587",
+      "data-relevance": "241",
+      "data-term": "pharmacy",
+      "data-encoded-term": "pharmacy",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "18587",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "nurse": {
+      "data-frequency": "44748",
+      "data-relevance": "240",
+      "data-term": "nurse",
+      "data-encoded-term": "nurse",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "44748",
+        "cn5",
+        "1"
+      ]
+    },
+    "oncology": {
+      "data-frequency": "7255",
+      "data-relevance": "239",
+      "data-term": "oncology",
+      "data-encoded-term": "oncology",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7255",
+        "cn5",
+        "1"
+      ]
+    },
+    "antidoctor": {
+      "data-frequency": "-1",
+      "data-relevance": "238",
+      "data-term": "antidoctor",
+      "data-encoded-term": "antidoctor",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nostrum": {
+      "data-frequency": "1284",
+      "data-relevance": "237",
+      "data-term": "nostrum",
+      "data-encoded-term": "nostrum",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1284",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctorish": {
+      "data-frequency": "-1",
+      "data-relevance": "236",
+      "data-term": "doctorish",
+      "data-encoded-term": "doctorish",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "psychotic": {
+      "data-frequency": "3848",
+      "data-relevance": "235",
+      "data-term": "psychotic",
+      "data-encoded-term": "psychotic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3848",
+        "cn5",
+        "1"
+      ]
+    },
+    "allergist": {
+      "data-frequency": "94",
+      "data-relevance": "234",
+      "data-term": "allergist",
+      "data-encoded-term": "allergist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "94",
+        "cn5",
+        "1"
+      ]
+    },
+    "gastroenterologist": {
+      "data-frequency": "404",
+      "data-relevance": "233",
+      "data-term": "gastroenterologist",
+      "data-encoded-term": "gastroenterologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "404",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctorial": {
+      "data-frequency": "-1",
+      "data-relevance": "232",
+      "data-term": "doctorial",
+      "data-encoded-term": "doctorial",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pediatrics": {
+      "data-frequency": "5695",
+      "data-relevance": "231",
+      "data-term": "pediatrics",
+      "data-encoded-term": "pediatrics",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "5695",
+        "cn5",
+        "1"
+      ]
+    },
+    "endo": {
+      "data-frequency": "4952",
+      "data-relevance": "230",
+      "data-term": "endo",
+      "data-encoded-term": "endo",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "4952",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "derm": {
+      "data-frequency": "588",
+      "data-relevance": "229",
+      "data-term": "derm",
+      "data-encoded-term": "derm",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "588",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "placebo": {
+      "data-frequency": "3888",
+      "data-relevance": "228",
+      "data-term": "placebo",
+      "data-encoded-term": "placebo",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3888",
+        "cn5",
+        "1"
+      ]
+    },
+    "nondoctor": {
+      "data-frequency": "-1",
+      "data-relevance": "227",
+      "data-term": "nondoctor",
+      "data-encoded-term": "nondoctor",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "iatro": {
+      "data-frequency": "-1",
+      "data-relevance": "226",
+      "data-term": "iatro",
+      "data-encoded-term": "iatro",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "therapy": {
+      "data-frequency": "47239",
+      "data-relevance": "225",
+      "data-term": "therapy",
+      "data-encoded-term": "therapy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "47239",
+        "cn5",
+        "1"
+      ]
+    },
+    "medician": {
+      "data-frequency": "-1",
+      "data-relevance": "224",
+      "data-term": "medician",
+      "data-encoded-term": "medician",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nephrologist": {
+      "data-frequency": "288",
+      "data-relevance": "223",
+      "data-term": "nephrologist",
+      "data-encoded-term": "nephrologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "288",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctorishness": {
+      "data-frequency": "-1",
+      "data-relevance": "222",
+      "data-term": "doctorishness",
+      "data-encoded-term": "doctorishness",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "neuropsychologist": {
+      "data-frequency": "285",
+      "data-relevance": "221",
+      "data-term": "neuropsychologist",
+      "data-encoded-term": "neuropsychologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "285",
+        "cn5",
+        "1"
+      ]
+    },
+    "internist": {
+      "data-frequency": "578",
+      "data-relevance": "220",
+      "data-term": "internist",
+      "data-encoded-term": "internist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "578",
+        "cn5",
+        "1"
+      ]
+    },
+    "curative": {
+      "data-frequency": "1508",
+      "data-relevance": "219",
+      "data-term": "curative",
+      "data-encoded-term": "curative",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1508",
+        "cn5",
+        "1"
+      ]
+    },
+    "gastroenterology": {
+      "data-frequency": "2863",
+      "data-relevance": "218",
+      "data-term": "gastroenterology",
+      "data-encoded-term": "gastroenterology",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2863",
+        "cn5",
+        "1"
+      ]
+    },
+    "palliative": {
+      "data-frequency": "2001",
+      "data-relevance": "217",
+      "data-term": "palliative",
+      "data-encoded-term": "palliative",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2001",
+        "cn5",
+        "1"
+      ]
+    },
+    "geriatrician": {
+      "data-frequency": "74",
+      "data-relevance": "216",
+      "data-term": "geriatrician",
+      "data-encoded-term": "geriatrician",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "74",
+        "cn5",
+        "1"
+      ]
+    },
+    "clinical": {
+      "data-frequency": "69561",
+      "data-relevance": "215",
+      "data-term": "clinical",
+      "data-encoded-term": "clinical",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "69561",
+        "cn5",
+        "1"
+      ]
+    },
+    "therapeutic": {
+      "data-frequency": "13797",
+      "data-relevance": "214",
+      "data-term": "therapeutic",
+      "data-encoded-term": "therapeutic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "13797",
+        "cn5",
+        "1"
+      ]
+    },
+    "virologist": {
+      "data-frequency": "960",
+      "data-relevance": "213",
+      "data-term": "virologist",
+      "data-encoded-term": "virologist",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "960",
+        "cn5",
+        "1"
+      ]
+    },
+    "remedy": {
+      "data-frequency": "10566",
+      "data-relevance": "212",
+      "data-term": "remedy",
+      "data-encoded-term": "remedy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "10566",
+        "cn5",
+        "1"
+      ]
+    },
+    "rheumatology": {
+      "data-frequency": "1581",
+      "data-relevance": "211",
+      "data-term": "rheumatology",
+      "data-encoded-term": "rheumatology",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1581",
+        "cn5",
+        "1"
+      ]
+    },
+    "diagnose": {
+      "data-frequency": "3857",
+      "data-relevance": "210",
+      "data-term": "diagnose",
+      "data-encoded-term": "diagnose",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3857",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonmedical": {
+      "data-frequency": "132",
+      "data-relevance": "209",
+      "data-term": "nonmedical",
+      "data-encoded-term": "nonmedical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "132",
+        "cn5",
+        "1"
+      ]
+    },
+    "multidoctor": {
+      "data-frequency": "-1",
+      "data-relevance": "208",
+      "data-term": "multidoctor",
+      "data-encoded-term": "multidoctor",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "practitioner": {
+      "data-frequency": "12856",
+      "data-relevance": "207",
+      "data-term": "practitioner",
+      "data-encoded-term": "practitioner",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "12856",
+        "ol",
+        "1"
+      ]
+    },
+    "healthcare": {
+      "data-frequency": "34945",
+      "data-relevance": "206",
+      "data-term": "healthcare",
+      "data-encoded-term": "healthcare",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "34945",
+        "ol",
+        "1"
+      ]
+    },
+    "leechcraft": {
+      "data-frequency": "-1",
+      "data-relevance": "205",
+      "data-term": "leechcraft",
+      "data-encoded-term": "leechcraft",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pseudomedical": {
+      "data-frequency": "-1",
+      "data-relevance": "204",
+      "data-term": "pseudomedical",
+      "data-encoded-term": "pseudomedical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "physicker": {
+      "data-frequency": "-1",
+      "data-relevance": "203",
+      "data-term": "physicker",
+      "data-encoded-term": "physicker",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mercurialist": {
+      "data-frequency": "-1",
+      "data-relevance": "202",
+      "data-term": "mercurialist",
+      "data-encoded-term": "mercurialist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ethnomedicine": {
+      "data-frequency": "275",
+      "data-relevance": "201",
+      "data-term": "ethnomedicine",
+      "data-encoded-term": "ethnomedicine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "275",
+        "cn5",
+        "1"
+      ]
+    },
+    "aesculapian": {
+      "data-frequency": "88",
+      "data-relevance": "200",
+      "data-term": "aesculapian",
+      "data-encoded-term": "aesculapian",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "88",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicate": {
+      "data-frequency": "244",
+      "data-relevance": "199",
+      "data-term": "medicate",
+      "data-encoded-term": "medicate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "244",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicative": {
+      "data-frequency": "-1",
+      "data-relevance": "198",
+      "data-term": "medicative",
+      "data-encoded-term": "medicative",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "premedical": {
+      "data-frequency": "154",
+      "data-relevance": "197",
+      "data-term": "premedical",
+      "data-encoded-term": "premedical",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "154",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonprescription": {
+      "data-frequency": "93",
+      "data-relevance": "196",
+      "data-term": "nonprescription",
+      "data-encoded-term": "nonprescription",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "clonic": {
+      "data-frequency": "153",
+      "data-relevance": "195",
+      "data-term": "clonic",
+      "data-encoded-term": "clonic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "153",
+        "cn5",
+        "1"
+      ]
+    },
+    "immunosuppressant": {
+      "data-frequency": "257",
+      "data-relevance": "194",
+      "data-term": "immunosuppressant",
+      "data-encoded-term": "immunosuppressant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "257",
+        "cn5",
+        "1"
+      ]
+    },
+    "neurotropic": {
+      "data-frequency": "191",
+      "data-relevance": "193",
+      "data-term": "neurotropic",
+      "data-encoded-term": "neurotropic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "191",
+        "cn5",
+        "1"
+      ]
+    },
+    "venesect": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "venesect",
+      "data-encoded-term": "venesect",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiarrhythmic": {
+      "data-frequency": "227",
+      "data-relevance": "191",
+      "data-term": "antiarrhythmic",
+      "data-encoded-term": "antiarrhythmic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "227",
+        "cn5",
+        "1"
+      ]
+    },
+    "neuropsychiatry": {
+      "data-frequency": "611",
+      "data-relevance": "190",
+      "data-term": "neuropsychiatry",
+      "data-encoded-term": "neuropsychiatry",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "611",
+        "cn5",
+        "1"
+      ]
+    },
+    "sucralfate": {
+      "data-frequency": "42",
+      "data-relevance": "189",
+      "data-term": "sucralfate",
+      "data-encoded-term": "sucralfate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "42",
+        "cn5",
+        "1"
+      ]
+    },
+    "azathioprine": {
+      "data-frequency": "361",
+      "data-relevance": "188",
+      "data-term": "azathioprine",
+      "data-encoded-term": "azathioprine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "361",
+        "cn5",
+        "1"
+      ]
+    },
+    "clofibrate": {
+      "data-frequency": "96",
+      "data-relevance": "187",
+      "data-term": "clofibrate",
+      "data-encoded-term": "clofibrate",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "proctologist": {
+      "data-frequency": "-1",
+      "data-relevance": "186",
+      "data-term": "proctologist",
+      "data-encoded-term": "proctologist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticholinesterase": {
+      "data-frequency": "123",
+      "data-relevance": "185",
+      "data-term": "anticholinesterase",
+      "data-encoded-term": "anticholinesterase",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "123",
+        "cn5",
+        "1"
+      ]
+    },
+    "noninvasive": {
+      "data-frequency": "736",
+      "data-relevance": "184",
+      "data-term": "noninvasive",
+      "data-encoded-term": "noninvasive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "736",
+        "cn5",
+        "1"
+      ]
+    },
+    "physostigmine": {
+      "data-frequency": "299",
+      "data-relevance": "183",
+      "data-term": "physostigmine",
+      "data-encoded-term": "physostigmine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "299",
+        "cn5",
+        "1"
+      ]
+    },
+    "amrinone": {
+      "data-frequency": "96",
+      "data-relevance": "182",
+      "data-term": "amrinone",
+      "data-encoded-term": "amrinone",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "antipyretic": {
+      "data-frequency": "181",
+      "data-relevance": "181",
+      "data-term": "antipyretic",
+      "data-encoded-term": "antipyretic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "181",
+        "cn5",
+        "1"
+      ]
+    },
+    "vermifuge": {
+      "data-frequency": "44",
+      "data-relevance": "180",
+      "data-term": "vermifuge",
+      "data-encoded-term": "vermifuge",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "urinalysis": {
+      "data-frequency": "319",
+      "data-relevance": "179",
+      "data-term": "urinalysis",
+      "data-encoded-term": "urinalysis",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "319",
+        "cn5",
+        "1"
+      ]
+    },
+    "potentiation": {
+      "data-frequency": "668",
+      "data-relevance": "178",
+      "data-term": "potentiation",
+      "data-encoded-term": "potentiation",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "668",
+        "cn5",
+        "1"
+      ]
+    },
+    "decongestant": {
+      "data-frequency": "140",
+      "data-relevance": "177",
+      "data-term": "decongestant",
+      "data-encoded-term": "decongestant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "140",
+        "cn5",
+        "1"
+      ]
+    },
+    "traumatology": {
+      "data-frequency": "433",
+      "data-relevance": "176",
+      "data-term": "traumatology",
+      "data-encoded-term": "traumatology",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "433",
+        "cn5",
+        "1"
+      ]
+    },
+    "counterirritant": {
+      "data-frequency": "-1",
+      "data-relevance": "175",
+      "data-term": "counterirritant",
+      "data-encoded-term": "counterirritant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "probenecid": {
+      "data-frequency": "284",
+      "data-relevance": "174",
+      "data-term": "probenecid",
+      "data-encoded-term": "probenecid",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "284",
+        "cn5",
+        "1"
+      ]
+    },
+    "isoproterenol": {
+      "data-frequency": "60",
+      "data-relevance": "173",
+      "data-term": "isoproterenol",
+      "data-encoded-term": "isoproterenol",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "proctology": {
+      "data-frequency": "54",
+      "data-relevance": "172",
+      "data-term": "proctology",
+      "data-encoded-term": "proctology",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "54",
+        "cn5",
+        "1"
+      ]
+    },
+    "disulfiram": {
+      "data-frequency": "399",
+      "data-relevance": "171",
+      "data-term": "disulfiram",
+      "data-encoded-term": "disulfiram",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "399",
+        "cn5",
+        "1"
+      ]
+    },
+    "abortionist": {
+      "data-frequency": "221",
+      "data-relevance": "170",
+      "data-term": "abortionist",
+      "data-encoded-term": "abortionist",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "221",
+        "cn5",
+        "1"
+      ]
+    },
+    "psychomedicine": {
+      "data-frequency": "-1",
+      "data-relevance": "169",
+      "data-term": "psychomedicine",
+      "data-encoded-term": "psychomedicine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "parenteral": {
+      "data-frequency": "705",
+      "data-relevance": "168",
+      "data-term": "parenteral",
+      "data-encoded-term": "parenteral",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "705",
+        "cn5",
+        "1"
+      ]
+    },
+    "carminative": {
+      "data-frequency": "59",
+      "data-relevance": "167",
+      "data-term": "carminative",
+      "data-encoded-term": "carminative",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "59",
+        "cn5",
+        "1"
+      ]
+    },
+    "suppository": {
+      "data-frequency": "267",
+      "data-relevance": "166",
+      "data-term": "suppository",
+      "data-encoded-term": "suppository",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "267",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiemetic": {
+      "data-frequency": "177",
+      "data-relevance": "165",
+      "data-term": "antiemetic",
+      "data-encoded-term": "antiemetic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "expectorant": {
+      "data-frequency": "118",
+      "data-relevance": "164",
+      "data-term": "expectorant",
+      "data-encoded-term": "expectorant",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "118",
+        "cn5",
+        "1"
+      ]
+    },
+    "pentylenetetrazol": {
+      "data-frequency": "194",
+      "data-relevance": "163",
+      "data-term": "pentylenetetrazol",
+      "data-encoded-term": "pentylenetetrazol",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "194",
+        "cn5",
+        "1"
+      ]
+    },
+    "gemfibrozil": {
+      "data-frequency": "89",
+      "data-relevance": "162",
+      "data-term": "gemfibrozil",
+      "data-encoded-term": "gemfibrozil",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "89",
+        "cn5",
+        "1"
+      ]
+    },
+    "tiamulin": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "tiamulin",
+      "data-encoded-term": "tiamulin",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "achromia": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "achromia",
+      "data-encoded-term": "achromia",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "acyclovir": {
+      "data-frequency": "105",
+      "data-relevance": "159",
+      "data-term": "acyclovir",
+      "data-encoded-term": "acyclovir",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "mfm": {
+      "data-frequency": "492",
+      "data-relevance": "158",
+      "data-term": "mfm",
+      "data-encoded-term": "mfm",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "492",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicament": {
+      "data-frequency": "149",
+      "data-relevance": "157",
+      "data-term": "medicament",
+      "data-encoded-term": "medicament",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "149",
+        "cn5",
+        "1"
+      ]
+    },
+    "pharmaceutic": {
+      "data-frequency": "56",
+      "data-relevance": "156",
+      "data-term": "pharmaceutic",
+      "data-encoded-term": "pharmaceutic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "antispasmodic": {
+      "data-frequency": "130",
+      "data-relevance": "155",
+      "data-term": "antispasmodic",
+      "data-encoded-term": "antispasmodic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "130",
+        "cn5",
+        "1"
+      ]
+    },
+    "allopurinol": {
+      "data-frequency": "264",
+      "data-relevance": "154",
+      "data-term": "allopurinol",
+      "data-encoded-term": "allopurinol",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "264",
+        "cn5",
+        "1"
+      ]
+    },
+    "antitussive": {
+      "data-frequency": "121",
+      "data-relevance": "153",
+      "data-term": "antitussive",
+      "data-encoded-term": "antitussive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "121",
+        "cn5",
+        "1"
+      ]
+    },
+    "antidiabetic": {
+      "data-frequency": "196",
+      "data-relevance": "152",
+      "data-term": "antidiabetic",
+      "data-encoded-term": "antidiabetic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "196",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiprotozoal": {
+      "data-frequency": "139",
+      "data-relevance": "151",
+      "data-term": "antiprotozoal",
+      "data-encoded-term": "antiprotozoal",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "139",
+        "cn5",
+        "1"
+      ]
+    },
+    "vermicide": {
+      "data-frequency": "-1",
+      "data-relevance": "150",
+      "data-term": "vermicide",
+      "data-encoded-term": "vermicide",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antidiuretic": {
+      "data-frequency": "171",
+      "data-relevance": "149",
+      "data-term": "antidiuretic",
+      "data-encoded-term": "antidiuretic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "171",
+        "cn5",
+        "1"
+      ]
+    },
+    "podiatry": {
+      "data-frequency": "588",
+      "data-relevance": "148",
+      "data-term": "podiatry",
+      "data-encoded-term": "podiatry",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "588",
+        "cn5",
+        "1"
+      ]
+    },
+    "polychrest": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "polychrest",
+      "data-encoded-term": "polychrest",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "abortifacient": {
+      "data-frequency": "422",
+      "data-relevance": "146",
+      "data-term": "abortifacient",
+      "data-encoded-term": "abortifacient",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "422",
+        "cn5",
+        "1"
+      ]
+    },
+    "iatrophysics": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "iatrophysics",
+      "data-encoded-term": "iatrophysics",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "succedaneum": {
+      "data-frequency": "-1",
+      "data-relevance": "144",
+      "data-term": "succedaneum",
+      "data-encoded-term": "succedaneum",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctorspeak": {
+      "data-frequency": "-1",
+      "data-relevance": "143",
+      "data-term": "doctorspeak",
+      "data-encoded-term": "doctorspeak",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antihypertensive": {
+      "data-frequency": "450",
+      "data-relevance": "142",
+      "data-term": "antihypertensive",
+      "data-encoded-term": "antihypertensive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "450",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical practitioner": {
+      "data-frequency": "1590",
+      "data-relevance": "141",
+      "data-term": "medical practitioner",
+      "data-encoded-term": "medical%20practitioner",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1590",
+        "cn5",
+        "1"
+      ]
+    },
+    "doctor patient": {
+      "data-frequency": "352",
+      "data-relevance": "140",
+      "data-term": "doctor patient",
+      "data-encoded-term": "doctor%20patient",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "352",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency physician": {
+      "data-frequency": "187",
+      "data-relevance": "139",
+      "data-term": "emergency physician",
+      "data-encoded-term": "emergency%20physician",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical professional": {
+      "data-frequency": "543",
+      "data-relevance": "138",
+      "data-term": "medical professional",
+      "data-encoded-term": "medical%20professional",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "543",
+        "cn5",
+        "1"
+      ]
+    },
+    "in hospital": {
+      "data-frequency": "8767",
+      "data-relevance": "137",
+      "data-term": "in hospital",
+      "data-encoded-term": "in%20hospital",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8767",
+        "cn5",
+        "1"
+      ]
+    },
+    "general practitioner": {
+      "data-frequency": "1761",
+      "data-relevance": "136",
+      "data-term": "general practitioner",
+      "data-encoded-term": "general%20practitioner",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1761",
+        "cn5",
+        "1"
+      ]
+    },
+    "veterinary surgeon": {
+      "data-frequency": "624",
+      "data-relevance": "135",
+      "data-term": "veterinary surgeon",
+      "data-encoded-term": "veterinary%20surgeon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "624",
+        "cn5",
+        "1"
+      ]
+    },
+    "resuscitate someone": {
+      "data-frequency": "-1",
+      "data-relevance": "134",
+      "data-term": "resuscitate someone",
+      "data-encoded-term": "resuscitate%20someone",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "battle disease": {
+      "data-frequency": "-1",
+      "data-relevance": "133",
+      "data-term": "battle disease",
+      "data-encoded-term": "battle%20disease",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical topic": {
+      "data-frequency": "-1",
+      "data-relevance": "132",
+      "data-term": "medical topic",
+      "data-encoded-term": "medical%20topic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ed d": {
+      "data-frequency": "1986",
+      "data-relevance": "131",
+      "data-term": "ed d",
+      "data-encoded-term": "ed%20d",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1986",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicine man": {
+      "data-frequency": "1159",
+      "data-relevance": "130",
+      "data-term": "medicine man",
+      "data-encoded-term": "medicine%20man",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1159",
+        "cn5",
+        "1"
+      ]
+    },
+    "ally health": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "ally health",
+      "data-encoded-term": "ally%20health",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical record": {
+      "data-frequency": "554",
+      "data-relevance": "128",
+      "data-term": "medical record",
+      "data-encoded-term": "medical%20record",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "554",
+        "cn5",
+        "1"
+      ]
+    },
+    "tongue depressor": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "tongue depressor",
+      "data-encoded-term": "tongue%20depressor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "x ray machine": {
+      "data-frequency": "261",
+      "data-relevance": "126",
+      "data-term": "x ray machine",
+      "data-encoded-term": "x%20ray%20machine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "261",
+        "cn5",
+        "1"
+      ]
+    },
+    "group practice": {
+      "data-frequency": "202",
+      "data-relevance": "125",
+      "data-term": "group practice",
+      "data-encoded-term": "group%20practice",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "202",
+        "cn5",
+        "1"
+      ]
+    },
+    "d p h": {
+      "data-frequency": "83",
+      "data-relevance": "124",
+      "data-term": "d p h",
+      "data-encoded-term": "d%20p%20h",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "over counter drug": {
+      "data-frequency": "-1",
+      "data-relevance": "123",
+      "data-term": "over counter drug",
+      "data-encoded-term": "over%20counter%20drug",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "d f": {
+      "data-frequency": "15970",
+      "data-relevance": "122",
+      "data-term": "d f",
+      "data-encoded-term": "d%20f",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15970",
+        "cn5",
+        "1"
+      ]
+    },
+    "drug cocktail": {
+      "data-frequency": "60",
+      "data-relevance": "121",
+      "data-term": "drug cocktail",
+      "data-encoded-term": "drug%20cocktail",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "cold medicine": {
+      "data-frequency": "75",
+      "data-relevance": "120",
+      "data-term": "cold medicine",
+      "data-encoded-term": "cold%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "75",
+        "cn5",
+        "1"
+      ]
+    },
+    "patent medicine": {
+      "data-frequency": "399",
+      "data-relevance": "119",
+      "data-term": "patent medicine",
+      "data-encoded-term": "patent%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "399",
+        "cn5",
+        "1"
+      ]
+    },
+    "calcium blocker": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "calcium blocker",
+      "data-encoded-term": "calcium%20blocker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "histamine blocker": {
+      "data-frequency": "-1",
+      "data-relevance": "117",
+      "data-term": "histamine blocker",
+      "data-encoded-term": "histamine%20blocker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lipid lower medicine": {
+      "data-frequency": "-1",
+      "data-relevance": "116",
+      "data-term": "lipid lower medicine",
+      "data-encoded-term": "lipid%20lower%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "drug therapy": {
+      "data-frequency": "604",
+      "data-relevance": "115",
+      "data-term": "drug therapy",
+      "data-encoded-term": "drug%20therapy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "604",
+        "cn5",
+        "1"
+      ]
+    },
+    "nurse practitioner": {
+      "data-frequency": "479",
+      "data-relevance": "114",
+      "data-term": "nurse practitioner",
+      "data-encoded-term": "nurse%20practitioner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "479",
+        "cn5",
+        "1"
+      ]
+    },
+    "in medicine cabinet": {
+      "data-frequency": "-1",
+      "data-relevance": "113",
+      "data-term": "in medicine cabinet",
+      "data-encoded-term": "in%20medicine%20cabinet",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "complementary medicine": {
+      "data-frequency": "307",
+      "data-relevance": "112",
+      "data-term": "complementary medicine",
+      "data-encoded-term": "complementary%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "307",
+        "cn5",
+        "1"
+      ]
+    },
+    "alternative medicine": {
+      "data-frequency": "2479",
+      "data-relevance": "111",
+      "data-term": "alternative medicine",
+      "data-encoded-term": "alternative%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2479",
+        "cn5",
+        "1"
+      ]
+    },
+    "d d s": {
+      "data-frequency": "471",
+      "data-relevance": "110",
+      "data-term": "d d s",
+      "data-encoded-term": "d%20d%20s",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "471",
+        "cn5",
+        "1"
+      ]
+    },
+    "nux vomica": {
+      "data-frequency": "79",
+      "data-relevance": "109",
+      "data-term": "nux vomica",
+      "data-encoded-term": "nux%20vomica",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "retail pharmacy": {
+      "data-frequency": "120",
+      "data-relevance": "108",
+      "data-term": "retail pharmacy",
+      "data-encoded-term": "retail%20pharmacy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "120",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical doctor": {
+      "data-frequency": "5853",
+      "data-relevance": "107",
+      "data-term": "medical doctor",
+      "data-encoded-term": "medical%20doctor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5853",
+        "cn5",
+        "1"
+      ]
+    },
+    "d i t": {
+      "data-frequency": "360",
+      "data-relevance": "106",
+      "data-term": "d i t",
+      "data-encoded-term": "d%20i%20t",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "360",
+        "cn5",
+        "1"
+      ]
+    },
+    "internal medicine": {
+      "data-frequency": "5008",
+      "data-relevance": "105",
+      "data-term": "internal medicine",
+      "data-encoded-term": "internal%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5008",
+        "cn5",
+        "1"
+      ]
+    },
+    "examination table": {
+      "data-frequency": "64",
+      "data-relevance": "104",
+      "data-term": "examination table",
+      "data-encoded-term": "examination%20table",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "64",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical science": {
+      "data-frequency": "3343",
+      "data-relevance": "103",
+      "data-term": "medical science",
+      "data-encoded-term": "medical%20science",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3343",
+        "cn5",
+        "1"
+      ]
+    },
+    "anti inflammatory": {
+      "data-frequency": "2557",
+      "data-relevance": "102",
+      "data-term": "anti inflammatory",
+      "data-encoded-term": "anti%20inflammatory",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2557",
+        "cn5",
+        "1"
+      ]
+    },
+    "cure illness": {
+      "data-frequency": "47",
+      "data-relevance": "101",
+      "data-term": "cure illness",
+      "data-encoded-term": "cure%20illness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "family doctor": {
+      "data-frequency": "641",
+      "data-relevance": "100",
+      "data-term": "family doctor",
+      "data-encoded-term": "family%20doctor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "641",
+        "cn5",
+        "1"
+      ]
+    },
+    "forensic medicine": {
+      "data-frequency": "1055",
+      "data-relevance": "99",
+      "data-term": "forensic medicine",
+      "data-encoded-term": "forensic%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1055",
+        "cn5",
+        "1"
+      ]
+    },
+    "preventive medicine": {
+      "data-frequency": "1572",
+      "data-relevance": "98",
+      "data-term": "preventive medicine",
+      "data-encoded-term": "preventive%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1572",
+        "cn5",
+        "1"
+      ]
+    },
+    "operate on": {
+      "data-frequency": "6376",
+      "data-relevance": "97",
+      "data-term": "operate on",
+      "data-encoded-term": "operate%20on",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6376",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency procedure": {
+      "data-frequency": "106",
+      "data-relevance": "96",
+      "data-term": "emergency procedure",
+      "data-encoded-term": "emergency%20procedure",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "106",
+        "cn5",
+        "1"
+      ]
+    },
+    "space medicine": {
+      "data-frequency": "251",
+      "data-relevance": "95",
+      "data-term": "space medicine",
+      "data-encoded-term": "space%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "251",
+        "cn5",
+        "1"
+      ]
+    },
+    "health care": {
+      "data-frequency": "33809",
+      "data-relevance": "94",
+      "data-term": "health care",
+      "data-encoded-term": "health%20care",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33809",
+        "cn5",
+        "1"
+      ]
+    },
+    "brand name drug": {
+      "data-frequency": "44",
+      "data-relevance": "93",
+      "data-term": "brand name drug",
+      "data-encoded-term": "brand%20name%20drug",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical school": {
+      "data-frequency": "18942",
+      "data-relevance": "92",
+      "data-term": "medical school",
+      "data-encoded-term": "medical%20school",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18942",
+        "cn5",
+        "1"
+      ]
+    },
+    "nuclear medicine": {
+      "data-frequency": "1460",
+      "data-relevance": "91",
+      "data-term": "nuclear medicine",
+      "data-encoded-term": "nuclear%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1460",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency medicine": {
+      "data-frequency": "2687",
+      "data-relevance": "90",
+      "data-term": "emergency medicine",
+      "data-encoded-term": "emergency%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2687",
+        "cn5",
+        "1"
+      ]
+    },
+    "prescription": {
+      "data-frequency": "8793",
+      "data-relevance": "89",
+      "data-term": "prescription",
+      "data-encoded-term": "prescription",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8793",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "ph d": {
+      "data-frequency": "56165",
+      "data-relevance": "88",
+      "data-term": "ph d",
+      "data-encoded-term": "ph%20d",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56165",
+        "cn5",
+        "1"
+      ]
+    },
+    "pharmacists": {
+      "data-frequency": "2972",
+      "data-relevance": "87",
+      "data-term": "pharmacists",
+      "data-encoded-term": "pharmacists",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2972",
+        "ol",
+        "1"
+      ]
+    },
+    "formulary": {
+      "data-frequency": "942",
+      "data-relevance": "86",
+      "data-term": "formulary",
+      "data-encoded-term": "formulary",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "942",
+        "ol",
+        "1"
+      ]
+    },
+    "medications": {
+      "data-frequency": "7152",
+      "data-relevance": "85",
+      "data-term": "medications",
+      "data-encoded-term": "medications",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7152",
+        "ol",
+        "1"
+      ]
+    },
+    "prescriptions": {
+      "data-frequency": "2420",
+      "data-relevance": "84",
+      "data-term": "prescriptions",
+      "data-encoded-term": "prescriptions",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2420",
+        "ol",
+        "1"
+      ]
+    },
+    "fda": {
+      "data-frequency": "9011",
+      "data-relevance": "83",
+      "data-term": "fda",
+      "data-encoded-term": "fda",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9011",
+        "ol",
+        "1"
+      ]
+    },
+    "pharmacies": {
+      "data-frequency": "2113",
+      "data-relevance": "82",
+      "data-term": "pharmacies",
+      "data-encoded-term": "pharmacies",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2113",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "dosages": {
+      "data-frequency": "822",
+      "data-relevance": "81",
+      "data-term": "dosages",
+      "data-encoded-term": "dosages",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "822",
+        "ol",
+        "1"
+      ]
+    },
+    "escript": {
+      "data-frequency": "-1",
+      "data-relevance": "80",
+      "data-term": "escript",
+      "data-encoded-term": "escript",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "opioid": {
+      "data-frequency": "3080",
+      "data-relevance": "79",
+      "data-term": "opioid",
+      "data-encoded-term": "opioid",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3080",
+        "ol",
+        "1"
+      ]
+    },
+    "pseudoephedrine": {
+      "data-frequency": "1163",
+      "data-relevance": "78",
+      "data-term": "pseudoephedrine",
+      "data-encoded-term": "pseudoephedrine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1163",
+        "ol",
+        "1"
+      ]
+    },
+    "warfarin": {
+      "data-frequency": "478",
+      "data-relevance": "77",
+      "data-term": "warfarin",
+      "data-encoded-term": "warfarin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "478",
+        "ol",
+        "1"
+      ]
+    },
+    "averroes": {
+      "data-frequency": "898",
+      "data-relevance": "76",
+      "data-term": "averroes",
+      "data-encoded-term": "averroes",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "898",
+        "ol",
+        "1"
+      ]
+    },
+    "psychiatry": {
+      "data-frequency": "14777",
+      "data-relevance": "75",
+      "data-term": "psychiatry",
+      "data-encoded-term": "psychiatry",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14777",
+        "ol",
+        "1"
+      ]
+    },
+    "medline": {
+      "data-frequency": "1746",
+      "data-relevance": "74",
+      "data-term": "medline",
+      "data-encoded-term": "medline",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1746",
+        "ol",
+        "1"
+      ]
+    },
+    "payers": {
+      "data-frequency": "1404",
+      "data-relevance": "73",
+      "data-term": "payers",
+      "data-encoded-term": "payers",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1404",
+        "ol",
+        "1"
+      ]
+    },
+    "multum": {
+      "data-frequency": "144",
+      "data-relevance": "72",
+      "data-term": "multum",
+      "data-encoded-term": "multum",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "144",
+        "ol",
+        "1"
+      ]
+    },
+    "pharmacology": {
+      "data-frequency": "14346",
+      "data-relevance": "71",
+      "data-term": "pharmacology",
+      "data-encoded-term": "pharmacology",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14346",
+        "ol",
+        "1"
+      ]
+    },
+    "analgesics": {
+      "data-frequency": "1254",
+      "data-relevance": "70",
+      "data-term": "analgesics",
+      "data-encoded-term": "analgesics",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1254",
+        "ol",
+        "1"
+      ]
+    },
+    "dosing": {
+      "data-frequency": "1166",
+      "data-relevance": "69",
+      "data-term": "dosing",
+      "data-encoded-term": "dosing",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1166",
+        "ol",
+        "1"
+      ]
+    },
+    "salesperson": {
+      "data-frequency": "727",
+      "data-relevance": "68",
+      "data-term": "salesperson",
+      "data-encoded-term": "salesperson",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "727",
+        "ol",
+        "1"
+      ]
+    },
+    "payor": {
+      "data-frequency": "53",
+      "data-relevance": "67",
+      "data-term": "payor",
+      "data-encoded-term": "payor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "pfizer": {
+      "data-frequency": "1960",
+      "data-relevance": "66",
+      "data-term": "pfizer",
+      "data-encoded-term": "pfizer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1960",
+        "ol",
+        "1"
+      ]
+    },
+    "polypharmacy": {
+      "data-frequency": "84",
+      "data-relevance": "65",
+      "data-term": "polypharmacy",
+      "data-encoded-term": "polypharmacy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "84",
+        "ol",
+        "1"
+      ]
+    },
+    "apha": {
+      "data-frequency": "302",
+      "data-relevance": "64",
+      "data-term": "apha",
+      "data-encoded-term": "apha",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "302",
+        "ol",
+        "1"
+      ]
+    },
+    "lopressor": {
+      "data-frequency": "-1",
+      "data-relevance": "63",
+      "data-term": "lopressor",
+      "data-encoded-term": "lopressor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "emar": {
+      "data-frequency": "195",
+      "data-relevance": "62",
+      "data-term": "emar",
+      "data-encoded-term": "emar",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "195",
+        "ol",
+        "1"
+      ]
+    },
+    "utilizers": {
+      "data-frequency": "62404",
+      "data-relevance": "61",
+      "data-term": "utilizers",
+      "data-encoded-term": "utilizers",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "62404",
+        "ol",
+        "1"
+      ]
+    },
+    "lanoxin": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "lanoxin",
+      "data-encoded-term": "lanoxin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "nefazodone": {
+      "data-frequency": "1998",
+      "data-relevance": "59",
+      "data-term": "nefazodone",
+      "data-encoded-term": "nefazodone",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1998",
+        "ol",
+        "1"
+      ]
+    },
+    "labetalol": {
+      "data-frequency": "500",
+      "data-relevance": "58",
+      "data-term": "labetalol",
+      "data-encoded-term": "labetalol",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "500",
+        "ol",
+        "1"
+      ]
+    },
+    "pimozide": {
+      "data-frequency": "1269",
+      "data-relevance": "57",
+      "data-term": "pimozide",
+      "data-encoded-term": "pimozide",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1269",
+        "ol",
+        "1"
+      ]
+    },
+    "pharmacotherapy": {
+      "data-frequency": "979",
+      "data-relevance": "56",
+      "data-term": "pharmacotherapy",
+      "data-encoded-term": "pharmacotherapy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "979",
+        "ol",
+        "1"
+      ]
+    },
+    "biller": {
+      "data-frequency": "611",
+      "data-relevance": "55",
+      "data-term": "biller",
+      "data-encoded-term": "biller",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "611",
+        "ol",
+        "1"
+      ]
+    },
+    "cyclobenzaprine": {
+      "data-frequency": "844",
+      "data-relevance": "54",
+      "data-term": "cyclobenzaprine",
+      "data-encoded-term": "cyclobenzaprine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "844",
+        "ol",
+        "1"
+      ]
+    },
+    "clozaril": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "clozaril",
+      "data-encoded-term": "clozaril",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "tranylcypromine": {
+      "data-frequency": "1236",
+      "data-relevance": "52",
+      "data-term": "tranylcypromine",
+      "data-encoded-term": "tranylcypromine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1236",
+        "ol",
+        "1"
+      ]
+    },
+    "dextroamphetamine": {
+      "data-frequency": "609",
+      "data-relevance": "51",
+      "data-term": "dextroamphetamine",
+      "data-encoded-term": "dextroamphetamine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "609",
+        "ol",
+        "1"
+      ]
+    },
+    "atenolol": {
+      "data-frequency": "576",
+      "data-relevance": "50",
+      "data-term": "atenolol",
+      "data-encoded-term": "atenolol",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "576",
+        "ol",
+        "1"
+      ]
+    },
+    "clozapine": {
+      "data-frequency": "1917",
+      "data-relevance": "49",
+      "data-term": "clozapine",
+      "data-encoded-term": "clozapine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1917",
+        "ol",
+        "1"
+      ]
+    },
+    "phenytoin": {
+      "data-frequency": "1870",
+      "data-relevance": "48",
+      "data-term": "phenytoin",
+      "data-encoded-term": "phenytoin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1870",
+        "ol",
+        "1"
+      ]
+    },
+    "hyoscyamine": {
+      "data-frequency": "783",
+      "data-relevance": "47",
+      "data-term": "hyoscyamine",
+      "data-encoded-term": "hyoscyamine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "783",
+        "ol",
+        "1"
+      ]
+    },
+    "meds": {
+      "data-frequency": "460",
+      "data-relevance": "46",
+      "data-term": "meds",
+      "data-encoded-term": "meds",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "460",
+        "ol",
+        "1"
+      ]
+    },
+    "lisinopril": {
+      "data-frequency": "89",
+      "data-relevance": "45",
+      "data-term": "lisinopril",
+      "data-encoded-term": "lisinopril",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "89",
+        "ol",
+        "1"
+      ]
+    },
+    "phenylpropanolamine": {
+      "data-frequency": "1010",
+      "data-relevance": "44",
+      "data-term": "phenylpropanolamine",
+      "data-encoded-term": "phenylpropanolamine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1010",
+        "ol",
+        "1"
+      ]
+    },
+    "meprobamate": {
+      "data-frequency": "1039",
+      "data-relevance": "43",
+      "data-term": "meprobamate",
+      "data-encoded-term": "meprobamate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1039",
+        "ol",
+        "1"
+      ]
+    },
+    "elicitation": {
+      "data-frequency": "290",
+      "data-relevance": "42",
+      "data-term": "elicitation",
+      "data-encoded-term": "elicitation",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "290",
+        "ol",
+        "1"
+      ]
+    },
+    "antipyretics": {
+      "data-frequency": "80",
+      "data-relevance": "41",
+      "data-term": "antipyretics",
+      "data-encoded-term": "antipyretics",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "atarax": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "atarax",
+      "data-encoded-term": "atarax",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "anticoagulation": {
+      "data-frequency": "207",
+      "data-relevance": "39",
+      "data-term": "anticoagulation",
+      "data-encoded-term": "anticoagulation",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "207",
+        "ol",
+        "1"
+      ]
+    },
+    "preadmission": {
+      "data-frequency": "-1",
+      "data-relevance": "38",
+      "data-term": "preadmission",
+      "data-encoded-term": "preadmission",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ketorolac": {
+      "data-frequency": "450",
+      "data-relevance": "37",
+      "data-term": "ketorolac",
+      "data-encoded-term": "ketorolac",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "450",
+        "ol",
+        "1"
+      ]
+    },
+    "nardil": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "nardil",
+      "data-encoded-term": "nardil",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "hmos": {
+      "data-frequency": "213",
+      "data-relevance": "35",
+      "data-term": "hmos",
+      "data-encoded-term": "hmos",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "213",
+        "ol",
+        "1"
+      ]
+    },
+    "amoxil": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "amoxil",
+      "data-encoded-term": "amoxil",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ranitidine": {
+      "data-frequency": "385",
+      "data-relevance": "33",
+      "data-term": "ranitidine",
+      "data-encoded-term": "ranitidine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "385",
+        "ol",
+        "1"
+      ]
+    },
+    "coinsurance": {
+      "data-frequency": "51",
+      "data-relevance": "32",
+      "data-term": "coinsurance",
+      "data-encoded-term": "coinsurance",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "51",
+        "ol",
+        "1"
+      ]
+    },
+    "compendia": {
+      "data-frequency": "305",
+      "data-relevance": "31",
+      "data-term": "compendia",
+      "data-encoded-term": "compendia",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "305",
+        "ol",
+        "1"
+      ]
+    },
+    "ecgs": {
+      "data-frequency": "2138",
+      "data-relevance": "30",
+      "data-term": "ecgs",
+      "data-encoded-term": "ecgs",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2138",
+        "ol",
+        "1"
+      ]
+    },
+    "vioxx": {
+      "data-frequency": "84",
+      "data-relevance": "29",
+      "data-term": "vioxx",
+      "data-encoded-term": "vioxx",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "84",
+        "ol",
+        "1"
+      ]
+    },
+    "saquinavir": {
+      "data-frequency": "52",
+      "data-relevance": "28",
+      "data-term": "saquinavir",
+      "data-encoded-term": "saquinavir",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    },
+    "robaxin": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "robaxin",
+      "data-encoded-term": "robaxin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "catapres": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "catapres",
+      "data-encoded-term": "catapres",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "statin": {
+      "data-frequency": "307",
+      "data-relevance": "25",
+      "data-term": "statin",
+      "data-encoded-term": "statin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "307",
+        "ol",
+        "1"
+      ]
+    },
+    "coumadin": {
+      "data-frequency": "55",
+      "data-relevance": "24",
+      "data-term": "coumadin",
+      "data-encoded-term": "coumadin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "55",
+        "ol",
+        "1"
+      ]
+    },
+    "thiazide": {
+      "data-frequency": "127",
+      "data-relevance": "23",
+      "data-term": "thiazide",
+      "data-encoded-term": "thiazide",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "127",
+        "ol",
+        "1"
+      ]
+    },
+    "anticonvulsants": {
+      "data-frequency": "677",
+      "data-relevance": "22",
+      "data-term": "anticonvulsants",
+      "data-encoded-term": "anticonvulsants",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "677",
+        "ol",
+        "1"
+      ]
+    },
+    "proventil": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "proventil",
+      "data-encoded-term": "proventil",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "clomipramine": {
+      "data-frequency": "1865",
+      "data-relevance": "20",
+      "data-term": "clomipramine",
+      "data-encoded-term": "clomipramine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1865",
+        "ol",
+        "1"
+      ]
+    },
+    "nebulization": {
+      "data-frequency": "50",
+      "data-relevance": "19",
+      "data-term": "nebulization",
+      "data-encoded-term": "nebulization",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "50",
+        "ol",
+        "1"
+      ]
+    },
+    "promethazine": {
+      "data-frequency": "1668",
+      "data-relevance": "18",
+      "data-term": "promethazine",
+      "data-encoded-term": "promethazine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1668",
+        "ol",
+        "1"
+      ]
+    },
+    "hypnotics": {
+      "data-frequency": "3960",
+      "data-relevance": "17",
+      "data-term": "hypnotics",
+      "data-encoded-term": "hypnotics",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3960",
+        "ol",
+        "1"
+      ]
+    },
+    "exacerbations": {
+      "data-frequency": "8753",
+      "data-relevance": "16",
+      "data-term": "exacerbations",
+      "data-encoded-term": "exacerbations",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "8753",
+        "ol",
+        "1"
+      ]
+    },
+    "atrovent": {
+      "data-frequency": "-1",
+      "data-relevance": "15",
+      "data-term": "atrovent",
+      "data-encoded-term": "atrovent",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "antihypertensives": {
+      "data-frequency": "510",
+      "data-relevance": "14",
+      "data-term": "antihypertensives",
+      "data-encoded-term": "antihypertensives",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "510",
+        "ol",
+        "1"
+      ]
+    },
+    "isotretinoin": {
+      "data-frequency": "186",
+      "data-relevance": "13",
+      "data-term": "isotretinoin",
+      "data-encoded-term": "isotretinoin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "186",
+        "ol",
+        "1"
+      ]
+    },
+    "quinidine": {
+      "data-frequency": "1199",
+      "data-relevance": "12",
+      "data-term": "quinidine",
+      "data-encoded-term": "quinidine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1199",
+        "ol",
+        "1"
+      ]
+    },
+    "meperidine": {
+      "data-frequency": "1219",
+      "data-relevance": "11",
+      "data-term": "meperidine",
+      "data-encoded-term": "meperidine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1219",
+        "ol",
+        "1"
+      ]
+    },
+    "digoxin": {
+      "data-frequency": "348",
+      "data-relevance": "10",
+      "data-term": "digoxin",
+      "data-encoded-term": "digoxin",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "348",
+        "ol",
+        "1"
+      ]
+    },
+    "mellaril": {
+      "data-frequency": "-1",
+      "data-relevance": "9",
+      "data-term": "mellaril",
+      "data-encoded-term": "mellaril",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "jobholder": {
+      "data-frequency": "-1",
+      "data-relevance": "8",
+      "data-term": "jobholder",
+      "data-encoded-term": "jobholder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "primary care physician": {
+      "data-frequency": "194",
+      "data-relevance": "7",
+      "data-term": "primary care physician",
+      "data-encoded-term": "primary%20care%20physician",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "194",
+        "ol",
+        "1"
+      ]
+    },
+    "autoinjector": {
+      "data-frequency": "47",
+      "data-relevance": "6",
+      "data-term": "autoinjector",
+      "data-encoded-term": "autoinjector",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "clopidogrel bisulfate": {
+      "data-frequency": "-1",
+      "data-relevance": "5",
+      "data-term": "clopidogrel bisulfate",
+      "data-encoded-term": "clopidogrel%20bisulfate",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "tricyclic antidepressant": {
+      "data-frequency": "140",
+      "data-relevance": "4",
+      "data-term": "tricyclic antidepressant",
+      "data-encoded-term": "tricyclic%20antidepressant",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "140",
+        "ol",
+        "1"
+      ]
+    },
+    "total parenteral nutrition": {
+      "data-frequency": "176",
+      "data-relevance": "3",
+      "data-term": "total parenteral nutrition",
+      "data-encoded-term": "total%20parenteral%20nutrition",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "176",
+        "ol",
+        "1"
+      ]
+    },
+    "thrombolytic therapy": {
+      "data-frequency": "54",
+      "data-relevance": "2",
+      "data-term": "thrombolytic therapy",
+      "data-encoded-term": "thrombolytic%20therapy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "54",
+        "ol",
+        "1"
+      ]
+    },
+    "antiarrhythmic drug": {
+      "data-frequency": "47",
+      "data-relevance": "1",
+      "data-term": "antiarrhythmic drug",
+      "data-encoded-term": "antiarrhythmic%20drug",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "epidural anesthesia": {
+      "data-frequency": "52",
+      "data-relevance": "0",
+      "data-term": "epidural anesthesia",
+      "data-encoded-term": "epidural%20anesthesia",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "prescribers"
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "clinician",
+      "oncologist",
+      "isosorbide",
+      "patient",
+      "medico",
+      "doctor",
+      "anesthesiology",
+      "prescribe",
+      "pharmaceutical",
+      "premedication",
+      "physician"
+    ]
+  }
+}

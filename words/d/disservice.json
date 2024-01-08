@@ -1,0 +1,5622 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "disservices": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/disservices/n/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disservices/n",
+          "@type": "Node",
+          "label": "disservices",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/disservices"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      },
+      "service": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/disservice/n/,/c/en/service/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disservice/n",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/disservice"
+        },
+        "end": {
+          "@id": "/c/en/service",
+          "@type": "Node",
+          "label": "service",
+          "language": "en",
+          "term": "/c/en/service"
+        }
+      },
+      "disserviceable": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/disserviceable/a/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disserviceable/a",
+          "@type": "Node",
+          "label": "disserviceable",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/disserviceable"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      },
+      "harm": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/disservice/n/,/c/en/harm/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disservice/n",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/disservice"
+        },
+        "end": {
+          "@id": "/c/en/harm",
+          "@type": "Node",
+          "label": "harm",
+          "language": "en",
+          "term": "/c/en/harm"
+        }
+      },
+      "inequity": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/inequity/n/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inequity/n",
+          "@type": "Node",
+          "label": "inequity",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inequity"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      },
+      "disserve": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/disservice/v/,/c/en/disserve/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disservice/v",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/disservice"
+        },
+        "end": {
+          "@id": "/c/en/disserve",
+          "@type": "Node",
+          "label": "disserve",
+          "language": "en",
+          "term": "/c/en/disserve"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "ill turn": {
+        "@id": "/a/[/r/Synonym/,/c/en/ill_turn/n/wn/act/,/c/en/disservice/n/wn/act/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/ill_turn/n/wn/act",
+          "@type": "Node",
+          "label": "ill turn",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/ill_turn"
+        },
+        "end": {
+          "@id": "/c/en/disservice/n/wn/act",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/disservice"
+        }
+      },
+      "ill service": {
+        "@id": "/a/[/r/Synonym/,/c/en/ill_service/n/wn/act/,/c/en/disservice/n/wn/act/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/ill_service/n/wn/act",
+          "@type": "Node",
+          "label": "ill service",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/ill_service"
+        },
+        "end": {
+          "@id": "/c/en/disservice/n/wn/act",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "sense_label": "n, act",
+          "term": "/c/en/disservice"
+        }
+      },
+      "inequity": {
+        "@id": "/a/[/r/Synonym/,/c/en/inequity/n/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/inequity/n",
+          "@type": "Node",
+          "label": "inequity",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/inequity"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "disservices": {
+        "@id": "/a/[/r/FormOf/,/c/en/disservices/n/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disservices/n",
+          "@type": "Node",
+          "label": "disservices",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/disservices"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      },
+      "disservicing": {
+        "@id": "/a/[/r/FormOf/,/c/en/disservicing/v/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disservicing/v",
+          "@type": "Node",
+          "label": "disservicing",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/disservicing"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      },
+      "disserviced": {
+        "@id": "/a/[/r/FormOf/,/c/en/disserviced/v/,/c/en/disservice/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/disserviced/v",
+          "@type": "Node",
+          "label": "disserviced",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/disserviced"
+        },
+        "end": {
+          "@id": "/c/en/disservice",
+          "@type": "Node",
+          "label": "disservice",
+          "language": "en",
+          "term": "/c/en/disservice"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "detriment": {
+      "data-frequency": "3333",
+      "data-relevance": "379",
+      "data-term": "detriment",
+      "data-encoded-term": "detriment",
+      "data-term-stats": [
+        "1",
+        "5.4",
+        "0.000",
+        "3333",
+        "cn5,ol,w2v",
+        "1"
+      ]
+    },
+    "injustice": {
+      "data-frequency": "11278",
+      "data-relevance": "378",
+      "data-term": "injustice",
+      "data-encoded-term": "injustice",
+      "data-term-stats": [
+        "1",
+        "3.8",
+        "0.000",
+        "11278",
+        "cn5,ol,w2v|reverse-net",
+        "1"
+      ]
+    },
+    "harm": {
+      "data-frequency": "31352",
+      "data-relevance": "377",
+      "data-term": "harm",
+      "data-encoded-term": "harm",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "31352",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "insult": {
+      "data-frequency": "8843",
+      "data-relevance": "376",
+      "data-term": "insult",
+      "data-encoded-term": "insult",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "8843",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "injury": {
+      "data-frequency": "101814",
+      "data-relevance": "375",
+      "data-term": "injury",
+      "data-encoded-term": "injury",
+      "data-term-stats": [
+        "1",
+        "5.5",
+        "0.000",
+        "101814",
+        "cn5,ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "ill service": {
+      "data-frequency": "-1",
+      "data-relevance": "374",
+      "data-term": "ill service",
+      "data-encoded-term": "ill%20service",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "ill turn": {
+      "data-frequency": "-1",
+      "data-relevance": "373",
+      "data-term": "ill turn",
+      "data-encoded-term": "ill%20turn",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "injurious": {
+      "data-frequency": "1411",
+      "data-relevance": "372",
+      "data-term": "injurious",
+      "data-encoded-term": "injurious",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "1411",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "damage": {
+      "data-frequency": "125591",
+      "data-relevance": "371",
+      "data-term": "damage",
+      "data-encoded-term": "damage",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "125591",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "shame": {
+      "data-frequency": "18192",
+      "data-relevance": "370",
+      "data-term": "shame",
+      "data-encoded-term": "shame",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "18192",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "affront": {
+      "data-frequency": "1212",
+      "data-relevance": "369",
+      "data-term": "affront",
+      "data-encoded-term": "affront",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1212",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "pity": {
+      "data-frequency": "8579",
+      "data-relevance": "368",
+      "data-term": "pity",
+      "data-encoded-term": "pity",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "8579",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "embarrassment": {
+      "data-frequency": "6718",
+      "data-relevance": "367",
+      "data-term": "embarrassment",
+      "data-encoded-term": "embarrassment",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "6718",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "misconception": {
+      "data-frequency": "2934",
+      "data-relevance": "366",
+      "data-term": "misconception",
+      "data-encoded-term": "misconception",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2934",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "disrespect": {
+      "data-frequency": "2198",
+      "data-relevance": "365",
+      "data-term": "disrespect",
+      "data-encoded-term": "disrespect",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2198",
+        "w2v",
+        "1"
+      ]
+    },
+    "disgrace": {
+      "data-frequency": "6331",
+      "data-relevance": "364",
+      "data-term": "disgrace",
+      "data-encoded-term": "disgrace",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6331",
+        "ol",
+        "1"
+      ]
+    },
+    "discredit": {
+      "data-frequency": "4295",
+      "data-relevance": "363",
+      "data-term": "discredit",
+      "data-encoded-term": "discredit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4295",
+        "ol",
+        "1"
+      ]
+    },
+    "misrepresentation": {
+      "data-frequency": "2228",
+      "data-relevance": "362",
+      "data-term": "misrepresentation",
+      "data-encoded-term": "misrepresentation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2228",
+        "ol",
+        "1"
+      ]
+    },
+    "mistake": {
+      "data-frequency": "30042",
+      "data-relevance": "361",
+      "data-term": "mistake",
+      "data-encoded-term": "mistake",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "30042",
+        "ol",
+        "1"
+      ]
+    },
+    "damnedest": {
+      "data-frequency": "75",
+      "data-relevance": "360",
+      "data-term": "damnedest",
+      "data-encoded-term": "damnedest",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "75",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "impediment": {
+      "data-frequency": "2543",
+      "data-relevance": "359",
+      "data-term": "impediment",
+      "data-encoded-term": "impediment",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "2543",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "disincentive": {
+      "data-frequency": "265",
+      "data-relevance": "358",
+      "data-term": "disincentive",
+      "data-encoded-term": "disincentive",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "265",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "misperception": {
+      "data-frequency": "273",
+      "data-relevance": "357",
+      "data-term": "misperception",
+      "data-encoded-term": "misperception",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "273",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "deleterious": {
+      "data-frequency": "1847",
+      "data-relevance": "356",
+      "data-term": "deleterious",
+      "data-encoded-term": "deleterious",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1847",
+        "cn5",
+        "1"
+      ]
+    },
+    "scathe": {
+      "data-frequency": "-1",
+      "data-relevance": "355",
+      "data-term": "scathe",
+      "data-encoded-term": "scathe",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "injure": {
+      "data-frequency": "3561",
+      "data-relevance": "354",
+      "data-term": "injure",
+      "data-encoded-term": "injure",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3561",
+        "cn5",
+        "1"
+      ]
+    },
+    "mutilation": {
+      "data-frequency": "4677",
+      "data-relevance": "353",
+      "data-term": "mutilation",
+      "data-encoded-term": "mutilation",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "4677",
+        "cn5",
+        "1"
+      ]
+    },
+    "impairment": {
+      "data-frequency": "7803",
+      "data-relevance": "352",
+      "data-term": "impairment",
+      "data-encoded-term": "impairment",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "7803",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "traumatic": {
+      "data-frequency": "9865",
+      "data-relevance": "351",
+      "data-term": "traumatic",
+      "data-encoded-term": "traumatic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "9865",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "undamaged": {
+      "data-frequency": "2404",
+      "data-relevance": "350",
+      "data-term": "undamaged",
+      "data-encoded-term": "undamaged",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2404",
+        "cn5",
+        "1"
+      ]
+    },
+    "prejudicial": {
+      "data-frequency": "1267",
+      "data-relevance": "349",
+      "data-term": "prejudicial",
+      "data-encoded-term": "prejudicial",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1267",
+        "cn5",
+        "1"
+      ]
+    },
+    "dere": {
+      "data-frequency": "1254",
+      "data-relevance": "348",
+      "data-term": "dere",
+      "data-encoded-term": "dere",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1254",
+        "cn5",
+        "1"
+      ]
+    },
+    "lesion": {
+      "data-frequency": "3780",
+      "data-relevance": "347",
+      "data-term": "lesion",
+      "data-encoded-term": "lesion",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3780",
+        "cn5",
+        "1"
+      ]
+    },
+    "uninjured": {
+      "data-frequency": "1535",
+      "data-relevance": "346",
+      "data-term": "uninjured",
+      "data-encoded-term": "uninjured",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1535",
+        "cn5",
+        "1"
+      ]
+    },
+    "hurtful": {
+      "data-frequency": "947",
+      "data-relevance": "345",
+      "data-term": "hurtful",
+      "data-encoded-term": "hurtful",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "947",
+        "cn5",
+        "1"
+      ]
+    },
+    "endamagement": {
+      "data-frequency": "-1",
+      "data-relevance": "344",
+      "data-term": "endamagement",
+      "data-encoded-term": "endamagement",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "maim": {
+      "data-frequency": "381",
+      "data-relevance": "343",
+      "data-term": "maim",
+      "data-encoded-term": "maim",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "381",
+        "cn5",
+        "1"
+      ]
+    },
+    "nocument": {
+      "data-frequency": "-1",
+      "data-relevance": "342",
+      "data-term": "nocument",
+      "data-encoded-term": "nocument",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "detrimental": {
+      "data-frequency": "7409",
+      "data-relevance": "341",
+      "data-term": "detrimental",
+      "data-encoded-term": "detrimental",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7409",
+        "cn5",
+        "1"
+      ]
+    },
+    "invulnerable": {
+      "data-frequency": "1170",
+      "data-relevance": "340",
+      "data-term": "invulnerable",
+      "data-encoded-term": "invulnerable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1170",
+        "cn5",
+        "1"
+      ]
+    },
+    "scatheless": {
+      "data-frequency": "-1",
+      "data-relevance": "339",
+      "data-term": "scatheless",
+      "data-encoded-term": "scatheless",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reinjury": {
+      "data-frequency": "-1",
+      "data-relevance": "338",
+      "data-term": "reinjury",
+      "data-encoded-term": "reinjury",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "scathel": {
+      "data-frequency": "-1",
+      "data-relevance": "337",
+      "data-term": "scathel",
+      "data-encoded-term": "scathel",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "domage": {
+      "data-frequency": "-1",
+      "data-relevance": "336",
+      "data-term": "domage",
+      "data-encoded-term": "domage",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "damnify": {
+      "data-frequency": "-1",
+      "data-relevance": "335",
+      "data-term": "damnify",
+      "data-encoded-term": "damnify",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "skaddle": {
+      "data-frequency": "-1",
+      "data-relevance": "334",
+      "data-term": "skaddle",
+      "data-encoded-term": "skaddle",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hurt": {
+      "data-frequency": "42792",
+      "data-relevance": "333",
+      "data-term": "hurt",
+      "data-encoded-term": "hurt",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "42792",
+        "cn5",
+        "1"
+      ]
+    },
+    "damageable": {
+      "data-frequency": "-1",
+      "data-relevance": "332",
+      "data-term": "damageable",
+      "data-encoded-term": "damageable",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pernicious": {
+      "data-frequency": "1498",
+      "data-relevance": "331",
+      "data-term": "pernicious",
+      "data-encoded-term": "pernicious",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1498",
+        "cn5",
+        "1"
+      ]
+    },
+    "harmful": {
+      "data-frequency": "109605",
+      "data-relevance": "330",
+      "data-term": "harmful",
+      "data-encoded-term": "harmful",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "109605",
+        "cn5",
+        "1"
+      ]
+    },
+    "wrongdoing": {
+      "data-frequency": "6376",
+      "data-relevance": "329",
+      "data-term": "wrongdoing",
+      "data-encoded-term": "wrongdoing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6376",
+        "cn5",
+        "1"
+      ]
+    },
+    "traumatize": {
+      "data-frequency": "86",
+      "data-relevance": "328",
+      "data-term": "traumatize",
+      "data-encoded-term": "traumatize",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "86",
+        "cn5",
+        "1"
+      ]
+    },
+    "concussion": {
+      "data-frequency": "6411",
+      "data-relevance": "327",
+      "data-term": "concussion",
+      "data-encoded-term": "concussion",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6411",
+        "cn5",
+        "1"
+      ]
+    },
+    "mischief": {
+      "data-frequency": "6206",
+      "data-relevance": "326",
+      "data-term": "mischief",
+      "data-encoded-term": "mischief",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "6206",
+        "cn5",
+        "1"
+      ]
+    },
+    "nocent": {
+      "data-frequency": "-1",
+      "data-relevance": "325",
+      "data-term": "nocent",
+      "data-encoded-term": "nocent",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wound": {
+      "data-frequency": "27935",
+      "data-relevance": "324",
+      "data-term": "wound",
+      "data-encoded-term": "wound",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "27935",
+        "cn5",
+        "1"
+      ]
+    },
+    "bruise": {
+      "data-frequency": "1266",
+      "data-relevance": "323",
+      "data-term": "bruise",
+      "data-encoded-term": "bruise",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1266",
+        "cn5",
+        "1"
+      ]
+    },
+    "mutilate": {
+      "data-frequency": "585",
+      "data-relevance": "322",
+      "data-term": "mutilate",
+      "data-encoded-term": "mutilate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "585",
+        "cn5",
+        "1"
+      ]
+    },
+    "wind": {
+      "data-frequency": "120648",
+      "data-relevance": "321",
+      "data-term": "wind",
+      "data-encoded-term": "wind",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "120648",
+        "cn5",
+        "1"
+      ]
+    },
+    "inasmuch": {
+      "data-frequency": "1324",
+      "data-relevance": "320",
+      "data-term": "inasmuch",
+      "data-encoded-term": "inasmuch",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1324",
+        "w2v",
+        "1"
+      ]
+    },
+    "disturbs": {
+      "data-frequency": "14211",
+      "data-relevance": "319",
+      "data-term": "disturbs",
+      "data-encoded-term": "disturbs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14211",
+        "w2v",
+        "1"
+      ]
+    },
+    "prejudice": {
+      "data-frequency": "12996",
+      "data-relevance": "318",
+      "data-term": "prejudice",
+      "data-encoded-term": "prejudice",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12996",
+        "ol",
+        "1"
+      ]
+    },
+    "diss": {
+      "data-frequency": "4705",
+      "data-relevance": "317",
+      "data-term": "diss",
+      "data-encoded-term": "diss",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4705",
+        "cn5",
+        "1"
+      ]
+    },
+    "mischieve": {
+      "data-frequency": "-1",
+      "data-relevance": "316",
+      "data-term": "mischieve",
+      "data-encoded-term": "mischieve",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "motivates": {
+      "data-frequency": "1618",
+      "data-relevance": "315",
+      "data-term": "motivates",
+      "data-encoded-term": "motivates",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1618",
+        "w2v",
+        "1"
+      ]
+    },
+    "atonement": {
+      "data-frequency": "3571",
+      "data-relevance": "314",
+      "data-term": "atonement",
+      "data-encoded-term": "atonement",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3571",
+        "cn5",
+        "1"
+      ]
+    },
+    "underestimate": {
+      "data-frequency": "1696",
+      "data-relevance": "313",
+      "data-term": "underestimate",
+      "data-encoded-term": "underestimate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1696",
+        "w2v",
+        "1"
+      ]
+    },
+    "outweighs": {
+      "data-frequency": "736",
+      "data-relevance": "312",
+      "data-term": "outweighs",
+      "data-encoded-term": "outweighs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "736",
+        "w2v",
+        "1"
+      ]
+    },
+    "deface": {
+      "data-frequency": "373",
+      "data-relevance": "311",
+      "data-term": "deface",
+      "data-encoded-term": "deface",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "373",
+        "cn5",
+        "1"
+      ]
+    },
+    "incalculable": {
+      "data-frequency": "507",
+      "data-relevance": "310",
+      "data-term": "incalculable",
+      "data-encoded-term": "incalculable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "507",
+        "w2v",
+        "1"
+      ]
+    },
+    "deserve": {
+      "data-frequency": "9209",
+      "data-relevance": "309",
+      "data-term": "deserve",
+      "data-encoded-term": "deserve",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9209",
+        "w2v",
+        "1"
+      ]
+    },
+    "damaging": {
+      "data-frequency": "21645",
+      "data-relevance": "308",
+      "data-term": "damaging",
+      "data-encoded-term": "damaging",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "21645",
+        "ol",
+        "1"
+      ]
+    },
+    "forwound": {
+      "data-frequency": "-1",
+      "data-relevance": "307",
+      "data-term": "forwound",
+      "data-encoded-term": "forwound",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hurtable": {
+      "data-frequency": "-1",
+      "data-relevance": "306",
+      "data-term": "hurtable",
+      "data-encoded-term": "hurtable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "inconvenience": {
+      "data-frequency": "2200",
+      "data-relevance": "305",
+      "data-term": "inconvenience",
+      "data-encoded-term": "inconvenience",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2200",
+        "w2v",
+        "1"
+      ]
+    },
+    "winder": {
+      "data-frequency": "2709",
+      "data-relevance": "304",
+      "data-term": "winder",
+      "data-encoded-term": "winder",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2709",
+        "cn5",
+        "1"
+      ]
+    },
+    "windswept": {
+      "data-frequency": "630",
+      "data-relevance": "303",
+      "data-term": "windswept",
+      "data-encoded-term": "windswept",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "630",
+        "cn5",
+        "1"
+      ]
+    },
+    "hindrance": {
+      "data-frequency": "2377",
+      "data-relevance": "302",
+      "data-term": "hindrance",
+      "data-encoded-term": "hindrance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2377",
+        "w2v",
+        "1"
+      ]
+    },
+    "bothers": {
+      "data-frequency": "671",
+      "data-relevance": "301",
+      "data-term": "bothers",
+      "data-encoded-term": "bothers",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "671",
+        "w2v",
+        "1"
+      ]
+    },
+    "misunderstand": {
+      "data-frequency": "575",
+      "data-relevance": "300",
+      "data-term": "misunderstand",
+      "data-encoded-term": "misunderstand",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "575",
+        "w2v",
+        "1"
+      ]
+    },
+    "terrifies": {
+      "data-frequency": "381",
+      "data-relevance": "299",
+      "data-term": "terrifies",
+      "data-encoded-term": "terrifies",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "381",
+        "w2v",
+        "1"
+      ]
+    },
+    "discourtesy": {
+      "data-frequency": "105",
+      "data-relevance": "298",
+      "data-term": "discourtesy",
+      "data-encoded-term": "discourtesy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "immeasurable": {
+      "data-frequency": "669",
+      "data-relevance": "297",
+      "data-term": "immeasurable",
+      "data-encoded-term": "immeasurable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "669",
+        "w2v",
+        "1"
+      ]
+    },
+    "service": {
+      "data-frequency": "831289",
+      "data-relevance": "296",
+      "data-term": "service",
+      "data-encoded-term": "service",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "831289",
+        "ol",
+        "1"
+      ]
+    },
+    "malpractice": {
+      "data-frequency": "2012",
+      "data-relevance": "295",
+      "data-term": "malpractice",
+      "data-encoded-term": "malpractice",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2012",
+        "cn5",
+        "1"
+      ]
+    },
+    "stupidity": {
+      "data-frequency": "2237",
+      "data-relevance": "294",
+      "data-term": "stupidity",
+      "data-encoded-term": "stupidity",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2237",
+        "w2v",
+        "1"
+      ]
+    },
+    "annoys": {
+      "data-frequency": "1471",
+      "data-relevance": "293",
+      "data-term": "annoys",
+      "data-encoded-term": "annoys",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1471",
+        "w2v",
+        "1"
+      ]
+    },
+    "excites": {
+      "data-frequency": "6896",
+      "data-relevance": "292",
+      "data-term": "excites",
+      "data-encoded-term": "excites",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6896",
+        "w2v",
+        "1"
+      ]
+    },
+    "sacrifices": {
+      "data-frequency": "10319",
+      "data-relevance": "291",
+      "data-term": "sacrifices",
+      "data-encoded-term": "sacrifices",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10319",
+        "w2v",
+        "1"
+      ]
+    },
+    "safely": {
+      "data-frequency": "21300",
+      "data-relevance": "290",
+      "data-term": "safely",
+      "data-encoded-term": "safely",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "21300",
+        "cn5",
+        "1"
+      ]
+    },
+    "noxious": {
+      "data-frequency": "2123",
+      "data-relevance": "289",
+      "data-term": "noxious",
+      "data-encoded-term": "noxious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2123",
+        "cn5",
+        "1"
+      ]
+    },
+    "impassible": {
+      "data-frequency": "244",
+      "data-relevance": "288",
+      "data-term": "impassible",
+      "data-encoded-term": "impassible",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "244",
+        "cn5",
+        "1"
+      ]
+    },
+    "deserves": {
+      "data-frequency": "9283",
+      "data-relevance": "287",
+      "data-term": "deserves",
+      "data-encoded-term": "deserves",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9283",
+        "w2v",
+        "1"
+      ]
+    },
+    "irreparable": {
+      "data-frequency": "2011",
+      "data-relevance": "286",
+      "data-term": "irreparable",
+      "data-encoded-term": "irreparable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2011",
+        "w2v",
+        "1"
+      ]
+    },
+    "undoubtedly": {
+      "data-frequency": "8913",
+      "data-relevance": "285",
+      "data-term": "undoubtedly",
+      "data-encoded-term": "undoubtedly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8913",
+        "w2v",
+        "1"
+      ]
+    },
+    "utter": {
+      "data-frequency": "5710",
+      "data-relevance": "284",
+      "data-term": "utter",
+      "data-encoded-term": "utter",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5710",
+        "w2v",
+        "1"
+      ]
+    },
+    "pleases": {
+      "data-frequency": "1627",
+      "data-relevance": "283",
+      "data-term": "pleases",
+      "data-encoded-term": "pleases",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1627",
+        "w2v",
+        "1"
+      ]
+    },
+    "foolishness": {
+      "data-frequency": "908",
+      "data-relevance": "282",
+      "data-term": "foolishness",
+      "data-encoded-term": "foolishness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "908",
+        "w2v",
+        "1"
+      ]
+    },
+    "cringe": {
+      "data-frequency": "995",
+      "data-relevance": "281",
+      "data-term": "cringe",
+      "data-encoded-term": "cringe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "995",
+        "w2v",
+        "1"
+      ]
+    },
+    "mindful": {
+      "data-frequency": "2240",
+      "data-relevance": "280",
+      "data-term": "mindful",
+      "data-encoded-term": "mindful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2240",
+        "w2v",
+        "1"
+      ]
+    },
+    "night": {
+      "data-frequency": "364713",
+      "data-relevance": "279",
+      "data-term": "night",
+      "data-encoded-term": "night",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "364713",
+        "ol",
+        "1"
+      ]
+    },
+    "offends": {
+      "data-frequency": "981",
+      "data-relevance": "278",
+      "data-term": "offends",
+      "data-encoded-term": "offends",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "981",
+        "w2v",
+        "1"
+      ]
+    },
+    "unfairness": {
+      "data-frequency": "909",
+      "data-relevance": "277",
+      "data-term": "unfairness",
+      "data-encoded-term": "unfairness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "909",
+        "w2v",
+        "1"
+      ]
+    },
+    "enormity": {
+      "data-frequency": "521",
+      "data-relevance": "276",
+      "data-term": "enormity",
+      "data-encoded-term": "enormity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "521",
+        "w2v",
+        "1"
+      ]
+    },
+    "bewind": {
+      "data-frequency": "44",
+      "data-relevance": "275",
+      "data-term": "bewind",
+      "data-encoded-term": "bewind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "needless": {
+      "data-frequency": "1929",
+      "data-relevance": "274",
+      "data-term": "needless",
+      "data-encoded-term": "needless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1929",
+        "w2v",
+        "1"
+      ]
+    },
+    "begrudge": {
+      "data-frequency": "91",
+      "data-relevance": "273",
+      "data-term": "begrudge",
+      "data-encoded-term": "begrudge",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "91",
+        "w2v",
+        "1"
+      ]
+    },
+    "fuss": {
+      "data-frequency": "3547",
+      "data-relevance": "272",
+      "data-term": "fuss",
+      "data-encoded-term": "fuss",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3547",
+        "w2v",
+        "1"
+      ]
+    },
+    "ailed": {
+      "data-frequency": "10986",
+      "data-relevance": "271",
+      "data-term": "ailed",
+      "data-encoded-term": "ailed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10986",
+        "w2v",
+        "1"
+      ]
+    },
+    "trauma": {
+      "data-frequency": "19192",
+      "data-relevance": "270",
+      "data-term": "trauma",
+      "data-encoded-term": "trauma",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19192",
+        "cn5",
+        "1"
+      ]
+    },
+    "concuss": {
+      "data-frequency": "-1",
+      "data-relevance": "269",
+      "data-term": "concuss",
+      "data-encoded-term": "concuss",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ascribe": {
+      "data-frequency": "1373",
+      "data-relevance": "268",
+      "data-term": "ascribe",
+      "data-encoded-term": "ascribe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1373",
+        "w2v",
+        "1"
+      ]
+    },
+    "deserving": {
+      "data-frequency": "4239",
+      "data-relevance": "267",
+      "data-term": "deserving",
+      "data-encoded-term": "deserving",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4239",
+        "w2v",
+        "1"
+      ]
+    },
+    "embarrasses": {
+      "data-frequency": "762",
+      "data-relevance": "266",
+      "data-term": "embarrasses",
+      "data-encoded-term": "embarrasses",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "762",
+        "w2v",
+        "1"
+      ]
+    },
+    "catharsis": {
+      "data-frequency": "1175",
+      "data-relevance": "265",
+      "data-term": "catharsis",
+      "data-encoded-term": "catharsis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1175",
+        "w2v",
+        "1"
+      ]
+    },
+    "unworthy": {
+      "data-frequency": "2569",
+      "data-relevance": "264",
+      "data-term": "unworthy",
+      "data-encoded-term": "unworthy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2569",
+        "w2v",
+        "1"
+      ]
+    },
+    "unbelievable": {
+      "data-frequency": "4280",
+      "data-relevance": "263",
+      "data-term": "unbelievable",
+      "data-encoded-term": "unbelievable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4280",
+        "w2v",
+        "1"
+      ]
+    },
+    "deprives": {
+      "data-frequency": "639",
+      "data-relevance": "262",
+      "data-term": "deprives",
+      "data-encoded-term": "deprives",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "639",
+        "w2v",
+        "1"
+      ]
+    },
+    "unquestionably": {
+      "data-frequency": "1752",
+      "data-relevance": "261",
+      "data-term": "unquestionably",
+      "data-encoded-term": "unquestionably",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1752",
+        "w2v",
+        "1"
+      ]
+    },
+    "unconscionable": {
+      "data-frequency": "421",
+      "data-relevance": "260",
+      "data-term": "unconscionable",
+      "data-encoded-term": "unconscionable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "421",
+        "w2v",
+        "1"
+      ]
+    },
+    "cares": {
+      "data-frequency": "9998",
+      "data-relevance": "259",
+      "data-term": "cares",
+      "data-encoded-term": "cares",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9998",
+        "w2v",
+        "1"
+      ]
+    },
+    "accomplishment": {
+      "data-frequency": "7819",
+      "data-relevance": "258",
+      "data-term": "accomplishment",
+      "data-encoded-term": "accomplishment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7819",
+        "w2v",
+        "1"
+      ]
+    },
+    "sustains": {
+      "data-frequency": "103384",
+      "data-relevance": "257",
+      "data-term": "sustains",
+      "data-encoded-term": "sustains",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "103384",
+        "w2v",
+        "1"
+      ]
+    },
+    "gratifying": {
+      "data-frequency": "925",
+      "data-relevance": "256",
+      "data-term": "gratifying",
+      "data-encoded-term": "gratifying",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "925",
+        "w2v",
+        "1"
+      ]
+    },
+    "compliment": {
+      "data-frequency": "2449",
+      "data-relevance": "255",
+      "data-term": "compliment",
+      "data-encoded-term": "compliment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2449",
+        "w2v|reverse-net",
+        "1"
+      ]
+    },
+    "demean": {
+      "data-frequency": "280",
+      "data-relevance": "254",
+      "data-term": "demean",
+      "data-encoded-term": "demean",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "280",
+        "w2v",
+        "1"
+      ]
+    },
+    "commend": {
+      "data-frequency": "1047",
+      "data-relevance": "253",
+      "data-term": "commend",
+      "data-encoded-term": "commend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1047",
+        "w2v",
+        "1"
+      ]
+    },
+    "chinook": {
+      "data-frequency": "4736",
+      "data-relevance": "252",
+      "data-term": "chinook",
+      "data-encoded-term": "chinook",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4736",
+        "cn5",
+        "1"
+      ]
+    },
+    "travesty": {
+      "data-frequency": "1046",
+      "data-relevance": "251",
+      "data-term": "travesty",
+      "data-encoded-term": "travesty",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1046",
+        "ol",
+        "1"
+      ]
+    },
+    "goddamn": {
+      "data-frequency": "743",
+      "data-relevance": "250",
+      "data-term": "goddamn",
+      "data-encoded-term": "goddamn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "743",
+        "w2v",
+        "1"
+      ]
+    },
+    "dishonor": {
+      "data-frequency": "1462",
+      "data-relevance": "249",
+      "data-term": "dishonor",
+      "data-encoded-term": "dishonor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1462",
+        "ol",
+        "1"
+      ]
+    },
+    "doubtless": {
+      "data-frequency": "1989",
+      "data-relevance": "248",
+      "data-term": "doubtless",
+      "data-encoded-term": "doubtless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1989",
+        "w2v",
+        "1"
+      ]
+    },
+    "implication": {
+      "data-frequency": "6669",
+      "data-relevance": "247",
+      "data-term": "implication",
+      "data-encoded-term": "implication",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6669",
+        "ol",
+        "1"
+      ]
+    },
+    "tarnish": {
+      "data-frequency": "980",
+      "data-relevance": "246",
+      "data-term": "tarnish",
+      "data-encoded-term": "tarnish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "980",
+        "ol",
+        "1"
+      ]
+    },
+    "charade": {
+      "data-frequency": "1674",
+      "data-relevance": "245",
+      "data-term": "charade",
+      "data-encoded-term": "charade",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1674",
+        "ol",
+        "1"
+      ]
+    },
+    "pander": {
+      "data-frequency": "587",
+      "data-relevance": "244",
+      "data-term": "pander",
+      "data-encoded-term": "pander",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "587",
+        "ol",
+        "1"
+      ]
+    },
+    "burdon": {
+      "data-frequency": "1675",
+      "data-relevance": "243",
+      "data-term": "burdon",
+      "data-encoded-term": "burdon",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1675",
+        "ol",
+        "1"
+      ]
+    },
+    "abomination": {
+      "data-frequency": "1419",
+      "data-relevance": "242",
+      "data-term": "abomination",
+      "data-encoded-term": "abomination",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1419",
+        "ol",
+        "1"
+      ]
+    },
+    "fool": {
+      "data-frequency": "20203",
+      "data-relevance": "241",
+      "data-term": "fool",
+      "data-encoded-term": "fool",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "20203",
+        "ol",
+        "1"
+      ]
+    },
+    "angers": {
+      "data-frequency": "6640",
+      "data-relevance": "240",
+      "data-term": "angers",
+      "data-encoded-term": "angers",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6640",
+        "ol",
+        "1"
+      ]
+    },
+    "infuriates": {
+      "data-frequency": "814",
+      "data-relevance": "239",
+      "data-term": "infuriates",
+      "data-encoded-term": "infuriates",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "814",
+        "w2v",
+        "1"
+      ]
+    },
+    "cowards": {
+      "data-frequency": "8372",
+      "data-relevance": "238",
+      "data-term": "cowards",
+      "data-encoded-term": "cowards",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8372",
+        "ol",
+        "1"
+      ]
+    },
+    "aspersion": {
+      "data-frequency": "142",
+      "data-relevance": "237",
+      "data-term": "aspersion",
+      "data-encoded-term": "aspersion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "142",
+        "ol",
+        "1"
+      ]
+    },
+    "yeoman": {
+      "data-frequency": "3973",
+      "data-relevance": "236",
+      "data-term": "yeoman",
+      "data-encoded-term": "yeoman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3973",
+        "ol",
+        "1"
+      ]
+    },
+    "smear": {
+      "data-frequency": "3333",
+      "data-relevance": "235",
+      "data-term": "smear",
+      "data-encoded-term": "smear",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3333",
+        "ol",
+        "1"
+      ]
+    },
+    "hypocrite": {
+      "data-frequency": "1038",
+      "data-relevance": "234",
+      "data-term": "hypocrite",
+      "data-encoded-term": "hypocrite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1038",
+        "ol",
+        "1"
+      ]
+    },
+    "mockery": {
+      "data-frequency": "2739",
+      "data-relevance": "233",
+      "data-term": "mockery",
+      "data-encoded-term": "mockery",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2739",
+        "ol",
+        "1"
+      ]
+    },
+    "regret": {
+      "data-frequency": "12938",
+      "data-relevance": "232",
+      "data-term": "regret",
+      "data-encoded-term": "regret",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12938",
+        "ol",
+        "1"
+      ]
+    },
+    "mean": {
+      "data-frequency": "108057",
+      "data-relevance": "231",
+      "data-term": "mean",
+      "data-encoded-term": "mean",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "108057",
+        "ol",
+        "1"
+      ]
+    },
+    "estrange": {
+      "data-frequency": "107",
+      "data-relevance": "230",
+      "data-term": "estrange",
+      "data-encoded-term": "estrange",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "107",
+        "ol",
+        "1"
+      ]
+    },
+    "taints": {
+      "data-frequency": "6275",
+      "data-relevance": "229",
+      "data-term": "taints",
+      "data-encoded-term": "taints",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6275",
+        "ol",
+        "1"
+      ]
+    },
+    "sully": {
+      "data-frequency": "6715",
+      "data-relevance": "228",
+      "data-term": "sully",
+      "data-encoded-term": "sully",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6715",
+        "ol",
+        "1"
+      ]
+    },
+    "smokescreen": {
+      "data-frequency": "655",
+      "data-relevance": "227",
+      "data-term": "smokescreen",
+      "data-encoded-term": "smokescreen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "655",
+        "ol",
+        "1"
+      ]
+    },
+    "repercussions": {
+      "data-frequency": "4173",
+      "data-relevance": "226",
+      "data-term": "repercussions",
+      "data-encoded-term": "repercussions",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4173",
+        "ol",
+        "1"
+      ]
+    },
+    "disadvantage": {
+      "data-frequency": "10246",
+      "data-relevance": "225",
+      "data-term": "disadvantage",
+      "data-encoded-term": "disadvantage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10246",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "fallacy": {
+      "data-frequency": "2810",
+      "data-relevance": "224",
+      "data-term": "fallacy",
+      "data-encoded-term": "fallacy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2810",
+        "ol",
+        "1"
+      ]
+    },
+    "cowardice": {
+      "data-frequency": "2358",
+      "data-relevance": "223",
+      "data-term": "cowardice",
+      "data-encoded-term": "cowardice",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2358",
+        "ol",
+        "1"
+      ]
+    },
+    "betterment": {
+      "data-frequency": "2385",
+      "data-relevance": "222",
+      "data-term": "betterment",
+      "data-encoded-term": "betterment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2385",
+        "ol",
+        "1"
+      ]
+    },
+    "umbrage": {
+      "data-frequency": "389",
+      "data-relevance": "221",
+      "data-term": "umbrage",
+      "data-encoded-term": "umbrage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "389",
+        "ol",
+        "1"
+      ]
+    },
+    "ramifications": {
+      "data-frequency": "2765",
+      "data-relevance": "220",
+      "data-term": "ramifications",
+      "data-encoded-term": "ramifications",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2765",
+        "ol",
+        "1"
+      ]
+    },
+    "benefit": {
+      "data-frequency": "79129",
+      "data-relevance": "219",
+      "data-term": "benefit",
+      "data-encoded-term": "benefit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "79129",
+        "ol",
+        "1"
+      ]
+    },
+    "dupe": {
+      "data-frequency": "839",
+      "data-relevance": "218",
+      "data-term": "dupe",
+      "data-encoded-term": "dupe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "839",
+        "ol",
+        "1"
+      ]
+    },
+    "hypocrisy": {
+      "data-frequency": "4369",
+      "data-relevance": "217",
+      "data-term": "hypocrisy",
+      "data-encoded-term": "hypocrisy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4369",
+        "ol",
+        "1"
+      ]
+    },
+    "idiots": {
+      "data-frequency": "2444",
+      "data-relevance": "216",
+      "data-term": "idiots",
+      "data-encoded-term": "idiots",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2444",
+        "ol",
+        "1"
+      ]
+    },
+    "generalization": {
+      "data-frequency": "5294",
+      "data-relevance": "215",
+      "data-term": "generalization",
+      "data-encoded-term": "generalization",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5294",
+        "ol",
+        "1"
+      ]
+    },
+    "cheapening": {
+      "data-frequency": "332",
+      "data-relevance": "214",
+      "data-term": "cheapening",
+      "data-encoded-term": "cheapening",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "332",
+        "ol",
+        "1"
+      ]
+    },
+    "folly": {
+      "data-frequency": "8857",
+      "data-relevance": "213",
+      "data-term": "folly",
+      "data-encoded-term": "folly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8857",
+        "ol",
+        "1"
+      ]
+    },
+    "impact": {
+      "data-frequency": "199800",
+      "data-relevance": "212",
+      "data-term": "impact",
+      "data-encoded-term": "impact",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "199800",
+        "ol",
+        "1"
+      ]
+    },
+    "peril": {
+      "data-frequency": "6369",
+      "data-relevance": "211",
+      "data-term": "peril",
+      "data-encoded-term": "peril",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6369",
+        "ol",
+        "1"
+      ]
+    },
+    "stereotyping": {
+      "data-frequency": "1540",
+      "data-relevance": "210",
+      "data-term": "stereotyping",
+      "data-encoded-term": "stereotyping",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1540",
+        "ol",
+        "1"
+      ]
+    },
+    "motivating": {
+      "data-frequency": "2691",
+      "data-relevance": "209",
+      "data-term": "motivating",
+      "data-encoded-term": "motivating",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2691",
+        "w2v",
+        "1"
+      ]
+    },
+    "ridicule": {
+      "data-frequency": "3840",
+      "data-relevance": "208",
+      "data-term": "ridicule",
+      "data-encoded-term": "ridicule",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3840",
+        "ol",
+        "1"
+      ]
+    },
+    "bemoan": {
+      "data-frequency": "268",
+      "data-relevance": "207",
+      "data-term": "bemoan",
+      "data-encoded-term": "bemoan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "268",
+        "w2v",
+        "1"
+      ]
+    },
+    "belittle": {
+      "data-frequency": "476",
+      "data-relevance": "206",
+      "data-term": "belittle",
+      "data-encoded-term": "belittle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "476",
+        "w2v",
+        "1"
+      ]
+    },
+    "surely": {
+      "data-frequency": "9588",
+      "data-relevance": "205",
+      "data-term": "surely",
+      "data-encoded-term": "surely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9588",
+        "w2v",
+        "1"
+      ]
+    },
+    "gullibility": {
+      "data-frequency": "295",
+      "data-relevance": "204",
+      "data-term": "gullibility",
+      "data-encoded-term": "gullibility",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "295",
+        "w2v",
+        "1"
+      ]
+    },
+    "detract": {
+      "data-frequency": "1229",
+      "data-relevance": "203",
+      "data-term": "detract",
+      "data-encoded-term": "detract",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1229",
+        "w2v",
+        "1"
+      ]
+    },
+    "worthwhile": {
+      "data-frequency": "4256",
+      "data-relevance": "202",
+      "data-term": "worthwhile",
+      "data-encoded-term": "worthwhile",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4256",
+        "w2v",
+        "1"
+      ]
+    },
+    "shortcoming": {
+      "data-frequency": "856",
+      "data-relevance": "201",
+      "data-term": "shortcoming",
+      "data-encoded-term": "shortcoming",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "856",
+        "w2v",
+        "1"
+      ]
+    },
+    "downwind": {
+      "data-frequency": "943",
+      "data-relevance": "200",
+      "data-term": "downwind",
+      "data-encoded-term": "downwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "943",
+        "cn5",
+        "1"
+      ]
+    },
+    "frightens": {
+      "data-frequency": "732",
+      "data-relevance": "199",
+      "data-term": "frightens",
+      "data-encoded-term": "frightens",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "732",
+        "w2v",
+        "1"
+      ]
+    },
+    "impair": {
+      "data-frequency": "2214",
+      "data-relevance": "198",
+      "data-term": "impair",
+      "data-encoded-term": "impair",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2214",
+        "cn5",
+        "1"
+      ]
+    },
+    "sincerely": {
+      "data-frequency": "3502",
+      "data-relevance": "197",
+      "data-term": "sincerely",
+      "data-encoded-term": "sincerely",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3502",
+        "w2v",
+        "1"
+      ]
+    },
+    "liability insurance": {
+      "data-frequency": "772",
+      "data-relevance": "196",
+      "data-term": "liability insurance",
+      "data-encoded-term": "liability%20insurance",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "772",
+        "cn5",
+        "1"
+      ]
+    },
+    "harmless": {
+      "data-frequency": "5867",
+      "data-relevance": "195",
+      "data-term": "harmless",
+      "data-encoded-term": "harmless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5867",
+        "cn5",
+        "1"
+      ]
+    },
+    "distresses": {
+      "data-frequency": "18921",
+      "data-relevance": "194",
+      "data-term": "distresses",
+      "data-encoded-term": "distresses",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18921",
+        "w2v",
+        "1"
+      ]
+    },
+    "inestimable": {
+      "data-frequency": "379",
+      "data-relevance": "193",
+      "data-term": "inestimable",
+      "data-encoded-term": "inestimable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "379",
+        "w2v",
+        "1"
+      ]
+    },
+    "oftentimes": {
+      "data-frequency": "1944",
+      "data-relevance": "192",
+      "data-term": "oftentimes",
+      "data-encoded-term": "oftentimes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1944",
+        "w2v",
+        "1"
+      ]
+    },
+    "fazes": {
+      "data-frequency": "3634",
+      "data-relevance": "191",
+      "data-term": "fazes",
+      "data-encoded-term": "fazes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3634",
+        "w2v",
+        "1"
+      ]
+    },
+    "fucking": {
+      "data-frequency": "5555",
+      "data-relevance": "190",
+      "data-term": "fucking",
+      "data-encoded-term": "fucking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5555",
+        "w2v",
+        "1"
+      ]
+    },
+    "selfishness": {
+      "data-frequency": "1567",
+      "data-relevance": "189",
+      "data-term": "selfishness",
+      "data-encoded-term": "selfishness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1567",
+        "w2v",
+        "1"
+      ]
+    },
+    "offend": {
+      "data-frequency": "2919",
+      "data-relevance": "188",
+      "data-term": "offend",
+      "data-encoded-term": "offend",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2919",
+        "w2v",
+        "1"
+      ]
+    },
+    "generosity": {
+      "data-frequency": "5938",
+      "data-relevance": "187",
+      "data-term": "generosity",
+      "data-encoded-term": "generosity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5938",
+        "w2v",
+        "1"
+      ]
+    },
+    "thankful": {
+      "data-frequency": "3636",
+      "data-relevance": "186",
+      "data-term": "thankful",
+      "data-encoded-term": "thankful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3636",
+        "w2v",
+        "1"
+      ]
+    },
+    "perceives": {
+      "data-frequency": "44251",
+      "data-relevance": "185",
+      "data-term": "perceives",
+      "data-encoded-term": "perceives",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44251",
+        "w2v",
+        "1"
+      ]
+    },
+    "omission": {
+      "data-frequency": "4303",
+      "data-relevance": "184",
+      "data-term": "omission",
+      "data-encoded-term": "omission",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4303",
+        "w2v",
+        "1"
+      ]
+    },
+    "confuses": {
+      "data-frequency": "1483",
+      "data-relevance": "183",
+      "data-term": "confuses",
+      "data-encoded-term": "confuses",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1483",
+        "w2v",
+        "1"
+      ]
+    },
+    "tremendous": {
+      "data-frequency": "14955",
+      "data-relevance": "182",
+      "data-term": "tremendous",
+      "data-encoded-term": "tremendous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14955",
+        "w2v",
+        "1"
+      ]
+    },
+    "auster": {
+      "data-frequency": "2823",
+      "data-relevance": "181",
+      "data-term": "auster",
+      "data-encoded-term": "auster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2823",
+        "cn5",
+        "1"
+      ]
+    },
+    "wem": {
+      "data-frequency": "730",
+      "data-relevance": "180",
+      "data-term": "wem",
+      "data-encoded-term": "wem",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "730",
+        "cn5",
+        "1"
+      ]
+    },
+    "windy": {
+      "data-frequency": "8508",
+      "data-relevance": "179",
+      "data-term": "windy",
+      "data-encoded-term": "windy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8508",
+        "cn5",
+        "1"
+      ]
+    },
+    "rewind": {
+      "data-frequency": "4523",
+      "data-relevance": "178",
+      "data-term": "rewind",
+      "data-encoded-term": "rewind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4523",
+        "cn5",
+        "1"
+      ]
+    },
+    "windproof": {
+      "data-frequency": "85",
+      "data-relevance": "177",
+      "data-term": "windproof",
+      "data-encoded-term": "windproof",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "85",
+        "cn5",
+        "1"
+      ]
+    },
+    "requital": {
+      "data-frequency": "60",
+      "data-relevance": "176",
+      "data-term": "requital",
+      "data-encoded-term": "requital",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "etesian": {
+      "data-frequency": "-1",
+      "data-relevance": "175",
+      "data-term": "etesian",
+      "data-encoded-term": "etesian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "enwind": {
+      "data-frequency": "-1",
+      "data-relevance": "174",
+      "data-term": "enwind",
+      "data-encoded-term": "enwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "interwind": {
+      "data-frequency": "-1",
+      "data-relevance": "173",
+      "data-term": "interwind",
+      "data-encoded-term": "interwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windburn": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "windburn",
+      "data-encoded-term": "windburn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "defacement": {
+      "data-frequency": "281",
+      "data-relevance": "171",
+      "data-term": "defacement",
+      "data-encoded-term": "defacement",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "281",
+        "cn5",
+        "1"
+      ]
+    },
+    "upwind": {
+      "data-frequency": "594",
+      "data-relevance": "170",
+      "data-term": "upwind",
+      "data-encoded-term": "upwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "594",
+        "cn5",
+        "1"
+      ]
+    },
+    "outwind": {
+      "data-frequency": "-1",
+      "data-relevance": "169",
+      "data-term": "outwind",
+      "data-encoded-term": "outwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lacerate": {
+      "data-frequency": "88",
+      "data-relevance": "168",
+      "data-term": "lacerate",
+      "data-encoded-term": "lacerate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "88",
+        "cn5",
+        "1"
+      ]
+    },
+    "hoplochrism": {
+      "data-frequency": "-1",
+      "data-relevance": "167",
+      "data-term": "hoplochrism",
+      "data-encoded-term": "hoplochrism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windiness": {
+      "data-frequency": "-1",
+      "data-relevance": "166",
+      "data-term": "windiness",
+      "data-encoded-term": "windiness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windstrewn": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "windstrewn",
+      "data-encoded-term": "windstrewn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "trivializes": {
+      "data-frequency": "707",
+      "data-relevance": "164",
+      "data-term": "trivializes",
+      "data-encoded-term": "trivializes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "707",
+        "w2v",
+        "1"
+      ]
+    },
+    "gale": {
+      "data-frequency": "32764",
+      "data-relevance": "163",
+      "data-term": "gale",
+      "data-encoded-term": "gale",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "32764",
+        "cn5",
+        "1"
+      ]
+    },
+    "headwound": {
+      "data-frequency": "-1",
+      "data-relevance": "162",
+      "data-term": "headwound",
+      "data-encoded-term": "headwound",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "casualty": {
+      "data-frequency": "13146",
+      "data-relevance": "161",
+      "data-term": "casualty",
+      "data-encoded-term": "casualty",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "13146",
+        "cn5",
+        "1"
+      ]
+    },
+    "injuria sine damno": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "injuria sine damno",
+      "data-encoded-term": "injuria%20sine%20damno",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mischievous": {
+      "data-frequency": "3987",
+      "data-relevance": "159",
+      "data-term": "mischievous",
+      "data-encoded-term": "mischievous",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3987",
+        "cn5",
+        "1"
+      ]
+    },
+    "woundable": {
+      "data-frequency": "-1",
+      "data-relevance": "158",
+      "data-term": "woundable",
+      "data-encoded-term": "woundable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "crosswind": {
+      "data-frequency": "650",
+      "data-relevance": "157",
+      "data-term": "crosswind",
+      "data-encoded-term": "crosswind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "650",
+        "cn5",
+        "1"
+      ]
+    },
+    "contusion": {
+      "data-frequency": "529",
+      "data-relevance": "156",
+      "data-term": "contusion",
+      "data-encoded-term": "contusion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "529",
+        "cn5",
+        "1"
+      ]
+    },
+    "tailwind": {
+      "data-frequency": "822",
+      "data-relevance": "155",
+      "data-term": "tailwind",
+      "data-encoded-term": "tailwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "822",
+        "cn5",
+        "1"
+      ]
+    },
+    "windable": {
+      "data-frequency": "-1",
+      "data-relevance": "154",
+      "data-term": "windable",
+      "data-encoded-term": "windable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "irks": {
+      "data-frequency": "813",
+      "data-relevance": "153",
+      "data-term": "irks",
+      "data-encoded-term": "irks",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "813",
+        "w2v",
+        "1"
+      ]
+    },
+    "humiliate": {
+      "data-frequency": "2059",
+      "data-relevance": "152",
+      "data-term": "humiliate",
+      "data-encoded-term": "humiliate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2059",
+        "cn5",
+        "1"
+      ]
+    },
+    "hickey": {
+      "data-frequency": "8225",
+      "data-relevance": "151",
+      "data-term": "hickey",
+      "data-encoded-term": "hickey",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8225",
+        "cn5",
+        "1"
+      ]
+    },
+    "windtight": {
+      "data-frequency": "-1",
+      "data-relevance": "150",
+      "data-term": "windtight",
+      "data-encoded-term": "windtight",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "unwind": {
+      "data-frequency": "694",
+      "data-relevance": "149",
+      "data-term": "unwind",
+      "data-encoded-term": "unwind",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "694",
+        "cn5",
+        "1"
+      ]
+    },
+    "vulnerability": {
+      "data-frequency": "9749",
+      "data-relevance": "148",
+      "data-term": "vulnerability",
+      "data-encoded-term": "vulnerability",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9749",
+        "cn5",
+        "1"
+      ]
+    },
+    "trivialize": {
+      "data-frequency": "135",
+      "data-relevance": "147",
+      "data-term": "trivialize",
+      "data-encoded-term": "trivialize",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "135",
+        "w2v",
+        "1"
+      ]
+    },
+    "zephyr": {
+      "data-frequency": "5667",
+      "data-relevance": "146",
+      "data-term": "zephyr",
+      "data-encoded-term": "zephyr",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5667",
+        "cn5",
+        "1"
+      ]
+    },
+    "blowy": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "blowy",
+      "data-encoded-term": "blowy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sore": {
+      "data-frequency": "6903",
+      "data-relevance": "144",
+      "data-term": "sore",
+      "data-encoded-term": "sore",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6903",
+        "cn5",
+        "1"
+      ]
+    },
+    "abrasion": {
+      "data-frequency": "1463",
+      "data-relevance": "143",
+      "data-term": "abrasion",
+      "data-encoded-term": "abrasion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1463",
+        "cn5",
+        "1"
+      ]
+    },
+    "leeward": {
+      "data-frequency": "3610",
+      "data-relevance": "142",
+      "data-term": "leeward",
+      "data-encoded-term": "leeward",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3610",
+        "cn5",
+        "1"
+      ]
+    },
+    "passible": {
+      "data-frequency": "-1",
+      "data-relevance": "141",
+      "data-term": "passible",
+      "data-encoded-term": "passible",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "airstream": {
+      "data-frequency": "712",
+      "data-relevance": "140",
+      "data-term": "airstream",
+      "data-encoded-term": "airstream",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "712",
+        "cn5",
+        "1"
+      ]
+    },
+    "stabwound": {
+      "data-frequency": "-1",
+      "data-relevance": "139",
+      "data-term": "stabwound",
+      "data-encoded-term": "stabwound",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "abusive": {
+      "data-frequency": "11930",
+      "data-relevance": "138",
+      "data-term": "abusive",
+      "data-encoded-term": "abusive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11930",
+        "cn5",
+        "1"
+      ]
+    },
+    "country": {
+      "data-frequency": "1583721",
+      "data-relevance": "137",
+      "data-term": "country",
+      "data-encoded-term": "country",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1583721",
+        "ol",
+        "1"
+      ]
+    },
+    "cause": {
+      "data-frequency": "182325",
+      "data-relevance": "136",
+      "data-term": "cause",
+      "data-encoded-term": "cause",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "182325",
+        "ol",
+        "1"
+      ]
+    },
+    "patient": {
+      "data-frequency": "39978",
+      "data-relevance": "135",
+      "data-term": "patient",
+      "data-encoded-term": "patient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39978",
+        "ol",
+        "1"
+      ]
+    },
+    "people": {
+      "data-frequency": "2451433",
+      "data-relevance": "134",
+      "data-term": "people",
+      "data-encoded-term": "people",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2451433",
+        "ol",
+        "1"
+      ]
+    },
+    "children": {
+      "data-frequency": "590704",
+      "data-relevance": "133",
+      "data-term": "children",
+      "data-encoded-term": "children",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "590704",
+        "ol",
+        "1"
+      ]
+    },
+    "students": {
+      "data-frequency": "280258",
+      "data-relevance": "132",
+      "data-term": "students",
+      "data-encoded-term": "students",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "280258",
+        "ol",
+        "1"
+      ]
+    },
+    "public": {
+      "data-frequency": "840740",
+      "data-relevance": "131",
+      "data-term": "public",
+      "data-encoded-term": "public",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "840740",
+        "ol",
+        "1"
+      ]
+    },
+    "community": {
+      "data-frequency": "540121",
+      "data-relevance": "130",
+      "data-term": "community",
+      "data-encoded-term": "community",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "540121",
+        "ol",
+        "1"
+      ]
+    },
+    "patients": {
+      "data-frequency": "49881",
+      "data-relevance": "129",
+      "data-term": "patients",
+      "data-encoded-term": "patients",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49881",
+        "ol",
+        "1"
+      ]
+    },
+    "nation": {
+      "data-frequency": "195598",
+      "data-relevance": "128",
+      "data-term": "nation",
+      "data-encoded-term": "nation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "195598",
+        "ol",
+        "1"
+      ]
+    },
+    "windbreaker": {
+      "data-frequency": "562",
+      "data-relevance": "127",
+      "data-term": "windbreaker",
+      "data-encoded-term": "windbreaker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "562",
+        "cn5",
+        "1"
+      ]
+    },
+    "women": {
+      "data-frequency": "447535",
+      "data-relevance": "126",
+      "data-term": "women",
+      "data-encoded-term": "women",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "447535",
+        "ol",
+        "1"
+      ]
+    },
+    "cicatrix": {
+      "data-frequency": "46",
+      "data-relevance": "125",
+      "data-term": "cicatrix",
+      "data-encoded-term": "cicatrix",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "simoom": {
+      "data-frequency": "287",
+      "data-relevance": "124",
+      "data-term": "simoom",
+      "data-encoded-term": "simoom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "287",
+        "cn5",
+        "1"
+      ]
+    },
+    "anosognosia": {
+      "data-frequency": "52",
+      "data-relevance": "123",
+      "data-term": "anosognosia",
+      "data-encoded-term": "anosognosia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "intact": {
+      "data-frequency": "27480",
+      "data-relevance": "122",
+      "data-term": "intact",
+      "data-encoded-term": "intact",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "27480",
+        "cn5",
+        "1"
+      ]
+    },
+    "whiplash": {
+      "data-frequency": "1763",
+      "data-relevance": "121",
+      "data-term": "whiplash",
+      "data-encoded-term": "whiplash",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1763",
+        "cn5",
+        "1"
+      ]
+    },
+    "breeze": {
+      "data-frequency": "12108",
+      "data-relevance": "120",
+      "data-term": "breeze",
+      "data-encoded-term": "breeze",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12108",
+        "cn5",
+        "1"
+      ]
+    },
+    "whirlwind": {
+      "data-frequency": "5253",
+      "data-relevance": "119",
+      "data-term": "whirlwind",
+      "data-encoded-term": "whirlwind",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5253",
+        "cn5",
+        "1"
+      ]
+    },
+    "amoron": {
+      "data-frequency": "97",
+      "data-relevance": "118",
+      "data-term": "amoron",
+      "data-encoded-term": "amoron",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "97",
+        "w2v",
+        "1"
+      ]
+    },
+    "khamsin": {
+      "data-frequency": "91",
+      "data-relevance": "117",
+      "data-term": "khamsin",
+      "data-encoded-term": "khamsin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "91",
+        "cn5",
+        "1"
+      ]
+    },
+    "boneheaded": {
+      "data-frequency": "52",
+      "data-relevance": "116",
+      "data-term": "boneheaded",
+      "data-encoded-term": "boneheaded",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "w2v",
+        "1"
+      ]
+    },
+    "windbound": {
+      "data-frequency": "-1",
+      "data-relevance": "115",
+      "data-term": "windbound",
+      "data-encoded-term": "windbound",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chutzpah": {
+      "data-frequency": "404",
+      "data-relevance": "114",
+      "data-term": "chutzpah",
+      "data-encoded-term": "chutzpah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "404",
+        "w2v",
+        "1"
+      ]
+    },
+    "underestimates": {
+      "data-frequency": "5737",
+      "data-relevance": "113",
+      "data-term": "underestimates",
+      "data-encoded-term": "underestimates",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5737",
+        "w2v",
+        "1"
+      ]
+    },
+    "mystifies": {
+      "data-frequency": "1165",
+      "data-relevance": "112",
+      "data-term": "mystifies",
+      "data-encoded-term": "mystifies",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1165",
+        "w2v",
+        "1"
+      ]
+    },
+    "fugazi": {
+      "data-frequency": "668",
+      "data-relevance": "111",
+      "data-term": "fugazi",
+      "data-encoded-term": "fugazi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "668",
+        "cn5",
+        "1"
+      ]
+    },
+    "stormwind": {
+      "data-frequency": "56",
+      "data-relevance": "110",
+      "data-term": "stormwind",
+      "data-encoded-term": "stormwind",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "wrong": {
+      "data-frequency": "82080",
+      "data-relevance": "109",
+      "data-term": "wrong",
+      "data-encoded-term": "wrong",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "82080",
+        "cn5",
+        "1"
+      ]
+    },
+    "physiotherapist": {
+      "data-frequency": "2893",
+      "data-relevance": "108",
+      "data-term": "physiotherapist",
+      "data-encoded-term": "physiotherapist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2893",
+        "cn5",
+        "1"
+      ]
+    },
+    "vendetta": {
+      "data-frequency": "5329",
+      "data-relevance": "107",
+      "data-term": "vendetta",
+      "data-encoded-term": "vendetta",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5329",
+        "cn5",
+        "1"
+      ]
+    },
+    "drafty": {
+      "data-frequency": "302",
+      "data-relevance": "106",
+      "data-term": "drafty",
+      "data-encoded-term": "drafty",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "302",
+        "cn5",
+        "1"
+      ]
+    },
+    "disrespects": {
+      "data-frequency": "3045",
+      "data-relevance": "105",
+      "data-term": "disrespects",
+      "data-encoded-term": "disrespects",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3045",
+        "ol",
+        "1"
+      ]
+    },
+    "counter-productive": {
+      "data-frequency": "1980",
+      "data-relevance": "104",
+      "data-term": "counter-productive",
+      "data-encoded-term": "counter-productive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1980",
+        "ol",
+        "1"
+      ]
+    },
+    "bastardizing": {
+      "data-frequency": "215",
+      "data-relevance": "103",
+      "data-term": "bastardizing",
+      "data-encoded-term": "bastardizing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "215",
+        "ol",
+        "1"
+      ]
+    },
+    "shortchange": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "shortchange",
+      "data-encoded-term": "shortchange",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "mischaracterization": {
+      "data-frequency": "293",
+      "data-relevance": "101",
+      "data-term": "mischaracterization",
+      "data-encoded-term": "mischaracterization",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "293",
+        "ol",
+        "1"
+      ]
+    },
+    "ashame": {
+      "data-frequency": "-1",
+      "data-relevance": "100",
+      "data-term": "ashame",
+      "data-encoded-term": "ashame",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "misnaming": {
+      "data-frequency": "411",
+      "data-relevance": "99",
+      "data-term": "misnaming",
+      "data-encoded-term": "misnaming",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "411",
+        "ol",
+        "1"
+      ]
+    },
+    "copout": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "copout",
+      "data-encoded-term": "copout",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "disuniting": {
+      "data-frequency": "407",
+      "data-relevance": "97",
+      "data-term": "disuniting",
+      "data-encoded-term": "disuniting",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "407",
+        "ol",
+        "1"
+      ]
+    },
+    "advantaging": {
+      "data-frequency": "93847",
+      "data-relevance": "96",
+      "data-term": "advantaging",
+      "data-encoded-term": "advantaging",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "93847",
+        "ol",
+        "1"
+      ]
+    },
+    "dissing": {
+      "data-frequency": "406",
+      "data-relevance": "95",
+      "data-term": "dissing",
+      "data-encoded-term": "dissing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "406",
+        "ol",
+        "1"
+      ]
+    },
+    "naysay": {
+      "data-frequency": "-1",
+      "data-relevance": "94",
+      "data-term": "naysay",
+      "data-encoded-term": "naysay",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "oversimplification": {
+      "data-frequency": "359",
+      "data-relevance": "93",
+      "data-term": "oversimplification",
+      "data-encoded-term": "oversimplification",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "359",
+        "ol",
+        "1"
+      ]
+    },
+    "embarassment": {
+      "data-frequency": "-1",
+      "data-relevance": "92",
+      "data-term": "embarassment",
+      "data-encoded-term": "embarassment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "unjustice": {
+      "data-frequency": "-1",
+      "data-relevance": "91",
+      "data-term": "unjustice",
+      "data-encoded-term": "unjustice",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "violation": {
+      "data-frequency": "31837",
+      "data-relevance": "90",
+      "data-term": "violation",
+      "data-encoded-term": "violation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "31837",
+        "cn5",
+        "1"
+      ]
+    },
+    "determent": {
+      "data-frequency": "8199",
+      "data-relevance": "89",
+      "data-term": "determent",
+      "data-encoded-term": "determent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8199",
+        "ol",
+        "1"
+      ]
+    },
+    "hogwash": {
+      "data-frequency": "372",
+      "data-relevance": "88",
+      "data-term": "hogwash",
+      "data-encoded-term": "hogwash",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "372",
+        "ol",
+        "1"
+      ]
+    },
+    "cowing": {
+      "data-frequency": "31158",
+      "data-relevance": "87",
+      "data-term": "cowing",
+      "data-encoded-term": "cowing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "31158",
+        "ol",
+        "1"
+      ]
+    },
+    "flabbergasts": {
+      "data-frequency": "346",
+      "data-relevance": "86",
+      "data-term": "flabbergasts",
+      "data-encoded-term": "flabbergasts",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "346",
+        "ol",
+        "1"
+      ]
+    },
+    "demagoguing": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "demagoguing",
+      "data-encoded-term": "demagoguing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "inconsideration": {
+      "data-frequency": "343",
+      "data-relevance": "84",
+      "data-term": "inconsideration",
+      "data-encoded-term": "inconsideration",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "343",
+        "ol",
+        "1"
+      ]
+    },
+    "hugest": {
+      "data-frequency": "49",
+      "data-relevance": "83",
+      "data-term": "hugest",
+      "data-encoded-term": "hugest",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "photobiomodulation": {
+      "data-frequency": "-1",
+      "data-relevance": "82",
+      "data-term": "photobiomodulation",
+      "data-encoded-term": "photobiomodulation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "curler": {
+      "data-frequency": "3974",
+      "data-relevance": "81",
+      "data-term": "curler",
+      "data-encoded-term": "curler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3974",
+        "cn5",
+        "1"
+      ]
+    },
+    "cripple": {
+      "data-frequency": "3307",
+      "data-relevance": "80",
+      "data-term": "cripple",
+      "data-encoded-term": "cripple",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3307",
+        "cn5",
+        "1"
+      ]
+    },
+    "windchill": {
+      "data-frequency": "78",
+      "data-relevance": "79",
+      "data-term": "windchill",
+      "data-encoded-term": "windchill",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "78",
+        "cn5",
+        "1"
+      ]
+    },
+    "overemphasize": {
+      "data-frequency": "83",
+      "data-relevance": "78",
+      "data-term": "overemphasize",
+      "data-encoded-term": "overemphasize",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "83",
+        "w2v",
+        "1"
+      ]
+    },
+    "trivializing": {
+      "data-frequency": "704",
+      "data-relevance": "77",
+      "data-term": "trivializing",
+      "data-encoded-term": "trivializing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "704",
+        "w2v",
+        "1"
+      ]
+    },
+    "besmirch": {
+      "data-frequency": "94",
+      "data-relevance": "76",
+      "data-term": "besmirch",
+      "data-encoded-term": "besmirch",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "94",
+        "w2v",
+        "1"
+      ]
+    },
+    "war reparation": {
+      "data-frequency": "172",
+      "data-relevance": "75",
+      "data-term": "war reparation",
+      "data-encoded-term": "war%20reparation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "172",
+        "cn5",
+        "1"
+      ]
+    },
+    "breezy": {
+      "data-frequency": "2440",
+      "data-relevance": "74",
+      "data-term": "breezy",
+      "data-encoded-term": "breezy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2440",
+        "cn5",
+        "1"
+      ]
+    },
+    "unrepeatable": {
+      "data-frequency": "100",
+      "data-relevance": "73",
+      "data-term": "unrepeatable",
+      "data-encoded-term": "unrepeatable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "100",
+        "w2v",
+        "1"
+      ]
+    },
+    "self harm": {
+      "data-frequency": "939",
+      "data-relevance": "72",
+      "data-term": "self harm",
+      "data-encoded-term": "self%20harm",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "939",
+        "cn5",
+        "1"
+      ]
+    },
+    "gust": {
+      "data-frequency": "3366",
+      "data-relevance": "71",
+      "data-term": "gust",
+      "data-encoded-term": "gust",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3366",
+        "cn5",
+        "1"
+      ]
+    },
+    "helical": {
+      "data-frequency": "2816",
+      "data-relevance": "70",
+      "data-term": "helical",
+      "data-encoded-term": "helical",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2816",
+        "cn5",
+        "1"
+      ]
+    },
+    "self destructive": {
+      "data-frequency": "1127",
+      "data-relevance": "69",
+      "data-term": "self destructive",
+      "data-encoded-term": "self%20destructive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1127",
+        "cn5",
+        "1"
+      ]
+    },
+    "travesties": {
+      "data-frequency": "211",
+      "data-relevance": "68",
+      "data-term": "travesties",
+      "data-encoded-term": "travesties",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "211",
+        "w2v",
+        "1"
+      ]
+    },
+    "monsoon": {
+      "data-frequency": "9943",
+      "data-relevance": "67",
+      "data-term": "monsoon",
+      "data-encoded-term": "monsoon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9943",
+        "cn5",
+        "1"
+      ]
+    },
+    "windthrown": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "windthrown",
+      "data-encoded-term": "windthrown",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coil": {
+      "data-frequency": "7981",
+      "data-relevance": "65",
+      "data-term": "coil",
+      "data-encoded-term": "coil",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7981",
+        "cn5",
+        "1"
+      ]
+    },
+    "laceration": {
+      "data-frequency": "506",
+      "data-relevance": "64",
+      "data-term": "laceration",
+      "data-encoded-term": "laceration",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "506",
+        "cn5",
+        "1"
+      ]
+    },
+    "headwind": {
+      "data-frequency": "367",
+      "data-relevance": "63",
+      "data-term": "headwind",
+      "data-encoded-term": "headwind",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "367",
+        "cn5",
+        "1"
+      ]
+    },
+    "windsock": {
+      "data-frequency": "206",
+      "data-relevance": "62",
+      "data-term": "windsock",
+      "data-encoded-term": "windsock",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "206",
+        "cn5",
+        "1"
+      ]
+    },
+    "bewound": {
+      "data-frequency": "-1",
+      "data-relevance": "61",
+      "data-term": "bewound",
+      "data-encoded-term": "bewound",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "circumvolute": {
+      "data-frequency": "-1",
+      "data-relevance": "60",
+      "data-term": "circumvolute",
+      "data-encoded-term": "circumvolute",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windfallen": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "windfallen",
+      "data-encoded-term": "windfallen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "calk": {
+      "data-frequency": "57",
+      "data-relevance": "58",
+      "data-term": "calk",
+      "data-encoded-term": "calk",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "57",
+        "cn5",
+        "1"
+      ]
+    },
+    "windchime": {
+      "data-frequency": "-1",
+      "data-relevance": "57",
+      "data-term": "windchime",
+      "data-encoded-term": "windchime",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windcheater": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "windcheater",
+      "data-encoded-term": "windcheater",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fusensho": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "fusensho",
+      "data-encoded-term": "fusensho",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "anemoi": {
+      "data-frequency": "86",
+      "data-relevance": "54",
+      "data-term": "anemoi",
+      "data-encoded-term": "anemoi",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "86",
+        "cn5",
+        "1"
+      ]
+    },
+    "defloration": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "defloration",
+      "data-encoded-term": "defloration",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "outblown": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "outblown",
+      "data-encoded-term": "outblown",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "intort": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "intort",
+      "data-encoded-term": "intort",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "stormtossed": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "stormtossed",
+      "data-encoded-term": "stormtossed",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windpower": {
+      "data-frequency": "286",
+      "data-relevance": "49",
+      "data-term": "windpower",
+      "data-encoded-term": "windpower",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "286",
+        "cn5",
+        "1"
+      ]
+    },
+    "driftwind": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "driftwind",
+      "data-encoded-term": "driftwind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "high wind": {
+      "data-frequency": "801",
+      "data-relevance": "47",
+      "data-term": "high wind",
+      "data-encoded-term": "high%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "801",
+        "cn5",
+        "1"
+      ]
+    },
+    "eurus": {
+      "data-frequency": "129",
+      "data-relevance": "46",
+      "data-term": "eurus",
+      "data-encoded-term": "eurus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "129",
+        "cn5",
+        "1"
+      ]
+    },
+    "meandrous": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "meandrous",
+      "data-encoded-term": "meandrous",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pampero": {
+      "data-frequency": "228",
+      "data-relevance": "44",
+      "data-term": "pampero",
+      "data-encoded-term": "pampero",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "228",
+        "cn5",
+        "1"
+      ]
+    },
+    "windbag": {
+      "data-frequency": "160",
+      "data-relevance": "43",
+      "data-term": "windbag",
+      "data-encoded-term": "windbag",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "160",
+        "cn5",
+        "1"
+      ]
+    },
+    "ecchymosis": {
+      "data-frequency": "77",
+      "data-relevance": "42",
+      "data-term": "ecchymosis",
+      "data-encoded-term": "ecchymosis",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "77",
+        "cn5",
+        "1"
+      ]
+    },
+    "dysphasia": {
+      "data-frequency": "50",
+      "data-relevance": "41",
+      "data-term": "dysphasia",
+      "data-encoded-term": "dysphasia",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "autowinder": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "autowinder",
+      "data-encoded-term": "autowinder",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "flesh wind": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "flesh wind",
+      "data-encoded-term": "flesh%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sharp object": {
+      "data-frequency": "129",
+      "data-relevance": "38",
+      "data-term": "sharp object",
+      "data-encoded-term": "sharp%20object",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "129",
+        "cn5",
+        "1"
+      ]
+    },
+    "fuck up": {
+      "data-frequency": "367",
+      "data-relevance": "37",
+      "data-term": "fuck up",
+      "data-encoded-term": "fuck%20up",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "367",
+        "cn5",
+        "1"
+      ]
+    },
+    "gunshot wind": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "gunshot wind",
+      "data-encoded-term": "gunshot%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "east wind": {
+      "data-frequency": "612",
+      "data-relevance": "35",
+      "data-term": "east wind",
+      "data-encoded-term": "east%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "612",
+        "cn5",
+        "1"
+      ]
+    },
+    "prevail wind": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "prevail wind",
+      "data-encoded-term": "prevail%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "car accident": {
+      "data-frequency": "11438",
+      "data-relevance": "33",
+      "data-term": "car accident",
+      "data-encoded-term": "car%20accident",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "11438",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency room": {
+      "data-frequency": "2120",
+      "data-relevance": "32",
+      "data-term": "emergency room",
+      "data-encoded-term": "emergency%20room",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2120",
+        "cn5",
+        "1"
+      ]
+    },
+    "dirty wind": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "dirty wind",
+      "data-encoded-term": "dirty%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "west wind": {
+      "data-frequency": "854",
+      "data-relevance": "30",
+      "data-term": "west wind",
+      "data-encoded-term": "west%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "854",
+        "cn5",
+        "1"
+      ]
+    },
+    "brain damage": {
+      "data-frequency": "2606",
+      "data-relevance": "29",
+      "data-term": "brain damage",
+      "data-encoded-term": "brain%20damage",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2606",
+        "cn5",
+        "1"
+      ]
+    },
+    "tropical storm": {
+      "data-frequency": "4319",
+      "data-relevance": "28",
+      "data-term": "tropical storm",
+      "data-encoded-term": "tropical%20storm",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4319",
+        "cn5",
+        "1"
+      ]
+    },
+    "light air": {
+      "data-frequency": "305",
+      "data-relevance": "27",
+      "data-term": "light air",
+      "data-encoded-term": "light%20air",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "305",
+        "cn5",
+        "1"
+      ]
+    },
+    "south wind": {
+      "data-frequency": "430",
+      "data-relevance": "26",
+      "data-term": "south wind",
+      "data-encoded-term": "south%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "430",
+        "cn5",
+        "1"
+      ]
+    },
+    "north wind": {
+      "data-frequency": "718",
+      "data-relevance": "25",
+      "data-term": "north wind",
+      "data-encoded-term": "north%20wind",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "718",
+        "cn5",
+        "1"
+      ]
+    },
+    "carpet burn": {
+      "data-frequency": "-1",
+      "data-relevance": "24",
+      "data-term": "carpet burn",
+      "data-encoded-term": "carpet%20burn",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "move air": {
+      "data-frequency": "83",
+      "data-relevance": "23",
+      "data-term": "move air",
+      "data-encoded-term": "move%20air",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "83",
+        "cn5",
+        "1"
+      ]
+    },
+    "entry wind": {
+      "data-frequency": "-1",
+      "data-relevance": "22",
+      "data-term": "entry wind",
+      "data-encoded-term": "entry%20wind",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "moral obligation": {
+      "data-frequency": "506",
+      "data-relevance": "21",
+      "data-term": "moral obligation",
+      "data-encoded-term": "moral%20obligation",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "506",
+        "ol",
+        "1"
+      ]
+    },
+    "vested interest": {
+      "data-frequency": "547",
+      "data-relevance": "20",
+      "data-term": "vested interest",
+      "data-encoded-term": "vested%20interest",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "547",
+        "ol",
+        "1"
+      ]
+    },
+    "emergency ward": {
+      "data-frequency": "347",
+      "data-relevance": "19",
+      "data-term": "emergency ward",
+      "data-encoded-term": "emergency%20ward",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "347",
+        "cn5",
+        "1"
+      ]
+    },
+    "black and blue": {
+      "data-frequency": "1570",
+      "data-relevance": "18",
+      "data-term": "black and blue",
+      "data-encoded-term": "black%20and%20blue",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1570",
+        "cn5",
+        "1"
+      ]
+    },
+    "reef rash": {
+      "data-frequency": "-1",
+      "data-relevance": "17",
+      "data-term": "reef rash",
+      "data-encoded-term": "reef%20rash",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wind power": {
+      "data-frequency": "3563",
+      "data-relevance": "16",
+      "data-term": "wind power",
+      "data-encoded-term": "wind%20power",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "3563",
+        "cn5",
+        "1"
+      ]
+    },
+    "long wind": {
+      "data-frequency": "44",
+      "data-relevance": "15",
+      "data-term": "long wind",
+      "data-encoded-term": "long%20wind",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "katabatic wind": {
+      "data-frequency": "53",
+      "data-relevance": "14",
+      "data-term": "katabatic wind",
+      "data-encoded-term": "katabatic%20wind",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "53",
+        "cn5",
+        "1"
+      ]
+    },
+    "personnel casualty": {
+      "data-frequency": "-1",
+      "data-relevance": "13",
+      "data-term": "personnel casualty",
+      "data-encoded-term": "personnel%20casualty",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "close to wind": {
+      "data-frequency": "-1",
+      "data-relevance": "12",
+      "data-term": "close to wind",
+      "data-encoded-term": "close%20to%20wind",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "coil winder": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "coil winder",
+      "data-encoded-term": "coil%20winder",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "foul wind": {
+      "data-frequency": "-1",
+      "data-relevance": "10",
+      "data-term": "foul wind",
+      "data-encoded-term": "foul%20wind",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "immunologic cytotoxicity": {
+      "data-frequency": "-1",
+      "data-relevance": "9",
+      "data-term": "immunologic cytotoxicity",
+      "data-encoded-term": "immunologic%20cytotoxicity",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mess up": {
+      "data-frequency": "600",
+      "data-relevance": "8",
+      "data-term": "mess up",
+      "data-encoded-term": "mess%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "600",
+        "cn5",
+        "1"
+      ]
+    },
+    "tropical cyclone": {
+      "data-frequency": "4256",
+      "data-relevance": "7",
+      "data-term": "tropical cyclone",
+      "data-encoded-term": "tropical%20cyclone",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "4256",
+        "cn5",
+        "1"
+      ]
+    },
+    "alarm substance": {
+      "data-frequency": "-1",
+      "data-relevance": "6",
+      "data-term": "alarm substance",
+      "data-encoded-term": "alarm%20substance",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wind scale": {
+      "data-frequency": "585",
+      "data-relevance": "5",
+      "data-term": "wind scale",
+      "data-encoded-term": "wind%20scale",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "585",
+        "cn5",
+        "1"
+      ]
+    },
+    "close call": {
+      "data-frequency": "920",
+      "data-relevance": "4",
+      "data-term": "close call",
+      "data-encoded-term": "close%20call",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "920",
+        "cn5",
+        "1"
+      ]
+    },
+    "twist in wind": {
+      "data-frequency": "-1",
+      "data-relevance": "3",
+      "data-term": "twist in wind",
+      "data-encoded-term": "twist%20in%20wind",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cerebral palsy": {
+      "data-frequency": "2941",
+      "data-relevance": "2",
+      "data-term": "cerebral palsy",
+      "data-encoded-term": "cerebral%20palsy",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2941",
+        "cn5",
+        "1"
+      ]
+    },
+    "bang up": {
+      "data-frequency": "21559",
+      "data-relevance": "1",
+      "data-term": "bang up",
+      "data-encoded-term": "bang%20up",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "21559",
+        "cn5",
+        "1"
+      ]
+    },
+    "white cap": {
+      "data-frequency": "28174",
+      "data-relevance": "0",
+      "data-term": "white cap",
+      "data-encoded-term": "white%20cap",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "28174",
+        "cn5",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "The fans have done the game a great disservice.",
+        "ru": "Болельщики оказали этому матчу медвежью услугу."
+      },
+      {
+        "en": "You do a great disservice to the professionals at the day-care center when you refer to them as “babysitters”.",
+        "ru": "Вы очень обижаете профессионалов, работающих в этом детском саду, когда называете их \"няньками\"."
+      },
+      {
+        "en": "Hart's poems are disserviced by the decision to squeeze three or even four short pieces onto one page.",
+        "ru": "Решение втиснуть три или даже четыре коротких произведения на одну страницу оказали стихотворениям Харта дурную службу."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "disservicing",
+      "disserviced",
+      "disservices"
+    ],
+    "synonyms": [
+      "inequity"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "service",
+      "injustice",
+      "disserve",
+      "injury",
+      "affront",
+      "disservices",
+      "inequity",
+      "insult",
+      "damage",
+      "harm",
+      "shame",
+      "disserviceable",
+      "injurious",
+      "pity",
+      "detriment"
+    ]
+  }
+}

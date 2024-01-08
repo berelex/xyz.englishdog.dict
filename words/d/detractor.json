@@ -1,0 +1,6081 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "naysayer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/naysayer/n/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/naysayer/n",
+          "@type": "Node",
+          "label": "naysayer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/naysayer"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      },
+      "cause": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/detractor/n/,/c/en/cause/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/cause",
+          "@type": "Node",
+          "label": "cause",
+          "language": "en",
+          "term": "/c/en/cause"
+        }
+      },
+      "derogator": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/derogator/n/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/derogator/n",
+          "@type": "Node",
+          "label": "derogator",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/derogator"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      },
+      "belittle": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/detractor/n/,/c/en/belittle/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/belittle",
+          "@type": "Node",
+          "label": "belittle",
+          "language": "en",
+          "term": "/c/en/belittle"
+        }
+      },
+      "detract": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/detract/v/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detract/v",
+          "@type": "Node",
+          "label": "detract",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/detract"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      },
+      "detractors": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/detractors/n/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractors/n",
+          "@type": "Node",
+          "label": "detractors",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractors"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "knocker": {
+        "@id": "/a/[/r/Synonym/,/c/en/knocker/n/wn/person/,/c/en/detractor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/knocker/n/wn/person",
+          "@type": "Node",
+          "label": "knocker",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/knocker"
+        },
+        "end": {
+          "@id": "/c/en/detractor/n/wn/person",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/detractor"
+        }
+      },
+      "depreciator": {
+        "@id": "/a/[/r/Synonym/,/c/en/depreciator/n/wn/person/,/c/en/detractor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/depreciator/n/wn/person",
+          "@type": "Node",
+          "label": "depreciator",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/depreciator"
+        },
+        "end": {
+          "@id": "/c/en/detractor/n/wn/person",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/detractor"
+        }
+      },
+      "disparager": {
+        "@id": "/a/[/r/Synonym/,/c/en/disparager/n/wn/person/,/c/en/detractor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/disparager/n/wn/person",
+          "@type": "Node",
+          "label": "disparager",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/disparager"
+        },
+        "end": {
+          "@id": "/c/en/detractor/n/wn/person",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/detractor"
+        }
+      },
+      "mudslinger": {
+        "@id": "/a/[/r/Synonym/,/c/en/detractor/n/,/c/en/mudslinger/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/mudslinger",
+          "@type": "Node",
+          "label": "mudslinger",
+          "language": "en",
+          "term": "/c/en/mudslinger"
+        }
+      },
+      "libel": {
+        "@id": "/a/[/r/Synonym/,/c/en/detractor/n/,/c/en/libel/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/libel",
+          "@type": "Node",
+          "label": "libel",
+          "language": "en",
+          "term": "/c/en/libel"
+        }
+      },
+      "cynic": {
+        "@id": "/a/[/r/Synonym/,/c/en/detractor/n/,/c/en/cynic/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/cynic",
+          "@type": "Node",
+          "label": "cynic",
+          "language": "en",
+          "term": "/c/en/cynic"
+        }
+      },
+      "defamation": {
+        "@id": "/a/[/r/Synonym/,/c/en/detractor/n/,/c/en/defamation/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/defamation",
+          "@type": "Node",
+          "label": "defamation",
+          "language": "en",
+          "term": "/c/en/defamation"
+        }
+      },
+      "slander": {
+        "@id": "/a/[/r/Synonym/,/c/en/detractor/n/,/c/en/slander/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/slander",
+          "@type": "Node",
+          "label": "slander",
+          "language": "en",
+          "term": "/c/en/slander"
+        }
+      }
+    },
+    "antonyms": {
+      "supporter": {
+        "@id": "/a/[/r/Antonym/,/c/en/supporter/n/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/supporter/n",
+          "@type": "Node",
+          "label": "supporter",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/supporter"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      },
+      "proponent": {
+        "@id": "/a/[/r/Antonym/,/c/en/detractor/n/,/c/en/proponent/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractor/n",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractor"
+        },
+        "end": {
+          "@id": "/c/en/proponent",
+          "@type": "Node",
+          "label": "proponent",
+          "language": "en",
+          "term": "/c/en/proponent"
+        }
+      }
+    },
+    "similar_terms": {},
+    "word_forms": {
+      "detracter": {
+        "@id": "/a/[/r/FormOf/,/c/en/detracter/n/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detracter/n",
+          "@type": "Node",
+          "label": "detracter",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detracter"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      },
+      "detractors": {
+        "@id": "/a/[/r/FormOf/,/c/en/detractors/n/,/c/en/detractor/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/detractors/n",
+          "@type": "Node",
+          "label": "detractors",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/detractors"
+        },
+        "end": {
+          "@id": "/c/en/detractor",
+          "@type": "Node",
+          "label": "detractor",
+          "language": "en",
+          "term": "/c/en/detractor"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "contributor": {
+      "data-frequency": "40425",
+      "data-relevance": "403",
+      "data-term": "contributor",
+      "data-encoded-term": "contributor",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "40425",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "contrarian": {
+      "data-frequency": "582",
+      "data-relevance": "402",
+      "data-term": "contrarian",
+      "data-encoded-term": "contrarian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "582",
+        "ol",
+        "1"
+      ]
+    },
+    "knocker": {
+      "data-frequency": "794",
+      "data-relevance": "401",
+      "data-term": "knocker",
+      "data-encoded-term": "knocker",
+      "data-term-stats": [
+        "1",
+        "2.7",
+        "0.000",
+        "794",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "disparager": {
+      "data-frequency": "3411",
+      "data-relevance": "400",
+      "data-term": "disparager",
+      "data-encoded-term": "disparager",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "3411",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "depreciator": {
+      "data-frequency": "2143",
+      "data-relevance": "399",
+      "data-term": "depreciator",
+      "data-encoded-term": "depreciator",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "2143",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "cynic": {
+      "data-frequency": "1042",
+      "data-relevance": "398",
+      "data-term": "cynic",
+      "data-encoded-term": "cynic",
+      "data-term-stats": [
+        "1",
+        "2.2",
+        "0.000",
+        "1042",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "doubter": {
+      "data-frequency": "117",
+      "data-relevance": "397",
+      "data-term": "doubter",
+      "data-encoded-term": "doubter",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "117",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "naysayer": {
+      "data-frequency": "61",
+      "data-relevance": "396",
+      "data-term": "naysayer",
+      "data-encoded-term": "naysayer",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "61",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "complainer": {
+      "data-frequency": "35044",
+      "data-relevance": "395",
+      "data-term": "complainer",
+      "data-encoded-term": "complainer",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "35044",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "micromanager": {
+      "data-frequency": "-1",
+      "data-relevance": "394",
+      "data-term": "micromanager",
+      "data-encoded-term": "micromanager",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "-1",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "whiner": {
+      "data-frequency": "93",
+      "data-relevance": "393",
+      "data-term": "whiner",
+      "data-encoded-term": "whiner",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "93",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "doomsayer": {
+      "data-frequency": "85",
+      "data-relevance": "392",
+      "data-term": "doomsayer",
+      "data-encoded-term": "doomsayer",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "85",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cause": {
+      "data-frequency": "182325",
+      "data-relevance": "391",
+      "data-term": "cause",
+      "data-encoded-term": "cause",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "182325",
+        "cn5",
+        "1"
+      ]
+    },
+    "slanderer": {
+      "data-frequency": "3567",
+      "data-relevance": "390",
+      "data-term": "slanderer",
+      "data-encoded-term": "slanderer",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3567",
+        "wn",
+        "1"
+      ]
+    },
+    "causal": {
+      "data-frequency": "5798",
+      "data-relevance": "389",
+      "data-term": "causal",
+      "data-encoded-term": "causal",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "5798",
+        "cn5",
+        "1"
+      ]
+    },
+    "supporter": {
+      "data-frequency": "42351",
+      "data-relevance": "388",
+      "data-term": "supporter",
+      "data-encoded-term": "supporter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42351",
+        "ol",
+        "1"
+      ]
+    },
+    "proponent": {
+      "data-frequency": "10577",
+      "data-relevance": "387",
+      "data-term": "proponent",
+      "data-encoded-term": "proponent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10577",
+        "ol",
+        "1"
+      ]
+    },
+    "advocate": {
+      "data-frequency": "81466",
+      "data-relevance": "386",
+      "data-term": "advocate",
+      "data-encoded-term": "advocate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "81466",
+        "ol",
+        "1"
+      ]
+    },
+    "induction": {
+      "data-frequency": "19356",
+      "data-relevance": "385",
+      "data-term": "induction",
+      "data-encoded-term": "induction",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "19356",
+        "cn5",
+        "1"
+      ]
+    },
+    "induce": {
+      "data-frequency": "12084",
+      "data-relevance": "384",
+      "data-term": "induce",
+      "data-encoded-term": "induce",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "12084",
+        "cn5",
+        "1"
+      ]
+    },
+    "causative": {
+      "data-frequency": "2497",
+      "data-relevance": "383",
+      "data-term": "causative",
+      "data-encoded-term": "causative",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2497",
+        "cn5",
+        "1"
+      ]
+    },
+    "effect": {
+      "data-frequency": "193932",
+      "data-relevance": "382",
+      "data-term": "effect",
+      "data-encoded-term": "effect",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "193932",
+        "cn5",
+        "1"
+      ]
+    },
+    "libeler": {
+      "data-frequency": "7164",
+      "data-relevance": "381",
+      "data-term": "libeler",
+      "data-encoded-term": "libeler",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "7164",
+        "wn",
+        "1"
+      ]
+    },
+    "backbiter": {
+      "data-frequency": "162",
+      "data-relevance": "380",
+      "data-term": "backbiter",
+      "data-encoded-term": "backbiter",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "162",
+        "wn",
+        "1"
+      ]
+    },
+    "muckraker": {
+      "data-frequency": "298",
+      "data-relevance": "379",
+      "data-term": "muckraker",
+      "data-encoded-term": "muckraker",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "298",
+        "wn",
+        "1"
+      ]
+    },
+    "defamer": {
+      "data-frequency": "8254",
+      "data-relevance": "378",
+      "data-term": "defamer",
+      "data-encoded-term": "defamer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "8254",
+        "wn",
+        "1"
+      ]
+    },
+    "hatemonger": {
+      "data-frequency": "-1",
+      "data-relevance": "377",
+      "data-term": "hatemonger",
+      "data-encoded-term": "hatemonger",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "faultfinder": {
+      "data-frequency": "-1",
+      "data-relevance": "376",
+      "data-term": "faultfinder",
+      "data-encoded-term": "faultfinder",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "traducer": {
+      "data-frequency": "132",
+      "data-relevance": "375",
+      "data-term": "traducer",
+      "data-encoded-term": "traducer",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "132",
+        "wn",
+        "1"
+      ]
+    },
+    "vilifier": {
+      "data-frequency": "1369",
+      "data-relevance": "374",
+      "data-term": "vilifier",
+      "data-encoded-term": "vilifier",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1369",
+        "wn",
+        "1"
+      ]
+    },
+    "maligner": {
+      "data-frequency": "1745",
+      "data-relevance": "373",
+      "data-term": "maligner",
+      "data-encoded-term": "maligner",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1745",
+        "wn",
+        "1"
+      ]
+    },
+    "mudslinger": {
+      "data-frequency": "-1",
+      "data-relevance": "372",
+      "data-term": "mudslinger",
+      "data-encoded-term": "mudslinger",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "causality": {
+      "data-frequency": "2692",
+      "data-relevance": "371",
+      "data-term": "causality",
+      "data-encoded-term": "causality",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2692",
+        "cn5",
+        "1"
+      ]
+    },
+    "inducement": {
+      "data-frequency": "831",
+      "data-relevance": "370",
+      "data-term": "inducement",
+      "data-encoded-term": "inducement",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "831",
+        "cn5",
+        "1"
+      ]
+    },
+    "inductive": {
+      "data-frequency": "2590",
+      "data-relevance": "369",
+      "data-term": "inductive",
+      "data-encoded-term": "inductive",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2590",
+        "cn5",
+        "1"
+      ]
+    },
+    "because": {
+      "data-frequency": "719946",
+      "data-relevance": "368",
+      "data-term": "because",
+      "data-encoded-term": "because",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "719946",
+        "cn5",
+        "1"
+      ]
+    },
+    "engender": {
+      "data-frequency": "721",
+      "data-relevance": "367",
+      "data-term": "engender",
+      "data-encoded-term": "engender",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "721",
+        "cn5",
+        "1"
+      ]
+    },
+    "unproduced": {
+      "data-frequency": "1560",
+      "data-relevance": "366",
+      "data-term": "unproduced",
+      "data-encoded-term": "unproduced",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1560",
+        "cn5",
+        "1"
+      ]
+    },
+    "efficacious": {
+      "data-frequency": "1099",
+      "data-relevance": "365",
+      "data-term": "efficacious",
+      "data-encoded-term": "efficacious",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1099",
+        "cn5",
+        "1"
+      ]
+    },
+    "effectual": {
+      "data-frequency": "560",
+      "data-relevance": "364",
+      "data-term": "effectual",
+      "data-encoded-term": "effectual",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "560",
+        "cn5",
+        "1"
+      ]
+    },
+    "witticism": {
+      "data-frequency": "121",
+      "data-relevance": "363",
+      "data-term": "witticism",
+      "data-encoded-term": "witticism",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "121",
+        "w2v",
+        "1"
+      ]
+    },
+    "effectuate": {
+      "data-frequency": "201",
+      "data-relevance": "362",
+      "data-term": "effectuate",
+      "data-encoded-term": "effectuate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "201",
+        "cn5",
+        "1"
+      ]
+    },
+    "ingenerate": {
+      "data-frequency": "-1",
+      "data-relevance": "361",
+      "data-term": "ingenerate",
+      "data-encoded-term": "ingenerate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "misstep": {
+      "data-frequency": "449",
+      "data-relevance": "360",
+      "data-term": "misstep",
+      "data-encoded-term": "misstep",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "449",
+        "w2v",
+        "1"
+      ]
+    },
+    "gratuitously": {
+      "data-frequency": "395",
+      "data-relevance": "359",
+      "data-term": "gratuitously",
+      "data-encoded-term": "gratuitously",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "395",
+        "cn5",
+        "1"
+      ]
+    },
+    "habitue": {
+      "data-frequency": "107",
+      "data-relevance": "358",
+      "data-term": "habitue",
+      "data-encoded-term": "habitue",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "107",
+        "w2v",
+        "1"
+      ]
+    },
+    "imponderable": {
+      "data-frequency": "68",
+      "data-relevance": "357",
+      "data-term": "imponderable",
+      "data-encoded-term": "imponderable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "68",
+        "w2v",
+        "1"
+      ]
+    },
+    "egotist": {
+      "data-frequency": "148",
+      "data-relevance": "356",
+      "data-term": "egotist",
+      "data-encoded-term": "egotist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "148",
+        "w2v",
+        "1"
+      ]
+    },
+    "shortcoming": {
+      "data-frequency": "856",
+      "data-relevance": "355",
+      "data-term": "shortcoming",
+      "data-encoded-term": "shortcoming",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "856",
+        "w2v",
+        "1"
+      ]
+    },
+    "arrant": {
+      "data-frequency": "1840",
+      "data-relevance": "354",
+      "data-term": "arrant",
+      "data-encoded-term": "arrant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1840",
+        "w2v",
+        "1"
+      ]
+    },
+    "aftereffect": {
+      "data-frequency": "93",
+      "data-relevance": "353",
+      "data-term": "aftereffect",
+      "data-encoded-term": "aftereffect",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "monomaniac": {
+      "data-frequency": "49",
+      "data-relevance": "352",
+      "data-term": "monomaniac",
+      "data-encoded-term": "monomaniac",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "elfish": {
+      "data-frequency": "44",
+      "data-relevance": "351",
+      "data-term": "elfish",
+      "data-encoded-term": "elfish",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "effective": {
+      "data-frequency": "139691",
+      "data-relevance": "350",
+      "data-term": "effective",
+      "data-encoded-term": "effective",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "139691",
+        "cn5",
+        "1"
+      ]
+    },
+    "unregenerate": {
+      "data-frequency": "75",
+      "data-relevance": "349",
+      "data-term": "unregenerate",
+      "data-encoded-term": "unregenerate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "75",
+        "w2v",
+        "1"
+      ]
+    },
+    "efficacy": {
+      "data-frequency": "12482",
+      "data-relevance": "348",
+      "data-term": "efficacy",
+      "data-encoded-term": "efficacy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12482",
+        "cn5",
+        "1"
+      ]
+    },
+    "huckster": {
+      "data-frequency": "215",
+      "data-relevance": "347",
+      "data-term": "huckster",
+      "data-encoded-term": "huckster",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "215",
+        "w2v",
+        "1"
+      ]
+    },
+    "plagiarist": {
+      "data-frequency": "279",
+      "data-relevance": "346",
+      "data-term": "plagiarist",
+      "data-encoded-term": "plagiarist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "279",
+        "w2v",
+        "1"
+      ]
+    },
+    "pedant": {
+      "data-frequency": "163",
+      "data-relevance": "345",
+      "data-term": "pedant",
+      "data-encoded-term": "pedant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "163",
+        "w2v",
+        "1"
+      ]
+    },
+    "consequence": {
+      "data-frequency": "45092",
+      "data-relevance": "344",
+      "data-term": "consequence",
+      "data-encoded-term": "consequence",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "45092",
+        "cn5",
+        "1"
+      ]
+    },
+    "mystification": {
+      "data-frequency": "247",
+      "data-relevance": "343",
+      "data-term": "mystification",
+      "data-encoded-term": "mystification",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "247",
+        "w2v",
+        "1"
+      ]
+    },
+    "sidedness": {
+      "data-frequency": "118",
+      "data-relevance": "342",
+      "data-term": "sidedness",
+      "data-encoded-term": "sidedness",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "118",
+        "w2v",
+        "1"
+      ]
+    },
+    "efficiency": {
+      "data-frequency": "40733",
+      "data-relevance": "341",
+      "data-term": "efficiency",
+      "data-encoded-term": "efficiency",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "40733",
+        "cn5",
+        "1"
+      ]
+    },
+    "imitator": {
+      "data-frequency": "1130",
+      "data-relevance": "340",
+      "data-term": "imitator",
+      "data-encoded-term": "imitator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1130",
+        "w2v",
+        "1"
+      ]
+    },
+    "perquisite": {
+      "data-frequency": "100",
+      "data-relevance": "339",
+      "data-term": "perquisite",
+      "data-encoded-term": "perquisite",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "100",
+        "w2v",
+        "1"
+      ]
+    },
+    "curmudgeon": {
+      "data-frequency": "275",
+      "data-relevance": "338",
+      "data-term": "curmudgeon",
+      "data-encoded-term": "curmudgeon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "275",
+        "w2v",
+        "1"
+      ]
+    },
+    "underling": {
+      "data-frequency": "474",
+      "data-relevance": "337",
+      "data-term": "underling",
+      "data-encoded-term": "underling",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "474",
+        "w2v",
+        "1"
+      ]
+    },
+    "make": {
+      "data-frequency": "577505",
+      "data-relevance": "336",
+      "data-term": "make",
+      "data-encoded-term": "make",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "577505",
+        "cn5",
+        "1"
+      ]
+    },
+    "counterargument": {
+      "data-frequency": "157",
+      "data-relevance": "335",
+      "data-term": "counterargument",
+      "data-encoded-term": "counterargument",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "157",
+        "w2v",
+        "1"
+      ]
+    },
+    "malcontent": {
+      "data-frequency": "220",
+      "data-relevance": "334",
+      "data-term": "malcontent",
+      "data-encoded-term": "malcontent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "220",
+        "w2v",
+        "1"
+      ]
+    },
+    "generate": {
+      "data-frequency": "35600",
+      "data-relevance": "333",
+      "data-term": "generate",
+      "data-encoded-term": "generate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35600",
+        "cn5",
+        "1"
+      ]
+    },
+    "produce": {
+      "data-frequency": "158669",
+      "data-relevance": "332",
+      "data-term": "produce",
+      "data-encoded-term": "produce",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "158669",
+        "cn5",
+        "1"
+      ]
+    },
+    "efficient": {
+      "data-frequency": "47119",
+      "data-relevance": "331",
+      "data-term": "efficient",
+      "data-encoded-term": "efficient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47119",
+        "cn5",
+        "1"
+      ]
+    },
+    "producer": {
+      "data-frequency": "381375",
+      "data-relevance": "330",
+      "data-term": "producer",
+      "data-encoded-term": "producer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "381375",
+        "cn5",
+        "1"
+      ]
+    },
+    "elicit": {
+      "data-frequency": "3151",
+      "data-relevance": "329",
+      "data-term": "elicit",
+      "data-encoded-term": "elicit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3151",
+        "cn5",
+        "1"
+      ]
+    },
+    "efficacity": {
+      "data-frequency": "-1",
+      "data-relevance": "328",
+      "data-term": "efficacity",
+      "data-encoded-term": "efficacity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "windbag": {
+      "data-frequency": "160",
+      "data-relevance": "327",
+      "data-term": "windbag",
+      "data-encoded-term": "windbag",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "160",
+        "w2v",
+        "1"
+      ]
+    },
+    "production": {
+      "data-frequency": "561567",
+      "data-relevance": "326",
+      "data-term": "production",
+      "data-encoded-term": "production",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "561567",
+        "cn5",
+        "1"
+      ]
+    },
+    "archvillain": {
+      "data-frequency": "54",
+      "data-relevance": "325",
+      "data-term": "archvillain",
+      "data-encoded-term": "archvillain",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "54",
+        "w2v",
+        "1"
+      ]
+    },
+    "remake": {
+      "data-frequency": "24786",
+      "data-relevance": "324",
+      "data-term": "remake",
+      "data-encoded-term": "remake",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24786",
+        "cn5",
+        "1"
+      ]
+    },
+    "oafish": {
+      "data-frequency": "107",
+      "data-relevance": "323",
+      "data-term": "oafish",
+      "data-encoded-term": "oafish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "107",
+        "w2v",
+        "1"
+      ]
+    },
+    "oft-cited": {
+      "data-frequency": "277",
+      "data-relevance": "322",
+      "data-term": "oft-cited",
+      "data-encoded-term": "oft-cited",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "277",
+        "w2v",
+        "1"
+      ]
+    },
+    "ironist": {
+      "data-frequency": "64",
+      "data-relevance": "321",
+      "data-term": "ironist",
+      "data-encoded-term": "ironist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "64",
+        "w2v",
+        "1"
+      ]
+    },
+    "alid": {
+      "data-frequency": "519",
+      "data-relevance": "320",
+      "data-term": "alid",
+      "data-encoded-term": "alid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "519",
+        "w2v",
+        "1"
+      ]
+    },
+    "create": {
+      "data-frequency": "215376",
+      "data-relevance": "319",
+      "data-term": "create",
+      "data-encoded-term": "create",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "215376",
+        "cn5",
+        "1"
+      ]
+    },
+    "curmudgeonly": {
+      "data-frequency": "186",
+      "data-relevance": "318",
+      "data-term": "curmudgeonly",
+      "data-encoded-term": "curmudgeonly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "186",
+        "w2v",
+        "1"
+      ]
+    },
+    "manufacturer": {
+      "data-frequency": "92684",
+      "data-relevance": "317",
+      "data-term": "manufacturer",
+      "data-encoded-term": "manufacturer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "92684",
+        "cn5",
+        "1"
+      ]
+    },
+    "plutocrat": {
+      "data-frequency": "83",
+      "data-relevance": "316",
+      "data-term": "plutocrat",
+      "data-encoded-term": "plutocrat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "83",
+        "w2v",
+        "1"
+      ]
+    },
+    "hangup": {
+      "data-frequency": "148",
+      "data-relevance": "315",
+      "data-term": "hangup",
+      "data-encoded-term": "hangup",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "148",
+        "w2v",
+        "1"
+      ]
+    },
+    "evildoer": {
+      "data-frequency": "63",
+      "data-relevance": "314",
+      "data-term": "evildoer",
+      "data-encoded-term": "evildoer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "63",
+        "w2v",
+        "1"
+      ]
+    },
+    "partygoer": {
+      "data-frequency": "147",
+      "data-relevance": "313",
+      "data-term": "partygoer",
+      "data-encoded-term": "partygoer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "147",
+        "w2v",
+        "1"
+      ]
+    },
+    "overbite": {
+      "data-frequency": "332",
+      "data-relevance": "312",
+      "data-term": "overbite",
+      "data-encoded-term": "overbite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "332",
+        "w2v",
+        "1"
+      ]
+    },
+    "overproduction": {
+      "data-frequency": "849",
+      "data-relevance": "311",
+      "data-term": "overproduction",
+      "data-encoded-term": "overproduction",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "849",
+        "cn5",
+        "1"
+      ]
+    },
+    "gar": {
+      "data-frequency": "10854",
+      "data-relevance": "310",
+      "data-term": "gar",
+      "data-encoded-term": "gar",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10854",
+        "cn5",
+        "1"
+      ]
+    },
+    "consequent": {
+      "data-frequency": "6136",
+      "data-relevance": "309",
+      "data-term": "consequent",
+      "data-encoded-term": "consequent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6136",
+        "cn5",
+        "1"
+      ]
+    },
+    "inefficient": {
+      "data-frequency": "5469",
+      "data-relevance": "308",
+      "data-term": "inefficient",
+      "data-encoded-term": "inefficient",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5469",
+        "cn5",
+        "1"
+      ]
+    },
+    "manufacture": {
+      "data-frequency": "33335",
+      "data-relevance": "307",
+      "data-term": "manufacture",
+      "data-encoded-term": "manufacture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33335",
+        "cn5",
+        "1"
+      ]
+    },
+    "vulgarian": {
+      "data-frequency": "51",
+      "data-relevance": "306",
+      "data-term": "vulgarian",
+      "data-encoded-term": "vulgarian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "51",
+        "w2v",
+        "1"
+      ]
+    },
+    "fumbler": {
+      "data-frequency": "-1",
+      "data-relevance": "305",
+      "data-term": "fumbler",
+      "data-encoded-term": "fumbler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "effectiveness": {
+      "data-frequency": "26558",
+      "data-relevance": "304",
+      "data-term": "effectiveness",
+      "data-encoded-term": "effectiveness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "26558",
+        "cn5",
+        "1"
+      ]
+    },
+    "hater": {
+      "data-frequency": "1191",
+      "data-relevance": "303",
+      "data-term": "hater",
+      "data-encoded-term": "hater",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1191",
+        "ol",
+        "1"
+      ]
+    },
+    "critic": {
+      "data-frequency": "82455",
+      "data-relevance": "302",
+      "data-term": "critic",
+      "data-encoded-term": "critic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "82455",
+        "ol",
+        "1"
+      ]
+    },
+    "apologist": {
+      "data-frequency": "1221",
+      "data-relevance": "301",
+      "data-term": "apologist",
+      "data-encoded-term": "apologist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1221",
+        "ol",
+        "1"
+      ]
+    },
+    "skeptic": {
+      "data-frequency": "4972",
+      "data-relevance": "300",
+      "data-term": "skeptic",
+      "data-encoded-term": "skeptic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4972",
+        "ol",
+        "1"
+      ]
+    },
+    "votary": {
+      "data-frequency": "111",
+      "data-relevance": "299",
+      "data-term": "votary",
+      "data-encoded-term": "votary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "111",
+        "ol",
+        "1"
+      ]
+    },
+    "admirer": {
+      "data-frequency": "5755",
+      "data-relevance": "298",
+      "data-term": "admirer",
+      "data-encoded-term": "admirer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5755",
+        "ol",
+        "1"
+      ]
+    },
+    "opposer": {
+      "data-frequency": "117",
+      "data-relevance": "297",
+      "data-term": "opposer",
+      "data-encoded-term": "opposer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "117",
+        "ol",
+        "1"
+      ]
+    },
+    "gadfly": {
+      "data-frequency": "1012",
+      "data-relevance": "296",
+      "data-term": "gadfly",
+      "data-encoded-term": "gadfly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1012",
+        "ol",
+        "1"
+      ]
+    },
+    "dissenter": {
+      "data-frequency": "1025",
+      "data-relevance": "295",
+      "data-term": "dissenter",
+      "data-encoded-term": "dissenter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1025",
+        "ol",
+        "1"
+      ]
+    },
+    "backer": {
+      "data-frequency": "4264",
+      "data-relevance": "294",
+      "data-term": "backer",
+      "data-encoded-term": "backer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4264",
+        "ol",
+        "1"
+      ]
+    },
+    "devotee": {
+      "data-frequency": "3424",
+      "data-relevance": "293",
+      "data-term": "devotee",
+      "data-encoded-term": "devotee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3424",
+        "ol",
+        "1"
+      ]
+    },
+    "sympathizer": {
+      "data-frequency": "1447",
+      "data-relevance": "292",
+      "data-term": "sympathizer",
+      "data-encoded-term": "sympathizer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1447",
+        "ol",
+        "1"
+      ]
+    },
+    "agitator": {
+      "data-frequency": "1303",
+      "data-relevance": "291",
+      "data-term": "agitator",
+      "data-encoded-term": "agitator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1303",
+        "ol",
+        "1"
+      ]
+    },
+    "acolyte": {
+      "data-frequency": "1064",
+      "data-relevance": "290",
+      "data-term": "acolyte",
+      "data-encoded-term": "acolyte",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1064",
+        "ol",
+        "1"
+      ]
+    },
+    "adversary": {
+      "data-frequency": "5387",
+      "data-relevance": "289",
+      "data-term": "adversary",
+      "data-encoded-term": "adversary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5387",
+        "ol",
+        "1"
+      ]
+    },
+    "hypocrite": {
+      "data-frequency": "1038",
+      "data-relevance": "288",
+      "data-term": "hypocrite",
+      "data-encoded-term": "hypocrite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1038",
+        "ol",
+        "1"
+      ]
+    },
+    "zealot": {
+      "data-frequency": "923",
+      "data-relevance": "287",
+      "data-term": "zealot",
+      "data-encoded-term": "zealot",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "923",
+        "ol",
+        "1"
+      ]
+    },
+    "meddler": {
+      "data-frequency": "436",
+      "data-relevance": "286",
+      "data-term": "meddler",
+      "data-encoded-term": "meddler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "436",
+        "ol",
+        "1"
+      ]
+    },
+    "laggard": {
+      "data-frequency": "88",
+      "data-relevance": "285",
+      "data-term": "laggard",
+      "data-encoded-term": "laggard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "88",
+        "ol",
+        "1"
+      ]
+    },
+    "nemesis": {
+      "data-frequency": "9526",
+      "data-relevance": "284",
+      "data-term": "nemesis",
+      "data-encoded-term": "nemesis",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9526",
+        "ol",
+        "1"
+      ]
+    },
+    "crusader": {
+      "data-frequency": "9274",
+      "data-relevance": "283",
+      "data-term": "crusader",
+      "data-encoded-term": "crusader",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9274",
+        "ol",
+        "1"
+      ]
+    },
+    "ideologue": {
+      "data-frequency": "859",
+      "data-relevance": "282",
+      "data-term": "ideologue",
+      "data-encoded-term": "ideologue",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "859",
+        "ol",
+        "1"
+      ]
+    },
+    "exponent": {
+      "data-frequency": "6128",
+      "data-relevance": "281",
+      "data-term": "exponent",
+      "data-encoded-term": "exponent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6128",
+        "ol",
+        "1"
+      ]
+    },
+    "instigator": {
+      "data-frequency": "1559",
+      "data-relevance": "280",
+      "data-term": "instigator",
+      "data-encoded-term": "instigator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1559",
+        "ol",
+        "1"
+      ]
+    },
+    "environmentalist": {
+      "data-frequency": "4941",
+      "data-relevance": "279",
+      "data-term": "environmentalist",
+      "data-encoded-term": "environmentalist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4941",
+        "ol",
+        "1"
+      ]
+    },
+    "culprit": {
+      "data-frequency": "4466",
+      "data-relevance": "278",
+      "data-term": "culprit",
+      "data-encoded-term": "culprit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4466",
+        "ol",
+        "1"
+      ]
+    },
+    "observer": {
+      "data-frequency": "62163",
+      "data-relevance": "277",
+      "data-term": "observer",
+      "data-encoded-term": "observer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "62163",
+        "ol",
+        "1"
+      ]
+    },
+    "detraction": {
+      "data-frequency": "97",
+      "data-relevance": "276",
+      "data-term": "detraction",
+      "data-encoded-term": "detraction",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "97",
+        "ol",
+        "1"
+      ]
+    },
+    "antagonist": {
+      "data-frequency": "17244",
+      "data-relevance": "275",
+      "data-term": "antagonist",
+      "data-encoded-term": "antagonist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17244",
+        "ol",
+        "1"
+      ]
+    },
+    "stalwart": {
+      "data-frequency": "4203",
+      "data-relevance": "274",
+      "data-term": "stalwart",
+      "data-encoded-term": "stalwart",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4203",
+        "ol",
+        "1"
+      ]
+    },
+    "follower": {
+      "data-frequency": "9101",
+      "data-relevance": "273",
+      "data-term": "follower",
+      "data-encoded-term": "follower",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9101",
+        "ol",
+        "1"
+      ]
+    },
+    "criticisms": {
+      "data-frequency": "14905",
+      "data-relevance": "272",
+      "data-term": "criticisms",
+      "data-encoded-term": "criticisms",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14905",
+        "ol",
+        "1"
+      ]
+    },
+    "believer": {
+      "data-frequency": "9111",
+      "data-relevance": "271",
+      "data-term": "believer",
+      "data-encoded-term": "believer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9111",
+        "ol",
+        "1"
+      ]
+    },
+    "controversialist": {
+      "data-frequency": "740",
+      "data-relevance": "270",
+      "data-term": "controversialist",
+      "data-encoded-term": "controversialist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "740",
+        "ol",
+        "1"
+      ]
+    },
+    "misgiving": {
+      "data-frequency": "81",
+      "data-relevance": "269",
+      "data-term": "misgiving",
+      "data-encoded-term": "misgiving",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "81",
+        "ol",
+        "1"
+      ]
+    },
+    "grumbler": {
+      "data-frequency": "1031",
+      "data-relevance": "268",
+      "data-term": "grumbler",
+      "data-encoded-term": "grumbler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1031",
+        "ol",
+        "1"
+      ]
+    },
+    "provocateur": {
+      "data-frequency": "1076",
+      "data-relevance": "267",
+      "data-term": "provocateur",
+      "data-encoded-term": "provocateur",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1076",
+        "ol",
+        "1"
+      ]
+    },
+    "dissembler": {
+      "data-frequency": "-1",
+      "data-relevance": "266",
+      "data-term": "dissembler",
+      "data-encoded-term": "dissembler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "troublemaker": {
+      "data-frequency": "1923",
+      "data-relevance": "265",
+      "data-term": "troublemaker",
+      "data-encoded-term": "troublemaker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1923",
+        "ol",
+        "1"
+      ]
+    },
+    "disciple": {
+      "data-frequency": "11854",
+      "data-relevance": "264",
+      "data-term": "disciple",
+      "data-encoded-term": "disciple",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11854",
+        "ol",
+        "1"
+      ]
+    },
+    "beneficiary": {
+      "data-frequency": "4260",
+      "data-relevance": "263",
+      "data-term": "beneficiary",
+      "data-encoded-term": "beneficiary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4260",
+        "ol",
+        "1"
+      ]
+    },
+    "blogger": {
+      "data-frequency": "10073",
+      "data-relevance": "262",
+      "data-term": "blogger",
+      "data-encoded-term": "blogger",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10073",
+        "ol",
+        "1"
+      ]
+    },
+    "wimp": {
+      "data-frequency": "659",
+      "data-relevance": "261",
+      "data-term": "wimp",
+      "data-encoded-term": "wimp",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "659",
+        "ol",
+        "1"
+      ]
+    },
+    "betrayer": {
+      "data-frequency": "563",
+      "data-relevance": "260",
+      "data-term": "betrayer",
+      "data-encoded-term": "betrayer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "563",
+        "ol",
+        "1"
+      ]
+    },
+    "retort": {
+      "data-frequency": "1237",
+      "data-relevance": "259",
+      "data-term": "retort",
+      "data-encoded-term": "retort",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1237",
+        "ol",
+        "1"
+      ]
+    },
+    "irritant": {
+      "data-frequency": "1253",
+      "data-relevance": "258",
+      "data-term": "irritant",
+      "data-encoded-term": "irritant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1253",
+        "ol",
+        "1"
+      ]
+    },
+    "motivator": {
+      "data-frequency": "1097",
+      "data-relevance": "257",
+      "data-term": "motivator",
+      "data-encoded-term": "motivator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1097",
+        "ol",
+        "1"
+      ]
+    },
+    "thorn": {
+      "data-frequency": "11938",
+      "data-relevance": "256",
+      "data-term": "thorn",
+      "data-encoded-term": "thorn",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11938",
+        "ol",
+        "1"
+      ]
+    },
+    "questioner": {
+      "data-frequency": "318",
+      "data-relevance": "255",
+      "data-term": "questioner",
+      "data-encoded-term": "questioner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "318",
+        "ol",
+        "1"
+      ]
+    },
+    "cheerleader": {
+      "data-frequency": "3443",
+      "data-relevance": "254",
+      "data-term": "cheerleader",
+      "data-encoded-term": "cheerleader",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3443",
+        "ol",
+        "1"
+      ]
+    },
+    "activist": {
+      "data-frequency": "66993",
+      "data-relevance": "253",
+      "data-term": "activist",
+      "data-encoded-term": "activist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "66993",
+        "ol",
+        "1"
+      ]
+    },
+    "luminary": {
+      "data-frequency": "814",
+      "data-relevance": "252",
+      "data-term": "luminary",
+      "data-encoded-term": "luminary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "814",
+        "ol",
+        "1"
+      ]
+    },
+    "competitor": {
+      "data-frequency": "24588",
+      "data-relevance": "251",
+      "data-term": "competitor",
+      "data-encoded-term": "competitor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24588",
+        "ol",
+        "1"
+      ]
+    },
+    "inference": {
+      "data-frequency": "6935",
+      "data-relevance": "250",
+      "data-term": "inference",
+      "data-encoded-term": "inference",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6935",
+        "cn5",
+        "1"
+      ]
+    },
+    "rejoinder": {
+      "data-frequency": "639",
+      "data-relevance": "249",
+      "data-term": "rejoinder",
+      "data-encoded-term": "rejoinder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "639",
+        "ol",
+        "1"
+      ]
+    },
+    "counter-argument": {
+      "data-frequency": "7574",
+      "data-relevance": "248",
+      "data-term": "counter-argument",
+      "data-encoded-term": "counter-argument",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7574",
+        "w2v",
+        "1"
+      ]
+    },
+    "output": {
+      "data-frequency": "56472",
+      "data-relevance": "247",
+      "data-term": "output",
+      "data-encoded-term": "output",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56472",
+        "cn5",
+        "1"
+      ]
+    },
+    "reason": {
+      "data-frequency": "168040",
+      "data-relevance": "246",
+      "data-term": "reason",
+      "data-encoded-term": "reason",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "168040",
+        "cn5",
+        "1"
+      ]
+    },
+    "accouterment": {
+      "data-frequency": "59",
+      "data-relevance": "245",
+      "data-term": "accouterment",
+      "data-encoded-term": "accouterment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "59",
+        "w2v",
+        "1"
+      ]
+    },
+    "technophobe": {
+      "data-frequency": "-1",
+      "data-relevance": "244",
+      "data-term": "technophobe",
+      "data-encoded-term": "technophobe",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "endorsee": {
+      "data-frequency": "93",
+      "data-relevance": "243",
+      "data-term": "endorsee",
+      "data-encoded-term": "endorsee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "93",
+        "w2v",
+        "1"
+      ]
+    },
+    "softy": {
+      "data-frequency": "100",
+      "data-relevance": "242",
+      "data-term": "softy",
+      "data-encoded-term": "softy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "100",
+        "w2v",
+        "1"
+      ]
+    },
+    "nitwit": {
+      "data-frequency": "53",
+      "data-relevance": "241",
+      "data-term": "nitwit",
+      "data-encoded-term": "nitwit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "w2v",
+        "1"
+      ]
+    },
+    "result": {
+      "data-frequency": "551546",
+      "data-relevance": "240",
+      "data-term": "result",
+      "data-encoded-term": "result",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "551546",
+        "cn5",
+        "1"
+      ]
+    },
+    "orangeman": {
+      "data-frequency": "153",
+      "data-relevance": "239",
+      "data-term": "orangeman",
+      "data-encoded-term": "orangeman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "153",
+        "w2v",
+        "1"
+      ]
+    },
+    "versor": {
+      "data-frequency": "5473",
+      "data-relevance": "238",
+      "data-term": "versor",
+      "data-encoded-term": "versor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5473",
+        "w2v",
+        "1"
+      ]
+    },
+    "goateed": {
+      "data-frequency": "-1",
+      "data-relevance": "237",
+      "data-term": "goateed",
+      "data-encoded-term": "goateed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "snit": {
+      "data-frequency": "162",
+      "data-relevance": "236",
+      "data-term": "snit",
+      "data-encoded-term": "snit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "162",
+        "w2v",
+        "1"
+      ]
+    },
+    "foulmouthed": {
+      "data-frequency": "50",
+      "data-relevance": "235",
+      "data-term": "foulmouthed",
+      "data-encoded-term": "foulmouthed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "50",
+        "w2v",
+        "1"
+      ]
+    },
+    "appreciator": {
+      "data-frequency": "44",
+      "data-relevance": "234",
+      "data-term": "appreciator",
+      "data-encoded-term": "appreciator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "oft-repeated": {
+      "data-frequency": "410",
+      "data-relevance": "233",
+      "data-term": "oft-repeated",
+      "data-encoded-term": "oft-repeated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "410",
+        "w2v",
+        "1"
+      ]
+    },
+    "chocoholic": {
+      "data-frequency": "45",
+      "data-relevance": "232",
+      "data-term": "chocoholic",
+      "data-encoded-term": "chocoholic",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "45",
+        "w2v",
+        "1"
+      ]
+    },
+    "effector": {
+      "data-frequency": "1763",
+      "data-relevance": "231",
+      "data-term": "effector",
+      "data-encoded-term": "effector",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1763",
+        "cn5",
+        "1"
+      ]
+    },
+    "continuator": {
+      "data-frequency": "164",
+      "data-relevance": "230",
+      "data-term": "continuator",
+      "data-encoded-term": "continuator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "164",
+        "w2v",
+        "1"
+      ]
+    },
+    "groaner": {
+      "data-frequency": "44",
+      "data-relevance": "229",
+      "data-term": "groaner",
+      "data-encoded-term": "groaner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "44",
+        "w2v",
+        "1"
+      ]
+    },
+    "single-pass": {
+      "data-frequency": "81419",
+      "data-relevance": "228",
+      "data-term": "single-pass",
+      "data-encoded-term": "single-pass",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "81419",
+        "w2v",
+        "1"
+      ]
+    },
+    "oft-used": {
+      "data-frequency": "115",
+      "data-relevance": "227",
+      "data-term": "oft-used",
+      "data-encoded-term": "oft-used",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "115",
+        "w2v",
+        "1"
+      ]
+    },
+    "diadegma": {
+      "data-frequency": "85",
+      "data-relevance": "226",
+      "data-term": "diadegma",
+      "data-encoded-term": "diadegma",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "85",
+        "w2v",
+        "1"
+      ]
+    },
+    "egomaniacal": {
+      "data-frequency": "102",
+      "data-relevance": "225",
+      "data-term": "egomaniacal",
+      "data-encoded-term": "egomaniacal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "102",
+        "w2v",
+        "1"
+      ]
+    },
+    "often-cited": {
+      "data-frequency": "73814",
+      "data-relevance": "224",
+      "data-term": "often-cited",
+      "data-encoded-term": "often-cited",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73814",
+        "w2v",
+        "1"
+      ]
+    },
+    "sub-dialect": {
+      "data-frequency": "3659",
+      "data-relevance": "223",
+      "data-term": "sub-dialect",
+      "data-encoded-term": "sub-dialect",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3659",
+        "w2v",
+        "1"
+      ]
+    },
+    "doodler": {
+      "data-frequency": "46",
+      "data-relevance": "222",
+      "data-term": "doodler",
+      "data-encoded-term": "doodler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "46",
+        "w2v",
+        "1"
+      ]
+    },
+    "defendent": {
+      "data-frequency": "-1",
+      "data-relevance": "221",
+      "data-term": "defendent",
+      "data-encoded-term": "defendent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "beget": {
+      "data-frequency": "444",
+      "data-relevance": "220",
+      "data-term": "beget",
+      "data-encoded-term": "beget",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "444",
+        "cn5",
+        "1"
+      ]
+    },
+    "putdown": {
+      "data-frequency": "96",
+      "data-relevance": "219",
+      "data-term": "putdown",
+      "data-encoded-term": "putdown",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "96",
+        "w2v",
+        "1"
+      ]
+    },
+    "eventuate": {
+      "data-frequency": "713",
+      "data-relevance": "218",
+      "data-term": "eventuate",
+      "data-encoded-term": "eventuate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "713",
+        "cn5",
+        "1"
+      ]
+    },
+    "bring about": {
+      "data-frequency": "7501",
+      "data-relevance": "217",
+      "data-term": "bring about",
+      "data-encoded-term": "bring%20about",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7501",
+        "cn5",
+        "1"
+      ]
+    },
+    "resultful": {
+      "data-frequency": "-1",
+      "data-relevance": "216",
+      "data-term": "resultful",
+      "data-encoded-term": "resultful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "long-handled": {
+      "data-frequency": "200",
+      "data-relevance": "215",
+      "data-term": "long-handled",
+      "data-encoded-term": "long-handled",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "200",
+        "w2v",
+        "1"
+      ]
+    },
+    "moustachioed": {
+      "data-frequency": "73",
+      "data-relevance": "214",
+      "data-term": "moustachioed",
+      "data-encoded-term": "moustachioed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73",
+        "w2v",
+        "1"
+      ]
+    },
+    "egomaniac": {
+      "data-frequency": "147",
+      "data-relevance": "213",
+      "data-term": "egomaniac",
+      "data-encoded-term": "egomaniac",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "147",
+        "w2v",
+        "1"
+      ]
+    },
+    "clintonite": {
+      "data-frequency": "76",
+      "data-relevance": "212",
+      "data-term": "clintonite",
+      "data-encoded-term": "clintonite",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "76",
+        "w2v",
+        "1"
+      ]
+    },
+    "sourpuss": {
+      "data-frequency": "78",
+      "data-relevance": "211",
+      "data-term": "sourpuss",
+      "data-encoded-term": "sourpuss",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "78",
+        "w2v",
+        "1"
+      ]
+    },
+    "creation": {
+      "data-frequency": "156431",
+      "data-relevance": "210",
+      "data-term": "creation",
+      "data-encoded-term": "creation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "156431",
+        "cn5",
+        "1"
+      ]
+    },
+    "politican": {
+      "data-frequency": "102",
+      "data-relevance": "209",
+      "data-term": "politican",
+      "data-encoded-term": "politican",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "102",
+        "w2v",
+        "1"
+      ]
+    },
+    "outcome": {
+      "data-frequency": "42004",
+      "data-relevance": "208",
+      "data-term": "outcome",
+      "data-encoded-term": "outcome",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42004",
+        "cn5",
+        "1"
+      ]
+    },
+    "effecter": {
+      "data-frequency": "-1",
+      "data-relevance": "207",
+      "data-term": "effecter",
+      "data-encoded-term": "effecter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "deduce": {
+      "data-frequency": "3174",
+      "data-relevance": "206",
+      "data-term": "deduce",
+      "data-encoded-term": "deduce",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3174",
+        "cn5",
+        "1"
+      ]
+    },
+    "truth-functional": {
+      "data-frequency": "2183",
+      "data-relevance": "205",
+      "data-term": "truth-functional",
+      "data-encoded-term": "truth-functional",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2183",
+        "w2v",
+        "1"
+      ]
+    },
+    "uprecedented": {
+      "data-frequency": "-1",
+      "data-relevance": "204",
+      "data-term": "uprecedented",
+      "data-encoded-term": "uprecedented",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "sericulture": {
+      "data-frequency": "620",
+      "data-relevance": "203",
+      "data-term": "sericulture",
+      "data-encoded-term": "sericulture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "620",
+        "cn5",
+        "1"
+      ]
+    },
+    "appropriator": {
+      "data-frequency": "89918",
+      "data-relevance": "202",
+      "data-term": "appropriator",
+      "data-encoded-term": "appropriator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89918",
+        "w2v",
+        "1"
+      ]
+    },
+    "simpleminded": {
+      "data-frequency": "67",
+      "data-relevance": "201",
+      "data-term": "simpleminded",
+      "data-encoded-term": "simpleminded",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "67",
+        "w2v",
+        "1"
+      ]
+    },
+    "begrudges": {
+      "data-frequency": "265",
+      "data-relevance": "200",
+      "data-term": "begrudges",
+      "data-encoded-term": "begrudges",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "265",
+        "w2v",
+        "1"
+      ]
+    },
+    "double-bladed": {
+      "data-frequency": "183",
+      "data-relevance": "199",
+      "data-term": "double-bladed",
+      "data-encoded-term": "double-bladed",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "183",
+        "w2v",
+        "1"
+      ]
+    },
+    "dublin-born": {
+      "data-frequency": "24945",
+      "data-relevance": "198",
+      "data-term": "dublin-born",
+      "data-encoded-term": "dublin-born",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24945",
+        "w2v",
+        "1"
+      ]
+    },
+    "pederast": {
+      "data-frequency": "89",
+      "data-relevance": "197",
+      "data-term": "pederast",
+      "data-encoded-term": "pederast",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89",
+        "w2v",
+        "1"
+      ]
+    },
+    "bighearted": {
+      "data-frequency": "48",
+      "data-relevance": "196",
+      "data-term": "bighearted",
+      "data-encoded-term": "bighearted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "48",
+        "w2v",
+        "1"
+      ]
+    },
+    "upsmanship": {
+      "data-frequency": "-1",
+      "data-relevance": "195",
+      "data-term": "upsmanship",
+      "data-encoded-term": "upsmanship",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "allotinus": {
+      "data-frequency": "58",
+      "data-relevance": "194",
+      "data-term": "allotinus",
+      "data-encoded-term": "allotinus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "58",
+        "w2v",
+        "1"
+      ]
+    },
+    "wet-nurse": {
+      "data-frequency": "593",
+      "data-relevance": "193",
+      "data-term": "wet-nurse",
+      "data-encoded-term": "wet-nurse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "593",
+        "w2v",
+        "1"
+      ]
+    },
+    "send-up": {
+      "data-frequency": "828",
+      "data-relevance": "192",
+      "data-term": "send-up",
+      "data-encoded-term": "send-up",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "828",
+        "w2v",
+        "1"
+      ]
+    },
+    "procrastinator": {
+      "data-frequency": "168",
+      "data-relevance": "191",
+      "data-term": "procrastinator",
+      "data-encoded-term": "procrastinator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "168",
+        "w2v",
+        "1"
+      ]
+    },
+    "creatively": {
+      "data-frequency": "2643",
+      "data-relevance": "190",
+      "data-term": "creatively",
+      "data-encoded-term": "creatively",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2643",
+        "cn5",
+        "1"
+      ]
+    },
+    "thyrocopa": {
+      "data-frequency": "-1",
+      "data-relevance": "189",
+      "data-term": "thyrocopa",
+      "data-encoded-term": "thyrocopa",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "overachiever": {
+      "data-frequency": "386",
+      "data-relevance": "188",
+      "data-term": "overachiever",
+      "data-encoded-term": "overachiever",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "386",
+        "w2v",
+        "1"
+      ]
+    },
+    "arrythmia": {
+      "data-frequency": "76",
+      "data-relevance": "187",
+      "data-term": "arrythmia",
+      "data-encoded-term": "arrythmia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "76",
+        "w2v",
+        "1"
+      ]
+    },
+    "jack-of-all-trades": {
+      "data-frequency": "725",
+      "data-relevance": "186",
+      "data-term": "jack-of-all-trades",
+      "data-encoded-term": "jack-of-all-trades",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "725",
+        "w2v",
+        "1"
+      ]
+    },
+    "operad": {
+      "data-frequency": "49",
+      "data-relevance": "185",
+      "data-term": "operad",
+      "data-encoded-term": "operad",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "peacenik": {
+      "data-frequency": "53",
+      "data-relevance": "184",
+      "data-term": "peacenik",
+      "data-encoded-term": "peacenik",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "w2v",
+        "1"
+      ]
+    },
+    "unreason": {
+      "data-frequency": "463",
+      "data-relevance": "183",
+      "data-term": "unreason",
+      "data-encoded-term": "unreason",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "463",
+        "cn5",
+        "1"
+      ]
+    },
+    "hugest": {
+      "data-frequency": "49",
+      "data-relevance": "182",
+      "data-term": "hugest",
+      "data-encoded-term": "hugest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "49",
+        "w2v",
+        "1"
+      ]
+    },
+    "grandstander": {
+      "data-frequency": "-1",
+      "data-relevance": "181",
+      "data-term": "grandstander",
+      "data-encoded-term": "grandstander",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "congregant": {
+      "data-frequency": "149",
+      "data-relevance": "180",
+      "data-term": "congregant",
+      "data-encoded-term": "congregant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "149",
+        "w2v",
+        "1"
+      ]
+    },
+    "leitmotiv": {
+      "data-frequency": "112",
+      "data-relevance": "179",
+      "data-term": "leitmotiv",
+      "data-encoded-term": "leitmotiv",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "112",
+        "w2v",
+        "1"
+      ]
+    },
+    "snorer": {
+      "data-frequency": "-1",
+      "data-relevance": "178",
+      "data-term": "snorer",
+      "data-encoded-term": "snorer",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "world-weary": {
+      "data-frequency": "343",
+      "data-relevance": "177",
+      "data-term": "world-weary",
+      "data-encoded-term": "world-weary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "343",
+        "w2v",
+        "1"
+      ]
+    },
+    "tableful": {
+      "data-frequency": "-1",
+      "data-relevance": "176",
+      "data-term": "tableful",
+      "data-encoded-term": "tableful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "incentive": {
+      "data-frequency": "10827",
+      "data-relevance": "175",
+      "data-term": "incentive",
+      "data-encoded-term": "incentive",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10827",
+        "cn5",
+        "1"
+      ]
+    },
+    "reasoner": {
+      "data-frequency": "657",
+      "data-relevance": "174",
+      "data-term": "reasoner",
+      "data-encoded-term": "reasoner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "657",
+        "cn5",
+        "1"
+      ]
+    },
+    "time-traveler": {
+      "data-frequency": "606",
+      "data-relevance": "173",
+      "data-term": "time-traveler",
+      "data-encoded-term": "time-traveler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "606",
+        "w2v",
+        "1"
+      ]
+    },
+    "reinvent": {
+      "data-frequency": "1891",
+      "data-relevance": "172",
+      "data-term": "reinvent",
+      "data-encoded-term": "reinvent",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1891",
+        "cn5",
+        "1"
+      ]
+    },
+    "misproduce": {
+      "data-frequency": "-1",
+      "data-relevance": "171",
+      "data-term": "misproduce",
+      "data-encoded-term": "misproduce",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "maggot": {
+      "data-frequency": "816",
+      "data-relevance": "170",
+      "data-term": "maggot",
+      "data-encoded-term": "maggot",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "816",
+        "cn5",
+        "1"
+      ]
+    },
+    "manufactory": {
+      "data-frequency": "1318",
+      "data-relevance": "169",
+      "data-term": "manufactory",
+      "data-encoded-term": "manufactory",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1318",
+        "cn5",
+        "1"
+      ]
+    },
+    "resultant": {
+      "data-frequency": "7018",
+      "data-relevance": "168",
+      "data-term": "resultant",
+      "data-encoded-term": "resultant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7018",
+        "cn5",
+        "1"
+      ]
+    },
+    "derive": {
+      "data-frequency": "14509",
+      "data-relevance": "167",
+      "data-term": "derive",
+      "data-encoded-term": "derive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14509",
+        "cn5",
+        "1"
+      ]
+    },
+    "creationist": {
+      "data-frequency": "760",
+      "data-relevance": "166",
+      "data-term": "creationist",
+      "data-encoded-term": "creationist",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "760",
+        "cn5",
+        "1"
+      ]
+    },
+    "underproduce": {
+      "data-frequency": "-1",
+      "data-relevance": "165",
+      "data-term": "underproduce",
+      "data-encoded-term": "underproduce",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "miscreation": {
+      "data-frequency": "-1",
+      "data-relevance": "164",
+      "data-term": "miscreation",
+      "data-encoded-term": "miscreation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "do": {
+      "data-frequency": "683136",
+      "data-relevance": "163",
+      "data-term": "do",
+      "data-encoded-term": "do",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "683136",
+        "cn5",
+        "1"
+      ]
+    },
+    "consequently": {
+      "data-frequency": "47012",
+      "data-relevance": "162",
+      "data-term": "consequently",
+      "data-encoded-term": "consequently",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47012",
+        "cn5",
+        "1"
+      ]
+    },
+    "coproduce": {
+      "data-frequency": "46",
+      "data-relevance": "161",
+      "data-term": "coproduce",
+      "data-encoded-term": "coproduce",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "generative": {
+      "data-frequency": "2853",
+      "data-relevance": "160",
+      "data-term": "generative",
+      "data-encoded-term": "generative",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2853",
+        "cn5",
+        "1"
+      ]
+    },
+    "recreate": {
+      "data-frequency": "7026",
+      "data-relevance": "159",
+      "data-term": "recreate",
+      "data-encoded-term": "recreate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7026",
+        "cn5",
+        "1"
+      ]
+    },
+    "justification": {
+      "data-frequency": "12584",
+      "data-relevance": "158",
+      "data-term": "justification",
+      "data-encoded-term": "justification",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12584",
+        "cn5",
+        "1"
+      ]
+    },
+    "infer": {
+      "data-frequency": "3489",
+      "data-relevance": "157",
+      "data-term": "infer",
+      "data-encoded-term": "infer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3489",
+        "cn5",
+        "1"
+      ]
+    },
+    "why": {
+      "data-frequency": "216824",
+      "data-relevance": "156",
+      "data-term": "why",
+      "data-encoded-term": "why",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "216824",
+        "cn5",
+        "1"
+      ]
+    },
+    "profitmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "155",
+      "data-term": "profitmaking",
+      "data-encoded-term": "profitmaking",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "occasion": {
+      "data-frequency": "66564",
+      "data-relevance": "154",
+      "data-term": "occasion",
+      "data-encoded-term": "occasion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "66564",
+        "cn5",
+        "1"
+      ]
+    },
+    "ensue": {
+      "data-frequency": "1832",
+      "data-relevance": "153",
+      "data-term": "ensue",
+      "data-encoded-term": "ensue",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1832",
+        "cn5",
+        "1"
+      ]
+    },
+    "creative": {
+      "data-frequency": "104025",
+      "data-relevance": "152",
+      "data-term": "creative",
+      "data-encoded-term": "creative",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "104025",
+        "cn5",
+        "1"
+      ]
+    },
+    "ratiocination": {
+      "data-frequency": "56",
+      "data-relevance": "151",
+      "data-term": "ratiocination",
+      "data-encoded-term": "ratiocination",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "tailormade": {
+      "data-frequency": "44",
+      "data-relevance": "150",
+      "data-term": "tailormade",
+      "data-encoded-term": "tailormade",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "redo": {
+      "data-frequency": "1572",
+      "data-relevance": "149",
+      "data-term": "redo",
+      "data-encoded-term": "redo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1572",
+        "cn5",
+        "1"
+      ]
+    },
+    "occasional": {
+      "data-frequency": "45613",
+      "data-relevance": "148",
+      "data-term": "occasional",
+      "data-encoded-term": "occasional",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45613",
+        "cn5",
+        "1"
+      ]
+    },
+    "formake": {
+      "data-frequency": "-1",
+      "data-relevance": "147",
+      "data-term": "formake",
+      "data-encoded-term": "formake",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "effectivity": {
+      "data-frequency": "160",
+      "data-relevance": "146",
+      "data-term": "effectivity",
+      "data-encoded-term": "effectivity",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "160",
+        "cn5",
+        "1"
+      ]
+    },
+    "aftermath": {
+      "data-frequency": "73079",
+      "data-relevance": "145",
+      "data-term": "aftermath",
+      "data-encoded-term": "aftermath",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "73079",
+        "cn5",
+        "1"
+      ]
+    },
+    "fabricate": {
+      "data-frequency": "1422",
+      "data-relevance": "144",
+      "data-term": "fabricate",
+      "data-encoded-term": "fabricate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1422",
+        "cn5",
+        "1"
+      ]
+    },
+    "syllogize": {
+      "data-frequency": "-1",
+      "data-relevance": "143",
+      "data-term": "syllogize",
+      "data-encoded-term": "syllogize",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rationale": {
+      "data-frequency": "8650",
+      "data-relevance": "142",
+      "data-term": "rationale",
+      "data-encoded-term": "rationale",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8650",
+        "cn5",
+        "1"
+      ]
+    },
+    "creatable": {
+      "data-frequency": "96",
+      "data-relevance": "141",
+      "data-term": "creatable",
+      "data-encoded-term": "creatable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "remixture": {
+      "data-frequency": "-1",
+      "data-relevance": "140",
+      "data-term": "remixture",
+      "data-encoded-term": "remixture",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "newmake": {
+      "data-frequency": "-1",
+      "data-relevance": "139",
+      "data-term": "newmake",
+      "data-encoded-term": "newmake",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "substractor": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "substractor",
+      "data-encoded-term": "substractor",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "incitement": {
+      "data-frequency": "2777",
+      "data-relevance": "137",
+      "data-term": "incitement",
+      "data-encoded-term": "incitement",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2777",
+        "cn5",
+        "1"
+      ]
+    },
+    "taxer": {
+      "data-frequency": "42",
+      "data-relevance": "136",
+      "data-term": "taxer",
+      "data-encoded-term": "taxer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "42",
+        "ol",
+        "1"
+      ]
+    },
+    "basher": {
+      "data-frequency": "435",
+      "data-relevance": "135",
+      "data-term": "basher",
+      "data-encoded-term": "basher",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "435",
+        "ol",
+        "1"
+      ]
+    },
+    "practicer": {
+      "data-frequency": "-1",
+      "data-relevance": "134",
+      "data-term": "practicer",
+      "data-encoded-term": "practicer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "baiter": {
+      "data-frequency": "96",
+      "data-relevance": "133",
+      "data-term": "baiter",
+      "data-encoded-term": "baiter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "96",
+        "ol",
+        "1"
+      ]
+    },
+    "ditherer": {
+      "data-frequency": "-1",
+      "data-relevance": "132",
+      "data-term": "ditherer",
+      "data-encoded-term": "ditherer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "homophobe": {
+      "data-frequency": "190",
+      "data-relevance": "131",
+      "data-term": "homophobe",
+      "data-encoded-term": "homophobe",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "190",
+        "ol",
+        "1"
+      ]
+    },
+    "hugger": {
+      "data-frequency": "10769",
+      "data-relevance": "130",
+      "data-term": "hugger",
+      "data-encoded-term": "hugger",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10769",
+        "ol",
+        "1"
+      ]
+    },
+    "testifier": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "testifier",
+      "data-encoded-term": "testifier",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "antisemite": {
+      "data-frequency": "355",
+      "data-relevance": "128",
+      "data-term": "antisemite",
+      "data-encoded-term": "antisemite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "355",
+        "ol",
+        "1"
+      ]
+    },
+    "sulker": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "sulker",
+      "data-encoded-term": "sulker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "backslider": {
+      "data-frequency": "54",
+      "data-relevance": "126",
+      "data-term": "backslider",
+      "data-encoded-term": "backslider",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "54",
+        "ol",
+        "1"
+      ]
+    },
+    "moaner": {
+      "data-frequency": "56",
+      "data-relevance": "125",
+      "data-term": "moaner",
+      "data-encoded-term": "moaner",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "56",
+        "ol",
+        "1"
+      ]
+    },
+    "griper": {
+      "data-frequency": "1196",
+      "data-relevance": "124",
+      "data-term": "griper",
+      "data-encoded-term": "griper",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1196",
+        "ol",
+        "1"
+      ]
+    },
+    "dabbler": {
+      "data-frequency": "76",
+      "data-relevance": "123",
+      "data-term": "dabbler",
+      "data-encoded-term": "dabbler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "76",
+        "ol",
+        "1"
+      ]
+    },
+    "intimidator": {
+      "data-frequency": "9533",
+      "data-relevance": "122",
+      "data-term": "intimidator",
+      "data-encoded-term": "intimidator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9533",
+        "ol",
+        "1"
+      ]
+    },
+    "nitpicker": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "nitpicker",
+      "data-encoded-term": "nitpicker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "panderer": {
+      "data-frequency": "-1",
+      "data-relevance": "120",
+      "data-term": "panderer",
+      "data-encoded-term": "panderer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "disbeliever": {
+      "data-frequency": "1272",
+      "data-relevance": "119",
+      "data-term": "disbeliever",
+      "data-encoded-term": "disbeliever",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1272",
+        "ol",
+        "1"
+      ]
+    },
+    "shill": {
+      "data-frequency": "511",
+      "data-relevance": "118",
+      "data-term": "shill",
+      "data-encoded-term": "shill",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "511",
+        "ol",
+        "1"
+      ]
+    },
+    "naderite": {
+      "data-frequency": "-1",
+      "data-relevance": "117",
+      "data-term": "naderite",
+      "data-encoded-term": "naderite",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ranter": {
+      "data-frequency": "657",
+      "data-relevance": "116",
+      "data-term": "ranter",
+      "data-encoded-term": "ranter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "657",
+        "ol",
+        "1"
+      ]
+    },
+    "crybaby": {
+      "data-frequency": "531",
+      "data-relevance": "115",
+      "data-term": "crybaby",
+      "data-encoded-term": "crybaby",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "531",
+        "ol",
+        "1"
+      ]
+    },
+    "twitterer": {
+      "data-frequency": "-1",
+      "data-relevance": "114",
+      "data-term": "twitterer",
+      "data-encoded-term": "twitterer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "needler": {
+      "data-frequency": "97",
+      "data-relevance": "113",
+      "data-term": "needler",
+      "data-encoded-term": "needler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "97",
+        "ol",
+        "1"
+      ]
+    },
+    "fearmonger": {
+      "data-frequency": "-1",
+      "data-relevance": "112",
+      "data-term": "fearmonger",
+      "data-encoded-term": "fearmonger",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "made": {
+      "data-frequency": "1158939",
+      "data-relevance": "111",
+      "data-term": "made",
+      "data-encoded-term": "made",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1158939",
+        "cn5",
+        "1"
+      ]
+    },
+    "proselytizer": {
+      "data-frequency": "55",
+      "data-relevance": "110",
+      "data-term": "proselytizer",
+      "data-encoded-term": "proselytizer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "55",
+        "ol",
+        "1"
+      ]
+    },
+    "rationality": {
+      "data-frequency": "3343",
+      "data-relevance": "109",
+      "data-term": "rationality",
+      "data-encoded-term": "rationality",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3343",
+        "cn5",
+        "1"
+      ]
+    },
+    "originator": {
+      "data-frequency": "3809",
+      "data-relevance": "108",
+      "data-term": "originator",
+      "data-encoded-term": "originator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3809",
+        "cn5",
+        "1"
+      ]
+    },
+    "reverberation": {
+      "data-frequency": "858",
+      "data-relevance": "107",
+      "data-term": "reverberation",
+      "data-encoded-term": "reverberation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "858",
+        "cn5",
+        "1"
+      ]
+    },
+    "creationarily": {
+      "data-frequency": "-1",
+      "data-relevance": "106",
+      "data-term": "creationarily",
+      "data-encoded-term": "creationarily",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "productive": {
+      "data-frequency": "22348",
+      "data-relevance": "105",
+      "data-term": "productive",
+      "data-encoded-term": "productive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "22348",
+        "cn5",
+        "1"
+      ]
+    },
+    "subcreation": {
+      "data-frequency": "42",
+      "data-relevance": "104",
+      "data-term": "subcreation",
+      "data-encoded-term": "subcreation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "42",
+        "cn5",
+        "1"
+      ]
+    },
+    "devise": {
+      "data-frequency": "5389",
+      "data-relevance": "103",
+      "data-term": "devise",
+      "data-encoded-term": "devise",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5389",
+        "cn5",
+        "1"
+      ]
+    },
+    "perpetrate": {
+      "data-frequency": "471",
+      "data-relevance": "102",
+      "data-term": "perpetrate",
+      "data-encoded-term": "perpetrate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "471",
+        "cn5",
+        "1"
+      ]
+    },
+    "manmade": {
+      "data-frequency": "1282",
+      "data-relevance": "101",
+      "data-term": "manmade",
+      "data-encoded-term": "manmade",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1282",
+        "cn5",
+        "1"
+      ]
+    },
+    "fa": {
+      "data-frequency": "70746",
+      "data-relevance": "100",
+      "data-term": "fa",
+      "data-encoded-term": "fa",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "70746",
+        "cn5",
+        "1"
+      ]
+    },
+    "deduction": {
+      "data-frequency": "4771",
+      "data-relevance": "99",
+      "data-term": "deduction",
+      "data-encoded-term": "deduction",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4771",
+        "cn5",
+        "1"
+      ]
+    },
+    "miscreate": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "miscreate",
+      "data-encoded-term": "miscreate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "implementation": {
+      "data-frequency": "59048",
+      "data-relevance": "97",
+      "data-term": "implementation",
+      "data-encoded-term": "implementation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "59048",
+        "cn5",
+        "1"
+      ]
+    },
+    "creational": {
+      "data-frequency": "49",
+      "data-relevance": "96",
+      "data-term": "creational",
+      "data-encoded-term": "creational",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "49",
+        "cn5",
+        "1"
+      ]
+    },
+    "generation": {
+      "data-frequency": "152963",
+      "data-relevance": "95",
+      "data-term": "generation",
+      "data-encoded-term": "generation",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "152963",
+        "cn5",
+        "1"
+      ]
+    },
+    "ineffective": {
+      "data-frequency": "12091",
+      "data-relevance": "94",
+      "data-term": "ineffective",
+      "data-encoded-term": "ineffective",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12091",
+        "cn5",
+        "1"
+      ]
+    },
+    "generator": {
+      "data-frequency": "15711",
+      "data-relevance": "93",
+      "data-term": "generator",
+      "data-encoded-term": "generator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "15711",
+        "cn5",
+        "1"
+      ]
+    },
+    "creationary": {
+      "data-frequency": "-1",
+      "data-relevance": "92",
+      "data-term": "creationary",
+      "data-encoded-term": "creationary",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "provoke": {
+      "data-frequency": "5974",
+      "data-relevance": "91",
+      "data-term": "provoke",
+      "data-encoded-term": "provoke",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5974",
+        "cn5",
+        "1"
+      ]
+    },
+    "motive": {
+      "data-frequency": "14937",
+      "data-relevance": "90",
+      "data-term": "motive",
+      "data-encoded-term": "motive",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14937",
+        "cn5",
+        "1"
+      ]
+    },
+    "creaturely": {
+      "data-frequency": "47",
+      "data-relevance": "89",
+      "data-term": "creaturely",
+      "data-encoded-term": "creaturely",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47",
+        "cn5",
+        "1"
+      ]
+    },
+    "creationistic": {
+      "data-frequency": "-1",
+      "data-relevance": "88",
+      "data-term": "creationistic",
+      "data-encoded-term": "creationistic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "overproduce": {
+      "data-frequency": "64",
+      "data-relevance": "87",
+      "data-term": "overproduce",
+      "data-encoded-term": "overproduce",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "64",
+        "cn5",
+        "1"
+      ]
+    },
+    "creatural": {
+      "data-frequency": "-1",
+      "data-relevance": "86",
+      "data-term": "creatural",
+      "data-encoded-term": "creatural",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "creatrix": {
+      "data-frequency": "45",
+      "data-relevance": "85",
+      "data-term": "creatrix",
+      "data-encoded-term": "creatrix",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "repercussion": {
+      "data-frequency": "461",
+      "data-relevance": "84",
+      "data-term": "repercussion",
+      "data-encoded-term": "repercussion",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "461",
+        "cn5",
+        "1"
+      ]
+    },
+    "ratiocinate": {
+      "data-frequency": "-1",
+      "data-relevance": "83",
+      "data-term": "ratiocinate",
+      "data-encoded-term": "ratiocinate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "prefabricate": {
+      "data-frequency": "-1",
+      "data-relevance": "82",
+      "data-term": "prefabricate",
+      "data-encoded-term": "prefabricate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "creatress": {
+      "data-frequency": "-1",
+      "data-relevance": "81",
+      "data-term": "creatress",
+      "data-encoded-term": "creatress",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "motivate": {
+      "data-frequency": "4179",
+      "data-relevance": "80",
+      "data-term": "motivate",
+      "data-encoded-term": "motivate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4179",
+        "cn5",
+        "1"
+      ]
+    },
+    "underdo": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "underdo",
+      "data-encoded-term": "underdo",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "antecedent": {
+      "data-frequency": "1814",
+      "data-relevance": "78",
+      "data-term": "antecedent",
+      "data-encoded-term": "antecedent",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1814",
+        "cn5",
+        "1"
+      ]
+    },
+    "stimulus": {
+      "data-frequency": "10402",
+      "data-relevance": "77",
+      "data-term": "stimulus",
+      "data-encoded-term": "stimulus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10402",
+        "cn5",
+        "1"
+      ]
+    },
+    "deductive": {
+      "data-frequency": "1386",
+      "data-relevance": "76",
+      "data-term": "deductive",
+      "data-encoded-term": "deductive",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1386",
+        "cn5",
+        "1"
+      ]
+    },
+    "theorize": {
+      "data-frequency": "1058",
+      "data-relevance": "75",
+      "data-term": "theorize",
+      "data-encoded-term": "theorize",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1058",
+        "cn5",
+        "1"
+      ]
+    },
+    "fecundity": {
+      "data-frequency": "1030",
+      "data-relevance": "74",
+      "data-term": "fecundity",
+      "data-encoded-term": "fecundity",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1030",
+        "cn5",
+        "1"
+      ]
+    },
+    "creativeness": {
+      "data-frequency": "126",
+      "data-relevance": "73",
+      "data-term": "creativeness",
+      "data-encoded-term": "creativeness",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "126",
+        "cn5",
+        "1"
+      ]
+    },
+    "makeress": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "makeress",
+      "data-encoded-term": "makeress",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "doh": {
+      "data-frequency": "1658",
+      "data-relevance": "71",
+      "data-term": "doh",
+      "data-encoded-term": "doh",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1658",
+        "cn5",
+        "1"
+      ]
+    },
+    "adduce": {
+      "data-frequency": "129",
+      "data-relevance": "70",
+      "data-term": "adduce",
+      "data-encoded-term": "adduce",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "129",
+        "cn5",
+        "1"
+      ]
+    },
+    "derivation": {
+      "data-frequency": "9670",
+      "data-relevance": "69",
+      "data-term": "derivation",
+      "data-encoded-term": "derivation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "9670",
+        "cn5",
+        "1"
+      ]
+    },
+    "fecund": {
+      "data-frequency": "251",
+      "data-relevance": "68",
+      "data-term": "fecund",
+      "data-encoded-term": "fecund",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "251",
+        "cn5",
+        "1"
+      ]
+    },
+    "maker": {
+      "data-frequency": "45557",
+      "data-relevance": "67",
+      "data-term": "maker",
+      "data-encoded-term": "maker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "45557",
+        "cn5",
+        "1"
+      ]
+    },
+    "wiremaking": {
+      "data-frequency": "-1",
+      "data-relevance": "66",
+      "data-term": "wiremaking",
+      "data-encoded-term": "wiremaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ado": {
+      "data-frequency": "5326",
+      "data-relevance": "65",
+      "data-term": "ado",
+      "data-encoded-term": "ado",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5326",
+        "cn5",
+        "1"
+      ]
+    },
+    "provocation": {
+      "data-frequency": "3408",
+      "data-relevance": "64",
+      "data-term": "provocation",
+      "data-encoded-term": "provocation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3408",
+        "cn5",
+        "1"
+      ]
+    },
+    "establish": {
+      "data-frequency": "168041",
+      "data-relevance": "63",
+      "data-term": "establish",
+      "data-encoded-term": "establish",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "168041",
+        "cn5",
+        "1"
+      ]
+    },
+    "genic": {
+      "data-frequency": "139",
+      "data-relevance": "62",
+      "data-term": "genic",
+      "data-encoded-term": "genic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "139",
+        "cn5",
+        "1"
+      ]
+    },
+    "voltaic": {
+      "data-frequency": "556",
+      "data-relevance": "61",
+      "data-term": "voltaic",
+      "data-encoded-term": "voltaic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "556",
+        "cn5",
+        "1"
+      ]
+    },
+    "stimulation": {
+      "data-frequency": "6958",
+      "data-relevance": "60",
+      "data-term": "stimulation",
+      "data-encoded-term": "stimulation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6958",
+        "cn5",
+        "1"
+      ]
+    },
+    "hatmaking": {
+      "data-frequency": "58",
+      "data-relevance": "59",
+      "data-term": "hatmaking",
+      "data-encoded-term": "hatmaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "58",
+        "cn5",
+        "1"
+      ]
+    },
+    "fabrication": {
+      "data-frequency": "8699",
+      "data-relevance": "58",
+      "data-term": "fabrication",
+      "data-encoded-term": "fabrication",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8699",
+        "cn5",
+        "1"
+      ]
+    },
+    "bagmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "57",
+      "data-term": "bagmaking",
+      "data-encoded-term": "bagmaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "successful": {
+      "data-frequency": "286374",
+      "data-relevance": "56",
+      "data-term": "successful",
+      "data-encoded-term": "successful",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "286374",
+        "cn5",
+        "1"
+      ]
+    },
+    "ropemaking": {
+      "data-frequency": "46",
+      "data-relevance": "55",
+      "data-term": "ropemaking",
+      "data-encoded-term": "ropemaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "moviemaking": {
+      "data-frequency": "559",
+      "data-relevance": "54",
+      "data-term": "moviemaking",
+      "data-encoded-term": "moviemaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "559",
+        "cn5",
+        "1"
+      ]
+    },
+    "carpetmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "53",
+      "data-term": "carpetmaking",
+      "data-encoded-term": "carpetmaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "automaking": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "automaking",
+      "data-encoded-term": "automaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "barbarisation": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "barbarisation",
+      "data-encoded-term": "barbarisation",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "misdo": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "misdo",
+      "data-encoded-term": "misdo",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "make for": {
+      "data-frequency": "3407",
+      "data-relevance": "49",
+      "data-term": "make for",
+      "data-encoded-term": "make%20for",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3407",
+        "cn5",
+        "1"
+      ]
+    },
+    "rebarbarization": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "rebarbarization",
+      "data-encoded-term": "rebarbarization",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cheesemaking": {
+      "data-frequency": "183",
+      "data-relevance": "47",
+      "data-term": "cheesemaking",
+      "data-encoded-term": "cheesemaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "183",
+        "cn5",
+        "1"
+      ]
+    },
+    "doable": {
+      "data-frequency": "177",
+      "data-relevance": "46",
+      "data-term": "doable",
+      "data-encoded-term": "doable",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "trunkmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "trunkmaking",
+      "data-encoded-term": "trunkmaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "heteropathy": {
+      "data-frequency": "-1",
+      "data-relevance": "44",
+      "data-term": "heteropathy",
+      "data-encoded-term": "heteropathy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sporulate": {
+      "data-frequency": "46",
+      "data-relevance": "43",
+      "data-term": "sporulate",
+      "data-encoded-term": "sporulate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "mismake": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "mismake",
+      "data-encoded-term": "mismake",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "self make": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "self make",
+      "data-encoded-term": "self%20make",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "forthputting": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "forthputting",
+      "data-encoded-term": "forthputting",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "swordmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "39",
+      "data-term": "swordmaking",
+      "data-encoded-term": "swordmaking",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "creatorship": {
+      "data-frequency": "-1",
+      "data-relevance": "38",
+      "data-term": "creatorship",
+      "data-encoded-term": "creatorship",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pencilmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "pencilmaking",
+      "data-encoded-term": "pencilmaking",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "handmake": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "handmake",
+      "data-encoded-term": "handmake",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "causal agent": {
+      "data-frequency": "334",
+      "data-relevance": "35",
+      "data-term": "causal agent",
+      "data-encoded-term": "causal%20agent",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "334",
+        "cn5",
+        "1"
+      ]
+    },
+    "innervate": {
+      "data-frequency": "331",
+      "data-relevance": "34",
+      "data-term": "innervate",
+      "data-encoded-term": "innervate",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "331",
+        "cn5",
+        "1"
+      ]
+    },
+    "forthput": {
+      "data-frequency": "-1",
+      "data-relevance": "33",
+      "data-term": "forthput",
+      "data-encoded-term": "forthput",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bring forth": {
+      "data-frequency": "900",
+      "data-relevance": "32",
+      "data-term": "bring forth",
+      "data-encoded-term": "bring%20forth",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "900",
+        "cn5",
+        "1"
+      ]
+    },
+    "whipping boy": {
+      "data-frequency": "224",
+      "data-relevance": "31",
+      "data-term": "whipping boy",
+      "data-encoded-term": "whipping%20boy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "224",
+        "ol",
+        "1"
+      ]
+    },
+    "bowmaking": {
+      "data-frequency": "-1",
+      "data-relevance": "30",
+      "data-term": "bowmaking",
+      "data-encoded-term": "bowmaking",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ready make": {
+      "data-frequency": "-1",
+      "data-relevance": "29",
+      "data-term": "ready make",
+      "data-encoded-term": "ready%20make",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bete noire": {
+      "data-frequency": "223",
+      "data-relevance": "28",
+      "data-term": "bete noire",
+      "data-encoded-term": "bete%20noire",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "223",
+        "ol",
+        "1"
+      ]
+    },
+    "loose cannon": {
+      "data-frequency": "395",
+      "data-relevance": "27",
+      "data-term": "loose cannon",
+      "data-encoded-term": "loose%20cannon",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "395",
+        "ol",
+        "1"
+      ]
+    },
+    "penny pincher": {
+      "data-frequency": "52",
+      "data-relevance": "26",
+      "data-term": "penny pincher",
+      "data-encoded-term": "penny%20pincher",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    },
+    "sound effect": {
+      "data-frequency": "1014",
+      "data-relevance": "25",
+      "data-term": "sound effect",
+      "data-encoded-term": "sound%20effect",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1014",
+        "cn5",
+        "1"
+      ]
+    },
+    "toss up": {
+      "data-frequency": "559",
+      "data-relevance": "24",
+      "data-term": "toss up",
+      "data-encoded-term": "toss%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "559",
+        "cn5",
+        "1"
+      ]
+    },
+    "mass produce": {
+      "data-frequency": "812",
+      "data-relevance": "23",
+      "data-term": "mass produce",
+      "data-encoded-term": "mass%20produce",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "812",
+        "cn5",
+        "1"
+      ]
+    },
+    "waste product": {
+      "data-frequency": "371",
+      "data-relevance": "22",
+      "data-term": "waste product",
+      "data-encoded-term": "waste%20product",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "371",
+        "cn5",
+        "1"
+      ]
+    },
+    "concrete term": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "concrete term",
+      "data-encoded-term": "concrete%20term",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "make something": {
+      "data-frequency": "1252",
+      "data-relevance": "20",
+      "data-term": "make something",
+      "data-encoded-term": "make%20something",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1252",
+        "cn5",
+        "1"
+      ]
+    },
+    "side effect": {
+      "data-frequency": "4187",
+      "data-relevance": "19",
+      "data-term": "side effect",
+      "data-encoded-term": "side%20effect",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "4187",
+        "cn5",
+        "1"
+      ]
+    },
+    "creation event": {
+      "data-frequency": "-1",
+      "data-relevance": "18",
+      "data-term": "creation event",
+      "data-encoded-term": "creation%20event",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "because of": {
+      "data-frequency": "290130",
+      "data-relevance": "17",
+      "data-term": "because of",
+      "data-encoded-term": "because%20of",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "290130",
+        "cn5",
+        "1"
+      ]
+    },
+    "cosmological argument": {
+      "data-frequency": "99",
+      "data-relevance": "16",
+      "data-term": "cosmological argument",
+      "data-encoded-term": "cosmological%20argument",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "99",
+        "cn5",
+        "1"
+      ]
+    },
+    "efficient cause": {
+      "data-frequency": "108",
+      "data-relevance": "15",
+      "data-term": "efficient cause",
+      "data-encoded-term": "efficient%20cause",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "108",
+        "cn5",
+        "1"
+      ]
+    },
+    "churn out": {
+      "data-frequency": "212",
+      "data-relevance": "14",
+      "data-term": "churn out",
+      "data-encoded-term": "churn%20out",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "212",
+        "cn5",
+        "1"
+      ]
+    },
+    "external cause": {
+      "data-frequency": "66",
+      "data-relevance": "13",
+      "data-term": "external cause",
+      "data-encoded-term": "external%20cause",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "66",
+        "cn5",
+        "1"
+      ]
+    },
+    "make into": {
+      "data-frequency": "226",
+      "data-relevance": "12",
+      "data-term": "make into",
+      "data-encoded-term": "make%20into",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "226",
+        "cn5",
+        "1"
+      ]
+    },
+    "mass production": {
+      "data-frequency": "5037",
+      "data-relevance": "11",
+      "data-term": "mass production",
+      "data-encoded-term": "mass%20production",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "5037",
+        "cn5",
+        "1"
+      ]
+    },
+    "gin up": {
+      "data-frequency": "-1",
+      "data-relevance": "10",
+      "data-term": "gin up",
+      "data-encoded-term": "gin%20up",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "by product": {
+      "data-frequency": "3022",
+      "data-relevance": "9",
+      "data-term": "by product",
+      "data-encoded-term": "by%20product",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "3022",
+        "cn5",
+        "1"
+      ]
+    },
+    "chop logic": {
+      "data-frequency": "-1",
+      "data-relevance": "8",
+      "data-term": "chop logic",
+      "data-encoded-term": "chop%20logic",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "have reason": {
+      "data-frequency": "324",
+      "data-relevance": "7",
+      "data-term": "have reason",
+      "data-encoded-term": "have%20reason",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "324",
+        "cn5",
+        "1"
+      ]
+    },
+    "make hash of": {
+      "data-frequency": "-1",
+      "data-relevance": "6",
+      "data-term": "make hash of",
+      "data-encoded-term": "make%20hash%20of",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "m do": {
+      "data-frequency": "167",
+      "data-relevance": "5",
+      "data-term": "m do",
+      "data-encoded-term": "m%20do",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "167",
+        "cn5",
+        "1"
+      ]
+    },
+    "central excise": {
+      "data-frequency": "116",
+      "data-relevance": "4",
+      "data-term": "central excise",
+      "data-encoded-term": "central%20excise",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "116",
+        "cn5",
+        "1"
+      ]
+    },
+    "reverse engineer": {
+      "data-frequency": "403",
+      "data-relevance": "3",
+      "data-term": "reverse engineer",
+      "data-encoded-term": "reverse%20engineer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "403",
+        "cn5",
+        "1"
+      ]
+    },
+    "carve out": {
+      "data-frequency": "922",
+      "data-relevance": "2",
+      "data-term": "carve out",
+      "data-encoded-term": "carve%20out",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "922",
+        "cn5",
+        "1"
+      ]
+    },
+    "production line": {
+      "data-frequency": "2381",
+      "data-relevance": "1",
+      "data-term": "production line",
+      "data-encoded-term": "production%20line",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2381",
+        "cn5",
+        "1"
+      ]
+    },
+    "carry out": {
+      "data-frequency": "27840",
+      "data-relevance": "0",
+      "data-term": "carry out",
+      "data-encoded-term": "carry%20out",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "27840",
+        "cn5",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "detractory"
+    ],
+    "word_forms": [
+      "detractors"
+    ],
+    "examples": [
+      {
+        "en": "...numerous typos in the text detract the reader's attention from the novel's intricate plot...",
+        "ru": "...многочисленные опечатки в тексте отвлекают внимание читателя от замысловатого сюжета..."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "detracter",
+      "detractors"
+    ],
+    "synonyms": [
+      "knocker",
+      "depreciator",
+      "disparager",
+      "mudslinger",
+      "libel",
+      "cynic",
+      "defamation",
+      "slander"
+    ],
+    "antonyms": [
+      "supporter",
+      "proponent"
+    ],
+    "similar_terms": [
+      "detractory"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "contributor",
+      "disparager",
+      "contrarian",
+      "detract",
+      "cynic",
+      "belittle",
+      "cause",
+      "detractors",
+      "knocker",
+      "naysayer",
+      "micromanager",
+      "depreciator",
+      "derogator",
+      "doubter",
+      "complainer"
+    ]
+  }
+}

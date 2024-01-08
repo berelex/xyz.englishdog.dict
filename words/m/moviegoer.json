@@ -1,0 +1,5830 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "filmgoer": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/filmgoer/n/,/c/en/moviegoer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/filmgoer/n",
+          "@type": "Node",
+          "label": "filmgoer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/filmgoer"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "term": "/c/en/moviegoer"
+        }
+      },
+      "moviegoers": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/moviegoers/n/,/c/en/moviegoer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/moviegoers/n",
+          "@type": "Node",
+          "label": "moviegoers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/moviegoers"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "term": "/c/en/moviegoer"
+        }
+      },
+      "moviegoing": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/moviegoing/a/,/c/en/moviegoer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/moviegoing/a",
+          "@type": "Node",
+          "label": "moviegoing",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/moviegoing"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "term": "/c/en/moviegoer"
+        }
+      },
+      "movie theater": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/moviegoer/n/,/c/en/movie_theater/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/moviegoer/n",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/moviegoer"
+        },
+        "end": {
+          "@id": "/c/en/movie_theater",
+          "@type": "Node",
+          "label": "movie theater",
+          "language": "en",
+          "term": "/c/en/movie_theater"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "cinephile": {
+        "@id": "/a/[/r/Synonym/,/c/en/cinephile/n/,/c/en/moviegoer/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/cinephile/n",
+          "@type": "Node",
+          "label": "cinephile",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/cinephile"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "term": "/c/en/moviegoer"
+        }
+      },
+      "motion-picture fan": {
+        "@id": "/a/[/r/Synonym/,/c/en/motion_picture_fan/n/wn/person/,/c/en/moviegoer/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/motion_picture_fan/n/wn/person",
+          "@type": "Node",
+          "label": "motion-picture fan",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/motion_picture_fan"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer/n/wn/person",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/moviegoer"
+        }
+      },
+      "filmgoer": {
+        "@id": "/a/[/r/Synonym/,/c/en/moviegoer/n/,/c/en/filmgoer/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/moviegoer/n",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/moviegoer"
+        },
+        "end": {
+          "@id": "/c/en/filmgoer",
+          "@type": "Node",
+          "label": "filmgoer",
+          "language": "en",
+          "term": "/c/en/filmgoer"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {},
+    "word_forms": {
+      "moviegoers": {
+        "@id": "/a/[/r/FormOf/,/c/en/moviegoers/n/,/c/en/moviegoer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/moviegoers/n",
+          "@type": "Node",
+          "label": "moviegoers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/moviegoers"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "term": "/c/en/moviegoer"
+        }
+      },
+      "movie goer": {
+        "@id": "/a/[/r/FormOf/,/c/en/movie_goer/n/,/c/en/moviegoer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/movie_goer/n",
+          "@type": "Node",
+          "label": "movie goer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/movie_goer"
+        },
+        "end": {
+          "@id": "/c/en/moviegoer",
+          "@type": "Node",
+          "label": "moviegoer",
+          "language": "en",
+          "term": "/c/en/moviegoer"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "viewer": {
+      "data-frequency": "22061",
+      "data-relevance": "399",
+      "data-term": "viewer",
+      "data-encoded-term": "viewer",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "22061",
+        "ol,wn|reverse-net",
+        "1"
+      ]
+    },
+    "reader": {
+      "data-frequency": "52398",
+      "data-relevance": "398",
+      "data-term": "reader",
+      "data-encoded-term": "reader",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "52398",
+        "ol",
+        "1"
+      ]
+    },
+    "audience": {
+      "data-frequency": "120509",
+      "data-relevance": "397",
+      "data-term": "audience",
+      "data-encoded-term": "audience",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "120509",
+        "cn5,wn|reverse-net",
+        "1"
+      ]
+    },
+    "movie": {
+      "data-frequency": "248505",
+      "data-relevance": "396",
+      "data-term": "movie",
+      "data-encoded-term": "movie",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "248505",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "motion-picture fan": {
+      "data-frequency": "7071",
+      "data-relevance": "395",
+      "data-term": "motion-picture fan",
+      "data-encoded-term": "motion-picture%20fan",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "7071",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "filmography": {
+      "data-frequency": "120904",
+      "data-relevance": "394",
+      "data-term": "filmography",
+      "data-encoded-term": "filmography",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "120904",
+        "cn5,ol|reverse-net",
+        "1"
+      ]
+    },
+    "projectionist": {
+      "data-frequency": "737",
+      "data-relevance": "393",
+      "data-term": "projectionist",
+      "data-encoded-term": "projectionist",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "737",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "filmmaker": {
+      "data-frequency": "39667",
+      "data-relevance": "392",
+      "data-term": "filmmaker",
+      "data-encoded-term": "filmmaker",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "39667",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "moviedom": {
+      "data-frequency": "-1",
+      "data-relevance": "391",
+      "data-term": "moviedom",
+      "data-encoded-term": "moviedom",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "-1",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "watcher": {
+      "data-frequency": "2605",
+      "data-relevance": "390",
+      "data-term": "watcher",
+      "data-encoded-term": "watcher",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "2605",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "cinema": {
+      "data-frequency": "131229",
+      "data-relevance": "389",
+      "data-term": "cinema",
+      "data-encoded-term": "cinema",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "131229",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "movieland": {
+      "data-frequency": "389",
+      "data-relevance": "388",
+      "data-term": "movieland",
+      "data-encoded-term": "movieland",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "389",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "film": {
+      "data-frequency": "639609",
+      "data-relevance": "387",
+      "data-term": "film",
+      "data-encoded-term": "film",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "639609",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "celluloid": {
+      "data-frequency": "3053",
+      "data-relevance": "386",
+      "data-term": "celluloid",
+      "data-encoded-term": "celluloid",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "3053",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "filmmaking": {
+      "data-frequency": "12289",
+      "data-relevance": "385",
+      "data-term": "filmmaking",
+      "data-encoded-term": "filmmaking",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "12289",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "popcorn": {
+      "data-frequency": "4782",
+      "data-relevance": "384",
+      "data-term": "popcorn",
+      "data-encoded-term": "popcorn",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "4782",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "theatergoer": {
+      "data-frequency": "-1",
+      "data-relevance": "383",
+      "data-term": "theatergoer",
+      "data-encoded-term": "theatergoer",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "-1",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "filmgoer": {
+      "data-frequency": "561",
+      "data-relevance": "382",
+      "data-term": "filmgoer",
+      "data-encoded-term": "filmgoer",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "561",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "concertgoer": {
+      "data-frequency": "62",
+      "data-relevance": "381",
+      "data-term": "concertgoer",
+      "data-encoded-term": "concertgoer",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "62",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "conventioneer": {
+      "data-frequency": "-1",
+      "data-relevance": "380",
+      "data-term": "conventioneer",
+      "data-encoded-term": "conventioneer",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "-1",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "schnook": {
+      "data-frequency": "-1",
+      "data-relevance": "379",
+      "data-term": "schnook",
+      "data-encoded-term": "schnook",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "-1",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "vacationer": {
+      "data-frequency": "113",
+      "data-relevance": "378",
+      "data-term": "vacationer",
+      "data-encoded-term": "vacationer",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "113",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "metalhead": {
+      "data-frequency": "260",
+      "data-relevance": "377",
+      "data-term": "metalhead",
+      "data-encoded-term": "metalhead",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "260",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "telefilm": {
+      "data-frequency": "2645",
+      "data-relevance": "376",
+      "data-term": "telefilm",
+      "data-encoded-term": "telefilm",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "2645",
+        "cn5",
+        "1"
+      ]
+    },
+    "urbanite": {
+      "data-frequency": "173",
+      "data-relevance": "375",
+      "data-term": "urbanite",
+      "data-encoded-term": "urbanite",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "173",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "looker": {
+      "data-frequency": "907",
+      "data-relevance": "374",
+      "data-term": "looker",
+      "data-encoded-term": "looker",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "907",
+        "wn",
+        "1"
+      ]
+    },
+    "spectator": {
+      "data-frequency": "16678",
+      "data-relevance": "373",
+      "data-term": "spectator",
+      "data-encoded-term": "spectator",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "16678",
+        "wn|reverse-net",
+        "1"
+      ]
+    },
+    "cinematic": {
+      "data-frequency": "16008",
+      "data-relevance": "372",
+      "data-term": "cinematic",
+      "data-encoded-term": "cinematic",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "16008",
+        "cn5",
+        "1"
+      ]
+    },
+    "witness": {
+      "data-frequency": "58478",
+      "data-relevance": "371",
+      "data-term": "witness",
+      "data-encoded-term": "witness",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "58478",
+        "wn",
+        "1"
+      ]
+    },
+    "filmy": {
+      "data-frequency": "652",
+      "data-relevance": "370",
+      "data-term": "filmy",
+      "data-encoded-term": "filmy",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "652",
+        "cn5",
+        "1"
+      ]
+    },
+    "suspenseful": {
+      "data-frequency": "1278",
+      "data-relevance": "369",
+      "data-term": "suspenseful",
+      "data-encoded-term": "suspenseful",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1278",
+        "cn5",
+        "1"
+      ]
+    },
+    "dramedy": {
+      "data-frequency": "1584",
+      "data-relevance": "368",
+      "data-term": "dramedy",
+      "data-encoded-term": "dramedy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1584",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmdom": {
+      "data-frequency": "177",
+      "data-relevance": "367",
+      "data-term": "filmdom",
+      "data-encoded-term": "filmdom",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "bioscope": {
+      "data-frequency": "535",
+      "data-relevance": "366",
+      "data-term": "bioscope",
+      "data-encoded-term": "bioscope",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "535",
+        "cn5",
+        "1"
+      ]
+    },
+    "midmovie": {
+      "data-frequency": "-1",
+      "data-relevance": "365",
+      "data-term": "midmovie",
+      "data-encoded-term": "midmovie",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reshoot": {
+      "data-frequency": "373",
+      "data-relevance": "364",
+      "data-term": "reshoot",
+      "data-encoded-term": "reshoot",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "373",
+        "cn5",
+        "1"
+      ]
+    },
+    "minimovie": {
+      "data-frequency": "-1",
+      "data-relevance": "363",
+      "data-term": "minimovie",
+      "data-encoded-term": "minimovie",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "movielike": {
+      "data-frequency": "-1",
+      "data-relevance": "362",
+      "data-term": "movielike",
+      "data-encoded-term": "movielike",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "matinee": {
+      "data-frequency": "3268",
+      "data-relevance": "361",
+      "data-term": "matinee",
+      "data-encoded-term": "matinee",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "3268",
+        "cn5",
+        "1"
+      ]
+    },
+    "projector": {
+      "data-frequency": "4832",
+      "data-relevance": "360",
+      "data-term": "projector",
+      "data-encoded-term": "projector",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4832",
+        "cn5",
+        "1"
+      ]
+    },
+    "time": {
+      "data-frequency": "2053299",
+      "data-relevance": "359",
+      "data-term": "time",
+      "data-encoded-term": "time",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2053299",
+        "wiki",
+        "1"
+      ]
+    },
+    "filmic": {
+      "data-frequency": "653",
+      "data-relevance": "358",
+      "data-term": "filmic",
+      "data-encoded-term": "filmic",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "653",
+        "cn5",
+        "1"
+      ]
+    },
+    "microfilm": {
+      "data-frequency": "4154",
+      "data-relevance": "357",
+      "data-term": "microfilm",
+      "data-encoded-term": "microfilm",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4154",
+        "cn5",
+        "1"
+      ]
+    },
+    "pix": {
+      "data-frequency": "2110",
+      "data-relevance": "356",
+      "data-term": "pix",
+      "data-encoded-term": "pix",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2110",
+        "cn5",
+        "1"
+      ]
+    },
+    "moviegoing": {
+      "data-frequency": "182",
+      "data-relevance": "355",
+      "data-term": "moviegoing",
+      "data-encoded-term": "moviegoing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "182",
+        "cn5",
+        "1"
+      ]
+    },
+    "cinematograph": {
+      "data-frequency": "1213",
+      "data-relevance": "354",
+      "data-term": "cinematograph",
+      "data-encoded-term": "cinematograph",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1213",
+        "cn5",
+        "1"
+      ]
+    },
+    "movieverse": {
+      "data-frequency": "-1",
+      "data-relevance": "353",
+      "data-term": "movieverse",
+      "data-encoded-term": "movieverse",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "preproduction": {
+      "data-frequency": "577",
+      "data-relevance": "352",
+      "data-term": "preproduction",
+      "data-encoded-term": "preproduction",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "577",
+        "cn5",
+        "1"
+      ]
+    },
+    "pellicle": {
+      "data-frequency": "179",
+      "data-relevance": "351",
+      "data-term": "pellicle",
+      "data-encoded-term": "pellicle",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "179",
+        "cn5",
+        "1"
+      ]
+    },
+    "terminator": {
+      "data-frequency": "4433",
+      "data-relevance": "350",
+      "data-term": "terminator",
+      "data-encoded-term": "terminator",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "4433",
+        "cn5|reverse-net",
+        "1"
+      ]
+    },
+    "cinemagoing": {
+      "data-frequency": "-1",
+      "data-relevance": "349",
+      "data-term": "cinemagoing",
+      "data-encoded-term": "cinemagoing",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmzine": {
+      "data-frequency": "-1",
+      "data-relevance": "348",
+      "data-term": "filmzine",
+      "data-encoded-term": "filmzine",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmize": {
+      "data-frequency": "-1",
+      "data-relevance": "347",
+      "data-term": "filmize",
+      "data-encoded-term": "filmize",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nanofilm": {
+      "data-frequency": "-1",
+      "data-relevance": "346",
+      "data-term": "nanofilm",
+      "data-encoded-term": "nanofilm",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "metafilm": {
+      "data-frequency": "-1",
+      "data-relevance": "345",
+      "data-term": "metafilm",
+      "data-encoded-term": "metafilm",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mockumentary": {
+      "data-frequency": "2211",
+      "data-relevance": "344",
+      "data-term": "mockumentary",
+      "data-encoded-term": "mockumentary",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "2211",
+        "cn5",
+        "1"
+      ]
+    },
+    "photoplay": {
+      "data-frequency": "1255",
+      "data-relevance": "343",
+      "data-term": "photoplay",
+      "data-encoded-term": "photoplay",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1255",
+        "cn5",
+        "1"
+      ]
+    },
+    "oater": {
+      "data-frequency": "-1",
+      "data-relevance": "342",
+      "data-term": "oater",
+      "data-encoded-term": "oater",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "preview": {
+      "data-frequency": "44613",
+      "data-relevance": "341",
+      "data-term": "preview",
+      "data-encoded-term": "preview",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "44613",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmlike": {
+      "data-frequency": "-1",
+      "data-relevance": "340",
+      "data-term": "filmlike",
+      "data-encoded-term": "filmlike",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "theatre": {
+      "data-frequency": "208868",
+      "data-relevance": "339",
+      "data-term": "theatre",
+      "data-encoded-term": "theatre",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "208868",
+        "cn5",
+        "1"
+      ]
+    },
+    "theater": {
+      "data-frequency": "116916",
+      "data-relevance": "338",
+      "data-term": "theater",
+      "data-encoded-term": "theater",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "116916",
+        "cn5",
+        "1"
+      ]
+    },
+    "video": {
+      "data-frequency": "438725",
+      "data-relevance": "337",
+      "data-term": "video",
+      "data-encoded-term": "video",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "438725",
+        "cn5",
+        "1"
+      ]
+    },
+    "cameraman": {
+      "data-frequency": "5466",
+      "data-relevance": "336",
+      "data-term": "cameraman",
+      "data-encoded-term": "cameraman",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5466",
+        "cn5",
+        "1"
+      ]
+    },
+    "polaroid": {
+      "data-frequency": "1558",
+      "data-relevance": "335",
+      "data-term": "polaroid",
+      "data-encoded-term": "polaroid",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1558",
+        "cn5",
+        "1"
+      ]
+    },
+    "fandub": {
+      "data-frequency": "281",
+      "data-relevance": "334",
+      "data-term": "fandub",
+      "data-encoded-term": "fandub",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "281",
+        "cn5",
+        "1"
+      ]
+    },
+    "laziest": {
+      "data-frequency": "165",
+      "data-relevance": "333",
+      "data-term": "laziest",
+      "data-encoded-term": "laziest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "165",
+        "w2v",
+        "1"
+      ]
+    },
+    "screenplay": {
+      "data-frequency": "68400",
+      "data-relevance": "332",
+      "data-term": "screenplay",
+      "data-encoded-term": "screenplay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "68400",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmology": {
+      "data-frequency": "-1",
+      "data-relevance": "331",
+      "data-term": "filmology",
+      "data-encoded-term": "filmology",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "thriller": {
+      "data-frequency": "47956",
+      "data-relevance": "330",
+      "data-term": "thriller",
+      "data-encoded-term": "thriller",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "47956",
+        "cn5",
+        "1"
+      ]
+    },
+    "bungler": {
+      "data-frequency": "84",
+      "data-relevance": "329",
+      "data-term": "bungler",
+      "data-encoded-term": "bungler",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "84",
+        "w2v",
+        "1"
+      ]
+    },
+    "entertainer": {
+      "data-frequency": "15111",
+      "data-relevance": "328",
+      "data-term": "entertainer",
+      "data-encoded-term": "entertainer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15111",
+        "cn5",
+        "1"
+      ]
+    },
+    "debut novel": {
+      "data-frequency": "26603",
+      "data-relevance": "327",
+      "data-term": "debut novel",
+      "data-encoded-term": "debut%20novel",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "26603",
+        "wiki",
+        "1"
+      ]
+    },
+    "cinematography": {
+      "data-frequency": "132201",
+      "data-relevance": "326",
+      "data-term": "cinematography",
+      "data-encoded-term": "cinematography",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "132201",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmstrip": {
+      "data-frequency": "171",
+      "data-relevance": "325",
+      "data-term": "filmstrip",
+      "data-encoded-term": "filmstrip",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "171",
+        "cn5",
+        "1"
+      ]
+    },
+    "sorrier": {
+      "data-frequency": "18300",
+      "data-relevance": "324",
+      "data-term": "sorrier",
+      "data-encoded-term": "sorrier",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18300",
+        "w2v",
+        "1"
+      ]
+    },
+    "vcr": {
+      "data-frequency": "1055",
+      "data-relevance": "323",
+      "data-term": "vcr",
+      "data-encoded-term": "vcr",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1055",
+        "cn5",
+        "1"
+      ]
+    },
+    "slob": {
+      "data-frequency": "567",
+      "data-relevance": "322",
+      "data-term": "slob",
+      "data-encoded-term": "slob",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "567",
+        "w2v",
+        "1"
+      ]
+    },
+    "filmgoing": {
+      "data-frequency": "50",
+      "data-relevance": "321",
+      "data-term": "filmgoing",
+      "data-encoded-term": "filmgoing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "burlesque": {
+      "data-frequency": "4508",
+      "data-relevance": "320",
+      "data-term": "burlesque",
+      "data-encoded-term": "burlesque",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4508",
+        "cn5",
+        "1"
+      ]
+    },
+    "showmance": {
+      "data-frequency": "81",
+      "data-relevance": "319",
+      "data-term": "showmance",
+      "data-encoded-term": "showmance",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "81",
+        "cn5",
+        "1"
+      ]
+    },
+    "entertain": {
+      "data-frequency": "9748",
+      "data-relevance": "318",
+      "data-term": "entertain",
+      "data-encoded-term": "entertain",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9748",
+        "cn5",
+        "1"
+      ]
+    },
+    "show": {
+      "data-frequency": "895653",
+      "data-relevance": "317",
+      "data-term": "show",
+      "data-encoded-term": "show",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "895653",
+        "cn5",
+        "1"
+      ]
+    },
+    "pedant": {
+      "data-frequency": "163",
+      "data-relevance": "316",
+      "data-term": "pedant",
+      "data-encoded-term": "pedant",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "163",
+        "w2v",
+        "1"
+      ]
+    },
+    "obstreperous": {
+      "data-frequency": "103",
+      "data-relevance": "315",
+      "data-term": "obstreperous",
+      "data-encoded-term": "obstreperous",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "103",
+        "w2v",
+        "1"
+      ]
+    },
+    "sensualist": {
+      "data-frequency": "95",
+      "data-relevance": "314",
+      "data-term": "sensualist",
+      "data-encoded-term": "sensualist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "95",
+        "w2v",
+        "1"
+      ]
+    },
+    "showdown": {
+      "data-frequency": "15014",
+      "data-relevance": "313",
+      "data-term": "showdown",
+      "data-encoded-term": "showdown",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "15014",
+        "cn5",
+        "1"
+      ]
+    },
+    "documentary": {
+      "data-frequency": "146027",
+      "data-relevance": "312",
+      "data-term": "documentary",
+      "data-encoded-term": "documentary",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "146027",
+        "cn5",
+        "1"
+      ]
+    },
+    "godsend": {
+      "data-frequency": "417",
+      "data-relevance": "311",
+      "data-term": "godsend",
+      "data-encoded-term": "godsend",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "417",
+        "w2v",
+        "1"
+      ]
+    },
+    "teleplay": {
+      "data-frequency": "5080",
+      "data-relevance": "310",
+      "data-term": "teleplay",
+      "data-encoded-term": "teleplay",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5080",
+        "cn5",
+        "1"
+      ]
+    },
+    "soothsayer": {
+      "data-frequency": "937",
+      "data-relevance": "309",
+      "data-term": "soothsayer",
+      "data-encoded-term": "soothsayer",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "937",
+        "w2v",
+        "1"
+      ]
+    },
+    "titanic": {
+      "data-frequency": "8870",
+      "data-relevance": "308",
+      "data-term": "titanic",
+      "data-encoded-term": "titanic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8870",
+        "cn5",
+        "1"
+      ]
+    },
+    "sightless": {
+      "data-frequency": "167",
+      "data-relevance": "307",
+      "data-term": "sightless",
+      "data-encoded-term": "sightless",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "167",
+        "w2v",
+        "1"
+      ]
+    },
+    "hatedom": {
+      "data-frequency": "-1",
+      "data-relevance": "306",
+      "data-term": "hatedom",
+      "data-encoded-term": "hatedom",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "slacker": {
+      "data-frequency": "1102",
+      "data-relevance": "305",
+      "data-term": "slacker",
+      "data-encoded-term": "slacker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1102",
+        "w2v",
+        "1"
+      ]
+    },
+    "tv movie": {
+      "data-frequency": "19184",
+      "data-relevance": "304",
+      "data-term": "tv movie",
+      "data-encoded-term": "tv%20movie",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "19184",
+        "cn5",
+        "1"
+      ]
+    },
+    "silent movie": {
+      "data-frequency": "1297",
+      "data-relevance": "303",
+      "data-term": "silent movie",
+      "data-encoded-term": "silent%20movie",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1297",
+        "cn5",
+        "1"
+      ]
+    },
+    "oaf": {
+      "data-frequency": "264",
+      "data-relevance": "302",
+      "data-term": "oaf",
+      "data-encoded-term": "oaf",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "264",
+        "w2v",
+        "1"
+      ]
+    },
+    "insufferable": {
+      "data-frequency": "390",
+      "data-relevance": "301",
+      "data-term": "insufferable",
+      "data-encoded-term": "insufferable",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "390",
+        "w2v",
+        "1"
+      ]
+    },
+    "icelander": {
+      "data-frequency": "301",
+      "data-relevance": "300",
+      "data-term": "icelander",
+      "data-encoded-term": "icelander",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "301",
+        "w2v",
+        "1"
+      ]
+    },
+    "curmudgeon": {
+      "data-frequency": "275",
+      "data-relevance": "299",
+      "data-term": "curmudgeon",
+      "data-encoded-term": "curmudgeon",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "275",
+        "w2v",
+        "1"
+      ]
+    },
+    "priggish": {
+      "data-frequency": "93",
+      "data-relevance": "298",
+      "data-term": "priggish",
+      "data-encoded-term": "priggish",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "93",
+        "w2v",
+        "1"
+      ]
+    },
+    "existentialism": {
+      "data-frequency": "2297",
+      "data-relevance": "297",
+      "data-term": "existentialism",
+      "data-encoded-term": "existentialism",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2297",
+        "wiki",
+        "1"
+      ]
+    },
+    "trekverse": {
+      "data-frequency": "-1",
+      "data-relevance": "296",
+      "data-term": "trekverse",
+      "data-encoded-term": "trekverse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dullest": {
+      "data-frequency": "198",
+      "data-relevance": "295",
+      "data-term": "dullest",
+      "data-encoded-term": "dullest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "198",
+        "w2v",
+        "1"
+      ]
+    },
+    "walker percy": {
+      "data-frequency": "4531",
+      "data-relevance": "294",
+      "data-term": "walker percy",
+      "data-encoded-term": "walker%20percy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4531",
+        "wiki",
+        "1"
+      ]
+    },
+    "science fiction movie": {
+      "data-frequency": "387",
+      "data-relevance": "293",
+      "data-term": "science fiction movie",
+      "data-encoded-term": "science%20fiction%20movie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "387",
+        "cn5",
+        "1"
+      ]
+    },
+    "scriptment": {
+      "data-frequency": "56",
+      "data-relevance": "292",
+      "data-term": "scriptment",
+      "data-encoded-term": "scriptment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "audiences": {
+      "data-frequency": "34871",
+      "data-relevance": "291",
+      "data-term": "audiences",
+      "data-encoded-term": "audiences",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "34871",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "zombie": {
+      "data-frequency": "12013",
+      "data-relevance": "290",
+      "data-term": "zombie",
+      "data-encoded-term": "zombie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12013",
+        "cn5",
+        "1"
+      ]
+    },
+    "movie projector": {
+      "data-frequency": "669",
+      "data-relevance": "289",
+      "data-term": "movie projector",
+      "data-encoded-term": "movie%20projector",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "669",
+        "cn5",
+        "1"
+      ]
+    },
+    "move picture": {
+      "data-frequency": "-1",
+      "data-relevance": "288",
+      "data-term": "move picture",
+      "data-encoded-term": "move%20picture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "adult movie": {
+      "data-frequency": "297",
+      "data-relevance": "287",
+      "data-term": "adult movie",
+      "data-encoded-term": "adult%20movie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "297",
+        "cn5",
+        "1"
+      ]
+    },
+    "suspense": {
+      "data-frequency": "9737",
+      "data-relevance": "286",
+      "data-term": "suspense",
+      "data-encoded-term": "suspense",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "9737",
+        "cn5",
+        "1"
+      ]
+    },
+    "scene": {
+      "data-frequency": "188650",
+      "data-relevance": "285",
+      "data-term": "scene",
+      "data-encoded-term": "scene",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "188650",
+        "cn5",
+        "1"
+      ]
+    },
+    "vidcap": {
+      "data-frequency": "-1",
+      "data-relevance": "284",
+      "data-term": "vidcap",
+      "data-encoded-term": "vidcap",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "showman": {
+      "data-frequency": "2735",
+      "data-relevance": "283",
+      "data-term": "showman",
+      "data-encoded-term": "showman",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2735",
+        "cn5",
+        "1"
+      ]
+    },
+    "shoot em up": {
+      "data-frequency": "1614",
+      "data-relevance": "282",
+      "data-term": "shoot em up",
+      "data-encoded-term": "shoot%20em%20up",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1614",
+        "cn5",
+        "1"
+      ]
+    },
+    "exhibitor": {
+      "data-frequency": "1531",
+      "data-relevance": "281",
+      "data-term": "exhibitor",
+      "data-encoded-term": "exhibitor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1531",
+        "cn5",
+        "1"
+      ]
+    },
+    "teleshow": {
+      "data-frequency": "50",
+      "data-relevance": "280",
+      "data-term": "teleshow",
+      "data-encoded-term": "teleshow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "reveler": {
+      "data-frequency": "73",
+      "data-relevance": "279",
+      "data-term": "reveler",
+      "data-encoded-term": "reveler",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73",
+        "w2v",
+        "1"
+      ]
+    },
+    "studio": {
+      "data-frequency": "346870",
+      "data-relevance": "278",
+      "data-term": "studio",
+      "data-encoded-term": "studio",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "346870",
+        "cn5",
+        "1"
+      ]
+    },
+    "sitcom": {
+      "data-frequency": "22995",
+      "data-relevance": "277",
+      "data-term": "sitcom",
+      "data-encoded-term": "sitcom",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22995",
+        "cn5",
+        "1"
+      ]
+    },
+    "skin flick": {
+      "data-frequency": "50",
+      "data-relevance": "276",
+      "data-term": "skin flick",
+      "data-encoded-term": "skin%20flick",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "sticky floor": {
+      "data-frequency": "-1",
+      "data-relevance": "275",
+      "data-term": "sticky floor",
+      "data-encoded-term": "sticky%20floor",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pageantry": {
+      "data-frequency": "2103",
+      "data-relevance": "274",
+      "data-term": "pageantry",
+      "data-encoded-term": "pageantry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2103",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmwise": {
+      "data-frequency": "-1",
+      "data-relevance": "273",
+      "data-term": "filmwise",
+      "data-encoded-term": "filmwise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "television": {
+      "data-frequency": "525981",
+      "data-relevance": "272",
+      "data-term": "television",
+      "data-encoded-term": "television",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "525981",
+        "cn5",
+        "1"
+      ]
+    },
+    "final cut": {
+      "data-frequency": "3379",
+      "data-relevance": "271",
+      "data-term": "final cut",
+      "data-encoded-term": "final%20cut",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3379",
+        "cn5",
+        "1"
+      ]
+    },
+    "cinemuck": {
+      "data-frequency": "-1",
+      "data-relevance": "270",
+      "data-term": "cinemuck",
+      "data-encoded-term": "cinemuck",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "showy": {
+      "data-frequency": "1966",
+      "data-relevance": "269",
+      "data-term": "showy",
+      "data-encoded-term": "showy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1966",
+        "cn5",
+        "1"
+      ]
+    },
+    "newbie": {
+      "data-frequency": "805",
+      "data-relevance": "268",
+      "data-term": "newbie",
+      "data-encoded-term": "newbie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "805",
+        "w2v",
+        "1"
+      ]
+    },
+    "showbusiness": {
+      "data-frequency": "552",
+      "data-relevance": "267",
+      "data-term": "showbusiness",
+      "data-encoded-term": "showbusiness",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "552",
+        "cn5",
+        "1"
+      ]
+    },
+    "grade-point": {
+      "data-frequency": "39669",
+      "data-relevance": "266",
+      "data-term": "grade-point",
+      "data-encoded-term": "grade-point",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "39669",
+        "w2v",
+        "1"
+      ]
+    },
+    "40-something": {
+      "data-frequency": "111",
+      "data-relevance": "265",
+      "data-term": "40-something",
+      "data-encoded-term": "40-something",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "111",
+        "w2v",
+        "1"
+      ]
+    },
+    "trekiverse": {
+      "data-frequency": "-1",
+      "data-relevance": "264",
+      "data-term": "trekiverse",
+      "data-encoded-term": "trekiverse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "schoolchild": {
+      "data-frequency": "113",
+      "data-relevance": "263",
+      "data-term": "schoolchild",
+      "data-encoded-term": "schoolchild",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "113",
+        "w2v",
+        "1"
+      ]
+    },
+    "time-weighted": {
+      "data-frequency": "7493",
+      "data-relevance": "262",
+      "data-term": "time-weighted",
+      "data-encoded-term": "time-weighted",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7493",
+        "w2v",
+        "1"
+      ]
+    },
+    "piker": {
+      "data-frequency": "28817",
+      "data-relevance": "261",
+      "data-term": "piker",
+      "data-encoded-term": "piker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "28817",
+        "w2v",
+        "1"
+      ]
+    },
+    "movie screen": {
+      "data-frequency": "522",
+      "data-relevance": "260",
+      "data-term": "movie screen",
+      "data-encoded-term": "movie%20screen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "522",
+        "cn5",
+        "1"
+      ]
+    },
+    "run-of-the-mill": {
+      "data-frequency": "31942",
+      "data-relevance": "259",
+      "data-term": "run-of-the-mill",
+      "data-encoded-term": "run-of-the-mill",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "31942",
+        "w2v",
+        "1"
+      ]
+    },
+    "schoolkid": {
+      "data-frequency": "-1",
+      "data-relevance": "258",
+      "data-term": "schoolkid",
+      "data-encoded-term": "schoolkid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "row of seat": {
+      "data-frequency": "-1",
+      "data-relevance": "257",
+      "data-term": "row of seat",
+      "data-encoded-term": "row%20of%20seat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "sideshow": {
+      "data-frequency": "2114",
+      "data-relevance": "256",
+      "data-term": "sideshow",
+      "data-encoded-term": "sideshow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2114",
+        "cn5",
+        "1"
+      ]
+    },
+    "ostentation": {
+      "data-frequency": "347",
+      "data-relevance": "255",
+      "data-term": "ostentation",
+      "data-encoded-term": "ostentation",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "347",
+        "cn5",
+        "1"
+      ]
+    },
+    "slow motion": {
+      "data-frequency": "3279",
+      "data-relevance": "254",
+      "data-term": "slow motion",
+      "data-encoded-term": "slow%20motion",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3279",
+        "cn5",
+        "1"
+      ]
+    },
+    "unluckiest": {
+      "data-frequency": "173",
+      "data-relevance": "253",
+      "data-term": "unluckiest",
+      "data-encoded-term": "unluckiest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "173",
+        "w2v",
+        "1"
+      ]
+    },
+    "film noir": {
+      "data-frequency": "4230",
+      "data-relevance": "252",
+      "data-term": "film noir",
+      "data-encoded-term": "film%20noir",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4230",
+        "cn5",
+        "1"
+      ]
+    },
+    "crankier": {
+      "data-frequency": "-1",
+      "data-relevance": "251",
+      "data-term": "crankier",
+      "data-encoded-term": "crankier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "schlub": {
+      "data-frequency": "53",
+      "data-relevance": "250",
+      "data-term": "schlub",
+      "data-encoded-term": "schlub",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "53",
+        "w2v",
+        "1"
+      ]
+    },
+    "nebraskan": {
+      "data-frequency": "563",
+      "data-relevance": "249",
+      "data-term": "nebraskan",
+      "data-encoded-term": "nebraskan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "563",
+        "w2v",
+        "1"
+      ]
+    },
+    "screenwork": {
+      "data-frequency": "-1",
+      "data-relevance": "248",
+      "data-term": "screenwork",
+      "data-encoded-term": "screenwork",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "backdrop": {
+      "data-frequency": "11654",
+      "data-relevance": "247",
+      "data-term": "backdrop",
+      "data-encoded-term": "backdrop",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11654",
+        "cn5",
+        "1"
+      ]
+    },
+    "graybeard": {
+      "data-frequency": "35",
+      "data-relevance": "246",
+      "data-term": "graybeard",
+      "data-encoded-term": "graybeard",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "35",
+        "w2v",
+        "1"
+      ]
+    },
+    "grump": {
+      "data-frequency": "264",
+      "data-relevance": "245",
+      "data-term": "grump",
+      "data-encoded-term": "grump",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "264",
+        "w2v",
+        "1"
+      ]
+    },
+    "motion picture": {
+      "data-frequency": "41080",
+      "data-relevance": "244",
+      "data-term": "motion picture",
+      "data-encoded-term": "motion%20picture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "41080",
+        "cn5",
+        "1"
+      ]
+    },
+    "national book award": {
+      "data-frequency": "89207",
+      "data-relevance": "243",
+      "data-term": "national book award",
+      "data-encoded-term": "national%20book%20award",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "89207",
+        "wiki",
+        "1"
+      ]
+    },
+    "scriptwriting": {
+      "data-frequency": "808",
+      "data-relevance": "242",
+      "data-term": "scriptwriting",
+      "data-encoded-term": "scriptwriting",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "808",
+        "cn5",
+        "1"
+      ]
+    },
+    "extravaganza": {
+      "data-frequency": "2961",
+      "data-relevance": "241",
+      "data-term": "extravaganza",
+      "data-encoded-term": "extravaganza",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2961",
+        "cn5",
+        "1"
+      ]
+    },
+    "preshow": {
+      "data-frequency": "333",
+      "data-relevance": "240",
+      "data-term": "preshow",
+      "data-encoded-term": "preshow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "333",
+        "cn5",
+        "1"
+      ]
+    },
+    "showie": {
+      "data-frequency": "-1",
+      "data-relevance": "239",
+      "data-term": "showie",
+      "data-encoded-term": "showie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "birder": {
+      "data-frequency": "148",
+      "data-relevance": "238",
+      "data-term": "birder",
+      "data-encoded-term": "birder",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "148",
+        "w2v",
+        "1"
+      ]
+    },
+    "grownup": {
+      "data-frequency": "205",
+      "data-relevance": "237",
+      "data-term": "grownup",
+      "data-encoded-term": "grownup",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "205",
+        "w2v",
+        "1"
+      ]
+    },
+    "guesstimate": {
+      "data-frequency": "47",
+      "data-relevance": "236",
+      "data-term": "guesstimate",
+      "data-encoded-term": "guesstimate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47",
+        "w2v",
+        "1"
+      ]
+    },
+    "schmoes": {
+      "data-frequency": "142",
+      "data-relevance": "235",
+      "data-term": "schmoes",
+      "data-encoded-term": "schmoes",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "142",
+        "w2v",
+        "1"
+      ]
+    },
+    "doornail": {
+      "data-frequency": "-1",
+      "data-relevance": "234",
+      "data-term": "doornail",
+      "data-encoded-term": "doornail",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "kinescope": {
+      "data-frequency": "527",
+      "data-relevance": "233",
+      "data-term": "kinescope",
+      "data-encoded-term": "kinescope",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "527",
+        "cn5",
+        "1"
+      ]
+    },
+    "undercrank": {
+      "data-frequency": "-1",
+      "data-relevance": "232",
+      "data-term": "undercrank",
+      "data-encoded-term": "undercrank",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "undercranked": {
+      "data-frequency": "-1",
+      "data-relevance": "231",
+      "data-term": "undercranked",
+      "data-encoded-term": "undercranked",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "crazier": {
+      "data-frequency": "355",
+      "data-relevance": "230",
+      "data-term": "crazier",
+      "data-encoded-term": "crazier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "355",
+        "w2v",
+        "1"
+      ]
+    },
+    "autoradiograph": {
+      "data-frequency": "-1",
+      "data-relevance": "229",
+      "data-term": "autoradiograph",
+      "data-encoded-term": "autoradiograph",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "worrywart": {
+      "data-frequency": "-1",
+      "data-relevance": "228",
+      "data-term": "worrywart",
+      "data-encoded-term": "worrywart",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "telecommuter": {
+      "data-frequency": "-1",
+      "data-relevance": "227",
+      "data-term": "telecommuter",
+      "data-encoded-term": "telecommuter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "sniffle": {
+      "data-frequency": "42",
+      "data-relevance": "226",
+      "data-term": "sniffle",
+      "data-encoded-term": "sniffle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42",
+        "w2v",
+        "1"
+      ]
+    },
+    "compere": {
+      "data-frequency": "902",
+      "data-relevance": "225",
+      "data-term": "compere",
+      "data-encoded-term": "compere",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "902",
+        "cn5",
+        "1"
+      ]
+    },
+    "prognosticator": {
+      "data-frequency": "64",
+      "data-relevance": "224",
+      "data-term": "prognosticator",
+      "data-encoded-term": "prognosticator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "64",
+        "w2v",
+        "1"
+      ]
+    },
+    "lovestruck": {
+      "data-frequency": "384",
+      "data-relevance": "223",
+      "data-term": "lovestruck",
+      "data-encoded-term": "lovestruck",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "384",
+        "w2v",
+        "1"
+      ]
+    },
+    "camcording": {
+      "data-frequency": "-1",
+      "data-relevance": "222",
+      "data-term": "camcording",
+      "data-encoded-term": "camcording",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "third-fastest": {
+      "data-frequency": "19624",
+      "data-relevance": "221",
+      "data-term": "third-fastest",
+      "data-encoded-term": "third-fastest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19624",
+        "w2v",
+        "1"
+      ]
+    },
+    "superscreen": {
+      "data-frequency": "-1",
+      "data-relevance": "220",
+      "data-term": "superscreen",
+      "data-encoded-term": "superscreen",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "forthshow": {
+      "data-frequency": "-1",
+      "data-relevance": "219",
+      "data-term": "forthshow",
+      "data-encoded-term": "forthshow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "housecleaner": {
+      "data-frequency": "-1",
+      "data-relevance": "218",
+      "data-term": "housecleaner",
+      "data-encoded-term": "housecleaner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "eyeful": {
+      "data-frequency": "114",
+      "data-relevance": "217",
+      "data-term": "eyeful",
+      "data-encoded-term": "eyeful",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "114",
+        "w2v",
+        "1"
+      ]
+    },
+    "coloradan": {
+      "data-frequency": "462",
+      "data-relevance": "216",
+      "data-term": "coloradan",
+      "data-encoded-term": "coloradan",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "462",
+        "w2v",
+        "1"
+      ]
+    },
+    "pipsqueak": {
+      "data-frequency": "98",
+      "data-relevance": "215",
+      "data-term": "pipsqueak",
+      "data-encoded-term": "pipsqueak",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "98",
+        "w2v",
+        "1"
+      ]
+    },
+    "has-been": {
+      "data-frequency": "802280",
+      "data-relevance": "214",
+      "data-term": "has-been",
+      "data-encoded-term": "has-been",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "802280",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonperson": {
+      "data-frequency": "-1",
+      "data-relevance": "213",
+      "data-term": "nonperson",
+      "data-encoded-term": "nonperson",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "bonafide": {
+      "data-frequency": "657",
+      "data-relevance": "212",
+      "data-term": "bonafide",
+      "data-encoded-term": "bonafide",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "657",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheapskate": {
+      "data-frequency": "136",
+      "data-relevance": "211",
+      "data-term": "cheapskate",
+      "data-encoded-term": "cheapskate",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "136",
+        "w2v",
+        "1"
+      ]
+    },
+    "borking": {
+      "data-frequency": "1174",
+      "data-relevance": "210",
+      "data-term": "borking",
+      "data-encoded-term": "borking",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1174",
+        "w2v",
+        "1"
+      ]
+    },
+    "squirrelly": {
+      "data-frequency": "54",
+      "data-relevance": "209",
+      "data-term": "squirrelly",
+      "data-encoded-term": "squirrelly",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "54",
+        "w2v",
+        "1"
+      ]
+    },
+    "oldster": {
+      "data-frequency": "-1",
+      "data-relevance": "208",
+      "data-term": "oldster",
+      "data-encoded-term": "oldster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "nitpicker": {
+      "data-frequency": "-1",
+      "data-relevance": "207",
+      "data-term": "nitpicker",
+      "data-encoded-term": "nitpicker",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "fussier": {
+      "data-frequency": "981",
+      "data-relevance": "206",
+      "data-term": "fussier",
+      "data-encoded-term": "fussier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "981",
+        "w2v",
+        "1"
+      ]
+    },
+    "overexpose": {
+      "data-frequency": "-1",
+      "data-relevance": "205",
+      "data-term": "overexpose",
+      "data-encoded-term": "overexpose",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nanosecond": {
+      "data-frequency": "323",
+      "data-relevance": "204",
+      "data-term": "nanosecond",
+      "data-encoded-term": "nanosecond",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "323",
+        "w2v",
+        "1"
+      ]
+    },
+    "postfeminist": {
+      "data-frequency": "73",
+      "data-relevance": "203",
+      "data-term": "postfeminist",
+      "data-encoded-term": "postfeminist",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "73",
+        "w2v",
+        "1"
+      ]
+    },
+    "showlike": {
+      "data-frequency": "-1",
+      "data-relevance": "202",
+      "data-term": "showlike",
+      "data-encoded-term": "showlike",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "supershow": {
+      "data-frequency": "779",
+      "data-relevance": "201",
+      "data-term": "supershow",
+      "data-encoded-term": "supershow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "779",
+        "cn5",
+        "1"
+      ]
+    },
+    "christ-like": {
+      "data-frequency": "22061",
+      "data-relevance": "200",
+      "data-term": "christ-like",
+      "data-encoded-term": "christ-like",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "22061",
+        "w2v",
+        "1"
+      ]
+    },
+    "whaddaya": {
+      "data-frequency": "-1",
+      "data-relevance": "199",
+      "data-term": "whaddaya",
+      "data-encoded-term": "whaddaya",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "nonissue": {
+      "data-frequency": "-1",
+      "data-relevance": "198",
+      "data-term": "nonissue",
+      "data-encoded-term": "nonissue",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "home movie": {
+      "data-frequency": "911",
+      "data-relevance": "197",
+      "data-term": "home movie",
+      "data-encoded-term": "home%20movie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "911",
+        "cn5",
+        "1"
+      ]
+    },
+    "perspicacious": {
+      "data-frequency": "76",
+      "data-relevance": "196",
+      "data-term": "perspicacious",
+      "data-encoded-term": "perspicacious",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "76",
+        "w2v",
+        "1"
+      ]
+    },
+    "procrastinator": {
+      "data-frequency": "168",
+      "data-relevance": "195",
+      "data-term": "procrastinator",
+      "data-encoded-term": "procrastinator",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "168",
+        "w2v",
+        "1"
+      ]
+    },
+    "filmcoated": {
+      "data-frequency": "-1",
+      "data-relevance": "194",
+      "data-term": "filmcoated",
+      "data-encoded-term": "filmcoated",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "doofus": {
+      "data-frequency": "116",
+      "data-relevance": "193",
+      "data-term": "doofus",
+      "data-encoded-term": "doofus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "116",
+        "w2v",
+        "1"
+      ]
+    },
+    "showable": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "showable",
+      "data-encoded-term": "showable",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "kindergartner": {
+      "data-frequency": "58",
+      "data-relevance": "191",
+      "data-term": "kindergartner",
+      "data-encoded-term": "kindergartner",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "58",
+        "w2v",
+        "1"
+      ]
+    },
+    "oenophile": {
+      "data-frequency": "-1",
+      "data-relevance": "190",
+      "data-term": "oenophile",
+      "data-encoded-term": "oenophile",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "fortune-teller": {
+      "data-frequency": "2281",
+      "data-relevance": "189",
+      "data-term": "fortune-teller",
+      "data-encoded-term": "fortune-teller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2281",
+        "w2v",
+        "1"
+      ]
+    },
+    "layabouts": {
+      "data-frequency": "50",
+      "data-relevance": "188",
+      "data-term": "layabouts",
+      "data-encoded-term": "layabouts",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "50",
+        "w2v",
+        "1"
+      ]
+    },
+    "curiousity": {
+      "data-frequency": "-1",
+      "data-relevance": "187",
+      "data-term": "curiousity",
+      "data-encoded-term": "curiousity",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "show movie": {
+      "data-frequency": "133",
+      "data-relevance": "186",
+      "data-term": "show movie",
+      "data-encoded-term": "show%20movie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "133",
+        "cn5",
+        "1"
+      ]
+    },
+    "cybersquatter": {
+      "data-frequency": "-1",
+      "data-relevance": "185",
+      "data-term": "cybersquatter",
+      "data-encoded-term": "cybersquatter",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "metrosexual": {
+      "data-frequency": "166",
+      "data-relevance": "184",
+      "data-term": "metrosexual",
+      "data-encoded-term": "metrosexual",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "166",
+        "w2v",
+        "1"
+      ]
+    },
+    "movie theatre space": {
+      "data-frequency": "-1",
+      "data-relevance": "183",
+      "data-term": "movie theatre space",
+      "data-encoded-term": "movie%20theatre%20space",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonevent": {
+      "data-frequency": "-1",
+      "data-relevance": "182",
+      "data-term": "nonevent",
+      "data-encoded-term": "nonevent",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "rowdier": {
+      "data-frequency": "5277",
+      "data-relevance": "181",
+      "data-term": "rowdier",
+      "data-encoded-term": "rowdier",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5277",
+        "w2v",
+        "1"
+      ]
+    },
+    "150-pound": {
+      "data-frequency": "11544",
+      "data-relevance": "180",
+      "data-term": "150-pound",
+      "data-encoded-term": "150-pound",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11544",
+        "w2v",
+        "1"
+      ]
+    },
+    "fortuneteller": {
+      "data-frequency": "246",
+      "data-relevance": "179",
+      "data-term": "fortuneteller",
+      "data-encoded-term": "fortuneteller",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "246",
+        "w2v",
+        "1"
+      ]
+    },
+    "egomaniacal": {
+      "data-frequency": "102",
+      "data-relevance": "178",
+      "data-term": "egomaniacal",
+      "data-encoded-term": "egomaniacal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "102",
+        "w2v",
+        "1"
+      ]
+    },
+    "80-something": {
+      "data-frequency": "-1",
+      "data-relevance": "177",
+      "data-term": "80-something",
+      "data-encoded-term": "80-something",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "attaboy": {
+      "data-frequency": "88",
+      "data-relevance": "176",
+      "data-term": "attaboy",
+      "data-encoded-term": "attaboy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "88",
+        "w2v",
+        "1"
+      ]
+    },
+    "adventuresome": {
+      "data-frequency": "154",
+      "data-relevance": "175",
+      "data-term": "adventuresome",
+      "data-encoded-term": "adventuresome",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "154",
+        "w2v",
+        "1"
+      ]
+    },
+    "channeler": {
+      "data-frequency": "50",
+      "data-relevance": "174",
+      "data-term": "channeler",
+      "data-encoded-term": "channeler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "50",
+        "w2v",
+        "1"
+      ]
+    },
+    "clich": {
+      "data-frequency": "-1",
+      "data-relevance": "173",
+      "data-term": "clich",
+      "data-encoded-term": "clich",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "kinetoscope": {
+      "data-frequency": "226",
+      "data-relevance": "172",
+      "data-term": "kinetoscope",
+      "data-encoded-term": "kinetoscope",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "cn5",
+        "1"
+      ]
+    },
+    "crueller": {
+      "data-frequency": "32",
+      "data-relevance": "171",
+      "data-term": "crueller",
+      "data-encoded-term": "crueller",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "32",
+        "w2v",
+        "1"
+      ]
+    },
+    "stagehand": {
+      "data-frequency": "457",
+      "data-relevance": "170",
+      "data-term": "stagehand",
+      "data-encoded-term": "stagehand",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "457",
+        "w2v",
+        "1"
+      ]
+    },
+    "arriviste": {
+      "data-frequency": "-1",
+      "data-relevance": "169",
+      "data-term": "arriviste",
+      "data-encoded-term": "arriviste",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "preschooler": {
+      "data-frequency": "113",
+      "data-relevance": "168",
+      "data-term": "preschooler",
+      "data-encoded-term": "preschooler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "113",
+        "w2v",
+        "1"
+      ]
+    },
+    "popcorn movie": {
+      "data-frequency": "48",
+      "data-relevance": "167",
+      "data-term": "popcorn movie",
+      "data-encoded-term": "popcorn%20movie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "goofball": {
+      "data-frequency": "196",
+      "data-relevance": "166",
+      "data-term": "goofball",
+      "data-encoded-term": "goofball",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "196",
+        "w2v",
+        "1"
+      ]
+    },
+    "marathoning": {
+      "data-frequency": "32503",
+      "data-relevance": "165",
+      "data-term": "marathoning",
+      "data-encoded-term": "marathoning",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "32503",
+        "w2v",
+        "1"
+      ]
+    },
+    "30-something": {
+      "data-frequency": "73436",
+      "data-relevance": "164",
+      "data-term": "30-something",
+      "data-encoded-term": "30-something",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "73436",
+        "w2v",
+        "1"
+      ]
+    },
+    "druggie": {
+      "data-frequency": "78",
+      "data-relevance": "163",
+      "data-term": "druggie",
+      "data-encoded-term": "druggie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "78",
+        "w2v",
+        "1"
+      ]
+    },
+    "weirder": {
+      "data-frequency": "338",
+      "data-relevance": "162",
+      "data-term": "weirder",
+      "data-encoded-term": "weirder",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "338",
+        "w2v",
+        "1"
+      ]
+    },
+    "good-for-nothing": {
+      "data-frequency": "539",
+      "data-relevance": "161",
+      "data-term": "good-for-nothing",
+      "data-encoded-term": "good-for-nothing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "539",
+        "w2v",
+        "1"
+      ]
+    },
+    "movie star": {
+      "data-frequency": "4456",
+      "data-relevance": "160",
+      "data-term": "movie star",
+      "data-encoded-term": "movie%20star",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4456",
+        "cn5",
+        "1"
+      ]
+    },
+    "shrink wrap": {
+      "data-frequency": "188",
+      "data-relevance": "159",
+      "data-term": "shrink wrap",
+      "data-encoded-term": "shrink%20wrap",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "188",
+        "cn5",
+        "1"
+      ]
+    },
+    "mumblecore": {
+      "data-frequency": "135",
+      "data-relevance": "158",
+      "data-term": "mumblecore",
+      "data-encoded-term": "mumblecore",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "135",
+        "cn5",
+        "1"
+      ]
+    },
+    "movie theater": {
+      "data-frequency": "5176",
+      "data-relevance": "157",
+      "data-term": "movie theater",
+      "data-encoded-term": "movie%20theater",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5176",
+        "cn5",
+        "1"
+      ]
+    },
+    "dante": {
+      "data-frequency": "16022",
+      "data-relevance": "156",
+      "data-term": "dante",
+      "data-encoded-term": "dante",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16022",
+        "wiki",
+        "1"
+      ]
+    },
+    "movie ticket": {
+      "data-frequency": "137",
+      "data-relevance": "155",
+      "data-term": "movie ticket",
+      "data-encoded-term": "movie%20ticket",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "137",
+        "cn5",
+        "1"
+      ]
+    },
+    "filmable": {
+      "data-frequency": "-1",
+      "data-relevance": "154",
+      "data-term": "filmable",
+      "data-encoded-term": "filmable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "star trek": {
+      "data-frequency": "12429",
+      "data-relevance": "153",
+      "data-term": "star trek",
+      "data-encoded-term": "star%20trek",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12429",
+        "cn5",
+        "1"
+      ]
+    },
+    "stalkumentary": {
+      "data-frequency": "-1",
+      "data-relevance": "152",
+      "data-term": "stalkumentary",
+      "data-encoded-term": "stalkumentary",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "telescreen": {
+      "data-frequency": "72",
+      "data-relevance": "151",
+      "data-term": "telescreen",
+      "data-encoded-term": "telescreen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "72",
+        "cn5",
+        "1"
+      ]
+    },
+    "freeze frame": {
+      "data-frequency": "549",
+      "data-relevance": "150",
+      "data-term": "freeze frame",
+      "data-encoded-term": "freeze%20frame",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "549",
+        "cn5",
+        "1"
+      ]
+    },
+    "at theater": {
+      "data-frequency": "502",
+      "data-relevance": "149",
+      "data-term": "at theater",
+      "data-encoded-term": "at%20theater",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "502",
+        "cn5",
+        "1"
+      ]
+    },
+    "silver screen": {
+      "data-frequency": "2658",
+      "data-relevance": "148",
+      "data-term": "silver screen",
+      "data-encoded-term": "silver%20screen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2658",
+        "cn5",
+        "1"
+      ]
+    },
+    "unfilmed": {
+      "data-frequency": "193",
+      "data-relevance": "147",
+      "data-term": "unfilmed",
+      "data-encoded-term": "unfilmed",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "193",
+        "cn5",
+        "1"
+      ]
+    },
+    "fun to watch": {
+      "data-frequency": "453",
+      "data-relevance": "146",
+      "data-term": "fun to watch",
+      "data-encoded-term": "fun%20to%20watch",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "453",
+        "cn5",
+        "1"
+      ]
+    },
+    "ostentate": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "ostentate",
+      "data-encoded-term": "ostentate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "photofinisher": {
+      "data-frequency": "-1",
+      "data-relevance": "144",
+      "data-term": "photofinisher",
+      "data-encoded-term": "photofinisher",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "overexposure": {
+      "data-frequency": "441",
+      "data-relevance": "143",
+      "data-term": "overexposure",
+      "data-encoded-term": "overexposure",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "441",
+        "cn5",
+        "1"
+      ]
+    },
+    "telerecording": {
+      "data-frequency": "119",
+      "data-relevance": "142",
+      "data-term": "telerecording",
+      "data-encoded-term": "telerecording",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "119",
+        "cn5",
+        "1"
+      ]
+    },
+    "closeup": {
+      "data-frequency": "2610",
+      "data-relevance": "141",
+      "data-term": "closeup",
+      "data-encoded-term": "closeup",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2610",
+        "cn5",
+        "1"
+      ]
+    },
+    "sword and sorcery": {
+      "data-frequency": "951",
+      "data-relevance": "140",
+      "data-term": "sword and sorcery",
+      "data-encoded-term": "sword%20and%20sorcery",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "951",
+        "cn5",
+        "1"
+      ]
+    },
+    "theater box": {
+      "data-frequency": "45",
+      "data-relevance": "139",
+      "data-term": "theater box",
+      "data-encoded-term": "theater%20box",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "downstage": {
+      "data-frequency": "280",
+      "data-relevance": "138",
+      "data-term": "downstage",
+      "data-encoded-term": "downstage",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "280",
+        "cn5",
+        "1"
+      ]
+    },
+    "film at 11": {
+      "data-frequency": "-1",
+      "data-relevance": "137",
+      "data-term": "film at 11",
+      "data-encoded-term": "film%20at%2011",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "baby wrangler": {
+      "data-frequency": "-1",
+      "data-relevance": "136",
+      "data-term": "baby wrangler",
+      "data-encoded-term": "baby%20wrangler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "chick flick": {
+      "data-frequency": "133",
+      "data-relevance": "135",
+      "data-term": "chick flick",
+      "data-encoded-term": "chick%20flick",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "133",
+        "cn5",
+        "1"
+      ]
+    },
+    "horror movie": {
+      "data-frequency": "3594",
+      "data-relevance": "134",
+      "data-term": "horror movie",
+      "data-encoded-term": "horror%20movie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3594",
+        "cn5",
+        "1"
+      ]
+    },
+    "screener": {
+      "data-frequency": "596",
+      "data-relevance": "133",
+      "data-term": "screener",
+      "data-encoded-term": "screener",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "596",
+        "cn5",
+        "1"
+      ]
+    },
+    "modern library": {
+      "data-frequency": "84554",
+      "data-relevance": "132",
+      "data-term": "modern library",
+      "data-encoded-term": "modern%20library",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "84554",
+        "wiki",
+        "1"
+      ]
+    },
+    "lobby card": {
+      "data-frequency": "1961",
+      "data-relevance": "131",
+      "data-term": "lobby card",
+      "data-encoded-term": "lobby%20card",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1961",
+        "cn5",
+        "1"
+      ]
+    },
+    "big picture": {
+      "data-frequency": "2607",
+      "data-relevance": "130",
+      "data-term": "big picture",
+      "data-encoded-term": "big%20picture",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2607",
+        "cn5",
+        "1"
+      ]
+    },
+    "anti fandom": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "anti fandom",
+      "data-encoded-term": "anti%20fandom",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "box office": {
+      "data-frequency": "52251",
+      "data-relevance": "128",
+      "data-term": "box office",
+      "data-encoded-term": "box%20office",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52251",
+        "cn5",
+        "1"
+      ]
+    },
+    "on television": {
+      "data-frequency": "32289",
+      "data-relevance": "127",
+      "data-term": "on television",
+      "data-encoded-term": "on%20television",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "32289",
+        "cn5",
+        "1"
+      ]
+    },
+    "voice actor": {
+      "data-frequency": "11862",
+      "data-relevance": "126",
+      "data-term": "voice actor",
+      "data-encoded-term": "voice%20actor",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "11862",
+        "cn5",
+        "1"
+      ]
+    },
+    "view audience": {
+      "data-frequency": "-1",
+      "data-relevance": "125",
+      "data-term": "view audience",
+      "data-encoded-term": "view%20audience",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "balcony seat": {
+      "data-frequency": "-1",
+      "data-relevance": "124",
+      "data-term": "balcony seat",
+      "data-encoded-term": "balcony%20seat",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "theater ticket": {
+      "data-frequency": "46",
+      "data-relevance": "123",
+      "data-term": "theater ticket",
+      "data-encoded-term": "theater%20ticket",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "home video": {
+      "data-frequency": "13263",
+      "data-relevance": "122",
+      "data-term": "home video",
+      "data-encoded-term": "home%20video",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13263",
+        "cn5",
+        "1"
+      ]
+    },
+    "media maven": {
+      "data-frequency": "-1",
+      "data-relevance": "121",
+      "data-term": "media maven",
+      "data-encoded-term": "media%20maven",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "goer": {
+      "data-frequency": "844",
+      "data-relevance": "120",
+      "data-term": "goer",
+      "data-encoded-term": "goer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "844",
+        "ol",
+        "1"
+      ]
+    },
+    "cineplex": {
+      "data-frequency": "925",
+      "data-relevance": "119",
+      "data-term": "cineplex",
+      "data-encoded-term": "cineplex",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "925",
+        "ol",
+        "1"
+      ]
+    },
+    "traveler": {
+      "data-frequency": "10679",
+      "data-relevance": "118",
+      "data-term": "traveler",
+      "data-encoded-term": "traveler",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10679",
+        "ol",
+        "1"
+      ]
+    },
+    "auteur": {
+      "data-frequency": "1783",
+      "data-relevance": "117",
+      "data-term": "auteur",
+      "data-encoded-term": "auteur",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1783",
+        "ol",
+        "1"
+      ]
+    },
+    "flicks": {
+      "data-frequency": "2098",
+      "data-relevance": "116",
+      "data-term": "flicks",
+      "data-encoded-term": "flicks",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2098",
+        "ol",
+        "1"
+      ]
+    },
+    "helmer": {
+      "data-frequency": "2558",
+      "data-relevance": "115",
+      "data-term": "helmer",
+      "data-encoded-term": "helmer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2558",
+        "ol",
+        "1"
+      ]
+    },
+    "sequels": {
+      "data-frequency": "10287",
+      "data-relevance": "114",
+      "data-term": "sequels",
+      "data-encoded-term": "sequels",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10287",
+        "ol",
+        "1"
+      ]
+    },
+    "shopper": {
+      "data-frequency": "1922",
+      "data-relevance": "113",
+      "data-term": "shopper",
+      "data-encoded-term": "shopper",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1922",
+        "ol|reverse-net",
+        "1"
+      ]
+    },
+    "multiplex": {
+      "data-frequency": "5500",
+      "data-relevance": "112",
+      "data-term": "multiplex",
+      "data-encoded-term": "multiplex",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5500",
+        "ol",
+        "1"
+      ]
+    },
+    "beowulf": {
+      "data-frequency": "2318",
+      "data-relevance": "111",
+      "data-term": "beowulf",
+      "data-encoded-term": "beowulf",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2318",
+        "ol",
+        "1"
+      ]
+    },
+    "gamer": {
+      "data-frequency": "10439",
+      "data-relevance": "110",
+      "data-term": "gamer",
+      "data-encoded-term": "gamer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10439",
+        "ol",
+        "1"
+      ]
+    },
+    "grosser": {
+      "data-frequency": "4064",
+      "data-relevance": "109",
+      "data-term": "grosser",
+      "data-encoded-term": "grosser",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4064",
+        "ol",
+        "1"
+      ]
+    },
+    "theaters": {
+      "data-frequency": "23323",
+      "data-relevance": "108",
+      "data-term": "theaters",
+      "data-encoded-term": "theaters",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "23323",
+        "ol",
+        "1"
+      ]
+    },
+    "screenwriter": {
+      "data-frequency": "33828",
+      "data-relevance": "107",
+      "data-term": "screenwriter",
+      "data-encoded-term": "screenwriter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "33828",
+        "ol",
+        "1"
+      ]
+    },
+    "blockbusters": {
+      "data-frequency": "1655",
+      "data-relevance": "106",
+      "data-term": "blockbusters",
+      "data-encoded-term": "blockbusters",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1655",
+        "ol",
+        "1"
+      ]
+    },
+    "genre": {
+      "data-frequency": "404125",
+      "data-relevance": "105",
+      "data-term": "genre",
+      "data-encoded-term": "genre",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "404125",
+        "ol",
+        "1"
+      ]
+    },
+    "resnais": {
+      "data-frequency": "489",
+      "data-relevance": "104",
+      "data-term": "resnais",
+      "data-encoded-term": "resnais",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "489",
+        "ol",
+        "1"
+      ]
+    },
+    "kubrick": {
+      "data-frequency": "1570",
+      "data-relevance": "103",
+      "data-term": "kubrick",
+      "data-encoded-term": "kubrick",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1570",
+        "ol",
+        "1"
+      ]
+    },
+    "asker": {
+      "data-frequency": "2177",
+      "data-relevance": "102",
+      "data-term": "asker",
+      "data-encoded-term": "asker",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2177",
+        "ol",
+        "1"
+      ]
+    },
+    "reviewer": {
+      "data-frequency": "22787",
+      "data-relevance": "101",
+      "data-term": "reviewer",
+      "data-encoded-term": "reviewer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "22787",
+        "ol",
+        "1"
+      ]
+    },
+    "gore": {
+      "data-frequency": "21628",
+      "data-relevance": "100",
+      "data-term": "gore",
+      "data-encoded-term": "gore",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "21628",
+        "ol",
+        "1"
+      ]
+    },
+    "slasher": {
+      "data-frequency": "2819",
+      "data-relevance": "99",
+      "data-term": "slasher",
+      "data-encoded-term": "slasher",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2819",
+        "ol",
+        "1"
+      ]
+    },
+    "romancer": {
+      "data-frequency": "64185",
+      "data-relevance": "98",
+      "data-term": "romancer",
+      "data-encoded-term": "romancer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "64185",
+        "ol",
+        "1"
+      ]
+    },
+    "conventionality": {
+      "data-frequency": "143",
+      "data-relevance": "97",
+      "data-term": "conventionality",
+      "data-encoded-term": "conventionality",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "143",
+        "ol",
+        "1"
+      ]
+    },
+    "horror": {
+      "data-frequency": "62310",
+      "data-relevance": "96",
+      "data-term": "horror",
+      "data-encoded-term": "horror",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "62310",
+        "ol",
+        "1"
+      ]
+    },
+    "comedies": {
+      "data-frequency": "10731",
+      "data-relevance": "95",
+      "data-term": "comedies",
+      "data-encoded-term": "comedies",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "10731",
+        "ol",
+        "1"
+      ]
+    },
+    "peckinpah": {
+      "data-frequency": "494",
+      "data-relevance": "94",
+      "data-term": "peckinpah",
+      "data-encoded-term": "peckinpah",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "494",
+        "ol",
+        "1"
+      ]
+    },
+    "attendee": {
+      "data-frequency": "1294",
+      "data-relevance": "93",
+      "data-term": "attendee",
+      "data-encoded-term": "attendee",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1294",
+        "ol",
+        "1"
+      ]
+    },
+    "person": {
+      "data-frequency": "506299",
+      "data-relevance": "92",
+      "data-term": "person",
+      "data-encoded-term": "person",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "506299",
+        "ol",
+        "1"
+      ]
+    },
+    "bertolucci": {
+      "data-frequency": "968",
+      "data-relevance": "91",
+      "data-term": "bertolucci",
+      "data-encoded-term": "bertolucci",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "968",
+        "ol",
+        "1"
+      ]
+    },
+    "directorial": {
+      "data-frequency": "14888",
+      "data-relevance": "90",
+      "data-term": "directorial",
+      "data-encoded-term": "directorial",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14888",
+        "ol",
+        "1"
+      ]
+    },
+    "drive in movie": {
+      "data-frequency": "412",
+      "data-relevance": "89",
+      "data-term": "drive in movie",
+      "data-encoded-term": "drive%20in%20movie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "412",
+        "cn5",
+        "1"
+      ]
+    },
+    "action movie": {
+      "data-frequency": "2360",
+      "data-relevance": "88",
+      "data-term": "action movie",
+      "data-encoded-term": "action%20movie",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2360",
+        "cn5",
+        "1"
+      ]
+    },
+    "variety show": {
+      "data-frequency": "6727",
+      "data-relevance": "87",
+      "data-term": "variety show",
+      "data-encoded-term": "variety%20show",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6727",
+        "cn5",
+        "1"
+      ]
+    },
+    "modern library 100 best novels": {
+      "data-frequency": "4165",
+      "data-relevance": "86",
+      "data-term": "modern library 100 best novels",
+      "data-encoded-term": "modern%20library%20100%20best%20novels",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4165",
+        "wiki",
+        "1"
+      ]
+    },
+    "video camera": {
+      "data-frequency": "2173",
+      "data-relevance": "85",
+      "data-term": "video camera",
+      "data-encoded-term": "video%20camera",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2173",
+        "cn5",
+        "1"
+      ]
+    },
+    "fade to black": {
+      "data-frequency": "1209",
+      "data-relevance": "84",
+      "data-term": "fade to black",
+      "data-encoded-term": "fade%20to%20black",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1209",
+        "cn5",
+        "1"
+      ]
+    },
+    "multiple exposure": {
+      "data-frequency": "432",
+      "data-relevance": "83",
+      "data-term": "multiple exposure",
+      "data-encoded-term": "multiple%20exposure",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "432",
+        "cn5",
+        "1"
+      ]
+    },
+    "horse opera": {
+      "data-frequency": "79",
+      "data-relevance": "82",
+      "data-term": "horse opera",
+      "data-encoded-term": "horse%20opera",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "double exposure": {
+      "data-frequency": "973",
+      "data-relevance": "81",
+      "data-term": "double exposure",
+      "data-encoded-term": "double%20exposure",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "973",
+        "cn5",
+        "1"
+      ]
+    },
+    "puppet show": {
+      "data-frequency": "1035",
+      "data-relevance": "80",
+      "data-term": "puppet show",
+      "data-encoded-term": "puppet%20show",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1035",
+        "cn5",
+        "1"
+      ]
+    },
+    "animate cartoon": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "animate cartoon",
+      "data-encoded-term": "animate%20cartoon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "film set": {
+      "data-frequency": "3385",
+      "data-relevance": "78",
+      "data-term": "film set",
+      "data-encoded-term": "film%20set",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3385",
+        "cn5",
+        "1"
+      ]
+    },
+    "theater company": {
+      "data-frequency": "3030",
+      "data-relevance": "77",
+      "data-term": "theater company",
+      "data-encoded-term": "theater%20company",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3030",
+        "cn5",
+        "1"
+      ]
+    },
+    "film director": {
+      "data-frequency": "43946",
+      "data-relevance": "76",
+      "data-term": "film director",
+      "data-encoded-term": "film%20director",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "43946",
+        "cn5",
+        "1"
+      ]
+    },
+    "theater seat": {
+      "data-frequency": "-1",
+      "data-relevance": "75",
+      "data-term": "theater seat",
+      "data-encoded-term": "theater%20seat",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "concession stand": {
+      "data-frequency": "656",
+      "data-relevance": "74",
+      "data-term": "concession stand",
+      "data-encoded-term": "concession%20stand",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "656",
+        "cn5",
+        "1"
+      ]
+    },
+    "stage curtain": {
+      "data-frequency": "124",
+      "data-relevance": "73",
+      "data-term": "stage curtain",
+      "data-encoded-term": "stage%20curtain",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "124",
+        "cn5",
+        "1"
+      ]
+    },
+    "ice show": {
+      "data-frequency": "340",
+      "data-relevance": "72",
+      "data-term": "ice show",
+      "data-encoded-term": "ice%20show",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "340",
+        "cn5",
+        "1"
+      ]
+    },
+    "shutter speed": {
+      "data-frequency": "1024",
+      "data-relevance": "71",
+      "data-term": "shutter speed",
+      "data-encoded-term": "shutter%20speed",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1024",
+        "cn5",
+        "1"
+      ]
+    },
+    "ticket booth": {
+      "data-frequency": "391",
+      "data-relevance": "70",
+      "data-term": "ticket booth",
+      "data-encoded-term": "ticket%20booth",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "391",
+        "cn5",
+        "1"
+      ]
+    },
+    "cinephile": {
+      "data-frequency": "361",
+      "data-relevance": "69",
+      "data-term": "cinephile",
+      "data-encoded-term": "cinephile",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "361",
+        "ol",
+        "1"
+      ]
+    },
+    "filmgoers": {
+      "data-frequency": "505",
+      "data-relevance": "68",
+      "data-term": "filmgoers",
+      "data-encoded-term": "filmgoers",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "505",
+        "ol",
+        "1"
+      ]
+    },
+    "theatregoer": {
+      "data-frequency": "50",
+      "data-relevance": "67",
+      "data-term": "theatregoer",
+      "data-encoded-term": "theatregoer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "50",
+        "ol",
+        "1"
+      ]
+    },
+    "cineaste": {
+      "data-frequency": "623",
+      "data-relevance": "66",
+      "data-term": "cineaste",
+      "data-encoded-term": "cineaste",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "623",
+        "ol",
+        "1"
+      ]
+    },
+    "moviemaker": {
+      "data-frequency": "583",
+      "data-relevance": "65",
+      "data-term": "moviemaker",
+      "data-encoded-term": "moviemaker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "583",
+        "ol",
+        "1"
+      ]
+    },
+    "playgoer": {
+      "data-frequency": "82",
+      "data-relevance": "64",
+      "data-term": "playgoer",
+      "data-encoded-term": "playgoer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "82",
+        "ol",
+        "1"
+      ]
+    },
+    "boxoffice": {
+      "data-frequency": "1151",
+      "data-relevance": "63",
+      "data-term": "boxoffice",
+      "data-encoded-term": "boxoffice",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1151",
+        "ol",
+        "1"
+      ]
+    },
+    "fanboy": {
+      "data-frequency": "884",
+      "data-relevance": "62",
+      "data-term": "fanboy",
+      "data-encoded-term": "fanboy",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "884",
+        "ol",
+        "1"
+      ]
+    },
+    "hackwork": {
+      "data-frequency": "46",
+      "data-relevance": "61",
+      "data-term": "hackwork",
+      "data-encoded-term": "hackwork",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "weepie": {
+      "data-frequency": "61",
+      "data-relevance": "60",
+      "data-term": "weepie",
+      "data-encoded-term": "weepie",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "61",
+        "ol",
+        "1"
+      ]
+    },
+    "actioner": {
+      "data-frequency": "227",
+      "data-relevance": "59",
+      "data-term": "actioner",
+      "data-encoded-term": "actioner",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "227",
+        "ol",
+        "1"
+      ]
+    },
+    "snacker": {
+      "data-frequency": "23",
+      "data-relevance": "58",
+      "data-term": "snacker",
+      "data-encoded-term": "snacker",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "23",
+        "ol",
+        "1"
+      ]
+    },
+    "completist": {
+      "data-frequency": "53",
+      "data-relevance": "57",
+      "data-term": "completist",
+      "data-encoded-term": "completist",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "antiheroine": {
+      "data-frequency": "54",
+      "data-relevance": "56",
+      "data-term": "antiheroine",
+      "data-encoded-term": "antiheroine",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "54",
+        "ol",
+        "1"
+      ]
+    },
+    "unoriginality": {
+      "data-frequency": "72",
+      "data-relevance": "55",
+      "data-term": "unoriginality",
+      "data-encoded-term": "unoriginality",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "72",
+        "ol",
+        "1"
+      ]
+    },
+    "romcom": {
+      "data-frequency": "196",
+      "data-relevance": "54",
+      "data-term": "romcom",
+      "data-encoded-term": "romcom",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "196",
+        "ol",
+        "1"
+      ]
+    },
+    "zinnemann": {
+      "data-frequency": "394",
+      "data-relevance": "53",
+      "data-term": "zinnemann",
+      "data-encoded-term": "zinnemann",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "394",
+        "ol",
+        "1"
+      ]
+    },
+    "budgeter": {
+      "data-frequency": "102620",
+      "data-relevance": "52",
+      "data-term": "budgeter",
+      "data-encoded-term": "budgeter",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "102620",
+        "ol",
+        "1"
+      ]
+    },
+    "middlebrow": {
+      "data-frequency": "178",
+      "data-relevance": "51",
+      "data-term": "middlebrow",
+      "data-encoded-term": "middlebrow",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "178",
+        "ol",
+        "1"
+      ]
+    },
+    "schmoe": {
+      "data-frequency": "47",
+      "data-relevance": "50",
+      "data-term": "schmoe",
+      "data-encoded-term": "schmoe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "straphanger": {
+      "data-frequency": "80",
+      "data-relevance": "49",
+      "data-term": "straphanger",
+      "data-encoded-term": "straphanger",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "ol",
+        "1"
+      ]
+    },
+    "schlump": {
+      "data-frequency": "51",
+      "data-relevance": "48",
+      "data-term": "schlump",
+      "data-encoded-term": "schlump",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "51",
+        "ol",
+        "1"
+      ]
+    },
+    "oaters": {
+      "data-frequency": "-1",
+      "data-relevance": "47",
+      "data-term": "oaters",
+      "data-encoded-term": "oaters",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "megaplex": {
+      "data-frequency": "176",
+      "data-relevance": "46",
+      "data-term": "megaplex",
+      "data-encoded-term": "megaplex",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "176",
+        "ol",
+        "1"
+      ]
+    },
+    "booklover": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "booklover",
+      "data-encoded-term": "booklover",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "shlub": {
+      "data-frequency": "-1",
+      "data-relevance": "44",
+      "data-term": "shlub",
+      "data-encoded-term": "shlub",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sorehead": {
+      "data-frequency": "-1",
+      "data-relevance": "43",
+      "data-term": "sorehead",
+      "data-encoded-term": "sorehead",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "pulpier": {
+      "data-frequency": "-1",
+      "data-relevance": "42",
+      "data-term": "pulpier",
+      "data-encoded-term": "pulpier",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "fussbudget": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "fussbudget",
+      "data-encoded-term": "fussbudget",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "schlockmeister": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "schlockmeister",
+      "data-encoded-term": "schlockmeister",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "schlock": {
+      "data-frequency": "459",
+      "data-relevance": "39",
+      "data-term": "schlock",
+      "data-encoded-term": "schlock",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "459",
+        "ol",
+        "1"
+      ]
+    },
+    "technophile": {
+      "data-frequency": "-1",
+      "data-relevance": "38",
+      "data-term": "technophile",
+      "data-encoded-term": "technophile",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "sex scene": {
+      "data-frequency": "1030",
+      "data-relevance": "37",
+      "data-term": "sex scene",
+      "data-encoded-term": "sex%20scene",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1030",
+        "cn5",
+        "1"
+      ]
+    },
+    "body double": {
+      "data-frequency": "1044",
+      "data-relevance": "36",
+      "data-term": "body double",
+      "data-encoded-term": "body%20double",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1044",
+        "cn5",
+        "1"
+      ]
+    },
+    "movie theater seat": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "movie theater seat",
+      "data-encoded-term": "movie%20theater%20seat",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "lemon drop": {
+      "data-frequency": "316",
+      "data-relevance": "34",
+      "data-term": "lemon drop",
+      "data-encoded-term": "lemon%20drop",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "316",
+        "cn5",
+        "1"
+      ]
+    },
+    "television receiver": {
+      "data-frequency": "155",
+      "data-relevance": "33",
+      "data-term": "television receiver",
+      "data-encoded-term": "television%20receiver",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "155",
+        "cn5",
+        "1"
+      ]
+    },
+    "cough button": {
+      "data-frequency": "-1",
+      "data-relevance": "32",
+      "data-term": "cough button",
+      "data-encoded-term": "cough%20button",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "wide shoot": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "wide shoot",
+      "data-encoded-term": "wide%20shoot",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "on camera": {
+      "data-frequency": "5462",
+      "data-relevance": "30",
+      "data-term": "on camera",
+      "data-encoded-term": "on%20camera",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "5462",
+        "cn5",
+        "1"
+      ]
+    },
+    "title track": {
+      "data-frequency": "20677",
+      "data-relevance": "29",
+      "data-term": "title track",
+      "data-encoded-term": "title%20track",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "20677",
+        "cn5",
+        "1"
+      ]
+    },
+    "mozart music": {
+      "data-frequency": "46",
+      "data-relevance": "28",
+      "data-term": "mozart music",
+      "data-encoded-term": "mozart%20music",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "do justice": {
+      "data-frequency": "959",
+      "data-relevance": "27",
+      "data-term": "do justice",
+      "data-encoded-term": "do%20justice",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "959",
+        "cn5",
+        "1"
+      ]
+    },
+    "søren kierkegaard": {
+      "data-frequency": "939",
+      "data-relevance": "26",
+      "data-term": "søren kierkegaard",
+      "data-encoded-term": "s%C3%B8ren%20kierkegaard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "939",
+        "wiki",
+        "1"
+      ]
+    },
+    "open credit": {
+      "data-frequency": "-1",
+      "data-relevance": "25",
+      "data-term": "open credit",
+      "data-encoded-term": "open%20credit",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "talk show": {
+      "data-frequency": "17030",
+      "data-relevance": "24",
+      "data-term": "talk show",
+      "data-encoded-term": "talk%20show",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "17030",
+        "cn5",
+        "1"
+      ]
+    },
+    "launch pad": {
+      "data-frequency": "1456",
+      "data-relevance": "23",
+      "data-term": "launch pad",
+      "data-encoded-term": "launch%20pad",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1456",
+        "cn5",
+        "1"
+      ]
+    },
+    "male gaze": {
+      "data-frequency": "655",
+      "data-relevance": "22",
+      "data-term": "male gaze",
+      "data-encoded-term": "male%20gaze",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "655",
+        "cn5",
+        "1"
+      ]
+    },
+    "chicago": {
+      "data-frequency": "296221",
+      "data-relevance": "21",
+      "data-term": "chicago",
+      "data-encoded-term": "chicago",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "296221",
+        "wiki",
+        "1"
+      ]
+    },
+    "ticket window": {
+      "data-frequency": "368",
+      "data-relevance": "20",
+      "data-term": "ticket window",
+      "data-encoded-term": "ticket%20window",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "368",
+        "cn5",
+        "1"
+      ]
+    },
+    "beer drinker": {
+      "data-frequency": "44",
+      "data-relevance": "19",
+      "data-term": "beer drinker",
+      "data-encoded-term": "beer%20drinker",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "divine comedy": {
+      "data-frequency": "3933",
+      "data-relevance": "18",
+      "data-term": "divine comedy",
+      "data-encoded-term": "divine%20comedy",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3933",
+        "wiki",
+        "1"
+      ]
+    },
+    "new moon": {
+      "data-frequency": "2957",
+      "data-relevance": "17",
+      "data-term": "new moon",
+      "data-encoded-term": "new%20moon",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2957",
+        "ol",
+        "1"
+      ]
+    },
+    "skeleton key": {
+      "data-frequency": "368",
+      "data-relevance": "16",
+      "data-term": "skeleton key",
+      "data-encoded-term": "skeleton%20key",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "368",
+        "ol",
+        "1"
+      ]
+    },
+    "mission impossible": {
+      "data-frequency": "2685",
+      "data-relevance": "15",
+      "data-term": "mission impossible",
+      "data-encoded-term": "mission%20impossible",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2685",
+        "ol",
+        "1"
+      ]
+    },
+    "black swan": {
+      "data-frequency": "2372",
+      "data-relevance": "14",
+      "data-term": "black swan",
+      "data-encoded-term": "black%20swan",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2372",
+        "ol",
+        "1"
+      ]
+    },
+    "leap year": {
+      "data-frequency": "1383",
+      "data-relevance": "13",
+      "data-term": "leap year",
+      "data-encoded-term": "leap%20year",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1383",
+        "ol",
+        "1"
+      ]
+    },
+    "certified copy": {
+      "data-frequency": "18041",
+      "data-relevance": "12",
+      "data-term": "certified copy",
+      "data-encoded-term": "certified%20copy",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "18041",
+        "ol",
+        "1"
+      ]
+    },
+    "golden ager": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "golden ager",
+      "data-encoded-term": "golden%20ager",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "american beauty": {
+      "data-frequency": "2641",
+      "data-relevance": "10",
+      "data-term": "american beauty",
+      "data-encoded-term": "american%20beauty",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2641",
+        "ol",
+        "1"
+      ]
+    },
+    "the living dead": {
+      "data-frequency": "1557",
+      "data-relevance": "9",
+      "data-term": "the living dead",
+      "data-encoded-term": "the%20living%20dead",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1557",
+        "ol",
+        "1"
+      ]
+    },
+    "de sica": {
+      "data-frequency": "2037",
+      "data-relevance": "8",
+      "data-term": "de sica",
+      "data-encoded-term": "de%20sica",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "2037",
+        "ol",
+        "1"
+      ]
+    },
+    "anthony hopkins": {
+      "data-frequency": "8205",
+      "data-relevance": "7",
+      "data-term": "anthony hopkins",
+      "data-encoded-term": "anthony%20hopkins",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "8205",
+        "ol",
+        "1"
+      ]
+    },
+    "old codger": {
+      "data-frequency": "52",
+      "data-relevance": "6",
+      "data-term": "old codger",
+      "data-encoded-term": "old%20codger",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "52",
+        "ol",
+        "1"
+      ]
+    },
+    "korean war": {
+      "data-frequency": "16448",
+      "data-relevance": "5",
+      "data-term": "korean war",
+      "data-encoded-term": "korean%20war",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "16448",
+        "wiki",
+        "1"
+      ]
+    },
+    "new orleans": {
+      "data-frequency": "53946",
+      "data-relevance": "4",
+      "data-term": "new orleans",
+      "data-encoded-term": "new%20orleans",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "53946",
+        "wiki",
+        "1"
+      ]
+    },
+    "french quarter": {
+      "data-frequency": "1066",
+      "data-relevance": "3",
+      "data-term": "french quarter",
+      "data-encoded-term": "french%20quarter",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "1066",
+        "wiki",
+        "1"
+      ]
+    },
+    "new orleans mardi gras": {
+      "data-frequency": "1034",
+      "data-relevance": "2",
+      "data-term": "new orleans mardi gras",
+      "data-encoded-term": "new%20orleans%20mardi%20gras",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "1034",
+        "wiki",
+        "1"
+      ]
+    },
+    "terrence malick": {
+      "data-frequency": "611",
+      "data-relevance": "1",
+      "data-term": "terrence malick",
+      "data-encoded-term": "terrence%20malick",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "611",
+        "wiki",
+        "1"
+      ]
+    },
+    "gulf coast": {
+      "data-frequency": "11744",
+      "data-relevance": "0",
+      "data-term": "gulf coast",
+      "data-encoded-term": "gulf%20coast",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "11744",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "moviegoers"
+    ],
+    "examples": []
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "moviegoers"
+    ],
+    "synonyms": [
+      "cinephile",
+      "filmgoer"
+    ],
+    "antonyms": [],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "audience",
+      "watcher",
+      "cinema",
+      "filmography",
+      "moviedom",
+      "moviegoing",
+      "filmmaker",
+      "reader",
+      "filmgoer",
+      "movie",
+      "projectionist",
+      "moviegoers",
+      "viewer"
+    ]
+  }
+}

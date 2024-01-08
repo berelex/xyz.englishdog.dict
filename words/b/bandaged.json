@@ -1,0 +1,6739 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "bandage": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/bandaged/v/,/c/en/bandage/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bandaged/v",
+          "@type": "Node",
+          "label": "bandaged",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/bandaged"
+        },
+        "end": {
+          "@id": "/c/en/bandage",
+          "@type": "Node",
+          "label": "bandage",
+          "language": "en",
+          "term": "/c/en/bandage"
+        }
+      },
+      "wound": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/wound/,/c/en/bandaged/]",
+        "weight": 0.1629999999999998,
+        "start": {
+          "@id": "/c/en/wound",
+          "@type": "Node",
+          "label": "wound",
+          "language": "en",
+          "term": "/c/en/wound"
+        },
+        "end": {
+          "@id": "/c/en/bandaged",
+          "@type": "Node",
+          "label": "bandaged",
+          "language": "en",
+          "term": "/c/en/bandaged"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "bound": {
+        "@id": "/a/[/r/Synonym/,/c/en/bound/a/wn/,/c/en/bandaged/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/bound/a/wn",
+          "@type": "Node",
+          "label": "bound",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/bound"
+        },
+        "end": {
+          "@id": "/c/en/bandaged/a/wn",
+          "@type": "Node",
+          "label": "bandaged",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/bandaged"
+        }
+      }
+    },
+    "antonyms": {},
+    "similar_terms": {
+      "treated": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/treated/a/wn/,/c/en/bandaged/a/wn/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/treated/a/wn",
+          "@type": "Node",
+          "label": "treated",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/treated"
+        },
+        "end": {
+          "@id": "/c/en/bandaged/a/wn",
+          "@type": "Node",
+          "label": "bandaged",
+          "language": "en",
+          "sense_label": "a, wn",
+          "term": "/c/en/bandaged"
+        }
+      }
+    },
+    "word_forms": {
+      "bandage": {
+        "@id": "/a/[/r/FormOf/,/c/en/bandaged/v/,/c/en/bandage/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/bandaged/v",
+          "@type": "Node",
+          "label": "bandaged",
+          "language": "en",
+          "sense_label": "v",
+          "term": "/c/en/bandaged"
+        },
+        "end": {
+          "@id": "/c/en/bandage",
+          "@type": "Node",
+          "label": "bandage",
+          "language": "en",
+          "term": "/c/en/bandage"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "wrapped": {
+      "data-frequency": "17896",
+      "data-relevance": "468",
+      "data-term": "wrapped",
+      "data-encoded-term": "wrapped",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "17896",
+        "w2v",
+        "1"
+      ]
+    },
+    "splint": {
+      "data-frequency": "696",
+      "data-relevance": "467",
+      "data-term": "splint",
+      "data-encoded-term": "splint",
+      "data-term-stats": [
+        "1",
+        "12.2",
+        "0.000",
+        "696",
+        "cn5,ol,w2v,wiki|vec2",
+        "1"
+      ]
+    },
+    "gauze": {
+      "data-frequency": "1223",
+      "data-relevance": "466",
+      "data-term": "gauze",
+      "data-encoded-term": "gauze",
+      "data-term-stats": [
+        "1",
+        "9.1",
+        "0.000",
+        "1223",
+        "ol,w2v,wn|vec2",
+        "1"
+      ]
+    },
+    "tourniquet": {
+      "data-frequency": "447",
+      "data-relevance": "465",
+      "data-term": "tourniquet",
+      "data-encoded-term": "tourniquet",
+      "data-term-stats": [
+        "1",
+        "7.8",
+        "0.000",
+        "447",
+        "cn5,ol,w2v,wn",
+        "1"
+      ]
+    },
+    "dressing": {
+      "data-frequency": "16773",
+      "data-relevance": "464",
+      "data-term": "dressing",
+      "data-encoded-term": "dressing",
+      "data-term-stats": [
+        "1",
+        "6.0",
+        "0.000",
+        "16773",
+        "ol,wiki,wn",
+        "1"
+      ]
+    },
+    "dress": {
+      "data-frequency": "52456",
+      "data-relevance": "463",
+      "data-term": "dress",
+      "data-encoded-term": "dress",
+      "data-term-stats": [
+        "1",
+        "5.0",
+        "0.000",
+        "52456",
+        "cn5,ol,wn",
+        "1"
+      ]
+    },
+    "sling": {
+      "data-frequency": "5574",
+      "data-relevance": "462",
+      "data-term": "sling",
+      "data-encoded-term": "sling",
+      "data-term-stats": [
+        "1",
+        "4.8",
+        "0.000",
+        "5574",
+        "ol,w2v,wn",
+        "1"
+      ]
+    },
+    "truss": {
+      "data-frequency": "7140",
+      "data-relevance": "461",
+      "data-term": "truss",
+      "data-encoded-term": "truss",
+      "data-term-stats": [
+        "1",
+        "4.4",
+        "0.000",
+        "7140",
+        "cn5,ol,wn",
+        "1"
+      ]
+    },
+    "adhesive bandage": {
+      "data-frequency": "45",
+      "data-relevance": "460",
+      "data-term": "adhesive bandage",
+      "data-encoded-term": "adhesive%20bandage",
+      "data-term-stats": [
+        "1",
+        "4.0",
+        "0.000",
+        "45",
+        "ol,wiki,wn",
+        "1"
+      ]
+    },
+    "stretcher": {
+      "data-frequency": "2481",
+      "data-relevance": "459",
+      "data-term": "stretcher",
+      "data-encoded-term": "stretcher",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "2481",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "forehead": {
+      "data-frequency": "7262",
+      "data-relevance": "458",
+      "data-term": "forehead",
+      "data-encoded-term": "forehead",
+      "data-term-stats": [
+        "1",
+        "3.5",
+        "0.000",
+        "7262",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "gash": {
+      "data-frequency": "2272",
+      "data-relevance": "457",
+      "data-term": "gash",
+      "data-encoded-term": "gash",
+      "data-term-stats": [
+        "1",
+        "3.2",
+        "0.000",
+        "2272",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bruise": {
+      "data-frequency": "1266",
+      "data-relevance": "456",
+      "data-term": "bruise",
+      "data-encoded-term": "bruise",
+      "data-term-stats": [
+        "1",
+        "3.3",
+        "0.000",
+        "1266",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bind": {
+      "data-frequency": "14468",
+      "data-relevance": "455",
+      "data-term": "bind",
+      "data-encoded-term": "bind",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "14468",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "stitches": {
+      "data-frequency": "2913",
+      "data-relevance": "454",
+      "data-term": "stitches",
+      "data-encoded-term": "stitches",
+      "data-term-stats": [
+        "1",
+        "3.0",
+        "0.000",
+        "2913",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "cloth": {
+      "data-frequency": "22947",
+      "data-relevance": "453",
+      "data-term": "cloth",
+      "data-encoded-term": "cloth",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "22947",
+        "ol,swiki",
+        "1"
+      ]
+    },
+    "thigh": {
+      "data-frequency": "6358",
+      "data-relevance": "452",
+      "data-term": "thigh",
+      "data-encoded-term": "thigh",
+      "data-term-stats": [
+        "1",
+        "2.6",
+        "0.000",
+        "6358",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "medicine": {
+      "data-frequency": "179520",
+      "data-relevance": "451",
+      "data-term": "medicine",
+      "data-encoded-term": "medicine",
+      "data-term-stats": [
+        "1",
+        "2.1",
+        "0.000",
+        "179520",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "wrapping": {
+      "data-frequency": "4840",
+      "data-relevance": "450",
+      "data-term": "wrapping",
+      "data-encoded-term": "wrapping",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "4840",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "bruised": {
+      "data-frequency": "2969",
+      "data-relevance": "449",
+      "data-term": "bruised",
+      "data-encoded-term": "bruised",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2969",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloodied": {
+      "data-frequency": "30268",
+      "data-relevance": "448",
+      "data-term": "bloodied",
+      "data-encoded-term": "bloodied",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "30268",
+        "vec2",
+        "1"
+      ]
+    },
+    "cleaned": {
+      "data-frequency": "9692",
+      "data-relevance": "447",
+      "data-term": "cleaned",
+      "data-encoded-term": "cleaned",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "9692",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "taped": {
+      "data-frequency": "7319",
+      "data-relevance": "446",
+      "data-term": "taped",
+      "data-encoded-term": "taped",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "7319",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "swathe": {
+      "data-frequency": "561",
+      "data-relevance": "445",
+      "data-term": "swathe",
+      "data-encoded-term": "swathe",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "561",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "bleeding profusely": {
+      "data-frequency": "361",
+      "data-relevance": "444",
+      "data-term": "bleeding profusely",
+      "data-encoded-term": "bleeding%20profusely",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "361",
+        "vec2",
+        "1"
+      ]
+    },
+    "bandage": {
+      "data-frequency": "1190",
+      "data-relevance": "443",
+      "data-term": "bandage",
+      "data-encoded-term": "bandage",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "1190",
+        "vec2",
+        "1"
+      ]
+    },
+    "laceration": {
+      "data-frequency": "506",
+      "data-relevance": "442",
+      "data-term": "laceration",
+      "data-encoded-term": "laceration",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "506",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "bruises": {
+      "data-frequency": "2400",
+      "data-relevance": "441",
+      "data-term": "bruises",
+      "data-encoded-term": "bruises",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2400",
+        "vec2",
+        "1"
+      ]
+    },
+    "ligate": {
+      "data-frequency": "68",
+      "data-relevance": "440",
+      "data-term": "ligate",
+      "data-encoded-term": "ligate",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "68",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "elastic bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "439",
+      "data-term": "elastic bandage",
+      "data-encoded-term": "elastic%20bandage",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "gauze bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "438",
+      "data-term": "gauze bandage",
+      "data-encoded-term": "gauze%20bandage",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "plaster cast": {
+      "data-frequency": "519",
+      "data-relevance": "437",
+      "data-term": "plaster cast",
+      "data-encoded-term": "plaster%20cast",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "519",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "healed": {
+      "data-frequency": "5976",
+      "data-relevance": "436",
+      "data-term": "healed",
+      "data-encoded-term": "healed",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "5976",
+        "vec2",
+        "1"
+      ]
+    },
+    "stitched": {
+      "data-frequency": "2074",
+      "data-relevance": "435",
+      "data-term": "stitched",
+      "data-encoded-term": "stitched",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2074",
+        "w2v",
+        "1"
+      ]
+    },
+    "covered": {
+      "data-frequency": "200386",
+      "data-relevance": "434",
+      "data-term": "covered",
+      "data-encoded-term": "covered",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "200386",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "casted": {
+      "data-frequency": "363",
+      "data-relevance": "433",
+      "data-term": "casted",
+      "data-encoded-term": "casted",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "363",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "compression bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "432",
+      "data-term": "compression bandage",
+      "data-encoded-term": "compression%20bandage",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "-1",
+        "ol,wn",
+        "1"
+      ]
+    },
+    "forearm": {
+      "data-frequency": "3656",
+      "data-relevance": "431",
+      "data-term": "forearm",
+      "data-encoded-term": "forearm",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "3656",
+        "ol,w2v|vec2",
+        "1"
+      ]
+    },
+    "swollen": {
+      "data-frequency": "4433",
+      "data-relevance": "430",
+      "data-term": "swollen",
+      "data-encoded-term": "swollen",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "4433",
+        "vec2",
+        "1"
+      ]
+    },
+    "bullet wounds": {
+      "data-frequency": "8453",
+      "data-relevance": "429",
+      "data-term": "bullet wounds",
+      "data-encoded-term": "bullet%20wounds",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "8453",
+        "vec2",
+        "1"
+      ]
+    },
+    "dazed": {
+      "data-frequency": "4486",
+      "data-relevance": "428",
+      "data-term": "dazed",
+      "data-encoded-term": "dazed",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "4486",
+        "vec2",
+        "1"
+      ]
+    },
+    "bullet wound": {
+      "data-frequency": "8455",
+      "data-relevance": "427",
+      "data-term": "bullet wound",
+      "data-encoded-term": "bullet%20wound",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "8455",
+        "vec2",
+        "1"
+      ]
+    },
+    "handkerchief": {
+      "data-frequency": "2245",
+      "data-relevance": "426",
+      "data-term": "handkerchief",
+      "data-encoded-term": "handkerchief",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "2245",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "blood splattered": {
+      "data-frequency": "789",
+      "data-relevance": "425",
+      "data-term": "blood splattered",
+      "data-encoded-term": "blood%20splattered",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "789",
+        "vec2",
+        "1"
+      ]
+    },
+    "badly bruised": {
+      "data-frequency": "656",
+      "data-relevance": "424",
+      "data-term": "badly bruised",
+      "data-encoded-term": "badly%20bruised",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "656",
+        "vec2",
+        "1"
+      ]
+    },
+    "shrapnel wounds": {
+      "data-frequency": "1715",
+      "data-relevance": "423",
+      "data-term": "shrapnel wounds",
+      "data-encoded-term": "shrapnel%20wounds",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1715",
+        "vec2",
+        "1"
+      ]
+    },
+    "broken bones": {
+      "data-frequency": "1028",
+      "data-relevance": "422",
+      "data-term": "broken bones",
+      "data-encoded-term": "broken%20bones",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1028",
+        "vec2",
+        "1"
+      ]
+    },
+    "bruised ribs": {
+      "data-frequency": "77",
+      "data-relevance": "421",
+      "data-term": "bruised ribs",
+      "data-encoded-term": "bruised%20ribs",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "77",
+        "vec2",
+        "1"
+      ]
+    },
+    "bandanna": {
+      "data-frequency": "290",
+      "data-relevance": "420",
+      "data-term": "bandanna",
+      "data-encoded-term": "bandanna",
+      "data-term-stats": [
+        "1",
+        "1.9",
+        "0.000",
+        "290",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "lacerations": {
+      "data-frequency": "606",
+      "data-relevance": "419",
+      "data-term": "lacerations",
+      "data-encoded-term": "lacerations",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "606",
+        "vec2",
+        "1"
+      ]
+    },
+    "headband": {
+      "data-frequency": "1310",
+      "data-relevance": "418",
+      "data-term": "headband",
+      "data-encoded-term": "headband",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1310",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "grimacing": {
+      "data-frequency": "155",
+      "data-relevance": "417",
+      "data-term": "grimacing",
+      "data-encoded-term": "grimacing",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "155",
+        "vec2",
+        "1"
+      ]
+    },
+    "fingernail": {
+      "data-frequency": "664",
+      "data-relevance": "416",
+      "data-term": "fingernail",
+      "data-encoded-term": "fingernail",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "664",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "scarf": {
+      "data-frequency": "4672",
+      "data-relevance": "415",
+      "data-term": "scarf",
+      "data-encoded-term": "scarf",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "4672",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "grimaced": {
+      "data-frequency": "-1",
+      "data-relevance": "414",
+      "data-term": "grimaced",
+      "data-encoded-term": "grimaced",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "sleeve": {
+      "data-frequency": "15671",
+      "data-relevance": "413",
+      "data-term": "sleeve",
+      "data-encoded-term": "sleeve",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "15671",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "wrist": {
+      "data-frequency": "9825",
+      "data-relevance": "412",
+      "data-term": "wrist",
+      "data-encoded-term": "wrist",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "9825",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "cast": {
+      "data-frequency": "340190",
+      "data-relevance": "411",
+      "data-term": "cast",
+      "data-encoded-term": "cast",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "340190",
+        "wn",
+        "1"
+      ]
+    },
+    "neck": {
+      "data-frequency": "48644",
+      "data-relevance": "410",
+      "data-term": "neck",
+      "data-encoded-term": "neck",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "48644",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "eyepatch": {
+      "data-frequency": "1206",
+      "data-relevance": "409",
+      "data-term": "eyepatch",
+      "data-encoded-term": "eyepatch",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1206",
+        "ol",
+        "1"
+      ]
+    },
+    "scar": {
+      "data-frequency": "9622",
+      "data-relevance": "408",
+      "data-term": "scar",
+      "data-encoded-term": "scar",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "9622",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "blood stained": {
+      "data-frequency": "5105",
+      "data-relevance": "407",
+      "data-term": "blood stained",
+      "data-encoded-term": "blood%20stained",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "5105",
+        "vec2",
+        "1"
+      ]
+    },
+    "incision": {
+      "data-frequency": "1638",
+      "data-relevance": "406",
+      "data-term": "incision",
+      "data-encoded-term": "incision",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "1638",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "towel": {
+      "data-frequency": "3013",
+      "data-relevance": "405",
+      "data-term": "towel",
+      "data-encoded-term": "towel",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "3013",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "nose": {
+      "data-frequency": "36683",
+      "data-relevance": "404",
+      "data-term": "nose",
+      "data-encoded-term": "nose",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "36683",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "limp": {
+      "data-frequency": "3772",
+      "data-relevance": "403",
+      "data-term": "limp",
+      "data-encoded-term": "limp",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "3772",
+        "vec2",
+        "1"
+      ]
+    },
+    "blister": {
+      "data-frequency": "2679",
+      "data-relevance": "402",
+      "data-term": "blister",
+      "data-encoded-term": "blister",
+      "data-term-stats": [
+        "1",
+        "1.8",
+        "0.000",
+        "2679",
+        "ol,w2v",
+        "1"
+      ]
+    },
+    "slight limp": {
+      "data-frequency": "290",
+      "data-relevance": "401",
+      "data-term": "slight limp",
+      "data-encoded-term": "slight%20limp",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "290",
+        "vec2",
+        "1"
+      ]
+    },
+    "deep gash": {
+      "data-frequency": "435",
+      "data-relevance": "400",
+      "data-term": "deep gash",
+      "data-encoded-term": "deep%20gash",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "435",
+        "vec2",
+        "1"
+      ]
+    },
+    "clutched": {
+      "data-frequency": "302",
+      "data-relevance": "399",
+      "data-term": "clutched",
+      "data-encoded-term": "clutched",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "302",
+        "vec2",
+        "1"
+      ]
+    },
+    "multiple fractures": {
+      "data-frequency": "4704",
+      "data-relevance": "398",
+      "data-term": "multiple fractures",
+      "data-encoded-term": "multiple%20fractures",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "4704",
+        "vec2",
+        "1"
+      ]
+    },
+    "robe": {
+      "data-frequency": "7786",
+      "data-relevance": "397",
+      "data-term": "robe",
+      "data-encoded-term": "robe",
+      "data-term-stats": [
+        "1",
+        "1.7",
+        "0.000",
+        "7786",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "sore": {
+      "data-frequency": "6903",
+      "data-relevance": "396",
+      "data-term": "sore",
+      "data-encoded-term": "sore",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "6903",
+        "vec2",
+        "1"
+      ]
+    },
+    "broken rib": {
+      "data-frequency": "227",
+      "data-relevance": "395",
+      "data-term": "broken rib",
+      "data-encoded-term": "broken%20rib",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "227",
+        "vec2",
+        "1"
+      ]
+    },
+    "groggy": {
+      "data-frequency": "292",
+      "data-relevance": "394",
+      "data-term": "groggy",
+      "data-encoded-term": "groggy",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "292",
+        "vec2",
+        "1"
+      ]
+    },
+    "amputated": {
+      "data-frequency": "2669",
+      "data-relevance": "393",
+      "data-term": "amputated",
+      "data-encoded-term": "amputated",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2669",
+        "vec2",
+        "1"
+      ]
+    },
+    "lay motionless": {
+      "data-frequency": "403",
+      "data-relevance": "392",
+      "data-term": "lay motionless",
+      "data-encoded-term": "lay%20motionless",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "403",
+        "vec2",
+        "1"
+      ]
+    },
+    "heal": {
+      "data-frequency": "11999",
+      "data-relevance": "391",
+      "data-term": "heal",
+      "data-encoded-term": "heal",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "11999",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "clasping": {
+      "data-frequency": "655",
+      "data-relevance": "390",
+      "data-term": "clasping",
+      "data-encoded-term": "clasping",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "655",
+        "vec2",
+        "1"
+      ]
+    },
+    "gashes": {
+      "data-frequency": "2509",
+      "data-relevance": "389",
+      "data-term": "gashes",
+      "data-encoded-term": "gashes",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2509",
+        "vec2",
+        "1"
+      ]
+    },
+    "limping": {
+      "data-frequency": "862",
+      "data-relevance": "388",
+      "data-term": "limping",
+      "data-encoded-term": "limping",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "862",
+        "vec2",
+        "1"
+      ]
+    },
+    "puncture wounds": {
+      "data-frequency": "181",
+      "data-relevance": "387",
+      "data-term": "puncture wounds",
+      "data-encoded-term": "puncture%20wounds",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "181",
+        "vec2",
+        "1"
+      ]
+    },
+    "miniskirt": {
+      "data-frequency": "761",
+      "data-relevance": "386",
+      "data-term": "miniskirt",
+      "data-encoded-term": "miniskirt",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "761",
+        "cn5,w2v",
+        "1"
+      ]
+    },
+    "motionless": {
+      "data-frequency": "1898",
+      "data-relevance": "385",
+      "data-term": "motionless",
+      "data-encoded-term": "motionless",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1898",
+        "vec2",
+        "1"
+      ]
+    },
+    "facial injuries": {
+      "data-frequency": "2307",
+      "data-relevance": "384",
+      "data-term": "facial injuries",
+      "data-encoded-term": "facial%20injuries",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "2307",
+        "vec2",
+        "1"
+      ]
+    },
+    "stretchers": {
+      "data-frequency": "3448",
+      "data-relevance": "383",
+      "data-term": "stretchers",
+      "data-encoded-term": "stretchers",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "3448",
+        "vec2",
+        "1"
+      ]
+    },
+    "visibly shaken": {
+      "data-frequency": "221",
+      "data-relevance": "382",
+      "data-term": "visibly shaken",
+      "data-encoded-term": "visibly%20shaken",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "221",
+        "vec2",
+        "1"
+      ]
+    },
+    "blood spattered": {
+      "data-frequency": "338",
+      "data-relevance": "381",
+      "data-term": "blood spattered",
+      "data-encoded-term": "blood%20spattered",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "338",
+        "vec2",
+        "1"
+      ]
+    },
+    "wincing": {
+      "data-frequency": "114",
+      "data-relevance": "380",
+      "data-term": "wincing",
+      "data-encoded-term": "wincing",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "114",
+        "vec2",
+        "1"
+      ]
+    },
+    "lacerated": {
+      "data-frequency": "351",
+      "data-relevance": "379",
+      "data-term": "lacerated",
+      "data-encoded-term": "lacerated",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "351",
+        "vec2",
+        "1"
+      ]
+    },
+    "gunshot wounds": {
+      "data-frequency": "4621",
+      "data-relevance": "378",
+      "data-term": "gunshot wounds",
+      "data-encoded-term": "gunshot%20wounds",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "4621",
+        "vec2",
+        "1"
+      ]
+    },
+    "blood stains": {
+      "data-frequency": "5153",
+      "data-relevance": "377",
+      "data-term": "blood stains",
+      "data-encoded-term": "blood%20stains",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "5153",
+        "vec2",
+        "1"
+      ]
+    },
+    "shirt": {
+      "data-frequency": "31934",
+      "data-relevance": "376",
+      "data-term": "shirt",
+      "data-encoded-term": "shirt",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "31934",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "undershirt": {
+      "data-frequency": "678",
+      "data-relevance": "375",
+      "data-term": "undershirt",
+      "data-encoded-term": "undershirt",
+      "data-term-stats": [
+        "1",
+        "1.5",
+        "0.000",
+        "678",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "broken ribs": {
+      "data-frequency": "2664",
+      "data-relevance": "374",
+      "data-term": "broken ribs",
+      "data-encoded-term": "broken%20ribs",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2664",
+        "vec2",
+        "1"
+      ]
+    },
+    "mangled": {
+      "data-frequency": "1362",
+      "data-relevance": "373",
+      "data-term": "mangled",
+      "data-encoded-term": "mangled",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1362",
+        "vec2",
+        "1"
+      ]
+    },
+    "fractured skull": {
+      "data-frequency": "2148",
+      "data-relevance": "372",
+      "data-term": "fractured skull",
+      "data-encoded-term": "fractured%20skull",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "2148",
+        "vec2",
+        "1"
+      ]
+    },
+    "crumpled": {
+      "data-frequency": "720",
+      "data-relevance": "371",
+      "data-term": "crumpled",
+      "data-encoded-term": "crumpled",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "720",
+        "vec2",
+        "1"
+      ]
+    },
+    "uninjured": {
+      "data-frequency": "1535",
+      "data-relevance": "370",
+      "data-term": "uninjured",
+      "data-encoded-term": "uninjured",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1535",
+        "vec2",
+        "1"
+      ]
+    },
+    "shrapnel": {
+      "data-frequency": "4360",
+      "data-relevance": "369",
+      "data-term": "shrapnel",
+      "data-encoded-term": "shrapnel",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "4360",
+        "vec2",
+        "1"
+      ]
+    },
+    "smiling": {
+      "data-frequency": "8536",
+      "data-relevance": "368",
+      "data-term": "smiling",
+      "data-encoded-term": "smiling",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "8536",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloodstained": {
+      "data-frequency": "742",
+      "data-relevance": "367",
+      "data-term": "bloodstained",
+      "data-encoded-term": "bloodstained",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "742",
+        "vec2",
+        "1"
+      ]
+    },
+    "puncture wound": {
+      "data-frequency": "84",
+      "data-relevance": "366",
+      "data-term": "puncture wound",
+      "data-encoded-term": "puncture%20wound",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "84",
+        "vec2",
+        "1"
+      ]
+    },
+    "cuffed": {
+      "data-frequency": "396",
+      "data-relevance": "365",
+      "data-term": "cuffed",
+      "data-encoded-term": "cuffed",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "396",
+        "vec2",
+        "1"
+      ]
+    },
+    "gestured": {
+      "data-frequency": "219",
+      "data-relevance": "364",
+      "data-term": "gestured",
+      "data-encoded-term": "gestured",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "219",
+        "vec2",
+        "1"
+      ]
+    },
+    "gunshot wound": {
+      "data-frequency": "2032",
+      "data-relevance": "363",
+      "data-term": "gunshot wound",
+      "data-encoded-term": "gunshot%20wound",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2032",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloodstains": {
+      "data-frequency": "1251",
+      "data-relevance": "362",
+      "data-term": "bloodstains",
+      "data-encoded-term": "bloodstains",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1251",
+        "vec2",
+        "1"
+      ]
+    },
+    "severe burns": {
+      "data-frequency": "13065",
+      "data-relevance": "361",
+      "data-term": "severe burns",
+      "data-encoded-term": "severe%20burns",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "13065",
+        "vec2",
+        "1"
+      ]
+    },
+    "cradling": {
+      "data-frequency": "458",
+      "data-relevance": "360",
+      "data-term": "cradling",
+      "data-encoded-term": "cradling",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "458",
+        "vec2",
+        "1"
+      ]
+    },
+    "sprained ankle": {
+      "data-frequency": "493",
+      "data-relevance": "359",
+      "data-term": "sprained ankle",
+      "data-encoded-term": "sprained%20ankle",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "493",
+        "vec2",
+        "1"
+      ]
+    },
+    "sprained wrist": {
+      "data-frequency": "47",
+      "data-relevance": "358",
+      "data-term": "sprained wrist",
+      "data-encoded-term": "sprained%20wrist",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "47",
+        "vec2",
+        "1"
+      ]
+    },
+    "compound fracture": {
+      "data-frequency": "1449",
+      "data-relevance": "357",
+      "data-term": "compound fracture",
+      "data-encoded-term": "compound%20fracture",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1449",
+        "vec2",
+        "1"
+      ]
+    },
+    "disfigured": {
+      "data-frequency": "2217",
+      "data-relevance": "356",
+      "data-term": "disfigured",
+      "data-encoded-term": "disfigured",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "2217",
+        "vec2",
+        "1"
+      ]
+    },
+    "bandages": {
+      "data-frequency": "1483",
+      "data-relevance": "355",
+      "data-term": "bandages",
+      "data-encoded-term": "bandages",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "1483",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "knocked unconscious": {
+      "data-frequency": "2155",
+      "data-relevance": "354",
+      "data-term": "knocked unconscious",
+      "data-encoded-term": "knocked%20unconscious",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2155",
+        "vec2",
+        "1"
+      ]
+    },
+    "badly burned": {
+      "data-frequency": "598",
+      "data-relevance": "353",
+      "data-term": "badly burned",
+      "data-encoded-term": "badly%20burned",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "598",
+        "vec2",
+        "1"
+      ]
+    },
+    "ached": {
+      "data-frequency": "103",
+      "data-relevance": "352",
+      "data-term": "ached",
+      "data-encoded-term": "ached",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "103",
+        "vec2",
+        "1"
+      ]
+    },
+    "bloody nose": {
+      "data-frequency": "209",
+      "data-relevance": "351",
+      "data-term": "bloody nose",
+      "data-encoded-term": "bloody%20nose",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "209",
+        "vec2",
+        "1"
+      ]
+    },
+    "trembling": {
+      "data-frequency": "2355",
+      "data-relevance": "350",
+      "data-term": "trembling",
+      "data-encoded-term": "trembling",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2355",
+        "vec2",
+        "1"
+      ]
+    },
+    "cradled": {
+      "data-frequency": "12383",
+      "data-relevance": "349",
+      "data-term": "cradled",
+      "data-encoded-term": "cradled",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "12383",
+        "vec2",
+        "1"
+      ]
+    },
+    "immobilized": {
+      "data-frequency": "1382",
+      "data-relevance": "348",
+      "data-term": "immobilized",
+      "data-encoded-term": "immobilized",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1382",
+        "vec2",
+        "1"
+      ]
+    },
+    "legs": {
+      "data-frequency": "49725",
+      "data-relevance": "347",
+      "data-term": "legs",
+      "data-encoded-term": "legs",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "49725",
+        "vec2",
+        "1"
+      ]
+    },
+    "shattered glass": {
+      "data-frequency": "3064",
+      "data-relevance": "346",
+      "data-term": "shattered glass",
+      "data-encoded-term": "shattered%20glass",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "3064",
+        "vec2",
+        "1"
+      ]
+    },
+    "numb": {
+      "data-frequency": "2719",
+      "data-relevance": "345",
+      "data-term": "numb",
+      "data-encoded-term": "numb",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2719",
+        "vec2",
+        "1"
+      ]
+    },
+    "banged": {
+      "data-frequency": "838",
+      "data-relevance": "344",
+      "data-term": "banged",
+      "data-encoded-term": "banged",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "838",
+        "vec2",
+        "1"
+      ]
+    },
+    "sore ribs": {
+      "data-frequency": "-1",
+      "data-relevance": "343",
+      "data-term": "sore ribs",
+      "data-encoded-term": "sore%20ribs",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "scars": {
+      "data-frequency": "18633",
+      "data-relevance": "342",
+      "data-term": "scars",
+      "data-encoded-term": "scars",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "18633",
+        "vec2",
+        "1"
+      ]
+    },
+    "woozy": {
+      "data-frequency": "477",
+      "data-relevance": "341",
+      "data-term": "woozy",
+      "data-encoded-term": "woozy",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "477",
+        "vec2",
+        "1"
+      ]
+    },
+    "charred": {
+      "data-frequency": "2272",
+      "data-relevance": "340",
+      "data-term": "charred",
+      "data-encoded-term": "charred",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "2272",
+        "vec2",
+        "1"
+      ]
+    },
+    "regained consciousness": {
+      "data-frequency": "3848",
+      "data-relevance": "339",
+      "data-term": "regained consciousness",
+      "data-encoded-term": "regained%20consciousness",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "3848",
+        "vec2",
+        "1"
+      ]
+    },
+    "blood soaked": {
+      "data-frequency": "1408",
+      "data-relevance": "338",
+      "data-term": "blood soaked",
+      "data-encoded-term": "blood%20soaked",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1408",
+        "vec2",
+        "1"
+      ]
+    },
+    "clasped": {
+      "data-frequency": "623",
+      "data-relevance": "337",
+      "data-term": "clasped",
+      "data-encoded-term": "clasped",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "623",
+        "vec2",
+        "1"
+      ]
+    },
+    "bullet lodged": {
+      "data-frequency": "1495",
+      "data-relevance": "336",
+      "data-term": "bullet lodged",
+      "data-encoded-term": "bullet%20lodged",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1495",
+        "vec2",
+        "1"
+      ]
+    },
+    "stable condition": {
+      "data-frequency": "8635",
+      "data-relevance": "335",
+      "data-term": "stable condition",
+      "data-encoded-term": "stable%20condition",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "8635",
+        "vec2",
+        "1"
+      ]
+    },
+    "clutching": {
+      "data-frequency": "1402",
+      "data-relevance": "334",
+      "data-term": "clutching",
+      "data-encoded-term": "clutching",
+      "data-term-stats": [
+        "1",
+        "0.8",
+        "0.000",
+        "1402",
+        "w2v|vec2",
+        "1"
+      ]
+    },
+    "patch": {
+      "data-frequency": "30853",
+      "data-relevance": "333",
+      "data-term": "patch",
+      "data-encoded-term": "patch",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "30853",
+        "wn",
+        "1"
+      ]
+    },
+    "secure": {
+      "data-frequency": "76853",
+      "data-relevance": "332",
+      "data-term": "secure",
+      "data-encoded-term": "secure",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "76853",
+        "wn",
+        "1"
+      ]
+    },
+    "abrasions": {
+      "data-frequency": "481",
+      "data-relevance": "331",
+      "data-term": "abrasions",
+      "data-encoded-term": "abrasions",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "481",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "fasten": {
+      "data-frequency": "963",
+      "data-relevance": "330",
+      "data-term": "fasten",
+      "data-encoded-term": "fasten",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "963",
+        "wn",
+        "1"
+      ]
+    },
+    "fix": {
+      "data-frequency": "31208",
+      "data-relevance": "329",
+      "data-term": "fix",
+      "data-encoded-term": "fix",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "31208",
+        "wn",
+        "1"
+      ]
+    },
+    "suspensory": {
+      "data-frequency": "498",
+      "data-relevance": "328",
+      "data-term": "suspensory",
+      "data-encoded-term": "suspensory",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "498",
+        "wn",
+        "1"
+      ]
+    },
+    "contusion": {
+      "data-frequency": "529",
+      "data-relevance": "327",
+      "data-term": "contusion",
+      "data-encoded-term": "contusion",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "529",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "crutches": {
+      "data-frequency": "3061",
+      "data-relevance": "326",
+      "data-term": "crutches",
+      "data-encoded-term": "crutches",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "3061",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "wounds": {
+      "data-frequency": "24756",
+      "data-relevance": "325",
+      "data-term": "wounds",
+      "data-encoded-term": "wounds",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "24756",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "poultice": {
+      "data-frequency": "270",
+      "data-relevance": "324",
+      "data-term": "poultice",
+      "data-encoded-term": "poultice",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "270",
+        "cn5",
+        "1"
+      ]
+    },
+    "bleeding": {
+      "data-frequency": "14341",
+      "data-relevance": "323",
+      "data-term": "bleeding",
+      "data-encoded-term": "bleeding",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "14341",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "swathed": {
+      "data-frequency": "259",
+      "data-relevance": "322",
+      "data-term": "swathed",
+      "data-encoded-term": "swathed",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "259",
+        "w2v",
+        "1"
+      ]
+    },
+    "material": {
+      "data-frequency": "839194",
+      "data-relevance": "321",
+      "data-term": "material",
+      "data-encoded-term": "material",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "839194",
+        "swiki",
+        "1"
+      ]
+    },
+    "cuffs": {
+      "data-frequency": "1421",
+      "data-relevance": "320",
+      "data-term": "cuffs",
+      "data-encoded-term": "cuffs",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "1421",
+        "w2v",
+        "1"
+      ]
+    },
+    "padded": {
+      "data-frequency": "2557",
+      "data-relevance": "319",
+      "data-term": "padded",
+      "data-encoded-term": "padded",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2557",
+        "w2v",
+        "1"
+      ]
+    },
+    "toe": {
+      "data-frequency": "12235",
+      "data-relevance": "318",
+      "data-term": "toe",
+      "data-encoded-term": "toe",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12235",
+        "w2v",
+        "1"
+      ]
+    },
+    "buttocks": {
+      "data-frequency": "2230",
+      "data-relevance": "317",
+      "data-term": "buttocks",
+      "data-encoded-term": "buttocks",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2230",
+        "w2v",
+        "1"
+      ]
+    },
+    "plaster": {
+      "data-frequency": "11489",
+      "data-relevance": "316",
+      "data-term": "plaster",
+      "data-encoded-term": "plaster",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11489",
+        "ol",
+        "1"
+      ]
+    },
+    "cocked": {
+      "data-frequency": "1493",
+      "data-relevance": "315",
+      "data-term": "cocked",
+      "data-encoded-term": "cocked",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1493",
+        "w2v",
+        "1"
+      ]
+    },
+    "chest": {
+      "data-frequency": "30360",
+      "data-relevance": "314",
+      "data-term": "chest",
+      "data-encoded-term": "chest",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "30360",
+        "w2v",
+        "1"
+      ]
+    },
+    "leg": {
+      "data-frequency": "78316",
+      "data-relevance": "313",
+      "data-term": "leg",
+      "data-encoded-term": "leg",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "78316",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "throat": {
+      "data-frequency": "20966",
+      "data-relevance": "312",
+      "data-term": "throat",
+      "data-encoded-term": "throat",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "20966",
+        "w2v",
+        "1"
+      ]
+    },
+    "pillow": {
+      "data-frequency": "6895",
+      "data-relevance": "311",
+      "data-term": "pillow",
+      "data-encoded-term": "pillow",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6895",
+        "w2v",
+        "1"
+      ]
+    },
+    "waist": {
+      "data-frequency": "8373",
+      "data-relevance": "310",
+      "data-term": "waist",
+      "data-encoded-term": "waist",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "8373",
+        "w2v",
+        "1"
+      ]
+    },
+    "torso": {
+      "data-frequency": "5623",
+      "data-relevance": "309",
+      "data-term": "torso",
+      "data-encoded-term": "torso",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5623",
+        "w2v",
+        "1"
+      ]
+    },
+    "holster": {
+      "data-frequency": "707",
+      "data-relevance": "308",
+      "data-term": "holster",
+      "data-encoded-term": "holster",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "707",
+        "w2v",
+        "1"
+      ]
+    },
+    "heel": {
+      "data-frequency": "9702",
+      "data-relevance": "307",
+      "data-term": "heel",
+      "data-encoded-term": "heel",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "9702",
+        "w2v",
+        "1"
+      ]
+    },
+    "sleeves": {
+      "data-frequency": "4870",
+      "data-relevance": "306",
+      "data-term": "sleeves",
+      "data-encoded-term": "sleeves",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4870",
+        "w2v",
+        "1"
+      ]
+    },
+    "pads": {
+      "data-frequency": "5742",
+      "data-relevance": "305",
+      "data-term": "pads",
+      "data-encoded-term": "pads",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5742",
+        "w2v",
+        "1"
+      ]
+    },
+    "waistband": {
+      "data-frequency": "453",
+      "data-relevance": "304",
+      "data-term": "waistband",
+      "data-encoded-term": "waistband",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "453",
+        "w2v",
+        "1"
+      ]
+    },
+    "sheath": {
+      "data-frequency": "4382",
+      "data-relevance": "303",
+      "data-term": "sheath",
+      "data-encoded-term": "sheath",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4382",
+        "w2v",
+        "1"
+      ]
+    },
+    "cheek": {
+      "data-frequency": "11364",
+      "data-relevance": "302",
+      "data-term": "cheek",
+      "data-encoded-term": "cheek",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "11364",
+        "w2v",
+        "1"
+      ]
+    },
+    "padding": {
+      "data-frequency": "1978",
+      "data-relevance": "301",
+      "data-term": "padding",
+      "data-encoded-term": "padding",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1978",
+        "w2v",
+        "1"
+      ]
+    },
+    "fingernails": {
+      "data-frequency": "1262",
+      "data-relevance": "300",
+      "data-term": "fingernails",
+      "data-encoded-term": "fingernails",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1262",
+        "w2v",
+        "1"
+      ]
+    },
+    "brim": {
+      "data-frequency": "1558",
+      "data-relevance": "299",
+      "data-term": "brim",
+      "data-encoded-term": "brim",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1558",
+        "w2v",
+        "1"
+      ]
+    },
+    "overcoat": {
+      "data-frequency": "1377",
+      "data-relevance": "298",
+      "data-term": "overcoat",
+      "data-encoded-term": "overcoat",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1377",
+        "w2v",
+        "1"
+      ]
+    },
+    "abdomen": {
+      "data-frequency": "10360",
+      "data-relevance": "297",
+      "data-term": "abdomen",
+      "data-encoded-term": "abdomen",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10360",
+        "w2v",
+        "1"
+      ]
+    },
+    "hair": {
+      "data-frequency": "69441",
+      "data-relevance": "296",
+      "data-term": "hair",
+      "data-encoded-term": "hair",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "69441",
+        "w2v",
+        "1"
+      ]
+    },
+    "tunic": {
+      "data-frequency": "2624",
+      "data-relevance": "295",
+      "data-term": "tunic",
+      "data-encoded-term": "tunic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2624",
+        "w2v",
+        "1"
+      ]
+    },
+    "cuff": {
+      "data-frequency": "3433",
+      "data-relevance": "294",
+      "data-term": "cuff",
+      "data-encoded-term": "cuff",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3433",
+        "w2v",
+        "1"
+      ]
+    },
+    "shawl": {
+      "data-frequency": "2378",
+      "data-relevance": "293",
+      "data-term": "shawl",
+      "data-encoded-term": "shawl",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2378",
+        "w2v",
+        "1"
+      ]
+    },
+    "scalp": {
+      "data-frequency": "2516",
+      "data-relevance": "292",
+      "data-term": "scalp",
+      "data-encoded-term": "scalp",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2516",
+        "w2v",
+        "1"
+      ]
+    },
+    "belly": {
+      "data-frequency": "14659",
+      "data-relevance": "291",
+      "data-term": "belly",
+      "data-encoded-term": "belly",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "14659",
+        "w2v",
+        "1"
+      ]
+    },
+    "ankles": {
+      "data-frequency": "2073",
+      "data-relevance": "290",
+      "data-term": "ankles",
+      "data-encoded-term": "ankles",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2073",
+        "w2v",
+        "1"
+      ]
+    },
+    "rotator": {
+      "data-frequency": "1170",
+      "data-relevance": "289",
+      "data-term": "rotator",
+      "data-encoded-term": "rotator",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1170",
+        "w2v",
+        "1"
+      ]
+    },
+    "coverings": {
+      "data-frequency": "1567",
+      "data-relevance": "288",
+      "data-term": "coverings",
+      "data-encoded-term": "coverings",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1567",
+        "w2v",
+        "1"
+      ]
+    },
+    "shoulder": {
+      "data-frequency": "39260",
+      "data-relevance": "287",
+      "data-term": "shoulder",
+      "data-encoded-term": "shoulder",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "39260",
+        "w2v",
+        "1"
+      ]
+    },
+    "adhesive": {
+      "data-frequency": "4815",
+      "data-relevance": "286",
+      "data-term": "adhesive",
+      "data-encoded-term": "adhesive",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4815",
+        "w2v",
+        "1"
+      ]
+    },
+    "buttock": {
+      "data-frequency": "448",
+      "data-relevance": "285",
+      "data-term": "buttock",
+      "data-encoded-term": "buttock",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "448",
+        "w2v",
+        "1"
+      ]
+    },
+    "wrists": {
+      "data-frequency": "2468",
+      "data-relevance": "284",
+      "data-term": "wrists",
+      "data-encoded-term": "wrists",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2468",
+        "w2v",
+        "1"
+      ]
+    },
+    "spongy": {
+      "data-frequency": "828",
+      "data-relevance": "283",
+      "data-term": "spongy",
+      "data-encoded-term": "spongy",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "828",
+        "w2v",
+        "1"
+      ]
+    },
+    "goatee": {
+      "data-frequency": "488",
+      "data-relevance": "282",
+      "data-term": "goatee",
+      "data-encoded-term": "goatee",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "488",
+        "w2v",
+        "1"
+      ]
+    },
+    "tattoo": {
+      "data-frequency": "10058",
+      "data-relevance": "281",
+      "data-term": "tattoo",
+      "data-encoded-term": "tattoo",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10058",
+        "w2v",
+        "1"
+      ]
+    },
+    "cartilage": {
+      "data-frequency": "3465",
+      "data-relevance": "280",
+      "data-term": "cartilage",
+      "data-encoded-term": "cartilage",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3465",
+        "w2v",
+        "1"
+      ]
+    },
+    "tarpaulin": {
+      "data-frequency": "896",
+      "data-relevance": "279",
+      "data-term": "tarpaulin",
+      "data-encoded-term": "tarpaulin",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "896",
+        "w2v",
+        "1"
+      ]
+    },
+    "scissors": {
+      "data-frequency": "5152",
+      "data-relevance": "278",
+      "data-term": "scissors",
+      "data-encoded-term": "scissors",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "5152",
+        "w2v",
+        "1"
+      ]
+    },
+    "shaved": {
+      "data-frequency": "7025",
+      "data-relevance": "277",
+      "data-term": "shaved",
+      "data-encoded-term": "shaved",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7025",
+        "w2v",
+        "1"
+      ]
+    },
+    "rib": {
+      "data-frequency": "6610",
+      "data-relevance": "276",
+      "data-term": "rib",
+      "data-encoded-term": "rib",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6610",
+        "w2v",
+        "1"
+      ]
+    },
+    "prosthetic": {
+      "data-frequency": "3039",
+      "data-relevance": "275",
+      "data-term": "prosthetic",
+      "data-encoded-term": "prosthetic",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3039",
+        "w2v",
+        "1"
+      ]
+    },
+    "straps": {
+      "data-frequency": "2788",
+      "data-relevance": "274",
+      "data-term": "straps",
+      "data-encoded-term": "straps",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2788",
+        "w2v",
+        "1"
+      ]
+    },
+    "matted": {
+      "data-frequency": "793",
+      "data-relevance": "273",
+      "data-term": "matted",
+      "data-encoded-term": "matted",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "793",
+        "w2v",
+        "1"
+      ]
+    },
+    "rubbery": {
+      "data-frequency": "573",
+      "data-relevance": "272",
+      "data-term": "rubbery",
+      "data-encoded-term": "rubbery",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "573",
+        "w2v",
+        "1"
+      ]
+    },
+    "blistered": {
+      "data-frequency": "307",
+      "data-relevance": "271",
+      "data-term": "blistered",
+      "data-encoded-term": "blistered",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "307",
+        "w2v",
+        "1"
+      ]
+    },
+    "curled": {
+      "data-frequency": "2091",
+      "data-relevance": "270",
+      "data-term": "curled",
+      "data-encoded-term": "curled",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2091",
+        "w2v",
+        "1"
+      ]
+    },
+    "wrinkled": {
+      "data-frequency": "2417",
+      "data-relevance": "269",
+      "data-term": "wrinkled",
+      "data-encoded-term": "wrinkled",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2417",
+        "w2v",
+        "1"
+      ]
+    },
+    "rubbing": {
+      "data-frequency": "3243",
+      "data-relevance": "268",
+      "data-term": "rubbing",
+      "data-encoded-term": "rubbing",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3243",
+        "w2v",
+        "1"
+      ]
+    },
+    "meniscus": {
+      "data-frequency": "1487",
+      "data-relevance": "267",
+      "data-term": "meniscus",
+      "data-encoded-term": "meniscus",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1487",
+        "w2v",
+        "1"
+      ]
+    },
+    "pleated": {
+      "data-frequency": "817",
+      "data-relevance": "266",
+      "data-term": "pleated",
+      "data-encoded-term": "pleated",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "817",
+        "w2v",
+        "1"
+      ]
+    },
+    "hoof": {
+      "data-frequency": "2066",
+      "data-relevance": "265",
+      "data-term": "hoof",
+      "data-encoded-term": "hoof",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "2066",
+        "w2v",
+        "1"
+      ]
+    },
+    "tattoos": {
+      "data-frequency": "3630",
+      "data-relevance": "264",
+      "data-term": "tattoos",
+      "data-encoded-term": "tattoos",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "3630",
+        "w2v",
+        "1"
+      ]
+    },
+    "stubble": {
+      "data-frequency": "736",
+      "data-relevance": "263",
+      "data-term": "stubble",
+      "data-encoded-term": "stubble",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "736",
+        "w2v",
+        "1"
+      ]
+    },
+    "slung": {
+      "data-frequency": "1064",
+      "data-relevance": "262",
+      "data-term": "slung",
+      "data-encoded-term": "slung",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1064",
+        "w2v",
+        "1"
+      ]
+    },
+    "testicle": {
+      "data-frequency": "643",
+      "data-relevance": "261",
+      "data-term": "testicle",
+      "data-encoded-term": "testicle",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "643",
+        "w2v",
+        "1"
+      ]
+    },
+    "pants": {
+      "data-frequency": "12425",
+      "data-relevance": "260",
+      "data-term": "pants",
+      "data-encoded-term": "pants",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "12425",
+        "w2v",
+        "1"
+      ]
+    },
+    "breasts": {
+      "data-frequency": "4791",
+      "data-relevance": "259",
+      "data-term": "breasts",
+      "data-encoded-term": "breasts",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4791",
+        "w2v",
+        "1"
+      ]
+    },
+    "duct": {
+      "data-frequency": "4620",
+      "data-relevance": "258",
+      "data-term": "duct",
+      "data-encoded-term": "duct",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "4620",
+        "w2v",
+        "1"
+      ]
+    },
+    "hairs": {
+      "data-frequency": "10353",
+      "data-relevance": "257",
+      "data-term": "hairs",
+      "data-encoded-term": "hairs",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "10353",
+        "w2v",
+        "1"
+      ]
+    },
+    "cure": {
+      "data-frequency": "29447",
+      "data-relevance": "256",
+      "data-term": "cure",
+      "data-encoded-term": "cure",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "29447",
+        "ol",
+        "1"
+      ]
+    },
+    "dressmaker": {
+      "data-frequency": "1012",
+      "data-relevance": "255",
+      "data-term": "dressmaker",
+      "data-encoded-term": "dressmaker",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "1012",
+        "cn5",
+        "1"
+      ]
+    },
+    "jacket": {
+      "data-frequency": "18561",
+      "data-relevance": "254",
+      "data-term": "jacket",
+      "data-encoded-term": "jacket",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "18561",
+        "w2v",
+        "1"
+      ]
+    },
+    "strip": {
+      "data-frequency": "52122",
+      "data-relevance": "253",
+      "data-term": "strip",
+      "data-encoded-term": "strip",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "52122",
+        "ol",
+        "1"
+      ]
+    },
+    "caftan": {
+      "data-frequency": "90",
+      "data-relevance": "252",
+      "data-term": "caftan",
+      "data-encoded-term": "caftan",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "90",
+        "cn5",
+        "1"
+      ]
+    },
+    "kirtle": {
+      "data-frequency": "292",
+      "data-relevance": "251",
+      "data-term": "kirtle",
+      "data-encoded-term": "kirtle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "292",
+        "cn5",
+        "1"
+      ]
+    },
+    "gown": {
+      "data-frequency": "6919",
+      "data-relevance": "250",
+      "data-term": "gown",
+      "data-encoded-term": "gown",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "6919",
+        "cn5",
+        "1"
+      ]
+    },
+    "band": {
+      "data-frequency": "382655",
+      "data-relevance": "249",
+      "data-term": "band",
+      "data-encoded-term": "band",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "382655",
+        "ol",
+        "1"
+      ]
+    },
+    "frock": {
+      "data-frequency": "1548",
+      "data-relevance": "248",
+      "data-term": "frock",
+      "data-encoded-term": "frock",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1548",
+        "cn5",
+        "1"
+      ]
+    },
+    "chemise": {
+      "data-frequency": "496",
+      "data-relevance": "247",
+      "data-term": "chemise",
+      "data-encoded-term": "chemise",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "496",
+        "cn5",
+        "1"
+      ]
+    },
+    "straitjacket": {
+      "data-frequency": "638",
+      "data-relevance": "246",
+      "data-term": "straitjacket",
+      "data-encoded-term": "straitjacket",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "638",
+        "cn5",
+        "1"
+      ]
+    },
+    "sale": {
+      "data-frequency": "114895",
+      "data-relevance": "245",
+      "data-term": "sale",
+      "data-encoded-term": "sale",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "114895",
+        "ol",
+        "1"
+      ]
+    },
+    "bunch": {
+      "data-frequency": "15443",
+      "data-relevance": "244",
+      "data-term": "bunch",
+      "data-encoded-term": "bunch",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "15443",
+        "ol",
+        "1"
+      ]
+    },
+    "sell": {
+      "data-frequency": "90121",
+      "data-relevance": "243",
+      "data-term": "sell",
+      "data-encoded-term": "sell",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "90121",
+        "ol",
+        "1"
+      ]
+    },
+    "selling": {
+      "data-frequency": "106591",
+      "data-relevance": "242",
+      "data-term": "selling",
+      "data-encoded-term": "selling",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "106591",
+        "ol",
+        "1"
+      ]
+    },
+    "bandana": {
+      "data-frequency": "811",
+      "data-relevance": "241",
+      "data-term": "bandana",
+      "data-encoded-term": "bandana",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "811",
+        "ol",
+        "1"
+      ]
+    },
+    "welt": {
+      "data-frequency": "12657",
+      "data-relevance": "240",
+      "data-term": "welt",
+      "data-encoded-term": "welt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "12657",
+        "ol",
+        "1"
+      ]
+    },
+    "chin": {
+      "data-frequency": "27552",
+      "data-relevance": "239",
+      "data-term": "chin",
+      "data-encoded-term": "chin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "27552",
+        "ol",
+        "1"
+      ]
+    },
+    "pinky": {
+      "data-frequency": "3840",
+      "data-relevance": "238",
+      "data-term": "pinky",
+      "data-encoded-term": "pinky",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3840",
+        "ol",
+        "1"
+      ]
+    },
+    "wart": {
+      "data-frequency": "1245",
+      "data-relevance": "237",
+      "data-term": "wart",
+      "data-encoded-term": "wart",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1245",
+        "ol",
+        "1"
+      ]
+    },
+    "plasters": {
+      "data-frequency": "299",
+      "data-relevance": "236",
+      "data-term": "plasters",
+      "data-encoded-term": "plasters",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "299",
+        "ol",
+        "1"
+      ]
+    },
+    "mask": {
+      "data-frequency": "32222",
+      "data-relevance": "235",
+      "data-term": "mask",
+      "data-encoded-term": "mask",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "32222",
+        "ol",
+        "1"
+      ]
+    },
+    "ankle": {
+      "data-frequency": "16470",
+      "data-relevance": "234",
+      "data-term": "ankle",
+      "data-encoded-term": "ankle",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "16470",
+        "ol",
+        "1"
+      ]
+    },
+    "kerchief": {
+      "data-frequency": "700",
+      "data-relevance": "233",
+      "data-term": "kerchief",
+      "data-encoded-term": "kerchief",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "700",
+        "ol",
+        "1"
+      ]
+    },
+    "callus": {
+      "data-frequency": "1648",
+      "data-relevance": "232",
+      "data-term": "callus",
+      "data-encoded-term": "callus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1648",
+        "ol",
+        "1"
+      ]
+    },
+    "nostril": {
+      "data-frequency": "869",
+      "data-relevance": "231",
+      "data-term": "nostril",
+      "data-encoded-term": "nostril",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "869",
+        "ol",
+        "1"
+      ]
+    },
+    "cheekbone": {
+      "data-frequency": "500",
+      "data-relevance": "230",
+      "data-term": "cheekbone",
+      "data-encoded-term": "cheekbone",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "500",
+        "ol",
+        "1"
+      ]
+    },
+    "smock": {
+      "data-frequency": "1718",
+      "data-relevance": "229",
+      "data-term": "smock",
+      "data-encoded-term": "smock",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1718",
+        "ol",
+        "1"
+      ]
+    },
+    "coat": {
+      "data-frequency": "119925",
+      "data-relevance": "228",
+      "data-term": "coat",
+      "data-encoded-term": "coat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "119925",
+        "ol",
+        "1"
+      ]
+    },
+    "skirt": {
+      "data-frequency": "6810",
+      "data-relevance": "227",
+      "data-term": "skirt",
+      "data-encoded-term": "skirt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "6810",
+        "cn5",
+        "1"
+      ]
+    },
+    "elbow": {
+      "data-frequency": "10886",
+      "data-relevance": "226",
+      "data-term": "elbow",
+      "data-encoded-term": "elbow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10886",
+        "ol",
+        "1"
+      ]
+    },
+    "vest": {
+      "data-frequency": "10590",
+      "data-relevance": "225",
+      "data-term": "vest",
+      "data-encoded-term": "vest",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "10590",
+        "cn5",
+        "1"
+      ]
+    },
+    "pillowcase": {
+      "data-frequency": "95",
+      "data-relevance": "224",
+      "data-term": "pillowcase",
+      "data-encoded-term": "pillowcase",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "95",
+        "w2v",
+        "1"
+      ]
+    },
+    "oblique bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "223",
+      "data-term": "oblique bandage",
+      "data-encoded-term": "oblique%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "baggie": {
+      "data-frequency": "104",
+      "data-relevance": "222",
+      "data-term": "baggie",
+      "data-encoded-term": "baggie",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "104",
+        "w2v",
+        "1"
+      ]
+    },
+    "capeline bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "221",
+      "data-term": "capeline bandage",
+      "data-encoded-term": "capeline%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "four-tailed bandage": {
+      "data-frequency": "178",
+      "data-relevance": "220",
+      "data-term": "four-tailed bandage",
+      "data-encoded-term": "four-tailed%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "178",
+        "wn",
+        "1"
+      ]
+    },
+    "practice of medicine": {
+      "data-frequency": "1035",
+      "data-relevance": "219",
+      "data-term": "practice of medicine",
+      "data-encoded-term": "practice%20of%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1035",
+        "wn",
+        "1"
+      ]
+    },
+    "roller bandage": {
+      "data-frequency": "101",
+      "data-relevance": "218",
+      "data-term": "roller bandage",
+      "data-encoded-term": "roller%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "101",
+        "wn",
+        "1"
+      ]
+    },
+    "medical dressing": {
+      "data-frequency": "2706",
+      "data-relevance": "217",
+      "data-term": "medical dressing",
+      "data-encoded-term": "medical%20dressing",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2706",
+        "wn",
+        "1"
+      ]
+    },
+    "plaster bandage": {
+      "data-frequency": "112",
+      "data-relevance": "216",
+      "data-term": "plaster bandage",
+      "data-encoded-term": "plaster%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "112",
+        "wn",
+        "1"
+      ]
+    },
+    "suspensory bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "215",
+      "data-term": "suspensory bandage",
+      "data-encoded-term": "suspensory%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "scarf bandage": {
+      "data-frequency": "76",
+      "data-relevance": "214",
+      "data-term": "scarf bandage",
+      "data-encoded-term": "scarf%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "76",
+        "wn",
+        "1"
+      ]
+    },
+    "immovable bandage": {
+      "data-frequency": "-1",
+      "data-relevance": "213",
+      "data-term": "immovable bandage",
+      "data-encoded-term": "immovable%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "triangular bandage": {
+      "data-frequency": "52",
+      "data-relevance": "212",
+      "data-term": "triangular bandage",
+      "data-encoded-term": "triangular%20bandage",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "52",
+        "wn",
+        "1"
+      ]
+    },
+    "treat": {
+      "data-frequency": "42577",
+      "data-relevance": "211",
+      "data-term": "treat",
+      "data-encoded-term": "treat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "42577",
+        "cn5",
+        "1"
+      ]
+    },
+    "attire": {
+      "data-frequency": "8102",
+      "data-relevance": "210",
+      "data-term": "attire",
+      "data-encoded-term": "attire",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8102",
+        "cn5",
+        "1"
+      ]
+    },
+    "costume": {
+      "data-frequency": "32448",
+      "data-relevance": "209",
+      "data-term": "costume",
+      "data-encoded-term": "costume",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "32448",
+        "cn5",
+        "1"
+      ]
+    },
+    "strapless": {
+      "data-frequency": "652",
+      "data-relevance": "208",
+      "data-term": "strapless",
+      "data-encoded-term": "strapless",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "652",
+        "cn5",
+        "1"
+      ]
+    },
+    "corset": {
+      "data-frequency": "1207",
+      "data-relevance": "207",
+      "data-term": "corset",
+      "data-encoded-term": "corset",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1207",
+        "cn5",
+        "1"
+      ]
+    },
+    "apparel": {
+      "data-frequency": "8155",
+      "data-relevance": "206",
+      "data-term": "apparel",
+      "data-encoded-term": "apparel",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "8155",
+        "cn5",
+        "1"
+      ]
+    },
+    "petticoat": {
+      "data-frequency": "2300",
+      "data-relevance": "205",
+      "data-term": "petticoat",
+      "data-encoded-term": "petticoat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2300",
+        "cn5",
+        "1"
+      ]
+    },
+    "modiste": {
+      "data-frequency": "184",
+      "data-relevance": "204",
+      "data-term": "modiste",
+      "data-encoded-term": "modiste",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "184",
+        "cn5",
+        "1"
+      ]
+    },
+    "zippered": {
+      "data-frequency": "124",
+      "data-relevance": "203",
+      "data-term": "zippered",
+      "data-encoded-term": "zippered",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "124",
+        "w2v",
+        "1"
+      ]
+    },
+    "garb": {
+      "data-frequency": "2735",
+      "data-relevance": "202",
+      "data-term": "garb",
+      "data-encoded-term": "garb",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2735",
+        "cn5",
+        "1"
+      ]
+    },
+    "massaged": {
+      "data-frequency": "5008",
+      "data-relevance": "201",
+      "data-term": "massaged",
+      "data-encoded-term": "massaged",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5008",
+        "w2v",
+        "1"
+      ]
+    },
+    "raiment": {
+      "data-frequency": "234",
+      "data-relevance": "200",
+      "data-term": "raiment",
+      "data-encoded-term": "raiment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "234",
+        "cn5",
+        "1"
+      ]
+    },
+    "vesture": {
+      "data-frequency": "229",
+      "data-relevance": "199",
+      "data-term": "vesture",
+      "data-encoded-term": "vesture",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "229",
+        "cn5",
+        "1"
+      ]
+    },
+    "therapy": {
+      "data-frequency": "47239",
+      "data-relevance": "198",
+      "data-term": "therapy",
+      "data-encoded-term": "therapy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "47239",
+        "cn5",
+        "1"
+      ]
+    },
+    "maxi": {
+      "data-frequency": "11863",
+      "data-relevance": "197",
+      "data-term": "maxi",
+      "data-encoded-term": "maxi",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "11863",
+        "cn5",
+        "1"
+      ]
+    },
+    "sari": {
+      "data-frequency": "17712",
+      "data-relevance": "196",
+      "data-term": "sari",
+      "data-encoded-term": "sari",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "17712",
+        "cn5",
+        "1"
+      ]
+    },
+    "kilt": {
+      "data-frequency": "1192",
+      "data-relevance": "195",
+      "data-term": "kilt",
+      "data-encoded-term": "kilt",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1192",
+        "cn5",
+        "1"
+      ]
+    },
+    "garment": {
+      "data-frequency": "7767",
+      "data-relevance": "194",
+      "data-term": "garment",
+      "data-encoded-term": "garment",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "7767",
+        "cn5",
+        "1"
+      ]
+    },
+    "bodice": {
+      "data-frequency": "706",
+      "data-relevance": "193",
+      "data-term": "bodice",
+      "data-encoded-term": "bodice",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "706",
+        "cn5",
+        "1"
+      ]
+    },
+    "shirtdress": {
+      "data-frequency": "456",
+      "data-relevance": "192",
+      "data-term": "shirtdress",
+      "data-encoded-term": "shirtdress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "456",
+        "cn5",
+        "1"
+      ]
+    },
+    "waistcoat": {
+      "data-frequency": "1244",
+      "data-relevance": "191",
+      "data-term": "waistcoat",
+      "data-encoded-term": "waistcoat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1244",
+        "cn5",
+        "1"
+      ]
+    },
+    "coatdress": {
+      "data-frequency": "449",
+      "data-relevance": "190",
+      "data-term": "coatdress",
+      "data-encoded-term": "coatdress",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "449",
+        "cn5",
+        "1"
+      ]
+    },
+    "mantua": {
+      "data-frequency": "5484",
+      "data-relevance": "189",
+      "data-term": "mantua",
+      "data-encoded-term": "mantua",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5484",
+        "cn5",
+        "1"
+      ]
+    },
+    "pinafore": {
+      "data-frequency": "1266",
+      "data-relevance": "188",
+      "data-term": "pinafore",
+      "data-encoded-term": "pinafore",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1266",
+        "cn5",
+        "1"
+      ]
+    },
+    "tog": {
+      "data-frequency": "1696",
+      "data-relevance": "187",
+      "data-term": "tog",
+      "data-encoded-term": "tog",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1696",
+        "cn5",
+        "1"
+      ]
+    },
+    "preen": {
+      "data-frequency": "400",
+      "data-relevance": "186",
+      "data-term": "preen",
+      "data-encoded-term": "preen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "400",
+        "cn5",
+        "1"
+      ]
+    },
+    "cassock": {
+      "data-frequency": "971",
+      "data-relevance": "185",
+      "data-term": "cassock",
+      "data-encoded-term": "cassock",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "971",
+        "cn5",
+        "1"
+      ]
+    },
+    "dirndl": {
+      "data-frequency": "193",
+      "data-relevance": "184",
+      "data-term": "dirndl",
+      "data-encoded-term": "dirndl",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "193",
+        "cn5",
+        "1"
+      ]
+    },
+    "vestment": {
+      "data-frequency": "711",
+      "data-relevance": "183",
+      "data-term": "vestment",
+      "data-encoded-term": "vestment",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "711",
+        "cn5",
+        "1"
+      ]
+    },
+    "minidress": {
+      "data-frequency": "52",
+      "data-relevance": "182",
+      "data-term": "minidress",
+      "data-encoded-term": "minidress",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "52",
+        "cn5",
+        "1"
+      ]
+    },
+    "mayonnaise": {
+      "data-frequency": "1120",
+      "data-relevance": "181",
+      "data-term": "mayonnaise",
+      "data-encoded-term": "mayonnaise",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1120",
+        "cn5",
+        "1"
+      ]
+    },
+    "sundress": {
+      "data-frequency": "531",
+      "data-relevance": "180",
+      "data-term": "sundress",
+      "data-encoded-term": "sundress",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "531",
+        "cn5",
+        "1"
+      ]
+    },
+    "overdress": {
+      "data-frequency": "58",
+      "data-relevance": "179",
+      "data-term": "overdress",
+      "data-encoded-term": "overdress",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "58",
+        "cn5",
+        "1"
+      ]
+    },
+    "blouse": {
+      "data-frequency": "2217",
+      "data-relevance": "178",
+      "data-term": "blouse",
+      "data-encoded-term": "blouse",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2217",
+        "cn5",
+        "1"
+      ]
+    },
+    "lavalava": {
+      "data-frequency": "187",
+      "data-relevance": "177",
+      "data-term": "lavalava",
+      "data-encoded-term": "lavalava",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "187",
+        "cn5",
+        "1"
+      ]
+    },
+    "kimono": {
+      "data-frequency": "1937",
+      "data-relevance": "176",
+      "data-term": "kimono",
+      "data-encoded-term": "kimono",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1937",
+        "cn5",
+        "1"
+      ]
+    },
+    "remedy": {
+      "data-frequency": "10566",
+      "data-relevance": "175",
+      "data-term": "remedy",
+      "data-encoded-term": "remedy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10566",
+        "cn5",
+        "1"
+      ]
+    },
+    "radiotherapy": {
+      "data-frequency": "1623",
+      "data-relevance": "174",
+      "data-term": "radiotherapy",
+      "data-encoded-term": "radiotherapy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1623",
+        "cn5",
+        "1"
+      ]
+    },
+    "clothe": {
+      "data-frequency": "698",
+      "data-relevance": "173",
+      "data-term": "clothe",
+      "data-encoded-term": "clothe",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "698",
+        "cn5",
+        "1"
+      ]
+    },
+    "dandify": {
+      "data-frequency": "-1",
+      "data-relevance": "172",
+      "data-term": "dandify",
+      "data-encoded-term": "dandify",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "washcloth": {
+      "data-frequency": "59",
+      "data-relevance": "171",
+      "data-term": "washcloth",
+      "data-encoded-term": "washcloth",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "59",
+        "ol",
+        "1"
+      ]
+    },
+    "band-aid": {
+      "data-frequency": "779",
+      "data-relevance": "170",
+      "data-term": "band-aid",
+      "data-encoded-term": "band-aid",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "779",
+        "ol",
+        "1"
+      ]
+    },
+    "bicep": {
+      "data-frequency": "315",
+      "data-relevance": "169",
+      "data-term": "bicep",
+      "data-encoded-term": "bicep",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "315",
+        "ol",
+        "1"
+      ]
+    },
+    "sutures": {
+      "data-frequency": "2007",
+      "data-relevance": "168",
+      "data-term": "sutures",
+      "data-encoded-term": "sutures",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2007",
+        "ol",
+        "1"
+      ]
+    },
+    "plica": {
+      "data-frequency": "144",
+      "data-relevance": "167",
+      "data-term": "plica",
+      "data-encoded-term": "plica",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "144",
+        "ol",
+        "1"
+      ]
+    },
+    "bandaid": {
+      "data-frequency": "58",
+      "data-relevance": "166",
+      "data-term": "bandaid",
+      "data-encoded-term": "bandaid",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "58",
+        "ol",
+        "1"
+      ]
+    },
+    "toenail": {
+      "data-frequency": "226",
+      "data-relevance": "165",
+      "data-term": "toenail",
+      "data-encoded-term": "toenail",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "ol",
+        "1"
+      ]
+    },
+    "sweatband": {
+      "data-frequency": "47",
+      "data-relevance": "164",
+      "data-term": "sweatband",
+      "data-encoded-term": "sweatband",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "dishtowel": {
+      "data-frequency": "-1",
+      "data-relevance": "163",
+      "data-term": "dishtowel",
+      "data-encoded-term": "dishtowel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "canula": {
+      "data-frequency": "-1",
+      "data-relevance": "162",
+      "data-term": "canula",
+      "data-encoded-term": "canula",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "weals": {
+      "data-frequency": "-1",
+      "data-relevance": "161",
+      "data-term": "weals",
+      "data-encoded-term": "weals",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "khimar": {
+      "data-frequency": "-1",
+      "data-relevance": "160",
+      "data-term": "khimar",
+      "data-encoded-term": "khimar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "kneepad": {
+      "data-frequency": "-1",
+      "data-relevance": "159",
+      "data-term": "kneepad",
+      "data-encoded-term": "kneepad",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "scrunchie": {
+      "data-frequency": "67",
+      "data-relevance": "158",
+      "data-term": "scrunchie",
+      "data-encoded-term": "scrunchie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "orthosis": {
+      "data-frequency": "89",
+      "data-relevance": "157",
+      "data-term": "orthosis",
+      "data-encoded-term": "orthosis",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "89",
+        "ol",
+        "1"
+      ]
+    },
+    "earlobe": {
+      "data-frequency": "165",
+      "data-relevance": "156",
+      "data-term": "earlobe",
+      "data-encoded-term": "earlobe",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "165",
+        "ol",
+        "1"
+      ]
+    },
+    "outfit": {
+      "data-frequency": "18047",
+      "data-relevance": "155",
+      "data-term": "outfit",
+      "data-encoded-term": "outfit",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "18047",
+        "cn5",
+        "1"
+      ]
+    },
+    "therapeutic": {
+      "data-frequency": "13797",
+      "data-relevance": "154",
+      "data-term": "therapeutic",
+      "data-encoded-term": "therapeutic",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13797",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticoagulant": {
+      "data-frequency": "584",
+      "data-relevance": "153",
+      "data-term": "anticoagulant",
+      "data-encoded-term": "anticoagulant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "584",
+        "cn5",
+        "1"
+      ]
+    },
+    "paregoric": {
+      "data-frequency": "255",
+      "data-relevance": "152",
+      "data-term": "paregoric",
+      "data-encoded-term": "paregoric",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "255",
+        "cn5",
+        "1"
+      ]
+    },
+    "medication": {
+      "data-frequency": "12650",
+      "data-relevance": "151",
+      "data-term": "medication",
+      "data-encoded-term": "medication",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12650",
+        "cn5",
+        "1"
+      ]
+    },
+    "apc": {
+      "data-frequency": "4657",
+      "data-relevance": "150",
+      "data-term": "apc",
+      "data-encoded-term": "apc",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4657",
+        "cn5",
+        "1"
+      ]
+    },
+    "clinician": {
+      "data-frequency": "2124",
+      "data-relevance": "149",
+      "data-term": "clinician",
+      "data-encoded-term": "clinician",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2124",
+        "cn5",
+        "1"
+      ]
+    },
+    "jerkin": {
+      "data-frequency": "810",
+      "data-relevance": "148",
+      "data-term": "jerkin",
+      "data-encoded-term": "jerkin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "810",
+        "cn5",
+        "1"
+      ]
+    },
+    "palliative": {
+      "data-frequency": "2001",
+      "data-relevance": "147",
+      "data-term": "palliative",
+      "data-encoded-term": "palliative",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2001",
+        "cn5",
+        "1"
+      ]
+    },
+    "hippie": {
+      "data-frequency": "4469",
+      "data-relevance": "146",
+      "data-term": "hippie",
+      "data-encoded-term": "hippie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4469",
+        "cn5",
+        "1"
+      ]
+    },
+    "underdress": {
+      "data-frequency": "-1",
+      "data-relevance": "145",
+      "data-term": "underdress",
+      "data-encoded-term": "underdress",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dressable": {
+      "data-frequency": "-1",
+      "data-relevance": "144",
+      "data-term": "dressable",
+      "data-encoded-term": "dressable",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dermatology": {
+      "data-frequency": "5236",
+      "data-relevance": "143",
+      "data-term": "dermatology",
+      "data-encoded-term": "dermatology",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5236",
+        "cn5",
+        "1"
+      ]
+    },
+    "housedress": {
+      "data-frequency": "-1",
+      "data-relevance": "142",
+      "data-term": "housedress",
+      "data-encoded-term": "housedress",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "aguise": {
+      "data-frequency": "-1",
+      "data-relevance": "141",
+      "data-term": "aguise",
+      "data-encoded-term": "aguise",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "stick plaster": {
+      "data-frequency": "346",
+      "data-relevance": "140",
+      "data-term": "stick plaster",
+      "data-encoded-term": "stick%20plaster",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "346",
+        "cn5",
+        "1"
+      ]
+    },
+    "blood": {
+      "data-frequency": "157175",
+      "data-relevance": "139",
+      "data-term": "blood",
+      "data-encoded-term": "blood",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "157175",
+        "swiki",
+        "1"
+      ]
+    },
+    "dizen": {
+      "data-frequency": "-1",
+      "data-relevance": "138",
+      "data-term": "dizen",
+      "data-encoded-term": "dizen",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "overskirt": {
+      "data-frequency": "46",
+      "data-relevance": "137",
+      "data-term": "overskirt",
+      "data-encoded-term": "overskirt",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "46",
+        "cn5",
+        "1"
+      ]
+    },
+    "prink": {
+      "data-frequency": "67",
+      "data-relevance": "136",
+      "data-term": "prink",
+      "data-encoded-term": "prink",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "67",
+        "cn5",
+        "1"
+      ]
+    },
+    "vulnerary": {
+      "data-frequency": "-1",
+      "data-relevance": "135",
+      "data-term": "vulnerary",
+      "data-encoded-term": "vulnerary",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "costumal": {
+      "data-frequency": "-1",
+      "data-relevance": "134",
+      "data-term": "costumal",
+      "data-encoded-term": "costumal",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pinny": {
+      "data-frequency": "70",
+      "data-relevance": "133",
+      "data-term": "pinny",
+      "data-encoded-term": "pinny",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "70",
+        "cn5",
+        "1"
+      ]
+    },
+    "caparison": {
+      "data-frequency": "296",
+      "data-relevance": "132",
+      "data-term": "caparison",
+      "data-encoded-term": "caparison",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "296",
+        "cn5",
+        "1"
+      ]
+    },
+    "cicatrizant": {
+      "data-frequency": "-1",
+      "data-relevance": "131",
+      "data-term": "cicatrizant",
+      "data-encoded-term": "cicatrizant",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "simar": {
+      "data-frequency": "226",
+      "data-relevance": "130",
+      "data-term": "simar",
+      "data-encoded-term": "simar",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "226",
+        "cn5",
+        "1"
+      ]
+    },
+    "primp": {
+      "data-frequency": "-1",
+      "data-relevance": "129",
+      "data-term": "primp",
+      "data-encoded-term": "primp",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "outerwear": {
+      "data-frequency": "1082",
+      "data-relevance": "128",
+      "data-term": "outerwear",
+      "data-encoded-term": "outerwear",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1082",
+        "cn5",
+        "1"
+      ]
+    },
+    "halterneck": {
+      "data-frequency": "446",
+      "data-relevance": "127",
+      "data-term": "halterneck",
+      "data-encoded-term": "halterneck",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "446",
+        "cn5",
+        "1"
+      ]
+    },
+    "bedrape": {
+      "data-frequency": "-1",
+      "data-relevance": "126",
+      "data-term": "bedrape",
+      "data-encoded-term": "bedrape",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "swaddle": {
+      "data-frequency": "80",
+      "data-relevance": "125",
+      "data-term": "swaddle",
+      "data-encoded-term": "swaddle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "80",
+        "cn5",
+        "1"
+      ]
+    },
+    "neckwear": {
+      "data-frequency": "574",
+      "data-relevance": "124",
+      "data-term": "neckwear",
+      "data-encoded-term": "neckwear",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "574",
+        "cn5",
+        "1"
+      ]
+    },
+    "petticoating": {
+      "data-frequency": "-1",
+      "data-relevance": "123",
+      "data-term": "petticoating",
+      "data-encoded-term": "petticoating",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "innerwear": {
+      "data-frequency": "-1",
+      "data-relevance": "122",
+      "data-term": "innerwear",
+      "data-encoded-term": "innerwear",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "neckline": {
+      "data-frequency": "415",
+      "data-relevance": "121",
+      "data-term": "neckline",
+      "data-encoded-term": "neckline",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "415",
+        "cn5",
+        "1"
+      ]
+    },
+    "clothespin": {
+      "data-frequency": "151",
+      "data-relevance": "120",
+      "data-term": "clothespin",
+      "data-encoded-term": "clothespin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "151",
+        "cn5",
+        "1"
+      ]
+    },
+    "anticholinesterase": {
+      "data-frequency": "123",
+      "data-relevance": "119",
+      "data-term": "anticholinesterase",
+      "data-encoded-term": "anticholinesterase",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "123",
+        "cn5",
+        "1"
+      ]
+    },
+    "venesect": {
+      "data-frequency": "-1",
+      "data-relevance": "118",
+      "data-term": "venesect",
+      "data-encoded-term": "venesect",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "traumatology": {
+      "data-frequency": "433",
+      "data-relevance": "117",
+      "data-term": "traumatology",
+      "data-encoded-term": "traumatology",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "433",
+        "cn5",
+        "1"
+      ]
+    },
+    "aesculapian": {
+      "data-frequency": "88",
+      "data-relevance": "116",
+      "data-term": "aesculapian",
+      "data-encoded-term": "aesculapian",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "88",
+        "cn5",
+        "1"
+      ]
+    },
+    "leechcraft": {
+      "data-frequency": "-1",
+      "data-relevance": "115",
+      "data-term": "leechcraft",
+      "data-encoded-term": "leechcraft",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "nanomedicine": {
+      "data-frequency": "790",
+      "data-relevance": "114",
+      "data-term": "nanomedicine",
+      "data-encoded-term": "nanomedicine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "790",
+        "cn5",
+        "1"
+      ]
+    },
+    "coverall": {
+      "data-frequency": "77",
+      "data-relevance": "113",
+      "data-term": "coverall",
+      "data-encoded-term": "coverall",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "77",
+        "cn5",
+        "1"
+      ]
+    },
+    "neck brace": {
+      "data-frequency": "185",
+      "data-relevance": "112",
+      "data-term": "neck brace",
+      "data-encoded-term": "neck%20brace",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "185",
+        "ol|vec2",
+        "1"
+      ]
+    },
+    "premedical": {
+      "data-frequency": "154",
+      "data-relevance": "111",
+      "data-term": "premedical",
+      "data-encoded-term": "premedical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "154",
+        "cn5",
+        "1"
+      ]
+    },
+    "clonic": {
+      "data-frequency": "153",
+      "data-relevance": "110",
+      "data-term": "clonic",
+      "data-encoded-term": "clonic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "153",
+        "cn5",
+        "1"
+      ]
+    },
+    "ethnomedicine": {
+      "data-frequency": "275",
+      "data-relevance": "109",
+      "data-term": "ethnomedicine",
+      "data-encoded-term": "ethnomedicine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "275",
+        "cn5",
+        "1"
+      ]
+    },
+    "amrinone": {
+      "data-frequency": "96",
+      "data-relevance": "108",
+      "data-term": "amrinone",
+      "data-encoded-term": "amrinone",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicate": {
+      "data-frequency": "244",
+      "data-relevance": "107",
+      "data-term": "medicate",
+      "data-encoded-term": "medicate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "244",
+        "cn5",
+        "1"
+      ]
+    },
+    "neurotropic": {
+      "data-frequency": "191",
+      "data-relevance": "106",
+      "data-term": "neurotropic",
+      "data-encoded-term": "neurotropic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "191",
+        "cn5",
+        "1"
+      ]
+    },
+    "isoproterenol": {
+      "data-frequency": "60",
+      "data-relevance": "105",
+      "data-term": "isoproterenol",
+      "data-encoded-term": "isoproterenol",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "neuropsychiatry": {
+      "data-frequency": "611",
+      "data-relevance": "104",
+      "data-term": "neuropsychiatry",
+      "data-encoded-term": "neuropsychiatry",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "611",
+        "cn5",
+        "1"
+      ]
+    },
+    "azathioprine": {
+      "data-frequency": "361",
+      "data-relevance": "103",
+      "data-term": "azathioprine",
+      "data-encoded-term": "azathioprine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "361",
+        "cn5",
+        "1"
+      ]
+    },
+    "neckpiece": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "neckpiece",
+      "data-encoded-term": "neckpiece",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "clofibrate": {
+      "data-frequency": "96",
+      "data-relevance": "101",
+      "data-term": "clofibrate",
+      "data-encoded-term": "clofibrate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "96",
+        "cn5",
+        "1"
+      ]
+    },
+    "unguent": {
+      "data-frequency": "56",
+      "data-relevance": "100",
+      "data-term": "unguent",
+      "data-encoded-term": "unguent",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "56",
+        "cn5",
+        "1"
+      ]
+    },
+    "hematinic": {
+      "data-frequency": "-1",
+      "data-relevance": "99",
+      "data-term": "hematinic",
+      "data-encoded-term": "hematinic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicative": {
+      "data-frequency": "-1",
+      "data-relevance": "98",
+      "data-term": "medicative",
+      "data-encoded-term": "medicative",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "immunosuppressant": {
+      "data-frequency": "257",
+      "data-relevance": "97",
+      "data-term": "immunosuppressant",
+      "data-encoded-term": "immunosuppressant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "257",
+        "cn5",
+        "1"
+      ]
+    },
+    "urinalysis": {
+      "data-frequency": "319",
+      "data-relevance": "96",
+      "data-term": "urinalysis",
+      "data-encoded-term": "urinalysis",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "319",
+        "cn5",
+        "1"
+      ]
+    },
+    "isosorbide": {
+      "data-frequency": "156",
+      "data-relevance": "95",
+      "data-term": "isosorbide",
+      "data-encoded-term": "isosorbide",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "156",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiemetic": {
+      "data-frequency": "177",
+      "data-relevance": "94",
+      "data-term": "antiemetic",
+      "data-encoded-term": "antiemetic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "177",
+        "cn5",
+        "1"
+      ]
+    },
+    "decongestant": {
+      "data-frequency": "140",
+      "data-relevance": "93",
+      "data-term": "decongestant",
+      "data-encoded-term": "decongestant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "140",
+        "cn5",
+        "1"
+      ]
+    },
+    "physostigmine": {
+      "data-frequency": "299",
+      "data-relevance": "92",
+      "data-term": "physostigmine",
+      "data-encoded-term": "physostigmine",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "299",
+        "cn5",
+        "1"
+      ]
+    },
+    "nonprescription": {
+      "data-frequency": "93",
+      "data-relevance": "91",
+      "data-term": "nonprescription",
+      "data-encoded-term": "nonprescription",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "93",
+        "cn5",
+        "1"
+      ]
+    },
+    "antiarrhythmic": {
+      "data-frequency": "227",
+      "data-relevance": "90",
+      "data-term": "antiarrhythmic",
+      "data-encoded-term": "antiarrhythmic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "227",
+        "cn5",
+        "1"
+      ]
+    },
+    "sucralfate": {
+      "data-frequency": "42",
+      "data-relevance": "89",
+      "data-term": "sucralfate",
+      "data-encoded-term": "sucralfate",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "42",
+        "cn5",
+        "1"
+      ]
+    },
+    "vermifuge": {
+      "data-frequency": "44",
+      "data-relevance": "88",
+      "data-term": "vermifuge",
+      "data-encoded-term": "vermifuge",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "44",
+        "cn5",
+        "1"
+      ]
+    },
+    "slutwear": {
+      "data-frequency": "-1",
+      "data-relevance": "87",
+      "data-term": "slutwear",
+      "data-encoded-term": "slutwear",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pseudomedical": {
+      "data-frequency": "-1",
+      "data-relevance": "86",
+      "data-term": "pseudomedical",
+      "data-encoded-term": "pseudomedical",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "reclothe": {
+      "data-frequency": "-1",
+      "data-relevance": "85",
+      "data-term": "reclothe",
+      "data-encoded-term": "reclothe",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "hemline": {
+      "data-frequency": "135",
+      "data-relevance": "84",
+      "data-term": "hemline",
+      "data-encoded-term": "hemline",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "135",
+        "cn5",
+        "1"
+      ]
+    },
+    "suppository": {
+      "data-frequency": "267",
+      "data-relevance": "83",
+      "data-term": "suppository",
+      "data-encoded-term": "suppository",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "267",
+        "cn5",
+        "1"
+      ]
+    },
+    "antispasmodic": {
+      "data-frequency": "130",
+      "data-relevance": "82",
+      "data-term": "antispasmodic",
+      "data-encoded-term": "antispasmodic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "130",
+        "cn5",
+        "1"
+      ]
+    },
+    "antipyretic": {
+      "data-frequency": "181",
+      "data-relevance": "81",
+      "data-term": "antipyretic",
+      "data-encoded-term": "antipyretic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "181",
+        "cn5",
+        "1"
+      ]
+    },
+    "american english": {
+      "data-frequency": "73806",
+      "data-relevance": "80",
+      "data-term": "american english",
+      "data-encoded-term": "american%20english",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "73806",
+        "wiki",
+        "1"
+      ]
+    },
+    "medical treatment": {
+      "data-frequency": "6312",
+      "data-relevance": "79",
+      "data-term": "medical treatment",
+      "data-encoded-term": "medical%20treatment",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6312",
+        "cn5",
+        "1"
+      ]
+    },
+    "woman clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "78",
+      "data-term": "woman clothe",
+      "data-encoded-term": "woman%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "slide fastener": {
+      "data-frequency": "-1",
+      "data-relevance": "77",
+      "data-term": "slide fastener",
+      "data-encoded-term": "slide%20fastener",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "female clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "76",
+      "data-term": "female clothe",
+      "data-encoded-term": "female%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "form of clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "75",
+      "data-term": "form of clothe",
+      "data-encoded-term": "form%20of%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "girl clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "74",
+      "data-term": "girl clothe",
+      "data-encoded-term": "girl%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "mother hubbard": {
+      "data-frequency": "111",
+      "data-relevance": "73",
+      "data-term": "mother hubbard",
+      "data-encoded-term": "mother%20hubbard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "111",
+        "cn5",
+        "1"
+      ]
+    },
+    "mustard plaster": {
+      "data-frequency": "-1",
+      "data-relevance": "72",
+      "data-term": "mustard plaster",
+      "data-encoded-term": "mustard%20plaster",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cocktail dress": {
+      "data-frequency": "157",
+      "data-relevance": "71",
+      "data-term": "cocktail dress",
+      "data-encoded-term": "cocktail%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "157",
+        "cn5",
+        "1"
+      ]
+    },
+    "dress rehearsal": {
+      "data-frequency": "1026",
+      "data-relevance": "70",
+      "data-term": "dress rehearsal",
+      "data-encoded-term": "dress%20rehearsal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1026",
+        "cn5",
+        "1"
+      ]
+    },
+    "ball gown": {
+      "data-frequency": "561",
+      "data-relevance": "69",
+      "data-term": "ball gown",
+      "data-encoded-term": "ball%20gown",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "561",
+        "cn5",
+        "1"
+      ]
+    },
+    "dress down": {
+      "data-frequency": "76",
+      "data-relevance": "68",
+      "data-term": "dress down",
+      "data-encoded-term": "dress%20down",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "76",
+        "cn5",
+        "1"
+      ]
+    },
+    "medicine chest": {
+      "data-frequency": "104",
+      "data-relevance": "67",
+      "data-term": "medicine chest",
+      "data-encoded-term": "medicine%20chest",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "104",
+        "cn5",
+        "1"
+      ]
+    },
+    "morning dress": {
+      "data-frequency": "513",
+      "data-relevance": "66",
+      "data-term": "morning dress",
+      "data-encoded-term": "morning%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "513",
+        "cn5",
+        "1"
+      ]
+    },
+    "ao dai": {
+      "data-frequency": "216",
+      "data-relevance": "65",
+      "data-term": "ao dai",
+      "data-encoded-term": "ao%20dai",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "216",
+        "cn5",
+        "1"
+      ]
+    },
+    "skin graft": {
+      "data-frequency": "222",
+      "data-relevance": "64",
+      "data-term": "skin graft",
+      "data-encoded-term": "skin%20graft",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "222",
+        "ol",
+        "1"
+      ]
+    },
+    "bundle up": {
+      "data-frequency": "45",
+      "data-relevance": "63",
+      "data-term": "bundle up",
+      "data-encoded-term": "bundle%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "45",
+        "cn5",
+        "1"
+      ]
+    },
+    "deltoid muscle": {
+      "data-frequency": "74",
+      "data-relevance": "62",
+      "data-term": "deltoid muscle",
+      "data-encoded-term": "deltoid%20muscle",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "74",
+        "ol",
+        "1"
+      ]
+    },
+    "sticking plaster": {
+      "data-frequency": "347",
+      "data-relevance": "61",
+      "data-term": "sticking plaster",
+      "data-encoded-term": "sticking%20plaster",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "347",
+        "ol",
+        "1"
+      ]
+    },
+    "oxygen mask": {
+      "data-frequency": "1422",
+      "data-relevance": "60",
+      "data-term": "oxygen mask",
+      "data-encoded-term": "oxygen%20mask",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1422",
+        "ol",
+        "1"
+      ]
+    },
+    "tongue depressor": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "tongue depressor",
+      "data-encoded-term": "tongue%20depressor",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "nylon stocking": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "nylon stocking",
+      "data-encoded-term": "nylon%20stocking",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "metacarpal bone": {
+      "data-frequency": "94",
+      "data-relevance": "57",
+      "data-term": "metacarpal bone",
+      "data-encoded-term": "metacarpal%20bone",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "94",
+        "ol",
+        "1"
+      ]
+    },
+    "trapezius muscle": {
+      "data-frequency": "67",
+      "data-relevance": "56",
+      "data-term": "trapezius muscle",
+      "data-encoded-term": "trapezius%20muscle",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "tube sock": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "tube sock",
+      "data-encoded-term": "tube%20sock",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "ear lobe": {
+      "data-frequency": "67",
+      "data-relevance": "54",
+      "data-term": "ear lobe",
+      "data-encoded-term": "ear%20lobe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "pant leg": {
+      "data-frequency": "71",
+      "data-relevance": "53",
+      "data-term": "pant leg",
+      "data-encoded-term": "pant%20leg",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "ingrown hair": {
+      "data-frequency": "-1",
+      "data-relevance": "52",
+      "data-term": "ingrown hair",
+      "data-encoded-term": "ingrown%20hair",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "umbilical hernia": {
+      "data-frequency": "44",
+      "data-relevance": "51",
+      "data-term": "umbilical hernia",
+      "data-encoded-term": "umbilical%20hernia",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "44",
+        "ol",
+        "1"
+      ]
+    },
+    "in medicine cabinet": {
+      "data-frequency": "-1",
+      "data-relevance": "50",
+      "data-term": "in medicine cabinet",
+      "data-encoded-term": "in%20medicine%20cabinet",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "seborrheic keratosis": {
+      "data-frequency": "151",
+      "data-relevance": "49",
+      "data-term": "seborrheic keratosis",
+      "data-encoded-term": "seborrheic%20keratosis",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "151",
+        "ol",
+        "1"
+      ]
+    },
+    "french dress": {
+      "data-frequency": "-1",
+      "data-relevance": "48",
+      "data-term": "french dress",
+      "data-encoded-term": "french%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dress code": {
+      "data-frequency": "2379",
+      "data-relevance": "47",
+      "data-term": "dress code",
+      "data-encoded-term": "dress%20code",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2379",
+        "cn5",
+        "1"
+      ]
+    },
+    "piece of clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "46",
+      "data-term": "piece of clothe",
+      "data-encoded-term": "piece%20of%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "princesse dress": {
+      "data-frequency": "-1",
+      "data-relevance": "45",
+      "data-term": "princesse dress",
+      "data-encoded-term": "princesse%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "rig out": {
+      "data-frequency": "-1",
+      "data-relevance": "44",
+      "data-term": "rig out",
+      "data-encoded-term": "rig%20out",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fancy dress": {
+      "data-frequency": "881",
+      "data-relevance": "43",
+      "data-term": "fancy dress",
+      "data-encoded-term": "fancy%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "881",
+        "cn5",
+        "1"
+      ]
+    },
+    "double denim": {
+      "data-frequency": "43",
+      "data-relevance": "42",
+      "data-term": "double denim",
+      "data-encoded-term": "double%20denim",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "43",
+        "cn5",
+        "1"
+      ]
+    },
+    "russian dress": {
+      "data-frequency": "-1",
+      "data-relevance": "41",
+      "data-term": "russian dress",
+      "data-encoded-term": "russian%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "album graecum": {
+      "data-frequency": "-1",
+      "data-relevance": "40",
+      "data-term": "album graecum",
+      "data-encoded-term": "album%20graecum",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cross dress": {
+      "data-frequency": "167",
+      "data-relevance": "39",
+      "data-term": "cross dress",
+      "data-encoded-term": "cross%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "167",
+        "cn5",
+        "1"
+      ]
+    },
+    "band aid": {
+      "data-frequency": "780",
+      "data-relevance": "38",
+      "data-term": "band aid",
+      "data-encoded-term": "band%20aid",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "780",
+        "cn5",
+        "1"
+      ]
+    },
+    "item of clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "37",
+      "data-term": "item of clothe",
+      "data-encoded-term": "item%20of%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "women's clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "36",
+      "data-term": "women's clothe",
+      "data-encoded-term": "women's%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dress gown": {
+      "data-frequency": "-1",
+      "data-relevance": "35",
+      "data-term": "dress gown",
+      "data-encoded-term": "dress%20gown",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "thousand island dress": {
+      "data-frequency": "-1",
+      "data-relevance": "34",
+      "data-term": "thousand island dress",
+      "data-encoded-term": "thousand%20island%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "doll up": {
+      "data-frequency": "-1",
+      "data-relevance": "33",
+      "data-term": "doll up",
+      "data-encoded-term": "doll%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "do up": {
+      "data-frequency": "86",
+      "data-relevance": "32",
+      "data-term": "do up",
+      "data-encoded-term": "do%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "86",
+        "cn5",
+        "1"
+      ]
+    },
+    "hussy up": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "hussy up",
+      "data-encoded-term": "hussy%20up",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "clothe topic": {
+      "data-frequency": "-1",
+      "data-relevance": "30",
+      "data-term": "clothe topic",
+      "data-encoded-term": "clothe%20topic",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "grass skirt": {
+      "data-frequency": "198",
+      "data-relevance": "29",
+      "data-term": "grass skirt",
+      "data-encoded-term": "grass%20skirt",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "198",
+        "cn5",
+        "1"
+      ]
+    },
+    "dress stick": {
+      "data-frequency": "-1",
+      "data-relevance": "28",
+      "data-term": "dress stick",
+      "data-encoded-term": "dress%20stick",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "swaddle clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "27",
+      "data-term": "swaddle clothe",
+      "data-encoded-term": "swaddle%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "well dress": {
+      "data-frequency": "-1",
+      "data-relevance": "26",
+      "data-term": "well dress",
+      "data-encoded-term": "well%20dress",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "medical care": {
+      "data-frequency": "7657",
+      "data-relevance": "25",
+      "data-term": "medical care",
+      "data-encoded-term": "medical%20care",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "7657",
+        "cn5",
+        "1"
+      ]
+    },
+    "emergency medicine": {
+      "data-frequency": "2687",
+      "data-relevance": "24",
+      "data-term": "emergency medicine",
+      "data-encoded-term": "emergency%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "2687",
+        "cn5",
+        "1"
+      ]
+    },
+    "wound": {
+      "data-frequency": "27935",
+      "data-relevance": "23",
+      "data-term": "wound",
+      "data-encoded-term": "wound",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "27935",
+        "swiki",
+        "1"
+      ]
+    },
+    "ready to wear": {
+      "data-frequency": "1675",
+      "data-relevance": "22",
+      "data-term": "ready to wear",
+      "data-encoded-term": "ready%20to%20wear",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1675",
+        "cn5",
+        "1"
+      ]
+    },
+    "man's clothe": {
+      "data-frequency": "-1",
+      "data-relevance": "21",
+      "data-term": "man's clothe",
+      "data-encoded-term": "man's%20clothe",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "salad cream": {
+      "data-frequency": "195",
+      "data-relevance": "20",
+      "data-term": "salad cream",
+      "data-encoded-term": "salad%20cream",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "195",
+        "cn5",
+        "1"
+      ]
+    },
+    "protective garment": {
+      "data-frequency": "-1",
+      "data-relevance": "19",
+      "data-term": "protective garment",
+      "data-encoded-term": "protective%20garment",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "black tie": {
+      "data-frequency": "1726",
+      "data-relevance": "18",
+      "data-term": "black tie",
+      "data-encoded-term": "black%20tie",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1726",
+        "cn5",
+        "1"
+      ]
+    },
+    "glad rag": {
+      "data-frequency": "148",
+      "data-relevance": "17",
+      "data-term": "glad rag",
+      "data-encoded-term": "glad%20rag",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "148",
+        "cn5",
+        "1"
+      ]
+    },
+    "operate on": {
+      "data-frequency": "6376",
+      "data-relevance": "16",
+      "data-term": "operate on",
+      "data-encoded-term": "operate%20on",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "6376",
+        "cn5",
+        "1"
+      ]
+    },
+    "slip on": {
+      "data-frequency": "662",
+      "data-relevance": "15",
+      "data-term": "slip on",
+      "data-encoded-term": "slip%20on",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "662",
+        "cn5",
+        "1"
+      ]
+    },
+    "drug cocktail": {
+      "data-frequency": "60",
+      "data-relevance": "14",
+      "data-term": "drug cocktail",
+      "data-encoded-term": "drug%20cocktail",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "lipid lower medicine": {
+      "data-frequency": "-1",
+      "data-relevance": "13",
+      "data-term": "lipid lower medicine",
+      "data-encoded-term": "lipid%20lower%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "dress shirt": {
+      "data-frequency": "281",
+      "data-relevance": "12",
+      "data-term": "dress shirt",
+      "data-encoded-term": "dress%20shirt",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "281",
+        "cn5",
+        "1"
+      ]
+    },
+    "over counter drug": {
+      "data-frequency": "-1",
+      "data-relevance": "11",
+      "data-term": "over counter drug",
+      "data-encoded-term": "over%20counter%20drug",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "even dress": {
+      "data-frequency": "-1",
+      "data-relevance": "10",
+      "data-term": "even dress",
+      "data-encoded-term": "even%20dress",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "patent medicine": {
+      "data-frequency": "399",
+      "data-relevance": "9",
+      "data-term": "patent medicine",
+      "data-encoded-term": "patent%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "399",
+        "cn5",
+        "1"
+      ]
+    },
+    "histamine blocker": {
+      "data-frequency": "-1",
+      "data-relevance": "8",
+      "data-term": "histamine blocker",
+      "data-encoded-term": "histamine%20blocker",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "calcium blocker": {
+      "data-frequency": "-1",
+      "data-relevance": "7",
+      "data-term": "calcium blocker",
+      "data-encoded-term": "calcium%20blocker",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cold medicine": {
+      "data-frequency": "75",
+      "data-relevance": "6",
+      "data-term": "cold medicine",
+      "data-encoded-term": "cold%20medicine",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "75",
+        "cn5",
+        "1"
+      ]
+    },
+    "drug therapy": {
+      "data-frequency": "604",
+      "data-relevance": "5",
+      "data-term": "drug therapy",
+      "data-encoded-term": "drug%20therapy",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "604",
+        "cn5",
+        "1"
+      ]
+    },
+    "ally health": {
+      "data-frequency": "-1",
+      "data-relevance": "4",
+      "data-term": "ally health",
+      "data-encoded-term": "ally%20health",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "group practice": {
+      "data-frequency": "202",
+      "data-relevance": "3",
+      "data-term": "group practice",
+      "data-encoded-term": "group%20practice",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "202",
+        "cn5",
+        "1"
+      ]
+    },
+    "united states pharmacopeia": {
+      "data-frequency": "183",
+      "data-relevance": "2",
+      "data-term": "united states pharmacopeia",
+      "data-encoded-term": "united%20states%20pharmacopeia",
+      "data-term-stats": [
+        "1",
+        "-0.2",
+        "0.000",
+        "183",
+        "wiki",
+        "1"
+      ]
+    },
+    "outer wear": {
+      "data-frequency": "-1",
+      "data-relevance": "1",
+      "data-term": "outer wear",
+      "data-encoded-term": "outer%20wear",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "venous ulcer": {
+      "data-frequency": "298",
+      "data-relevance": "0",
+      "data-term": "venous ulcer",
+      "data-encoded-term": "venous%20ulcer",
+      "data-term-stats": [
+        "1",
+        "-0.3",
+        "0.000",
+        "298",
+        "wiki",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [
+      "bandaging"
+    ],
+    "word_forms": [],
+    "examples": [
+      {
+        "en": "He arrived with a bandaged ankle.",
+        "ru": "Он приехал с перевязанной лодыжкой."
+      },
+      {
+        "en": "The nurse bandaged up the nasty cut.",
+        "ru": "Медсестра перевязала этот глубокий порез."
+      },
+      {
+        "en": "The nurse bandaged a sprained ankle.",
+        "ru": "Медсестра перевязала вывихнутую /растянутую/ лодыжку."
+      },
+      {
+        "en": "The nurse bandaged up his sprained ankle.",
+        "ru": "Медсестра забинтовала лодыжку, которую он потянул."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "bandage"
+    ],
+    "synonyms": [
+      "bound"
+    ],
+    "antonyms": [],
+    "similar_terms": [
+      "bandaging",
+      "treated"
+    ],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "gauze",
+      "tourniquet",
+      "bandage",
+      "truss",
+      "wound",
+      "stretcher",
+      "splint",
+      "dress",
+      "dressing",
+      "sling",
+      "wrapped",
+      "forehead"
+    ]
+  }
+}

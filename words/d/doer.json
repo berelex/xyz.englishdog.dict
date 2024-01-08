@@ -1,0 +1,7438 @@
+{
+  "conceptnet": {
+    "related_terms": {
+      "doers": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doers/n/,/c/en/doer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doers/n",
+          "@type": "Node",
+          "label": "doers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doers"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      },
+      "agent": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doer/n/,/c/en/agent/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doer/n",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/agent",
+          "@type": "Node",
+          "label": "agent",
+          "language": "en",
+          "term": "/c/en/agent"
+        }
+      },
+      "do": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doer/n/,/c/en/do/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doer/n",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/do",
+          "@type": "Node",
+          "label": "do",
+          "language": "en",
+          "term": "/c/en/do"
+        }
+      },
+      "execute": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doer/n/,/c/en/execute/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doer/n",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/execute",
+          "@type": "Node",
+          "label": "execute",
+          "language": "en",
+          "term": "/c/en/execute"
+        }
+      },
+      "doerless": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doerless/a/,/c/en/doer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doerless/a",
+          "@type": "Node",
+          "label": "doerless",
+          "language": "en",
+          "sense_label": "a",
+          "term": "/c/en/doerless"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      },
+      "actor": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/actor/n/,/c/en/doer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/actor/n",
+          "@type": "Node",
+          "label": "actor",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/actor"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      },
+      "doership": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doership/n/,/c/en/doer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doership/n",
+          "@type": "Node",
+          "label": "doership",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doership"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      },
+      "perform": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/doer/n/,/c/en/perform/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doer/n",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/perform",
+          "@type": "Node",
+          "label": "perform",
+          "language": "en",
+          "term": "/c/en/perform"
+        }
+      },
+      "enemy": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/enemy/,/c/en/doer/]",
+        "weight": 0.16500000000000004,
+        "start": {
+          "@id": "/c/en/enemy",
+          "@type": "Node",
+          "label": "enemy",
+          "language": "en",
+          "term": "/c/en/enemy"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      },
+      "disturber": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/disturber/,/c/en/doer/]",
+        "weight": 0.1280000000000001,
+        "start": {
+          "@id": "/c/en/disturber",
+          "@type": "Node",
+          "label": "disturber",
+          "language": "en",
+          "term": "/c/en/disturber"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      },
+      "saint": {
+        "@id": "/a/[/r/RelatedTo/,/c/en/saint/,/c/en/doer/]",
+        "weight": 0.1030000000000002,
+        "start": {
+          "@id": "/c/en/saint",
+          "@type": "Node",
+          "label": "saint",
+          "language": "en",
+          "term": "/c/en/saint"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      }
+    },
+    "distinct_terms": {},
+    "synonyms": {
+      "actor": {
+        "@id": "/a/[/r/Synonym/,/c/en/doer/n/wn/person/,/c/en/actor/n/wn/person/]",
+        "weight": 2.0,
+        "start": {
+          "@id": "/c/en/doer/n/wn/person",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/actor/n/wn/person",
+          "@type": "Node",
+          "label": "actor",
+          "language": "en",
+          "sense_label": "n, person",
+          "term": "/c/en/actor"
+        }
+      }
+    },
+    "antonyms": {
+      "be er": {
+        "@id": "/a/[/r/Antonym/,/c/en/doer/n/,/c/en/be_er/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doer/n",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/be_er",
+          "@type": "Node",
+          "label": "be er",
+          "language": "en",
+          "term": "/c/en/be_er"
+        }
+      },
+      "thinker": {
+        "@id": "/a/[/r/Antonym/,/c/en/thinker/,/c/en/doer/]",
+        "weight": 0.238,
+        "start": {
+          "@id": "/c/en/thinker",
+          "@type": "Node",
+          "label": "thinker",
+          "language": "en",
+          "term": "/c/en/thinker"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      }
+    },
+    "similar_terms": {
+      "be er": {
+        "@id": "/a/[/r/SimilarTo/,/c/en/doer/n/,/c/en/be_er/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doer/n",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doer"
+        },
+        "end": {
+          "@id": "/c/en/be_er",
+          "@type": "Node",
+          "label": "be er",
+          "language": "en",
+          "term": "/c/en/be_er"
+        }
+      }
+    },
+    "word_forms": {
+      "doers": {
+        "@id": "/a/[/r/FormOf/,/c/en/doers/n/,/c/en/doer/]",
+        "weight": 1.0,
+        "start": {
+          "@id": "/c/en/doers/n",
+          "@type": "Node",
+          "label": "doers",
+          "language": "en",
+          "sense_label": "n",
+          "term": "/c/en/doers"
+        },
+        "end": {
+          "@id": "/c/en/doer",
+          "@type": "Node",
+          "label": "doer",
+          "language": "en",
+          "term": "/c/en/doer"
+        }
+      }
+    }
+  },
+  "relatedwords": {
+    "thinker": {
+      "data-frequency": "6895",
+      "data-relevance": "503",
+      "data-term": "thinker",
+      "data-encoded-term": "thinker",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "6895",
+        "vec2",
+        "1"
+      ]
+    },
+    "giver": {
+      "data-frequency": "2058",
+      "data-relevance": "502",
+      "data-term": "giver",
+      "data-encoded-term": "giver",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "2058",
+        "vec2",
+        "1"
+      ]
+    },
+    "subject": {
+      "data-frequency": "-1",
+      "data-relevance": "501",
+      "data-term": "subject",
+      "data-encoded-term": "subject",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "mammal": {
+      "data-frequency": "15533",
+      "data-relevance": "500",
+      "data-term": "mammal",
+      "data-encoded-term": "mammal",
+      "data-term-stats": [
+        "1",
+        "2.5",
+        "0.000",
+        "15533",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "antelope": {
+      "data-frequency": "8098",
+      "data-relevance": "499",
+      "data-term": "antelope",
+      "data-encoded-term": "antelope",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "8098",
+        "cn5,ol,swiki",
+        "1"
+      ]
+    },
+    "placental": {
+      "data-frequency": "2465",
+      "data-relevance": "498",
+      "data-term": "placental",
+      "data-encoded-term": "placental",
+      "data-term-stats": [
+        "1",
+        "2.4",
+        "0.000",
+        "2465",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "problem solver": {
+      "data-frequency": "398",
+      "data-relevance": "497",
+      "data-term": "problem solver",
+      "data-encoded-term": "problem%20solver",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "398",
+        "vec2",
+        "1"
+      ]
+    },
+    "dreamer": {
+      "data-frequency": "5647",
+      "data-relevance": "496",
+      "data-term": "dreamer",
+      "data-encoded-term": "dreamer",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "5647",
+        "vec2",
+        "1"
+      ]
+    },
+    "placental mammal": {
+      "data-frequency": "110",
+      "data-relevance": "495",
+      "data-term": "placental mammal",
+      "data-encoded-term": "placental%20mammal",
+      "data-term-stats": [
+        "1",
+        "2.0",
+        "0.000",
+        "110",
+        "cn5,wn",
+        "1"
+      ]
+    },
+    "pragmatist": {
+      "data-frequency": "558",
+      "data-relevance": "494",
+      "data-term": "pragmatist",
+      "data-encoded-term": "pragmatist",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "558",
+        "vec2",
+        "1"
+      ]
+    },
+    "unifier": {
+      "data-frequency": "286",
+      "data-relevance": "493",
+      "data-term": "unifier",
+      "data-encoded-term": "unifier",
+      "data-term-stats": [
+        "0",
+        "2.0",
+        "0.000",
+        "286",
+        "vec2",
+        "1"
+      ]
+    },
+    "talker": {
+      "data-frequency": "1404",
+      "data-relevance": "492",
+      "data-term": "talker",
+      "data-encoded-term": "talker",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "1404",
+        "vec2",
+        "1"
+      ]
+    },
+    "maker": {
+      "data-frequency": "-1",
+      "data-relevance": "491",
+      "data-term": "maker",
+      "data-encoded-term": "maker",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "seller": {
+      "data-frequency": "-1",
+      "data-relevance": "490",
+      "data-term": "seller",
+      "data-encoded-term": "seller",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "selinger": {
+      "data-frequency": "-1",
+      "data-relevance": "489",
+      "data-term": "selinger",
+      "data-encoded-term": "selinger",
+      "data-term-stats": [
+        "undefined",
+        "0.0",
+        "0.000",
+        "-1",
+        "undefined",
+        "undefined"
+      ]
+    },
+    "servant": {
+      "data-frequency": "44470",
+      "data-relevance": "488",
+      "data-term": "servant",
+      "data-encoded-term": "servant",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "44470",
+        "vec2",
+        "1"
+      ]
+    },
+    "doers": {
+      "data-frequency": "2132",
+      "data-relevance": "487",
+      "data-term": "doers",
+      "data-encoded-term": "doers",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2132",
+        "vec2",
+        "1"
+      ]
+    },
+    "risk taker": {
+      "data-frequency": "225",
+      "data-relevance": "486",
+      "data-term": "risk taker",
+      "data-encoded-term": "risk%20taker",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "225",
+        "vec2",
+        "1"
+      ]
+    },
+    "communicator": {
+      "data-frequency": "3115",
+      "data-relevance": "485",
+      "data-term": "communicator",
+      "data-encoded-term": "communicator",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "3115",
+        "vec2",
+        "1"
+      ]
+    },
+    "quick learner": {
+      "data-frequency": "113",
+      "data-relevance": "484",
+      "data-term": "quick learner",
+      "data-encoded-term": "quick%20learner",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "113",
+        "vec2",
+        "1"
+      ]
+    },
+    "peacemaker": {
+      "data-frequency": "2507",
+      "data-relevance": "483",
+      "data-term": "peacemaker",
+      "data-encoded-term": "peacemaker",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2507",
+        "vec2",
+        "1"
+      ]
+    },
+    "selfless": {
+      "data-frequency": "2733",
+      "data-relevance": "482",
+      "data-term": "selfless",
+      "data-encoded-term": "selfless",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "2733",
+        "vec2",
+        "1"
+      ]
+    },
+    "visionary": {
+      "data-frequency": "9649",
+      "data-relevance": "481",
+      "data-term": "visionary",
+      "data-encoded-term": "visionary",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "9649",
+        "vec2",
+        "1"
+      ]
+    },
+    "statesman": {
+      "data-frequency": "26270",
+      "data-relevance": "480",
+      "data-term": "statesman",
+      "data-encoded-term": "statesman",
+      "data-term-stats": [
+        "0",
+        "1.9",
+        "0.000",
+        "26270",
+        "vec2",
+        "1"
+      ]
+    },
+    "sinner": {
+      "data-frequency": "4121",
+      "data-relevance": "479",
+      "data-term": "sinner",
+      "data-encoded-term": "sinner",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "4121",
+        "vec2",
+        "1"
+      ]
+    },
+    "inveterate": {
+      "data-frequency": "632",
+      "data-relevance": "478",
+      "data-term": "inveterate",
+      "data-encoded-term": "inveterate",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "632",
+        "vec2",
+        "1"
+      ]
+    },
+    "perfectionist": {
+      "data-frequency": "1389",
+      "data-relevance": "477",
+      "data-term": "perfectionist",
+      "data-encoded-term": "perfectionist",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1389",
+        "vec2",
+        "1"
+      ]
+    },
+    "uniter": {
+      "data-frequency": "30815",
+      "data-relevance": "476",
+      "data-term": "uniter",
+      "data-encoded-term": "uniter",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "30815",
+        "vec2",
+        "1"
+      ]
+    },
+    "whiner": {
+      "data-frequency": "93",
+      "data-relevance": "475",
+      "data-term": "whiner",
+      "data-encoded-term": "whiner",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "93",
+        "vec2",
+        "1"
+      ]
+    },
+    "warmonger": {
+      "data-frequency": "187",
+      "data-relevance": "474",
+      "data-term": "warmonger",
+      "data-encoded-term": "warmonger",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "187",
+        "vec2",
+        "1"
+      ]
+    },
+    "getter": {
+      "data-frequency": "1869",
+      "data-relevance": "473",
+      "data-term": "getter",
+      "data-encoded-term": "getter",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "1869",
+        "vec2",
+        "1"
+      ]
+    },
+    "patriot": {
+      "data-frequency": "19974",
+      "data-relevance": "472",
+      "data-term": "patriot",
+      "data-encoded-term": "patriot",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "19974",
+        "vec2",
+        "1"
+      ]
+    },
+    "optimist": {
+      "data-frequency": "1835",
+      "data-relevance": "471",
+      "data-term": "optimist",
+      "data-encoded-term": "optimist",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1835",
+        "vec2",
+        "1"
+      ]
+    },
+    "firm believer": {
+      "data-frequency": "2250",
+      "data-relevance": "470",
+      "data-term": "firm believer",
+      "data-encoded-term": "firm%20believer",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "2250",
+        "vec2",
+        "1"
+      ]
+    },
+    "he'sa": {
+      "data-frequency": "-1",
+      "data-relevance": "469",
+      "data-term": "he'sa",
+      "data-encoded-term": "he%26%2339%3Bsa",
+      "data-term-stats": [
+        "0",
+        "1.8",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "introvert": {
+      "data-frequency": "494",
+      "data-relevance": "468",
+      "data-term": "introvert",
+      "data-encoded-term": "introvert",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "494",
+        "vec2",
+        "1"
+      ]
+    },
+    "eternal optimist": {
+      "data-frequency": "129",
+      "data-relevance": "467",
+      "data-term": "eternal optimist",
+      "data-encoded-term": "eternal%20optimist",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "129",
+        "vec2",
+        "1"
+      ]
+    },
+    "res": {
+      "data-frequency": "31332",
+      "data-relevance": "466",
+      "data-term": "res",
+      "data-encoded-term": "res",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "31332",
+        "w2v",
+        "1"
+      ]
+    },
+    "businessperson": {
+      "data-frequency": "5877",
+      "data-relevance": "465",
+      "data-term": "businessperson",
+      "data-encoded-term": "businessperson",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "5877",
+        "vec2",
+        "1"
+      ]
+    },
+    "hypocrite": {
+      "data-frequency": "1038",
+      "data-relevance": "464",
+      "data-term": "hypocrite",
+      "data-encoded-term": "hypocrite",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1038",
+        "vec2",
+        "1"
+      ]
+    },
+    "she'sa": {
+      "data-frequency": "-1",
+      "data-relevance": "463",
+      "data-term": "she'sa",
+      "data-encoded-term": "she%26%2339%3Bsa",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "self effacing": {
+      "data-frequency": "424",
+      "data-relevance": "462",
+      "data-term": "self effacing",
+      "data-encoded-term": "self%20effacing",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "424",
+        "vec2",
+        "1"
+      ]
+    },
+    "reformer": {
+      "data-frequency": "11289",
+      "data-relevance": "461",
+      "data-term": "reformer",
+      "data-encoded-term": "reformer",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "11289",
+        "vec2",
+        "1"
+      ]
+    },
+    "builder": {
+      "data-frequency": "67909",
+      "data-relevance": "460",
+      "data-term": "builder",
+      "data-encoded-term": "builder",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "67909",
+        "vec2",
+        "1"
+      ]
+    },
+    "idealist": {
+      "data-frequency": "1834",
+      "data-relevance": "459",
+      "data-term": "idealist",
+      "data-encoded-term": "idealist",
+      "data-term-stats": [
+        "0",
+        "1.7",
+        "0.000",
+        "1834",
+        "vec2",
+        "1"
+      ]
+    },
+    "ideologue": {
+      "data-frequency": "859",
+      "data-relevance": "458",
+      "data-term": "ideologue",
+      "data-encoded-term": "ideologue",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "859",
+        "vec2",
+        "1"
+      ]
+    },
+    "liar": {
+      "data-frequency": "6774",
+      "data-relevance": "457",
+      "data-term": "liar",
+      "data-encoded-term": "liar",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "6774",
+        "vec2",
+        "1"
+      ]
+    },
+    "species": {
+      "data-frequency": "563828",
+      "data-relevance": "456",
+      "data-term": "species",
+      "data-encoded-term": "species",
+      "data-term-stats": [
+        "1",
+        "1.6",
+        "0.000",
+        "563828",
+        "swiki",
+        "1"
+      ]
+    },
+    "articulate": {
+      "data-frequency": "4322",
+      "data-relevance": "455",
+      "data-term": "articulate",
+      "data-encoded-term": "articulate",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "4322",
+        "vec2",
+        "1"
+      ]
+    },
+    "politician": {
+      "data-frequency": "351233",
+      "data-relevance": "454",
+      "data-term": "politician",
+      "data-encoded-term": "politician",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "351233",
+        "vec2",
+        "1"
+      ]
+    },
+    "principled": {
+      "data-frequency": "1552",
+      "data-relevance": "453",
+      "data-term": "principled",
+      "data-encoded-term": "principled",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "1552",
+        "vec2",
+        "1"
+      ]
+    },
+    "policy wonk": {
+      "data-frequency": "183",
+      "data-relevance": "452",
+      "data-term": "policy wonk",
+      "data-encoded-term": "policy%20wonk",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "183",
+        "vec2",
+        "1"
+      ]
+    },
+    "wordsmith": {
+      "data-frequency": "377",
+      "data-relevance": "451",
+      "data-term": "wordsmith",
+      "data-encoded-term": "wordsmith",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "377",
+        "vec2",
+        "1"
+      ]
+    },
+    "magnanimous": {
+      "data-frequency": "920",
+      "data-relevance": "450",
+      "data-term": "magnanimous",
+      "data-encoded-term": "magnanimous",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "920",
+        "vec2",
+        "1"
+      ]
+    },
+    "righteous": {
+      "data-frequency": "8586",
+      "data-relevance": "449",
+      "data-term": "righteous",
+      "data-encoded-term": "righteous",
+      "data-term-stats": [
+        "0",
+        "1.6",
+        "0.000",
+        "8586",
+        "vec2",
+        "1"
+      ]
+    },
+    "quitter": {
+      "data-frequency": "581",
+      "data-relevance": "448",
+      "data-term": "quitter",
+      "data-encoded-term": "quitter",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "581",
+        "vec2",
+        "1"
+      ]
+    },
+    "believer": {
+      "data-frequency": "9111",
+      "data-relevance": "447",
+      "data-term": "believer",
+      "data-encoded-term": "believer",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "9111",
+        "vec2",
+        "1"
+      ]
+    },
+    "extrovert": {
+      "data-frequency": "375",
+      "data-relevance": "446",
+      "data-term": "extrovert",
+      "data-encoded-term": "extrovert",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "375",
+        "vec2",
+        "1"
+      ]
+    },
+    "orator": {
+      "data-frequency": "5203",
+      "data-relevance": "445",
+      "data-term": "orator",
+      "data-encoded-term": "orator",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "5203",
+        "vec2",
+        "1"
+      ]
+    },
+    "prides himself": {
+      "data-frequency": "11295",
+      "data-relevance": "444",
+      "data-term": "prides himself",
+      "data-encoded-term": "prides%20himself",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "11295",
+        "vec2",
+        "1"
+      ]
+    },
+    "virtuous": {
+      "data-frequency": "4704",
+      "data-relevance": "443",
+      "data-term": "virtuous",
+      "data-encoded-term": "virtuous",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "4704",
+        "vec2",
+        "1"
+      ]
+    },
+    "warrior": {
+      "data-frequency": "44120",
+      "data-relevance": "442",
+      "data-term": "warrior",
+      "data-encoded-term": "warrior",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "44120",
+        "vec2",
+        "1"
+      ]
+    },
+    "conciliator": {
+      "data-frequency": "323",
+      "data-relevance": "441",
+      "data-term": "conciliator",
+      "data-encoded-term": "conciliator",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "323",
+        "vec2",
+        "1"
+      ]
+    },
+    "follower": {
+      "data-frequency": "9101",
+      "data-relevance": "440",
+      "data-term": "follower",
+      "data-encoded-term": "follower",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "9101",
+        "vec2",
+        "1"
+      ]
+    },
+    "philosopher": {
+      "data-frequency": "37511",
+      "data-relevance": "439",
+      "data-term": "philosopher",
+      "data-encoded-term": "philosopher",
+      "data-term-stats": [
+        "0",
+        "1.5",
+        "0.000",
+        "37511",
+        "vec2",
+        "1"
+      ]
+    },
+    "consummate professional": {
+      "data-frequency": "98",
+      "data-relevance": "438",
+      "data-term": "consummate professional",
+      "data-encoded-term": "consummate%20professional",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "98",
+        "vec2",
+        "1"
+      ]
+    },
+    "coward": {
+      "data-frequency": "7297",
+      "data-relevance": "437",
+      "data-term": "coward",
+      "data-encoded-term": "coward",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "7297",
+        "vec2",
+        "1"
+      ]
+    },
+    "likeable": {
+      "data-frequency": "1520",
+      "data-relevance": "436",
+      "data-term": "likeable",
+      "data-encoded-term": "likeable",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1520",
+        "vec2",
+        "1"
+      ]
+    },
+    "seeker": {
+      "data-frequency": "4455",
+      "data-relevance": "435",
+      "data-term": "seeker",
+      "data-encoded-term": "seeker",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "4455",
+        "vec2",
+        "1"
+      ]
+    },
+    "acolyte": {
+      "data-frequency": "1064",
+      "data-relevance": "434",
+      "data-term": "acolyte",
+      "data-encoded-term": "acolyte",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1064",
+        "vec2",
+        "1"
+      ]
+    },
+    "personable": {
+      "data-frequency": "532",
+      "data-relevance": "433",
+      "data-term": "personable",
+      "data-encoded-term": "personable",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "532",
+        "vec2",
+        "1"
+      ]
+    },
+    "realist": {
+      "data-frequency": "5846",
+      "data-relevance": "432",
+      "data-term": "realist",
+      "data-encoded-term": "realist",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "5846",
+        "vec2",
+        "1"
+      ]
+    },
+    "woodchuck": {
+      "data-frequency": "759",
+      "data-relevance": "431",
+      "data-term": "woodchuck",
+      "data-encoded-term": "woodchuck",
+      "data-term-stats": [
+        "1",
+        "1.4",
+        "0.000",
+        "759",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "ghostwriter": {
+      "data-frequency": "1074",
+      "data-relevance": "430",
+      "data-term": "ghostwriter",
+      "data-encoded-term": "ghostwriter",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "1074",
+        "vec2",
+        "1"
+      ]
+    },
+    "healer": {
+      "data-frequency": "4248",
+      "data-relevance": "429",
+      "data-term": "healer",
+      "data-encoded-term": "healer",
+      "data-term-stats": [
+        "0",
+        "1.4",
+        "0.000",
+        "4248",
+        "vec2",
+        "1"
+      ]
+    },
+    "opportunist": {
+      "data-frequency": "982",
+      "data-relevance": "428",
+      "data-term": "opportunist",
+      "data-encoded-term": "opportunist",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "982",
+        "vec2",
+        "1"
+      ]
+    },
+    "fierce competitor": {
+      "data-frequency": "109",
+      "data-relevance": "427",
+      "data-term": "fierce competitor",
+      "data-encoded-term": "fierce%20competitor",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "109",
+        "vec2",
+        "1"
+      ]
+    },
+    "elk": {
+      "data-frequency": "18226",
+      "data-relevance": "426",
+      "data-term": "elk",
+      "data-encoded-term": "elk",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "18226",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "debater": {
+      "data-frequency": "865",
+      "data-relevance": "425",
+      "data-term": "debater",
+      "data-encoded-term": "debater",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "865",
+        "vec2",
+        "1"
+      ]
+    },
+    "tireless worker": {
+      "data-frequency": "920",
+      "data-relevance": "424",
+      "data-term": "tireless worker",
+      "data-encoded-term": "tireless%20worker",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "920",
+        "vec2",
+        "1"
+      ]
+    },
+    "moose": {
+      "data-frequency": "13696",
+      "data-relevance": "423",
+      "data-term": "moose",
+      "data-encoded-term": "moose",
+      "data-term-stats": [
+        "1",
+        "1.3",
+        "0.000",
+        "13696",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "incorruptible": {
+      "data-frequency": "622",
+      "data-relevance": "422",
+      "data-term": "incorruptible",
+      "data-encoded-term": "incorruptible",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "622",
+        "vec2",
+        "1"
+      ]
+    },
+    "complainer": {
+      "data-frequency": "35044",
+      "data-relevance": "421",
+      "data-term": "complainer",
+      "data-encoded-term": "complainer",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "35044",
+        "vec2",
+        "1"
+      ]
+    },
+    "apostle": {
+      "data-frequency": "11927",
+      "data-relevance": "420",
+      "data-term": "apostle",
+      "data-encoded-term": "apostle",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "11927",
+        "vec2",
+        "1"
+      ]
+    },
+    "gardener": {
+      "data-frequency": "10734",
+      "data-relevance": "419",
+      "data-term": "gardener",
+      "data-encoded-term": "gardener",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "10734",
+        "vec2",
+        "1"
+      ]
+    },
+    "coachable": {
+      "data-frequency": "282959",
+      "data-relevance": "418",
+      "data-term": "coachable",
+      "data-encoded-term": "coachable",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "282959",
+        "vec2",
+        "1"
+      ]
+    },
+    "soft spoken": {
+      "data-frequency": "1089",
+      "data-relevance": "417",
+      "data-term": "soft spoken",
+      "data-encoded-term": "soft%20spoken",
+      "data-term-stats": [
+        "0",
+        "1.3",
+        "0.000",
+        "1089",
+        "vec2",
+        "1"
+      ]
+    },
+    "achiever": {
+      "data-frequency": "1256",
+      "data-relevance": "416",
+      "data-term": "achiever",
+      "data-encoded-term": "achiever",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1256",
+        "vec2",
+        "1"
+      ]
+    },
+    "avid reader": {
+      "data-frequency": "823",
+      "data-relevance": "415",
+      "data-term": "avid reader",
+      "data-encoded-term": "avid%20reader",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "823",
+        "vec2",
+        "1"
+      ]
+    },
+    "disciple": {
+      "data-frequency": "11854",
+      "data-relevance": "414",
+      "data-term": "disciple",
+      "data-encoded-term": "disciple",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "11854",
+        "vec2",
+        "1"
+      ]
+    },
+    "gatekeeper": {
+      "data-frequency": "1956",
+      "data-relevance": "413",
+      "data-term": "gatekeeper",
+      "data-encoded-term": "gatekeeper",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "1956",
+        "vec2",
+        "1"
+      ]
+    },
+    "northern hemisphere": {
+      "data-frequency": "6167",
+      "data-relevance": "412",
+      "data-term": "northern hemisphere",
+      "data-encoded-term": "northern%20hemisphere",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "6167",
+        "swiki",
+        "1"
+      ]
+    },
+    "rabble rouser": {
+      "data-frequency": "130",
+      "data-relevance": "411",
+      "data-term": "rabble rouser",
+      "data-encoded-term": "rabble%20rouser",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "130",
+        "vec2",
+        "1"
+      ]
+    },
+    "philanthropist": {
+      "data-frequency": "27520",
+      "data-relevance": "410",
+      "data-term": "philanthropist",
+      "data-encoded-term": "philanthropist",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "27520",
+        "vec2",
+        "1"
+      ]
+    },
+    "intellect": {
+      "data-frequency": "7608",
+      "data-relevance": "409",
+      "data-term": "intellect",
+      "data-encoded-term": "intellect",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "7608",
+        "vec2",
+        "1"
+      ]
+    },
+    "homebody": {
+      "data-frequency": "246",
+      "data-relevance": "408",
+      "data-term": "homebody",
+      "data-encoded-term": "homebody",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "246",
+        "vec2",
+        "1"
+      ]
+    },
+    "homemaker": {
+      "data-frequency": "2607",
+      "data-relevance": "407",
+      "data-term": "homemaker",
+      "data-encoded-term": "homemaker",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "2607",
+        "vec2",
+        "1"
+      ]
+    },
+    "who'sa": {
+      "data-frequency": "-1",
+      "data-relevance": "406",
+      "data-term": "who'sa",
+      "data-encoded-term": "who%26%2339%3Bsa",
+      "data-term-stats": [
+        "0",
+        "1.2",
+        "0.000",
+        "-1",
+        "vec2",
+        "1"
+      ]
+    },
+    "deer": {
+      "data-frequency": "38711",
+      "data-relevance": "405",
+      "data-term": "deer",
+      "data-encoded-term": "deer",
+      "data-term-stats": [
+        "1",
+        "1.2",
+        "0.000",
+        "38711",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "bison": {
+      "data-frequency": "9300",
+      "data-relevance": "404",
+      "data-term": "bison",
+      "data-encoded-term": "bison",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "9300",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "scrapper": {
+      "data-frequency": "461",
+      "data-relevance": "403",
+      "data-term": "scrapper",
+      "data-encoded-term": "scrapper",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "461",
+        "vec2",
+        "1"
+      ]
+    },
+    "conceited": {
+      "data-frequency": "802",
+      "data-relevance": "402",
+      "data-term": "conceited",
+      "data-encoded-term": "conceited",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "802",
+        "vec2",
+        "1"
+      ]
+    },
+    "facilitator": {
+      "data-frequency": "1834",
+      "data-relevance": "401",
+      "data-term": "facilitator",
+      "data-encoded-term": "facilitator",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1834",
+        "vec2",
+        "1"
+      ]
+    },
+    "devout christian": {
+      "data-frequency": "3410",
+      "data-relevance": "400",
+      "data-term": "devout christian",
+      "data-encoded-term": "devout%20christian",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "3410",
+        "vec2",
+        "1"
+      ]
+    },
+    "gym rat": {
+      "data-frequency": "47",
+      "data-relevance": "399",
+      "data-term": "gym rat",
+      "data-encoded-term": "gym%20rat",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "47",
+        "vec2",
+        "1"
+      ]
+    },
+    "disciplinarian": {
+      "data-frequency": "1104",
+      "data-relevance": "398",
+      "data-term": "disciplinarian",
+      "data-encoded-term": "disciplinarian",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1104",
+        "vec2",
+        "1"
+      ]
+    },
+    "whatever": {
+      "data-frequency": "42175",
+      "data-relevance": "397",
+      "data-term": "whatever",
+      "data-encoded-term": "whatever",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "42175",
+        "vec2",
+        "1"
+      ]
+    },
+    "bobcat": {
+      "data-frequency": "3058",
+      "data-relevance": "396",
+      "data-term": "bobcat",
+      "data-encoded-term": "bobcat",
+      "data-term-stats": [
+        "1",
+        "1.1",
+        "0.000",
+        "3058",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "unrepentant": {
+      "data-frequency": "1017",
+      "data-relevance": "395",
+      "data-term": "unrepentant",
+      "data-encoded-term": "unrepentant",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "1017",
+        "vec2",
+        "1"
+      ]
+    },
+    "benevolent": {
+      "data-frequency": "8053",
+      "data-relevance": "394",
+      "data-term": "benevolent",
+      "data-encoded-term": "benevolent",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "8053",
+        "vec2",
+        "1"
+      ]
+    },
+    "steward": {
+      "data-frequency": "12232",
+      "data-relevance": "393",
+      "data-term": "steward",
+      "data-encoded-term": "steward",
+      "data-term-stats": [
+        "0",
+        "1.1",
+        "0.000",
+        "12232",
+        "vec2",
+        "1"
+      ]
+    },
+    "knows": {
+      "data-frequency": "53074",
+      "data-relevance": "392",
+      "data-term": "knows",
+      "data-encoded-term": "knows",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "53074",
+        "vec2",
+        "1"
+      ]
+    },
+    "conscientious": {
+      "data-frequency": "4742",
+      "data-relevance": "391",
+      "data-term": "conscientious",
+      "data-encoded-term": "conscientious",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "4742",
+        "vec2",
+        "1"
+      ]
+    },
+    "maverick": {
+      "data-frequency": "9414",
+      "data-relevance": "390",
+      "data-term": "maverick",
+      "data-encoded-term": "maverick",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "9414",
+        "vec2",
+        "1"
+      ]
+    },
+    "godly": {
+      "data-frequency": "1538",
+      "data-relevance": "389",
+      "data-term": "godly",
+      "data-encoded-term": "godly",
+      "data-term-stats": [
+        "0",
+        "1.0",
+        "0.000",
+        "1538",
+        "vec2",
+        "1"
+      ]
+    },
+    "ewe": {
+      "data-frequency": "2046",
+      "data-relevance": "388",
+      "data-term": "ewe",
+      "data-encoded-term": "ewe",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "2046",
+        "cn5,ol",
+        "1"
+      ]
+    },
+    "antler": {
+      "data-frequency": "1992",
+      "data-relevance": "387",
+      "data-term": "antler",
+      "data-encoded-term": "antler",
+      "data-term-stats": [
+        "1",
+        "1.0",
+        "0.000",
+        "1992",
+        "ol,swiki",
+        "1"
+      ]
+    },
+    "red deer": {
+      "data-frequency": "7573",
+      "data-relevance": "386",
+      "data-term": "red deer",
+      "data-encoded-term": "red%20deer",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "7573",
+        "cn5,swiki",
+        "1"
+      ]
+    },
+    "energy": {
+      "data-frequency": "206265",
+      "data-relevance": "385",
+      "data-term": "energy",
+      "data-encoded-term": "energy",
+      "data-term-stats": [
+        "1",
+        "0.9",
+        "0.000",
+        "206265",
+        "wn",
+        "1"
+      ]
+    },
+    "doei": {
+      "data-frequency": "-1",
+      "data-relevance": "384",
+      "data-term": "doei",
+      "data-encoded-term": "doei",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "family": {
+      "data-frequency": "1345263",
+      "data-relevance": "383",
+      "data-term": "family",
+      "data-encoded-term": "family",
+      "data-term-stats": [
+        "1",
+        "0.7",
+        "0.000",
+        "1345263",
+        "swiki",
+        "1"
+      ]
+    },
+    "europe": {
+      "data-frequency": "476760",
+      "data-relevance": "382",
+      "data-term": "europe",
+      "data-encoded-term": "europe",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "476760",
+        "swiki",
+        "1"
+      ]
+    },
+    "eutherian": {
+      "data-frequency": "214",
+      "data-relevance": "381",
+      "data-term": "eutherian",
+      "data-encoded-term": "eutherian",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "214",
+        "wn",
+        "1"
+      ]
+    },
+    "department of energy": {
+      "data-frequency": "43369",
+      "data-relevance": "380",
+      "data-term": "department of energy",
+      "data-encoded-term": "department%20of%20energy",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "43369",
+        "wn",
+        "1"
+      ]
+    },
+    "energy department": {
+      "data-frequency": "43369",
+      "data-relevance": "379",
+      "data-term": "energy department",
+      "data-encoded-term": "energy%20department",
+      "data-term-stats": [
+        "1",
+        "0.6",
+        "0.000",
+        "43369",
+        "wn",
+        "1"
+      ]
+    },
+    "even-toed ungulate": {
+      "data-frequency": "508",
+      "data-relevance": "378",
+      "data-term": "even-toed ungulate",
+      "data-encoded-term": "even-toed%20ungulate",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "508",
+        "swiki",
+        "1"
+      ]
+    },
+    "asia": {
+      "data-frequency": "278331",
+      "data-relevance": "377",
+      "data-term": "asia",
+      "data-encoded-term": "asia",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "278331",
+        "swiki",
+        "1"
+      ]
+    },
+    "polecat": {
+      "data-frequency": "967",
+      "data-relevance": "376",
+      "data-term": "polecat",
+      "data-encoded-term": "polecat",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "967",
+        "cn5",
+        "1"
+      ]
+    },
+    "rodent": {
+      "data-frequency": "7766",
+      "data-relevance": "375",
+      "data-term": "rodent",
+      "data-encoded-term": "rodent",
+      "data-term-stats": [
+        "1",
+        "0.5",
+        "0.000",
+        "7766",
+        "cn5",
+        "1"
+      ]
+    },
+    "chipmunk": {
+      "data-frequency": "2138",
+      "data-relevance": "374",
+      "data-term": "chipmunk",
+      "data-encoded-term": "chipmunk",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2138",
+        "cn5",
+        "1"
+      ]
+    },
+    "shrew": {
+      "data-frequency": "4525",
+      "data-relevance": "373",
+      "data-term": "shrew",
+      "data-encoded-term": "shrew",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4525",
+        "cn5",
+        "1"
+      ]
+    },
+    "meadow": {
+      "data-frequency": "24782",
+      "data-relevance": "372",
+      "data-term": "meadow",
+      "data-encoded-term": "meadow",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "24782",
+        "cn5",
+        "1"
+      ]
+    },
+    "bunny": {
+      "data-frequency": "14382",
+      "data-relevance": "371",
+      "data-term": "bunny",
+      "data-encoded-term": "bunny",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14382",
+        "cn5",
+        "1"
+      ]
+    },
+    "australia": {
+      "data-frequency": "472904",
+      "data-relevance": "370",
+      "data-term": "australia",
+      "data-encoded-term": "australia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "472904",
+        "swiki",
+        "1"
+      ]
+    },
+    "anteater": {
+      "data-frequency": "867",
+      "data-relevance": "369",
+      "data-term": "anteater",
+      "data-encoded-term": "anteater",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "867",
+        "cn5",
+        "1"
+      ]
+    },
+    "mammary": {
+      "data-frequency": "1463",
+      "data-relevance": "368",
+      "data-term": "mammary",
+      "data-encoded-term": "mammary",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1463",
+        "cn5",
+        "1"
+      ]
+    },
+    "stockpiles": {
+      "data-frequency": "957",
+      "data-relevance": "367",
+      "data-term": "stockpiles",
+      "data-encoded-term": "stockpiles",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "957",
+        "w2v",
+        "1"
+      ]
+    },
+    "gopher": {
+      "data-frequency": "4207",
+      "data-relevance": "366",
+      "data-term": "gopher",
+      "data-encoded-term": "gopher",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4207",
+        "cn5",
+        "1"
+      ]
+    },
+    "marsupial": {
+      "data-frequency": "1398",
+      "data-relevance": "365",
+      "data-term": "marsupial",
+      "data-encoded-term": "marsupial",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1398",
+        "cn5",
+        "1"
+      ]
+    },
+    "hare": {
+      "data-frequency": "18725",
+      "data-relevance": "364",
+      "data-term": "hare",
+      "data-encoded-term": "hare",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "18725",
+        "cn5",
+        "1"
+      ]
+    },
+    "manatee": {
+      "data-frequency": "2361",
+      "data-relevance": "363",
+      "data-term": "manatee",
+      "data-encoded-term": "manatee",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2361",
+        "cn5",
+        "1"
+      ]
+    },
+    "eutherian mammal": {
+      "data-frequency": "54",
+      "data-relevance": "362",
+      "data-term": "eutherian mammal",
+      "data-encoded-term": "eutherian%20mammal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "54",
+        "wn",
+        "1"
+      ]
+    },
+    "department of energy intelligence": {
+      "data-frequency": "-1",
+      "data-relevance": "361",
+      "data-term": "department of energy intelligence",
+      "data-encoded-term": "department%20of%20energy%20intelligence",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "-1",
+        "wn",
+        "1"
+      ]
+    },
+    "mammalian": {
+      "data-frequency": "14287",
+      "data-relevance": "360",
+      "data-term": "mammalian",
+      "data-encoded-term": "mammalian",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "14287",
+        "cn5",
+        "1"
+      ]
+    },
+    "executive department": {
+      "data-frequency": "577",
+      "data-relevance": "359",
+      "data-term": "executive department",
+      "data-encoded-term": "executive%20department",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "577",
+        "wn",
+        "1"
+      ]
+    },
+    "zoo": {
+      "data-frequency": "33495",
+      "data-relevance": "358",
+      "data-term": "zoo",
+      "data-encoded-term": "zoo",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "33495",
+        "cn5",
+        "1"
+      ]
+    },
+    "ruminant": {
+      "data-frequency": "582",
+      "data-relevance": "357",
+      "data-term": "ruminant",
+      "data-encoded-term": "ruminant",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "582",
+        "cn5",
+        "1"
+      ]
+    },
+    "jackrabbit": {
+      "data-frequency": "679",
+      "data-relevance": "356",
+      "data-term": "jackrabbit",
+      "data-encoded-term": "jackrabbit",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "679",
+        "cn5",
+        "1"
+      ]
+    },
+    "animal": {
+      "data-frequency": "136043",
+      "data-relevance": "355",
+      "data-term": "animal",
+      "data-encoded-term": "animal",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "136043",
+        "cn5",
+        "1"
+      ]
+    },
+    "mongoose": {
+      "data-frequency": "2860",
+      "data-relevance": "354",
+      "data-term": "mongoose",
+      "data-encoded-term": "mongoose",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2860",
+        "cn5",
+        "1"
+      ]
+    },
+    "bushy": {
+      "data-frequency": "5318",
+      "data-relevance": "353",
+      "data-term": "bushy",
+      "data-encoded-term": "bushy",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "5318",
+        "cn5",
+        "1"
+      ]
+    },
+    "rodentia": {
+      "data-frequency": "3622",
+      "data-relevance": "352",
+      "data-term": "rodentia",
+      "data-encoded-term": "rodentia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3622",
+        "cn5",
+        "1"
+      ]
+    },
+    "insectivore": {
+      "data-frequency": "461",
+      "data-relevance": "351",
+      "data-term": "insectivore",
+      "data-encoded-term": "insectivore",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "461",
+        "cn5",
+        "1"
+      ]
+    },
+    "leporid": {
+      "data-frequency": "50",
+      "data-relevance": "350",
+      "data-term": "leporid",
+      "data-encoded-term": "leporid",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "50",
+        "cn5",
+        "1"
+      ]
+    },
+    "khuda": {
+      "data-frequency": "1021",
+      "data-relevance": "349",
+      "data-term": "khuda",
+      "data-encoded-term": "khuda",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1021",
+        "w2v",
+        "1"
+      ]
+    },
+    "hamster": {
+      "data-frequency": "2217",
+      "data-relevance": "348",
+      "data-term": "hamster",
+      "data-encoded-term": "hamster",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2217",
+        "cn5",
+        "1"
+      ]
+    },
+    "rat": {
+      "data-frequency": "30853",
+      "data-relevance": "347",
+      "data-term": "rat",
+      "data-encoded-term": "rat",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "30853",
+        "cn5",
+        "1"
+      ]
+    },
+    "usda": {
+      "data-frequency": "19148",
+      "data-relevance": "346",
+      "data-term": "usda",
+      "data-encoded-term": "usda",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "19148",
+        "w2v",
+        "1"
+      ]
+    },
+    "murine": {
+      "data-frequency": "2497",
+      "data-relevance": "345",
+      "data-term": "murine",
+      "data-encoded-term": "murine",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2497",
+        "cn5",
+        "1"
+      ]
+    },
+    "hippopotamus": {
+      "data-frequency": "2037",
+      "data-relevance": "344",
+      "data-term": "hippopotamus",
+      "data-encoded-term": "hippopotamus",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2037",
+        "cn5",
+        "1"
+      ]
+    },
+    "capybara": {
+      "data-frequency": "591",
+      "data-relevance": "343",
+      "data-term": "capybara",
+      "data-encoded-term": "capybara",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "591",
+        "cn5",
+        "1"
+      ]
+    },
+    "cia": {
+      "data-frequency": "21855",
+      "data-relevance": "342",
+      "data-term": "cia",
+      "data-encoded-term": "cia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "21855",
+        "w2v",
+        "1"
+      ]
+    },
+    "joshua": {
+      "data-frequency": "55051",
+      "data-relevance": "341",
+      "data-term": "joshua",
+      "data-encoded-term": "joshua",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "55051",
+        "w2v",
+        "1"
+      ]
+    },
+    "tamarin": {
+      "data-frequency": "612",
+      "data-relevance": "340",
+      "data-term": "tamarin",
+      "data-encoded-term": "tamarin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "612",
+        "cn5",
+        "1"
+      ]
+    },
+    "carnivore": {
+      "data-frequency": "2019",
+      "data-relevance": "339",
+      "data-term": "carnivore",
+      "data-encoded-term": "carnivore",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "2019",
+        "cn5",
+        "1"
+      ]
+    },
+    "furry": {
+      "data-frequency": "3156",
+      "data-relevance": "338",
+      "data-term": "furry",
+      "data-encoded-term": "furry",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3156",
+        "cn5",
+        "1"
+      ]
+    },
+    "declassified": {
+      "data-frequency": "3292",
+      "data-relevance": "337",
+      "data-term": "declassified",
+      "data-encoded-term": "declassified",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "3292",
+        "w2v",
+        "1"
+      ]
+    },
+    "eia": {
+      "data-frequency": "1794",
+      "data-relevance": "336",
+      "data-term": "eia",
+      "data-encoded-term": "eia",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1794",
+        "w2v",
+        "1"
+      ]
+    },
+    "dormouse": {
+      "data-frequency": "1002",
+      "data-relevance": "335",
+      "data-term": "dormouse",
+      "data-encoded-term": "dormouse",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1002",
+        "cn5",
+        "1"
+      ]
+    },
+    "lapin": {
+      "data-frequency": "1434",
+      "data-relevance": "334",
+      "data-term": "lapin",
+      "data-encoded-term": "lapin",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1434",
+        "cn5",
+        "1"
+      ]
+    },
+    "koontz": {
+      "data-frequency": "872",
+      "data-relevance": "333",
+      "data-term": "koontz",
+      "data-encoded-term": "koontz",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "872",
+        "w2v",
+        "1"
+      ]
+    },
+    "aardvark": {
+      "data-frequency": "1134",
+      "data-relevance": "332",
+      "data-term": "aardvark",
+      "data-encoded-term": "aardvark",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1134",
+        "cn5",
+        "1"
+      ]
+    },
+    "release": {
+      "data-frequency": "753547",
+      "data-relevance": "331",
+      "data-term": "release",
+      "data-encoded-term": "release",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "753547",
+        "w2v",
+        "1"
+      ]
+    },
+    "paca": {
+      "data-frequency": "1221",
+      "data-relevance": "330",
+      "data-term": "paca",
+      "data-encoded-term": "paca",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1221",
+        "cn5",
+        "1"
+      ]
+    },
+    "released": {
+      "data-frequency": "627239",
+      "data-relevance": "329",
+      "data-term": "released",
+      "data-encoded-term": "released",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "627239",
+        "w2v",
+        "1"
+      ]
+    },
+    "dre": {
+      "data-frequency": "4040",
+      "data-relevance": "328",
+      "data-term": "dre",
+      "data-encoded-term": "dre",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "4040",
+        "w2v",
+        "1"
+      ]
+    },
+    "agouti": {
+      "data-frequency": "453",
+      "data-relevance": "327",
+      "data-term": "agouti",
+      "data-encoded-term": "agouti",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "453",
+        "cn5",
+        "1"
+      ]
+    },
+    "vermin": {
+      "data-frequency": "1684",
+      "data-relevance": "326",
+      "data-term": "vermin",
+      "data-encoded-term": "vermin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1684",
+        "cn5",
+        "1"
+      ]
+    },
+    "groundhog": {
+      "data-frequency": "1412",
+      "data-relevance": "325",
+      "data-term": "groundhog",
+      "data-encoded-term": "groundhog",
+      "data-term-stats": [
+        "1",
+        "0.4",
+        "0.000",
+        "1412",
+        "cn5",
+        "1"
+      ]
+    },
+    "extracted": {
+      "data-frequency": "14465",
+      "data-relevance": "324",
+      "data-term": "extracted",
+      "data-encoded-term": "extracted",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14465",
+        "w2v",
+        "1"
+      ]
+    },
+    "hedgehog": {
+      "data-frequency": "6027",
+      "data-relevance": "323",
+      "data-term": "hedgehog",
+      "data-encoded-term": "hedgehog",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6027",
+        "cn5",
+        "1"
+      ]
+    },
+    "skunk": {
+      "data-frequency": "4175",
+      "data-relevance": "322",
+      "data-term": "skunk",
+      "data-encoded-term": "skunk",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4175",
+        "cn5",
+        "1"
+      ]
+    },
+    "lemming": {
+      "data-frequency": "769",
+      "data-relevance": "321",
+      "data-term": "lemming",
+      "data-encoded-term": "lemming",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "769",
+        "cn5",
+        "1"
+      ]
+    },
+    "marten": {
+      "data-frequency": "6186",
+      "data-relevance": "320",
+      "data-term": "marten",
+      "data-encoded-term": "marten",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6186",
+        "cn5",
+        "1"
+      ]
+    },
+    "civet": {
+      "data-frequency": "1114",
+      "data-relevance": "319",
+      "data-term": "civet",
+      "data-encoded-term": "civet",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1114",
+        "cn5",
+        "1"
+      ]
+    },
+    "mcfarland": {
+      "data-frequency": "35965",
+      "data-relevance": "318",
+      "data-term": "mcfarland",
+      "data-encoded-term": "mcfarland",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "35965",
+        "w2v",
+        "1"
+      ]
+    },
+    "muskrat": {
+      "data-frequency": "1324",
+      "data-relevance": "317",
+      "data-term": "muskrat",
+      "data-encoded-term": "muskrat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1324",
+        "cn5",
+        "1"
+      ]
+    },
+    "placenta": {
+      "data-frequency": "2234",
+      "data-relevance": "316",
+      "data-term": "placenta",
+      "data-encoded-term": "placenta",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2234",
+        "cn5",
+        "1"
+      ]
+    },
+    "centipede": {
+      "data-frequency": "1514",
+      "data-relevance": "315",
+      "data-term": "centipede",
+      "data-encoded-term": "centipede",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1514",
+        "cn5",
+        "1"
+      ]
+    },
+    "barrels": {
+      "data-frequency": "10494",
+      "data-relevance": "314",
+      "data-term": "barrels",
+      "data-encoded-term": "barrels",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10494",
+        "w2v",
+        "1"
+      ]
+    },
+    "livermore": {
+      "data-frequency": "5160",
+      "data-relevance": "313",
+      "data-term": "livermore",
+      "data-encoded-term": "livermore",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5160",
+        "w2v",
+        "1"
+      ]
+    },
+    "caribou": {
+      "data-frequency": "5672",
+      "data-relevance": "312",
+      "data-term": "caribou",
+      "data-encoded-term": "caribou",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5672",
+        "cn5",
+        "1"
+      ]
+    },
+    "wolverine": {
+      "data-frequency": "5904",
+      "data-relevance": "311",
+      "data-term": "wolverine",
+      "data-encoded-term": "wolverine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5904",
+        "cn5",
+        "1"
+      ]
+    },
+    "memo": {
+      "data-frequency": "8144",
+      "data-relevance": "310",
+      "data-term": "memo",
+      "data-encoded-term": "memo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8144",
+        "w2v",
+        "1"
+      ]
+    },
+    "vair": {
+      "data-frequency": "1337",
+      "data-relevance": "309",
+      "data-term": "vair",
+      "data-encoded-term": "vair",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1337",
+        "cn5",
+        "1"
+      ]
+    },
+    "opium": {
+      "data-frequency": "8165",
+      "data-relevance": "308",
+      "data-term": "opium",
+      "data-encoded-term": "opium",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8165",
+        "w2v",
+        "1"
+      ]
+    },
+    "wild": {
+      "data-frequency": "176899",
+      "data-relevance": "307",
+      "data-term": "wild",
+      "data-encoded-term": "wild",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "176899",
+        "cn5",
+        "1"
+      ]
+    },
+    "encina": {
+      "data-frequency": "1443",
+      "data-relevance": "306",
+      "data-term": "encina",
+      "data-encoded-term": "encina",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1443",
+        "w2v",
+        "1"
+      ]
+    },
+    "nicotine": {
+      "data-frequency": "3395",
+      "data-relevance": "305",
+      "data-term": "nicotine",
+      "data-encoded-term": "nicotine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3395",
+        "w2v",
+        "1"
+      ]
+    },
+    "otter": {
+      "data-frequency": "12931",
+      "data-relevance": "304",
+      "data-term": "otter",
+      "data-encoded-term": "otter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12931",
+        "cn5",
+        "1"
+      ]
+    },
+    "marvin": {
+      "data-frequency": "29296",
+      "data-relevance": "303",
+      "data-term": "marvin",
+      "data-encoded-term": "marvin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "29296",
+        "w2v",
+        "1"
+      ]
+    },
+    "meerkat": {
+      "data-frequency": "914",
+      "data-relevance": "302",
+      "data-term": "meerkat",
+      "data-encoded-term": "meerkat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "914",
+        "cn5",
+        "1"
+      ]
+    },
+    "bio": {
+      "data-frequency": "83123",
+      "data-relevance": "301",
+      "data-term": "bio",
+      "data-encoded-term": "bio",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "83123",
+        "w2v",
+        "1"
+      ]
+    },
+    "macaque": {
+      "data-frequency": "1572",
+      "data-relevance": "300",
+      "data-term": "macaque",
+      "data-encoded-term": "macaque",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1572",
+        "cn5",
+        "1"
+      ]
+    },
+    "treasury": {
+      "data-frequency": "33620",
+      "data-relevance": "299",
+      "data-term": "treasury",
+      "data-encoded-term": "treasury",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "33620",
+        "w2v",
+        "1"
+      ]
+    },
+    "reindeer": {
+      "data-frequency": "5532",
+      "data-relevance": "298",
+      "data-term": "reindeer",
+      "data-encoded-term": "reindeer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5532",
+        "cn5",
+        "1"
+      ]
+    },
+    "releases": {
+      "data-frequency": "107559",
+      "data-relevance": "297",
+      "data-term": "releases",
+      "data-encoded-term": "releases",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "107559",
+        "w2v",
+        "1"
+      ]
+    },
+    "stovall": {
+      "data-frequency": "1795",
+      "data-relevance": "296",
+      "data-term": "stovall",
+      "data-encoded-term": "stovall",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1795",
+        "w2v",
+        "1"
+      ]
+    },
+    "stockpile": {
+      "data-frequency": "1632",
+      "data-relevance": "295",
+      "data-term": "stockpile",
+      "data-encoded-term": "stockpile",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1632",
+        "w2v",
+        "1"
+      ]
+    },
+    "tannin": {
+      "data-frequency": "926",
+      "data-relevance": "294",
+      "data-term": "tannin",
+      "data-encoded-term": "tannin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "926",
+        "w2v",
+        "1"
+      ]
+    },
+    "bly": {
+      "data-frequency": "1724",
+      "data-relevance": "293",
+      "data-term": "bly",
+      "data-encoded-term": "bly",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1724",
+        "w2v",
+        "1"
+      ]
+    },
+    "microsystems": {
+      "data-frequency": "2616",
+      "data-relevance": "292",
+      "data-term": "microsystems",
+      "data-encoded-term": "microsystems",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2616",
+        "w2v",
+        "1"
+      ]
+    },
+    "symantec": {
+      "data-frequency": "1065",
+      "data-relevance": "291",
+      "data-term": "symantec",
+      "data-encoded-term": "symantec",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1065",
+        "w2v",
+        "1"
+      ]
+    },
+    "rasul": {
+      "data-frequency": "5697",
+      "data-relevance": "290",
+      "data-term": "rasul",
+      "data-encoded-term": "rasul",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5697",
+        "w2v",
+        "1"
+      ]
+    },
+    "prabhakaran": {
+      "data-frequency": "871",
+      "data-relevance": "289",
+      "data-term": "prabhakaran",
+      "data-encoded-term": "prabhakaran",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "871",
+        "w2v",
+        "1"
+      ]
+    },
+    "beast": {
+      "data-frequency": "36842",
+      "data-relevance": "288",
+      "data-term": "beast",
+      "data-encoded-term": "beast",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "36842",
+        "cn5",
+        "1"
+      ]
+    },
+    "dogg": {
+      "data-frequency": "5847",
+      "data-relevance": "287",
+      "data-term": "dogg",
+      "data-encoded-term": "dogg",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5847",
+        "w2v",
+        "1"
+      ]
+    },
+    "killian": {
+      "data-frequency": "3916",
+      "data-relevance": "286",
+      "data-term": "killian",
+      "data-encoded-term": "killian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3916",
+        "w2v",
+        "1"
+      ]
+    },
+    "bushels": {
+      "data-frequency": "1053",
+      "data-relevance": "285",
+      "data-term": "bushels",
+      "data-encoded-term": "bushels",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1053",
+        "w2v",
+        "1"
+      ]
+    },
+    "hutchins": {
+      "data-frequency": "7054",
+      "data-relevance": "284",
+      "data-term": "hutchins",
+      "data-encoded-term": "hutchins",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "7054",
+        "w2v",
+        "1"
+      ]
+    },
+    "rand": {
+      "data-frequency": "19219",
+      "data-relevance": "283",
+      "data-term": "rand",
+      "data-encoded-term": "rand",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "19219",
+        "w2v",
+        "1"
+      ]
+    },
+    "stavka": {
+      "data-frequency": "530",
+      "data-relevance": "282",
+      "data-term": "stavka",
+      "data-encoded-term": "stavka",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "530",
+        "w2v",
+        "1"
+      ]
+    },
+    "soybeans": {
+      "data-frequency": "2262",
+      "data-relevance": "281",
+      "data-term": "soybeans",
+      "data-encoded-term": "soybeans",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2262",
+        "w2v",
+        "1"
+      ]
+    },
+    "porcupine": {
+      "data-frequency": "5009",
+      "data-relevance": "280",
+      "data-term": "porcupine",
+      "data-encoded-term": "porcupine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5009",
+        "cn5",
+        "1"
+      ]
+    },
+    "report": {
+      "data-frequency": "543611",
+      "data-relevance": "279",
+      "data-term": "report",
+      "data-encoded-term": "report",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "543611",
+        "w2v",
+        "1"
+      ]
+    },
+    "chem": {
+      "data-frequency": "17470",
+      "data-relevance": "278",
+      "data-term": "chem",
+      "data-encoded-term": "chem",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "17470",
+        "w2v",
+        "1"
+      ]
+    },
+    "connally": {
+      "data-frequency": "1452",
+      "data-relevance": "277",
+      "data-term": "connally",
+      "data-encoded-term": "connally",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1452",
+        "w2v",
+        "1"
+      ]
+    },
+    "cassius": {
+      "data-frequency": "4453",
+      "data-relevance": "276",
+      "data-term": "cassius",
+      "data-encoded-term": "cassius",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4453",
+        "w2v",
+        "1"
+      ]
+    },
+    "deutch": {
+      "data-frequency": "1288",
+      "data-relevance": "275",
+      "data-term": "deutch",
+      "data-encoded-term": "deutch",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1288",
+        "w2v",
+        "1"
+      ]
+    },
+    "ape": {
+      "data-frequency": "9975",
+      "data-relevance": "274",
+      "data-term": "ape",
+      "data-encoded-term": "ape",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "9975",
+        "cn5",
+        "1"
+      ]
+    },
+    "distillate": {
+      "data-frequency": "375",
+      "data-relevance": "273",
+      "data-term": "distillate",
+      "data-encoded-term": "distillate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "375",
+        "w2v",
+        "1"
+      ]
+    },
+    "abacha": {
+      "data-frequency": "590",
+      "data-relevance": "272",
+      "data-term": "abacha",
+      "data-encoded-term": "abacha",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "590",
+        "w2v",
+        "1"
+      ]
+    },
+    "releasing": {
+      "data-frequency": "42149",
+      "data-relevance": "271",
+      "data-term": "releasing",
+      "data-encoded-term": "releasing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "42149",
+        "w2v",
+        "1"
+      ]
+    },
+    "steinbock": {
+      "data-frequency": "331",
+      "data-relevance": "270",
+      "data-term": "steinbock",
+      "data-encoded-term": "steinbock",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "331",
+        "cn5",
+        "1"
+      ]
+    },
+    "crude": {
+      "data-frequency": "13725",
+      "data-relevance": "269",
+      "data-term": "crude",
+      "data-encoded-term": "crude",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13725",
+        "w2v",
+        "1"
+      ]
+    },
+    "mamma": {
+      "data-frequency": "3864",
+      "data-relevance": "268",
+      "data-term": "mamma",
+      "data-encoded-term": "mamma",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3864",
+        "cn5",
+        "1"
+      ]
+    },
+    "16s": {
+      "data-frequency": "1357085",
+      "data-relevance": "267",
+      "data-term": "16s",
+      "data-encoded-term": "16s",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1357085",
+        "w2v",
+        "1"
+      ]
+    },
+    "maturing": {
+      "data-frequency": "2434",
+      "data-relevance": "266",
+      "data-term": "maturing",
+      "data-encoded-term": "maturing",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2434",
+        "w2v",
+        "1"
+      ]
+    },
+    "intel": {
+      "data-frequency": "11507",
+      "data-relevance": "265",
+      "data-term": "intel",
+      "data-encoded-term": "intel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11507",
+        "w2v",
+        "1"
+      ]
+    },
+    "insectivorous": {
+      "data-frequency": "2090",
+      "data-relevance": "264",
+      "data-term": "insectivorous",
+      "data-encoded-term": "insectivorous",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2090",
+        "cn5",
+        "1"
+      ]
+    },
+    "poppy": {
+      "data-frequency": "10437",
+      "data-relevance": "263",
+      "data-term": "poppy",
+      "data-encoded-term": "poppy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "10437",
+        "w2v",
+        "1"
+      ]
+    },
+    "bearcat": {
+      "data-frequency": "1054",
+      "data-relevance": "262",
+      "data-term": "bearcat",
+      "data-encoded-term": "bearcat",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1054",
+        "cn5",
+        "1"
+      ]
+    },
+    "files": {
+      "data-frequency": "99195",
+      "data-relevance": "261",
+      "data-term": "files",
+      "data-encoded-term": "files",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "99195",
+        "w2v",
+        "1"
+      ]
+    },
+    "tapir": {
+      "data-frequency": "1084",
+      "data-relevance": "260",
+      "data-term": "tapir",
+      "data-encoded-term": "tapir",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1084",
+        "cn5",
+        "1"
+      ]
+    },
+    "mullah": {
+      "data-frequency": "1407",
+      "data-relevance": "259",
+      "data-term": "mullah",
+      "data-encoded-term": "mullah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1407",
+        "w2v",
+        "1"
+      ]
+    },
+    "robledo": {
+      "data-frequency": "1652",
+      "data-relevance": "258",
+      "data-term": "robledo",
+      "data-encoded-term": "robledo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1652",
+        "w2v",
+        "1"
+      ]
+    },
+    "axl": {
+      "data-frequency": "1264",
+      "data-relevance": "257",
+      "data-term": "axl",
+      "data-encoded-term": "axl",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1264",
+        "w2v",
+        "1"
+      ]
+    },
+    "extract": {
+      "data-frequency": "23367",
+      "data-relevance": "256",
+      "data-term": "extract",
+      "data-encoded-term": "extract",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "23367",
+        "w2v",
+        "1"
+      ]
+    },
+    "carnivorous": {
+      "data-frequency": "5073",
+      "data-relevance": "255",
+      "data-term": "carnivorous",
+      "data-encoded-term": "carnivorous",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5073",
+        "cn5",
+        "1"
+      ]
+    },
+    "arthropod": {
+      "data-frequency": "3682",
+      "data-relevance": "254",
+      "data-term": "arthropod",
+      "data-encoded-term": "arthropod",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "3682",
+        "cn5",
+        "1"
+      ]
+    },
+    "gibbon": {
+      "data-frequency": "4783",
+      "data-relevance": "253",
+      "data-term": "gibbon",
+      "data-encoded-term": "gibbon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4783",
+        "cn5",
+        "1"
+      ]
+    },
+    "sani": {
+      "data-frequency": "4252",
+      "data-relevance": "252",
+      "data-term": "sani",
+      "data-encoded-term": "sani",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4252",
+        "w2v",
+        "1"
+      ]
+    },
+    "scut": {
+      "data-frequency": "68",
+      "data-relevance": "251",
+      "data-term": "scut",
+      "data-encoded-term": "scut",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "68",
+        "cn5",
+        "1"
+      ]
+    },
+    "proboscidean": {
+      "data-frequency": "105",
+      "data-relevance": "250",
+      "data-term": "proboscidean",
+      "data-encoded-term": "proboscidean",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "lynx": {
+      "data-frequency": "13038",
+      "data-relevance": "249",
+      "data-term": "lynx",
+      "data-encoded-term": "lynx",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "13038",
+        "cn5",
+        "1"
+      ]
+    },
+    "raccoon": {
+      "data-frequency": "4236",
+      "data-relevance": "248",
+      "data-term": "raccoon",
+      "data-encoded-term": "raccoon",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4236",
+        "cn5",
+        "1"
+      ]
+    },
+    "bestial": {
+      "data-frequency": "751",
+      "data-relevance": "247",
+      "data-term": "bestial",
+      "data-encoded-term": "bestial",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "751",
+        "cn5",
+        "1"
+      ]
+    },
+    "gorilla": {
+      "data-frequency": "8205",
+      "data-relevance": "246",
+      "data-term": "gorilla",
+      "data-encoded-term": "gorilla",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8205",
+        "cn5",
+        "1"
+      ]
+    },
+    "plyler": {
+      "data-frequency": "294",
+      "data-relevance": "245",
+      "data-term": "plyler",
+      "data-encoded-term": "plyler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "294",
+        "w2v",
+        "1"
+      ]
+    },
+    "fur": {
+      "data-frequency": "85722",
+      "data-relevance": "244",
+      "data-term": "fur",
+      "data-encoded-term": "fur",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "85722",
+        "cn5",
+        "1"
+      ]
+    },
+    "rabbit": {
+      "data-frequency": "24165",
+      "data-relevance": "243",
+      "data-term": "rabbit",
+      "data-encoded-term": "rabbit",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "24165",
+        "cn5",
+        "1"
+      ]
+    },
+    "panda": {
+      "data-frequency": "11069",
+      "data-relevance": "242",
+      "data-term": "panda",
+      "data-encoded-term": "panda",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11069",
+        "cn5",
+        "1"
+      ]
+    },
+    "mole": {
+      "data-frequency": "14391",
+      "data-relevance": "241",
+      "data-term": "mole",
+      "data-encoded-term": "mole",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14391",
+        "cn5",
+        "1"
+      ]
+    },
+    "cheetah": {
+      "data-frequency": "4029",
+      "data-relevance": "240",
+      "data-term": "cheetah",
+      "data-encoded-term": "cheetah",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4029",
+        "cn5",
+        "1"
+      ]
+    },
+    "monotreme": {
+      "data-frequency": "163",
+      "data-relevance": "239",
+      "data-term": "monotreme",
+      "data-encoded-term": "monotreme",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "163",
+        "cn5",
+        "1"
+      ]
+    },
+    "leopard": {
+      "data-frequency": "12302",
+      "data-relevance": "238",
+      "data-term": "leopard",
+      "data-encoded-term": "leopard",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12302",
+        "cn5",
+        "1"
+      ]
+    },
+    "paunch": {
+      "data-frequency": "104",
+      "data-relevance": "237",
+      "data-term": "paunch",
+      "data-encoded-term": "paunch",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "104",
+        "cn5",
+        "1"
+      ]
+    },
+    "squirrel": {
+      "data-frequency": "8882",
+      "data-relevance": "236",
+      "data-term": "squirrel",
+      "data-encoded-term": "squirrel",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8882",
+        "cn5",
+        "1"
+      ]
+    },
+    "capuchin": {
+      "data-frequency": "2870",
+      "data-relevance": "235",
+      "data-term": "capuchin",
+      "data-encoded-term": "capuchin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2870",
+        "cn5",
+        "1"
+      ]
+    },
+    "critter": {
+      "data-frequency": "948",
+      "data-relevance": "234",
+      "data-term": "critter",
+      "data-encoded-term": "critter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "948",
+        "cn5",
+        "1"
+      ]
+    },
+    "chimpanzee": {
+      "data-frequency": "2782",
+      "data-relevance": "233",
+      "data-term": "chimpanzee",
+      "data-encoded-term": "chimpanzee",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2782",
+        "cn5",
+        "1"
+      ]
+    },
+    "gnawer": {
+      "data-frequency": "-1",
+      "data-relevance": "232",
+      "data-term": "gnawer",
+      "data-encoded-term": "gnawer",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "simian": {
+      "data-frequency": "1584",
+      "data-relevance": "231",
+      "data-term": "simian",
+      "data-encoded-term": "simian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1584",
+        "cn5",
+        "1"
+      ]
+    },
+    "insectoid": {
+      "data-frequency": "798",
+      "data-relevance": "230",
+      "data-term": "insectoid",
+      "data-encoded-term": "insectoid",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "798",
+        "cn5",
+        "1"
+      ]
+    },
+    "panther": {
+      "data-frequency": "16828",
+      "data-relevance": "229",
+      "data-term": "panther",
+      "data-encoded-term": "panther",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "16828",
+        "cn5",
+        "1"
+      ]
+    },
+    "predator": {
+      "data-frequency": "11253",
+      "data-relevance": "228",
+      "data-term": "predator",
+      "data-encoded-term": "predator",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11253",
+        "cn5",
+        "1"
+      ]
+    },
+    "chiropteran": {
+      "data-frequency": "79",
+      "data-relevance": "227",
+      "data-term": "chiropteran",
+      "data-encoded-term": "chiropteran",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "79",
+        "cn5",
+        "1"
+      ]
+    },
+    "frankweiler": {
+      "data-frequency": "71",
+      "data-relevance": "226",
+      "data-term": "frankweiler",
+      "data-encoded-term": "frankweiler",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "71",
+        "w2v",
+        "1"
+      ]
+    },
+    "gerbil": {
+      "data-frequency": "576",
+      "data-relevance": "225",
+      "data-term": "gerbil",
+      "data-encoded-term": "gerbil",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "576",
+        "cn5",
+        "1"
+      ]
+    },
+    "herbivore": {
+      "data-frequency": "1390",
+      "data-relevance": "224",
+      "data-term": "herbivore",
+      "data-encoded-term": "herbivore",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1390",
+        "cn5",
+        "1"
+      ]
+    },
+    "fakhruddin": {
+      "data-frequency": "1189",
+      "data-relevance": "223",
+      "data-term": "fakhruddin",
+      "data-encoded-term": "fakhruddin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1189",
+        "w2v",
+        "1"
+      ]
+    },
+    "mink": {
+      "data-frequency": "5044",
+      "data-relevance": "222",
+      "data-term": "mink",
+      "data-encoded-term": "mink",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5044",
+        "cn5",
+        "1"
+      ]
+    },
+    "viscacha": {
+      "data-frequency": "109",
+      "data-relevance": "221",
+      "data-term": "viscacha",
+      "data-encoded-term": "viscacha",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "109",
+        "cn5",
+        "1"
+      ]
+    },
+    "rhinoceros": {
+      "data-frequency": "4537",
+      "data-relevance": "220",
+      "data-term": "rhinoceros",
+      "data-encoded-term": "rhinoceros",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "4537",
+        "cn5",
+        "1"
+      ]
+    },
+    "armadillo": {
+      "data-frequency": "2129",
+      "data-relevance": "219",
+      "data-term": "armadillo",
+      "data-encoded-term": "armadillo",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2129",
+        "cn5",
+        "1"
+      ]
+    },
+    "jungle": {
+      "data-frequency": "40028",
+      "data-relevance": "218",
+      "data-term": "jungle",
+      "data-encoded-term": "jungle",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "40028",
+        "cn5",
+        "1"
+      ]
+    },
+    "tiger": {
+      "data-frequency": "59057",
+      "data-relevance": "217",
+      "data-term": "tiger",
+      "data-encoded-term": "tiger",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "59057",
+        "cn5",
+        "1"
+      ]
+    },
+    "primate": {
+      "data-frequency": "8318",
+      "data-relevance": "216",
+      "data-term": "primate",
+      "data-encoded-term": "primate",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "8318",
+        "cn5",
+        "1"
+      ]
+    },
+    "mammalia": {
+      "data-frequency": "11368",
+      "data-relevance": "215",
+      "data-term": "mammalia",
+      "data-encoded-term": "mammalia",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "11368",
+        "cn5",
+        "1"
+      ]
+    },
+    "fuzzy": {
+      "data-frequency": "5352",
+      "data-relevance": "214",
+      "data-term": "fuzzy",
+      "data-encoded-term": "fuzzy",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "5352",
+        "cn5",
+        "1"
+      ]
+    },
+    "cub": {
+      "data-frequency": "14008",
+      "data-relevance": "213",
+      "data-term": "cub",
+      "data-encoded-term": "cub",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "14008",
+        "cn5",
+        "1"
+      ]
+    },
+    "leuchter": {
+      "data-frequency": "199",
+      "data-relevance": "212",
+      "data-term": "leuchter",
+      "data-encoded-term": "leuchter",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "199",
+        "w2v",
+        "1"
+      ]
+    },
+    "viverrine": {
+      "data-frequency": "-1",
+      "data-relevance": "211",
+      "data-term": "viverrine",
+      "data-encoded-term": "viverrine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gnu": {
+      "data-frequency": "6732",
+      "data-relevance": "210",
+      "data-term": "gnu",
+      "data-encoded-term": "gnu",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6732",
+        "cn5",
+        "1"
+      ]
+    },
+    "quadruped": {
+      "data-frequency": "332",
+      "data-relevance": "209",
+      "data-term": "quadruped",
+      "data-encoded-term": "quadruped",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "332",
+        "cn5",
+        "1"
+      ]
+    },
+    "larva": {
+      "data-frequency": "6496",
+      "data-relevance": "208",
+      "data-term": "larva",
+      "data-encoded-term": "larva",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "6496",
+        "cn5",
+        "1"
+      ]
+    },
+    "ermine": {
+      "data-frequency": "2938",
+      "data-relevance": "207",
+      "data-term": "ermine",
+      "data-encoded-term": "ermine",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2938",
+        "cn5",
+        "1"
+      ]
+    },
+    "ladybug": {
+      "data-frequency": "1059",
+      "data-relevance": "206",
+      "data-term": "ladybug",
+      "data-encoded-term": "ladybug",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1059",
+        "cn5",
+        "1"
+      ]
+    },
+    "omnivorous": {
+      "data-frequency": "1648",
+      "data-relevance": "205",
+      "data-term": "omnivorous",
+      "data-encoded-term": "omnivorous",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "1648",
+        "cn5",
+        "1"
+      ]
+    },
+    "mouser": {
+      "data-frequency": "697",
+      "data-relevance": "204",
+      "data-term": "mouser",
+      "data-encoded-term": "mouser",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "697",
+        "cn5",
+        "1"
+      ]
+    },
+    "yellowcake": {
+      "data-frequency": "198",
+      "data-relevance": "203",
+      "data-term": "yellowcake",
+      "data-encoded-term": "yellowcake",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "198",
+        "w2v",
+        "1"
+      ]
+    },
+    "pachyderm": {
+      "data-frequency": "299",
+      "data-relevance": "202",
+      "data-term": "pachyderm",
+      "data-encoded-term": "pachyderm",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "299",
+        "cn5",
+        "1"
+      ]
+    },
+    "schalit": {
+      "data-frequency": "58",
+      "data-relevance": "201",
+      "data-term": "schalit",
+      "data-encoded-term": "schalit",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "58",
+        "w2v",
+        "1"
+      ]
+    },
+    "amphibian": {
+      "data-frequency": "12356",
+      "data-relevance": "200",
+      "data-term": "amphibian",
+      "data-encoded-term": "amphibian",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "12356",
+        "cn5",
+        "1"
+      ]
+    },
+    "pacarana": {
+      "data-frequency": "-1",
+      "data-relevance": "199",
+      "data-term": "pacarana",
+      "data-encoded-term": "pacarana",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "malkin": {
+      "data-frequency": "2458",
+      "data-relevance": "198",
+      "data-term": "malkin",
+      "data-encoded-term": "malkin",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "2458",
+        "cn5",
+        "1"
+      ]
+    },
+    "bolten": {
+      "data-frequency": "386",
+      "data-relevance": "197",
+      "data-term": "bolten",
+      "data-encoded-term": "bolten",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "386",
+        "w2v",
+        "1"
+      ]
+    },
+    "bockarie": {
+      "data-frequency": "101",
+      "data-relevance": "196",
+      "data-term": "bockarie",
+      "data-encoded-term": "bockarie",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "101",
+        "w2v",
+        "1"
+      ]
+    },
+    "volcker": {
+      "data-frequency": "523",
+      "data-relevance": "195",
+      "data-term": "volcker",
+      "data-encoded-term": "volcker",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "523",
+        "w2v",
+        "1"
+      ]
+    },
+    "solecki": {
+      "data-frequency": "161",
+      "data-relevance": "194",
+      "data-term": "solecki",
+      "data-encoded-term": "solecki",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "161",
+        "w2v",
+        "1"
+      ]
+    },
+    "shugart": {
+      "data-frequency": "335",
+      "data-relevance": "193",
+      "data-term": "shugart",
+      "data-encoded-term": "shugart",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "335",
+        "w2v",
+        "1"
+      ]
+    },
+    "hatfill": {
+      "data-frequency": "-1",
+      "data-relevance": "192",
+      "data-term": "hatfill",
+      "data-encoded-term": "hatfill",
+      "data-term-stats": [
+        "1",
+        "0.3",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "lederberg": {
+      "data-frequency": "308",
+      "data-relevance": "191",
+      "data-term": "lederberg",
+      "data-encoded-term": "lederberg",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "308",
+        "w2v",
+        "1"
+      ]
+    },
+    "interscope": {
+      "data-frequency": "5177",
+      "data-relevance": "190",
+      "data-term": "interscope",
+      "data-encoded-term": "interscope",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5177",
+        "w2v",
+        "1"
+      ]
+    },
+    "treg": {
+      "data-frequency": "246",
+      "data-relevance": "189",
+      "data-term": "treg",
+      "data-encoded-term": "treg",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "246",
+        "w2v",
+        "1"
+      ]
+    },
+    "hemovore": {
+      "data-frequency": "-1",
+      "data-relevance": "188",
+      "data-term": "hemovore",
+      "data-encoded-term": "hemovore",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "tarongoy": {
+      "data-frequency": "-1",
+      "data-relevance": "187",
+      "data-term": "tarongoy",
+      "data-encoded-term": "tarongoy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "anzack": {
+      "data-frequency": "-1",
+      "data-relevance": "186",
+      "data-term": "anzack",
+      "data-encoded-term": "anzack",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "affifuddin": {
+      "data-frequency": "-1",
+      "data-relevance": "185",
+      "data-term": "affifuddin",
+      "data-encoded-term": "affifuddin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "monophyletic": {
+      "data-frequency": "2448",
+      "data-relevance": "184",
+      "data-term": "monophyletic",
+      "data-encoded-term": "monophyletic",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2448",
+        "swiki",
+        "1"
+      ]
+    },
+    "jgi": {
+      "data-frequency": "190",
+      "data-relevance": "183",
+      "data-term": "jgi",
+      "data-encoded-term": "jgi",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "190",
+        "w2v",
+        "1"
+      ]
+    },
+    "baradar": {
+      "data-frequency": "377",
+      "data-relevance": "182",
+      "data-term": "baradar",
+      "data-encoded-term": "baradar",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "377",
+        "w2v",
+        "1"
+      ]
+    },
+    "aardwolf": {
+      "data-frequency": "527",
+      "data-relevance": "181",
+      "data-term": "aardwolf",
+      "data-encoded-term": "aardwolf",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "527",
+        "cn5",
+        "1"
+      ]
+    },
+    "habibur": {
+      "data-frequency": "411",
+      "data-relevance": "180",
+      "data-term": "habibur",
+      "data-encoded-term": "habibur",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "411",
+        "w2v",
+        "1"
+      ]
+    },
+    "amnion": {
+      "data-frequency": "128",
+      "data-relevance": "179",
+      "data-term": "amnion",
+      "data-encoded-term": "amnion",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "128",
+        "cn5",
+        "1"
+      ]
+    },
+    "s.": {
+      "data-frequency": "2170134",
+      "data-relevance": "178",
+      "data-term": "s.",
+      "data-encoded-term": "s.",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2170134",
+        "w2v",
+        "1"
+      ]
+    },
+    "gobbler": {
+      "data-frequency": "208",
+      "data-relevance": "177",
+      "data-term": "gobbler",
+      "data-encoded-term": "gobbler",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "208",
+        "ol",
+        "1"
+      ]
+    },
+    "lagomorph": {
+      "data-frequency": "159",
+      "data-relevance": "176",
+      "data-term": "lagomorph",
+      "data-encoded-term": "lagomorph",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "159",
+        "cn5",
+        "1"
+      ]
+    },
+    "pheasants": {
+      "data-frequency": "1560",
+      "data-relevance": "175",
+      "data-term": "pheasants",
+      "data-encoded-term": "pheasants",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1560",
+        "ol",
+        "1"
+      ]
+    },
+    "fawns": {
+      "data-frequency": "260",
+      "data-relevance": "174",
+      "data-term": "fawns",
+      "data-encoded-term": "fawns",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "260",
+        "ol",
+        "1"
+      ]
+    },
+    "coyote": {
+      "data-frequency": "8101",
+      "data-relevance": "173",
+      "data-term": "coyote",
+      "data-encoded-term": "coyote",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "8101",
+        "ol",
+        "1"
+      ]
+    },
+    "cougar": {
+      "data-frequency": "7114",
+      "data-relevance": "172",
+      "data-term": "cougar",
+      "data-encoded-term": "cougar",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7114",
+        "ol",
+        "1"
+      ]
+    },
+    "hunter": {
+      "data-frequency": "101332",
+      "data-relevance": "171",
+      "data-term": "hunter",
+      "data-encoded-term": "hunter",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "101332",
+        "ol",
+        "1"
+      ]
+    },
+    "jakes": {
+      "data-frequency": "1114",
+      "data-relevance": "170",
+      "data-term": "jakes",
+      "data-encoded-term": "jakes",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1114",
+        "ol",
+        "1"
+      ]
+    },
+    "quail": {
+      "data-frequency": "5430",
+      "data-relevance": "169",
+      "data-term": "quail",
+      "data-encoded-term": "quail",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5430",
+        "ol",
+        "1"
+      ]
+    },
+    "mallard": {
+      "data-frequency": "3346",
+      "data-relevance": "168",
+      "data-term": "mallard",
+      "data-encoded-term": "mallard",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3346",
+        "ol",
+        "1"
+      ]
+    },
+    "bruin": {
+      "data-frequency": "3013",
+      "data-relevance": "167",
+      "data-term": "bruin",
+      "data-encoded-term": "bruin",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3013",
+        "ol",
+        "1"
+      ]
+    },
+    "wolf": {
+      "data-frequency": "73371",
+      "data-relevance": "166",
+      "data-term": "wolf",
+      "data-encoded-term": "wolf",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "73371",
+        "ol",
+        "1"
+      ]
+    },
+    "muley": {
+      "data-frequency": "250",
+      "data-relevance": "165",
+      "data-term": "muley",
+      "data-encoded-term": "muley",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "250",
+        "ol",
+        "1"
+      ]
+    },
+    "boar": {
+      "data-frequency": "6241",
+      "data-relevance": "164",
+      "data-term": "boar",
+      "data-encoded-term": "boar",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6241",
+        "ol",
+        "1"
+      ]
+    },
+    "rabbits": {
+      "data-frequency": "7944",
+      "data-relevance": "163",
+      "data-term": "rabbits",
+      "data-encoded-term": "rabbits",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7944",
+        "ol",
+        "1"
+      ]
+    },
+    "goose": {
+      "data-frequency": "21082",
+      "data-relevance": "162",
+      "data-term": "goose",
+      "data-encoded-term": "goose",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "21082",
+        "ol",
+        "1"
+      ]
+    },
+    "pronghorn": {
+      "data-frequency": "1006",
+      "data-relevance": "161",
+      "data-term": "pronghorn",
+      "data-encoded-term": "pronghorn",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1006",
+        "ol",
+        "1"
+      ]
+    },
+    "grizzly": {
+      "data-frequency": "6521",
+      "data-relevance": "160",
+      "data-term": "grizzly",
+      "data-encoded-term": "grizzly",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "6521",
+        "ol",
+        "1"
+      ]
+    },
+    "sika": {
+      "data-frequency": "2168",
+      "data-relevance": "159",
+      "data-term": "sika",
+      "data-encoded-term": "sika",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2168",
+        "ol",
+        "1"
+      ]
+    },
+    "calves": {
+      "data-frequency": "2123",
+      "data-relevance": "158",
+      "data-term": "calves",
+      "data-encoded-term": "calves",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2123",
+        "ol",
+        "1"
+      ]
+    },
+    "owlet": {
+      "data-frequency": "1528",
+      "data-relevance": "157",
+      "data-term": "owlet",
+      "data-encoded-term": "owlet",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1528",
+        "ol",
+        "1"
+      ]
+    },
+    "jake": {
+      "data-frequency": "43569",
+      "data-relevance": "156",
+      "data-term": "jake",
+      "data-encoded-term": "jake",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "43569",
+        "ol",
+        "1"
+      ]
+    },
+    "cottontail": {
+      "data-frequency": "861",
+      "data-relevance": "155",
+      "data-term": "cottontail",
+      "data-encoded-term": "cottontail",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "861",
+        "ol",
+        "1"
+      ]
+    },
+    "toms": {
+      "data-frequency": "3859",
+      "data-relevance": "154",
+      "data-term": "toms",
+      "data-encoded-term": "toms",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3859",
+        "ol",
+        "1"
+      ]
+    },
+    "pavitt": {
+      "data-frequency": "326",
+      "data-relevance": "153",
+      "data-term": "pavitt",
+      "data-encoded-term": "pavitt",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "326",
+        "w2v",
+        "1"
+      ]
+    },
+    "woodcock": {
+      "data-frequency": "5676",
+      "data-relevance": "152",
+      "data-term": "woodcock",
+      "data-encoded-term": "woodcock",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "5676",
+        "ol",
+        "1"
+      ]
+    },
+    "gosling": {
+      "data-frequency": "3220",
+      "data-relevance": "151",
+      "data-term": "gosling",
+      "data-encoded-term": "gosling",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3220",
+        "ol",
+        "1"
+      ]
+    },
+    "waterfowl": {
+      "data-frequency": "3830",
+      "data-relevance": "150",
+      "data-term": "waterfowl",
+      "data-encoded-term": "waterfowl",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3830",
+        "ol",
+        "1"
+      ]
+    },
+    "pintail": {
+      "data-frequency": "1142",
+      "data-relevance": "149",
+      "data-term": "pintail",
+      "data-encoded-term": "pintail",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1142",
+        "ol",
+        "1"
+      ]
+    },
+    "estrus": {
+      "data-frequency": "465",
+      "data-relevance": "148",
+      "data-term": "estrus",
+      "data-encoded-term": "estrus",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "465",
+        "ol",
+        "1"
+      ]
+    },
+    "bighorn": {
+      "data-frequency": "4357",
+      "data-relevance": "147",
+      "data-term": "bighorn",
+      "data-encoded-term": "bighorn",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "4357",
+        "ol",
+        "1"
+      ]
+    },
+    "turkey": {
+      "data-frequency": "177500",
+      "data-relevance": "146",
+      "data-term": "turkey",
+      "data-encoded-term": "turkey",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "177500",
+        "ol",
+        "1"
+      ]
+    },
+    "impala": {
+      "data-frequency": "2610",
+      "data-relevance": "145",
+      "data-term": "impala",
+      "data-encoded-term": "impala",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2610",
+        "ol",
+        "1"
+      ]
+    },
+    "heifer": {
+      "data-frequency": "629",
+      "data-relevance": "144",
+      "data-term": "heifer",
+      "data-encoded-term": "heifer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "629",
+        "ol",
+        "1"
+      ]
+    },
+    "mainassara": {
+      "data-frequency": "88",
+      "data-relevance": "143",
+      "data-term": "mainassara",
+      "data-encoded-term": "mainassara",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "88",
+        "w2v",
+        "1"
+      ]
+    },
+    "stags": {
+      "data-frequency": "2449",
+      "data-relevance": "142",
+      "data-term": "stags",
+      "data-encoded-term": "stags",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "2449",
+        "ol",
+        "1"
+      ]
+    },
+    "petstore": {
+      "data-frequency": "-1",
+      "data-relevance": "141",
+      "data-term": "petstore",
+      "data-encoded-term": "petstore",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "ptarmigan": {
+      "data-frequency": "1946",
+      "data-relevance": "140",
+      "data-term": "ptarmigan",
+      "data-encoded-term": "ptarmigan",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1946",
+        "ol",
+        "1"
+      ]
+    },
+    "bird": {
+      "data-frequency": "112551",
+      "data-relevance": "139",
+      "data-term": "bird",
+      "data-encoded-term": "bird",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "112551",
+        "ol",
+        "1"
+      ]
+    },
+    "opossum": {
+      "data-frequency": "1482",
+      "data-relevance": "138",
+      "data-term": "opossum",
+      "data-encoded-term": "opossum",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1482",
+        "ol",
+        "1"
+      ]
+    },
+    "herd": {
+      "data-frequency": "13251",
+      "data-relevance": "137",
+      "data-term": "herd",
+      "data-encoded-term": "herd",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "13251",
+        "ol",
+        "1"
+      ]
+    },
+    "brant": {
+      "data-frequency": "7283",
+      "data-relevance": "136",
+      "data-term": "brant",
+      "data-encoded-term": "brant",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "7283",
+        "ol",
+        "1"
+      ]
+    },
+    "al-bashir": {
+      "data-frequency": "3198",
+      "data-relevance": "135",
+      "data-term": "al-bashir",
+      "data-encoded-term": "al-bashir",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "3198",
+        "w2v",
+        "1"
+      ]
+    },
+    "dariye": {
+      "data-frequency": "159",
+      "data-relevance": "134",
+      "data-term": "dariye",
+      "data-encoded-term": "dariye",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "159",
+        "w2v",
+        "1"
+      ]
+    },
+    "mcteer": {
+      "data-frequency": "294",
+      "data-relevance": "133",
+      "data-term": "mcteer",
+      "data-encoded-term": "mcteer",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "294",
+        "w2v",
+        "1"
+      ]
+    },
+    "distillates": {
+      "data-frequency": "191",
+      "data-relevance": "132",
+      "data-term": "distillates",
+      "data-encoded-term": "distillates",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "191",
+        "w2v",
+        "1"
+      ]
+    },
+    "bogden": {
+      "data-frequency": "59",
+      "data-relevance": "131",
+      "data-term": "bogden",
+      "data-encoded-term": "bogden",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "59",
+        "w2v",
+        "1"
+      ]
+    },
+    "verster": {
+      "data-frequency": "201",
+      "data-relevance": "130",
+      "data-term": "verster",
+      "data-encoded-term": "verster",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "201",
+        "w2v",
+        "1"
+      ]
+    },
+    "chorion": {
+      "data-frequency": "613",
+      "data-relevance": "129",
+      "data-term": "chorion",
+      "data-encoded-term": "chorion",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "613",
+        "cn5",
+        "1"
+      ]
+    },
+    "magorium": {
+      "data-frequency": "71",
+      "data-relevance": "128",
+      "data-term": "magorium",
+      "data-encoded-term": "magorium",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "71",
+        "w2v",
+        "1"
+      ]
+    },
+    "waksal": {
+      "data-frequency": "-1",
+      "data-relevance": "127",
+      "data-term": "waksal",
+      "data-encoded-term": "waksal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "w2v",
+        "1"
+      ]
+    },
+    "shahr-e": {
+      "data-frequency": "14890",
+      "data-relevance": "126",
+      "data-term": "shahr-e",
+      "data-encoded-term": "shahr-e",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "14890",
+        "w2v",
+        "1"
+      ]
+    },
+    "helgerson": {
+      "data-frequency": "219",
+      "data-relevance": "125",
+      "data-term": "helgerson",
+      "data-encoded-term": "helgerson",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "219",
+        "w2v",
+        "1"
+      ]
+    },
+    "declassify": {
+      "data-frequency": "183",
+      "data-relevance": "124",
+      "data-term": "declassify",
+      "data-encoded-term": "declassify",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "183",
+        "w2v",
+        "1"
+      ]
+    },
+    "shiller": {
+      "data-frequency": "521",
+      "data-relevance": "123",
+      "data-term": "shiller",
+      "data-encoded-term": "shiller",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "521",
+        "w2v",
+        "1"
+      ]
+    },
+    "yellen": {
+      "data-frequency": "810",
+      "data-relevance": "122",
+      "data-term": "yellen",
+      "data-encoded-term": "yellen",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "810",
+        "w2v",
+        "1"
+      ]
+    },
+    "weaponized": {
+      "data-frequency": "105228",
+      "data-relevance": "121",
+      "data-term": "weaponized",
+      "data-encoded-term": "weaponized",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "105228",
+        "w2v",
+        "1"
+      ]
+    },
+    "kanyon": {
+      "data-frequency": "284",
+      "data-relevance": "120",
+      "data-term": "kanyon",
+      "data-encoded-term": "kanyon",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "284",
+        "w2v",
+        "1"
+      ]
+    },
+    "wmx": {
+      "data-frequency": "251",
+      "data-relevance": "119",
+      "data-term": "wmx",
+      "data-encoded-term": "wmx",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "251",
+        "w2v",
+        "1"
+      ]
+    },
+    "weinbaum": {
+      "data-frequency": "296",
+      "data-relevance": "118",
+      "data-term": "weinbaum",
+      "data-encoded-term": "weinbaum",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "296",
+        "w2v",
+        "1"
+      ]
+    },
+    "mammalogy": {
+      "data-frequency": "1771",
+      "data-relevance": "117",
+      "data-term": "mammalogy",
+      "data-encoded-term": "mammalogy",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1771",
+        "cn5",
+        "1"
+      ]
+    },
+    "leventhal": {
+      "data-frequency": "1734",
+      "data-relevance": "116",
+      "data-term": "leventhal",
+      "data-encoded-term": "leventhal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "1734",
+        "w2v",
+        "1"
+      ]
+    },
+    "bushbaby": {
+      "data-frequency": "193",
+      "data-relevance": "115",
+      "data-term": "bushbaby",
+      "data-encoded-term": "bushbaby",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "193",
+        "cn5",
+        "1"
+      ]
+    },
+    "jerboa": {
+      "data-frequency": "274",
+      "data-relevance": "114",
+      "data-term": "jerboa",
+      "data-encoded-term": "jerboa",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "274",
+        "cn5",
+        "1"
+      ]
+    },
+    "mammaldom": {
+      "data-frequency": "-1",
+      "data-relevance": "113",
+      "data-term": "mammaldom",
+      "data-encoded-term": "mammaldom",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "bovid": {
+      "data-frequency": "172",
+      "data-relevance": "112",
+      "data-term": "bovid",
+      "data-encoded-term": "bovid",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "172",
+        "cn5",
+        "1"
+      ]
+    },
+    "caecotroph": {
+      "data-frequency": "-1",
+      "data-relevance": "111",
+      "data-term": "caecotroph",
+      "data-encoded-term": "caecotroph",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "north america": {
+      "data-frequency": "181927",
+      "data-relevance": "110",
+      "data-term": "north america",
+      "data-encoded-term": "north%20america",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "181927",
+        "swiki",
+        "1"
+      ]
+    },
+    "synapsid": {
+      "data-frequency": "345",
+      "data-relevance": "109",
+      "data-term": "synapsid",
+      "data-encoded-term": "synapsid",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "345",
+        "cn5",
+        "1"
+      ]
+    },
+    "plantigrade": {
+      "data-frequency": "132",
+      "data-relevance": "108",
+      "data-term": "plantigrade",
+      "data-encoded-term": "plantigrade",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "132",
+        "cn5",
+        "1"
+      ]
+    },
+    "flindermouse": {
+      "data-frequency": "-1",
+      "data-relevance": "107",
+      "data-term": "flindermouse",
+      "data-encoded-term": "flindermouse",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "batlike": {
+      "data-frequency": "-1",
+      "data-relevance": "106",
+      "data-term": "batlike",
+      "data-encoded-term": "batlike",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "furry animal": {
+      "data-frequency": "-1",
+      "data-relevance": "105",
+      "data-term": "furry animal",
+      "data-encoded-term": "furry%20animal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "allantois": {
+      "data-frequency": "54",
+      "data-relevance": "104",
+      "data-term": "allantois",
+      "data-encoded-term": "allantois",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "54",
+        "cn5",
+        "1"
+      ]
+    },
+    "bunny rabbit": {
+      "data-frequency": "99",
+      "data-relevance": "103",
+      "data-term": "bunny rabbit",
+      "data-encoded-term": "bunny%20rabbit",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "99",
+        "cn5",
+        "1"
+      ]
+    },
+    "prototherian": {
+      "data-frequency": "-1",
+      "data-relevance": "102",
+      "data-term": "prototherian",
+      "data-encoded-term": "prototherian",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "springhare": {
+      "data-frequency": "48",
+      "data-relevance": "101",
+      "data-term": "springhare",
+      "data-encoded-term": "springhare",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "musteline mammal": {
+      "data-frequency": "-1",
+      "data-relevance": "100",
+      "data-term": "musteline mammal",
+      "data-encoded-term": "musteline%20mammal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "terrarium": {
+      "data-frequency": "442",
+      "data-relevance": "99",
+      "data-term": "terrarium",
+      "data-encoded-term": "terrarium",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "442",
+        "cn5",
+        "1"
+      ]
+    },
+    "artiodactyl": {
+      "data-frequency": "334",
+      "data-relevance": "98",
+      "data-term": "artiodactyl",
+      "data-encoded-term": "artiodactyl",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "334",
+        "cn5",
+        "1"
+      ]
+    },
+    "small mammal": {
+      "data-frequency": "412",
+      "data-relevance": "97",
+      "data-term": "small mammal",
+      "data-encoded-term": "small%20mammal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "412",
+        "cn5",
+        "1"
+      ]
+    },
+    "tree animal": {
+      "data-frequency": "-1",
+      "data-relevance": "96",
+      "data-term": "tree animal",
+      "data-encoded-term": "tree%20animal",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "south america": {
+      "data-frequency": "71703",
+      "data-relevance": "95",
+      "data-term": "south america",
+      "data-encoded-term": "south%20america",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "71703",
+        "swiki",
+        "1"
+      ]
+    },
+    "bushy tail": {
+      "data-frequency": "175",
+      "data-relevance": "94",
+      "data-term": "bushy tail",
+      "data-encoded-term": "bushy%20tail",
+      "data-term-stats": [
+        "1",
+        "0.2",
+        "0.000",
+        "175",
+        "cn5",
+        "1"
+      ]
+    },
+    "non person animal": {
+      "data-frequency": "-1",
+      "data-relevance": "93",
+      "data-term": "non person animal",
+      "data-encoded-term": "non%20person%20animal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "gondwana": {
+      "data-frequency": "2350",
+      "data-relevance": "92",
+      "data-term": "gondwana",
+      "data-encoded-term": "gondwana",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "2350",
+        "swiki",
+        "1"
+      ]
+    },
+    "longbeard": {
+      "data-frequency": "-1",
+      "data-relevance": "91",
+      "data-term": "longbeard",
+      "data-encoded-term": "longbeard",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "whitetail": {
+      "data-frequency": "690",
+      "data-relevance": "90",
+      "data-term": "whitetail",
+      "data-encoded-term": "whitetail",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "690",
+        "ol",
+        "1"
+      ]
+    },
+    "chukar": {
+      "data-frequency": "972",
+      "data-relevance": "89",
+      "data-term": "chukar",
+      "data-encoded-term": "chukar",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "972",
+        "ol",
+        "1"
+      ]
+    },
+    "bowhunter": {
+      "data-frequency": "53",
+      "data-relevance": "88",
+      "data-term": "bowhunter",
+      "data-encoded-term": "bowhunter",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "53",
+        "ol",
+        "1"
+      ]
+    },
+    "bluebill": {
+      "data-frequency": "47",
+      "data-relevance": "87",
+      "data-term": "bluebill",
+      "data-encoded-term": "bluebill",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "47",
+        "ol",
+        "1"
+      ]
+    },
+    "muzzleloader": {
+      "data-frequency": "99",
+      "data-relevance": "86",
+      "data-term": "muzzleloader",
+      "data-encoded-term": "muzzleloader",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "99",
+        "ol",
+        "1"
+      ]
+    },
+    "sharptail": {
+      "data-frequency": "187",
+      "data-relevance": "85",
+      "data-term": "sharptail",
+      "data-encoded-term": "sharptail",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "187",
+        "ol",
+        "1"
+      ]
+    },
+    "javelina": {
+      "data-frequency": "220",
+      "data-relevance": "84",
+      "data-term": "javelina",
+      "data-encoded-term": "javelina",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "220",
+        "ol",
+        "1"
+      ]
+    },
+    "canvasback": {
+      "data-frequency": "297",
+      "data-relevance": "83",
+      "data-term": "canvasback",
+      "data-encoded-term": "canvasback",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "297",
+        "ol",
+        "1"
+      ]
+    },
+    "blacktail": {
+      "data-frequency": "321",
+      "data-relevance": "82",
+      "data-term": "blacktail",
+      "data-encoded-term": "blacktail",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "321",
+        "ol",
+        "1"
+      ]
+    },
+    "whooper": {
+      "data-frequency": "316",
+      "data-relevance": "81",
+      "data-term": "whooper",
+      "data-encoded-term": "whooper",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "316",
+        "ol",
+        "1"
+      ]
+    },
+    "poult": {
+      "data-frequency": "67",
+      "data-relevance": "80",
+      "data-term": "poult",
+      "data-encoded-term": "poult",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "67",
+        "ol",
+        "1"
+      ]
+    },
+    "furbearer": {
+      "data-frequency": "-1",
+      "data-relevance": "79",
+      "data-term": "furbearer",
+      "data-encoded-term": "furbearer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "bobwhites": {
+      "data-frequency": "-1",
+      "data-relevance": "78",
+      "data-term": "bobwhites",
+      "data-encoded-term": "bobwhites",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "ol",
+        "1"
+      ]
+    },
+    "bowhunting": {
+      "data-frequency": "65",
+      "data-relevance": "77",
+      "data-term": "bowhunting",
+      "data-encoded-term": "bowhunting",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "65",
+        "ol",
+        "1"
+      ]
+    },
+    "merganser": {
+      "data-frequency": "560",
+      "data-relevance": "76",
+      "data-term": "merganser",
+      "data-encoded-term": "merganser",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "560",
+        "ol",
+        "1"
+      ]
+    },
+    "ringneck": {
+      "data-frequency": "118",
+      "data-relevance": "75",
+      "data-term": "ringneck",
+      "data-encoded-term": "ringneck",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "118",
+        "ol",
+        "1"
+      ]
+    },
+    "estrous": {
+      "data-frequency": "221",
+      "data-relevance": "74",
+      "data-term": "estrous",
+      "data-encoded-term": "estrous",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "221",
+        "ol",
+        "1"
+      ]
+    },
+    "detroit zoo": {
+      "data-frequency": "94",
+      "data-relevance": "73",
+      "data-term": "detroit zoo",
+      "data-encoded-term": "detroit%20zoo",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "94",
+        "cn5",
+        "1"
+      ]
+    },
+    "nilgai": {
+      "data-frequency": "536",
+      "data-relevance": "72",
+      "data-term": "nilgai",
+      "data-encoded-term": "nilgai",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "536",
+        "ol",
+        "1"
+      ]
+    },
+    "klipspringer": {
+      "data-frequency": "455",
+      "data-relevance": "71",
+      "data-term": "klipspringer",
+      "data-encoded-term": "klipspringer",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "455",
+        "ol",
+        "1"
+      ]
+    },
+    "honkers": {
+      "data-frequency": "162",
+      "data-relevance": "70",
+      "data-term": "honkers",
+      "data-encoded-term": "honkers",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "162",
+        "ol",
+        "1"
+      ]
+    },
+    "female mammal": {
+      "data-frequency": "7044",
+      "data-relevance": "69",
+      "data-term": "female mammal",
+      "data-encoded-term": "female%20mammal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "7044",
+        "cn5",
+        "1"
+      ]
+    },
+    "gadwall": {
+      "data-frequency": "535",
+      "data-relevance": "68",
+      "data-term": "gadwall",
+      "data-encoded-term": "gadwall",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "535",
+        "ol",
+        "1"
+      ]
+    },
+    "mole rat": {
+      "data-frequency": "352",
+      "data-relevance": "67",
+      "data-term": "mole rat",
+      "data-encoded-term": "mole%20rat",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "352",
+        "cn5",
+        "1"
+      ]
+    },
+    "mountain beaver": {
+      "data-frequency": "402",
+      "data-relevance": "66",
+      "data-term": "mountain beaver",
+      "data-encoded-term": "mountain%20beaver",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "402",
+        "cn5",
+        "1"
+      ]
+    },
+    "grind squirrel": {
+      "data-frequency": "-1",
+      "data-relevance": "65",
+      "data-term": "grind squirrel",
+      "data-encoded-term": "grind%20squirrel",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "small animal": {
+      "data-frequency": "1052",
+      "data-relevance": "64",
+      "data-term": "small animal",
+      "data-encoded-term": "small%20animal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1052",
+        "cn5",
+        "1"
+      ]
+    },
+    "new zealand": {
+      "data-frequency": "237641",
+      "data-relevance": "63",
+      "data-term": "new zealand",
+      "data-encoded-term": "new%20zealand",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "237641",
+        "swiki",
+        "1"
+      ]
+    },
+    "female animal": {
+      "data-frequency": "80",
+      "data-relevance": "62",
+      "data-term": "female animal",
+      "data-encoded-term": "female%20animal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "80",
+        "cn5",
+        "1"
+      ]
+    },
+    "aye aye": {
+      "data-frequency": "510",
+      "data-relevance": "61",
+      "data-term": "aye aye",
+      "data-encoded-term": "aye%20aye",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "510",
+        "cn5",
+        "1"
+      ]
+    },
+    "wild animal": {
+      "data-frequency": "1438",
+      "data-relevance": "60",
+      "data-term": "wild animal",
+      "data-encoded-term": "wild%20animal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "1438",
+        "cn5",
+        "1"
+      ]
+    },
+    "cabbage moth": {
+      "data-frequency": "-1",
+      "data-relevance": "59",
+      "data-term": "cabbage moth",
+      "data-encoded-term": "cabbage%20moth",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "fly mouse": {
+      "data-frequency": "-1",
+      "data-relevance": "58",
+      "data-term": "fly mouse",
+      "data-encoded-term": "fly%20mouse",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "panda bear": {
+      "data-frequency": "294",
+      "data-relevance": "57",
+      "data-term": "panda bear",
+      "data-encoded-term": "panda%20bear",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "294",
+        "cn5",
+        "1"
+      ]
+    },
+    "pouch mammal": {
+      "data-frequency": "-1",
+      "data-relevance": "56",
+      "data-term": "pouch mammal",
+      "data-encoded-term": "pouch%20mammal",
+      "data-term-stats": [
+        "1",
+        "0.1",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "live creature": {
+      "data-frequency": "-1",
+      "data-relevance": "55",
+      "data-term": "live creature",
+      "data-encoded-term": "live%20creature",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "pet zoo": {
+      "data-frequency": "-1",
+      "data-relevance": "54",
+      "data-term": "pet zoo",
+      "data-encoded-term": "pet%20zoo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "golden mole": {
+      "data-frequency": "159",
+      "data-relevance": "53",
+      "data-term": "golden mole",
+      "data-encoded-term": "golden%20mole",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "159",
+        "cn5",
+        "1"
+      ]
+    },
+    "wood pile": {
+      "data-frequency": "60",
+      "data-relevance": "52",
+      "data-term": "wood pile",
+      "data-encoded-term": "wood%20pile",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "60",
+        "cn5",
+        "1"
+      ]
+    },
+    "it's natural habitat": {
+      "data-frequency": "-1",
+      "data-relevance": "51",
+      "data-term": "it's natural habitat",
+      "data-encoded-term": "it's%20natural%20habitat",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "prairie dog": {
+      "data-frequency": "868",
+      "data-relevance": "50",
+      "data-term": "prairie dog",
+      "data-encoded-term": "prairie%20dog",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "868",
+        "cn5",
+        "1"
+      ]
+    },
+    "sea cow": {
+      "data-frequency": "182",
+      "data-relevance": "49",
+      "data-term": "sea cow",
+      "data-encoded-term": "sea%20cow",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "182",
+        "cn5",
+        "1"
+      ]
+    },
+    "creepy crawly": {
+      "data-frequency": "105",
+      "data-relevance": "48",
+      "data-term": "creepy crawly",
+      "data-encoded-term": "creepy%20crawly",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "south africa": {
+      "data-frequency": "169170",
+      "data-relevance": "47",
+      "data-term": "south africa",
+      "data-encoded-term": "south%20africa",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "169170",
+        "swiki",
+        "1"
+      ]
+    },
+    "goat antelope": {
+      "data-frequency": "62",
+      "data-relevance": "46",
+      "data-term": "goat antelope",
+      "data-encoded-term": "goat%20antelope",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "62",
+        "cn5",
+        "1"
+      ]
+    },
+    "polar bear": {
+      "data-frequency": "3321",
+      "data-relevance": "45",
+      "data-term": "polar bear",
+      "data-encoded-term": "polar%20bear",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "3321",
+        "cn5",
+        "1"
+      ]
+    },
+    "at zoo": {
+      "data-frequency": "274",
+      "data-relevance": "44",
+      "data-term": "at zoo",
+      "data-encoded-term": "at%20zoo",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "274",
+        "cn5",
+        "1"
+      ]
+    },
+    "niche": {
+      "data-frequency": "14756",
+      "data-relevance": "43",
+      "data-term": "niche",
+      "data-encoded-term": "niche",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "14756",
+        "swiki",
+        "1"
+      ]
+    },
+    "grizzly bear": {
+      "data-frequency": "1440",
+      "data-relevance": "42",
+      "data-term": "grizzly bear",
+      "data-encoded-term": "grizzly%20bear",
+      "data-term-stats": [
+        "1",
+        "0.0",
+        "0.000",
+        "1440",
+        "cn5",
+        "1"
+      ]
+    },
+    "black bear": {
+      "data-frequency": "2906",
+      "data-relevance": "41",
+      "data-term": "black bear",
+      "data-encoded-term": "black%20bear",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "2906",
+        "cn5",
+        "1"
+      ]
+    },
+    "mammary gland": {
+      "data-frequency": "458",
+      "data-relevance": "40",
+      "data-term": "mammary gland",
+      "data-encoded-term": "mammary%20gland",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "458",
+        "cn5",
+        "1"
+      ]
+    },
+    "field mouse": {
+      "data-frequency": "659",
+      "data-relevance": "39",
+      "data-term": "field mouse",
+      "data-encoded-term": "field%20mouse",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "659",
+        "cn5",
+        "1"
+      ]
+    },
+    "she cat": {
+      "data-frequency": "48",
+      "data-relevance": "38",
+      "data-term": "she cat",
+      "data-encoded-term": "she%20cat",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "guinea pig": {
+      "data-frequency": "1853",
+      "data-relevance": "37",
+      "data-term": "guinea pig",
+      "data-encoded-term": "guinea%20pig",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1853",
+        "cn5",
+        "1"
+      ]
+    },
+    "fin whale": {
+      "data-frequency": "417",
+      "data-relevance": "36",
+      "data-term": "fin whale",
+      "data-encoded-term": "fin%20whale",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "417",
+        "cn5",
+        "1"
+      ]
+    },
+    "big cat": {
+      "data-frequency": "956",
+      "data-relevance": "35",
+      "data-term": "big cat",
+      "data-encoded-term": "big%20cat",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "956",
+        "cn5",
+        "1"
+      ]
+    },
+    "spider monkey": {
+      "data-frequency": "431",
+      "data-relevance": "34",
+      "data-term": "spider monkey",
+      "data-encoded-term": "spider%20monkey",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "431",
+        "cn5",
+        "1"
+      ]
+    },
+    "in forest": {
+      "data-frequency": "6330",
+      "data-relevance": "33",
+      "data-term": "in forest",
+      "data-encoded-term": "in%20forest",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "6330",
+        "cn5",
+        "1"
+      ]
+    },
+    "pet store": {
+      "data-frequency": "458",
+      "data-relevance": "32",
+      "data-term": "pet store",
+      "data-encoded-term": "pet%20store",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "458",
+        "cn5",
+        "1"
+      ]
+    },
+    "hole in grind": {
+      "data-frequency": "-1",
+      "data-relevance": "31",
+      "data-term": "hole in grind",
+      "data-encoded-term": "hole%20in%20grind",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "stable fly": {
+      "data-frequency": "-1",
+      "data-relevance": "30",
+      "data-term": "stable fly",
+      "data-encoded-term": "stable%20fly",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "-1",
+        "cn5",
+        "1"
+      ]
+    },
+    "cervical cancer": {
+      "data-frequency": "1068",
+      "data-relevance": "29",
+      "data-term": "cervical cancer",
+      "data-encoded-term": "cervical%20cancer",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "1068",
+        "cn5",
+        "1"
+      ]
+    },
+    "she bear": {
+      "data-frequency": "105",
+      "data-relevance": "28",
+      "data-term": "she bear",
+      "data-encoded-term": "she%20bear",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "105",
+        "cn5",
+        "1"
+      ]
+    },
+    "african elephant": {
+      "data-frequency": "531",
+      "data-relevance": "27",
+      "data-term": "african elephant",
+      "data-encoded-term": "african%20elephant",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "531",
+        "cn5",
+        "1"
+      ]
+    },
+    "squirrel monkey": {
+      "data-frequency": "282",
+      "data-relevance": "26",
+      "data-term": "squirrel monkey",
+      "data-encoded-term": "squirrel%20monkey",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "282",
+        "cn5",
+        "1"
+      ]
+    },
+    "predatory animal": {
+      "data-frequency": "48",
+      "data-relevance": "25",
+      "data-term": "predatory animal",
+      "data-encoded-term": "predatory%20animal",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "48",
+        "cn5",
+        "1"
+      ]
+    },
+    "new world monkey": {
+      "data-frequency": "215",
+      "data-relevance": "24",
+      "data-term": "new world monkey",
+      "data-encoded-term": "new%20world%20monkey",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "215",
+        "cn5",
+        "1"
+      ]
+    },
+    "rain forest": {
+      "data-frequency": "3170",
+      "data-relevance": "23",
+      "data-term": "rain forest",
+      "data-encoded-term": "rain%20forest",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "3170",
+        "cn5",
+        "1"
+      ]
+    },
+    "mole cricket": {
+      "data-frequency": "129",
+      "data-relevance": "22",
+      "data-term": "mole cricket",
+      "data-encoded-term": "mole%20cricket",
+      "data-term-stats": [
+        "1",
+        "-0.0",
+        "0.000",
+        "129",
+        "cn5",
+        "1"
+      ]
+    },
+    "bull moose": {
+      "data-frequency": "1846",
+      "data-relevance": "21",
+      "data-term": "bull moose",
+      "data-encoded-term": "bull%20moose",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1846",
+        "ol",
+        "1"
+      ]
+    },
+    "whitetail deer": {
+      "data-frequency": "227",
+      "data-relevance": "20",
+      "data-term": "whitetail deer",
+      "data-encoded-term": "whitetail%20deer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "227",
+        "ol",
+        "1"
+      ]
+    },
+    "tom turkey": {
+      "data-frequency": "71",
+      "data-relevance": "19",
+      "data-term": "tom turkey",
+      "data-encoded-term": "tom%20turkey",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "71",
+        "ol",
+        "1"
+      ]
+    },
+    "mule deer": {
+      "data-frequency": "1354",
+      "data-relevance": "18",
+      "data-term": "mule deer",
+      "data-encoded-term": "mule%20deer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1354",
+        "ol",
+        "1"
+      ]
+    },
+    "mountain lion": {
+      "data-frequency": "1044",
+      "data-relevance": "17",
+      "data-term": "mountain lion",
+      "data-encoded-term": "mountain%20lion",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "1044",
+        "ol",
+        "1"
+      ]
+    },
+    "hungarian partridge": {
+      "data-frequency": "513",
+      "data-relevance": "16",
+      "data-term": "hungarian partridge",
+      "data-encoded-term": "hungarian%20partridge",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "513",
+        "ol",
+        "1"
+      ]
+    },
+    "sandhill crane": {
+      "data-frequency": "350",
+      "data-relevance": "15",
+      "data-term": "sandhill crane",
+      "data-encoded-term": "sandhill%20crane",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "350",
+        "ol",
+        "1"
+      ]
+    },
+    "deer hunter": {
+      "data-frequency": "545",
+      "data-relevance": "14",
+      "data-term": "deer hunter",
+      "data-encoded-term": "deer%20hunter",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "545",
+        "ol",
+        "1"
+      ]
+    },
+    "fallow deer": {
+      "data-frequency": "901",
+      "data-relevance": "13",
+      "data-term": "fallow deer",
+      "data-encoded-term": "fallow%20deer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "901",
+        "ol",
+        "1"
+      ]
+    },
+    "deer hunting": {
+      "data-frequency": "496",
+      "data-relevance": "12",
+      "data-term": "deer hunting",
+      "data-encoded-term": "deer%20hunting",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "496",
+        "ol",
+        "1"
+      ]
+    },
+    "trumpeter swan": {
+      "data-frequency": "203",
+      "data-relevance": "11",
+      "data-term": "trumpeter swan",
+      "data-encoded-term": "trumpeter%20swan",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "203",
+        "ol",
+        "1"
+      ]
+    },
+    "ruffed grouse": {
+      "data-frequency": "435",
+      "data-relevance": "10",
+      "data-term": "ruffed grouse",
+      "data-encoded-term": "ruffed%20grouse",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "435",
+        "ol",
+        "1"
+      ]
+    },
+    "blacktail deer": {
+      "data-frequency": "45",
+      "data-relevance": "9",
+      "data-term": "blacktail deer",
+      "data-encoded-term": "blacktail%20deer",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "45",
+        "ol",
+        "1"
+      ]
+    },
+    "mourning dove": {
+      "data-frequency": "483",
+      "data-relevance": "8",
+      "data-term": "mourning dove",
+      "data-encoded-term": "mourning%20dove",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "483",
+        "ol",
+        "1"
+      ]
+    },
+    "wolf pup": {
+      "data-frequency": "46",
+      "data-relevance": "7",
+      "data-term": "wolf pup",
+      "data-encoded-term": "wolf%20pup",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "46",
+        "ol",
+        "1"
+      ]
+    },
+    "snowy owl": {
+      "data-frequency": "412",
+      "data-relevance": "6",
+      "data-term": "snowy owl",
+      "data-encoded-term": "snowy%20owl",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "412",
+        "ol",
+        "1"
+      ]
+    },
+    "snowshoe hare": {
+      "data-frequency": "381",
+      "data-relevance": "5",
+      "data-term": "snowshoe hare",
+      "data-encoded-term": "snowshoe%20hare",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "381",
+        "ol",
+        "1"
+      ]
+    },
+    "summer tanager": {
+      "data-frequency": "149",
+      "data-relevance": "4",
+      "data-term": "summer tanager",
+      "data-encoded-term": "summer%20tanager",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "149",
+        "ol",
+        "1"
+      ]
+    },
+    "bobwhite quail": {
+      "data-frequency": "171",
+      "data-relevance": "3",
+      "data-term": "bobwhite quail",
+      "data-encoded-term": "bobwhite%20quail",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "171",
+        "ol",
+        "1"
+      ]
+    },
+    "great horned owl": {
+      "data-frequency": "449",
+      "data-relevance": "2",
+      "data-term": "great horned owl",
+      "data-encoded-term": "great%20horned%20owl",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "449",
+        "ol",
+        "1"
+      ]
+    },
+    "gray fox": {
+      "data-frequency": "826",
+      "data-relevance": "1",
+      "data-term": "gray fox",
+      "data-encoded-term": "gray%20fox",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "826",
+        "ol",
+        "1"
+      ]
+    },
+    "cottontail rabbit": {
+      "data-frequency": "144",
+      "data-relevance": "0",
+      "data-term": "cottontail rabbit",
+      "data-encoded-term": "cottontail%20rabbit",
+      "data-term-stats": [
+        "1",
+        "-0.1",
+        "0.000",
+        "144",
+        "ol",
+        "1"
+      ]
+    }
+  },
+  "related_ngsl": {},
+  "related_awl_economics": {},
+  "related_awl_computer_science_s": {},
+  "related_awl_computer_science": {},
+  "irregular_words": {},
+  "plurals": {},
+  "gerunds": {},
+  "wooordhunt": {
+    "similar_words": [],
+    "word_forms": [
+      "doers"
+    ],
+    "examples": [
+      {
+        "en": "I'm more of a thinker than a doer.",
+        "ru": "Я больше теоретик, чем практик."
+      },
+      {
+        "en": "There are too many thinkers and not enough doers in this office.",
+        "ru": "В этой организации слишком много мыслителей и слишком мало исполнителей."
+      },
+      {
+        "en": "Dole is a doer, not a talker.",
+        "ru": "Он человек дела, не болтает попусту."
+      }
+    ]
+  },
+  "custom_words": [],
+  "important_word": {
+    "word_forms": [
+      "doers"
+    ],
+    "synonyms": [
+      "actor"
+    ],
+    "antonyms": [
+      "thinker"
+    ],
+    "similar_terms": [],
+    "gerunds": [],
+    "irregular_words": [],
+    "relatedwords": [
+      "do",
+      "thinker",
+      "dreamer",
+      "agent",
+      "execute",
+      "giver",
+      "disturber",
+      "subject",
+      "talker",
+      "doership",
+      "unifier",
+      "pragmatist",
+      "doers",
+      "placental",
+      "mammal",
+      "actor",
+      "enemy",
+      "antelope",
+      "doerless",
+      "perform"
+    ]
+  }
+}
